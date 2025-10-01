@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Data directories
+lexibank/
+output/
+*_parts/
+
+# Large data files
+*.parquet
+*.bib
+
+# Logs
+*.log
+merge_log.txt
+merge_run.log
+
+# Temporary files
+.checkpoint.json
+*.tmp
+*_old.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CSV files (large datasets)
+datasets.csv
