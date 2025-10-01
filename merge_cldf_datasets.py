@@ -779,6 +779,13 @@ def process_dataset(dataset: str, lexibank_dir: Path) -> Tuple[pd.DataFrame, pd.
     languages = ensure_columns(languages, LANGUAGES_COLUMNS)
     parameters = ensure_columns(parameters, PARAMETERS_COLUMNS)
 
+    # Sort forms by Parameter_ID, Language_ID, Local_ID, ID
+    forms = forms.sort_values(
+        by=['Parameter_ID', 'Language_ID', 'Local_ID', 'ID'],
+        ascending=[True, True, True, True],
+        na_position='last'
+    ).reset_index(drop=True)
+
     # Load BibTeX sources
     bibtex_path = dataset_path / 'sources.bib'
     bibtex_content = load_bibtex(bibtex_path)
@@ -1095,17 +1102,12 @@ def main():
     logger.info("Generating validation report...")
     validation_report = validator.generate_report()
 
-    # Write small tables (metadata, references) and other outputs
+    # Write small tables (metadata) and other outputs
     if not args.dry_run:
-        # Write metadata and references (small tables)
-        logger.info("Writing metadata and references...")
+        # Write metadata
+        logger.info("Writing metadata...")
         pd.DataFrame(validator.all_metadata).to_csv(
             output_dir / 'metadata.csv',
-            index=False,
-            encoding='utf-8'
-        )
-        pd.DataFrame(validator.all_references).to_csv(
-            output_dir / 'references.csv',
             index=False,
             encoding='utf-8'
         )
