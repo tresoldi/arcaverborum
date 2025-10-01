@@ -1,0 +1,96 @@
+# Release Notes - Version {{ version }}
+
+**Release Date:** {{ release_date }}
+**Archive:** arcaverborum_{{ version }}.zip
+
+## Dataset Statistics
+
+- **Total lexical forms:** {{ forms_count | format_number }}
+- **Languages:** {{ languages_count | format_number }}
+- **Semantic parameters:** {{ parameters_count | format_number }}
+- **Source datasets:** 149
+- **Datasets with cognates:** {{ cognates_datasets }}
+
+## Data Quality Metrics
+
+- **Glottolog coverage:** {{ glottolog_coverage }}%
+- **Concepticon coverage:** {{ concepticon_coverage }}%
+- **Forms with cognate judgments:** {{ cognate_coverage }}%
+- **Forms with phonemic segmentation:** {{ segments_coverage }}%
+- **Forms with alignments:** {{ alignment_coverage }}%
+
+## Reference System Versions
+
+**Glottolog:**
+{% for version, count in glottolog_version_dist.items() %}
+- {{ version }}: {{ count }} datasets
+{% endfor %}
+
+**Concepticon:**
+{% for version, count in concepticon_version_dist.items() %}
+- {{ version }}: {{ count }} datasets
+{% endfor %}
+
+**CLTS:**
+{% for version, count in clts_version_dist.items() %}
+- {{ version }}: {{ count }} datasets
+{% endfor %}
+
+## Changes in This Release
+
+{% if is_first_release %}
+- Initial public release
+- Aggregated data from 149 Lexibank datasets
+- Implemented denormalization with metadata joins
+- Complete cognate aggregation from forms.csv and cognates.csv
+- Validated referential integrity across all tables
+{% else %}
+- Updated source datasets from Lexibank
+{{ changes }}
+{% endif %}
+
+## Known Issues
+
+{% if known_issues %}
+{{ known_issues }}
+{% else %}
+None known at time of release.
+{% endif %}
+
+## File Checksums (SHA256)
+
+```
+{{ checksums.forms_csv }}  forms.csv
+{{ checksums.languages_csv }}  languages.csv
+{{ checksums.parameters_csv }}  parameters.csv
+{{ checksums.metadata_csv }}  metadata.csv
+{{ checksums.references_csv }}  references.csv
+{{ checksums.sources_bib }}  sources.bib
+{{ checksums.validation_report_json }}  validation_report.json
+```
+
+## Archive Contents
+
+```
+arcaverborum_{{ version }}/
+├── forms.csv ({{ file_sizes.forms_csv }})
+├── languages.csv ({{ file_sizes.languages_csv }})
+├── parameters.csv ({{ file_sizes.parameters_csv }})
+├── metadata.csv ({{ file_sizes.metadata_csv }})
+├── references.csv ({{ file_sizes.references_csv }})
+├── sources.bib ({{ file_sizes.sources_bib }})
+├── validation_report.json ({{ file_sizes.validation_report_json }})
+├── DATASET_DESCRIPTION.md
+└── RELEASE_NOTES.md (this file)
+```
+
+{% if next_release %}
+## Next Release
+
+Expected: {{ next_release }} (tentative)
+{% endif %}
+
+---
+
+For questions or issues, please open an issue at:
+https://github.com/tresoldi/arcaverborum/issues

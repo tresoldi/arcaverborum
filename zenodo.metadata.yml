@@ -1,0 +1,58 @@
+title: 'Arca Verborum: A Global Lexical Database for Computational Historical Linguistics'
+version: '20251001'
+upload_type: dataset
+description: 'Arca Verborum provides denormalized, analysis-ready comparative wordlist
+  data
+
+  from 149 Lexibank datasets, containing over 2.9 million lexical forms. The data
+
+  has been aggregated, harmonized, and structured for immediate use in computational
+
+  historical linguistics research and education.
+
+
+  This dataset addresses accessibility challenges in working with CLDF-formatted
+
+  data by providing pre-joined metadata, aggregated cognate judgments, and global
+
+  unique identifiers. It is designed for rapid method development, student projects,
+
+  and exploratory analysis while preserving all essential linguistic information.
+
+
+  Key features:
+
+  - Single CSV files with denormalized metadata
+
+  - Aggregated cognate judgments from 81 datasets
+
+  - Glottolog and Concepticon integration
+
+  - Comprehensive bibliographic references
+
+  - Quality validation reports
+
+
+  See DATASET_DESCRIPTION.md in the archive for complete documentation.
+
+  '
+creators:
+- name: Tresoldi, Tiago
+  affiliation: Department of Linguistics and Philology, Uppsala University
+  orcid: 0000-0002-2863-1467
+keywords:
+- linguistics
+- computational linguistics
+- historical linguistics
+- comparative linguistics
+- lexical database
+- wordlist
+- cognates
+- CLDF
+- Lexibank
+license: CC-BY-4.0
+communities:
+- identifier: linguistics
+files:
+- path: releases/arcaverborum_20251001.zip
+  name: arcaverborum_20251001.zip

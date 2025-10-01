@@ -1,0 +1,200 @@
+# Arca Verborum: A Global Lexical Database for Computational Historical Linguistics
+
+**Version:** {{ version }}
+**Release Date:** {{ release_date }}
+**Author:** Tiago Tresoldi (ORCID: 0000-0002-2863-1467)
+**Affiliation:** Department of Linguistics and Philology, Uppsala University
+**Repository:** https://github.com/tresoldi/arcaverborum
+**License:** CC-BY-4.0
+**DOI:** {{ doi }}
+
+## Abstract
+
+Arca Verborum provides a denormalized, analysis-ready version of comparative wordlist data from 149 Lexibank datasets, totaling over {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages. The data has been aggregated, harmonized, and structured to enable immediate use in computational historical linguistics research and education.
+
+## Motivation
+
+The Lexibank initiative provides exceptional comparative wordlist data in the Cross-Linguistic Data Format (CLDF). However, in my experience teaching computational historical linguistics and supervising student research projects, CLDF's normalized structure—while excellent for data integrity and interoperability—presents significant barriers to rapid method development and exploratory analysis. Students and researchers often need to:
+
+- Spend considerable time understanding CLDF structure and dependencies
+- Write substantial preprocessing code before beginning analysis
+- Navigate foreign key relationships across multiple CSV files
+- Handle missing values and optional columns across heterogeneous datasets
+
+This dataset builds on my earlier work with GLED (Global Lexical Database; Tresoldi 2023, DOI: 10.5334/johd.96), which addressed similar accessibility challenges. Arca Verborum extends this approach to the comprehensive Lexibank collection, providing:
+
+1. **Immediate accessibility:** Single CSV files with all necessary metadata pre-joined
+2. **Educational utility:** Students can begin analysis in minutes, not hours
+3. **Rapid prototyping:** Researchers can test computational methods without complex data pipeline setup
+4. **Tool compatibility:** Direct import into pandas, R, VisiData, Excel, and other common tools
+
+This is not a replacement for CLDF—rather, it complements the Lexibank ecosystem by lowering the barrier to entry for computational work while preserving all essential information.
+
+## Data Sources
+
+This release aggregates data from 149 Lexibank repositories (CLDF v1.0 Wordlist format), processed on {{ processing_date }}:
+
+- **Total lexical forms:** {{ forms_count | format_number }}
+- **Languages represented:** {{ languages_count | format_number }}
+- **Semantic concepts:** {{ parameters_count | format_number }}
+- **Datasets with cognate judgments:** {{ cognates_datasets }}/149
+
+All source datasets are available at https://github.com/lexibank/ and use:
+- Glottolog {{ glottolog_versions }} for language identification
+- Concepticon {{ concepticon_versions }} for concept standardization
+- CLTS {{ clts_versions }} for transcription systems
+
+## Methodology
+
+### Data Processing Pipeline
+
+1. **Dataset Discovery:** All Lexibank repositories cloned and validated
+2. **ID Prefixing:** Each dataset's IDs prefixed with dataset name to ensure global uniqueness (e.g., `aaleykusunda_KusundaGM`)
+3. **Cognate Aggregation:** Cognate judgments from both `forms.csv` and `cognates.csv` merged and aggregated
+4. **Metadata Denormalization:** Language metadata (Glottocode, family) and concept metadata (Concepticon ID, gloss) joined directly into forms table
+5. **BibTeX Integration:** All bibliographic sources merged with prefixed citation keys
+6. **Quality Validation:** Comprehensive validation of referential integrity, coverage, and completeness
+
+Full technical specification available in the repository's `MERGER_SPECIFICATION.md`.
+
+### Key Processing Decisions
+
+- **No data loss:** All forms from source datasets preserved
+- **Conservative merging:** Multiple cognate alignments result in multiple rows (preserving all information)
+- **Partial cognacy support:** Morpheme-level cognate judgments retained in specialized columns
+- **NULL distinction:** Empty values, missing columns, and NA values tracked separately
+
+## Output Files
+
+### forms.csv ({{ forms_count | format_number }}+ rows, 19 columns)
+
+Primary data table containing lexical forms with denormalized metadata:
+
+**Core identifiers:**
+- `ID` - Unique form identifier (prefixed)
+- `Dataset` - Source Lexibank dataset
+- `Language_ID`, `Parameter_ID` - Foreign keys (prefixed)
+
+**Language metadata (denormalized):**
+- `Glottocode`, `Glottolog_Name` - From Glottolog
+- Language family, geographic coordinates (in languages.csv)
+
+**Concept metadata (denormalized):**
+- `Concepticon_ID`, `Concepticon_Gloss` - Standardized concepts
+
+**Lexical data:**
+- `Form` - Normalized lexical form
+- `Value` - Original form from source
+- `Segments` - Space-separated phoneme transcription
+
+**Cognacy information:**
+- `Cognacy` - Semicolon-separated cognate set IDs (aggregated)
+- `Alignment` - Phonetic alignment
+- `Cognate_Detection_Method` - Methodology used
+- `Doubt` - Uncertain cognate judgment flag
+
+**Additional fields:**
+- `Loan` - Borrowing status (boolean)
+- `Comment`, `Source` - Notes and citations
+- `Morpheme_Index`, `Segment_Slice` - Partial cognacy support
+
+### languages.csv ({{ languages_count | format_number }} rows, 12 columns)
+
+Language metadata with geographic and genealogical information:
+- Glottolog integration (codes, names, families)
+- Geographic coordinates
+- ISO 639-3 codes
+- Macro-areas
+
+### parameters.csv ({{ parameters_count | format_number }} rows, 5 columns)
+
+Semantic concepts with Concepticon linking:
+- Concept names per dataset
+- Standardized Concepticon IDs and glosses
+
+### metadata.csv (149 rows, 12 columns)
+
+Dataset-level metadata:
+- Titles, citations, licenses
+- Repository versions
+- Form/language/parameter counts per dataset
+
+### references.csv (149 rows, 4 columns)
+
+Reference system versions per dataset:
+- Glottolog versions
+- Concepticon versions
+- CLTS versions
+
+### sources.bib ({{ sources_entries | format_number }} entries)
+
+Merged BibTeX bibliography with prefixed citation keys, preserving all bibliographic references from source datasets.
+
+### validation_report.json
+
+Comprehensive quality metrics:
+- Completeness statistics per dataset
+- Coverage percentages (Glottolog, Concepticon, cognates, segments)
+- Referential integrity validation
+- Version distribution analysis
+- Partial cognacy statistics
+
+## Data Quality
+
+- **Glottolog coverage:** {{ glottolog_coverage }}%
+- **Concepticon coverage:** {{ concepticon_coverage }}%
+- **Forms with cognate data:** {{ cognate_coverage }}%
+- **Forms with segmentation:** {{ segments_coverage }}%
+- **Orphaned language references:** {{ orphan_languages }}
+- **Orphaned parameter references:** {{ orphan_parameters }}
+
+## Use Cases
+
+This dataset is designed for:
+
+1. **Teaching computational historical linguistics:** Students can immediately begin working with real-world data
+2. **Method development:** Rapid prototyping of cognate detection, phylogenetic inference, and sound change algorithms
+3. **Statistical analysis:** Direct import into R/Python for regression, visualization, and modeling
+4. **Machine learning applications:** Training data for NLP and computational linguistics models
+5. **Exploratory analysis:** Quick inspection and filtering with tools like VisiData, Excel, or pandas
+
+## Citation
+
+If you use this dataset, please cite both:
+
+**This dataset:**
+```
+Tresoldi, Tiago. ({{ year }}). Arca Verborum: A Global Lexical Database for
+Computational Historical Linguistics (Version {{ version }}) [Data set].
+Zenodo. https://doi.org/{{ doi }}
+```
+
+**The original Lexibank project:**
+```
+List, J.-M., Forkel, R., Greenhill, S. J., Rzymski, C., Englisch, J., &
+Gray, R. D. (2022). Lexibank: A public repository of standardized wordlists
+with computed phonological and lexical features. Scientific Data, 9(1), 316.
+https://doi.org/10.1038/s41597-022-01432-0
+```
+
+## Related Work
+
+- **GLED (Global Lexical Database):** Tresoldi, T. (2023). GLED 1.0: A global lexical database for computational historical linguistics. Journal of Open Humanities Data, 9, 7. https://doi.org/10.5334/johd.96
+- **Lexibank:** https://lexibank.clld.org/
+- **CLDF:** https://cldf.clld.org/
+
+## License
+
+This dataset is released under CC-BY-4.0, consistent with the Lexibank data sources. Individual dataset licenses are documented in metadata.csv.
+
+## Contact
+
+Tiago Tresoldi
+Department of Linguistics and Philology
+Uppsala University
+tiago.tresoldi@lingfil.uu.se
+https://github.com/tresoldi/arcaverborum
+
+## Version History
+
+See RELEASE_NOTES.md for version-specific changes.
