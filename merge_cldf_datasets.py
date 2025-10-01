@@ -40,13 +40,12 @@ FORMS_COLUMNS = [
     'Concepticon_ID', 'Concepticon_Gloss', 'Morpheme_Index', 'Segment_Slice'
 ]
 
-# Columns to output to forms.csv (excludes Local_ID, Profile, Concepticon_ID)
+# Columns to output to forms.csv (excludes Local_ID, Profile, Concepticon_ID, Graphemes)
 FORMS_OUTPUT_COLUMNS = [
-    'ID', 'Dataset', 'Language_ID', 'Parameter_ID',
-    'Value', 'Form', 'Segments', 'Comment', 'Source', 'Loan',
-    'Graphemes', 'Cognacy', 'Doubt', 'Cognate_Detection_Method',
-    'Cognate_Source', 'Alignment', 'Glottocode', 'Glottolog_Name',
-    'Concepticon_Gloss', 'Morpheme_Index', 'Segment_Slice'
+    'ID', 'Dataset', 'Language_ID', 'Glottocode', 'Glottolog_Name',
+    'Parameter_ID', 'Concepticon_Gloss', 'Value', 'Form', 'Segments',
+    'Cognacy', 'Alignment', 'Loan', 'Morpheme_Index', 'Segment_Slice',
+    'Doubt', 'Comment', 'Source', 'Cognate_Detection_Method', 'Cognate_Source'
 ]
 
 LANGUAGES_COLUMNS = [
