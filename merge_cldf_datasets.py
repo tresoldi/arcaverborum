@@ -3,7 +3,7 @@
 """
 CLDF Dataset Merger
 
-Merges Lexibank CLDF datasets into unified Parquet files.
+Merges Lexibank CLDF datasets into unified CSV files.
 See MERGER_SPECIFICATION.md for details.
 
 Usage:
@@ -27,23 +27,11 @@ except ImportError:
     print("Error: bibtexparser not installed. Run: pip install bibtexparser>=1.4.0")
     sys.exit(1)
 
-try:
-    import fastparquet
-except ImportError:
-    print("Error: fastparquet not installed. Run: pip install fastparquet>=2023.10.0")
-    sys.exit(1)
-
-try:
-    import psutil
-except ImportError:
-    print("Error: psutil not installed. Run: pip install psutil")
-    sys.exit(1)
-
 # === CONFIGURATION ===
 LEXIBANK_DIR = Path('lexibank')
 OUTPUT_DIR = Path('output')
 
-# Expected columns for forms.parquet (ensures consistent schema)
+# Expected columns for forms.csv (ensures consistent schema)
 FORMS_COLUMNS = [
     'ID', 'Dataset', 'Local_ID', 'Language_ID', 'Parameter_ID',
     'Value', 'Form', 'Segments', 'Comment', 'Source', 'Loan',
@@ -160,72 +148,42 @@ def track_column_presence(df: pd.DataFrame, original_columns: List[str]) -> Dict
     return {col: col in original_columns for col in df.columns}
 
 
-def append_to_parquet(filepath: Path, df: pd.DataFrame, dataset_name: str):
+def append_to_csv(filepath: Path, df: pd.DataFrame, is_first_write: bool):
     """
-    Append dataframe to Parquet by writing separate partition files.
-    Uses manual partitioning to avoid fastparquet append schema issues.
+    Append dataframe to CSV file.
 
-    @param filepath: Path to output Parquet file
+    @param filepath: Path to output CSV file
     @param df: Dataframe to write
-    @param dataset_name: Dataset name for partition filename
+    @param is_first_write: If True, write header; otherwise append without header
     """
-    # Create parts directory
-    parts_dir = filepath.parent / f"{filepath.stem}_parts"
-    parts_dir.mkdir(exist_ok=True)
-
-    # Write this dataset as a separate partition file
-    part_file = parts_dir / f"part_{dataset_name}.parquet"
-    df.to_parquet(part_file, compression='snappy', index=False)
+    mode = 'w' if is_first_write else 'a'
+    header = is_first_write
+    df.to_csv(filepath, mode=mode, header=header, index=False, encoding='utf-8')
 
 
-def log_memory_usage():
-    """Log current memory usage in MB."""
-    process = psutil.Process(os.getpid())
-    mem_mb = process.memory_info().rss / 1024 / 1024
-    logger.debug(f"Memory usage: {mem_mb:.1f} MB")
-
-
-def merge_parquet_partitions(output_file: Path):
+def initialize_output_files(output_dir: Path):
     """
-    Merge partition files into a single Parquet file.
+    Initialize output directory and remove old files/partitions.
 
-    @param output_file: Target merged Parquet file path
+    @param output_dir: Output directory path
     """
-    parts_dir = output_file.parent / f"{output_file.stem}_parts"
+    # Create output directory
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    if not parts_dir.exists():
-        logger.warning(f"No partitions directory found for {output_file.name}")
-        return
+    # Remove old CSV files
+    for csv_file in ['forms.csv', 'languages.csv', 'parameters.csv']:
+        csv_path = output_dir / csv_file
+        if csv_path.exists():
+            csv_path.unlink()
+            logger.debug(f"Removed old file: {csv_path}")
 
-    # Get all partition files
-    part_files = sorted(parts_dir.glob("part_*.parquet"))
-
-    if not part_files:
-        logger.warning(f"No partition files found in {parts_dir}")
-        return
-
-    logger.info(f"Merging {len(part_files)} partitions into {output_file.name}...")
-
-    # Read and concatenate all partitions
-    dfs = []
-    for part_file in part_files:
-        df = pd.read_parquet(part_file)
-        dfs.append(df)
-
-    # Concatenate all at once
-    merged = pd.concat(dfs, ignore_index=True)
-
-    # Write merged file
-    merged.to_parquet(output_file, compression='snappy', index=False)
-
-    logger.info(f"Merged {len(merged)} rows into {output_file.name}")
-
-    # Clean up partition files and directory
-    for part_file in part_files:
-        part_file.unlink()
-    parts_dir.rmdir()
-
-    logger.debug(f"Cleaned up partition files from {parts_dir}")
+    # Remove old partition directories (from previous parquet-based runs)
+    for parts_dir_name in ['forms_parts', 'languages_parts', 'parameters_parts']:
+        parts_dir = output_dir / parts_dir_name
+        if parts_dir.exists():
+            import shutil
+            shutil.rmtree(parts_dir)
+            logger.debug(f"Removed old partition directory: {parts_dir}")
 
 
 class ValidationAccumulator:
@@ -502,8 +460,7 @@ def load_dataset_forms(dataset_path: Path, dataset: str) -> Tuple[pd.DataFrame, 
 
     # Convert Loan to boolean
     if 'Loan' in df.columns:
-        df['Loan'] = df['Loan'].replace({'true': True, 'false': False, '': pd.NA})
-        df['Loan'] = pd.to_numeric(df['Loan'], errors='coerce').astype('boolean')
+        df['Loan'] = df['Loan'].map({'true': True, 'false': False}).astype('boolean')
 
     # Replace empty strings with pd.NA for appropriate columns
     for col in df.columns:
@@ -594,8 +551,7 @@ def load_dataset_cognates(dataset_path: Path, dataset: str) -> Optional[pd.DataF
 
     # Convert Doubt to boolean
     if 'Doubt' in df.columns:
-        df['Doubt'] = df['Doubt'].replace({'true': True, 'false': False, '': pd.NA})
-        df['Doubt'] = pd.to_numeric(df['Doubt'], errors='coerce').astype('boolean')
+        df['Doubt'] = df['Doubt'].map({'true': True, 'false': False}).astype('boolean')
 
     # Replace empty strings with pd.NA
     for col in df.columns:
@@ -982,28 +938,7 @@ def generate_validation_report(
 
 # === OUTPUT ===
 
-def write_parquet_files(
-    forms: pd.DataFrame,
-    languages: pd.DataFrame,
-    parameters: pd.DataFrame,
-    references: pd.DataFrame,
-    metadata: pd.DataFrame,
-    output_dir: Path
-):
-    """Write all Parquet files."""
-    logger.info("Writing Parquet files...")
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    forms.to_parquet(output_dir / 'forms.parquet', compression='snappy', index=False)
-    languages.to_parquet(output_dir / 'languages.parquet', compression='snappy', index=False)
-    parameters.to_parquet(output_dir / 'parameters.parquet', compression='snappy', index=False)
-    references.to_parquet(output_dir / 'references.parquet', compression='snappy', index=False)
-    metadata.to_parquet(output_dir / 'metadata.parquet', compression='snappy', index=False)
-
-    logger.info(f"Wrote {len(forms)} forms to {output_dir / 'forms.parquet'}")
-    logger.info(f"Wrote {len(languages)} languages to {output_dir / 'languages.parquet'}")
-    logger.info(f"Wrote {len(parameters)} parameters to {output_dir / 'parameters.parquet'}")
+# Removed write_parquet_files - no longer needed (streaming CSV appends instead)
 
 
 def write_bibtex_file(all_bibtex: List[str], output_dir: Path):
@@ -1032,25 +967,15 @@ def write_validation_report(report: dict, output_dir: Path):
     logger.info(f"Wrote validation report to {output_dir / 'validation_report.json'}")
 
 
-def write_requirements_txt(output_dir: Path):
-    """Write requirements.txt."""
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    with open(output_dir / 'requirements.txt', 'w', encoding='utf-8') as f:
-        f.write('pandas>=2.0.0\n')
-        f.write('pyarrow>=14.0.0\n')
-        f.write('visidata>=3.0\n')
-        f.write('bibtexparser>=1.4.0\n')
-
-    logger.info(f"Wrote {output_dir / 'requirements.txt'}")
+# Removed write_requirements_txt - requirements.txt is in repo root
 
 
 # === MAIN ===
 
 def main():
-    """Main entry point - streaming version."""
+    """Main entry point - streaming CSV version."""
     parser = argparse.ArgumentParser(
-        description='Merge CLDF datasets into unified Parquet files (streaming mode)',
+        description='Merge CLDF datasets into unified CSV files (streaming mode)',
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
@@ -1068,7 +993,7 @@ def main():
     parser.add_argument(
         '--verbose',
         action='store_true',
-        help='Enable verbose logging (includes memory monitoring)'
+        help='Enable verbose logging'
     )
     parser.add_argument(
         '--dry-run',
@@ -1099,11 +1024,11 @@ def main():
         sys.exit(1)
 
     logger.info(f"Found {len(datasets)} datasets")
-    logger.info("Using streaming mode - low memory footprint")
+    logger.info("Using streaming CSV mode - low memory footprint")
 
-    # Create output directory
+    # Initialize output directory (remove old files)
     if not args.dry_run:
-        output_dir.mkdir(parents=True, exist_ok=True)
+        initialize_output_files(output_dir)
 
     # Initialize validation accumulator
     validator = ValidationAccumulator()
@@ -1124,19 +1049,16 @@ def main():
             validator.update(dataset, forms, languages, parameters, metadata,
                            references, bibtex, column_tracking)
 
-            # Write to partition files immediately (unless dry-run)
+            # Append to CSV files immediately (unless dry-run)
             if not args.dry_run:
-                append_to_parquet(output_dir / 'forms.parquet', forms, dataset)
-                append_to_parquet(output_dir / 'languages.parquet', languages, dataset)
-                append_to_parquet(output_dir / 'parameters.parquet', parameters, dataset)
+                is_first = (i == 1)
+                append_to_csv(output_dir / 'forms.csv', forms, is_first)
+                append_to_csv(output_dir / 'languages.csv', languages, is_first)
+                append_to_csv(output_dir / 'parameters.csv', parameters, is_first)
 
             # Free memory immediately
             del forms, languages, parameters
             gc.collect()
-
-            # Log memory usage if verbose
-            if args.verbose:
-                log_memory_usage()
 
         except Exception as e:
             logger.error(f"Failed to process {dataset}: {e}")
@@ -1157,24 +1079,19 @@ def main():
     logger.info("Generating validation report...")
     validation_report = validator.generate_report()
 
-    # Merge partition files into final Parquet files
+    # Write small tables (metadata, references) and other outputs
     if not args.dry_run:
-        logger.info("Merging partition files...")
-        merge_parquet_partitions(output_dir / 'forms.parquet')
-        merge_parquet_partitions(output_dir / 'languages.parquet')
-        merge_parquet_partitions(output_dir / 'parameters.parquet')
-
         # Write metadata and references (small tables)
         logger.info("Writing metadata and references...")
-        pd.DataFrame(validator.all_metadata).to_parquet(
-            output_dir / 'metadata.parquet',
-            compression='snappy',
-            index=False
+        pd.DataFrame(validator.all_metadata).to_csv(
+            output_dir / 'metadata.csv',
+            index=False,
+            encoding='utf-8'
         )
-        pd.DataFrame(validator.all_references).to_parquet(
-            output_dir / 'references.parquet',
-            compression='snappy',
-            index=False
+        pd.DataFrame(validator.all_references).to_csv(
+            output_dir / 'references.csv',
+            index=False,
+            encoding='utf-8'
         )
 
         # Write BibTeX
@@ -1182,9 +1099,6 @@ def main():
 
         # Write validation report
         write_validation_report(validation_report, output_dir)
-
-        # Write requirements.txt
-        write_requirements_txt(output_dir)
 
         logger.info(f"All outputs written to {output_dir}")
     else:
