@@ -31,13 +31,22 @@ except ImportError:
 LEXIBANK_DIR = Path('lexibank')
 OUTPUT_DIR = Path('output')
 
-# Expected columns for forms.csv (ensures consistent schema)
+# Expected columns for forms (during processing - includes all columns)
 FORMS_COLUMNS = [
     'ID', 'Dataset', 'Local_ID', 'Language_ID', 'Parameter_ID',
     'Value', 'Form', 'Segments', 'Comment', 'Source', 'Loan',
     'Graphemes', 'Profile', 'Cognacy', 'Doubt', 'Cognate_Detection_Method',
     'Cognate_Source', 'Alignment', 'Glottocode', 'Glottolog_Name',
     'Concepticon_ID', 'Concepticon_Gloss', 'Morpheme_Index', 'Segment_Slice'
+]
+
+# Columns to output to forms.csv (excludes Local_ID, Profile, Concepticon_ID)
+FORMS_OUTPUT_COLUMNS = [
+    'ID', 'Dataset', 'Language_ID', 'Parameter_ID',
+    'Value', 'Form', 'Segments', 'Comment', 'Source', 'Loan',
+    'Graphemes', 'Cognacy', 'Doubt', 'Cognate_Detection_Method',
+    'Cognate_Source', 'Alignment', 'Glottocode', 'Glottolog_Name',
+    'Concepticon_Gloss', 'Morpheme_Index', 'Segment_Slice'
 ]
 
 LANGUAGES_COLUMNS = [
@@ -153,14 +162,19 @@ def track_column_presence(df: pd.DataFrame, original_columns: List[str]) -> Dict
     return {col: col in original_columns for col in df.columns}
 
 
-def append_to_csv(filepath: Path, df: pd.DataFrame, is_first_write: bool):
+def append_to_csv(filepath: Path, df: pd.DataFrame, is_first_write: bool, output_columns: Optional[List[str]] = None):
     """
     Append dataframe to CSV file.
 
     @param filepath: Path to output CSV file
     @param df: Dataframe to write
     @param is_first_write: If True, write header; otherwise append without header
+    @param output_columns: Optional list of columns to write (filters df before writing)
     """
+    # Filter to output columns if specified
+    if output_columns:
+        df = df[output_columns]
+
     mode = 'w' if is_first_write else 'a'
     header = is_first_write
     df.to_csv(filepath, mode=mode, header=header, index=False, encoding='utf-8')
@@ -1055,7 +1069,7 @@ def main():
             # Append to CSV files immediately (unless dry-run)
             if not args.dry_run:
                 is_first = (i == 1)
-                append_to_csv(output_dir / 'forms.csv', forms, is_first)
+                append_to_csv(output_dir / 'forms.csv', forms, is_first, FORMS_OUTPUT_COLUMNS)
                 append_to_csv(output_dir / 'languages.csv', languages, is_first)
                 append_to_csv(output_dir / 'parameters.csv', parameters, is_first)
 
