@@ -86,7 +86,12 @@ def prefix_bibtex_file(bibtex_content: str, dataset: str) -> str:
     @return: BibTeX content with prefixed keys
     """
     try:
-        bib_db = bibtexparser.loads(bibtex_content)
+        # Configure parser to accept all entry types (including non-standard ones)
+        parser = bibtexparser.bparser.BibTexParser()
+        parser.ignore_nonstandard_types = False  # Accept thesis, webpage, online, software, etc.
+        parser.homogenize_fields = False  # Preserve original field names
+
+        bib_db = bibtexparser.loads(bibtex_content, parser=parser)
 
         # Prefix all entry IDs
         for entry in bib_db.entries:
@@ -720,8 +725,6 @@ def process_dataset(dataset: str, lexibank_dir: Path) -> Tuple[pd.DataFrame, pd.
     @param lexibank_dir: Path to lexibank directory
     @return: Tuple of (forms, languages, parameters, metadata, references, bibtex, column_tracking)
     """
-    logger.info(f"Processing dataset: {dataset}")
-
     dataset_path = lexibank_dir / dataset / 'cldf'
 
     # Load metadata
