@@ -115,12 +115,14 @@ def process_repository(name: str, url: str, lexibank_dir: Path) -> Tuple[bool, s
         return (success, 'cloned' if success else 'failed')
 
 
-def read_datasets(csv_path: Path) -> list:
+def read_datasets(csv_path: Path, core_only: bool = False) -> list:
     """
     Read repository information from CSV file.
 
     @param csv_path: Path to datasets.csv
     @type csv_path: Path
+    @param core_only: If True, only return core datasets
+    @type core_only: bool
     @return: List of repository dictionaries
     @rtype: list
     """
@@ -132,11 +134,19 @@ def read_datasets(csv_path: Path) -> list:
             for row in reader:
                 name = row.get('NAME', '').strip()
                 url = row.get('URL', '').strip()
+                is_core = row.get('CORE', '').strip() == 'TRUE'
+
+                # Filter by core if requested
+                if core_only and not is_core:
+                    continue
 
                 if name and url:
-                    repositories.append({'name': name, 'url': url})
+                    repositories.append({'name': name, 'url': url, 'is_core': is_core})
 
-        logging.info(f"Found {len(repositories)} repositories in {csv_path}")
+        if core_only:
+            logging.info(f"Found {len(repositories)} core repositories in {csv_path}")
+        else:
+            logging.info(f"Found {len(repositories)} repositories in {csv_path}")
         return repositories
 
     except FileNotFoundError:
@@ -177,15 +187,23 @@ def main() -> None:
         action='store_true',
         help='Show what would be done without actually cloning/updating'
     )
+    parser.add_argument(
+        '--core-only',
+        action='store_true',
+        help='Clone only core datasets (9 datasets for pedagogical use)'
+    )
 
     args = parser.parse_args()
 
     setup_logging(args.verbose)
 
-    logging.info("Starting Lexibank repository synchronization")
+    if args.core_only:
+        logging.info("Starting Lexibank core repository synchronization (core-only mode)")
+    else:
+        logging.info("Starting Lexibank repository synchronization")
 
     # Read repositories from CSV
-    repositories = read_datasets(args.csv)
+    repositories = read_datasets(args.csv, core_only=args.core_only)
 
     if args.dry_run:
         logging.info("DRY RUN MODE - No actual changes will be made")

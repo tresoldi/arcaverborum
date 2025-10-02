@@ -5,10 +5,14 @@ This document describes how to create and publish new releases of Arca Verborum 
 ## Overview
 
 The release system consists of:
-- `prepare_release.py` - Automates release preparation (ZIP creation, documentation generation)
+- `prepare_release.py` - Automates release preparation (creates both full and core ZIP archives)
 - `zenodo_publish.py` - Handles Zenodo API interactions
 - `templates/` - Jinja2 templates for documentation
 - `zenodo.metadata.yml` - Zenodo metadata configuration
+
+**Note:** Starting from this version, each release includes TWO archives:
+- `arcaverborum_YYYYMMDD.zip` - Full collection (all 149 datasets)
+- `arcaverborum_core_YYYYMMDD.zip` - Core collection (9 curated datasets)
 
 ## Prerequisites
 
@@ -28,17 +32,33 @@ The release system consists of:
 
 ## Release Process
 
-### Step 1: Run the Merger
+### Step 1: Clone Datasets
 
-Ensure you have fresh output data:
+Clone the Lexibank datasets (use `--core-only` for faster setup if testing):
+
+```bash
+# Clone all datasets (required for full release)
+python clone_lexibank.py
+
+# Or clone only core datasets (for testing)
+python clone_lexibank.py --core-only
+```
+
+### Step 2: Run the Merger
+
+Build both collections:
 
 ```bash
 python merge_cldf_datasets.py
 ```
 
-This creates the `output/` directory with all CSV files.
+This creates:
+- `output/full/` - Full collection (all datasets)
+- `output/core/` - Core collection (9 curated datasets)
 
-### Step 2: Prepare the Release
+Both directories contain complete CSV files, validation reports, and bibliography.
+
+### Step 3: Prepare the Release
 
 Run the release preparation script:
 
@@ -57,28 +77,32 @@ python prepare_release.py --version 20251001 --git-tag
 ```
 
 This script will:
-1. Load statistics from `output/validation_report.json`
-2. Generate `DATASET_DESCRIPTION.md` and `RELEASE_NOTES.md` from templates
-3. Create `releases/arcaverborum_YYYYMMDD.zip` with:
-   - All CSV files from `output/`
+1. Load statistics from both `output/full/validation_report.json` and `output/core/validation_report.json`
+2. Generate collection-specific `DATASET_DESCRIPTION.md` and `RELEASE_NOTES.md` from templates
+3. Create TWO archives:
+   - `releases/arcaverborum_YYYYMMDD.zip` (full collection)
+   - `releases/arcaverborum_core_YYYYMMDD.zip` (core collection)
+4. Each archive contains:
+   - All CSV files from respective collection
    - `sources.bib`
    - `validation_report.json`
-   - Generated documentation files
-4. Compute SHA256 checksums
-5. Update `zenodo.metadata.yml` with version and file path
-6. Save state to `.zenodo_state.json`
+   - Collection-specific documentation files
+5. Compute SHA256 checksums for both archives
+6. Update `zenodo.metadata.yml` with version and both file paths
+7. Save state to `.zenodo_state.json`
 
-### Step 3: Review the Release
+### Step 4: Review the Release
 
-Inspect the generated archive:
+Inspect the generated archives:
 
 ```bash
 # List archive contents
-unzip -l releases/arcaverborum_20251001.zip
+unzip -l releases/arcaverborum_20251001.zip          # Full collection
+unzip -l releases/arcaverborum_core_20251001.zip    # Core collection
 
 # View generated documentation
 unzip -p releases/arcaverborum_20251001.zip arcaverborum_20251001/DATASET_DESCRIPTION.md | less
-unzip -p releases/arcaverborum_20251001.zip arcaverborum_20251001/RELEASE_NOTES.md | less
+unzip -p releases/arcaverborum_core_20251001.zip arcaverborum_core_20251001/DATASET_DESCRIPTION.md | less
 ```
 
 Preview the Zenodo metadata:
@@ -87,7 +111,7 @@ Preview the Zenodo metadata:
 ZENODO_TOKEN=dummy python zenodo_publish.py --show
 ```
 
-### Step 4: Test on Zenodo Sandbox
+### Step 5: Test on Zenodo Sandbox
 
 Always test on sandbox first:
 
@@ -97,13 +121,15 @@ python zenodo_publish.py --sandbox
 
 This will:
 1. Create a draft deposition (or new version if concept DOI exists)
-2. Upload the ZIP file
+2. Upload BOTH ZIP files (full and core)
 3. Set metadata
 4. Publish to sandbox
 
 Verify the sandbox deposit at: https://sandbox.zenodo.org/
 
-### Step 5: Publish to Production Zenodo
+**Note:** Both archives will be uploaded to the same Zenodo record. Users can choose which to download.
+
+### Step 6: Publish to Production Zenodo
 
 Once everything looks good:
 
@@ -113,11 +139,11 @@ python zenodo_publish.py
 
 This will:
 1. Check if this is a new release or update to existing concept
-2. Create deposition and upload file
+2. Create deposition and upload BOTH files
 3. Publish and receive DOI
 4. Update `.zenodo_state.json` with DOI information
 
-### Step 6: Post-Release
+### Step 7: Post-Release
 
 After successful publication:
 
@@ -154,22 +180,32 @@ arcaverborum/
 ├── .gitignore                    # Excludes output/, releases/, lexibank/
 ├── .zenodo_state.json           # Release tracking (committed to git)
 ├── zenodo.metadata.yml          # Zenodo configuration (committed to git)
-├── merge_cldf_datasets.py       # Main data processing script
-├── prepare_release.py           # Release preparation automation
+├── datasets.csv                 # Dataset list with CORE column
+├── clone_lexibank.py            # Clone Lexibank repositories
+├── merge_cldf_datasets.py       # Main data processing script (builds both collections)
+├── prepare_release.py           # Release preparation automation (creates both archives)
 ├── zenodo_publish.py            # Zenodo API client
 ├── templates/                   # Documentation templates
 │   ├── DATASET_DESCRIPTION.md.j2
 │   └── RELEASE_NOTES.md.j2
 ├── output/                      # Generated data (ignored by git)
-│   ├── forms.csv
-│   ├── languages.csv
-│   ├── parameters.csv
-│   ├── metadata.csv
-│   ├── references.csv
-│   ├── sources.bib
-│   └── validation_report.json
+│   ├── full/                    # Full collection (all 149 datasets)
+│   │   ├── forms.csv
+│   │   ├── languages.csv
+│   │   ├── parameters.csv
+│   │   ├── metadata.csv
+│   │   ├── sources.bib
+│   │   └── validation_report.json
+│   └── core/                    # Core collection (9 curated datasets)
+│       ├── forms.csv
+│       ├── languages.csv
+│       ├── parameters.csv
+│       ├── metadata.csv
+│       ├── sources.bib
+│       └── validation_report.json
 └── releases/                    # Release archives (ignored by git)
-    └── arcaverborum_YYYYMMDD.zip
+    ├── arcaverborum_YYYYMMDD.zip          # Full collection archive
+    └── arcaverborum_core_YYYYMMDD.zip     # Core collection archive
 ```
 
 ## Troubleshooting
@@ -183,8 +219,9 @@ python prepare_release.py --version 20251001 --force
 
 ### Missing files in output/
 
-Run the merger first:
+Clone datasets and run the merger:
 ```bash
+python clone_lexibank.py
 python merge_cldf_datasets.py
 ```
 

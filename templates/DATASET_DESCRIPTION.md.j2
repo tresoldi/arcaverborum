@@ -1,6 +1,6 @@
-# Arca Verborum: A Global Lexical Database for Computational Historical Linguistics
+# Arca Verborum{% if collection == "core" %} Core Collection{% endif %}: A Global Lexical Database for Computational Historical Linguistics
 
-**Version:** {{ version }}
+**Version:** {{ version }}{% if collection == "core" %} (Core Collection){% endif %}
 **Release Date:** {{ release_date }}
 **Author:** Tiago Tresoldi (ORCID: 0000-0002-2863-1467)
 **Affiliation:** Department of Linguistics and Philology, Uppsala University
@@ -10,7 +10,21 @@
 
 ## Abstract
 
-Arca Verborum provides a denormalized, analysis-ready version of comparative wordlist data from 149 Lexibank datasets, totaling over {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages. The data has been aggregated, harmonized, and structured to enable immediate use in computational historical linguistics research and education.
+{% if collection == "core" -%}
+Arca Verborum Core Collection provides a curated subset of the full Arca Verborum dataset, featuring {{ datasets_count }} high-quality Lexibank datasets selected for pedagogical use and rapid prototyping. This collection contains {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages, providing global geographic coverage with expert-curated cognate sets and comprehensive Concepticon mapping.
+
+The core collection is designed for:
+- **Teaching:** Smaller dataset size for faster processing in classroom settings
+- **Learning:** All entries include expert cognate judgments for learning computational methods
+- **Prototyping:** Excellent Concepticon/Swadesh coverage for cross-linguistic comparability
+- **Geographic diversity:** Balanced representation across all six macroareas
+
+For the complete dataset with all 149 Lexibank repositories, see the full collection.
+{% else -%}
+Arca Verborum provides a denormalized, analysis-ready version of comparative wordlist data from {{ datasets_count }} Lexibank datasets, totaling over {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages. The data has been aggregated, harmonized, and structured to enable immediate use in computational historical linguistics research and education.
+
+A curated core collection ({{ datasets_count }} datasets) is also available for pedagogical use and rapid prototyping.
+{% endif %}
 
 ## Motivation
 
@@ -32,12 +46,39 @@ This is not a replacement for CLDF—rather, it complements the Lexibank ecosyst
 
 ## Data Sources
 
-This release aggregates data from 149 Lexibank repositories (CLDF v1.0 Wordlist format), processed on {{ processing_date }}:
+{% if collection == "core" -%}
+This release aggregates data from {{ datasets_count }} curated Lexibank repositories (CLDF v1.0 Wordlist format), processed on {{ processing_date }}:
 
 - **Total lexical forms:** {{ forms_count | format_number }}
 - **Languages represented:** {{ languages_count | format_number }}
 - **Semantic concepts:** {{ parameters_count | format_number }}
-- **Datasets with cognate judgments:** {{ cognates_datasets }}/149
+- **Datasets with cognate judgments:** {{ cognates_datasets }}/{{ datasets_count }}
+
+### Core Collection Datasets
+
+The core collection includes these {{ datasets_count }} datasets, selected for:
+- Global geographic coverage (all 6 macroareas represented)
+- High Concepticon/Swadesh-100 coverage (≥75% where possible)
+- Expert-curated cognate sets
+- Minimal language overlap
+
+1. **robinsonap** - Papunesia (Austronesian and Papuan)
+2. **bowernpny** - Australia (Pama-Nyungan)
+3. **gravinachadic** - Africa (Chadic)
+4. **grollemundbantu** - Africa (Bantu)
+5. **peirosaustroasiatic** - Eurasia (Austroasiatic)
+6. **iecor** - Eurasia (Indo-European)
+7. **bdpa** - Eurasia (Sino-Tibetan and others, with alignments)
+8. **tuled** - South America (Tupían, with alignments)
+9. **utoaztecan** - North America (Uto-Aztecan)
+{% else -%}
+This release aggregates data from {{ datasets_count }} Lexibank repositories (CLDF v1.0 Wordlist format), processed on {{ processing_date }}:
+
+- **Total lexical forms:** {{ forms_count | format_number }}
+- **Languages represented:** {{ languages_count | format_number }}
+- **Semantic concepts:** {{ parameters_count | format_number }}
+- **Datasets with cognate judgments:** {{ cognates_datasets }}/{{ datasets_count }}
+{% endif %}
 
 All source datasets are available at https://github.com/lexibank/ and use:
 - Glottolog {{ glottolog_versions }} for language identification
@@ -112,14 +153,14 @@ Semantic concepts with Concepticon linking:
 - Concept names per dataset
 - Standardized Concepticon IDs and glosses
 
-### metadata.csv (149 rows, 12 columns)
+### metadata.csv ({{ datasets_count }} rows, 12 columns)
 
 Dataset-level metadata:
 - Titles, citations, licenses
 - Repository versions
 - Form/language/parameter counts per dataset
 
-### references.csv (149 rows, 4 columns)
+### references.csv ({{ datasets_count }} rows, 4 columns)
 
 Reference system versions per dataset:
 - Glottolog versions
@@ -164,7 +205,7 @@ If you use this dataset, please cite both:
 
 **This dataset:**
 ```
-Tresoldi, Tiago. ({{ year }}). Arca Verborum: A Global Lexical Database for
+Tresoldi, Tiago. ({{ year }}). Arca Verborum{% if collection == "core" %} Core Collection{% endif %}: A Global Lexical Database for
 Computational Historical Linguistics (Version {{ version }}) [Data set].
 Zenodo. https://doi.org/{{ doi }}
 ```

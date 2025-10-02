@@ -30,6 +30,9 @@ except ImportError:
 # === CONFIGURATION ===
 LEXIBANK_DIR = Path('lexibank')
 OUTPUT_DIR = Path('output')
+OUTPUT_DIR_FULL = OUTPUT_DIR / 'full'
+OUTPUT_DIR_CORE = OUTPUT_DIR / 'core'
+DATASETS_CSV = Path('datasets.csv')
 
 # Expected columns for forms (during processing - includes all columns)
 FORMS_COLUMNS = [
@@ -68,6 +71,34 @@ logger = logging.getLogger(__name__)
 
 
 # === HELPER FUNCTIONS ===
+
+def load_core_datasets() -> set:
+    """
+    Load list of core datasets from datasets.csv.
+
+    @return: Set of core dataset names
+    @rtype: set
+    """
+    core_datasets = set()
+
+    if not DATASETS_CSV.exists():
+        logger.warning(f"datasets.csv not found at {DATASETS_CSV}, no core datasets will be filtered")
+        return core_datasets
+
+    try:
+        import csv
+        with open(DATASETS_CSV, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                if row.get('CORE', '').strip() == 'TRUE':
+                    core_datasets.add(row['NAME'].strip())
+
+        logger.info(f"Loaded {len(core_datasets)} core datasets from {DATASETS_CSV}")
+    except Exception as e:
+        logger.warning(f"Failed to load core datasets from {DATASETS_CSV}: {e}")
+
+    return core_datasets
+
 
 def prefix_bibtex_keys(source_str: str, dataset: str) -> str:
     """
@@ -179,29 +210,31 @@ def append_to_csv(filepath: Path, df: pd.DataFrame, is_first_write: bool, output
     df.to_csv(filepath, mode=mode, header=header, index=False, encoding='utf-8')
 
 
-def initialize_output_files(output_dir: Path):
+def initialize_output_files(output_dir_full: Path, output_dir_core: Path):
     """
-    Initialize output directory and remove old files/partitions.
+    Initialize output directories and remove old files/partitions.
 
-    @param output_dir: Output directory path
+    @param output_dir_full: Full collection output directory
+    @param output_dir_core: Core collection output directory
     """
-    # Create output directory
-    output_dir.mkdir(parents=True, exist_ok=True)
+    for output_dir in [output_dir_full, output_dir_core]:
+        # Create output directory
+        output_dir.mkdir(parents=True, exist_ok=True)
 
-    # Remove old CSV files
-    for csv_file in ['forms.csv', 'languages.csv', 'parameters.csv']:
-        csv_path = output_dir / csv_file
-        if csv_path.exists():
-            csv_path.unlink()
-            logger.debug(f"Removed old file: {csv_path}")
+        # Remove old CSV files
+        for csv_file in ['forms.csv', 'languages.csv', 'parameters.csv']:
+            csv_path = output_dir / csv_file
+            if csv_path.exists():
+                csv_path.unlink()
+                logger.debug(f"Removed old file: {csv_path}")
 
-    # Remove old partition directories (from previous parquet-based runs)
-    for parts_dir_name in ['forms_parts', 'languages_parts', 'parameters_parts']:
-        parts_dir = output_dir / parts_dir_name
-        if parts_dir.exists():
-            import shutil
-            shutil.rmtree(parts_dir)
-            logger.debug(f"Removed old partition directory: {parts_dir}")
+        # Remove old partition directories (from previous parquet-based runs)
+        for parts_dir_name in ['forms_parts', 'languages_parts', 'parameters_parts']:
+            parts_dir = output_dir / parts_dir_name
+            if parts_dir.exists():
+                import shutil
+                shutil.rmtree(parts_dir)
+                logger.debug(f"Removed old partition directory: {parts_dir}")
 
 
 class ValidationAccumulator:
@@ -996,9 +1029,9 @@ def write_validation_report(report: dict, output_dir: Path):
 # === MAIN ===
 
 def main():
-    """Main entry point - streaming CSV version."""
+    """Main entry point - builds both full and core collections."""
     parser = argparse.ArgumentParser(
-        description='Merge CLDF datasets into unified CSV files (streaming mode)',
+        description='Merge CLDF datasets into unified CSV files (builds both full and core collections)',
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
@@ -1030,7 +1063,12 @@ def main():
         logger.setLevel(logging.DEBUG)
 
     lexibank_dir = args.input
-    output_dir = args.output
+    output_dir_full = args.output / 'full'
+    output_dir_core = args.output / 'core'
+
+    # Load core datasets list
+    core_datasets = load_core_datasets()
+    logger.info(f"Core collection will include {len(core_datasets)} datasets")
 
     # Discover datasets
     if not lexibank_dir.exists():
@@ -1047,17 +1085,20 @@ def main():
         sys.exit(1)
 
     logger.info(f"Found {len(datasets)} datasets")
-    logger.info("Using streaming CSV mode - low memory footprint")
+    logger.info("Building both full and core collections")
 
-    # Initialize output directory (remove old files)
+    # Initialize output directories (remove old files)
     if not args.dry_run:
-        initialize_output_files(output_dir)
+        initialize_output_files(output_dir_full, output_dir_core)
 
-    # Initialize validation accumulator
-    validator = ValidationAccumulator()
+    # Initialize validation accumulators (one for each collection)
+    validator_full = ValidationAccumulator()
+    validator_core = ValidationAccumulator()
 
     # Process datasets one at a time with streaming append
     skipped = []
+    core_count = 0
+    full_count = 0
 
     for i, dataset in enumerate(sorted(datasets), 1):
         try:
@@ -1068,16 +1109,31 @@ def main():
                 dataset, lexibank_dir
             )
 
-            # Update validation statistics (before we lose the dataframes)
-            validator.update(dataset, forms, languages, parameters, metadata,
-                           references, bibtex, column_tracking)
+            is_core = dataset in core_datasets
 
-            # Append to CSV files immediately (unless dry-run)
+            # Update validation statistics for full collection (all datasets)
+            validator_full.update(dataset, forms, languages, parameters, metadata,
+                                references, bibtex, column_tracking)
+            full_count += 1
+
+            # Append to full collection CSV files
             if not args.dry_run:
-                is_first = (i == 1)
-                append_to_csv(output_dir / 'forms.csv', forms, is_first, FORMS_OUTPUT_COLUMNS)
-                append_to_csv(output_dir / 'languages.csv', languages, is_first)
-                append_to_csv(output_dir / 'parameters.csv', parameters, is_first)
+                is_first_full = (full_count == 1)
+                append_to_csv(output_dir_full / 'forms.csv', forms, is_first_full, FORMS_OUTPUT_COLUMNS)
+                append_to_csv(output_dir_full / 'languages.csv', languages, is_first_full)
+                append_to_csv(output_dir_full / 'parameters.csv', parameters, is_first_full)
+
+            # If core dataset, also append to core collection
+            if is_core:
+                validator_core.update(dataset, forms, languages, parameters, metadata,
+                                    references, bibtex, column_tracking)
+                core_count += 1
+
+                if not args.dry_run:
+                    is_first_core = (core_count == 1)
+                    append_to_csv(output_dir_core / 'forms.csv', forms, is_first_core, FORMS_OUTPUT_COLUMNS)
+                    append_to_csv(output_dir_core / 'languages.csv', languages, is_first_core)
+                    append_to_csv(output_dir_core / 'parameters.csv', parameters, is_first_core)
 
             # Free memory immediately
             del forms, languages, parameters
@@ -1093,35 +1149,58 @@ def main():
     if skipped:
         logger.warning(f"Skipped {len(skipped)} datasets due to errors: {', '.join(skipped)}")
 
-    logger.info(f"Processed {validator.datasets_processed} datasets")
-    logger.info(f"Total forms: {validator.total_forms}")
-    logger.info(f"Total languages: {validator.total_languages}")
-    logger.info(f"Total parameters: {validator.total_parameters}")
+    # Summary for both collections
+    logger.info("=" * 60)
+    logger.info("FULL COLLECTION SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"Datasets: {validator_full.datasets_processed}")
+    logger.info(f"Forms: {validator_full.total_forms:,}")
+    logger.info(f"Languages: {validator_full.total_languages:,}")
+    logger.info(f"Parameters: {validator_full.total_parameters:,}")
 
-    # Generate validation report
-    logger.info("Generating validation report...")
-    validation_report = validator.generate_report()
+    logger.info("")
+    logger.info("=" * 60)
+    logger.info("CORE COLLECTION SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"Datasets: {validator_core.datasets_processed}")
+    logger.info(f"Forms: {validator_core.total_forms:,}")
+    logger.info(f"Languages: {validator_core.total_languages:,}")
+    logger.info(f"Parameters: {validator_core.total_parameters:,}")
 
-    # Write small tables (metadata) and other outputs
+    # Generate validation reports for both collections
+    logger.info("")
+    logger.info("Generating validation reports...")
+    validation_report_full = validator_full.generate_report()
+    validation_report_core = validator_core.generate_report()
+
+    # Write outputs for both collections
     if not args.dry_run:
-        # Write metadata
-        logger.info("Writing metadata...")
-        pd.DataFrame(validator.all_metadata).to_csv(
-            output_dir / 'metadata.csv',
+        # Full collection outputs
+        logger.info("Writing full collection metadata and reports...")
+        pd.DataFrame(validator_full.all_metadata).to_csv(
+            output_dir_full / 'metadata.csv',
             index=False,
             encoding='utf-8'
         )
+        write_bibtex_file(validator_full.all_bibtex, output_dir_full)
+        write_validation_report(validation_report_full, output_dir_full)
 
-        # Write BibTeX
-        write_bibtex_file(validator.all_bibtex, output_dir)
+        # Core collection outputs
+        logger.info("Writing core collection metadata and reports...")
+        pd.DataFrame(validator_core.all_metadata).to_csv(
+            output_dir_core / 'metadata.csv',
+            index=False,
+            encoding='utf-8'
+        )
+        write_bibtex_file(validator_core.all_bibtex, output_dir_core)
+        write_validation_report(validation_report_core, output_dir_core)
 
-        # Write validation report
-        write_validation_report(validation_report, output_dir)
-
-        logger.info(f"All outputs written to {output_dir}")
+        logger.info(f"Full collection written to {output_dir_full}")
+        logger.info(f"Core collection written to {output_dir_core}")
     else:
         logger.info("Dry run mode - no files written")
-        logger.info(f"Validation report summary: {validation_report['summary']}")
+        logger.info(f"Full collection summary: {validation_report_full['summary']}")
+        logger.info(f"Core collection summary: {validation_report_core['summary']}")
 
     logger.info("Done!")
 

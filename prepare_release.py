@@ -37,6 +37,8 @@ except ImportError:
 
 # === CONFIGURATION ===
 OUTPUT_DIR = Path("output")
+OUTPUT_DIR_FULL = OUTPUT_DIR / "full"
+OUTPUT_DIR_CORE = OUTPUT_DIR / "core"
 RELEASES_DIR = Path("releases")
 TEMPLATES_DIR = Path("templates")
 STATE_FILE = Path(".zenodo_state.json")
@@ -112,19 +114,25 @@ def save_state(state: dict):
     STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True), encoding="utf-8")
 
 
-def load_validation_report() -> dict:
-    """Load validation report from output directory."""
-    report_path = OUTPUT_DIR / "validation_report.json"
+def load_validation_report(output_dir: Path) -> dict:
+    """
+    Load validation report from output directory.
+
+    @param output_dir: Output directory path
+    @return: Parsed validation report
+    """
+    report_path = output_dir / "validation_report.json"
     if not report_path.exists():
         die(f"Validation report not found: {report_path}")
     return json.loads(report_path.read_text(encoding="utf-8"))
 
 
-def extract_statistics(validation_report: dict) -> dict:
+def extract_statistics(validation_report: dict, output_dir: Path) -> dict:
     """
     Extract statistics from validation report for templates.
 
     @param validation_report: Parsed validation_report.json
+    @param output_dir: Output directory path
     @return: Dictionary of statistics
     """
     summary = validation_report.get("summary", {})
@@ -133,13 +141,14 @@ def extract_statistics(validation_report: dict) -> dict:
     versions = validation_report.get("version_distribution", {})
 
     # Count sources.bib entries
-    sources_path = OUTPUT_DIR / "sources.bib"
+    sources_path = output_dir / "sources.bib"
     sources_count = 0
     if sources_path.exists():
         content = sources_path.read_text(encoding="utf-8")
         sources_count = content.count("@")
 
     return {
+        "datasets_count": summary.get("total_datasets", 0),
         "forms_count": summary.get("total_forms", 0),
         "languages_count": summary.get("total_languages", 0),
         "parameters_count": summary.get("total_parameters", 0),
@@ -238,18 +247,20 @@ def render_template(template_path: Path, context: dict) -> str:
     return template.render(**context)
 
 
-def create_archive(version: str, output_files: list[Path], doc_files: dict[str, str]) -> Path:
+def create_archive(version: str, output_files: list[Path], doc_files: dict[str, str],
+                   collection_suffix: str = "") -> Path:
     """
     Create ZIP archive with all release files.
 
     @param version: Release version string
     @param output_files: List of paths to output files
     @param doc_files: Dictionary of filename -> content for generated docs
+    @param collection_suffix: Suffix for archive name (e.g., "_core" or empty for full)
     @return: Path to created ZIP file
     """
-    archive_name = f"arcaverborum_{version}.zip"
+    archive_name = f"arcaverborum{collection_suffix}_{version}.zip"
     archive_path = RELEASES_DIR / archive_name
-    base_dir = f"arcaverborum_{version}"
+    base_dir = f"arcaverborum{collection_suffix}_{version}"
 
     print(f"Creating archive: {archive_path}")
 
@@ -272,12 +283,12 @@ def create_archive(version: str, output_files: list[Path], doc_files: dict[str, 
     return archive_path
 
 
-def update_metadata_file(version: str, archive_path: Path):
+def update_metadata_file(version: str, archive_paths: list[Path]):
     """
-    Update zenodo.metadata.yml with new version and file path.
+    Update zenodo.metadata.yml with new version and file paths.
 
     @param version: Release version
-    @param archive_path: Path to release archive
+    @param archive_paths: List of paths to release archives (full and core)
     """
     if not METADATA_FILE.exists():
         die(f"Metadata file not found: {METADATA_FILE}")
@@ -288,11 +299,14 @@ def update_metadata_file(version: str, archive_path: Path):
     # Update version
     metadata["version"] = version
 
-    # Update files section
-    metadata["files"] = [{
-        "path": str(archive_path),
-        "name": archive_path.name
-    }]
+    # Update files section with both archives
+    metadata["files"] = [
+        {
+            "path": str(path),
+            "name": path.name
+        }
+        for path in archive_paths
+    ]
 
     # Write back
     with open(METADATA_FILE, "w", encoding="utf-8") as f:
@@ -341,9 +355,9 @@ def create_git_tag(version: str):
 # === MAIN ===
 
 def main():
-    """Main entry point."""
+    """Main entry point - creates both full and core archives."""
     parser = argparse.ArgumentParser(
-        description="Prepare Arca Verborum release for Zenodo",
+        description="Prepare Arca Verborum release for Zenodo (creates both full and core archives)",
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
@@ -381,19 +395,22 @@ def main():
         version = datetime.datetime.now().strftime("%Y%m%d")
 
     print(f"Preparing release version: {version}")
+    print("Building both full and core archives...\n")
 
-    # Check if output directory exists
-    if not OUTPUT_DIR.exists():
-        die(f"Output directory not found: {OUTPUT_DIR}. Run merge_cldf_datasets.py first.")
+    # Check if both output directories exist
+    if not OUTPUT_DIR_FULL.exists():
+        die(f"Full collection directory not found: {OUTPUT_DIR_FULL}. Run merge_cldf_datasets.py first.")
+    if not OUTPUT_DIR_CORE.exists():
+        die(f"Core collection directory not found: {OUTPUT_DIR_CORE}. Run merge_cldf_datasets.py first.")
 
-    # Verify all required files exist
-    missing_files = []
-    for filename in RELEASE_FILES:
-        if not (OUTPUT_DIR / filename).exists():
-            missing_files.append(filename)
-
-    if missing_files:
-        die(f"Missing required files in {OUTPUT_DIR}: {', '.join(missing_files)}")
+    # Verify all required files exist in both directories
+    for output_dir, name in [(OUTPUT_DIR_FULL, "full"), (OUTPUT_DIR_CORE, "core")]:
+        missing_files = []
+        for filename in RELEASE_FILES:
+            if not (output_dir / filename).exists():
+                missing_files.append(filename)
+        if missing_files:
+            die(f"Missing required files in {name} collection: {', '.join(missing_files)}")
 
     # Load state and check version
     state = load_state()
@@ -403,25 +420,30 @@ def main():
     # Create releases directory
     RELEASES_DIR.mkdir(exist_ok=True)
 
-    # Load validation report and extract statistics
-    print("Loading validation report...")
-    validation_report = load_validation_report()
-    stats = extract_statistics(validation_report)
-
-    # Prepare template context
+    # Prepare common template context
     today = datetime.datetime.now()
     processing_date = today.strftime("%Y-%m-%d")
-
-    # Check if this is first release
     is_first_release = len(state.get("releases", {})) == 0
 
-    # Compute checksums and file sizes
-    output_files = [OUTPUT_DIR / f for f in RELEASE_FILES]
-    checksums = compute_checksums(output_files)
-    file_sizes = get_file_sizes(output_files)
+    # === PROCESS FULL COLLECTION ===
+    print("=" * 70)
+    print("FULL COLLECTION")
+    print("=" * 70)
 
-    context = {
+    # Load validation report and extract statistics
+    print("Loading validation report...")
+    validation_report_full = load_validation_report(OUTPUT_DIR_FULL)
+    stats_full = extract_statistics(validation_report_full, OUTPUT_DIR_FULL)
+
+    # Compute checksums and file sizes
+    output_files_full = [OUTPUT_DIR_FULL / f for f in RELEASE_FILES]
+    checksums_full = compute_checksums(output_files_full)
+    file_sizes_full = get_file_sizes(output_files_full)
+
+    context_full = {
         "version": version,
+        "collection": "full",
+        "collection_name": "Full Collection",
         "release_date": processing_date,
         "processing_date": processing_date,
         "year": today.year,
@@ -429,47 +451,113 @@ def main():
         "is_first_release": is_first_release,
         "changes": args.changes or "",
         "known_issues": args.known_issues or "",
-        "checksums": checksums,
-        "file_sizes": file_sizes,
-        "next_release": None,  # Can be set manually
+        "checksums": checksums_full,
+        "file_sizes": file_sizes_full,
+        "next_release": None,
 
         # Format version ranges
-        "glottolog_versions": format_version_range(stats["glottolog_version_dist"]),
-        "concepticon_versions": format_version_range(stats["concepticon_version_dist"]),
-        "clts_versions": format_version_range(stats["clts_version_dist"]),
+        "glottolog_versions": format_version_range(stats_full["glottolog_version_dist"]),
+        "concepticon_versions": format_version_range(stats_full["concepticon_version_dist"]),
+        "clts_versions": format_version_range(stats_full["clts_version_dist"]),
 
-        **stats  # Include all statistics
+        **stats_full
     }
 
-    # Render documentation templates
+    # Render documentation for full collection
     print("Generating documentation...")
-    dataset_desc = render_template(
+    dataset_desc_full = render_template(
         TEMPLATES_DIR / "DATASET_DESCRIPTION.md.j2",
-        context
+        context_full
     )
-    release_notes = render_template(
+    release_notes_full = render_template(
         TEMPLATES_DIR / "RELEASE_NOTES.md.j2",
-        context
+        context_full
     )
 
-    # Create archive
+    # Create full archive
     print("Creating release archive...")
-    doc_files = {
-        "DATASET_DESCRIPTION.md": dataset_desc,
-        "RELEASE_NOTES.md": release_notes
+    doc_files_full = {
+        "DATASET_DESCRIPTION.md": dataset_desc_full,
+        "RELEASE_NOTES.md": release_notes_full
     }
-    archive_path = create_archive(version, output_files, doc_files)
+    archive_path_full = create_archive(version, output_files_full, doc_files_full, "")
 
     # Compute archive checksum
-    archive_checksum = sha256sum(archive_path)
-    archive_size = format_bytes(archive_path.stat().st_size)
+    archive_checksum_full = sha256sum(archive_path_full)
+    archive_size_full = format_bytes(archive_path_full.stat().st_size)
 
-    print(f"\nArchive created: {archive_path}")
-    print(f"  Size: {archive_size}")
-    print(f"  SHA256: {archive_checksum}")
+    print(f"\nFull archive created: {archive_path_full}")
+    print(f"  Size: {archive_size_full}")
+    print(f"  SHA256: {archive_checksum_full}")
 
-    # Update metadata file
-    update_metadata_file(version, archive_path)
+    # === PROCESS CORE COLLECTION ===
+    print("\n" + "=" * 70)
+    print("CORE COLLECTION")
+    print("=" * 70)
+
+    # Load validation report and extract statistics
+    print("Loading validation report...")
+    validation_report_core = load_validation_report(OUTPUT_DIR_CORE)
+    stats_core = extract_statistics(validation_report_core, OUTPUT_DIR_CORE)
+
+    # Compute checksums and file sizes
+    output_files_core = [OUTPUT_DIR_CORE / f for f in RELEASE_FILES]
+    checksums_core = compute_checksums(output_files_core)
+    file_sizes_core = get_file_sizes(output_files_core)
+
+    context_core = {
+        "version": version,
+        "collection": "core",
+        "collection_name": "Core Collection",
+        "release_date": processing_date,
+        "processing_date": processing_date,
+        "year": today.year,
+        "doi": "10.5281/zenodo.XXXXXXX",  # Placeholder, filled by Zenodo
+        "is_first_release": is_first_release,
+        "changes": args.changes or "",
+        "known_issues": args.known_issues or "",
+        "checksums": checksums_core,
+        "file_sizes": file_sizes_core,
+        "next_release": None,
+
+        # Format version ranges
+        "glottolog_versions": format_version_range(stats_core["glottolog_version_dist"]),
+        "concepticon_versions": format_version_range(stats_core["concepticon_version_dist"]),
+        "clts_versions": format_version_range(stats_core["clts_version_dist"]),
+
+        **stats_core
+    }
+
+    # Render documentation for core collection
+    print("Generating documentation...")
+    dataset_desc_core = render_template(
+        TEMPLATES_DIR / "DATASET_DESCRIPTION.md.j2",
+        context_core
+    )
+    release_notes_core = render_template(
+        TEMPLATES_DIR / "RELEASE_NOTES.md.j2",
+        context_core
+    )
+
+    # Create core archive
+    print("Creating release archive...")
+    doc_files_core = {
+        "DATASET_DESCRIPTION.md": dataset_desc_core,
+        "RELEASE_NOTES.md": release_notes_core
+    }
+    archive_path_core = create_archive(version, output_files_core, doc_files_core, "_core")
+
+    # Compute archive checksum
+    archive_checksum_core = sha256sum(archive_path_core)
+    archive_size_core = format_bytes(archive_path_core.stat().st_size)
+
+    print(f"\nCore archive created: {archive_path_core}")
+    print(f"  Size: {archive_size_core}")
+    print(f"  SHA256: {archive_checksum_core}")
+
+    # Update metadata file with both archives
+    print("\n" + "=" * 70)
+    update_metadata_file(version, [archive_path_full, archive_path_core])
 
     # Update state
     if "releases" not in state:
@@ -478,9 +566,18 @@ def main():
     state["last_version"] = version
     state["releases"][version] = {
         "date": processing_date,
-        "archive": str(archive_path),
-        "sha256": archive_checksum,
-        "size": archive_path.stat().st_size
+        "archives": {
+            "full": {
+                "path": str(archive_path_full),
+                "sha256": archive_checksum_full,
+                "size": archive_path_full.stat().st_size
+            },
+            "core": {
+                "path": str(archive_path_core),
+                "sha256": archive_checksum_core,
+                "size": archive_path_core.stat().st_size
+            }
+        }
     }
     save_state(state)
 
@@ -492,10 +589,15 @@ def main():
 
     # Print next steps
     print("\n" + "=" * 70)
-    print("SUCCESS! Release prepared.")
+    print("SUCCESS! Both archives prepared.")
     print("=" * 70)
+    print("\nArchives:")
+    print(f"  Full:  {archive_path_full} ({archive_size_full})")
+    print(f"  Core:  {archive_path_core} ({archive_size_core})")
     print("\nNext steps:")
-    print(f"  1. Review the archive: unzip -l {archive_path}")
+    print(f"  1. Review the archives:")
+    print(f"       unzip -l {archive_path_full}")
+    print(f"       unzip -l {archive_path_core}")
     print(f"  2. Preview Zenodo metadata: python zenodo_publish.py --show")
     print(f"  3. Test on sandbox: python zenodo_publish.py --sandbox")
     print(f"  4. Publish to Zenodo: python zenodo_publish.py")
