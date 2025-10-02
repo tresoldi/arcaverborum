@@ -1,5 +1,5 @@
 title: 'Arca Verborum: A Global Lexical Database for Computational Historical Linguistics'
-version: 20251002_test
+version: '20251002'
 upload_type: dataset
 description: 'Arca Verborum provides denormalized, analysis-ready comparative wordlist
   data
@@ -54,7 +54,9 @@ license: CC-BY-4.0
 communities:
 - identifier: linguistics
 files:
-- path: releases/arcaverborum_20251002_test.zip
-  name: arcaverborum_20251002_test.zip
-- path: releases/arcaverborum_core_20251002_test.zip
-  name: arcaverborum_core_20251002_test.zip
+- path: releases/arcaverborum.20251002.zip
+  name: arcaverborum.20251002.zip
+- path: releases/arcaverborum.20251002.core.zip
+  name: arcaverborum.20251002.core.zip
+- path: releases/arcaverborum.20251002.corecog.zip
+  name: arcaverborum.20251002.corecog.zip

@@ -1,0 +1,214 @@
+/* Uppsala University Color Scheme */
+:root {
+    --uppsala-red: #990000;
+    --uppsala-grey: #E6E6E6;
+    --text-color: #000000;
+    --bg-color: #FFFFFF;
+}
+
+/* Override Pico defaults with Uppsala colors */
+:root {
+    --primary: var(--uppsala-red);
+    --primary-hover: #7a0000;
+    --primary-focus: rgba(153, 0, 0, 0.125);
+}
+
+/* Links */
+a {
+    color: var(--uppsala-red);
+}
+
+a:hover {
+    color: #7a0000;
+}
+
+/* Buttons */
+[role="button"],
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    background-color: var(--uppsala-red);
+    border-color: var(--uppsala-red);
+}
+
+[role="button"]:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #7a0000;
+    border-color: #7a0000;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--uppsala-grey);
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.hero h1 {
+    color: var(--uppsala-red);
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.hero h2 {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Collection Cards */
+.collection-card article {
+    background-color: var(--uppsala-grey);
+    border: none;
+    margin-bottom: 1rem;
+    height: 100%;
+}
+
+.collection-card article header {
+    background-color: var(--uppsala-red);
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.collection-card article footer {
+    padding: 1rem;
+    background-color: transparent;
+    border-top: 1px solid rgba(153, 0, 0, 0.2);
+}
+
+.collection-card ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+/* Details/Summary (for code examples and citations) */
+details {
+    border: 1px solid var(--uppsala-grey);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--uppsala-red);
+}
+
+details summary:hover {
+    color: #7a0000;
+}
+
+/* Code blocks */
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid var(--uppsala-grey);
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    background-color: #f5f5f5;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: var(--uppsala-red);
+    color: white;
+}
+
+thead th {
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--uppsala-grey);
+}
+
+/* Grid spacing for collection cards */
+.grid {
+    grid-gap: 1.5rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    color: #666;
+}
+
+footer a {
+    color: var(--uppsala-red);
+}
+
+/* Navigation */
+nav {
+    border-bottom: 1px solid var(--uppsala-grey);
+    margin-bottom: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 3rem;
+}
+
+/* Ordered lists in datasets page */
+ol {
+    line-height: 1.8;
+}
+
+ol li strong {
+    color: var(--uppsala-red);
+}

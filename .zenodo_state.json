@@ -1,11 +1,31 @@
 {
-  "last_version": "20251002_test",
+  "last_version": "20251002",
   "releases": {
     "20251001": {
       "archive": "releases/arcaverborum_20251001.zip",
       "date": "2025-10-01",
       "sha256": "80161add2204f2e137cf9c3131417f45cf743dfa67da11f6f6c07cbbed386595",
       "size": 88392852
+    },
+    "20251002": {
+      "archives": {
+        "core": {
+          "path": "releases/arcaverborum.20251002.core.zip",
+          "sha256": "6226114bbf26f0453023ae53cf09890ebf16b5c6a6e960a66f825dbb0cf2da5d",
+          "size": 5987889
+        },
+        "corecog": {
+          "path": "releases/arcaverborum.20251002.corecog.zip",
+          "sha256": "c38646a3831840677a9955767b5bb2500d1aaec34b70ca0cd21c45186e0b310d",
+          "size": 4681778
+        },
+        "full": {
+          "path": "releases/arcaverborum.20251002.zip",
+          "sha256": "e36cf80d2e73d3000466d134d4ad5aeab8196b48ef3955ceb217ebe38152be48",
+          "size": 5987359
+        }
+      },
+      "date": "2025-10-02"
     },
     "20251002_test": {
       "archives": {

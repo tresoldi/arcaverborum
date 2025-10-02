@@ -357,6 +357,97 @@ def create_git_tag(version: str):
         print(f"  Tag not pushed. Push manually with: git push origin {tag_name}")
 
 
+def build_website(version: str, stats_full: dict, stats_core: dict, stats_corecog: dict):
+    """
+    Generate website from templates with latest statistics.
+
+    @param version: Release version
+    @param stats_full: Statistics dict for full collection
+    @param stats_core: Statistics dict for core collection
+    @param stats_corecog: Statistics dict for corecog collection
+    """
+    print("\n" + "=" * 70)
+    print("BUILDING WEBSITE")
+    print("=" * 70)
+
+    # Prepare context for templates
+    today = datetime.datetime.now()
+    context = {
+        # Version info
+        'version': version,
+        'release_date': today.strftime("%Y-%m-%d"),
+        'year': today.year,
+
+        # Full collection
+        'full_datasets': stats_full['datasets_count'],
+        'full_forms': stats_full['forms_count'],
+        'full_languages': stats_full['languages_count'],
+        'full_parameters': stats_full['parameters_count'],
+        'full_cognate_datasets': stats_full['cognates_datasets'],
+        'full_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
+
+        # Core collection
+        'core_datasets': stats_core['datasets_count'],
+        'core_forms': stats_core['forms_count'],
+        'core_languages': stats_core['languages_count'],
+        'core_parameters': stats_core['parameters_count'],
+        'core_cognate_datasets': stats_core['cognates_datasets'],
+        'core_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
+
+        # CORECOG collection
+        'corecog_datasets': stats_corecog['datasets_count'],
+        'corecog_forms': stats_corecog['forms_count'],
+        'corecog_languages': stats_corecog['languages_count'],
+        'corecog_parameters': stats_corecog['parameters_count'],
+        'corecog_cognate_datasets': stats_corecog['cognates_datasets'],
+        'corecog_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
+
+        # Quality metrics (from full collection)
+        'glottolog_coverage': stats_full['glottolog_coverage'],
+        'concepticon_coverage': stats_full['concepticon_coverage'],
+        'cognate_coverage': stats_full['cognate_coverage'],
+        'segments_coverage': stats_full['segments_coverage'],
+
+        # Links
+        'github_url': 'https://github.com/tresoldi/arcaverborum',
+        'github_releases': 'https://github.com/tresoldi/arcaverborum/releases',
+    }
+
+    # Set up Jinja2 environment for website templates
+    website_templates_dir = TEMPLATES_DIR / 'website'
+    env = jinja2.Environment(
+        loader=jinja2.FileSystemLoader(website_templates_dir),
+        autoescape=False,
+        trim_blocks=True,
+        lstrip_blocks=True
+    )
+
+    # Custom filters
+    env.filters["format_number"] = format_number
+
+    # Create docs directory if it doesn't exist
+    docs_dir = Path("docs")
+    docs_dir.mkdir(exist_ok=True)
+
+    # Render and write index.html
+    print("Rendering index.html...")
+    index_template = env.get_template("index.html.j2")
+    index_html = index_template.render(**context)
+    (docs_dir / "index.html").write_text(index_html, encoding="utf-8")
+    print(f"  Wrote docs/index.html")
+
+    # Render and write datasets.html
+    print("Rendering datasets.html...")
+    datasets_template = env.get_template("datasets.html.j2")
+    datasets_html = datasets_template.render(**context)
+    (docs_dir / "datasets.html").write_text(datasets_html, encoding="utf-8")
+    print(f"  Wrote docs/datasets.html")
+
+    print("\n" + "=" * 70)
+    print(f"Website generated successfully in docs/")
+    print("=" * 70)
+
+
 # === MAIN ===
 
 def main():
@@ -659,6 +750,9 @@ def main():
     save_state(state)
 
     print(f"Updated {STATE_FILE}")
+
+    # Build website
+    build_website(version, stats_full, stats_core, stats_corecog)
 
     # Create git tag if requested
     if args.git_tag:
