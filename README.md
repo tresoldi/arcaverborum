@@ -13,7 +13,7 @@ A ready-to-use aggregation of comparative wordlist data from 149 Lexibank datase
 - **Two collections:** Full (research) and Core (teaching/prototyping)
 - **Analysis-ready CSV format** (pandas, R, Excel compatible)
 
-## 🎯 For Historical Linguists
+## For Historical Linguists
 
 This dataset solves a common problem: CLDF's normalized structure is excellent for data integrity but requires significant preprocessing before analysis. Arca Verborum provides denormalized, analysis-ready files so you can start working immediately.
 
@@ -23,7 +23,7 @@ This dataset solves a common problem: CLDF's normalized structure is excellent f
 - Cross-linguistic statistical analysis
 - Training machine learning models on linguistic data
 
-## 📦 Download Data (Recommended)
+## Download Data (Recommended)
 
 Download pre-built archives from Zenodo:
 
@@ -66,7 +66,7 @@ forms <- read_csv('arcaverborum_20251002/forms.csv')
 concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
 ```
 
-## 📚 Collections
+## Collections
 
 ### Full Collection
 - **149 Lexibank datasets**
@@ -91,7 +91,7 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
 8. tuled (South America - Tupían)
 9. utoaztecan (North America - Uto-Aztecan)
 
-## 🔧 Building from Source (Advanced)
+## Building from Source (Advanced)
 
 For reproducibility or customization:
 
@@ -116,13 +116,13 @@ python prepare_release.py
 
 See [RELEASE_WORKFLOW.md](RELEASE_WORKFLOW.md) for detailed build instructions.
 
-## 📖 Documentation
+## Documentation
 
 - **[MERGER_SPECIFICATION.md](MERGER_SPECIFICATION.md)** - Technical specification and data processing details
 - **[RELEASE_WORKFLOW.md](RELEASE_WORKFLOW.md)** - Building releases and publishing to Zenodo
 - **DATASET_DESCRIPTION.md** - In each archive, complete dataset documentation
 
-## 📊 Data Quality
+## Data Quality
 
 Full collection metrics:
 - **Glottolog coverage:** 94%
@@ -132,7 +132,7 @@ Full collection metrics:
 
 See `validation_report.json` in each archive for detailed quality metrics per dataset.
 
-## 📄 Citation
+## Citation
 
 If you use this dataset, please cite both:
 
@@ -165,26 +165,26 @@ If you use this dataset, please cite both:
 }
 ```
 
-## 📜 License
+## License
 
 - **Code and scripts:** [MIT License](LICENSE)
 - **Generated data:** [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) (following source Lexibank datasets)
 
 Individual dataset licenses are documented in `metadata.csv`.
 
-## 🔗 Related Projects
+## Related Projects
 
 - **[GLED](https://doi.org/10.5334/johd.96)** - Global Lexical Database (predecessor)
 - **[Lexibank](https://lexibank.clld.org/)** - Source data repository
 - **[CLDF](https://cldf.clld.org/)** - Cross-Linguistic Data Format
 
-## 👤 Contact
+## Contact
 
 **Tiago Tresoldi**
 Department of Linguistics and Philology
 Uppsala University
-📧 tiago.tresoldi@lingfil.uu.se
-🐙 [@tresoldi](https://github.com/tresoldi)
+Email: tiago.tresoldi@lingfil.uu.se
+GitHub: [@tresoldi](https://github.com/tresoldi)
 
 **Issues & Contributions:**
 Please use [GitHub Issues](https://github.com/tresoldi/arcaverborum/issues) for bug reports, feature requests, or questions.
