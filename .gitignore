@@ -41,6 +41,3 @@ merge_run.log
 # OS
 .DS_Store
 Thumbs.db
-
-# CSV files (large datasets)
-datasets.csv
