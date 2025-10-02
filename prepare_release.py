@@ -50,7 +50,6 @@ RELEASE_FILES = [
     "languages.csv",
     "parameters.csv",
     "metadata.csv",
-    "references.csv",
     "sources.bib",
     "validation_report.json"
 ]
