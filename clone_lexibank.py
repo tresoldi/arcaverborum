@@ -115,7 +115,7 @@ def process_repository(name: str, url: str, lexibank_dir: Path) -> Tuple[bool, s
         return (success, 'cloned' if success else 'failed')
 
 
-def read_datasets(csv_path: Path, core_only: bool = False) -> list:
+def read_datasets(csv_path: Path, core_only: bool = False, corecog_only: bool = False) -> list:
     """
     Read repository information from CSV file.
 
@@ -123,6 +123,8 @@ def read_datasets(csv_path: Path, core_only: bool = False) -> list:
     @type csv_path: Path
     @param core_only: If True, only return core datasets
     @type core_only: bool
+    @param corecog_only: If True, only return corecog datasets
+    @type corecog_only: bool
     @return: List of repository dictionaries
     @rtype: list
     """
@@ -135,16 +137,26 @@ def read_datasets(csv_path: Path, core_only: bool = False) -> list:
                 name = row.get('NAME', '').strip()
                 url = row.get('URL', '').strip()
                 is_core = row.get('CORE', '').strip() == 'TRUE'
+                is_corecog = row.get('CORECOG', '').strip() == 'TRUE'
 
-                # Filter by core if requested
+                # Filter by collection if requested
                 if core_only and not is_core:
+                    continue
+                if corecog_only and not is_corecog:
                     continue
 
                 if name and url:
-                    repositories.append({'name': name, 'url': url, 'is_core': is_core})
+                    repositories.append({
+                        'name': name,
+                        'url': url,
+                        'is_core': is_core,
+                        'is_corecog': is_corecog
+                    })
 
         if core_only:
             logging.info(f"Found {len(repositories)} core repositories in {csv_path}")
+        elif corecog_only:
+            logging.info(f"Found {len(repositories)} corecog repositories in {csv_path}")
         else:
             logging.info(f"Found {len(repositories)} repositories in {csv_path}")
         return repositories
@@ -190,7 +202,12 @@ def main() -> None:
     parser.add_argument(
         '--core-only',
         action='store_true',
-        help='Clone only core datasets (9 datasets for pedagogical use)'
+        help='Clone only core datasets (13 datasets for pedagogical use)'
+    )
+    parser.add_argument(
+        '--corecog-only',
+        action='store_true',
+        help='Clone only corecog datasets (58 datasets with expert cognate judgments)'
     )
 
     args = parser.parse_args()
@@ -199,11 +216,13 @@ def main() -> None:
 
     if args.core_only:
         logging.info("Starting Lexibank core repository synchronization (core-only mode)")
+    elif args.corecog_only:
+        logging.info("Starting Lexibank corecog repository synchronization (corecog-only mode)")
     else:
         logging.info("Starting Lexibank repository synchronization")
 
     # Read repositories from CSV
-    repositories = read_datasets(args.csv, core_only=args.core_only)
+    repositories = read_datasets(args.csv, core_only=args.core_only, corecog_only=args.corecog_only)
 
     if args.dry_run:
         logging.info("DRY RUN MODE - No actual changes will be made")

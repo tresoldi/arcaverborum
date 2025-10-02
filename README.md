@@ -9,8 +9,8 @@ A ready-to-use aggregation of comparative wordlist data from 149 Lexibank datase
 **Key Features:**
 - **2.9M+ lexical forms** across 149 datasets and 6,000+ languages
 - **Pre-joined metadata** (no CLDF wrangling needed)
-- **Expert cognate judgments** from 81 datasets
-- **Two collections:** Full (research) and Core (teaching/prototyping)
+- **Expert cognate judgments** from 58+ datasets
+- **Three collections:** Full (all data), Core (teaching), CORECOG (cognate research)
 - **Analysis-ready CSV format** (pandas, R, Excel compatible)
 
 ## For Historical Linguists
@@ -28,7 +28,8 @@ This dataset solves a common problem: CLDF's normalized structure is excellent f
 Download pre-built archives from Zenodo:
 
 - **[Full Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - All 149 datasets (~200 MB)
-- **[Core Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 9 curated datasets (~6 MB)
+- **[Core Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 13 curated datasets for teaching (~6 MB)
+- **[CORECOG Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 58 datasets with expert cognate data (~30 MB)
 
 Each archive contains:
 - `forms.csv` - Lexical forms with denormalized metadata
@@ -74,11 +75,12 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
 - Complete coverage for comprehensive research
 
 ### Core Collection
-- **9 curated datasets** selected for:
+- **13 curated datasets** selected for:
   - Global geographic coverage (all 6 macroareas)
   - High Concepticon/Swadesh-100 coverage
   - Expert cognate sets and phonological alignments
   - Minimal language overlap
+  - Ideal for teaching and rapid prototyping
 
 **Core Datasets:**
 1. robinsonap (Papunesia)
@@ -88,8 +90,22 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
 5. peirosaustroasiatic (Eurasia - Austroasiatic)
 6. iecor (Eurasia - Indo-European)
 7. bdpa (Eurasia - Sino-Tibetan)
-8. tuled (South America - Tupían)
-9. utoaztecan (North America - Uto-Aztecan)
+8. kahd (South America - Tupi-Guarani)
+9. tuled (South America - Tupían)
+10. utoaztecan (North America - Uto-Aztecan)
+11. walworthpolynesian (Polynesian)
+12. sagartst (Sino-Tibetan)
+13. savelyevturkic (Turkic)
+
+### CORECOG Collection
+- **58 datasets with expert cognate judgments**
+- Selected for comprehensive cognate-based research
+- All datasets include expert-curated cognate sets
+- Ideal for:
+  - Cognate detection algorithm development
+  - Phylogenetic inference and tree reconstruction
+  - Sound change and historical linguistics research
+  - Training/evaluating computational methods
 
 ## Building from Source (Advanced)
 
@@ -103,23 +119,24 @@ cd arcaverborum
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Clone source datasets (all or core-only)
-python clone_lexibank.py              # All 149 datasets
-python clone_lexibank.py --core-only  # Just 9 core datasets
+# 3. Clone source datasets (options)
+python clone_lexibank.py                 # All 149 datasets
+python clone_lexibank.py --core-only     # Just 13 core datasets
+python clone_lexibank.py --corecog-only  # Just 58 corecog datasets
 
 # 4. Build collections
-python merge_cldf_datasets.py         # Creates output/full/ and output/core/
+python merge_cldf_datasets.py         # Creates output/full/, output/core/, and output/corecog/
 
 # 5. Prepare release archives
 python prepare_release.py
 ```
 
-See [RELEASE_WORKFLOW.md](RELEASE_WORKFLOW.md) for detailed build instructions.
+See [docs/RELEASE_WORKFLOW.md](docs/RELEASE_WORKFLOW.md) for detailed build instructions.
 
 ## Documentation
 
-- **[MERGER_SPECIFICATION.md](MERGER_SPECIFICATION.md)** - Technical specification and data processing details
-- **[RELEASE_WORKFLOW.md](RELEASE_WORKFLOW.md)** - Building releases and publishing to Zenodo
+- **[docs/MERGER_SPECIFICATION.md](docs/MERGER_SPECIFICATION.md)** - Technical specification and data processing details
+- **[docs/RELEASE_WORKFLOW.md](docs/RELEASE_WORKFLOW.md)** - Building releases and publishing to Zenodo
 - **DATASET_DESCRIPTION.md** - In each archive, complete dataset documentation
 
 ## Data Quality

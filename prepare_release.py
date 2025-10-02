@@ -39,6 +39,7 @@ except ImportError:
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR_FULL = OUTPUT_DIR / "full"
 OUTPUT_DIR_CORE = OUTPUT_DIR / "core"
+OUTPUT_DIR_CORECOG = OUTPUT_DIR / "corecog"
 RELEASES_DIR = Path("releases")
 TEMPLATES_DIR = Path("templates")
 STATE_FILE = Path(".zenodo_state.json")
@@ -247,19 +248,24 @@ def render_template(template_path: Path, context: dict) -> str:
 
 
 def create_archive(version: str, output_files: list[Path], doc_files: dict[str, str],
-                   collection_suffix: str = "") -> Path:
+                   collection: str = "full") -> Path:
     """
     Create ZIP archive with all release files.
 
     @param version: Release version string
     @param output_files: List of paths to output files
     @param doc_files: Dictionary of filename -> content for generated docs
-    @param collection_suffix: Suffix for archive name (e.g., "_core" or empty for full)
+    @param collection: Collection name ("full", "core", or "corecog")
     @return: Path to created ZIP file
     """
-    archive_name = f"arcaverborum{collection_suffix}_{version}.zip"
+    if collection == "full":
+        archive_name = f"arcaverborum.{version}.zip"
+        base_dir = f"arcaverborum.{version}"
+    else:
+        archive_name = f"arcaverborum.{version}.{collection}.zip"
+        base_dir = f"arcaverborum.{version}.{collection}"
+
     archive_path = RELEASES_DIR / archive_name
-    base_dir = f"arcaverborum{collection_suffix}_{version}"
 
     print(f"Creating archive: {archive_path}")
 
@@ -287,7 +293,7 @@ def update_metadata_file(version: str, archive_paths: list[Path]):
     Update zenodo.metadata.yml with new version and file paths.
 
     @param version: Release version
-    @param archive_paths: List of paths to release archives (full and core)
+    @param archive_paths: List of paths to release archives (full, core, and corecog)
     """
     if not METADATA_FILE.exists():
         die(f"Metadata file not found: {METADATA_FILE}")
@@ -354,9 +360,9 @@ def create_git_tag(version: str):
 # === MAIN ===
 
 def main():
-    """Main entry point - creates both full and core archives."""
+    """Main entry point - creates full, core, and corecog archives."""
     parser = argparse.ArgumentParser(
-        description="Prepare Arca Verborum release for Zenodo (creates both full and core archives)",
+        description="Prepare Arca Verborum release for Zenodo (creates full, core, and corecog archives)",
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument(
@@ -394,16 +400,18 @@ def main():
         version = datetime.datetime.now().strftime("%Y%m%d")
 
     print(f"Preparing release version: {version}")
-    print("Building both full and core archives...\n")
+    print("Building full, core, and corecog archives...\n")
 
-    # Check if both output directories exist
+    # Check if all output directories exist
     if not OUTPUT_DIR_FULL.exists():
         die(f"Full collection directory not found: {OUTPUT_DIR_FULL}. Run merge_cldf_datasets.py first.")
     if not OUTPUT_DIR_CORE.exists():
         die(f"Core collection directory not found: {OUTPUT_DIR_CORE}. Run merge_cldf_datasets.py first.")
+    if not OUTPUT_DIR_CORECOG.exists():
+        die(f"CORECOG collection directory not found: {OUTPUT_DIR_CORECOG}. Run merge_cldf_datasets.py first.")
 
-    # Verify all required files exist in both directories
-    for output_dir, name in [(OUTPUT_DIR_FULL, "full"), (OUTPUT_DIR_CORE, "core")]:
+    # Verify all required files exist in all directories
+    for output_dir, name in [(OUTPUT_DIR_FULL, "full"), (OUTPUT_DIR_CORE, "core"), (OUTPUT_DIR_CORECOG, "corecog")]:
         missing_files = []
         for filename in RELEASE_FILES:
             if not (output_dir / filename).exists():
@@ -479,7 +487,7 @@ def main():
         "DATASET_DESCRIPTION.md": dataset_desc_full,
         "RELEASE_NOTES.md": release_notes_full
     }
-    archive_path_full = create_archive(version, output_files_full, doc_files_full, "")
+    archive_path_full = create_archive(version, output_files_full, doc_files_full, "full")
 
     # Compute archive checksum
     archive_checksum_full = sha256sum(archive_path_full)
@@ -544,7 +552,7 @@ def main():
         "DATASET_DESCRIPTION.md": dataset_desc_core,
         "RELEASE_NOTES.md": release_notes_core
     }
-    archive_path_core = create_archive(version, output_files_core, doc_files_core, "_core")
+    archive_path_core = create_archive(version, output_files_core, doc_files_core, "core")
 
     # Compute archive checksum
     archive_checksum_core = sha256sum(archive_path_core)
@@ -554,9 +562,74 @@ def main():
     print(f"  Size: {archive_size_core}")
     print(f"  SHA256: {archive_checksum_core}")
 
-    # Update metadata file with both archives
+    # === PROCESS CORECOG COLLECTION ===
     print("\n" + "=" * 70)
-    update_metadata_file(version, [archive_path_full, archive_path_core])
+    print("CORECOG COLLECTION")
+    print("=" * 70)
+
+    # Load validation report and extract statistics
+    print("Loading validation report...")
+    validation_report_corecog = load_validation_report(OUTPUT_DIR_CORECOG)
+    stats_corecog = extract_statistics(validation_report_corecog, OUTPUT_DIR_CORECOG)
+
+    # Compute checksums and file sizes
+    output_files_corecog = [OUTPUT_DIR_CORECOG / f for f in RELEASE_FILES]
+    checksums_corecog = compute_checksums(output_files_corecog)
+    file_sizes_corecog = get_file_sizes(output_files_corecog)
+
+    context_corecog = {
+        "version": version,
+        "collection": "corecog",
+        "collection_name": "CORECOG Collection",
+        "release_date": processing_date,
+        "processing_date": processing_date,
+        "year": today.year,
+        "doi": "10.5281/zenodo.XXXXXXX",  # Placeholder, filled by Zenodo
+        "is_first_release": is_first_release,
+        "changes": args.changes or "",
+        "known_issues": args.known_issues or "",
+        "checksums": checksums_corecog,
+        "file_sizes": file_sizes_corecog,
+        "next_release": None,
+
+        # Format version ranges
+        "glottolog_versions": format_version_range(stats_corecog["glottolog_version_dist"]),
+        "concepticon_versions": format_version_range(stats_corecog["concepticon_version_dist"]),
+        "clts_versions": format_version_range(stats_corecog["clts_version_dist"]),
+
+        **stats_corecog
+    }
+
+    # Render documentation for corecog collection
+    print("Generating documentation...")
+    dataset_desc_corecog = render_template(
+        TEMPLATES_DIR / "DATASET_DESCRIPTION.md.j2",
+        context_corecog
+    )
+    release_notes_corecog = render_template(
+        TEMPLATES_DIR / "RELEASE_NOTES.md.j2",
+        context_corecog
+    )
+
+    # Create corecog archive
+    print("Creating release archive...")
+    doc_files_corecog = {
+        "DATASET_DESCRIPTION.md": dataset_desc_corecog,
+        "RELEASE_NOTES.md": release_notes_corecog
+    }
+    archive_path_corecog = create_archive(version, output_files_corecog, doc_files_corecog, "corecog")
+
+    # Compute archive checksum
+    archive_checksum_corecog = sha256sum(archive_path_corecog)
+    archive_size_corecog = format_bytes(archive_path_corecog.stat().st_size)
+
+    print(f"\nCORECOG archive created: {archive_path_corecog}")
+    print(f"  Size: {archive_size_corecog}")
+    print(f"  SHA256: {archive_checksum_corecog}")
+
+    # Update metadata file with all three archives
+    print("\n" + "=" * 70)
+    update_metadata_file(version, [archive_path_full, archive_path_core, archive_path_corecog])
 
     # Update state
     if "releases" not in state:
@@ -575,6 +648,11 @@ def main():
                 "path": str(archive_path_core),
                 "sha256": archive_checksum_core,
                 "size": archive_path_core.stat().st_size
+            },
+            "corecog": {
+                "path": str(archive_path_corecog),
+                "sha256": archive_checksum_corecog,
+                "size": archive_path_corecog.stat().st_size
             }
         }
     }
@@ -588,15 +666,17 @@ def main():
 
     # Print next steps
     print("\n" + "=" * 70)
-    print("SUCCESS! Both archives prepared.")
+    print("SUCCESS! All three archives prepared.")
     print("=" * 70)
     print("\nArchives:")
-    print(f"  Full:  {archive_path_full} ({archive_size_full})")
-    print(f"  Core:  {archive_path_core} ({archive_size_core})")
+    print(f"  Full:    {archive_path_full} ({archive_size_full})")
+    print(f"  Core:    {archive_path_core} ({archive_size_core})")
+    print(f"  CORECOG: {archive_path_corecog} ({archive_size_corecog})")
     print("\nNext steps:")
     print(f"  1. Review the archives:")
     print(f"       unzip -l {archive_path_full}")
     print(f"       unzip -l {archive_path_core}")
+    print(f"       unzip -l {archive_path_corecog}")
     print(f"  2. Preview Zenodo metadata: python zenodo_publish.py --show")
     print(f"  3. Test on sandbox: python zenodo_publish.py --sandbox")
     print(f"  4. Publish to Zenodo: python zenodo_publish.py")

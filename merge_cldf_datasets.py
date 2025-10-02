@@ -32,6 +32,7 @@ LEXIBANK_DIR = Path('lexibank')
 OUTPUT_DIR = Path('output')
 OUTPUT_DIR_FULL = OUTPUT_DIR / 'full'
 OUTPUT_DIR_CORE = OUTPUT_DIR / 'core'
+OUTPUT_DIR_CORECOG = OUTPUT_DIR / 'corecog'
 DATASETS_CSV = Path('datasets.csv')
 
 # Expected columns for forms (during processing - includes all columns)
@@ -72,32 +73,37 @@ logger = logging.getLogger(__name__)
 
 # === HELPER FUNCTIONS ===
 
-def load_core_datasets() -> set:
+def load_collection_datasets() -> tuple[set, set]:
     """
-    Load list of core datasets from datasets.csv.
+    Load lists of core and corecog datasets from datasets.csv.
 
-    @return: Set of core dataset names
-    @rtype: set
+    @return: Tuple of (core_datasets, corecog_datasets)
+    @rtype: tuple[set, set]
     """
     core_datasets = set()
+    corecog_datasets = set()
 
     if not DATASETS_CSV.exists():
-        logger.warning(f"datasets.csv not found at {DATASETS_CSV}, no core datasets will be filtered")
-        return core_datasets
+        logger.warning(f"datasets.csv not found at {DATASETS_CSV}, no collection datasets will be filtered")
+        return core_datasets, corecog_datasets
 
     try:
         import csv
         with open(DATASETS_CSV, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
+                name = row['NAME'].strip()
                 if row.get('CORE', '').strip() == 'TRUE':
-                    core_datasets.add(row['NAME'].strip())
+                    core_datasets.add(name)
+                if row.get('CORECOG', '').strip() == 'TRUE':
+                    corecog_datasets.add(name)
 
         logger.info(f"Loaded {len(core_datasets)} core datasets from {DATASETS_CSV}")
+        logger.info(f"Loaded {len(corecog_datasets)} corecog datasets from {DATASETS_CSV}")
     except Exception as e:
-        logger.warning(f"Failed to load core datasets from {DATASETS_CSV}: {e}")
+        logger.warning(f"Failed to load collection datasets from {DATASETS_CSV}: {e}")
 
-    return core_datasets
+    return core_datasets, corecog_datasets
 
 
 def prefix_bibtex_keys(source_str: str, dataset: str) -> str:
@@ -210,14 +216,15 @@ def append_to_csv(filepath: Path, df: pd.DataFrame, is_first_write: bool, output
     df.to_csv(filepath, mode=mode, header=header, index=False, encoding='utf-8')
 
 
-def initialize_output_files(output_dir_full: Path, output_dir_core: Path):
+def initialize_output_files(output_dir_full: Path, output_dir_core: Path, output_dir_corecog: Path):
     """
     Initialize output directories and remove old files/partitions.
 
     @param output_dir_full: Full collection output directory
     @param output_dir_core: Core collection output directory
+    @param output_dir_corecog: CORECOG collection output directory
     """
-    for output_dir in [output_dir_full, output_dir_core]:
+    for output_dir in [output_dir_full, output_dir_core, output_dir_corecog]:
         # Create output directory
         output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1065,10 +1072,12 @@ def main():
     lexibank_dir = args.input
     output_dir_full = args.output / 'full'
     output_dir_core = args.output / 'core'
+    output_dir_corecog = args.output / 'corecog'
 
-    # Load core datasets list
-    core_datasets = load_core_datasets()
+    # Load collection datasets lists
+    core_datasets, corecog_datasets = load_collection_datasets()
     logger.info(f"Core collection will include {len(core_datasets)} datasets")
+    logger.info(f"CORECOG collection will include {len(corecog_datasets)} datasets")
 
     # Discover datasets
     if not lexibank_dir.exists():
@@ -1085,19 +1094,21 @@ def main():
         sys.exit(1)
 
     logger.info(f"Found {len(datasets)} datasets")
-    logger.info("Building both full and core collections")
+    logger.info("Building full, core, and corecog collections")
 
     # Initialize output directories (remove old files)
     if not args.dry_run:
-        initialize_output_files(output_dir_full, output_dir_core)
+        initialize_output_files(output_dir_full, output_dir_core, output_dir_corecog)
 
     # Initialize validation accumulators (one for each collection)
     validator_full = ValidationAccumulator()
     validator_core = ValidationAccumulator()
+    validator_corecog = ValidationAccumulator()
 
     # Process datasets one at a time with streaming append
     skipped = []
     core_count = 0
+    corecog_count = 0
     full_count = 0
 
     for i, dataset in enumerate(sorted(datasets), 1):
@@ -1110,6 +1121,7 @@ def main():
             )
 
             is_core = dataset in core_datasets
+            is_corecog = dataset in corecog_datasets
 
             # Update validation statistics for full collection (all datasets)
             validator_full.update(dataset, forms, languages, parameters, metadata,
@@ -1135,6 +1147,18 @@ def main():
                     append_to_csv(output_dir_core / 'languages.csv', languages, is_first_core)
                     append_to_csv(output_dir_core / 'parameters.csv', parameters, is_first_core)
 
+            # If corecog dataset, also append to corecog collection
+            if is_corecog:
+                validator_corecog.update(dataset, forms, languages, parameters, metadata,
+                                       references, bibtex, column_tracking)
+                corecog_count += 1
+
+                if not args.dry_run:
+                    is_first_corecog = (corecog_count == 1)
+                    append_to_csv(output_dir_corecog / 'forms.csv', forms, is_first_corecog, FORMS_OUTPUT_COLUMNS)
+                    append_to_csv(output_dir_corecog / 'languages.csv', languages, is_first_corecog)
+                    append_to_csv(output_dir_corecog / 'parameters.csv', parameters, is_first_corecog)
+
             # Free memory immediately
             del forms, languages, parameters
             gc.collect()
@@ -1149,7 +1173,7 @@ def main():
     if skipped:
         logger.warning(f"Skipped {len(skipped)} datasets due to errors: {', '.join(skipped)}")
 
-    # Summary for both collections
+    # Summary for all three collections
     logger.info("=" * 60)
     logger.info("FULL COLLECTION SUMMARY")
     logger.info("=" * 60)
@@ -1167,13 +1191,23 @@ def main():
     logger.info(f"Languages: {validator_core.total_languages:,}")
     logger.info(f"Parameters: {validator_core.total_parameters:,}")
 
-    # Generate validation reports for both collections
+    logger.info("")
+    logger.info("=" * 60)
+    logger.info("CORECOG COLLECTION SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"Datasets: {validator_corecog.datasets_processed}")
+    logger.info(f"Forms: {validator_corecog.total_forms:,}")
+    logger.info(f"Languages: {validator_corecog.total_languages:,}")
+    logger.info(f"Parameters: {validator_corecog.total_parameters:,}")
+
+    # Generate validation reports for all three collections
     logger.info("")
     logger.info("Generating validation reports...")
     validation_report_full = validator_full.generate_report()
     validation_report_core = validator_core.generate_report()
+    validation_report_corecog = validator_corecog.generate_report()
 
-    # Write outputs for both collections
+    # Write outputs for all three collections
     if not args.dry_run:
         # Full collection outputs
         logger.info("Writing full collection metadata and reports...")
@@ -1195,12 +1229,24 @@ def main():
         write_bibtex_file(validator_core.all_bibtex, output_dir_core)
         write_validation_report(validation_report_core, output_dir_core)
 
+        # CORECOG collection outputs
+        logger.info("Writing corecog collection metadata and reports...")
+        pd.DataFrame(validator_corecog.all_metadata).to_csv(
+            output_dir_corecog / 'metadata.csv',
+            index=False,
+            encoding='utf-8'
+        )
+        write_bibtex_file(validator_corecog.all_bibtex, output_dir_corecog)
+        write_validation_report(validation_report_corecog, output_dir_corecog)
+
         logger.info(f"Full collection written to {output_dir_full}")
         logger.info(f"Core collection written to {output_dir_core}")
+        logger.info(f"CORECOG collection written to {output_dir_corecog}")
     else:
         logger.info("Dry run mode - no files written")
         logger.info(f"Full collection summary: {validation_report_full['summary']}")
         logger.info(f"Core collection summary: {validation_report_core['summary']}")
+        logger.info(f"CORECOG collection summary: {validation_report_corecog['summary']}")
 
     logger.info("Done!")
 
