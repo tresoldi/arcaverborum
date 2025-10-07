@@ -11,9 +11,9 @@ The release system consists of:
 - `zenodo.metadata.yml` - Zenodo metadata configuration
 
 **Note:** Each release includes THREE archives:
-- `arcaverborum.YYYYMMDD.zip` - Full collection (all 149 datasets)
-- `arcaverborum.YYYYMMDD.core.zip` - Core collection (13 curated datasets for teaching)
-- `arcaverborum.YYYYMMDD.corecog.zip` - CORECOG collection (58 datasets with expert cognate data)
+- `arcaverborum.V.YYYYMMDD.zip` - Full collection (all 149 datasets)
+- `arcaverborum.V.YYYYMMDD.core.zip` - Core collection (13 curated datasets for teaching)
+- `arcaverborum.V.YYYYMMDD.corecog.zip` - CORECOG collection (58 datasets with expert cognate data)
 
 ## Prerequisites
 
@@ -68,26 +68,26 @@ All directories contain complete CSV files, validation reports, and bibliography
 Run the release preparation script:
 
 ```bash
-# Use today's date as version (YYYYMMDD format)
+# Use today's date as version (V.YYYYMMDD format)
 python prepare_release.py
 
 # Or specify a custom version
-python prepare_release.py --version 20251001
+python prepare_release.py --version A.20251001
 
 # Force overwrite if version already exists
-python prepare_release.py --version 20251001 --force
+python prepare_release.py --version A.20251001 --force
 
 # Create git tag automatically
-python prepare_release.py --version 20251001 --git-tag
+python prepare_release.py --version A.20251001 --git-tag
 ```
 
 This script will:
 1. Load statistics from all three validation reports (`output/full/`, `output/core/`, `output/corecog/`)
 2. Generate collection-specific `DATASET_DESCRIPTION.md` and `RELEASE_NOTES.md` from templates
 3. Create THREE archives:
-   - `releases/arcaverborum.YYYYMMDD.zip` (full collection)
-   - `releases/arcaverborum.YYYYMMDD.core.zip` (core collection)
-   - `releases/arcaverborum.YYYYMMDD.corecog.zip` (corecog collection)
+   - `releases/arcaverborum.V.YYYYMMDD.zip` (full collection)
+   - `releases/arcaverborum.V.YYYYMMDD.core.zip` (core collection)
+   - `releases/arcaverborum.V.YYYYMMDD.corecog.zip` (corecog collection)
 4. Each archive contains:
    - All CSV files from respective collection
    - `sources.bib`
@@ -103,14 +103,14 @@ Inspect the generated archives:
 
 ```bash
 # List archive contents
-unzip -l releases/arcaverborum.20251001.zip               # Full collection
-unzip -l releases/arcaverborum.20251001.core.zip          # Core collection
-unzip -l releases/arcaverborum.20251001.corecog.zip       # CORECOG collection
+unzip -l releases/arcaverborum.A.20251001.zip               # Full collection
+unzip -l releases/arcaverborum.A.20251001.core.zip          # Core collection
+unzip -l releases/arcaverborum.A.20251001.corecog.zip       # CORECOG collection
 
 # View generated documentation
-unzip -p releases/arcaverborum.20251001.zip arcaverborum.20251001/DATASET_DESCRIPTION.md | less
-unzip -p releases/arcaverborum.20251001.core.zip arcaverborum.20251001.core/DATASET_DESCRIPTION.md | less
-unzip -p releases/arcaverborum.20251001.corecog.zip arcaverborum.20251001.corecog/DATASET_DESCRIPTION.md | less
+unzip -p releases/arcaverborum.A.20251001.zip arcaverborum.A.20251001/DATASET_DESCRIPTION.md | less
+unzip -p releases/arcaverborum.A.20251001.core.zip arcaverborum.A.20251001.core/DATASET_DESCRIPTION.md | less
+unzip -p releases/arcaverborum.A.20251001.corecog.zip arcaverborum.A.20251001.corecog/DATASET_DESCRIPTION.md | less
 ```
 
 Preview the Zenodo metadata:
@@ -162,24 +162,25 @@ After successful publication:
 2. **Commit changes**:
    ```bash
    git add .zenodo_state.json zenodo.metadata.yml
-   git commit -m "Release version 20251001"
+   git commit -m "Release version A.20251001"
    ```
 
 3. **Create git tag** (if not done in Step 2):
    ```bash
-   python prepare_release.py --version 20251001 --git-tag
+   python prepare_release.py --version A.20251001 --git-tag
    ```
 
 4. **Push to GitHub**:
    ```bash
    git push origin master
-   git push origin v20251001
+   git push origin vA.20251001
    ```
 
 ## Version Scheme
 
-- **Format:** `YYYYMMDD` (e.g., `20251001` for October 1, 2025)
-- **Same-day revisions:** Append `.N` (e.g., `20251001.1`, `20251001.2`)
+- **Format:** `V.YYYYMMDD` where V is a letter indicating the major version/data source type (e.g., `A.20251001` for October 1, 2025)
+- **Major version letter:** Currently `A` for Lexibank data; future versions may use `B`, `C`, etc. for different data sources
+- **Same-day revisions:** Append `.N` (e.g., `A.20251001.1`, `A.20251001.2`)
 
 ## File Structure
 
@@ -219,9 +220,9 @@ arcaverborum/
 │       ├── sources.bib
 │       └── validation_report.json
 └── releases/                    # Release archives (ignored by git)
-    ├── arcaverborum.YYYYMMDD.zip             # Full collection archive
-    ├── arcaverborum.YYYYMMDD.core.zip        # Core collection archive
-    └── arcaverborum.YYYYMMDD.corecog.zip     # CORECOG collection archive
+    ├── arcaverborum.V.YYYYMMDD.zip             # Full collection archive
+    ├── arcaverborum.V.YYYYMMDD.core.zip        # Core collection archive
+    └── arcaverborum.V.YYYYMMDD.corecog.zip     # CORECOG collection archive
 ```
 
 ## Troubleshooting
@@ -230,7 +231,7 @@ arcaverborum/
 
 Use `--force` flag:
 ```bash
-python prepare_release.py --version 20251001 --force
+python prepare_release.py --version A.20251001 --force
 ```
 
 ### Missing files in output/
@@ -272,7 +273,7 @@ Available template variables:
 Specify changes for non-initial releases:
 
 ```bash
-python prepare_release.py --version 20251002 \
+python prepare_release.py --version A.20251002 \
   --changes "Updated to Lexibank 2024 release" \
   --known-issues "Minor formatting issues in dataset XYZ"
 ```

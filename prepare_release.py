@@ -11,10 +11,10 @@ Automates the creation of Zenodo release archives:
 - Optionally creates git tag
 
 Usage:
-    python prepare_release.py                    # Uses today's date as version
-    python prepare_release.py --version 20251001 # Explicit version
-    python prepare_release.py --force            # Override version check
-    python prepare_release.py --git-tag          # Create and push git tag
+    python prepare_release.py                       # Uses today's date as version
+    python prepare_release.py --version A.20251001  # Explicit version
+    python prepare_release.py --force               # Override version check
+    python prepare_release.py --git-tag             # Create and push git tag
 """
 
 import argparse
@@ -36,6 +36,7 @@ except ImportError:
     sys.exit(1)
 
 # === CONFIGURATION ===
+MAJOR_VERSION = "A"  # Major version letter (A=Lexibank, B=Wiktionary, etc.)
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR_FULL = OUTPUT_DIR / "full"
 OUTPUT_DIR_CORE = OUTPUT_DIR / "core"
@@ -459,7 +460,7 @@ def main():
     parser.add_argument(
         "--version",
         type=str,
-        help="Release version (default: today's date as YYYYMMDD)"
+        help="Release version (default: today's date as V.YYYYMMDD)"
     )
     parser.add_argument(
         "--force",
@@ -488,7 +489,7 @@ def main():
     if args.version:
         version = args.version
     else:
-        version = datetime.datetime.now().strftime("%Y%m%d")
+        version = f"{MAJOR_VERSION}.{datetime.datetime.now().strftime('%Y%m%d')}"
 
     print(f"Preparing release version: {version}")
     print("Building full, core, and corecog archives...\n")

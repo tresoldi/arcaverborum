@@ -46,7 +46,7 @@ Each archive contains:
 import pandas as pd
 
 # Load the data
-forms = pd.read_csv('arcaverborum_20251002/forms.csv')
+forms = pd.read_csv('arcaverborum_A.20251002/forms.csv')
 
 # Example: Forms with expert cognate judgments
 cognate_forms = forms[forms['Cognacy'].notna()]
@@ -61,7 +61,7 @@ indo_european = forms[forms['Glottolog_Name'].str.contains('Indo-European', na=F
 library(tidyverse)
 
 # Load the data
-forms <- read_csv('arcaverborum_20251002/forms.csv')
+forms <- read_csv('arcaverborum_A.20251002/forms.csv')
 
 # Example: Forms with Concepticon mapping
 concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
