@@ -1,17 +1,10 @@
-/* LaTeX Paper Style with Uppsala University Colors */
-
-/* Import serif font for paper-like appearance */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Crimson+Pro:wght@400;600;700&display=swap');
+/* Minimal Academic Style with Uppsala University Colors */
 
 :root {
-    /* Uppsala University Colors */
-    --uppsala-red: #990000;
-    --uppsala-grey: #E6E6E6;
-    --text-color: #000000;
-    --bg-color: #FFFFFF;
+    --red: #990000;
+    --grey: #E6E6E6;
 }
 
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,51 +12,45 @@
 }
 
 body {
-    font-family: 'Crimson Text', 'Times New Roman', serif;
-    font-size: 12pt;
+    font-family: Georgia, serif;
+    font-size: 18px;
     line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    max-width: 8.5in;
+    color: #000;
+    background: #fff;
+    max-width: 42em;
     margin: 0 auto;
-    padding: 1in;
+    padding: 2em 1em;
 }
 
-/* Override Pico if needed */
-body > * {
-    font-family: 'Crimson Text', 'Times New Roman', serif !important;
-}
-
-/* Headings - LaTeX style with Uppsala red */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Crimson Pro', 'Times New Roman', serif;
-    font-weight: 700;
-    color: var(--uppsala-red);
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+h1, h2, h3 {
+    color: var(--red);
+    font-weight: normal;
     line-height: 1.2;
 }
 
 h1 {
     font-size: 2em;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0.3em;
+    margin: 0.5em 0;
 }
 
 h2 {
     font-size: 1.5em;
-    border-bottom: 1px solid var(--text-color);
+    margin: 1.5em 0 0.5em;
+    border-bottom: 1px solid #000;
     padding-bottom: 0.2em;
 }
 
 h3 {
     font-size: 1.2em;
+    margin: 1.2em 0 0.5em;
 }
 
-/* Links - Academic style */
+p {
+    margin-bottom: 1em;
+}
+
 a {
-    color: var(--uppsala-red);
+    color: var(--red);
     text-decoration: none;
 }
 
@@ -71,34 +58,18 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Paragraphs */
-p {
-    margin-bottom: 1em;
-    text-align: justify;
-    hyphens: auto;
-}
-
-/* Lists */
 ul, ol {
-    margin-left: 2em;
-    margin-bottom: 1em;
+    margin: 0 0 1em 2em;
 }
 
 li {
     margin-bottom: 0.3em;
 }
 
-/* Navigation - Simplified academic style */
 nav {
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 1px solid #000;
     margin-bottom: 2em;
-    padding-bottom: 0.5em;
-}
-
-nav.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-bottom: 1em;
 }
 
 nav ul {
@@ -109,328 +80,124 @@ nav ul {
     gap: 1.5em;
 }
 
-nav li {
-    margin: 0;
-}
-
 nav a {
-    color: var(--uppsala-red);
-    font-weight: 600;
+    font-weight: bold;
 }
 
-/* Hero Section - Paper title style */
 .hero {
     text-align: center;
-    margin-bottom: 3em;
-    padding: 2em 0;
-    border-top: 2px solid var(--text-color);
-    border-bottom: 2px solid var(--text-color);
+    margin: 2em 0 3em;
 }
 
 .hero h1 {
-    font-size: 2.2em;
-    color: var(--uppsala-red);
-    margin-bottom: 0.5em;
-}
-
-.hero h2 {
-    font-size: 1.3em;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--text-color);
-    border-bottom: none;
-    margin-top: 0;
+    margin-bottom: 0.3em;
 }
 
 .hero p {
     font-size: 1.1em;
-    margin-top: 1em;
-    text-align: center;
 }
 
-/* Sections */
-section {
-    margin-bottom: 2.5em;
-}
-
-/* Collection Cards - Remove modern styling, use traditional boxes */
 .collection-card {
-    margin-bottom: 2em;
-}
-
-.collection-card article {
-    background-color: transparent;
-    border: 1px solid var(--text-color);
-    padding: 0;
+    border: 1px solid #000;
     margin-bottom: 1.5em;
 }
 
-.collection-card article header {
-    background-color: var(--uppsala-grey);
-    color: var(--text-color);
+.collection-card header {
+    background: var(--grey);
     padding: 0.8em 1em;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid #000;
 }
 
-.collection-card article header strong {
-    color: var(--uppsala-red);
+.collection-card header strong {
+    color: var(--red);
     font-size: 1.2em;
-    font-weight: 700;
 }
 
-.collection-card article > p,
-.collection-card article > ul {
-    padding: 0 1em;
-}
-
-.collection-card article footer {
+.collection-card > p,
+.collection-card > ul {
     padding: 1em;
-    background-color: transparent;
-    border-top: 1px solid var(--text-color);
+}
+
+.collection-card footer {
+    padding: 0.8em 1em;
+    border-top: 1px solid #000;
     text-align: center;
 }
 
-/* Buttons - Academic style */
-[role="button"],
-a[role="button"],
-button {
+.download-btn {
     display: inline-block;
     padding: 0.5em 1.5em;
-    background-color: var(--uppsala-red);
-    color: white;
-    border: 2px solid var(--uppsala-red);
+    background: var(--red);
+    color: #fff;
+    border: none;
     text-decoration: none;
-    font-family: 'Crimson Pro', serif;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
+    font-weight: bold;
 }
 
-[role="button"]:hover,
-a[role="button"]:hover,
-button:hover {
-    background-color: white;
-    color: var(--uppsala-red);
+.download-btn:hover {
+    background: #000;
     text-decoration: none;
 }
 
-/* Tables - LaTeX booktabs style */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1.5em 0;
-    font-size: 0.95em;
+    margin: 1em 0;
 }
 
 thead {
-    border-top: 2px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
 }
 
-thead th {
+th {
     padding: 0.5em;
     text-align: left;
-    font-weight: 700;
-    color: var(--uppsala-red);
-    background-color: transparent;
+    font-weight: bold;
 }
 
-tbody tr {
-    border-bottom: 1px solid var(--uppsala-grey);
-}
-
-tbody tr:last-child {
-    border-bottom: 2px solid var(--text-color);
-}
-
-tbody td {
+td {
     padding: 0.5em;
+    border-bottom: 1px solid var(--grey);
 }
 
-/* Code blocks - Academic monospace */
+tbody tr:last-child td {
+    border-bottom: 2px solid #000;
+}
+
 pre {
-    background-color: var(--uppsala-grey);
-    border-left: 3px solid var(--uppsala-red);
+    background: var(--grey);
+    border-left: 3px solid var(--red);
     padding: 1em;
     margin: 1em 0;
     overflow-x: auto;
-    font-family: 'Courier New', monospace;
-    font-size: 0.85em;
-    line-height: 1.4;
 }
 
 code {
     font-family: 'Courier New', monospace;
     font-size: 0.9em;
-    background-color: var(--uppsala-grey);
-    padding: 0.1em 0.3em;
 }
 
 pre code {
-    background-color: transparent;
-    padding: 0;
+    background: none;
 }
 
-/* Details/Summary - Academic collapsible sections */
-details {
-    border: 1px solid var(--uppsala-grey);
-    padding: 0.5em 1em;
-    margin-bottom: 1em;
-    background-color: transparent;
-}
-
-details summary {
-    cursor: pointer;
-    font-weight: 600;
-    color: var(--uppsala-red);
-    margin: -0.5em -1em;
-    padding: 0.5em 1em;
-}
-
-details[open] summary {
-    border-bottom: 1px solid var(--uppsala-grey);
-    margin-bottom: 0.5em;
-}
-
-details summary:hover {
-    background-color: var(--uppsala-grey);
-}
-
-/* Grid layout - Keep functional but less modern */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5em;
-    margin: 1.5em 0;
-}
-
-/* Footer - Academic paper style */
 footer {
     margin-top: 3em;
     padding-top: 1em;
-    border-top: 2px solid var(--text-color);
+    border-top: 1px solid #000;
     font-size: 0.9em;
     text-align: center;
     color: #333;
 }
 
-footer hr {
-    display: none;
-}
-
-footer a {
-    color: var(--uppsala-red);
-}
-
-/* Container - Paper margins */
-.container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-/* Remove Pico's modern effects */
-article, aside, section {
-    box-shadow: none;
-    border-radius: 0;
-}
-
-/* Strong/Bold text */
-strong {
-    font-weight: 700;
-}
-
-/* Emphasis */
-em {
-    font-style: italic;
-}
-
-/* Figure captions (if any) */
-figure {
-    margin: 1.5em 0;
-}
-
-figcaption {
-    font-size: 0.9em;
-    font-style: italic;
-    text-align: center;
-    margin-top: 0.5em;
-}
-
-/* Small text */
-small {
-    font-size: 0.85em;
-}
-
-/* Horizontal rules - LaTeX style */
-hr {
-    border: none;
-    border-top: 1px solid var(--text-color);
-    margin: 2em 0;
-}
-
-/* Blockquotes - Academic style */
-blockquote {
-    margin: 1.5em 2em;
-    padding-left: 1em;
-    border-left: 3px solid var(--uppsala-red);
-    font-style: italic;
-}
-
-/* Ordered lists in datasets page */
-ol {
-    counter-reset: item;
-}
-
-ol li {
-    display: block;
-    margin-bottom: 0.5em;
-}
-
-ol li:before {
-    content: counter(item) ". ";
-    counter-increment: item;
-    font-weight: 700;
-    color: var(--uppsala-red);
-}
-
-ol li strong {
-    color: var(--uppsala-red);
-}
-
-/* Responsive - maintain readability */
 @media (max-width: 768px) {
     body {
-        padding: 0.5in;
-        font-size: 11pt;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-    }
-
-    nav.container {
-        flex-direction: column;
-        gap: 0.5em;
+        font-size: 16px;
+        padding: 1em;
     }
 
     nav ul {
         flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media print {
-    body {
-        padding: 0.5in;
-    }
-
-    nav {
-        display: none;
-    }
-
-    a {
-        color: var(--text-color);
-        text-decoration: underline;
     }
 }

@@ -6,39 +6,23 @@
     <meta name="description" content="Arca Verborum: A Global Lexical Database for Computational Historical Linguistics">
     <meta name="author" content="Tiago Tresoldi">
     <title>Arca Verborum</title>
-
-    <!-- Pico CSS -->
-    <link rel="stylesheet" href="css/pico.min.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <ul>
-                <li><strong><a href="index.html" style="color: var(--uppsala-red); text-decoration: none;">Arca Verborum</a></strong></li>
-            </ul>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="datasets.html">Datasets</a></li>
-                <li><a href="https://github.com/tresoldi/arcaverborum" target="_blank">GitHub</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Arca Verborum</a></li>
+            <li><a href="datasets.html">Datasets</a></li>
+            <li><a href="https://github.com/tresoldi/arcaverborum" target="_blank">GitHub</a></li>
+        </ul>
+    </nav>
 
-    <main class="container">
+    <main>
 
-<!-- Hero Section -->
-<section class="hero">
-    <hgroup>
-        <h1>Arca Verborum</h1>
-        <h2>A Global Lexical Database for Computational Historical Linguistics</h2>
-    </hgroup>
-    <p>
-        Ready-to-use aggregation of comparative wordlist data from 9 Lexibank datasets,
-        designed for immediate use in research and education.
-    </p>
-</section>
+<div class="hero">
+    <h1>Arca Verborum</h1>
+    <p>A Global Lexical Database for Computational Historical Linguistics</p>
+</div>
 
 <!-- About Section -->
 <section>
@@ -58,133 +42,74 @@
     </ul>
 </section>
 
-<!-- Collections Section -->
 <section>
     <h2>Collections</h2>
-    <p>Choose the collection that fits your needs:</p>
 
-    <div class="grid">
-        <!-- Full Collection -->
-        <div class="collection-card">
-            <article>
-                <header><strong>Full Collection</strong></header>
-                <p>Complete dataset with all 9 Lexibank repositories.</p>
-                <ul>
-                    <li><strong>221,459</strong> lexical forms</li>
-                    <li><strong>1,617</strong> languages</li>
-                    <li><strong>9</strong> datasets with cognate judgments</li>
-                </ul>
-                <footer>
-                    <a href="https://doi.org/10.5281/zenodo.XXXXXXX" role="button">Download Full</a>
-                </footer>
-            </article>
-        </div>
-
-        <!-- Core Collection -->
-        <div class="collection-card">
-            <article>
-                <header><strong>Core Collection</strong></header>
-                <p>9 curated datasets for teaching and rapid prototyping.</p>
-                <ul>
-                    <li><strong>221,459</strong> lexical forms</li>
-                    <li><strong>1,617</strong> languages</li>
-                    <li>Global geographic coverage</li>
-                </ul>
-                <footer>
-                    <a href="https://doi.org/10.5281/zenodo.XXXXXXX" role="button">Download Core</a>
-                </footer>
-            </article>
-        </div>
-
-        <!-- CORECOG Collection -->
-        <div class="collection-card">
-            <article>
-                <header><strong>CORECOG Collection</strong></header>
-                <p>8 datasets with expert cognate judgments for cognate research.</p>
-                <ul>
-                    <li><strong>183,729</strong> lexical forms</li>
-                    <li><strong>1,193</strong> languages</li>
-                    <li>All datasets have expert cognate sets</li>
-                </ul>
-                <footer>
-                    <a href="https://doi.org/10.5281/zenodo.XXXXXXX" role="button">Download CORECOG</a>
-                </footer>
-            </article>
-        </div>
+    <div class="collection-card">
+        <header><strong>Full Collection</strong></header>
+        <p>Complete dataset with all 9 Lexibank repositories.</p>
+        <ul>
+            <li>221,459 lexical forms</li>
+            <li>1,617 languages</li>
+            <li>9 datasets with cognate judgments</li>
+        </ul>
+        <footer>
+            <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Full</a>
+        </footer>
     </div>
 
-    <p style="text-align: center; margin-top: 2rem;">
-        <small>
-            Current version: <strong>20251002</strong> (2025-10-02) |
-            <a href="https://github.com/tresoldi/arcaverborum/releases">All versions</a>
-        </small>
-    </p>
+    <div class="collection-card">
+        <header><strong>Core Collection</strong></header>
+        <p>9 curated datasets for teaching and rapid prototyping.</p>
+        <ul>
+            <li>221,459 lexical forms</li>
+            <li>1,617 languages</li>
+            <li>Global geographic coverage</li>
+        </ul>
+        <footer>
+            <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Core</a>
+        </footer>
+    </div>
+
+    <div class="collection-card">
+        <header><strong>CORECOG Collection</strong></header>
+        <p>8 datasets with expert cognate judgments.</p>
+        <ul>
+            <li>183,729 lexical forms</li>
+            <li>1,193 languages</li>
+            <li>All datasets have expert cognate sets</li>
+        </ul>
+        <footer>
+            <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download CORECOG</a>
+        </footer>
+    </div>
 </section>
 
-<!-- Quick Start Section -->
 <section>
     <h2>Quick Start</h2>
-    <p>Get started in seconds with Python or R:</p>
 
-    <details>
-        <summary><strong>Python Example</strong></summary>
-        <pre><code>import pandas as pd
+    <h3>Python</h3>
+    <pre><code>import pandas as pd
 
 # Load the data
-forms = pd.read_csv('arcaverborum_20251002/forms.csv')
+forms = pd.read_csv('arcaverborum_A.20251007/forms.csv')
 
-# Example: Forms with expert cognate judgments
-cognate_forms = forms[forms['Cognacy'].notna()]
+# Forms with cognate judgments
+cognate_forms = forms[forms['Cognacy'].notna()]</code></pre>
 
-# Example: Filter by language family
-indo_european = forms[forms['Glottolog_Name'].str.contains('Indo-European', na=False)]</code></pre>
-    </details>
-
-    <details>
-        <summary><strong>R Example</strong></summary>
-        <pre><code>library(tidyverse)
+    <h3>R</h3>
+    <pre><code>library(tidyverse)
 
 # Load the data
-forms <- read_csv('arcaverborum_20251002/forms.csv')
+forms <- read_csv('arcaverborum_A.20251007/forms.csv')
 
-# Example: Forms with Concepticon mapping
-concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
-    </details>
+# Forms with Concepticon mapping
+forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
 </section>
 
-<!-- Citation Section -->
 <section>
     <h2>Citation</h2>
-    <p>If you use this dataset, please cite both:</p>
-
-    <details>
-        <summary><strong>This dataset (BibTeX)</strong></summary>
-        <pre><code>@dataset{tresoldi2025arca,
-  author       = {Tresoldi, Tiago},
-  title        = {Arca Verborum: A Global Lexical Database for
-                  Computational Historical Linguistics},
-  year         = 2025,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX}
-}</code></pre>
-    </details>
-
-    <details>
-        <summary><strong>The Lexibank project (BibTeX)</strong></summary>
-        <pre><code>@article{list2022lexibank,
-  title   = {Lexibank: A public repository of standardized wordlists with
-             computed phonological and lexical features},
-  author  = {List, Johann-Mattis and Forkel, Robert and Greenhill, Simon J and
-             Rzymski, Christoph and Englisch, Johannes and Gray, Russell D},
-  journal = {Scientific Data},
-  volume  = {9},
-  number  = {1},
-  pages   = {316},
-  year    = {2022},
-  doi     = {10.1038/s41597-022-01432-0}
-}</code></pre>
-    </details>
+    <p>If you use this dataset, please cite both Arca Verborum and Lexibank.</p>
 </section>
 
 <!-- Data Quality -->
@@ -202,19 +127,12 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
     </p>
 </section>
 
-<!-- Contact/About Section -->
 <section>
     <h2>Contact</h2>
     <p>
         <strong>Tiago Tresoldi</strong><br>
-        Department of Linguistics and Philology<br>
-        Uppsala University<br>
-        📧 <a href="mailto:tiago.tresoldi@lingfil.uu.se">tiago.tresoldi@lingfil.uu.se</a><br>
-        🐙 <a href="https://github.com/tresoldi">@tresoldi</a>
-    </p>
-    <p>
-        For bug reports, feature requests, or questions, please use
-        <a href="https://github.com/tresoldi/arcaverborum/issues">GitHub Issues</a>.
+        Department of Linguistics and Philology, Uppsala University<br>
+        <a href="mailto:tiago.tresoldi@lingfil.uu.se">tiago.tresoldi@lingfil.uu.se</a>
     </p>
 </section>
 
@@ -230,16 +148,11 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
 
     </main>
 
-    <footer class="container">
-        <hr>
+    <footer>
         <p>
-            <small>
-                Arca Verborum v20251002 |
-                Released 2025-10-02 |
-                Code: <a href="https://github.com/tresoldi/arcaverborum/blob/master/LICENSE">MIT</a> |
-                Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a> |
-                Built from <a href="https://github.com/tresoldi/arcaverborum">Lexibank</a> datasets
-            </small>
+            vA.20251007 | 2025-10-07<br>
+            Code: <a href="https://github.com/tresoldi/arcaverborum/blob/master/LICENSE">MIT</a> |
+            Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
         </p>
     </footer>
 </body>

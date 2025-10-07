@@ -2,17 +2,10 @@
 
 {% block content %}
 
-<!-- Hero Section -->
-<section class="hero">
-    <hgroup>
-        <h1>Arca Verborum</h1>
-        <h2>A Global Lexical Database for Computational Historical Linguistics</h2>
-    </hgroup>
-    <p>
-        Ready-to-use aggregation of comparative wordlist data from {{ full_datasets }} Lexibank datasets,
-        designed for immediate use in research and education.
-    </p>
-</section>
+<div class="hero">
+    <h1>Arca Verborum</h1>
+    <p>A Global Lexical Database for Computational Historical Linguistics</p>
+</div>
 
 <!-- About Section -->
 <section>
@@ -32,133 +25,74 @@
     </ul>
 </section>
 
-<!-- Collections Section -->
 <section>
     <h2>Collections</h2>
-    <p>Choose the collection that fits your needs:</p>
 
-    <div class="grid">
-        <!-- Full Collection -->
-        <div class="collection-card">
-            <article>
-                <header><strong>Full Collection</strong></header>
-                <p>Complete dataset with all {{ full_datasets }} Lexibank repositories.</p>
-                <ul>
-                    <li><strong>{{ "{:,}".format(full_forms) }}</strong> lexical forms</li>
-                    <li><strong>{{ "{:,}".format(full_languages) }}</strong> languages</li>
-                    <li><strong>{{ full_cognate_datasets }}</strong> datasets with cognate judgments</li>
-                </ul>
-                <footer>
-                    <a href="{{ full_doi_concept }}" role="button">Download Full</a>
-                </footer>
-            </article>
-        </div>
-
-        <!-- Core Collection -->
-        <div class="collection-card">
-            <article>
-                <header><strong>Core Collection</strong></header>
-                <p>{{ core_datasets }} curated datasets for teaching and rapid prototyping.</p>
-                <ul>
-                    <li><strong>{{ "{:,}".format(core_forms) }}</strong> lexical forms</li>
-                    <li><strong>{{ "{:,}".format(core_languages) }}</strong> languages</li>
-                    <li>Global geographic coverage</li>
-                </ul>
-                <footer>
-                    <a href="{{ core_doi_concept }}" role="button">Download Core</a>
-                </footer>
-            </article>
-        </div>
-
-        <!-- CORECOG Collection -->
-        <div class="collection-card">
-            <article>
-                <header><strong>CORECOG Collection</strong></header>
-                <p>{{ corecog_datasets }} datasets with expert cognate judgments for cognate research.</p>
-                <ul>
-                    <li><strong>{{ "{:,}".format(corecog_forms) }}</strong> lexical forms</li>
-                    <li><strong>{{ "{:,}".format(corecog_languages) }}</strong> languages</li>
-                    <li>All datasets have expert cognate sets</li>
-                </ul>
-                <footer>
-                    <a href="{{ corecog_doi_concept }}" role="button">Download CORECOG</a>
-                </footer>
-            </article>
-        </div>
+    <div class="collection-card">
+        <header><strong>Full Collection</strong></header>
+        <p>Complete dataset with all {{ full_datasets }} Lexibank repositories.</p>
+        <ul>
+            <li>{{ "{:,}".format(full_forms) }} lexical forms</li>
+            <li>{{ "{:,}".format(full_languages) }} languages</li>
+            <li>{{ full_cognate_datasets }} datasets with cognate judgments</li>
+        </ul>
+        <footer>
+            <a href="{{ full_doi_concept }}" class="download-btn">Download Full</a>
+        </footer>
     </div>
 
-    <p style="text-align: center; margin-top: 2rem;">
-        <small>
-            Current version: <strong>{{ version }}</strong> ({{ release_date }}) |
-            <a href="{{ github_releases }}">All versions</a>
-        </small>
-    </p>
+    <div class="collection-card">
+        <header><strong>Core Collection</strong></header>
+        <p>{{ core_datasets }} curated datasets for teaching and rapid prototyping.</p>
+        <ul>
+            <li>{{ "{:,}".format(core_forms) }} lexical forms</li>
+            <li>{{ "{:,}".format(core_languages) }} languages</li>
+            <li>Global geographic coverage</li>
+        </ul>
+        <footer>
+            <a href="{{ core_doi_concept }}" class="download-btn">Download Core</a>
+        </footer>
+    </div>
+
+    <div class="collection-card">
+        <header><strong>CORECOG Collection</strong></header>
+        <p>{{ corecog_datasets }} datasets with expert cognate judgments.</p>
+        <ul>
+            <li>{{ "{:,}".format(corecog_forms) }} lexical forms</li>
+            <li>{{ "{:,}".format(corecog_languages) }} languages</li>
+            <li>All datasets have expert cognate sets</li>
+        </ul>
+        <footer>
+            <a href="{{ corecog_doi_concept }}" class="download-btn">Download CORECOG</a>
+        </footer>
+    </div>
 </section>
 
-<!-- Quick Start Section -->
 <section>
     <h2>Quick Start</h2>
-    <p>Get started in seconds with Python or R:</p>
 
-    <details>
-        <summary><strong>Python Example</strong></summary>
-        <pre><code>import pandas as pd
+    <h3>Python</h3>
+    <pre><code>import pandas as pd
 
 # Load the data
 forms = pd.read_csv('arcaverborum_{{ version }}/forms.csv')
 
-# Example: Forms with expert cognate judgments
-cognate_forms = forms[forms['Cognacy'].notna()]
+# Forms with cognate judgments
+cognate_forms = forms[forms['Cognacy'].notna()]</code></pre>
 
-# Example: Filter by language family
-indo_european = forms[forms['Glottolog_Name'].str.contains('Indo-European', na=False)]</code></pre>
-    </details>
-
-    <details>
-        <summary><strong>R Example</strong></summary>
-        <pre><code>library(tidyverse)
+    <h3>R</h3>
+    <pre><code>library(tidyverse)
 
 # Load the data
 forms <- read_csv('arcaverborum_{{ version }}/forms.csv')
 
-# Example: Forms with Concepticon mapping
-concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
-    </details>
+# Forms with Concepticon mapping
+forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
 </section>
 
-<!-- Citation Section -->
 <section>
     <h2>Citation</h2>
-    <p>If you use this dataset, please cite both:</p>
-
-    <details>
-        <summary><strong>This dataset (BibTeX)</strong></summary>
-        <pre><code>@dataset{tresoldi{{ year }}arca,
-  author       = {Tresoldi, Tiago},
-  title        = {Arca Verborum: A Global Lexical Database for
-                  Computational Historical Linguistics},
-  year         = {{ year }},
-  publisher    = {Zenodo},
-  doi          = {{ "{" }}{{ full_doi_concept.replace('https://doi.org/', '') }}{{ "}" }},
-  url          = {{ "{" }}{{ full_doi_concept }}{{ "}" }}
-}</code></pre>
-    </details>
-
-    <details>
-        <summary><strong>The Lexibank project (BibTeX)</strong></summary>
-        <pre><code>@article{list2022lexibank,
-  title   = {Lexibank: A public repository of standardized wordlists with
-             computed phonological and lexical features},
-  author  = {List, Johann-Mattis and Forkel, Robert and Greenhill, Simon J and
-             Rzymski, Christoph and Englisch, Johannes and Gray, Russell D},
-  journal = {Scientific Data},
-  volume  = {9},
-  number  = {1},
-  pages   = {316},
-  year    = {2022},
-  doi     = {10.1038/s41597-022-01432-0}
-}</code></pre>
-    </details>
+    <p>If you use this dataset, please cite both Arca Verborum and Lexibank.</p>
 </section>
 
 <!-- Data Quality -->
@@ -176,19 +110,12 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
     </p>
 </section>
 
-<!-- Contact/About Section -->
 <section>
     <h2>Contact</h2>
     <p>
         <strong>Tiago Tresoldi</strong><br>
-        Department of Linguistics and Philology<br>
-        Uppsala University<br>
-        📧 <a href="mailto:tiago.tresoldi@lingfil.uu.se">tiago.tresoldi@lingfil.uu.se</a><br>
-        🐙 <a href="https://github.com/tresoldi">@tresoldi</a>
-    </p>
-    <p>
-        For bug reports, feature requests, or questions, please use
-        <a href="{{ github_url }}/issues">GitHub Issues</a>.
+        Department of Linguistics and Philology, Uppsala University<br>
+        <a href="mailto:tiago.tresoldi@lingfil.uu.se">tiago.tresoldi@lingfil.uu.se</a>
     </p>
 </section>
 
