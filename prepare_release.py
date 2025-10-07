@@ -437,13 +437,6 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
     (docs_dir / "index.html").write_text(index_html, encoding="utf-8")
     print(f"  Wrote docs/index.html")
 
-    # Render and write datasets.html
-    print("Rendering datasets.html...")
-    datasets_template = env.get_template("datasets.html.j2")
-    datasets_html = datasets_template.render(**context)
-    (docs_dir / "datasets.html").write_text(datasets_html, encoding="utf-8")
-    print(f"  Wrote docs/datasets.html")
-
     print("\n" + "=" * 70)
     print(f"Website generated successfully in docs/")
     print("=" * 70)

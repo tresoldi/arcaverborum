@@ -12,7 +12,6 @@
     <nav>
         <ul>
             <li><a href="index.html">Arca Verborum</a></li>
-            <li><a href="datasets.html">Datasets</a></li>
             <li><a href="https://github.com/tresoldi/arcaverborum" target="_blank">GitHub</a></li>
         </ul>
     </nav>
@@ -45,44 +44,52 @@
 <section>
     <h2>Collections</h2>
 
-    <div class="collection-card">
-        <header><strong>Full Collection</strong></header>
-        <p>Complete dataset with all 9 Lexibank repositories.</p>
-        <ul>
-            <li>221,459 lexical forms</li>
-            <li>1,617 languages</li>
-            <li>9 datasets with cognate judgments</li>
-        </ul>
-        <footer>
-            <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Full</a>
-        </footer>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Full</th>
+                <th>Core</th>
+                <th>CORECOG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Datasets</strong></td>
+                <td>9</td>
+                <td>9</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td><strong>Forms</strong></td>
+                <td>221,459</td>
+                <td>221,459</td>
+                <td>183,729</td>
+            </tr>
+            <tr>
+                <td><strong>Languages</strong></td>
+                <td>1,617</td>
+                <td>1,617</td>
+                <td>1,193</td>
+            </tr>
+            <tr>
+                <td><strong>Concepts</strong></td>
+                <td>2,987</td>
+                <td>2,987</td>
+                <td>2,887</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <div class="collection-card">
-        <header><strong>Core Collection</strong></header>
-        <p>9 curated datasets for teaching and rapid prototyping.</p>
-        <ul>
-            <li>221,459 lexical forms</li>
-            <li>1,617 languages</li>
-            <li>Global geographic coverage</li>
-        </ul>
-        <footer>
-            <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Core</a>
-        </footer>
-    </div>
+    <p><strong>Full Collection:</strong> Complete dataset with all 9 repositories.</p>
+    <p><strong>Core Collection:</strong> 9 curated datasets for teaching, with global coverage.</p>
+    <p><strong>CORECOG Collection:</strong> 8 datasets with expert cognate judgments for cognate research.</p>
 
-    <div class="collection-card">
-        <header><strong>CORECOG Collection</strong></header>
-        <p>8 datasets with expert cognate judgments.</p>
-        <ul>
-            <li>183,729 lexical forms</li>
-            <li>1,193 languages</li>
-            <li>All datasets have expert cognate sets</li>
-        </ul>
-        <footer>
-            <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download CORECOG</a>
-        </footer>
-    </div>
+    <p style="text-align: center; margin-top: 1.5em;">
+        <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Full</a>
+        <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Core</a>
+        <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download CORECOG</a>
+    </p>
 </section>
 
 <section>
@@ -112,19 +119,17 @@ forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>
     <p>If you use this dataset, please cite both Arca Verborum and Lexibank.</p>
 </section>
 
-<!-- Data Quality -->
 <section>
     <h2>Data Quality</h2>
-    <p>Full collection quality metrics:</p>
+    <p>Full collection coverage metrics:</p>
     <ul>
-        <li><strong>Glottolog coverage:</strong> 94.1%</li>
-        <li><strong>Concepticon coverage:</strong> 94.0%</li>
-        <li><strong>Forms with cognate data:</strong> 99.5%</li>
-        <li><strong>Forms with segmentation:</strong> 96.9%</li>
+        <li><strong>Glottolog:</strong> 94.1% (language identification)</li>
+        <li><strong>Concepticon:</strong> 94.0% (concept standardization)</li>
+        <li><strong>Cognate data:</strong> 99.5% of forms</li>
+        <li><strong>Segmentation:</strong> 96.9% of forms</li>
     </ul>
-    <p>
-        <a href="datasets.html">View detailed statistics →</a>
-    </p>
+
+    <p><strong>Archive Contents:</strong> Each collection includes forms.csv, languages.csv, parameters.csv, metadata.csv, sources.bib, and validation_report.json with complete documentation.</p>
 </section>
 
 <section>
