@@ -1,6 +1,6 @@
-# Arca Verborum{% if collection == "core" %} Core Collection{% elif collection == "corecog" %} CORECOG Collection{% endif %}: A Global Lexical Database for Computational Historical Linguistics
+# Arca Verborum{% if collection == "core" %} Core Collection{% elif collection == "corecog" %} CoreCog Collection{% endif %}: A Global Lexical Database for Computational Historical Linguistics
 
-**Version:** {{ version }}{% if collection == "core" %} (Core Collection){% elif collection == "corecog" %} (CORECOG Collection){% endif %}
+**Version:** {{ version }}{% if collection == "core" %} (Core Collection){% elif collection == "corecog" %} (CoreCog Collection){% endif %}
 **Release Date:** {{ release_date }}
 **Author:** Tiago Tresoldi (ORCID: 0000-0002-2863-1467)
 **Affiliation:** Department of Linguistics and Philology, Uppsala University
@@ -21,9 +21,9 @@ The core collection is designed for:
 
 For the complete dataset with all 149 Lexibank repositories, see the full collection.
 {% elif collection == "corecog" -%}
-Arca Verborum CORECOG Collection provides a specialized subset of {{ datasets_count }} Lexibank datasets selected for comprehensive cognate-based research. This collection contains {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages, with all datasets featuring expert-curated cognate judgments.
+Arca Verborum CoreCog Collection provides a specialized subset of {{ datasets_count }} Lexibank datasets selected for comprehensive cognate-based research. This collection contains {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages, with all datasets featuring expert-curated cognate judgments.
 
-The CORECOG collection is designed for:
+The CoreCog collection is designed for:
 - **Cognate detection:** Developing and testing automated cognate identification algorithms
 - **Phylogenetic inference:** Historical linguistics and language family tree reconstruction
 - **Sound change research:** Systematic correspondences and phonological evolution
@@ -35,7 +35,7 @@ For the complete dataset with all 149 Lexibank repositories, see the full collec
 {% else -%}
 Arca Verborum provides a denormalized, analysis-ready version of comparative wordlist data from {{ datasets_count }} Lexibank datasets, totaling over {{ forms_count | format_number }} lexical forms across {{ languages_count | format_number }} languages. The data has been aggregated, harmonized, and structured to enable immediate use in computational historical linguistics research and education.
 
-Two specialized collections are also available: Core (13 datasets for teaching), and CORECOG (58 datasets with expert cognate judgments for cognate-based research).
+Two specialized collections are also available: Core (13 datasets for teaching), and CoreCog (58 datasets with expert cognate judgments for cognate-based research).
 {% endif %}
 
 ## Motivation
@@ -217,7 +217,7 @@ If you use this dataset, please cite both:
 
 **This dataset:**
 ```
-Tresoldi, Tiago. ({{ year }}). Arca Verborum{% if collection == "core" %} Core Collection{% elif collection == "corecog" %} CORECOG Collection{% endif %}: A Global Lexical Database for
+Tresoldi, Tiago. ({{ year }}). Arca Verborum{% if collection == "core" %} Core Collection{% elif collection == "corecog" %} CoreCog Collection{% endif %}: A Global Lexical Database for
 Computational Historical Linguistics (Version {{ version }}) [Data set].
 Zenodo. https://doi.org/{{ doi }}
 ```

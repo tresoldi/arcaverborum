@@ -95,7 +95,7 @@ def load_collection_datasets() -> tuple[set, set]:
                 name = row['NAME'].strip()
                 if row.get('CORE', '').strip() == 'TRUE':
                     core_datasets.add(name)
-                if row.get('CORECOG', '').strip() == 'TRUE':
+                if row.get('CoreCog', '').strip() == 'TRUE':
                     corecog_datasets.add(name)
 
         logger.info(f"Loaded {len(core_datasets)} core datasets from {DATASETS_CSV}")
@@ -222,7 +222,7 @@ def initialize_output_files(output_dir_full: Path, output_dir_core: Path, output
 
     @param output_dir_full: Full collection output directory
     @param output_dir_core: Core collection output directory
-    @param output_dir_corecog: CORECOG collection output directory
+    @param output_dir_corecog: CoreCog collection output directory
     """
     for output_dir in [output_dir_full, output_dir_core, output_dir_corecog]:
         # Create output directory
@@ -1077,7 +1077,7 @@ def main():
     # Load collection datasets lists
     core_datasets, corecog_datasets = load_collection_datasets()
     logger.info(f"Core collection will include {len(core_datasets)} datasets")
-    logger.info(f"CORECOG collection will include {len(corecog_datasets)} datasets")
+    logger.info(f"CoreCog collection will include {len(corecog_datasets)} datasets")
 
     # Discover datasets
     if not lexibank_dir.exists():
@@ -1193,7 +1193,7 @@ def main():
 
     logger.info("")
     logger.info("=" * 60)
-    logger.info("CORECOG COLLECTION SUMMARY")
+    logger.info("CoreCog COLLECTION SUMMARY")
     logger.info("=" * 60)
     logger.info(f"Datasets: {validator_corecog.datasets_processed}")
     logger.info(f"Forms: {validator_corecog.total_forms:,}")
@@ -1241,12 +1241,12 @@ def main():
 
         logger.info(f"Full collection written to {output_dir_full}")
         logger.info(f"Core collection written to {output_dir_core}")
-        logger.info(f"CORECOG collection written to {output_dir_corecog}")
+        logger.info(f"CoreCog collection written to {output_dir_corecog}")
     else:
         logger.info("Dry run mode - no files written")
         logger.info(f"Full collection summary: {validation_report_full['summary']}")
         logger.info(f"Core collection summary: {validation_report_core['summary']}")
-        logger.info(f"CORECOG collection summary: {validation_report_corecog['summary']}")
+        logger.info(f"CoreCog collection summary: {validation_report_corecog['summary']}")
 
     logger.info("Done!")
 

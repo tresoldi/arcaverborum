@@ -137,7 +137,7 @@ def read_datasets(csv_path: Path, core_only: bool = False, corecog_only: bool = 
                 name = row.get('NAME', '').strip()
                 url = row.get('URL', '').strip()
                 is_core = row.get('CORE', '').strip() == 'TRUE'
-                is_corecog = row.get('CORECOG', '').strip() == 'TRUE'
+                is_corecog = row.get('CoreCog', '').strip() == 'TRUE'
 
                 # Filter by collection if requested
                 if core_only and not is_core:
@@ -156,7 +156,7 @@ def read_datasets(csv_path: Path, core_only: bool = False, corecog_only: bool = 
         if core_only:
             logging.info(f"Found {len(repositories)} core repositories in {csv_path}")
         elif corecog_only:
-            logging.info(f"Found {len(repositories)} corecog repositories in {csv_path}")
+            logging.info(f"Found {len(repositories)} CoreCog repositories in {csv_path}")
         else:
             logging.info(f"Found {len(repositories)} repositories in {csv_path}")
         return repositories
@@ -207,7 +207,7 @@ def main() -> None:
     parser.add_argument(
         '--corecog-only',
         action='store_true',
-        help='Clone only corecog datasets (58 datasets with expert cognate judgments)'
+        help='Clone only CoreCog datasets (58 datasets with expert cognate judgments)'
     )
 
     args = parser.parse_args()
@@ -217,7 +217,7 @@ def main() -> None:
     if args.core_only:
         logging.info("Starting Lexibank core repository synchronization (core-only mode)")
     elif args.corecog_only:
-        logging.info("Starting Lexibank corecog repository synchronization (corecog-only mode)")
+        logging.info("Starting Lexibank CoreCog repository synchronization (corecog-only mode)")
     else:
         logging.info("Starting Lexibank repository synchronization")
 

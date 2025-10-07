@@ -13,7 +13,7 @@ The release system consists of:
 **Note:** Each release includes THREE archives:
 - `arcaverborum.V.YYYYMMDD.zip` - Full collection (all 149 datasets)
 - `arcaverborum.V.YYYYMMDD.core.zip` - Core collection (13 curated datasets for teaching)
-- `arcaverborum.V.YYYYMMDD.corecog.zip` - CORECOG collection (58 datasets with expert cognate data)
+- `arcaverborum.V.YYYYMMDD.corecog.zip` - CoreCog collection (58 datasets with expert cognate data)
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ python merge_cldf_datasets.py
 This creates:
 - `output/full/` - Full collection (all datasets)
 - `output/core/` - Core collection (13 curated datasets)
-- `output/corecog/` - CORECOG collection (58 datasets with cognate data)
+- `output/corecog/` - CoreCog collection (58 datasets with cognate data)
 
 All directories contain complete CSV files, validation reports, and bibliography.
 
@@ -105,7 +105,7 @@ Inspect the generated archives:
 # List archive contents
 unzip -l releases/arcaverborum.A.20251001.zip               # Full collection
 unzip -l releases/arcaverborum.A.20251001.core.zip          # Core collection
-unzip -l releases/arcaverborum.A.20251001.corecog.zip       # CORECOG collection
+unzip -l releases/arcaverborum.A.20251001.corecog.zip       # CoreCog collection
 
 # View generated documentation
 unzip -p releases/arcaverborum.A.20251001.zip arcaverborum.A.20251001/DATASET_DESCRIPTION.md | less
@@ -189,7 +189,7 @@ arcaverborum/
 ├── .gitignore                    # Excludes output/, releases/, lexibank/
 ├── .zenodo_state.json           # Release tracking (committed to git)
 ├── zenodo.metadata.yml          # Zenodo configuration (committed to git)
-├── datasets.csv                 # Dataset list with CORE and CORECOG columns
+├── datasets.csv                 # Dataset list with CORE and CoreCog columns
 ├── clone_lexibank.py            # Clone Lexibank repositories
 ├── merge_cldf_datasets.py       # Main data processing script (builds all three collections)
 ├── prepare_release.py           # Release preparation automation (creates all three archives)
@@ -212,7 +212,7 @@ arcaverborum/
 │   │   ├── metadata.csv
 │   │   ├── sources.bib
 │   │   └── validation_report.json
-│   └── corecog/                 # CORECOG collection (58 datasets with cognate data)
+│   └── corecog/                 # CoreCog collection (58 datasets with cognate data)
 │       ├── forms.csv
 │       ├── languages.csv
 │       ├── parameters.csv
@@ -222,7 +222,7 @@ arcaverborum/
 └── releases/                    # Release archives (ignored by git)
     ├── arcaverborum.V.YYYYMMDD.zip             # Full collection archive
     ├── arcaverborum.V.YYYYMMDD.core.zip        # Core collection archive
-    └── arcaverborum.V.YYYYMMDD.corecog.zip     # CORECOG collection archive
+    └── arcaverborum.V.YYYYMMDD.corecog.zip     # CoreCog collection archive
 ```
 
 ## Troubleshooting

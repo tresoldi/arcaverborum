@@ -395,7 +395,7 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
         'core_cognate_datasets': stats_core['cognates_datasets'],
         'core_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
 
-        # CORECOG collection
+        # CoreCog collection
         'corecog_datasets': stats_corecog['datasets_count'],
         'corecog_forms': stats_corecog['forms_count'],
         'corecog_languages': stats_corecog['languages_count'],
@@ -493,7 +493,7 @@ def main():
     if not OUTPUT_DIR_CORE.exists():
         die(f"Core collection directory not found: {OUTPUT_DIR_CORE}. Run merge_cldf_datasets.py first.")
     if not OUTPUT_DIR_CORECOG.exists():
-        die(f"CORECOG collection directory not found: {OUTPUT_DIR_CORECOG}. Run merge_cldf_datasets.py first.")
+        die(f"CoreCog collection directory not found: {OUTPUT_DIR_CORECOG}. Run merge_cldf_datasets.py first.")
 
     # Verify all required files exist in all directories
     for output_dir, name in [(OUTPUT_DIR_FULL, "full"), (OUTPUT_DIR_CORE, "core"), (OUTPUT_DIR_CORECOG, "corecog")]:
@@ -647,9 +647,9 @@ def main():
     print(f"  Size: {archive_size_core}")
     print(f"  SHA256: {archive_checksum_core}")
 
-    # === PROCESS CORECOG COLLECTION ===
+    # === PROCESS CoreCog COLLECTION ===
     print("\n" + "=" * 70)
-    print("CORECOG COLLECTION")
+    print("CoreCog COLLECTION")
     print("=" * 70)
 
     # Load validation report and extract statistics
@@ -665,7 +665,7 @@ def main():
     context_corecog = {
         "version": version,
         "collection": "corecog",
-        "collection_name": "CORECOG Collection",
+        "collection_name": "CoreCog Collection",
         "release_date": processing_date,
         "processing_date": processing_date,
         "year": today.year,
@@ -708,7 +708,7 @@ def main():
     archive_checksum_corecog = sha256sum(archive_path_corecog)
     archive_size_corecog = format_bytes(archive_path_corecog.stat().st_size)
 
-    print(f"\nCORECOG archive created: {archive_path_corecog}")
+    print(f"\nCoreCog archive created: {archive_path_corecog}")
     print(f"  Size: {archive_size_corecog}")
     print(f"  SHA256: {archive_checksum_corecog}")
 
@@ -759,7 +759,7 @@ def main():
     print("\nArchives:")
     print(f"  Full:    {archive_path_full} ({archive_size_full})")
     print(f"  Core:    {archive_path_core} ({archive_size_core})")
-    print(f"  CORECOG: {archive_path_corecog} ({archive_size_corecog})")
+    print(f"  CoreCog: {archive_path_corecog} ({archive_size_corecog})")
     print("\nNext steps:")
     print(f"  1. Review the archives:")
     print(f"       unzip -l {archive_path_full}")

@@ -10,7 +10,7 @@ A ready-to-use aggregation of comparative wordlist data from 149 Lexibank datase
 - **2.9M+ lexical forms** across 149 datasets and 6,000+ languages
 - **Pre-joined metadata** (no CLDF wrangling needed)
 - **Expert cognate judgments** from 58+ datasets
-- **Three collections:** Full (all data), Core (teaching), CORECOG (cognate research)
+- **Three collections:** Full (all data), Core (teaching), CoreCog (cognate research)
 - **Analysis-ready CSV format** (pandas, R, Excel compatible)
 
 ## For Historical Linguists
@@ -29,7 +29,7 @@ Download pre-built archives from Zenodo:
 
 - **[Full Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - All 149 datasets (~200 MB)
 - **[Core Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 13 curated datasets for teaching (~6 MB)
-- **[CORECOG Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 58 datasets with expert cognate data (~30 MB)
+- **[CoreCog Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 58 datasets with expert cognate data (~30 MB)
 
 Each archive contains:
 - `forms.csv` - Lexical forms with denormalized metadata
@@ -97,7 +97,7 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
 12. sagartst (Sino-Tibetan)
 13. savelyevturkic (Turkic)
 
-### CORECOG Collection
+### CoreCog Collection
 - **58 datasets with expert cognate judgments**
 - Selected for comprehensive cognate-based research
 - All datasets include expert-curated cognate sets
