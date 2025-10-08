@@ -66,17 +66,17 @@
       "archives": {
         "core": {
           "path": "releases/arcaverborum.A.core.20251008.zip",
-          "sha256": "faf2c3d4354dbdd30d37934c4780e14bb6d66fee89aa8fb8e5de087b5a43297c",
+          "sha256": "fcc4d6edcc7b48cf569d6ae435e2267a141881de7e7c6d35add8c187f34655ba",
           "size": 7005260
         },
         "corecog": {
           "path": "releases/arcaverborum.A.corecog.20251008.zip",
-          "sha256": "e73349b08736ababf313e35927fa7941bf0e5db24bd4744323de4cefdc0e169b",
+          "sha256": "57cce32e93738ac2223690f662274291e70e9ff38f8d43160b0393a9fde70cb8",
           "size": 11543545
         },
         "full": {
           "path": "releases/arcaverborum.A.full.20251008.zip",
-          "sha256": "e09e2a4a2bc9d727fd2be44d1b075d57c8058fa240a8a18672a313cc60974e1d",
+          "sha256": "acac5924be9b5767c93acaa49d3941193a54bbed32d330b2c04257dfdf679076",
           "size": 88391285
         }
       },

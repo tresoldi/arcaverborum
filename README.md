@@ -1,21 +1,31 @@
-# Arca Verborum: Global Lexical Database for Computational Historical Linguistics
+# Arca Verborum: Multi-Source Lexical Database for Computational Historical Linguistics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A ready-to-use aggregation of comparative wordlist data from 149 Lexibank datasets, designed for immediate use in computational historical linguistics research and education.
+A project providing analysis-ready lexical databases for computational historical linguistics, integrating data from multiple sources in a common structure.
+
+## Data Series
+
+Arca Verborum organizes data into distinct series, each derived from different sources:
+
+### Series A – Lexibank
+Ready-to-use aggregation of comparative wordlist data from 149 Lexibank datasets.
 
 **Key Features:**
-- **2.9M+ lexical forms** across 149 datasets and 6,000+ languages
+- **2.9M+ lexical forms** across 149 datasets and 9,700+ languages
 - **Pre-joined metadata** (no CLDF wrangling needed)
 - **Expert cognate judgments** from 58+ datasets
 - **Three collections:** Full (all data), Core (teaching), CoreCog (cognate research)
 - **Analysis-ready CSV format** (pandas, R, Excel compatible)
 
-## For Historical Linguists
+### Series B – Wiktionary (Planned)
+Etymological and lexical data derived from Wiktionary.
 
-This dataset solves a common problem: CLDF's normalized structure is excellent for data integrity but requires significant preprocessing before analysis. Arca Verborum provides denormalized, analysis-ready files so you can start working immediately.
+## Why Series A?
+
+CLDF's normalized structure is excellent for data integrity but requires significant preprocessing before analysis. Series A provides denormalized, analysis-ready files so you can start working immediately.
 
 **Perfect for:**
 - Rapid method development and prototyping
@@ -68,6 +78,8 @@ concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))
 ```
 
 ## Collections
+
+Series A is available in three collections tailored for different use cases:
 
 ### Full Collection
 - **149 Lexibank datasets**

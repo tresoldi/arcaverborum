@@ -36,7 +36,7 @@ except ImportError:
     sys.exit(1)
 
 # === CONFIGURATION ===
-MAJOR_VERSION = "A"  # Major version letter (A=Lexibank, B=Wiktionary, etc.)
+MAJOR_VERSION = "A"  # Series letter (A=Series A/Lexibank, B=Series B/Wiktionary, etc.)
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR_FULL = OUTPUT_DIR / "full"
 OUTPUT_DIR_CORE = OUTPUT_DIR / "core"

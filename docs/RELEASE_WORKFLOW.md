@@ -178,8 +178,8 @@ After successful publication:
 
 ## Version Scheme
 
-- **Format:** `V.YYYYMMDD` where V is a letter indicating the major version/data source type (e.g., `A.20251001` for October 1, 2025)
-- **Major version letter:** Currently `A` for Lexibank data; future versions may use `B`, `C`, etc. for different data sources
+- **Format:** `S.YYYYMMDD` where S is a letter indicating the data series (e.g., `A.20251001` for October 1, 2025)
+- **Series letter:** `A` for Lexibank-derived data (Series A), `B` for Wiktionary (Series B, planned), etc.
 - **Same-day revisions:** Append `.N` (e.g., `A.20251001.1`, `A.20251001.2`)
 
 ## File Structure
