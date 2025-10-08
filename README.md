@@ -1,6 +1,6 @@
 # Arca Verborum: Multi-Source Lexical Database for Computational Historical Linguistics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17294927.svg)](https://doi.org/10.5281/zenodo.17294927)
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -31,9 +31,9 @@ While CLDF's normalized structure is excellent for data integrity, it requires s
 
 Download pre-built archives from Zenodo:
 
-- **[Full Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - All 149 datasets (~200 MB)
-- **[Core Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 13 curated datasets for teaching (~6 MB)
-- **[CoreCog Collection](https://doi.org/10.5281/zenodo.XXXXXXX)** - 58 datasets with expert cognate data (~30 MB)
+- **[Full Collection](https://doi.org/10.5281/zenodo.17294927)** - All 149 datasets (~84 MB)
+- **[Core Collection](https://doi.org/10.5281/zenodo.17294927)** - 13 curated datasets for teaching (~7 MB)
+- **[CoreCog Collection](https://doi.org/10.5281/zenodo.17294927)** - 58 datasets with expert cognate data (~11 MB)
 
 Each archive contains:
 - `forms.csv` - Lexical forms with denormalized metadata
@@ -167,8 +167,8 @@ If you use this dataset, please cite both:
                   Computational Historical Linguistics},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.17294927},
+  url          = {https://doi.org/10.5281/zenodo.17294927}
 }
 ```
 
