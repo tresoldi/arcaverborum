@@ -84,6 +84,17 @@
     <h2>Quick Start</h2>
 
     <h3>Python</h3>
+    <pre><code>import csv
+
+# Load the data (example with Core collection)
+with open('{{ core_dir }}/forms.csv', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    forms = list(reader)
+
+# Forms with cognate judgments
+cognate_forms = [f for f in forms if f['Cognacy']]</code></pre>
+
+    <h3>Python / Pandas</h3>
     <pre><code>import pandas as pd
 
 # Load the data (example with Core collection)
