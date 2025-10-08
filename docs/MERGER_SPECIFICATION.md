@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This specification describes the process of merging 149 CLDF (Cross-Linguistic Data Format) v1.0 Wordlist datasets from the Lexibank project into a unified set of Parquet files for analysis. All source datasets are located in `lexibank/<dataset_name>/cldf/` directories.
+This specification describes the process of merging 149 CLDF (Cross-Linguistic Data Format) v1.0 Wordlist datasets from the Lexibank project into a unified set of CSV files for analysis. All source datasets are located in `lexibank/<dataset_name>/cldf/` directories.
 
 ## Input Data
 
@@ -27,20 +27,18 @@ This specification describes the process of merging 149 CLDF (Cross-Linguistic D
 
 ## Output Files
 
-Generate the following files in the project root directory:
+Generate the following files in output directories (output/full/, output/core/, output/corecog/):
 
-1. **forms.parquet** - Merged lexical data with cognate and metadata integration
-2. **languages.parquet** - Merged language metadata
-3. **parameters.parquet** - Merged semantic concepts
-4. **references.parquet** - Reference system versions per dataset
-5. **metadata.parquet** - Dataset-level metadata
-6. **sources.bib** - Merged BibTeX references
-7. **validation_report.json** - Data quality report
-8. **requirements.txt** - Python dependencies
+1. **forms.csv** - Merged lexical data with cognate and metadata integration
+2. **languages.csv** - Merged language metadata
+3. **parameters.csv** - Merged semantic concepts
+4. **metadata.csv** - Dataset-level metadata
+5. **sources.bib** - Merged BibTeX references
+6. **validation_report.json** - Data quality report
 
 ## Detailed Output Schemas
 
-### 1. forms.parquet (24 columns)
+### 1. forms.csv (24 columns)
 
 | Column | Type | Source | Description | Example |
 |--------|------|--------|-------------|---------|
@@ -69,7 +67,7 @@ Generate the following files in the project root directory:
 | `Morpheme_Index` | string | cognates.csv | Partial cognacy: which morpheme is judged (4 datasets) | `1`/`2`/`<NA>` |
 | `Segment_Slice` | string | cognates.csv | Partial cognacy: segment indices (3 datasets) | `1`/`1:3`/`<NA>` |
 
-#### Special Processing Rules for forms.parquet
+#### Special Processing Rules for forms.csv
 
 **ID Prefixing:**
 - Prefix all `ID`, `Language_ID`, `Parameter_ID` values with `<dataset>_`
@@ -129,7 +127,7 @@ Generate the following files in the project root directory:
   3. `None`/`null`: Missing value in an existing column
 - Track which columns were present/absent per dataset for validation report
 
-### 2. languages.parquet (12 columns)
+### 2. languages.csv (12 columns)
 
 | Column | Type | Source | Description | Example |
 |--------|------|--------|-------------|---------|
@@ -151,7 +149,7 @@ Generate the following files in the project root directory:
 - Keep all entries (no deduplication) - different datasets may have different metadata for same Glottocode
 - Preserve all columns as-is after ID prefixing
 
-### 3. parameters.parquet (5 columns)
+### 3. parameters.csv (5 columns)
 
 | Column | Type | Source | Description | Example |
 |--------|------|--------|-------------|---------|
@@ -166,17 +164,12 @@ Generate the following files in the project root directory:
 - Keep all entries (no deduplication) - preserve per-dataset concept mappings
 - `Concepticon_ID` should be consistent across datasets for same concept, but keep separate rows per dataset
 
-### 4. references.parquet (4 columns)
+### 4. References (included in metadata.csv)
 
-| Column | Type | Source | Description | Example |
-|--------|------|--------|-------------|---------|
-| `Dataset` | string | cldf-metadata.json | Dataset name | `aaleykusunda` |
-| `Glottolog_Version` | string | prov:wasDerivedFrom | Glottolog version used | `v5.0` |
-| `Concepticon_Version` | string | prov:wasDerivedFrom | Concepticon version used | `v3.2.0` |
-| `CLTS_Version` | string | prov:wasDerivedFrom | CLTS version used | `v2.3.0` |
+Reference version information is included in the validation_report.json under the "version_distribution" key.
 
 #### Extraction Logic
-Parse `cldf-metadata.json` for each dataset:
+Parse `cldf-metadata.json` for each dataset and include in validation report:
 ```json
 "prov:wasDerivedFrom": [
   {
@@ -197,7 +190,7 @@ Parse `cldf-metadata.json` for each dataset:
 ]
 ```
 
-### 5. metadata.parquet (11 columns)
+### 5. metadata.csv (11 columns)
 
 | Column | Type | Source | Description | Example |
 |--------|------|--------|-------------|---------|
@@ -368,13 +361,9 @@ Generate comprehensive data quality report in JSON format.
    - Count forms that appear in multiple rows due to multiple cognate judgments
    - Report total duplicate IDs
 
-### 8. requirements.txt
+### 8. Requirements
 
-```
-pandas>=2.0.0
-pyarrow>=14.0.0
-visidata>=3.0
-```
+See requirements.txt in repository root for dependencies.
 
 ## Data Processing Pipeline
 
@@ -580,18 +569,22 @@ prefixed_sources = prefix_all_bibtex_keys(sources_bib, dataset)
 all_sources.append(prefixed_sources)
 ```
 
-### Step 4: Concatenation
+### Step 4: Streaming Append to CSV
+
+The implementation uses streaming CSV appends rather than in-memory concatenation to handle large datasets efficiently:
 
 ```python
-# Concatenate all datasets
-all_forms = pd.concat(dataset_forms_list, ignore_index=True)
-all_languages = pd.concat(dataset_languages_list, ignore_index=True)
-all_parameters = pd.concat(dataset_parameters_list, ignore_index=True)
-all_references = pd.DataFrame(references_list)
-all_metadata = pd.DataFrame(metadata_list)
+# Append each dataset to CSV files as processed
+for dataset in datasets:
+    forms, languages, parameters, ... = process_dataset(dataset)
 
-# Merge BibTeX files
-merge_bibtex_files(all_sources, 'sources.bib')
+    # Append to CSV files (write header only on first append)
+    append_to_csv(output_dir / 'forms.csv', forms, is_first_write)
+    append_to_csv(output_dir / 'languages.csv', languages, is_first_write)
+    append_to_csv(output_dir / 'parameters.csv', parameters, is_first_write)
+
+    # Accumulate metadata and validation stats
+    validator.update(dataset, forms, languages, parameters, ...)
 ```
 
 ### Step 5: Validation
@@ -600,21 +593,22 @@ Generate `validation_report.json` with all metrics described in section 7.
 
 ### Step 6: Output
 
+CSV files are written incrementally during processing. Final outputs:
+
 ```python
-# Write Parquet files with compression
-all_forms.to_parquet('forms.parquet', compression='snappy', index=False)
-all_languages.to_parquet('languages.parquet', compression='snappy', index=False)
-all_parameters.to_parquet('parameters.parquet', compression='snappy', index=False)
-all_references.to_parquet('references.parquet', compression='snappy', index=False)
-all_metadata.to_parquet('metadata.parquet', compression='snappy', index=False)
+# CSV files are already written via streaming append
 
-# Write validation report
-with open('validation_report.json', 'w', encoding='utf-8') as f:
-    json.dump(validation_report, f, indent=2, ensure_ascii=False)
+# Write metadata and validation report
+pd.DataFrame(validator.all_metadata).to_csv(
+    output_dir / 'metadata.csv', index=False
+)
 
-# Write requirements.txt
-with open('requirements.txt', 'w') as f:
-    f.write('pandas>=2.0.0\npyarrow>=14.0.0\nvisidata>=3.0\n')
+with open(output_dir / 'validation_report.json', 'w', encoding='utf-8') as f:
+    json.dump(validator.generate_report(), f, indent=2, ensure_ascii=False)
+
+# Write merged BibTeX
+with open(output_dir / 'sources.bib', 'w', encoding='utf-8') as f:
+    f.write('\n\n'.join(validator.all_bibtex))
 ```
 
 ## Important Implementation Notes
@@ -649,31 +643,32 @@ def prefix_bibtex_keys(source_str, dataset):
 ### Encoding
 
 - All CSV files use UTF-8 encoding
-- Parquet files preserve Unicode characters
 - BibTeX files use UTF-8
 
 ### Data Types
 
-Ensure proper data types in Parquet output:
+Ensure proper data types in CSV output:
 - IDs: `string` (not object)
-- Booleans: `boolean` (nullable)
+- Booleans: `boolean` (nullable) - represented as True/False/NA in CSV
 - Floats: `float64`
 - Integers: `int64`
 
 ### Performance Considerations
 
-- Process datasets in batches if memory constrained
+- Use streaming CSV appends to avoid loading all data in memory
+- Process datasets one at a time and append incrementally
 - Use efficient pandas operations (avoid iterrows when possible)
-- Write Parquet files with compression
+- Accumulate validation statistics incrementally using ValidationAccumulator
 
 ## Expected Output Sizes
 
-Approximate row counts:
-- **forms.parquet**: ~500,000-1,000,000 rows (depending on cognate row multiplication)
-- **languages.parquet**: ~2,000-5,000 rows
-- **parameters.parquet**: ~3,000-10,000 rows
-- **references.parquet**: 149 rows (one per dataset)
-- **metadata.parquet**: 149 rows (one per dataset)
+Approximate row counts and file sizes:
+- **forms.csv**: ~2.9M rows, ~500 MB (depending on cognate row multiplication)
+- **languages.csv**: ~10,000 rows, ~1 MB
+- **parameters.csv**: ~170,000 rows, ~12 MB
+- **metadata.csv**: 149 rows (one per dataset)
+- **sources.bib**: ~2 MB
+- **validation_report.json**: ~100 KB
 
 ## Success Criteria
 

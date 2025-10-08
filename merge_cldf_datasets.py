@@ -19,7 +19,6 @@ from typing import Dict, List, Optional, Tuple
 import argparse
 import sys
 import gc
-import os
 
 try:
     import bibtexparser
@@ -73,15 +72,15 @@ logger = logging.getLogger(__name__)
 
 # === HELPER FUNCTIONS ===
 
-def load_collection_datasets() -> tuple[set, set]:
+def load_collection_datasets() -> tuple[set[str], set[str]]:
     """
     Load lists of core and corecog datasets from datasets.csv.
 
     @return: Tuple of (core_datasets, corecog_datasets)
-    @rtype: tuple[set, set]
+    @rtype: tuple[set[str], set[str]]
     """
-    core_datasets = set()
-    corecog_datasets = set()
+    core_datasets: set[str] = set()
+    corecog_datasets: set[str] = set()
 
     if not DATASETS_CSV.exists():
         logger.warning(f"datasets.csv not found at {DATASETS_CSV}, no collection datasets will be filtered")
@@ -350,7 +349,7 @@ class ValidationAccumulator:
         @return: Validation report dictionary
         """
         # Version distribution
-        version_dist = {
+        version_dist: Dict[str, Dict[str, int]] = {
             'glottolog': {},
             'concepticon': {},
             'clts': {}
@@ -648,23 +647,23 @@ def merge_cognate_data(forms: pd.DataFrame, cognates: Optional[pd.DataFrame], da
     # Aggregate cognates data per form
     # Take first value for each field (simplified - no row multiplication)
     # Build aggregation dict dynamically based on available columns
-    agg_dict = {
+    agg_dict: Dict[str, object] = {
         'Cognateset_ID': lambda x: ';'.join(x.dropna()),  # All cognatesets
     }
 
     # Add optional columns if they exist
     if 'Alignment' in cognates.columns:
-        agg_dict['Alignment'] = 'first'
+        agg_dict['Alignment'] = 'first'  # type: ignore[assignment]
     if 'Doubt' in cognates.columns:
-        agg_dict['Doubt'] = 'first'
+        agg_dict['Doubt'] = 'first'  # type: ignore[assignment]
     if 'Cognate_Detection_Method' in cognates.columns:
-        agg_dict['Cognate_Detection_Method'] = 'first'
+        agg_dict['Cognate_Detection_Method'] = 'first'  # type: ignore[assignment]
     if 'Source' in cognates.columns:
-        agg_dict['Source'] = 'first'
+        agg_dict['Source'] = 'first'  # type: ignore[assignment]
     if 'Morpheme_Index' in cognates.columns:
-        agg_dict['Morpheme_Index'] = 'first'
+        agg_dict['Morpheme_Index'] = 'first'  # type: ignore[assignment]
     if 'Segment_Slice' in cognates.columns:
-        agg_dict['Segment_Slice'] = 'first'
+        agg_dict['Segment_Slice'] = 'first'  # type: ignore[assignment]
 
     cognate_agg = cognates.groupby('Form_ID').agg(agg_dict).reset_index()
 
@@ -724,7 +723,6 @@ def join_language_metadata(forms: pd.DataFrame, languages: pd.DataFrame) -> pd.D
     @return: Forms with language metadata
     """
     # Select columns to join
-    lang_cols = ['ID', 'Glottocode', 'Glottolog_Name']
     available_cols = ['ID'] + [c for c in ['Glottocode', 'Glottolog_Name'] if c in languages.columns]
 
     forms = forms.merge(
@@ -931,7 +929,7 @@ def generate_validation_report(
                 forms_with_segment_slice += dataset_forms['Segment_Slice'].notna().sum()
 
     # Version distribution
-    version_dist = {
+    version_dist: Dict[str, Dict[str, int]] = {
         'glottolog': {},
         'concepticon': {},
         'clts': {}
@@ -959,8 +957,8 @@ def generate_validation_report(
                 null_pct[col] = round(100 * null_count / total, 1) if total > 0 else 0
 
         # Track column presence
-        track = next((t for t in all_column_tracking if t['dataset'] == dataset), None)
-        columns_present = track['forms_columns_present'] if track else []
+        track = next((t for t in all_column_tracking if t['dataset'] == dataset), {})  # type: ignore[arg-type]
+        columns_present = track.get('forms_columns_present', []) if track else []
 
         completeness[dataset] = {
             'forms': meta['Form_Count'],

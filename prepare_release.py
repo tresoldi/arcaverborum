@@ -21,8 +21,6 @@ import argparse
 import datetime
 import hashlib
 import json
-import os
-import shutil
 import subprocess
 import sys
 import zipfile
@@ -86,11 +84,12 @@ def format_bytes(size: int) -> str:
     @param size: Size in bytes
     @return: Formatted string (e.g., "527 MB")
     """
+    size_float = float(size)
     for unit in ["B", "KB", "MB", "GB"]:
-        if size < 1024.0:
-            return f"{size:.0f} {unit}"
-        size /= 1024.0
-    return f"{size:.1f} TB"
+        if size_float < 1024.0:
+            return f"{size_float:.0f} {unit}"
+        size_float = size_float / 1024.0
+    return f"{size_float:.1f} TB"
 
 
 def format_number(n: int) -> str:
@@ -469,10 +468,10 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
     index_template = env.get_template("index.html.j2")
     index_html = index_template.render(**context)
     (docs_dir / "index.html").write_text(index_html, encoding="utf-8")
-    print(f"  Wrote docs/index.html")
+    print("  Wrote docs/index.html")
 
     print("\n" + "=" * 70)
-    print(f"Website generated successfully in docs/")
+    print("Website generated successfully in docs/")
     print("=" * 70)
 
 
@@ -806,13 +805,13 @@ def main():
     print(f"  Core:    {archive_path_core} ({archive_size_core})")
     print(f"  CoreCog: {archive_path_corecog} ({archive_size_corecog})")
     print("\nNext steps:")
-    print(f"  1. Review the archives:")
+    print("  1. Review the archives:")
     print(f"       unzip -l {archive_path_full}")
     print(f"       unzip -l {archive_path_core}")
     print(f"       unzip -l {archive_path_corecog}")
-    print(f"  2. Preview Zenodo metadata: python zenodo_publish.py --show")
-    print(f"  3. Test on sandbox: python zenodo_publish.py --sandbox")
-    print(f"  4. Publish to Zenodo: python zenodo_publish.py")
+    print("  2. Preview Zenodo metadata: python zenodo_publish.py --show")
+    print("  3. Test on sandbox: python zenodo_publish.py --sandbox")
+    print("  4. Publish to Zenodo: python zenodo_publish.py")
     if not args.git_tag:
         print(f"  5. (Optional) Create git tag: python prepare_release.py --version {version} --git-tag")
     print()
