@@ -1,41 +1,23 @@
 title: 'Arca Verborum: A Global Lexical Database for Computational Historical Linguistics'
 version: A.20251008
 upload_type: dataset
-description: 'Arca Verborum provides denormalized, analysis-ready comparative wordlist
-  data
+description: |
+  Arca Verborum is a multi-source lexical database for computational historical linguistics. Series A provides analysis-ready comparative wordlist data from 149 Lexibank datasets (List et al., 2022), containing over 2.9 million lexical forms across 9,700+ languages.
 
-  from 149 Lexibank datasets, containing over 2.9 million lexical forms. The data
+  While CLDF's normalized structure is excellent for data integrity, it requires significant preprocessing before analysis. Series A provides denormalized, pre-joined CSV files for immediate use in research and education.
 
-  has been aggregated, harmonized, and structured for immediate use in computational
+  This release includes three collections: Full (all 149 datasets), Core (13 curated datasets for teaching), and CoreCog (58 datasets with expert cognate judgments).
 
-  historical linguistics research and education.
-
-
-  This dataset addresses accessibility challenges in working with CLDF-formatted
-
-  data by providing pre-joined metadata, aggregated cognate judgments, and global
-
-  unique identifiers. It is designed for rapid method development, student projects,
-
-  and exploratory analysis while preserving all essential linguistic information.
-
+  **Citation:** If you use this dataset, you must cite both Arca Verborum and the Lexibank project (List et al., 2022, DOI: 10.1038/s41597-022-01432-0). See DATASET_DESCRIPTION.md in the archive for complete citation information.
 
   Key features:
-
-  - Single CSV files with denormalized metadata
-
+  - Denormalized CSV files with pre-joined metadata
+  - 95% Glottolog coverage, 85% Concepticon coverage
   - Aggregated cognate judgments from 81 datasets
-
-  - Glottolog and Concepticon integration
-
   - Comprehensive bibliographic references
-
   - Quality validation reports
 
-
   See DATASET_DESCRIPTION.md in the archive for complete documentation.
-
-  '
 creators:
 - name: Tresoldi, Tiago
   affiliation: Department of Linguistics and Philology, Uppsala University
@@ -53,6 +35,11 @@ keywords:
 license: CC-BY-4.0
 communities:
 - identifier: linguistics
+related_identifiers:
+- identifier: 10.1038/s41597-022-01432-0
+  relation: IsDerivedFrom
+  resource_type: publication-article
+  scheme: doi
 files:
 - path: releases/arcaverborum.A.full.20251008.zip
   name: arcaverborum.A.full.20251008.zip

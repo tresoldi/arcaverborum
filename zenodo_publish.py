@@ -137,6 +137,8 @@ def build_metadata_payload(meta):
         md["communities"] = [{"identifier": c["name"] if isinstance(c, dict) and "name" in c else c} for c in meta["communities"]]
     if meta.get("publication_date"):
         md["publication_date"] = meta["publication_date"]
+    if meta.get("related_identifiers"):
+        md["related_identifiers"] = meta["related_identifiers"]
     return md
 
 def main():
