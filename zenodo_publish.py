@@ -223,7 +223,7 @@ def publish_to_zenodo(
 
         response = ensure_zenodo(
             key=key,
-            data=metadata_dict,
+            data={"metadata": metadata_dict},
             paths=paths,
             sandbox=sandbox,
         )
