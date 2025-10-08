@@ -6,7 +6,7 @@ This document describes how to create and publish new releases of Arca Verborum 
 
 The release system consists of:
 - `prepare_release.py` - Automates release preparation (creates three ZIP archives)
-- `zenodo_publish.py` - Handles Zenodo API interactions
+- `zenodo_publish.py` - Handles Zenodo uploads using `zenodo-client` library
 - `templates/` - Jinja2 templates for documentation
 - `zenodo.metadata.yml` - Zenodo metadata configuration
 
@@ -27,9 +27,11 @@ The release system consists of:
    - **Production:** Get token from https://zenodo.org/account/settings/applications/tokens/new/
 
    ```bash
-   export ZENODO_SANDBOX_TOKEN="your-sandbox-token"  # For testing
-   export ZENODO_TOKEN="your-production-token"       # For real releases
+   export ZENODO_SANDBOX_API_TOKEN="your-sandbox-token"  # For testing
+   export ZENODO_API_TOKEN="your-production-token"       # For real releases
    ```
+
+   **Note:** The `zenodo-client` library also supports storing tokens in `~/.config/zenodo.ini` using PyStow. See the [zenodo-client documentation](https://github.com/cthoyt/zenodo-client) for details.
 
 ## Release Process
 
@@ -116,7 +118,7 @@ unzip -p releases/arcaverborum.A.corecog.20251001.zip arcaverborum-A-corecog-202
 Preview the Zenodo metadata:
 
 ```bash
-ZENODO_TOKEN=dummy python zenodo_publish.py --show
+python zenodo_publish.py --show
 ```
 
 ### Step 5: Test on Zenodo Sandbox
@@ -193,7 +195,7 @@ arcaverborum/
 ├── clone_lexibank.py            # Clone Lexibank repositories
 ├── merge_cldf_datasets.py       # Main data processing script (builds all three collections)
 ├── prepare_release.py           # Release preparation automation (creates all three archives)
-├── zenodo_publish.py            # Zenodo API client
+├── zenodo_publish.py            # Zenodo upload script (using zenodo-client)
 ├── templates/                   # Documentation templates
 │   ├── DATASET_DESCRIPTION.md.j2
 │   └── RELEASE_NOTES.md.j2

@@ -1,271 +1,313 @@
 #!/usr/bin/env python3
+"""
+Publish Arca Verborum dataset to Zenodo using zenodo-client library.
+
+This script reads metadata from zenodo.metadata.yml and uploads the dataset
+to Zenodo (or sandbox), handling versioning automatically.
+"""
 import argparse
 import json
-import os
 import sys
-import time
-import hashlib
 from pathlib import Path
+from typing import Any, Dict, List
 
-import requests
-
-try:
-    import yaml
-except Exception:
-    print("Please `pip install pyyaml requests`", file=sys.stderr)
-    sys.exit(1)
+import yaml
+from zenodo_client import ensure_zenodo
 
 STATE_FILE = Path(".zenodo_state.json")
 META_FILE = Path("zenodo.metadata.yml")
 
-PROD_API = "https://zenodo.org/api"
-SANDBOX_API = "https://sandbox.zenodo.org/api"
 
-def load_state():
+def load_state() -> Dict[str, Any]:
+    """
+    Load state from .zenodo_state.json.
+
+    @return: State dictionary
+    @rtype: Dict[str, Any]
+    """
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text(encoding="utf-8"))
     return {}
 
-def save_state(state):
+
+def save_state(state: Dict[str, Any]) -> None:
+    """
+    Save state to .zenodo_state.json.
+
+    @param state: State dictionary to save
+    @type state: Dict[str, Any]
+    """
     STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True), encoding="utf-8")
 
-def sha256sum(p: Path) -> str:
-    h = hashlib.sha256()
-    with p.open("rb") as f:
-        for chunk in iter(lambda: f.read(8192), b""):
-            h.update(chunk)
-    return h.hexdigest()
 
-def die(msg, code=1):
+def die(msg: str, code: int = 1) -> None:
+    """
+    Print error message and exit.
+
+    @param msg: Error message
+    @type msg: str
+    @param code: Exit code
+    @type code: int
+    """
     print(f"ERROR: {msg}", file=sys.stderr)
     sys.exit(code)
 
-def zenodo_headers(token):
-    return {"Authorization": f"Bearer {token}"}
 
-def ensure_token(sandbox: bool):
-    env = "ZENODO_SANDBOX_TOKEN" if sandbox else "ZENODO_TOKEN"
-    token = os.getenv(env)
-    if not token:
-        die(f"Missing {env} environment variable.")
-    return token
+def read_metadata() -> Dict[str, Any]:
+    """
+    Read and validate metadata from zenodo.metadata.yml.
 
-def read_metadata():
+    @return: Metadata dictionary
+    @rtype: Dict[str, Any]
+    """
     if not META_FILE.exists():
         die(f"Metadata file {META_FILE} not found.")
+
     meta = yaml.safe_load(META_FILE.read_text(encoding="utf-8"))
+
+    # Validate required fields
     required = ["title", "version", "description", "files"]
     for k in required:
         if k not in meta:
             die(f"Missing required field `{k}` in {META_FILE}")
+
     if not isinstance(meta["files"], list) or len(meta["files"]) == 0:
         die("`files` must be a non-empty list.")
+
     return meta
 
-def get_api_base(sandbox: bool):
-    return SANDBOX_API if sandbox else PROD_API
 
-def list_depositions(api, token, size=200):
-    r = requests.get(f"{api}/deposit/depositions", headers=zenodo_headers(token), params={"size": size})
-    r.raise_for_status()
-    return r.json()
+def resolve_file_paths(meta: Dict[str, Any]) -> List[Path]:
+    """
+    Resolve and validate file paths from metadata.
 
-def find_deposition_by_conceptdoi(api, token, conceptdoi):
-    # Search among your depositions (auth required), match conceptdoi
-    for dep in list_depositions(api, token, size=200):
-        conceptdoi_dep = (dep.get("conceptdoi") or dep.get("concept_doi"))
-        if conceptdoi_dep and conceptdoi_dep == conceptdoi:
-            return dep
-    return None
+    @param meta: Metadata dictionary
+    @type meta: Dict[str, Any]
+    @return: List of resolved file paths
+    @rtype: List[Path]
+    """
+    resolved_paths = []
+    for f in meta["files"]:
+        path = Path(f["path"]).expanduser().resolve()
+        if not path.exists():
+            die(f"File not found: {path}")
+        resolved_paths.append(path)
 
-def create_new_deposition(api, token, metadata):
-    r = requests.post(f"{api}/deposit/depositions",
-                      headers={**zenodo_headers(token), "Content-Type": "application/json"},
-                      data=json.dumps({"metadata": metadata}))
-    r.raise_for_status()
-    return r.json()
+    return resolved_paths
 
-def new_version_from_deposition(api, token, dep_id):
-    # POST /deposit/depositions/{id}/actions/newversion -> returns links.latest_draft
-    r = requests.post(f"{api}/deposit/depositions/{dep_id}/actions/newversion", headers=zenodo_headers(token))
-    r.raise_for_status()
-    latest_draft_url = r.json()["links"]["latest_draft"]
-    # Follow the draft link to get the new draft deposition JSON
-    r2 = requests.get(latest_draft_url, headers=zenodo_headers(token))
-    r2.raise_for_status()
-    return r2.json()
 
-def update_metadata(api, token, dep_id, metadata):
-    r = requests.put(f"{api}/deposit/depositions/{dep_id}",
-                     headers={**zenodo_headers(token), "Content-Type": "application/json"},
-                     data=json.dumps({"metadata": metadata}))
-    r.raise_for_status()
-    return r.json()
+def build_metadata_dict(meta: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Build metadata dictionary for Zenodo API from our metadata format.
 
-def upload_file_to_bucket(bucket_url, token, local_path: Path, target_name: str, retries=3):
-    for attempt in range(1, retries+1):
-        with local_path.open("rb") as f:
-            r = requests.put(f"{bucket_url}/{target_name}",
-                             headers=zenodo_headers(token),
-                             data=f)
-        if r.status_code in (200, 201):
-            return True
-        # retry on transient errors
-        time.sleep(2 * attempt)
-    r.raise_for_status()  # if we got here, raise last error
-    return False
+    Uses dict format instead of Metadata class to support related_identifiers.
 
-def publish_deposition(api, token, dep_id):
-    r = requests.post(f"{api}/deposit/depositions/{dep_id}/actions/publish", headers=zenodo_headers(token))
-    r.raise_for_status()
-    return r.json()
+    @param meta: Our metadata from zenodo.metadata.yml
+    @type meta: Dict[str, Any]
+    @return: Metadata dict for Zenodo API
+    @rtype: Dict[str, Any]
+    """
+    # Build creators list
+    creators_list = []
+    for c in meta.get("creators", []):
+        creator_dict = {"name": c["name"]}
+        if "affiliation" in c:
+            creator_dict["affiliation"] = c["affiliation"]
+        if "orcid" in c:
+            creator_dict["orcid"] = c["orcid"]
+        creators_list.append(creator_dict)
 
-def build_metadata_payload(meta):
-    md = {
+    # Build metadata dict
+    metadata = {
         "title": meta["title"],
         "upload_type": meta.get("upload_type", "dataset"),
         "description": meta["description"],
         "version": meta["version"],
+        "creators": creators_list,
+        "keywords": meta.get("keywords", []),
+        "license": meta.get("license", "CC-BY-4.0"),
     }
-    if meta.get("creators"):
-        md["creators"] = meta["creators"]
-    if meta.get("keywords"):
-        md["keywords"] = meta["keywords"]
-    if meta.get("license"):
-        md["license"] = meta["license"]
-    if meta.get("communities"):
-        md["communities"] = [{"identifier": c["name"] if isinstance(c, dict) and "name" in c else c} for c in meta["communities"]]
-    if meta.get("publication_date"):
-        md["publication_date"] = meta["publication_date"]
-    if meta.get("related_identifiers"):
-        md["related_identifiers"] = meta["related_identifiers"]
-    return md
 
-def main():
-    parser = argparse.ArgumentParser(description="Publish dataset to Zenodo (manual, simple).")
-    parser.add_argument("--sandbox", action="store_true", help="Use Zenodo sandbox.")
-    parser.add_argument("--dry-run", action="store_true", help="Do everything except upload/publish.")
-    parser.add_argument("--force", action="store_true", help="Bypass version check.")
-    parser.add_argument("--show", action="store_true", help="Print resolved metadata and exit.")
-    args = parser.parse_args()
+    # Add optional fields
+    if "communities" in meta:
+        # Convert communities to expected format
+        communities = []
+        for c in meta["communities"]:
+            if isinstance(c, dict):
+                communities.append({"identifier": c.get("identifier", c.get("name", ""))})
+            else:
+                communities.append({"identifier": str(c)})
+        metadata["communities"] = communities
 
-    meta = read_metadata()
+    if "related_identifiers" in meta:
+        metadata["related_identifiers"] = meta["related_identifiers"]
+
+    if "publication_date" in meta:
+        metadata["publication_date"] = meta["publication_date"]
+
+    return metadata
+
+
+def show_metadata_preview(meta: Dict[str, Any], sandbox: bool) -> None:
+    """
+    Print metadata preview and exit.
+
+    @param meta: Metadata dictionary
+    @type meta: Dict[str, Any]
+    @param sandbox: Whether using sandbox environment
+    @type sandbox: bool
+    """
+    metadata_dict = build_metadata_dict(meta)
+    paths = resolve_file_paths(meta)
+
+    preview = {
+        "environment": "sandbox" if sandbox else "production",
+        "metadata": metadata_dict,
+        "files": [str(p) for p in paths],
+    }
+
+    print(json.dumps(preview, indent=2))
+
+
+def publish_to_zenodo(
+    meta: Dict[str, Any],
+    sandbox: bool = False,
+    dry_run: bool = False,
+    force: bool = False,
+) -> None:
+    """
+    Publish dataset to Zenodo using zenodo-client library.
+
+    @param meta: Metadata dictionary
+    @type meta: Dict[str, Any]
+    @param sandbox: Use Zenodo sandbox environment
+    @type sandbox: bool
+    @param dry_run: Dry run mode (not implemented in zenodo-client)
+    @type dry_run: bool
+    @param force: Force publication even if version exists
+    @type force: bool
+    """
+    # Check version against state
     state = load_state()
-    token = ensure_token(args.sandbox)
-    api = get_api_base(args.sandbox)
+    last_version = state.get("last_version")
 
-    # Resolve files and compute checksums
-    resolved_files = []
-    for f in meta["files"]:
-        lp = Path(f["path"]).expanduser().resolve()
-        if not lp.exists():
-            die(f"File not found: {lp}")
-        resolved_files.append({
-            "local": lp,
-            "name": f.get("name", lp.name),
-            "sha256": sha256sum(lp),
-            "size": lp.stat().st_size
-        })
+    if not force and last_version == meta["version"]:
+        die(
+            f"Version {meta['version']} was already published "
+            f"(state says last_version={last_version}). Use --force if intentional."
+        )
 
-    if args.show:
-        # Convert resolved_files to JSON-serializable format
-        files_info = [{
-            "local": str(f["local"]),
-            "name": f["name"],
-            "sha256": f["sha256"],
-            "size": f["size"]
-        } for f in resolved_files]
+    # Resolve file paths
+    paths = resolve_file_paths(meta)
 
-        print(json.dumps({
-            "api": api,
-            "metadata": build_metadata_payload(meta),
-            "files": files_info
-        }, indent=2))
+    # Build metadata dictionary
+    metadata_dict = build_metadata_dict(meta)
+
+    # Dry run warning
+    if dry_run:
+        print("WARNING: --dry-run not fully supported with zenodo-client.", file=sys.stderr)
+        print("         Showing what would be uploaded:", file=sys.stderr)
+        print(f"\nMetadata:\n{json.dumps(metadata_dict, indent=2)}")
+        print(f"\nFiles: {[str(p) for p in paths]}")
+        print("\nTo actually publish, run without --dry-run")
         return
 
-    last_version = state.get("last_version")
-    if last_version == meta["version"] and not args.force:
-        die(f"Version {meta['version']} was already published (state says last_version={last_version}). Use --force if intentional.")
+    print(f"Publishing to {'sandbox' if sandbox else 'production'} Zenodo...")
+    print(f"Version: {meta['version']}")
+    print(f"Files: {len(paths)}")
 
-    conceptdoi = meta.get("conceptdoi") or state.get("conceptdoi")
-    deposition_json = None
+    try:
+        # Use ensure_zenodo for automatic versioning
+        # The 'key' parameter is used to store/retrieve deposition ID
+        key = "arcaverborum_sandbox" if sandbox else "arcaverborum"
 
-    if conceptdoi:
-        existing = find_deposition_by_conceptdoi(api, token, conceptdoi)
-        if not existing:
-            print(f"Note: concept DOI {conceptdoi} not found among your depositions. Will create a NEW concept.", file=sys.stderr)
-            deposition_json = None
-        else:
-            print(f"Found existing concept DOI {conceptdoi}; creating a new version…")
-            if args.dry_run:
-                print("[dry-run] Would POST newversion and get latest draft.")
-                # fake deposition-like structure for preview
-                deposition_json = {"id": existing["id"], "links": {"bucket": "(dry-run)"}}
-            else:
-                draft = new_version_from_deposition(api, token, existing["id"])
-                deposition_json = draft
-    if deposition_json is None:
-        # Create fresh deposition with metadata
-        md_payload = build_metadata_payload(meta)
-        if args.dry_run:
-            print("[dry-run] Would create new deposition with metadata:")
-            print(json.dumps(md_payload, indent=2))
-            deposition_json = {"id": 0, "links": {"bucket": "(dry-run)"}}
-        else:
-            deposition_json = create_new_deposition(api, token, md_payload)
+        response = ensure_zenodo(
+            key=key,
+            data=metadata_dict,
+            paths=paths,
+            sandbox=sandbox,
+        )
 
-    dep_id = deposition_json["id"]
-    print(f"Working deposition id: {dep_id}")
+        # Extract information from response
+        response_data = response.json()
 
-    # Upload files
-    bucket_url = deposition_json["links"].get("bucket")
-    if not bucket_url:
-        if args.dry_run:
-            bucket_url = "(dry-run)"
-        else:
-            die("Bucket link not found on deposition.")
+        # Update state
+        new_state = {
+            "last_version": meta["version"],
+            "last_publication_date": response_data.get("created"),
+        }
 
-    for f in resolved_files:
-        print(f"Uploading {f['local'].name} ({f['size']} bytes) as {f['name']} …")
-        if args.dry_run:
-            print(f"[dry-run] Would PUT to {bucket_url}/{f['name']}")
-        else:
-            upload_file_to_bucket(bucket_url, token, f["local"], f["name"])
-            print(f"  ✓ uploaded; sha256={f['sha256']}")
+        # Try to get concept DOI if available
+        if "conceptdoi" in response_data:
+            new_state["conceptdoi"] = response_data["conceptdoi"]
+        elif "concept_doi" in response_data:
+            new_state["conceptdoi"] = response_data["concept_doi"]
 
-    # Ensure metadata (e.g., if we created newversion first, we still set/refresh metadata)
-    md_payload = build_metadata_payload(meta)
-    if args.dry_run:
-        print("[dry-run] Would PUT metadata:")
-        print(json.dumps(md_payload, indent=2))
-    else:
-        update_metadata(api, token, dep_id, md_payload)
-        print("  ✓ metadata updated")
+        # Merge with existing state
+        state.update(new_state)
+        save_state(state)
 
-    # Publish
-    if args.dry_run:
-        print("[dry-run] Would publish now.")
-        publish_json = {"conceptdoi": "(dry-run)"}
-    else:
-        publish_json = publish_deposition(api, token, dep_id)
-        print("  ✓ published")
+        print("\n✓ Successfully published to Zenodo!")
+        print(f"  Concept DOI: {new_state.get('conceptdoi', 'N/A')}")
 
-    # Update local state
-    # After publishing, Zenodo responds with concept DOI; store it for next runs.
-    new_conceptdoi = publish_json.get("conceptdoi") or publish_json.get("concept_doi") or conceptdoi
-    state["last_version"] = meta["version"]
-    if new_conceptdoi:
-        state["conceptdoi"] = new_conceptdoi
-    save_state(state)
+        # Print record URL if available
+        if "links" in response_data:
+            record_url = response_data["links"].get("record_html") or response_data["links"].get("html")
+            if record_url:
+                print(f"  Record URL: {record_url}")
 
-    print("\nDone.")
-    if new_conceptdoi:
-        print(f"Concept DOI: {new_conceptdoi}")
-    if not args.dry_run:
-        record_url = publish_json["links"].get("record_html") or publish_json["links"].get("html")
-        if record_url:
-            print(f"Record: {record_url}")
+        print(f"\nState saved to {STATE_FILE}")
+
+    except Exception as e:
+        die(f"Failed to publish to Zenodo: {e}")
+
+
+def main() -> None:
+    """
+    Main entry point for the script.
+    """
+    parser = argparse.ArgumentParser(
+        description="Publish Arca Verborum dataset to Zenodo using zenodo-client."
+    )
+    parser.add_argument(
+        "--sandbox",
+        action="store_true",
+        help="Use Zenodo sandbox environment (requires ZENODO_SANDBOX_TOKEN)"
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show what would be uploaded without actually publishing"
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force publication even if version was already published"
+    )
+    parser.add_argument(
+        "--show",
+        action="store_true",
+        help="Show metadata preview and exit"
+    )
+
+    args = parser.parse_args()
+
+    # Read metadata
+    meta = read_metadata()
+
+    # Show preview and exit if requested
+    if args.show:
+        show_metadata_preview(meta, args.sandbox)
+        return
+
+    # Publish to Zenodo
+    publish_to_zenodo(
+        meta=meta,
+        sandbox=args.sandbox,
+        dry_run=args.dry_run,
+        force=args.force,
+    )
+
 
 if __name__ == "__main__":
     main()
-
