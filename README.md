@@ -25,13 +25,7 @@ Etymological and lexical data derived from Wiktionary.
 
 ## Why Series A?
 
-CLDF's normalized structure is excellent for data integrity but requires significant preprocessing before analysis. Series A provides denormalized, analysis-ready files so you can start working immediately.
-
-**Perfect for:**
-- Rapid method development and prototyping
-- Student projects and teaching computational linguistics
-- Cross-linguistic statistical analysis
-- Training machine learning models on linguistic data
+While CLDF's normalized structure is excellent for data integrity, it requires significant preprocessing before analysis. Series A provides denormalized, pre-joined CSV files so you can start working immediately. It is intended for rapid method development and prototyping, student projects, and teaching computational linguistics, and will be used to bootstrap and validate other series.
 
 ## Download Data (Recommended)
 
