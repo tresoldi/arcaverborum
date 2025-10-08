@@ -70,9 +70,13 @@
     <p><strong>CoreCog Collection:</strong> {{ corecog_datasets }} datasets with expert cognate judgments for cognate research.</p>
 
     <p style="text-align: center; margin-top: 1.5em;">
-        <a href="{{ full_doi_concept }}" class="download-btn">Download Full</a>
-        <a href="{{ core_doi_concept }}" class="download-btn">Download Core</a>
-        <a href="{{ corecog_doi_concept }}" class="download-btn">Download CoreCog</a>
+        <a href="{{ full_download_url }}" class="download-btn">Download Full</a>
+        <a href="{{ core_download_url }}" class="download-btn">Download Core</a>
+        <a href="{{ corecog_download_url }}" class="download-btn">Download CoreCog</a>
+    </p>
+
+    <p style="text-align: center; font-size: 0.9em; margin-top: 0.5em;">
+        All collections share a single DOI: <a href="{{ zenodo_doi }}">{{ zenodo_doi }}</a>
     </p>
 </section>
 
@@ -82,8 +86,8 @@
     <h3>Python</h3>
     <pre><code>import pandas as pd
 
-# Load the data
-forms = pd.read_csv('arcaverborum_{{ version }}/forms.csv')
+# Load the data (example with Core collection)
+forms = pd.read_csv('{{ core_dir }}/forms.csv')
 
 # Forms with cognate judgments
 cognate_forms = forms[forms['Cognacy'].notna()]</code></pre>
@@ -91,8 +95,8 @@ cognate_forms = forms[forms['Cognacy'].notna()]</code></pre>
     <h3>R</h3>
     <pre><code>library(tidyverse)
 
-# Load the data
-forms <- read_csv('arcaverborum_{{ version }}/forms.csv')
+# Load the data (example with Core collection)
+forms <- read_csv('{{ core_dir }}/forms.csv')
 
 # Forms with Concepticon mapping
 forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>

@@ -11,9 +11,9 @@ The release system consists of:
 - `zenodo.metadata.yml` - Zenodo metadata configuration
 
 **Note:** Each release includes THREE archives:
-- `arcaverborum.V.YYYYMMDD.zip` - Full collection (all 149 datasets)
-- `arcaverborum.V.YYYYMMDD.core.zip` - Core collection (13 curated datasets for teaching)
-- `arcaverborum.V.YYYYMMDD.corecog.zip` - CoreCog collection (58 datasets with expert cognate data)
+- `arcaverborum.V.full.YYYYMMDD.zip` - Full collection (all 149 datasets)
+- `arcaverborum.V.core.YYYYMMDD.zip` - Core collection (13 curated datasets for teaching)
+- `arcaverborum.V.corecog.YYYYMMDD.zip` - CoreCog collection (58 datasets with expert cognate data)
 
 ## Prerequisites
 
@@ -85,9 +85,9 @@ This script will:
 1. Load statistics from all three validation reports (`output/full/`, `output/core/`, `output/corecog/`)
 2. Generate collection-specific `DATASET_DESCRIPTION.md` and `RELEASE_NOTES.md` from templates
 3. Create THREE archives:
-   - `releases/arcaverborum.V.YYYYMMDD.zip` (full collection)
-   - `releases/arcaverborum.V.YYYYMMDD.core.zip` (core collection)
-   - `releases/arcaverborum.V.YYYYMMDD.corecog.zip` (corecog collection)
+   - `releases/arcaverborum.V.full.YYYYMMDD.zip` (full collection)
+   - `releases/arcaverborum.V.core.YYYYMMDD.zip` (core collection)
+   - `releases/arcaverborum.V.corecog.YYYYMMDD.zip` (corecog collection)
 4. Each archive contains:
    - All CSV files from respective collection
    - `sources.bib`
@@ -103,14 +103,14 @@ Inspect the generated archives:
 
 ```bash
 # List archive contents
-unzip -l releases/arcaverborum.A.20251001.zip               # Full collection
-unzip -l releases/arcaverborum.A.20251001.core.zip          # Core collection
-unzip -l releases/arcaverborum.A.20251001.corecog.zip       # CoreCog collection
+unzip -l releases/arcaverborum.A.full.20251001.zip          # Full collection
+unzip -l releases/arcaverborum.A.core.20251001.zip          # Core collection
+unzip -l releases/arcaverborum.A.corecog.20251001.zip       # CoreCog collection
 
 # View generated documentation
-unzip -p releases/arcaverborum.A.20251001.zip arcaverborum.A.20251001/DATASET_DESCRIPTION.md | less
-unzip -p releases/arcaverborum.A.20251001.core.zip arcaverborum.A.20251001.core/DATASET_DESCRIPTION.md | less
-unzip -p releases/arcaverborum.A.20251001.corecog.zip arcaverborum.A.20251001.corecog/DATASET_DESCRIPTION.md | less
+unzip -p releases/arcaverborum.A.full.20251001.zip arcaverborum-A-full-20251001/DATASET_DESCRIPTION.md | less
+unzip -p releases/arcaverborum.A.core.20251001.zip arcaverborum-A-core-20251001/DATASET_DESCRIPTION.md | less
+unzip -p releases/arcaverborum.A.corecog.20251001.zip arcaverborum-A-corecog-20251001/DATASET_DESCRIPTION.md | less
 ```
 
 Preview the Zenodo metadata:
@@ -220,9 +220,9 @@ arcaverborum/
 │       ├── sources.bib
 │       └── validation_report.json
 └── releases/                    # Release archives (ignored by git)
-    ├── arcaverborum.V.YYYYMMDD.zip             # Full collection archive
-    ├── arcaverborum.V.YYYYMMDD.core.zip        # Core collection archive
-    └── arcaverborum.V.YYYYMMDD.corecog.zip     # CoreCog collection archive
+    ├── arcaverborum.V.full.YYYYMMDD.zip        # Full collection archive
+    ├── arcaverborum.V.core.YYYYMMDD.zip        # Core collection archive
+    └── arcaverborum.V.corecog.YYYYMMDD.zip     # CoreCog collection archive
 ```
 
 ## Troubleshooting

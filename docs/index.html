@@ -86,9 +86,13 @@
     <p><strong>CoreCog Collection:</strong> 58 datasets with expert cognate judgments for cognate research.</p>
 
     <p style="text-align: center; margin-top: 1.5em;">
-        <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Full</a>
-        <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download Core</a>
-        <a href="https://doi.org/10.5281/zenodo.XXXXXXX" class="download-btn">Download CoreCog</a>
+        <a href="https://zenodo.org/records/XXXXXXX/files/arcaverborum.A.full.20251008.zip?download=1" class="download-btn">Download Full</a>
+        <a href="https://zenodo.org/records/XXXXXXX/files/arcaverborum.A.core.20251008.zip?download=1" class="download-btn">Download Core</a>
+        <a href="https://zenodo.org/records/XXXXXXX/files/arcaverborum.A.corecog.20251008.zip?download=1" class="download-btn">Download CoreCog</a>
+    </p>
+
+    <p style="text-align: center; font-size: 0.9em; margin-top: 0.5em;">
+        All collections share a single DOI: <a href="https://doi.org/10.5281/zenodo.XXXXXXX">https://doi.org/10.5281/zenodo.XXXXXXX</a>
     </p>
 </section>
 
@@ -98,8 +102,8 @@
     <h3>Python</h3>
     <pre><code>import pandas as pd
 
-# Load the data
-forms = pd.read_csv('arcaverborum_A.20251008/forms.csv')
+# Load the data (example with Core collection)
+forms = pd.read_csv('arcaverborum-A-core-20251008/forms.csv')
 
 # Forms with cognate judgments
 cognate_forms = forms[forms['Cognacy'].notna()]</code></pre>
@@ -107,8 +111,8 @@ cognate_forms = forms[forms['Cognacy'].notna()]</code></pre>
     <h3>R</h3>
     <pre><code>library(tidyverse)
 
-# Load the data
-forms <- read_csv('arcaverborum_A.20251008/forms.csv')
+# Load the data (example with Core collection)
+forms <- read_csv('arcaverborum-A-core-20251008/forms.csv')
 
 # Forms with Concepticon mapping
 forms %>% filter(!is.na(Concepticon_Gloss))</code></pre>

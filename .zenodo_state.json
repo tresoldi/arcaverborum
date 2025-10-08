@@ -65,19 +65,19 @@
     "A.20251008": {
       "archives": {
         "core": {
-          "path": "releases/arcaverborum.A.20251008.core.zip",
-          "sha256": "fcdb96c16aff5fd38358b00de1daaa78700cbd4f3dc28cd134e7331ae8fca5b4",
-          "size": 7005237
+          "path": "releases/arcaverborum.A.core.20251008.zip",
+          "sha256": "549833c4409d38eeabd671921b5feb05c2416433c44fa07b681f709f036bb0d8",
+          "size": 7005260
         },
         "corecog": {
-          "path": "releases/arcaverborum.A.20251008.corecog.zip",
-          "sha256": "1a08f07fe246db444bdc19652f91d0b2ac522b83dc0f92a7ed88430e3c850a0c",
-          "size": 11543516
+          "path": "releases/arcaverborum.A.corecog.20251008.zip",
+          "sha256": "e33651898d2ce3aa24c4263789b940c6c9a687a89bba4218826a0879385798f9",
+          "size": 11543545
         },
         "full": {
-          "path": "releases/arcaverborum.A.20251008.zip",
-          "sha256": "6e0d708c3f5661974b6409ecf0bd5dd9213a51ac7482a9389c2a61af48848297",
-          "size": 88391180
+          "path": "releases/arcaverborum.A.full.20251008.zip",
+          "sha256": "d494ffeacce14a6b2fd84f7b941562fd637992b0aa6a455793b192375d9a2f2c",
+          "size": 88391285
         }
       },
       "date": "2025-10-08"

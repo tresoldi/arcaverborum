@@ -45,8 +45,8 @@ Each archive contains:
 ```python
 import pandas as pd
 
-# Load the data
-forms = pd.read_csv('arcaverborum_A.20251002/forms.csv')
+# Load the data (example with Core collection)
+forms = pd.read_csv('arcaverborum-A-core-YYYYMMDD/forms.csv')
 
 # Example: Forms with expert cognate judgments
 cognate_forms = forms[forms['Cognacy'].notna()]
@@ -60,8 +60,8 @@ indo_european = forms[forms['Glottolog_Name'].str.contains('Indo-European', na=F
 ```r
 library(tidyverse)
 
-# Load the data
-forms <- read_csv('arcaverborum_A.20251002/forms.csv')
+# Load the data (example with Core collection)
+forms <- read_csv('arcaverborum-A-core-YYYYMMDD/forms.csv')
 
 # Example: Forms with Concepticon mapping
 concepticon_forms <- forms %>% filter(!is.na(Concepticon_Gloss))

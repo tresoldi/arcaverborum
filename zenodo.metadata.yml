@@ -54,9 +54,9 @@ license: CC-BY-4.0
 communities:
 - identifier: linguistics
 files:
-- path: releases/arcaverborum.A.20251008.zip
-  name: arcaverborum.A.20251008.zip
-- path: releases/arcaverborum.A.20251008.core.zip
-  name: arcaverborum.A.20251008.core.zip
-- path: releases/arcaverborum.A.20251008.corecog.zip
-  name: arcaverborum.A.20251008.corecog.zip
+- path: releases/arcaverborum.A.full.20251008.zip
+  name: arcaverborum.A.full.20251008.zip
+- path: releases/arcaverborum.A.core.20251008.zip
+  name: arcaverborum.A.core.20251008.zip
+- path: releases/arcaverborum.A.corecog.20251008.zip
+  name: arcaverborum.A.corecog.20251008.zip

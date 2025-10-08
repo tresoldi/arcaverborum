@@ -253,18 +253,24 @@ def create_archive(version: str, output_files: list[Path], doc_files: dict[str, 
     """
     Create ZIP archive with all release files.
 
-    @param version: Release version string
+    @param version: Release version string (e.g., "A.20251008")
     @param output_files: List of paths to output files
     @param doc_files: Dictionary of filename -> content for generated docs
     @param collection: Collection name ("full", "core", or "corecog")
     @return: Path to created ZIP file
     """
-    if collection == "full":
-        archive_name = f"arcaverborum.{version}.zip"
-        base_dir = f"arcaverborum.{version}"
-    else:
-        archive_name = f"arcaverborum.{version}.{collection}.zip"
-        base_dir = f"arcaverborum.{version}.{collection}"
+    # Parse version to extract letter and date
+    # Version format: "A.20251008" -> letter="A", date="20251008"
+    version_parts = version.split(".")
+    if len(version_parts) != 2:
+        die(f"Invalid version format: {version}. Expected format: LETTER.YYYYMMDD")
+    version_letter = version_parts[0]
+    version_date = version_parts[1]
+
+    # New naming scheme: arcaverborum.A.{collection}.20251008.zip
+    archive_name = f"arcaverborum.{version_letter}.{collection}.{version_date}.zip"
+    # Directory uses hyphens: arcaverborum-A-{collection}-20251008/
+    base_dir = f"arcaverborum-{version_letter}-{collection}-{version_date}"
 
     archive_path = RELEASES_DIR / archive_name
 
@@ -373,11 +379,35 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
 
     # Prepare context for templates
     today = datetime.datetime.now()
+
+    # Parse version for archive names
+    version_parts = version.split(".")
+    version_letter = version_parts[0]
+    version_date = version_parts[1]
+
+    # Generate archive filenames
+    full_archive = f"arcaverborum.{version_letter}.full.{version_date}.zip"
+    core_archive = f"arcaverborum.{version_letter}.core.{version_date}.zip"
+    corecog_archive = f"arcaverborum.{version_letter}.corecog.{version_date}.zip"
+
+    # Generate directory names (with hyphens)
+    full_dir = f"arcaverborum-{version_letter}-full-{version_date}"
+    core_dir = f"arcaverborum-{version_letter}-core-{version_date}"
+    corecog_dir = f"arcaverborum-{version_letter}-corecog-{version_date}"
+
     context = {
         # Version info
         'version': version,
         'release_date': today.strftime("%Y-%m-%d"),
         'year': today.year,
+
+        # Archive and directory names
+        'full_archive': full_archive,
+        'core_archive': core_archive,
+        'corecog_archive': corecog_archive,
+        'full_dir': full_dir,
+        'core_dir': core_dir,
+        'corecog_dir': corecog_dir,
 
         # Full collection
         'full_datasets': stats_full['datasets_count'],
@@ -385,7 +415,8 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
         'full_languages': stats_full['languages_count'],
         'full_parameters': stats_full['parameters_count'],
         'full_cognate_datasets': stats_full['cognates_datasets'],
-        'full_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
+        'full_doi_url': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder DOI
+        'full_download_url': 'https://zenodo.org/records/XXXXXXX/files/' + full_archive + '?download=1',
 
         # Core collection
         'core_datasets': stats_core['datasets_count'],
@@ -393,7 +424,8 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
         'core_languages': stats_core['languages_count'],
         'core_parameters': stats_core['parameters_count'],
         'core_cognate_datasets': stats_core['cognates_datasets'],
-        'core_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
+        'core_doi_url': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder DOI
+        'core_download_url': 'https://zenodo.org/records/XXXXXXX/files/' + core_archive + '?download=1',
 
         # CoreCog collection
         'corecog_datasets': stats_corecog['datasets_count'],
@@ -401,7 +433,8 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
         'corecog_languages': stats_corecog['languages_count'],
         'corecog_parameters': stats_corecog['parameters_count'],
         'corecog_cognate_datasets': stats_corecog['cognates_datasets'],
-        'corecog_doi_concept': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder
+        'corecog_doi_url': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Placeholder DOI
+        'corecog_download_url': 'https://zenodo.org/records/XXXXXXX/files/' + corecog_archive + '?download=1',
 
         # Quality metrics (from full collection)
         'glottolog_coverage': stats_full['glottolog_coverage'],
@@ -412,6 +445,7 @@ def build_website(version: str, stats_full: dict, stats_core: dict, stats_coreco
         # Links
         'github_url': 'https://github.com/tresoldi/arcaverborum',
         'github_releases': 'https://github.com/tresoldi/arcaverborum/releases',
+        'zenodo_doi': 'https://doi.org/10.5281/zenodo.XXXXXXX',  # Main DOI for citation
     }
 
     # Set up Jinja2 environment for website templates
@@ -532,8 +566,15 @@ def main():
     checksums_full = compute_checksums(output_files_full)
     file_sizes_full = get_file_sizes(output_files_full)
 
+    # Parse version for naming
+    version_parts = version.split(".")
+    version_letter = version_parts[0]
+    version_date = version_parts[1]
+
     context_full = {
         "version": version,
+        "archive_name": f"arcaverborum.{version_letter}.full.{version_date}.zip",
+        "dir_name": f"arcaverborum-{version_letter}-full-{version_date}",
         "collection": "full",
         "collection_name": "Full Collection",
         "release_date": processing_date,
@@ -599,6 +640,8 @@ def main():
 
     context_core = {
         "version": version,
+        "archive_name": f"arcaverborum.{version_letter}.core.{version_date}.zip",
+        "dir_name": f"arcaverborum-{version_letter}-core-{version_date}",
         "collection": "core",
         "collection_name": "Core Collection",
         "release_date": processing_date,
@@ -664,6 +707,8 @@ def main():
 
     context_corecog = {
         "version": version,
+        "archive_name": f"arcaverborum.{version_letter}.corecog.{version_date}.zip",
+        "dir_name": f"arcaverborum-{version_letter}-corecog-{version_date}",
         "collection": "corecog",
         "collection_name": "CoreCog Collection",
         "release_date": processing_date,
