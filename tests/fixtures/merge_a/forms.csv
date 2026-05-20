@@ -1,0 +1,6 @@
+ID,Language_ID,Parameter_ID,Value,Form,Segments,Cognacy,Dataset,Concepticon_Gloss
+a_form1,lang_en_lb,param_water_lb,water,water,w a t e r,1,lexibank_ds1,WATER
+a_form2,lang_en_lb,param_fire_lb,fire,fire,f a i r,2,lexibank_ds1,FIRE
+a_form3,lang_fr_lb,param_water_lb,eau,eau,o,1,lexibank_ds1,WATER
+a_form4,lang_de_lb,param_water_lb,Wasser,wasser,v a s e r,1,lexibank_ds1,WATER
+a_form5,lang_de_lb,param_fire_lb,Feuer,feuer,f o i e r,2,lexibank_ds1,FIRE

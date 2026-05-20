@@ -1,0 +1,7 @@
+ID,Form_ID,Cognateset_ID,Alignment,Source,Doubt
+c1,f1,cog_hand_1,m a n o,src1,false
+c2,f4,cog_hand_1,m ɛ̃ - -,src2,false
+c3,f2,cog_water_1,a ɣ w a,src1,false
+c4,f5,cog_water_1,o - - -,src2,false
+c5,f3,cog_fire_1,f w e ɣ o,src1,false
+c6,f6,cog_fire_1,f ø - - -,src2,false

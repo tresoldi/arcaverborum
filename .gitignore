@@ -1,0 +1,55 @@
+# Secrets
+ZENODO_SANDBOX_TOKEN
+ZENODO_TOKEN
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Raw data and intake (regenerable via build.py fetch / ingest)
+raw/
+intake/
+
+# Aggregate output (regenerable via build.py aggregate)
+output/
+
+# Per-variety generated/ (regenerable via build.py update)
+varieties/*/generated/
+
+# Auto-generated catalog snapshot
+src/arcaverborum/data/varieties.csv
+
+# Allow package-shipped config files inside src/arcaverborum/data/
+# (gitignore globs would otherwise catch a 'data/' subdir)
+
+# Logs
+*.log
+merge_log.txt
+merge_run.log
+
+# Temporary files
+.checkpoint.json
+*.tmp
+*_old.py
+
+Local scratch memory
+memory/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

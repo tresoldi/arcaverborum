@@ -1,0 +1,4 @@
+ID,Name,Glottocode,ISO639P3code,Family,Macroarea,Latitude,Longitude,Dataset,Glottolog_Name
+lang_en_lb,English,stan1293,eng,Indo-European,Eurasia,51.0,-1.0,lexibank_ds1,English
+lang_fr_lb,French,stan1290,fra,Indo-European,Eurasia,48.0,2.0,lexibank_ds1,French
+lang_de_lb,German,stan1295,deu,Indo-European,Eurasia,51.0,10.0,lexibank_ds1,German

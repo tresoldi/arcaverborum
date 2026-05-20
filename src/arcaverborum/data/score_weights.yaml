@@ -1,0 +1,28 @@
+# Composite quality weights for auto-selection.
+# All weights are summed; per-block totals do not need to equal 1 — the
+# score is normalized at the end by the maximum possible weight given the
+# signals actually computed.
+
+forms_block:
+  has_segments: 0.30        # fraction of forms with non-empty Segments
+  clts_compliant: 0.20      # fraction of segments that look like valid IPA
+  concepticon_mapped: 0.20  # fraction of forms with a Concepticon_ID
+  concept_coverage: 0.20    # min(distinct Concepticon concepts / 200, 1)
+  loan_annotated: 0.05      # 1 if Loan column has any non-null value
+  form_density: 0.05        # log-scaled forms-per-variety (capped at 1)
+
+cognates_block:
+  has_cognates: 0.40        # at least some forms have Cognacy
+  expert: 0.30              # fraction with Cognate_Detection_Method == 'expert'
+  alignment_present: 0.20   # fraction with non-empty Alignment
+  partial_cognacy: 0.10     # 1 if dataset has Morpheme_Index or Segment_Slice
+
+# Tier thresholds applied to the per-block normalized score.
+# Pinned varieties get 'gold' if both block scores >= gold; otherwise
+# 'silver'. Auto-selected varieties get 'bronze' / 'copper' based on the
+# forms-block score.
+tiers:
+  gold: 0.80
+  silver: 0.60
+  bronze: 0.40
+  copper: 0.0

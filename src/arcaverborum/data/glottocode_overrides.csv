@@ -1,0 +1,1365 @@
+Language_ID,Glottocode,Notes
+aaleykusunda_ProtoKusunda,kusu1250,auto:exact_name (Kusunda)
+bdpa_AustralianEnglishPerth,aust1314,auto:base_name (Australian English (Perth) -> Australian English)
+bdpa_Danish,dani1285,auto:exact_name (Danish)
+bdpa_DutchAntwerp,dutc1256,auto:base_name (Dutch (Antwerp) -> Dutch)
+bdpa_DutchLimburg,dutc1256,auto:base_name (Dutch (Limburg) -> Dutch)
+bdpa_DutchOstend,dutc1256,auto:base_name (Dutch (Ostend) -> Dutch)
+bdpa_Dutch,dutc1256,auto:exact_name (Dutch)
+bdpa_English,stan1293,auto:exact_name (English)
+bdpa_EnglishBuckie,stan1293,auto:base_name (English (Buckie) -> English)
+bdpa_EnglishLindisfarne,stan1293,auto:base_name (English (Lindisfarne) -> English)
+bdpa_EnglishLiverpool,stan1293,auto:base_name (English (Liverpool) -> English)
+bdpa_EnglishLondon,stan1293,auto:base_name (English (London) -> English)
+bdpa_EnglishNorthCarolina,stan1293,auto:base_name (English (North Carolina) -> English)
+bdpa_EnglishSingapore,stan1293,auto:base_name (English (Singapore) -> English)
+bdpa_EnglishTyrone,stan1293,auto:base_name (English (Tyrone) -> English)
+bdpa_Faroese,faro1244,auto:exact_name (Faroese)
+bdpa_French,stan1290,auto:exact_name (French)
+bdpa_German,stan1295,auto:exact_name (German)
+bdpa_Icelandic,icel1247,auto:exact_name (Icelandic)
+bdpa_IndianEnglishDelhi,indi1255,auto:base_name (Indian English (Delhi) -> Indian English)
+bdpa_Italian,ital1282,auto:exact_name (Italian)
+bdpa_Jaqaru,jaqa1244,auto:exact_name (Jaqaru)
+bdpa_Ladino,ladi1251,auto:exact_name (Ladino)
+bdpa_Ligurian,ligu1248,auto:exact_name (Ligurian)
+bdpa_LombardEast,lomb1257,auto:base_name (Lombard (East) -> Lombard)
+bdpa_LombardWest,lomb1257,auto:base_name (Lombard (West) -> Lombard)
+bdpa_NewZealandEnglishAuckland,newz1240,auto:base_name (New Zealand English (Auckland) -> New Zealand English)
+bdpa_NigerianEnglishIgbo,nige1260,auto:base_name (Nigerian English (Igbo) -> Nigerian English)
+bdpa_NorwegianStavanger,norw1258,auto:base_name (Norwegian (Stavanger) -> base)
+bdpa_Occitan,occi1239,auto:exact_name (Occitan)
+bdpa_SwedishSkane,swed1254,auto:base_name (Swedish (Skane) -> Swedish)
+bdpa_SwedishStockholm,swed1254,auto:base_name (Swedish (Stockholm) -> Swedish)
+bdpa_Venetian,vene1258,auto:exact_name (Venetian)
+crossandean_Arma,arma1244,auto:exact_name (Arma)
+csd_as,assi1247,auto:exact_name (Assiniboine)
+csd_bi,bilo1248,auto:exact_name (Biloxi)
+csd_ca,cata1286,auto:exact_name (Catawba)
+csd_cr,crow1244,auto:exact_name (Crow)
+csd_da,dako1258,auto:exact_name (Dakota)
+csd_hi,hida1246,auto:exact_name (Hidatsa)
+csd_la,lako1247,auto:exact_name (Lakota)
+csd_ma,mand1446,auto:exact_name (Mandan)
+csd_of,ofoo1242,auto:exact_name (Ofo)
+csd_op,omah1247,auto:exact_name (Omaha-Ponca)
+csd_os,osag1243,auto:exact_name (Osage)
+csd_qu,quap1242,auto:exact_name (Quapaw)
+csd_sp,sapo1254,auto:exact_name (Saponi)
+csd_st,ston1242,auto:exact_name (Stoney)
+csd_tu,tute1247,auto:exact_name (Tutelo)
+csd_wo,wocc1242,auto:exact_name (Woccon)
+diacl_33500,basq1248,auto:base_name (Basque (West) -> base)
+diacl_68000,esto1258,auto:exact_name (Estonian)
+gaotb_BikaHani,hani1248,auto:base_name (Hani (Bika) -> Hani)
+gaotb_HaobaiHani,hani1248,auto:base_name (Hani (Haobai) -> Hani)
+gaotb_HayaHani,hani1248,auto:base_name (Hani (Haya) -> Hani)
+gled_ALLENTIAC,alle1238,auto:exact_name (ALLENTIAC)
+gled_BALADE,bala1316,auto:exact_name (BALADE)
+gled_CHOLTI,chol1283,auto:exact_name (CHOLTI)
+gled_CUITLATEC,cuit1236,auto:exact_name (CUITLATEC)
+gled_DHUWAL,dhuw1249,auto:exact_name (DHUWAL)
+gled_DORASQUE,dora1242,auto:exact_name (DORASQUE)
+gled_GUAMO,guam1236,auto:exact_name (GUAMO)
+gled_GUINAU,guin1258,auto:exact_name (GUINAU)
+gled_GWARA,gwar1240,auto:exact_name (GWARA)
+gled_IRANUN,iran1262,auto:exact_name (IRANUN)
+gled_KAERA,kaer1234,auto:exact_name (KAERA)
+gled_KATHLAMET,kath1253,auto:exact_name (KATHLAMET)
+gled_MILLCAYAC,mill1237,auto:exact_name (MILLCAYAC)
+gled_NABIT,nabi1240,auto:exact_name (NABIT)
+gled_NATI,nati1244,auto:exact_name (NATI)
+gled_NESE,nese1235,auto:exact_name (NESE)
+gled_PAYAGUA,paya1236,auto:exact_name (PAYAGUA)
+gled_SITU,situ1238,auto:exact_name (SITU)
+gled_TAPARITA,tapa1262,auto:exact_name (TAPARITA)
+gled_WARRNAMBOOL,warr1257,auto:exact_name (WARRNAMBOOL)
+hillburmish_Bola,bola1250,auto:exact_name (Bola)
+hillburmish_Lashi,lash1243,auto:exact_name (Lashi)
+hillburmish_Maru,maru1249,auto:exact_name (Maru)
+hillburmish_OldBurmese,oldb1235,auto:exact_name (Old Burmese)
+joophonosemantic_ChuanqiandianClusterMiao,chua1256,auto:exact_name (Chuanqiandian Cluster Miao)
+leejaponic_Nara,nara1262,auto:exact_name (Nara)
+meloniromance_French,stan1290,auto:exact_name (French)
+meloniromance_Italian,ital1282,auto:exact_name (Italian)
+meloniromance_Latin,lati1261,auto:exact_name (Latin)
+meloniromance_Portuguese,port1283,auto:exact_name (Portuguese)
+meloniromance_Romanian,roma1327,auto:exact_name (Romanian)
+meloniromance_Spanish,stan1288,auto:exact_name (Spanish)
+peirosaustroasiatic_PhongV,phon1243,auto:base_name (Phong(V) -> Phong)
+peirosst_Milang,mila1245,auto:exact_name (Milang)
+robbeetstriangulation_SouthernEvenkiVershinaTuturyBaikal,sout3321,auto:base_name (Southern Evenki (Vershina-Tutury Baikal) -> Southern Evenki)
+schuesslerhanchinese_MiddleChinese,midd1344,auto:exact_name (Middle Chinese)
+schuesslerhanchinese_OldChinese,oldc1244,auto:exact_name (Old Chinese)
+starostinaltaic_bashkir,bash1264,auto:exact_name (Bashkir)
+starostinaltaic_chuvash,chuv1255,auto:exact_name (Chuvash)
+starostinaltaic_dagur,daur1238,auto:exact_name (Dagur)
+starostinaltaic_evenki,even1259,auto:exact_name (Evenki)
+starostinaltaic_gagauz,gaga1249,auto:exact_name (Gagauz)
+starostinaltaic_jurchen,jurc1239,auto:exact_name (Jurchen)
+starostinaltaic_karaim,kara1464,auto:exact_name (Karaim)
+starostinaltaic_kirghiz,kirg1245,auto:exact_name (Kirghiz)
+starostinaltaic_manchu,manc1252,auto:exact_name (Manchu)
+starostinaltaic_nanai,nana1257,auto:exact_name (Nanai)
+starostinaltaic_negidal,negi1245,auto:exact_name (Negidal)
+starostinaltaic_oldjapanese,oldj1239,auto:exact_name (Old Japanese)
+starostinaltaic_orok,orok1265,auto:exact_name (Orok)
+starostinaltaic_salar,sala1264,auto:exact_name (Salar)
+starostinaltaic_tatar,tata1255,auto:exact_name (Tatar)
+starostinaltaic_turkish,nucl1301,auto:exact_name (Turkish)
+starostinaltaic_turkmen,turk1304,auto:exact_name (Turkmen)
+starostinaltaic_uighur,uigh1240,auto:exact_name (Uighur)
+suntb_AmdoTibetanBlabrang,tibe1272,auto:base_name (Tibetan (Amdo:Bla-brang) -> Tibetan)
+suntb_AmdoTibetanZeku,tibe1272,auto:base_name (Tibetan (Amdo:Zeku) -> Tibetan)
+wikt_ae,aves1237,auto:exact_name (Avestan)
+wikt_alv-gwa,gwar1240,auto:exact_name (Gwara)
+wikt_aus-bra,barr1252,auto:exact_name (Barranbinya)
+wikt_aus-guw,guwa1244,auto:exact_name (Guwar)
+wikt_aus-wul,wulg1239,auto:exact_name (Wulguru)
+wikt_aus-ynk,nyan1300,auto:exact_name (Yangkaal)
+wikt_awd-ana,anau1243,auto:exact_name (Anauyá)
+wikt_awd-gnu,guin1258,auto:exact_name (Guinau)
+wikt_awd-kus,kust1238,auto:exact_name (Kustenau)
+wikt_bh,bhoj1244,auto:exact_name (Bhojpuri)
+wikt_bij,kwan1285,auto:exact_name (Kwang)
+wikt_bnt-cmw,chim1312,auto:exact_name (Chimwiini)
+wikt_bnt-lal,lala1268,auto:base_name (Lala (South Africa) -> base)
+wikt_bnt-phu,phut1246,auto:exact_name (Phuthi)
+wikt_crp-rsn,russ1267,auto:exact_name (Russenorsk)
+wikt_crp-spp,samo1307,auto:exact_name (Samoan Plantation Pidgin)
+wikt_dmn-dam,dama1262,auto:exact_name (Dama (Sierra Leone))
+wikt_dnj,dann1241,auto:exact_name (Dan)
+wikt_doi,dogr1250,auto:exact_name (Dogri)
+wikt_dra-okn,oldk1250,auto:exact_name (Old Kannada)
+wikt_dwu,dhuw1249,auto:exact_name (Dhuwal)
+wikt_el-cy,cypr1249,auto:exact_name (Cypriot Greek)
+wikt_el-cyp,cypr1249,auto:exact_name (Cypriot Greek)
+wikt_et,esto1258,auto:exact_name (Estonian)
+wikt_fa,dari1249,auto:exact_name (Dari)
+wikt_gme-cgo,crim1255,auto:exact_name (Crimean Gothic)
+wikt_gmw-ecg,stan1295,auto:exact_name (German)
+wikt_gmw-rfr,stan1295,auto:exact_name (German)
+wikt_gsw-FR-als,stan1295,auto:exact_name (German)
+wikt_inc-kho,khol1241,auto:exact_name (Kholosi)
+wikt_kca-sou,sout3226,auto:exact_name (Southern Khanty)
+wikt_la-med,lati1261,auto:exact_name (Latin)
+wikt_mis-jzh,jizh1234,auto:exact_name (Jizhao)
+wikt_mis-kas,kass1244,auto:exact_name (Kassite)
+wikt_mis-tnw,tang1373,auto:exact_name (Tangwang)
+wikt_mjg-mgl,huzh1238,auto:exact_name (Mongghul)
+wikt_mjg-mgr,minh1238,auto:exact_name (Mangghuer)
+wikt_mns-cen,cent2322,auto:exact_name (Central Mansi)
+wikt_mns-nor,mans1258,auto:exact_name (Northern Mansi)
+wikt_nai-cal,calu1239,auto:exact_name (Calusa)
+wikt_nai-ipa,ipai1240,auto:exact_name (Ipai)
+wikt_nai-kat,kath1253,auto:exact_name (Kathlamet)
+wikt_nai-knm,kono1241,auto:exact_name (Konomihu)
+wikt_nai-okw,okwa1235,auto:exact_name (Okwanuchu)
+wikt_nai-per,peri1250,auto:exact_name (Pericú)
+wikt_nai-tap,tapa1260,auto:exact_name (Tapachultec)
+wikt_nai-wji,west2777,auto:exact_name (Western Jicaque)
+wikt_ne,nepa1254,auto:exact_name (Nepali)
+wikt_okz,oldk1249,auto:exact_name (Old Khmer)
+wikt_or,oriy1255,auto:exact_name (Odia)
+wikt_sai-and,ando1254,auto:exact_name (Andoquero)
+wikt_sai-bag,bagu1249,auto:exact_name (Bagua)
+wikt_sai-chn,chan1296,auto:exact_name (Chaná)
+wikt_sai-cul,cull1235,auto:exact_name (Culli)
+wikt_sai-mar,mara1266,auto:exact_name (Maratino)
+wikt_sai-men,meni1247,auto:exact_name (Menien)
+wikt_sai-oto,otom1301,auto:exact_name (Otomaco)
+wikt_sai-san,sana1301,auto:exact_name (Sanaviron)
+wikt_sai-tpr,tapa1262,auto:exact_name (Taparita)
+wikt_sai-way,wayu1242,auto:exact_name (Wayumara)
+wikt_sai-yao,yaoo1241,auto:base_name (Yao (South America) -> base)
+wikt_sai-yup,jupu1235,auto:exact_name (Yupua)
+wikt_sai-yur,yuru1243,auto:exact_name (Yurumanguí)
+wikt_sit-cai,caij1234,auto:exact_name (Caijia)
+wikt_sit-cha,chai1254,auto:exact_name (Chairel)
+wikt_sit-jap,japh1234,auto:exact_name (Japhug)
+wikt_sit-liz,lizu1234,auto:exact_name (Lizu)
+wikt_sit-lnj,long1417,auto:exact_name (Longjia)
+wikt_sit-lrn,lure1234,auto:exact_name (Luren)
+wikt_sit-sit,situ1238,auto:exact_name (Situ)
+wikt_sit-tgm,tang1377,auto:exact_name (Tangam)
+wikt_sit-tsh,tsho1240,auto:exact_name (Tshobdun)
+wikt_sw,swah1253,auto:exact_name (Swahili)
+wikt_syd-fne,fore1274,auto:exact_name (Forest Nenets)
+wikt_tbq-mil,mila1245,auto:exact_name (Milang)
+wikt_vsn,sans1269,auto:exact_name (Sanskrit)
+wikt_wnw,wint1259,auto:exact_name (Wintu)
+wikt_yok-bvy,buen1244,auto:exact_name (Buena Vista Yokuts)
+wikt_yrk-for,fore1274,auto:exact_name (Forest Nenets)
+wikt_yrk-tun,nene1249,auto:exact_name (Tundra Nenets)
+wikt_yxl,yarl1236,auto:exact_name (Yarli)
+zhangst_apatani,apat1240,auto:exact_name (Apatani)
+zhangst_atong,aton1242,auto:exact_name (Atong)
+zhangst_chepang,chep1245,auto:exact_name (Chepang)
+zhangst_dimasa,dima1251,auto:exact_name (Dimasa)
+zhangst_ersu,ersu1241,auto:exact_name (Ersu)
+zhangst_idu,idum1241,auto:exact_name (Idu)
+zhangst_karen,bila1257,auto:exact_name (Karen)
+zhangst_khaling,khal1275,auto:exact_name (Khaling)
+zhangst_limbu,limb1266,auto:exact_name (Limbu)
+zhangst_marma,marm1234,auto:exact_name (Marma)
+zhangst_mpi,mpii1239,auto:exact_name (Mpi)
+zhangst_namuyi,namu1246,auto:exact_name (Namuyi)
+zhangst_sunwar,sunw1242,auto:exact_name (Sunwar)
+zhangst_thulung,thul1246,auto:exact_name (Thulung)
+zhangst_bengni,nyis1236,manual:bengni = Nyishi-Hill Miri
+zhangst_bokarlhoba,boka1249,manual:Bokar Lhoba = Bokar-Ramo
+zhangst_darangtaraon,diga1241,manual:Darang Taraon = Tawra (Digaro-Mishmi)
+zhangst_thado,thad1238,manual:Thado = Thado Chin
+zhangst_tiddim,tedi1235,manual:Tiddim = Tedim Chin
+zhangst_khumi,khum1249,manual:Khumi = Khumi Chin (dialect-level)
+zhangst_matu,matu1264,manual:Matu = Matu Chin (dialect-level)
+zhangst_ngmuun,munc1235,manual:Ngmuun = Mun Chin
+zhangst_daai,daai1236,manual:Daai = Daai Chin
+zhangst_sangtam,sang1321,manual:Sangtam = Sangtam Naga
+zhangst_aomongsenlongchang,aona1235,manual:Ao Mongsen Longchang = Ao Naga (Mongsen dialect)
+zhangst_aochungli,aona1235,manual:Ao Chungli = Ao Naga (Chungli dialect)
+zhangst_lothanaga,loth1237,manual:Lotha Naga
+zhangst_angamikohima,anga1288,manual:Angami Kohima = Angami Naga
+zhangst_semasumi,sumi1235,manual:Sema Sumi = Sumi Naga
+zhangst_liangmei,lian1251,manual:Liangmei = Liangmai Naga
+zhangst_zeme,zeme1240,manual:Zeme = Zeme Naga
+zhangst_rongmeinruanghmei,rong1266,manual:Rongmei Nruanghmei = Rongmei Naga
+zhangst_tangkhul,tang1336,manual:Tangkhul = East-Central Tangkhul Naga
+zhangst_bodo,bodo1269,manual:Bodo = Bodo-Mech
+zhangst_garobangladesh,garo1247,manual:Garo Bangladesh = Garo
+zhangst_konyak,kony1246,manual:Konyak (dialect-level)
+zhangst_phom,phom1236,manual:Phom = Phom Naga
+zhangst_chang,chan1308,manual:Chang (dialect-level)
+zhangst_jingpho,jing1260,manual:Jingpho (dialect-level)
+zhangst_sak,chak1270,manual:Sak = Chak (Sak is a dialect of Chak)
+zhangst_pattanimanchati,patt1248,manual:Pattani Manchati = Pattani
+zhangst_kanauri,kinn1249,manual:Kanauri = Kinnauri
+zhangst_cuonamenba,tsha1245,manual:Cuona Menba = Tshangla (Cona Monpa)
+zhangst_tshonamama,tsha1245,manual:Tshona Mama = Tshangla (Tshona area variety)
+zhangst_tibetanjirel,jire1238,manual:Tibetan Jirel = Jirel
+zhangst_tibetanamdozeku,amdo1237,manual:Tibetan Amdo Zeku = Amdo Tibetan
+zhangst_tibetanamdoblabrang,amdo1237,manual:Tibetan Amdo Bla brang = Amdo Tibetan
+zhangst_tibetanlhasa,tibe1272,manual:Tibetan Lhasa = Tibetan (Lhasa dialect)
+zhangst_tibetanbatang,kham1282,manual:Tibetan Batang = Khams Tibetan (Batang dialect)
+zhangst_tibetanxiahe,amdo1237,manual:Tibetan Xiahe = Amdo Tibetan (Xiahe/Labrang)
+zhangst_tibetankhamsdege,kham1282,manual:Tibetan Khams Dege = Khams Tibetan (Dege dialect)
+zhangst_thakalitukche,thak1245,manual:Thakali Tukche = Thakali
+zhangst_gurungghachok,guru1261,manual:Gurung Ghachok = Gurung
+zhangst_tamangsahu,west2415,manual:Tamang Sahu = Western Tamang
+zhangst_manangprakaa,mana1288,manual:Manang Prakaa = Manange
+zhangst_mananggyaru,mana1288,manual:Manang Gyaru = Manange
+zhangst_hayu,wayu1241,manual:Hayu = Wayu (Vayu)
+zhangst_magar,maga1261,manual:Magar (dialect-level)
+zhangst_pumiqinghua,sout2729,manual:Pumi Qinghua = Southern Pumi (Qinghua is Western/Southern Pumi)
+zhangst_muyaminyak,muya1239,manual:Muya Minyak = Muya
+zhangst_xumi,shix1238,manual:Xumi = Shixing
+zhangst_pumitaoba,nort2723,manual:Pumi Taoba = Northern Pumi (Taoba dialect)
+zhangst_lyuzu,lizu1234,manual:Lyuzu = Lizu
+zhangst_qianglongxi,sout2728,manual:Qiang Longxi = Southern Qiang (Longxi dialect)
+zhangst_queyuyajiangzhaba,quey1238,manual:Queyu Yajiang Zhaba = Queyu
+zhangst_qiangmawo,nort2722,manual:Qiang Mawo = Northern Qiang (Mawo dialect)
+zhangst_daofu,horp1239,manual:Daofu = Stau-Dgebshes (Horpa)
+zhangst_ergongdanba,horp1239,manual:Ergong Danba = Stau-Dgebshes (Horpa Danba variety)
+zhangst_caodeng,situ1238,manual:Caodeng = Situ (Caodeng rGyalrong)
+zhangst_rgyalrongmaerkang,situ1238,manual:rGyalrong Maerkang = Situ (Maerkang rGyalrong)
+zhangst_trungdulong,drun1238,manual:Trung Dulong = Drung (Dulong River dialect)
+zhangst_trungdulongnujiang,drun1238,manual:Trung Dulong Nujiang = Drung (Nu River dialect)
+zhangst_anong,nung1282,manual:Anong = Nung Myanmar (Anong is a Nungish variety)
+zhangst_burmesespokenrangoon,nucl1310,manual:Burmese Spoken Rangoon = Burmese
+zhangst_achanglongchuan,acha1249,manual:Achang Longchuan = Longchuan Achang
+zhangst_achangxiandao,acha1249,manual:Achang Xiandao = Longchuan Achang (Xiandao dialect)
+zhangst_leqiluxi,lash1243,manual:Leqi Luxi = Lashi (Leqi is Leqic closest to Lashi)
+zhangst_achanglianghe,lian1258,manual:Achang Lianghe = Lianghe Achang
+zhangst_bolaluxi,pela1242,manual:Bola Luxi = Pela (Burmish)
+zhangst_langsuluxi,maru1249,manual:Langsu Luxi = Maru (Langsu is Maru)
+zhangst_achangluxi,luxi1238,manual:Achang Luxi = Luxi Achang
+zhangst_atsizaiwa,zaiw1241,manual:Atsi Zaiwa = Zaiwa
+zhangst_nusunorthern,nusu1239,manual:Nusu Northern = Nusu (Northern dialect)
+zhangst_nususouthern,nusu1239,manual:Nusu Southern = Nusu (Southern dialect)
+zhangst_nusucentral,nusu1239,manual:Nusu Central = Nusu (Central dialect)
+zhangst_yinanjian,sout2723,manual:Yi Nanjian = Southern Nisu (Nanjian county Dali)
+zhangst_yimile,sani1269,manual:Yi Mile = Sani (Mile county is Sani area)
+zhangst_yidafang,wume1235,manual:Yi Dafang = Wumeng Nasu (Dafang is a Wumeng dialect)
+zhangst_yiweishan,xish1235,manual:Yi Weishan = Xishanba Lalo (Western Lalo from Weishan)
+zhangst_yiwuding,wudi1238,manual:Yi Wuding = Wuding-Luquan Yi
+zhangst_yimojiang,yuan1242,manual:Yi Mojiang = Yuanjiang-Mojiang Yi
+zhangst_yisani,sani1269,manual:Yi Sani = Sani
+zhangst_lahulancang,lahu1253,manual:Lahu Lancang = Lahu (Black Lahu from Lancang)
+zhangst_lisunorthern,lisu1250,manual:Lisu Northern = Lisu (Northern dialect)
+zhangst_jinuoyoule,youl1235,manual:Jinuo Youle = Youle Jinuo
+zhangst_lahuyellow,lahu1252,manual:Lahu Yellow = Lahu Shi (Yellow Lahu)
+zhangst_lisucentral,lisu1250,manual:Lisu Central = Lisu (Central dialect)
+zhangst_hanicaiyuan,hani1248,manual:Hani Caiyuan = Hani
+zhangst_hanimojiang,hani1248,manual:Hani Mojiang = Hani
+zhangst_hanigelanghe,hani1248,manual:Hani Gelanghe = Hani
+zhangst_hanidazhai,hani1248,manual:Hani Dazhai = Hani
+zhangst_hanishuikui,hani1248,manual:Hani Shuikui = Hani
+zhangst_haniluchun,hani1248,manual:Hani Luchun = Hani
+zhangst_naxiyongning,yong1270,manual:Naxi Yongning = Narua (Na/Mosuo not Naxi proper)
+zhangst_naxilijiang,naxi1245,manual:Naxi Lijiang = Naxi
+zhangst_kayanpekon,east2342,manual:Kayan Pekon = Eastern Kayah
+zhangst_pao,paok1235,manual:Pa O = Pao Karen
+zhangst_chineseold,oldc1244,manual:Chinese Old = Old Chinese
+zhangst_chinesemandarin,mand1415,manual:Chinese Mandarin = Mandarin Chinese
+starostinaltaic_uzbek,nort2690,manual:Uzbek = Northern Uzbek (standard variety)
+starostinaltaic_saryyughur,west2402,manual:Sary Yughur = West Yugur (Turkic)
+starostinaltaic_azerbaidzhan,nort2697,manual:Azerbaidzhan = North Azerbaijani
+starostinaltaic_khankassian,khak1248,manual:Khankassian = Khakas
+starostinaltaic_yakut,yaku1245,manual:Yakut = Sakha
+starostinaltaic_tuva,tuvi1240,manual:Tuva = Tuvinian
+starostinaltaic_noghai,noga1249,manual:Noghai = Nogai
+starostinaltaic_balkar,kara1465,manual:Balkar = Karachay-Balkar
+starostinaltaic_karakalpak,kara1467,manual:Karakalpak = Kara-Kalpak
+starostinaltaic_oldturkic,oldu1238,manual:Old Turkic
+starostinaltaic_middlemongolian,midd1351,manual:Middle Mongolian = Middle Mongol
+starostinaltaic_khalkha,halh1238,manual:Khalkha = Halh Mongolian
+starostinaltaic_kalmuck,kalm1243,manual:Kalmuck = Oirad-Kalmyk-Darkhat
+starostinaltaic_dongxian,dong1285,manual:Dongxian = Dongxiang (Santa)
+starostinaltaic_baoan,bona1250,manual:Baoan = Bonan
+starostinaltaic_monguor,huzh1238,manual:Monguor = Mongghul (Tu)
+starostinaltaic_sharyyoghur,east2337,manual:Shary-Yoghur = East Yugur (Mongolic)
+starostinaltaic_literarymanchu,manc1252,manual:Literary Manchu = Manchu (written register)
+starostinaltaic_ulcha,ulch1241,manual:Ulcha = Ulch
+starostinaltaic_modernkorean,kore1280,manual:Modern Korean = Korean
+starostinaltaic_chensando,chun1247,manual:Chensando = Ch'ungch'ongdo (Chungcheong dialect)
+starostinaltaic_phyenyangnamdo,pyon1239,manual:Phyenyang namdo = P'yong'ando (Pyongan dialect)
+starostinaltaic_kyensando,kyon1247,manual:Kyensando = Kyongsangdo (Gyeongsang dialect)
+starostinaltaic_hamgyengdo,hamg1238,manual:Hamgyengdo = Hamgyongdo
+starostinaltaic_chejudo,jeju1234,manual:Chejudo = Jejueo
+starostinaltaic_seoul,seou1239,manual:Seoul (Korean dialect)
+starostinaltaic_kanwendo,kore1280,manual:Kanwendo = Korean (no Kangwon dialect entry in Glottolog)
+starostinaltaic_middlekorean,midd1372,manual:Middle Korean
+starostinaltaic_tokyo,toky1238,manual:Tokyo = Tokyoo (Japanese dialect)
+starostinaltaic_kameyama,nucl1643,manual:Kameyama = Japanese (no specific dialect entry)
+starostinaltaic_kyoto,kyot1238,manual:Kyoto (Japanese dialect)
+starostinaltaic_kagushima,sats1241,manual:Kagushima = Kagoshima (Satsuma dialect)
+starostinaltaic_nase,naze1238,manual:Nase = Naze (Northern Amami-Oshima dialect)
+starostinaltaic_shuri,shur1243,manual:Shuri (Central Okinawan dialect)
+starostinaltaic_hateruma,hate1238,manual:Hateruma (Yaeyama dialect)
+starostinaltaic_yonakuni,yona1241,manual:Yonakuni = Yonaguni
+wikt_ar,stan1318,manual:Arabic macrolanguage -> Standard Arabic
+wikt_az,nort2697,manual:Azerbaijani macrolanguage -> North Azerbaijani
+wikt_ms,stan1306,manual:Malay macrolanguage -> Standard Malay
+wikt_sq,tosk1239,manual:Albanian macrolanguage -> Tosk Albanian
+wikt_mn,halh1238,manual:Mongolian macrolanguage -> Halh Mongolian
+wikt_uz,nort2690,manual:Uzbek macrolanguage -> Northern Uzbek
+wikt_yi,east2295,manual:Yiddish macrolanguage -> Eastern Yiddish
+wikt_ps,cent1973,manual:Pashto macrolanguage -> Central Pashto
+wikt_zh,mand1415,manual:Chinese macrolanguage -> Mandarin Chinese
+wikt_sc,camp1261,manual:Sardinian macrolanguage -> Campidanese Sardinian
+wikt_zza,diml1238,manual:Zazaki macrolanguage -> Dimli
+wikt_qu,clas1251,manual:Quechua macrolanguage -> Classical Quechua
+wikt_za,yong1276,manual:Zhuang macrolanguage -> Yongbei Zhuang
+wikt_oj,ojib1241,manual:Ojibwe macrolanguage -> Ojibwa
+wikt_mg,plat1254,manual:Malagasy macrolanguage -> Plateau Malagasy
+wikt_om,west2721,manual:Oromo macrolanguage -> West Central Oromo
+wikt_nah,clas1250,manual:Nahuatl macrolanguage -> Classical Nahuatl
+wikt_bua,russ1264,manual:Buryat macrolanguage -> Russia Buriat
+wikt_rom,vlax1238,manual:Romani macrolanguage -> Vlax Romani
+wikt_iu,east2534,manual:Inuktitut macrolanguage -> Eastern Canadian Inuktitut
+wikt_luy,luhy1236,manual:Luhya macrolanguage -> Luyia
+wikt_ay,cent2142,manual:Aymara macrolanguage -> Central Aymara
+wikt_cr,wood1236,manual:Cree macrolanguage -> Woods Cree
+wikt_ff,nige1253,manual:Fula macrolanguage -> Nigerian Fulfulde
+wikt_kok,konk1267,manual:Konkani macrolanguage -> Konkani
+wikt_bal,east2304,manual:Baluchi macrolanguage -> Eastern Balochi
+wikt_din,sout2832,manual:Dinka macrolanguage -> Southwestern Dinka
+wikt_ik,nort2621,manual:Inupiaq macrolanguage -> North Alaskan Inupiaq
+wikt_kg,sout2958,manual:Kongo macrolanguage -> South Kongo
+wikt_kln,nand1266,manual:Kalenjin macrolanguage -> Nandi
+wikt_mwr,marw1260,manual:Marwari macrolanguage -> Marwari (India)
+wikt_hai,nort2938,manual:Haida macrolanguage -> Northern Haida
+wikt_gon,nort2702,manual:Gondi macrolanguage -> Northern Gondi
+wikt_chm,mead1245,manual:Mari macrolanguage -> Meadow Mari
+wikt_tmh,tama1365,manual:Tuareg macrolanguage -> Tamahaq
+wikt_smi,nort2671,manual:Sami macrolanguage -> Northern Sami
+wikt_kr,cent2050,manual:Kanuri macrolanguage -> Central Kanuri
+wikt_kv,komi1268,manual:Komi macrolanguage -> Komi-Zyrian
+wikt_jrb,jude1266,manual:Judeo-Arabic macrolanguage -> Judeo-Iraqi Arabic
+wikt_man,mand1444,manual:Mandingo macrolanguage -> Mandinka
+wikt_kpe,guin1237,manual:Kpelle macrolanguage -> Guinea Kpelle
+wikt_pra,pali1273,manual:Prakrit macrolanguage -> Pali
+wikt_zap,colo1256,manual:Zapotec -> Colonial Valley Zapotec
+wikt_lah,west2386,manual:Lahnda macrolanguage -> Western Panjabi
+wikt_mno,coti1240,manual:Manobo macrolanguage -> Cotabato Manobo
+wikt_ngo,ngon1269,manual:Ngoni macrolanguage -> Ngoni
+wikt_hmn,hmon1264,manual:Hmong macrolanguage -> Hmong Daw
+wikt_fa-ira,west2369,manual:Iranian Persian -> Western Farsi
+wikt_nan-hbl,minn1241,manual:Hokkien -> Min Nan Chinese
+wikt_nds-de,nort2627,manual:Low German -> Eastern Low German
+wikt_nds-nl,nort2627,manual:Dutch Low Saxon -> Eastern Low German
+wikt_zh-hans,mand1415,manual:Simplified Chinese -> Mandarin Chinese
+wikt_zhx-tai,tais1237,manual:Taishanese
+wikt_zlw-slv,slov1270,manual:Slovincian
+wikt_zlw-osk,slov1249,manual:Old Slovak -> Slovak
+wikt_zls-chs,chur1257,manual:Church Slavonic -> Church Slavic
+wikt_zle-ort,rute1240,manual:Old Ruthenian -> Ruthenian
+wikt_zle-ono,oldr1238,manual:Old Novgorodian -> Old Russian
+wikt_zkh,khor1277,manual:Khorezmian
+wikt_xmk,anci1244,manual:Ancient Macedonian
+wikt_sem-amm,ammo1237,manual:Ammonite
+wikt_xqa,kara1462,manual:Karakhanid
+wikt_axm,midd1361,manual:Middle Armenian
+wikt_cmg,clas1254,manual:Classical Mongolian
+wikt_okm,midd1372,manual:Middle Korean
+wikt_oko,kore1284,manual:Old Korean -> Koreanic
+wikt_xwo,kalm1243,manual:Written Oirat -> Oirad-Kalmyk-Darkhat
+wikt_pgl,prim1243,manual:Primitive Irish
+wikt_nwy,nott1245,manual:Nottoway-Meherrin
+wikt_mul,book1242,manual:Translingual -> Bookkeeping
+wikt_gkm,medi1251,manual:Medieval Greek
+wikt_lod,west2564,manual:Berawan -> West Berawan
+wikt_fa-cls,west2369,manual:Classical Persian -> Western Farsi
+wikt_roa-opt,oldp1257,manual:Old Galician-Portuguese -> Old Portuguese
+wikt_roa-tar,napo1241,manual:Tarantino -> Neapolitan
+wikt_roa-gal,gall1275,manual:Gallo
+wikt_roa-leo,leon1250,manual:Leonese
+wikt_roa-brg,burg1252,manual:Bourguignon -> Burgundian
+wikt_roa-cha,lorr1242,manual:Champenois -> Lorrain Roman
+wikt_roa-poi,poit1240,manual:Poitevin-Saintongeais -> Poitevin
+wikt_roa-lor,lorr1242,manual:Lorrain -> Lorrain Roman
+wikt_roa-ole,leon1250,manual:Old Leonese -> Leonese
+wikt_roa-fcm,fran1268,manual:Franc-Comtois -> Franche-Comtois
+wikt_roa-ona,nava1243,manual:Old Navarro-Aragonese -> Navarro-Aragonese
+wikt_roa-bbn,berr1241,manual:Bourbonnais-Berrichon -> Berrichon
+wikt_roa-ang,ange1235,manual:Angevin
+wikt_roa-gis,sici1248,manual:Gallo-Italic of Sicily -> Sicilian
+wikt_pt-br,braz1246,manual:Brazilian Portuguese
+wikt_pt-pt,port1283,manual:European Portuguese -> Portuguese
+wikt_nan-tws,chao1238,manual:Teochew -> Chaozhou
+wikt_nan-xia,minn1241,manual:Xiamen -> Min Nan Chinese
+wikt_cmn-ear,mand1415,manual:Early Mandarin -> Mandarin Chinese
+wikt_sel-nor,nort2704,manual:Northern Selkup
+wikt_sel-sou,sout3260,manual:Southern Selkup
+wikt_gmq-osw,swed1254,manual:Old Swedish -> Swedish
+wikt_gmq-scy,swed1254,manual:Scanian -> Swedish
+wikt_gmq-gut,swed1254,manual:Gutnish -> Swedish
+wikt_gmq-jmk,swed1254,manual:Jamtish -> Swedish
+wikt_gmq-mno,norw1258,manual:Middle Norwegian -> Norwegian
+wikt_gmq-pro,prot1256,manual:Proto-Norse
+wikt_gmw-cfr,stan1295,manual:Central Franconian -> German
+wikt_gmw-jdt,dutc1256,manual:Jersey Dutch -> Dutch
+wikt_gmw-gts,stan1295,manual:Gottscheerish -> German
+wikt_gmw-msc,scot1243,manual:Middle Scots -> Scots
+wikt_gmw-stm,stan1295,manual:Sathmar Swabian -> German
+wikt_gmw-tsx,stan1295,manual:Transylvanian Saxon -> German
+wikt_gmw-vog,stan1295,manual:Volga German -> German
+wikt_grk-cal,gree1271,manual:Calabrian Greek -> Griko
+wikt_grk-ita,gree1271,manual:Italiot Greek -> Griko
+wikt_grk-mar,nucl1300,manual:Mariupol Greek -> Modern Greek
+wikt_el-crt,nucl1300,manual:Cretan Greek -> Modern Greek
+wikt_el-kth,nucl1300,manual:Katharevousa -> Modern Greek
+wikt_grc-koi,nucl1300,manual:Koine Greek -> Modern Greek
+wikt_de-AT,stan1295,manual:Austrian German -> German
+wikt_de-CH,stan1295,manual:Swiss German -> German
+wikt_cel-gau,tran1289,manual:Gaulish -> Transalpine Gaulish
+wikt_kca-eas,surg1248,manual:Eastern Khanty -> Surgut Khanty
+wikt_kca-nor,nort2672,manual:Northern Khanty -> Kazym Khanty
+wikt_khi-kun,kung1259,manual:ǃKung -> Kung-Ekoka
+wikt_inc-ash,pali1273,manual:Ashokan Prakrit -> Pali
+wikt_inc-apa,pali1273,manual:Apabhramsa -> Pali
+wikt_inc-oas,assa1263,manual:Early Assamese -> Assamese
+wikt_inc-mas,assa1263,manual:Middle Assamese -> Assamese
+wikt_inc-obn,beng1280,manual:Old Bengali -> Bengali
+wikt_inc-ohi,hind1269,manual:Old Hindi -> Hindi
+wikt_inc-opa,panj1256,manual:Old Punjabi -> Punjabi
+wikt_iro-min,sene1264,manual:Mingo -> Seneca
+wikt_ko-ear,midd1372,manual:Early Modern Korean -> Middle Korean
+wikt_lzh-lit,liti1234,manual:Literary Chinese
+wikt_map-bms,java1254,manual:Banyumasan -> Javanese
+wikt_mkh-mvi,viet1252,manual:Middle Vietnamese -> Vietnamese
+wikt_pra-mah,pali1273,manual:Maharashtri Prakrit -> Pali
+wikt_poz-sml,stan1306,manual:Sarawak Malay -> Standard Malay
+wikt_poz-ter,stan1306,manual:Terengganu Malay -> Standard Malay
+wikt_qwe-kch,chim1302,manual:Kichwa -> Chimborazo Highland Quichua
+wikt_sgh-bar,bart1238,manual:Bartangi
+wikt_sgh-oro,rosh1239,manual:Oroshori -> Roshorvi
+wikt_sit-bok,boka1249,manual:Bokar
+wikt_egx-dem,demo1255,manual:Demotic Egyptian -> Demotic
+wikt_sem-srb,saba1265,manual:Old South Arabian -> Sabaic
+wikt_sem-saf,safa1244,manual:Safaitic
+wikt_la-ecc,lati1261,manual:Ecclesiastical Latin -> Latin
+wikt_trk-oat,nucl1301,manual:Old Anatolian Turkish -> Turkish
+wikt_trk-dkh,tuvi1240,manual:Dukha -> Tuvinian
+wikt_tuw-sol,even1260,manual:Solon -> Even
+wikt_tuw-bal,even1259,manual:Bala -> Evenki
+wikt_tuw-kkl,even1259,manual:Kyakala -> Evenki
+wikt_urj-kya,komi1269,manual:Komi Yazva -> Komi-Permyak
+wikt_urj-koo,komi1268,manual:Old Komi -> Komi-Zyrian
+wikt_xgn-mgl,huzh1238,manual:Monguor -> Mongghul
+wikt_xme-ker,west2369,manual:Kermanic -> Western Farsi
+wikt_xme-old,west2369,manual:Old Median -> Western Farsi
+wikt_xme-ott,west2369,manual:Old Tati -> Western Farsi
+wikt_esx-ink,pola1254,manual:Inuktun -> Polar Eskimo
+wikt_jpx-hcj,hach1239,manual:Hachijō
+wikt_dra-bry,tulu1258,manual:Beary -> Tulu
+wikt_crp-kia,stan1295,manual:Kiautschou German Pidgin -> German
+wikt_crp-mar,srna1246,manual:Maroon Spirit Language -> Sranan Tongo
+wikt_omq-sjq,chat1265,manual:San Juan Quiahije Chatino -> Chatino
+wikt_omq-tel,mixt1422,manual:Teposcolula Mixtec -> Mixtec
+wikt_nai-kum,ipai1240,manual:Kumeyaay -> Ipai
+wikt_nai-tip,ipai1240,manual:Tipai -> Ipai
+wikt_nai-sin,tzot1259,manual:Zinacantán -> Tzotzil
+wikt_nai-spt,yaki1242,manual:Sahaptin -> Yakima
+wikt_nai-taw,cree1261,manual:Tawasa -> Creek
+wikt_nai-chi,xink1234,manual:Chiquimulilla -> Xinca
+wikt_nai-cig,book1242,manual:Ciguayo -> Bookkeeping
+wikt_nai-guz,xink1234,manual:Guazacapán -> Xinca
+wikt_nai-jtp,xink1234,manual:Jutiapa -> Xinca
+wikt_nai-jum,xink1234,manual:Jumaytepeque -> Xinca
+wikt_paa-kmn,komn1238,manual:Kómnzo
+wikt_paa-nun,yau1254,manual:Nungon -> Yau
+wikt_phi-din,case1246,manual:Dinapigue Agta -> Casiguran Agta
+wikt_phi-nag,case1246,manual:Nagtipunan Agta -> Casiguran Agta
+wikt_tbq-gkh,bodo1269,manual:Gokhy -> Bodo
+wikt_tbq-mor,dima1251,manual:Moran -> Dimasa
+wikt_alv-ama,gwar1240,manual:Amasi -> Gwara
+wikt_arc-bib,impe1235,manual:Biblical Aramaic -> Imperial Aramaic
+wikt_arc-cpa,impe1235,manual:Christian Palestinian Aramaic -> Imperial Aramaic
+wikt_arc-jla,impe1235,manual:Jewish Literary Aramaic -> Imperial Aramaic
+wikt_awd-ama,araw1281,manual:Amarizana -> Arawakan
+wikt_awd-kaw,araw1281,manual:Kawishana -> Arawakan
+wikt_awd-mpr,araw1281,manual:Maipure -> Arawakan
+wikt_awd-pai,araw1281,manual:Paikoneka -> Arawakan
+wikt_bnt-bwa,bant1294,manual:Bwala -> Narrow Bantu
+wikt_bnt-mpu,bant1294,manual:Mpuono -> Narrow Bantu
+wikt_cba-ata,chib1249,manual:Atanques -> Chibchan
+wikt_cba-cat,chib1249,manual:Catío Chibcha -> Chibchan
+wikt_cba-nut,chib1249,manual:Nutabe -> Chibchan
+wikt_cug,bant1294,manual:Cung -> Narrow Bantu
+wikt_gji,waja1256,manual:Geji -> Waja
+wikt_ims,osca1244,manual:Marsian -> Oscan
+wikt_lng,germ1287,manual:Lombardic -> Germanic
+wikt_mis-mmd,book1242,manual:Mimi of Decorse -> Bookkeeping
+wikt_mis-mmn,book1242,manual:Mimi of Nachtigal -> Bookkeeping
+wikt_mis-rou,mong1349,manual:Rouran -> Mongolic-Khitan
+wikt_mis-tuo,mong1349,manual:Tuoba -> Mongolic-Khitan
+wikt_plj,sout2837,manual:Polci -> South Bauchi
+wikt_poz-abi,dusa1237,manual:Abai -> Dusunic
+wikt_sai-ayo,book1242,manual:Ayomán -> Bookkeeping
+wikt_sai-bet,sali1253,manual:Betoi -> Sáliba
+wikt_sai-cac,book1242,manual:Cacán -> Bookkeeping
+wikt_sai-cat,sech1236,manual:Catacao -> Sechura-Catacao
+wikt_sai-chi,book1242,manual:Chirino -> Bookkeeping
+wikt_sai-chp,chap1271,manual:Chapacura -> Chapacuran
+wikt_sai-chr,char1238,manual:Charrua -> Charruan
+wikt_sai-chu,book1242,manual:Churuya -> Bookkeeping
+wikt_sai-col,sech1236,manual:Colán -> Sechura-Catacao
+wikt_sai-cop,book1242,manual:Copallén -> Bookkeeping
+wikt_sai-crd,puri1261,manual:Coroado Puri -> Puri
+wikt_sai-ctq,book1242,manual:Catuquinaru -> Bookkeeping
+wikt_sai-esm,book1242,manual:Esmeralda -> Bookkeeping
+wikt_sai-gay,book1242,manual:Gayón -> Bookkeeping
+wikt_sai-jrj,jira1235,manual:Jirajara -> Jirajaran
+wikt_sai-mal,book1242,manual:Malalí -> Bookkeeping
+wikt_sai-mat,book1242,manual:Matanawi -> Bookkeeping
+wikt_sai-msk,masa1321,manual:Masakará
+wikt_sai-muc,book1242,manual:Mucuchí -> Bookkeeping
+wikt_sai-opo,book1242,manual:Opón -> Bookkeeping
+wikt_sai-pam,book1242,manual:Pamigua -> Bookkeeping
+wikt_sai-pur,cari1283,manual:Purukotó -> Cariban
+wikt_sai-pyg,paya1236,manual:Payaguá
+wikt_sai-pyk,gavi1246,manual:Pykobjê -> Gavião do Maranhão
+wikt_sai-qtm,book1242,manual:Quitemo -> Bookkeeping
+wikt_sai-sac,book1242,manual:Sácata -> Bookkeeping
+wikt_sai-sap,book1242,manual:Sapará -> Bookkeeping
+wikt_sai-sec,sech1236,manual:Sechura -> Sechura-Catacao
+wikt_sai-tab,book1242,manual:Tabancale -> Bookkeeping
+wikt_sai-tap,tapu1241,manual:Tapayuna
+wikt_sai-tim,book1242,manual:Timote -> Bookkeeping
+wikt_sai-trr,book1242,manual:Tarairiú -> Bookkeeping
+wikt_sai-wnm,book1242,manual:Wanham -> Bookkeeping
+wikt_umc,osca1244,manual:Marrucinian -> Oscan
+wikt_uun,paze1234,manual:Pazeh
+wikt_wky,pama1256,manual:Wangkayutyuru -> Pama-Nyungan
+wikt_xin,xink1234,manual:Xinca
+wikt_xvn,germ1287,manual:Vandalic -> Germanic
+wikt_xvs,osca1244,manual:Vestinian -> Oscan
+wikt_ath-pro,atha1245,manual:Proto-Athabaskan -> Athabaskan
+wikt_cel-bry-pro,bryt1239,manual:Proto-Brythonic -> Brythonic
+wikt_cel-pro,celt1248,manual:Proto-Celtic -> Celtic
+wikt_cmc-pro,cham1330,manual:Proto-Chamic -> Chamic
+wikt_dra-pro,drav1251,manual:Proto-Dravidian -> Dravidian
+wikt_fiu-fin-pro,finn1317,manual:Proto-Finnic -> Finnic
+wikt_gem-pro,germ1287,manual:Proto-Germanic -> Germanic
+wikt_gmw-pro,west2793,manual:Proto-West Germanic -> West Germanic
+wikt_grk-pro,gree1276,manual:Proto-Hellenic -> Greek
+wikt_iir-pro,indo1321,manual:Proto-Indo-Iranian -> Indo-Iranian
+wikt_inc-pro,indo1321,manual:Proto-Indo-Aryan -> Indo-Iranian
+wikt_ine-bsl-pro,balt1263,manual:Proto-Balto-Slavic -> Balto-Slavic
+wikt_ine-pro,indo1319,manual:Proto-Indo-European -> Indo-European
+wikt_ine-toc-pro,toch1243,manual:Proto-Tocharian -> Tocharian
+wikt_ira-pro,iran1269,manual:Proto-Iranian -> Iranian
+wikt_itc-pro,ital1284,manual:Proto-Italic -> Italic
+wikt_jpx-pro,japo1237,manual:Proto-Japonic -> Japonic
+wikt_map-pro,aust1307,manual:Proto-Austronesian -> Austronesian
+wikt_mkh-pro,aust1305,manual:Proto-Mon-Khmer -> Austroasiatic
+wikt_mul-tax-proto,aust1307,manual:Proto-MP -> Austronesian
+wikt_nic-pro,atla1278,manual:Proto-Niger-Congo -> Atlantic-Congo
+wikt_poz-cet-pro,east2712,manual:Proto-CET -> Eastern Malayo-Polynesian
+wikt_poz-oce-pro,ocea1241,manual:Proto-Oceanic -> Oceanic
+wikt_poz-pol-pro,poly1242,manual:Proto-Polynesian -> Polynesian
+wikt_poz-pro,mala1545,manual:Proto-MP -> Malayo-Polynesian
+wikt_roa-pro,roma1334,manual:Proto-Romance -> Romance
+wikt_sem-pro,semi1276,manual:Proto-Semitic -> Semitic
+wikt_sla-pro,slav1255,manual:Proto-Slavic -> Slavic
+wikt_tai-pro,taid1249,manual:Proto-Tai -> Tai
+wikt_tbq-pro,sino1245,manual:Proto-Tibeto-Burman -> Sino-Tibetan
+wikt_trk-pro,turk1311,manual:Proto-Turkic -> Turkic
+wikt_tuw-pro,tung1282,manual:Proto-Tungusic -> Tungusic
+wikt_urj-pro,ural1272,manual:Proto-Uralic -> Uralic
+wikt_zlw-ocs,czec1258,manual:Old Czech -> Czech
+wikt_yok-nvy,yoku1256,manual:Northern Valley Yokuts -> Yokuts
+wikt_yok-svy,yoku1256,manual:Southern Valley Yokuts -> Yokuts
+wikt_yok-kry,yoku1256,manual:Kings River Yokuts -> Yokuts
+diacl_37525,sout1528,manual:Serbo-Croatian -> Serbian-Croatian-Bosnian
+diacl_68442,indo1319,manual:Stub Culture Indo-European -> Indo-European
+diacl_68496,oldp1256,manual:Old Polish
+diacl_35200,gheg1238,manual:Proto-Albanian -> Gheg Albanian
+diacl_54850,vulg1234,manual:Vulgar Latin
+diacl_44500,awad1243,manual:Old Awadhi -> Awadhi
+diacl_53650,late1252,manual:Late Latin
+diacl_39900,germ1287,manual:Proto-Germanic -> Germanic
+diacl_68419,sino1245,manual:Proto-Tibeto-Burman -> Sino-Tibetan
+diacl_47600,arli1239,manual:Romani (Dolenjski) -> Arli-Dolenjski
+diacl_46300,vend1246,manual:Romani (Veršend) -> Vend Romani
+diacl_48000,arli1239,manual:Romani (Macedonian Džambazi) -> Arli
+diacl_48100,gypsy1235,manual:Romani (Sremski Gurbet) -> Romani (Srem)
+diacl_54050,oldp1257,manual:Old Portuguese
+diacl_68407,medi1250,manual:Medieval Latin
+diacl_35900,arme1241,manual:Proto-Armenian -> Armenian
+diacl_68421,lolo1265,manual:Proto-Lolo-Burmese -> Lolo-Burmese
+diacl_68463,roma1334,manual:Proto-Romance -> Romance
+diacl_68428,tang1335,manual:Proto-Tangkhulic -> Tangkhulic
+diacl_43400,indo1321,manual:Proto-Indo-Aryan -> Indo-Iranian
+diacl_54350,gall1275,manual:Proto-Gallo-Romance -> Gallo
+diacl_68422,tani1257,manual:Proto-Tani -> Tani
+diacl_68486,swed1254,manual:Old Gutnish -> Swedish
+diacl_36700,slav1255,manual:Proto-Slavic -> Slavic
+diacl_68458,czec1258,manual:Old Czech -> Czech
+diacl_38000,celt1248,manual:Proto-Celtic -> Celtic
+diacl_53000,ital1284,manual:Proto-Italic -> Italic
+diacl_36200,balt1263,manual:Proto-Balto-Slavic -> Balto-Slavic
+diacl_68441,indo1319,manual:Stub proto-form -> Indo-European
+diacl_50300,guja1252,manual:Old Gujarati -> Gujarati
+diacl_55300,toch1243,manual:Proto-Tocharian -> Tocharian
+diacl_68404,indo1321,manual:Proto-Indo-Iranian -> Indo-Iranian
+diacl_68495,cata1284,manual:Old Catalan -> Catalan-Valencian-Balear
+diacl_68420,kuki1246,manual:Proto-Kuki-Chin -> Kuki-Chin
+diacl_40950,dani1285,manual:Old Danish -> Danish
+diacl_68424,sino1245,manual:Proto-Sino-Tibetan -> Sino-Tibetan
+diacl_50500,iran1269,manual:Proto-Iranian -> Iranian
+diacl_68426,nort2731,manual:Proto-Northern-Naga -> Northern Naga
+diacl_68427,lolo1265,manual:Proto-Lolish -> Lolo-Burmese
+diacl_68425,anga1289,manual:Proto-Central-Naga -> Angami-Pochuri
+diacl_68430,kare1337,manual:Proto-Karenic -> Karenic
+diacl_68431,qian1263,manual:Proto-Qiangic -> Qiangic
+diacl_59520,indo1319,manual:Stub PIE Swadesh -> Indo-European
+diacl_68464,nort2620,manual:Proto-North-Germanic -> North Germanic
+diacl_68455,roma1334,manual:Proto-Ibero-Romance -> Romance
+diacl_55900,sout2827,manual:Proto-Southern Jê -> Southern Jê
+diacl_68465,sout2780,manual:Proto-South-Slavic -> South Slavic
+diacl_68459,bryt1239,manual:Proto-Brythonic -> Brythonic
+diacl_43950,sans1269,manual:Buddhist Hybrid Sanskrit -> Sanskrit
+ids_818,khmu1256,manual:Tho Mun -> Khmu
+ids_824,phut1247,manual:Phu Tho M -> Phu Thai
+ids_821,tulu1258,manual:TUL -> Tulu
+ids_831,sann1238,manual:SAN -> San
+ids_806,mang1378,manual:Mang'an B. -> Mangyan
+csd_wi,hoch1243,manual:Hoocąk -> Ho-Chunk
+csd_ks,kans1243,manual:Kanza/Kaw -> Kansa
+csd_ch,iowa1245,manual:Chiwere -> Iowa-Oto
+csd_pmv,miss1254,manual:Proto-Mississippi Valley
+csd_psi,siou1252,manual:Proto-Siouan
+csd_pdh,dheg1241,manual:Proto-Dhegiha
+csd_pda,dako1258,manual:Proto-Dakota -> Dakota
+csd_pwc,iowa1245,manual:Proto-Hoocąk-Chiwere -> Iowa-Oto
+csd_pch,crow1244,manual:Proto-Crow-Hidatsa -> Crow
+csd_mo,miss1249,manual:Missouria
+csd_ot,iowa1245,manual:Otoe -> Iowa-Oto
+csd_pn,ponc1241,manual:Ponca
+csd_om,omah1248,manual:Omaha
+csd_ya,nako1239,manual:Yanktonai -> Yankton-Yanktonai
+csd_sv,dako1258,manual:Sioux Valley -> Dakota
+csd_pma,mand1446,manual:Pre-Mandan -> Mandan
+csd_pbo,bilo1248,manual:Proto-Biloxi-Ofo -> Biloxi
+csd_pse,siou1252,manual:Proto-Southeastern -> Siouan
+csd_psc,cata1285,manual:Proto-Siouan-Catawba -> Catawban
+csd_pca,cata1286,manual:Proto-Catawba -> Catawba
+csd_pts,tute1247,manual:Proto-Tutelo-Saponi -> Tutelo
+acd_19094,mala1545,manual:Proto-Western MP -> Malayo-Polynesian
+acd_19074,east2712,manual:Proto-CET MP -> Eastern Malayo-Polynesian
+acd_19076,cent2249,manual:Proto-Central MP -> Central Malayo-Polynesian
+acd_19083,phil1253,manual:Proto-Philippines -> Philippine
+acd_19092,sout2879,manual:Proto-South Sulawesi
+acd_19075,cham1330,manual:Proto-Chamic -> Chamic
+acd_19187,bung1268,manual:Proto-Bungku-Tolaki
+acd_19071,ambo1254,manual:Proto-Ambon -> Ambonic
+acd_19449,goro1259,manual:Proto-East Gorontalic
+acd_19586,sama1303,manual:Proto-Sama-Bajaw
+acd_19088,ambo1254,manual:Proto-Sub-Ambon -> Ambonic
+acd_19137,mala1545,manual:Proto-Malayo-Javanic -> Malayo-Polynesian
+acd_19090,huon1246,manual:Proto-South-Huon-Gulf -> Huon
+acd_19642,ocea1241,manual:Proto-South Hebridean -> Oceanic
+acd_19130,east2493,manual:Proto-South Formosan -> East Formosan
+acd_19577,aust1307,manual:Proto-South Aru -> Austronesian
+acd_787,stan1306,manual:Malay (Borneo) -> Standard Malay
+acd_20004,aust1307,manual:Formosan -> Austronesian
+tuled_OldGuarani,oldp1258,manual:Old Guaraní -> Old Guarani
+tuled_Tenharim,nucl1663,manual:Tenharim
+tuled_Uruku,suru1262,manual:Uruku -> Suruí do Tocantins
+tuled_AcuaTupi,tupi1274,manual:Açuã Tupi -> Tupi
+tuled_LGAXVIII,tupi1274,manual:LGA XVIII -> Tupinambá
+tuled_Kampe,tupi1275,manual:Kampe -> Tupian
+tuled_Matanau,tupi1275,manual:Matanau -> Tupian
+tuled_Ramarama,rama1271,manual:Ramarama
+tuled_Wirafed,tupi1275,manual:Wirafed -> Tupian
+tuled_NtogapidItogapuk,tupi1275,manual:Ntogapid-Itogapuk -> Tupian
+tuled_Karipuna,kari1309,manual:Karipuna -> Karipuna do Amapá
+tuled_MaweNatterer,sate1243,manual:Mawé Natterer -> Sateré-Mawé
+tuled_Apapokuva,mbya1239,manual:Apapokuva -> Mbyá Guaraní
+tuled_Kabanae,tupi1275,manual:Kabanae -> Tupian
+tuled_ApiakaNatterer,apia1247,manual:Apiaka Natterer -> Apiaka-Tocantins
+tuled_MundurukuNatterer,mund1330,manual:Mundurukú Natterer -> Munduruku
+tuled_Piripkura,tupi1275,manual:Piripkura -> Tupian
+tuled_ProtoTupi,tupi1275,manual:Proto-Tupi -> Tupian
+tuled_ProtoTupiGuarani,tupi1276,manual:Proto-Tupi-Guarani -> Tupi-Guarani
+tuled_Arawine,tupi1275,manual:Arawine -> Tupian
+kahd_ProtoArawan,araw1282,manual:Proto-Arawan -> Arawan
+kahd_KatukinaBia,katu1273,manual:KatukinaBiá -> Katukina-Kanamarí
+hillburmish_AchangLongchuan,acha1249,manual:Achang Longchuan
+hillburmish_Atsi,zaiw1241,manual:Atsi -> Zaiwa
+hillburmish_ProtoBurmish,burm1266,manual:Proto-Burmish -> Burmish
+hillburmish_Xiandao,xian1249,manual:Xiandao
+hillburmish_Rangoon,nucl1310,manual:Rangoon Burmese -> Burmese
+yangyi_Ghomozo,nosu1244,manual:Ghomozo -> Nosu
+yangyi_EDiaocao,nosu1244,manual:E-Diaocao -> Nosu
+yangyi_EHoushan,nosu1244,manual:E-Houshan -> Nosu
+yangyi_ETaoshu,nosu1244,manual:E-Taoshu -> Nosu
+yangyi_SEGaoping,nosu1244,manual:SE-Gaoping -> Nosu
+yangyi_Noso,nosu1244,manual:Noso -> Nosu
+yangyi_Nise,niso1234,manual:Nise -> Nisoid
+yangyi_LopeAwuChen2010,west2503,manual:Lope (Awu) -> Western Lalu
+yangyi_LopeAwuYYFC1983,west2503,manual:Lope (Awu)2 -> Western Lalu
+yangyi_Lidim,sout3210,manual:Lidim -> Southern Lalo
+yanglalo_ProtoLalo,lalo1240,manual:Proto-Lalo -> Lalo
+robbeetstriangulation_Oirat,kalm1243,manual:Oirat -> Oirad-Kalmyk-Darkhat
+robbeetstriangulation_MiddleMongolianMuqaddimataladab,midd1351,manual:Middle Mongolian (Muqaddimat)
+robbeetstriangulation_MiddleMongolianSecretHistory,midd1351,manual:Middle Mongolian (Secret History)
+robbeetstriangulation_EasternEvenki,even1259,manual:Eastern Evenki -> Evenki
+savelyevturkic_CodexCumanicus,cuma1241,manual:Codex Cumanicus -> Cuman
+smithborneo_PKM,keny1244,manual:PKM -> Kenyah
+mcd_protoeasternoceanic,ocea1241,manual:Proto-Eastern Oceanic -> Oceanic
+mcd_protowesternmalayopolynesian,mala1545,manual:Proto-Western MP
+mcd_protokimbe,bali1280,manual:Proto-Kimbe -> Bali-Vitu
+oliveiraprotopanoan_Proto-Panoan,pano1256,manual:Proto-Panoan -> Panoan
+transnewguineaorg_proto-north-adelbert,nucl1580,manual:Proto-North-Adelbert
+transnewguineaorg_magi-musak,musa1266,manual:Magɨ -> Musak
+transnewguineaorg_unknown1,kono1269,manual:Unknown -> Konomala
+transnewguineaorg_proto-central-sogeram,soge1235,manual:Proto-Central-Sogeram
+transnewguineaorg_proto-pihom,nucl1580,manual:Proto-Pihom
+transnewguineaorg_proto-eleman-koriki,elem1253,manual:Proto-Eleman-Koriki
+transnewguineaorg_proto-isumrud,nucl1580,manual:Proto-Isumrud
+transnewguineaorg_proto-sub-rai,nucl1580,manual:Proto-Sub-Rai
+beidazihui_ZhongyuanYinyun,mand1415,manual:Zhongyuan Yinyun -> Mandarin Chinese
+chenhmongmien_WesternQiandong,nort2747,manual:Qiandong West -> N Qiandong Miao
+schuesslerhanchinese_LateHanChinese,late1251,manual:Late Han Chinese
+wangbai_ProtoBai,macr1275,manual:Proto-Bai -> Macro-Bai
+wangbai_Mazhelong,cent2307,manual:Mazhelong -> Central Bai
+wangbai_Gongxing,sout3256,manual:Gongxing -> Southern Bai
+wangbai_Jinxing,cent2307,manual:Jinxing -> Central Bai
+wangbai_Dashi,nort2755,manual:Dashi -> Northern Bai
+seifartecheverriboran_PBoM,bora1263,manual:Proto-Bora-Muinane -> Boran
+yamfinder_kema,kema1245,manual:Kema
+gerarditupi_ProtoTupiGuarani,tupi1276,manual:Proto-Tupi-Guarani
+gerarditupi_WayampiJ,waya1270,manual:Wayampí J -> Wayampi
+leejaponic_MiddleJapanese,japo1237,manual:Middle Japanese -> Japonic
+leekoreanic_OldKorean,kore1284,manual:Old Korean -> Koreanic
+leekoreanic_Gangwon,kore1280,manual:Gangwon -> Korean
+leekoreanic_Kyuusyuu,japo1237,manual:Kyuusyuu -> Japonic
+servamalagasy_NorthwesternMalagasy,plat1254,manual:NW Malagasy -> Plateau Malagasy
+servamalagasy_ProtoMalagasy,mala1537,manual:Proto-Malagasy -> Malagasy
+servamalagasy_BetsimisarakaFenoarivo-Est,nort2890,manual:Betsimisaraka -> N Betsimisaraka Malagasy
+servamalagasy_AntandroyAmbovombe,mala1537,manual:Antandroy -> Malagasy
+pachechibchan_ProtoLencan,lenc1239,manual:Proto-Lencan -> Lencan
+pachechibchan_ProtoMisumalpan,misu1242,manual:Proto-Misumalpan -> Misumalpan
+pachechibchan_Chumulu,chib1249,manual:Chumulu -> Chibchan
+pachechibchan_Gualaca,chib1249,manual:Gualaca -> Chibchan
+hruschkaturkic_ProtoTurkic,turk1311,manual:Proto-Turkic -> Turkic
+hruschkaturkic_MiddleTurkic,turk1311,manual:Middle Turkic -> Turkic
+hruschkaturkic_TOF,tofa1248,manual:Tofalar -> Tofa
+hruschkaturkic_SJG,west2402,manual:Sary-Yughur -> West Yugur
+deepadungpalaung_ProtoDeangPalaung,pala1348,manual:Proto-Deang-Palaung -> Palaungic
+deepadungpalaung_ChaYeQing,ruma1248,manual:Cha Ye Qing -> Rumai Palaung
+zhoubizic_ProtoBizic,bant1286,manual:Proto-Bizic -> Bantoid
+walkerarawakan_ProtoArawakan,araw1281,manual:Proto-Arawakan -> Arawakan
+walkerarawakan_Karutana,tari1256,manual:Karutana -> Tariana
+mixezoqueanvoices_ProtoMixeZoque,mixe1284,manual:Proto-Mixe-Zoque
+mixezoqueanvoices_Nizaviguiti,olut1240,manual:Nizaviguiti -> Oluta Popoluca
+chingelong_ProtoGelong,laha1254,manual:Proto-Gelong -> Lahuli
+chingelong_Gelong,laha1254,manual:Gelong -> Lahuli
+huntergatherer_245,ayop1234,manual:7eqenem'u -> Ayoreo
+tolmiebritishcolumbia_Chinuk,chin1262,manual:Chinuk -> Chinook Jargon
+tolmiebritishcolumbia_Tinne-Nakoontloon,atha1245,manual:Tinnē -> Athabaskan
+tls_GoldenMongolian,midd1351,manual:Golden Mongolian -> Middle Mongol
+tls_Munyarwand,even1259,manual:Munyarwand -> Evenki
+kleinewillinghoeferbikwinjen_Joole,karo1305,manual:Joole -> Karon
+lamanisoic_Nishu,nort3295,manual:Nishu -> Northern Nisu
+lamanisoic_Niesu,sout2728,manual:Niesu -> Southern Qiang
+crossandean_Chacpar,quec1387,manual:Chavín -> Quechuan
+crossandean_Taquile,quec1387,manual:Taquile -> Quechuan
+crossandean_Huancane,quec1387,manual:Huancané -> Quechuan
+crossandean_Anonimo,quec1387,manual:Anónimo -> Quechuan
+crossandean_CuzquenoAntiguo,cusc1236,manual:Cuzqueño Antiguo -> Cusco Quechua
+crossandean_Sullkatiti,quec1387,manual:Sullkatiti -> Quechuan
+crossandean_Puki,quec1387,manual:Puki -> Quechuan
+crossandean_Bobonaza,quec1387,manual:Bobonaza -> Quechuan
+crossandean_Wari,quec1387,manual:Huari -> Quechuan
+crossandean_Raimondi,quec1387,manual:Antonio Raimondi -> Quechuan
+backstromnorthernpakistan_KachuraJel,shin1264,manual:Kachura (Jel) -> Shina
+backstromnorthernpakistan_DashkinAstor,asto1242,manual:Dashkin (Astor) -> Astori
+backstromnorthernpakistan_Gahorabad,shin1264,manual:Gahorabad -> Shina
+backstromnorthernpakistan_Gultari,shin1264,manual:Gultari -> Shina
+backstromnorthernpakistan_Gupis,shin1264,manual:Gupis -> Shina
+backstromnorthernpakistan_Chapursan,wakh1245,manual:Chapursan -> Wakhi
+backstromnorthernpakistan_Shimshal,wakh1245,manual:Shimshal -> Wakhi
+bowernpny_MaryRiverandBunyaBunyaCountry,pama1256,manual:Mary River & Bunya Country -> Pama-Nyungan
+bowernpny_NggoiMwoi,pama1256,manual:Ng'goi Mwoi -> Pama-Nyungan
+bowernpny_Kungadutyi,pama1256,manual:Kungadutyi -> Pama-Nyungan
+bowernpny_WalmajarriHR,walm1241,manual:WalmajarriHR -> Walmajarri-Juwaliny
+bowernpny_MudburraMcC,mudb1240,manual:Mudburra-McC -> Mudburra
+bowernpny_MangalaMcK,mang1399,manual:MangalaMcK -> Mangala
+bowernpny_JaruMcC,jaru1254,manual:Jaru-McC -> Jaru
+bowernpny_WalmajarriBilliluna,walm1241,manual:WalmajarriBilliluna -> Walmajarri
+bowernpny_MangalaNW,mang1399,manual:MangalaNW -> Mangala
+bowernpny_Karree,pama1256,manual:Karree -> Pama-Nyungan
+bowernpny_MountFreelingDiyari,dier1241,manual:Mount Freeling Diyari -> Diyari
+bowernpny_WalmajarriNW,walm1241,manual:WalmajarriNW -> Walmajarri
+bowernpny_Gairi,pama1256,manual:Gairi -> Pama-Nyungan
+bowernpny_WangkumaraMcDWur,wong1246,manual:WangkumaraMcDWur -> Wangkumara
+bowernpny_KukuYalanjiCurr,kuku1283,manual:KukuYalanjiCurr -> Kuku-Yalanji
+bowerntasmanian_WesternTribes,sout3391,manual:Western Tribes -> Southwestern Tasmanian
+bowerntasmanian_Northern,nort3415,manual:Northern tribes -> Northwestern Tasmanian
+bowerntasmanian_PortDavey,sout3391,manual:Port Davey -> Southwestern Tasmanian
+bowerntasmanian_Swanport,sout1439,manual:Swanport -> SE Tasmanian
+bowerntasmanian_Ninenee,sout3391,manual:Ninenee -> Southwestern Tasmanian
+bowerntasmanian_TyreeloreSealersWomen,tasm1247,manual:Tyreelore -> Tasmanian
+bowerntasmanian_NorthernCoast,nort3415,manual:Northern Coast -> NW Tasmanian
+bowerntasmanian_WestPoint,sout3391,manual:West Point -> SW Tasmanian
+bowerntasmanian_Lowreener,sout3391,manual:Lowreener -> SW Tasmanian
+bowerntasmanian_Tommyginny,nort3415,manual:Tommyginny -> NW Tasmanian
+bowerntasmanian_WaterhouseIsland,neta1235,manual:Waterhouse Island -> N Midlands Tasmanian
+peirosst_AngKohima,anga1288,manual:Ang Kohima -> Angami Naga
+peirosst_AngKhonoma,anga1288,manual:Ang-Khonoma -> Angami Naga
+peirosst_KonyakD,kony1246,manual:Konyak-D -> Konyak
+peirosst_Chang,chan1308,manual:Chang -> Chang Naga
+peirosst_Sema,sumi1235,manual:Sema -> Sumi Naga
+peirosst_Kabui,inpu1234,manual:Kabui -> Inpui Naga
+peirosst_Mzieme,mzie1235,manual:Mzieme -> Mzieme Naga
+peirosst_Mikir,karb1241,manual:Mikir -> Hills Karbi
+peirosst_Muya,muya1239,manual:Muya
+peirosst_Kelun,sout2728,manual:Kelun -> Southern Qiang
+peirosst_Jiarug,situ1238,manual:Jiarug -> Situ
+peirosst_Ergong,horp1239,manual:Ergong -> Horpa
+peirosst_Anong,nung1282,manual:Anong -> Nung Myanmar
+peirosst_MijuGeman,kama1358,manual:Miju-Geman -> Kaman
+peirosst_Gallong,galo1242,manual:Gallong -> Galo
+peirosst_Shaiyang,lash1243,manual:Shaiyang -> Lashi
+peirosst_Padaung,kaya1327,manual:Padaung -> Kayan
+peirosst_CuonaM,tsha1245,manual:Cuona-M -> Tshangla
+peirosst_Yogli,kony1246,manual:Yogli -> Konyak
+peirosst_Palaichi,rong1266,manual:Palaichi -> Rongmei Naga
+peirosst_Sulong,sulo1241,manual:Sulong
+peirosst_Gazhuo,horp1239,manual:Gazhuo -> Horpa
+peirosst_CHN,mand1415,manual:CHN -> Mandarin Chinese
+peirosst_Khoirao,thad1238,manual:Khoirao -> Thado Chin
+peirosst_Tiddim,tedi1235,manual:Tiddim -> Tedim Chin
+lsi_AHI,ahir1243,manual:A_HI -> Ahirani
+lsi_OLDMEITHEI,mani1292,manual:OLD_MEITHEI -> Manipuri
+lsi_MEGYAO,karb1241,manual:ME_GYAO -> Hills Karbi
+lsi_KATURR,karb1241,manual:KATURR -> Hills Karbi
+lsi_PEMIAO,hmon1336,manual:PE_MIAO -> Hmong-Mien
+lsi_MARAN,mara1378,manual:MARAN -> Mara Chin
+lsi_THAUCHU,bodo1269,manual:THAUCHU -> Bodo
+lsi_HAURPA,pait1244,manual:HAURPA -> Paite Chin
+lsi_SAKUPA,pait1244,manual:SAKUPA -> Paite Chin
+lsi_MOENGLWE,lush1249,manual:MOENG_LWE -> Mizo
+hsiuhmongmien_NaMeoTuyenQuang,hmon1336,manual:Na Meo -> Hmong-Mien
+hsiuhmongmien_WesternQiandong,nort2747,manual:Heba -> N Qiandong Miao
+hsiuhmongmien_Zhenmin,hmon1337,manual:Zhenmin -> Hmongic
+hsiuhmongmien_Xiangao,hmon1337,manual:Xiang'ao -> Hmongic
+hsiuhmongmien_Datu,hmon1337,manual:Datu -> Hmongic
+hsiuhmongmien_Baixing,hmon1337,manual:Baixing -> Hmongic
+hsiuhmongmien_Yangpai,hmon1337,manual:Yangpai -> Hmongic
+hsiuhmongmien_Guncen,hmon1337,manual:Guncen -> Hmongic
+peirosaustroasiatic_Tuum,pala1348,manual:Tuum -> Palaungic
+peirosaustroasiatic_ThoMon,pala1348,manual:Tho Mon -> Palaungic
+peirosaustroasiatic_Shuangdiang,pala1348,manual:Shuangdiang -> Palaungic
+peirosaustroasiatic_Yongde,pala1348,manual:Yongde -> Palaungic
+peirosaustroasiatic_Panong,pala1348,manual:Panong -> Palaungic
+peirosaustroasiatic_Plang,pala1348,manual:Plang -> Palaungic
+peirosaustroasiatic_Khme,pala1348,manual:Khme -> Palaungic
+peirosaustroasiatic_Mangan,pala1348,manual:Mang'an -> Palaungic
+peirosaustroasiatic_Mane,pala1348,manual:Man'e -> Palaungic
+peirosaustroasiatic_Je,pala1348,manual:Je -> Palaungic
+peirosaustroasiatic_Mak,pala1348,manual:Mak -> Palaungic
+peirosaustroasiatic_Gantang,pala1348,manual:Gantang -> Palaungic
+peirosaustroasiatic_Pangpin,pala1348,manual:Pangpin -> Palaungic
+gaotb_YiMile,sani1269,manual:Yi (Mile) -> Sani
+gaotb_MenbaCuona,tsha1245,manual:Menba (Cuona) -> Tshangla
+gaotb_MenbaMotuo,tawa1289,manual:Menba (Motuo) -> Tawang Monpa
+abvd_1807,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Burerua)) -> Fijian
+abvd_1958,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Taivugalei)) -> Fijian
+abvd_1717,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Dogotuki)) -> Fijian
+abvd_1872,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Navatu Rā)) -> Fijian
+abvd_2006,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Nabalebale)) -> Fijian
+abvd_1730,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Rukuruku Ovalau)) -> Fijian
+abvd_1794,fiji1243,manual:Fijian dialect (Fijian (Rewa; Toga)) -> Fijian
+abvd_1775,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Kiā)) -> Fijian
+abvd_1951,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nasau Wainibuka)) -> Fijian
+abvd_1884,fiji1243,manual:Fijian dialect (Fijian (Vuda; Vuda)) -> Fijian
+abvd_2009,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Navitilevu)) -> Fijian
+abvd_2012,fiji1243,manual:Fijian dialect (Fijian (Vuda; Sabeto)) -> Fijian
+abvd_1796,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Drakaniwai)) -> Fijian
+abvd_1805,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Dreketi)) -> Fijian
+abvd_1826,fiji1243,manual:Fijian dialect (Fijian (Keiasi; Vusu)) -> Fijian
+abvd_1914,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Vaturova)) -> Fijian
+abvd_1776,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Wailevu)) -> Fijian
+abvd_2035,fiji1243,manual:Fijian dialect (Fijian (Rewa; Rewa Vulagi)) -> Fijian
+abvd_1802,fiji1243,manual:Fijian dialect (Fijian (Rewa; Rewa)) -> Fijian
+abvd_1739,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Lutu)) -> Fijian
+abvd_1809,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Namena)) -> Fijian
+abvd_1815,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Bāravi)) -> Fijian
+abvd_1811,fiji1243,manual:Fijian dialect (Fijian (Vuda; Māmānuca)) -> Fijian
+abvd_1970,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nāloto)) -> Fijian
+abvd_1885,fiji1243,manual:Fijian dialect (Fijian (Ba; Nakoroboya)) -> Fijian
+abvd_1808,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Naweni)) -> Fijian
+abvd_1829,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Naroko)) -> Fijian
+abvd_1968,fiji1243,manual:Fijian dialect (Fijian (Verata; Verata)) -> Fijian
+abvd_2028,fiji1243,manual:Fijian dialect (Fijian (Vuda; Navō)) -> Fijian
+abvd_1768,fiji1243,manual:Fijian dialect (Fijian (Ba; Nailaga) -> Fijian
+abvd_1762,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Navatu Nakorotubu)) -> Fijian
+abvd_1881,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Natewa)) -> Fijian
+abvd_1907,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Muanivatu)) -> Fijian
+abvd_2038,fiji1243,manual:Fijian dialect (Fijian (Yasayasamuala; Vanuavatu)) -> Fijian
+abvd_1940,fiji1243,manual:Fijian dialect (Fijian (Yasayasamuala; Muala/Moala)) -> Fijian
+abvd_1874,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Vābea)) -> Fijian
+abvd_1852,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Naturū)) -> Fijian
+abvd_1792,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Naduruvesi)) -> Fijian
+abvd_1993,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Matailobau)) -> Fijian
+abvd_2016,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Nadaravakawalu)) -> Fijian
+abvd_1832,fiji1243,manual:Fijian dialect (Fijian (Ba; Qaliyalatina)) -> Fijian
+abvd_1975,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Natuvu)) -> Fijian
+abvd_1822,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Nasavusavu) -> Fijian
+abvd_1982,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Namara)) -> Fijian
+abvd_1754,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Udu)) -> Fijian
+abvd_1928,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Koroalau)) -> Fijian
+abvd_1847,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Labasa)) -> Fijian
+abvd_1820,fiji1243,manual:Fijian dialect (Fijian (Rewa; Nukui)) -> Fijian
+abvd_1869,fiji1243,manual:Fijian dialect (Fijian (Yasayasamuala; Natokalau Cicia)) -> Fijian
+abvd_1752,fiji1243,manual:Fijian dialect (Fijian (Yasawa; Yasawa)) -> Fijian
+abvd_1771,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Sawau)) -> Fijian
+abvd_1806,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Rārā)) -> Fijian
+abvd_1957,fiji1243,manual:Fijian dialect (Fijian (Yasayasamuala; Matuku)) -> Fijian
+abvd_1763,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nalidi)) -> Fijian
+abvd_1813,fiji1243,manual:Fijian dialect (Fijian (Vuda; Malolo)) -> Fijian
+abvd_1760,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nailuva)) -> Fijian
+abvd_2037,fiji1243,manual:Fijian dialect (Fijian (Yasawa; Muairā Naviti)) -> Fijian
+abvd_1909,fiji1243,manual:Fijian dialect (Fijian (Vuda; Nawaka)) -> Fijian
+abvd_1991,fiji1243,manual:Fijian dialect (Fijian (Vuda; Nadi)) -> Fijian
+abvd_1891,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Dakuinuku)) -> Fijian
+abvd_2002,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Dawasamu)) -> Fijian
+abvd_2026,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Dere)) -> Fijian
+abvd_1737,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Namuka)) -> Fijian
+abvd_1910,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Vatumali)) -> Fijian
+abvd_1724,fiji1243,manual:Fijian dialect (Fijian (Ba; Votua)) -> Fijian
+abvd_2031,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Levukairā)) -> Fijian
+abvd_1720,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Natokea)) -> Fijian
+abvd_1920,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Malake)) -> Fijian
+abvd_1827,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Nabekavu)) -> Fijian
+abvd_1974,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Seaqāqā/Sēqāqā)) -> Fijian
+abvd_1912,fiji1243,manual:Fijian dialect (Fijian (Verata; Navatu Bua)) -> Fijian
+abvd_1757,fiji1243,manual:Fijian dialect (Fijian (Verata; Qomā)) -> Fijian
+abvd_1965,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Cakaudrove)) -> Fijian
+abvd_2007,fiji1243,manual:Fijian dialect (Fijian (Yasayasamuala; Cicia)) -> Fijian
+abvd_1716,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Yanuca)) -> Fijian
+abvd_1898,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Natūsara)) -> Fijian
+abvd_1939,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Laselevu)) -> Fijian
+abvd_1956,fiji1243,manual:Fijian dialect (Fijian (Yasayasamuala; Totoya)) -> Fijian
+abvd_1945,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Lovoni)) -> Fijian
+abvd_1772,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Tokaimalo)) -> Fijian
+abvd_1866,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Vatukaloko)) -> Fijian
+abvd_1750,fiji1243,manual:Fijian dialect (Fijian (Rewa; Kiuva)) -> Fijian
+abvd_1838,fiji1243,manual:Fijian dialect (Fijian (Rewa; Vūtia)) -> Fijian
+abvd_1929,fiji1243,manual:Fijian dialect (Fijian (Keiasi; Nasikawa)) -> Fijian
+abvd_1937,fiji1243,manual:Fijian dialect (Fijian (Emalu; Nalea/Naleā)) -> Fijian
+abvd_1876,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Nasaumatua)) -> Fijian
+abvd_1862,fiji1243,manual:Fijian dialect (Fijian (Rewa; Tokatoka)) -> Fijian
+abvd_1845,fiji1243,manual:Fijian dialect (Fijian (Rewa; Noco)) -> Fijian
+abvd_1840,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Namukaicake)) -> Fijian
+abvd_1919,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nailega)) -> Fijian
+abvd_1924,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Waimarōiwai)) -> Fijian
+abvd_1890,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nasoqo)) -> Fijian
+abvd_1778,fiji1243,manual:Fijian dialect (Fijian (Verata; Tokou)) -> Fijian
+abvd_1735,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nabuto)) -> Fijian
+abvd_1764,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Sēqāqāirā)) -> Fijian
+abvd_1732,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Macuata)) -> Fijian
+abvd_1966,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Tunuloa)) -> Fijian
+abvd_1973,fiji1243,manual:Fijian dialect (Fijian (Verata; Nakodu/Naceva)) -> Fijian
+abvd_1911,fiji1243,manual:Fijian dialect (Fijian (Ba; Tāvua/Tavua)) -> Fijian
+abvd_2022,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Navatu)) -> Fijian
+abvd_1948,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Vuna)) -> Fijian
+abvd_2024,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Matacaucau)) -> Fijian
+abvd_1777,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Nasau)) -> Fijian
+abvd_1798,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Wainikeli)) -> Fijian
+abvd_1857,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Barotu)) -> Fijian
+abvd_2034,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Muairā)) -> Fijian
+abvd_1786,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Deuba)) -> Fijian
+abvd_2008,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nalaba)) -> Fijian
+abvd_2020,fiji1243,manual:Fijian dialect (Fijian (Vuda; Vaturu)) -> Fijian
+abvd_1804,fiji1243,manual:Fijian dialect (Fijian (Vuda; Buduka)) -> Fijian
+abvd_1908,fiji1243,manual:Fijian dialect (Fijian (Ba; Bulu)) -> Fijian
+abvd_1999,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Rakiraki)) -> Fijian
+abvd_1897,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Yadua)) -> Fijian
+abvd_1844,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Nacovu)) -> Fijian
+abvd_1828,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nasautoka)) -> Fijian
+abvd_1936,fiji1243,manual:Fijian dialect (Fijian (Keiasi; Namataku/Nabau)) -> Fijian
+abvd_1962,fiji1243,manual:Fijian dialect (Fijian (Ba; Yākete)) -> Fijian
+abvd_1922,fiji1243,manual:Fijian dialect (Fijian (Emalu; Emalu)) -> Fijian
+abvd_1731,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Mabuco)) -> Fijian
+abvd_1719,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Wailevuirā)) -> Fijian
+abvd_1934,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Boumā)) -> Fijian
+abvd_1959,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Nacamaki)) -> Fijian
+abvd_1814,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Naqelelevu)) -> Fijian
+abvd_1963,fiji1243,manual:Fijian dialect (Fijian (Vatulele; Vatulele)) -> Fijian
+abvd_1892,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Cikobia)) -> Fijian
+abvd_1733,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Saqani)) -> Fijian
+abvd_1715,fiji1243,manual:Fijian dialect (Fijian (Rewa; Burebasaga)) -> Fijian
+abvd_1925,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Wailevu Wainimala)) -> Fijian
+abvd_1989,fiji1243,manual:Fijian dialect (Fijian (Vuda; Vatutū)) -> Fijian
+abvd_1952,fiji1243,manual:Fijian dialect (Fijian (Vuda; Sikituru)) -> Fijian
+abvd_1947,fiji1243,manual:Fijian dialect (Fijian (Vuda; Nadele)) -> Fijian
+abvd_1926,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Cawa)) -> Fijian
+abvd_1830,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Qamea)) -> Fijian
+abvd_1990,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Wairiki)) -> Fijian
+abvd_1950,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Tai)) -> Fijian
+abvd_2017,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Raviravi Macuata)) -> Fijian
+abvd_1995,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Naigani)) -> Fijian
+abvd_1842,fiji1243,manual:Fijian dialect (Fijian (Gau; Narocake)) -> Fijian
+abvd_2027,fiji1243,manual:Fijian dialect (Fijian (Savatu; Savatu)) -> Fijian
+abvd_1849,fiji1243,manual:Fijian dialect (Fijian (Rewa; Nukutubu)) -> Fijian
+abvd_1821,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Koibau/Qoibau)) -> Fijian
+abvd_1746,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Nadogo)) -> Fijian
+abvd_1848,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nayavu)) -> Fijian
+abvd_1863,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Wailotua)) -> Fijian
+abvd_1853,fiji1243,manual:Fijian dialect (Fijian (Yasawa; Nacula)) -> Fijian
+abvd_1718,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Vaturovaivanua)) -> Fijian
+abvd_2000,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Naulana)) -> Fijian
+abvd_1736,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Buca)) -> Fijian
+abvd_1835,fiji1243,manual:Fijian dialect (Fijian (Keiasi; Mosi)) -> Fijian
+abvd_1895,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Savudrodro)) -> Fijian
+abvd_1893,fiji1243,manual:Fijian dialect (Fijian (Ba; Vitogo)) -> Fijian
+abvd_1879,fiji1243,manual:Fijian dialect (Fijian (Rewa; Dreketi Rewa)) -> Fijian
+abvd_1916,fiji1243,manual:Fijian dialect (Fijian (Rewa; Nabuli)) -> Fijian
+abvd_1819,fiji1243,manual:Fijian dialect (Fijian (Gau; Gau)) -> Fijian
+abvd_1738,fiji1243,manual:Fijian dialect (Fijian (Gau; Qalitū)) -> Fijian
+abvd_1935,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Nabuna)) -> Fijian
+abvd_1870,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Raviravi)) -> Fijian
+abvd_1868,fiji1243,manual:Fijian dialect (Fijian (Verata; Natokalau)) -> Fijian
+abvd_1917,fiji1243,manual:Fijian dialect (Fijian (Rewa; Nakeloiwai)) -> Fijian
+abvd_1834,fiji1243,manual:Fijian dialect (Fijian (Rewa; Naqarani)) -> Fijian
+abvd_1902,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Vugalei)) -> Fijian
+abvd_1877,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Levuka)) -> Fijian
+abvd_1878,fiji1243,manual:Fijian dialect (Fijian (Rewa; Dravo)) -> Fijian
+abvd_1896,fiji1243,manual:Fijian dialect (Fijian (Vuda; Naua)) -> Fijian
+abvd_1753,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nakorotubu)) -> Fijian
+abvd_1785,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Sāsā)) -> Fijian
+abvd_1906,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Nakama)) -> Fijian
+abvd_2014,fiji1243,manual:Fijian dialect (Fijian (Rewa; Waivou)) -> Fijian
+abvd_1967,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Waimarō Naulucavu)) -> Fijian
+abvd_1789,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Bureiwai)) -> Fijian
+abvd_1791,fiji1243,manual:Fijian dialect (Fijian (Rewa; Visama)) -> Fijian
+abvd_1836,fiji1243,manual:Fijian dialect (Fijian (Verata; Nāloto Verata)) -> Fijian
+abvd_1996,fiji1243,manual:Fijian dialect (Fijian (Rewa; Waikete)) -> Fijian
+abvd_1941,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Turiwai/Wainiqeu)) -> Fijian
+abvd_2021,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Maumi)) -> Fijian
+abvd_1781,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Navadra)) -> Fijian
+abvd_1955,fiji1243,manual:Fijian dialect (Fijian (Rewa; Nakelo)) -> Fijian
+abvd_1780,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Naqumu)) -> Fijian
+abvd_1818,fiji1243,manual:Fijian dialect (Fijian (Rewa; Buretū)) -> Fijian
+abvd_1978,fiji1243,manual:Fijian dialect (Fijian (Rewa; Vunivaivai)) -> Fijian
+abvd_1938,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Bucaisau)) -> Fijian
+abvd_1803,fiji1243,manual:Fijian dialect (Fijian (Rakiraki; Raviravi Ra)) -> Fijian
+abvd_1998,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Dogoru)) -> Fijian
+abvd_1858,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nababa)) -> Fijian
+abvd_1740,fiji1243,manual:Fijian dialect (Fijian (Vatulawa; Nadakeke/Narocake)) -> Fijian
+abvd_1742,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Kuku)) -> Fijian
+abvd_1855,fiji1243,manual:Fijian dialect (Fijian (Yasayasabeqa; Kulu)) -> Fijian
+abvd_1860,fiji1243,manual:Fijian dialect (Fijian (Verata; Nasauvuki)) -> Fijian
+abvd_1797,fiji1243,manual:Fijian dialect (Fijian (Yasawa; Marou)) -> Fijian
+abvd_1873,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Korotubu)) -> Fijian
+abvd_1942,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Wairikiibuca)) -> Fijian
+abvd_2029,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Mataso)) -> Fijian
+abvd_1810,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Cawaci)) -> Fijian
+abvd_1864,fiji1243,manual:Fijian dialect (Fijian (Rewa; Nuku)) -> Fijian
+abvd_1801,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Silana)) -> Fijian
+abvd_1930,fiji1243,manual:Fijian dialect (Fijian (Verata; Uluibau)) -> Fijian
+abvd_1769,fiji1243,manual:Fijian dialect (Fijian (Verata; Nasēsara)) -> Fijian
+abvd_1751,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Tamonibuca)) -> Fijian
+abvd_1787,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Bureivanua)) -> Fijian
+abvd_1721,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nalawa)) -> Fijian
+abvd_1887,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Mokani)) -> Fijian
+abvd_1905,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nakuailava)) -> Fijian
+abvd_1994,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Saivou)) -> Fijian
+abvd_1745,fiji1243,manual:Fijian dialect (Fijian (Verata; Bureta)) -> Fijian
+abvd_2015,fiji1243,manual:Fijian dialect (Fijian (Verata; Moturiki)) -> Fijian
+abvd_1875,fiji1243,manual:Fijian dialect (Fijian (Verata; Naicabecabe)) -> Fijian
+abvd_1773,fiji1243,manual:Fijian dialect (Fijian (Verata; Nasinu)) -> Fijian
+abvd_2013,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Nasalia)) -> Fijian
+abvd_1856,fiji1243,manual:Fijian dialect (Fijian (Ovalau; Gavo)) -> Fijian
+abvd_2030,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Nāmata)) -> Fijian
+abvd_1816,fiji1243,manual:Fijian dialect (Fijian (Vanualevuicake; Batinikama)) -> Fijian
+abvd_1767,fiji1243,manual:Fijian dialect (Fijian (Yasawa; Teci)) -> Fijian
+abvd_2011,fiji1243,manual:Fijian dialect (Fijian (Vuda; Namoli)) -> Fijian
+abvd_1779,fiji1243,manual:Fijian dialect (Fijian (Verata; Yanuca Moturiki)) -> Fijian
+abvd_1850,fiji1243,manual:Fijian dialect (Fijian (Verata; Savuna)) -> Fijian
+abvd_2033,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Lawaki)) -> Fijian
+abvd_1949,fiji1243,manual:Fijian dialect (Fijian (Verata; Kumī)) -> Fijian
+abvd_1979,fiji1243,manual:Fijian dialect (Fijian (Verata; Navuloa)) -> Fijian
+abvd_1784,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nakida)) -> Fijian
+abvd_1833,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Dewala)) -> Fijian
+abvd_1770,fiji1243,manual:Fijian dialect (Fijian (Wainibuka; Nausori Rā)) -> Fijian
+abvd_1726,fiji1243,manual:Fijian dialect (Fijian (Vanualevuiloma; Nukubolu)) -> Fijian
+abvd_1899,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Nausori)) -> Fijian
+abvd_1728,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Vuna Tailevu)) -> Fijian
+abvd_2003,fiji1243,manual:Fijian dialect (Fijian (Wainimala; Nabaitavo)) -> Fijian
+abvd_1861,fiji1243,manual:Fijian dialect (Fijian (Tailevu; Tubalevu)) -> Fijian
+abvd_827,aust1305,manual:Proto-Mon-Khmer -> Austroasiatic
+abvd_727,sino1245,manual:Proto-Tibeto-Burman -> Sino-Tibetan
+abvd_758,mano1275,manual:Proto-East Mindanao -> Manobo
+abvd_1687,mala1545,manual:Ulpea -> Malayo-Polynesian
+abvd_292,sout2841,manual:Proto-Southern Mindanaon
+abvd_979,niso1234,manual:Proto-Nisoic -> Nisoid
+abvd_785,onga1236,manual:Proto-Ongan -> Ongan
+abvd_956,lolo1265,manual:White Lolo -> Lolo-Burmese
+abvd_1195,bali1280,manual:Proto-Kimbe -> Bali-Vitu
+abvd_955,lolo1265,manual:Gaokujiao Lolo -> Lolo-Burmese
+mixtecansubgrouping_SanPedroySanPabloTeposcolula1600Mixtec,mixt1422,manual:SanPedroySanPabloTeposcolula1600Mixtec -> Mixtec
+mixtecansubgrouping_SanAndresYutatioMixtec,mixt1422,manual:SanAndresYutatioMixtec -> Mixtec
+mixtecansubgrouping_PiedraAzulMixtec,mixt1422,manual:PiedraAzulMixtec -> Mixtec
+mixtecansubgrouping_SantoDomingoTonahuixtlaMixtec,mixt1422,manual:SantoDomingoTonahuixtlaMixtec -> Mixtec
+mixtecansubgrouping_SantaMariaYucunicocoMixtec,mixt1422,manual:SantaMariaYucunicocoMixtec -> Mixtec
+mixtecansubgrouping_SanPedroAtoyacMixtec,mixt1422,manual:SanPedroAtoyacMixtec -> Mixtec
+mixtecansubgrouping_TepejilloMixtec,mixt1422,manual:TepejilloMixtec -> Mixtec
+mixtecansubgrouping_SanAntonioTepetlapaMixtec,mixt1422,manual:SanAntonioTepetlapaMixtec -> Mixtec
+mixtecansubgrouping_SanMartinEstadoMixtec,mixt1422,manual:SanMartinEstadoMixtec -> Mixtec
+mixtecansubgrouping_SanAgustinAtenangoMixtec,mixt1422,manual:SanAgustinAtenangoMixtec -> Mixtec
+mixtecansubgrouping_ZapotitlanPalmasMixtec,mixt1422,manual:ZapotitlanPalmasMixtec -> Mixtec
+mixtecansubgrouping_SantaMariaHuazolotitlanMixtec,mixt1422,manual:SantaMariaHuazolotitlanMixtec -> Mixtec
+mixtecansubgrouping_SantoDomingoNuxaaMixtec,mixt1422,manual:SantoDomingoNuxaaMixtec -> Mixtec
+mixtecansubgrouping_SantaCruzBravoMixtec,mixt1422,manual:SantaCruzBravoMixtec -> Mixtec
+mixtecansubgrouping_SanSebastianTecomaxtlahuacaMixtec,mixt1422,manual:SanSebastianTecomaxtlahuacaMixtec -> Mixtec
+mixtecansubgrouping_SanPedroJicayanMixtec,mixt1422,manual:SanPedroJicayanMixtec -> Mixtec
+mixtecansubgrouping_SanLorenzoMixtec,mixt1422,manual:SanLorenzoMixtec -> Mixtec
+mixtecansubgrouping_SanPedroJocotipacMixtec,mixt1422,manual:SanPedroJocotipacMixtec -> Mixtec
+mixtecansubgrouping_SanMiguelChicahuaMixtec,mixt1422,manual:SanMiguelChicahuaMixtec -> Mixtec
+mixtecansubgrouping_SantiagoIxtaltepecMixtec,mixt1422,manual:SantiagoIxtaltepecMixtec -> Mixtec
+mixtecansubgrouping_GuadalupeVillahermosaMixtec,mixt1422,manual:GuadalupeVillahermosaMixtec -> Mixtec
+mixtecansubgrouping_SantosReyesTepejilloMixtec,mixt1422,manual:SantosReyesTepejilloMixtec -> Mixtec
+mixtecansubgrouping_SanAndresNuxinoMixtec,mixt1422,manual:SanAndresNuxinoMixtec -> Mixtec
+mixtecansubgrouping_YucuquimiOcampoMixtec,mixt1422,manual:YucuquimiOcampoMixtec -> Mixtec
+mixtecansubgrouping_SantiagoTamazolaMixtec,mixt1422,manual:SantiagoTamazolaMixtec -> Mixtec
+mixtecansubgrouping_SantaCatarinaTlaltempanMixtec,mixt1422,manual:SantaCatarinaTlaltempanMixtec -> Mixtec
+vanuatuvoices_Markam,mala1499,manual:Markam -> Malakula area
+vanuatuvoices_Batarxopubenut,mala1499,manual:Batarxopu: Benut -> Malakula area
+vanuatuvoices_Petawata,mala1499,manual:Petawata -> Malakula area
+vanuatuvoices_Wunaruu,mala1499,manual:Wunaruu -> Malakula area
+vanuatuvoices_Jarailan,mala1499,manual:Jarailan -> Malakula area
+vanuatuvoices_Elia,mala1499,manual:Elia -> Malakula area
+vanuatuvoices_Wunawai,mala1499,manual:Wunawai -> Malakula area
+vanuatuvoices_Penour,mala1499,manual:Penour -> Malakula area
+vanuatuvoices_Petel,mala1499,manual:Petel -> Malakula area
+vanuatuvoices_Batarxopulembilmbil,mala1499,manual:Batarxopu: Lembilmbil -> Malakula area
+vanuatuvoices_Panas,mala1499,manual:Panas -> Malakula area
+vanuatuvoices_Kitano,mala1499,manual:Kitano -> Malakula area
+vanuatuvoices_Nalema,mala1499,manual:Nalema -> Malakula area
+vanuatuvoices_Jakena,mala1499,manual:Jakena -> Malakula area
+vanuatuvoices_Votlo,mala1499,manual:Votlo -> Malakula area
+vanuatuvoices_Lopalis,mala1499,manual:Lopalis -> Malakula area
+vanuatuvoices_Sara,mala1499,manual:Sara -> Malakula area
+vanuatuvoices_Lopika,mala1499,manual:Lopika -> Malakula area
+vanuatuvoices_Ngevin,mala1499,manual:Ngevin -> Malakula area
+vanuatuvoices_Matewan,mala1499,manual:Mate wan -> Malakula area
+vanuatuvoices_Lepa,mala1499,manual:Lepa -> Malakula area
+vanuatuvoices_Tesmbolusus,mala1499,manual:Tesmbol: Usus -> Malakula area
+vanuatuvoices_Tesmbolmelaklak,mala1499,manual:Tesmbol: Melaklak -> Malakula area
+vanuatuvoices_Angavaedixonreef,mala1499,manual:Angavae: Dixon Reef -> Malakula area
+vanuatuvoices_Sivitinjavwomol,mala1499,manual:Siviti (Njav): Womol -> Malakula area
+vanuatuvoices_Natanganmbonvor,mala1499,manual:Natangan: Mbonvor -> Malakula area
+vanuatuvoices_Batarxopugonwar,mala1499,manual:Batarxopu: Gonwar -> Malakula area
+vanuatuvoices_Najittanmial,mala1499,manual:Najit: Tanmial -> Malakula area
+vanuatuvoices_Sivitinjavgonwar,mala1499,manual:Siviti (Njav): Gonwar -> Malakula area
+vanuatuvoices_Batarxopulipitav,mala1499,manual:Batarxopu: Lipitav -> Malakula area
+vanuatuvoices_Batarxopulumsak,mala1499,manual:Batarxopu: Lumsak -> Malakula area
+vanuatuvoices_Sivitinjavtanmililib,mala1499,manual:Siviti (Njav): Tanmililib -> Malakula area
+vanuatuvoices_Sageneral,cent2228,manual:Sa: ‘General’ -> Malakula area
+vanuatuvoices_Ragaloltongbay,raga1238,manual:Raga: Loltong Bay -> Malakula area
+vanuatuvoices_Safyangtus,cent2228,manual:Sa F.: Yangtus -> Malakula area
+vanuatuvoices_Safponof,cent2228,manual:Sa F.: Ponof -> Malakula area
+vanuatuvoices_Sahaa,cent2228,manual:Sa: Haa -> Malakula area
+vanuatuvoices_Ragalolkasai,raga1238,manual:Raga: Lolkasai -> Malakula area
+vanuatuvoices_Sururabwangaenaa,suru1259,manual:Suru Rabwanga: Enaa -> Malakula area
+vanuatuvoices_Surumweranivanransini,suru1259,manual:Suru Mwerani: Vanransini -> Malakula area
+vanuatuvoices_Ngatataremb,nort3427,manual:Ngata: Taremb -> Malakula area
+gled_MIDDLE_EGYPTIAN,midd1369,manual:MIDDLE_EGYPTIAN
+gled_KITANEMUK,kita1252,manual:KITANEMUK
+gled_DJAPU,djap1238,manual:DJAPU
+gled_OLD_OR_MIDDLE_JAVANESE,kawi1241,manual:OLD_OR_MIDDLE_JAVANESE
+gled_KHAMNIGAN_MONGOL,kham1281,manual:KHAMNIGAN_MONGOL
+gled_ARAMAIC_ANCIENT,impe1235,manual:ARAMAIC_ANCIENT
+gled_ZAPOTEC_1578,colo1256,manual:ZAPOTEC_1578
+gled_TZOTZIL_ZINACANTAN_1600,tzot1259,manual:TZOTZIL_ZINACANTAN_1600
+gled_CARIB_1665,cari1283,manual:CARIB_1665
+gled_NORTH_BASTAR_GONDI,nort2702,manual:NORTH_BASTAR_GONDI
+gled_LATE_EGYPTIAN,late1256,manual:LATE_EGYPTIAN
+gled_MOMI_YADIM,momi1243,manual:MOMI_YADIM
+gled_CHEMAKUM,chem1251,manual:CHEMAKUM
+gled_ADILABAD_GONDI,utno1237,manual:ADILABAD_GONDI
+gled_SOUTHERN_GONDI,nort2702,manual:SOUTHERN_GONDI
+gled_TOTONAC_OZELONACAXTLA,toto1303,manual:TOTONAC_OZELONACAXTLA -> Totonac-Tepehua
+gled_TOTONAC_TEJERIA,toto1303,manual:TOTONAC_TEJERIA -> Totonac-Tepehua
+gled_DARAGA,albe1242,manual:DARAGA
+gled_TOTONAC_OLINTLA,toto1303,manual:TOTONAC_OLINTLA -> Totonac-Tepehua
+gled_NAHUATL_XOCHIATIPAN,clas1250,manual:NAHUATL_XOCHIATIPAN -> Classical Nahuatl
+gled_OAS,book1242,manual:OAS
+gled_ULTERIOR_MIXE_C,mixe1284,manual:ULTERIOR_MIXE_C -> Mixe-Zoque
+gled_HOAN,hoan1235,manual:HOAN
+gled_KAWA,kawa1290,manual:KAWA
+gled_OGADEN_ARABIC,stan1318,manual:OGADEN_ARABIC
+gled_SARDINIAN,camp1261,manual:SARDINIAN
+gled_SAR_INDONESIA,aust1307,manual:SAR_INDONESIA
+gled_TAPE,book1242,manual:TAPE
+gled_TOTONAC_COATEPEC,toto1303,manual:TOTONAC_COATEPEC -> Totonac-Tepehua
+gled_GUARANI_ANTIGO,oldp1258,manual:GUARANI_ANTIGO
+gled_SOUTH_EASTERN_GONDI,nort2702,manual:SOUTH_EASTERN_GONDI
+gled_TANDA_PNG,book1242,manual:TANDA_PNG
+gled_SUMARARU,book1242,manual:SUMARARU
+gled_BANKALA,bank1258,manual:BANKALA
+gled_OLD_LOW_FRANCONIAN,oldf1241,manual:OLD_LOW_FRANCONIAN
+gled_DJADJALA,djad1248,manual:DJADJALA
+gled_NAHUATL_ACAXOCHITLAN,clas1250,manual:NAHUATL_ACAXOCHITLAN -> Classical Nahuatl
+gled_TULAMNI,yoku1256,manual:TULAMNI
+gled_NAHUATL_MONTEGRANDE_PLATON_SANCHEZ,clas1250,manual:NAHUATL_MONTEGRANDE_PLATON_SANCHEZ -> Classical Nahuatl
+gled_TAHITIAN_18TH_CENTURY,tahi1242,manual:TAHITIAN_18TH_CENTURY
+gled_FINALLIG,fina1242,manual:FINALLIG
+gled_MULAO_KADAI,mula1238,manual:MULAO_KADAI
+gled_NAHUATL_XAALITLA_TEPECUAUILCO,clas1250,manual:NAHUATL_XAALITLA_TEPECUAUILCO -> Classical Nahuatl
+gled_NAHUATL_CUAMELC0_TIANGUISTENGO,clas1250,manual:NAHUATL_CUAMELC0_TIANGUISTENGO -> Classical Nahuatl
+gled_NAHUATL_SAN_JERONINO_AMANALCO,clas1250,manual:NAHUATL_SAN_JERONINO_AMANALCO -> Classical Nahuatl
+gled_NAHUATL_TLALNEPANTLA_TAMAZUNCHALE,clas1250,manual:NAHUATL_TLALNEPANTLA_TAMAZUNCHALE -> Classical Nahuatl
+gled_NAHUATL_XALPATLAHUAC,clas1250,manual:NAHUATL_XALPATLAHUAC -> Classical Nahuatl
+gled_NAHUATL_HUEYAPAN_TETELA_DEL_VOLCAN,clas1250,manual:NAHUATL_HUEYAPAN_TETELA_DEL_VOLCAN -> Classical Nahuatl
+gled_PALEWYAMI,yoku1256,manual:PALEWYAMI
+gled_CUICA,book1242,manual:CUICA
+gled_NAHUATL_REYES_DE_VALLARTA_TUZAMAPAN,clas1250,manual:NAHUATL_REYES_DE_VALLARTA_TUZAMAPAN -> Classical Nahuatl
+gled_NAHUATL_HUEYATI_YAHUALICA,clas1250,manual:NAHUATL_HUEYATI_YAHUALICA -> Classical Nahuatl
+gled_NGBAKA_PENDI,ngba1286,manual:NGBAKA_PENDI
+gled_NAHUATL_COYOTEPEC,clas1250,manual:NAHUATL_COYOTEPEC -> Classical Nahuatl
+gled_NAHUATL_XILITLA,clas1250,manual:NAHUATL_XILITLA -> Classical Nahuatl
+gled_NAHUATL_CHICHIQUILA,clas1250,manual:NAHUATL_CHICHIQUILA -> Classical Nahuatl
+gled_NAHUATL_XALATZALA_TLAPA,clas1250,manual:NAHUATL_XALATZALA_TLAPA -> Classical Nahuatl
+gled_NAHUATL_JALATLACO,clas1250,manual:NAHUATL_JALATLACO -> Classical Nahuatl
+gled_NAHUATL_ZAHUASTIPAN_SAN_AUGUSTIN_METZQUITITLAN,clas1250,manual:NAHUATL_ZAHUASTIPAN_SAN_AUGUSTIN_METZQUITITLAN -> Classical Nahuatl
+gled_YAWDANCHI,yoku1256,manual:YAWDANCHI
+gled_NAHUATL_AMILCINGO_ZACUALPAN,clas1250,manual:NAHUATL_AMILCINGO_ZACUALPAN -> Classical Nahuatl
+gled_NAHUATL_LA_REFORMA_TEPEHUACAN_DE_GUERRERO,clas1250,manual:NAHUATL_LA_REFORMA_TEPEHUACAN_DE_GUERRERO -> Classical Nahuatl
+gled_NAHUATL_SANTA_MARIA_TEOPOXCO,clas1250,manual:NAHUATL_SANTA_MARIA_TEOPOXCO -> Classical Nahuatl
+gled_NAHUATL_QUETZALAPA_AZOYU,clas1250,manual:NAHUATL_QUETZALAPA_AZOYU -> Classical Nahuatl
+gled_NAHUATL_JICOCINGO_ZACATLAN,clas1250,manual:NAHUATL_JICOCINGO_ZACATLAN -> Classical Nahuatl
+gled_NAHUATL_SANTA_ANA_TLACOTENCO,clas1250,manual:NAHUATL_SANTA_ANA_TLACOTENCO -> Classical Nahuatl
+gled_NAHUATL_LAS_BALSAS,clas1250,manual:NAHUATL_LAS_BALSAS -> Classical Nahuatl
+gled_NAHUATL_XOXOCOTLA_PUENTE_DE_IXTLA,clas1250,manual:NAHUATL_XOXOCOTLA_PUENTE_DE_IXTLA -> Classical Nahuatl
+gled_NAHUATL_CUATLAMAYAN_ANTONIO_SANTOS,clas1250,manual:NAHUATL_CUATLAMAYAN_ANTONIO_SANTOS -> Classical Nahuatl
+gled_POCHUTLA_NAHUATL,poch1245,manual:POCHUTLA_NAHUATL
+bdpa_CentralGermanMurrhardt,stan1295,manual:Central German (Murrhardt) -> German
+bdpa_BelgianDutch,dutc1256,manual:Belgian Dutch -> Dutch
+bdpa_AmericanEnglish,stan1293,manual:American English -> English
+bdpa_Scottish,stan1293,manual:Scottish -> English
+bdpa_CanadianEnglish,stan1293,manual:Canadian English -> English
+bdpa_HighGermanNorthAlsace,stan1295,manual:High German (North Alsace) -> German
+bdpa_SouthAfricanEnglishJohannisburg,stan1293,manual:South African English (Johannisburg) -> English
+bdpa_CentralGermanCologne,stan1295,manual:Central German (Cologne) -> German
+bdpa_CentralGermanHonigberg,stan1295,manual:Central German (Honigberg) -> German
+bdpa_HighGermanBiel,stan1295,manual:High German (Biel) -> German
+bdpa_HighGermanTuebingen,stan1295,manual:High German (Tuebingen) -> German
+bdpa_LowGermanAchterhoek,stan1295,manual:Low German (Achterhoek) -> German
+bdpa_HighGermanOrtisei,stan1295,manual:High German (Ortisei) -> German
+bdpa_HighGermanGraubuenden,stan1295,manual:High German (Graubuenden) -> German
+bdpa_HighGermanHerrlisheim,stan1295,manual:High German (Herrlisheim) -> German
+bdpa_WestFrisianGrou,dutc1256,manual:West Frisian (Grou) -> Dutch
+bdpa_HighGermanWalser,stan1295,manual:High German (Walser) -> German
+bdpa_LowGermanBargstedt,stan1295,manual:Low German (Bargstedt) -> German
+bdpa_YiddishNewYork,east2295,manual:Yiddish (New York) -> Eastern Yiddish
+bdpa_HighGermanBodensee,stan1295,manual:High German (Bodensee) -> German
+bdpa_CentralGermanLuxembourg,stan1295,manual:Central German (Luxembourg) -> German
+bdpa_Jinxing,cent2307,manual:Jīnxīng -> Central Bai
+bdpa_Gongxing,sout3256,manual:Gōngxìng -> Southern Bai
+bdpa_Dashi,nort2755,manual:Dàshí -> Northern Bai
+bdpa_Mazhelong,cent2307,manual:Mǎzhělóng -> Central Bai
+bdpa_Caraz,quec1387,manual:Caraz -> Quechuan
+bdpa_Corongo,quec1387,manual:Corongo -> Quechuan
+bdpa_Chimborazo,quec1387,manual:Chimborazo -> Quechuan
+bdpa_Puno,quec1387,manual:Puno -> Quechuan
+bdpa_Cuzco,quec1387,manual:Cuzco -> Quechuan
+bdpa_Apolobamba,quec1387,manual:Apolobamba -> Quechuan
+bdpa_Huancayo,quec1387,manual:Huancayo -> Quechuan
+bdpa_Sucre,quec1387,manual:Sucre -> Quechuan
+bdpa_Cochabamba,quec1387,manual:Cochabamba -> Quechuan
+bdpa_Tena,quec1387,manual:Tena -> Quechuan
+bdpa_Huancavelica,quec1387,manual:Huancavelica -> Quechuan
+bdpa_Inkawasi,quec1387,manual:Inkawasi -> Quechuan
+bdpa_Cajamarca,quec1387,manual:Cajamarca -> Quechuan
+bdpa_UpperDemjankaKhanti,surg1248,manual:Upper Demjanka Khanti -> Surgut Khanty
+bdpa_Kawki,jaqa1244,manual:Kawki -> Jaqaru
+bdpa_TremjuganKhanti,surg1248,manual:Tremjugan Khanti -> Surgut Khanty
+bdpa_KondaKhanti,surg1248,manual:Konda Khanti -> Surgut Khanty
+bdpa_SherkaliKhanti,surg1248,manual:Sherkali Khanti -> Surgut Khanty
+bdpa_JuganKhanti,surg1248,manual:Jugan Khanti -> Surgut Khanty
+bdpa_VakhKhanti,surg1248,manual:Vakh Khanti -> Surgut Khanty
+bdpa_NizjamKhanti,surg1248,manual:Nizjam Khanti -> Surgut Khanty
+bdpa_KazimKhanti,surg1248,manual:Kazim Khanti -> Surgut Khanty
+bdpa_VasjuganKhanti,surg1248,manual:Vasjugan Khanti -> Surgut Khanty
+bdpa_SinjaKhanti,surg1248,manual:Sinja Khanti -> Surgut Khanty
+bdpa_Oruro,quec1387,manual:Oruro -> Quechuan
+bdpa_Tiwanaku,quec1387,manual:Tiwanaku -> Quechuan
+bdpa_KondaMansi,mans1258,manual:Konda Mansi -> Northern Mansi
+bdpa_MalyjJuganKhanti,surg1248,manual:Malyj Jugan Khanti -> Surgut Khanty
+bdpa_VerkhneKalimskKhanti,surg1248,manual:Verkhne Kalimsk Khanti -> Surgut Khanty
+bdpa_MiddleLozvaMansi,mans1258,manual:Middle Lozva Mansi -> Northern Mansi
+bdpa_NorthMansi,mans1258,manual:North Mansi -> Northern Mansi
+bdpa_ObdorskKhanti,surg1248,manual:Obdorsk Khanti -> Surgut Khanty
+bdpa_LikrisovskojeKhanti,surg1248,manual:Likrisovskoje Khanti -> Surgut Khanty
+bdpa_PelimkaMansi,mans1258,manual:Pelimka Mansi -> Northern Mansi
+bdpa_LowerLozvaMansi,mans1258,manual:Lower Lozva Mansi -> Northern Mansi
+bdpa_TavdaMansi,mans1258,manual:Tavda Mansi -> Northern Mansi
+bdpa_VartovskojeKhanti,surg1248,manual:Vartovskoje Khanti -> Surgut Khanty
+bdpa_Taquile,quec1387,manual:Taquile -> Quechuan
+bdpa_Chavin,quec1387,manual:Chavín -> Quechuan
+bdpa_ProtoGermanic,stan1295,manual:Proto-Germanic -> German
+bdpa_Huancane,quec1387,manual:Huancané -> Quechuan
+idssegmented_manganbmnn,mang1378,manual:Mang'an B. -> Mang (Austroasiatic variety alongside Mang Ch/VN)
+idssegmented_thomunthm,thoo1240,manual:Tho Mun -> Tho (Austroasiatic)
+idssegmented_tul,book1242,manual:TUL -> unresolvable (ambiguous IDS code)
+idssegmented_phuthomphu,muon1246,manual:Phu Tho M -> Muong (Phú Thọ province variety)
+idssegmented_san,book1242,manual:SAN -> unresolvable (ambiguous IDS code)
+triangulation_MiddleMongolianMuqaddimataladab,midd1351,manual:Middle Mongolian (Muqaddimat al-adab) -> Middle Mongol
+triangulation_MiddleMongolianSecretHistory,midd1351,manual:Middle Mongolian (Secret History) -> Middle Mongol
+triangulation_Oirat,kalm1243,manual:Oirat -> Oirad-Kalmyk-Darkhat
+wikt_gmq-oda,oldd1239,manual:Old Danish
+wikt_gmq-ogt,gutn1238,manual:Old Gutnish -> Archaic Gutnish
+wikt_inc-oaw,awad1243,manual:Old Awadhi -> Awadhi
+wikt_inc-ogu,guja1252,manual:Old Gujarati -> Gujarati
+wikt_mvm,east2351,manual:Muya (retired ISO mvm) -> Eastern Muya
+wikt_roa-oca,oldc1251,manual:Old Catalan
+wikt_sh,sout1528,manual:Serbo-Croatian (deprecated ISO sh)
+wikt_zlw-opl,oldp1256,manual:Old Polish

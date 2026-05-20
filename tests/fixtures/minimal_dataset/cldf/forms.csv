@@ -1,0 +1,9 @@
+ID,Language_ID,Parameter_ID,Value,Form,Segments,Source,Loan,Comment
+f1,lang1,hand,mano,mano,m a n o,src1,false,
+f2,lang1,water,agua,agua,a ɣ w a,src1,false,
+f3,lang1,fire,fuego,fweɣo,f w e ɣ o,src1,false,
+f4,lang2,hand,main,mɛ̃,m ɛ̃,src2,false,
+f5,lang2,water,eau,o,o,src2,false,
+f6,lang2,fire,feu,fø,f ø,src2,false,
+f7,lang1,hand,palma,palma,p a l m a,src1,true,archaic
+f8,lang2,water,onde,ɔ̃d,ɔ̃ d,src2,false,poetic

@@ -1,0 +1,6 @@
+ID,Language_ID,Parameter_ID,Value,Form,Segments,Cognacy,Dataset,Concepticon_Gloss
+b_form1,wikt_eng,wikt_water_noun_abc12345,water,water,,,wiktionary,WATER
+b_form2,wikt_eng,wikt_fire_noun_def67890,fire,fire,,,wiktionary,FIRE
+b_form3,wikt_fra,wikt_water_noun_abc12345,eau,eau,,,wiktionary,WATER
+b_form4,wikt_jpn,wikt_water_noun_abc12345,mizu,mizu,,,wiktionary,WATER
+b_form5,wikt_jpn,wikt_fire_noun_def67890,hi,hi,,,wiktionary,FIRE
