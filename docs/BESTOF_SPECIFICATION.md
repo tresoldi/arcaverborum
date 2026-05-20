@@ -158,5 +158,35 @@ build.py fetch [--source SOURCE]
 build.py register <av_id>
 build.py update [<av_id> ...] [--all] [--family X] [--macroarea Y] [--changed]
 build.py aggregate
+build.py report
 build.py status
 ```
+
+## Curation report
+
+`build.py report` reads the aggregate product and writes
+`output/report/curation.csv` (one row per variety) and
+`curation_summary.json`. It surfaces the weak end of the database so
+hand-curation can be aimed where it pays off.
+
+Per-variety columns include `tier`, `n_forms`, `n_concepts`,
+`concept_coverage`, the segment split (`pct_clean` / `pct_resegmented` /
+`pct_unclean`), `pct_tone_blocked`, `pct_cognacy`, and a `priority_score`.
+Rows are sorted by descending priority, defined as
+
+```
+priority_score = form_density(n_forms) · (1 − forms_score)
+```
+
+so a variety with substantial data and a weak forms-block ranks highest;
+tiny or already-good varieties sink. Code lives in `curation.py`; run
+`aggregate` first.
+
+**Tone is deferred.** A large share of `unclean` forms are blocked only by
+tone marks (digits/superscripts/Chao letters) that the merkmal `phoible`
+system does not yet tokenise. Tone handling is being added natively in
+merkmal upstream — the build carries these forms as-is and does **not**
+strip or rewrite them. The report's `pct_tone_blocked` column isolates the
+cohort (a heuristic match on tone-like characters in `Segments`) so the
+eventual recovery is measurable and tone-heavy varieties are excluded from
+the manual-curation top.

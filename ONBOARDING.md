@@ -168,20 +168,31 @@ non-empty cells override the source, empty cells leave it intact. See
 
 ## 6. Open work (priority order)
 
-1. **Run the first-task build above** and commit it. This is the work
-   that was deferred from the NAS because the mount was too slow.
+1. **Run the first-task build above** and commit it. — *DONE* (7,301
+   varieties built + aggregated; 2,043,862 forms; commit `ff0cecb`).
 2. **Cross-source cognates**: when `cognate_source != transcription_source`
    the build still emits cognates from the transcription source. The
    `canonical_cognate_id` column is reserved for a future pass that
    unifies cognate set IDs across sources via form-string + concept
-   overlap. Highest-effort item.
-3. **Quality/curation report**: surface weak varieties (copper tier,
-   `Segments_Source=unclean`, low concept coverage) to prioritise
-   hand-curation — e.g. broad phonological transcription for ancient IE
-   languages (Hittite, Avestan, Oscan…).
-4. **Tone-aware phonology**: many forms land in `unclean` because tones
-   are written as digits/superscripts merkmal doesn't tokenise. Consider
-   a preprocessing pass or extending the merkmal inventory.
+   overlap. Highest-effort item. (1,318 varieties currently have a
+   cross-source pick.)
+3. **Quality/curation report** — *DONE*. `build.py report` reads
+   `output/aggregate/` and writes `output/report/curation.csv`
+   (one row per variety, sorted by curation priority) +
+   `curation_summary.json`. Priority =
+   `form_density(n_forms) · (1 − forms_score)` — data-rich, weak varieties
+   rank first; tiny or already-good ones sink. Columns surface tier,
+   `pct_unclean`, `concept_coverage`, `pct_tone_blocked`, etc. Code in
+   `curation.py`. Run `aggregate` first.
+4. **Tone-aware phonology** — *DEFERRED to merkmal upstream*. ~26% of
+   forms are `Segments_Source=unclean`, and ~37% of those (196,992 forms,
+   concentrated in Sino-Tibetan / Tai-Kadai / Hmong-Mien / Austroasiatic /
+   Otomanguean) are blocked only by tone marks (digits/superscripts/Chao
+   letters) merkmal doesn't yet tokenise. Tone is being handled natively
+   in the merkmal library; **do not** add a preprocessing/strip pass here.
+   The curation report's `pct_tone_blocked` column tracks the cohort so the
+   recovery is measurable once merkmal lands tone support, and keeps those
+   varieties out of the manual-curation top (they're not hand-fixable now).
 5. **GLED/Wiktionary metadata in aggregate**: aggregate pulls
    metadata.csv + sources.bib from lexibank only. Minor gap.
 

@@ -9,6 +9,7 @@ Subcommands:
   extend        Scaffold custom/*.csv templates for hand-curating a variety.
   update        Rebuild generated/forms.csv for one or more varieties.
   aggregate     Merge per-variety output into output/aggregate/.
+  report        Rank varieties by curation priority into output/report/.
   status        Show enrollment, freshness, source coverage stats.
 
 Examples:
@@ -19,6 +20,7 @@ Examples:
   build.py update lati1261 hitt1242
   build.py update --all --family Indo-European
   build.py aggregate
+  build.py report
   build.py status
 """
 
@@ -242,6 +244,43 @@ def cmd_aggregate(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_report(args: argparse.Namespace) -> int:
+    import pandas as pd
+    from arcaverborum.curation import build_curation_report, write_curation_report
+
+    agg = OUTPUT_DIR / "aggregate"
+    forms_path = agg / "forms.csv"
+    varieties_path = agg / "varieties.csv"
+    if not forms_path.exists() or not varieties_path.exists():
+        logger.error("Aggregate output missing in %s — run `build.py aggregate` first.", agg)
+        return 1
+
+    logger.info("Loading aggregate forms for curation report …")
+    forms = pd.read_csv(
+        forms_path, dtype=str, keep_default_na=False,
+        usecols=["av_id", "Segments", "Segments_Source", "Concepticon_ID", "Cognacy"],
+    )
+    varieties = pd.read_csv(varieties_path, dtype=str, keep_default_na=False)
+
+    rows, summary = build_curation_report(forms, varieties)
+    write_curation_report(rows, summary, OUTPUT_DIR / "report")
+
+    ss = summary["segments_source"]
+    print(f"\nForms: {summary['total_forms']:,} across {summary['total_varieties']:,} varieties")
+    print(f"  clean (source):  {ss['source']['forms']:>9,}  {ss['source']['pct']:6.1%}")
+    print(f"  resegmented:     {ss['resegmented']['forms']:>9,}  {ss['resegmented']['pct']:6.1%}")
+    print(f"  unclean:         {ss['unclean']['forms']:>9,}  {ss['unclean']['pct']:6.1%}")
+    tb = summary["tone_blocked"]
+    print(f"    of which tone-blocked (deferred to merkmal): {tb['forms']:,} "
+          f"({tb['pct_of_unclean']:.0%} of unclean)")
+    print("\nTop curation targets (priority = data volume x forms-block weakness):")
+    for r in rows[:15]:
+        print(f"  {r['av_id']:12s} {str(r['tier']):7s} prio={r['priority_score']:.3f} "
+              f"forms={r['n_forms']:>5} unclean={r['pct_unclean']:.0%} "
+              f"tone={r['pct_tone_blocked']:.0%}  {r['name']}")
+    return 0
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     import yaml
 
@@ -331,6 +370,9 @@ def main(argv: list[str] | None = None) -> int:
 
     p_agg = sub.add_parser("aggregate", help="Union per-variety output into output/aggregate/")
     p_agg.set_defaults(fn=cmd_aggregate)
+
+    p_rep = sub.add_parser("report", help="Rank varieties by curation priority into output/report/")
+    p_rep.set_defaults(fn=cmd_report)
 
     p_st = sub.add_parser("status", help="Show enrollment/freshness summary")
     p_st.set_defaults(fn=cmd_status)
