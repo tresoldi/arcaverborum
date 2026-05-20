@@ -1,0 +1,21 @@
+av_id: hmx-northern-qiandong-miao
+name: Northern Qiandong Miao
+glottocode: nort2747
+family: Hmong-Mien
+macroarea: Eurasia
+sources:
+  transcription: chenhmongmien
+  cognates: hsiuhmongmien
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7312
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=chenhmongmien (0.73); cognates=hsiuhmongmien (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

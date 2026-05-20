@@ -1,0 +1,21 @@
+av_id: map-ansus
+name: Ansus
+glottocode: ansu1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: papuanvoices
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9572
+  cognates_score: 0.675
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=papuanvoices (0.96); cognates=acd (0.68) [cross-source: emitted
+  cognates still come from transcription_source]'

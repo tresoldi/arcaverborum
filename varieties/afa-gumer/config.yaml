@@ -1,0 +1,20 @@
+av_id: afa-gumer
+name: Gumer
+glottocode: gume1239
+family: Afro-Asiatic
+macroarea: Africa
+sources:
+  transcription: felekesemitic
+  cognates: felekesemitic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7967
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=felekesemitic (0.80); cognates=felekesemitic (0.70)'

@@ -1,0 +1,21 @@
+av_id: pny-wanggamala
+name: Wanggamala
+glottocode: wang1289
+family: Pama-Nyungan
+macroarea: Australia
+sources:
+  transcription: huntergatherer
+  cognates: bowernpny
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.943
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.94); cognates=bowernpny (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

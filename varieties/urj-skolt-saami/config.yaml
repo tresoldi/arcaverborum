@@ -1,0 +1,20 @@
+av_id: urj-skolt-saami
+name: Skolt Saami
+glottocode: skol1241
+family: Uralic
+macroarea: Eurasia
+sources:
+  transcription: northeuralex
+  cognates: northeuralex
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8852
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=northeuralex (0.89)'

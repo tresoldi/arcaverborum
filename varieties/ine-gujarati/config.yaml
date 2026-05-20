@@ -1,0 +1,21 @@
+av_id: ine-gujarati
+name: Gujarati
+glottocode: guja1252
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: lsi
+  cognates: dyenindoeuropean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7484
+  cognates_score: 0.5773
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=lsi (0.75); cognates=dyenindoeuropean (0.58) [cross-source: emitted
+  cognates still come from transcription_source]'

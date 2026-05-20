@@ -1,0 +1,20 @@
+av_id: kay-kayagar
+name: Kayagar
+glottocode: kaya1328
+family: Kayagaric
+macroarea: Papunesia
+sources:
+  transcription: transnewguineaorg
+  cognates: transnewguineaorg
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.828
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=transnewguineaorg (0.83)'

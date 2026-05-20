@@ -1,0 +1,21 @@
+av_id: sit-sangtam-naga
+name: Sangtam Naga
+glottocode: sang1321
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: marrisonnaga
+  cognates: peirosst
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.899
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=marrisonnaga (0.90); cognates=peirosst (0.70) [cross-source: emitted
+  cognates still come from transcription_source]'

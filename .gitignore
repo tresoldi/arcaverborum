@@ -24,11 +24,8 @@ output/
 # Per-variety generated/ (regenerable via build.py update)
 varieties/*/generated/
 
-# Auto-generated catalog snapshot
-src/arcaverborum/data/varieties.csv
-
-# Allow package-shipped config files inside src/arcaverborum/data/
-# (gitignore globs would otherwise catch a 'data/' subdir)
+# Note: src/arcaverborum/data/varieties.csv is the FROZEN av_id registry
+# (Glottocode <-> av_id, source of truth) and IS committed.
 
 # Logs
 *.log

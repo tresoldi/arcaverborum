@@ -1,0 +1,20 @@
+av_id: oys-oyster-bay-big-river-little-swanport
+name: Oyster Bay-Big River-Little Swanport
+glottocode: oyst1235
+family: Oyster Bay-Big River-Little Swanport
+macroarea: Australia
+sources:
+  transcription: bowerntasmanian
+  cognates: bowerntasmanian
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4198
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=bowerntasmanian (0.42)'

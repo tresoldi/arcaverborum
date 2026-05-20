@@ -1,0 +1,20 @@
+av_id: ine-sudovian
+name: Sudovian
+glottocode: sudo1236
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2555
+  cognates_score: 0.0115
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.26) [fallback p3]; cognates=wiktionary (0.01)'

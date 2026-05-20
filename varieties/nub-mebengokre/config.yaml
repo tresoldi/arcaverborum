@@ -1,0 +1,20 @@
+av_id: nub-mebengokre
+name: Mebengokre
+glottocode: kaya1330
+family: Nuclear-Macro-Je
+macroarea: South America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2893
+  cognates_score: 0.2353
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.29) [fallback p3]; cognates=wiktionary (0.24)'

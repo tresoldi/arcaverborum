@@ -1,0 +1,20 @@
+av_id: atl-tanzania-mozambique-ngoni
+name: Tanzania-Mozambique Ngoni
+glottocode: ngon1269
+family: Atlantic-Congo
+macroarea: ''
+sources:
+  transcription: tls
+  cognates: tls
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8031
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tls (0.80)'

@@ -1,0 +1,21 @@
+av_id: map-hiw
+name: Hiw
+glottocode: hiww1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: tryonvanuatu
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9382
+  cognates_score: 0.63
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tryonvanuatu (0.94); cognates=acd (0.63) [cross-source: emitted
+  cognates still come from transcription_source]'

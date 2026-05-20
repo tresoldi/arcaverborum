@@ -1,0 +1,20 @@
+av_id: man-boko-benin
+name: Boko (Benin)
+glottocode: boko1266
+family: Mande
+macroarea: Africa
+sources:
+  transcription: polyglottaafricana
+  cognates: polyglottaafricana
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7781
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=polyglottaafricana (0.78)'

@@ -1,0 +1,21 @@
+av_id: mon-buriat
+name: Buriat
+glottocode: buri1258
+family: Mongolic-Khitan
+macroarea: Eurasia
+sources:
+  transcription: northeuralex
+  cognates: robbeetstriangulation
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.938
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=northeuralex (0.94); cognates=robbeetstriangulation (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: sit-waxianghua
+name: Waxianghua
+glottocode: waxi1236
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3982
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.40)'

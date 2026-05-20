@@ -1,0 +1,20 @@
+av_id: ine-ems-weser-frisian
+name: Ems-Weser Frisian
+glottocode: sate1242
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4108
+  cognates_score: 0.19
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.41) [fallback p3]; cognates=wiktionary (0.19)'

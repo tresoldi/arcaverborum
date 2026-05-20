@@ -1,0 +1,20 @@
+av_id: qwe-tena-lowland-quichua
+name: Tena Lowland Quichua
+glottocode: tena1240
+family: Quechuan
+macroarea: South America
+sources:
+  transcription: crossandean
+  cognates: crossandean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8505
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=crossandean (0.85); cognates=crossandean (0.90)'

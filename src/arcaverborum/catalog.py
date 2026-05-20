@@ -1,9 +1,15 @@
-"""Variety catalog: our own ID space bootstrapped from Glottolog.
+"""Variety catalog: our own ID space, mapped to Glottolog where possible.
 
-av_id is the primary key for the best-of product. For Glottolog-known
-varieties, av_id equals the lowercased Glottocode (e.g. "kusu1250"). For
-custom entries (proto-languages, sub-Glottocode dialect distinctions,
-unmapped varieties), av_id is prefixed with "x-" (e.g. "x-pie").
+av_id is the primary key for the best-of product. It is a
+family-prefixed, human-readable code: ``<family_code>-<name_slug>`` (e.g.
+``ine-latin``, ``sit-mandarin-chinese``, ``bas-basque``), with ``-2``,
+``-3`` … only to break collisions. See ``arcaverborum.avid`` for the
+scheme. The Glottocode is retained as a column (mapping to Glottolog/ISO)
+but is no longer the av_id.
+
+av_ids are **frozen** in ``data/varieties.csv`` (Glottocode -> av_id);
+``build_catalog`` re-keys by av_id via that registry. Glottocodes absent
+from the registry get a freshly minted av_id (see ``avid.mint_av_id``).
 """
 
 from __future__ import annotations
@@ -13,6 +19,7 @@ import logging
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from arcaverborum import avid
 from arcaverborum.glottolog import GlottologEntry, load_glottolog, resolve_language
 
 logger = logging.getLogger(__name__)
@@ -85,22 +92,31 @@ def build_catalog(
     languages_csv: Path | list[Path],
     glottolog: dict[str, GlottologEntry] | None = None,
     overrides_path: Path = VARIETY_OVERRIDES,
+    avid_registry: dict[str, str] | None = None,
 ) -> dict[str, Variety]:
     """Build a variety catalog from one or more intake languages.csv.
 
     Strategy:
       1. Load Glottolog (or use the one passed in).
       2. For each Glottocode appearing in any intake, create a Variety.
-      3. Apply variety_overrides.csv: insert custom entries, or override
+      3. Re-key the catalog by av_id (see below).
+      4. Apply variety_overrides.csv: insert custom entries, or override
          fields on existing ones.
-      4. Track which sources (Dataset values) cover each variety.
+      5. Track which sources (Dataset values) cover each variety.
+
+    ``avid_registry`` maps Glottocode -> frozen av_id (from
+    data/varieties.csv). When given, the returned catalog is keyed by
+    av_id; Glottocodes absent from the registry get a freshly minted
+    av_id. When ``None`` (e.g. unit tests over synthetic data) the
+    catalog is keyed by Glottocode and av_id == Glottocode, preserving
+    the pre-scheme behaviour.
     """
     if glottolog is None:
         glottolog = load_glottolog()
 
     paths = [languages_csv] if isinstance(languages_csv, (str, Path)) else list(languages_csv)
 
-    catalog: dict[str, Variety] = {}
+    by_gc: dict[str, Variety] = {}
 
     for path in paths:
         path = Path(path)
@@ -114,12 +130,12 @@ def build_catalog(
                 dataset = (row.get("Dataset") or "").strip()
                 if not gc:
                     continue
-                if gc not in catalog:
+                if gc not in by_gc:
                     entry = glottolog.get(gc)
                     if entry is not None:
-                        catalog[gc] = _from_glottolog(entry)
+                        by_gc[gc] = _from_glottolog(entry)
                     else:
-                        catalog[gc] = Variety(
+                        by_gc[gc] = Variety(
                             av_id=gc,
                             glottocode=gc,
                             name=(row.get("Glottolog_Name") or row.get("Name") or "").strip(),
@@ -131,7 +147,21 @@ def build_catalog(
                             in_glottolog=False,
                             notes="not in Glottolog",
                         )
-                catalog[gc].sources.add(dataset)
+                by_gc[gc].sources.add(dataset)
+
+    if avid_registry is None:
+        catalog = by_gc
+    else:
+        family_codes = avid.load_family_codes()
+        catalog = {}
+        taken = set(avid_registry.values())
+        for gc, v in by_gc.items():
+            aid = avid_registry.get(gc)
+            if not aid:
+                aid = avid.mint_av_id(v.name, v.family, family_codes, taken, glottocode=gc)
+                taken.add(aid)
+            v.av_id = aid
+            catalog[aid] = v
 
     _apply_overrides(catalog, overrides_path)
 
@@ -142,6 +172,20 @@ def build_catalog(
         sum(1 for v in catalog.values() if not v.in_glottolog),
     )
     return catalog
+
+
+def load_avid_registry(path: Path = VARIETIES_OUT) -> dict[str, str]:
+    """Glottocode -> frozen av_id, from the committed registry."""
+    registry: dict[str, str] = {}
+    if not path.exists():
+        return registry
+    with path.open(encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            gc = (row.get("glottocode") or "").strip().lower()
+            aid = (row.get("av_id") or "").strip()
+            if gc and aid:
+                registry[gc] = aid
+    return registry
 
 
 def _apply_overrides(catalog: dict[str, Variety], overrides_path: Path) -> None:

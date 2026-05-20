@@ -1,0 +1,21 @@
+av_id: son-koyra-chiini-songhay
+name: Koyra Chiini Songhay
+glottocode: koyr1240
+family: Songhay
+macroarea: Africa
+sources:
+  transcription: polyglottaafricana
+  cognates: baf2
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.769
+  cognates_score: 0.4
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=polyglottaafricana (0.77); cognates=baf2 (0.40) [cross-source:
+  emitted cognates still come from transcription_source]'

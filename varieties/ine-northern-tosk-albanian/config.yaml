@@ -1,0 +1,21 @@
+av_id: ine-northern-tosk-albanian
+name: Northern Tosk Albanian
+glottocode: tosk1239
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: idssegmented
+  cognates: dyenindoeuropean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.964
+  cognates_score: 0.5608
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=idssegmented (0.96); cognates=dyenindoeuropean (0.56) [cross-source:
+  emitted cognates still come from transcription_source]'

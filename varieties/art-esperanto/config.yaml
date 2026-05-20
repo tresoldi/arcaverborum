@@ -1,0 +1,20 @@
+av_id: art-esperanto
+name: Esperanto
+glottocode: espe1235
+family: Artificial Language
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3307
+  cognates_score: 0.0886
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.33) [fallback p3]; cognates=wiktionary (0.09)'

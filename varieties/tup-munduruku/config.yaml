@@ -1,0 +1,21 @@
+av_id: tup-munduruku
+name: Mundurukú
+glottocode: mund1330
+family: Tupian
+macroarea: South America
+sources:
+  transcription: idssegmented
+  cognates: tuled
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.94
+  cognates_score: 1.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=idssegmented (0.94); cognates=tuled (1.00) [cross-source: emitted
+  cognates still come from transcription_source]'

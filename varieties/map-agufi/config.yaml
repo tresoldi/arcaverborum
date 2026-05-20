@@ -1,0 +1,21 @@
+av_id: map-agufi
+name: Agufi
+glottocode: aguf1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: tryonsolomon
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9435
+  cognates_score: 0.6038
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tryonsolomon (0.94); cognates=abvd (0.60) [cross-source: emitted
+  cognates still come from transcription_source]'

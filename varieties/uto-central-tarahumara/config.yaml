@@ -1,0 +1,20 @@
+av_id: uto-central-tarahumara
+name: Central Tarahumara
+glottocode: cent2131
+family: Uto-Aztecan
+macroarea: North America
+sources:
+  transcription: lionnetyotonahua
+  cognates: lionnetyotonahua
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7323
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=lionnetyotonahua (0.73); cognates=lionnetyotonahua (0.70)'

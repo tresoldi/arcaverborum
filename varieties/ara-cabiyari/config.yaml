@@ -1,0 +1,21 @@
+av_id: ara-cabiyari
+name: Cabiyarí
+glottocode: cabi1241
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: chaconnorthwestarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9445
+  cognates_score: 0.8618
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.94); cognates=chaconnorthwestarawakan (0.86)
+  [cross-source: emitted cognates still come from transcription_source]'

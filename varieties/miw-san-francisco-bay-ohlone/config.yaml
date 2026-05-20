@@ -1,0 +1,20 @@
+av_id: miw-san-francisco-bay-ohlone
+name: San Francisco Bay Ohlone
+glottocode: nort2969
+family: Miwok-Costanoan
+macroarea: North America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2748
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.27) [fallback p3]'

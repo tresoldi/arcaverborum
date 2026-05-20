@@ -1,0 +1,20 @@
+av_id: hmx-hmong-njua
+name: Hmong Njua
+glottocode: hmon1264
+family: Hmong-Mien
+macroarea: Eurasia
+sources:
+  transcription: starostinhmongmien
+  cognates: starostinhmongmien
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.6343
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=starostinhmongmien (0.63); cognates=starostinhmongmien (0.70)'

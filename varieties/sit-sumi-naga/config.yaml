@@ -1,0 +1,20 @@
+av_id: sit-sumi-naga
+name: Sumi Naga
+glottocode: sumi1235
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: marrisonnaga
+  cognates: marrisonnaga
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8843
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=marrisonnaga (0.88)'

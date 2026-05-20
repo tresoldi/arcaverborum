@@ -1,0 +1,21 @@
+av_id: map-sori-harengan
+name: Sori-Harengan
+glottocode: sori1242
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3833
+  cognates_score: 0.6907
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.38); cognates=acd (0.69) [cross-source: emitted cognates
+  still come from transcription_source]'

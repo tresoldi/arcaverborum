@@ -1,0 +1,21 @@
+av_id: aav-chewong
+name: Chewong
+glottocode: chew1245
+family: Austroasiatic
+macroarea: Eurasia
+sources:
+  transcription: wold
+  cognates: dunnaslian
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9899
+  cognates_score: 0.6268
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wold (0.99); cognates=dunnaslian (0.63) [cross-source: emitted
+  cognates still come from transcription_source]'

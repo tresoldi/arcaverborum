@@ -1,0 +1,20 @@
+av_id: map-danaw
+name: Danaw
+glottocode: dana1253
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4541
+  cognates_score: 0.4879
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.45); cognates=abvd (0.49)'

@@ -1,0 +1,20 @@
+av_id: afa-nubi
+name: Nubi
+glottocode: nubi1253
+family: Afro-Asiatic
+macroarea: Africa
+sources:
+  transcription: ratcliffearabic
+  cognates: ratcliffearabic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8197
+  cognates_score: 0.5011
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=ratcliffearabic (0.82); cognates=ratcliffearabic (0.50)'

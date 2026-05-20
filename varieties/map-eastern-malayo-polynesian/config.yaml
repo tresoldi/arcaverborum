@@ -1,0 +1,20 @@
+av_id: map-eastern-malayo-polynesian
+name: Eastern Malayo-Polynesian
+glottocode: east2712
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: acd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.05
+  cognates_score: 0.0264
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=acd (0.05); cognates=acd (0.03)'

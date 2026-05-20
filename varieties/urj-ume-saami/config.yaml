@@ -1,0 +1,20 @@
+av_id: urj-ume-saami
+name: Ume Saami
+glottocode: umes1235
+family: Uralic
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2256
+  cognates_score: 0.2424
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.23) [fallback p3]; cognates=wiktionary (0.24)'

@@ -7,7 +7,8 @@ Subcommands:
   ingest        Read raw/<source>/ → produce intake/<source>/ CSVs.
   register      Create varieties/<av_id>/ skeletons.
   extend        Scaffold custom/*.csv templates for hand-curating a variety.
-  update        Rebuild generated/forms.csv for one or more varieties.
+  update        Rebuild generated/forms.csv for varieties whose inputs
+                changed (config/custom/intake/recipe); --force rebuilds all.
   aggregate     Merge per-variety output into output/aggregate/.
   report        Rank varieties by curation priority into output/report/.
   status        Show enrollment, freshness, source coverage stats.
@@ -16,8 +17,8 @@ Examples:
 
   build.py fetch --source lexibank
   build.py ingest --source lexibank
-  build.py register lati1261
-  build.py update lati1261 hitt1242
+  build.py register lati1261            # Glottocode or av_id; creates varieties/ine-latin/
+  build.py update ine-latin hitt1242
   build.py update --all --family Indo-European
   build.py aggregate
   build.py report
@@ -100,7 +101,7 @@ def cmd_ingest(args: argparse.Namespace) -> int:
 
 
 def cmd_register(args: argparse.Namespace) -> int:
-    from arcaverborum.catalog import build_catalog
+    from arcaverborum.catalog import build_catalog, load_avid_registry
     from arcaverborum.glottolog import load_glottolog
     from arcaverborum.variety import register
 
@@ -110,13 +111,17 @@ def cmd_register(args: argparse.Namespace) -> int:
         return 1
 
     glottolog = load_glottolog()
-    catalog = build_catalog(combined["languages"], glottolog=glottolog)
+    registry = load_avid_registry()
+    catalog = build_catalog(combined["languages"], glottolog=glottolog, avid_registry=registry)
+    by_gc = {v.glottocode: v for v in catalog.values() if v.glottocode}
 
-    for av_id in args.av_ids:
-        if av_id not in catalog:
-            logger.warning("Skipping %s — not in catalog", av_id)
+    for ident in args.av_ids:
+        # Accept either a Glottocode (legacy) or a new-scheme av_id.
+        variety = catalog.get(ident) or by_gc.get(ident.strip().lower())
+        if variety is None:
+            logger.warning("Skipping %s — not in catalog", ident)
             continue
-        variety = catalog[av_id]
+        av_id = variety.av_id
         vd = register(
             av_id=av_id,
             varieties_root=VARIETIES_DIR,
@@ -151,7 +156,7 @@ def cmd_extend(args: argparse.Namespace) -> int:
 def _resolve_av_ids(args: argparse.Namespace) -> list[str]:
     av_ids: list[str] = list(args.av_ids or [])
 
-    if args.all_varieties or args.family or args.macroarea or args.changed:
+    if args.all_varieties or args.family or args.macroarea:
         import yaml
 
         for child in sorted(VARIETIES_DIR.iterdir() if VARIETIES_DIR.exists() else []):
@@ -166,10 +171,6 @@ def _resolve_av_ids(args: argparse.Namespace) -> list[str]:
                 continue
             if args.macroarea and cfg.get("macroarea") != args.macroarea:
                 continue
-            if args.changed:
-                gen = child / "generated" / "forms.csv"
-                if gen.exists() and gen.stat().st_mtime >= config_path.stat().st_mtime:
-                    continue
             av_ids.append(child.name)
 
     return sorted(set(av_ids))
@@ -177,20 +178,24 @@ def _resolve_av_ids(args: argparse.Namespace) -> list[str]:
 
 def cmd_update(args: argparse.Namespace) -> int:
     import pandas as pd
+    from arcaverborum import tracking
     from arcaverborum.aggregate import _load_parameter_index
-    from arcaverborum.catalog import build_catalog
+    from arcaverborum.catalog import build_catalog, load_avid_registry
     from arcaverborum.glottolog import load_glottolog
-    from arcaverborum.variety import build_one, update_config_extension_flags, VarietyDir
+    from arcaverborum.variety import (
+        build_one, load_config, update_config_extension_flags, VarietyDir,
+    )
 
     av_ids = _resolve_av_ids(args)
     if not av_ids:
         logger.error("No varieties to update. Specify av_ids or --all/--family/--macroarea.")
         return 1
-    logger.info("Updating %d varieties", len(av_ids))
+    logger.info("Updating %d varieties%s", len(av_ids), " (--force)" if args.force else "")
 
     combined = _combined_intake()
     glottolog = load_glottolog()
-    catalog = build_catalog(combined["languages"], glottolog=glottolog)
+    registry = load_avid_registry()
+    catalog = build_catalog(combined["languages"], glottolog=glottolog, avid_registry=registry)
 
     logger.info("Loading intake forms (%d sources) …", len(combined["forms"]))
     frames = []
@@ -207,22 +212,48 @@ def cmd_update(args: argparse.Namespace) -> int:
     logger.info("Loaded %d intake rows, %d parameter entries",
                 len(intake_df), len(param_index))
 
-    total = 0
+    recipe = tracking.recipe_hash()
+    logger.info("Computing intake slice fingerprints …")
+    slice_hashes = tracking.compute_intake_slice_hashes(intake_df, param_index)
+
+    total = built = skipped = failed = 0
     for i, av_id in enumerate(av_ids, 1):
+        vd = VarietyDir(av_id=av_id, root=VARIETIES_DIR / av_id)
         try:
-            total += build_one(
+            cfg = load_config(vd)
+            gc = (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+            ts = (cfg.get("sources") or {}).get("transcription", "")
+            slice_h = slice_hashes.get((gc.lower(), ts), "")
+            digest, components = tracking.fingerprint(
+                tracking.config_component(cfg),
+                tracking.custom_component(vd.custom_dir),
+                slice_h,
+                recipe,
+            )
+            if not args.force and tracking.is_fresh(vd.generated_dir, digest, vd.generated_forms):
+                skipped += 1
+                continue
+            n = build_one(
                 av_id=av_id,
                 varieties_root=VARIETIES_DIR,
                 intake_forms=intake_df,
                 catalog=catalog,
                 param_index=param_index,
             )
-            update_config_extension_flags(VarietyDir(av_id=av_id, root=VARIETIES_DIR / av_id))
+            update_config_extension_flags(vd)
+            tracking.write_manifest(vd.generated_dir, digest, components, n)
+            total += n
+            built += 1
         except Exception as exc:
+            failed += 1
             logger.error("Failed to build %s: %s", av_id, exc)
         if i % 50 == 0:
-            logger.info("Progress: %d/%d varieties built", i, len(av_ids))
-    logger.info("Built %d total forms across %d varieties", total, len(av_ids))
+            logger.info("Progress: %d/%d (built %d, skipped %d)",
+                        i, len(av_ids), built, skipped)
+    logger.info(
+        "Done: %d built (%d forms), %d skipped (unchanged), %d failed",
+        built, total, skipped, failed,
+    )
     return 0
 
 
@@ -283,14 +314,17 @@ def cmd_report(args: argparse.Namespace) -> int:
 
 def cmd_status(args: argparse.Namespace) -> int:
     import yaml
+    from arcaverborum import tracking
 
     if not VARIETIES_DIR.exists():
         print("No varieties registered.")
         return 0
 
+    recipe = tracking.recipe_hash()
     total = 0
     fresh = 0
     stale = 0
+    not_built = 0
     with_extensions = 0
     pinned = 0
     families: dict[str, int] = {}
@@ -304,11 +338,19 @@ def cmd_status(args: argparse.Namespace) -> int:
         total += 1
         with config_path.open(encoding="utf-8") as f:
             cfg = yaml.safe_load(f) or {}
-        gen = child / "generated" / "forms.csv"
-        if gen.exists() and gen.stat().st_mtime >= config_path.stat().st_mtime:
-            fresh += 1
+        gen_dir = child / "generated"
+        manifest = tracking.load_manifest(gen_dir)
+        if not (gen_dir / "forms.csv").exists() or not manifest:
+            not_built += 1
         else:
-            stale += 1
+            comps = manifest.get("components", {})
+            cfg_ok = comps.get("config") == tracking.config_component(cfg)
+            cus_ok = comps.get("custom") == tracking.custom_component(child / "custom")
+            rec_ok = comps.get("recipe") == recipe
+            if cfg_ok and cus_ok and rec_ok:
+                fresh += 1
+            else:
+                stale += 1
         if any((cfg.get("extensions") or {}).values()):
             with_extensions += 1
         if cfg.get("pinned"):
@@ -317,10 +359,13 @@ def cmd_status(args: argparse.Namespace) -> int:
         families[fam] = families.get(fam, 0) + 1
 
     print(f"Varieties enrolled:  {total}")
-    print(f"  fresh (generated/ newer than config):  {fresh}")
-    print(f"  stale (need rebuild):                  {stale}")
-    print(f"  pinned (manual sources):               {pinned}")
-    print(f"  with custom extensions:                {with_extensions}")
+    print(f"  fresh (config/custom/recipe match manifest):  {fresh}")
+    print(f"  stale (config/custom/recipe changed):         {stale}")
+    print(f"  not built (no output/manifest):               {not_built}")
+    print(f"  pinned (manual sources):                      {pinned}")
+    print(f"  with custom extensions:                       {with_extensions}")
+    print("  note: source-data (intake) changes are detected on `update`,")
+    print("        not here (status does not load intake).")
     print()
     print("Top families:")
     for fam, n in sorted(families.items(), key=lambda kv: -kv[1])[:10]:
@@ -364,8 +409,8 @@ def main(argv: list[str] | None = None) -> int:
     p_up.add_argument("--all", dest="all_varieties", action="store_true")
     p_up.add_argument("--family", default=None)
     p_up.add_argument("--macroarea", default=None)
-    p_up.add_argument("--changed", action="store_true",
-                      help="Only build varieties whose generated/ is stale vs config.yaml")
+    p_up.add_argument("--force", action="store_true",
+                      help="Rebuild even when the fingerprint is unchanged")
     p_up.set_defaults(fn=cmd_update)
 
     p_agg = sub.add_parser("aggregate", help="Union per-variety output into output/aggregate/")

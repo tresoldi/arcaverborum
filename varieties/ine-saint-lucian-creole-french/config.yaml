@@ -1,0 +1,20 @@
+av_id: ine-saint-lucian-creole-french
+name: Saint Lucian Creole French
+glottocode: sain1246
+family: Indo-European
+macroarea: North America
+sources:
+  transcription: dyenindoeuropean
+  cognates: dyenindoeuropean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.449
+  cognates_score: 0.6445
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=dyenindoeuropean (0.45); cognates=dyenindoeuropean (0.64)'

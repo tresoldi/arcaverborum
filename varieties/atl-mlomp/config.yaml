@@ -1,0 +1,20 @@
+av_id: atl-mlomp
+name: Mlomp
+glottocode: mlom1238
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: gled
+  cognates: gled
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.723
+  cognates_score: 0.6
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gled (0.72) [fallback p2]; cognates=gled (0.60)'

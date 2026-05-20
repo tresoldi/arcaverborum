@@ -1,0 +1,20 @@
+av_id: tup-tenharim
+name: Tenharim
+glottocode: nucl1663
+family: Tupian
+macroarea: South America
+sources:
+  transcription: gerarditupi
+  cognates: gerarditupi
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9419
+  cognates_score: 0.6966
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gerarditupi (0.94); cognates=gerarditupi (0.70)'

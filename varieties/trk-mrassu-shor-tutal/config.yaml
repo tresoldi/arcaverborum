@@ -1,0 +1,21 @@
+av_id: trk-mrassu-shor-tutal
+name: Mrassu Shor-Tutal
+glottocode: shor1247
+family: Turkic
+macroarea: Eurasia
+sources:
+  transcription: savelyevturkic
+  cognates: hruschkaturkic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.945
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=savelyevturkic (0.94); cognates=hruschkaturkic (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

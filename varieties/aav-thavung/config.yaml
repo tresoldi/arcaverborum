@@ -1,0 +1,21 @@
+av_id: aav-thavung
+name: Thavung
+glottocode: aheu1239
+family: Austroasiatic
+macroarea: Eurasia
+sources:
+  transcription: idssegmented
+  cognates: peirosaustroasiatic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.992
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=idssegmented (0.99); cognates=peirosaustroasiatic (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

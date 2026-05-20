@@ -1,0 +1,20 @@
+av_id: tai-northern-shanic
+name: Northern Shanic
+glottocode: nort2739
+family: Tai-Kadai
+macroarea: ''
+sources:
+  transcription: zhoubizic
+  cognates: zhoubizic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7234
+  cognates_score: 0.4
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=zhoubizic (0.72); cognates=zhoubizic (0.40)'

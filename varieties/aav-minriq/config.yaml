@@ -1,0 +1,20 @@
+av_id: aav-minriq
+name: Minriq
+glottocode: minr1238
+family: Austroasiatic
+macroarea: Eurasia
+sources:
+  transcription: dunnaslian
+  cognates: dunnaslian
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9417
+  cognates_score: 0.5605
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=dunnaslian (0.94); cognates=dunnaslian (0.56)'

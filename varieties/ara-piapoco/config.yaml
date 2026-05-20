@@ -1,0 +1,21 @@
+av_id: ara-piapoco
+name: Piapoco
+glottocode: piap1246
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: chaconnorthwestarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9586
+  cognates_score: 0.8625
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.96); cognates=chaconnorthwestarawakan (0.86)
+  [cross-source: emitted cognates still come from transcription_source]'

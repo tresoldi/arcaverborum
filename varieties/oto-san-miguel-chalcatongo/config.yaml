@@ -1,0 +1,20 @@
+av_id: oto-san-miguel-chalcatongo
+name: San Miguel Chalcatongo
+glottocode: sanm1296
+family: Otomanguean
+macroarea: North America
+sources:
+  transcription: mixtecansubgrouping
+  cognates: mixtecansubgrouping
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7119
+  cognates_score: 0.8
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=mixtecansubgrouping (0.71); cognates=mixtecansubgrouping (0.80)'

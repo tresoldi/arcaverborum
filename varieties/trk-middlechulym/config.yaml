@@ -1,0 +1,20 @@
+av_id: trk-middlechulym
+name: MiddleChulym
+glottocode: midd1324
+family: Turkic
+macroarea: ''
+sources:
+  transcription: savelyevturkic
+  cognates: savelyevturkic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9405
+  cognates_score: 0.8952
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=savelyevturkic (0.94); cognates=savelyevturkic (0.90)'

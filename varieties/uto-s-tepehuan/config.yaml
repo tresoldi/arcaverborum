@@ -1,0 +1,20 @@
+av_id: uto-s-tepehuan
+name: S Tepehuan
+glottocode: sout2975
+family: Uto-Aztecan
+macroarea: ''
+sources:
+  transcription: wheelerutoaztecan
+  cognates: wheelerutoaztecan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7363
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wheelerutoaztecan (0.74)'

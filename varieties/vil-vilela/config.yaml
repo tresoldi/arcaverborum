@@ -1,0 +1,20 @@
+av_id: vil-vilela
+name: Vilela
+glottocode: vile1241
+family: Vilela
+macroarea: South America
+sources:
+  transcription: chacolanguages
+  cognates: chacolanguages
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7866
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=chacolanguages (0.79)'

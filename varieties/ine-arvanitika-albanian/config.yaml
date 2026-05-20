@@ -1,0 +1,20 @@
+av_id: ine-arvanitika-albanian
+name: Arvanitika Albanian
+glottocode: arva1236
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: dyenindoeuropean
+  cognates: dyenindoeuropean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4435
+  cognates_score: 0.6063
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=dyenindoeuropean (0.44); cognates=dyenindoeuropean (0.61)'

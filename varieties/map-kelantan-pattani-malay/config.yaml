@@ -1,0 +1,20 @@
+av_id: map-kelantan-pattani-malay
+name: Kelantan-Pattani Malay
+glottocode: patt1249
+family: Austronesian
+macroarea: Eurasia
+sources:
+  transcription: acd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.0088
+  cognates_score: 0.7
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=acd (0.01); cognates=acd (0.70)'

@@ -1,0 +1,20 @@
+av_id: ine-hawai-i-creole-english
+name: Hawai'i Creole English
+glottocode: hawa1247
+family: Indo-European
+macroarea: Papunesia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2118
+  cognates_score: 0.2182
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.21) [fallback p3]; cognates=wiktionary (0.22)'

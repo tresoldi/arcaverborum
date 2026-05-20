@@ -1,0 +1,20 @@
+av_id: pan-mastanahua
+name: Mastanahua
+glottocode: mast1238
+family: Pano-Tacanan
+macroarea: South America
+sources:
+  transcription: panobodyparts
+  cognates: panobodyparts
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7207
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=panobodyparts (0.72)'

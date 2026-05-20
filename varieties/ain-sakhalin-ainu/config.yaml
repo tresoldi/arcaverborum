@@ -1,0 +1,20 @@
+av_id: ain-sakhalin-ainu
+name: Sakhalin Ainu
+glottocode: sakh1245
+family: Ainu
+macroarea: Eurasia
+sources:
+  transcription: leeainu
+  cognates: leeainu
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.893
+  cognates_score: 0.6753
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=leeainu (0.89); cognates=leeainu (0.68)'

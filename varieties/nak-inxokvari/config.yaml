@@ -1,0 +1,20 @@
+av_id: nak-inxokvari
+name: Inxokvari
+glottocode: inxo1238
+family: Nakh-Daghestanian
+macroarea: Eurasia
+sources:
+  transcription: idssegmented
+  cognates: idssegmented
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.952
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=idssegmented (0.95)'

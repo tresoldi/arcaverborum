@@ -29,17 +29,34 @@ varieties/<av_id>/              one dir per variety (tracked)
   custom/cognates.csv           per-form cognate overrides
   custom/concept_map.csv        per-Parameter_ID Concepticon fixes
   generated/forms.csv           gitignored — output of `build.py update`
+  generated/build_manifest.json gitignored — input fingerprint (skip-if-unchanged)
 
 output/aggregate/               (gitignored) union across enrolled varieties
 
 src/arcaverborum/               package code
   catalog.py · score.py · selection.py · phonology.py
-  variety.py · aggregate.py · report.py
+  variety.py · aggregate.py · report.py · tracking.py · avid.py
   sources/{lexibank,gled,wiktionary,glottolog,concepticon}.py
-  data/{score_weights.yaml, selection.csv, ...}
+  data/{score_weights.yaml, selection.csv, family_codes.csv, varieties.csv, ...}
 
 build.py                        top-level CLI
 ```
+
+## Variety IDs (`av_id`)
+
+Each variety has a stable, human-readable primary key of the form
+`<family_code>-<name_slug>` — e.g. `ine-latin`, `sit-mandarin-chinese`,
+`bas-basque` — with a `-2`, `-3` … suffix only to break collisions.
+
+* `family_code` is a 3-char code for the variety's **top-level Glottolog
+  family** (the only genealogical dimension in the key, so IDs survive
+  Glottolog reclassifications of subgroups). Codes live in the committed,
+  curatable `src/arcaverborum/data/family_codes.csv`; `und` = undetermined
+  family. Macroarea, subfamily, and coordinates stay as columns, not in
+  the key.
+* IDs are **assigned once and frozen** in `src/arcaverborum/data/varieties.csv`
+  (Glottocode ↔ av_id). The Glottocode is kept as a column (mapping to
+  Glottolog/ISO) but is no longer the av_id. See `arcaverborum.avid`.
 
 ## CLI
 
@@ -50,16 +67,35 @@ python build.py fetch --source all           # fetch every source
 python build.py ingest --source lexibank     # raw/lexibank → intake/lexibank
 python build.py ingest --source wiktionary   # raw/wiktionary → intake/wiktionary
 
-python build.py register lati1261            # create varieties/lati1261/config.yaml
-python build.py extend lati1261              # scaffold custom/*.csv templates
-python build.py update lati1261              # build generated/forms.csv
-python build.py update --all                 # build everything
+python build.py register lati1261            # create varieties/ine-latin/ (accepts Glottocode or av_id)
+python build.py extend ine-latin            # scaffold custom/*.csv templates
+python build.py update ine-latin            # build generated/forms.csv
+python build.py update --all                 # build everything (skips unchanged)
 python build.py update --family Indo-European
-python build.py update --changed             # only stale varieties
+python build.py update --all --force         # rebuild even if unchanged
 
 python build.py aggregate                    # union into output/aggregate/
 python build.py status                       # enrollment / freshness
 ```
+
+### Incremental builds
+
+`update` rebuilds a variety only when one of its inputs changed. Each
+build records a fingerprint in `generated/build_manifest.json` over four
+components:
+
+- **config** — the output-relevant fields of `config.yaml` (source picks,
+  scoring, identity; not the auto-managed `extensions` flags or `notes`).
+- **custom** — the bytes of the four `custom/*.csv` override files.
+- **slice** — the variety's own intake rows (Glottocode × transcription
+  source), with Concepticon resolution folded in.
+- **recipe** — the transform code (`variety.py`, `phonology.py`,
+  `aggregate.py`), `score_weights.yaml`, and the merkmal version.
+
+Re-running `update` with nothing changed skips every variety; re-ingesting
+one source rebuilds only the varieties whose slice actually changed;
+editing the build code (or `--force`) rebuilds all. Manifests live under
+the gitignored `generated/`, so a fresh checkout rebuilds from scratch.
 
 ### Source universe and priority
 
@@ -85,7 +121,7 @@ as "no extension".
 ## Variety config (`varieties/<av_id>/config.yaml`)
 
 ```yaml
-av_id: lati1261
+av_id: ine-latin
 name: Latin
 glottocode: lati1261
 family: Indo-European

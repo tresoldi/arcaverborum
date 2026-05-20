@@ -1,0 +1,20 @@
+av_id: map-kandas
+name: Kandas
+glottocode: kand1301
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.459
+  cognates_score: 0.5721
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.46); cognates=abvd (0.57)'

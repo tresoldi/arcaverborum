@@ -1,0 +1,20 @@
+av_id: hur-urartian
+name: Urartian
+glottocode: urar1245
+family: Hurro-Urartian
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1465
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.15) [fallback p3]'

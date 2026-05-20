@@ -1,0 +1,20 @@
+av_id: mix-chapultenango
+name: Chapultenango
+glottocode: chap1265
+family: Mixe-Zoque
+macroarea: North America
+sources:
+  transcription: mixezoqueanvoices
+  cognates: mixezoqueanvoices
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4961
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=mixezoqueanvoices (0.50)'

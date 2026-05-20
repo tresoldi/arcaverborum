@@ -1,0 +1,20 @@
+av_id: map-komodo
+name: Komodo
+glottocode: komo1261
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: acd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.0901
+  cognates_score: 0.6083
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=acd (0.09); cognates=acd (0.61)'

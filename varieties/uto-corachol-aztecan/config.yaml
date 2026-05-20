@@ -1,0 +1,20 @@
+av_id: uto-corachol-aztecan
+name: Corachol-Aztecan
+glottocode: cora1261
+family: Uto-Aztecan
+macroarea: ''
+sources:
+  transcription: pharaocoracholaztecan
+  cognates: pharaocoracholaztecan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7773
+  cognates_score: 0.6708
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=pharaocoracholaztecan (0.78); cognates=pharaocoracholaztecan (0.67)'

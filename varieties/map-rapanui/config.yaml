@@ -1,0 +1,21 @@
+av_id: map-rapanui
+name: Rapanui
+glottocode: rapa1244
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: idssegmented
+  cognates: walworthpolynesian
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 1.0
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=idssegmented (1.00); cognates=walworthpolynesian (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

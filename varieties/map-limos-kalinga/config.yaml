@@ -1,0 +1,21 @@
+av_id: map-limos-kalinga
+name: Limos Kalinga
+glottocode: limo1248
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: tryoncad
+  cognates: abvdphilippines
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 1.0
+  cognates_score: 0.5813
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tryoncad (1.00); cognates=abvdphilippines (0.58) [cross-source:
+  emitted cognates still come from transcription_source]'

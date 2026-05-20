@@ -1,0 +1,20 @@
+av_id: yam-len
+name: Len
+glottocode: lenn1234
+family: Yam
+macroarea: Papunesia
+sources:
+  transcription: yamfinder
+  cognates: yamfinder
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3373
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=yamfinder (0.34)'

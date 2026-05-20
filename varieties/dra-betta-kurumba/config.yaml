@@ -1,0 +1,20 @@
+av_id: dra-betta-kurumba
+name: Betta Kurumba
+glottocode: bett1235
+family: Dravidian
+macroarea: Eurasia
+sources:
+  transcription: dravlex
+  cognates: dravlex
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8807
+  cognates_score: 0.6678
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=dravlex (0.88); cognates=dravlex (0.67)'

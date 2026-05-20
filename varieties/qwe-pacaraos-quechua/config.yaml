@@ -1,0 +1,20 @@
+av_id: qwe-pacaraos-quechua
+name: Pacaraos Quechua
+glottocode: paca1245
+family: Quechuan
+macroarea: South America
+sources:
+  transcription: crossandean
+  cognates: crossandean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8724
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=crossandean (0.87); cognates=crossandean (0.90)'

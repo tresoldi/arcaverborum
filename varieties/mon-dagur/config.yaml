@@ -1,0 +1,20 @@
+av_id: mon-dagur
+name: Dagur
+glottocode: daur1238
+family: Mongolic-Khitan
+macroarea: Eurasia
+sources:
+  transcription: robbeetstriangulation
+  cognates: robbeetstriangulation
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8938
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=robbeetstriangulation (0.89); cognates=robbeetstriangulation (0.70)'

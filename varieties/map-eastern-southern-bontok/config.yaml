@@ -1,0 +1,20 @@
+av_id: map-eastern-southern-bontok
+name: Eastern-Southern Bontok
+glottocode: fina1242
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: diacl
+  cognates: diacl
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3165
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=diacl (0.32)'

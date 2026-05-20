@@ -1,0 +1,20 @@
+av_id: ara-ashaninka
+name: Asháninka
+glottocode: asha1243
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: walkerarawakan
+  cognates: walkerarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8291
+  cognates_score: 0.572
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=walkerarawakan (0.83); cognates=walkerarawakan (0.57)'

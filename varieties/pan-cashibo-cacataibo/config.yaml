@@ -1,0 +1,20 @@
+av_id: pan-cashibo-cacataibo
+name: Cashibo-Cacataibo
+glottocode: cash1251
+family: Pano-Tacanan
+macroarea: South America
+sources:
+  transcription: blumpanotacana
+  cognates: blumpanotacana
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.926
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=blumpanotacana (0.93); cognates=blumpanotacana (0.90)'
