@@ -5,9 +5,9 @@ For each language variety, one source is selected for transcription
 and one for cognate judgments, with full provenance, per-form quality
 scoring, and hand-curatable extensions.
 
-> This branch (`bestof-rewrite`) is a restructure of the project around
-> per-variety directories. Old Lexibank/Wiktionary/GLED merge artifacts
-> from previous releases are no longer produced.
+> Per-variety redesign of the project. The earlier merged-tier layout
+> (Full / Curated / Expert-Cognates) is fully replaced. New here? Start
+> with `ONBOARDING.md`.
 
 ## Layout
 
