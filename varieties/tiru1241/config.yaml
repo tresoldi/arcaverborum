@@ -1,0 +1,21 @@
+av_id: tiru1241
+name: Tiruray
+glottocode: tiru1241
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvdphilippines
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9744
+  cognates_score: 0.585
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvdphilippines (0.97); cognates=acd (0.58) [cross-source: emitted
+  cognates still come from transcription_source]'

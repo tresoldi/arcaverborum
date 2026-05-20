@@ -1,0 +1,21 @@
+av_id: iqui1243
+name: Iquito
+glottocode: iqui1243
+family: Zaparoan
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: northperulex
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9625
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.96); cognates=northperulex (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

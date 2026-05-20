@@ -1,0 +1,21 @@
+av_id: tran1282
+name: Transalpine Gaulish
+glottocode: tran1282
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: diacl
+  cognates: iecor
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3523
+  cognates_score: 0.7
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=diacl (0.35); cognates=iecor (0.70) [cross-source: emitted cognates
+  still come from transcription_source]'

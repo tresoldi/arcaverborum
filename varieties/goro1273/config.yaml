@@ -1,0 +1,20 @@
+av_id: goro1273
+name: Gorontalic
+glottocode: goro1273
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: acd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.0233
+  cognates_score: 0.5765
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=acd (0.02); cognates=acd (0.58)'

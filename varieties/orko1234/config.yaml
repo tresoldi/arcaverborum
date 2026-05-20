@@ -1,0 +1,20 @@
+av_id: orko1234
+name: Orkon-Fanbak
+glottocode: orko1234
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4733
+  cognates_score: 0.6267
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.47); cognates=abvd (0.63)'

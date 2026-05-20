@@ -1,0 +1,21 @@
+av_id: bamb1269
+name: Bambara
+glottocode: bamb1269
+family: Mande
+macroarea: Africa
+sources:
+  transcription: polyglottaafricana
+  cognates: baf2
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7748
+  cognates_score: 0.4
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=polyglottaafricana (0.77); cognates=baf2 (0.40) [cross-source:
+  emitted cognates still come from transcription_source]'

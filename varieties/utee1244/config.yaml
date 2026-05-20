@@ -1,0 +1,21 @@
+av_id: utee1244
+name: Ute
+glottocode: utee1244
+family: Uto-Aztecan
+macroarea: North America
+sources:
+  transcription: huntergatherer
+  cognates: utoaztecan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9549
+  cognates_score: 0.6909
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.95); cognates=utoaztecan (0.69) [cross-source:
+  emitted cognates still come from transcription_source]'

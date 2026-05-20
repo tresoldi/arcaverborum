@@ -1,0 +1,20 @@
+av_id: minn1241
+name: Min Nan Chinese
+glottocode: minn1241
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: wangbcd
+  cognates: wangbcd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.45
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wangbcd (0.45); cognates=wangbcd (0.70)'

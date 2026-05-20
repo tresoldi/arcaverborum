@@ -1,0 +1,20 @@
+av_id: lamm1241
+name: Western Pantar
+glottocode: lamm1241
+family: Timor-Alor-Pantar
+macroarea: Papunesia
+sources:
+  transcription: robinsonap
+  cognates: robinsonap
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9463
+  cognates_score: 0.5296
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=robinsonap (0.95); cognates=robinsonap (0.53)'

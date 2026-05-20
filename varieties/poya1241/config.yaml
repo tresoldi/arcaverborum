@@ -1,0 +1,21 @@
+av_id: poya1241
+name: Poyanáwa
+glottocode: poya1241
+family: Pano-Tacanan
+macroarea: South America
+sources:
+  transcription: panobodyparts
+  cognates: oliveiraprotopanoan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7078
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=panobodyparts (0.71); cognates=oliveiraprotopanoan (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

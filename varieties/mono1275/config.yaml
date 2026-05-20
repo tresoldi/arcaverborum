@@ -1,0 +1,21 @@
+av_id: mono1275
+name: Mono (USA)
+glottocode: mono1275
+family: Uto-Aztecan
+macroarea: North America
+sources:
+  transcription: huntergatherer
+  cognates: utoaztecan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9461
+  cognates_score: 0.6969
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.95); cognates=utoaztecan (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

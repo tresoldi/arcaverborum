@@ -1,0 +1,20 @@
+av_id: thal1241
+name: Thali
+glottocode: thal1241
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: lsi
+  cognates: lsi
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7291
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=lsi (0.73)'

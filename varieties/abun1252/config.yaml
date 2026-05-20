@@ -1,0 +1,20 @@
+av_id: abun1252
+name: Abun
+glottocode: abun1252
+family: Abun
+macroarea: Papunesia
+sources:
+  transcription: papuanvoices
+  cognates: papuanvoices
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9732
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=papuanvoices (0.97)'

@@ -1,0 +1,20 @@
+av_id: bara1395
+name: Bara
+glottocode: bara1395
+family: Afro-Asiatic
+macroarea: Africa
+sources:
+  transcription: servamalagasy
+  cognates: servamalagasy
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8445
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=servamalagasy (0.84)'

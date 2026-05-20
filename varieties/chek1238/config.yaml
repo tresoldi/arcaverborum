@@ -1,0 +1,21 @@
+av_id: chek1238
+name: Cheke Holo
+glottocode: chek1238
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: tryoncad
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.988
+  cognates_score: 0.6692
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tryoncad (0.99); cognates=acd (0.67) [cross-source: emitted cognates
+  still come from transcription_source]'

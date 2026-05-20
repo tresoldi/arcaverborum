@@ -1,0 +1,20 @@
+av_id: jixi1238
+name: Jixi
+glottocode: jixi1238
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: liusinitic
+  cognates: liusinitic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7435
+  cognates_score: 0.8
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=liusinitic (0.74); cognates=liusinitic (0.80)'

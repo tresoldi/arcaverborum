@@ -1,0 +1,21 @@
+av_id: tady1237
+name: Tadyawan
+glottocode: tady1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvdphilippines
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7993
+  cognates_score: 0.4154
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvdphilippines (0.80); cognates=abvd (0.42) [cross-source: emitted
+  cognates still come from transcription_source]'

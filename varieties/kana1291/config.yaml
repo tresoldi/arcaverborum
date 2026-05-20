@@ -1,0 +1,21 @@
+av_id: kana1291
+name: Katukína-Kanamarí
+glottocode: kana1291
+family: Katukinan
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: kahd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8478
+  cognates_score: 1.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.85); cognates=kahd (1.00) [cross-source: emitted
+  cognates still come from transcription_source]'

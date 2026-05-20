@@ -1,0 +1,21 @@
+av_id: bani1262
+name: Baniwa do Alto Icana
+glottocode: bani1262
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: chaconnorthwestarawakan
+  cognates: chaconnorthwestarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7997
+  cognates_score: 0.8786
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=chaconnorthwestarawakan (0.80); cognates=chaconnorthwestarawakan
+  (0.88)'

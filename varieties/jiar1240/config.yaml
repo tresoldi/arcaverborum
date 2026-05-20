@@ -1,0 +1,20 @@
+av_id: jiar1240
+name: Northern Gyalrong
+glottocode: jiar1240
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: gaotb
+  cognates: gaotb
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8091
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gaotb (0.81); cognates=gaotb (0.70)'

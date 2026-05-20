@@ -1,0 +1,20 @@
+av_id: cham1315
+name: Chamacoco
+glottocode: cham1315
+family: Zamucoan
+macroarea: South America
+sources:
+  transcription: chacolanguages
+  cognates: chacolanguages
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8887
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=chacolanguages (0.89)'

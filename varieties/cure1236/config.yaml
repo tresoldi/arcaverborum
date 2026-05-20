@@ -1,0 +1,21 @@
+av_id: cure1236
+name: Kueretu
+glottocode: cure1236
+family: Tucanoan
+macroarea: South America
+sources:
+  transcription: kochtukanoan
+  cognates: chacontukanoan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9026
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=kochtukanoan (0.90); cognates=chacontukanoan (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

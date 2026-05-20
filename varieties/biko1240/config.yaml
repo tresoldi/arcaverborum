@@ -1,0 +1,20 @@
+av_id: biko1240
+name: Bikol
+glottocode: biko1240
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: acd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1
+  cognates_score: 0.612
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=acd (0.10); cognates=acd (0.61)'

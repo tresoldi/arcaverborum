@@ -1,0 +1,20 @@
+av_id: blag1240
+name: Blagar
+glottocode: blag1240
+family: Timor-Alor-Pantar
+macroarea: Papunesia
+sources:
+  transcription: robinsonap
+  cognates: robinsonap
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9351
+  cognates_score: 0.5394
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=robinsonap (0.94); cognates=robinsonap (0.54)'

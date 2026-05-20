@@ -1,0 +1,21 @@
+av_id: sesa1243
+name: Sesake
+glottocode: sesa1243
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: vanuatuvoices
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9897
+  cognates_score: 0.6894
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=vanuatuvoices (0.99); cognates=acd (0.69) [cross-source: emitted
+  cognates still come from transcription_source]'

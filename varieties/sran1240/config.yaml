@@ -1,0 +1,20 @@
+av_id: sran1240
+name: Sranan Tongo
+glottocode: sran1240
+family: Indo-European
+macroarea: South America
+sources:
+  transcription: dyenindoeuropean
+  cognates: dyenindoeuropean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4369
+  cognates_score: 0.5635
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=dyenindoeuropean (0.44); cognates=dyenindoeuropean (0.56)'

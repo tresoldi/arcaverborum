@@ -1,0 +1,20 @@
+av_id: mese1244
+name: Mese
+glottocode: mese1244
+family: Nuclear Trans New Guinea
+macroarea: Papunesia
+sources:
+  transcription: mcelhanonhuon
+  cognates: mcelhanonhuon
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8718
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=mcelhanonhuon (0.87); cognates=mcelhanonhuon (0.70)'

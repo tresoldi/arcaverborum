@@ -1,0 +1,21 @@
+av_id: bang1368
+name: Banggai
+glottocode: bang1368
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.479
+  cognates_score: 0.6431
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.48); cognates=acd (0.64) [cross-source: emitted cognates
+  still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: nucl1333
+name: Nuclear Dhuwal
+glottocode: nucl1333
+family: Pama-Nyungan
+macroarea: Australia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2534
+  cognates_score: 0.0444
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.25) [fallback p3]; cognates=wiktionary (0.04)'

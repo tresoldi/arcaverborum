@@ -1,0 +1,20 @@
+av_id: kita1252
+name: Kitanemuk
+glottocode: kita1252
+family: Uto-Aztecan
+macroarea: North America
+sources:
+  transcription: utoaztecan
+  cognates: utoaztecan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8062
+  cognates_score: 0.6671
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=utoaztecan (0.81); cognates=utoaztecan (0.67)'

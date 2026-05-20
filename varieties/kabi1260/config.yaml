@@ -1,0 +1,20 @@
+av_id: kabi1260
+name: Kabikabi
+glottocode: kabi1260
+family: Pama-Nyungan
+macroarea: Australia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1149
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.11) [fallback p3]'

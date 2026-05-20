@@ -1,0 +1,21 @@
+av_id: bino1237
+name: Binongan Itneg
+glottocode: bino1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvdphilippines
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9588
+  cognates_score: 0.6222
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvdphilippines (0.96); cognates=acd (0.62) [cross-source: emitted
+  cognates still come from transcription_source]'

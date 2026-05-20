@@ -1,0 +1,20 @@
+av_id: tsim1258
+name: Tsimshian
+glottocode: tsim1258
+family: Tsimshian
+macroarea: North America
+sources:
+  transcription: tolmiebritishcolumbia
+  cognates: tolmiebritishcolumbia
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9326
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tolmiebritishcolumbia (0.93)'

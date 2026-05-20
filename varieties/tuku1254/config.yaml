@@ -1,0 +1,20 @@
+av_id: tuku1254
+name: Tukudede
+glottocode: tuku1254
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.455
+  cognates_score: 0.3746
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.46); cognates=abvd (0.37)'

@@ -1,0 +1,20 @@
+av_id: mori1278
+name: Morisyen
+glottocode: mori1278
+family: Indo-European
+macroarea: Africa
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3509
+  cognates_score: 0.3227
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.35) [fallback p3]; cognates=wiktionary (0.32)'

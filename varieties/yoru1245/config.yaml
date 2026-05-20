@@ -1,0 +1,20 @@
+av_id: yoru1245
+name: Yoruba
+glottocode: yoru1245
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: joophonosemantic
+  cognates: joophonosemantic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8074
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=joophonosemantic (0.81)'

@@ -1,0 +1,20 @@
+av_id: hank1234
+name: Hankou
+glottocode: hank1234
+family: Sino-Tibetan
+macroarea: ''
+sources:
+  transcription: beidazihui
+  cognates: beidazihui
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.746
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=beidazihui (0.75)'

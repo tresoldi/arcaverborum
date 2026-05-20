@@ -1,0 +1,20 @@
+av_id: zoro1244
+name: Zoró
+glottocode: zoro1244
+family: Tupian
+macroarea: South America
+sources:
+  transcription: galuciotupi
+  cognates: galuciotupi
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7151
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=galuciotupi (0.72); cognates=galuciotupi (0.70)'

@@ -1,0 +1,21 @@
+av_id: bara1380
+name: Barasana-Eduria
+glottocode: bara1380
+family: Tucanoan
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: chacontukanoan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.978
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.98); cognates=chacontukanoan (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

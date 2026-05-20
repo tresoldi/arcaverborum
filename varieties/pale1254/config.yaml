@@ -1,0 +1,20 @@
+av_id: pale1254
+name: Palewyami Yokuts
+glottocode: pale1254
+family: Yokutsan
+macroarea: North America
+sources:
+  transcription: huntergatherer
+  cognates: huntergatherer
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9145
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.91)'

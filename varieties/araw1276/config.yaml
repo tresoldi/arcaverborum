@@ -1,0 +1,21 @@
+av_id: araw1276
+name: Lokono
+glottocode: araw1276
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: walkerarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9446
+  cognates_score: 0.572
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.94); cognates=walkerarawakan (0.57) [cross-source:
+  emitted cognates still come from transcription_source]'

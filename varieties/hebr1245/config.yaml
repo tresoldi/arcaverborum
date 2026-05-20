@@ -1,0 +1,21 @@
+av_id: hebr1245
+name: Modern Hebrew
+glottocode: hebr1245
+family: Afro-Asiatic
+macroarea: Eurasia
+sources:
+  transcription: northeuralex
+  cognates: kitchensemitic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9376
+  cognates_score: 0.6923
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=northeuralex (0.94); cognates=kitchensemitic (0.69) [cross-source:
+  emitted cognates still come from transcription_source]'

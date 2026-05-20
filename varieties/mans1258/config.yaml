@@ -1,0 +1,20 @@
+av_id: mans1258
+name: Northern Mansi
+glottocode: mans1258
+family: Uralic
+macroarea: Eurasia
+sources:
+  transcription: zhivlovobugrian
+  cognates: zhivlovobugrian
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.906
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=zhivlovobugrian (0.91); cognates=zhivlovobugrian (0.70)'

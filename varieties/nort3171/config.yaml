@@ -1,0 +1,20 @@
+av_id: nort3171
+name: North Sarawakan
+glottocode: nort3171
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3301
+  cognates_score: 0.5019
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.33); cognates=abvd (0.50)'

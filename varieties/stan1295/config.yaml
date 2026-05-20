@@ -1,0 +1,20 @@
+av_id: stan1295
+name: German
+glottocode: stan1295
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: kesslersignificance
+  cognates: kesslersignificance
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9927
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=kesslersignificance (0.99); cognates=kesslersignificance (0.70)'

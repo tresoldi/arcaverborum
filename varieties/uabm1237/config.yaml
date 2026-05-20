@@ -1,0 +1,21 @@
+av_id: uabm1237
+name: Uab Meto
+glottocode: uabm1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4881
+  cognates_score: 0.6774
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.49); cognates=acd (0.68) [cross-source: emitted cognates
+  still come from transcription_source]'

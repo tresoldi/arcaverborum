@@ -1,0 +1,20 @@
+av_id: parb1234
+name: Parbate Kham
+glottocode: parb1234
+family: Sino-Tibetan
+macroarea: ''
+sources:
+  transcription: halenepal
+  cognates: halenepal
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8113
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=halenepal (0.81)'

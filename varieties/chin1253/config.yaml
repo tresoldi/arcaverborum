@@ -1,0 +1,20 @@
+av_id: chin1253
+name: Chinese Pidgin English
+glottocode: chin1253
+family: Pidgin
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1288
+  cognates_score: 0.1333
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.13) [fallback p3]; cognates=wiktionary (0.13)'

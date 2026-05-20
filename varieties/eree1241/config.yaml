@@ -1,0 +1,20 @@
+av_id: eree1241
+name: Ere
+glottocode: eree1241
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: acd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.0316
+  cognates_score: 0.658
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=acd (0.03); cognates=acd (0.66)'

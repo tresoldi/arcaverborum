@@ -1,0 +1,20 @@
+av_id: hars1241
+name: Harsusi
+glottocode: hars1241
+family: Afro-Asiatic
+macroarea: Eurasia
+sources:
+  transcription: kitchensemitic
+  cognates: kitchensemitic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8332
+  cognates_score: 0.6087
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=kitchensemitic (0.83); cognates=kitchensemitic (0.61)'

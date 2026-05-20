@@ -1,0 +1,20 @@
+av_id: chil1279
+name: Chil (Koho)
+glottocode: chil1279
+family: Austroasiatic
+macroarea: Eurasia
+sources:
+  transcription: peirosaustroasiatic
+  cognates: peirosaustroasiatic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8298
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=peirosaustroasiatic (0.83); cognates=peirosaustroasiatic (0.70)'

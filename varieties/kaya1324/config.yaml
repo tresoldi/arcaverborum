@@ -1,0 +1,20 @@
+av_id: kaya1324
+name: Kayan Mahakam
+glottocode: kaya1324
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4248
+  cognates_score: 0.19
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.42); cognates=abvd (0.19)'

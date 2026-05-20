@@ -1,0 +1,21 @@
+av_id: itaw1240
+name: Itawit
+glottocode: itaw1240
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvdphilippines
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.892
+  cognates_score: 0.6715
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvdphilippines (0.89); cognates=acd (0.67) [cross-source: emitted
+  cognates still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: supy1237
+name: Supyire Senoufo
+glottocode: supy1237
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1873
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.19) [fallback p3]'

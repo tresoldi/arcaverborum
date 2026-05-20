@@ -1,0 +1,20 @@
+av_id: berb1259
+name: Berbice Creole Dutch
+glottocode: berb1259
+family: Indo-European
+macroarea: South America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1464
+  cognates_score: 0.16
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.15) [fallback p3]; cognates=wiktionary (0.16)'

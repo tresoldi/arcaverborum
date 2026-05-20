@@ -1,0 +1,20 @@
+av_id: waci1238
+name: Waciri
+glottocode: waci1238
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: dyenindoeuropean
+  cognates: dyenindoeuropean
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4368
+  cognates_score: 0.5212
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=dyenindoeuropean (0.44); cognates=dyenindoeuropean (0.52)'

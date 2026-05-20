@@ -1,0 +1,20 @@
+av_id: juho1239
+name: South-Eastern Ju
+glottocode: juho1239
+family: Kxa
+macroarea: Africa
+sources:
+  transcription: johanssonsoundsymbolic
+  cognates: johanssonsoundsymbolic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8067
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=johanssonsoundsymbolic (0.81)'

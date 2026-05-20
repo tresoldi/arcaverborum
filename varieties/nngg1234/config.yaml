@@ -1,0 +1,20 @@
+av_id: nngg1234
+name: N||ng
+glottocode: nngg1234
+family: Tuu
+macroarea: Africa
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3122
+  cognates_score: 0.0111
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.31) [fallback p3]; cognates=wiktionary (0.01)'

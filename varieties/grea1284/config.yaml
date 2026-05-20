@@ -1,0 +1,20 @@
+av_id: grea1284
+name: Greater Central Philippine
+glottocode: grea1284
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2966
+  cognates_score: 0.5174
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.30); cognates=abvd (0.52)'

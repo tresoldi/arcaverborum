@@ -1,0 +1,20 @@
+av_id: kile1243
+name: Kilen
+glottocode: kile1243
+family: Tungusic
+macroarea: Eurasia
+sources:
+  transcription: oskolskayatungusic
+  cognates: oskolskayatungusic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9627
+  cognates_score: 0.6988
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=oskolskayatungusic (0.96); cognates=oskolskayatungusic (0.70)'

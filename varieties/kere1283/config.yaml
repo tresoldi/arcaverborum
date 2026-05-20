@@ -1,0 +1,21 @@
+av_id: kere1283
+name: Kerewe
+glottocode: kere1283
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: tls
+  cognates: grollemundbantu
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8534
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tls (0.85); cognates=grollemundbantu (0.70) [cross-source: emitted
+  cognates still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: guad1242
+name: Guadeloupe-Martinique Creole French
+glottocode: guad1242
+family: Indo-European
+macroarea: North America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2077
+  cognates_score: 0.0443
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.21) [fallback p3]; cognates=wiktionary (0.04)'

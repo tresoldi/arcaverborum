@@ -1,0 +1,20 @@
+av_id: name1237
+name: Ná-Meo
+glottocode: name1237
+family: Hmong-Mien
+macroarea: Eurasia
+sources:
+  transcription: hsiuhmongmien
+  cognates: hsiuhmongmien
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.5828
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=hsiuhmongmien (0.58); cognates=hsiuhmongmien (0.70)'

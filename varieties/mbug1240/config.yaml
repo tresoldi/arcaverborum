@@ -1,0 +1,20 @@
+av_id: mbug1240
+name: Mbugu
+glottocode: mbug1240
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2566
+  cognates_score: 0.4
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.26) [fallback p3]; cognates=wiktionary (0.40)'

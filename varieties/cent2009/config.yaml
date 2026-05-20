@@ -1,0 +1,21 @@
+av_id: cent2009
+name: Central Hongshuihe Zhuang
+glottocode: cent2009
+family: Tai-Kadai
+macroarea: Eurasia
+sources:
+  transcription: castrozhuang
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7428
+  cognates_score: 0.1359
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=castrozhuang (0.74); cognates=abvd (0.14) [cross-source: emitted
+  cognates still come from transcription_source]'

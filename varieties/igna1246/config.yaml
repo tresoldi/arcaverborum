@@ -1,0 +1,21 @@
+av_id: igna1246
+name: Ignaciano
+glottocode: igna1246
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: idssegmented
+  cognates: walkerarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.944
+  cognates_score: 0.5718
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=idssegmented (0.94); cognates=walkerarawakan (0.57) [cross-source:
+  emitted cognates still come from transcription_source]'

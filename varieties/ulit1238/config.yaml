@@ -1,0 +1,21 @@
+av_id: ulit1238
+name: Ulithian
+glottocode: ulit1238
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: mcd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.5248
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=mcd (0.52); cognates=acd (0.70) [cross-source: emitted cognates
+  still come from transcription_source]'

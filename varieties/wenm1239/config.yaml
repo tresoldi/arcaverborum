@@ -1,0 +1,20 @@
+av_id: wenm1239
+name: Wenma-Southwestern Tai
+glottocode: wenm1239
+family: Tai-Kadai
+macroarea: ''
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4765
+  cognates_score: 0.5026
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.48); cognates=abvd (0.50)'

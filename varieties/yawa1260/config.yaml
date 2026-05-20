@@ -1,0 +1,20 @@
+av_id: yawa1260
+name: Yawanawa
+glottocode: yawa1260
+family: Pano-Tacanan
+macroarea: South America
+sources:
+  transcription: oliveiraprotopanoan
+  cognates: oliveiraprotopanoan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8394
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=oliveiraprotopanoan (0.84); cognates=oliveiraprotopanoan (0.90)'

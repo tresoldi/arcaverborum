@@ -1,0 +1,21 @@
+av_id: cand1248
+name: Candoshi-Shapra
+glottocode: cand1248
+family: Candoshi-Shapra
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: northperulex
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9715
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.97); cognates=northperulex (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

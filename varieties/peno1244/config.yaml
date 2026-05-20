@@ -1,0 +1,20 @@
+av_id: peno1244
+name: Peñoles Mixtec
+glottocode: peno1244
+family: Otomanguean
+macroarea: North America
+sources:
+  transcription: mixtecansubgrouping
+  cognates: mixtecansubgrouping
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7671
+  cognates_score: 0.8
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=mixtecansubgrouping (0.77); cognates=mixtecansubgrouping (0.80)'

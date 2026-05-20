@@ -1,0 +1,21 @@
+av_id: nimo1246
+name: Nimoa
+glottocode: nimo1246
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.3686
+  cognates_score: 0.7
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.37); cognates=acd (0.70) [cross-source: emitted cognates
+  still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: mais1250
+name: Maisin
+glottocode: mais1250
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.498
+  cognates_score: 0.2609
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.50); cognates=abvd (0.26)'

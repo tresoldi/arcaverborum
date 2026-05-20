@@ -1,0 +1,20 @@
+av_id: dege1248
+name: Degexit'an
+glottocode: dege1248
+family: Athabaskan-Eyak-Tlingit
+macroarea: North America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.203
+  cognates_score: 0.0667
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.20) [fallback p3]; cognates=wiktionary (0.07)'

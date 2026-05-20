@@ -1,0 +1,20 @@
+av_id: ishk1245
+name: Ishkoman
+glottocode: ishk1245
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: backstromnorthernpakistan
+  cognates: backstromnorthernpakistan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.88
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=backstromnorthernpakistan (0.88)'

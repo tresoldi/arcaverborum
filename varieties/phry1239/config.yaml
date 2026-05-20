@@ -1,0 +1,20 @@
+av_id: phry1239
+name: Phrygian
+glottocode: phry1239
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2717
+  cognates_score: 0.2667
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.27) [fallback p3]; cognates=wiktionary (0.27)'

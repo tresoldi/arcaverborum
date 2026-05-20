@@ -1,0 +1,20 @@
+av_id: lama1288
+name: Lamang
+glottocode: lama1288
+family: Afro-Asiatic
+macroarea: Africa
+sources:
+  transcription: gravinachadic
+  cognates: gravinachadic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8745
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gravinachadic (0.87); cognates=gravinachadic (0.70)'

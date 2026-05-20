@@ -1,0 +1,20 @@
+av_id: redg1235
+name: Red Gelao
+glottocode: redg1235
+family: Tai-Kadai
+macroarea: Eurasia
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4746
+  cognates_score: 0.0609
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.47); cognates=abvd (0.06)'

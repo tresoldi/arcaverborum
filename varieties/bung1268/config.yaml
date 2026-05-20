@@ -1,0 +1,20 @@
+av_id: bung1268
+name: Bungku-Tolaki
+glottocode: bung1268
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: abvd
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4549
+  cognates_score: 0.2493
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abvd (0.45); cognates=abvd (0.25)'

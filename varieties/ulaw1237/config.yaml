@@ -1,0 +1,21 @@
+av_id: ulaw1237
+name: Ulawa
+glottocode: ulaw1237
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: tryonsolomon
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9268
+  cognates_score: 0.6129
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tryonsolomon (0.93); cognates=abvd (0.61) [cross-source: emitted
+  cognates still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: mana1288
+name: Manange
+glottocode: mana1288
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: wold
+  cognates: wold
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9878
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wold (0.99)'

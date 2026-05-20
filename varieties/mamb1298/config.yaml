@@ -1,0 +1,20 @@
+av_id: mamb1298
+name: Mamba
+glottocode: mamb1298
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: tls
+  cognates: tls
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8825
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tls (0.88)'

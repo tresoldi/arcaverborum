@@ -1,0 +1,20 @@
+av_id: kafa1242
+name: Kafa
+glottocode: kafa1242
+family: Ta-Ne-Omotic
+macroarea: Africa
+sources:
+  transcription: gled
+  cognates: gled
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7408
+  cognates_score: 0.6
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gled (0.74) [fallback p2]; cognates=gled (0.60)'

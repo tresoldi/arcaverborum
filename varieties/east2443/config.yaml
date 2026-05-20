@@ -1,0 +1,21 @@
+av_id: east2443
+name: East Ambae
+glottocode: east2443
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: vanuatuvoices
+  cognates: acd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.935
+  cognates_score: 0.68
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=vanuatuvoices (0.94); cognates=acd (0.68) [cross-source: emitted
+  cognates still come from transcription_source]'

@@ -1,0 +1,20 @@
+av_id: kari1255
+name: Karirí-Xocó
+glottocode: kari1255
+family: Unclassifiable
+macroarea: South America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.0639
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.06) [fallback p3]'

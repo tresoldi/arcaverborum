@@ -1,0 +1,20 @@
+av_id: lach1248
+name: Lachi
+glottocode: lach1248
+family: Tai-Kadai
+macroarea: Eurasia
+sources:
+  transcription: duonglachi
+  cognates: duonglachi
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.6468
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=duonglachi (0.65)'

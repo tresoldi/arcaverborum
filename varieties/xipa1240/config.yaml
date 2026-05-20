@@ -1,0 +1,20 @@
+av_id: xipa1240
+name: Xipaya
+glottocode: xipa1240
+family: Tupian
+macroarea: South America
+sources:
+  transcription: tuled
+  cognates: tuled
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9
+  cognates_score: 1.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=tuled (0.90); cognates=tuled (1.00)'

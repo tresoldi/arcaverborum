@@ -1,0 +1,21 @@
+av_id: pemo1248
+name: Pemon
+glottocode: pemo1248
+family: Cariban
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: mattercariban
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9704
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.97); cognates=mattercariban (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

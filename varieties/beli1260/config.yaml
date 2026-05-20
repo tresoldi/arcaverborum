@@ -1,0 +1,20 @@
+av_id: beli1260
+name: Belize Kriol English
+glottocode: beli1260
+family: Indo-European
+macroarea: North America
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.2331
+  cognates_score: 0.1859
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.23) [fallback p3]; cognates=wiktionary (0.19)'

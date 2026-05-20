@@ -1,0 +1,21 @@
+av_id: namp1239
+name: Namphri
+glottocode: namp1239
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: abrahammonpa
+  cognates: lieberherrkhobwa
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.912
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=abrahammonpa (0.91); cognates=lieberherrkhobwa (0.70) [cross-source:
+  emitted cognates still come from transcription_source]'

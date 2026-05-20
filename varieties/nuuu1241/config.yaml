@@ -1,0 +1,20 @@
+av_id: nuuu1241
+name: Ghaap-Kalahari
+glottocode: nuuu1241
+family: Tuu
+macroarea: ''
+sources:
+  transcription: gled
+  cognates: gled
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.6393
+  cognates_score: 0.6
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gled (0.64) [fallback p2]; cognates=gled (0.60)'

@@ -1,0 +1,20 @@
+av_id: clas1250
+name: Classical Nahuatl
+glottocode: clas1250
+family: Uto-Aztecan
+macroarea: North America
+sources:
+  transcription: davletshinaztecan
+  cognates: davletshinaztecan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8752
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=davletshinaztecan (0.88); cognates=davletshinaztecan (0.70)'

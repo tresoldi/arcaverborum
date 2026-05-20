@@ -1,0 +1,20 @@
+av_id: kren1239
+name: Borum
+glottocode: kren1239
+family: Nuclear-Macro-Je
+macroarea: South America
+sources:
+  transcription: johanssonsoundsymbolic
+  cognates: johanssonsoundsymbolic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8978
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=johanssonsoundsymbolic (0.90)'

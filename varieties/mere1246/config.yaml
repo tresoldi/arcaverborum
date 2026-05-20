@@ -1,0 +1,20 @@
+av_id: mere1246
+name: Merey
+glottocode: mere1246
+family: Afro-Asiatic
+macroarea: Africa
+sources:
+  transcription: gravinachadic
+  cognates: gravinachadic
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.95
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gravinachadic (0.95); cognates=gravinachadic (0.70)'

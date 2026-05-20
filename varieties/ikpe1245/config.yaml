@@ -1,0 +1,20 @@
+av_id: ikpe1245
+name: Ikpeng
+glottocode: ikpe1245
+family: Cariban
+macroarea: South America
+sources:
+  transcription: mattercariban
+  cognates: mattercariban
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8081
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=mattercariban (0.81); cognates=mattercariban (0.70)'

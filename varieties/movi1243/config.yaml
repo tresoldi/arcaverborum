@@ -1,0 +1,21 @@
+av_id: movi1243
+name: Movima
+glottocode: movi1243
+family: Movima
+macroarea: South America
+sources:
+  transcription: huntergatherer
+  cognates: blumpanotacana
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.9522
+  cognates_score: 0.9
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=huntergatherer (0.95); cognates=blumpanotacana (0.90) [cross-source:
+  emitted cognates still come from transcription_source]'

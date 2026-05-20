@@ -1,0 +1,20 @@
+av_id: kula1280
+name: Kula (Indonesia)
+glottocode: kula1280
+family: Timor-Alor-Pantar
+macroarea: Papunesia
+sources:
+  transcription: transnewguineaorg
+  cognates: transnewguineaorg
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8183
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=transnewguineaorg (0.82)'

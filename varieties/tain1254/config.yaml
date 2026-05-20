@@ -1,0 +1,20 @@
+av_id: tain1254
+name: Taino
+glottocode: tain1254
+family: Arawakan
+macroarea: North America
+sources:
+  transcription: walkerarawakan
+  cognates: walkerarawakan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8099
+  cognates_score: 0.5901
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=walkerarawakan (0.81); cognates=walkerarawakan (0.59)'

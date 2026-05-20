@@ -1,0 +1,20 @@
+av_id: bara1375
+name: Barapasi
+glottocode: bara1375
+family: Geelvink Bay
+macroarea: Papunesia
+sources:
+  transcription: transnewguineaorg
+  cognates: transnewguineaorg
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7559
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=transnewguineaorg (0.76)'

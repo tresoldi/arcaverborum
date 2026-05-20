@@ -1,0 +1,20 @@
+av_id: kash1280
+name: Kashaya
+glottocode: kash1280
+family: Pomoan
+macroarea: North America
+sources:
+  transcription: gled
+  cognates: gled
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.7274
+  cognates_score: 0.6
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=gled (0.73) [fallback p2]; cognates=gled (0.60)'

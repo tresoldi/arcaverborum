@@ -1,0 +1,20 @@
+av_id: yine1238
+name: Yine
+glottocode: yine1238
+family: Arawakan
+macroarea: South America
+sources:
+  transcription: carvalhopurus
+  cognates: carvalhopurus
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8512
+  cognates_score: 0.7
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=carvalhopurus (0.85); cognates=carvalhopurus (0.70)'

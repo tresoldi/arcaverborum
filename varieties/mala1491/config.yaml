@@ -1,0 +1,20 @@
+av_id: mala1491
+name: Malay Aklanon
+glottocode: mala1491
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.1098
+  cognates_score: 0.0
+  tier: copper
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=wiktionary (0.11) [fallback p3]'

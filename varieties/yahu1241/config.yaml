@@ -1,0 +1,20 @@
+av_id: yahu1241
+name: Yahuna
+glottocode: yahu1241
+family: Tucanoan
+macroarea: South America
+sources:
+  transcription: kochtukanoan
+  cognates: kochtukanoan
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.8574
+  cognates_score: 0.0
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=kochtukanoan (0.86)'

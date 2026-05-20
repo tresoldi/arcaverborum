@@ -1,0 +1,21 @@
+av_id: ocea1241
+name: Oceanic
+glottocode: ocea1241
+family: Austronesian
+macroarea: ''
+sources:
+  transcription: transnewguineaorg
+  cognates: abvd
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.941
+  cognates_score: 0.6806
+  tier: bronze
+pinned: false
+registered_on: '2026-05-20'
+notes: 'auto: forms=transnewguineaorg (0.94); cognates=abvd (0.68) [cross-source:
+  emitted cognates still come from transcription_source]'
