@@ -61,7 +61,7 @@ def build_curation_report(
 ) -> tuple[list[dict], dict]:
     """Compute per-variety curation metrics + a database-wide summary.
 
-    `forms` needs columns av_id, Segments, Segments_Source, Concepticon_ID,
+    `forms` needs columns av_id, Segments, Segments_Source, concept_id,
     Cognacy. `varieties` is the aggregate varieties.csv. Returns
     (rows sorted by descending priority, summary dict).
 
@@ -71,7 +71,7 @@ def build_curation_report(
     """
     seg = forms["Segments"].fillna("").astype(str)
     ss = forms["Segments_Source"].fillna("").astype(str)
-    cid = forms["Concepticon_ID"].fillna("").astype(str).str.strip()
+    cid = forms["concept_id"].fillna("").astype(str).str.strip()
     cog = forms["Cognacy"].fillna("").astype(str).str.strip()
     is_unclean = ss.eq("unclean")
 

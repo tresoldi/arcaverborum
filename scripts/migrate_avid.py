@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 import yaml  # noqa: E402
 
 from arcaverborum import avid  # noqa: E402
-from arcaverborum.catalog import VARIETY_FIELDS, VARIETIES_OUT  # noqa: E402
+from arcaverborum.catalog import VARIETIES_OUT, VARIETY_FIELDS  # noqa: E402
 from arcaverborum.glottolog import GLOTTOLOG_CSV_URL, load_glottolog  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent

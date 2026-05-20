@@ -29,11 +29,13 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
+from arcaverborum.concepts import CONCEPTS_CSV, load_concepts
+
 logger = logging.getLogger(__name__)
 
 FORMS_OUT_FIELDS = (
     "av_id", "Glottocode", "Variety_Name",
-    "Concepticon_ID", "Concepticon_Gloss",
+    "concept_id", "concept_label", "Concepticon_ID",
     "Value", "Form", "Segments", "Segments_Source",
     "Cognacy", "canonical_cognate_id",
     "Alignment", "Morpheme_Index", "Segment_Slice", "Doubt",
@@ -126,11 +128,12 @@ def aggregate_all(
     """Union all `varieties/<av_id>/generated/forms.csv` into output/aggregate/.
 
     `intake_dir` provides metadata.csv + sources.bib (Lexibank).
-    `extra_intake_dirs` (e.g. wiktionary) contribute additional
-    parameters_raw.csv for the Concepticon join.
+    `extra_intake_dirs` is accepted for call-site compatibility; the
+    concept table is now emitted from the frozen concept registry, so no
+    parameters_raw.csv join is needed here.
     """
+    _ = extra_intake_dirs  # retained for API stability; no longer used here
     output_dir.mkdir(parents=True, exist_ok=True)
-    parameter_dirs = [intake_dir] + list(extra_intake_dirs or [])
 
     av_ids_built: list[str] = []
     av_configs: dict[str, dict] = {}
@@ -165,7 +168,8 @@ def aggregate_all(
         total_forms += len(df)
         sources_used.update(df["transcription_source"].unique())
         sources_used.update(df["cognate_source"].unique())
-        concept_ids_used.update(df["Concepticon_ID"].dropna().unique())
+        if "concept_id" in df.columns:
+            concept_ids_used.update(df["concept_id"].dropna().unique())
         for keys in df["bibtex_key"].dropna().unique():
             for key in str(keys).split(";"):
                 key = key.strip()
@@ -178,10 +182,7 @@ def aggregate_all(
     concept_ids_used.discard("")
 
     write_varieties(av_configs, output_dir)
-    write_parameters(
-        [d / "parameters_raw.csv" for d in parameter_dirs],
-        concept_ids_used, output_dir,
-    )
+    write_parameters(concept_ids_used, output_dir)
     write_metadata(intake_dir / "metadata.csv", sources_used, output_dir)
     write_sources_bib(intake_dir / "sources.bib", bibtex_keys_used, output_dir)
 
@@ -232,27 +233,31 @@ def write_varieties(av_configs: dict[str, dict], output_dir: Path) -> int:
     return len(rows)
 
 
-def write_parameters(parameters_paths, concept_ids: set[str], output_dir: Path) -> int:
-    if isinstance(parameters_paths, (str, Path)):
-        parameters_paths = [parameters_paths]
-    frames = []
-    for p in parameters_paths:
-        p = Path(p)
-        if not p.exists():
-            continue
-        d = pd.read_csv(p, dtype=str, keep_default_na=False)
-        if "Concepticon_ID" in d.columns:
-            frames.append(d)
-    if not frames:
-        logger.warning("No parameters files found for aggregation")
-        return 0
-    df = pd.concat(frames, ignore_index=True)
-    df = df[df["Concepticon_ID"].isin(concept_ids)].copy()
-    df = df.drop_duplicates(subset=["Concepticon_ID"])
-    cols = [c for c in ("Concepticon_ID", "Concepticon_Gloss", "Name") if c in df.columns]
-    df[cols].to_csv(output_dir / "parameters.csv", index=False)
-    logger.info("Wrote %d parameters", len(df))
-    return len(df)
+def write_parameters(concept_ids: set[str], output_dir: Path,
+                     registry_path: Path = CONCEPTS_CSV) -> int:
+    """Emit output/aggregate/parameters.csv as the concept-catalog view of
+    the concepts actually present, straight from the frozen registry."""
+    cols = ("concept_id", "concepticon_id", "label", "pos",
+            "semantic_field", "definition")
+    rows = [
+        {
+            "concept_id": c.concept_id,
+            "concepticon_id": c.concepticon_id,
+            "label": c.label,
+            "pos": c.pos,
+            "semantic_field": c.semantic_field,
+            "definition": c.definition,
+        }
+        for c in load_concepts(registry_path)
+        if c.concept_id in concept_ids
+    ]
+    rows.sort(key=lambda r: r["concept_id"])
+    with (output_dir / "parameters.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        w.writerows(rows)
+    logger.info("Wrote %d parameters (concept catalog view)", len(rows))
+    return len(rows)
 
 
 def write_metadata(metadata_path: Path, sources_used: set[str], output_dir: Path) -> int:

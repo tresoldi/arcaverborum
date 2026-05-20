@@ -36,8 +36,10 @@ output/aggregate/               (gitignored) union across enrolled varieties
 src/arcaverborum/               package code
   catalog.py · score.py · selection.py · phonology.py
   variety.py · aggregate.py · report.py · tracking.py · avid.py · explore.py
+  concepts.py · concept_audit.py · concepticon.py
   sources/{lexibank,gled,wiktionary,glottolog,concepticon}.py
-  data/{score_weights.yaml, selection.csv, family_codes.csv, varieties.csv, ...}
+  data/{score_weights.yaml, selection.csv, family_codes.csv, varieties.csv,
+        concepts.csv, semantic_field_codes.csv, concept_overrides.csv, ...}
 
 build.py                        top-level build CLI
 explore.py                      top-level query CLI (SQLite-indexed)
@@ -59,6 +61,25 @@ Each variety has a stable, human-readable primary key of the form
   (Glottocode ↔ av_id). The Glottocode is kept as a column (mapping to
   Glottolog/ISO) but is no longer the av_id. See `arcaverborum.avid`.
 
+## Concept IDs (`concept_id`)
+
+Concepts get the same treatment as varieties: our own frozen,
+human-readable key, mapping to Concepticon as a column.
+
+* `concept_id` has the form `<field_code>-<label_slug>` — e.g. `phy-water`,
+  `bod-hair`, `act-eat`, `spa-below-or-under` — with a `-<qualifier>` or
+  `-2` suffix only to break within-field collisions. `field_code` is a
+  3-char code for the concept's Concepticon **semantic field** (the only
+  coarse, stable dimension in the key). All lowercase, query-friendly.
+* The clean `label` and a `pos` tag (`n`/`v`/`adj`/…) are columns, so the
+  verb/noun ambiguity, parentheses, and disjunctive glosses of Concepticon
+  never enter the data. The `concepticon_id` is kept as a column.
+* IDs are **assigned once and frozen** in
+  `src/arcaverborum/data/concepts.csv`; field codes live in the curatable
+  `data/semantic_field_codes.csv`. Drift against Concepticon is surfaced
+  by `python build.py concepts` (never silently re-keyed). See
+  `arcaverborum.concepts` and `docs/CONCEPTS_SPECIFICATION.md`.
+
 ## CLI
 
 ```bash
@@ -76,6 +97,8 @@ python build.py update --family Indo-European
 python build.py update --all --force         # rebuild even if unchanged
 
 python build.py aggregate                    # union into output/aggregate/
+python build.py concepts                     # audit the concept catalog vs Concepticon
+python build.py concepts --mint              # mint ids for new in-use concepts
 python build.py status                       # enrollment / freshness
 ```
 
@@ -135,11 +158,11 @@ python explore.py index                       # build/refresh the index (~25s; n
 
 python explore.py langs --family Indo-European # list varieties (filters: --family/--macroarea/--tier/--source/--search)
 python explore.py lang Latin                   # all forms of a variety (av_id, Glottocode, or name)
-python explore.py lang lati1261 --concept WATER
-python explore.py concept WATER --family Indo-European   # a concept across varieties
-python explore.py cognate --concept WATER      # cognate sets attested for a concept
+python explore.py lang lati1261 --concept phy-water
+python explore.py concept phy-water --family Indo-European   # a concept across varieties (concept_id, label, or Concepticon ID)
+python explore.py cognate --concept phy-water  # cognate sets attested for a concept
 python explore.py cognate iecor_335            # members of one cognate set
-python explore.py form '水' --concept WATER     # search surface forms (Form/Value)
+python explore.py form '水' --concept phy-water # search surface forms (Form/Value)
 python explore.py concepts                     # concepts ranked by coverage
 python explore.py stats --family Indo-European # summary statistics (omit --family for global)
 python explore.py sql "SELECT tier, COUNT(*) FROM forms GROUP BY tier"   # read-only SQL
@@ -198,7 +221,8 @@ notes: |
   didn't include). Get auto-assigned `custom_<av_id>_<n>` IDs and
   `transcription_source=custom`.
 * **cognates.csv** — per-`source_form_id` cognate column overrides.
-* **concept_map.csv** — per-`Parameter_ID` Concepticon mapping fixes.
+* **concept_map.csv** — per-`Parameter_ID` concept fixes: correct the
+  `Concepticon_ID`/`Concepticon_Gloss`, or pin our `concept_id` directly.
 
 When custom columns are non-empty they override the source's; empty
 columns leave source values intact.

@@ -59,7 +59,8 @@ _KNOWN_RENAMES = {"Cognate_Source": "Cognate_Source_cldf"}
 _FORM_INDEXES = (
     "av_id",
     "Glottocode",
-    "Concepticon_Gloss",
+    "concept_id",
+    "concept_label",
     "Concepticon_ID",
     "canonical_cognate_id",
     "Cognacy",
@@ -73,13 +74,13 @@ _FORM_INDEXES = (
 _COG_KEY = "COALESCE(NULLIF(canonical_cognate_id, ''), Cognacy)"
 
 # Curated console column sets (CSV/`sql` output is never trimmed).
-_LANG_COLS = ("Concepticon_ID", "Concepticon_Gloss", "Value", "Form",
+_LANG_COLS = ("concept_id", "concept_label", "Value", "Form",
               "Segments", "Cognacy", "canonical_cognate_id", "Loan", "quality_score")
 _CONCEPT_COLS = ("av_id", "Variety_Name", "Family", "Form", "Segments",
                  "canonical_cognate_id", "Loan", "transcription_source")
-_COGNATE_COLS = ("av_id", "Variety_Name", "Concepticon_Gloss", "Form",
+_COGNATE_COLS = ("av_id", "Variety_Name", "concept_id", "concept_label", "Form",
                  "Segments", "Cognacy", "Loan")
-_FORM_SEARCH_COLS = ("av_id", "Variety_Name", "Concepticon_Gloss", "Form",
+_FORM_SEARCH_COLS = ("av_id", "Variety_Name", "concept_id", "concept_label", "Form",
                      "Segments", "canonical_cognate_id")
 
 
@@ -254,6 +255,22 @@ def _limit_clause(limit: int) -> str:
     return "" if limit <= 0 else f" LIMIT {limit + 1}"
 
 
+def _concept_cond(value: str, col_prefix: str = "") -> tuple[str, list[str]]:
+    """SQL condition + params matching a concept by our concept_id (exact),
+    its label (substring), or — for an all-digits value — the legacy
+    numeric Concepticon id.
+
+        bod-hair  -> concept_id = 'bod-hair'
+        water     -> concept_id = 'water' OR concept_label LIKE '%water%'
+        948       -> Concepticon_ID = '948'
+    """
+    v = value.strip()
+    if v.isdigit():
+        return f"{col_prefix}Concepticon_ID = ?", [v]
+    return (f"({col_prefix}concept_id = ? OR {col_prefix}concept_label LIKE ?)",
+            [v, f"%{v}%"])
+
+
 def resolve_variety(con: sqlite3.Connection, ident: str) -> str:
     """Resolve an av_id / Glottocode / name to a single av_id.
 
@@ -334,10 +351,11 @@ def q_lang(
     """All forms of one variety (optionally filtered to a concept)."""
     where, params = ["av_id = ?"], [av_id]
     if concept:
-        where.append("(Concepticon_Gloss LIKE ? OR Concepticon_ID = ?)")
-        params += [f"%{concept}%", concept]
+        cond, cps = _concept_cond(concept)
+        where.append(cond)
+        params += cps
     sql = (f"SELECT * FROM forms WHERE {' AND '.join(where)} "
-           f"ORDER BY CAST(Concepticon_ID AS INTEGER){_limit_clause(limit)}")
+           f"ORDER BY concept_id{_limit_clause(limit)}")
     return _fetch(con, sql, tuple(params))
 
 
@@ -348,11 +366,8 @@ def q_concept(
     family: str | None = None,
     limit: int = 50,
 ) -> tuple[list[str], list[tuple]]:
-    """All forms of a concept across varieties (gloss substring or numeric ID)."""
-    if concept.isdigit():
-        cond, cparams = "f.Concepticon_ID = ?", [concept]
-    else:
-        cond, cparams = "f.Concepticon_Gloss LIKE ?", [f"%{concept}%"]
+    """All forms of a concept across varieties (concept_id, label, or numeric ID)."""
+    cond, cparams = _concept_cond(concept, "f.")
     where, params = [cond], list(cparams)
     if family:
         where.append("v.Family LIKE ?")
@@ -385,10 +400,7 @@ def q_cognate_sets(
     limit: int = 50,
 ) -> tuple[list[str], list[tuple]]:
     """Cognate sets attested for a concept, with member/variety counts."""
-    if concept.isdigit():
-        cond, cparams = "f.Concepticon_ID = ?", [concept]
-    else:
-        cond, cparams = "f.Concepticon_Gloss LIKE ?", [f"%{concept}%"]
+    cond, cparams = _concept_cond(concept, "f.")
     where = [cond, f"{_COG_KEY} <> ''"]
     params = list(cparams)
     join = ""
@@ -397,10 +409,10 @@ def q_cognate_sets(
         where.append("v.Family LIKE ?")
         params.append(f"%{family}%")
     sql = (
-        f"SELECT {_COG_KEY} AS cognate_key, f.Concepticon_Gloss, "
+        f"SELECT {_COG_KEY} AS cognate_key, f.concept_id, f.concept_label, "
         "COUNT(*) AS n_forms, COUNT(DISTINCT f.av_id) AS n_varieties "
         f"FROM forms f {join} WHERE {' AND '.join(where)} "
-        f"GROUP BY {_COG_KEY}, f.Concepticon_Gloss "
+        f"GROUP BY {_COG_KEY}, f.concept_id, f.concept_label "
         f"ORDER BY n_varieties DESC, n_forms DESC{_limit_clause(limit)}"
     )
     return _fetch(con, sql, tuple(params))
@@ -423,10 +435,11 @@ def q_form_search(
         where.append("av_id = ?")
         params.append(av_id)
     if concept:
-        where.append("(Concepticon_Gloss LIKE ? OR Concepticon_ID = ?)")
-        params += [f"%{concept}%", concept]
+        cond, cps = _concept_cond(concept)
+        where.append(cond)
+        params += cps
     sql = (f"SELECT * FROM forms WHERE {' AND '.join(where)} "
-           f"ORDER BY av_id, Concepticon_Gloss{_limit_clause(limit)}")
+           f"ORDER BY av_id, concept_id{_limit_clause(limit)}")
     return _fetch(con, sql, tuple(params))
 
 
@@ -439,13 +452,14 @@ def q_concepts(
     """Concepts with form and variety coverage, most-covered first."""
     where, params = [], []
     if search:
-        where.append("(Concepticon_Gloss LIKE ? OR Concepticon_ID = ?)")
-        params += [f"%{search}%", search]
+        cond, cps = _concept_cond(search)
+        where.append(cond)
+        params += cps
     wsql = (" WHERE " + " AND ".join(where)) if where else ""
     sql = (
-        "SELECT Concepticon_ID, Concepticon_Gloss, COUNT(*) AS n_forms, "
+        "SELECT concept_id, concept_label, Concepticon_ID, COUNT(*) AS n_forms, "
         "COUNT(DISTINCT av_id) AS n_varieties "
-        f"FROM forms{wsql} GROUP BY Concepticon_ID, Concepticon_Gloss "
+        f"FROM forms{wsql} GROUP BY concept_id, concept_label, Concepticon_ID "
         f"ORDER BY n_varieties DESC, n_forms DESC{_limit_clause(limit)}"
     )
     return _fetch(con, sql, tuple(params))
@@ -460,7 +474,7 @@ def q_stats(con: sqlite3.Connection, family: str | None = None) -> dict:
         scope, fp = "", ()
 
     totals = con.execute(
-        f"SELECT COUNT(*), COUNT(DISTINCT av_id), COUNT(DISTINCT Concepticon_ID), "
+        f"SELECT COUNT(*), COUNT(DISTINCT av_id), COUNT(DISTINCT concept_id), "
         f"SUM(CASE WHEN Segments <> '' THEN 1 ELSE 0 END), "
         f"SUM(CASE WHEN {_COG_KEY} <> '' THEN 1 ELSE 0 END), "
         f"COUNT(DISTINCT CASE WHEN {_COG_KEY} <> '' THEN {_COG_KEY} END), "
@@ -680,7 +694,7 @@ def cmd_cognate(args) -> int:
         _emit(args, cols, rows, _COGNATE_COLS)
     else:
         logger.error("Give a cognate id (a Cognacy/canonical_cognate_id value, e.g. "
-                     "`cognate kesslersignificance_6`) or `--concept WATER` to list "
+                     "`cognate kesslersignificance_6`) or `--concept phy-water` to list "
                      "a concept's cognate sets.")
         return 1
     return 0
@@ -723,7 +737,7 @@ def cmd_descendants(args) -> int:
         f"  • forms judged cognate to one form:   "
         f"python explore.py cognate <canonical_cognate_id>\n"
         f"  • cognate sets attested for a concept: "
-        f"python explore.py cognate --concept {args.form or '<GLOSS>'}\n"
+        f"python explore.py cognate --concept {args.form or '<concept_id>'}\n"
         f"  • find a form first:                   "
         f"python explore.py form {args.form or '<text>'}\n"
         "\n"
@@ -830,27 +844,29 @@ Browse varieties (filters combine):
 Look at one variety — by av_id, Glottocode, or name (exact then substring):
 
   python explore.py lang Latin
-  python explore.py lang lati1261 --concept WATER
-  python explore.py lang ine-latin --csv > latin.csv       # all 27 columns
+  python explore.py lang lati1261 --concept phy-water
+  python explore.py lang ine-latin --csv > latin.csv       # all 28 columns
 
-Concepts:
+Concepts (address by our concept_id, a label substring, or a numeric
+Concepticon id):
 
   python explore.py concepts                               # ranked by coverage
   python explore.py concepts --search hand
-  python explore.py concept WATER                          # across all varieties
-  python explore.py concept WATER --family Indo-European
-  python explore.py concept 948                            # by Concepticon ID
+  python explore.py concept phy-water                      # our concept_id
+  python explore.py concept water                          # label substring
+  python explore.py concept phy-water --family Indo-European
+  python explore.py concept 948                            # legacy Concepticon ID
 
 Cognates (keyed on canonical_cognate_id, else the per-source Cognacy code):
 
-  python explore.py cognate --concept WATER                # the sets for a concept
-  python explore.py cognate --concept WATER --family Indo-European
+  python explore.py cognate --concept phy-water            # the sets for a concept
+  python explore.py cognate --concept water --family Indo-European
   python explore.py cognate iecor_335                      # members of one set
 
 Search surface forms (Form/Value):
 
   python explore.py form aqua                              # substring
-  python explore.py form water --concept WATER
+  python explore.py form water --concept phy-water
   python explore.py form shui --lang mandarin --exact
 
 Statistics:
@@ -862,7 +878,7 @@ Statistics:
 Raw read-only SQL (tables: forms, varieties, parameters, metadata):
 
   python explore.py sql "SELECT tier, COUNT(*) FROM forms GROUP BY tier"
-  python explore.py sql "SELECT Concepticon_Gloss, COUNT(DISTINCT av_id) n \\
+  python explore.py sql "SELECT concept_id, COUNT(DISTINCT av_id) n \\
                          FROM forms GROUP BY 1 ORDER BY n DESC LIMIT 10"
   python explore.py sql "SELECT * FROM varieties WHERE Family='Uralic'" --csv
 
@@ -899,12 +915,14 @@ def main(argv: list[str] | None = None) -> int:
 
     p_lang = sub.add_parser("lang", help="All forms of one variety (av_id / Glottocode / name)")
     p_lang.add_argument("variety")
-    p_lang.add_argument("--concept", help="Filter to a concept (gloss substring or ID)")
+    p_lang.add_argument("--concept",
+                        help="Filter to a concept (concept_id, label substring, or Concepticon ID)")
     _add_common(p_lang, default_limit=0)
     p_lang.set_defaults(fn=cmd_lang)
 
     p_con = sub.add_parser("concept", help="All forms of a concept across varieties")
-    p_con.add_argument("concept", help="Concepticon gloss (substring) or numeric ID")
+    p_con.add_argument("concept",
+                       help="concept_id (e.g. phy-water), label substring, or Concepticon ID")
     p_con.add_argument("--family")
     _add_common(p_con, default_limit=50)
     p_con.set_defaults(fn=cmd_concept)
@@ -925,7 +943,7 @@ def main(argv: list[str] | None = None) -> int:
     p_frm.set_defaults(fn=cmd_form)
 
     p_cs = sub.add_parser("concepts", help="List concepts with coverage")
-    p_cs.add_argument("--search", help="Gloss substring or ID")
+    p_cs.add_argument("--search", help="concept_id, label substring, or Concepticon ID")
     _add_common(p_cs, default_limit=50)
     p_cs.set_defaults(fn=cmd_concepts)
 

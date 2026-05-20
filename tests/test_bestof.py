@@ -9,8 +9,6 @@ from __future__ import annotations
 from pathlib import Path
 
 import pandas as pd
-import pytest
-import yaml
 
 from arcaverborum.aggregate import aggregate_all
 from arcaverborum.catalog import build_catalog
@@ -18,17 +16,14 @@ from arcaverborum.glottolog import GlottologEntry
 from arcaverborum.score import (
     compute_signals_for_group,
     load_weights,
-    score_cognates_block,
     score_forms_block,
 )
 from arcaverborum.selection import (
     build_universe,
-    compute_all_signals,
-    load_pins,
     select_all,
     source_priority,
 )
-from arcaverborum.variety import build_one, load_config, register, VarietyDir
+from arcaverborum.variety import VarietyDir, build_one, load_config, register
 
 
 def _stub_glottolog() -> dict[str, GlottologEntry]:

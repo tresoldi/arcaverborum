@@ -11,6 +11,7 @@ Subcommands:
                 changed (config/custom/intake/recipe); --force rebuilds all.
   aggregate     Merge per-variety output into output/aggregate/.
   report        Rank varieties by curation priority into output/report/.
+  concepts      Audit (and optionally extend) the frozen concept catalog.
   status        Show enrollment, freshness, source coverage stats.
 
 Examples:
@@ -178,12 +179,17 @@ def _resolve_av_ids(args: argparse.Namespace) -> list[str]:
 
 def cmd_update(args: argparse.Namespace) -> int:
     import pandas as pd
+
     from arcaverborum import tracking
     from arcaverborum.aggregate import _load_parameter_index
     from arcaverborum.catalog import build_catalog, load_avid_registry
+    from arcaverborum.concepts import load_concept_maps
     from arcaverborum.glottolog import load_glottolog
     from arcaverborum.variety import (
-        build_one, load_config, update_config_extension_flags, VarietyDir,
+        VarietyDir,
+        build_one,
+        load_config,
+        update_config_extension_flags,
     )
 
     av_ids = _resolve_av_ids(args)
@@ -209,8 +215,9 @@ def cmd_update(args: argparse.Namespace) -> int:
     for pp in combined["parameters"]:
         if pp.exists():
             param_index.update(_load_parameter_index(pp))
-    logger.info("Loaded %d intake rows, %d parameter entries",
-                len(intake_df), len(param_index))
+    concept_index, concept_labels = load_concept_maps()
+    logger.info("Loaded %d intake rows, %d parameter entries, %d catalog concepts",
+                len(intake_df), len(param_index), len(concept_labels))
 
     recipe = tracking.recipe_hash()
     logger.info("Computing intake slice fingerprints …")
@@ -239,6 +246,8 @@ def cmd_update(args: argparse.Namespace) -> int:
                 intake_forms=intake_df,
                 catalog=catalog,
                 param_index=param_index,
+                concept_index=concept_index,
+                concept_labels=concept_labels,
             )
             update_config_extension_flags(vd)
             tracking.write_manifest(vd.generated_dir, digest, components, n)
@@ -277,6 +286,7 @@ def cmd_aggregate(args: argparse.Namespace) -> int:
 
 def cmd_report(args: argparse.Namespace) -> int:
     import pandas as pd
+
     from arcaverborum.curation import build_curation_report, write_curation_report
 
     agg = OUTPUT_DIR / "aggregate"
@@ -289,7 +299,7 @@ def cmd_report(args: argparse.Namespace) -> int:
     logger.info("Loading aggregate forms for curation report …")
     forms = pd.read_csv(
         forms_path, dtype=str, keep_default_na=False,
-        usecols=["av_id", "Segments", "Segments_Source", "Concepticon_ID", "Cognacy"],
+        usecols=["av_id", "Segments", "Segments_Source", "concept_id", "Cognacy"],
     )
     varieties = pd.read_csv(varieties_path, dtype=str, keep_default_na=False)
 
@@ -312,8 +322,43 @@ def cmd_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_concepts(args: argparse.Namespace) -> int:
+    from arcaverborum import concept_audit
+    from arcaverborum.concepticon import load_concepticon_by_id
+    from arcaverborum.concepts import (
+        CONCEPTS_CSV,
+        build_field_codes,
+        load_concepts,
+        write_concepts,
+    )
+
+    registry = load_concepts()
+    if not registry:
+        logger.error("No concept registry at %s — run scripts/bootstrap_concepts.py first.",
+                     CONCEPTS_CSV)
+        return 1
+    inuse = concept_audit.collect_inuse_concepticon_ids(INTAKE_DIR)
+    master = load_concepticon_by_id(args.concepticon)
+    report = concept_audit.audit_registry(inuse, master, registry)
+    print(concept_audit.format_audit(report))
+
+    if args.mint and report["new_inuse"]:
+        field_codes = build_field_codes(
+            [c.semantic_field for c in registry if c.semantic_field]
+        )
+        minted = concept_audit.mint_missing(
+            report["new_inuse"], master, registry, field_codes,
+        )
+        write_concepts(registry + minted, CONCEPTS_CSV)
+        logger.info("Minted %d new concepts → %s (now %d total). "
+                    "Re-run `update` to fold them into builds.",
+                    len(minted), CONCEPTS_CSV, len(registry) + len(minted))
+    return 0
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     import yaml
+
     from arcaverborum import tracking
 
     if not VARIETIES_DIR.exists():
@@ -418,6 +463,14 @@ def main(argv: list[str] | None = None) -> int:
 
     p_rep = sub.add_parser("report", help="Rank varieties by curation priority into output/report/")
     p_rep.set_defaults(fn=cmd_report)
+
+    p_con = sub.add_parser("concepts",
+                           help="Audit the frozen concept catalog against intake + Concepticon")
+    p_con.add_argument("--mint", action="store_true",
+                       help="Mint concept_ids for new in-use Concepticon ids and extend the registry")
+    p_con.add_argument("--concepticon", default=None,
+                       help="Path/URL to concepticon.tsv (default: raw cache or upstream)")
+    p_con.set_defaults(fn=cmd_concepts)
 
     p_st = sub.add_parser("status", help="Show enrollment/freshness summary")
     p_st.set_defaults(fn=cmd_status)

@@ -18,9 +18,7 @@ import argparse
 import logging
 from pathlib import Path
 
-import pandas as pd
-
-from arcaverborum.catalog import build_catalog, enrich_glottocodes
+from arcaverborum.catalog import build_catalog
 from arcaverborum.glottolog import load_glottolog
 from arcaverborum.score import load_weights
 from arcaverborum.selection import (
@@ -89,7 +87,7 @@ def main() -> int:
             entry = glottolog.get(av_id)
             if entry is None:
                 continue
-            from arcaverborum.catalog import Variety, _from_glottolog
+            from arcaverborum.catalog import _from_glottolog
             variety = _from_glottolog(entry)
             catalog[av_id] = variety
         register(

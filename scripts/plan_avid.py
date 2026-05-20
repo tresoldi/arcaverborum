@@ -99,7 +99,7 @@ def main() -> int:
         print(f"  {len(r['new_av_id']):3d}  {r['new_av_id']}")
 
     if suffixed:
-        print(f"\nFirst 15 collision-suffixed IDs:")
+        print("\nFirst 15 collision-suffixed IDs:")
         for r in sorted(suffixed, key=lambda r: r["new_av_id"])[:15]:
             print(f"  {r['new_av_id']:30s} [{r['name']}]")
 

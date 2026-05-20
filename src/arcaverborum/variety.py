@@ -6,7 +6,7 @@ Each variety lives in `varieties/<av_id>/` with:
   custom/transcriptions.csv    per-(Concepticon_ID, source_form_id) col overrides
   custom/forms.csv             additive new (concept, form) rows
   custom/cognates.csv          per-form_id cognate overrides
-  custom/concept_map.csv       per-Parameter_ID Concepticon_ID fixes
+  custom/concept_map.csv       per-Parameter_ID Concepticon_ID / concept_id fixes
   generated/forms.csv          gitignored output
 
 `build_one(av_id)` reads the intake, applies the variety's source pick
@@ -27,6 +27,7 @@ import yaml
 
 from arcaverborum.aggregate import FORMS_OUT_FIELDS, _form_quality_score, _load_parameter_index
 from arcaverborum.catalog import Variety
+from arcaverborum.concepts import load_concept_maps
 from arcaverborum.phonology import normalize_segments
 
 logger = logging.getLogger(__name__)
@@ -36,14 +37,14 @@ CUSTOM_TRANSCRIPTION_FIELDS = (
     "Concepticon_ID", "source_form_id", "Value", "Form", "Segments", "Comment", "notes",
 )
 CUSTOM_FORMS_FIELDS = (
-    "Concepticon_ID", "Concepticon_Gloss", "Value", "Form", "Segments",
+    "concept_id", "Concepticon_ID", "Value", "Form", "Segments",
     "Cognacy", "Loan", "Comment", "notes",
 )
 CUSTOM_COGNATES_FIELDS = (
     "form_id", "Cognacy", "Alignment", "Cognate_Detection_Method", "Doubt", "notes",
 )
 CUSTOM_CONCEPT_MAP_FIELDS = (
-    "Parameter_ID", "Concepticon_ID", "Concepticon_Gloss", "notes",
+    "Parameter_ID", "Concepticon_ID", "Concepticon_Gloss", "concept_id", "notes",
 )
 
 
@@ -184,12 +185,20 @@ def _read_custom(path: Path) -> pd.DataFrame:
 
 
 def _apply_concept_map(forms: pd.DataFrame, concept_map: pd.DataFrame) -> pd.DataFrame:
+    """Fix wrong source concept mappings, per Parameter_ID.
+
+    A row may correct the Concepticon_ID/Gloss (re-resolved to our
+    concept_id downstream) and/or pin our ``concept_id`` directly. The
+    pinned concept_id is stashed in the ``_concept_id_override`` column
+    that ``build_one`` consumes.
+    """
     if concept_map.empty or forms.empty:
         return forms
     cmap = {
         str(row["Parameter_ID"]).strip(): (
             str(row.get("Concepticon_ID", "")).strip(),
             str(row.get("Concepticon_Gloss", "")).strip(),
+            str(row.get("concept_id", "")).strip(),
         )
         for _, row in concept_map.iterrows()
         if str(row.get("Parameter_ID", "")).strip()
@@ -197,14 +206,20 @@ def _apply_concept_map(forms: pd.DataFrame, concept_map: pd.DataFrame) -> pd.Dat
     if not cmap:
         return forms
 
+    forms = forms.copy()
+    if "_concept_id_override" not in forms.columns:
+        forms["_concept_id_override"] = ""
+
     def _fix_row(row: pd.Series) -> pd.Series:
         pid = str(row.get("Parameter_ID", "")).strip()
         if pid in cmap:
-            cid, gloss = cmap[pid]
+            cid, gloss, concept_id = cmap[pid]
             if cid:
                 row["Concepticon_ID"] = cid
             if gloss:
                 row["Concepticon_Gloss"] = gloss
+            if concept_id:
+                row["_concept_id_override"] = concept_id
         return row
 
     return forms.apply(_fix_row, axis=1)
@@ -286,6 +301,8 @@ def _additive_custom_rows(
     variety: Variety,
     forms_score: float,
     tier: str,
+    concept_index: dict[str, tuple[str, str]],
+    concept_labels: dict[str, str],
 ) -> list[dict]:
     if custom_forms.empty:
         return []
@@ -298,12 +315,20 @@ def _additive_custom_rows(
         src_form = str(row.get("Form", "")).strip() or str(row.get("Value", "")).strip()
         segments, seg_source = normalize_segments(src_segments, src_form)
         custom_id = f"custom_{av_id}_{i + 1}"
+        concepticon_id = str(row.get("Concepticon_ID", "")).strip()
+        explicit = str(row.get("concept_id", "")).strip()
+        if explicit:
+            concept_id = explicit
+            concept_label = concept_labels.get(explicit, "")
+        else:
+            concept_id, concept_label = concept_index.get(concepticon_id, ("", ""))
         out_row = {
             "av_id": av_id,
             "Glottocode": variety.glottocode,
             "Variety_Name": variety.name or variety.av_id,
-            "Concepticon_ID": str(row.get("Concepticon_ID", "")).strip(),
-            "Concepticon_Gloss": str(row.get("Concepticon_Gloss", "")).strip(),
+            "concept_id": concept_id,
+            "concept_label": concept_label,
+            "Concepticon_ID": concepticon_id,
             "Value": str(row.get("Value", "")).strip(),
             "Form": form,
             "Segments": segments,
@@ -338,13 +363,17 @@ def build_one(
     catalog: dict[str, Variety],
     parameters_path: Path | None = None,
     param_index: dict[str, tuple[str, str]] | None = None,
+    concept_index: dict[str, tuple[str, str]] | None = None,
+    concept_labels: dict[str, str] | None = None,
 ) -> int:
     """Build varieties/<av_id>/generated/forms.csv. Returns row count.
 
     `intake_forms` may be a Path (load fresh, useful for one-off builds)
     or a pre-loaded DataFrame (when batching many varieties — caller
-    loads once and passes here repeatedly). `param_index` likewise can
-    be pre-built.
+    loads once and passes here repeatedly). `param_index` (Parameter_ID
+    → Concepticon) and the concept lookups (`concept_index` mapping a
+    Concepticon id to our `(concept_id, label)`; `concept_labels` mapping
+    a concept_id to its label) can all be pre-built and reused.
     """
     vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
     if not vd.exists():
@@ -362,6 +391,8 @@ def build_one(
 
     if param_index is None:
         param_index = _load_parameter_index(parameters_path) if parameters_path else {}
+    if concept_index is None or concept_labels is None:
+        concept_index, concept_labels = load_concept_maps()
 
     if isinstance(intake_forms, pd.DataFrame):
         df = intake_forms
@@ -394,9 +425,16 @@ def build_one(
     out_rows = []
     for _, row in df.iterrows():
         param_id = row.get("Parameter_ID", "")
-        looked_cid, looked_gloss = param_index.get(param_id, ("", ""))
-        concept_id = row.get("Concepticon_ID", "") or looked_cid
-        concept_gloss = row.get("Concepticon_Gloss", "") or looked_gloss
+        looked_cid, _looked_gloss = param_index.get(param_id, ("", ""))
+        concepticon_id = row.get("Concepticon_ID", "") or looked_cid
+        # Resolve to our concept catalog: explicit override (concept_map)
+        # wins, else the Concepticon-id mapping.
+        override = str(row.get("_concept_id_override", "") or "").strip()
+        if override:
+            concept_id = override
+            concept_label = concept_labels.get(override, "")
+        else:
+            concept_id, concept_label = concept_index.get(concepticon_id, ("", ""))
         src_segments = row.get("Segments", "") or ""
         src_form = row.get("Form", "") or row.get("Value", "") or ""
         segments, seg_source = normalize_segments(src_segments, src_form)
@@ -404,8 +442,9 @@ def build_one(
             "av_id": av_id,
             "Glottocode": variety.glottocode,
             "Variety_Name": variety.name or variety.av_id,
-            "Concepticon_ID": concept_id,
-            "Concepticon_Gloss": concept_gloss,
+            "concept_id": concept_id,
+            "concept_label": concept_label,
+            "Concepticon_ID": concepticon_id,
             "Value": row.get("Value", ""),
             "Form": row.get("Form", ""),
             "Segments": segments,
@@ -432,7 +471,10 @@ def build_one(
         out_rows.append(out_row)
 
     custom_forms_df = _read_custom(vd.custom_path("forms.csv"))
-    out_rows.extend(_additive_custom_rows(custom_forms_df, av_id, variety, forms_score, tier))
+    out_rows.extend(_additive_custom_rows(
+        custom_forms_df, av_id, variety, forms_score, tier,
+        concept_index, concept_labels,
+    ))
 
     vd.generated_forms.parent.mkdir(parents=True, exist_ok=True)
     out_df = pd.DataFrame(out_rows, columns=list(FORMS_OUT_FIELDS))

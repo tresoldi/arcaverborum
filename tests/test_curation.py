@@ -13,15 +13,15 @@ def _forms():
     # Variety bbb: 1 form — resegmented, 1 concept.
     return pd.DataFrame([
         {"av_id": "aaa", "Segments": "k a", "Segments_Source": "source",
-         "Concepticon_ID": "1", "Cognacy": "1"},
+         "concept_id": "bod-head", "Cognacy": "1"},
         {"av_id": "aaa", "Segments": "t a", "Segments_Source": "source",
-         "Concepticon_ID": "2", "Cognacy": "1"},
+         "concept_id": "bod-hand", "Cognacy": "1"},
         {"av_id": "aaa", "Segments": "k a ⁵", "Segments_Source": "unclean",
-         "Concepticon_ID": "3", "Cognacy": ""},
+         "concept_id": "phy-water", "Cognacy": ""},
         {"av_id": "aaa", "Segments": "x y z", "Segments_Source": "unclean",
-         "Concepticon_ID": "", "Cognacy": ""},
+         "concept_id": "", "Cognacy": ""},
         {"av_id": "bbb", "Segments": "p a", "Segments_Source": "resegmented",
-         "Concepticon_ID": "1", "Cognacy": ""},
+         "concept_id": "bod-head", "Cognacy": ""},
     ])
 
 

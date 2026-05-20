@@ -249,7 +249,6 @@ def enrich_glottocodes(
 
     Used for sources like Wiktionary that ship without Glottocodes.
     """
-    import pandas as pd  # local import to keep catalog import light
 
     if "ISO639P3code" in languages.columns:
         iso_map = dict(zip(languages["ID"], languages["ISO639P3code"]))

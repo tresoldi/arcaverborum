@@ -11,7 +11,7 @@ import pytest
 from arcaverborum import explore
 
 FORMS_COLUMNS = [
-    "av_id", "Glottocode", "Variety_Name", "Concepticon_ID", "Concepticon_Gloss",
+    "av_id", "Glottocode", "Variety_Name", "concept_id", "concept_label", "Concepticon_ID",
     "Value", "Form", "Segments", "Segments_Source", "Cognacy", "canonical_cognate_id",
     "Alignment", "Morpheme_Index", "Segment_Slice", "Doubt", "Cognate_Detection_Method",
     "Cognate_Source", "Loan", "Comment", "transcription_source", "cognate_source",
@@ -46,23 +46,28 @@ _VARIETIES = [
 
 _FORMS = [
     _form(av_id="ine-latin", Glottocode="lati1261", Variety_Name="Latin",
-          Concepticon_ID="948", Concepticon_Gloss="WATER", Value="aqua", Form="aqua",
+          concept_id="phy-water", concept_label="water", Concepticon_ID="948",
+          Value="aqua", Form="aqua",
           Segments="a k w a", Segments_Source="source", canonical_cognate_id="cs1",
           Loan="false", transcription_source="kessler", quality_score="0.99", tier="bronze"),
     _form(av_id="ine-latin", Glottocode="lati1261", Variety_Name="Latin",
-          Concepticon_ID="221", Concepticon_Gloss="FIRE", Value="ignis", Form="ignis",
+          concept_id="phy-fire", concept_label="fire", Concepticon_ID="221",
+          Value="ignis", Form="ignis",
           Segments="i g n i s", Segments_Source="source", canonical_cognate_id="cs2",
           Loan="false", transcription_source="kessler", quality_score="0.99", tier="bronze"),
     _form(av_id="ine-greek", Glottocode="gree1276", Variety_Name="Greek",
-          Concepticon_ID="948", Concepticon_Gloss="WATER", Value="hydor", Form="hydor",
+          concept_id="phy-water", concept_label="water", Concepticon_ID="948",
+          Value="hydor", Form="hydor",
           Segments="h y d o r", Segments_Source="source", canonical_cognate_id="cs1",
           Loan="false", transcription_source="kessler", quality_score="0.95", tier="silver"),
     _form(av_id="sit-mandarin", Glottocode="mand1415", Variety_Name="Mandarin Chinese",
-          Concepticon_ID="948", Concepticon_Gloss="WATER", Value="shui", Form="shui",
+          concept_id="phy-water", concept_label="water", Concepticon_ID="948",
+          Value="shui", Form="shui",
           Segments="ʂ w ei", Segments_Source="resegmented", canonical_cognate_id="cs3",
           Loan="true", transcription_source="beidasinitic", quality_score="0.8", tier="copper"),
     _form(av_id="sit-mandarin", Glottocode="mand1415", Variety_Name="Mandarin Chinese",
-          Concepticon_ID="221", Concepticon_Gloss="FIRE", Value="huo", Form="huo",
+          concept_id="phy-fire", concept_label="fire", Concepticon_ID="221",
+          Value="huo", Form="huo",
           Segments="", Segments_Source="unclean", canonical_cognate_id="",
           Loan="false", transcription_source="beidasinitic", quality_score="0.8", tier="copper"),
 ]
@@ -81,9 +86,12 @@ def agg_dir(tmp_path):
     d.mkdir()
     _write_csv(d / "forms.csv", FORMS_COLUMNS, _FORMS)
     _write_csv(d / "varieties.csv", VARIETIES_COLUMNS, _VARIETIES)
-    _write_csv(d / "parameters.csv", ["Concepticon_ID", "Concepticon_Gloss", "Name"],
-               [{"Concepticon_ID": "948", "Concepticon_Gloss": "WATER", "Name": "water"},
-                {"Concepticon_ID": "221", "Concepticon_Gloss": "FIRE", "Name": "fire"}])
+    _write_csv(d / "parameters.csv",
+               ["concept_id", "concepticon_id", "label", "pos", "semantic_field", "definition"],
+               [{"concept_id": "phy-water", "concepticon_id": "948", "label": "water",
+                 "pos": "n", "semantic_field": "The physical world", "definition": ""},
+                {"concept_id": "phy-fire", "concepticon_id": "221", "label": "fire",
+                 "pos": "n", "semantic_field": "The physical world", "definition": ""}])
     _write_csv(d / "metadata.csv", ["Dataset", "Title"],
                [{"Dataset": "kessler", "Title": "Kessler"}])
     return d
@@ -143,17 +151,23 @@ def test_resolve_variety_miss(con):
 def test_q_lang(con):
     cols, rows = explore.q_lang(con, "ine-latin")
     assert len(rows) == 2
-    assert "Concepticon_Gloss" in cols
-    cols, rows = explore.q_lang(con, "ine-latin", concept="WATER")
+    assert "concept_id" in cols
+    # concept filter accepts our concept_id …
+    _, rows = explore.q_lang(con, "ine-latin", concept="phy-water")
+    assert len(rows) == 1
+    # … and a label substring (case-insensitive).
+    _, rows = explore.q_lang(con, "ine-latin", concept="WATER")
     assert len(rows) == 1
 
 
-def test_q_concept_by_gloss_id_and_family(con):
-    _, rows = explore.q_concept(con, "WATER")
+def test_q_concept_by_id_label_and_family(con):
+    _, rows = explore.q_concept(con, "phy-water")       # concept_id path
     assert len(rows) == 3
-    _, rows = explore.q_concept(con, "948")  # numeric ID path
+    _, rows = explore.q_concept(con, "water")           # label substring path
     assert len(rows) == 3
-    _, rows = explore.q_concept(con, "WATER", family="Sino")
+    _, rows = explore.q_concept(con, "948")             # legacy numeric ID path
+    assert len(rows) == 3
+    _, rows = explore.q_concept(con, "phy-water", family="Sino")
     assert len(rows) == 1
 
 
@@ -163,10 +177,10 @@ def test_q_cognate_set_members(con):
 
 
 def test_q_cognate_sets_for_concept(con):
-    cols, rows = explore.q_cognate_sets(con, "WATER")
+    cols, rows = explore.q_cognate_sets(con, "phy-water")
     assert [r[0] for r in rows] == ["cs1", "cs3"]  # cs1 (2 varieties) first
     assert "n_varieties" in cols
-    assert rows[0][3] == 2
+    assert rows[0][cols.index("n_varieties")] == 2
 
 
 def test_q_form_search(con):
@@ -181,9 +195,10 @@ def cols_index(con, name):  # helper: position of a forms column
 
 
 def test_q_concepts_coverage(con):
-    _, rows = explore.q_concepts(con)
-    assert rows[0][1] == "WATER"  # 3 varieties → first
-    assert rows[0][3] == 3
+    cols, rows = explore.q_concepts(con)
+    assert rows[0][0] == "phy-water"  # 3 varieties → first
+    assert rows[0][1] == "water"
+    assert rows[0][cols.index("n_varieties")] == 3
 
 
 def test_q_stats_all(con):
@@ -251,15 +266,19 @@ def test_cognate_falls_back_to_cognacy(tmp_path):
     d = tmp_path / "aggregate"
     d.mkdir()
     rows = [
-        _form(av_id="ine-latin", Concepticon_ID="948", Concepticon_Gloss="WATER",
+        _form(av_id="ine-latin", concept_id="phy-water", concept_label="water",
+              Concepticon_ID="948",
               Form="aqua", Segments="a", Cognacy="raw9", canonical_cognate_id=""),
-        _form(av_id="ine-greek", Concepticon_ID="948", Concepticon_Gloss="WATER",
+        _form(av_id="ine-greek", concept_id="phy-water", concept_label="water",
+              Concepticon_ID="948",
               Form="hydor", Segments="h", Cognacy="raw9", canonical_cognate_id=""),
     ]
     _write_csv(d / "forms.csv", FORMS_COLUMNS, rows)
     _write_csv(d / "varieties.csv", VARIETIES_COLUMNS, _VARIETIES[:2])
-    _write_csv(d / "parameters.csv", ["Concepticon_ID", "Concepticon_Gloss", "Name"],
-               [{"Concepticon_ID": "948", "Concepticon_Gloss": "WATER", "Name": "water"}])
+    _write_csv(d / "parameters.csv",
+               ["concept_id", "concepticon_id", "label", "pos", "semantic_field", "definition"],
+               [{"concept_id": "phy-water", "concepticon_id": "948", "label": "water",
+                 "pos": "n", "semantic_field": "The physical world", "definition": ""}])
     _write_csv(d / "metadata.csv", ["Dataset", "Title"], [])
     db = tmp_path / "explore.sqlite"
     explore.build_index(d, db, force=True)
@@ -267,8 +286,9 @@ def test_cognate_falls_back_to_cognacy(tmp_path):
 
     _, members = explore.q_cognate(c, "raw9")
     assert len(members) == 2                       # both matched via Cognacy
-    cols, sets = explore.q_cognate_sets(c, "WATER")
-    assert sets[0][0] == "raw9" and sets[0][3] == 2  # one set, 2 varieties
+    cols, sets = explore.q_cognate_sets(c, "phy-water")
+    assert sets[0][0] == "raw9"
+    assert sets[0][cols.index("n_varieties")] == 2  # one set, 2 varieties
     s = explore.q_stats(c)
     assert s["with_cognate"] == 2 and s["cognate_sets"] == 1
 

@@ -74,9 +74,10 @@ Non-empty cells override; empty cells preserve source values.
 
 `forms.csv`:
 ```
-Concepticon_ID,Concepticon_Gloss,Value,Form,Segments,Cognacy,Loan,Comment,notes
+concept_id,Concepticon_ID,Value,Form,Segments,Cognacy,Loan,Comment,notes
 ```
-Additive only. Forms get auto-assigned IDs `custom_<av_id>_<n>` and
+Additive only. Give a `concept_id` (preferred) or a `Concepticon_ID` to
+resolve one; forms get auto-assigned IDs `custom_<av_id>_<n>` and
 `transcription_source="custom"`.
 
 `cognates.csv`:
@@ -87,9 +88,11 @@ Match by `source_form_id`.
 
 `concept_map.csv`:
 ```
-Parameter_ID,Concepticon_ID,Concepticon_Gloss,notes
+Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,notes
 ```
-Fixes wrong source concept mappings before any other processing.
+Fixes wrong source concept mappings before any other processing. Correct
+the Concepticon mapping (re-resolved to our `concept_id`) and/or pin a
+`concept_id` directly.
 
 ## Quality model
 
@@ -136,11 +139,14 @@ The selection report flags cross-source picks for review.
 ## Output schema
 
 `varieties/<av_id>/generated/forms.csv` and the aggregate
-`output/aggregate/forms.csv` share the same 27-column schema:
+`output/aggregate/forms.csv` share the same 28-column schema. Concept
+identity is our `concept_id` + clean `concept_label`; `Concepticon_ID` is
+retained as the external mapping (`Concepticon_Gloss` is dropped — the
+clean label lives in the concept registry):
 
 ```
 av_id, Glottocode, Variety_Name,
-Concepticon_ID, Concepticon_Gloss,
+concept_id, concept_label, Concepticon_ID,
 Value, Form, Segments, Segments_Source,
 Cognacy, canonical_cognate_id,
 Alignment, Morpheme_Index, Segment_Slice, Doubt,
