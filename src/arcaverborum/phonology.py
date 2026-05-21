@@ -52,6 +52,30 @@ def segments_are_valid(segments: str) -> bool:
     return all(is_valid_grapheme(t) for t in tokens)
 
 
+# --- TEMPORARY affricate normalization (remove once merkmal handles it) ---
+# merkmal's phoible system stores the postalveolar affricates with a
+# retracted stop (t̠ʃ / d̠ʒ, U+0320) and rejects the plain tʃ / dʒ that
+# IE-CoR and many sources write. That is BIPA/CLTS canonicalization and
+# belongs in merkmal — being reworked at ~/nas-dev/new_chl/merkmal (with
+# Go support). Until that lands we normalize here so the real source IPA
+# validates instead of being discarded as 'unclean'. Substring replacement
+# also fixes the variants (tʃʰ→t̠ʃʰ, dʒʱ→d̠ʒʱ, tʃʲ→t̠ʃʲ, …) since the
+# diacritic simply inserts between stop and sibilant. REMOVE this and the
+# call in normalize_segments once merkmal canonicalizes affricates. See the
+# note in the merkmal rework dir.
+_AFFRICATE_NORMALIZATION = {
+    "tʃ": "t̠ʃ",   # tʃ → t̠ʃ
+    "dʒ": "d̠ʒ",   # dʒ → d̠ʒ
+}
+
+
+def _normalize_affricates(segments: str) -> str:
+    for plain, retracted in _AFFRICATE_NORMALIZATION.items():
+        if plain in segments:
+            segments = segments.replace(plain, retracted)
+    return segments
+
+
 _SPACES_RE = re.compile(r"\s+")
 
 
@@ -190,6 +214,7 @@ def normalize_segments(
     """
     src = (source_segments or "").strip()
     if src:
+        src = _normalize_affricates(src)  # TEMP: see _AFFRICATE_NORMALIZATION
         return (src, "source") if segments_are_valid(src) else (src, "unclean")
     if profile:
         if source_form:
