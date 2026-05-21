@@ -90,3 +90,28 @@ def test_summary():
     assert summary["tone_blocked"]["pct_of_unclean"] == 0.5
     assert summary["source_class_distribution"]["GLED"] == 1
     assert summary["cross_source_cognate_varieties"] == 0
+
+
+def test_profile_counts_as_clean_and_zero_priority():
+    # A fully orthographic-profiled variety is clean (not unclean) and has
+    # no hand-curation priority left.
+    forms = pd.DataFrame([
+        {"av_id": "ccc", "Segments": "ʃ ə", "Segments_Source": "profile",
+         "concept_id": "phy-water", "Cognacy": "1"},
+        {"av_id": "ccc", "Segments": "ɟ a k", "Segments_Source": "profile",
+         "concept_id": "bod-head", "Cognacy": "1"},
+    ])
+    varieties = pd.DataFrame([
+        {"av_id": "ccc", "Glottocode": "cccc1234", "Name": "Ccc", "Family": "Fam",
+         "Macroarea": "Eurasia", "transcription_source": "iecor",
+         "cognate_source": "iecor", "pinned": "true",
+         "forms_score": "0.2", "cognates_score": "0.7", "tier": "silver"}],
+    )
+    rows, summary = build_curation_report(forms, varieties)
+    c = rows[0]
+    assert c["pct_clean"] == 1.0       # profile counts as clean
+    assert c["pct_profile"] == 1.0
+    assert c["pct_unclean"] == 0.0
+    assert c["priority_score"] == 0.0  # done, despite stale forms_score=0.2
+    assert summary["segments_source"]["profile"]["forms"] == 2
+    assert summary["clean_pct"] == 1.0

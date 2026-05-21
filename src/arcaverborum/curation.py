@@ -41,7 +41,7 @@ REPORT_FIELDS = (
     "transcription_source", "cognate_source", "tier", "pinned",
     "forms_score", "cognates_score",
     "n_forms", "n_concepts", "concept_coverage",
-    "pct_clean", "pct_resegmented", "pct_unclean", "pct_tone_blocked",
+    "pct_clean", "pct_profile", "pct_resegmented", "pct_unclean", "pct_tone_blocked",
     "n_unclean", "n_tone_blocked", "pct_cognacy",
     "priority_score",
 )
@@ -65,9 +65,14 @@ def build_curation_report(
     Cognacy. `varieties` is the aggregate varieties.csv. Returns
     (rows sorted by descending priority, summary dict).
 
-    `priority_score = form_density(n_forms) * (1 - forms_score)` — a variety
-    with substantial data and a weak forms-block ranks highest; tiny or
-    already-good varieties rank low.
+    `priority_score = form_density(n_forms) * (hand_unclean / n_forms)`,
+    where `hand_unclean = n_unclean - n_tone_blocked`. It reflects the
+    ACTUAL current transcription state: a data-rich variety with many
+    hand-fixable unclean forms ranks highest; tone-blocked (deferred) and
+    source/profile/resegmented forms don't count, so a fully-profiled
+    variety drops to ~0. (Earlier this used the pin-time config
+    forms_score, which goes stale once a profile is authored.)
+    Clean = merkmal-valid source IPA or a hand-authored profile.
     """
     seg = forms["Segments"].fillna("").astype(str)
     ss = forms["Segments_Source"].fillna("").astype(str)
@@ -80,6 +85,7 @@ def build_curation_report(
         "_unclean": is_unclean,
         "_reseg": ss.eq("resegmented"),
         "_source": ss.eq("source"),
+        "_profile": ss.eq("profile"),
         "_tone_blocked": is_unclean & seg.str.contains(TONE_RE, na=False),
         "_cid": cid,
         "_has_cid": cid.ne(""),
@@ -92,6 +98,7 @@ def build_curation_report(
         n_unclean=("_unclean", "sum"),
         n_resegmented=("_reseg", "sum"),
         n_source=("_source", "sum"),
+        n_profile=("_profile", "sum"),
         n_tone_blocked=("_tone_blocked", "sum"),
         n_cognacy=("_has_cog", "sum"),
     )
@@ -111,13 +118,21 @@ def build_curation_report(
     per["cognates_score"] = pd.to_numeric(per["cognates_score"], errors="coerce").fillna(0.0)
 
     per["concept_coverage"] = (per["n_concepts"] / 200.0).clip(upper=1.0).round(4)
-    per["pct_clean"] = (per["n_source"] / per["n_forms"]).round(4)
+    # Clean = merkmal-valid source IPA OR a hand-authored orthographic profile.
+    per["pct_clean"] = ((per["n_source"] + per["n_profile"]) / per["n_forms"]).round(4)
+    per["pct_profile"] = (per["n_profile"] / per["n_forms"]).round(4)
     per["pct_resegmented"] = (per["n_resegmented"] / per["n_forms"]).round(4)
     per["pct_unclean"] = (per["n_unclean"] / per["n_forms"]).round(4)
     per["pct_tone_blocked"] = (per["n_tone_blocked"] / per["n_forms"]).round(4)
     per["pct_cognacy"] = (per["n_cognacy"] / per["n_forms"]).round(4)
+    # Priority reflects the ACTUAL current transcription state, not the
+    # (pin-time, stale) config forms_score: a data-rich variety with many
+    # hand-fixable unclean forms ranks first. Tone-blocked forms are excluded
+    # (deferred to merkmal), and source/profile/resegmented forms don't count
+    # as needing work — so fully-profiled varieties correctly fall to ~0.
+    hand_unclean = (per["n_unclean"] - per["n_tone_blocked"]).clip(lower=0)
     per["priority_score"] = (
-        per["n_forms"].map(_form_density) * (1.0 - per["forms_score"])
+        per["n_forms"].map(_form_density) * (hand_unclean / per["n_forms"])
     ).round(4)
     per["source_class"] = per["transcription_source"].fillna("").map(_source_class)
 
@@ -140,6 +155,7 @@ def build_curation_report(
 def _summarize(per: pd.DataFrame, varieties: pd.DataFrame) -> dict:
     n_forms = int(per["n_forms"].sum())
     n_source = int(per["n_source"].sum())
+    n_profile = int(per["n_profile"].sum())
     n_reseg = int(per["n_resegmented"].sum())
     n_unclean = int(per["n_unclean"].sum())
     n_tone = int(per["n_tone_blocked"].sum())
@@ -153,9 +169,11 @@ def _summarize(per: pd.DataFrame, varieties: pd.DataFrame) -> dict:
         "total_forms": n_forms,
         "segments_source": {
             "source": {"forms": n_source, "pct": round(n_source / n_forms, 4)},
+            "profile": {"forms": n_profile, "pct": round(n_profile / n_forms, 4)},
             "resegmented": {"forms": n_reseg, "pct": round(n_reseg / n_forms, 4)},
             "unclean": {"forms": n_unclean, "pct": round(n_unclean / n_forms, 4)},
         },
+        "clean_pct": round((n_source + n_profile) / n_forms, 4),
         "tone_blocked": {
             "forms": n_tone,
             "pct_of_unclean": round(n_tone / n_unclean, 4) if n_unclean else 0.0,
