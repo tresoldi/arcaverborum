@@ -1,11 +1,12 @@
-av_id: ine-southern-kurdish
-name: Southern Kurdish
+av_id: ine-southern-kurdish-elami
+name: Southern Kurdish (Elami)
 glottocode: sout2640
 family: Indo-European
 macroarea: Eurasia
 sources:
   transcription: iecor
   cognates: iecor
+  source_language_id: iecor_285
 extensions:
   transcriptions: false
   forms: false
@@ -14,7 +15,7 @@ extensions:
 scoring:
   forms_score: 0.417
   cognates_score: 0.7
-  tier: bronze
-pinned: false
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=iecor (0.42); cognates=iecor (0.70)'
+notes: 'IECOR canonical: forms+cognates=iecor (0.42/0.70); language=iecor_285'

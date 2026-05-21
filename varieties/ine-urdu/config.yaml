@@ -4,17 +4,17 @@ glottocode: urdu1245
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: dunnielex
-  cognates: dunnielex
+  transcription: iecor
+  cognates: iecor
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
 scoring:
-  forms_score: 0.9654
+  forms_score: 0.8716
   cognates_score: 0.7
-  tier: bronze
-pinned: false
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=dunnielex (0.97); cognates=dunnielex (0.70)'
+notes: 'IECOR canonical: forms+cognates=iecor (0.87/0.70)'

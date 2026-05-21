@@ -229,9 +229,14 @@ columns leave source values intact.
 
 ## Phonology
 
-Source segments are kept when present and merkmal-validated. Otherwise,
-the form is re-segmented via merkmal's phoible inventory (greedy
-longest match). `Segments_Source` in every output row records `source`,
+Source segments are kept when present and merkmal-validated (`source`).
+Source segments that are present but not fully recognized are kept
+verbatim and flagged `unclean` — real IPA is never discarded in favour of
+re-segmenting the (often orthographic) form, so a later normalization
+pass can reclaim those tokens in place. Only when source segments are
+absent is the form re-segmented via merkmal's phoible inventory (greedy
+longest match, `resegmented`); if that fails to cover the form it is
+`unclean`. `Segments_Source` in every output row records `source`,
 `resegmented`, or `unclean`.
 
 ## Documentation

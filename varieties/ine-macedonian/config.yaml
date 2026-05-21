@@ -6,6 +6,7 @@ macroarea: Eurasia
 sources:
   transcription: iecor
   cognates: iecor
+  source_language_id: iecor_92
 extensions:
   transcriptions: false
   forms: false
@@ -14,7 +15,7 @@ extensions:
 scoring:
   forms_score: 0.912
   cognates_score: 0.7
-  tier: bronze
-pinned: false
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=iecor (0.91); cognates=iecor (0.70)'
+notes: 'IECOR canonical: forms+cognates=iecor (0.91/0.70); language=iecor_92'

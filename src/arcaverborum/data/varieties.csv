@@ -2723,7 +2723,7 @@ ine-old-provencal,oldp1253,pro,Old Provençal,,Indo-European,Eurasia,43.5,0.6,tr
 ine-old-prussian,prus1238,prg,Old Prussian,,Indo-European,Eurasia,52.394,14.757,true,
 ine-old-russian,oldr1238,orv,Old Russian,,Indo-European,Eurasia,54.813,31.827,true,
 ine-old-saxon,olds1250,osx,Old Saxon,,Indo-European,Eurasia,52.37,9.72,true,
-ine-old-south-west-british,oldc1252,oco,Old South-West British,,Indo-European,Eurasia,50.61436,-4.34409,true,
+ine-middle-cornish,oldc1252,cnx,Middle Cornish,,Indo-European,Eurasia,50.17,-5.10,true,IECOR split of oldc1252 (was ine-old-south-west-british); base member iecor_231
 ine-old-spanish,olds1249,osp,Old Spanish,,Indo-European,Eurasia,41.5,-3.9,true,
 ine-old-swedish,olds1252,,Old Swedish,,Indo-European,Eurasia,59.800634,17.389526,true,
 ine-old-welsh,oldw1241,,Old Welsh,,Indo-European,Eurasia,52.582,-4.089,true,
@@ -2829,7 +2829,7 @@ ine-south-picene,sout2618,spx,South Picene,,Indo-European,Eurasia,43.538,13.463,
 ine-southeast-pashayi,sout2672,psi,Southeast Pashayi,,Indo-European,Eurasia,34.66597,70.592042,true,
 ine-southern-balochi,sout2642,bcc,Southern Balochi,,Indo-European,Eurasia,26.0,64.0,true,
 ine-southern-hindko,sout2668,hnd,Southern Hindko,,Indo-European,Eurasia,33.2122,72.1702,true,
-ine-southern-kurdish,sout2640,sdh,Southern Kurdish,,Indo-European,Eurasia,32.8977,46.5976,true,
+ine-southern-kurdish-elami,sout2640,sdh,Southern Kurdish (Elami),,Indo-European,Eurasia,33.64,46.43,true,IECOR split of sout2640 (was ine-southern-kurdish); base member iecor_285
 ine-southern-luri,sout2647,luz,Southern Luri,,Indo-European,Eurasia,30.4669,50.8382,true,
 ine-southern-pashto,sout2649,pbt,Southern Pashto,,Indo-European,Eurasia,31.5,65.7,true,
 ine-southern-standard-bhojpuri,sout2661,,Southern Standard Bhojpuri,,Indo-European,Eurasia,26.458455,84.817115,true,

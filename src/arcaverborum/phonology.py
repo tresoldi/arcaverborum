@@ -1,11 +1,13 @@
 """Phonology layer: validate and re-segment IPA via merkmal.
 
-Best-of policy: trust source Segments where they are present AND all
-tokens are recognized by merkmal. Otherwise, attempt re-segmentation
-from the raw Form via greedy longest-match against merkmal's inventory.
-
-If re-segmentation also fails to cover the form completely, the field is
-emitted as-is and flagged not CLTS-compliant.
+Policy: trust source Segments where they are present AND all tokens are
+recognized by merkmal ('source'). Source segments that are present but
+not fully recognized are kept verbatim and flagged 'unclean' — real IPA
+is never discarded in favour of re-segmenting the (often orthographic)
+form, so a later normalization pass can reclaim those tokens in place.
+Only when source segments are absent do we attempt re-segmentation from
+the Form via greedy longest-match against merkmal's inventory
+('resegmented'); if that fails to cover the form, it is 'unclean'.
 """
 
 from __future__ import annotations
@@ -98,17 +100,21 @@ def resegment(form: str) -> tuple[str, bool]:
 def normalize_segments(source_segments: str, source_form: str) -> tuple[str, str]:
     """Return (segments, segments_source).
 
-    Policy:
-      1. If source segments are present and fully recognized → use them
+    Policy (prefer real source IPA over a guess from the orthography):
+      1. Source segments present and fully recognized → use them
          (segments_source = 'source').
-      2. Else attempt re-segmentation from the form. If it covers the
-         whole string → use it (segments_source = 'resegmented').
-      3. Else leave segments as-is (or empty) and mark 'unclean'.
+      2. Source segments present but not fully recognized → keep them
+         verbatim and mark 'unclean'. We do NOT discard real IPA in favour
+         of re-segmenting the (often orthographic) form: a later
+         normalization pass can reclaim these tokens in place.
+      3. No source segments → attempt re-segmentation from the form. If it
+         covers the whole string → 'resegmented', else 'unclean'.
     """
-    if source_segments and segments_are_valid(source_segments):
-        return source_segments.strip(), "source"
+    src = (source_segments or "").strip()
+    if src:
+        return (src, "source") if segments_are_valid(src) else (src, "unclean")
     if source_form:
         reseg, ok = resegment(source_form)
         if ok and reseg:
             return reseg, "resegmented"
-    return (source_segments or "").strip(), "unclean"
+    return "", "unclean"

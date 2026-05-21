@@ -121,6 +121,7 @@ def register(
     notes: str = "",
     overwrite: bool = False,
     scaffold_custom: bool = False,
+    source_language_id: str = "",
 ) -> VarietyDir:
     """Create varieties/<av_id>/ with config.yaml.
 
@@ -144,6 +145,7 @@ def register(
         "sources": {
             "transcription": transcription_source,
             "cognates": cognate_source or transcription_source,
+            **({"source_language_id": source_language_id} if source_language_id else {}),
         },
         "extensions": {
             "transcriptions": False,
@@ -385,6 +387,7 @@ def build_one(
     variety = catalog[av_id]
     transcription_source = config["sources"]["transcription"]
     cognate_source = config["sources"].get("cognates", "") or transcription_source
+    source_language_id = str(config["sources"].get("source_language_id", "") or "").strip()
     forms_score = float(config.get("scoring", {}).get("forms_score", 0.0))
     tier = config.get("scoring", {}).get("tier", "copper")
     gc = (variety.glottocode or av_id).lower()
@@ -405,6 +408,11 @@ def build_one(
         df = pd.read_csv(intake_forms, dtype=str, keep_default_na=False)
         df["Glottocode"] = df["Glottocode"].astype(str).str.strip().str.lower()
         df = df[(df["Glottocode"] == gc) & (df["Dataset"] == transcription_source)].copy()
+
+    # When several source languages share a Glottocode (e.g. IECOR's Old
+    # Czech vs Czech), restrict to the one this variety represents.
+    if source_language_id and not df.empty:
+        df = df[df["Language_ID"].astype(str).str.strip() == source_language_id].copy()
 
     if df.empty and not vd.custom_path("forms.csv").exists():
         vd.generated_forms.write_text(",".join(FORMS_OUT_FIELDS) + "\n", encoding="utf-8")

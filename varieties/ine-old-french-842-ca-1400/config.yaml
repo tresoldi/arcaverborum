@@ -4,7 +4,7 @@ glottocode: oldf1239
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: diacl
+  transcription: iecor
   cognates: iecor
 extensions:
   transcriptions: false
@@ -12,10 +12,9 @@ extensions:
   cognates: false
   concept_map: false
 scoring:
-  forms_score: 0.4161
+  forms_score: 0.4103
   cognates_score: 0.7
-  tier: bronze
-pinned: false
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=diacl (0.42); cognates=iecor (0.70) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: 'IECOR canonical: forms+cognates=iecor (0.41/0.70)'

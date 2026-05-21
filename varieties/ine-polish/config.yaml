@@ -4,18 +4,18 @@ glottocode: poli1260
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: dunnielex
-  cognates: bdpa
+  transcription: iecor
+  cognates: iecor
+  source_language_id: iecor_55
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
 scoring:
-  forms_score: 0.9889
-  cognates_score: 0.9
-  tier: bronze
-pinned: false
+  forms_score: 0.893
+  cognates_score: 0.7
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=dunnielex (0.99); cognates=bdpa (0.90) [cross-source: emitted
-  cognates still come from transcription_source]'
+notes: 'IECOR canonical: forms+cognates=iecor (0.89/0.70); language=iecor_55'

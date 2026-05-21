@@ -252,6 +252,58 @@ def test_variety_register_and_build(tmp_path: Path):
     assert set(out_df["Concepticon_ID"]) == {"1234", "5678"}
 
 
+def test_source_language_id_splits_shared_glottocode(tmp_path: Path):
+    """Two source languages under one Glottocode (IECOR's Old Czech vs
+    Czech) split into separate varieties via sources.source_language_id."""
+    forms_path = tmp_path / "forms.csv"
+    languages_path = tmp_path / "languages.csv"
+    pd.DataFrame([
+        {"ID": "iecor_18_w", "Dataset": "iecor", "Language_ID": "iecor_18",
+         "Glottocode": "czec1258", "Parameter_ID": "iecor_water",
+         "Concepticon_Gloss": "WATER", "Value": "voda", "Form": "voda",
+         "Segments": "v o d a", "Cognacy": "iecor_1"},
+        {"ID": "iecor_243_w", "Dataset": "iecor", "Language_ID": "iecor_243",
+         "Glottocode": "czec1258", "Parameter_ID": "iecor_water",
+         "Concepticon_Gloss": "WATER", "Value": "voda", "Form": "voda",
+         "Segments": "v o d a", "Cognacy": "iecor_1"},
+    ]).to_csv(forms_path, index=False)
+    pd.DataFrame([
+        {"ID": "iecor_18", "Dataset": "iecor", "Name": "Czech",
+         "Glottocode": "czec1258", "Family": "Indo-European", "Macroarea": "Eurasia"},
+        {"ID": "iecor_243", "Dataset": "iecor", "Name": "Old Czech",
+         "Glottocode": "czec1258", "Family": "Indo-European", "Macroarea": "Eurasia"},
+    ]).to_csv(languages_path, index=False)
+
+    overrides = tmp_path / "overrides.csv"
+    overrides.write_text(
+        "av_id,glottocode,iso639p3,name,parent_av_id,family,macroarea,latitude,longitude,in_glottolog,notes\n"
+        "ine-czech,czec1258,ces,Czech,,Indo-European,Eurasia,,,true,\n"
+        "ine-old-czech,czec1258,ces,Old Czech,ine-czech,Indo-European,Eurasia,,,true,\n",
+        encoding="utf-8",
+    )
+    catalog = build_catalog(
+        languages_path,
+        glottolog={},
+        overrides_path=overrides,
+    )
+
+    varieties_root = tmp_path / "varieties"
+    for av_id, lid in (("ine-czech", "iecor_18"), ("ine-old-czech", "iecor_243")):
+        register(
+            av_id=av_id, varieties_root=varieties_root,
+            transcription_source="iecor", cognate_source="iecor",
+            name=catalog[av_id].name, glottocode="czec1258",
+            source_language_id=lid,
+        )
+        vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+        assert load_config(vd)["sources"]["source_language_id"] == lid
+        n = build_one(av_id=av_id, varieties_root=varieties_root,
+                      intake_forms=forms_path, catalog=catalog)
+        assert n == 1
+        out = pd.read_csv(vd.generated_forms, dtype=str, keep_default_na=False)
+        assert set(out["source_language_id"]) == {lid}
+
+
 def test_custom_transcription_override(tmp_path: Path):
     forms_path, languages_path, parameters_path, _ = _write_intake(tmp_path)
     varieties_root = tmp_path / "varieties"

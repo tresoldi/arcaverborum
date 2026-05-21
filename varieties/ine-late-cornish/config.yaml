@@ -1,0 +1,21 @@
+av_id: ine-late-cornish
+name: Late Cornish
+glottocode: oldc1252
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: iecor
+  cognates: iecor
+  source_language_id: iecor_230
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.4154
+  cognates_score: 0.7
+  tier: silver
+pinned: true
+registered_on: '2026-05-20'
+notes: 'IECOR canonical: forms+cognates=iecor (0.42/0.70); language=iecor_230'

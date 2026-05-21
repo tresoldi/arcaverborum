@@ -88,6 +88,7 @@ def config_component(config: dict) -> str:
         "name": str(config.get("name", "")),
         "transcription": str(sources.get("transcription", "")),
         "cognates": str(sources.get("cognates", "") or sources.get("transcription", "")),
+        "source_language_id": str(sources.get("source_language_id", "")),
         "forms_score": round(float(scoring.get("forms_score", 0.0) or 0.0), 4),
         "tier": str(scoring.get("tier", "")),
     }

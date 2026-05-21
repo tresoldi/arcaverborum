@@ -4,18 +4,17 @@ glottocode: bulg1262
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: idssegmented
-  cognates: bdpa
+  transcription: iecor
+  cognates: iecor
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
 scoring:
-  forms_score: 0.944
-  cognates_score: 0.9
-  tier: bronze
-pinned: false
+  forms_score: 0.8955
+  cognates_score: 0.7
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=idssegmented (0.94); cognates=bdpa (0.90) [cross-source: emitted
-  cognates still come from transcription_source]'
+notes: 'IECOR canonical: forms+cognates=iecor (0.90/0.70)'

@@ -1,1 +1,11 @@
 av_id,glottocode,iso639p3,name,parent_av_id,family,macroarea,latitude,longitude,in_glottolog,notes
+ine-middle-cornish,oldc1252,cnx,Middle Cornish,,Indo-European,Eurasia,50.17,-5.10,true,IECOR base member iecor_231 (repointed from ine-old-south-west-british)
+ine-southern-kurdish-elami,sout2640,sdh,Southern Kurdish (Elami),,Indo-European,Eurasia,33.64,46.43,true,IECOR base member iecor_285 (repointed from ine-southern-kurdish)
+ine-old-czech,czec1258,ces,Old Czech,ine-czech,Indo-European,Eurasia,50.09,14.42,true,IECOR split of czec1258; member iecor_243
+ine-old-polish,poli1260,pol,Old Polish,ine-polish,Indo-European,Eurasia,52.54,17.61,true,IECOR split of poli1260; member iecor_238
+ine-old-swedish,swed1254,swe,Old Swedish,ine-swedish,Indo-European,Eurasia,57.728,12.70,true,IECOR split of swed1254; member iecor_157
+ine-early-modern-slovene,slov1268,slv,Early Modern Slovene,ine-slovenian,Indo-European,Eurasia,46.06,14.51,true,IECOR split of slov1268; member iecor_259
+ine-macedonian-visoka,mace1250,mkd,Macedonian (Visoka),ine-macedonian,Indo-European,Eurasia,40.83,23.20,true,IECOR split of mace1250; member iecor_253
+ine-macedonian-suho,mace1250,mkd,Macedonian (Suho),ine-macedonian,Indo-European,Eurasia,40.82,23.37,true,IECOR split of mace1250; member iecor_254
+ine-late-cornish,oldc1252,cor,Late Cornish,ine-middle-cornish,Indo-European,Eurasia,50.08,-5.54,true,IECOR split of oldc1252; member iecor_230
+ine-southern-kurdish-qorveh,sout2640,sdh,Southern Kurdish (Qorveh),ine-southern-kurdish-elami,Indo-European,Eurasia,35.168,47.801,true,IECOR split of sout2640; member iecor_308

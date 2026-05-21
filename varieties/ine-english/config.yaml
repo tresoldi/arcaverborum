@@ -4,17 +4,17 @@ glottocode: stan1293
 family: Indo-European
 macroarea: Africa;Eurasia;South America
 sources:
-  transcription: kesslersignificance
-  cognates: kesslersignificance
+  transcription: iecor
+  cognates: iecor
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
 scoring:
-  forms_score: 0.9927
+  forms_score: 0.4114
   cognates_score: 0.7
-  tier: bronze
-pinned: false
+  tier: silver
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=kesslersignificance (0.99); cognates=kesslersignificance (0.70)'
+notes: 'IECOR canonical: forms+cognates=iecor (0.41/0.70)'

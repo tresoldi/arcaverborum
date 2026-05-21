@@ -1,0 +1,21 @@
+av_id: ine-macedonian-visoka
+name: Macedonian (Visoka)
+glottocode: mace1250
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: iecor
+  cognates: iecor
+  source_language_id: iecor_253
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+scoring:
+  forms_score: 0.912
+  cognates_score: 0.7
+  tier: silver
+pinned: true
+registered_on: '2026-05-20'
+notes: 'IECOR canonical: forms+cognates=iecor (0.91/0.70); language=iecor_253'
