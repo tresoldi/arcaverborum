@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import logging
 import re
+import unicodedata
 from functools import lru_cache
 
 import merkmal
@@ -121,7 +122,7 @@ def load_profile(path) -> dict[str, str]:
             if grapheme == "" or grapheme.startswith("#"):
                 continue
             ipa = cols[1] if len(cols) > 1 else ""
-            profile[grapheme] = ipa.strip()
+            profile[unicodedata.normalize("NFC", grapheme)] = ipa.strip()
     return profile
 
 
@@ -136,6 +137,7 @@ def apply_profile(form: str, profile: dict[str, str]) -> tuple[str, bool]:
     """
     if not form or not profile:
         return "", False
+    form = unicodedata.normalize("NFC", form)
     max_len = max(len(g) for g in profile)
     out: list[str] = []
     covered = True

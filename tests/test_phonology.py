@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import unicodedata
+
 from arcaverborum.phonology import (
     apply_profile,
     load_profile,
@@ -69,6 +71,18 @@ def test_apply_profile_space_becomes_word_boundary():
     segs, ok = apply_profile("i likë", profile)
     assert ok  # the space is handled, not uncovered
     assert segs == "i _ l i k ə"  # boundary token, no leading/trailing _
+
+
+def test_apply_profile_nfc_normalizes_form():
+    # A decomposed form char (s + U+030C combining caron) matches a
+    # precomposed profile grapheme. Iranian/Wakhi translit ship decomposed.
+    precomposed = unicodedata.normalize("NFC", "š")  # š
+    decomposed = "ša"                                 # š + a, decomposed
+    profile = {precomposed: "ʃ", "a": "a"}
+    assert precomposed not in decomposed  # input is genuinely decomposed
+    segs, ok = apply_profile(decomposed, profile)
+    assert ok
+    assert segs == "ʃ a"
 
 
 def test_load_profile_roundtrip(tmp_path):
