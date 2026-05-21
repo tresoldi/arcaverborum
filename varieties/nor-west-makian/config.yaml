@@ -11,6 +11,7 @@ extensions:
   forms: false
   cognates: false
   concept_map: false
+  profile: false
 scoring:
   forms_score: 0.9196
   cognates_score: 0.0272
