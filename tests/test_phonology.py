@@ -64,6 +64,13 @@ def test_apply_profile_reports_uncovered():
     assert segs == "a b"
 
 
+def test_apply_profile_space_becomes_word_boundary():
+    profile = {"i": "i", "l": "l", "k": "k", "ë": "ə"}
+    segs, ok = apply_profile("i likë", profile)
+    assert ok  # the space is handled, not uncovered
+    assert segs == "i _ l i k ə"  # boundary token, no leading/trailing _
+
+
 def test_load_profile_roundtrip(tmp_path):
     p = tmp_path / "profile.tsv"
     p.write_text(
@@ -82,3 +89,12 @@ def test_profile_fills_only_when_source_absent():
     assert normalize_segments("t a", "sh", profile) == ("t a", "source")
     # Present-but-invalid source IPA is kept, not overridden by the profile.
     assert normalize_segments("tʃ", "sh", profile) == ("tʃ", "unclean")
+
+
+def test_profile_is_authoritative_no_orthographic_fallback():
+    # With a profile present, a form it does not cover is 'unclean' — not
+    # re-segmented from the orthography (which the profile replaces). The
+    # bare form "ta" would otherwise resegment cleanly to "t a".
+    profile = {"s": "s", "h": "h", "sh": "ʃ"}
+    assert resegment("ta") == ("t a", True)
+    assert normalize_segments("", "ta", profile) == ("", "unclean")

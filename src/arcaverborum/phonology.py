@@ -129,8 +129,10 @@ def apply_profile(form: str, profile: dict[str, str]) -> tuple[str, bool]:
     """Greedy longest-match segmentation of ``form`` against ``profile``.
 
     Returns (space-joined IPA segments, fully_covered). A grapheme mapping
-    to an empty IPA deletes that orthographic unit. ``fully_covered`` is
-    False if any character is matched by no grapheme.
+    to an empty IPA deletes that orthographic unit. Whitespace not claimed
+    by an explicit profile rule becomes a word-boundary token ``_`` (multi-
+    word forms stay covered, with their boundary preserved). ``fully_covered``
+    is False if any non-space character is matched by no grapheme.
     """
     if not form or not profile:
         return "", False
@@ -149,9 +151,17 @@ def apply_profile(form: str, profile: dict[str, str]) -> tuple[str, bool]:
             if ipa:
                 out.append(ipa)
             i += len(matched)
+        elif form[i].isspace():
+            if out and out[-1] != "_":
+                out.append("_")
+            i += 1
         else:
             covered = False
             i += 1
+    while out and out[0] == "_":
+        out.pop(0)
+    while out and out[-1] == "_":
+        out.pop()
     return _SPACES_RE.sub(" ", " ".join(out)).strip(), covered
 
 
@@ -167,18 +177,24 @@ def normalize_segments(
          verbatim and mark 'unclean'. We do NOT discard real IPA in favour
          of deriving segments from the (often orthographic) form: a later
          normalization pass can reclaim these tokens in place.
-      3. No source segments, an orthographic profile is given, and it
-         covers the whole form → use the profile's IPA ('profile').
-      4. No source segments → attempt re-segmentation from the form. If it
-         covers the whole string → 'resegmented', else 'unclean'.
+      3. No source segments but an orthographic profile is given → the
+         profile is authoritative for this variety: if it covers the whole
+         form use its IPA ('profile'), otherwise 'unclean' (a profile miss
+         flags an incomplete profile; we do NOT fall back to re-segmenting
+         the orthography, which is exactly what the profile replaces).
+      4. No source segments and no profile → attempt re-segmentation from
+         the form. If it covers the whole string → 'resegmented', else
+         'unclean'.
     """
     src = (source_segments or "").strip()
     if src:
         return (src, "source") if segments_are_valid(src) else (src, "unclean")
-    if profile and source_form:
-        prof, ok = apply_profile(source_form, profile)
-        if ok and prof:
-            return prof, "profile"
+    if profile:
+        if source_form:
+            prof, ok = apply_profile(source_form, profile)
+            if ok and prof:
+                return prof, "profile"
+        return "", "unclean"
     if source_form:
         reseg, ok = resegment(source_form)
         if ok and reseg:
