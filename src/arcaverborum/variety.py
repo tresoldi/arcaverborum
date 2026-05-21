@@ -28,7 +28,7 @@ import yaml
 from arcaverborum.aggregate import FORMS_OUT_FIELDS, _form_quality_score, _load_parameter_index
 from arcaverborum.catalog import Variety
 from arcaverborum.concepts import load_concept_maps
-from arcaverborum.phonology import normalize_segments
+from arcaverborum.phonology import load_profile, normalize_segments
 
 logger = logging.getLogger(__name__)
 
@@ -102,6 +102,11 @@ def scaffold_custom_files(vd: VarietyDir) -> list[Path]:
         path = vd.custom_path(name)
         _empty_csv(path, fields)
         created.append(path)
+
+    profile = vd.custom_path("profile.tsv")
+    if not profile.exists():
+        profile.write_text("Grapheme\tIPA\tnotes\n", encoding="utf-8")
+    created.append(profile)
     return created
 
 
@@ -152,6 +157,7 @@ def register(
             "forms": False,
             "cognates": False,
             "concept_map": False,
+            "profile": False,
         },
         "scoring": {
             "forms_score": round(float(forms_score), 4),
@@ -305,6 +311,7 @@ def _additive_custom_rows(
     tier: str,
     concept_index: dict[str, tuple[str, str]],
     concept_labels: dict[str, str],
+    profile: dict[str, str] | None = None,
 ) -> list[dict]:
     if custom_forms.empty:
         return []
@@ -315,7 +322,7 @@ def _additive_custom_rows(
             continue
         src_segments = str(row.get("Segments", "")).strip()
         src_form = str(row.get("Form", "")).strip() or str(row.get("Value", "")).strip()
-        segments, seg_source = normalize_segments(src_segments, src_form)
+        segments, seg_source = normalize_segments(src_segments, src_form, profile)
         custom_id = f"custom_{av_id}_{i + 1}"
         concepticon_id = str(row.get("Concepticon_ID", "")).strip()
         explicit = str(row.get("concept_id", "")).strip()
@@ -430,6 +437,8 @@ def build_one(
     if not cov.empty:
         df = _apply_cognate_overrides(df, cov)
 
+    profile = load_profile(vd.custom_path("profile.tsv"))
+
     out_rows = []
     for _, row in df.iterrows():
         param_id = row.get("Parameter_ID", "")
@@ -445,7 +454,7 @@ def build_one(
             concept_id, concept_label = concept_index.get(concepticon_id, ("", ""))
         src_segments = row.get("Segments", "") or ""
         src_form = row.get("Form", "") or row.get("Value", "") or ""
-        segments, seg_source = normalize_segments(src_segments, src_form)
+        segments, seg_source = normalize_segments(src_segments, src_form, profile)
         out_row = {
             "av_id": av_id,
             "Glottocode": variety.glottocode,
@@ -481,7 +490,7 @@ def build_one(
     custom_forms_df = _read_custom(vd.custom_path("forms.csv"))
     out_rows.extend(_additive_custom_rows(
         custom_forms_df, av_id, variety, forms_score, tier,
-        concept_index, concept_labels,
+        concept_index, concept_labels, profile,
     ))
 
     vd.generated_forms.parent.mkdir(parents=True, exist_ok=True)
@@ -506,6 +515,7 @@ def update_config_extension_flags(vd: VarietyDir) -> None:
     ):
         df = _read_custom(vd.custom_path(path_basename))
         new_flags[name] = not df.empty
+    new_flags["profile"] = bool(load_profile(vd.custom_path("profile.tsv")))
 
     if existing == new_flags:
         return

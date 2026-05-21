@@ -44,7 +44,7 @@ _RECIPE_FILES = (
     "data/concepts.csv", "data/semantic_field_codes.csv",
 )
 
-_CUSTOM_FILES = ("transcriptions.csv", "forms.csv", "cognates.csv", "concept_map.csv")
+_CUSTOM_FILES = ("transcriptions.csv", "forms.csv", "cognates.csv", "concept_map.csv", "profile.tsv")
 
 # Columns of the intake forms table that build_one actually consumes
 # (Concepticon resolution is added separately via the parameter index).

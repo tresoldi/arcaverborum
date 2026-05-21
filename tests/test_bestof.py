@@ -342,6 +342,42 @@ def test_custom_transcription_override(tmp_path: Path):
     assert water_row.Segments == "w aː t a"
 
 
+def test_orthographic_profile_transcribes_segmentless_forms(tmp_path: Path):
+    """A variety whose source has no Segments gets IPA from custom/profile.tsv,
+    flagged Segments_Source=profile (preferred over orthographic resegment)."""
+    forms_path = tmp_path / "forms.csv"
+    languages_path = tmp_path / "languages.csv"
+    pd.DataFrame([
+        {"ID": "p_l_x", "Dataset": "alpha", "Language_ID": "p_l",
+         "Glottocode": "abcd1234", "Parameter_ID": "p_water",
+         "Concepticon_Gloss": "WATER", "Value": "shë", "Form": "shë",
+         "Segments": "", "Cognacy": "c1"},
+    ]).to_csv(forms_path, index=False)
+    pd.DataFrame([
+        {"ID": "p_l", "Dataset": "alpha", "Name": "Prof", "Glottocode": "abcd1234",
+         "Family": "Testic", "Macroarea": "Eurasia"},
+    ]).to_csv(languages_path, index=False)
+
+    catalog = build_catalog(
+        languages_path, glottolog=_stub_glottolog(),
+        overrides_path=tmp_path / "no_overrides.csv",
+    )
+    varieties_root = tmp_path / "varieties"
+    register(av_id="abcd1234", varieties_root=varieties_root,
+             transcription_source="alpha", name="Prof", glottocode="abcd1234")
+    vd = VarietyDir(av_id="abcd1234", root=varieties_root / "abcd1234")
+    (vd.custom_dir).mkdir(parents=True, exist_ok=True)
+    (vd.custom_dir / "profile.tsv").write_text(
+        "Grapheme\tIPA\tnotes\nsh\tʃ\t\në\tə\t\n", encoding="utf-8")
+
+    build_one(av_id="abcd1234", varieties_root=varieties_root,
+              intake_forms=forms_path, catalog=catalog)
+    out = pd.read_csv(vd.generated_forms, dtype=str, keep_default_na=False)
+    row = out.iloc[0]
+    assert row.Segments == "ʃ ə"
+    assert row.Segments_Source == "profile"
+
+
 def test_aggregate_unions_varieties(tmp_path: Path):
     forms_path, languages_path, parameters_path, metadata_path = _write_intake(tmp_path)
     varieties_root = tmp_path / "varieties"

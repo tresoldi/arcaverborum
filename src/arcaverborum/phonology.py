@@ -97,7 +97,67 @@ def resegment(form: str) -> tuple[str, bool]:
     return " ".join(tokens), fully_covered
 
 
-def normalize_segments(source_segments: str, source_form: str) -> tuple[str, str]:
+def load_profile(path) -> dict[str, str]:
+    """Load an orthographic profile: ``Grapheme`` → ``IPA`` (tab-separated).
+
+    A grapheme is any orthographic substring (a letter, a digraph, or a
+    whole word for hard-coded forms); its IPA value is the (possibly
+    space-separated, possibly empty for a deletion) segment string it maps
+    to. Returns ``{}`` when the file is absent or has only a header.
+    """
+    from pathlib import Path
+
+    p = Path(path)
+    if not p.exists():
+        return {}
+    profile: dict[str, str] = {}
+    with p.open(encoding="utf-8") as f:
+        f.readline()  # skip header: Grapheme<TAB>IPA[<TAB>notes]
+        for line in f:
+            if not line.strip():
+                continue
+            cols = line.rstrip("\n").split("\t")
+            grapheme = cols[0]
+            if grapheme == "" or grapheme.startswith("#"):
+                continue
+            ipa = cols[1] if len(cols) > 1 else ""
+            profile[grapheme] = ipa.strip()
+    return profile
+
+
+def apply_profile(form: str, profile: dict[str, str]) -> tuple[str, bool]:
+    """Greedy longest-match segmentation of ``form`` against ``profile``.
+
+    Returns (space-joined IPA segments, fully_covered). A grapheme mapping
+    to an empty IPA deletes that orthographic unit. ``fully_covered`` is
+    False if any character is matched by no grapheme.
+    """
+    if not form or not profile:
+        return "", False
+    max_len = max(len(g) for g in profile)
+    out: list[str] = []
+    covered = True
+    i, n = 0, len(form)
+    while i < n:
+        matched = ""
+        for j in range(min(n, i + max_len), i, -1):
+            if form[i:j] in profile:
+                matched = form[i:j]
+                break
+        if matched:
+            ipa = profile[matched]
+            if ipa:
+                out.append(ipa)
+            i += len(matched)
+        else:
+            covered = False
+            i += 1
+    return _SPACES_RE.sub(" ", " ".join(out)).strip(), covered
+
+
+def normalize_segments(
+    source_segments: str, source_form: str, profile: dict[str, str] | None = None,
+) -> tuple[str, str]:
     """Return (segments, segments_source).
 
     Policy (prefer real source IPA over a guess from the orthography):
@@ -105,14 +165,20 @@ def normalize_segments(source_segments: str, source_form: str) -> tuple[str, str
          (segments_source = 'source').
       2. Source segments present but not fully recognized → keep them
          verbatim and mark 'unclean'. We do NOT discard real IPA in favour
-         of re-segmenting the (often orthographic) form: a later
+         of deriving segments from the (often orthographic) form: a later
          normalization pass can reclaim these tokens in place.
-      3. No source segments → attempt re-segmentation from the form. If it
+      3. No source segments, an orthographic profile is given, and it
+         covers the whole form → use the profile's IPA ('profile').
+      4. No source segments → attempt re-segmentation from the form. If it
          covers the whole string → 'resegmented', else 'unclean'.
     """
     src = (source_segments or "").strip()
     if src:
         return (src, "source") if segments_are_valid(src) else (src, "unclean")
+    if profile and source_form:
+        prof, ok = apply_profile(source_form, profile)
+        if ok and prof:
+            return prof, "profile"
     if source_form:
         reseg, ok = resegment(source_form)
         if ok and reseg:

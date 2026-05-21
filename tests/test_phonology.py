@@ -2,7 +2,13 @@
 
 from __future__ import annotations
 
-from arcaverborum.phonology import normalize_segments, resegment, segments_are_valid
+from arcaverborum.phonology import (
+    apply_profile,
+    load_profile,
+    normalize_segments,
+    resegment,
+    segments_are_valid,
+)
 
 
 def test_valid_source_segments_kept_as_source():
@@ -33,3 +39,46 @@ def test_absent_and_unresegmentable_is_empty_unclean():
     segs, src = normalize_segments("", "")
     assert src == "unclean"
     assert segs == ""
+
+
+# --- orthographic profiles -------------------------------------------------
+
+def test_apply_profile_longest_match_and_multi_segment_ipa():
+    # 'dh' is a digraph; longest match must beat 'd' + 'h'.
+    profile = {"d": "d", "h": "h", "dh": "ð", "i": "i"}
+    segs, ok = apply_profile("dhi", profile)
+    assert ok
+    assert segs == "ð i"
+
+
+def test_apply_profile_empty_ipa_deletes_grapheme():
+    profile = {"a": "a", "e": ""}  # silent 'e'
+    segs, ok = apply_profile("ae", profile)
+    assert ok
+    assert segs == "a"
+
+
+def test_apply_profile_reports_uncovered():
+    segs, ok = apply_profile("axb", {"a": "a", "b": "b"})
+    assert not ok  # 'x' has no grapheme
+    assert segs == "a b"
+
+
+def test_load_profile_roundtrip(tmp_path):
+    p = tmp_path / "profile.tsv"
+    p.write_text(
+        "Grapheme\tIPA\tnotes\nsh\tʃ\tdigraph\në\tə\t\n# comment\tx\t\n",
+        encoding="utf-8",
+    )
+    prof = load_profile(p)
+    assert prof == {"sh": "ʃ", "ë": "ə"}
+
+
+def test_profile_fills_only_when_source_absent():
+    profile = {"s": "s", "h": "h", "sh": "ʃ"}
+    # No source segments → profile drives it.
+    assert normalize_segments("", "sh", profile) == ("ʃ", "profile")
+    # Valid source IPA wins over the profile.
+    assert normalize_segments("t a", "sh", profile) == ("t a", "source")
+    # Present-but-invalid source IPA is kept, not overridden by the profile.
+    assert normalize_segments("tʃ", "sh", profile) == ("tʃ", "unclean")
