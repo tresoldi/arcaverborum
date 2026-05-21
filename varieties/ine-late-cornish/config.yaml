@@ -8,10 +8,11 @@ sources:
   cognates: iecor
   source_language_id: iecor_230
 extensions:
-  transcriptions: false
+  transcriptions: true
   forms: false
   cognates: false
   concept_map: false
+  profile: false
 scoring:
   forms_score: 0.4154
   cognates_score: 0.7
