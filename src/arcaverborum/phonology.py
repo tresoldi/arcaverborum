@@ -6,8 +6,16 @@ not fully recognized are kept verbatim and flagged 'unclean' — real IPA
 is never discarded in favour of re-segmenting the (often orthographic)
 form, so a later normalization pass can reclaim those tokens in place.
 Only when source segments are absent do we attempt re-segmentation from
-the Form via greedy longest-match against merkmal's inventory
-('resegmented'); if that fails to cover the form, it is 'unclean'.
+the Form via merkmal's IPA tokenizer (``segment_ipa``), flagged
+'resegmented'; if any token fails to validate, it is 'unclean'.
+
+Uses merkmal's ``descriptive`` system — the merkmal-native categorical
+feature engine that the downstream cognate toolchain (cognator, proteus)
+also defaults to. Validity is generative: a token validates when merkmal
+can derive its features compositionally (base + diacritics), not only
+when the exact string is attested. Tone digits are attached to their
+syllabic nucleus via ``merge_tone_digits`` before validation, so
+tone-bearing segments validate.
 """
 
 from __future__ import annotations
@@ -15,24 +23,13 @@ from __future__ import annotations
 import logging
 import re
 import unicodedata
-from functools import lru_cache
 
 import merkmal
 
 logger = logging.getLogger(__name__)
 
-SYSTEM = "phoible"
+SYSTEM = "descriptive"
 SEPARATORS = ("+", "_")
-
-
-@lru_cache(maxsize=1)
-def _grapheme_set() -> frozenset[str]:
-    return frozenset(merkmal.get_system(SYSTEM).list_graphemes())
-
-
-@lru_cache(maxsize=1)
-def _max_grapheme_len() -> int:
-    return max((len(g) for g in _grapheme_set()), default=0)
 
 
 def is_valid_grapheme(g: str) -> bool:
@@ -43,82 +40,61 @@ def is_valid_grapheme(g: str) -> bool:
     return merkmal.get_features(g, system=SYSTEM) is not None
 
 
+def canonicalize(tokens: list[str]) -> tuple[list[str], bool]:
+    """Resolve tokens to canonical BIPA, drop emptied tokens, merge tone.
+
+    Each non-separator token is passed through ``merkmal.normalize``, which
+    resolves CLTS source/BIPA slash notation (``a/b`` → ``b``), expands
+    deprecated affricate ligatures (``ʤ`` → ``dʒ``), maps ASCII colon to the
+    IPA length mark, strips suprasegmental stress, and returns canonical NFC
+    IPA. Separators (``+``/``_``) are preserved; tokens that normalize to
+    nothing (a bare stress mark) are dropped. Returns (canonical tokens,
+    all_valid). Tone digits are kept as separate tokens (the CLDF
+    convention) but validity is checked with them attached to their nucleus,
+    so a tone-bearing form counts as valid.
+    """
+    out: list[str] = []
+    for t in tokens:
+        if not t:
+            continue
+        if t in SEPARATORS:
+            out.append(t)
+            continue
+        norm = merkmal.normalize(t)
+        if norm:
+            out.append(norm)
+    ok = all(is_valid_grapheme(t) for t in merkmal.merge_tone_digits(out))
+    return out, ok
+
+
 def segments_are_valid(segments: str) -> bool:
     if not segments or not segments.strip():
         return False
-    tokens = [t for t in segments.split() if t]
-    if not tokens:
-        return False
-    return all(is_valid_grapheme(t) for t in tokens)
-
-
-# --- TEMPORARY affricate normalization (remove once merkmal handles it) ---
-# merkmal's phoible system stores the postalveolar affricates with a
-# retracted stop (t̠ʃ / d̠ʒ, U+0320) and rejects the plain tʃ / dʒ that
-# IE-CoR and many sources write. That is BIPA/CLTS canonicalization and
-# belongs in merkmal — being reworked at ~/nas-dev/new_chl/merkmal (with
-# Go support). Until that lands we normalize here so the real source IPA
-# validates instead of being discarded as 'unclean'. Substring replacement
-# also fixes the variants (tʃʰ→t̠ʃʰ, dʒʱ→d̠ʒʱ, tʃʲ→t̠ʃʲ, …) since the
-# diacritic simply inserts between stop and sibilant. REMOVE this and the
-# call in normalize_segments once merkmal canonicalizes affricates. See the
-# note in the merkmal rework dir.
-_AFFRICATE_NORMALIZATION = {
-    "tʃ": "t̠ʃ",   # tʃ → t̠ʃ
-    "dʒ": "d̠ʒ",   # dʒ → d̠ʒ
-}
-
-
-def _normalize_affricates(segments: str) -> str:
-    for plain, retracted in _AFFRICATE_NORMALIZATION.items():
-        if plain in segments:
-            segments = segments.replace(plain, retracted)
-    return segments
+    _, ok = canonicalize([t for t in segments.split() if t])
+    return ok
 
 
 _SPACES_RE = re.compile(r"\s+")
 
 
 def resegment(form: str) -> tuple[str, bool]:
-    """Greedy longest-match segmentation against merkmal's inventory.
+    """Tokenize a continuous form into canonical IPA segments via merkmal.
 
-    Returns (space-joined segments, fully_covered).
-    Underscores and pluses are preserved as morpheme separators.
-    Whitespace in the input becomes nothing (multiple forms should be
-    split upstream).
+    Returns (space-joined segments, fully_covered). Uses
+    ``merkmal.segment_ipa`` (diacritics bind to their base, tie-bars and
+    affricates stay whole, no cluster over-merge), then canonicalizes each
+    token (see :func:`canonicalize`). Underscores and pluses survive as
+    morpheme separators. ``fully_covered`` is False if any resulting token
+    fails to validate (e.g. orthography merkmal cannot read as IPA).
     """
     if not form:
         return "", False
     form = _SPACES_RE.sub("", form)
     if not form:
         return "", False
-
-    inventory = _grapheme_set()
-    max_len = _max_grapheme_len()
-    tokens: list[str] = []
-    fully_covered = True
-    i = 0
-    n = len(form)
-    while i < n:
-        ch = form[i]
-        if ch in SEPARATORS:
-            tokens.append(ch)
-            i += 1
-            continue
-        matched = ""
-        end = min(n, i + max_len)
-        for j in range(end, i, -1):
-            cand = form[i:j]
-            if cand in inventory:
-                matched = cand
-                break
-        if matched:
-            tokens.append(matched)
-            i += len(matched)
-        else:
-            tokens.append(ch)
-            fully_covered = False
-            i += 1
+    tokens, fully_covered = canonicalize(merkmal.segment_ipa(form))
+    if not tokens:
+        return "", False
     return " ".join(tokens), fully_covered
 
 
@@ -197,8 +173,9 @@ def normalize_segments(
     """Return (segments, segments_source).
 
     Policy (prefer real source IPA over a guess from the orthography):
-      1. Source segments present and fully recognized → use them
-         (segments_source = 'source').
+      1. Source segments present and fully recognized → canonicalize them to
+         clean BIPA (resolve CLTS slash notation, expand ligatures, etc.) and
+         use them (segments_source = 'source').
       2. Source segments present but not fully recognized → keep them
          verbatim and mark 'unclean'. We do NOT discard real IPA in favour
          of deriving segments from the (often orthographic) form: a later
@@ -214,8 +191,10 @@ def normalize_segments(
     """
     src = (source_segments or "").strip()
     if src:
-        src = _normalize_affricates(src)  # TEMP: see _AFFRICATE_NORMALIZATION
-        return (src, "source") if segments_are_valid(src) else (src, "unclean")
+        canon, ok = canonicalize([t for t in src.split() if t])
+        if ok and canon:
+            return " ".join(canon), "source"
+        return src, "unclean"  # keep real source IPA verbatim for later recovery
     if profile:
         if source_form:
             prof, ok = apply_profile(source_form, profile)

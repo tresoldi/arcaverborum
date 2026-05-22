@@ -229,13 +229,20 @@ columns leave source values intact.
 
 ## Phonology
 
-Source segments are kept when present and merkmal-validated (`source`).
-Source segments that are present but not fully recognized are kept
-verbatim and flagged `unclean` — real IPA is never discarded in favour of
-re-segmenting the (often orthographic) form, so a later normalization
-pass can reclaim those tokens in place. Only when source segments are
-absent is the form re-segmented via merkmal's phoible inventory (greedy
-longest match, `resegmented`); if that fails to cover the form it is
+Source segments are canonicalized to clean BIPA and kept when merkmal-valid
+(`source`), using merkmal's `descriptive` system — the merkmal-native
+categorical engine the downstream cognate toolchain also uses. Validity is
+generative (features derived compositionally from base + diacritics).
+Each token is passed through `merkmal.normalize`, which resolves CLTS
+source/BIPA slash notation (`a/b` → `b`), expands deprecated affricate
+ligatures (`ʤ` → `dʒ`), maps ASCII colon to the IPA length mark, and strips
+suprasegmental stress; tone digits are attached to their nucleus before the
+validity check (and kept as separate tokens in the output). Source segments
+that still fail are kept verbatim and flagged `unclean` — real IPA is never
+discarded in favour of re-segmenting the (often orthographic) form, so a
+later normalization pass can reclaim those tokens in place. Only when source
+segments are absent is the form re-segmented via merkmal's IPA tokenizer
+(`segment_ipa`, `resegmented`); if any token fails to validate it is
 `unclean`. `Segments_Source` in every output row records `source`,
 `resegmented`, or `unclean`.
 

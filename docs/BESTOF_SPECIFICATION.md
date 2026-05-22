@@ -121,11 +121,16 @@ Tier bands (forms_block score thresholds):
 
 ## Phonology
 
-`src/arcaverborum/phonology.py` validates and re-segments via merkmal.
+`src/arcaverborum/phonology.py` validates and re-segments via merkmal's
+`descriptive` system (the merkmal-native categorical engine shared with the
+downstream cognate toolchain). Validity is generative — features are derived
+compositionally from base + diacritics — and tone digits are merged onto
+their nucleus before checking.
 
-* Source segments are kept when present AND all tokens recognized.
-* Otherwise, greedy longest-match resegmentation against the phoible
-  inventory (3,142 graphemes).
+* Source segments are canonicalized to clean BIPA via `merkmal.normalize`
+  (CLTS slash `a/b → b`, ligatures `ʤ → dʒ`, ASCII `:` → `ː`, stress
+  stripped) and kept when all tokens are recognized.
+* Otherwise, resegmentation via merkmal's IPA tokenizer (`segment_ipa`).
 * `Segments_Source` records `source`, `resegmented`, or `unclean`.
 
 ## Cross-source cognates
@@ -188,11 +193,10 @@ so a variety with substantial data and a weak forms-block ranks highest;
 tiny or already-good varieties sink. Code lives in `curation.py`; run
 `aggregate` first.
 
-**Tone is deferred.** A large share of `unclean` forms are blocked only by
-tone marks (digits/superscripts/Chao letters) that the merkmal `phoible`
-system does not yet tokenise. Tone handling is being added natively in
-merkmal upstream — the build carries these forms as-is and does **not**
-strip or rewrite them. The report's `pct_tone_blocked` column isolates the
-cohort (a heuristic match on tone-like characters in `Segments`) so the
-eventual recovery is measurable and tone-heavy varieties are excluded from
-the manual-curation top.
+**Tone is handled.** merkmal (≥0.5.0) attaches tone marks
+(digits/superscripts/Chao letters) to their syllabic nucleus
+(`merge_tone_digits`) and validates the result, so tone-bearing forms count
+as clean. The build carries forms as-is and does **not** strip or rewrite
+them. The report's `pct_tone_blocked` column now isolates only the residual
+(forms that are tonal *and* otherwise malformed), via a heuristic match on
+tone-like characters in `Segments`.

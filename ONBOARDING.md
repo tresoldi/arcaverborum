@@ -65,7 +65,7 @@ src/arcaverborum/
   ingest.py                  raw/lexibank → intake/lexibank
   score.py                   composite per-block quality signals (weights in data/score_weights.yaml)
   selection.py               source priority floor + auto-pick + pins
-  phonology.py               merkmal-backed CLTS validation + re-segmentation (phoible system)
+  phonology.py               merkmal-backed CLTS validation + re-segmentation (descriptive system)
   variety.py                 register / build_one / custom-data merge / scaffold_custom_files
   aggregate.py               union per-variety output into output/aggregate/
   report.py                  selection report JSON
@@ -101,16 +101,18 @@ docs/BESTOF_SPECIFICATION.md design spec
 
 ## 4. Environment setup
 
-Python 3.11+ (developed on 3.14). merkmal lives at `~/repos/merkmal`.
+Python 3.11+ (developed on 3.14). merkmal (≥0.5.0) lives at
+`~/nas-dev/new_chl/merkmal` — install the Python package from its `python/`
+subdir.
 
 ```bash
 cd ~/repos/arcaverborum
 python -m venv .venv && source .venv/bin/activate
-pip install -e .                      # pandas, pyyaml, requests
-pip install -e ~/repos/merkmal        # phonology library (separate repo)
+pip install -e .                                   # pandas, pyyaml, requests
+pip install -e ~/nas-dev/new_chl/merkmal/python    # phonology library (separate repo)
 python -c "import merkmal; print(merkmal.list_systems())"   # sanity check
 pip install pytest ruff mypy          # dev tools (optional)
-pytest tests/ -q                      # expect 77 passing
+pytest tests/ -q                      # expect 153 passing
 ```
 
 Dependencies are intentionally lean — **no CLDF ecosystem**
@@ -184,15 +186,16 @@ non-empty cells override the source, empty cells leave it intact. See
    rank first; tiny or already-good ones sink. Columns surface tier,
    `pct_unclean`, `concept_coverage`, `pct_tone_blocked`, etc. Code in
    `curation.py`. Run `aggregate` first.
-4. **Tone-aware phonology** — *DEFERRED to merkmal upstream*. ~26% of
-   forms are `Segments_Source=unclean`, and ~37% of those (196,992 forms,
-   concentrated in Sino-Tibetan / Tai-Kadai / Hmong-Mien / Austroasiatic /
-   Otomanguean) are blocked only by tone marks (digits/superscripts/Chao
-   letters) merkmal doesn't yet tokenise. Tone is being handled natively
-   in the merkmal library; **do not** add a preprocessing/strip pass here.
-   The curation report's `pct_tone_blocked` column tracks the cohort so the
-   recovery is measurable once merkmal lands tone support, and keeps those
-   varieties out of the manual-curation top (they're not hand-fixable now).
+4. **Tone-aware phonology** — *handled by merkmal (≥0.5.0)*. merkmal
+   attaches tone marks (digits/superscripts/Chao letters) to their
+   syllabic nucleus via `merge_tone_digits` and validates the result, so
+   tone-bearing forms now count as clean. The previously-deferred cohort
+   (~197k forms, concentrated in Sino-Tibetan / Tai-Kadai / Hmong-Mien /
+   Austroasiatic / Otomanguean) re-cleans on rebuild with no
+   re-transcription. **Do not** add a preprocessing/strip pass here —
+   `phonology.segments_are_valid`/`resegment` already merge tone digits.
+   The curation report's `pct_tone_blocked` column now tracks only the
+   residual (forms that are tonal *and* otherwise malformed).
 5. **GLED/Wiktionary metadata in aggregate**: aggregate pulls
    metadata.csv + sources.bib from lexibank only. Minor gap.
 
@@ -215,9 +218,15 @@ non-empty cells override the source, empty cells leave it intact. See
 
 ## 8. Gotchas
 
-- **Phonology uses the merkmal `phoible` system** (3,142 graphemes incl.
-  aspirated stops like `kʰ`); the smaller systems (`broad`/`descriptive`)
-  lack them. See `phonology.SYSTEM`.
+- **Phonology uses the merkmal `descriptive` system** — the merkmal-native
+  categorical engine that the downstream cognate toolchain (cognator,
+  proteus) also defaults to. Validity is generative (base + diacritics
+  derived compositionally), so well-formed IPA validates whether or not the
+  exact string is attested; `tʃ`, `ʊˑ`, clicks, apical vowels and
+  tone-bearing nuclei all pass. Source segments are **canonicalized** via
+  `merkmal.normalize` (`phonology.canonicalize`): CLTS slash notation
+  `a/b → b`, ligatures `ʤ → dʒ`, ASCII `:` → `ː`, stress stripped. See
+  `phonology.SYSTEM`.
 - **Wiktionary intake has no Glottocodes from the kaikki pipeline** —
   filled by `catalog.enrich_glottocodes()` (vectorised; ISO 639-3 or
   `wikt_<iso>` suffix → Glottolog) during ingest. Don't iterrows over

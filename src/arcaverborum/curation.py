@@ -7,12 +7,13 @@ off — e.g. broad phonological transcription for ancient IE languages.
 Reads the aggregate product (`output/aggregate/forms.csv` + `varieties.csv`),
 so run `build.py aggregate` first.
 
-Tone is deferred. ~37% of `unclean` forms are blocked only by tone marks
-(digits / superscripts / Chao letters) that merkmal does not yet tokenise.
-That fix is being handled in merkmal upstream, not by hand — so the report
-carries a `pct_tone_blocked` column to keep the eventual recovery measurable,
-and those forms are not manual-curation targets today. Filter or de-prioritise
-tone-heavy varieties when picking what to curate now.
+Tone is handled. merkmal attaches tone digits / superscripts / Chao
+letters to their syllabic nucleus (`merge_tone_digits`) and validates the
+result, so tone-bearing forms now count as clean rather than landing in
+`unclean`. The report keeps a `pct_tone_blocked` column (unclean forms that
+still carry tone marks) as a diagnostic for the residual — a form that is
+both tonal and otherwise malformed — but these are no longer a blanket
+deferral; tone alone no longer blocks a form.
 """
 
 from __future__ import annotations
@@ -29,8 +30,9 @@ from arcaverborum.score import _form_density
 logger = logging.getLogger(__name__)
 
 # Heuristic: in CLDF segment strings bare digits 0-5, tone superscripts/
-# subscripts, and Chao tone letters almost always encode tone. Marks merkmal
-# (phoible) does not tokenise → the form lands in `unclean`.
+# subscripts, and Chao tone letters almost always encode tone. Used only to
+# flag the residual tone-bearing forms that are STILL `unclean` after merkmal
+# attaches tone to the nucleus (i.e. tonal AND otherwise malformed).
 TONE_RE = re.compile(r"[0-5⁰¹²³⁴⁵"
                      r"₀₁₂₃₄₅"
                      r"˥˦˧˨˩]")
@@ -68,7 +70,7 @@ def build_curation_report(
     `priority_score = form_density(n_forms) * (hand_unclean / n_forms)`,
     where `hand_unclean = n_unclean - n_tone_blocked`. It reflects the
     ACTUAL current transcription state: a data-rich variety with many
-    hand-fixable unclean forms ranks highest; tone-blocked (deferred) and
+    hand-fixable unclean forms ranks highest; residual tone-blocked and
     source/profile/resegmented forms don't count, so a fully-profiled
     variety drops to ~0. (Earlier this used the pin-time config
     forms_score, which goes stale once a profile is authored.)
@@ -127,9 +129,9 @@ def build_curation_report(
     per["pct_cognacy"] = (per["n_cognacy"] / per["n_forms"]).round(4)
     # Priority reflects the ACTUAL current transcription state, not the
     # (pin-time, stale) config forms_score: a data-rich variety with many
-    # hand-fixable unclean forms ranks first. Tone-blocked forms are excluded
-    # (deferred to merkmal), and source/profile/resegmented forms don't count
-    # as needing work — so fully-profiled varieties correctly fall to ~0.
+    # hand-fixable unclean forms ranks first. Residual tone-blocked forms are
+    # excluded (tonal AND malformed; niche), and source/profile/resegmented
+    # forms don't count as needing work — so fully-profiled varieties fall to ~0.
     hand_unclean = (per["n_unclean"] - per["n_tone_blocked"]).clip(lower=0)
     per["priority_score"] = (
         per["n_forms"].map(_form_density) * (hand_unclean / per["n_forms"])
@@ -178,7 +180,8 @@ def _summarize(per: pd.DataFrame, varieties: pd.DataFrame) -> dict:
             "forms": n_tone,
             "pct_of_unclean": round(n_tone / n_unclean, 4) if n_unclean else 0.0,
             "pct_of_forms": round(n_tone / n_forms, 4) if n_forms else 0.0,
-            "note": "deferred to merkmal upstream; not a manual-curation target",
+            "note": "residual: unclean forms still carrying tone marks "
+                    "(tonal AND otherwise malformed); tone alone no longer blocks",
         },
         "tier_distribution": per["tier"].value_counts().to_dict(),
         "source_class_distribution": per["source_class"].value_counts().to_dict(),

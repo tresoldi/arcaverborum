@@ -312,7 +312,7 @@ def cmd_report(args: argparse.Namespace) -> int:
     print(f"  resegmented:     {ss['resegmented']['forms']:>9,}  {ss['resegmented']['pct']:6.1%}")
     print(f"  unclean:         {ss['unclean']['forms']:>9,}  {ss['unclean']['pct']:6.1%}")
     tb = summary["tone_blocked"]
-    print(f"    of which tone-blocked (deferred to merkmal): {tb['forms']:,} "
+    print(f"    of which tonal+malformed (residual): {tb['forms']:,} "
           f"({tb['pct_of_unclean']:.0%} of unclean)")
     print("\nTop curation targets (priority = data volume x forms-block weakness):")
     for r in rows[:15]:

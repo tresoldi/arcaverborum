@@ -1,4 +1,4 @@
-"""Phonology normalization policy (merkmal phoible system)."""
+"""Phonology normalization policy (merkmal descriptive system)."""
 
 from __future__ import annotations
 
@@ -12,9 +12,9 @@ from arcaverborum.phonology import (
     segments_are_valid,
 )
 
-# A token merkmal rejects that is NOT touched by the affricate normalization
-# (a mid-long vowel from the IE-CoR rejected-token tail).
-STILL_INVALID = "ʊˑ"
+# A token merkmal genuinely cannot read as IPA (an uncertainty / alternation
+# annotation artefact from the source data, not a real sound).
+STILL_INVALID = "<?>"
 
 
 def test_valid_source_segments_kept_as_source():
@@ -39,16 +39,36 @@ def test_present_but_invalid_source_ipa_is_kept_not_resegmented():
     assert segs == f"{STILL_INVALID} a"  # source IPA retained
 
 
-def test_affricate_normalization_recovers_plain_affricates():
-    # merkmal stores t̠ʃ/d̠ʒ (retracted); IE-CoR writes plain tʃ/dʒ. The
-    # TEMP arca-side normalization maps them so the real IPA validates.
-    assert not segments_are_valid("tʃ a")  # plain form rejected by merkmal
-    segs, src = normalize_segments("tʃ a", "")
-    assert src == "source"
-    assert segs == unicodedata.normalize("NFC", "t̠ʃ a")
-    # variants follow (the diacritic inserts before the modifier)
-    segs2, src2 = normalize_segments("dʒ a", "")
-    assert src2 == "source"
+def test_plain_affricates_validate_and_are_kept_verbatim():
+    # merkmal (descriptive) accepts plain tʃ/dʒ compositionally, so the real
+    # source IPA is kept verbatim as 'source' — no rewrite to a retracted form.
+    assert segments_are_valid("tʃ a")
+    assert segments_are_valid("dʒ a")
+    assert normalize_segments("tʃ a", "") == ("tʃ a", "source")
+    assert normalize_segments("dʒ a", "") == ("dʒ a", "source")
+
+
+def test_tone_bearing_segments_validate():
+    # Tone digits attach to their nucleus (merge_tone_digits) and validate,
+    # so a tonal form is 'source', not 'unclean'.
+    assert segments_are_valid("k a ³¹")
+    assert segments_are_valid("k ə ŋ ³³ + k a ³¹")
+    assert normalize_segments("k a ³¹", "") == ("k a ³¹", "source")
+
+
+def test_clts_slash_notation_resolved_to_bipa():
+    # CLTS source/BIPA slash notation: store the consumed BIPA value, no slash.
+    assert normalize_segments("y/j a", "") == ("j a", "source")
+    assert normalize_segments("sh/ʃ a", "") == ("ʃ a", "source")
+    # tone slash notation resolves to the Chao value, still a separate token
+    assert normalize_segments("k a ⁶/⁵¹", "") == ("k a ⁵¹", "source")
+
+
+def test_legacy_ligatures_and_ascii_colon_and_stress_canonicalized():
+    assert normalize_segments("ʤ a", "") == ("dʒ a", "source")
+    assert normalize_segments("a:", "") == ("aː", "source")
+    # leading stress is suprasegmental → stripped
+    assert normalize_segments("ˈɛ", "") == ("ɛ", "source")
 
 
 def test_absent_and_unresegmentable_is_empty_unclean():

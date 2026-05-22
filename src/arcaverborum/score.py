@@ -19,6 +19,7 @@ import math
 from dataclasses import dataclass
 from pathlib import Path
 
+import merkmal
 import pandas as pd
 import yaml
 
@@ -80,7 +81,17 @@ def _clts_fraction(segments: pd.Series, validator) -> float:
     ok = 0
     total = 0
     for s in sample:
-        tokens = [t for t in s.split() if t and t not in ("+", "_")]
+        # Canonicalize then attach tone digits to their nucleus before
+        # validating, so CLTS slash notation / ligatures / tone-bearing
+        # segments count as compliant (mirrors phonology.canonicalize).
+        tokens: list[str] = []
+        for t in s.split():
+            if not t or t in ("+", "_"):
+                continue
+            norm = merkmal.normalize(t)
+            if norm:
+                tokens.append(norm)
+        tokens = [t for t in merkmal.merge_tone_digits(tokens) if t not in ("+", "_")]
         if not tokens:
             continue
         total += 1
