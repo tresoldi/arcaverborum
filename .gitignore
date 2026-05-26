@@ -37,7 +37,7 @@ merge_run.log
 *.tmp
 *_old.py
 
-Local scratch memory
+# Local scratch memory
 memory/
 
 # IDE
