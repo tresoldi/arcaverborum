@@ -37,7 +37,7 @@ def is_valid_grapheme(g: str) -> bool:
         return False
     if g in SEPARATORS:
         return True
-    return merkmal.get_features(g, system=SYSTEM) is not None
+    return bool(merkmal.is_segment(g, system=SYSTEM))
 
 
 def canonicalize(tokens: list[str]) -> tuple[list[str], bool]:
