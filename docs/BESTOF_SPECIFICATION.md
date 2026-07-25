@@ -193,7 +193,7 @@ so a variety with substantial data and a weak forms-block ranks highest;
 tiny or already-good varieties sink. Code lives in `curation.py`; run
 `aggregate` first.
 
-**Tone is handled.** merkmal (≥0.5.0) attaches tone marks
+**Tone is handled.** merkmal (≥0.6.0) attaches tone marks
 (digits/superscripts/Chao letters) to their syllabic nucleus
 (`merge_tone_digits`) and validates the result, so tone-bearing forms count
 as clean. The build carries forms as-is and does **not** strip or rewrite

@@ -101,18 +101,18 @@ docs/BESTOF_SPECIFICATION.md design spec
 
 ## 4. Environment setup
 
-Python 3.11+ (developed on 3.14). merkmal (≥0.5.0) lives at
-`~/nas-dev/new_chl/merkmal` — install the Python package from its `python/`
+Python 3.11+ (developed on 3.14). merkmal (≥0.6.0) lives next to this
+repo at `../merkmal` — install the Python package from its `python/`
 subdir.
 
 ```bash
 cd ~/repos/arcaverborum
 python -m venv .venv && source .venv/bin/activate
 pip install -e .                                   # pandas, pyyaml, requests
-pip install -e ~/nas-dev/new_chl/merkmal/python    # phonology library (separate repo)
+pip install -e ../merkmal/python                   # phonology library (separate repo)
 python -c "import merkmal; print(merkmal.list_systems())"   # sanity check
 pip install pytest ruff mypy          # dev tools (optional)
-pytest tests/ -q                      # expect 153 passing
+pytest tests/ -q                      # expect 155 passing
 ```
 
 Dependencies are intentionally lean — **no CLDF ecosystem**
@@ -186,7 +186,7 @@ non-empty cells override the source, empty cells leave it intact. See
    rank first; tiny or already-good ones sink. Columns surface tier,
    `pct_unclean`, `concept_coverage`, `pct_tone_blocked`, etc. Code in
    `curation.py`. Run `aggregate` first.
-4. **Tone-aware phonology** — *handled by merkmal (≥0.5.0)*. merkmal
+4. **Tone-aware phonology** — *handled by merkmal (≥0.6.0)*. merkmal
    attaches tone marks (digits/superscripts/Chao letters) to their
    syllabic nucleus via `merge_tone_digits` and validates the result, so
    tone-bearing forms now count as clean. The previously-deferred cohort
