@@ -30,6 +30,12 @@ logger = logging.getLogger(__name__)
 
 SYSTEM = "descriptive"
 SEPARATORS = ("+", "_")
+SOURCE_TOKEN_ALIASES = {
+    # Arca source shorthand for pre-nasalized stops. merkmal intentionally
+    # keeps bare clusters invalid and accepts the explicit modifier forms.
+    "mb": "ᵐb",
+    "nd": "ⁿd",
+}
 
 
 def is_valid_grapheme(g: str) -> bool:
@@ -38,6 +44,10 @@ def is_valid_grapheme(g: str) -> bool:
     if g in SEPARATORS:
         return True
     return bool(merkmal.is_segment(g, system=SYSTEM))
+
+
+def canonicalize_token(token: str) -> str:
+    return merkmal.normalize(SOURCE_TOKEN_ALIASES.get(token, token))
 
 
 def canonicalize(tokens: list[str]) -> tuple[list[str], bool]:
@@ -60,7 +70,7 @@ def canonicalize(tokens: list[str]) -> tuple[list[str], bool]:
         if t in SEPARATORS:
             out.append(t)
             continue
-        norm = merkmal.normalize(t)
+        norm = canonicalize_token(t)
         if norm:
             out.append(norm)
     ok = all(is_valid_grapheme(t) for t in merkmal.merge_tone_digits(out))

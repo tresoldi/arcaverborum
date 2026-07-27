@@ -4,30 +4,41 @@ The project produces a per-variety lexical database. Each variety lives
 in its own directory under `varieties/<av_id>/` with a configuration
 file, optional custom data, and a generated output.
 
+This document describes current build mechanics. The planned language
+curation workflow, including authority recipes, Arca-derived layers, and the
+intended source-priority revision, lives in
+`docs/CURATION_WORKFLOW_SPECIFICATION.md`.
+
 ## Design constraints
 
-1. **One winner per cell.** For each (variety, concept, form) cell, all
-   transcription columns come from a single source. Cognate columns
-   come from a (possibly different) single source.
-2. **Two-block model.** Forms-block and cognates-block compete
-   independently. A source is eligible for the cognates-block only when
-   it also provides forms for the variety.
-3. **Variety = av_id.** Glottocode (lowercased) is the default key.
-   Custom entries (proto-languages, sub-Glottocode dialects, unmapped
-   varieties) use "x-..." prefixed av_ids declared in
-   `src/arcaverborum/data/variety_overrides.csv`.
-4. **Pins beat the score.** `data/selection.csv` is the manual
-   whitelist. Unpinned varieties auto-select the highest-scoring source.
+1. **One accepted construction per variety.** The current build emits one
+   selected construction for each variety. In the implemented v1 mechanics,
+   transcription columns come from one selected source; cognate columns are
+   emitted from the same per-variety build path, with cross-source
+   reconciliation reserved for later.
+2. **Two scored blocks.** Forms-block and cognates-block quality are scored
+   independently. Today a source is eligible for the cognates block only
+   when it also provides forms for the variety.
+3. **Variety = av_id.** `av_id` is Arca's frozen primary key, assigned in
+   `src/arcaverborum/data/varieties.csv`. It normally has the form
+   `<family_code>-<name_slug>`, e.g. `ine-latin`; Glottocode remains a
+   mapped external column.
+4. **Pins beat the score.** `src/arcaverborum/data/selection.csv` is the
+   manual whitelist. Unpinned varieties auto-select the highest-scoring
+   source.
 5. **Custom data extends source data per-column.**
    `varieties/<av_id>/custom/transcriptions.csv` overrides specific
    columns by `source_form_id` or `Concepticon_ID`; empty cells leave
    the source value intact.
 6. **All sources compete, with a priority floor.** Every Lexibank
-   dataset, GLED, and Wiktionary is a candidate. Source priority:
-   Lexibank = 1, GLED = 2, Wiktionary = 3. Selection restricts to the
-   most-preferred priority tier that has a candidate, then ranks by
-   composite score within it — so GLED/Wiktionary win only when nothing
-   better covers the variety. Fallback picks never exceed `copper`.
+   dataset, GLED, and Wiktionary is a candidate. Current implemented
+   source priority is Lexibank = 1, GLED = 2, Wiktionary = 3. Selection
+   restricts to the most-preferred priority tier that has a candidate,
+   then ranks by composite score within it. Fallback picks never exceed
+   `copper`. This priority order is known to be a planning mismatch: the
+   intended curation policy is curated lexical sources first, Wiktionary as
+   an important fallback and research entry point, and GLED only as
+   last-resort scaffolding.
 7. **Variety dirs are config-only by default.** `register` writes just
    `config.yaml`; `custom/*.csv` templates are scaffolded on demand
    (`build.py extend`). Missing custom files mean "no extension".
@@ -96,8 +107,8 @@ the Concepticon mapping (re-resolved to our `concept_id`) and/or pin a
 
 ## Quality model
 
-`data/score_weights.yaml` defines per-block signal weights. Signals,
-all in [0, 1]:
+`src/arcaverborum/data/score_weights.yaml` defines per-block signal
+weights. Signals, all in [0, 1]:
 
 | Signal | Block | Computed as |
 |---|---|---|
@@ -129,7 +140,8 @@ their nucleus before checking.
 
 * Source segments are canonicalized to clean BIPA via `merkmal.normalize`
   (CLTS slash `a/b → b`, ligatures `ʤ → dʒ`, ASCII `:` → `ː`, stress
-  stripped) and kept when all tokens are recognized.
+  stripped), plus Arca source aliases such as `mb → ᵐb` and `nd → ⁿd`,
+  and kept when all tokens are recognized.
 * Otherwise, resegmentation via merkmal's IPA tokenizer (`segment_ipa`).
 * `Segments_Source` records `source`, `resegmented`, or `unclean`.
 
@@ -167,7 +179,7 @@ bibtex_key, quality_score, tier
 ```bash
 build.py fetch [--source SOURCE]
 build.py register <av_id>
-build.py update [<av_id> ...] [--all] [--family X] [--macroarea Y] [--changed]
+build.py update [<av_id> ...] [--all] [--family X] [--macroarea Y] [--force]
 build.py aggregate
 build.py report
 build.py status
@@ -186,12 +198,12 @@ Per-variety columns include `tier`, `n_forms`, `n_concepts`,
 Rows are sorted by descending priority, defined as
 
 ```
-priority_score = form_density(n_forms) · (1 − forms_score)
+priority_score = form_density(n_forms) · ((n_unclean − n_tone_blocked) / n_forms)
 ```
 
-so a variety with substantial data and a weak forms-block ranks highest;
-tiny or already-good varieties sink. Code lives in `curation.py`; run
-`aggregate` first.
+so a variety with substantial data and many hand-fixable unclean forms ranks
+highest; tiny, clean, profiled, or only residual tone-malformed varieties
+sink. Code lives in `curation.py`; run `aggregate` first.
 
 **Tone is handled.** merkmal (≥0.6.0) attaches tone marks
 (digits/superscripts/Chao letters) to their syllabic nucleus

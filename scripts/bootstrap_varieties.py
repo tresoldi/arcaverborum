@@ -8,8 +8,9 @@ Pipeline:
   4. Run auto-selection — pin nobody, just rank.
   5. For each selected variety, call variety.register(...) with its auto-pick.
 
-The result is 1,000–2,000 varieties/ subdirs, each with config.yaml and
-empty custom/* CSVs, ready for hand-curation.
+The result is one config-only `varieties/<av_id>/` directory for each
+selected variety. Custom files are scaffolded later with `build.py extend`
+when a variety is actually curated.
 """
 
 from __future__ import annotations

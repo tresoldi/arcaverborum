@@ -1,13 +1,16 @@
 # Arca Verborum
 
 Per-variety lexical database for computational historical linguistics.
-For each language variety, one source is selected for transcription
-and one for cognate judgments, with full provenance, per-form quality
-scoring, and hand-curatable extensions.
+For each language variety, Arca builds one accepted construction from the
+best available lexical evidence, with full provenance, per-form quality
+scoring, and hand-curatable extensions. A construction may start from a
+single source, combine source data with Arca-authored corrections, or
+eventually use computed/curated cognates when that gives the best
+historical-linguistic dataset.
 
 > Per-variety redesign of the project. The earlier merged-tier layout
 > (Full / Curated / Expert-Cognates) is fully replaced. New here? Start
-> with `ONBOARDING.md`.
+> with `ONBOARDING.md`; for the documentation map see `docs/README.md`.
 
 ## Layout
 
@@ -76,8 +79,9 @@ human-readable key, mapping to Concepticon as a column.
   never enter the data. The `concepticon_id` is kept as a column.
 * IDs are **assigned once and frozen** in
   `src/arcaverborum/data/concepts.csv`; field codes live in the curatable
-  `data/semantic_field_codes.csv`. Drift against Concepticon is surfaced
-  by `python build.py concepts` (never silently re-keyed). See
+  `src/arcaverborum/data/semantic_field_codes.csv`. Drift against
+  Concepticon is surfaced by `python build.py concepts` (never silently
+  re-keyed). See
   `arcaverborum.concepts` and `docs/CONCEPTS_SPECIFICATION.md`.
 
 ## CLI
@@ -124,8 +128,8 @@ the gitignored `generated/`, so a fresh checkout rebuilds from scratch.
 ### Source universe and priority
 
 Selection considers every source — all Lexibank datasets, GLED, and
-Wiktionary. A priority floor keeps the noisier sources as pure
-fallback:
+Wiktionary. The current implementation uses a priority floor so noisier
+sources remain fallback candidates:
 
 | Priority | Sources | When they win |
 |---|---|---|
@@ -134,6 +138,12 @@ fallback:
 | 3 | Wiktionary | Only when neither Lexibank nor GLED covers it |
 
 Fallback picks (priority 2–3) never rank above the `copper` tier.
+
+The intended curation policy is evolving: curated lexical datasets should
+come first, Wiktionary should be treated as an important fallback and
+research entry point, and GLED should be reserved for last-resort
+scaffolding. See `docs/CURATION_WORKFLOW_SPECIFICATION.md`; build behavior
+has not yet been changed to enforce that policy.
 
 ### Variety dirs are config-only by default
 
@@ -236,9 +246,11 @@ generative (features derived compositionally from base + diacritics).
 Each token is passed through `merkmal.normalize`, which resolves CLTS
 source/BIPA slash notation (`a/b` → `b`), expands deprecated affricate
 ligatures (`ʤ` → `dʒ`), maps ASCII colon to the IPA length mark, and strips
-suprasegmental stress; tone digits are attached to their nucleus before the
-validity check (and kept as separate tokens in the output). Source segments
-that still fail are kept verbatim and flagged `unclean` — real IPA is never
+suprasegmental stress; Arca also maps source shorthand such as `mb` and
+`nd` to the explicit prenasalized modifier forms `ᵐb` and `ⁿd`. Tone
+digits are attached to their nucleus before the validity check (and kept as
+separate tokens in the output). Source segments that still fail are kept
+verbatim and flagged `unclean` — real IPA is never
 discarded in favour of re-segmenting the (often orthographic) form, so a
 later normalization pass can reclaim those tokens in place. Only when source
 segments are absent is the form re-segmented via merkmal's IPA tokenizer
@@ -248,9 +260,13 @@ segments are absent is the form re-segmented via merkmal's IPA tokenizer
 
 ## Documentation
 
-* `docs/BESTOF_SPECIFICATION.md` — design rationale, quality model,
-  selection logic, cross-source cognate policy.
-* `AGENT_NOTES.md` — current build state, known issues, conventions.
+* `docs/README.md` — documentation map.
+* `docs/BESTOF_SPECIFICATION.md` — current build mechanics, quality model,
+  selection logic, and aggregate schema.
+* `docs/CONCEPTS_SPECIFICATION.md` — frozen concept catalog and
+  Concepticon mapping.
+* `docs/CURATION_WORKFLOW_SPECIFICATION.md` — planned language curation
+  workflow, authority recipes, derived layers, and pilot scope.
 
 ## License
 

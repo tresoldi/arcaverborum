@@ -71,6 +71,15 @@ def test_legacy_ligatures_and_ascii_colon_and_stress_canonicalized():
     assert normalize_segments("ˈɛ", "") == ("ɛ", "source")
 
 
+def test_source_prenasalized_stop_shorthand_canonicalized():
+    # merkmal intentionally rejects bare mb/nd as segments; Arca maps source
+    # shorthand to the explicit pre-nasalized modifier forms before validating.
+    assert segments_are_valid("mb a")
+    assert segments_are_valid("nd a")
+    assert normalize_segments("mb a", "") == ("ᵐb a", "source")
+    assert normalize_segments("nd a", "") == ("ⁿd a", "source")
+
+
 def test_absent_and_unresegmentable_is_empty_unclean():
     segs, src = normalize_segments("", "")
     assert src == "unclean"

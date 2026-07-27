@@ -23,6 +23,8 @@ import merkmal
 import pandas as pd
 import yaml
 
+from arcaverborum.phonology import canonicalize_token
+
 logger = logging.getLogger(__name__)
 
 WEIGHTS_PATH = Path(__file__).parent / "data" / "score_weights.yaml"
@@ -88,7 +90,7 @@ def _clts_fraction(segments: pd.Series, validator) -> float:
         for t in s.split():
             if not t or t in ("+", "_"):
                 continue
-            norm = merkmal.normalize(t)
+            norm = canonicalize_token(t)
             if norm:
                 tokens.append(norm)
         tokens = [t for t in merkmal.merge_tone_digits(tokens) if t not in ("+", "_")]

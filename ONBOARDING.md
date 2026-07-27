@@ -1,250 +1,176 @@
-# Arca Verborum — Onboarding (fresh local checkout)
+# Arca Verborum Onboarding
 
-This repo was migrated to local disk (`~/repos/arcaverborum`) from a
-slow NAS mount. The code is complete and tested; the per-variety data
-needs to be generated here (it's fast on local disk — minutes, where the
-NAS took hours).
+This guide is for a local checkout that already has the tracked repo state.
+Generated products under `varieties/*/generated/`, `intake/`, `raw/`, and
+`output/` are intentionally not part of the committed source of truth.
 
-Read this top to bottom before touching anything. The companion design
-doc is `docs/BESTOF_SPECIFICATION.md` — read it second.
+Read this first, then use `docs/README.md` to choose the relevant design
+specification.
 
----
+## 1. Project Shape
 
-## 1. What this project is
+Arca Verborum is a per-variety lexical database for computational
+historical linguistics. Each variety has a stable `av_id`, selected source
+configuration, optional curated extensions, and generated per-variety forms.
+The aggregate product is built from those per-variety outputs.
 
-Arca Verborum is a **per-variety lexical database** for computational
-historical linguistics. For each language variety it selects the best
-available source for transcription and (separately) for cognate
-judgments, with provenance, a per-form quality score, and hand-curatable
-extensions.
+The current goal is not just to pick a source mechanically. Arca builds one
+accepted authoritative construction per language. That construction may use
+a source as-is, use a source plus explicit corrections, or eventually use
+Arca-derived layers and computed/curated cognates when they are reviewed.
 
-### Data flow
-
-```
-fetch     → raw/<source>/...                 (downloaded; gitignored)
-ingest    → intake/<source>/...              (pre-processed CSVs; gitignored)
-bootstrap → varieties/<av_id>/config.yaml    (auto source pick per variety)
-update    → varieties/<av_id>/generated/forms.csv  (gitignored)
-aggregate → output/aggregate/...             (unified product; gitignored)
-```
-
-### The unit: a "variety"
-
-- Keyed by `av_id` — the lowercased Glottocode by default. Custom
-  entries (proto-languages, sub-Glottocode dialects, unmapped) use
-  `x-...` av_ids declared in `src/arcaverborum/data/variety_overrides.csv`.
-- Each `varieties/<av_id>/` holds `config.yaml` (source picks + scoring +
-  notes) and, on demand, `custom/*.csv` extension files.
-
-### Source universe + priority floor (key design)
-
-Every source competes: all Lexibank datasets, GLED, and Wiktionary.
-A priority floor keeps the noisier sources as pure fallback:
-
-| Priority | Source | Wins when |
-|---|---|---|
-| 1 | any Lexibank dataset | always preferred; best composite score wins |
-| 2 | GLED | no Lexibank source covers the variety |
-| 3 | Wiktionary | neither Lexibank nor GLED covers it |
-
-Fallback picks (priority 2–3) never exceed the `copper` tier.
-
-Measured under the expanded universe: **7,301 varieties** selected
-(5,106 Lexibank · 1,596 GLED · 599 Wiktionary). Kusunda (`kusu1250`)
-resolves to the `aaleykusunda` source.
-
----
-
-## 2. Repository layout
+## 2. Data Flow
 
 ```
-build.py                     CLI: fetch/ingest/register/extend/update/aggregate/status
-scripts/bootstrap_varieties.py   one-shot: auto-register every selected variety
-src/arcaverborum/
-  catalog.py                 av_id catalog + enrich_glottocodes()
-  ingest.py                  raw/lexibank → intake/lexibank
-  score.py                   composite per-block quality signals (weights in data/score_weights.yaml)
-  selection.py               source priority floor + auto-pick + pins
-  phonology.py               merkmal-backed CLTS validation + re-segmentation (descriptive system)
-  variety.py                 register / build_one / custom-data merge / scaffold_custom_files
-  aggregate.py               union per-variety output into output/aggregate/
-  report.py                  selection report JSON
-  glottolog.py concepticon.py   loaders (cache to raw/ if present, else download)
-  sources/{lexibank,gled,wiktionary,glottolog,concepticon}.py   fetchers + wiktionary pipeline
-  data/                      score_weights.yaml, selection.csv (pins), *_overrides.csv
-tests/                       pytest suite (77 passing)
-docs/BESTOF_SPECIFICATION.md design spec
+fetch     -> raw/<source>/...                         downloaded; gitignored
+ingest    -> intake/<source>/{forms,languages,...}    normalized intake; gitignored
+bootstrap -> varieties/<av_id>/config.yaml            tracked source choices
+update    -> varieties/<av_id>/generated/forms.csv    generated; gitignored
+aggregate -> output/aggregate/...                     generated; gitignored
+report    -> output/report/curation.*                 generated; gitignored
+explore   -> output/explore.sqlite                    generated; gitignored
 ```
 
----
+Tracked source of truth:
 
-## 3. What's already here vs. what to generate
+* code under `src/arcaverborum/`;
+* stable registries under `src/arcaverborum/data/`;
+* `varieties/<av_id>/config.yaml`;
+* hand-authored `varieties/<av_id>/custom/*` files when present;
+* documentation and tests.
 
-**Present (copied from the previous machine):**
-- All code, tests, docs, config.
-- `raw/wiktionary/raw.jsonl.gz` (2.4 GB kaikki dump).
-- `intake/lexibank/` and `intake/wiktionary/` — the **pre-processed,
-  validated** per-source CSVs. Lexibank intake was verified byte-for-byte
-  against the previous merge (3,837,470 forms, 166 datasets); Wiktionary
-  intake is 2,861,008 forms, 90.5% Glottocode-filled.
+## 3. Environment
 
-**Absent (regenerate only if needed):**
-- `raw/lexibank/` — the 170 cloned CLDF repos. Only needed to *re-ingest*
-  lexibank. The intake is already present, so you do **not** need this to
-  build. To refresh later: `python build.py fetch --source lexibank`.
-- `raw/glottolog/`, `raw/concepticon/` — caches. Downloaded automatically
-  on first use; pre-populate with `python build.py fetch --source glottolog`
-  / `--source concepticon` to avoid network during the build.
-- `varieties/`, `output/` — generated below.
-
----
-
-## 4. Environment setup
-
-Python 3.11+ (developed on 3.14). merkmal (≥0.6.0) lives next to this
-repo at `../merkmal` — install the Python package from its `python/`
-subdir.
+Python 3.11+ is expected. The phonology library `merkmal` is developed next
+to this repo at `../merkmal`; install its Python package from there.
 
 ```bash
-cd ~/repos/arcaverborum
-python -m venv .venv && source .venv/bin/activate
-pip install -e .                                   # pandas, pyyaml, requests
-pip install -e ../merkmal/python                   # phonology library (separate repo)
-python -c "import merkmal; print(merkmal.list_systems())"   # sanity check
-pip install pytest ruff mypy          # dev tools (optional)
-pytest tests/ -q                      # expect 155 passing
-```
-
-Dependencies are intentionally lean — **no CLDF ecosystem**
-(no pylexibank/pycldf/cldfbench). Keep it that way.
-
----
-
-## 5. First task: generate the per-variety data
-
-The intake is present, so skip fetch/ingest and go straight to bootstrap.
-On local disk this is minutes, not hours.
-
-```bash
+cd /home/tiagot/repos/arcaverborum
+python -m venv .venv
 source .venv/bin/activate
-
-# 1. Bootstrap every selected variety (config-only; ~7,301 dirs)
-python scripts/bootstrap_varieties.py            # CLTS on; --no-clts-check to skip
-
-# 2. Build per-variety output
-python build.py update --all                      # writes generated/forms.csv per variety
-
-# 3. Aggregate into one product
-python build.py aggregate                         # → output/aggregate/{forms,varieties,parameters,metadata,sources.bib}
-
-# 4. Sanity checks
-python build.py status
-python - <<'PY'
-import pandas as pd
-v = pd.read_csv("output/aggregate/varieties.csv")
-print("varieties:", len(v))
-print("kusu1250 present:", (v.av_id == "kusu1250").any())
-PY
-
-# 5. Commit the bootstrap (config-only configs; generated/ is gitignored)
-git add -A varieties && git commit -m "Bootstrap 7,301 config-only varieties (expanded universe)"
+pip install -e .
+pip install -e ../merkmal/python
+pip install pytest
+python -c "import merkmal; print(merkmal.list_systems())"
+pytest -q
 ```
 
-Expect ~7,301 varieties. Verify Kusunda (`kusu1250`) resolves to
-`aaleykusunda`.
+The project intentionally avoids the CLDF ecosystem as runtime machinery.
+Do not add `pycldf`, `pylexibank`, or `cldfbench` unless there is a
+specific reviewed reason.
 
-### Curating a variety later
+## 4. Common Commands
+
+Build or refresh all generated data from available intake:
 
 ```bash
-python build.py extend lati1261     # scaffolds varieties/lati1261/custom/*.csv templates
-# edit custom/transcriptions.csv (override Segments by source_form_id),
-#      custom/forms.csv (additive rows), custom/cognates.csv, custom/concept_map.csv
-python build.py update lati1261      # rebuild — extensions auto-detected
+python build.py update --all
+python build.py aggregate
+python build.py report
+python explore.py index
 ```
 
-Override semantics: matched per `source_form_id` (or `Concepticon_ID`);
-non-empty cells override the source, empty cells leave it intact. See
-`docs/BESTOF_SPECIFICATION.md` for the custom CSV schemas.
+Build a single variety after editing its config or custom files:
 
----
+```bash
+python build.py update ine-latin
+python build.py aggregate
+python build.py report
+```
 
-## 6. Open work (priority order)
+Scaffold curation files for a variety:
 
-1. **Run the first-task build above** and commit it. — *DONE* (7,301
-   varieties built + aggregated; 2,043,862 forms; commit `ff0cecb`).
-2. **Cross-source cognates**: when `cognate_source != transcription_source`
-   the build still emits cognates from the transcription source. The
-   `canonical_cognate_id` column is reserved for a future pass that
-   unifies cognate set IDs across sources via form-string + concept
-   overlap. Highest-effort item. (1,318 varieties currently have a
-   cross-source pick.)
-3. **Quality/curation report** — *DONE*. `build.py report` reads
-   `output/aggregate/` and writes `output/report/curation.csv`
-   (one row per variety, sorted by curation priority) +
-   `curation_summary.json`. Priority =
-   `form_density(n_forms) · (1 − forms_score)` — data-rich, weak varieties
-   rank first; tiny or already-good ones sink. Columns surface tier,
-   `pct_unclean`, `concept_coverage`, `pct_tone_blocked`, etc. Code in
-   `curation.py`. Run `aggregate` first.
-4. **Tone-aware phonology** — *handled by merkmal (≥0.6.0)*. merkmal
-   attaches tone marks (digits/superscripts/Chao letters) to their
-   syllabic nucleus via `merge_tone_digits` and validates the result, so
-   tone-bearing forms now count as clean. The previously-deferred cohort
-   (~197k forms, concentrated in Sino-Tibetan / Tai-Kadai / Hmong-Mien /
-   Austroasiatic / Otomanguean) re-cleans on rebuild with no
-   re-transcription. **Do not** add a preprocessing/strip pass here —
-   `phonology.segments_are_valid`/`resegment` already merge tone digits.
-   The curation report's `pct_tone_blocked` column now tracks only the
-   residual (forms that are tonal *and* otherwise malformed).
-5. **GLED/Wiktionary metadata in aggregate**: aggregate pulls
-   metadata.csv + sources.bib from lexibank only. Minor gap.
+```bash
+python build.py extend ine-latin
+```
 
----
+Inspect the aggregate:
 
-## 7. Conventions
+```bash
+python explore.py stats
+python explore.py langs --family Indo-European
+python explore.py lang ine-latin
+python explore.py concept phy-water
+python explore.py sql "SELECT tier, COUNT(*) FROM varieties GROUP BY tier"
+```
 
-- KISS/DRY/YAGNI. No abstractions beyond need.
-- No comments by default — only when the WHY is non-obvious.
-- No legacy terminology ("Full"/"Curated"/"Expert-Cognates"/"best-of").
-  Use varieties / intake / aggregate / fallback.
-- Generated outputs are gitignored; commit config + custom data only.
-- Challenge proposals that reintroduce traditional historical-linguistics
-  concepts under formal dress.
-- Sound change is directionally asymmetric — priors/inference should
-  encode known asymmetries even though correspondences are stored
-  bidirectionally.
+Audit concept drift against Concepticon:
 
----
+```bash
+python build.py concepts
+python build.py concepts --mint
+```
+
+## 5. Current Baseline
+
+The latest local aggregate reviewed while reorganizing the docs contained:
+
+* 7,308 varieties;
+* 2,007,699 forms;
+* 1,701,250 source-clean forms;
+* 5,682 profile-clean forms;
+* 195,357 resegmented forms;
+* 105,410 unclean forms;
+* 160 pinned selections;
+* 1,271 varieties whose selected cognate candidate differs from the
+  selected transcription source;
+* 236,246 forms without `concept_id`;
+* 369 varieties with zero mapped concepts.
+
+These numbers will change after rebuilds. Treat them as a recent snapshot,
+not a contract.
+
+## 6. Source Policy
+
+The current implementation still uses a priority floor in
+`src/arcaverborum/selection.py`: Lexibank first, then GLED, then
+Wiktionary. Fallback picks never exceed `copper`.
+
+The intended curation policy is different and is documented in
+`docs/CURATION_WORKFLOW_SPECIFICATION.md`: curated lexical sources first,
+Wiktionary as an important fallback and research entry point, and GLED only
+as last-resort scaffolding. Do not change source-priority behavior casually;
+the policy, docs, and rebuild consequences need to move together.
+
+## 7. Curation Rules
+
+Per-language work should become a structured curation packet, not ad hoc
+edits. A packet should document the current construction, candidate sources,
+concept mapping, transcription quality, cognates, provenance, tradeoffs, and
+recommended authority recipe.
+
+Small fixes can live in `varieties/<av_id>/custom/*`:
+
+* `transcriptions.csv` overrides source transcription columns;
+* `forms.csv` adds new forms;
+* `cognates.csv` overrides cognate fields by form id;
+* `concept_map.csv` fixes source parameter-to-concept mapping;
+* `profile.tsv` maps orthographic graphemes to IPA.
+
+Heavy correction or newly authored data should graduate into a named
+Arca-derived layer once the data's scholarly identity is effectively Arca's
+construction rather than the upstream source alone.
 
 ## 8. Gotchas
 
-- **Phonology uses the merkmal `descriptive` system** — the merkmal-native
-  categorical engine that the downstream cognate toolchain (cognator,
-  proteus) also defaults to. Validity is generative (base + diacritics
-  derived compositionally), so well-formed IPA validates whether or not the
-  exact string is attested; `tʃ`, `ʊˑ`, clicks, apical vowels and
-  tone-bearing nuclei all pass. Source segments are **canonicalized** via
-  `merkmal.normalize` (`phonology.canonicalize`): CLTS slash notation
-  `a/b → b`, ligatures `ʤ → dʒ`, ASCII `:` → `ː`, stress stripped. See
-  `phonology.SYSTEM`.
-- **Wiktionary intake has no Glottocodes from the kaikki pipeline** —
-  filled by `catalog.enrich_glottocodes()` (vectorised; ISO 639-3 or
-  `wikt_<iso>` suffix → Glottolog) during ingest. Don't iterrows over
-  2.86M forms.
-- **`build_one` accepts a pre-loaded DataFrame** so `update --all` loads
-  the (large) intake once and filters per variety — don't reintroduce a
-  per-variety full read.
-- **Two intake sources**: signal computation, catalog building, per-variety
-  builds, and aggregation all read across `intake/lexibank` +
-  `intake/wiktionary`.
+* `av_id` is the primary key. It is a frozen Arca identifier of the form
+  `<family_code>-<name_slug>`, not a Glottocode.
+* `concept_id` is also an Arca-controlled frozen key. Concepticon remains a
+  mapped external column.
+* `build.py status` checks config/custom/recipe freshness, but intake
+  changes are detected by `build.py update`.
+* `build_one` accepts pre-loaded intake DataFrames so `update --all` does
+  not re-read huge CSVs per variety.
+* Phonology uses merkmal's `descriptive` system. Source segments are
+  normalized, tone digits are merged onto their nucleus before validation,
+  and invalid source segments are preserved as `unclean`.
+* Generated outputs are gitignored. Commit configs, custom curation files,
+  data registries, docs, tests, and code.
 
----
+## 9. Documentation Map
 
-## 9. Provenance
+Use `docs/README.md` as the index. The main specs are:
 
-Migrated from `…/nas-dev/new_chl/arcaverborum` (branch `bestof-rewrite`,
-which had 7 commits restructuring the project from the old merged-tier
-design). Git history was intentionally not carried over — this is a fresh
-repo. The previous design (merged Full/Curated/Expert-Cognates Lexibank
-tiers, a browse site, and a Zenodo flow) was fully replaced by the
-per-variety system described here.
+* `docs/BESTOF_SPECIFICATION.md` for current build mechanics;
+* `docs/CONCEPTS_SPECIFICATION.md` for concept IDs and Concepticon mapping;
+* `docs/CURATION_WORKFLOW_SPECIFICATION.md` for the next curation workflow.
