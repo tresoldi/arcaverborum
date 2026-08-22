@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arca Verborum Core — lexical database explorer</title>
+<meta name="description" content="Browse the Arca Verborum Core dataset: basic vocabulary across 13 language families, in the browser.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="titlerow">
+      <h1>Arca Verborum <span style="color:var(--accent)">Core</span></h1>
+      <span class="ver" id="ver"></span>
+      <span class="spacer"></span>
+      <a href="https://github.com/tresoldi/arcaverborum">Source</a>
+    </div>
+    <p class="tagline">A basic-vocabulary lexical database for computational historical linguistics — one curated source per family, in the browser.</p>
+    <p class="counts" id="counts"></p>
+  </header>
+
+  <nav id="nav">
+    <button data-view="varieties" class="active">Varieties</button>
+    <button data-view="concepts">Concepts</button>
+    <button data-view="search">Search forms</button>
+    <button data-view="stats">Statistics</button>
+    <button data-view="sql">SQL</button>
+  </nav>
+
+  <div id="status">Loading dataset… <span id="status-detail"></span><div class="bar"><i></i></div></div>
+
+  <main id="app" hidden></main>
+
+  <footer>
+    Data licensed per source (see the dataset's <code>License</code> column; mostly CC-BY-4.0,
+    one CC-BY-NC-4.0). Code MIT. Built with <a href="https://github.com/sql-js/sql.js">sql.js</a>.
+    Part of the <a href="https://github.com/tresoldi">Arca Verborum</a> toolchain.
+  </footer>
+</div>
+
+<script src="vendor/sql-wasm.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
