@@ -69,6 +69,29 @@ is reviewed. Code: MIT.
   repo version (intake `metadata.csv` `Repository_Version`), build date, and
   per-table row counts.
 
+## Publishing to Zenodo
+
+Decisions (2026-08-22): deposit as a **single record** with **per-source
+licensing** (the `License` column + datasheet are authoritative; the Zenodo
+record-level license is set to `other-open` since the aggregate mixes CC-BY-4.0
+with one CC-BY-NC-4.0 source — verify/adjust in the Zenodo form), published as a
+**new version of the existing concept DOI `10.5281/zenodo.17294927`** to keep
+Arca Verborum citation continuity.
+
+`scripts/zenodo_deposit.py` prepares and (optionally) performs the deposit. It
+is safe by default:
+
+- `--dry-run` (or no token): writes `output/release/zenodo-deposit-<v>.json`
+  and prints manual-upload steps; **no network**.
+- with `ZENODO_TOKEN` (or `ZENODO_SANDBOX_TOKEN` + `--sandbox`): creates a
+  new-version **DRAFT** and uploads `arca-verborum-core-<v>.zip`, but **does not
+  publish** unless `--publish` is passed. Recommended: run `--sandbox` first.
+
+The deposit artifacts (`.zip`, deposit JSON) live under the gitignored
+`output/release/`. After publishing, update `CITATION.cff` with the new
+version-specific DOI. Public deposit remains gated on a final human review of
+the draft.
+
 ## Out of scope for v0.1.0 (later milestones)
 
 - Public Zenodo deposit (after license review).
