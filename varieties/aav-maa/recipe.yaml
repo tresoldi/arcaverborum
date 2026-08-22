@@ -1,0 +1,46 @@
+# Authority recipe for aav-maa — see docs/CURATION_MACHINERY.md
+# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
+# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
+av_id: aav-maa
+name: Maa
+review:
+  status: draft
+  reviewer: ""
+  date: ""
+quality:                     # advisory mirror of config.scoring
+  tier: bronze
+  forms_score: 0.8582
+  cognates_score: 0.7
+  pinned: false
+construction:
+  summary: >
+    Maa basic vocabulary from peirosaustroasiatic. Scaffolded from the current build; review and refine.
+  lexical_base:
+    source: peirosaustroasiatic            # ENFORCED -> config.sources.transcription
+    rationale: ""             # advisory: why this source over the alternatives
+  transcription:
+    strategy: source
+    profile: none    # ENFORCED (extensions.profile)
+    overrides: none     # ENFORCED (extensions.transcriptions)
+    notes: 400/400 forms clean (source 400, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 91/161
+    notes: 400/400 forms mapped; 100 distinct concepts.
+  cognates:
+    source: peirosaustroasiatic            # ENFORCED -> config.sources.cognates
+    method: expert          # expert|computed|manual|hybrid|source|none
+    computed: none            # method metadata block when computed
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 100%
+    notes: ""
+candidates:                  # advisory: other sources considered + verdict
+  []
+provenance:
+  bibliography: [peirosaustroasiatic]      # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: ""
+  known_losses: ""
+notes: ""                     # advisory free-form

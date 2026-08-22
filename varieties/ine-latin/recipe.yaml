@@ -1,0 +1,62 @@
+# Authority recipe for ine-latin — see docs/CURATION_MACHINERY.md
+# Reviewed gold exemplar: shows a completed authority recipe. Other CORE
+# varieties start as `build.py packet` scaffolds (review.status: draft).
+av_id: ine-latin
+name: Latin
+review:
+  status: reviewed
+  reviewer: Tiago Tresoldi
+  date: "2026-08-22"
+quality:                     # advisory mirror of config.scoring
+  tier: silver
+  forms_score: 0.9115
+  cognates_score: 0.7
+  pinned: true
+construction:
+  summary: >
+    Latin basic vocabulary taken from IECOR as-is: expert IPA transcriptions and
+    expert cognacy, with no Arca corrections applied. IECOR is the curated
+    canonical Indo-European source, so Latin sits on the same base as the rest of
+    the family (same-family-same-dataset).
+  lexical_base:
+    source: iecor            # ENFORCED -> config.sources.transcription
+    rationale: >
+      Curated, expert-transcribed, expert-cognated IE wordlist; chosen over
+      Wiktionary (fallback only) for consistency across Indo-European.
+  transcription:
+    strategy: source
+    profile: none            # ENFORCED (extensions.profile)
+    overrides: none          # ENFORCED (extensions.transcriptions)
+    notes: 172/172 forms source-clean under merkmal descriptive; no cleanup needed.
+  concepts:
+    mapping: source          # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 128/161
+    notes: >
+      100% of forms mapped; 170 distinct concepts. 33 of the 161 basic-vocab
+      core concepts are absent from IECOR's Latin list (coverage gap, not a
+      mapping failure).
+  cognates:
+    source: iecor            # ENFORCED -> config.sources.cognates
+    method: expert           # expert|computed|manual|hybrid|source|none
+    computed: none           # method metadata block when computed
+    notes: 100% expert Cognacy from IECOR.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: IECOR does not flag loans for Latin in this slice.
+candidates:                  # advisory: other sources considered + verdict
+  - source: wiktionary
+    coverage: partial
+    verdict: not used
+    reason: >
+      Fallback/research entry point only; mixing it would break IE consistency.
+provenance:
+  bibliography: [iecor]       # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: Expert IPA + expert cognates; construction consistent with all other IE varieties.
+  known_losses: >
+    33/161 basic-vocab core concepts absent from IECOR's Latin list; could be
+    filled from a Latin-specific source in a future Arca-derived layer.
+notes: >
+  Reference exemplar for the curation machinery. Latin is at the quality ceiling
+  for its source; the only open item is the 33-concept core coverage gap.

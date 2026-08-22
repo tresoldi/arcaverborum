@@ -1,0 +1,46 @@
+# Authority recipe for tim-abui — see docs/CURATION_MACHINERY.md
+# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
+# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
+av_id: tim-abui
+name: Abui
+review:
+  status: draft
+  reviewer: ""
+  date: ""
+quality:                     # advisory mirror of config.scoring
+  tier: bronze
+  forms_score: 0.9304
+  cognates_score: 0.5217
+  pinned: false
+construction:
+  summary: >
+    Abui basic vocabulary from robinsonap. Scaffolded from the current build; review and refine.
+  lexical_base:
+    source: robinsonap            # ENFORCED -> config.sources.transcription
+    rationale: ""             # advisory: why this source over the alternatives
+  transcription:
+    strategy: source
+    profile: none    # ENFORCED (extensions.profile)
+    overrides: none     # ENFORCED (extensions.transcriptions)
+    notes: 428/428 forms clean (source 428, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 144/161
+    notes: 423/428 forms mapped; 386 distinct concepts.
+  cognates:
+    source: robinsonap            # ENFORCED -> config.sources.cognates
+    method: expert          # expert|computed|manual|hybrid|source|none
+    computed: none            # method metadata block when computed
+    notes: 75% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ""
+candidates:                  # advisory: other sources considered + verdict
+  []
+provenance:
+  bibliography: [robinsonap]      # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: ""
+  known_losses: ""
+notes: ""                     # advisory free-form

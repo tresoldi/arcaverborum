@@ -1,0 +1,46 @@
+# Authority recipe for sit-amdo-tibetan — see docs/CURATION_MACHINERY.md
+# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
+# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
+av_id: sit-amdo-tibetan
+name: Amdo Tibetan
+review:
+  status: draft
+  reviewer: ""
+  date: ""
+quality:                     # advisory mirror of config.scoring
+  tier: bronze
+  forms_score: 0.956
+  cognates_score: 0.7
+  pinned: false
+construction:
+  summary: >
+    Amdo Tibetan basic vocabulary from sagartst. Scaffolded from the current build; review and refine.
+  lexical_base:
+    source: sagartst            # ENFORCED -> config.sources.transcription
+    rationale: ""             # advisory: why this source over the alternatives
+  transcription:
+    strategy: source
+    profile: none    # ENFORCED (extensions.profile)
+    overrides: none     # ENFORCED (extensions.transcriptions)
+    notes: 505/505 forms clean (source 505, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 138/161
+    notes: 505/505 forms mapped; 249 distinct concepts.
+  cognates:
+    source: sagartst            # ENFORCED -> config.sources.cognates
+    method: expert          # expert|computed|manual|hybrid|source|none
+    computed: none            # method metadata block when computed
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 100%
+    notes: ""
+candidates:                  # advisory: other sources considered + verdict
+  []
+provenance:
+  bibliography: [sagartst]      # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: ""
+  known_losses: ""
+notes: ""                     # advisory free-form

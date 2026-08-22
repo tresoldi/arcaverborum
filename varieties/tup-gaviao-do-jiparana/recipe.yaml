@@ -1,0 +1,46 @@
+# Authority recipe for tup-gaviao-do-jiparana — see docs/CURATION_MACHINERY.md
+# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
+# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
+av_id: tup-gaviao-do-jiparana
+name: Gavião Do Jiparaná
+review:
+  status: draft
+  reviewer: ""
+  date: ""
+quality:                     # advisory mirror of config.scoring
+  tier: bronze
+  forms_score: 0.8396
+  cognates_score: 1.0
+  pinned: false
+construction:
+  summary: >
+    Gavião Do Jiparaná basic vocabulary from tuled. Scaffolded from the current build; review and refine.
+  lexical_base:
+    source: tuled            # ENFORCED -> config.sources.transcription
+    rationale: ""             # advisory: why this source over the alternatives
+  transcription:
+    strategy: source
+    profile: none    # ENFORCED (extensions.profile)
+    overrides: none     # ENFORCED (extensions.transcriptions)
+    notes: 681/692 forms clean (source 681, profile 0, resegmented 0, unclean 11).
+  concepts:
+    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 140/161
+    notes: 670/692 forms mapped; 401 distinct concepts.
+  cognates:
+    source: tuled            # ENFORCED -> config.sources.cognates
+    method: expert          # expert|computed|manual|hybrid|source|none
+    computed: none            # method metadata block when computed
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ""
+candidates:                  # advisory: other sources considered + verdict
+  []
+provenance:
+  bibliography: [tuled]      # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: ""
+  known_losses: ""
+notes: ""                     # advisory free-form

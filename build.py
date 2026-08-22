@@ -266,6 +266,33 @@ def cmd_update(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_packet(args: argparse.Namespace) -> int:
+    from arcaverborum import packet
+
+    av_ids = _resolve_av_ids(args)
+    if not av_ids:
+        logger.error("No varieties selected. Give av_ids or --all/--family/--macroarea.")
+        return 1
+    core = packet.load_core_concepts()
+    experts = packet.load_expert_datasets()
+    counts = {"written": 0, "exists": 0, "not-built": 0, "no-config": 0}
+    for av_id in av_ids:
+        res = packet.scaffold_packet(av_id, VARIETIES_DIR / av_id, core, experts,
+                                     overwrite=args.force)
+        counts[res["status"]] = counts.get(res["status"], 0) + 1
+        if res["status"] == "written":
+            d = res["diag"]
+            logger.info("packet %s: %d forms, core %d/%d, %d unclean",
+                        av_id, d["n_forms"], d["core_hit"], d["core_total"],
+                        d["seg"].get("unclean", 0))
+        elif res["status"] == "exists":
+            logger.info("packet %s: exists (use --force to overwrite)", av_id)
+        elif res["status"] == "not-built":
+            logger.warning("packet %s: not built — run `build.py update %s` first", av_id, av_id)
+    logger.info("Packets: %s", {k: v for k, v in counts.items() if v})
+    return 0
+
+
 def cmd_aggregate(args: argparse.Namespace) -> int:
     from arcaverborum.aggregate import aggregate_all
 
@@ -457,6 +484,16 @@ def main(argv: list[str] | None = None) -> int:
     p_up.add_argument("--force", action="store_true",
                       help="Rebuild even when the fingerprint is unchanged")
     p_up.set_defaults(fn=cmd_update)
+
+    p_pkt = sub.add_parser("packet",
+                           help="Scaffold recipe.yaml + PACKET.md (authority recipe/curation packet)")
+    p_pkt.add_argument("av_ids", nargs="*")
+    p_pkt.add_argument("--all", dest="all_varieties", action="store_true")
+    p_pkt.add_argument("--family", default=None)
+    p_pkt.add_argument("--macroarea", default=None)
+    p_pkt.add_argument("--force", action="store_true",
+                       help="Overwrite existing recipe.yaml / PACKET.md")
+    p_pkt.set_defaults(fn=cmd_packet)
 
     p_agg = sub.add_parser("aggregate", help="Union per-variety output into output/aggregate/")
     p_agg.set_defaults(fn=cmd_aggregate)

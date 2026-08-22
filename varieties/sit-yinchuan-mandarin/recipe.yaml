@@ -1,0 +1,46 @@
+# Authority recipe for sit-yinchuan-mandarin — see docs/CURATION_MACHINERY.md
+# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
+# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
+av_id: sit-yinchuan-mandarin
+name: Yinchuan Mandarin
+review:
+  status: draft
+  reviewer: ""
+  date: ""
+quality:                     # advisory mirror of config.scoring
+  tier: bronze
+  forms_score: 0.5341
+  cognates_score: 0.9
+  pinned: false
+construction:
+  summary: >
+    Yinchuan Mandarin basic vocabulary from bdpa. Scaffolded from the current build; review and refine.
+  lexical_base:
+    source: bdpa            # ENFORCED -> config.sources.transcription
+    rationale: ""             # advisory: why this source over the alternatives
+  transcription:
+    strategy: source
+    profile: none    # ENFORCED (extensions.profile)
+    overrides: none     # ENFORCED (extensions.transcriptions)
+    notes: 19/19 forms clean (source 19, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 6/161
+    notes: 19/19 forms mapped; 10 distinct concepts.
+  cognates:
+    source: bdpa            # ENFORCED -> config.sources.cognates
+    method: expert          # expert|computed|manual|hybrid|source|none
+    computed: none            # method metadata block when computed
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ""
+candidates:                  # advisory: other sources considered + verdict
+  []
+provenance:
+  bibliography: [bdpa]      # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: ""
+  known_losses: ""
+notes: ""                     # advisory free-form

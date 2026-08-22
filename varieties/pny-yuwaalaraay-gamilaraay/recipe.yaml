@@ -1,0 +1,46 @@
+# Authority recipe for pny-yuwaalaraay-gamilaraay — see docs/CURATION_MACHINERY.md
+# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
+# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
+av_id: pny-yuwaalaraay-gamilaraay
+name: Yuwaalaraay-Gamilaraay
+review:
+  status: draft
+  reviewer: ""
+  date: ""
+quality:                     # advisory mirror of config.scoring
+  tier: bronze
+  forms_score: 0.9481
+  cognates_score: 0.7
+  pinned: false
+construction:
+  summary: >
+    Yuwaalaraay-Gamilaraay basic vocabulary from bowernpny. Scaffolded from the current build; review and refine.
+  lexical_base:
+    source: bowernpny            # ENFORCED -> config.sources.transcription
+    rationale: ""             # advisory: why this source over the alternatives
+  transcription:
+    strategy: source
+    profile: none    # ENFORCED (extensions.profile)
+    overrides: none     # ENFORCED (extensions.transcriptions)
+    notes: 627/627 forms clean (source 627, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
+    core_coverage: 138/161
+    notes: 621/627 forms mapped; 311 distinct concepts.
+  cognates:
+    source: bowernpny            # ENFORCED -> config.sources.cognates
+    method: expert          # expert|computed|manual|hybrid|source|none
+    computed: none            # method metadata block when computed
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ""
+candidates:                  # advisory: other sources considered + verdict
+  []
+provenance:
+  bibliography: [bowernpny]      # advisory; bibtex keys resolve in output sources.bib
+tradeoffs:
+  gains: ""
+  known_losses: ""
+notes: ""                     # advisory free-form
