@@ -1,0 +1,162 @@
+concept_id,concepticon_id,label,pos,semantic_field,n_core_families,n_varieties
+phy-moon,1313,moon,n,The physical world,13,870
+bod-head,1256,head,n,The body,12,870
+phy-sun,1343,sun,n,The physical world,12,870
+phy-water,948,water,n,The physical world,12,866
+bod-eye,1248,eye,n,The body,12,861
+phy-fire,221,fire,n,The physical world,12,856
+bod-nose,1221,nose,n,The body,12,851
+bod-mouth,674,mouth,n,The body,12,847
+spa-big,1202,big,adj,Spatial relations,12,845
+bod-tooth,1380,tooth,n,The body,12,843
+ani-fish,227,fish,n,Animals,12,842
+bod-blood,946,blood,n,The body,12,841
+qua-two,1498,two,num,Quantity,12,841
+bod-bone,1394,bone,n,The body,12,840
+mot-come,1446,come,v,Motion,12,840
+qua-one,1493,one,num,Quantity,12,840
+bod-ear,1247,ear,n,The body,12,838
+ani-dog,2009,dog,n,Animals,12,834
+sns-see,1409,see,v,Sense perception,12,834
+bod-tongue,1205,tongue,n,The body,12,822
+foo-egg,744,egg,n,Food and drink,12,817
+ani-bird,937,bird,n,Animals,12,809
+bod-skin,763,skin,n,The body,12,809
+bod-neck,1333,neck,n,The body,12,805
+agr-leaf,628,leaf,n,Agriculture and vegetation,12,796
+bod-tail,1220,tail,n,The body,12,794
+phy-cloud,1489,cloud,n,The physical world,12,788
+bod-bite,1403,bite,v,The body,12,787
+phy-sand,671,sand,n,The physical world,12,781
+sns-hear,1408,hear,v,Sense perception,12,779
+lng-name,1405,name,n,Speech and language,12,779
+bod-liver,1224,liver,n,The body,12,761
+ani-louse,1392,louse,n,Animals,12,757
+agr-root,670,root,n,Agriculture and vegetation,12,752
+bod-feather,1201,feather,n,The body,12,727
+phy-star,1430,star,n,The physical world,12,595
+agr-tree,906,tree,n,Agriculture and vegetation,11,854
+phy-stone,857,stone,n,The physical world,11,845
+mot-fly,1441,fly,v,Motion,11,843
+bod-belly,1251,belly,n,The body,11,829
+foo-eat,1336,eat,v,Food and drink,11,821
+pss-give,1447,give,v,Possession,11,804
+tim-night,1233,night,n,Time,11,795
+phy-smoke,778,smoke,n,The physical world,11,784
+bod-knee,1371,knee,n,The body,11,781
+bod-kill,1417,kill,v,The body,11,777
+foo-drink,1401,drink,v,Food and drink,11,772
+bod-heart,1223,heart,n,The body,11,763
+phy-ash,646,ash,n,The physical world,11,742
+ani-snake,730,snake,n,Animals,11,716
+bod-breast,1402,breast,n,The body,11,700
+phy-wind,960,wind,n,The physical world,11,690
+qua-three,492,three,num,Quantity,11,687
+phy-sky,1732,sky,n,The physical world,11,654
+mot-walk,1443,walk,v,Motion,11,640
+emo-good,1035,good,adj,Emotions and values,11,596
+spa-small,1246,small,adj,Spatial relations,11,586
+sns-cold,1287,cold,adj,Sense perception,11,573
+sns-red,156,red,adj,Sense perception,11,569
+sns-black,163,black,adj,Sense perception,11,565
+spa-long,1203,long,adj,Spatial relations,11,564
+sns-white,1335,white,adj,Sense perception,11,549
+sns-dry,1398,dry,adj,Sense perception,11,507
+sns-yellow,1424,yellow,adj,Sense perception,11,485
+tim-new,1231,new,adj,Time,11,456
+phy-earth-soil,1228,earth,n,The physical world,10,767
+hou-house,1252,house,n,The house,10,704
+kin-woman,962,woman,n,Kinship,10,692
+bod-die,1494,die,v,The body,10,660
+bod-horn,1393,horn,n,The body,10,622
+lng-sing,1261,sing,v,Speech and language,10,594
+bod-vomit,1278,vomit,v,The body,10,568
+bod-sleep,1585,sleep,v,The body,10,537
+phy-rain-precipitation,658,rain,n,The physical world,10,524
+foo-salt,1274,salt,n,Food and drink,10,522
+spa-stand,1442,stand,v,Spatial relations,10,521
+lng-say,1458,say,v,Speech and language,10,515
+mot-throw,1456,throw,v,Motion,10,495
+mot-swim,1439,swim,v,Motion,10,459
+spa-short,1645,short,adj,Spatial relations,10,459
+sns-heavy,1210,heavy,adj,Sense perception,10,439
+sns-green,1425,green,adj,Sense perception,10,374
+kin-man,1554,man,n,Kinship,9,642
+mot-fall,1280,fall,v,Motion,9,631
+kin-person,683,person,n,Kinship,9,622
+bod-hand,1277,hand,n,The body,9,543
+qua-four,1500,four,num,Quantity,9,513
+agr-grass,606,grass,n,Agriculture and vegetation,9,499
+emo-laugh,1355,laugh,v,Emotions and values,9,465
+agr-dig,1418,dig,v,Agriculture and vegetation,9,447
+agr-flower,239,flower,n,Agriculture and vegetation,9,416
+bod-wing,1257,wing,n,The body,9,400
+sns-dirty,1230,dirty,adj,Sense perception,9,399
+bod-hair,1040,hair,n,The body,9,398
+kin-i,1209,i,x,Kinship,9,390
+qua-full,1429,full,adj,Quantity,9,367
+phy-lake,624,lake,n,The physical world,9,363
+agr-seed,714,seed,n,Agriculture and vegetation,9,359
+fun-that,78,that,x,Miscellaneous function words,9,346
+act-rope,1218,rope,n,Basic actions and technology,9,308
+cog-know-something,1410,know,v,Cognition,8,698
+bod-foot,1301,foot,n,The body,8,522
+bod-navel,1838,navel,n,The body,8,522
+agr-bark,1204,bark,n,Agriculture and vegetation,8,504
+qua-five,493,five,num,Quantity,8,486
+spa-sit,1416,sit,v,Spatial relations,8,455
+bod-back,1291,back,n,The body,8,450
+emo-cry,1839,cry,v,Emotions and values,8,445
+ani-ant,587,ant,n,Animals,8,441
+spa-far,1406,far,adj,Spatial relations,8,437
+tim-old,1229,old,adj,Time,8,437
+phy-river,666,river,n,The physical world,8,436
+tim-yesterday,1174,yesterday,x,Time,8,426
+foo-fruit,1507,fruit,n,Food and drink,8,423
+sns-hot,1286,hot,adj,Sense perception,8,417
+sns-wet,1726,wet,adj,Sense perception,8,413
+phy-dust,2,dust,n,The physical world,8,389
+sns-sharp,1396,sharp,adj,Sense perception,8,381
+kin-mother,1216,mother,n,Kinship,8,377
+spa-thick,1244,thick,adj,Spatial relations,8,369
+kin-father,1217,father,n,Kinship,8,367
+war-hunt,1435,hunt,v,Warfare and hunting,8,362
+phy-fog,249,fog,n,The physical world,8,354
+bod-breathe,1407,breathe,v,The body,8,344
+cog-what,1236,what,x,Cognition,8,339
+fun-this,1214,this,x,Miscellaneous function words,8,336
+cog-who,1235,who,x,Cognition,8,332
+bod-fat,323,fat,n,The body,8,325
+qua-all,98,all,x,Quantity,8,320
+phy-forest,420,forest,n,The physical world,8,311
+bod-leg,1297,leg,n,The body,7,644
+kin-child,2099,child,n,Kinship,7,496
+qua-count,1420,count,v,Quantity,7,451
+spa-near,1942,near,adj,Spatial relations,7,421
+act-burn,2102,burn,v,Basic actions and technology,7,407
+emo-fear-be-afraid,1419,fear,v,Emotions and values,7,402
+tim-day-not-night,1225,day,n,Time,7,385
+spa-right,1019,right,adj,Spatial relations,7,384
+spa-left,244,left,adj,Spatial relations,7,378
+law-steal,713,steal,v,Law,7,376
+foo-rotten,1728,rotten,adj,Food and drink,7,364
+phy-mountain,639,mountain,n,The physical world,7,344
+tim-tomorrow,1329,tomorrow,x,Time,7,313
+kin-thou,1215,thou,x,Kinship,7,311
+spa-round,1395,round,adj,Spatial relations,7,308
+tim-year,1226,year,n,Time,7,307
+bod-shoulder,1482,shoulder,n,The body,7,304
+spa-lie-down,215,lie down,v,Spatial relations,7,299
+mot-run,1519,run,v,Motion,7,299
+phy-firewood,10,firewood,n,The physical world,7,295
+ani-mosquito,1509,mosquito,n,Animals,7,294
+phy-thunder,1150,thunder,n,The physical world,7,294
+kin-wife,1199,wife,n,Kinship,7,290
+bod-spit,1440,spit,v,The body,7,272
+ani-spider,843,spider,n,Animals,7,266
+mot-path-or-road,2457,path or road,n,Motion,7,258
+kin-husband,1200,husband,n,Kinship,7,239
+foo-suck,1421,suck,v,Food and drink,7,239
+qua-many,1198,many,x,Quantity,7,221
+spa-open,1156,open,v,Spatial relations,7,197
+foo-chew,321,chew,v,Food and drink,7,167
