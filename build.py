@@ -266,6 +266,25 @@ def cmd_update(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_release(args: argparse.Namespace) -> int:
+    from arcaverborum.release import build_release
+
+    agg = OUTPUT_DIR / "aggregate"
+    if not (agg / "forms.csv").exists():
+        logger.error("Aggregate missing in %s — run `build.py aggregate` first.", agg)
+        return 1
+    stats = build_release(
+        aggregate_dir=agg,
+        out_root=OUTPUT_DIR / "release",
+        version=args.version,
+    )
+    logger.info("Release built: %s", stats["out_dir"])
+    logger.info("  %d forms · %d languages · %d concepts · %d cognate sets",
+                stats["forms"], stats["languages"], stats["parameters"], stats["cognatesets"])
+    logger.info("  sources: %s", ", ".join(stats["datasets"]))
+    return 0
+
+
 def cmd_packet(args: argparse.Namespace) -> int:
     from arcaverborum import packet
 
@@ -497,6 +516,10 @@ def main(argv: list[str] | None = None) -> int:
 
     p_agg = sub.add_parser("aggregate", help="Union per-variety output into output/aggregate/")
     p_agg.set_defaults(fn=cmd_aggregate)
+
+    p_rel = sub.add_parser("release", help="Build the versioned Arca Verborum Core dataset release")
+    p_rel.add_argument("--version", default="0.1.0", help="Release version (semver), default 0.1.0")
+    p_rel.set_defaults(fn=cmd_release)
 
     p_rep = sub.add_parser("report", help="Rank varieties by curation priority into output/report/")
     p_rep.set_defaults(fn=cmd_report)
