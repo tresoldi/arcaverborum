@@ -387,7 +387,7 @@ function conceptMap(cid, rows) {
           `<option${f === defFam ? " selected" : ""}>${esc(f)} (${byFam[f]})</option>`).join("")}</select></label>
     </div>
     <div id="cmap" class="map small"></div>`;
-  const cog = (r) => (r.Cognacy || "").split(";")[0];   // dedupe doubled "code;code"
+  const cog = (r) => r.Cognacy || "";   // full cognate coding (may be "X;Y" for partial cognacy)
   const draw = () => {
     destroyMap();
     const fam = $("#cmfam").value.replace(/\s+\(\d+\)$/, "");

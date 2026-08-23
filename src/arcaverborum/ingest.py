@@ -105,16 +105,22 @@ def _merge_cognates(forms: pd.DataFrame, cognates: pd.DataFrame, dataset: str) -
         .apply(lambda s: ";".join(s.astype(str)))
         .to_dict()
     )
+    # A dataset often codes cognates in BOTH forms.csv (a Cognacy column) and
+    # cognates.csv (the CognateTable). Union the two, splitting on ";" and
+    # de-duplicating exact repeats order-preservingly: this collapses the common
+    # "X;X" redundancy while keeping genuine multi-cognate codings ("X;Y").
     original_cognacy = forms.get("Cognacy", pd.Series([""] * len(forms)))
     new_cognacy = forms["ID"].map(cognateset_per_form).fillna("")
     combined = []
     for orig, new in zip(original_cognacy, new_cognacy):
-        parts = []
-        if isinstance(orig, str) and orig.strip():
-            parts.append(orig.strip())
-        if new:
-            parts.append(new)
-        combined.append(";".join(parts))
+        codes: list[str] = []
+        for src in (orig, new):
+            if isinstance(src, str):
+                for code in src.split(";"):
+                    code = code.strip()
+                    if code and code not in codes:
+                        codes.append(code)
+        combined.append(";".join(codes))
     forms["Cognacy"] = combined
 
     agg_cols = [c for c in ("Doubt", "Cognate_Detection_Method", "Source",

@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from arcaverborum.ingest import ingest_lexibank
+from arcaverborum.ingest import _merge_cognates, ingest_lexibank
 
 
 def _build_raw_tree(tmp_path: Path, fixture: Path, datasets: list[str]) -> Path:
@@ -68,3 +68,35 @@ def test_ingest_bibtex_keys_prefixed(tmp_path: Path, minimal_dataset_path: Path)
         keys = re.findall(r"@\w+\{([^,]+),", bib)
         if keys:
             assert all(k.startswith("alpha_") for k in keys)
+
+
+def _cog_forms() -> pd.DataFrame:
+    return pd.DataFrame([
+        {"ID": "ds_f1", "Cognacy": "ds_water-1"},   # also in cognates.csv (redundant)
+        {"ID": "ds_f2", "Cognacy": ""},             # partial cognacy: two sets from cognates.csv
+        {"ID": "ds_f3", "Cognacy": "ds_z"},         # only in forms.csv, no cognates row
+        {"ID": "ds_f4", "Cognacy": ""},             # no cognacy anywhere
+    ])
+
+
+def _cog_table() -> pd.DataFrame:
+    return pd.DataFrame([
+        {"Form_ID": "ds_f1", "Cognateset_ID": "ds_water-1"},
+        {"Form_ID": "ds_f2", "Cognateset_ID": "ds_a"},
+        {"Form_ID": "ds_f2", "Cognateset_ID": "ds_b"},
+    ])
+
+
+def test_merge_cognates_dedupes_redundant_double():
+    """forms.csv Cognacy + identical cognates.csv code must not double to 'X;X'."""
+    out = _merge_cognates(_cog_forms(), _cog_table(), "ds").set_index("ID")["Cognacy"].to_dict()
+    assert out["ds_f1"] == "ds_water-1"        # was "ds_water-1;ds_water-1"
+    assert out["ds_f2"] == "ds_a;ds_b"         # genuine multi-cognate preserved
+    assert out["ds_f3"] == "ds_z"              # forms-only cognacy kept
+    assert out["ds_f4"] == ""                  # nothing anywhere
+
+
+def test_merge_cognates_no_cognate_table():
+    out = _merge_cognates(_cog_forms(), _cog_table().iloc[0:0], "ds").set_index("ID")["Cognacy"].to_dict()
+    assert out["ds_f1"] == "ds_water-1"        # forms.csv Cognacy preserved verbatim
+    assert out["ds_f3"] == "ds_z"
