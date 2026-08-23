@@ -117,7 +117,6 @@ def build_recipe_yaml(av_id: str, config: dict, diag: dict, expert_datasets: set
     scoring = config.get("scoring", {}) or {}
     tsrc = sources.get("transcription", "")
     csrc = sources.get("cognates", "")
-    n = diag["n_forms"] or 1
     method = "expert" if (csrc in expert_datasets and diag["with_cognacy"]) else (
         "source" if diag["with_cognacy"] else "none")
     mapping = "corrected" if concept_map_used else "source"
@@ -144,7 +143,7 @@ def build_recipe_yaml(av_id: str, config: dict, diag: dict, expert_datasets: set
         f"  cognates_score: {scoring.get('cognates_score', '')}",
         f"  pinned: {str(bool(config.get('pinned', False))).lower()}",
         "construction:",
-        f"  summary: >",
+        "  summary: >",
         f"    {name} basic vocabulary from {tsrc or 'the selected source'}"
         + (f" (cognacy from {csrc})" if csrc and csrc != tsrc else "")
         + ". Scaffolded from the current build; review and refine.",
