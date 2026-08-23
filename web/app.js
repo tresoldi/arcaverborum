@@ -2,7 +2,7 @@
 
 // Bump on every deploy so browsers never serve a stale app.js / dataset.
 // Keep in sync with the ?v= query on app.js/style.css in index.html.
-const AV_VER = "0.1.0-b2";
+const AV_VER = "0.1.0-b3";
 let db = null;
 let BUILD = {};
 let coreOnly = false;
@@ -448,8 +448,16 @@ async function boot() {
     ]);
     if (!gz.ok) throw new Error("could not fetch dataset (" + gz.status + ")");
     BUILD = info || {};
-    const buf = await new Response(gz.body.pipeThrough(new DecompressionStream("gzip"))).arrayBuffer();
-    db = new SQL.Database(new Uint8Array(buf));
+    // The host may or may not serve the .gz with Content-Encoding: gzip (which the
+    // browser would auto-decompress). Detect gzip by magic bytes and inflate only
+    // if still compressed — robust on GitHub Pages and a plain local server alike.
+    let raw = new Uint8Array(await gz.arrayBuffer());
+    if (raw[0] === 0x1f && raw[1] === 0x8b) {
+      raw = new Uint8Array(await new Response(
+        new Blob([raw]).stream().pipeThrough(new DecompressionStream("gzip"))
+      ).arrayBuffer());
+    }
+    db = new SQL.Database(raw);
     const c = BUILD.counts || {};
     $("#ver").textContent = BUILD.version ? "v" + BUILD.version : "";
     $("#counts").textContent = c.forms

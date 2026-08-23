@@ -1,0 +1,47 @@
+name: Deploy site
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "web/**"
+      - "docs/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site (explorer at root, docs at /docs)
+        run: |
+          rm -rf _site && mkdir -p _site
+          cp -r web/. _site/
+          mkdir -p _site/docs && cp -r docs/. _site/docs/
+          touch _site/.nojekyll
+          echo "arcaverborum.org" > _site/CNAME
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
