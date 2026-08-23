@@ -41,11 +41,16 @@ Tracked source of truth:
 
 ## 3. Environment
 
-Python 3.11+ is expected. The phonology library `merkmal` (≥0.9.0) is
-developed next to this repo at `../merkmal`; install its Python package from
-there. merkmal is an undeclared runtime dependency (it is not on PyPI and is
-built from the sibling checkout), so it is installed out-of-band rather than
-via `arcaverborum`'s own dependency list.
+Python 3.12+ is expected (the phonology library `merkmal` requires ≥3.12). merkmal
+(≥0.9.0) is an undeclared runtime dependency: it is not on PyPI and is built from
+source, so it is installed out-of-band rather than via `arcaverborum`'s own
+dependency list. Install it either from the sibling checkout at `../merkmal` or
+straight from GitHub (as CI does):
+
+```bash
+pip install ../merkmal            # from the local sibling checkout, or
+pip install "merkmal @ git+https://github.com/tresoldi/merkmal.git"
+```
 
 ```bash
 cd /home/tiagot/repos/arcaverborum
