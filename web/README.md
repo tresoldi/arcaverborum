@@ -12,6 +12,8 @@ install — deployable as static files (GitHub Pages, via `CNAME`).
 |---|---|
 | `index.html`, `app.js`, `style.css` | the app (vanilla JS, no framework) |
 | `vendor/sql-wasm.{js,wasm}` | sql.js (MIT), vendored |
+| `vendor/leaflet.{js,css}` + `vendor/images/` | Leaflet (MIT), vendored (incl. marker/layer icons) |
+| `vendor/world.geo.json` | world countries GeoJSON for the flat basemap |
 | `arca-core.sqlite.gz` | the dataset (build artifact; see below) |
 | `BUILD_INFO` | version/counts, shown in the header (build artifact) |
 | `CNAME` | custom domain for GitHub Pages |
@@ -36,6 +38,12 @@ Serve over HTTP (a `file://` open won't work — `fetch` + WASM need a server):
 python -m http.server 8799 --directory web
 # open http://localhost:8799/
 ```
+
+If a change doesn't appear, your browser cached the old assets: **hard-refresh**
+(Ctrl/Cmd-Shift-R). To prevent stale caches across deploys, `app.js`/`style.css`
+and the data fetches carry a `?v=` cache-buster: bump `AV_VER` in `app.js` **and**
+the `?v=` in `index.html` (keep them in sync) whenever you change the app or
+rebuild the dataset.
 
 ## Views
 

@@ -1,5 +1,8 @@
 "use strict";
 
+// Bump on every deploy so browsers never serve a stale app.js / dataset.
+// Keep in sync with the ?v= query on app.js/style.css in index.html.
+const AV_VER = "0.1.0-b2";
 let db = null;
 let BUILD = {};
 let coreOnly = false;
@@ -295,7 +298,7 @@ const keyColors = (keys) => { const m = {}; keys.forEach((k, i) => m[k] = MPAL[i
 let _map = null, _world = null;
 function destroyMap() { if (_map) { _map.remove(); _map = null; } }
 async function loadWorld() {
-  if (!_world) _world = await fetch("vendor/world.geo.json").then((r) => r.json());
+  if (!_world) _world = await fetch("vendor/world.geo.json?v=" + AV_VER).then((r) => r.json());
   return _world;
 }
 function baseMap(el, center, zoom) {
@@ -440,8 +443,8 @@ async function boot() {
     const SQL = await initSqlJs({ locateFile: (f) => "vendor/" + f });
     $("#status-detail").textContent = "(fetching data…)";
     const [gz, info] = await Promise.all([
-      fetch("arca-core.sqlite.gz"),
-      fetch("BUILD_INFO").then((r) => r.ok ? r.json() : {}).catch(() => ({})),
+      fetch("arca-core.sqlite.gz?v=" + AV_VER),
+      fetch("BUILD_INFO?v=" + AV_VER).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
     ]);
     if (!gz.ok) throw new Error("could not fetch dataset (" + gz.status + ")");
     BUILD = info || {};
