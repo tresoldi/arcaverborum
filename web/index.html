@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Arca Verborum Core — lexical database explorer</title>
 <meta name="description" content="Browse the Arca Verborum Core dataset: basic vocabulary across 13 language families, in the browser.">
+<link rel="stylesheet" href="vendor/leaflet.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,6 +24,7 @@
   <nav id="nav">
     <button data-view="varieties" class="active">Varieties</button>
     <button data-view="concepts">Concepts</button>
+    <button data-view="map">Map</button>
     <button data-view="search">Search forms</button>
     <button data-view="stats">Statistics</button>
     <button data-view="sql">SQL</button>
@@ -40,6 +42,7 @@
 </div>
 
 <script src="vendor/sql-wasm.js"></script>
+<script src="vendor/leaflet.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

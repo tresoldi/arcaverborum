@@ -34,6 +34,7 @@ _PROP = {
     # LanguageTable
     "Name": CLDF + "name", "Glottocode": CLDF + "glottocode",
     "Macroarea": CLDF + "macroarea",
+    "Latitude": CLDF + "latitude", "Longitude": CLDF + "longitude",
     # ParameterTable
     "Concepticon_ID": CLDF + "concepticonReference",
     # CognateTable
@@ -83,7 +84,7 @@ _COGNATE_COLUMNS = [
     "Alignment", "Segment_Slice", "Morpheme_Index", "Doubt",
 ]
 _LANGUAGE_COLUMNS = [
-    "ID", "Name", "Glottocode", "Family", "Macroarea", "tier",
+    "ID", "Name", "Glottocode", "Family", "Macroarea", "Latitude", "Longitude", "tier",
     "forms_score", "cognates_score",
 ]
 _PARAMETER_COLUMNS = [
@@ -181,8 +182,21 @@ def _write_forms_and_cognates(agg_forms: Path, out_dir: Path, core_datasets: set
     }
 
 
+def load_glottolog_coords(path: Path) -> dict[str, tuple[str, str]]:
+    """Glottocode -> (Latitude, Longitude) from Glottolog languages.csv."""
+    coords: dict[str, tuple[str, str]] = {}
+    if not path.exists():
+        return coords
+    with path.open(encoding="utf-8") as f:
+        for x in csv.DictReader(f):
+            gc, la, lo = x.get("Glottocode", ""), x.get("Latitude", ""), x.get("Longitude", "")
+            if gc and la and lo:
+                coords[gc] = (la, lo)
+    return coords
+
+
 def _write_languages(agg_varieties: Path, out_dir: Path, core_datasets: set[str],
-                     langs_used: set[str]) -> int:
+                     langs_used: set[str], coords: dict[str, tuple[str, str]]) -> int:
     n = 0
     with agg_varieties.open(encoding="utf-8") as fin, \
             (out_dir / "languages.csv").open("w", encoding="utf-8", newline="") as fout:
@@ -192,10 +206,12 @@ def _write_languages(agg_varieties: Path, out_dir: Path, core_datasets: set[str]
         for row in reader:
             if row["av_id"] not in langs_used:
                 continue
+            lat, lon = coords.get(row.get("Glottocode", ""), ("", ""))
             w.writerow({
                 "ID": row["av_id"], "Name": row.get("Name", ""),
                 "Glottocode": row.get("Glottocode", ""), "Family": row.get("Family", ""),
-                "Macroarea": row.get("Macroarea", ""), "tier": row.get("tier", ""),
+                "Macroarea": row.get("Macroarea", ""), "Latitude": lat, "Longitude": lon,
+                "tier": row.get("tier", ""),
                 "forms_score": row.get("forms_score", ""),
                 "cognates_score": row.get("cognates_score", ""),
             })
@@ -385,13 +401,16 @@ def _write_datasheet(out_dir: Path, version: str, stats: dict, n_langs: int,
 
 def build_release(aggregate_dir: Path, out_root: Path, version: str,
                   datasets_csv: Path = DATASETS_CSV,
-                  metadata_csv: Path | None = None) -> dict:
+                  metadata_csv: Path | None = None,
+                  glottolog_csv: Path | None = None) -> dict:
     """Build the release into out_root/arca-verborum-core-<version>/. Returns stats."""
     agg_forms = aggregate_dir / "forms.csv"
     if not agg_forms.exists():
         raise FileNotFoundError(f"Aggregate not found at {agg_forms}; run `build.py aggregate` first.")
     if metadata_csv is None:
         metadata_csv = PROJECT_ROOT / "intake" / "lexibank" / "metadata.csv"
+    if glottolog_csv is None:
+        glottolog_csv = PROJECT_ROOT / "raw" / "glottolog" / "languages.csv"
 
     try:
         import merkmal
@@ -407,9 +426,10 @@ def build_release(aggregate_dir: Path, out_root: Path, version: str,
     out_dir = out_root / f"arca-verborum-core-{version}"
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    coords = load_glottolog_coords(glottolog_csv)
     stats = _write_forms_and_cognates(agg_forms, out_dir, core_datasets, core_concepts, licenses)
     n_langs = _write_languages(aggregate_dir / "varieties.csv", out_dir, core_datasets,
-                               stats["langs_used"])
+                               stats["langs_used"], coords)
     n_params = _write_parameters(aggregate_dir / "parameters.csv", out_dir,
                                  stats["concepts_used"], core_concepts)
 

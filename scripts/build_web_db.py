@@ -29,8 +29,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 _FORM_COLS = ["ID", "Language_ID", "Parameter_ID", "concept_label", "Form", "Segments",
               "Segments_Source", "Cognacy", "canonical_cognate_id", "is_core_concept",
               "transcription_source", "tier"]
-_LANG_COLS = ["ID", "Name", "Glottocode", "Family", "Macroarea", "tier",
-              "forms_score", "cognates_score"]
+_LANG_COLS = ["ID", "Name", "Glottocode", "Family", "Macroarea", "Latitude", "Longitude",
+              "tier", "forms_score", "cognates_score"]
 _PARAM_COLS = ["ID", "Name", "Concepticon_ID", "pos", "semantic_field", "is_core"]
 _FORM_INDEXES = ["Language_ID", "Parameter_ID", "Cognacy", "canonical_cognate_id", "is_core_concept"]
 

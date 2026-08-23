@@ -39,6 +39,15 @@ python -m http.server 8799 --directory web
 
 ## Views
 
-Varieties · Concepts · Search forms · Statistics · SQL (read-only). A
+Varieties · Concepts · **Map** · Search forms · Statistics · SQL (read-only). A
 "basic-vocabulary core only" toggle filters to the 161 frozen core concepts.
-Top-level views are shareable via URL hash (e.g. `#concepts`, `#stats`).
+
+**Maps** (Leaflet, vendored; flat vector basemap from `vendor/world.geo.json`,
+no external tiles): the **Map** tab plots all varieties, colour-coded by family,
+macroarea, tier, or coverage; each **concept** view carries a per-family
+**cognate map** (varieties coloured by cognate set — the CLLD signature). Needs
+`Latitude`/`Longitude` in the release (joined from Glottolog by `build.py
+release`).
+
+Shareable URLs via hash: top-level views (`#map`, `#concepts`, …) plus
+deep-links `#concept:<concept_id>` and `#variety:<av_id>`.

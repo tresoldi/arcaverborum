@@ -63,7 +63,8 @@ def test_build_release_filters_core_and_flags(tmp_path):
              "Repository_Version": "v1.0"}])
 
     stats = release.build_release(agg, tmp_path / "release", "9.9.9",
-                                  datasets_csv=datasets, metadata_csv=metadata)
+                                  datasets_csv=datasets, metadata_csv=metadata,
+                                  glottolog_csv=tmp_path / "no_glottolog.csv")
 
     # only the 2 mycore forms survive; notcore excluded
     assert stats["forms"] == 2
