@@ -31,8 +31,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-# Reuse the variety slug/code machinery so the two ID spaces stay aligned.
-from arcaverborum.avid import _derive_family_code, slugify_name
+from arcaverborum.idscheme import build_codes, code_for, load_codes, slugify_name, write_codes
 
 DATA_DIR = Path(__file__).parent / "data"
 FIELD_CODES_CSV = DATA_DIR / "semantic_field_codes.csv"
@@ -148,66 +147,20 @@ def build_field_codes(
     fields: list[str],
     seed: dict[str, str] | None = None,
 ) -> dict[str, str]:
-    """Assign a unique 3-char code to each semantic-field name.
-
-    Seeded fields are assigned first; the rest are auto-derived
-    deterministically (same algorithm as family codes). Blank field
-    names are skipped (they map to ``UNDETERMINED_CODE`` at lookup).
-    """
-    seed = SEED_FIELD_CODES if seed is None else seed
-    codes: dict[str, str] = {}
-    used: set[str] = {UNDETERMINED_CODE}
-
-    ordered: list[str] = []
-    seen: set[str] = set()
-    for fld in fields:
-        fld = fld.strip()
-        if fld and fld not in seen:
-            seen.add(fld)
-            ordered.append(fld)
-
-    for fld, code in seed.items():
-        if fld in seen and fld not in codes:
-            if code in used:
-                code = _derive_family_code(fld, used)
-            codes[fld] = code
-            used.add(code)
-
-    for fld in ordered:
-        if fld in codes:
-            continue
-        code = _derive_family_code(fld, used)
-        codes[fld] = code
-        used.add(code)
-
-    return codes
+    """Assign a unique 3-char code to each semantic-field name."""
+    return build_codes(fields, SEED_FIELD_CODES if seed is None else seed)
 
 
 def field_code_for(field: str, codes: dict[str, str]) -> str:
-    field = (field or "").strip()
-    return codes.get(field, UNDETERMINED_CODE) if field else UNDETERMINED_CODE
+    return code_for(field, codes)
 
 
 def load_field_codes(path: Path = FIELD_CODES_CSV) -> dict[str, str]:
-    codes: dict[str, str] = {}
-    if not path.exists():
-        return codes
-    with path.open(encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            fld = (row.get("field") or "").strip()
-            code = (row.get("code") or "").strip()
-            if fld and code:
-                codes[fld] = code
-    return codes
+    return load_codes(path, "field", "code")
 
 
 def write_field_codes(codes: dict[str, str], path: Path = FIELD_CODES_CSV) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f)
-        w.writerow(["field", "code"])
-        for fld in sorted(codes):
-            w.writerow([fld, codes[fld]])
+    write_codes(codes, path, "field", "code")
 
 
 # --------------------------------------------------------------------------
