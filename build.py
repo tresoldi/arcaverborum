@@ -171,19 +171,7 @@ def _resolve_av_ids(args: argparse.Namespace) -> list[str]:
 
 
 def cmd_update(args: argparse.Namespace) -> int:
-    import pandas as pd
-
-    from arcaverborum import tracking
-    from arcaverborum.forms_schema import load_parameter_index
-    from arcaverborum.catalog import build_catalog, load_avid_registry
-    from arcaverborum.concepts import load_concept_maps
-    from arcaverborum.glottolog import load_glottolog
-    from arcaverborum.variety import (
-        VarietyDir,
-        build_one,
-        load_config,
-        update_config_extension_flags,
-    )
+    from arcaverborum.variety import update_many
 
     av_ids = _resolve_av_ids(args)
     if not av_ids:
@@ -192,69 +180,13 @@ def cmd_update(args: argparse.Namespace) -> int:
     logger.info("Updating %d varieties%s", len(av_ids), " (--force)" if args.force else "")
 
     combined = _combined_intake()
-    glottolog = load_glottolog()
-    registry = load_avid_registry()
-    catalog = build_catalog(combined["languages"], glottolog=glottolog, avid_registry=registry)
-
-    logger.info("Loading intake forms (%d sources) …", len(combined["forms"]))
-    frames = []
-    for fp in combined["forms"]:
-        if fp.exists():
-            frames.append(pd.read_csv(fp, dtype=str, keep_default_na=False))
-    intake_df = pd.concat(frames, ignore_index=True).fillna("")
-    intake_df["_glottocode_lc"] = intake_df["Glottocode"].astype(str).str.strip().str.lower()
-
-    param_index: dict = {}
-    for pp in combined["parameters"]:
-        if pp.exists():
-            param_index.update(load_parameter_index(pp))
-    concept_index, concept_labels = load_concept_maps()
-    logger.info("Loaded %d intake rows, %d parameter entries, %d catalog concepts",
-                len(intake_df), len(param_index), len(concept_labels))
-
-    recipe = tracking.recipe_hash()
-    logger.info("Computing intake slice fingerprints …")
-    slice_hashes = tracking.compute_intake_slice_hashes(intake_df, param_index)
-
-    total = built = skipped = failed = 0
-    for i, av_id in enumerate(av_ids, 1):
-        vd = VarietyDir(av_id=av_id, root=VARIETIES_DIR / av_id)
-        try:
-            cfg = load_config(vd)
-            gc = (catalog[av_id].glottocode if av_id in catalog else "") or av_id
-            ts = (cfg.get("sources") or {}).get("transcription", "")
-            slice_h = slice_hashes.get((gc.lower(), ts), "")
-            digest, components = tracking.fingerprint(
-                tracking.config_component(cfg),
-                tracking.custom_component(vd.custom_dir),
-                slice_h,
-                recipe,
-            )
-            if not args.force and tracking.is_fresh(vd.generated_dir, digest, vd.generated_forms):
-                skipped += 1
-                continue
-            n = build_one(
-                av_id=av_id,
-                varieties_root=VARIETIES_DIR,
-                intake_forms=intake_df,
-                catalog=catalog,
-                param_index=param_index,
-                concept_index=concept_index,
-                concept_labels=concept_labels,
-            )
-            update_config_extension_flags(vd)
-            tracking.write_manifest(vd.generated_dir, digest, components, n)
-            total += n
-            built += 1
-        except Exception as exc:
-            failed += 1
-            logger.error("Failed to build %s: %s", av_id, exc)
-        if i % 50 == 0:
-            logger.info("Progress: %d/%d (built %d, skipped %d)",
-                        i, len(av_ids), built, skipped)
-    logger.info(
-        "Done: %d built (%d forms), %d skipped (unchanged), %d failed",
-        built, total, skipped, failed,
+    update_many(
+        av_ids=av_ids,
+        varieties_root=VARIETIES_DIR,
+        intake_forms_paths=combined["forms"],
+        intake_parameters_paths=combined["parameters"],
+        intake_languages_paths=combined["languages"],
+        force=args.force,
     )
     return 0
 

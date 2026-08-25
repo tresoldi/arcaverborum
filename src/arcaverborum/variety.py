@@ -523,3 +523,85 @@ def update_config_extension_flags(vd: VarietyDir) -> None:
     config["extensions"] = new_flags
     with vd.config_path.open("w", encoding="utf-8") as f:
         yaml.safe_dump(config, f, sort_keys=False, allow_unicode=True)
+
+
+def update_many(
+    av_ids: list[str],
+    varieties_root: Path,
+    intake_forms_paths: list[Path],
+    intake_parameters_paths: list[Path],
+    intake_languages_paths: list[Path],
+    force: bool = False,
+) -> dict:
+    """Load shared context once, then build every stale variety.
+
+    Returns a stats dict with built/skipped/failed counts.
+    """
+    from arcaverborum import tracking
+    from arcaverborum.catalog import build_catalog, load_avid_registry
+    from arcaverborum.glottolog import load_glottolog
+
+    glottolog = load_glottolog()
+    registry = load_avid_registry()
+    catalog = build_catalog(
+        [p for p in intake_languages_paths if p.exists()],
+        glottolog=glottolog,
+        avid_registry=registry,
+    )
+
+    frames = []
+    for fp in intake_forms_paths:
+        if fp.exists():
+            frames.append(pd.read_csv(fp, dtype=str, keep_default_na=False))
+    intake_df = pd.concat(frames, ignore_index=True).fillna("")
+    intake_df["_glottocode_lc"] = intake_df["Glottocode"].astype(str).str.strip().str.lower()
+
+    param_index: dict[str, tuple[str, str]] = {}
+    for pp in intake_parameters_paths:
+        if pp.exists():
+            param_index.update(load_parameter_index(pp))
+    concept_index, concept_labels = load_concept_maps()
+
+    recipe = tracking.recipe_hash()
+    slice_hashes = tracking.compute_intake_slice_hashes(intake_df, param_index)
+
+    total = built = skipped = failed = 0
+    for i, av_id in enumerate(av_ids, 1):
+        vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+        try:
+            cfg = load_config(vd)
+            gc = (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+            ts = (cfg.get("sources") or {}).get("transcription", "")
+            slice_h = slice_hashes.get((gc.lower(), ts), "")
+            digest, components = tracking.fingerprint(
+                tracking.config_component(cfg),
+                tracking.custom_component(vd.custom_dir),
+                slice_h,
+                recipe,
+            )
+            if not force and tracking.is_fresh(vd.generated_dir, digest, vd.generated_forms):
+                skipped += 1
+                continue
+            n = build_one(
+                av_id=av_id,
+                varieties_root=varieties_root,
+                intake_forms=intake_df,
+                catalog=catalog,
+                param_index=param_index,
+                concept_index=concept_index,
+                concept_labels=concept_labels,
+            )
+            update_config_extension_flags(vd)
+            tracking.write_manifest(vd.generated_dir, digest, components, n)
+            total += n
+            built += 1
+        except Exception as exc:
+            failed += 1
+            logger.error("Failed to build %s: %s", av_id, exc)
+        if i % 50 == 0:
+            logger.info("Progress: %d/%d (built %d, skipped %d)",
+                        i, len(av_ids), built, skipped)
+
+    logger.info("Done: %d built (%d forms), %d skipped (unchanged), %d failed",
+                built, total, skipped, failed)
+    return {"built": built, "total_forms": total, "skipped": skipped, "failed": failed}
