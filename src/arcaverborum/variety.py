@@ -495,6 +495,7 @@ def build_one(
         df = df[df["Language_ID"].astype(str).str.strip() == source_language_id].copy()
 
     if df.empty and not vd.custom_path("forms.csv").exists():
+        vd.generated_forms.parent.mkdir(parents=True, exist_ok=True)
         vd.generated_forms.write_text(",".join(FORMS_OUT_FIELDS) + "\n", encoding="utf-8")
         return 0
 

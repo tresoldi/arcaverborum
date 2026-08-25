@@ -85,7 +85,7 @@ def run_pipeline(
     from arcaverborum.sources.wiktionary.parameters import parse_parameter_name
 
     concepticon = load_concepticon(concepticon_tsv)
-    logger.info("Loaded %d Concepticon concepts for auto-mapping", len(concepticon))
+    logger.info("Loaded %d Concepticon concepts for auto-mapping", len(concepticon.by_gloss))
     mapped = 0
     param_cid: dict[str, tuple[str, str]] = {}
     for idx, row in parameters.iterrows():
