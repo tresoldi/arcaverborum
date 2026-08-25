@@ -25,8 +25,8 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-from arcaverborum.aggregate import FORMS_OUT_FIELDS, _form_quality_score, _load_parameter_index
 from arcaverborum.catalog import Variety
+from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load_parameter_index
 from arcaverborum.concepts import load_concept_maps
 from arcaverborum.phonology import load_profile, normalize_segments
 
@@ -358,7 +358,7 @@ def _additive_custom_rows(
             "source_language_id": av_id,
             "source_parameter_id": "",
             "bibtex_key": "",
-            "quality_score": f"{_form_quality_score(row.to_dict(), forms_score):.4f}",
+            "quality_score": f"{form_quality_score(row.to_dict(), forms_score):.4f}",
             "tier": tier,
         }
         rows.append(out_row)
@@ -400,7 +400,7 @@ def build_one(
     gc = (variety.glottocode or av_id).lower()
 
     if param_index is None:
-        param_index = _load_parameter_index(parameters_path) if parameters_path else {}
+        param_index = load_parameter_index(parameters_path) if parameters_path else {}
     if concept_index is None or concept_labels is None:
         concept_index, concept_labels = load_concept_maps()
 
@@ -482,7 +482,7 @@ def build_one(
             "source_language_id": row.get("Language_ID", ""),
             "source_parameter_id": param_id,
             "bibtex_key": row.get("Source", ""),
-            "quality_score": f"{_form_quality_score(row.to_dict(), forms_score):.4f}",
+            "quality_score": f"{form_quality_score(row.to_dict(), forms_score):.4f}",
             "tier": tier,
         }
         out_rows.append(out_row)

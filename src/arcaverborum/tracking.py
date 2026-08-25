@@ -37,7 +37,7 @@ MANIFEST_NAME = "build_manifest.json"
 
 _PKG_DIR = Path(__file__).resolve().parent
 _RECIPE_FILES = (
-    "variety.py", "phonology.py", "aggregate.py", "concepts.py",
+    "variety.py", "phonology.py", "aggregate.py", "forms_schema.py", "concepts.py",
     "data/score_weights.yaml",
     # The frozen concept catalog: re-curating a label/field/id rebuilds the
     # forms that resolve through it.

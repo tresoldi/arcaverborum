@@ -181,7 +181,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     import pandas as pd
 
     from arcaverborum import tracking
-    from arcaverborum.aggregate import _load_parameter_index
+    from arcaverborum.forms_schema import load_parameter_index
     from arcaverborum.catalog import build_catalog, load_avid_registry
     from arcaverborum.concepts import load_concept_maps
     from arcaverborum.glottolog import load_glottolog
@@ -214,7 +214,7 @@ def cmd_update(args: argparse.Namespace) -> int:
     param_index: dict = {}
     for pp in combined["parameters"]:
         if pp.exists():
-            param_index.update(_load_parameter_index(pp))
+            param_index.update(load_parameter_index(pp))
     concept_index, concept_labels = load_concept_maps()
     logger.info("Loaded %d intake rows, %d parameter entries, %d catalog concepts",
                 len(intake_df), len(param_index), len(concept_labels))
