@@ -365,6 +365,89 @@ def _additive_custom_rows(
     return rows
 
 
+def apply_overlays(
+    df: pd.DataFrame,
+    vd: VarietyDir,
+) -> tuple[pd.DataFrame, list | None]:
+    """Apply the variety's custom overrides and return (modified_df, profile)."""
+    cmap = _read_custom(vd.custom_path("concept_map.csv"))
+    if not cmap.empty:
+        df = _apply_concept_map(df, cmap)
+
+    tov = _read_custom(vd.custom_path("transcriptions.csv"))
+    if not tov.empty:
+        df = _apply_transcription_overrides(df, tov)
+
+    cov = _read_custom(vd.custom_path("cognates.csv"))
+    if not cov.empty:
+        df = _apply_cognate_overrides(df, cov)
+
+    profile = load_profile(vd.custom_path("profile.tsv"))
+    return df, profile
+
+
+def emit_forms(
+    df: pd.DataFrame,
+    *,
+    av_id: str,
+    variety: Variety,
+    transcription_source: str,
+    cognate_source: str,
+    forms_score: float,
+    tier: str,
+    param_index: dict[str, tuple[str, str]],
+    concept_index: dict[str, tuple[str, str]],
+    concept_labels: dict[str, str],
+    profile: list | None,
+) -> list[dict]:
+    """Transform overlaid intake rows into output dicts."""
+    out_rows: list[dict] = []
+    for _, row in df.iterrows():
+        param_id = row.get("Parameter_ID", "")
+        looked_cid, _looked_gloss = param_index.get(param_id, ("", ""))
+        concepticon_id = row.get("Concepticon_ID", "") or looked_cid
+        override = str(row.get("_concept_id_override", "") or "").strip()
+        if override:
+            concept_id = override
+            concept_label = concept_labels.get(override, "")
+        else:
+            concept_id, concept_label = concept_index.get(concepticon_id, ("", ""))
+        src_segments = row.get("Segments", "") or ""
+        src_form = row.get("Form", "") or row.get("Value", "") or ""
+        segments, seg_source = normalize_segments(src_segments, src_form, profile)
+        out_rows.append({
+            "av_id": av_id,
+            "Glottocode": variety.glottocode,
+            "Variety_Name": variety.name or variety.av_id,
+            "concept_id": concept_id,
+            "concept_label": concept_label,
+            "Concepticon_ID": concepticon_id,
+            "Value": row.get("Value", ""),
+            "Form": row.get("Form", ""),
+            "Segments": segments,
+            "Segments_Source": seg_source,
+            "Cognacy": row.get("Cognacy", ""),
+            "canonical_cognate_id": "",
+            "Alignment": row.get("Alignment", ""),
+            "Morpheme_Index": row.get("Morpheme_Index", ""),
+            "Segment_Slice": row.get("Segment_Slice", ""),
+            "Doubt": row.get("Doubt", ""),
+            "Cognate_Detection_Method": row.get("Cognate_Detection_Method", ""),
+            "Cognate_Source": row.get("Cognate_Source", ""),
+            "Loan": row.get("Loan", ""),
+            "Comment": row.get("Comment", ""),
+            "transcription_source": transcription_source,
+            "cognate_source": cognate_source,
+            "source_form_id": row.get("ID", ""),
+            "source_language_id": row.get("Language_ID", ""),
+            "source_parameter_id": param_id,
+            "bibtex_key": row.get("Source", ""),
+            "quality_score": f"{form_quality_score(row.to_dict(), forms_score):.4f}",
+            "tier": tier,
+        })
+    return out_rows
+
+
 def build_one(
     av_id: str,
     varieties_root: Path,
@@ -375,15 +458,7 @@ def build_one(
     concept_index: dict[str, tuple[str, str]] | None = None,
     concept_labels: dict[str, str] | None = None,
 ) -> int:
-    """Build varieties/<av_id>/generated/forms.csv. Returns row count.
-
-    `intake_forms` may be a Path (load fresh, useful for one-off builds)
-    or a pre-loaded DataFrame (when batching many varieties — caller
-    loads once and passes here repeatedly). `param_index` (Parameter_ID
-    → Concepticon) and the concept lookups (`concept_index` mapping a
-    Concepticon id to our `(concept_id, label)`; `concept_labels` mapping
-    a concept_id to its label) can all be pre-built and reused.
-    """
+    """Build varieties/<av_id>/generated/forms.csv. Returns row count."""
     vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
     if not vd.exists():
         raise FileNotFoundError(f"Variety {av_id} not registered")
@@ -416,8 +491,6 @@ def build_one(
         df["Glottocode"] = df["Glottocode"].astype(str).str.strip().str.lower()
         df = df[(df["Glottocode"] == gc) & (df["Dataset"] == transcription_source)].copy()
 
-    # When several source languages share a Glottocode (e.g. IECOR's Old
-    # Czech vs Czech), restrict to the one this variety represents.
     if source_language_id and not df.empty:
         df = df[df["Language_ID"].astype(str).str.strip() == source_language_id].copy()
 
@@ -425,67 +498,21 @@ def build_one(
         vd.generated_forms.write_text(",".join(FORMS_OUT_FIELDS) + "\n", encoding="utf-8")
         return 0
 
-    cmap = _read_custom(vd.custom_path("concept_map.csv"))
-    if not cmap.empty:
-        df = _apply_concept_map(df, cmap)
+    df, profile = apply_overlays(df, vd)
 
-    tov = _read_custom(vd.custom_path("transcriptions.csv"))
-    if not tov.empty:
-        df = _apply_transcription_overrides(df, tov)
-
-    cov = _read_custom(vd.custom_path("cognates.csv"))
-    if not cov.empty:
-        df = _apply_cognate_overrides(df, cov)
-
-    profile = load_profile(vd.custom_path("profile.tsv"))
-
-    out_rows = []
-    for _, row in df.iterrows():
-        param_id = row.get("Parameter_ID", "")
-        looked_cid, _looked_gloss = param_index.get(param_id, ("", ""))
-        concepticon_id = row.get("Concepticon_ID", "") or looked_cid
-        # Resolve to our concept catalog: explicit override (concept_map)
-        # wins, else the Concepticon-id mapping.
-        override = str(row.get("_concept_id_override", "") or "").strip()
-        if override:
-            concept_id = override
-            concept_label = concept_labels.get(override, "")
-        else:
-            concept_id, concept_label = concept_index.get(concepticon_id, ("", ""))
-        src_segments = row.get("Segments", "") or ""
-        src_form = row.get("Form", "") or row.get("Value", "") or ""
-        segments, seg_source = normalize_segments(src_segments, src_form, profile)
-        out_row = {
-            "av_id": av_id,
-            "Glottocode": variety.glottocode,
-            "Variety_Name": variety.name or variety.av_id,
-            "concept_id": concept_id,
-            "concept_label": concept_label,
-            "Concepticon_ID": concepticon_id,
-            "Value": row.get("Value", ""),
-            "Form": row.get("Form", ""),
-            "Segments": segments,
-            "Segments_Source": seg_source,
-            "Cognacy": row.get("Cognacy", ""),
-            "canonical_cognate_id": "",
-            "Alignment": row.get("Alignment", ""),
-            "Morpheme_Index": row.get("Morpheme_Index", ""),
-            "Segment_Slice": row.get("Segment_Slice", ""),
-            "Doubt": row.get("Doubt", ""),
-            "Cognate_Detection_Method": row.get("Cognate_Detection_Method", ""),
-            "Cognate_Source": row.get("Cognate_Source", ""),
-            "Loan": row.get("Loan", ""),
-            "Comment": row.get("Comment", ""),
-            "transcription_source": transcription_source,
-            "cognate_source": cognate_source,
-            "source_form_id": row.get("ID", ""),
-            "source_language_id": row.get("Language_ID", ""),
-            "source_parameter_id": param_id,
-            "bibtex_key": row.get("Source", ""),
-            "quality_score": f"{form_quality_score(row.to_dict(), forms_score):.4f}",
-            "tier": tier,
-        }
-        out_rows.append(out_row)
+    out_rows = emit_forms(
+        df,
+        av_id=av_id,
+        variety=variety,
+        transcription_source=transcription_source,
+        cognate_source=cognate_source,
+        forms_score=forms_score,
+        tier=tier,
+        param_index=param_index,
+        concept_index=concept_index,
+        concept_labels=concept_labels,
+        profile=profile,
+    )
 
     custom_forms_df = _read_custom(vd.custom_path("forms.csv"))
     out_rows.extend(_additive_custom_rows(
