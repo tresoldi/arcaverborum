@@ -341,3 +341,13 @@ def ingest_lexibank(
         "total_forms": total_forms,
         "intake_dir": str(intake_dir),
     }
+
+
+def ingest(source: str, raw_root: Path, intake_root: Path, **kwargs) -> dict:
+    """Unified entry point: dispatch to the per-source adapter and return stats."""
+    if source == "lexibank":
+        return ingest_lexibank(raw_root, intake_root, datasets=kwargs.get("datasets"))
+    if source == "wiktionary":
+        from arcaverborum.sources import wiktionary
+        return wiktionary.ingest(raw_root, intake_root, threshold=kwargs.get("threshold", 10))
+    raise ValueError(f"Ingest for source {source!r} not implemented")

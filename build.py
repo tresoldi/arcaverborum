@@ -88,15 +88,8 @@ def cmd_fetch(args: argparse.Namespace) -> int:
 
 
 def cmd_ingest(args: argparse.Namespace) -> int:
-    if args.source == "lexibank":
-        from arcaverborum.ingest import ingest_lexibank
-        stats = ingest_lexibank(RAW_DIR, INTAKE_DIR)
-    elif args.source == "wiktionary":
-        from arcaverborum.sources import wiktionary
-        stats = wiktionary.ingest(RAW_DIR, INTAKE_DIR, threshold=args.threshold)
-    else:
-        logger.error("Ingest for source %r not yet implemented.", args.source)
-        return 1
+    from arcaverborum.ingest import ingest
+    stats = ingest(args.source, RAW_DIR, INTAKE_DIR, threshold=args.threshold)
     logger.info("Ingest stats: %s", stats)
     return 0
 
