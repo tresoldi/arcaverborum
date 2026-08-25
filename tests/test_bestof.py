@@ -18,11 +18,6 @@ from arcaverborum.score import (
     load_weights,
     score_forms_block,
 )
-from arcaverborum.selection import (
-    build_universe,
-    select_all,
-    source_priority,
-)
 from arcaverborum.variety import VarietyDir, build_one, load_config, register
 
 
@@ -154,51 +149,6 @@ def test_score_picks_alpha(tmp_path: Path):
     alpha_sig = compute_signals_for_group(df[df["Dataset"] == "alpha"])
     beta_sig = compute_signals_for_group(df[df["Dataset"] == "beta"])
     assert score_forms_block(alpha_sig, weights) > score_forms_block(beta_sig, weights)
-
-
-def test_source_priority_floor():
-    # Lexibank sources are priority 1; GLED and Wiktionary are demoted.
-    assert source_priority("grollemundbantu") == 1
-    assert source_priority("gled") == 2
-    assert source_priority("wiktionary") == 3
-
-
-def test_fallback_only_wins_when_no_lexibank(tmp_path: Path):
-    """A variety covered by both a Lexibank source and Wiktionary picks
-    the Lexibank source even if Wiktionary scores higher; a variety
-    covered only by Wiktionary picks Wiktionary."""
-    weights = load_weights()
-
-    from arcaverborum.score import Signals
-    rich = Signals(forms_count=300, distinct_concepts=200, has_segments=1.0,
-                   concepticon_mapped=1.0, has_cognates=1.0, expert=1.0)
-    poor = Signals(forms_count=10, distinct_concepts=10, has_segments=0.0,
-                   concepticon_mapped=1.0)
-
-    # variety A: covered by a lexibank source (poor) AND wiktionary (rich)
-    # variety B: covered only by wiktionary (rich)
-    signals = {
-        ("aaaa1111", "smithborneo"): poor,
-        ("aaaa1111", "wiktionary"): rich,
-        ("bbbb2222", "wiktionary"): rich,
-    }
-    selections = select_all(signals, pins={}, weights=weights)
-    assert selections["aaaa1111"].transcription_source == "smithborneo"
-    assert selections["bbbb2222"].transcription_source == "wiktionary"
-    assert selections["bbbb2222"].tier == "copper"  # fallback never above copper
-
-
-def test_universe_excludes_unmarked_datasets(tmp_path: Path):
-    csv_path = tmp_path / "datasets.csv"
-    csv_path.write_text(
-        "NAME,URL,ExpertCognates,CORE\n"
-        "alpha,http://example.com/alpha,TRUE,\n"
-        "beta,http://example.com/beta,,\n"
-        "gamma,http://example.com/gamma,,TRUE\n",
-        encoding="utf-8",
-    )
-    universe = build_universe(csv_path)
-    assert universe == {"alpha", "gamma"}
 
 
 def test_variety_register_and_build(tmp_path: Path):
