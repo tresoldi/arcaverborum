@@ -4,8 +4,8 @@ glottocode: mina1279
 family: Afro-Asiatic
 macroarea: Eurasia
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.1649
-  cognates_score: 0.2
-  tier: copper
+  forms_score: 0.5083
+  cognates_score: 0.7
+  tier: bronze
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.16) [fallback p3]; cognates=wiktionary (0.20)'
+notes: 'switched to kogansemitic as single Semitic source'

@@ -4,8 +4,8 @@ glottocode: soqo1240
 family: Afro-Asiatic
 macroarea: Africa;Eurasia
 sources:
-  transcription: kitchensemitic
-  cognates: kitchensemitic
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.8235
-  cognates_score: 0.6333
-  tier: bronze
+  forms_score: 0.6757
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=kitchensemitic (0.82); cognates=kitchensemitic (0.63)'
+notes: 'switched to kogansemitic as single Semitic source'

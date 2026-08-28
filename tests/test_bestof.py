@@ -18,7 +18,14 @@ from arcaverborum.score import (
     load_weights,
     score_forms_block,
 )
-from arcaverborum.variety import VarietyDir, build_one, load_config, register
+from arcaverborum.variety import (
+    FALLBACK_FORMS_SCORE,
+    FALLBACK_SOURCE,
+    VarietyDir,
+    build_one,
+    load_config,
+    register,
+)
 
 
 def _stub_glottolog() -> dict[str, GlottologEntry]:
@@ -368,3 +375,125 @@ def test_aggregate_unions_varieties(tmp_path: Path):
     assert stats["varieties_emitted"] == 1
     assert (out_dir / "forms.csv").exists()
     assert (out_dir / "varieties.csv").exists()
+
+
+def test_gled_fallback_when_primary_source_empty(tmp_path: Path):
+    """When the primary source yields 0 forms, build_one falls back to GLED
+    data with copper tier and the lowest quality score."""
+    forms_path = tmp_path / "forms.csv"
+    languages_path = tmp_path / "languages.csv"
+    pd.DataFrame([
+        {"ID": "gled_lang1_water", "Dataset": FALLBACK_SOURCE,
+         "Language_ID": "gled_lang1", "Glottocode": "abcd1234",
+         "Parameter_ID": "gled_water", "Concepticon_Gloss": "WATER",
+         "Value": "mizu", "Form": "mizu", "Segments": "m i z u",
+         "Cognacy": "gled_99"},
+    ]).to_csv(forms_path, index=False)
+    pd.DataFrame([
+        {"ID": "gled_lang1", "Dataset": FALLBACK_SOURCE, "Name": "TestLang",
+         "Glottocode": "abcd1234", "Family": "Testic", "Macroarea": "Eurasia"},
+    ]).to_csv(languages_path, index=False)
+
+    catalog = build_catalog(
+        languages_path, glottolog=_stub_glottolog(),
+        overrides_path=tmp_path / "no_overrides.csv",
+    )
+    varieties_root = tmp_path / "varieties"
+    register(
+        av_id="abcd1234", varieties_root=varieties_root,
+        transcription_source="nonexistent_dataset",
+        name="TestLang", glottocode="abcd1234",
+        forms_score=0.9, tier="silver",
+    )
+
+    intake_df = pd.read_csv(forms_path, dtype=str, keep_default_na=False)
+    intake_df["_glottocode_lc"] = intake_df["Glottocode"].str.lower()
+
+    n = build_one(
+        av_id="abcd1234", varieties_root=varieties_root,
+        intake_forms=intake_df, catalog=catalog,
+    )
+    assert n == 1
+
+    vd = VarietyDir(av_id="abcd1234", root=varieties_root / "abcd1234")
+    out = pd.read_csv(vd.generated_forms, dtype=str, keep_default_na=False)
+    assert out.iloc[0]["transcription_source"] == FALLBACK_SOURCE
+    assert out.iloc[0]["tier"] == "copper"
+    assert float(out.iloc[0]["quality_score"]) < 0.2
+
+
+def test_no_fallback_when_primary_source_has_data(tmp_path: Path):
+    """Fallback does not trigger when the primary source has forms."""
+    forms_path = tmp_path / "forms.csv"
+    languages_path = tmp_path / "languages.csv"
+    pd.DataFrame([
+        {"ID": "alpha_l_w", "Dataset": "alpha", "Language_ID": "alpha_l",
+         "Glottocode": "abcd1234", "Parameter_ID": "alpha_water",
+         "Concepticon_Gloss": "WATER", "Value": "wata", "Form": "wata",
+         "Segments": "w a t a", "Cognacy": "a_1"},
+        {"ID": "gled_l_w", "Dataset": FALLBACK_SOURCE, "Language_ID": "gled_l",
+         "Glottocode": "abcd1234", "Parameter_ID": "gled_water",
+         "Concepticon_Gloss": "WATER", "Value": "mizu", "Form": "mizu",
+         "Segments": "m i z u", "Cognacy": "g_1"},
+    ]).to_csv(forms_path, index=False)
+    pd.DataFrame([
+        {"ID": "alpha_l", "Dataset": "alpha", "Name": "TestLang",
+         "Glottocode": "abcd1234", "Family": "Testic", "Macroarea": "Eurasia"},
+        {"ID": "gled_l", "Dataset": FALLBACK_SOURCE, "Name": "TestLang",
+         "Glottocode": "abcd1234", "Family": "Testic", "Macroarea": "Eurasia"},
+    ]).to_csv(languages_path, index=False)
+
+    catalog = build_catalog(
+        languages_path, glottolog=_stub_glottolog(),
+        overrides_path=tmp_path / "no_overrides.csv",
+    )
+    varieties_root = tmp_path / "varieties"
+    register(
+        av_id="abcd1234", varieties_root=varieties_root,
+        transcription_source="alpha", name="TestLang", glottocode="abcd1234",
+    )
+
+    intake_df = pd.read_csv(forms_path, dtype=str, keep_default_na=False)
+    intake_df["_glottocode_lc"] = intake_df["Glottocode"].str.lower()
+
+    n = build_one(
+        av_id="abcd1234", varieties_root=varieties_root,
+        intake_forms=intake_df, catalog=catalog,
+    )
+    assert n == 1
+
+    vd = VarietyDir(av_id="abcd1234", root=varieties_root / "abcd1234")
+    out = pd.read_csv(vd.generated_forms, dtype=str, keep_default_na=False)
+    assert out.iloc[0]["transcription_source"] == "alpha"
+
+
+def test_no_fallback_when_source_is_already_gled(tmp_path: Path):
+    """When the primary source IS gled and yields 0 forms, no redundant
+    fallback attempt is made — the variety stays empty."""
+    languages_path = tmp_path / "languages.csv"
+    pd.DataFrame([
+        {"ID": "x_l", "Dataset": "x", "Name": "TestLang",
+         "Glottocode": "abcd1234", "Family": "Testic", "Macroarea": "Eurasia"},
+    ]).to_csv(languages_path, index=False)
+
+    catalog = build_catalog(
+        languages_path, glottolog=_stub_glottolog(),
+        overrides_path=tmp_path / "no_overrides.csv",
+    )
+    varieties_root = tmp_path / "varieties"
+    register(
+        av_id="abcd1234", varieties_root=varieties_root,
+        transcription_source=FALLBACK_SOURCE, name="TestLang", glottocode="abcd1234",
+    )
+
+    intake_df = pd.DataFrame(columns=[
+        "ID", "Dataset", "Language_ID", "Glottocode", "Parameter_ID",
+        "Concepticon_Gloss", "Value", "Form", "Segments", "Cognacy",
+    ])
+    intake_df["_glottocode_lc"] = ""
+
+    n = build_one(
+        av_id="abcd1234", varieties_root=varieties_root,
+        intake_forms=intake_df, catalog=catalog,
+    )
+    assert n == 0

@@ -4,8 +4,8 @@ glottocode: esto1258
 family: Uralic
 macroarea: Eurasia
 sources:
-  transcription: northeuralex
-  cognates: northeuralex
+  transcription: uralex
+  cognates: uralex
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.9374
-  cognates_score: 0.0
-  tier: bronze
+  forms_score: 0.7446
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=northeuralex (0.94)'
+notes: 'switched to uralex (tresoldi fork with IPA) as single Uralic source'

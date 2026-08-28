@@ -4,8 +4,8 @@ glottocode: clas1253
 family: Afro-Asiatic
 macroarea: Eurasia
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.7771
-  cognates_score: 0.6
-  tier: copper
+  forms_score: 0.7137
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.78) [fallback p2]; cognates=gled (0.60)'
+notes: 'switched to kogansemitic as single Semitic source'

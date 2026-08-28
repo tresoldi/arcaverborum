@@ -4,8 +4,8 @@ glottocode: pite1240
 family: Uralic
 macroarea: Eurasia
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: uralex
+  cognates: uralex
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.255
-  cognates_score: 0.275
-  tier: copper
+  forms_score: 0.7456
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.25) [fallback p3]; cognates=wiktionary (0.28)'
+notes: 'switched to uralex (tresoldi fork with IPA) as single Uralic source'

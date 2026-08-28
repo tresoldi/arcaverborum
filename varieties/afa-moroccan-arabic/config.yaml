@@ -5,7 +5,7 @@ family: Afro-Asiatic
 macroarea: Africa
 sources:
   transcription: ratcliffearabic
-  cognates: kitchensemitic
+  cognates: ratcliffearabic
 extensions:
   transcriptions: false
   forms: false
@@ -13,10 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.8331
-  cognates_score: 0.6788
+  forms_score: 0.5941
+  cognates_score: 0.0
   tier: bronze
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=ratcliffearabic (0.83); cognates=kitchensemitic (0.68) [cross-source:
-  emitted cognates still come from transcription_source]'
+notes: 'cognates switched from kitchensemitic to ratcliffearabic for source consistency'

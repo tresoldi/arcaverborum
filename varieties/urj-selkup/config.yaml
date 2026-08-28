@@ -4,8 +4,8 @@ glottocode: selk1253
 family: Uralic
 macroarea: Eurasia
 sources:
-  transcription: northeuralex
-  cognates: syrjaenenuralic
+  transcription: uralex
+  cognates: uralex
 extensions:
   transcriptions: false
   forms: false
@@ -13,10 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.9382
+  forms_score: 0.7463
   cognates_score: 0.7
-  tier: bronze
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=northeuralex (0.94); cognates=syrjaenenuralic (0.70) [cross-source:
-  emitted cognates still come from transcription_source]'
+notes: 'switched to uralex (tresoldi fork with IPA) as single Uralic source'

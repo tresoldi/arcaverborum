@@ -4,8 +4,8 @@ glottocode: pale1261
 family: Afro-Asiatic
 macroarea: Eurasia
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.05
-  cognates_score: 0.0
-  tier: copper
+  forms_score: 0.6956
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.05) [fallback p3]'
+notes: 'switched to kogansemitic as single Semitic source'

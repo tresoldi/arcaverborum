@@ -4,8 +4,8 @@ glottocode: ebla1238
 family: Afro-Asiatic
 macroarea: Eurasia
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.2284
-  cognates_score: 0.32
-  tier: copper
+  forms_score: 0.5492
+  cognates_score: 0.7
+  tier: bronze
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.23) [fallback p3]; cognates=wiktionary (0.32)'
+notes: 'switched to kogansemitic as single Semitic source'

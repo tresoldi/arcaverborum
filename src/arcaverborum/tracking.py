@@ -26,9 +26,11 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 logger = logging.getLogger(__name__)
@@ -89,6 +91,7 @@ def config_component(config: dict) -> str:
         "transcription": str(sources.get("transcription", "")),
         "cognates": str(sources.get("cognates", "") or sources.get("transcription", "")),
         "source_language_id": str(sources.get("source_language_id", "")),
+        "source_glottocode": str(sources.get("source_glottocode", "")),
         "forms_score": round(float(scoring.get("forms_score", 0.0) or 0.0), 4),
         "tier": str(scoring.get("tier", "")),
     }
@@ -147,6 +150,71 @@ def compute_intake_slice_hashes(
     for (gcode, dataset), grp in keyer.groupby(["gc", "ds"], sort=False):
         digest = hashlib.sha1(grp["h"].to_numpy().tobytes()).hexdigest()[:16]
         out[(str(gcode), str(dataset))] = f"{digest}:{len(grp)}"
+    return out
+
+
+def _hash_chunk(
+    chunk: pd.DataFrame,
+    cid_map: dict[str, str],
+    gloss_map: dict[str, str],
+) -> pd.DataFrame:
+    """Compute per-row hashes for a chunk, return (gc, ds, h) keyer."""
+    n = len(chunk)
+    empty = pd.Series([""] * n, index=chunk.index)
+
+    pid = chunk.get("Parameter_ID", empty).astype(str)
+    eff_cid = chunk.get("Concepticon_ID", empty).astype(str)
+    eff_cid = eff_cid.where(eff_cid.str.strip() != "", pid.map(cid_map).fillna(""))
+    eff_gloss = chunk.get("Concepticon_Gloss", empty).astype(str)
+    eff_gloss = eff_gloss.where(eff_gloss.str.strip() != "", pid.map(gloss_map).fillna(""))
+
+    content = {"cid": eff_cid, "gloss": eff_gloss}
+    for col in _SLICE_CONTENT_COLS:
+        content[col] = chunk.get(col, empty).astype(str)
+    row_h = pd.util.hash_pandas_object(pd.DataFrame(content), index=False).to_numpy()
+
+    gc = chunk.get("Glottocode", empty).astype(str).str.strip().str.lower()
+    return pd.DataFrame({
+        "gc": gc.to_numpy(),
+        "ds": chunk.get("Dataset", empty).to_numpy(),
+        "h": row_h,
+    })
+
+
+def compute_slice_hashes_from_files(
+    paths: list[Path],
+    param_index: dict[str, tuple[str, str]],
+    chunksize: int = 200_000,
+) -> dict[tuple[str, str], str]:
+    """Streaming version of compute_intake_slice_hashes.
+
+    Reads CSVs in chunks so peak memory stays bounded (~200 MB for
+    the chunk + ~54 MB for accumulated hashes), instead of the ~15 GB
+    the in-memory version needs on the full intake.
+    """
+    cid_map = {p: v[0] for p, v in param_index.items()}
+    gloss_map = {p: v[1] for p, v in param_index.items()}
+
+    buckets: dict[tuple[str, str], list[np.ndarray]] = defaultdict(list)
+
+    for path in paths:
+        if not path.exists():
+            continue
+        reader = pd.read_csv(
+            path, dtype=str, keep_default_na=False, chunksize=chunksize,
+        )
+        for chunk in reader:
+            chunk = chunk.fillna("")
+            keyer = _hash_chunk(chunk, cid_map, gloss_map)
+            for (gcode, dataset), grp in keyer.groupby(["gc", "ds"], sort=False):
+                buckets[(str(gcode), str(dataset))].append(grp["h"].to_numpy())
+
+    out: dict[tuple[str, str], str] = {}
+    for key, arrays in buckets.items():
+        all_h = np.concatenate(arrays)
+        all_h.sort()
+        digest = hashlib.sha1(all_h.tobytes()).hexdigest()[:16]
+        out[key] = f"{digest}:{len(all_h)}"
     return out
 
 

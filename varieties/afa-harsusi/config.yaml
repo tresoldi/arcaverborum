@@ -4,8 +4,8 @@ glottocode: hars1241
 family: Afro-Asiatic
 macroarea: Eurasia
 sources:
-  transcription: kitchensemitic
-  cognates: kitchensemitic
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.8332
-  cognates_score: 0.6087
-  tier: bronze
+  forms_score: 0.6245
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=kitchensemitic (0.83); cognates=kitchensemitic (0.61)'
+notes: 'switched to kogansemitic as single Semitic source'

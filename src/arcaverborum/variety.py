@@ -32,6 +32,20 @@ from arcaverborum.phonology import load_profile, normalize_segments
 
 logger = logging.getLogger(__name__)
 
+FALLBACK_SOURCE = "gled"
+FALLBACK_FORMS_SCORE = 0.05
+
+_INTAKE_USECOLS = frozenset({
+    "ID", "Dataset", "Language_ID", "Parameter_ID",
+    "Value", "Form", "Segments", "Comment", "Source", "Loan",
+    "Cognacy", "Doubt", "Cognate_Detection_Method", "Cognate_Source",
+    "Alignment", "Morpheme_Index", "Segment_Slice",
+    "Glottocode", "Concepticon_ID", "Concepticon_Gloss",
+})
+
+_INTAKE_CHUNKSIZE = 200_000
+_VARIETY_BATCH_SIZE = 500
+
 
 CUSTOM_TRANSCRIPTION_FIELDS = (
     "Concepticon_ID", "source_form_id", "Value", "Form", "Segments", "Comment", "notes",
@@ -127,6 +141,7 @@ def register(
     overwrite: bool = False,
     scaffold_custom: bool = False,
     source_language_id: str = "",
+    source_glottocode: str = "",
 ) -> VarietyDir:
     """Create varieties/<av_id>/ with config.yaml.
 
@@ -151,6 +166,7 @@ def register(
             "transcription": transcription_source,
             "cognates": cognate_source or transcription_source,
             **({"source_language_id": source_language_id} if source_language_id else {}),
+            **({"source_glottocode": source_glottocode} if source_glottocode else {}),
         },
         "extensions": {
             "transcriptions": False,
@@ -470,9 +486,10 @@ def build_one(
     transcription_source = config["sources"]["transcription"]
     cognate_source = config["sources"].get("cognates", "") or transcription_source
     source_language_id = str(config["sources"].get("source_language_id", "") or "").strip()
+    source_glottocode = str(config["sources"].get("source_glottocode", "") or "").strip()
     forms_score = float(config.get("scoring", {}).get("forms_score", 0.0))
     tier = config.get("scoring", {}).get("tier", "copper")
-    gc = (variety.glottocode or av_id).lower()
+    gc = (source_glottocode or variety.glottocode or av_id).lower()
 
     if param_index is None:
         param_index = load_parameter_index(parameters_path) if parameters_path else {}
@@ -493,6 +510,23 @@ def build_one(
 
     if source_language_id and not df.empty:
         df = df[df["Language_ID"].astype(str).str.strip() == source_language_id].copy()
+
+    used_fallback = False
+    if df.empty and transcription_source != FALLBACK_SOURCE and isinstance(intake_forms, pd.DataFrame):
+        if "_glottocode_lc" in intake_forms.columns:
+            fb = intake_forms[(intake_forms["_glottocode_lc"] == gc)
+                              & (intake_forms["Dataset"] == FALLBACK_SOURCE)].copy()
+        else:
+            fb = intake_forms[(intake_forms["Glottocode"].astype(str).str.strip().str.lower() == gc)
+                              & (intake_forms["Dataset"] == FALLBACK_SOURCE)].copy()
+        if not fb.empty:
+            df = fb
+            transcription_source = FALLBACK_SOURCE
+            cognate_source = FALLBACK_SOURCE
+            forms_score = FALLBACK_FORMS_SCORE
+            tier = "copper"
+            used_fallback = True
+            logger.info("Fallback to %s for %s (%d forms)", FALLBACK_SOURCE, av_id, len(df))
 
     if df.empty and not vd.custom_path("forms.csv").exists():
         vd.generated_forms.parent.mkdir(parents=True, exist_ok=True)
@@ -553,6 +587,32 @@ def update_config_extension_flags(vd: VarietyDir) -> None:
         yaml.safe_dump(config, f, sort_keys=False, allow_unicode=True)
 
 
+def _load_intake_for_glottocodes(
+    paths: list[Path],
+    glottocodes: set[str],
+) -> pd.DataFrame:
+    """Stream intake CSVs and return only rows matching *glottocodes*."""
+    frames: list[pd.DataFrame] = []
+    for path in paths:
+        if not path.exists():
+            continue
+        for chunk in pd.read_csv(
+            path, dtype=str, keep_default_na=False,
+            chunksize=_INTAKE_CHUNKSIZE,
+            usecols=lambda c: c in _INTAKE_USECOLS,
+        ):
+            chunk = chunk.fillna("")
+            gc = chunk["Glottocode"].astype(str).str.strip().str.lower()
+            mask = gc.isin(glottocodes)
+            if mask.any():
+                filtered = chunk[mask].copy()
+                filtered["_glottocode_lc"] = gc[mask]
+                frames.append(filtered)
+    if not frames:
+        return pd.DataFrame()
+    return pd.concat(frames, ignore_index=True)
+
+
 def update_many(
     av_ids: list[str],
     varieties_root: Path,
@@ -562,6 +622,9 @@ def update_many(
     force: bool = False,
 ) -> dict:
     """Load shared context once, then build every stale variety.
+
+    Intake data is streamed in chunks to keep memory bounded, rather
+    than loading the full ~10 GB DataFrame at once.
 
     Returns a stats dict with built/skipped/failed counts.
     """
@@ -577,13 +640,6 @@ def update_many(
         avid_registry=registry,
     )
 
-    frames = []
-    for fp in intake_forms_paths:
-        if fp.exists():
-            frames.append(pd.read_csv(fp, dtype=str, keep_default_na=False))
-    intake_df = pd.concat(frames, ignore_index=True).fillna("")
-    intake_df["_glottocode_lc"] = intake_df["Glottocode"].astype(str).str.strip().str.lower()
-
     param_index: dict[str, tuple[str, str]] = {}
     for pp in intake_parameters_paths:
         if pp.exists():
@@ -591,45 +647,86 @@ def update_many(
     concept_index, concept_labels = load_concept_maps()
 
     recipe = tracking.recipe_hash()
-    slice_hashes = tracking.compute_intake_slice_hashes(intake_df, param_index)
 
-    total = built = skipped = failed = 0
-    for i, av_id in enumerate(av_ids, 1):
+    existing_paths = [p for p in intake_forms_paths if p.exists()]
+    slice_hashes = tracking.compute_slice_hashes_from_files(existing_paths, param_index)
+    logger.info("Computed slice hashes for %d (glottocode, dataset) groups", len(slice_hashes))
+
+    stale: list[tuple[str, str, dict]] = []
+    skipped = 0
+    for av_id in av_ids:
         vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+        if not vd.exists():
+            continue
         try:
             cfg = load_config(vd)
-            gc = (catalog[av_id].glottocode if av_id in catalog else "") or av_id
-            ts = (cfg.get("sources") or {}).get("transcription", "")
-            slice_h = slice_hashes.get((gc.lower(), ts), "")
-            digest, components = tracking.fingerprint(
-                tracking.config_component(cfg),
-                tracking.custom_component(vd.custom_dir),
-                slice_h,
-                recipe,
-            )
-            if not force and tracking.is_fresh(vd.generated_dir, digest, vd.generated_forms):
-                skipped += 1
-                continue
-            n = build_one(
-                av_id=av_id,
-                varieties_root=varieties_root,
-                intake_forms=intake_df,
-                catalog=catalog,
-                param_index=param_index,
-                concept_index=concept_index,
-                concept_labels=concept_labels,
-            )
-            update_config_extension_flags(vd)
-            tracking.write_manifest(vd.generated_dir, digest, components, n)
-            total += n
-            built += 1
-        except Exception as exc:
-            failed += 1
-            logger.error("Failed to build %s: %s", av_id, exc)
-        if i % 50 == 0:
-            logger.info("Progress: %d/%d (built %d, skipped %d)",
-                        i, len(av_ids), built, skipped)
+        except Exception:
+            continue
+        src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
+        gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+        ts = (cfg.get("sources") or {}).get("transcription", "")
+        slice_h = slice_hashes.get((gc.lower(), ts), "")
+        digest, components = tracking.fingerprint(
+            tracking.config_component(cfg),
+            tracking.custom_component(vd.custom_dir),
+            slice_h,
+            recipe,
+        )
+        if not force and tracking.is_fresh(vd.generated_dir, digest, vd.generated_forms):
+            skipped += 1
+            continue
+        stale.append((av_id, digest, components))
+
+    logger.info("Stale: %d varieties to build, %d skipped (unchanged)", len(stale), skipped)
+
+    gc_to_avids: dict[str, list[tuple[str, str, dict]]] = {}
+    for av_id, digest, components in stale:
+        vd_tmp = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+        cfg_tmp = load_config(vd_tmp)
+        src_gc = str((cfg_tmp.get("sources") or {}).get("source_glottocode", "") or "").strip()
+        gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+        gc_to_avids.setdefault(gc.lower(), []).append((av_id, digest, components))
+
+    gc_list = list(gc_to_avids.keys())
+    total_forms = built = failed = 0
+    processed = 0
+
+    for batch_start in range(0, len(gc_list), _VARIETY_BATCH_SIZE):
+        batch_gcs = set(gc_list[batch_start:batch_start + _VARIETY_BATCH_SIZE])
+        intake_df = _load_intake_for_glottocodes(existing_paths, batch_gcs)
+        batch_num = batch_start // _VARIETY_BATCH_SIZE + 1
+        total_batches = (len(gc_list) + _VARIETY_BATCH_SIZE - 1) // _VARIETY_BATCH_SIZE
+        logger.info("Batch %d/%d: %d glottocodes, %d intake rows loaded",
+                     batch_num, total_batches, len(batch_gcs),
+                     len(intake_df) if not intake_df.empty else 0)
+
+        for gc in batch_gcs:
+            for av_id, digest, components in gc_to_avids[gc]:
+                vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+                try:
+                    n = build_one(
+                        av_id=av_id,
+                        varieties_root=varieties_root,
+                        intake_forms=intake_df if not intake_df.empty else pd.DataFrame(),
+                        catalog=catalog,
+                        param_index=param_index,
+                        concept_index=concept_index,
+                        concept_labels=concept_labels,
+                    )
+                    update_config_extension_flags(vd)
+                    tracking.write_manifest(vd.generated_dir, digest, components, n)
+                    total_forms += n
+                    built += 1
+                except Exception as exc:
+                    failed += 1
+                    logger.error("Failed to build %s: %s", av_id, exc)
+                processed += 1
+                if processed % 200 == 0:
+                    logger.info("Progress: %d/%d (built %d, skipped %d)",
+                                processed, len(stale), built, skipped)
+
+        del intake_df
 
     logger.info("Done: %d built (%d forms), %d skipped (unchanged), %d failed",
-                built, total, skipped, failed)
-    return {"built": built, "total_forms": total, "skipped": skipped, "failed": failed}
+                built, total_forms, skipped, failed)
+    return {"built": built, "total_forms": total_forms, "skipped": skipped, "failed": failed}

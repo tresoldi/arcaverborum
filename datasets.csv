@@ -74,7 +74,7 @@ kahd,https://github.com/tupian-language-resources/kahd,TRUE,TRUE
 kesslersignificance,https://github.com/sequencecomparison/kesslersignificance,TRUE,
 kaufmanpmed,https://github.com/lexibank/kaufmanpmed,,
 kitchensemitic,https://github.com/lexibank/kitchensemitic,,
-kogansemitic,https://github.com/lingulist/semitic-reconstruction,,
+kogansemitic,https://github.com/lingulist/semitic-reconstruction,,TRUE
 kleinewillinghoeferbikwinjen,https://github.com/lexibank/kleinewillinghoeferbikwinjen,,
 kochtukanoan,https://github.com/lexibank/kochtukanoan,,
 kraftchadic,https://github.com/lexibank/kraftchadic,,
@@ -148,6 +148,7 @@ tryoncad,https://github.com/calc-project/tryoncad,,
 tryonsolomon,https://github.com/lexibank/tryonsolomon,,
 tryonvanuatu,https://github.com/calc-project/tryonvanuatu,,
 tuled,https://github.com/tupian-language-resources/tuled,TRUE,TRUE
+uralex,https://github.com/tresoldi/uralex,TRUE,TRUE
 utoaztecan,https://github.com/lexibank/utoaztecan,TRUE,TRUE
 vanuatuvoices,https://github.com/lexibank/vanuatuvoices,,
 visserkalamang,https://github.com/intercontinental-dictionary-series/visserkalamang,,

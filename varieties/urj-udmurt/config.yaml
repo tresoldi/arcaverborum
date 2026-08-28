@@ -4,8 +4,8 @@ glottocode: udmu1245
 family: Uralic
 macroarea: Eurasia
 sources:
-  transcription: syrjaenenuralic
-  cognates: syrjaenenuralic
+  transcription: uralex
+  cognates: uralex
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.9578
+  forms_score: 0.7468
   cognates_score: 0.7
-  tier: bronze
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=syrjaenenuralic (0.96); cognates=syrjaenenuralic (0.70)'
+notes: 'switched to uralex (tresoldi fork with IPA) as single Uralic source'

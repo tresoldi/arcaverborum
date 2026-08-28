@@ -5,7 +5,7 @@ family: Afro-Asiatic
 macroarea: Eurasia
 sources:
   transcription: idssegmented
-  cognates: kitchensemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,10 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.976
-  cognates_score: 0.615
-  tier: bronze
+  forms_score: 0.8
+  cognates_score: 0.7
+  tier: gold
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=idssegmented (0.98); cognates=kitchensemitic (0.61) [cross-source:
-  emitted cognates still come from transcription_source]'
+notes: 'cognates switched to kogansemitic; transcription kept on idssegmented'

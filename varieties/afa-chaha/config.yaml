@@ -4,8 +4,8 @@ glottocode: chah1248
 family: Afro-Asiatic
 macroarea: Africa
 sources:
-  transcription: kitchensemitic
-  cognates: felekesemitic
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,10 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.8176
+  forms_score: 0.6527
   cognates_score: 0.7
-  tier: bronze
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=kitchensemitic (0.82); cognates=felekesemitic (0.70) [cross-source:
-  emitted cognates still come from transcription_source]'
+notes: 'switched to kogansemitic as single Semitic source'

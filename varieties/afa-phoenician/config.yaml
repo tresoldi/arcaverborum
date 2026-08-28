@@ -4,8 +4,8 @@ glottocode: phoe1239
 family: Afro-Asiatic
 macroarea: Eurasia
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: kogansemitic
+  cognates: kogansemitic
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +13,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.2657
-  cognates_score: 0.1897
-  tier: copper
+  forms_score: 0.6384
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.27) [fallback p3]; cognates=wiktionary (0.19)'
+notes: 'switched to kogansemitic as single Semitic source'

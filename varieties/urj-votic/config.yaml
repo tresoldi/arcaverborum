@@ -4,8 +4,10 @@ glottocode: voti1245
 family: Uralic
 macroarea: Eurasia
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: uralex
+  cognates: uralex
+  source_glottocode: west2391
+  source_language_id: uralex_votic_western
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +15,9 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.3934
-  cognates_score: 0.3236
-  tier: copper
+  forms_score: 0.7473
+  cognates_score: 0.7
+  tier: silver
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.39) [fallback p3]; cognates=wiktionary (0.32)'
+notes: 'switched to uralex via source_glottocode west2391 (votic_western)'
