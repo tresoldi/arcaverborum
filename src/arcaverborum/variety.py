@@ -27,6 +27,7 @@ import pandas as pd
 import yaml
 
 from arcaverborum.catalog import Variety
+from arcaverborum.fsutil import atomic_path, write_text_atomic
 from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load_parameter_index
 from arcaverborum.concepts import load_concept_maps
 from arcaverborum.intake_db import IntakeDB
@@ -187,7 +188,7 @@ def register(
         "registered_on": date.today().isoformat(),
         "notes": notes,
     }
-    with vd.config_path.open("w", encoding="utf-8") as f:
+    with atomic_path(vd.config_path) as tmp, tmp.open("w", encoding="utf-8") as f:
         yaml.safe_dump(config, f, sort_keys=False, allow_unicode=True)
 
     if scaffold_custom:
@@ -536,8 +537,7 @@ def build_one(
             logger.info("Fallback to %s for %s (%d forms)", FALLBACK_SOURCE, av_id, len(df))
 
     if df.empty and not vd.custom_path("forms.csv").exists():
-        vd.generated_forms.parent.mkdir(parents=True, exist_ok=True)
-        vd.generated_forms.write_text(",".join(FORMS_OUT_FIELDS) + "\n", encoding="utf-8")
+        write_text_atomic(vd.generated_forms, ",".join(FORMS_OUT_FIELDS) + "\n")
         return 0
 
     df, profile = apply_overlays(df, vd)
@@ -562,9 +562,9 @@ def build_one(
         concept_index, concept_labels, profile,
     ))
 
-    vd.generated_forms.parent.mkdir(parents=True, exist_ok=True)
     out_df = pd.DataFrame(out_rows, columns=list(FORMS_OUT_FIELDS))
-    out_df.to_csv(vd.generated_forms, index=False)
+    with atomic_path(vd.generated_forms) as tmp:
+        out_df.to_csv(tmp, index=False)
     logger.info("Built %s: %d forms → %s", av_id, len(out_rows), vd.generated_forms)
     return len(out_rows)
 
@@ -590,7 +590,7 @@ def update_config_extension_flags(vd: VarietyDir) -> None:
         return
 
     config["extensions"] = new_flags
-    with vd.config_path.open("w", encoding="utf-8") as f:
+    with atomic_path(vd.config_path) as tmp, tmp.open("w", encoding="utf-8") as f:
         yaml.safe_dump(config, f, sort_keys=False, allow_unicode=True)
 
 
@@ -672,6 +672,7 @@ def update_many(
             src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
             gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
             wanted.add((gc.lower(), (cfg.get("sources") or {}).get("transcription", "")))
+            wanted.add((gc.lower(), FALLBACK_SOURCE))  # see _slice_component
         # Few varieties: one indexed query per slice. Many: one sequential
         # scan is cheaper. Both give the same digest for every wanted key.
         slice_hashes = tracking.compute_slice_hashes_from_db(
@@ -693,8 +694,7 @@ def update_many(
             continue
         src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
         gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
-        ts = (cfg.get("sources") or {}).get("transcription", "")
-        slice_h = slice_hashes.get((gc.lower(), ts), "")
+        slice_h = _slice_component(cfg, gc, slice_hashes)
         digest, components = tracking.fingerprint(
             tracking.config_component(cfg),
             tracking.custom_component(vd.custom_dir),
@@ -768,6 +768,24 @@ def update_many(
     logger.info("Done: %d built (%d forms), %d skipped (unchanged), %d failed",
                 built, total_forms, skipped, failed)
     return {"built": built, "total_forms": total_forms, "skipped": skipped, "failed": failed}
+
+
+def _slice_component(cfg: dict, gc: str, slice_hashes: dict[tuple[str, str], str]) -> str:
+    """The intake rows a variety's build can read, as one tracking component.
+
+    That is its (glottocode, transcription source) slice and, whenever
+    `build_one` might fall back to GLED, the GLED slice too: when the
+    primary slice is empty, or when a source_language_id filter could
+    empty it. Without this, a GLED-fallback variety did not notice GLED
+    changes.
+    """
+    sources = cfg.get("sources") or {}
+    ts = sources.get("transcription", "")
+    primary = slice_hashes.get((gc.lower(), ts), "")
+    lid = str(sources.get("source_language_id", "") or "").strip()
+    if ts != FALLBACK_SOURCE and (not primary or lid):
+        return f"{primary}|{FALLBACK_SOURCE}:{slice_hashes.get((gc.lower(), FALLBACK_SOURCE), '')}"
+    return primary
 
 
 def open_intake_db(db_path: Path, forms_paths: list[Path]) -> IntakeDB:

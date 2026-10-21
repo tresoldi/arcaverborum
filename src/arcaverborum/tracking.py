@@ -7,9 +7,10 @@ A variety's `generated/forms.csv` is a pure function of four inputs:
             rewrites after every build.
   custom    the four custom/*.csv override files (raw bytes).
   slice     the variety's own intake rows (Glottocode × transcription
-            source), with Concepticon resolution folded in so a change to
-            parameters_raw.csv that touches this variety's concepts also
-            shows up here.
+            source), in intake order, with Concepticon resolution folded
+            in so a change to parameters_raw.csv that touches this
+            variety's concepts also shows up here. When the build may fall
+            back to GLED, the GLED slice is included as well.
   recipe    the transform code (variety.py, phonology.py, aggregate.py),
             score weights, and the merkmal version.
 
@@ -32,6 +33,8 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+
+from arcaverborum.fsutil import write_text_atomic
 
 logger = logging.getLogger(__name__)
 
@@ -113,8 +116,8 @@ def compute_intake_slice_hashes(
 ) -> dict[tuple[str, str], str]:
     """One pass over the full intake → {(glottocode_lc, Dataset): slice_hash}.
 
-    The slice hash is order-independent of intake row order (rows are
-    sorted by ID before hashing) and folds in the resolved Concepticon
+    The slice hash follows intake row order, as `build_one` does (its
+    output keeps that order), and folds in the resolved Concepticon
     ID/Gloss, mirroring exactly the inputs `build_one` reads for a
     variety's (Glottocode, transcription-source) slice.
     """
@@ -144,7 +147,7 @@ def compute_intake_slice_hashes(
         "id": df.get("ID", empty).astype(str).to_numpy(),
         "h": row_h,
     })
-    keyer.sort_values(["gc", "ds", "id"], kind="stable", inplace=True)
+    keyer.sort_values(["gc", "ds"], kind="stable", inplace=True)
 
     out: dict[tuple[str, str], str] = {}
     for (gcode, dataset), grp in keyer.groupby(["gc", "ds"], sort=False):
@@ -212,7 +215,6 @@ def compute_slice_hashes_from_files(
     out: dict[tuple[str, str], str] = {}
     for key, arrays in buckets.items():
         all_h = np.concatenate(arrays)
-        all_h.sort()
         digest = hashlib.sha1(all_h.tobytes()).hexdigest()[:16]
         out[key] = f"{digest}:{len(all_h)}"
     return out
@@ -252,7 +254,6 @@ def compute_slice_hashes_from_db(
     out: dict[tuple[str, str], str] = {}
     for key, arrays in buckets.items():
         all_h = np.concatenate(arrays)
-        all_h.sort()
         digest = hashlib.sha1(all_h.tobytes()).hexdigest()[:16]
         out[key] = f"{digest}:{len(all_h)}"
     return out
@@ -308,9 +309,7 @@ def write_manifest(
         "built_on": datetime.now().isoformat(timespec="seconds"),
         "components": components,
     }
-    manifest_path(generated_dir).write_text(
-        json.dumps(data, indent=2), encoding="utf-8"
-    )
+    write_text_atomic(manifest_path(generated_dir), json.dumps(data, indent=2))
 
 
 def is_fresh(generated_dir: Path, digest: str, forms_path: Path) -> bool:

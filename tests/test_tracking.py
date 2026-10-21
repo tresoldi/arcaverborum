@@ -72,12 +72,15 @@ def test_slice_hash_per_variety_and_source():
     assert hashes[("abcd1234", "alpha")] != hashes[("abcd1234", "beta")]
 
 
-def test_slice_hash_order_independent():
+def test_slice_hash_follows_intake_order():
+    # build_one emits rows in intake order, so reordering changes the output
+    # and must change the hash.
     forward = tracking.compute_intake_slice_hashes(_intake(_BASE_ROWS), _PARAM_INDEX)
     reversed_ = tracking.compute_intake_slice_hashes(
         _intake(list(reversed(_BASE_ROWS))), _PARAM_INDEX
     )
-    assert forward[("abcd1234", "alpha")] == reversed_[("abcd1234", "alpha")]
+    assert forward[("abcd1234", "alpha")] != reversed_[("abcd1234", "alpha")]
+    assert forward[("abcd1234", "beta")] == reversed_[("abcd1234", "beta")]
 
 
 def test_slice_hash_reacts_to_content_change():
@@ -119,3 +122,63 @@ def test_manifest_roundtrip_and_freshness(tmp_path: Path):
     assert loaded["fingerprint"] == digest
     assert loaded["n_forms"] == 2
     assert loaded["components"] == components
+
+
+def test_slice_component_tracks_gled_when_fallback_possible():
+    from arcaverborum.variety import FALLBACK_SOURCE, _slice_component
+
+    hashes = {("abcd1234", "alpha"): "p:3", ("abcd1234", FALLBACK_SOURCE): "g:5"}
+    changed = {**hashes, ("abcd1234", FALLBACK_SOURCE): "g:6"}
+    cfg = {"sources": {"transcription": "alpha"}}
+    # A non-empty primary slice and no Language_ID filter: GLED cannot be used.
+    assert _slice_component(cfg, "ABCD1234", hashes) == "p:3"
+    assert _slice_component(cfg, "abcd1234", changed) == "p:3"
+    # An empty primary slice falls back to GLED, so GLED is tracked.
+    empty = {k: v for k, v in hashes.items() if k[1] != "alpha"}
+    empty_changed = {k: v for k, v in changed.items() if k[1] != "alpha"}
+    assert _slice_component(cfg, "abcd1234", empty) != _slice_component(cfg, "abcd1234", empty_changed)
+    # A Language_ID filter may empty the primary slice: GLED is tracked too.
+    cfg_lid = {"sources": {"transcription": "alpha", "source_language_id": "x"}}
+    assert _slice_component(cfg_lid, "abcd1234", hashes) != _slice_component(cfg_lid, "abcd1234", changed)
+    # A GLED-sourced variety tracks its slice once.
+    cfg_gled = {"sources": {"transcription": FALLBACK_SOURCE}}
+    assert _slice_component(cfg_gled, "abcd1234", hashes) == "g:5"
+
+
+def test_write_manifest_is_atomic(tmp_path, monkeypatch):
+    import json as _json
+
+    gen = tmp_path / "generated"
+    tracking.write_manifest(gen, "old", {"config": "c"}, 1)
+    before = tracking.manifest_path(gen).read_text(encoding="utf-8")
+
+    def boom(*a, **k):
+        raise OSError("disk full")
+
+    monkeypatch.setattr(_json, "dumps", boom)
+    try:
+        tracking.write_manifest(gen, "new", {"config": "c"}, 2)
+    except OSError:
+        pass
+    monkeypatch.undo()
+    assert tracking.manifest_path(gen).read_text(encoding="utf-8") == before
+    assert [p.name for p in gen.iterdir()] == [tracking.MANIFEST_NAME]
+
+
+def test_atomic_path_keeps_old_file_on_failure(tmp_path):
+    from arcaverborum.fsutil import atomic_path
+
+    target = tmp_path / "forms.csv"
+    target.write_text("old\n", encoding="utf-8")
+    try:
+        with atomic_path(target) as tmp:
+            tmp.write_text("half", encoding="utf-8")
+            raise RuntimeError("interrupted")
+    except RuntimeError:
+        pass
+    assert target.read_text(encoding="utf-8") == "old\n"
+    assert [p.name for p in tmp_path.iterdir()] == ["forms.csv"]
+    with atomic_path(target) as tmp:
+        tmp.write_text("new\n", encoding="utf-8")
+    assert target.read_text(encoding="utf-8") == "new\n"
+    assert oct(target.stat().st_mode & 0o777) != oct(0o600)
