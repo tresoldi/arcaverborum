@@ -42,6 +42,7 @@ INTAKE_DIR = PROJECT_ROOT / "intake"
 VARIETIES_DIR = PROJECT_ROOT / "varieties"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 DATASETS_CSV = PROJECT_ROOT / "datasets.csv"
+INTAKE_DB = INTAKE_DIR / "intake.sqlite"
 
 
 def _intake_paths(source: str = "lexibank") -> dict[str, Path]:
@@ -187,7 +188,19 @@ def cmd_update(args: argparse.Namespace) -> int:
         intake_parameters_paths=combined["parameters"],
         intake_languages_paths=combined["languages"],
         force=args.force,
+        intake_db=None if args.csv else Path(args.intake_db),
     )
+    return 0
+
+
+def cmd_intake_db(args: argparse.Namespace) -> int:
+    from arcaverborum.intake_db import build_intake_db
+    from arcaverborum.variety import _INTAKE_USECOLS
+
+    combined = _combined_intake()
+    stats = build_intake_db(combined["forms"], Path(args.intake_db), _INTAKE_USECOLS,
+                            cache_mib=args.cache_mib)
+    logger.info("intake-db: %d rows → %s", stats["rows"], args.intake_db)
     return 0
 
 
@@ -427,7 +440,16 @@ def main(argv: list[str] | None = None) -> int:
     p_up.add_argument("--macroarea", default=None)
     p_up.add_argument("--force", action="store_true",
                       help="Rebuild even when the fingerprint is unchanged")
+    p_up.add_argument("--intake-db", default=str(INTAKE_DB),
+                      help="SQLite intake store (built/refreshed automatically)")
+    p_up.add_argument("--csv", action="store_true",
+                      help="Read the intake CSVs directly (legacy in-memory path)")
     p_up.set_defaults(fn=cmd_update)
+
+    p_idb = sub.add_parser("intake-db", help="Load intake/*/forms.csv into the SQLite intake store")
+    p_idb.add_argument("--intake-db", default=str(INTAKE_DB))
+    p_idb.add_argument("--cache-mib", type=int, default=64)
+    p_idb.set_defaults(fn=cmd_intake_db)
 
     p_pkt = sub.add_parser("packet",
                            help="Scaffold recipe.yaml + PACKET.md (authority recipe/curation packet)")

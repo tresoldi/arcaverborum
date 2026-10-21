@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import csv
 import logging
+import sqlite3
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -28,6 +29,7 @@ import yaml
 from arcaverborum.catalog import Variety
 from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load_parameter_index
 from arcaverborum.concepts import load_concept_maps
+from arcaverborum.intake_db import IntakeDB
 from arcaverborum.phonology import load_profile, normalize_segments
 
 logger = logging.getLogger(__name__)
@@ -45,6 +47,7 @@ _INTAKE_USECOLS = frozenset({
 
 _INTAKE_CHUNKSIZE = 200_000
 _VARIETY_BATCH_SIZE = 500
+_KEYED_HASH_MAX = 1000  # intake-DB path: per-slice hashing below this many slices
 
 
 CUSTOM_TRANSCRIPTION_FIELDS = (
@@ -467,7 +470,7 @@ def emit_forms(
 def build_one(
     av_id: str,
     varieties_root: Path,
-    intake_forms: Path | pd.DataFrame,
+    intake_forms: Path | pd.DataFrame | IntakeDB,
     catalog: dict[str, Variety],
     parameters_path: Path | None = None,
     param_index: dict[str, tuple[str, str]] | None = None,
@@ -496,7 +499,9 @@ def build_one(
     if concept_index is None or concept_labels is None:
         concept_index, concept_labels = load_concept_maps()
 
-    if isinstance(intake_forms, pd.DataFrame):
+    if isinstance(intake_forms, IntakeDB):
+        df = intake_forms.slice(gc, transcription_source)
+    elif isinstance(intake_forms, pd.DataFrame):
         df = intake_forms
         if "_glottocode_lc" in df.columns:
             df = df[(df["_glottocode_lc"] == gc) & (df["Dataset"] == transcription_source)].copy()
@@ -512,8 +517,10 @@ def build_one(
         df = df[df["Language_ID"].astype(str).str.strip() == source_language_id].copy()
 
     used_fallback = False
-    if df.empty and transcription_source != FALLBACK_SOURCE and isinstance(intake_forms, pd.DataFrame):
-        if "_glottocode_lc" in intake_forms.columns:
+    if df.empty and transcription_source != FALLBACK_SOURCE and isinstance(intake_forms, (pd.DataFrame, IntakeDB)):
+        if isinstance(intake_forms, IntakeDB):
+            fb = intake_forms.slice(gc, FALLBACK_SOURCE)
+        elif "_glottocode_lc" in intake_forms.columns:
             fb = intake_forms[(intake_forms["_glottocode_lc"] == gc)
                               & (intake_forms["Dataset"] == FALLBACK_SOURCE)].copy()
         else:
@@ -620,6 +627,7 @@ def update_many(
     intake_parameters_paths: list[Path],
     intake_languages_paths: list[Path],
     force: bool = False,
+    intake_db: Path | None = None,
 ) -> dict:
     """Load shared context once, then build every stale variety.
 
@@ -649,7 +657,28 @@ def update_many(
     recipe = tracking.recipe_hash()
 
     existing_paths = [p for p in intake_forms_paths if p.exists()]
-    slice_hashes = tracking.compute_slice_hashes_from_files(existing_paths, param_index)
+    db: IntakeDB | None = None
+    if intake_db is not None and existing_paths:
+        db = open_intake_db(intake_db, existing_paths)
+        wanted: set[tuple[str, str]] = set()
+        for av_id in av_ids:
+            vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+            if not vd.exists():
+                continue
+            try:
+                cfg = load_config(vd)
+            except Exception:
+                continue
+            src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
+            gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+            wanted.add((gc.lower(), (cfg.get("sources") or {}).get("transcription", "")))
+        # Few varieties: one indexed query per slice. Many: one sequential
+        # scan is cheaper. Both give the same digest for every wanted key.
+        slice_hashes = tracking.compute_slice_hashes_from_db(
+            db, param_index, keys=wanted if len(wanted) <= _KEYED_HASH_MAX else None,
+        )
+    else:
+        slice_hashes = tracking.compute_slice_hashes_from_files(existing_paths, param_index)
     logger.info("Computed slice hashes for %d (glottocode, dataset) groups", len(slice_hashes))
 
     stale: list[tuple[str, str, dict]] = []
@@ -678,6 +707,15 @@ def update_many(
         stale.append((av_id, digest, components))
 
     logger.info("Stale: %d varieties to build, %d skipped (unchanged)", len(stale), skipped)
+
+    if db is not None:
+        try:
+            return _build_stale_from_db(
+                stale, skipped, varieties_root, db, catalog,
+                param_index, concept_index, concept_labels,
+            )
+        finally:
+            db.close()
 
     gc_to_avids: dict[str, list[tuple[str, str, dict]]] = {}
     for av_id, digest, components in stale:
@@ -730,3 +768,66 @@ def update_many(
     logger.info("Done: %d built (%d forms), %d skipped (unchanged), %d failed",
                 built, total_forms, skipped, failed)
     return {"built": built, "total_forms": total_forms, "skipped": skipped, "failed": failed}
+
+
+def open_intake_db(db_path: Path, forms_paths: list[Path]) -> IntakeDB:
+    """Open the intake DB, (re)building it first when missing or stale."""
+    from arcaverborum.intake_db import build_intake_db
+
+    db_path = Path(db_path)
+    try:
+        db = IntakeDB(db_path)
+    except FileNotFoundError:
+        logger.info("Intake DB %s missing; building", db_path)
+    except (sqlite3.Error, ValueError, KeyError) as exc:
+        logger.warning("Intake DB %s unreadable (%s); rebuilding", db_path, exc)
+    else:
+        if db.is_current(forms_paths):
+            return db
+        db.close()
+        logger.info("Intake DB %s is stale; rebuilding", db_path)
+    build_intake_db(forms_paths, db_path, _INTAKE_USECOLS)
+    return IntakeDB(db_path)
+
+
+def _build_stale_from_db(
+    stale: list[tuple[str, str, dict]],
+    skipped: int,
+    varieties_root: Path,
+    db: IntakeDB,
+    catalog: dict[str, Variety],
+    param_index: dict[str, tuple[str, str]],
+    concept_index: dict[str, tuple[str, str]],
+    concept_labels: dict[str, str],
+) -> dict:
+    """Build each stale variety, reading its slice from the intake DB."""
+    from arcaverborum import tracking
+
+    total_forms = built = failed = 0
+    for processed, (av_id, digest, components) in enumerate(stale, start=1):
+        vd = VarietyDir(av_id=av_id, root=varieties_root / av_id)
+        try:
+            n = build_one(
+                av_id=av_id,
+                varieties_root=varieties_root,
+                intake_forms=db,
+                catalog=catalog,
+                param_index=param_index,
+                concept_index=concept_index,
+                concept_labels=concept_labels,
+            )
+            update_config_extension_flags(vd)
+            tracking.write_manifest(vd.generated_dir, digest, components, n)
+            total_forms += n
+            built += 1
+        except Exception as exc:
+            failed += 1
+            logger.error("Failed to build %s: %s", av_id, exc)
+        if processed % 200 == 0:
+            logger.info("Progress: %d/%d (built %d, skipped %d)",
+                        processed, len(stale), built, skipped)
+
+    logger.info("Done: %d built (%d forms), %d skipped (unchanged), %d failed",
+                built, total_forms, skipped, failed)
+    return {"built": built, "total_forms": total_forms, "skipped": skipped, "failed": failed}
+

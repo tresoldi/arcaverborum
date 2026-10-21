@@ -39,7 +39,7 @@ MANIFEST_NAME = "build_manifest.json"
 
 _PKG_DIR = Path(__file__).resolve().parent
 _RECIPE_FILES = (
-    "variety.py", "phonology.py", "aggregate.py", "forms_schema.py", "concepts.py",
+    "variety.py", "intake_db.py", "phonology.py", "aggregate.py", "forms_schema.py", "concepts.py",
     "data/score_weights.yaml",
     # The frozen concept catalog: re-curating a label/field/id rebuilds the
     # forms that resolve through it.
@@ -208,6 +208,46 @@ def compute_slice_hashes_from_files(
             keyer = _hash_chunk(chunk, cid_map, gloss_map)
             for (gcode, dataset), grp in keyer.groupby(["gc", "ds"], sort=False):
                 buckets[(str(gcode), str(dataset))].append(grp["h"].to_numpy())
+
+    out: dict[tuple[str, str], str] = {}
+    for key, arrays in buckets.items():
+        all_h = np.concatenate(arrays)
+        all_h.sort()
+        digest = hashlib.sha1(all_h.tobytes()).hexdigest()[:16]
+        out[key] = f"{digest}:{len(all_h)}"
+    return out
+
+
+def compute_slice_hashes_from_db(
+    db,
+    param_index: dict[str, tuple[str, str]],
+    chunksize: int = 200_000,
+    keys: set[tuple[str, str]] | None = None,
+) -> dict[tuple[str, str], str]:
+    """`compute_slice_hashes_from_files`, reading an `intake_db.IntakeDB`.
+
+    Same per-row hashing (`_hash_chunk`) over the same values, so the
+    digests are identical to the CSV-streaming version. With *keys*, only
+    those (glottocode_lc, Dataset) slices are read (one indexed query
+    each); keys with no rows are absent from the result, as before.
+    """
+    # As Series, built once: `Series.map(dict)` rebuilds a Series from the
+    # dict on every call, which dominates when hashing thousands of small
+    # slices. The mapping result is the same.
+    cid_map = pd.Series({p: v[0] for p, v in param_index.items()}, dtype=object)
+    gloss_map = pd.Series({p: v[1] for p, v in param_index.items()}, dtype=object)
+
+    buckets: dict[tuple[str, str], list[np.ndarray]] = defaultdict(list)
+    if keys is not None:
+        chunks = (db.slice(gc, ds) for gc, ds in sorted(keys, key=repr))
+    else:
+        chunks = db.iter_chunks(chunksize)
+    for chunk in chunks:
+        if chunk.empty:
+            continue
+        keyer = _hash_chunk(chunk, cid_map, gloss_map)
+        for (gcode, dataset), grp in keyer.groupby(["gc", "ds"], sort=False):
+            buckets[(str(gcode), str(dataset))].append(grp["h"].to_numpy())
 
     out: dict[tuple[str, str], str] = {}
     for key, arrays in buckets.items():
