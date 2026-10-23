@@ -14,6 +14,18 @@ Start with the root `README.md` for the project overview and
   curation workflow: authority recipes, curation packets, Arca-derived
   layers, computed cognates, tier metadata, source-policy direction, and
   pilot scope.
+* `coverage_recovery_2026-10-23.csv` records the review of 34 apparently
+  unregistered lexical-source slices, including accepted additions,
+  duplicate samples, family-level identifiers, and unresolved identities.
+  Language-specific profile decisions and pronunciation evidence live in
+  each variety's `PACKET.md` and `recipe.yaml`.
+
+Run `python scripts/audit_coverage.py` after refreshing the intake store to
+rank remaining alternatives to GLED. Its metrics describe uncorrected intake,
+so inspect curation packets and applied profiles before accepting a source.
+For Galician, `scripts/galician_dictionary.py` records exact dictionary
+pronunciation evidence and produces a dictionary-only profile; unresolved
+spellings remain unclean rather than receiving guessed pronunciations.
 
 ## Reading Order
 

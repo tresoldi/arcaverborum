@@ -1,0 +1,56 @@
+av_id: mix-jitotolteco
+name: Jitotolteco
+review:
+  status: draft
+  reviewer: ''
+  date: ''
+quality:
+  tier: bronze
+  forms_score: 0.9885
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Register an attested variety omitted from the frozen registry and existing
+    configs; identity confirmed against the cached Glottolog language/dialect entry
+    and the single named source language.
+  lexical_base:
+    source: mixezoqueanvoices
+    rationale: Register an attested variety omitted from the frozen registry and existing
+      configs; identity confirmed against the cached Glottolog language/dialect entry
+      and the single named source language.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: The source contains primary recordings and phonetic transcriptions, but
+      supplies no comparative cognacy annotations. No GLED cognate IDs are transferred
+      onto its forms.
+  concepts:
+    mapping: source
+    core_coverage: 134/161
+    notes: 196/196 forms mapped; 196 distinct concepts.
+  cognates:
+    source: mixezoqueanvoices
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 100%
+    notes: ''
+candidates:
+- source: mixezoqueanvoices
+  coverage: partial
+  verdict: used
+  reason: Register an attested variety omitted from the frozen registry and existing
+    configs; identity confirmed against the cached Glottolog language/dialect entry
+    and the single named source language.
+provenance:
+  bibliography:
+  - mixezoqueanvoices_Kondic2023
+  source_url: https://github.com/lexibank/mixezoqueanvoices
+tradeoffs:
+  gains: 134 core concepts, 134 with source-clean forms.
+  known_losses: No accepted construction replaced.
+notes: Source identity and machine diagnostics reviewed 2026-10-23; specialist review
+  pending. See PACKET.md.

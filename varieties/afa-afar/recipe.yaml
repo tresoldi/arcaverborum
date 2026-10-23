@@ -1,0 +1,52 @@
+av_id: afa-afar
+name: Afar
+review:
+  status: draft
+  reviewer: ''
+  date: ''
+quality:
+  tier: bronze
+  forms_score: 0.913
+  cognates_score: 0.083
+  pinned: true
+construction:
+  summary: Wiktionary with a broad Afar Latin-script profile; specialist review pending.
+  lexical_base:
+    source: wiktionary
+    rationale: 62 core concepts versus 37 in GLED; gains and losses in PACKET.md.
+  transcription:
+    strategy: profile
+    profile: custom/profile.tsv
+    overrides: none
+    notes: 240 profile-derived forms, 1 unclean; only explicitly marked high pitch
+      represented; contextual allophony not inferred.
+  concepts:
+    mapping: source
+    core_coverage: 62/161
+    notes: 183/241 forms mapped; 169 distinct concepts.
+  cognates:
+    source: wiktionary
+    method: source
+    computed: none
+    notes: 50 Wiktionary etymology annotations; not expert comparative judgments.
+  loans:
+    handling: source
+    annotated: 13%
+    notes: ''
+candidates:
+- source: wiktionary
+  coverage: partial
+  verdict: used
+  reason: 62/161 core concepts with a language-specific profile.
+- source: gled
+  coverage: partial
+  verdict: not used
+  reason: Only 37 core concepts; 9 absent from Wiktionary.
+provenance:
+  bibliography:
+  - wiktionary_kaikki2026
+tradeoffs:
+  gains: 34 additional core concepts; 169 mapped concepts in total.
+  known_losses: 9 core concepts and GLED cognacy coverage; only broad segmental transcription
+    plus explicitly marked high pitch.
+notes: Evidence, score method, linguistic limitations, and follow-up are in PACKET.md.

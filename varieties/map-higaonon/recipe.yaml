@@ -1,0 +1,41 @@
+av_id: map-higaonon
+name: Higaonon
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-23'
+construction:
+  summary: Retain GLED while the Wiktionary orthographic proposal undergoes dialect
+    and vowel review.
+  lexical_base:
+    source: gled
+    rationale: Wiktionary coverage improves but transcription evidence is insufficient
+      for a general profile.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: Proposal at proposals/profile.tsv is advisory only; do not consume as accepted
+      IPA.
+  concepts:
+    mapping: source
+    core_coverage: 37/161
+  cognates:
+    source: gled
+    method: source
+    computed: none
+candidates:
+- source: gled
+  verdict: used
+  coverage: partial
+  reason: Current accepted source.
+- source: wiktionary
+  verdict: not used
+  coverage: partial
+  reason: 98 core concepts available; central vowels and glottal notation require
+    source-specific review.
+tradeoffs:
+  gains: Potential 71 additional core concepts after transcription review.
+  known_losses: Switching would lose ten current core concepts and change cognacy
+    basis.
+notes: No accepted source change; see PACKET.md.

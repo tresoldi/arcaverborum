@@ -235,6 +235,12 @@ def _apply_concept_map(forms: pd.DataFrame, concept_map: pd.DataFrame) -> pd.Dat
         return forms
 
     forms = forms.copy()
+    # Intake may carry only parameter IDs, with Concepticon resolved later.
+    # Ensure mapped rows do not introduce NaN columns into untouched rows
+    # when pandas combines the Series returned by apply below.
+    for column in ("Concepticon_ID", "Concepticon_Gloss"):
+        if column not in forms.columns:
+            forms[column] = ""
     if "_concept_id_override" not in forms.columns:
         forms["_concept_id_override"] = ""
 

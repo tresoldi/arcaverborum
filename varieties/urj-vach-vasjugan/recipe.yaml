@@ -1,0 +1,57 @@
+av_id: urj-vach-vasjugan
+name: Vach-Vasjugan
+review:
+  status: draft
+  reviewer: ''
+  date: ''
+quality:
+  tier: bronze
+  forms_score: 0.9003
+  cognates_score: 0.7
+  pinned: true
+construction:
+  summary: Register an attested variety omitted from the frozen registry and existing
+    configs; identity confirmed against the cached Glottolog language/dialect entry
+    and the single named source language.
+  lexical_base:
+    source: uralex
+    rationale: Register an attested variety omitted from the frozen registry and existing
+      configs; identity confirmed against the cached Glottolog language/dialect entry
+      and the single named source language.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 85 forms retain unclean source segments. These include transcription tokenization/diacritic
+      issues that require separate review; the 292 validated forms cover 121 core
+      concepts. UraLex source cognacy remains marked expert. This is the tresoldi
+      IPA-conversion fork, not an unmodified upstream release.
+  concepts:
+    mapping: source
+    core_coverage: 150/161
+    notes: 377/377 forms mapped; 307 distinct concepts.
+  cognates:
+    source: uralex
+    method: expert
+    computed: none
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ''
+candidates:
+- source: uralex
+  coverage: partial
+  verdict: used
+  reason: Register an attested variety omitted from the frozen registry and existing
+    configs; identity confirmed against the cached Glottolog language/dialect entry
+    and the single named source language.
+provenance:
+  bibliography:
+  - uralex_DEWbOstj
+  source_url: https://github.com/tresoldi/uralex
+tradeoffs:
+  gains: 150 core concepts, 121 with source-clean forms.
+  known_losses: No accepted construction replaced.
+notes: Source identity and machine diagnostics reviewed 2026-10-23; specialist review
+  pending. See PACKET.md.

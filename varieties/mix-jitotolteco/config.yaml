@@ -1,0 +1,23 @@
+av_id: mix-jitotolteco
+name: Jitotolteco
+glottocode: jito1235
+family: Mixe-Zoque
+macroarea: North America
+sources:
+  transcription: mixezoqueanvoices
+  cognates: mixezoqueanvoices
+  source_language_id: mixezoqueanvoices_Jitotol
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.9885
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-23'
+notes: 'Reviewed coverage recovery (2026-10-23): mixezoqueanvoices, mixezoqueanvoices_Jitotol;
+  source transcription retained, expert status only where supplied. See PACKET.md.'

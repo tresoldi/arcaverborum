@@ -114,7 +114,9 @@ def load_profile(path) -> dict[str, str]:
     A grapheme is any orthographic substring (a letter, a digraph, or a
     whole word for hard-coded forms); its IPA value is the (possibly
     space-separated, possibly empty for a deletion) segment string it maps
-    to. Returns ``{}`` when the file is absent or has only a header.
+    to. A key ``^word$`` is an exact whole-form mapping; it is never used
+    as a substring rule. Returns ``{}`` when the file is absent or has only
+    a header.
     """
     from pathlib import Path
 
@@ -139,6 +141,11 @@ def load_profile(path) -> dict[str, str]:
 def apply_profile(form: str, profile: dict[str, str]) -> tuple[str, bool]:
     """Greedy longest-match segmentation of ``form`` against ``profile``.
 
+    A key ``^word$`` matches only the complete NFC-normalized form ``word``
+    and takes precedence over ordinary grapheme rules. Anchored keys are
+    excluded from greedy substring matching, so a dictionary-only profile
+    cannot silently transcribe unknown compounds by joining known words.
+
     Returns (space-joined IPA segments, fully_covered). A grapheme mapping
     to an empty IPA deletes that orthographic unit. Whitespace not claimed
     by an explicit profile rule becomes a word-boundary token ``_`` (multi-
@@ -148,6 +155,13 @@ def apply_profile(form: str, profile: dict[str, str]) -> tuple[str, bool]:
     if not form or not profile:
         return "", False
     form = unicodedata.normalize("NFC", form)
+    exact = f"^{form}$"
+    if exact in profile:
+        return _SPACES_RE.sub(" ", profile[exact]).strip(), True
+    profile = {g: ipa for g, ipa in profile.items()
+               if not (g.startswith("^") and g.endswith("$"))}
+    if not profile:
+        return "", False
     max_len = max(len(g) for g in profile)
     out: list[str] = []
     covered = True

@@ -155,6 +155,14 @@ Small fixes can live in `varieties/<av_id>/custom/*`:
 * `concept_map.csv` fixes source parameter-to-concept mapping;
 * `profile.tsv` maps orthographic graphemes to IPA.
 
+Profiles use greedy longest-match grapheme rules. A key such as `^word$`
+instead matches the entire form exactly and takes precedence over grapheme
+rules. Exact keys are excluded from substring matching: a dictionary-backed
+profile cannot accidentally pronounce unknown compounds by concatenating
+known headwords. Store pronunciation evidence and unresolved cases alongside
+the curation packet. Profile coverage validates the chosen transcription
+convention; it does not recover contrasts the spelling leaves unspecified.
+
 Heavy correction or newly authored data should graduate into a named
 Arca-derived layer once the data's scholarly identity is effectively Arca's
 construction rather than the upstream source alone.

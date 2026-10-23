@@ -4,18 +4,20 @@ glottocode: soma1255
 family: Afro-Asiatic
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
-  profile: false
+  profile: true
 scoring:
-  forms_score: 0.7616
-  cognates_score: 0.6
-  tier: copper
-pinned: false
+  forms_score: 0.9128
+  cognates_score: 0.0671
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: 'Wiktionary orthographic-profile pilot (2026-10-23): broader core coverage;
+  broad segmental IPA only, no inferred tone or vowel harmony. Wiktionary etymologies
+  are not expert cognates. See PACKET.md.'

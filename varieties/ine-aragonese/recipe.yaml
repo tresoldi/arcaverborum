@@ -1,0 +1,56 @@
+av_id: ine-aragonese
+name: Aragonese
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-23'
+quality:
+  forms_score: 0.8485
+  cognates_score: 0.1332
+  tier: bronze
+  pinned: true
+construction:
+  summary: Wiktionary with a conservative broad segmental Aragonese profile; pilot
+    pending specialist review.
+  lexical_base:
+    source: wiktionary
+    rationale: 79 core concepts versus 38 in GLED; all 79 have profile-derived forms.
+  transcription:
+    strategy: profile
+    profile: custom/profile.tsv
+    overrides: none
+    notes: 1414 profile-derived forms; 96 unclean. No inferred stress, surface glides,
+      or dialect phonetics. 72 exact-form anchored rhotic exceptions; unknown initial-r
+      words fail conservatively.
+  concepts:
+    mapping: source
+    core_coverage: 79/161
+    notes: 604/1510 forms mapped; 468 distinct concepts.
+  cognates:
+    source: wiktionary
+    method: source
+    computed: none
+    notes: 503 source etymology annotations, not expert comparative judgments; no
+      GLED cognate transfer.
+  loans:
+    handling: source
+    annotated: 18%
+    notes: ''
+candidates:
+- source: wiktionary
+  coverage: partial
+  verdict: used
+  reason: Broader mapped vocabulary and core coverage with a conservative profile.
+- source: gled
+  coverage: partial
+  verdict: not used
+  reason: 38 core concepts; ten absent from Wiktionary are recorded in PACKET.md.
+provenance:
+  bibliography:
+  - wiktionary_kaikki2026
+tradeoffs:
+  gains: 51 additional core concepts; 468 mapped concepts overall.
+  known_losses: Ten GLED core concepts absent; no stress, glide realization or dialect-specific
+    phonetics; 96 unsupported forms remain unclean.
+notes: Evidence and limitations in PACKET.md. Forms score recomputed on profiled intake;
+  tier deliberately remains bronze.

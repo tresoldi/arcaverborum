@@ -1,0 +1,322 @@
+Grapheme	IPA	notes
+A	a
+AIX	a ʃ
+AR	a ɾ
+ARR	a r
+Aix	a ʃ
+Ar	a ɾ
+Arr	a r
+B	b
+BR	b ɾ
+Br	b ɾ
+C	k
+CE	θ e
+CH	tʃ
+CI	θ i
+CR	k ɾ
+Ce	θ e
+Ch	tʃ
+Ci	θ i
+Cr	k ɾ
+CÉ	θ e
+CÍ	θ i
+Cé	θ e
+Cí	θ i
+D	d
+DR	d ɾ
+Dr	d ɾ
+E	e
+EIX	e ʃ
+ER	e ɾ
+ERR	e r
+Eix	e ʃ
+Er	e ɾ
+Err	e r
+F	f
+FR	f ɾ
+Fr	f ɾ
+GA	ɡ a
+GL	ɡ l
+GM	ɡ m
+GN	ɡ n
+GO	ɡ o
+GR	ɡ ɾ
+GU	ɡ u
+GUE	ɡ e
+GUI	ɡ i
+GUÉ	ɡ e
+GUÍ	ɡ i
+Ga	ɡ a
+Gl	ɡ l
+Gm	ɡ m
+Gn	ɡ n
+Go	ɡ o
+Gr	ɡ ɾ
+Gu	ɡ u
+Gue	ɡ e
+Gui	ɡ i
+Gué	ɡ e
+Guí	ɡ i
+GÁ	ɡ a
+GÓ	ɡ o
+GÚ	ɡ u
+GÜ	ɡ u
+Gá	ɡ a
+Gó	ɡ o
+Gú	ɡ u
+Gü	ɡ u
+H		Silent h
+I	i
+IR	i ɾ
+IRR	i r
+Ir	i ɾ
+Irr	i r
+K	k
+KR	k ɾ
+Kr	k ɾ
+L	l
+LL	ʎ
+LR	l r
+Ll	ʎ
+Lr	l r
+M	m
+N	n
+NR	n r
+NY	ɲ
+Nr	n r
+Ny	ɲ
+O	o
+OIX	o ʃ
+OR	o ɾ
+ORR	o r
+Oix	o ʃ
+Or	o ɾ
+Orr	o r
+P	p
+PR	p ɾ
+Pr	p ɾ
+QU	k u
+QUE	k e
+QUI	k i
+QUÉ	k e
+QUÍ	k i
+Qu	k u
+Que	k e
+Qui	k i
+Qué	k e
+Quí	k i
+QÜ	k u
+Qü	k u
+RR	r
+Rr	r
+S	s
+SR	s r
+Sr	s r
+T	t
+TR	t ɾ
+Tr	t ɾ
+U	u
+UIX	u ʃ
+UR	u ɾ
+URR	u r
+Uix	u ʃ
+Ur	u ɾ
+Urr	u r
+V	b
+Y	ʝ
+Z	θ
+^Antigua Republica Yugoslava de Macedonia$	a n t i ɡ u a _ r e p u b l i k a _ ʝ u ɡ o s l a b a _ d e _ m a θ e d o n i a
+^Cerdenya$	θ e ɾ d e ɲ a
+^Chinevra$	tʃ i n e b ɾ a
+^Gregorio$	ɡ ɾ e ɡ o ɾ i o
+^Imperio Ruso$	i m p e ɾ i o _ r u s o
+^Pulgaret$	p u l ɡ a ɾ e t
+^Rei Artús$	r e i _ a ɾ t u s
+^Republica Popular de Donetsk$	r e p u b l i k a _ p o p u l a ɾ _ d e _ d o n e t s k
+^Republica Popular de Lugansk$	r e p u b l i k a _ p o p u l a ɾ _ d e _ l u ɡ a n s k
+^República de Corea$	r e p u b l i k a _ d e _ k o ɾ e a
+^Rumanía$	r u m a n i a
+^Rusia$	r u s i a
+^Segorb$	s e ɡ o ɾ b
+^Unión de Republicas Socialistas Sovieticas$	u n i o n _ d e _ r e p u b l i k a s _ s o θ i a l i s t a s _ s o b i e t i k a s
+^acero$	a θ e ɾ o
+^agora$	a ɡ o ɾ a
+^algorismo$	a l ɡ o ɾ i s m o
+^altorribagorzano$	a l t o r i b a ɡ o ɾ θ a n o
+^amagar$	a m a ɡ a ɾ
+^bendicir$	b e n d i θ i ɾ
+^caixigar$	k a ʃ i ɡ a ɾ
+^canguro$	k a n ɡ u ɾ o
+^cerclo$	θ e ɾ k l o
+^cerval iberico$	θ e ɾ b a l _ i b e ɾ i k o
+^chudgar$	tʃ u d ɡ a ɾ
+^chugar$	tʃ u ɡ a ɾ
+^cáncer$	k a n θ e ɾ
+^decir$	d e θ i ɾ
+^esquirgüelo$	e s k i ɾ ɡ u e l o
+^fogar$	f o ɡ a ɾ
+^gorila$	ɡ o ɾ i l a
+^milano reyal$	m i l a n o _ r e ʝ a l
+^milano royo$	m i l a n o _ r o ʝ o
+^nana roya$	n a n a _ r o ʝ a
+^ongara$	o n ɡ a ɾ a
+^ongaro$	o n ɡ a ɾ o
+^plegar$	p l e ɡ a ɾ
+^pulgar$	p u l ɡ a ɾ
+^querer$	k e ɾ e ɾ
+^ra$	ɾ a
+^radar$	r a d a ɾ
+^radiz$	r a d i θ
+^rapideza$	r a p i d e θ a
+^ras$	ɾ a s
+^ratel$	r a t e l
+^rebiesta$	r e b i e s t a
+^reboluzión$	r e b o l u θ i o n
+^rechión$	r e tʃ i o n
+^regalo$	r e ɡ a l o
+^rei$	r e i
+^reina$	r e i n a
+^relativament$	r e l a t i b a m e n t
+^relichión$	r e l i tʃ i o n
+^reloch$	r e l o tʃ
+^republica$	r e p u b l i k a
+^res$	r e s
+^rete$	r e t e
+^revelar$	r e b e l a ɾ
+^reyal$	r e ʝ a l
+^rinozerón$	r i n o θ e ɾ o n
+^rinyón$	r i ɲ o n
+^riseta$	r i s e t a
+^ro$	ɾ o
+^roca sedimentaria$	r o k a _ s e d i m e n t a ɾ i a
+^ropa$	r o p a
+^ros$	ɾ o s
+^royo$	r o ʝ o
+^rueda$	r u e d a
+^ruello$	r u e ʎ o
+^río$	r i o
+^segar$	s e ɡ a ɾ
+^ye dicir$	ʝ e _ d i θ i ɾ
+a	a
+aix	a ʃ
+ar	a ɾ
+arr	a r
+b	b
+br	b ɾ
+c	k
+ce	θ e
+ch	tʃ
+ci	θ i
+cr	k ɾ
+cé	θ e
+cí	θ i
+d	d
+dr	d ɾ
+e	e
+eix	e ʃ
+er	e ɾ
+err	e r
+f	f
+fr	f ɾ
+ga	ɡ a
+gl	ɡ l
+gm	ɡ m
+gn	ɡ n
+go	ɡ o
+gr	ɡ ɾ
+gu	ɡ u
+gue	ɡ e
+gui	ɡ i
+gué	ɡ e
+guí	ɡ i
+gá	ɡ a
+gó	ɡ o
+gú	ɡ u
+gü	ɡ u
+h		Silent h
+i	i
+ir	i ɾ
+irr	i r
+k	k
+kr	k ɾ
+l	l
+ll	ʎ
+lr	l r
+m	m
+n	n
+nr	n r
+ny	ɲ
+o	o
+oix	o ʃ
+or	o ɾ
+orr	o r
+p	p
+pr	p ɾ
+qu	k u
+que	k e
+qui	k i
+qué	k e
+quí	k i
+qü	k u
+rr	r
+s	s
+sr	s r
+t	t
+tr	t ɾ
+u	u
+uix	u ʃ
+ur	u ɾ
+urr	u r
+v	b
+y	ʝ
+z	θ
+Á	a
+ÁR	a ɾ
+ÁRR	a r
+Ár	a ɾ
+Árr	a r
+É	e
+ÉR	e ɾ
+ÉRR	e r
+Ér	e ɾ
+Érr	e r
+Í	i
+ÍR	i ɾ
+ÍRR	i r
+Ír	i ɾ
+Írr	i r
+Ñ	ɲ
+Ó	o
+ÓR	o ɾ
+ÓRR	o r
+Ór	o ɾ
+Órr	o r
+Ú	u
+ÚR	u ɾ
+ÚRR	u r
+Úr	u ɾ
+Úrr	u r
+Ü	u
+ÜR	u ɾ
+ÜRR	u r
+Ür	u ɾ
+Ürr	u r
+á	a
+ár	a ɾ
+árr	a r
+é	e
+ér	e ɾ
+érr	e r
+í	i
+ír	i ɾ
+írr	i r
+ñ	ɲ
+ó	o
+ór	o ɾ
+órr	o r
+ú	u
+úr	u ɾ
+úrr	u r
+ü	u
+ür	u ɾ
+ürr	u r

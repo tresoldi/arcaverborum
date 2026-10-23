@@ -1,0 +1,60 @@
+av_id: ine-galician
+name: Galician
+review:
+  status: draft
+  reviewer: ''
+  date: ''
+quality:
+  tier: copper
+  forms_score: 0.3521
+  cognates_score: 0.1525
+  pinned: true
+construction:
+  summary: Wiktionary core-coverage pilot with ILG dictionary-supported exact-form
+    pronunciations; unsupported words remain unclean.
+  lexical_base:
+    source: wiktionary
+    rationale: 147 core concepts with supported IPA versus 37 in GLED; full-tail transcription
+      remains incomplete.
+  transcription:
+    strategy: profile
+    profile: custom/profile.tsv
+    overrides: none
+    notes: 314 exact dictionary spellings cover 874 rows; 35,494 remain unclean. No
+      generic letter rules or guessed mid-vowel qualities. See pronunciation_evidence.csv.
+  concepts:
+    mapping: corrected
+    core_coverage: 151/161
+    notes: Letter-name i / i latino corrected to CHARACTER via its exact source parameter;
+      pronoun eu retains kin-i. Coffee-specific só/BLACK and other source sense mappings
+      require review.
+  cognates:
+    source: wiktionary
+    method: source
+    computed: none
+    notes: 13,867 Wiktionary etymology annotations; not expert comparative cognate
+      judgments.
+  loans:
+    handling: source
+    annotated: 21%
+    notes: ''
+candidates:
+- source: wiktionary
+  coverage: partial
+  verdict: used
+  reason: Strong dictionary-supported core gain with explicitly unclean tail.
+- source: gled
+  coverage: partial
+  verdict: not used
+  reason: 37 core concepts; retained evidence for missing bod-horn.
+provenance:
+  bibliography:
+  - wiktionary_kaikki2026
+tradeoffs:
+  gains: 111 additional core concepts with supported IPA; 147 clean core concepts
+    in total.
+  known_losses: bod-horn; most of the 36,368-form tail remains untranscribed; expert
+    comparative cognates are absent.
+notes: 'Copper retained: mechanical score 0.3521 reflects full-tail incompleteness.
+  Exact source URLs, raw dictionary IPA, lookup dates and reconciliation decisions
+  are tracked in custom/pronunciation_evidence.csv; PACKET.md cites scholarly references.'

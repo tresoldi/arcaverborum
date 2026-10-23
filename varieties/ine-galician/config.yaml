@@ -4,18 +4,20 @@ glottocode: gali1258
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
 extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
-  profile: false
+  concept_map: true
+  profile: true
 scoring:
-  forms_score: 0.7636
-  cognates_score: 0.6
+  forms_score: 0.3521
+  cognates_score: 0.1525
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: 'Dictionary-supported Wiktionary pilot (2026-10-23): exact ILG pronunciations
+  for core headwords; no generic spelling-to-IPA guesses. Most non-core forms remain
+  unclean. See PACKET.md.'

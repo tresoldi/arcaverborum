@@ -159,3 +159,11 @@ ine-western-frisian,iecor,iecor,2026-05-20,IECOR canonical: forms+cognates=iecor
 ine-western-kataviri,iecor,iecor,2026-05-20,IECOR canonical: forms+cognates=iecor (0.85/0.70)
 ine-yagnobi,iecor,iecor,2026-05-20,IECOR canonical: forms+cognates=iecor (0.64/0.70)
 ine-yusufzai,iecor,iecor,2026-05-20,IECOR canonical: forms+cognates=iecor (0.91/0.70)
+afa-somali,wiktionary,wiktionary,2026-10-23,"Wiktionary orthographic-profile pilot (2026-10-23): broader core coverage; broad segmental IPA only, no inferred tone or vowel harmony. Wiktionary etymologies are not expert cognates. See PACKET.md."
+mix-northern-chiapas-zoque,mixezoqueanvoices,mixezoqueanvoices,2026-10-23,"Reviewed coverage recovery (2026-10-23): mixezoqueanvoices, mixezoqueanvoices_Franciscoleon; source transcription retained, expert status only where supplied. See PACKET.md."
+mix-jitotolteco,mixezoqueanvoices,mixezoqueanvoices,2026-10-23,"Reviewed coverage recovery (2026-10-23): mixezoqueanvoices, mixezoqueanvoices_Jitotol; source transcription retained, expert status only where supplied. See PACKET.md."
+urj-vach-vasjugan,uralex,uralex,2026-10-23,"Reviewed coverage recovery (2026-10-23): uralex, uralex_khanty_vakh_vasyugan; source transcription retained, expert status only where supplied. See PACKET.md."
+afa-afar,wiktionary,wiktionary,2026-10-23,"Wiktionary orthographic-profile pilot (2026-10-23): broad segmental Afar transcription, preserving explicitly marked high pitch only. Unwritten pitch and contextual allophony are not inferred. See PACKET.md."
+afa-saho,wiktionary,wiktionary,2026-10-23,"Wiktionary orthographic-profile pilot (2026-10-23): broad segmental Saho transcription, preserving explicitly marked high pitch only. Unwritten pitch and contextual allophony are not inferred. See PACKET.md."
+ine-aragonese,wiktionary,wiktionary,2026-10-23,"Wiktionary broad-segmental orthographic profile pilot (2026-10-23); ambiguous x, foreign spellings and unsupported punctuation remain unclean. No inferred stress or dialect-specific allophony. See PACKET.md."
+ine-galician,wiktionary,wiktionary,2026-10-23,Dictionary-supported Wiktionary pilot (2026-10-23): exact ILG pronunciations for core headwords; no generic spelling-to-IPA guesses. Most non-core forms remain unclean. See PACKET.md.

@@ -4,18 +4,20 @@ glottocode: saho1246
 family: Afro-Asiatic
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
-  profile: false
+  profile: true
 scoring:
-  forms_score: 0.7734
-  cognates_score: 0.6
-  tier: copper
-pinned: false
+  forms_score: 0.8776
+  cognates_score: 0.0336
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.77) [fallback p2]; cognates=gled (0.60)'
+notes: 'Wiktionary orthographic-profile pilot (2026-10-23): broad segmental Saho transcription,
+  preserving explicitly marked high pitch only. Unwritten pitch and contextual allophony
+  are not inferred. See PACKET.md.'
