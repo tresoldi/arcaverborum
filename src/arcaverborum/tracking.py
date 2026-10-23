@@ -78,6 +78,11 @@ def recipe_hash() -> str:
         import merkmal
 
         h.update(str(getattr(merkmal, "__version__", "?")).encode("utf-8"))
+        # A merkmal built without libutf8proc normalizes differently under the
+        # same version (250 of 7,304 varieties differed, 2026-10-23). Only the
+        # degraded build changes the hash, so full builds keep their manifests.
+        if getattr(merkmal, "HAVE_UTF8PROC", True) is False:
+            h.update(b"merkmal-without-utf8proc")
     except Exception:
         h.update(b"merkmal-missing")
     return h.hexdigest()[:16]

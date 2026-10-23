@@ -182,3 +182,13 @@ def test_atomic_path_keeps_old_file_on_failure(tmp_path):
         tmp.write_text("new\n", encoding="utf-8")
     assert target.read_text(encoding="utf-8") == "new\n"
     assert oct(target.stat().st_mode & 0o777) != oct(0o600)
+
+
+def test_recipe_hash_flags_merkmal_without_utf8proc(monkeypatch):
+    import merkmal
+
+    full = tracking.recipe_hash()
+    monkeypatch.setattr(merkmal, "HAVE_UTF8PROC", False, raising=False)
+    assert tracking.recipe_hash() != full
+    monkeypatch.setattr(merkmal, "HAVE_UTF8PROC", True, raising=False)
+    assert tracking.recipe_hash() == full
