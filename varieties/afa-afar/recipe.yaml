@@ -6,7 +6,7 @@ review:
   date: ''
 quality:
   tier: bronze
-  forms_score: 0.913
+  forms_score: 0.9158
   cognates_score: 0.083
   pinned: true
 construction:
@@ -18,12 +18,14 @@ construction:
     strategy: profile
     profile: custom/profile.tsv
     overrides: none
-    notes: 240 profile-derived forms, 1 unclean; only explicitly marked high pitch
-      represented; contextual allophony not inferred.
+    notes: 240/241 forms profile-derived; 1 unclean. Existing source IPA takes precedence.
+      Broad transcription conventions and evidence in PACKET.md.
   concepts:
-    mapping: source
-    core_coverage: 62/161
-    notes: 183/241 forms mapped; 169 distinct concepts.
+    mapping: corrected
+    core_coverage: 63/161
+    notes: '2026-10-24 audit: 65 parameter senses reviewed; 63 core concepts with
+      supported IPA. See custom/core_review.csv; source sense compatibility does not
+      validate native translations.'
   cognates:
     source: wiktionary
     method: source
@@ -50,3 +52,18 @@ tradeoffs:
   known_losses: 9 core concepts and GLED cognacy coverage; only broad segmental transcription
     plus explicitly marked high pitch.
 notes: Evidence, score method, linguistic limitations, and follow-up are in PACKET.md.
+sense_audit:
+  date: '2026-10-24'
+  scope: English source sense versus frozen concept definition; native lexical and
+    dialect review pending
+  decisions: custom/core_review.csv
+  check_command: python scripts/audit_core_pilots.py
+  clean_core_concepts: 63
+  missing_gled_core:
+  - ani-louse
+  - bod-die
+  - bod-tongue
+  - foo-drink
+  - kin-person
+  - mot-come
+  - tim-new

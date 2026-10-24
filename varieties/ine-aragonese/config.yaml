@@ -10,10 +10,10 @@ extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
+  concept_map: true
   profile: true
 scoring:
-  forms_score: 0.8485
+  forms_score: 0.8489
   cognates_score: 0.1332
   tier: bronze
 pinned: true

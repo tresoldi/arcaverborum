@@ -6,7 +6,7 @@ review:
   date: ''
 quality:
   tier: copper
-  forms_score: 0.3521
+  forms_score: 0.3515
   cognates_score: 0.1525
   pinned: true
 construction:
@@ -14,20 +14,20 @@ construction:
     pronunciations; unsupported words remain unclean.
   lexical_base:
     source: wiktionary
-    rationale: 147 core concepts with supported IPA versus 37 in GLED; full-tail transcription
-      remains incomplete.
+    rationale: 145 core concepts with dictionary-supported IPA, after rejecting false
+      sense matches; all 37 GLED core concepts retained.
   transcription:
     strategy: profile
     profile: custom/profile.tsv
     overrides: none
-    notes: 314 exact dictionary spellings cover 874 rows; 35,494 remain unclean. No
-      generic letter rules or guessed mid-vowel qualities. See pronunciation_evidence.csv.
+    notes: 889/36368 forms profile-derived; 35479 unclean. Existing source IPA takes
+      precedence. Broad transcription conventions and evidence in PACKET.md.
   concepts:
     mapping: corrected
-    core_coverage: 151/161
-    notes: Letter-name i / i latino corrected to CHARACTER via its exact source parameter;
-      pronoun eu retains kin-i. Coffee-specific só/BLACK and other source sense mappings
-      require review.
+    core_coverage: 150/161
+    notes: '2026-10-24 audit: 313 parameter senses reviewed; 145 core concepts with
+      supported IPA. See custom/core_review.csv; source sense compatibility does not
+      validate native translations.'
   cognates:
     source: wiktionary
     method: source
@@ -51,10 +51,19 @@ provenance:
   bibliography:
   - wiktionary_kaikki2026
 tradeoffs:
-  gains: 111 additional core concepts with supported IPA; 147 clean core concepts
-    in total.
-  known_losses: bod-horn; most of the 36,368-form tail remains untranscribed; expert
-    comparative cognates are absent.
+  gains: All 37 previous GLED core concepts now have supported IPA; 145 clean core
+    concepts in total. Source sense collisions explicitly corrected.
+  known_losses: Most of the full tail remains untranscribed. Thick and sharp slots
+    inferred only from unrelated source senses have been removed; correct right-side
+    phrases remain without supported IPA.
 notes: 'Copper retained: mechanical score 0.3521 reflects full-tail incompleteness.
   Exact source URLs, raw dictionary IPA, lookup dates and reconciliation decisions
   are tracked in custom/pronunciation_evidence.csv; PACKET.md cites scholarly references.'
+sense_audit:
+  date: '2026-10-24'
+  scope: English source sense versus frozen concept definition; native lexical and
+    dialect review pending
+  decisions: custom/core_review.csv
+  check_command: python scripts/audit_core_pilots.py
+  clean_core_concepts: 145
+  missing_gled_core: []

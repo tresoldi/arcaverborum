@@ -218,21 +218,44 @@ def _apply_concept_map(forms: pd.DataFrame, concept_map: pd.DataFrame) -> pd.Dat
     A row may correct the Concepticon_ID/Gloss (re-resolved to our
     concept_id downstream) and/or pin our ``concept_id`` directly. The
     pinned concept_id is stashed in the ``_concept_id_override`` column
-    that ``build_one`` consumes.
+    that ``build_one`` consumes. ``action=unmap`` preserves the lexical row
+    but blocks a wrong concept assignment, including parameter-index fallback.
     """
     if concept_map.empty or forms.empty:
         return forms
-    cmap = {
-        str(row["Parameter_ID"]).strip(): (
+    def payload(row: pd.Series) -> tuple[str, str, str, str]:
+        return (
             str(row.get("Concepticon_ID", "")).strip(),
             str(row.get("Concepticon_Gloss", "")).strip(),
             str(row.get("concept_id", "")).strip(),
+            str(row.get("action", "") or "map").strip().lower() or "map",
         )
+
+    cmap = {
+        str(row.get("Parameter_ID", "")).strip(): payload(row)
         for _, row in concept_map.iterrows()
-        if str(row.get("Parameter_ID", "")).strip()
+        if str(row.get("Parameter_ID", "")).strip() and not str(row.get("source_form_id", "")).strip()
     }
-    if not cmap:
+    form_maps = {
+        str(row.get("source_form_id", "")).strip(): (
+            payload(row), str(row.get("Parameter_ID", "")).strip(), str(row.get("expected_form", "")),
+        )
+        for _, row in concept_map.iterrows() if str(row.get("source_form_id", "")).strip()
+    }
+    if not cmap and not form_maps:
         return forms
+    if form_maps:
+        present = {str(row.get("ID", "") or row.get("source_form_id", "")).strip()
+                   for _, row in forms.iterrows()}
+        missing = form_maps.keys() - present
+        if missing:
+            raise ValueError(f"Reviewed concept source forms disappeared: {', '.join(sorted(missing))}")
+    validations = [*cmap.items(), *((fid, values[0]) for fid, values in form_maps.items())]
+    for pid, (cid, gloss, concept_id, action) in validations:
+        if action not in ("map", "unmap"):
+            raise ValueError(f"Unknown concept-map action {action!r} for {pid}")
+        if action == "unmap" and any((cid, gloss, concept_id)):
+            raise ValueError(f"Unmap action must not assign a concept for {pid}")
 
     forms = forms.copy()
     # Intake may carry only parameter IDs, with Concepticon resolved later.
@@ -243,11 +266,25 @@ def _apply_concept_map(forms: pd.DataFrame, concept_map: pd.DataFrame) -> pd.Dat
             forms[column] = ""
     if "_concept_id_override" not in forms.columns:
         forms["_concept_id_override"] = ""
+    if "_concept_mapping_blocked" not in forms.columns:
+        forms["_concept_mapping_blocked"] = False
 
     def _fix_row(row: pd.Series) -> pd.Series:
         pid = str(row.get("Parameter_ID", "")).strip()
-        if pid in cmap:
-            cid, gloss, concept_id = cmap[pid]
+        fid = str(row.get("ID", "") or row.get("source_form_id", "")).strip()
+        correction = cmap.get(pid)
+        if fid in form_maps:
+            correction, expected_pid, expected_form = form_maps[fid]
+            if (expected_pid and pid != expected_pid) or (expected_form and row.get("Form", "") != expected_form):
+                raise ValueError(f"Concept correction no longer matches source form {fid}")
+        if correction is not None:
+            cid, gloss, concept_id, action = correction
+            row["_concept_mapping_blocked"] = action == "unmap"
+            if action == "unmap":
+                row["Concepticon_ID"] = ""
+                row["Concepticon_Gloss"] = ""
+                row["_concept_id_override"] = ""
+                return row
             if cid:
                 row["Concepticon_ID"] = cid
             if gloss:
@@ -433,7 +470,9 @@ def emit_forms(
         looked_cid, _looked_gloss = param_index.get(param_id, ("", ""))
         concepticon_id = row.get("Concepticon_ID", "") or looked_cid
         override = str(row.get("_concept_id_override", "") or "").strip()
-        if override:
+        if row.get("_concept_mapping_blocked", False):
+            concepticon_id = concept_id = concept_label = ""
+        elif override:
             concept_id = override
             concept_label = concept_labels.get(override, "")
         else:

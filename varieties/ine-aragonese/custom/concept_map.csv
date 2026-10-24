@@ -1,0 +1,7 @@
+Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,action,notes,source_form_id,expected_form
+wikt_bird_noun_cf2e5bff,962,,kin-woman,map,Source sense matches kin-woman: An adult human member of the sex that produces ova and bears young. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_cold_adj_587ea78f,2483,,sns-cold-of-weather,map,Source sense matches sns-cold-of-weather: Having a low temperature (of the weather). Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_cold_adj_b6ebfd02,,,,unmap,Explicit source sense conflicts with the frozen concept: Having a low temperature. Keep form and provenance without assigning a substitute meaning.,,
+wikt_human_noun_2bc0ec05,683,,kin-person,map,Source sense matches kin-person: A human being. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_man_noun_9914ec6b,683,,kin-person,map,Source sense matches kin-person: A human being. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_you_pron_cdaef398,1215,,kin-thou,map,Source sense matches kin-thou: The person addressed. Correction is parameter-specific; other senses of the English headword are unchanged.,,

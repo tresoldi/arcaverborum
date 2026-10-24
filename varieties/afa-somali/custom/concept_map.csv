@@ -1,0 +1,7 @@
+Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,action,notes,source_form_id,expected_form
+wikt_horn_noun_f12b6dd4,1393,,bod-horn,map,Source sense matches bod-horn: A hard growth of keratin that protrudes from the top of the head of certain animals. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_human_noun_2bc0ec05,683,,kin-person,map,Source sense matches kin-person: A human being. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_man_noun_9914ec6b,683,,kin-person,map,Source sense matches kin-person: A human being. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_red_adj_94144abf,,,,unmap,Explicit source sense conflicts with the frozen concept: Having red as its colour. Keep form and provenance without assigning a substitute meaning.,,
+wikt_you_pron_cdaef398,1215,,kin-thou,map,Source sense matches kin-thou: The person addressed. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_water_noun_d4fa8618,,,,unmap,"Zorc Somali-English dictionary (revised 2019-06-05), p.534: waraabin is irrigation/watering (verbal noun), not water as a substance. Unmap only this source form; biyo retains phy-water. Checked 2026-10-24.",wikt_2843349,waraabin

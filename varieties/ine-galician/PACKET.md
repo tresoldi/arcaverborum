@@ -1,6 +1,92 @@
 # Curation Packet — Galician (`ine-galician`)
 
-## Accepted construction
+## Current construction — core-sense audit, 2026-10-24
+
+Accepted base: Wiktionary with the documented spelling/dictionary profile and
+explicit concept corrections. Tier remains **copper**. This audit checks
+English source senses against frozen concept definitions; it does not certify
+native translation accuracy, dialect identity, or inflection choices.
+
+| Current metric | Value |
+|---|---:|
+| Forms (none deleted) | 36,368 |
+| Forms with a concept ID | 7,116 |
+| Distinct mapped concepts | 2,315 |
+| Core concepts | 150/161 |
+| Core concepts with supported IPA | 145/161 |
+| Profile-derived forms | 889 |
+| Unclean forms | 35,479 |
+| Reviewed source parameters | 313 |
+| Remapped parameters | 16 |
+| Explicitly unmapped parameters | 99 |
+| Provisional senses needing specialist review | 7 |
+
+Before this audit the profile pilot covered 151 core concepts,
+147 with supported IPA. Changes distinguish actual recovery
+from removal of false coverage claims. Mechanical scores were recomputed on
+the corrected construction; they do not confer specialist review.
+
+## Applied decisions and pronunciation evidence
+
+Animal horn (`corno`, `corna`, `hasta`) is recovered. New exact dictionary
+lookups cover those three spellings and `vostede`; the tracked evidence now
+contains 417 spellings and 318 supported exact-form mappings. Previous
+pronunciation facts are retained even when a sense is no longer core.
+
+The source-only sharp slot referred to a raised musical note, and thick
+referred to density or viscosity. These did not establish the frozen cutting
+edge or physical-thickness concepts. Their removal lowers the apparent core
+count. Dictionary-supported right previously came from archaic straight;
+correct right-side phrases remain mapped but lack supported pronunciation.
+All 37 concepts in the previous GLED construction now have supported IPA.
+
+Other explicit collisions include the World Health Organization versus who,
+a barking sound versus tree bark, book leaves versus plant leaves, grain
+ears versus hearing organs, needle eyes versus anatomical eyes, river mouths,
+board-game men, metaphorical fruit and musical sharp. Each changed sense is
+recorded with its original source text; no form is deleted. Concepts such as
+chest, fishbone, fruit stone, temporal shortness and density use existing
+non-core frozen slots where the definition matches. Coffee without milk is
+not forced into a guessed alternative concept.
+
+Authored decisions are in `custom/core_review.csv`; `concept_map.csv` is their
+compiled correction layer. `action=unmap` retains lexical rows and provenance
+while blocking both concept identifiers and parameter-index fallback.
+
+Run `python scripts/audit_core_pilots.py --write-maps` to reproduce corrections,
+rebuild the pilots, then run `python scripts/audit_core_pilots.py` to validate
+review completeness, source text/mapping drift and built concept assignments.
+The checker writes `output/report/core_audit.json`.
+
+## Remaining work
+
+Missing concepts from the previous GLED construction: none.
+Missing with supported IPA: none.
+These are explicit recovery targets; related noun senses or GLED strings are
+not silently substituted for missing verbs or independently verified sources.
+
+Retained provisionally, with scope/aspect or grammatical interpretation still
+requiring specialist review:
+
+- all (adv): wholly
+- bite (verb): hold something by clamping one’s teeth
+- come (verb): to arrive, to appear
+- open (verb): to make accessible to customers
+- seed (noun): any small seed-like fruit
+- short (adj): of a person, of comparatively small height
+- throw (verb): to eject or cause to fall off
+
+Review the native translations and regional/grammatical forms against matched
+lexical references before raising the tier. Spelling coverage and valid IPA
+symbols alone do not establish correct meanings.
+
+## Initial source review — 2026-10-23, historical
+
+The following records the initial pilot. Its counts and follow-up lists are
+superseded by the current audit above; transcription conventions and cited
+references remain the basis unless explicitly amended.
+
+### Accepted construction
 
 Wiktionary intake (`wikt_gl`, Glottocode `gali1258`) with **dictionary-supported
 exact-form pronunciations**, selected as a core-coverage pilot on 2026-10-23.
@@ -15,7 +101,7 @@ unknown phrases cannot inherit pronunciations by concatenating known words.
 There are no generic letter-to-IPA rules and no redundant transcription
 column overrides. Explicit source IPA still takes precedence over the profile.
 
-## Coverage and quality
+### Coverage and quality
 
 | Metric | Previous GLED | Wiktionary + dictionary profile |
 |---|---:|---:|
@@ -48,7 +134,7 @@ Other gloss matches, inflections, synonyms, names, and phrases likewise need
 review before research use.
 Concept filtering alone is not a guarantee that each sense is appropriate.
 
-## Why a dictionary profile
+### Why a dictionary profile
 
 Galician spelling does not determine all vowel qualities: even accented `é`
 and `ó` can denote different mid-vowel qualities. A five-vowel transliteration
@@ -66,7 +152,7 @@ transcriptions, and may list preferred and alternative pronunciations.
 The [Galician Council of Culture's phonology overview](https://consellodacultura.gal/especiais/loia/gramatica.php?idioma=2)
 describes the orthographic vowel ambiguity.
 
-## Dictionary reconciliation and provenance
+### Dictionary reconciliation and provenance
 
 `scripts/galician_dictionary.py` looks up the **413 distinct core spellings**
 (545 intake rows), using two bounded workers and a local cache. Exact
@@ -96,7 +182,7 @@ previously uncached/unrecorded core forms. It never guesses a missing reading.
 Profile entries can also benefit repeated identical spellings elsewhere in
 intake, explaining the 874 covered rows rather than only the 545 core rows.
 
-## Cognates and limitations
+### Cognates and limitations
 
 Wiktionary cognacy retains its `wiktionary_etymology` method and
 `wiktionary_kaikki2026` provenance. These are etymology annotations, not expert
@@ -106,7 +192,7 @@ reading; it does not validate the Wiktionary sense, dialect attribution, or
 etymology. Dictionary standard-register choices do not cover Galician's full
 geographical variation. This is a partial core-focused construction.
 
-## Follow-up
+### Follow-up
 
 Disambiguate the five homograph conflicts against source sense/POS evidence;
 review missing dictionary headwords and the four core slots still without

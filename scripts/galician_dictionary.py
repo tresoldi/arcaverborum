@@ -20,11 +20,13 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlencode
 
+import pandas as pd
 import requests
 
 from arcaverborum.concepts import load_concept_maps
 from arcaverborum.forms_schema import load_parameter_index
 from arcaverborum.phonology import resegment
+from arcaverborum.variety import VarietyDir, apply_overlays
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = 'https://ilg.usc.gal/pronuncia/'
@@ -87,8 +89,18 @@ def core_forms(root: Path) -> list[dict]:
         db.row_factory = sqlite3.Row
         rows = db.execute('SELECT * FROM forms WHERE gc_lc=? AND Dataset=? ORDER BY seq',
                           ('gali1258', 'wiktionary')).fetchall()
-    return [dict(row) for row in rows
-            if concepts.get(parameters.get(row['Parameter_ID'], ('', ''))[0], ('', ''))[0] in core]
+    variety = root / 'varieties/ine-galician'
+    frame, _ = apply_overlays(pd.DataFrame([dict(row) for row in rows]),
+                              VarietyDir('ine-galician', variety))
+    selected = []
+    for row in frame.to_dict('records'):
+        if row.get('_concept_mapping_blocked', False):
+            continue
+        external = row.get('Concepticon_ID', '') or parameters.get(row['Parameter_ID'], ('', ''))[0]
+        concept = row.get('_concept_id_override', '') or concepts.get(external, ('', ''))[0]
+        if concept in core:
+            selected.append(row)
+    return selected
 
 
 def main() -> None:
@@ -98,7 +110,6 @@ def main() -> None:
     args = parser.parse_args()
     root = args.root.resolve()
     rows = core_forms(root)
-    forms = sorted({row['Form'] for row in rows})
     cache = root / 'raw/curation/galician-ilg'
     cache.mkdir(parents=True, exist_ok=True)
     custom = root / 'varieties/ine-galician/custom'
@@ -107,6 +118,9 @@ def main() -> None:
     if evidence_path.exists():
         with evidence_path.open() as f:
             tracked = {row['Form']: row for row in csv.DictReader(f)}
+    # Keep attested pronunciations when a sense is corrected out of the core;
+    # lookup facts remain useful for non-core senses with the same spelling.
+    forms = sorted({row['Form'] for row in rows} | tracked.keys())
 
     def lookup(form: str) -> dict:
         import hashlib

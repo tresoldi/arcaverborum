@@ -99,11 +99,35 @@ Match by `source_form_id`.
 
 `concept_map.csv`:
 ```
-Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,notes
+Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,action,notes,source_form_id,expected_form
 ```
 Fixes wrong source concept mappings before any other processing. Correct
 the Concepticon mapping (re-resolved to our `concept_id`) and/or pin a
 `concept_id` directly.
+
+`action` is optional and defaults to `map`. `unmap` keeps the lexical form,
+transcription, source IDs and provenance while leaving both concept identifiers
+empty. It blocks parameter-index fallback, so a rejected sense cannot silently
+regain its old mapping. An `unmap` row must leave the three concept fields empty;
+unknown actions are rejected.
+
+An optional `source_form_id` restricts the correction to one translation and
+takes precedence over a parameter-wide correction. Supply `Parameter_ID` and
+`expected_form` as identity guards: a reused source ID with a different parameter
+or spelling fails the build. This allows one incorrect translation to be
+unmapped while other translations of the same English sense remain accepted.
+Disappearance of a reviewed source-form ID also fails rather than silently
+dropping its correction.
+
+The five Wiktionary profile pilots keep authored decisions in
+`custom/core_review.csv`, with optional `custom/form_review.csv` for individual
+translations. `python scripts/audit_core_pilots.py --write-maps` compiles these
+records into concept-map corrections. After rebuilding the pilots, run the
+same command without flags to check source-sense drift, review completeness,
+and emitted concept IDs. It writes `output/report/core_audit.json`, including
+remaining GLED core gaps and the number supported by clean transcriptions.
+The review checks English sense compatibility with frozen definitions;
+translation, dialect and inflection accuracy still need specialist review.
 
 ## Quality model
 

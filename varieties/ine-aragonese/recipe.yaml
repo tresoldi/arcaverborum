@@ -5,7 +5,7 @@ review:
   reviewer: ''
   date: '2026-10-23'
 quality:
-  forms_score: 0.8485
+  forms_score: 0.8489
   cognates_score: 0.1332
   tier: bronze
   pinned: true
@@ -19,13 +19,14 @@ construction:
     strategy: profile
     profile: custom/profile.tsv
     overrides: none
-    notes: 1414 profile-derived forms; 96 unclean. No inferred stress, surface glides,
-      or dialect phonetics. 72 exact-form anchored rhotic exceptions; unknown initial-r
-      words fail conservatively.
+    notes: 1415/1510 forms profile-derived; 95 unclean. Existing source IPA takes
+      precedence. Broad transcription conventions and evidence in PACKET.md.
   concepts:
-    mapping: source
-    core_coverage: 79/161
-    notes: 604/1510 forms mapped; 468 distinct concepts.
+    mapping: corrected
+    core_coverage: 80/161
+    notes: '2026-10-24 audit: 89 parameter senses reviewed; 80 core concepts with
+      supported IPA. See custom/core_review.csv; source sense compatibility does not
+      validate native translations.'
   cognates:
     source: wiktionary
     method: source
@@ -54,3 +55,20 @@ tradeoffs:
     phonetics; 96 unsupported forms remain unclean.
 notes: Evidence and limitations in PACKET.md. Forms score recomputed on profiled intake;
   tier deliberately remains bronze.
+sense_audit:
+  date: '2026-10-24'
+  scope: English source sense versus frozen concept definition; native lexical and
+    dialect review pending
+  decisions: custom/core_review.csv
+  check_command: python scripts/audit_core_pilots.py
+  clean_core_concepts: 80
+  missing_gled_core:
+  - ani-louse
+  - bod-bone
+  - bod-breast
+  - bod-die
+  - bod-horn
+  - mot-come
+  - phy-stone
+  - qua-one
+  - sns-hear

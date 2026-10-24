@@ -13,7 +13,7 @@ extensions:
   concept_map: true
   profile: true
 scoring:
-  forms_score: 0.3521
+  forms_score: 0.3515
   cognates_score: 0.1525
   tier: copper
 pinned: true

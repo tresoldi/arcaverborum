@@ -119,5 +119,35 @@ def test_letter_name_correction_preserves_pronoun_and_other_senses():
         {'Parameter_ID': 'wikt_black_adj_735f6ab3', 'Concepticon_ID': '163', 'Form': 'só'},
     ])
     corrected = _apply_concept_map(forms, mapping)
-    assert list(corrected['Concepticon_ID']) == ['1024', '1209', '163']
+    assert list(corrected['Concepticon_ID']) == ['1024', '1209', '']
     assert list(corrected['_concept_id_override']) == ['lng-character', '', '']
+    assert list(corrected['_concept_mapping_blocked']) == [False, False, True]
+
+
+def test_dictionary_lookup_uses_accepted_concept_corrections(tmp_path):
+    import sqlite3
+
+    data = tmp_path / 'src/arcaverborum/data'
+    data.mkdir(parents=True)
+    (data / 'concepts.csv').write_text(
+        'concept_id,concepticon_id,label,pos,semantic_field,definition,status,replacement_id,notes\n'
+        'bod-horn,1393,horn,n,Body,horn,active,,\n'
+        'kin-i,1209,I,pron,Kinship,I,active,,\n'
+    )
+    (data / 'concept_core.csv').write_text('concept_id\nbod-horn\nkin-i\n')
+    intake = tmp_path / 'intake/wiktionary'
+    intake.mkdir(parents=True)
+    (intake / 'parameters_raw.csv').write_text('ID,Concepticon_ID\nhorn,\nletter,1209\n')
+    with sqlite3.connect(tmp_path / 'intake/intake.sqlite') as db:
+        db.execute('CREATE TABLE forms (gc_lc TEXT, Dataset TEXT, seq INTEGER, '
+                   'Parameter_ID TEXT, Form TEXT)')
+        db.executemany('INSERT INTO forms VALUES (?,?,?,?,?)', [
+            ('gali1258', 'wiktionary', 1, 'horn', 'corno'),
+            ('gali1258', 'wiktionary', 2, 'letter', 'i'),
+        ])
+    custom = tmp_path / 'varieties/ine-galician/custom'
+    custom.mkdir(parents=True)
+    (custom / 'concept_map.csv').write_text(
+        'Parameter_ID,concept_id,action\nhorn,bod-horn,map\nletter,,unmap\n'
+    )
+    assert [row['Form'] for row in dictionary.core_forms(tmp_path)] == ['corno']

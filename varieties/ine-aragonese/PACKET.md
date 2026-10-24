@@ -1,6 +1,77 @@
 # Curation Packet — Aragonese (`ine-aragonese`)
 
-## Accepted construction
+## Current construction — core-sense audit, 2026-10-24
+
+Accepted base: Wiktionary with the documented spelling/dictionary profile and
+explicit concept corrections. Tier remains **bronze**. This audit checks
+English source senses against frozen concept definitions; it does not certify
+native translation accuracy, dialect identity, or inflection choices.
+
+| Current metric | Value |
+|---|---:|
+| Forms (none deleted) | 1,510 |
+| Forms with a concept ID | 605 |
+| Distinct mapped concepts | 470 |
+| Core concepts | 80/161 |
+| Core concepts with supported IPA | 80/161 |
+| Profile-derived forms | 1,415 |
+| Unclean forms | 95 |
+| Reviewed source parameters | 89 |
+| Remapped parameters | 5 |
+| Explicitly unmapped parameters | 1 |
+| Provisional senses needing specialist review | 1 |
+
+Before this audit the profile pilot covered 79 core concepts,
+79 with supported IPA. Changes distinguish actual recovery
+from removal of false coverage claims. Mechanical scores were recomputed on
+the corrected construction; they do not confer specialist review.
+
+## Applied decisions and pronunciation evidence
+
+Generic human/man senses now supply `kin-person`. Slang bird meaning woman
+is mapped to `kin-woman`, not the animal. Unfriendly cold is left unmapped;
+weather cold uses the existing specific frozen concept.
+
+Removing the woman sense exposed an unsupported genuine bird spelling,
+`paxaro`. Its exact whole-form rule now uses `p a ʃ a ɾ o`:
+[the source dictionary's attested reading for paixaro](https://en.wiktionary.org/w/index.php?title=paixaro&oldid=93531941)
+has optional /i̯/ and identifies `paxaro` as its superseded spelling. The
+unwritten-/i/ variant is selected for that spelling, and stress is omitted
+under the existing broad convention. The rule does not generalize bare x
+or transcribe unknown suffixes; existing IPA still takes precedence.
+
+Authored decisions are in `custom/core_review.csv`; `concept_map.csv` is their
+compiled correction layer. `action=unmap` retains lexical rows and provenance
+while blocking both concept identifiers and parameter-index fallback.
+
+Run `python scripts/audit_core_pilots.py --write-maps` to reproduce corrections,
+rebuild the pilots, then run `python scripts/audit_core_pilots.py` to validate
+review completeness, source text/mapping drift and built concept assignments.
+The checker writes `output/report/core_audit.json`.
+
+## Remaining work
+
+Missing concepts from the previous GLED construction: `ani-louse`, `bod-bone`, `bod-breast`, `bod-die`, `bod-horn`, `mot-come`, `phy-stone`, `qua-one`, `sns-hear`.
+Missing with supported IPA: `ani-louse`, `bod-bone`, `bod-breast`, `bod-die`, `bod-horn`, `mot-come`, `phy-stone`, `qua-one`, `sns-hear`.
+These are explicit recovery targets; related noun senses or GLED strings are
+not silently substituted for missing verbs or independently verified sources.
+
+Retained provisionally, with scope/aspect or grammatical interpretation still
+requiring specialist review:
+
+- seed (noun): any small seed-like fruit
+
+Review the native translations and regional/grammatical forms against matched
+lexical references before raising the tier. Spelling coverage and valid IPA
+symbols alone do not establish correct meanings.
+
+## Initial source review — 2026-10-23, historical
+
+The following records the initial pilot. Its counts and follow-up lists are
+superseded by the current audit above; transcription conventions and cited
+references remain the basis unless explicitly amended.
+
+### Accepted construction
 
 Wiktionary `wikt_an`, Glottocode `arag1245`, with a conservative broad segmental
 profile in `custom/profile.tsv`. Coverage pilot dated 2026-10-23; specialist
@@ -22,7 +93,7 @@ at least one profile-derived form. This gains 51 core concepts but loses ten:
 `mot-come`, `phy-stone`, `qua-one`, `sns-hear`. Sources are not automatically
 merged. The broader intake includes names, phrases, and unmapped entries.
 
-## Transcription and uncertainty
+### Transcription and uncertainty
 
 This profile uses a broad central/reference convention, not a dialect-specific
 pronunciation. It handles palatal digraphs, contextual c/qu/gu, vowel accents,
@@ -48,7 +119,7 @@ The 96 failures are preserved as forms, not silently simplified.
 The 503 Wiktionary cognacy annotations retain source method/provenance and
 are not expert comparative cognate judgments. GLED cognates are not copied.
 
-## Evidence
+### Evidence
 
 - Academia Aragonesa de la Lengua (2023), [official orthography](https://academiaaragonesadelalengua.org/sites/default/files/ficheros-pdf/Ortograf%C3%ADa%20del%20aragon%C3%A9s_web_es.pdf),
   sections 1.1–1.2: phonemic spelling correspondences and regional variants.
@@ -56,7 +127,7 @@ are not expert comparative cognate judgments. GLED cognates are not copied.
   spelling alternatives, variable x, rhotics, and dialect-specific deletion.
 - Local intake/build diagnostics, recomputed 2026-10-23.
 
-## Follow-up
+### Follow-up
 
 Recover the ten missing concepts through reviewed curation; check source
 senses and orthographic systems; review rhotic whole-word exceptions after

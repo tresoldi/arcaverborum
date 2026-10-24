@@ -22,6 +22,7 @@ PROFILE = load_profile(Path(__file__).resolve().parents[1]
     ('año', 'a ɲ o'),
     ('chunio', 'tʃ u n i o'),
     ('caixa', 'k a ʃ a'),
+    ('paxaro', 'p a ʃ a ɾ o'),
     ('ro', 'ɾ o'),
     ('tres', 't ɾ e s'),
     ('Europa', 'e u ɾ o p a'),
@@ -35,7 +36,7 @@ def test_aragonese_contrasts(form, segments):
 
 
 @pytest.mark.parametrize('form', ['taxi', 'caxot', 'geniva', "Territorio d'o Norte", 'Viṣṇu',
-                                  'reloches', 'relochorella'])
+                                  'reloches', 'relochorella', 'paxaros'])
 def test_uncertain_spellings_remain_unclean(form):
     assert normalize_segments('', form, PROFILE) == ('', 'unclean')
 

@@ -1,54 +1,70 @@
-# Authority recipe for afa-somali — see docs/CURATION_MACHINERY.md
-# Descriptive companion to config.yaml + custom/*. ENFORCED fields name build
-# mechanisms; all others are advisory. Scaffolded by `build.py packet`; edit freely.
 av_id: afa-somali
 name: Somali
 review:
   status: draft
-  reviewer: ""
-  date: ""
-quality:                     # advisory mirror of config.scoring
+  reviewer: ''
+  date: ''
+quality:
   tier: bronze
-  forms_score: 0.9128
+  forms_score: 0.913
   cognates_score: 0.0671
   pinned: true
 construction:
-  summary: >
-    Wiktionary with a broad segmental Somali Latin-script profile; coverage pilot,
-    with specialist review pending. Tone and vowel-harmony qualities are not inferred.
+  summary: 'Wiktionary with a broad segmental Somali Latin-script profile; coverage
+    pilot, with specialist review pending. Tone and vowel-harmony qualities are not
+    inferred.
+
+    '
   lexical_base:
-    source: wiktionary            # ENFORCED -> config.sources.transcription
-    rationale: "112 core concepts versus GLED's 37; see PACKET.md for losses and limitations."
+    source: wiktionary
+    rationale: 112 core concepts versus GLED's 37; see PACKET.md for losses and limitations.
   transcription:
     strategy: profile
-    profile: custom/profile.tsv    # ENFORCED (extensions.profile)
-    overrides: none     # ENFORCED (extensions.transcriptions)
-    notes: "1011 profile-derived forms; 14 unclean. Broad vowels only; no inferred tone or vowel harmony."
+    profile: custom/profile.tsv
+    overrides: none
+    notes: 1011/1025 forms profile-derived; 14 unclean. Existing source IPA takes
+      precedence. Broad transcription conventions and evidence in PACKET.md.
   concepts:
-    mapping: source        # ENFORCED via custom/concept_map.csv when corrected
-    core_coverage: 112/161
-    notes: 612/1025 forms mapped; 510 distinct concepts.
+    mapping: corrected
+    core_coverage: 114/161
+    notes: '2026-10-24 audit: 121 parameter senses reviewed; 114 core concepts with
+      supported IPA. See custom/core_review.csv; source sense compatibility does not
+      validate native translations.'
   cognates:
-    source: wiktionary            # ENFORCED -> config.sources.cognates
-    method: source          # expert|computed|manual|hybrid|source|none
-    computed: none            # method metadata block when computed
-    notes: "172 Wiktionary etymology annotations; not expert comparative judgments."
+    source: wiktionary
+    method: source
+    computed: none
+    notes: 172 Wiktionary etymology annotations; not expert comparative judgments.
   loans:
     handling: source
     annotated: 8%
-    notes: ""
+    notes: ''
 candidates:
-  - source: wiktionary
-    coverage: partial
-    verdict: used
-    reason: "Broad vocabulary with a regular spelling system; 112/161 core concepts."
-  - source: gled
-    coverage: partial
-    verdict: not used
-    reason: "Only 37 core concepts, but contains four absent from Wiktionary."
+- source: wiktionary
+  coverage: partial
+  verdict: used
+  reason: Broad vocabulary with a regular spelling system; 112/161 core concepts.
+- source: gled
+  coverage: partial
+  verdict: not used
+  reason: Only 37 core concepts, but contains four absent from Wiktionary.
 provenance:
-  bibliography: [wiktionary_kaikki2026]
+  bibliography:
+  - wiktionary_kaikki2026
 tradeoffs:
-  gains: "79 additional core concepts; 510 mapped concepts in total."
-  known_losses: "Four core concepts and GLED cognacy coverage; profile does not encode unwritten phonological distinctions."
-notes: "Mechanical forms score recomputed on profiled intake; bronze retained conservatively. Evidence and transcription conventions are recorded in PACKET.md."
+  gains: 79 additional core concepts; 510 mapped concepts in total.
+  known_losses: Four core concepts and GLED cognacy coverage; profile does not encode
+    unwritten phonological distinctions.
+notes: Mechanical forms score recomputed on profiled intake; bronze retained conservatively.
+  Evidence and transcription conventions are recorded in PACKET.md.
+sense_audit:
+  date: '2026-10-24'
+  scope: English source sense versus frozen concept definition; native lexical and
+    dialect review pending
+  decisions: custom/core_review.csv
+  check_command: python scripts/audit_core_pilots.py
+  clean_core_concepts: 114
+  missing_gled_core:
+  - bod-die
+  - foo-drink
+  form_decisions: custom/form_review.csv
