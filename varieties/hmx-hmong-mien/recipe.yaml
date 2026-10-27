@@ -1,0 +1,47 @@
+av_id: hmx-hmong-mien
+name: Proto-Hmong-Mien
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.8005
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Single named scholarly source sample; supplied IPA and exact source member
+    selection.
+  lexical_base:
+    source: wanghmongmien
+    rationale: Primary-source evidence with validated source segments; no pooling
+      of related varieties.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 118/118 forms clean (source 118, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 30/161
+    notes: 118/118 forms mapped; 62 distinct concepts.
+  cognates:
+    source: wanghmongmien
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ''
+candidates: []
+provenance:
+  bibliography:
+  - wanghmongmien
+  source_url: https://github.com/lexibank/wanghmongmien
+  source_commit: 9ffba014bd25cd84f802c8b31861c58b6c927185
+tradeoffs:
+  gains: ''
+  known_losses: ''
+notes: CC-BY-4.0; source judgments retained at supplied confidence, no inferred expert
+  status. Specialist lexical/transcription review pending. See PACKET.md.

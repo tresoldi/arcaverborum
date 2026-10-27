@@ -20,6 +20,8 @@ import shutil
 from datetime import date
 from pathlib import Path
 
+from arcaverborum.selection import SELECTION_CSV, compute_all_signals
+
 from arcaverborum.catalog import build_catalog, load_avid_registry
 from arcaverborum.glottolog import load_glottolog
 from arcaverborum.score import (
@@ -27,7 +29,6 @@ from arcaverborum.score import (
     score_cognates_block,
     score_forms_block,
 )
-from arcaverborum.selection import SELECTION_CSV, compute_all_signals
 from arcaverborum.variety import register
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")

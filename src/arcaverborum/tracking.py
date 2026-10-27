@@ -46,6 +46,7 @@ _RECIPE_FILES = (
     "data/score_weights.yaml",
     # The frozen concept catalog: re-curating a label/field/id rebuilds the
     # forms that resolve through it.
+    "wiktionary_senses.py", "data/wiktionary_sense_overrides.csv",
     "data/concepts.csv", "data/semantic_field_codes.csv",
 )
 

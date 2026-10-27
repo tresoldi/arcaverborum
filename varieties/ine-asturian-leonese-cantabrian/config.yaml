@@ -4,18 +4,21 @@ glottocode: astu1245
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
+  source_language_id: wikt_ast
 extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
-  profile: false
+  concept_map: true
+  profile: true
 scoring:
-  forms_score: 0.7613
-  cognates_score: 0.6
-  tier: copper
-pinned: false
+  forms_score: 0.6682
+  cognates_score: 0.1243
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: Reviewed named Asturian sample wikt_ast, 2026-10-27; broad phonemic standard-spelling
+  subset plus exact source-provided IPA. Not a pooled sample of Leonese/Cantabrian.
+  See PACKET.md.

@@ -4,8 +4,12 @@ glottocode: kaya1324
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - kaya1324
+  source_language_ids:
+  - abvd2026_1706
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +20,8 @@ scoring:
   forms_score: 0.4248
   cognates_score: 0.19
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.42); cognates=abvd (0.19)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

@@ -4,8 +4,14 @@ glottocode: mand1440
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: acd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - mand1440
+  - taba1261
+  source_language_ids:
+  - abvd2026_129
+  - abvd2026_372
 extensions:
   transcriptions: false
   forms: false
@@ -13,10 +19,11 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.4744
-  cognates_score: 0.6667
+  forms_score: 0.4983
+  cognates_score: 0.631
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.47); cognates=acd (0.67) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

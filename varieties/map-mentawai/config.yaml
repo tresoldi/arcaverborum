@@ -4,8 +4,26 @@ glottocode: ment1249
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: acd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - ment1249
+  source_language_ids:
+  - abvd2026_1182
+  - abvd2026_1185
+  - abvd2026_864
+  - abvd2026_981
+  - abvd2026_982
+  - abvd2026_983
+  - abvd2026_984
+  - abvd2026_985
+  - abvd2026_986
+  - abvd2026_987
+  - abvd2026_988
+  - abvd2026_989
+  - abvd2026_990
+  - abvd2026_991
+  - abvd2026_992
 extensions:
   transcriptions: false
   forms: false
@@ -14,9 +32,10 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.5
-  cognates_score: 0.6743
+  cognates_score: 0.1345
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.50); cognates=acd (0.67) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

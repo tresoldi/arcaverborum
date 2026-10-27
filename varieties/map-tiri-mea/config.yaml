@@ -4,8 +4,16 @@ glottocode: tiri1258
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - meaa1237
+  - tiri1258
+  - tiri1261
+  source_language_ids:
+  - abvd2026_1504
+  - abvd2026_1610
+  - abvd2026_1612
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +21,11 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.428
-  cognates_score: 0.484
+  forms_score: 0.5
+  cognates_score: 0.2274
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.43); cognates=abvd (0.48)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

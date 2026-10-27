@@ -1,0 +1,48 @@
+av_id: ine-asturian-leonese-cantabrian
+name: Asturian-Leonese-Cantabrian
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.6682
+  cognates_score: 0.1243
+  pinned: true
+construction:
+  summary: Named Asturian source wikt_ast; source IPA plus incomplete standard-spelling
+    broad phonemic profile.
+  lexical_base:
+    source: wiktionary
+    rationale: Supported core increases from 37 to 92 after English-sense review;
+      no Leonese/Cantabrian members pooled.
+  transcription:
+    strategy: profile
+    profile: custom/profile.tsv
+    overrides: none
+    notes: 166 source IPA, 3548 profile-supported, 6001 unresolved. Source IPA takes
+      precedence; stress remains in its raw evidence, not canonical segments.
+  concepts:
+    mapping: corrected
+    core_coverage: 142/161
+    notes: 2582/9715 forms mapped; 1423 distinct concepts.
+  cognates:
+    source: wiktionary
+    method: source
+    computed: none
+    notes: Source Wiktionary etymology annotations, not expert comparative cognates;
+      no GLED cognates transferred.
+  loans:
+    handling: source
+    annotated: 16%
+    notes: ''
+candidates: []
+provenance:
+  bibliography:
+  - wiktionary
+tradeoffs:
+  gains: 9715 forms and 92 supported core concepts versus 46 GLED forms / 37 core.
+  known_losses: GLED expert/source comparisons not transferred; incomplete profile
+    leaves 6001 rows unresolved.
+notes: ALLA grammar 2001 pp.15–16,23–24,36–48. Broad phonemic subset; specialist lexical
+  validation pending. See PACKET.md.

@@ -4,8 +4,12 @@ glottocode: asma1256
 family: Nuclear Trans New Guinea
 macroarea: ''
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - asma1256
+  source_language_ids:
+  - abvd2026_1616
 extensions:
   transcriptions: false
   forms: false
@@ -15,7 +19,9 @@ extensions:
 scoring:
   forms_score: 0.3046
   cognates_score: 0.0
-  tier: copper
-pinned: false
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.30)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

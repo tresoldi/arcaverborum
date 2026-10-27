@@ -4,8 +4,25 @@ glottocode: kada1285
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - kada1285
+  source_language_ids:
+  - abvd2026_1734
+  - abvd2026_1743
+  - abvd2026_1748
+  - abvd2026_1790
+  - abvd2026_1851
+  - abvd2026_1882
+  - abvd2026_1931
+  - abvd2026_1944
+  - abvd2026_1972
+  - abvd2026_1976
+  - abvd2026_1984
+  - abvd2026_1988
+  - abvd2026_2005
+  - abvd2026_2010
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +30,11 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.354
-  cognates_score: 0.6975
-  tier: copper
-pinned: false
+  forms_score: 0.353
+  cognates_score: 0.6983
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.35); cognates=abvd (0.70)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

@@ -4,8 +4,12 @@ glottocode: bisa1268
 family: Austronesian
 macroarea: ''
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - bisa1268
+  source_language_ids:
+  - abvd2026_709
 extensions:
   transcriptions: false
   forms: false
@@ -14,8 +18,10 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.3943
-  cognates_score: 0.6076
-  tier: copper
-pinned: false
+  cognates_score: 0.6045
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.39); cognates=abvd (0.61)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

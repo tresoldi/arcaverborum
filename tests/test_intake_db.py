@@ -121,3 +121,42 @@ def test_non_string_dataset_matches_nothing(tmp_path: Path):
     db = IntakeDB(db_path)
     assert len(db.slice("abcd1234", "alpha")) == 4
     assert db.slice("abcd1234", 123).empty and db.slice("abcd1234", None).empty
+
+
+def test_reviewed_member_union_keeps_order_and_fails_on_missing_member(tmp_path):
+    import pytest
+    import yaml
+
+    from arcaverborum.variety import _slice_component
+
+    paths, catalog = _setup(tmp_path)
+    frame = pd.read_csv(paths[0], dtype=str, keep_default_na=False)
+    frame.loc[frame.ID == 'alpha_4', ['Glottocode', 'Language_ID']] = ['efgh5678', 'dialect']
+    frame.to_csv(paths[0], index=False)
+    store = tmp_path / 'intake.sqlite'
+    build_intake_db(paths, store, _INTAKE_USECOLS)
+    db = IntakeDB(store)
+    try:
+        union = db.slice_many(['abcd1234', 'efgh5678'], 'alpha')
+        assert union.ID.tolist() == ['alpha_1', 'alpha_2', 'alpha_4', 'alpha_6']
+        root = tmp_path / 'varieties'
+        register(av_id='abcd1234', varieties_root=root, transcription_source='alpha',
+                 glottocode='abcd1234', forms_score=0.5, tier='bronze')
+        config_path = root / 'abcd1234/config.yaml'
+        config = yaml.safe_load(config_path.read_text())
+        config['sources'].update(source_glottocodes=[' abcd1234 ', ' efgh5678 '],
+                                 source_language_ids=['a1', 'dialect'])
+        config_path.write_text(yaml.safe_dump(config))
+        build_one('abcd1234', root, db, catalog)
+        out = pd.read_csv(root / 'abcd1234/generated/forms.csv')
+        assert out.source_form_id.tolist() == ['alpha_1', 'alpha_4', 'alpha_6']
+        hashes = {('abcd1234', 'alpha'): 'a', ('efgh5678', 'alpha'): 'b'}
+        first = _slice_component(config, 'abcd1234', hashes)
+        hashes[('efgh5678', 'alpha')] = 'changed'
+        assert _slice_component(config, 'abcd1234', hashes) != first
+        config['sources']['source_language_ids'].append('disappeared')
+        config_path.write_text(yaml.safe_dump(config))
+        with pytest.raises(ValueError, match='members disappeared'):
+            build_one('abcd1234', root, db, catalog)
+    finally:
+        db.close()

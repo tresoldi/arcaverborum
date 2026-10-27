@@ -4,8 +4,12 @@ glottocode: liku1243
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: acd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - liku1243
+  source_language_ids:
+  - abvd2026_72
 extensions:
   transcriptions: false
   forms: false
@@ -14,9 +18,10 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.4751
-  cognates_score: 0.6813
+  cognates_score: 0.5683
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.48); cognates=acd (0.68) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

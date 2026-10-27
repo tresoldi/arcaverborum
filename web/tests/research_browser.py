@@ -52,6 +52,13 @@ with sync_playwright() as playwright:
     page.wait_for_function("document.querySelector('#app').textContent.includes('Provenance')")
     assert 'view' in page.url and 'form' in page.url
     assert page.locator('#app').inner_text().count('source') > 0
+    # Coverage additions shift aggregate row numbers; old links must still
+    # resolve an unambiguous variety/source-form identity.
+    legacy = page.evaluate("JSON.parse(decodeURIComponent(location.hash.slice(3)))")
+    legacy['id'] = legacy['id'].rsplit(':', 1)[0] + ':999999999'
+    page.evaluate("s => history.replaceState(null,'','#s='+encodeURIComponent(JSON.stringify(s)))", legacy)
+    page.reload()
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Provenance')", timeout=120000)
     page.get_by_role('link', name='← Vach-Vasjugan', exact=True).click()
     page.wait_for_selector('#varietymap path.leaflet-interactive')
     geography = page.locator('#varietymap path.leaflet-interactive').first
@@ -93,5 +100,5 @@ with sync_playwright() as playwright:
     page.screenshot(path='/tmp/arca-research-mobile.png')
     assert not errors, errors
     print('PASS: collection scopes, URL restoration, comparison, provenance, CSV/manifest export, '
-          'variety metadata/inventory, search, read-only SQL, map contrast, mobile, keyboard links')
+          'variety metadata/inventory, legacy form links, search, read-only SQL, map contrast, mobile, keyboard links')
     browser.close()

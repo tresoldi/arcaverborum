@@ -1,0 +1,23 @@
+av_id: aav-asuri
+name: Asuri
+glottocode: asur1254
+family: Austroasiatic
+macroarea: Eurasia
+sources:
+  transcription: khalidasur
+  cognates: khalidasur
+  source_language_id: khalidasur_Asuri
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.9427
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-27'
+notes: Reviewed named source sample khalidasur_Asuri; primary grammatical study and
+  IPA wordlist. See PACKET.md.

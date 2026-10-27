@@ -286,6 +286,18 @@ class IntakeDB:
         ).fetchall()
         return self._frame(rows, with_gc=True)
 
+    def slice_many(self, glottocodes: list[str], dataset: str) -> pd.DataFrame:
+        """Explicit reviewed input-code union, preserving original intake order."""
+        if not glottocodes or any(not isinstance(gc, str) for gc in glottocodes):
+            raise ValueError("Source Glottocodes must be a nonempty list of strings")
+        placeholders = ','.join('?' for _ in glottocodes)
+        rows = self.conn.execute(
+            f'SELECT {self._select}, gc_lc FROM forms '
+            f'WHERE gc_lc IN ({placeholders}) AND "Dataset" = ? ORDER BY seq',
+            (*glottocodes, dataset),
+        ).fetchall()
+        return self._frame(rows, with_gc=True)
+
     def iter_chunks(self, chunksize: int = _CHUNKSIZE):
         """Every row, in intake order, as DataFrames of *chunksize* rows."""
         cur = self.conn.execute(f"SELECT {self._select} FROM forms ORDER BY seq")

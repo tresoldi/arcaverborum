@@ -19,14 +19,15 @@ import argparse
 import logging
 from pathlib import Path
 
-from arcaverborum.catalog import build_catalog
-from arcaverborum.glottolog import load_glottolog
-from arcaverborum.score import load_weights
 from arcaverborum.selection import (
     compute_all_signals,
     load_pins,
     select_all,
 )
+
+from arcaverborum.catalog import build_catalog
+from arcaverborum.glottolog import load_glottolog
+from arcaverborum.score import load_weights
 from arcaverborum.variety import register
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")

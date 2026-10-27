@@ -1,0 +1,24 @@
+av_id: sit-eastern-newari-dolakha
+name: Eastern Newari (Dolakha)
+glottocode: east2773
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: liunewari
+  cognates: liunewari
+  source_language_id: liunewari_DolakhaNewari
+  source_glottocode: dola1240
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.9447
+  cognates_score: 0.4
+  tier: bronze
+pinned: true
+registered_on: '2026-10-27'
+notes: Reviewed named source sample liunewari_DolakhaNewari; source dialect dola1240
+  is within cached Glottolog Eastern Newari east2773, not Kathmandu Newari. See PACKET.md.

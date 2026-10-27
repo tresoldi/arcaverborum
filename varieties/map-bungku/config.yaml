@@ -4,8 +4,23 @@ glottocode: bung1269
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: acd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - bung1269
+  - land1259
+  - rout1237
+  - tore1237
+  - tula1253
+  - waia1242
+  source_language_ids:
+  - abvd2026_876
+  - abvd2026_877
+  - abvd2026_878
+  - abvd2026_879
+  - abvd2026_880
+  - abvd2026_881
+  - abvd2026_882
 extensions:
   transcriptions: false
   forms: false
@@ -14,9 +29,10 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.433
-  cognates_score: 0.7
+  cognates_score: 0.2676
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.43); cognates=acd (0.70) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

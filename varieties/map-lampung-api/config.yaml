@@ -4,8 +4,28 @@ glottocode: lamp1243
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - krui1237
+  - lamp1243
+  - pubi1237
+  source_language_ids:
+  - abvd2026_214
+  - abvd2026_599
+  - abvd2026_600
+  - abvd2026_601
+  - abvd2026_602
+  - abvd2026_603
+  - abvd2026_604
+  - abvd2026_605
+  - abvd2026_606
+  - abvd2026_607
+  - abvd2026_608
+  - abvd2026_609
+  - abvd2026_610
+  - abvd2026_611
+  - abvd2026_612
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +36,8 @@ scoring:
   forms_score: 0.5
   cognates_score: 0.6924
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.50); cognates=abvd (0.69)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

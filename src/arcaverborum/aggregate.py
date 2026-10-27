@@ -30,7 +30,9 @@ import pandas as pd
 import yaml
 
 from arcaverborum.concepts import CONCEPTS_CSV, load_concepts
-from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load_parameter_index
+from arcaverborum.forms_schema import FORMS_OUT_FIELDS as FORMS_OUT_FIELDS
+from arcaverborum.forms_schema import form_quality_score as form_quality_score
+from arcaverborum.forms_schema import load_parameter_index as load_parameter_index
 
 logger = logging.getLogger(__name__)
 
@@ -79,11 +81,10 @@ def aggregate_all(
     """Union all `varieties/<av_id>/generated/forms.csv` into output/aggregate/.
 
     `intake_dir` provides metadata.csv + sources.bib (Lexibank).
-    `extra_intake_dirs` is accepted for call-site compatibility; the
-    concept table is now emitted from the frozen concept registry, so no
-    parameters_raw.csv join is needed here.
+    `extra_intake_dirs` supplies additional dataset metadata and bibliography.
+    Concepts are emitted from the frozen concept registry.
     """
-    _ = extra_intake_dirs  # retained for API stability; no longer used here
+    extra_intake_dirs = extra_intake_dirs or []
     output_dir.mkdir(parents=True, exist_ok=True)
 
     av_ids_built: list[str] = []
@@ -134,8 +135,10 @@ def aggregate_all(
 
     write_varieties(av_configs, output_dir)
     write_parameters(concept_ids_used, output_dir)
-    write_metadata(intake_dir / "metadata.csv", sources_used, output_dir)
-    write_sources_bib(intake_dir / "sources.bib", bibtex_keys_used, output_dir)
+    write_metadata(intake_dir / "metadata.csv", sources_used, output_dir,
+                   [p / "metadata.csv" for p in extra_intake_dirs])
+    write_sources_bib(intake_dir / "sources.bib", bibtex_keys_used, output_dir,
+                      [p / "sources.bib" for p in extra_intake_dirs])
 
     stats = {
         "forms_emitted": total_forms,
@@ -211,24 +214,32 @@ def write_parameters(concept_ids: set[str], output_dir: Path,
     return len(rows)
 
 
-def write_metadata(metadata_path: Path, sources_used: set[str], output_dir: Path) -> int:
-    if not metadata_path.exists():
-        logger.warning("Metadata file missing: %s", metadata_path)
+def write_metadata(metadata_path: Path, sources_used: set[str], output_dir: Path,
+                   extra_paths: list[Path] | None = None) -> int:
+    paths = [p for p in [metadata_path, *(extra_paths or [])] if p.exists()]
+    if not paths:
+        logger.warning("Metadata files missing")
         return 0
-    df = pd.read_csv(metadata_path, dtype=str, keep_default_na=False)
+    df = pd.concat([pd.read_csv(p, dtype=str, keep_default_na=False) for p in paths], ignore_index=True).fillna("")
+    if df["Dataset"].duplicated().any():
+        raise ValueError("Duplicate source metadata across intake namespaces")
     df = df[df["Dataset"].isin(sources_used)].copy()
     df.to_csv(output_dir / "metadata.csv", index=False)
     logger.info("Wrote %d metadata entries", len(df))
     return len(df)
 
 
-def write_sources_bib(bib_path: Path, keys_used: set[str], output_dir: Path) -> int:
-    if not bib_path.exists():
-        logger.warning("Source BibTeX not found: %s", bib_path)
+def write_sources_bib(bib_path: Path, keys_used: set[str], output_dir: Path,
+                      extra_paths: list[Path] | None = None) -> int:
+    paths = [p for p in [bib_path, *(extra_paths or [])] if p.exists()]
+    if not paths:
+        logger.warning("Source BibTeX files not found")
         return 0
-    text = bib_path.read_text(encoding="utf-8")
-    entries = _split_bibtex(text)
-    keep = [e for e in entries if _bibtex_key(e) in keys_used]
+    entries = [entry for path in paths for entry in _split_bibtex(path.read_text(encoding="utf-8"))]
+    # CLDF citation locators belong to the form reference, not the BibTeX key.
+    # Keep the original form value untouched, resolving only its base key here.
+    base_keys = {key.split("[", 1)[0].strip() for key in keys_used}
+    keep = [e for e in entries if _bibtex_key(e) in base_keys]
     (output_dir / "sources.bib").write_text("\n\n".join(keep), encoding="utf-8")
     logger.info("Wrote %d BibTeX entries (of %d)", len(keep), len(entries))
     return len(keep)

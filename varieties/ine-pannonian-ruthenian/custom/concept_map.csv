@@ -1,3 +1,5 @@
 Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,action,notes,source_form_id,expected_form
 wikt_man_noun_9914ec6b,683,,kin-person,map,"Human-being sense is person, not adult male kin-man.",,
 wikt_that_conj_7a64f776,,,,unmap,Complementizer connecting a clause is not the demonstrative defined by fun-that.,,
+wikt_you_pron_cdaef398,1215,,kin-thou,map,Shared English-sense correction applied; original independent reviews: afa-afar;afa-somali;ine-aragonese;ine-galician. Source sense matches kin-thou: The person addressed. Correction is parameter-specific; other senses of the English headword are unchanged.,,
+wikt_human_noun_2bc0ec05,683,,kin-person,map,Shared English-sense correction applied; original independent reviews: afa-saho;afa-somali;ine-aragonese;ine-galician. Source sense matches kin-person: A human being. Correction is parameter-specific; other senses of the English headword are unchanged.,,

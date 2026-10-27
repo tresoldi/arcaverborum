@@ -15,6 +15,8 @@ from .cognates import CognateBuilder
 from .extract import WiktTranslation
 from .langmap import LangMapping
 from .parameters import make_parameter_id, make_parameter_name
+from .pronunciations import annotation
+from .pronunciations import key as pronunciation_key
 
 logger = logging.getLogger(__name__)
 
@@ -43,8 +45,13 @@ def apply_threshold(
 def build_forms_df(
     translations_by_param: dict[tuple[str, str, str], list[WiktTranslation]],
     cognate_builder: CognateBuilder,
+    pronunciations: dict | None = None,
+    pronunciation_metadata: dict | None = None,
 ) -> pd.DataFrame:
     rows: list[dict] = []
+    pronunciations = pronunciations or {}
+    if pronunciations and not pronunciation_metadata:
+        raise ValueError("Pronunciation provenance metadata is required")
     counter = 0
     for (word, pos, sense), trs in translations_by_param.items():
         param_id = make_parameter_id(word, pos, sense)
@@ -55,6 +62,9 @@ def build_forms_df(
             all_tags = list(tr.tags) + list(tr.raw_tags)
             if tr.note:
                 all_tags.append(tr.note)
+            pronunciation = pronunciations.get(pronunciation_key(tr.target_lang_code, tr.target_word, pos))
+            if pronunciation:
+                all_tags.append(annotation(tr.target_word, pronunciation[0], pronunciation_metadata))
             comment = ";".join(all_tags) if all_tags else pd.NA
 
             cognacy = cognate_builder.get_cognate_ids(tr.target_lang_code, tr.target_word)
@@ -70,7 +80,7 @@ def build_forms_df(
                 "Concepticon_Gloss": pd.NA,
                 "Value": tr.target_word,
                 "Form": tr.target_word,
-                "Segments": pd.NA,
+                "Segments": pronunciation[1] if pronunciation else pd.NA,
                 "Cognacy": cognacy if cognacy else pd.NA,
                 "Alignment": pd.NA,
                 "Loan": loan,

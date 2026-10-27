@@ -4,8 +4,13 @@ glottocode: nadr1234
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - nadr1234
+  source_language_ids:
+  - abvd2026_1749
+  - abvd2026_1765
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +18,11 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.3425
+  forms_score: 0.3414
   cognates_score: 0.7
-  tier: copper
-pinned: false
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.34); cognates=abvd (0.70)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

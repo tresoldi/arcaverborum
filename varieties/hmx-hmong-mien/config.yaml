@@ -1,11 +1,12 @@
 av_id: hmx-hmong-mien
-name: Hmong-Mien
+name: Proto-Hmong-Mien
 glottocode: hmon1336
 family: Hmong-Mien
 macroarea: ''
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: wanghmongmien
+  cognates: wanghmongmien
+  source_language_id: wanghmongmien_ProtoHmongMien
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +14,11 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.3907
-  cognates_score: 0.0196
-  tier: copper
-pinned: false
+  forms_score: 0.8005
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.39); cognates=abvd (0.02)'
+notes: 'Reviewed 2026-10-27: reconstructed Proto-Hmong-Mien sample; not a living language
+  or pooled Hmong–Mien varieties. Replaces 107 unresolved ABVD forms with supplied
+  Wang IPA. See PACKET.md.'

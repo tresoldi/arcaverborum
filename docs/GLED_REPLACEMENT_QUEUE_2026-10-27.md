@@ -1,5 +1,7 @@
 # GLED replacement queue — 2026-10-27
 
+This is the initial queue snapshot, before pronunciation recovery. See [the completed data batch](DATA_EXPANSION_2026-10-27.md) and [updated IPA ranking](gled_ipa_candidates_2026-10-27.csv): Asturian is now replaced, while the remaining candidates still require further evidence.
+
 `python scripts/rank_gled_replacements.py` compares individual intake source members with the generated accepted GLED baseline. The [dated report](gled_replacements_2026-10-27.csv) contains 875 alternatives for the 1,583 GLED identities searched. These are candidate rows, not 875 independently reviewed varieties. Every current alternative is Wiktionary; none has validated source segments in intake. A source switch is therefore not justified by these counts alone.
 
 Ranking first favors actual net clean-core gains, where present, then lexical potential requiring orthography review. The report separates raw mapped coverage, source-clean coverage, gained/lost slots, citation/version/license metadata and exact member IDs. Potential net coverage assumes every raw mapping and pronunciation could be validated; it is an upper bound, not an estimated yield. Source etymology annotations are not assumed expert cognates. Existing GLED baseline support comes from generated forms; no pooled source members or spelling-as-IPA conversions enter the gain count.

@@ -77,7 +77,14 @@ def run_pipeline(
     cognate_builder.finalize()
 
     lang_mapper = build_lang_mapper(glottolog_tsv)
-    forms = build_forms_df(translations_by_param, cognate_builder)
+    from .pronunciations import load_index, write_ledger
+
+    pronunciation_path = input_path.parent.parent / "curation" / "wiktionary-pronunciations.sqlite"
+    pronunciations, pronunciation_metadata = ({}, {})
+    if pronunciation_path.exists():
+        pronunciations, pronunciation_metadata = load_index(pronunciation_path, input_path)
+        logger.info("Using %d reviewed exact pronunciation matches", len(pronunciations))
+    forms = build_forms_df(translations_by_param, cognate_builder, pronunciations, pronunciation_metadata)
     languages = build_languages_df(translations_by_param, lang_mapper)
     parameters = build_parameters_df(translations_by_param)
 
@@ -120,6 +127,14 @@ def run_pipeline(
                     len(forms), len(languages), len(parameters))
     else:
         write_output(forms, languages, parameters, output_dir)
+        from .provenance import write_provenance
+        write_provenance(output_dir, input_path,
+                         dict(forms=len(forms), languages=len(languages), parameters=len(parameters)),
+                         pronunciation_metadata)
+        if pronunciations:
+            write_ledger(forms, parameters, pronunciations, pronunciation_metadata, output_dir / "pronunciations.csv")
+        elif (output_dir / "pronunciations.csv").exists():
+            (output_dir / "pronunciations.csv").unlink()
 
     return {
         "forms": len(forms),

@@ -189,6 +189,11 @@ def _process_one(dataset: str, cldf_dir: Path) -> tuple[pd.DataFrame, pd.DataFra
     if forms.empty or languages.empty or parameters.empty or not metadata_path.exists():
         raise FileNotFoundError(f"{dataset}: missing required CLDF file")
 
+    if "Contribution_ID" in forms.columns and "Greenhilletal2008" in (
+            bib_path.read_text(encoding="utf-8") if bib_path.exists() else ""):
+        from arcaverborum.sources.abvd_provenance import preserve
+        forms = preserve(forms, use_cognate_table=not cognates.empty)
+
     forms["Dataset"] = dataset
     languages["Dataset"] = dataset
     parameters["Dataset"] = dataset

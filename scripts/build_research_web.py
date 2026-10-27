@@ -78,6 +78,8 @@ def build(root=ROOT, output=None):
                     reviews[av, key] = (record.get('decision') or record.get('action') or 'mapping override',
                                         record.get('rationale') or record.get('notes', ''),
                                         record.get('expected_form') or record.get('source_form', ''))
+    shared_path = root / 'src/arcaverborum/data/wiktionary_sense_overrides.csv'
+    shared_reviews = {r['Parameter_ID']: r for r in read(shared_path)} if shared_path.exists() else {}
     languages = read(aggregate / 'varieties.csv')
     by_id = {r['av_id']: r for r in languages}
     for row in languages:
@@ -115,6 +117,11 @@ def build(root=ROOT, output=None):
                 review = reviews.get((row['av_id'], row['source_form_id'])) or reviews.get(
                     (row['av_id'], row['source_parameter_id']))
                 row['mapping_review'], row['mapping_note'] = 'source mapping; no local review recorded', ''
+                shared = (shared_reviews.get(row['source_parameter_id'])
+                          if row['transcription_source'] == 'wiktionary' else None)
+                if shared:
+                    row['mapping_review'] = 'shared ' + shared['action']
+                    row['mapping_note'] = shared['notes'] + ' Reviewed in: ' + shared['reviewed_languages']
                 if review:
                     decision, rationale, expected = review
                     row['mapping_review'] = decision if not expected or expected == row['Form'] else 'snapshot differs'

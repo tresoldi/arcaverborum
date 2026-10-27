@@ -2,7 +2,7 @@
 
 The default explorer covers all accepted varieties. The **Core source collection** is a collection preset; the **161 basic concepts** are a separate vocabulary filter. The preceding Core-only interface is preserved at `core.html` and still uses `arca-core.sqlite.gz`.
 
-The initial catalog contains variety metadata, aliases from selected source samples, parent relationships, concept definitions, supported-core coverage and source metadata. Lexical records load by family only when requested. The complete accepted aggregate is split into 399 family shards (about 107 MB compressed in this build); no visitor downloads all shards on startup. Downloads are cached by content hash. SQLite, decompression, search and SQL run in `research-worker.js`, off the UI thread.
+The initial catalog contains variety metadata, aliases from selected source samples, parent relationships, concept definitions, supported-core coverage and source metadata. Lexical records load by family only when requested. The complete accepted aggregate is split into 399 family shards (about 109 MB compressed in this build); no visitor downloads all shards on startup. Downloads are cached by content hash. Older form links with shifted aggregate row numbers resolve by unchanged variety/source-form identity when the match is unique. SQLite, decompression, search and SQL run in `research-worker.js`, off the UI thread.
 
 ## Rebuild and deploy
 
@@ -15,7 +15,7 @@ python -m http.server 8799 --directory web
 
 Commit `web/data/` alongside interface changes, then push master. The Pages workflow copies committed artifacts; it does not fetch sources or rebuild the aggregate. The manifest is revalidated at startup; catalog and family caches use content hashes. Bump `VERSION` in `research.js` and matching asset versions in `index.html` when changing interface/worker behavior. Check the public manifest, counts and representative workflows after deployment.
 
-The builder never changes source acceptance, licenses, concept mappings or cognate judgments. It preserves form provenance, source glosses, local mapping-review notes, uncertainty and loan flags, supplied alignment/morpheme evidence, and separate individual cognate memberships. It renames the aggregate's `Cognate_Source` to `cognate_evidence_source` to distinguish it from `cognate_source` in SQLite's case-insensitive column namespace.
+The builder never changes source acceptance, licenses, concept mappings or cognate judgments. It preserves form provenance, source glosses, local and shared mapping-review notes, uncertainty and loan flags, supplied alignment/morpheme evidence, and separate individual cognate memberships. It renames the aggregate's `Cognate_Source` to `cognate_evidence_source` to distinguish it from `cognate_source` in SQLite's case-insensitive column namespace.
 
 ## Variety pages and geographic display
 

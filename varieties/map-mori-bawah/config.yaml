@@ -4,8 +4,25 @@ glottocode: mori1268
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: acd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - karo1300
+  - mori1268
+  - peta1246
+  - soro1239
+  source_language_ids:
+  - abvd2026_41
+  - abvd2026_895
+  - abvd2026_896
+  - abvd2026_897
+  - abvd2026_898
+  - abvd2026_899
+  - abvd2026_900
+  - abvd2026_901
+  - abvd2026_902
+  - abvd2026_903
+  - abvd2026_972
 extensions:
   transcriptions: false
   forms: false
@@ -14,9 +31,10 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.5
-  cognates_score: 0.686
+  cognates_score: 0.3478
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.50); cognates=acd (0.69) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

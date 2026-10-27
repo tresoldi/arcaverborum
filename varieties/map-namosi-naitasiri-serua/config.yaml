@@ -4,8 +4,32 @@ glottocode: namo1248
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: acd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - namo1248
+  source_language_ids:
+  - abvd2026_1744
+  - abvd2026_1747
+  - abvd2026_1755
+  - abvd2026_1774
+  - abvd2026_1783
+  - abvd2026_1800
+  - abvd2026_1817
+  - abvd2026_1841
+  - abvd2026_1867
+  - abvd2026_1871
+  - abvd2026_1880
+  - abvd2026_1913
+  - abvd2026_1921
+  - abvd2026_1927
+  - abvd2026_1932
+  - abvd2026_1960
+  - abvd2026_1977
+  - abvd2026_1980
+  - abvd2026_1981
+  - abvd2026_1987
+  - abvd2026_1992
 extensions:
   transcriptions: false
   forms: false
@@ -13,10 +37,11 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.354
-  cognates_score: 0.7
-  tier: copper
-pinned: false
+  forms_score: 0.353
+  cognates_score: 0.6988
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.35); cognates=acd (0.70) [cross-source: emitted cognates
-  still come from transcription_source]'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

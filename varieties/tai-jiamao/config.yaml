@@ -4,8 +4,13 @@ glottocode: jiam1236
 family: Tai-Kadai
 macroarea: Eurasia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - jiam1236
+  source_language_ids:
+  - abvd2026_1201
+  - abvd2026_1559
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +21,8 @@ scoring:
   forms_score: 0.4885
   cognates_score: 0.0203
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.49); cognates=abvd (0.02)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

@@ -1,0 +1,47 @@
+av_id: sit-eastern-newari-dolakha
+name: Eastern Newari (Dolakha)
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.9447
+  cognates_score: 0.4
+  pinned: true
+construction:
+  summary: Single named scholarly source sample; supplied IPA and exact source member
+    selection.
+  lexical_base:
+    source: liunewari
+    rationale: Primary-source evidence with validated source segments; no pooling
+      of related varieties.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 178/178 forms clean (source 178, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 105/161
+    notes: 178/178 forms mapped; 153 distinct concepts.
+  cognates:
+    source: liunewari
+    method: source
+    computed: none
+    notes: 100% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 100%
+    notes: ''
+candidates: []
+provenance:
+  bibliography:
+  - liunewari
+  source_url: https://calc.hypotheses.org/6269
+  source_commit: 7c03b9ac8939367f89c9a7433f8ef238026bf48c
+tradeoffs:
+  gains: ''
+  known_losses: ''
+notes: CC-BY-4.0; source judgments retained at supplied confidence, no inferred expert
+  status. Specialist lexical/transcription review pending. See PACKET.md.

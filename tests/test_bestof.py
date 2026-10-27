@@ -19,7 +19,6 @@ from arcaverborum.score import (
     score_forms_block,
 )
 from arcaverborum.variety import (
-    FALLBACK_FORMS_SCORE,
     FALLBACK_SOURCE,
     VarietyDir,
     build_one,

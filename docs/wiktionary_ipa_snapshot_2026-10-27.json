@@ -1,0 +1,16 @@
+{
+  "dump_sha256": "a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643",
+  "dump_bytes": 2826672112,
+  "dump_mtime_ns": 1787386677340283319,
+  "scanned_entries": 10806865,
+  "target_lexemes": 2227736,
+  "matching_lexemes": 1008620,
+  "decisions": {
+    "ambiguous_pronunciation": 120116,
+    "qualified_pronunciation": 171315,
+    "accept": 342005,
+    "incomplete_homograph": 319306,
+    "unsupported_ipa": 55878
+  },
+  "policy": "exact language/NFC spelling/POS; all matching entries unqualified and identical raw IPA"
+}

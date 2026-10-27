@@ -4,8 +4,18 @@ glottocode: kome1238
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - kome1238
+  source_language_ids:
+  - abvd2026_333
+  - abvd2026_594
+  - abvd2026_595
+  - abvd2026_596
+  - abvd2026_597
+  - abvd2026_598
+  - abvd2026_613
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +26,8 @@ scoring:
   forms_score: 0.5
   cognates_score: 0.6924
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.50); cognates=abvd (0.69)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

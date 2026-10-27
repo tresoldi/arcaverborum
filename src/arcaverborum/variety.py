@@ -27,9 +27,9 @@ import pandas as pd
 import yaml
 
 from arcaverborum.catalog import Variety
-from arcaverborum.fsutil import atomic_path, write_text_atomic
-from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load_parameter_index
 from arcaverborum.concepts import load_concept_maps
+from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load_parameter_index
+from arcaverborum.fsutil import atomic_path, write_text_atomic
 from arcaverborum.intake_db import IntakeDB
 from arcaverborum.phonology import load_profile, normalize_segments
 
@@ -539,6 +539,16 @@ def build_one(
     forms_score = float(config.get("scoring", {}).get("forms_score", 0.0))
     tier = config.get("scoring", {}).get("tier", "copper")
     gc = (source_glottocode or variety.glottocode or av_id).lower()
+    extra_codes = config["sources"].get("source_glottocodes", [])
+    member_ids = config["sources"].get("source_language_ids", [])
+    if (not isinstance(extra_codes, list) or not isinstance(member_ids, list)
+            or any(not isinstance(x, str) or not x.strip() for x in [*extra_codes, *member_ids])):
+        raise ValueError("Reviewed source selectors must be lists of nonempty strings")
+    if extra_codes and not member_ids:
+        raise ValueError("A source-code union requires explicit reviewed source members")
+    if source_language_id and member_ids:
+        raise ValueError("Use either a single source member or a reviewed member list")
+    source_codes = sorted({gc, *(code.strip().lower() for code in extra_codes)})
 
     if param_index is None:
         param_index = load_parameter_index(parameters_path) if parameters_path else {}
@@ -546,23 +556,29 @@ def build_one(
         concept_index, concept_labels = load_concept_maps()
 
     if isinstance(intake_forms, IntakeDB):
-        df = intake_forms.slice(gc, transcription_source)
+        df = (intake_forms.slice_many(source_codes, transcription_source) if len(source_codes) > 1
+              else intake_forms.slice(gc, transcription_source))
     elif isinstance(intake_forms, pd.DataFrame):
         df = intake_forms
         if "_glottocode_lc" in df.columns:
-            df = df[(df["_glottocode_lc"] == gc) & (df["Dataset"] == transcription_source)].copy()
+            df = df[(df["_glottocode_lc"].isin(source_codes)) & (df["Dataset"] == transcription_source)].copy()
         else:
-            df = df[(df["Glottocode"].astype(str).str.strip().str.lower() == gc)
+            df = df[(df["Glottocode"].astype(str).str.strip().str.lower().isin(source_codes))
                     & (df["Dataset"] == transcription_source)].copy()
     else:
         df = pd.read_csv(intake_forms, dtype=str, keep_default_na=False)
         df["Glottocode"] = df["Glottocode"].astype(str).str.strip().str.lower()
-        df = df[(df["Glottocode"] == gc) & (df["Dataset"] == transcription_source)].copy()
+        df = df[(df["Glottocode"].isin(source_codes)) & (df["Dataset"] == transcription_source)].copy()
 
     if source_language_id and not df.empty:
         df = df[df["Language_ID"].astype(str).str.strip() == source_language_id].copy()
 
-    used_fallback = False
+    if member_ids:
+        missing = set(member_ids) - set(df["Language_ID"])
+        if missing:
+            raise ValueError("Reviewed source members disappeared: " + ', '.join(sorted(missing)))
+        df = df[df["Language_ID"].isin(member_ids)].copy()
+
     if df.empty and transcription_source != FALLBACK_SOURCE and isinstance(intake_forms, (pd.DataFrame, IntakeDB)):
         if isinstance(intake_forms, IntakeDB):
             fb = intake_forms.slice(gc, FALLBACK_SOURCE)
@@ -578,13 +594,15 @@ def build_one(
             cognate_source = FALLBACK_SOURCE
             forms_score = FALLBACK_FORMS_SCORE
             tier = "copper"
-            used_fallback = True
             logger.info("Fallback to %s for %s (%d forms)", FALLBACK_SOURCE, av_id, len(df))
 
     if df.empty and not vd.custom_path("forms.csv").exists():
         write_text_atomic(vd.generated_forms, ",".join(FORMS_OUT_FIELDS) + "\n")
         return 0
 
+    from arcaverborum.wiktionary_senses import apply_shared
+
+    df = apply_shared(df, transcription_source)
     df, profile = apply_overlays(df, vd)
 
     out_rows = emit_forms(
@@ -716,7 +734,8 @@ def update_many(
                 continue
             src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
             gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
-            wanted.add((gc.lower(), (cfg.get("sources") or {}).get("transcription", "")))
+            for input_code in {gc.lower(), *((cfg.get("sources") or {}).get("source_glottocodes", []))}:
+                wanted.add((input_code.strip().lower(), (cfg.get("sources") or {}).get("transcription", "")))
             wanted.add((gc.lower(), FALLBACK_SOURCE))  # see _slice_component
         # Few varieties: one indexed query per slice. Many: one sequential
         # scan is cheaper. Both give the same digest for every wanted key.
@@ -776,7 +795,13 @@ def update_many(
 
     for batch_start in range(0, len(gc_list), _VARIETY_BATCH_SIZE):
         batch_gcs = set(gc_list[batch_start:batch_start + _VARIETY_BATCH_SIZE])
-        intake_df = _load_intake_for_glottocodes(existing_paths, batch_gcs)
+        input_gcs = set(batch_gcs)
+        for batch_gc in batch_gcs:
+            for batch_aid, _, _ in gc_to_avids[batch_gc]:
+                batch_cfg = load_config(VarietyDir(av_id=batch_aid, root=varieties_root / batch_aid))
+                input_gcs.update(code.strip().lower() for code in
+                                 (batch_cfg.get("sources") or {}).get("source_glottocodes", []))
+        intake_df = _load_intake_for_glottocodes(existing_paths, input_gcs)
         batch_num = batch_start // _VARIETY_BATCH_SIZE + 1
         total_batches = (len(gc_list) + _VARIETY_BATCH_SIZE - 1) // _VARIETY_BATCH_SIZE
         logger.info("Batch %d/%d: %d glottocodes, %d intake rows loaded",
@@ -826,9 +851,14 @@ def _slice_component(cfg: dict, gc: str, slice_hashes: dict[tuple[str, str], str
     """
     sources = cfg.get("sources") or {}
     ts = sources.get("transcription", "")
-    primary = slice_hashes.get((gc.lower(), ts), "")
+    extra_codes = sources.get("source_glottocodes", [])
+    if extra_codes:
+        primary = "|".join(code + ':' + slice_hashes.get((code, ts), '')
+                           for code in sorted({gc.lower(), *(c.strip().lower() for c in extra_codes)}))
+    else:
+        primary = slice_hashes.get((gc.lower(), ts), "")
     lid = str(sources.get("source_language_id", "") or "").strip()
-    if ts != FALLBACK_SOURCE and (not primary or lid):
+    if ts != FALLBACK_SOURCE and (not primary or lid or sources.get("source_language_ids")):
         return f"{primary}|{FALLBACK_SOURCE}:{slice_hashes.get((gc.lower(), FALLBACK_SOURCE), '')}"
     return primary
 

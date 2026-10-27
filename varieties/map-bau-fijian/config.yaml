@@ -4,8 +4,23 @@ glottocode: bauu1243
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: abvd2026
+  cognates: abvd2026
+  source_glottocodes:
+  - bauu1243
+  source_language_ids:
+  - abvd2026_11
+  - abvd2026_1741
+  - abvd2026_1799
+  - abvd2026_1837
+  - abvd2026_1846
+  - abvd2026_1854
+  - abvd2026_1894
+  - abvd2026_1903
+  - abvd2026_1918
+  - abvd2026_1986
+  - abvd2026_2001
+  - abvd2026_2023
 extensions:
   transcriptions: false
   forms: false
@@ -14,8 +29,10 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.5
-  cognates_score: 0.6858
+  cognates_score: 0.6856
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.50); cognates=abvd (0.69)'
+notes: Reviewed ABVD snapshot 81748db (2026-10-27); explicit canonical-language membership,
+  including named dialect samples where applicable. Source cognates remain in abvd2026
+  namespace; previous ABVD judgments are not transferred. See docs/abvd_promotion_2026-10-27.csv.

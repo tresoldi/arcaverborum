@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261027-2';
+const VERSION = 'research-20261027-3';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -213,7 +213,7 @@ function varietyEvidence(rows) {
     const method=r.Cognate_Detection_Method||'Not recorded';methods.set(method,(methods.get(method)||0)+1);
     if(/^(true|yes|1)$/i.test(r.Loan))loans++;
     if(/^(true|yes|1)$/i.test(r.Doubt))doubts++;
-    if(['map','retain','unmap'].includes(r.mapping_review))reviewed++;
+    if(['map','retain','unmap'].includes((r.mapping_review||'').replace(/^shared /,'')))reviewed++;
     if(r.concept_id&&!mapped.has(r.concept_id)){
       mapped.add(r.concept_id);const field=concepts.get(r.concept_id)?.semantic_field||'Not classified';fields.set(field,(fields.get(field)||0)+1);
     }
@@ -258,7 +258,7 @@ async function showVariety(token) {
       ${metadataList([['Forms with cognate assignments',`${fmt(e.assigned)} / ${fmt(rows.length)} in this view`],
         ['Source-scoped cognate sets',fmt(e.sets.size)],['Forms with multiple assignments',fmt(e.multiple)],
         ['Source-flagged loans',fmt(e.loans)],['Source-flagged doubt',fmt(e.doubts)],
-        ['Forms with local sense-review decisions',fmt(e.reviewed)],
+        ['Forms with recorded sense-review decisions',fmt(e.reviewed)],
         ['Construction tier',esc(l.tier)],['Transcription score',present(l.forms_score)],['Cognate score',present(l.cognates_score)]])}
       <p class="sub">Counts here use the current vocabulary/transcription filters unless marked otherwise. Source flags and sense reviews are not independent native-speaker verification; empty flags do not establish absence. ${link('Interpret evidence and tiers',{view:'about'})}</p>
       <details><summary>Cognate evidence methods</summary>${metadataList([...e.methods].sort((a,b)=>b[1]-a[1]).map(([method,n])=>[method,fmt(n)+' forms']))}</details>
@@ -311,12 +311,22 @@ async function showConcept(token) {
 async function showForm(token) {
   const av=state.id.split(':')[0],l=languages.get(av);if(!l)throw Error('Unknown form variety.');
   await ensure([l.Family||'Unclassified']);if(token!==epoch)return;
-  const [r]=await query('SELECT * FROM forms WHERE ID=?',[state.id]);if(token!==epoch)return;if(!r)throw Error('Form not found in this build.');
+  let [r]=await query('SELECT * FROM forms WHERE ID=?',[state.id]);
+  if(!r){
+    // Older links contain an aggregate row number, which shifts as coverage grows.
+    const first=state.id.indexOf(':'),last=state.id.lastIndexOf(':');
+    if(last>first&&/^\d+$/.test(state.id.slice(last+1))){
+      const matches=await query('SELECT * FROM forms WHERE av_id=? AND source_form_id=? LIMIT 2',
+        [av,state.id.slice(first+1,last)]);
+      if(matches.length===1)r=matches[0];
+    }
+  }
+  if(token!==epoch)return;if(!r)throw Error('Form not found uniquely in this build.');
   const s=sources.get(r.transcription_source);
   $('#app').innerHTML=`<p>${link('← '+l.Name,{view:'variety',id:av})}</p><h2 class="ipa">${esc(r.Form)}</h2>
     <p class="ipa large">${esc(r.Segments)}</p><p>${statusBadge(r)} · ${link('Interpret transcription and uncertainty',{view:'about'})}</p>
     <p>Concept: ${r.concept_id?link(r.concept_label,{view:'concept',cid:r.concept_id}):'Unmapped'} · Original source gloss: ${esc(r.source_gloss||'Not recorded')}</p>
-    <p>Local mapping review: <strong>${esc(r.mapping_review||'Not recorded')}</strong>. ${esc(r.mapping_note||'No local sense-review note recorded; consult source definitions.')}</p>
+    <p>Mapping review: <strong>${esc(r.mapping_review||'Not recorded')}</strong>. ${esc(r.mapping_note||'No sense-review note recorded; consult source definitions.')}</p>
     <p>Cognate membership: ${cognatesCell(r)}. Method: ${esc(r.Cognate_Detection_Method||'Not recorded')}; source: ${esc(r.cognate_evidence_source||r.cognate_source)}.</p>
     <p>Doubt flag: ${esc(r.Doubt||'Not recorded')} · Loan flag: ${esc(r.Loan||'Not recorded')}. Empty flags do not mean verified absence.</p>
     <details open><summary>Alignment and morpheme evidence</summary><dl>${['Alignment','Morpheme_Index','Segment_Slice','canonical_cognate_id'].map(k=>`<dt>${esc(k)}</dt><dd class="ipa">${esc(r[k]||'Not supplied')}</dd>`).join('')}</dl></details>

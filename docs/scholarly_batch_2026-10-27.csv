@@ -1,0 +1,18 @@
+dataset,member,name,source_glottocode,decision,commit
+wanghmongmien,ProtoHmongMien,Proto-Hmong-Mien,hmon1336,upgrade hmx-hmong-mien as explicit reconstruction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Jiwei,Jiwei,nort2748,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Yanghao,Yanghao,east2369,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Qibainong,Qibainong,buna1273,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Fuyuan,Fuyuan,luop1235,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Wenjie,Wenjie,pahn1237,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Changdong,Changdong,jion1236,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Duozhu,Duozhu,shee1238,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Luoxiang,Luoxiang,iumi1238,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Liangzi,Liangzi,kimm1245,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Sanjiang,Sanjiang,biao1256,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+wanghmongmien,Daping,Daping,dzao1238,source available; retain existing accepted construction,9ffba014bd25cd84f802c8b31861c58b6c927185
+khalidasur,Asuri,Asuri,asur1254,admit aav-asuri,1542b79aea7a1ef845b2e4d78b742830882a6544
+liunewari,OldNewari,OLD NEWARI,,defer identity/chronology; no source Glottocode,7c03b9ac8939367f89c9a7433f8ef238026bf48c
+liunewari,ClassicalNewari,CLASSICAL NEWARI,,defer identity/chronology; no source Glottocode,7c03b9ac8939367f89c9a7433f8ef238026bf48c
+liunewari,KathmanduNewari,Kathmandu,newa1246,source available; retain existing accepted construction,7c03b9ac8939367f89c9a7433f8ef238026bf48c
+liunewari,DolakhaNewari,Dolakha,dola1240,"admit sit-eastern-newari-dolakha, canonical east2773",7c03b9ac8939367f89c9a7433f8ef238026bf48c

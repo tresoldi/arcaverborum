@@ -1,0 +1,37 @@
+{
+  "before": {
+    "varieties": 7310,
+    "forms": 2048653,
+    "mapped_core_slots": 537915,
+    "supported_core_slots": 463281,
+    "source_segment_forms": 1703274,
+    "profile_segment_forms": 11408,
+    "gled_varieties": 1583,
+    "core_collection_varieties": 892
+  },
+  "after": {
+    "varieties": 7312,
+    "forms": 2062473,
+    "mapped_core_slots": 538457,
+    "supported_core_slots": 464368,
+    "source_segment_forms": 1739178,
+    "profile_segment_forms": 12810,
+    "gled_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "change": {
+    "varieties": 2,
+    "forms": 13820,
+    "mapped_core_slots": 542,
+    "supported_core_slots": 1087,
+    "source_segment_forms": 35904,
+    "profile_segment_forms": 1402,
+    "gled_varieties": -1,
+    "core_collection_varieties": 0
+  },
+  "wiktionary_pronunciation_annotated_forms": {
+    "source": 35454
+  },
+  "wiktionary_varieties_with_annotated_source_ipa": 100,
+  "abvd2026_forms": 136969
+}
