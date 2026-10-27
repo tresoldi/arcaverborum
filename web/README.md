@@ -17,6 +17,10 @@ Commit `web/data/` alongside interface changes, then push master. The Pages work
 
 The builder never changes source acceptance, licenses, concept mappings or cognate judgments. It preserves form provenance, source glosses, local mapping-review notes, uncertainty and loan flags, supplied alignment/morpheme evidence, and separate individual cognate memberships. It renames the aggregate's `Cognate_Source` to `cognate_evidence_source` to distinguish it from `cognate_source` in SQLite's case-insensitive column namespace.
 
+## Variety pages and geographic display
+
+Variety pages show a regional catalog-location map, ISO/catalog/parent identity, country codes, source aliases, documentation dates, structured source citations and licenses, cognate-method counts, semantic-field coverage, and observed segment-token counts. Segment tokens come only from source/profile-supported forms in the current view, with their origins separated; this is not a verified phoneme inventory. Missing coordinates or metadata stay explicit. All maps share opaque land, contrasting country borders, country-name hover labels, and light/dark palettes. Locations are approximate catalog points, not inferred recording sites or language boundaries.
+
 ## Research workflows and limitations
 
 - Select varieties in the catalog, then choose concepts in Compare. Matrices support up to 16 varieties and 200 concepts at once; all 161 basic concepts fit. Synonyms remain grouped in cells. Comparisons use explicit variety selections across catalog family/name/area filters, while collection, vocabulary and transcription choices are respected.

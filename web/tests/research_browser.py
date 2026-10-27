@@ -52,6 +52,17 @@ with sync_playwright() as playwright:
     page.wait_for_function("document.querySelector('#app').textContent.includes('Provenance')")
     assert 'view' in page.url and 'form' in page.url
     assert page.locator('#app').inner_text().count('source') > 0
+    page.get_by_role('link', name='← Vach-Vasjugan', exact=True).click()
+    page.wait_for_selector('#varietymap path.leaflet-interactive')
+    geography = page.locator('#varietymap path.leaflet-interactive').first
+    assert geography.get_attribute('fill-opacity') == '1'
+    assert float(geography.get_attribute('stroke-width')) >= 1
+    assert 'Linguistic identity' in page.locator('#app').inner_text()
+    assert 'Source version' in page.locator('#app').inner_text()
+    page.locator('#segmentinventory summary').click()
+    assert 'not a verified phoneme inventory' in page.locator('#segmentinventory').inner_text()
+    page.go_back()
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Provenance')")
     page.go_back()
     page.wait_for_selector('#comparisonconcepts')
     page.locator('#family').select_option('Uralic')
@@ -82,5 +93,5 @@ with sync_playwright() as playwright:
     page.screenshot(path='/tmp/arca-research-mobile.png')
     assert not errors, errors
     print('PASS: collection scopes, URL restoration, comparison, provenance, CSV/manifest export, '
-          'search, read-only SQL, map, mobile, keyboard links')
+          'variety metadata/inventory, search, read-only SQL, map contrast, mobile, keyboard links')
     browser.close()

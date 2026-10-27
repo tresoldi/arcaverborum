@@ -84,7 +84,8 @@ def build(root=ROOT, output=None):
         entry = registry.get(row['av_id'], {})
         row.update({k: entry.get(k, '') for k in ['parent_av_id', 'iso639p3', 'latitude', 'longitude', 'notes']})
         g = glottolog.get(entry.get('glottocode', ''), {})
-        row.update(identity_level=g.get('Level', 'not recorded'),
+        row.update(countries=g.get('Countries', ''), glottolog_family_id=g.get('Family_ID', ''),
+                   identity_level=g.get('Level', 'not recorded'),
                    first_documented=g.get('First_Year_Of_Documentation', ''),
                    last_documented=g.get('Last_Year_Of_Documentation', ''))
         row.update(core_collection=row['transcription_source'] in core_sources,

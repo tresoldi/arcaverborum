@@ -31,7 +31,10 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     data = tmp_path / 'src/arcaverborum/data'
     write_csv(data / 'concept_core.csv', [{'concept_id': 'bod-head'}])
     write_csv(data / 'varieties.csv', [dict(av_id='demo', latitude='0', longitude='0',
-                                          parent_av_id='parent', iso639p3='abc', notes='Named dialect')])
+                                          parent_av_id='parent', iso639p3='abc', glottocode='test1234',
+                                          notes='Named dialect')])
+    write_csv(tmp_path / 'raw/glottolog/languages.csv',
+              [dict(ID='test1234', Countries='XY', Family_ID='testfamily', Level='dialect')])
     write_csv(tmp_path / 'datasets.csv', [dict(NAME='source', CORE='TRUE')])
     write_csv(aggregate / 'metadata.csv', [dict(Dataset='source', Title='Fieldwork', License='CC-BY-4.0')])
     write_csv(aggregate / 'varieties.csv', [dict(av_id='demo', Name='Sample', Family='Family',
@@ -58,6 +61,9 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     assert variety['statuses'] == {'profile': 1, 'unclean': 1}
     assert variety['concept_ids'] == ['bod-head']
     assert variety['parent_av_id'] == 'parent'
+    assert variety['countries'] == 'XY'
+    assert variety['glottolog_family_id'] == 'testfamily'
+    assert variety['identity_level'] == 'dialect'
     assert 'Native sample label' in variety['aliases']
     assert variety['core_collection']
     spec = manifest['shards']['Family']

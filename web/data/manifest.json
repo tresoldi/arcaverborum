@@ -2441,8 +2441,8 @@
   },
   "catalog": {
     "url": "data/catalog.json.gz",
-    "bytes": 3335325,
-    "sha256": "aae60abf9f42bb017cf4065e3fe3ec3b0c7f3a60df6c7986e0bc2b1ee5b78b0c"
+    "bytes": 3380212,
+    "sha256": "ed24414c89a938f5a3763b44165f57d58a669e6e8e33587ea9d358a50f741a27"
   },
   "core_count": 161,
   "source_files": {

@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261027-1';
+const VERSION = 'research-20261027-2';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -191,6 +191,41 @@ function showVarieties() {
     ],rows,{select:true})}`;
   debouncedInput('#varietysearch','search');
 }
+function present(value) { return value === '' || value == null ? 'Not recorded' : esc(value); }
+function metadataList(entries) { return '<dl class="metadata-list">'+entries.map(([label,value])=>`<dt>${esc(label)}</dt><dd>${value}</dd>`).join('')+'</dl>'; }
+function validCoordinates(l) {
+  return l.latitude!==''&&l.longitude!==''&&l.latitude!=null&&l.longitude!=null&&
+    Number.isFinite(+l.latitude)&&Number.isFinite(+l.longitude)&&Math.abs(+l.latitude)<=90&&Math.abs(+l.longitude)<=180;
+}
+function varietyEvidence(rows) {
+  const inventory=new Map(),methods=new Map(),fields=new Map(),sets=new Set();
+  let segmented=0,assigned=0,multiple=0,loans=0,doubts=0,reviewed=0;
+  const mapped=new Set();
+  for(const r of rows){
+    if(['source','profile'].includes(r.Segments_Source)&&r.Segments){
+      segmented++;
+      for(const segment of r.Segments.trim().split(/\s+/).filter(t=>!['+','_','#'].includes(t))){
+        const count=inventory.get(segment)||{source:0,profile:0};count[r.Segments_Source]++;inventory.set(segment,count);
+      }
+    }
+    const codes=JSON.parse(r.cognate_sets||'[]');if(codes.length)assigned++;if(codes.length>1)multiple++;
+    for(const code of codes)sets.add((r.cognate_source||'not recorded')+':'+code);
+    const method=r.Cognate_Detection_Method||'Not recorded';methods.set(method,(methods.get(method)||0)+1);
+    if(/^(true|yes|1)$/i.test(r.Loan))loans++;
+    if(/^(true|yes|1)$/i.test(r.Doubt))doubts++;
+    if(['map','retain','unmap'].includes(r.mapping_review))reviewed++;
+    if(r.concept_id&&!mapped.has(r.concept_id)){
+      mapped.add(r.concept_id);const field=concepts.get(r.concept_id)?.semantic_field||'Not classified';fields.set(field,(fields.get(field)||0)+1);
+    }
+  }
+  return {inventory,methods,fields,sets,segmented,assigned,multiple,loans,doubts,reviewed};
+}
+function sourceMetadata(key,roles) {
+  const source=sources.get(key)||{};
+  return `<section class="metadata-card"><h3>${esc(roles)}</h3><p>${sourceLink(key)}</p>${metadataList([
+    ['Dataset ID',esc(key)],['Citation',present(source.Citation)],['Source version',present(source.Repository_Version)],
+    ['License',present(source.License)],['Upstream source',external(source.URL||'Not recorded',source.URL)]])}</section>`;
+}
 async function showVariety(token) {
   const l=languages.get(state.id);if(!l)throw Error('Variety not found in this build.');
   await ensure([l.Family||'Unclassified']);if(token!==epoch)return;
@@ -199,19 +234,48 @@ async function showVariety(token) {
   if(state.status==='usable')sql+=" AND Segments_Source IN ('source','profile')";
   else if(state.status){sql+=' AND Segments_Source=?';params.push(state.status);}
   const rows=await query(sql,params,100000);if(token!==epoch)return;
-  const missing=catalog.core.filter(c=>!l.supported_ids.includes(c));
+  const missing=catalog.core.filter(c=>!l.supported_ids.includes(c)),e=varietyEvidence(rows);
+  const label=/^Proto[- ]/i.test(l.Name)?'Reconstruction (catalog name label)':/^(Old|Middle|Classical|Ancient|Late|Early Modern|Ottoman) /i.test(l.Name)?'Historical stage (catalog name label)':'Not independently classified';
   $('#app').innerHTML=`<p>${link('← Varieties',{view:'varieties',page:0,columns:[]})}</p><h2>${esc(l.Name)}</h2>
-    <p>${esc(l.Family)} · ${esc(l.Macroarea)} · ${external(l.Glottocode,'https://glottolog.org/resource/languoid/id/'+l.Glottocode)}
-    ${l.parent_av_id?' · Parent: '+link(languages.get(l.parent_av_id)?.Name||l.parent_av_id,{view:'variety',id:l.parent_av_id}):''}</p>
-    <div class="metrics"><div><strong>${l.supported_core}/161</strong> supported core</div><div><strong>${l.mapped_concepts}</strong> mapped concepts</div><div><strong>${fmt(l.forms)}</strong> forms</div></div>
-    <p>Catalog level: ${esc(l.identity_level||'Not recorded')} · ${/^Proto[- ]/i.test(l.Name)?'Reconstruction (catalog name label)':/^(Old|Middle|Classical|Ancient|Late|Early Modern|Ottoman) /i.test(l.Name)?'Historical stage (catalog name label)':'Check source for historical status'}. Documentation dates: ${esc(l.first_documented||'not recorded')}–${esc(l.last_documented||'not recorded')}. Source labels: ${esc((l.aliases||[]).join('; ')||'not recorded')}.</p>
-    <p>${Object.entries(l.statuses).map(([s,n])=>`${esc(statusNames[s]||s)}: ${fmt(n)}`).join(' · ')}</p>
-    <p>Construction tier: <strong>${esc(l.tier)}</strong> · transcription score ${esc(l.forms_score)} · cognate score ${esc(l.cognates_score)}. ${link('How to interpret these',{view:'about'})}</p>
-    <p>Source: ${sourceLink(l.transcription_source)}. ${l.packet_url?external('Curation packet',l.packet_url):'No published curation packet for this variety.'}</p>
-    <details><summary>Identity notes and missing core concepts</summary><p>${esc(l.notes||'No additional identity notes recorded. Historical status and sampling dates should be checked in the source; they are not inferred from the name.')}</p>
-    <p>${missing.map(c=>link(concepts.get(c)?.label||c,{view:'concept',cid:c})).join(', ')||'All core concepts have supported entries.'}</p><p>Missing support means not supplied, not mapped, or unresolved here. It does not establish lexical absence.</p></details>
-    <p class="sub">This detail page follows the named variety and vocabulary/transcription filters. Family, name, area, tier and minimum-coverage controls select catalog entries; they do not hide this linked record.</p>
-    ${exportControls(rows,'this named variety; vocabulary/transcription filters applied')}${table(formColumns(),rows)}`;
+    <div class="controls page-jumps"><button id="jumprecords">Lexical records ↓</button><button id="jumpinventory">Segment evidence ↓</button></div>
+    <p class="sub">${esc(l.Family)} · ${esc(l.Macroarea)} · ${external(l.Glottocode,'https://glottolog.org/resource/languoid/id/'+l.Glottocode)}</p>
+    <div class="metrics"><div><strong>${l.supported_core}/161</strong> supported core</div><div><strong>${l.mapped_concepts}</strong> mapped concepts</div><div><strong>${fmt(l.forms)}</strong> total forms</div><div><strong>${fmt(rows.length)}</strong> forms in this view</div></div>
+    <div class="variety-overview"><section class="metadata-card"><h3>Location</h3>
+    ${validCoordinates(l)?'<div id="varietymap" class="map variety-map" role="region" aria-label="Approximate catalog location"></div><p class="sub">Approximate catalog point, not a speaker distribution, language boundary, or necessarily a recording site.</p>':'<p class="empty">No valid catalog coordinates recorded. No location is inferred.</p>'}
+    <p>${validCoordinates(l)?`Latitude ${(+l.latitude).toFixed(4)} · Longitude ${(+l.longitude).toFixed(4)}`:''}</p>
+    ${link('Explore this family on the full map',{view:'map',family:l.Family||'Unclassified',search:'',page:0,columns:[]})}</section>
+    <section class="metadata-card"><h3>Linguistic identity</h3>${metadataList([
+      ['Accepted variety ID',esc(l.av_id)],['Language family',present(l.Family)],['Macroarea',present(l.Macroarea)],
+      ['Catalog level',present(l.identity_level)],['ISO 639-3',present(l.iso639p3)],
+      ['Parent variety',l.parent_av_id?link(languages.get(l.parent_av_id)?.Name||l.parent_av_id,{view:'variety',id:l.parent_av_id}):'Not recorded'],
+      ['Source names / aliases',esc((l.aliases||[]).join('; ')||'Not recorded')],['Historical status',label],
+      ['First documentation',present(l.first_documented)],['Last documentation',present(l.last_documented)],
+      ['Catalog country codes',present(l.countries)],
+      ['Catalog classification',l.glottolog_family_id?external(l.glottolog_family_id,'https://glottolog.org/resource/languoid/id/'+l.glottolog_family_id):'Not recorded']])}
+      <p class="sub">Documentation dates are catalog annotations, not necessarily dates of the lexical sample. Historical labels above describe the catalog name.</p></section></div>
+    <section class="metadata-card"><h3>Lexical and transcription evidence</h3>
+      <p>${Object.entries(l.statuses).map(([status,n])=>`${esc(statusNames[status]||status)}: <strong>${fmt(n)}</strong>`).join(' · ')} (whole variety)</p>
+      ${metadataList([['Forms with cognate assignments',`${fmt(e.assigned)} / ${fmt(rows.length)} in this view`],
+        ['Source-scoped cognate sets',fmt(e.sets.size)],['Forms with multiple assignments',fmt(e.multiple)],
+        ['Source-flagged loans',fmt(e.loans)],['Source-flagged doubt',fmt(e.doubts)],
+        ['Forms with local sense-review decisions',fmt(e.reviewed)],
+        ['Construction tier',esc(l.tier)],['Transcription score',present(l.forms_score)],['Cognate score',present(l.cognates_score)]])}
+      <p class="sub">Counts here use the current vocabulary/transcription filters unless marked otherwise. Source flags and sense reviews are not independent native-speaker verification; empty flags do not establish absence. ${link('Interpret evidence and tiers',{view:'about'})}</p>
+      <details><summary>Cognate evidence methods</summary>${metadataList([...e.methods].sort((a,b)=>b[1]-a[1]).map(([method,n])=>[method,fmt(n)+' forms']))}</details>
+      <details><summary>Semantic-field coverage</summary><p>Distinct mapped concepts in this view; synonyms count once.</p>${metadataList([...e.fields].sort((a,b)=>b[1]-a[1]).map(([field,n])=>[field,fmt(n)]))}</details>
+    </section>
+    <details class="metadata-card" id="segmentinventory"><summary>Observed segment tokens (${e.inventory.size})</summary>
+      <p>Attested tokens from ${fmt(e.segmented)} source-supplied/profile-inferred forms in this view, including any prosodic marks. Boundary markers are excluded. This is a lexical-sample inventory, not a verified phoneme inventory. Counts include repeated occurrences.</p>
+      <div class="segment-inventory">${[...e.inventory].sort((a,b)=>a[0].localeCompare(b[0])).map(([segment,n])=>`<span class="segment-token"><b class="ipa">${esc(segment)}</b><span>${fmt(n.source+n.profile)} occurrences</span><small>source ${fmt(n.source)} · profile ${fmt(n.profile)}</small></span>`).join('')||'<p>No source/profile-supported segment tokens in the current view.</p>'}</div></details>
+    <div class="source-cards">${sourceMetadata(l.transcription_source,l.transcription_source===l.cognate_source?'Lexical and cognate source':'Lexical source')}${l.transcription_source!==l.cognate_source?sourceMetadata(l.cognate_source,'Cognate source'):''}</div>
+    <details class="metadata-card"><summary>Identity notes, curation and missing core concepts</summary><p>${esc(l.notes||'No additional identity notes recorded.')}</p>
+      <p>${l.packet_url?external('Read the curation packet',l.packet_url):'No published curation packet for this variety.'}</p>
+      <p>${missing.map(c=>link(concepts.get(c)?.label||c,{view:'concept',cid:c})).join(', ')||'All core concepts have supported entries.'}</p><p>Missing support means not supplied, not mapped, or unresolved here. It does not establish lexical absence.</p></details>
+    <p class="sub">This detail page follows the named variety and vocabulary/transcription filters. Family, name, area, tier and minimum-coverage controls select catalog entries; they do not hide this linked record. Data build: ${esc(manifest.build_date)}.</p>
+    <h3 id="lexicalrecords" tabindex="-1">Lexical records</h3>${exportControls(rows,'this named variety; vocabulary/transcription filters applied')}${table(formColumns(),rows)}`;
+  $('#jumprecords').onclick=()=>{$('#lexicalrecords').scrollIntoView();$('#lexicalrecords').focus({preventScroll:true});};
+  $('#jumpinventory').onclick=()=>{const panel=$('#segmentinventory');panel.open=true;panel.scrollIntoView();panel.querySelector('summary').focus({preventScroll:true});};
+  if(validCoordinates(l))await drawVarietyMap(l,token);
 }
 function sourceLink(key) {const s=sources.get(key);return external(s?.Title||key,s?.URL||'');}
 function showConcepts() {
@@ -331,18 +395,34 @@ function showStats() {
 }
 async function showMap(token) {
   const rows=scopedLanguages();
-  $('#app').innerHTML=`<h2>Variety map</h2><p>${rows.filter(l=>!l.latitude||!l.longitude).length} varieties in scope have no coordinates. Points are approximate catalog locations, not language boundaries, historical ranges, or speaker distributions.</p>
+  $('#app').innerHTML=`<h2>Variety map</h2><p>${rows.filter(l=>!validCoordinates(l)).length} varieties in scope have no coordinates. Points are approximate catalog locations, not language boundaries, historical ranges, or speaker distributions.</p>
     <label>Color by<select id="mapmode"><option value="Family">Family</option><option value="Macroarea">Macroarea</option><option value="tier">Construction tier</option><option value="coverage">Supported core coverage</option></select></label>
     <div class="map-layout"><div id="mapcanvas" class="map"></div><div id="maplegend" class="maplegend"></div></div>`;
   $('#mapmode').onchange=()=>drawMap(rows,false,token);
   await drawMap(rows,false,token);
 }
-async function drawMap(rows,cognate,token) {
-  const world=await fetch('vendor/world.geo.json').then(r=>r.json());if(token!==epoch)return;
+let worldPromise;
+async function baseMap(container,center,zoom,token) {
+  worldPromise ||= fetch('vendor/world.geo.json').then(r=>{if(!r.ok)throw Error('Cannot load map geography');return r.json();});
+  const world=await worldPromise;if(token!==epoch)return null;
   if(map)map.remove();
-  map=L.map(cognate?'conceptmap':'mapcanvas',{attributionControl:true}).setView([15,10],2);
-  L.geoJSON(world,{style:{fillColor:'#eae6dc',color:'#bdb5a8',weight:0.5},interactive:false}).addTo(map);
-  map.attributionControl.addAttribution('Locations: source / Glottolog; approximate');
+  map=L.map(container,{attributionControl:true,scrollWheelZoom:false}).setView(center,zoom);
+  const css=getComputedStyle(document.documentElement);
+  const colors={land:css.getPropertyValue('--map-land').trim(),border:css.getPropertyValue('--map-border').trim()};
+  L.geoJSON(world,{style:{fillColor:colors.land,fillOpacity:1,color:colors.border,opacity:1,weight:1.15},
+    onEachFeature:(feature,layer)=>layer.bindTooltip(esc(feature.properties?.name||'Country'),{sticky:true})}).addTo(map);
+  map.attributionControl.addAttribution('Locations: Arca catalog / Glottolog; approximate');
+  L.control.scale({imperial:false}).addTo(map);
+  return map;
+}
+async function drawVarietyMap(l,token) {
+  const m=await baseMap('varietymap',[+l.latitude,+l.longitude],3,token);if(!m)return;
+  L.circleMarker([+l.latitude,+l.longitude],{radius:8,color:'#fff',weight:2,fillColor:'#a63828',fillOpacity:1}).addTo(m)
+    .bindTooltip(esc(l.Name),{permanent:true,direction:'top',className:'location-label'})
+    .bindPopup(`<strong>${esc(l.Name)}</strong><br>${esc(l.Family)}<br>Approximate catalog location`);
+}
+async function drawMap(rows,cognate,token) {
+  if(!await baseMap(cognate?'conceptmap':'mapcanvas',[15,10],2,token))return;
   const field=cognate?'cognate_sets':$('#mapmode').value, keys=[];
   const values=r=>cognate?JSON.parse(r.cognate_sets||'[]'):field==='coverage'?[`${Math.floor(r.supported_core/40)*40}–${Math.min(161,Math.floor(r.supported_core/40)*40+39)}`]:[r[field]||'Unspecified'];
   for(const row of rows)for(const key of values(row))if(!keys.includes(key))keys.push(key);
@@ -350,7 +430,7 @@ async function drawMap(rows,cognate,token) {
   const layer=L.layerGroup().addTo(map),coordinates=new Map();
   const draw=selected=>{
     layer.clearLayers();coordinates.clear();
-    for(const row of rows){if(!row.latitude||!row.longitude)continue;const labels=values(row);if(selected&&!labels.includes(selected))continue;
+    for(const row of rows){if(!validCoordinates(row))continue;const labels=values(row);if(selected&&!labels.includes(selected))continue;
       const key=row.latitude+','+row.longitude;let group=coordinates.get(key);if(!group){group=[];coordinates.set(key,group);}group.push(row);}
     for(const group of coordinates.values()){
       const row=group[0],labels=values(row),color=selected?colors[selected]:labels.length===1?colors[labels[0]]:'#777';
