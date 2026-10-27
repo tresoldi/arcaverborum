@@ -1,24 +1,49 @@
-# Arca Verborum Core — web explorer
+# Arca Verborum research explorer
 
-A static, browser-native explorer for the Arca Verborum Core dataset. It loads a
-gzipped SQLite of the release, inflates it with the browser's native
-`DecompressionStream`, and queries it client-side with
-[sql.js](https://github.com/sql-js/sql.js). No server, no backend, nothing to
-install — deployable as static files (GitHub Pages, via `CNAME`).
+The default explorer covers all accepted varieties. The **Core source collection** is a collection preset; the **161 basic concepts** are a separate vocabulary filter. The preceding Core-only interface is preserved at `core.html` and still uses `arca-core.sqlite.gz`.
 
-## Files
+The initial catalog contains variety metadata, aliases from selected source samples, parent relationships, concept definitions, supported-core coverage and source metadata. Lexical records load by family only when requested. The complete accepted aggregate is split into 399 family shards (about 107 MB compressed in this build); no visitor downloads all shards on startup. Downloads are cached by content hash. SQLite, decompression, search and SQL run in `research-worker.js`, off the UI thread.
 
-| File | |
-|---|---|
-| `index.html`, `app.js`, `style.css` | the app (vanilla JS, no framework) |
-| `vendor/sql-wasm.{js,wasm}` | sql.js (MIT), vendored |
-| `vendor/leaflet.{js,css}` + `vendor/images/` | Leaflet (MIT), vendored (incl. marker/layer icons) |
-| `vendor/world.geo.json` | world countries GeoJSON for the flat basemap |
-| `arca-core.sqlite.gz` | the dataset (build artifact; see below) |
-| `BUILD_INFO` | version/counts, shown in the header (build artifact) |
-| `CNAME` | custom domain for GitHub Pages |
+## Rebuild and deploy
 
-## Rebuilding the data
+After the accepted builds and aggregate are current:
+
+```bash
+python scripts/build_research_web.py
+python -m http.server 8799 --directory web
+```
+
+Commit `web/data/` alongside interface changes, then push master. The Pages workflow copies committed artifacts; it does not fetch sources or rebuild the aggregate. The manifest is revalidated at startup; catalog and family caches use content hashes. Bump `VERSION` in `research.js` and matching asset versions in `index.html` when changing interface/worker behavior. Check the public manifest, counts and representative workflows after deployment.
+
+The builder never changes source acceptance, licenses, concept mappings or cognate judgments. It preserves form provenance, source glosses, local mapping-review notes, uncertainty and loan flags, supplied alignment/morpheme evidence, and separate individual cognate memberships. It renames the aggregate's `Cognate_Source` to `cognate_evidence_source` to distinguish it from `cognate_source` in SQLite's case-insensitive column namespace.
+
+## Research workflows and limitations
+
+- Select varieties in the catalog, then choose concepts in Compare. Matrices support up to 16 varieties and 200 concepts at once; all 161 basic concepts fit. Synonyms remain grouped in cells. Comparisons use explicit variety selections across catalog family/name/area filters, while collection, vocabulary and transcription choices are respected.
+- Catalog family/name/area/tier/coverage filters select catalog entries. A linked variety detail follows that named variety plus vocabulary/transcription filters; it states that scope explicitly. Form provenance follows the explicit record. Concept and cognate views use the chosen family and catalog scope. SQL is explicitly independent of UI filters.
+- Core coverage counts distinct supported concepts, not synonyms. Source-supplied and profile-inferred segments count as supported, but neither mechanical validity nor a tier certifies pronunciation accuracy. Resegmented and unresolved records stay distinguishable.
+- Cognate codes remain source-scoped; combined codes are individual memberships, not a composite set. Morpheme alignment is displayed only when supplied; no alignments are inferred. Source etymology annotations are not relabeled expert comparative evidence.
+- Search offers literal, segment-token and advanced regex modes. Optional combining-diacritic/case folding is a discovery aid, not phonemic equivalence. The displayed search/export subset is capped at 500 matches with a full match count; refine the query for larger results.
+- CSV/TSV exports preserve original evidence fields; selection manifests include build hashes, filters, source versions, licenses and scope. Copy citation includes the build URL and dataset citations; individual form keys remain in `bibtex_key`, with original references in `data/sources.bib`. Missing source/license metadata is disclosed rather than invented.
+- Historical/reconstruction labels are explicitly identified as catalog-name labels, not independent historical classifications. Documentation dates and Glottolog levels are displayed when available. Coordinates are approximate catalog locations, not speaker distributions or boundaries. Colocated records are grouped in map popups.
+- Missing support means not supplied, not mapped, or unresolved here; it does not establish lexical absence. English sense reviews do not independently certify target-language translations. Source glosses, concept definitions, review notes and packets support further checking.
+- SQL tables: `languages`, `parameters`, `sources`, `forms`, `memberships`. Catalog tables cover all accepted entries; lexical tables contain loaded families only. SQLite query-only mode and a schema-PRAGMA allowlist prevent writes through the SQL interface. Long SQL/regex work is terminated after 15 seconds; reload resets the worker while preserving URL selections. Very large multi-family sessions remain constrained by device memory; loading fewer families or reloading reduces memory use.
+
+## Verification
+
+```bash
+pytest tests/test_research_web.py
+node --check web/research.js
+node --check web/research-worker.js
+# Install Playwright and its browser dependencies in your test environment first.
+uv run --no-project --with playwright python web/tests/research_browser.py http://127.0.0.1:8799/
+```
+
+The browser check covers collection scopes, persistent URLs, comparison, provenance, CSV/manifests, search, read-only SQL, maps, keyboard links, and mobile overflow. Source datasets and the full aggregate remain reproducible through the repository's normal build pipeline.
+
+## Previous Core-only explorer
+
+
 
 `arca-core.sqlite.gz` + `BUILD_INFO` are generated from a built release:
 
