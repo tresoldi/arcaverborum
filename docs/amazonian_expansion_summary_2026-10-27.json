@@ -1,0 +1,134 @@
+{
+  "before": {
+    "varieties": 7312,
+    "forms": 2066017,
+    "source_forms": 1742698,
+    "profile_forms": 13234,
+    "supported_core_slots": 464736,
+    "mapped_core_slots": 538833,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "after": {
+    "varieties": 7313,
+    "forms": 2066454,
+    "source_forms": 1743092,
+    "profile_forms": 13277,
+    "supported_core_slots": 465118,
+    "mapped_core_slots": 539211,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "change": {
+    "varieties": 1,
+    "forms": 437,
+    "source_forms": 394,
+    "profile_forms": 43,
+    "supported_core_slots": 382,
+    "mapped_core_slots": 378,
+    "gled_primary_varieties": 0,
+    "core_collection_varieties": 0
+  },
+  "constructions": [
+    {
+      "av_id": "pan-amahuaca",
+      "before_forms": 548,
+      "after_forms": 628,
+      "before_supported_core": 79,
+      "after_supported_core": 147,
+      "source_counts": {
+        "oliveiraprotopanoan": 548,
+        "blumpanotacana": 80
+      }
+    },
+    {
+      "av_id": "pui-puinave",
+      "before_forms": 283,
+      "after_forms": 346,
+      "before_supported_core": 96,
+      "after_supported_core": 159,
+      "source_counts": {
+        "huntergatherer": 283,
+        "hubercolumbian": 57,
+        "idssegmented": 6
+      }
+    },
+    {
+      "av_id": "ara-apurina",
+      "before_forms": 136,
+      "after_forms": 190,
+      "before_supported_core": 50,
+      "after_supported_core": 102,
+      "source_counts": {
+        "kahd": 136,
+        "walkerarawakan": 54
+      }
+    },
+    {
+      "av_id": "ara-resigaro",
+      "before_forms": 290,
+      "after_forms": 341,
+      "before_supported_core": 97,
+      "after_supported_core": 146,
+      "source_counts": {
+        "huntergatherer": 290,
+        "hubercolumbian": 51
+      }
+    },
+    {
+      "av_id": "ara-bare",
+      "before_forms": 106,
+      "after_forms": 153,
+      "before_supported_core": 65,
+      "after_supported_core": 112,
+      "source_counts": {
+        "huntergatherer": 106,
+        "walkerarawakan": 47
+      }
+    },
+    {
+      "av_id": "mia-media-lengua",
+      "before_forms": 3216,
+      "after_forms": 3216,
+      "before_supported_core": 124,
+      "after_supported_core": 132,
+      "source_counts": {
+        "dictmedialengua": 3216
+      }
+    },
+    {
+      "av_id": "zap-iquito",
+      "before_forms": 382,
+      "after_forms": 425,
+      "before_supported_core": 129,
+      "after_supported_core": 129,
+      "source_counts": {
+        "huntergatherer": 356,
+        "dictiquito": 69
+      }
+    },
+    {
+      "av_id": "sit-bangru",
+      "before_forms": 0,
+      "after_forms": 99,
+      "before_supported_core": 0,
+      "after_supported_core": 95,
+      "source_counts": {
+        "bodtbangru": 99
+      }
+    }
+  ],
+  "new_varieties": [
+    "sit-bangru"
+  ],
+  "profile_review": {
+    "iquito_admitted": 69,
+    "iquito_held": 37
+  },
+  "verification": {
+    "pytest_passed": 384,
+    "primary_constructions_preserved": 6,
+    "primary_forms_compared": 1719,
+    "original_pdf_spans_verified": 119
+  }
+}

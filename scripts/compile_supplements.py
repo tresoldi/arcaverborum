@@ -78,6 +78,8 @@ def main():
             parameter = parameters[row["Parameter_ID"]]
             if row["Form"] != review["Form"] or parameter["Name"] != review["source_sense"]:
                 raise ValueError("Reviewed spelling or sense changed: " + row["ID"])
+            if review.get("source_language_id") and row["Language_ID"] != review["source_language_id"]:
+                raise ValueError("Reviewed source member changed: " + row["ID"])
             ledgers[review["av_id"]].append(
                 dict(
                     source=source,

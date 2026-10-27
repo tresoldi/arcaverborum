@@ -5,6 +5,10 @@ Start with the root `README.md` for the project overview and
 
 ## Current handoff
 
+* [Amazonian expansion](AMAZONIAN_EXPANSION_2026-10-27.md): Amahuaca, Puinave,
+  Arawakan supplements, dictionary/profile work and original-source Bangru;
+  [latest ranking](amazonian_expansion_opportunities_2026-10-27.csv).
+
 * [Coverage batch](COVERAGE_BATCH_2026-10-27.md): dictionary senses, American
   supplements, missing-language screening, Iquito source-scoped profile and a
   [ranked opportunity report](coverage_opportunities_2026-10-27.csv).

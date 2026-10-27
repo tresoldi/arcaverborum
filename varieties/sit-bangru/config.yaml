@@ -1,0 +1,24 @@
+av_id: sit-bangru
+name: Bangru
+glottocode: bang1369
+family: Sino-Tibetan
+macroarea: Eurasia
+sources:
+  transcription: bodtbangru
+  cognates: bodtbangru
+  source_language_id: bodtbangru_BangruA
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.7
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-27'
+notes: Reviewed original Bangru fieldwork speaker A (Sarli); licensed Zenodo deposit
+  1116263, not unlicensed Wust derivative. Regional Glottolog reference coordinates
+  are not speaker GPS.

@@ -55,7 +55,7 @@ with sync_playwright() as p:
         page.locator("#exportcsv").click()
     iquito = list(csv.DictReader(open(download.value.path())))
     profile_rows = [r for r in iquito if r["transcription_source"] == "dictiquito"]
-    assert len(iquito) == 382 and len(profile_rows) == 26
+    assert len(iquito) == 425 and len(profile_rows) == 69
     assert all(r["Segments_Source"] == "profile" for r in profile_rows)
     assert all("Source-scoped orthographic profile" in r["Comment"] for r in profile_rows)
     assert not any(r["Segments_Source"] == "profile" for r in iquito if r["transcription_source"] == "huntergatherer")
@@ -69,9 +69,19 @@ with sync_playwright() as p:
     assert len(supplements) == 104
     assert not any(r["Form"] == "al fin de la cita" for r in supplements)
     assert all(r["Segments_Source"] == "source" for r in supplements)
+    route.update(id="sit-bangru")
+    page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Lexical and transcription evidence')")
+    with page.expect_download() as download:
+        page.locator("#exportcsv").click()
+    bangru = list(csv.DictReader(open(download.value.path())))
+    assert len(bangru) == 99 and {r["transcription_source"] for r in bangru} == {"bodtbangru"}
+    assert all(r["Segments_Source"] == "source" and not r["Cognacy"] for r in bangru)
+    assert all('"speaker": "A"' in r["Comment"] and "pdf_sha256" in r["Comment"] for r in bangru)
     assert not errors, errors
     print(
         "PASS: mixed-source provenance, separate IPA alternatives, stable pronunciation IDs, "
-        "Core isolation, corrected dictionary attribution, source-scoped profile and South American supplements"
+        "Core isolation, corrected dictionary attribution, source-scoped profile, "
+        "South American supplements and original-source Bangru"
     )
     browser.close()

@@ -12,16 +12,16 @@ quality:
 construction:
   lexical_base:
     source: dictmedialengua
-    rationale: 3216 supplied-segment dictionary forms; follow-up sense review raises
-      supported core to 124/161.
+    rationale: 3216 supplied-segment forms; 397 reviewed dictionary senses yield 331
+      mapped concepts and 132 supported core.
   transcription:
     strategy: source
     notes: Supplied Phonological_Representation; original strings retained.
   concepts:
     mapping: reviewed
-    core_coverage: 124/161
-    notes: 177 guarded source-sense decisions; 144 mapped concepts; remaining source
-      glosses preserved unmapped.
+    core_coverage: 132/161
+    notes: 397 guarded source-sense decisions; 331 mapped concepts; original polysemy
+      and remaining unmapped glosses retained.
   cognates:
     source: ''
     method: none

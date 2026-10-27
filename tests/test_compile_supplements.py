@@ -81,6 +81,13 @@ def test_compiler_accepts_explicit_scholarly_source_and_guards_changed_sense(tmp
     ledger = module.read(config.parent / "custom/supplements.csv")
     assert ledger[0]["source"] == "scholar"
     assert ledger[0]["source_language_id"] == "scholar_member"
+    rows = module.read(review)
+    rows[0]["source_language_id"] = "wrong_member"
+    write(review, rows)
+    with pytest.raises(ValueError, match="source member changed"):
+        module.main()
+    rows[0]["source_language_id"] = "scholar_member"
+    write(review, rows)
     write(parameter, [dict(ID="scholar_water", Dataset="scholar", Name="river", Concepticon_ID="948")])
     with pytest.raises(ValueError, match="sense changed"):
         module.main()

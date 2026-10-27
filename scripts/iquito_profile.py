@@ -3,7 +3,8 @@
 Michael & Beier (2021), Dictionaria 14, tables 1–4 and tone-marking section.
 Only individually reviewed senses enter the supplement ledger. High tone is
 retained on short vowels; mixed-tone long vowels, hiatus/glide ambiguity,
-clitics and unreviewed foreign characters are withheld. Low/null tone is not
+clitics and unreviewed foreign characters are withheld. Short n+i before a
+consonant or word edge is distinguished from the documented ni+vowel digraph. Low/null tone is not
 inferred. The source itself marks high tone only; this is a partial tonal
 representation, not a surface phonetic transcription.
 """
@@ -75,15 +76,19 @@ def reading(form):
             out.append({"k": "kʲ", "n": "ɲ", "s": "ʃ"}[c])
             i += 2
             continue
-        if c in "ns" and nxt and nxt[0] == "i":
-            return ""  # Do not resolve /Ci/ versus palatalized readings here.
+        if c == "s" and nxt and nxt[0] == "i":
+            return ""  # Keep the source's s/ʃ environments outside this subset.
+        if c == "n" and nxt and nxt[0] == "i" and after and after[0] in VOWELS:
+            return ""  # Other n+i+vowel cases remain ambiguous.
+        # Table 4's ni digraph requires a following vowel. Before a consonant
+        # or word edge, short i remains the independent vowel: ani -> /ani/.
         out.append(SIMPLE[c])
         i += 1
     tokens, valid = canonicalize(out)
     return " ".join(tokens) if valid else ""
 
 
-def compile_profile(root, write=False):
+def compile_profile(root, write=False, review_output=None):
     custom = root / "varieties/zap-iquito/custom"
     decisions = [r for r in read(root / "src/arcaverborum/data/dictionary_senses.csv") if r["dataset"] == "dictiquito"]
     entries = {r["ID"]: r for r in read(root / "raw/lexibank/dictiquito/cldf/entries.csv")}
@@ -162,7 +167,11 @@ def compile_profile(root, write=False):
         directory = custom / "supplement_profiles"
         directory.mkdir(parents=True, exist_ok=True)
         (directory / "dictiquito.tsv").write_text(profile_text)
-        for output, rows in [(path, combined), (root / "docs/iquito_profile_review_2026-10-27.csv", eligible + held)]:
+        for output, rows in [
+            (path, combined),
+            (review_output or root / "output/report/iquito_profile_review.csv", eligible + held),
+        ]:
+            output.parent.mkdir(parents=True, exist_ok=True)
             with output.open("w", newline="") as handle:
                 fields = list(dict.fromkeys(k for r in rows for k in r))
                 writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
@@ -174,8 +183,9 @@ def compile_profile(root, write=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--write", action="store_true")
+    parser.add_argument("--review-output", type=Path, help="Keep earlier batch review snapshots intact")
     args = parser.parse_args()
-    compile_profile(ROOT, args.write)
+    compile_profile(ROOT, args.write, args.review_output)
 
 
 if __name__ == "__main__":

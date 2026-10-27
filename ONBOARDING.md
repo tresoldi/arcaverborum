@@ -113,14 +113,14 @@ python build.py concepts --mint
 
 As of the latest coverage batch, 2026-10-27:
 
-* 7,312 accepted varieties and 2,066,017 forms;
-* 1,742,698 source-supported and 13,234 profile-supported forms;
-* 464,736 supported and 538,833 mapped core-concept slots;
+* 7,313 accepted varieties and 2,066,454 forms;
+* 1,743,092 source-supported and 13,277 profile-supported forms;
+* 465,118 supported and 539,211 mapped core-concept slots;
 * 892 Core-source collection varieties; 1,582 GLED primary selections.
 
-The latest batch added 256 forms and 215 supported core slots without
-inflating variety counts. See [the journal](docs/JOURNAL.md) for the handoff,
-[the follow-up report](docs/COVERAGE_BATCH_2026-10-27.md) for evidence,
+The latest batch added 437 forms, 382 supported core slots and one newly
+represented language (Bangru), from a licensed original fieldwork source. See [the journal](docs/JOURNAL.md) for the handoff,
+[the follow-up report](docs/AMAZONIAN_EXPANSION_2026-10-27.md) for evidence,
 and its companion JSON for reproducible before/after metrics.
 
 ## 6. Source Policy
@@ -203,3 +203,9 @@ Use `docs/README.md` as the index. The main specs are:
 * `docs/BESTOF_SPECIFICATION.md` for current build mechanics;
 * `docs/CONCEPTS_SPECIFICATION.md` for concept IDs and Concepticon mapping;
 * `docs/CURATION_WORKFLOW_SPECIFICATION.md` for the next curation workflow.
+
+Document-based sources can use explicit transport handlers: bodtbangru fetches
+and verifies a frozen Zenodo PDF, then materializes its reviewed CSVW/CLDF slice.
+Use scripts/stage_bangru_original.py --fetch --audit-pdf before validated append
+of the new namespace; optional PyMuPDF 2.0 reproduces the PDF-span audit. Source
+versions may be immutable DOI/document hashes rather than Git commits.

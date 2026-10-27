@@ -1,0 +1,33 @@
+av_id: sit-bangru
+name: Bangru
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  forms_score: 0.7
+  cognates_score: 0.0
+  tier: bronze
+  pinned: true
+construction:
+  lexical_base:
+    source: bodtbangru
+    source_language_id: bodtbangru_BangruA
+    rationale: First accepted Bangru sample; original licensed speaker-A fieldwork subset.
+  transcription:
+    strategy: source
+    notes: Original supplied IPA; affricate tokenization documented; raw alternatives retained.
+  concepts:
+    mapping: reviewed
+    core_coverage: 95/161
+    notes: 119 reviewed entries; 95 admitted, 24 held; all admitted alternatives retained.
+  cognates:
+    source: ''
+    method: none
+    notes: No expert, computed or reconstructed judgments inferred.
+provenance:
+  bibliography:
+  - bodtbangru_Bodt2017
+tradeoffs:
+  gains: 99 source-supported forms for a newly represented language.
+  known_losses: This subset does not claim full dictionary or multispeaker coverage.

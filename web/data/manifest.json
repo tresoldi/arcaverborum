@@ -2,8 +2,8 @@
   "schema": 1,
   "build_date": "2026-10-27",
   "counts": {
-    "forms": 2066017,
-    "varieties": 7312,
+    "forms": 2066454,
+    "varieties": 7313,
     "concepts": 3787
   },
   "fields": [
@@ -140,56 +140,56 @@
     "Arafundi": {
       "url": "data/a16e64de4a84c80e.json.gz",
       "forms": 93,
-      "bytes": 5148,
-      "sha256": "760232c964ed03592dd1676c4fbf0aa71e84cb90bd8af12939f65573d8a81916"
+      "bytes": 5143,
+      "sha256": "be1065dacaf982b0885a50f5b7dde85a0bda5d36bf1d255af4d03482d536132d"
     },
     "Araucanian": {
       "url": "data/7bba137f52b59272.json.gz",
       "forms": 1377,
-      "bytes": 59907,
-      "sha256": "8731d6db323b3f348097edda7adcf18efad80512389b0a30daf75e8253d18b6c"
+      "bytes": 59932,
+      "sha256": "5d18be1e28ac99aab4d426e63fa8725581f1f4b456aec27b107def525c893fa2"
     },
     "Arawakan": {
       "url": "data/d0539c98a59e681e.json.gz",
-      "forms": 15890,
-      "bytes": 828031,
-      "sha256": "1d288b630c95d38e60274bb4f53eace795ea706126e3217c1ee8a64cf678e3c9"
+      "forms": 16042,
+      "bytes": 838150,
+      "sha256": "b292c79486a8648f4c4a64a0b054845c3b4fa7de9e7d4f317c32a87a4b4c381d"
     },
     "Arawan": {
       "url": "data/e782f8d0096cebb8.json.gz",
       "forms": 4093,
-      "bytes": 249261,
-      "sha256": "cf583384a7e9bd4c4ddf48164e1f205e6ec7d780798e56ebd758e41697368511"
+      "bytes": 249300,
+      "sha256": "9e43955534d17b783c5ebcb0f1bc45ac3d894f15bdad1ca200f988ec465c817d"
     },
     "Artificial Language": {
       "url": "data/a0e53d23697cea4f.json.gz",
       "forms": 53005,
-      "bytes": 4188626,
-      "sha256": "59e574365a2b0c8909a7d0bd4462eac1feb3cd21f9d9d3472e2b799cda3ddaa1"
+      "bytes": 4188666,
+      "sha256": "3488c96fc4d7f064143986bc15b666697bfc6106ef546d9b9cb5d798bebbb0d2"
     },
     "Arutani": {
       "url": "data/d90adc691aad885c.json.gz",
       "forms": 78,
-      "bytes": 4179,
-      "sha256": "65888a73dac28d864d3b3fbf0980c3737fe6db8efdcb96a1832b8b1605f4eecb"
+      "bytes": 4180,
+      "sha256": "1a352f9c2d526418ace2b12050b7e02e571bc0489caa641567145a45db38bc8b"
     },
     "Atakapa": {
       "url": "data/c91c7c376c9abf2a.json.gz",
       "forms": 321,
-      "bytes": 13833,
-      "sha256": "c75127c4f7117faac30296d59d14b44c33b2a6aab5023d4a7dd97e72b8632983"
+      "bytes": 13819,
+      "sha256": "117e2988fb924edf2c1d18569f83e64c56882e303d8530ab203330e9a56b3b2b"
     },
     "Athabaskan-Eyak-Tlingit": {
       "url": "data/674e331f35e6d270.json.gz",
       "forms": 3278,
-      "bytes": 159922,
-      "sha256": "d6b482c8cece2c9ade1fb85fc0e0a3479e3b0947a32e6d27fac676ac12484d02"
+      "bytes": 159953,
+      "sha256": "a2f3fbcf71b2158e52a9aaba528e0dc80869fb35d0e8c587f36df59bdbe0a295"
     },
     "Atlantic-Congo": {
       "url": "data/6df55d8bbdbc6584.json.gz",
       "forms": 216412,
-      "bytes": 11201453,
-      "sha256": "71464cd4578d888b5ddec6597827b2938894b864856ea42efe7f95c2f5813d1f"
+      "bytes": 11200959,
+      "sha256": "bb2f4bd1b2d7e5413700895d5e540282cc60ffee91be391625e30da4b0339ef5"
     },
     "Austroasiatic": {
       "url": "data/7159eb630d70dc2c.json.gz",
@@ -200,2257 +200,2257 @@
     "Austronesian": {
       "url": "data/a63fe98be125de0e.json.gz",
       "forms": 451155,
-      "bytes": 25310561,
-      "sha256": "f9764c6dd52aee2278d508dfa0b3f75d3d89a6b7f40131c36c00886619925cbb"
+      "bytes": 25310391,
+      "sha256": "dcf6c8e67dd5465dde2cd95493e71cb94d79d5b2205776951e7f02b7ced31871"
     },
     "Aymaran": {
       "url": "data/57b76d00cb3eed50.json.gz",
       "forms": 655,
-      "bytes": 39073,
-      "sha256": "8f4eeb46a761d04a589e137e6c32c0ea2a56751495fa775a4e0918c2c41164ba"
+      "bytes": 39071,
+      "sha256": "8edcee8c6903236c81ab7b9154ee859781fcf7e12777231a5aa46de7f15fc589"
     },
     "Baibai-Fas": {
       "url": "data/8a0e32ddbbc941d4.json.gz",
       "forms": 185,
-      "bytes": 9717,
-      "sha256": "2b2b81ffe6c56018f366de0cd6355be7e8f0df8cb464dc812046807a840c14e4"
+      "bytes": 9716,
+      "sha256": "c250841442864223f176c54052812106931c2b87d3c2af8aaf5fed652b1e3781"
     },
     "Baining": {
       "url": "data/ce95709307e32c55.json.gz",
       "forms": 1082,
-      "bytes": 57474,
-      "sha256": "3de3a54f4b0aea0ea2279f7bb9273fdf4e4ee9d3c9d715703eb2f4b6623f1486"
+      "bytes": 57487,
+      "sha256": "e2a8778fd75556b5f813a41fd18c9a84f0cb47f84ae999dd47d1fa343c7aaa31"
     },
     "Bangime": {
       "url": "data/244395ae63e1e5c1.json.gz",
       "forms": 291,
-      "bytes": 13937,
-      "sha256": "2ad85d7bae8ab21461c439fc921b92ea76d3c14302e4c447e5d9359cfae641d8"
+      "bytes": 13930,
+      "sha256": "165129fd44eed447206f667627937a5cea90560fa60bbd0f39b05579652e744e"
     },
     "Barbacoan": {
       "url": "data/14451de95710df9a.json.gz",
       "forms": 3755,
-      "bytes": 164912,
-      "sha256": "db03e59f5ad4c50f23539bcf9023af9eedf80d1f5acb76a36efd7151b9f952c4"
+      "bytes": 164886,
+      "sha256": "271cb91b5dc25c1a23ef0d3172729d5fc8a3afd4f8ea6a023691a45aaf896b7b"
     },
     "Basque": {
       "url": "data/6d0d15d95ec44e24.json.gz",
       "forms": 1523,
-      "bytes": 67811,
-      "sha256": "2a3eef39b2730ed75e4914aa3b18842bfd960c8fa9fa5564bbaedf875c1fe1b7"
+      "bytes": 67812,
+      "sha256": "890c0e7148ee39b451a9606ecacfdf82a29331a55ad96fc9aa97721fd6886ca1"
     },
     "Bayono-Awbono": {
       "url": "data/f0714b2573518e54.json.gz",
       "forms": 37,
-      "bytes": 2502,
-      "sha256": "7eded0d190188bb5c23e9d77c66ff01f2458542873ceb22db09c29c9880340ac"
+      "bytes": 2500,
+      "sha256": "2b421eaa8946a1b5251f1e966a4df65bb80c5b6d5191ae6ed47c06875b5a4eef"
     },
     "Beothuk": {
       "url": "data/508b2599c23fe45a.json.gz",
       "forms": 3,
-      "bytes": 563,
-      "sha256": "066b405ea0530be42b7710b555f76f127282b0fcdde8c219af103ff7e28c10fb"
+      "bytes": 564,
+      "sha256": "0fd99881e53c9195c96d0a64bdf137e46ff6e92a1be4712e38195b031eb67f74"
     },
     "Berta": {
       "url": "data/45dbacc1cec8304e.json.gz",
       "forms": 1111,
-      "bytes": 58899,
-      "sha256": "df56afe9b22b58619836e5c975a465c7c0a0165f24b5d5893992b4c778bff0b8"
+      "bytes": 58848,
+      "sha256": "0259ef4503056647b26208b240a8de183eb8116100e75f78375fc73174ef26b1"
     },
     "Bilua": {
       "url": "data/23ac96b71765d4ed.json.gz",
       "forms": 613,
-      "bytes": 33020,
-      "sha256": "15f9611076663c6d70c8fd1785de9b213892cb1e3c67325c1e35b534c0af4ebf"
+      "bytes": 33033,
+      "sha256": "acca0d0f5a229125eb94aeca18ba2225fba2525d36b45984af43d84b799b5eb7"
     },
     "Blue Nile Mao": {
       "url": "data/33e39fa2a409e991.json.gz",
       "forms": 420,
-      "bytes": 20588,
-      "sha256": "c75f0b7157194c432a1e0ca91f0466aefbc4d9ef8b5f69dd258297f6dc72cbe0"
+      "bytes": 20595,
+      "sha256": "d2f8e2df7a9c7e0e15858e27a0fdec83af58a749a11387ad24d34a91e976a0e1"
     },
     "Bogaya": {
       "url": "data/bf8aad73a72f680a.json.gz",
       "forms": 197,
-      "bytes": 10102,
-      "sha256": "5c303db1d174aca8c7e862f6da6ab5ba4f24941f60734f12cc2991f2ec0e090f"
+      "bytes": 10093,
+      "sha256": "ec1c9bfd025f7e9c8dff510cf1888527db5e5e7a03a8482bcc9a0db85d0a7b80"
     },
     "Bogia": {
       "url": "data/d49628654f65fcb8.json.gz",
       "forms": 43,
-      "bytes": 2802,
-      "sha256": "8ec04605a4d6f74759b5e78b3ccdc848addb2f4130aa90b02c8e741ff9f7fe2e"
+      "bytes": 2803,
+      "sha256": "7db7192e6b20caa31aca870610502059ab4b8c2566478a8cadd6a15928eb06cf"
     },
     "Bookkeeping": {
       "url": "data/f47f3fc97e87f5fe.json.gz",
       "forms": 4326,
-      "bytes": 187890,
-      "sha256": "57378d012774444516186d0e19a08dace439b9b2e234325f8325bb733bed1813"
+      "bytes": 187931,
+      "sha256": "bab422fc187400f502f8bd33c6206df8ef9d73740d66dea4d6d3e6d2f9330463"
     },
     "Boran": {
       "url": "data/5c0db10cbbbc4e92.json.gz",
       "forms": 903,
-      "bytes": 63457,
-      "sha256": "c07b27fab7c6d8ca9986a5f5a615fce824a2f8492960c60c5dac9136419867e2"
+      "bytes": 63452,
+      "sha256": "b2336fd77da2608e29f3aa3e69e9dfa2c1b64311bc870226b17007902f1c90cf"
     },
     "Border": {
       "url": "data/3b4bdff339e94fdc.json.gz",
       "forms": 1138,
-      "bytes": 54637,
-      "sha256": "699f03ba7175a5cf82bc740082c4e8d8ee05844868178e5f5f7d6c410d1c2b26"
+      "bytes": 54666,
+      "sha256": "c7097d2e72c0b32876b16ed2e789e543608933731c103c06eb23bdd084907708"
     },
     "Bororoan": {
       "url": "data/a6f0ab1ec36b43b1.json.gz",
       "forms": 285,
-      "bytes": 13866,
-      "sha256": "eba3caba27a1e18d23c03c77e38e2f76bf10f80340d9e0e6a81ab36356af5f30"
+      "bytes": 13864,
+      "sha256": "608bcfa4d2a717b34d57701ea40cc2456cd6ed5abd41778f4db741c041e71a7c"
     },
     "Bosavi": {
       "url": "data/f7c78383497de05f.json.gz",
       "forms": 1126,
-      "bytes": 55142,
-      "sha256": "2fbaca5268bd4584f71844c4e9b75b665f37910d30001d6b6f3e9fb7c75524b6"
+      "bytes": 55131,
+      "sha256": "606fc98cbd33c8b0265da876f09bbacce7d48b1919df5137be0c263e236361a2"
     },
     "Bulaka River": {
       "url": "data/a5d0007efe8eff21.json.gz",
       "forms": 83,
-      "bytes": 3816,
-      "sha256": "dd7f3db6a14bcedee56c14b36626813a6c5ee929f830720b81dbf7c0645de0f4"
+      "bytes": 3814,
+      "sha256": "310641e5824c1fe518638ef4eefee4b25dd784c2ab91a722f13410d0f8c2eed7"
     },
     "Bunaban": {
       "url": "data/37c457d5d5332f49.json.gz",
       "forms": 606,
-      "bytes": 30271,
-      "sha256": "873dc917141dc85d6de68a8a40685fe0077b10178c9e1f77290482869a967d4e"
+      "bytes": 30254,
+      "sha256": "a6ce6ce08f463c87b079b35cd4a93a00205e04d3e9affd0da1207d74272ec150"
     },
     "Burmeso": {
       "url": "data/7528e2fb3f59ad5f.json.gz",
       "forms": 39,
-      "bytes": 2163,
-      "sha256": "5b04cd5dfca3cd2b51e45feb195f86c3ebf85840437057acc69eeaaf7d71bf4a"
+      "bytes": 2154,
+      "sha256": "dffd1ea5d7b4f7ce2aba9ce5e41959b1eedd6d8086aae09b368850ed112f6466"
     },
     "Burushaski": {
       "url": "data/537b3a5d3678a78f.json.gz",
       "forms": 2771,
-      "bytes": 102629,
-      "sha256": "4bed7e3aee326933a62b36a29d920e5b06de45785b84f7367670637f54125cfb"
+      "bytes": 102643,
+      "sha256": "ddaf1dad4d6924f9acb402e7243124a300471fc2c6f9a51051c659fcc1100cde"
     },
     "Caddoan": {
       "url": "data/6caacd44c2d2d0ae.json.gz",
       "forms": 470,
-      "bytes": 24543,
-      "sha256": "fc8147e80e962d7d8ef4f2aef0b7b907bd9633c3b19978f07c8c1bb82841157e"
+      "bytes": 24542,
+      "sha256": "3f0e026d76280e61881eb1052b3d2b46f8673303b561cbc97e37b829928f61e2"
     },
     "Cahuapanan": {
       "url": "data/4e461be7ab962b1a.json.gz",
       "forms": 479,
-      "bytes": 25879,
-      "sha256": "4744c2969ff7c77ad2aadfc8199af2b222dd99be91b80c63223112f0e3c800a9"
+      "bytes": 25895,
+      "sha256": "d3b89f2ea9b002e45ccc92539e548ddcb4bc1491bc7698dfbe0007e6693104e7"
     },
     "Camsá": {
       "url": "data/6404a992d5b953ae.json.gz",
       "forms": 204,
-      "bytes": 12212,
-      "sha256": "3842e88ad8ec1747db4a7a5fd530787712efffec6289f0b1c36d052a45cebe75"
+      "bytes": 12200,
+      "sha256": "8d5b172d9caf0d9e900d698178763d9a9de460d1710e621cb1681074763fbc2f"
     },
     "Candoshi-Shapra": {
       "url": "data/48e50a43c3f1c15f.json.gz",
       "forms": 302,
-      "bytes": 17946,
-      "sha256": "c99096e63d89c5e1e638027a14fe654f47c48aec42ffbc68e7205c324d4c16ff"
+      "bytes": 17941,
+      "sha256": "ccd1d069f16a05fe18e2a0825caa2b37be6405a4622a686bf48670302ab0f5c2"
     },
     "Canichana": {
       "url": "data/3d3d334b88cf3b6a.json.gz",
       "forms": 87,
-      "bytes": 6313,
-      "sha256": "b805afe0d1980f4e7e9a56a19f89dc570e78a1da0d941f8714022b3973f0f88c"
+      "bytes": 6317,
+      "sha256": "19cad05cd87ca8f9fd693dc3661cfa2a8d7c1fd7dcf54f5c34458362552516b2"
     },
     "Cariban": {
       "url": "data/59c636efc6390741.json.gz",
       "forms": 6565,
-      "bytes": 369760,
-      "sha256": "b591e89b4a332a6d9c58ed00980b3f2e56ad837ed819213cecfca65e568dbca5"
+      "bytes": 369695,
+      "sha256": "ad2d1ad01ec0fb73732f27993e9e145c52ecceb56282da27704c6cc63f6e6be8"
     },
     "Cayubaba": {
       "url": "data/ca3914bbfa598886.json.gz",
       "forms": 268,
-      "bytes": 12767,
-      "sha256": "e50bf4dda8bbcd83bb39990ac230303ea45d70dd7e272154ea1fa13794878c55"
+      "bytes": 12770,
+      "sha256": "638315c4ac08650750fa06cab1c4287d8563b98fe760f3715bb7b780e6477ea8"
     },
     "Cayuse": {
       "url": "data/58f43ab11889f487.json.gz",
       "forms": 33,
-      "bytes": 2437,
-      "sha256": "600119bfd9cc0bd548f79118628ca64c6bbf102d455c99c63c23f089346485b6"
+      "bytes": 2436,
+      "sha256": "0b7d4c1eda365bfbe59206a8dd9b49857243f11489b593ccb84872f7ecdfe4ed"
     },
     "Central Sudanic": {
       "url": "data/fb04f9b11a7b3af6.json.gz",
       "forms": 2572,
-      "bytes": 119377,
-      "sha256": "4378ba6e1f2575eb1c4a77cc6e87358db67abc67aec6edcd1fca14db54d71d80"
+      "bytes": 119402,
+      "sha256": "8d5d5688c4f3f2c5751f88ca089f54acd93a1c8237c5fa846746e1caf6dced3a"
     },
     "Chapacuran": {
       "url": "data/0ca19682280f0355.json.gz",
       "forms": 1257,
-      "bytes": 70861,
-      "sha256": "cd73cc77f38643dee60f9133c6072e9ca9ff7290c273d77940b2467155530d7f"
+      "bytes": 70843,
+      "sha256": "6c739c01443cffae270d958af1d0c1e262684a8b5b6627f95ca023cbd37e1c98"
     },
     "Chibchan": {
       "url": "data/12c4621add2ff87e.json.gz",
       "forms": 4943,
-      "bytes": 250108,
-      "sha256": "2c9109766e243a27585a9522455d5ff3abdee0b38a390ea4525b5158a1b755d9"
+      "bytes": 250080,
+      "sha256": "744b943ae87c148590ce9d9da21f20599377751d084569394ee79db33856b262"
     },
     "Chicham": {
       "url": "data/cac6bc6f197bf15c.json.gz",
       "forms": 1350,
-      "bytes": 81789,
-      "sha256": "f779e7e18e7fcae008398098830e09a7f0214a4f8f5b329a885046ed3dba2ac6"
+      "bytes": 81821,
+      "sha256": "db37db284a13869ba032b4a41c7ba4ee7a1e23f6c95b84365c7382db5c80be2d"
     },
     "Chimakuan": {
       "url": "data/356928355815a93a.json.gz",
       "forms": 318,
-      "bytes": 15355,
-      "sha256": "e61168908e78c7f9ec20ba03bca52bde49ae842d50d82042b7d4c2f9ba5151f6"
+      "bytes": 15352,
+      "sha256": "b108e372af2bae8ef942b2ea4def9959f585abd54bc33bc1657a61b547bfd133"
     },
     "Chimariko": {
       "url": "data/d7ba853e94cf4c1b.json.gz",
       "forms": 52,
-      "bytes": 3018,
-      "sha256": "fff1b427ab1458d67cb7875917707259b5d3c007380bdbf31cb57067103df95c"
+      "bytes": 3017,
+      "sha256": "aaa7ab66d21b7e166cadd3d1a8fbd605a4dbff954c985c62089593daa3f80823"
     },
     "Chinookan": {
       "url": "data/1333eb63b98e725a.json.gz",
       "forms": 763,
-      "bytes": 42551,
-      "sha256": "9a23494b8d264e0089d1caf2c527d11e4b35d3e03ab32d8475007dc9d49d70d7"
+      "bytes": 42576,
+      "sha256": "7dd9abc5afa477a9fb25d4e2058854a2a2052531948e36652d553dc6371c3e10"
     },
     "Chiquitano": {
       "url": "data/8252778c53d4bd7f.json.gz",
       "forms": 7,
       "bytes": 563,
-      "sha256": "2bbf9b69c4717fb61b2289ad4e7e1e252bc82df69a8631862bdd7ec398e1dbf6"
+      "sha256": "45bcc735b6d580bc3d12af5ba674fedf6a902a303ae9f1196e0ea485d40e2434"
     },
     "Chitimacha": {
       "url": "data/bd990083a6d5f373.json.gz",
       "forms": 32,
-      "bytes": 2108,
-      "sha256": "0be1d501c384964619b03bcf67d164e520d72089ebeb49f7abb97e5e663a7c22"
+      "bytes": 2111,
+      "sha256": "b4a83552ef643bffd6befbcc9dad1d80b3a2535719fbbb6cef699346a5d32f60"
     },
     "Chocoan": {
       "url": "data/567b16bbc4488e43.json.gz",
       "forms": 3545,
-      "bytes": 159492,
-      "sha256": "1b0070a4b872b87842f8025a727fd59398779cadd57e81b0f176a85a3ad417bf"
+      "bytes": 159518,
+      "sha256": "67768a1ab6b61912410c944d403bdfae48267ed6ccacc0ac86017b2c2b7c24c9"
     },
     "Chonan": {
       "url": "data/2a1239c3e5cab0c7.json.gz",
       "forms": 1726,
-      "bytes": 73740,
-      "sha256": "fdb8401982a52d419fb6c8db0490a067211e878041464d9b19fc30375efcb2d7"
+      "bytes": 73721,
+      "sha256": "f265f83254a99d9c24fd5bbd82853564b7711ab515acd0021a2f1b3bc9dd4c06"
     },
     "Chukotko-Kamchatkan": {
       "url": "data/d591b9d3de7129e6.json.gz",
       "forms": 1867,
-      "bytes": 103108,
-      "sha256": "1a7cab838213e69a9b4506ef79aa2b3eebe54218a03aa506cba709239a284bb5"
+      "bytes": 103079,
+      "sha256": "a1a089796f35f5dbfdafd258fbae25499a3505291f0fbf0fee011bf9e1d08cf2"
     },
     "Chumashan": {
       "url": "data/ee8cd15f1e8aea24.json.gz",
       "forms": 1529,
-      "bytes": 89883,
-      "sha256": "063629bcdc24b720cc72a46bdd7fd528042b609f4132a12a567595f729a69a73"
+      "bytes": 89894,
+      "sha256": "c806efcf77b96ae9618872ff66d248fc3e4295793f133c0c56b1a137b2693271"
     },
     "Coahuilteco": {
       "url": "data/5df3e5da07b1a76d.json.gz",
       "forms": 59,
       "bytes": 2664,
-      "sha256": "0960c66ed3cb35cb9c925d078338f02d6616c4d333cd7c1669d1a2f654fd3957"
+      "sha256": "8f49bae80ea5b16fcbe6ad35b2c12dc05a9414cbd96b3113f3429b3f9a1d1dc6"
     },
     "Cochimi-Yuman": {
       "url": "data/de448eb7d295d359.json.gz",
       "forms": 2096,
-      "bytes": 116547,
-      "sha256": "970e8f3fde4b3a45011fbce9cda1407d04ac88de2d87de6483f693ab0be48f04"
+      "bytes": 116524,
+      "sha256": "3d4b476c6d674de4503c846c921c9d5b74b6860a9692ea4f0d63f5b8334a4371"
     },
     "Cofán": {
       "url": "data/0df5e981ef886e82.json.gz",
       "forms": 345,
-      "bytes": 21884,
-      "sha256": "98de81bb8e9e15447dcbf023fe144e87bb34a0663969ca27b0d7c6fcab1d5bae"
+      "bytes": 21882,
+      "sha256": "6520e30ccc7a447f6bde08d36f577e8bded87f238c892ec47fcbce658ce4fc02"
     },
     "Comecrudan": {
       "url": "data/5df3402d30f5c6f9.json.gz",
       "forms": 202,
-      "bytes": 9099,
-      "sha256": "0ba07536eafada652acd3cfcf2eeb54b75dabd1b9c128d70ddad47e3b54683e1"
+      "bytes": 9115,
+      "sha256": "1537596ff291806430e2ce00264b07ea5ed891a3f8fff60abc9c9204241332a9"
     },
     "Coosan": {
       "url": "data/cbabd4c1c23d147d.json.gz",
       "forms": 135,
-      "bytes": 7004,
-      "sha256": "6c6e46e2ae8fdab3d276d3b858b1409068e055737ff1c7d95b606954cf08d844"
+      "bytes": 6997,
+      "sha256": "f0440f668df6b7aa45c5253f908cac29b3bd751ab6831cc71d7443b0d2ef3d2a"
     },
     "Cotoname": {
       "url": "data/e3f556ee3d2db284.json.gz",
       "forms": 44,
-      "bytes": 2346,
-      "sha256": "c2078064b88b7723b54a7c0b130f4dfb6c54fc8725d69ee7c0399ce21070925f"
+      "bytes": 2348,
+      "sha256": "f9734917c8f97bf40bdc2e39a609b4e696b94c7e6091ca3e1164a37b60cdd92a"
     },
     "Cuitlatec": {
       "url": "data/6a2191478740b329.json.gz",
       "forms": 136,
-      "bytes": 6716,
-      "sha256": "37cb1a27ae4833c8462c0ec04fc6f308cf845ec56cc3f8fa69431779a452ec5f"
+      "bytes": 6708,
+      "sha256": "4674b04b852d1262b2ef7ce5f0dbad0035862fcd1bdb0d7e1df10b3b1f246217"
     },
     "Dagan": {
       "url": "data/93c7e5eaa47201cf.json.gz",
       "forms": 763,
-      "bytes": 38493,
-      "sha256": "ce3b58d509f438db401eb4c62a50dac9689af18470aaf1914730278739ba6b0b"
+      "bytes": 38508,
+      "sha256": "03f762d87cfa5edcc2eb6eb5cf3f17ae9a2f3b79f53849e782ddb44e3c783564"
     },
     "Dajuic": {
       "url": "data/053c56045fe806ef.json.gz",
       "forms": 384,
-      "bytes": 19401,
-      "sha256": "ba146fe7923ac7a6632c8d989d18723497b9b36b7ae72b7322d08a1d5b639b82"
+      "bytes": 19396,
+      "sha256": "24a0e41becb5d01884d6f9e0cc77dd4783478ba53749903f5a2e248a5a07f088"
     },
     "Damal": {
       "url": "data/ef33966009ed7e40.json.gz",
       "forms": 50,
-      "bytes": 2414,
-      "sha256": "b1a87d4169396fadd9d0a60882aab8ed9824b2545363fd305ea2c6a33caf9742"
+      "bytes": 2411,
+      "sha256": "f501becccfbe09b2ff6d449b01f2fbd3366962b6f6a8a605166bfad9a41f2a17"
     },
     "Dem": {
       "url": "data/f4a88d223daad082.json.gz",
       "forms": 43,
-      "bytes": 2226,
-      "sha256": "fe580fcbe5e3cbe402f0f66ad954bed9cad7a37319a69d3afb14ed24c801d7c1"
+      "bytes": 2223,
+      "sha256": "8a334f3b832bd68e4d5cff137e3c0790c330a5237a9aaa51e09ffe3fd086400c"
     },
     "Dibiyaso": {
       "url": "data/de2b6f1546e7ea47.json.gz",
       "forms": 263,
-      "bytes": 11875,
-      "sha256": "f678bd4ebc187cf13c6deb68c85d6134396b61e9a8bf5089a1f066ab1b36ee8d"
+      "bytes": 11867,
+      "sha256": "10883b228cbc59e367c36113fc8ff5e53d3b22caf0f22cd6ee81cae25b1b2962"
     },
     "Dizoid": {
       "url": "data/708556489fbd3626.json.gz",
       "forms": 418,
-      "bytes": 19343,
-      "sha256": "b80b798a5abfaf724f6e1f2ab41b68be31fbf60883ffd955cfc46ca7a7445d8f"
+      "bytes": 19354,
+      "sha256": "5d397b4252c5c49b174f575d0d210f21dfb3910e6a74e00547861daea2155829"
     },
     "Dogon": {
       "url": "data/d736e0401078489e.json.gz",
       "forms": 6367,
-      "bytes": 339147,
-      "sha256": "7f5d4ba6174a5346621073763603bfceb9c46f245cbdb8da04c0687ba45c1be4"
+      "bytes": 339278,
+      "sha256": "505872ab5e22626c9c3585189e09899d1f7a5f575dc6d94ef0ef9ce7eae214d7"
     },
     "Doso-Turumsa": {
       "url": "data/d34efa2b43b2fb49.json.gz",
       "forms": 73,
-      "bytes": 3914,
-      "sha256": "0a6bed68ca37cd1bb61e551572a137ff25b9bb46741e6710c41ed8ead96b94ac"
+      "bytes": 3909,
+      "sha256": "5c270346af5b96af0d0681a131622c0dc1961c53433e5a894b62c0cb24bc63b6"
     },
     "Dravidian": {
       "url": "data/ae2f1f1608089f26.json.gz",
       "forms": 7009,
-      "bytes": 386757,
-      "sha256": "21115b46c559d0b68ab6ba1ec1a62fc6a35468d11421f898a7e9c72e3b0703dc"
+      "bytes": 386781,
+      "sha256": "f35c6eac684395a648992e9b8ae728c70f2b9d030b7e72d1736debb247cbb21a"
     },
     "Duna": {
       "url": "data/1836119bb0187e2b.json.gz",
       "forms": 204,
-      "bytes": 9758,
-      "sha256": "247f226ba82c152485237daf1f4cd49312c40c5dd1695e1d8e9539c6ed3eefb4"
+      "bytes": 9763,
+      "sha256": "e45bd04548f8c4701b8155c3cbd74c0487b311c06ad66392bd326ccdb69d11fe"
     },
     "East Bird's Head": {
       "url": "data/22b6bb9968dfc974.json.gz",
       "forms": 783,
-      "bytes": 34527,
-      "sha256": "e4b01c1c8071c23375961d637c69001aceed7b5eabb568b1eca9b3592dd74734"
+      "bytes": 34513,
+      "sha256": "cb4a076861e1e00cc18a8ae356a3e753bd285223186fa67de4ded3b67d7e9d55"
     },
     "East Kutubu": {
       "url": "data/6e41de005bd1b05d.json.gz",
       "forms": 100,
-      "bytes": 5568,
-      "sha256": "88c1aad4d7872dc87741eb923767ec8ecb72f1c0576aa7b0d9dd660428783324"
+      "bytes": 5570,
+      "sha256": "236cbea08a5bf9e2b675f30d8bd091229281de9c44d6170aed7c01558975b916"
     },
     "East Strickland": {
       "url": "data/6bd4d74868fa6ce5.json.gz",
       "forms": 1509,
-      "bytes": 74424,
-      "sha256": "3ed8a0b78023e53f6403edbaf2c31c60d725780182bda2182deb0a64ca4b5985"
+      "bytes": 74407,
+      "sha256": "7d5dcb5516c7ecc46263fae48069b767812464398f51f03a1ceea4e4424b14ef"
     },
     "East-Caucasian": {
       "url": "data/51df9f60340b1260.json.gz",
       "forms": 680,
-      "bytes": 35225,
-      "sha256": "8c6463e5ac36da66c44cafedf0f2a4ccc6cabd3ea1fbdb08a6dc9407abd6fcc2"
+      "bytes": 35242,
+      "sha256": "4aa6d04ad9b8e7a7f191bdd32c69bd86081af3b8957298ef47b39bb0a2701281"
     },
     "Eastern Daly": {
       "url": "data/98c35fa388227c72.json.gz",
       "forms": 2,
       "bytes": 347,
-      "sha256": "b57e3fc844e9289225a58b64d82eec1bdbf555c58afe4c5a049eb203100f82c8"
+      "sha256": "b1a040289d27ca7e4164b5d3f5ac6ef772684585839c2ed2e8483bdc67c303e9"
     },
     "Eastern Jebel": {
       "url": "data/c58b3b455a1e723c.json.gz",
       "forms": 233,
-      "bytes": 10937,
-      "sha256": "46de22f1efeb82c55dcd5df1b26b468d138a8bc41b1bc9dc8b92d1d6ac039311"
+      "bytes": 10936,
+      "sha256": "d66878d0e1fdcfc6b05294a39d383c0bc8565e4754f0c0a2aa2a1e9fdbee4ebe"
     },
     "Eastern Trans-Fly": {
       "url": "data/4c4276af313098e0.json.gz",
       "forms": 3315,
       "bytes": 169018,
-      "sha256": "c18324530e719203167907b243c4b24df88155511f5858ca6269a90e27f8b7f7"
+      "sha256": "37c99be3f36a46215299de38d66ba70bd28b4aadeb4bb674fb03477b9508cb37"
     },
     "Elamite": {
       "url": "data/09c75b1f1f6f3e9b.json.gz",
       "forms": 787,
-      "bytes": 29498,
-      "sha256": "f3b25ccfa5f02b2e579e557b89db35731df64c1f43b9d0f9bd75812a957d5ba9"
+      "bytes": 29499,
+      "sha256": "6db8b730bac64cf5531b23248079ddb7b85dd7e414240fdb27ea05f09b6342da"
     },
     "Eleman": {
       "url": "data/2459a3c6cf65d995.json.gz",
       "forms": 1174,
-      "bytes": 57054,
-      "sha256": "6ee8ff98912457de48921985930e52f7256b4647b30b5db4940ca0f0ff044bab"
+      "bytes": 57060,
+      "sha256": "9d64267c732e4b35652bbfa384fec6cbe3a1ce3e0e03b01941892916f1ea8408"
     },
     "Elseng": {
       "url": "data/11c7d4c1c82b51c0.json.gz",
       "forms": 134,
       "bytes": 6495,
-      "sha256": "c00902388636be8d9e7f91ec11d2bad1e16ae9153e31bee0128930ce5106b3fc"
+      "sha256": "cdf0cab5609bed6ac4803c5bd0ba8589307e70cf03f19b6cab9aa7be82068c77"
     },
     "Eskimo-Aleut": {
       "url": "data/5220bb6124333809.json.gz",
       "forms": 3574,
-      "bytes": 184531,
-      "sha256": "488858e24d464eaaad0965375ddbee467d4333fdd65a1395a62088785eac44f9"
+      "bytes": 184511,
+      "sha256": "67d99de5e9282c6343f4c24baca07132dd5cd1ef525d126eac16195955ffbc6f"
     },
     "Esselen": {
       "url": "data/ceda0cf8ffe6cd4d.json.gz",
       "forms": 162,
       "bytes": 9965,
-      "sha256": "0cdc56475efdcb54da991414cbc96419b632cdbf8e43461422d940506ab17a17"
+      "sha256": "9b730f7d27bdcadbfc4f445b86b7f82f984b13b25f96d19126de0a3c575e6c8a"
     },
     "Etruscan": {
       "url": "data/c3f60f39f3f704b5.json.gz",
       "forms": 70,
-      "bytes": 6041,
-      "sha256": "7fa70e66781d7a3d1ee739398e1af7b32aed56ed615811b26ade630ea61b7d0d"
+      "bytes": 6038,
+      "sha256": "06c1e3db5a79021889ebb8f8d695b9a34c94b4c9d26b0557ff693f6946107c2d"
     },
     "Fasu": {
       "url": "data/8e23c302b737a8d6.json.gz",
       "forms": 277,
-      "bytes": 13108,
-      "sha256": "de1bd6a0422f0906aa27de354640104d4f5e2aadee825fe5c22d547ab047e04f"
+      "bytes": 13138,
+      "sha256": "c2d8f63d5838d3054c0d05ee720587deba225807e2e7fd33e474d2e1637120d8"
     },
     "Fulniô": {
       "url": "data/c1e04a79e3023109.json.gz",
       "forms": 32,
-      "bytes": 2211,
-      "sha256": "d5a1ab80bed75151b82a9d129dc4088006283b7350731fb6b692cdee171ac48f"
+      "bytes": 2205,
+      "sha256": "66005dec3791a4670027415845adad0f2d76ab839c25bb6b36dc171cea9044e0"
     },
     "Furan": {
       "url": "data/64a298ed4b22bb85.json.gz",
       "forms": 189,
-      "bytes": 9664,
-      "sha256": "f34f61c80c87d75d6035e3c33685135ee5ef49258eb4016c9c11ccc3d702a0c3"
+      "bytes": 9661,
+      "sha256": "498fd0d99a5150f19a8849e046fcea91936bebab1e056cb4ee5257bad827b103"
     },
     "Fuyug": {
       "url": "data/502738d1114ddab9.json.gz",
       "forms": 714,
-      "bytes": 32541,
-      "sha256": "1eebddb87de3b2906cf6bfc56e6c9eed4115c0c1bf5b29c0ec18cb764c3aa12a"
+      "bytes": 32550,
+      "sha256": "ca63a60fb7df65984d1d957c69e2ae86bd9ba736856862f238f623cba1209d5a"
     },
     "Gaagudju": {
       "url": "data/b322c82016938177.json.gz",
       "forms": 266,
-      "bytes": 12892,
-      "sha256": "88a20d04e2430d04b2f6bdc153c9afaee31a437aee7d2734be165a243bdda070"
+      "bytes": 12898,
+      "sha256": "249c6ad74b2b24235ab72450f75d20a625e2ff76224829b7aaa6d73bb1d278bc"
     },
     "Garrwan": {
       "url": "data/fa5026ed4a573799.json.gz",
       "forms": 233,
-      "bytes": 10934,
-      "sha256": "284f97ac49b2d843dbe9998a43d3f1a3c90adc83bc2e4c5ed472540319a066ca"
+      "bytes": 10946,
+      "sha256": "ca3531163c54ec594beff56325cf76ab057dbbc6cdf8756d46a7316622d0bbad"
     },
     "Geelvink Bay": {
       "url": "data/458a73822c88cdf5.json.gz",
       "forms": 611,
-      "bytes": 30911,
-      "sha256": "49e6f3df87b0cbbd902001dcfd2d536d5ddcfaea447dc47ecd0f69c5e1f9657e"
+      "bytes": 30924,
+      "sha256": "155051ba6ceca2ba69be0e91e68b59b78344ab825eaf02281db743ccea8e5887"
     },
     "Giimbiyu": {
       "url": "data/a73a2b1cf81c5797.json.gz",
       "forms": 110,
-      "bytes": 5930,
-      "sha256": "a5a0798bf9a41bb05b7946e61413bbe0a77448d126870b34da337b498f4dab69"
+      "bytes": 5925,
+      "sha256": "1d094d7b5b0389497de8cde743b835fd7985e3f0aa33fe0a0316ce6d8f5872f6"
     },
     "Great Andamanese": {
       "url": "data/ea0bb659df8c8eeb.json.gz",
       "forms": 888,
-      "bytes": 45402,
-      "sha256": "410fe429338ea3e6010883a8ad599c83c19af5da69050eb8841e773f03d86c99"
+      "bytes": 45399,
+      "sha256": "f245081eae63bdc881a33e056a51bde30eca18740e9df5e999f15a47d6f3d548"
     },
     "Greater Kwerba": {
       "url": "data/65c7cb269ddea083.json.gz",
       "forms": 183,
-      "bytes": 8970,
-      "sha256": "9bee14971a653d52085a605737906eaca5490d48c00d8ce9e4ff1ce28e2b7cab"
+      "bytes": 8963,
+      "sha256": "5a30c6533d604e87375cb66121cfc3a67e10b2c42d9158b8c927bc65ef2c5c78"
     },
     "Guahiboan": {
       "url": "data/1ccd0c17c667f75a.json.gz",
       "forms": 2029,
-      "bytes": 107209,
-      "sha256": "242e4deaae81cab70883b908478c571e226e1d5e65087f0398f68304d0986eaa"
+      "bytes": 107237,
+      "sha256": "289b4996109b1c69c64dd455dc39143f24f138aa700595f960c49ffd82930b15"
     },
     "Guaicuruan": {
       "url": "data/cd13ab1cef80313c.json.gz",
       "forms": 4570,
-      "bytes": 212142,
-      "sha256": "c6caebb6d238c2ba40fb21a4b1b2b8d20145d3feecda6ffe20f68968765bc91a"
+      "bytes": 212184,
+      "sha256": "479387d9d4846baf0712db2fd85e591f146b0ee46133a93e1ae5b0aada0abef5"
     },
     "Guató": {
       "url": "data/ba6c0c8f2b700f19.json.gz",
       "forms": 38,
-      "bytes": 2533,
-      "sha256": "159a27603ffbb092e1db4782929867fab6b632281eef23ab48a1756f729f996e"
+      "bytes": 2535,
+      "sha256": "4ccc023c21202e633f195975ba69831e5a733655f29bb6983b09f0ae8cb25787"
     },
     "Gumuz": {
       "url": "data/3eed1934e0499315.json.gz",
       "forms": 239,
-      "bytes": 10897,
-      "sha256": "a17bb22b6f94de093f3c990fcff2c350c51b6bd2405f6c3677b59c2d5261dac5"
+      "bytes": 10888,
+      "sha256": "54efb702b23156c50b5c8bf56d52c235f5aaba1fcbb1e69879f7b6b882488419"
     },
     "Gunwinyguan": {
       "url": "data/c01c476be9868fae.json.gz",
       "forms": 716,
-      "bytes": 38545,
-      "sha256": "d015cbc883c9bfbee72de1c79c938cae54d698b52a6aa96b9a30ed72a94ba45a"
+      "bytes": 38561,
+      "sha256": "f866f22d838f1db98f5d65537566b91f4bf4c1aad2ade16fb328f1edb0c4d0c3"
     },
     "Hadza": {
       "url": "data/4b324105ba573e67.json.gz",
       "forms": 239,
-      "bytes": 11030,
-      "sha256": "3e4d0eef44a7a65bab96fe0495bb1ec0433ce916365e5f944f709feba3e3a83d"
+      "bytes": 11019,
+      "sha256": "5d167b6a5507d392b7fabf396ef0a0a7114f094147ef6372e484275453124a4b"
     },
     "Haida": {
       "url": "data/0661e98806644e76.json.gz",
       "forms": 1473,
-      "bytes": 65555,
-      "sha256": "d889c039ab2d52180aa4d4dfc1307533b5bf861b6ed390a184a8bc69380091d8"
+      "bytes": 65552,
+      "sha256": "83943ad8103c52f3ac0ef8c8da73fe293707c97851b04895cbbd9c533b4bfdf4"
     },
     "Harakmbut": {
       "url": "data/e4d64bba99cb376b.json.gz",
       "forms": 1109,
-      "bytes": 72938,
-      "sha256": "ce1453f266fba52f3d7c558115fbafb617c3cd3b98129537793ca4cba8177394"
+      "bytes": 72973,
+      "sha256": "501285844e535fcbcd6526a01978b1cf7d33c09cf7434c23130f820ebcefbf19"
     },
     "Hatam-Mansim": {
       "url": "data/1a40dae57df6b639.json.gz",
       "forms": 275,
-      "bytes": 12047,
-      "sha256": "5beb55c46a81f3dbdc8d9ead19a02762ccbbba7e77fec1ceff449f6863bfc602"
+      "bytes": 12053,
+      "sha256": "f796490a8a0ee83cbd31d6f895b8136386f24616a2beb05645d8e7ff7aecb297"
     },
     "Hattic": {
       "url": "data/493bd6a9e9ba6360.json.gz",
       "forms": 1,
       "bytes": 306,
-      "sha256": "b9d60ec831403d07b1383f2668abac715377e009712f90bacfd13185da70ee4a"
+      "sha256": "1b715f22f9d4507cdd5b97471a8b896635c001f1f67cb0ae5bf88e7e510a8088"
     },
     "Heibanic": {
       "url": "data/9a407f7fbba06dc0.json.gz",
       "forms": 638,
-      "bytes": 32086,
-      "sha256": "01fb7fdba97190364f5bd25eac9bd0038372f61e9b900d2a89b52def247186e7"
+      "bytes": 32075,
+      "sha256": "6de11b081e5e478df409a8f70bb4bba13279644f7cee7612308f5ea59db54562"
     },
     "Hibito-Cholon": {
       "url": "data/c9fc7378a906ec68.json.gz",
       "forms": 64,
-      "bytes": 4160,
-      "sha256": "49bef16667de4b09307a200844aabfa22e17a6807f26fc7a7ec41ba8fe104ef6"
+      "bytes": 4163,
+      "sha256": "fdc3a1c3b45ec83404f58e2600b6e4a550ae133438590e04de8ee18e4f28fbfd"
     },
     "Hmong-Mien": {
       "url": "data/2b7d413336dd5c00.json.gz",
       "forms": 24298,
-      "bytes": 1202415,
-      "sha256": "27e1ba22d0a71ba399bde5583cbac53146c0552121b2b635d82bb1f67546c12e"
+      "bytes": 1202556,
+      "sha256": "49431f5bff82132923d8f074e7e32d0bf0bf894b043f2316aafe967da8774081"
     },
     "Hoti": {
       "url": "data/072f4d08d967f393.json.gz",
       "forms": 266,
-      "bytes": 17141,
-      "sha256": "b76535406919acf4ecb820df21eb3ce58f5f26c6626c7850bba662d043a8123c"
+      "bytes": 17175,
+      "sha256": "dcba46adc125f818328bd8165ef3740467af402a22e54dec9fd4d8986aa06049"
     },
     "Hruso": {
       "url": "data/3865349c782bbc59.json.gz",
       "forms": 220,
-      "bytes": 10324,
-      "sha256": "0c50a6efec022267a93f9d338b8d177b8e65d3b594187317c808b952fc6aff55"
+      "bytes": 10306,
+      "sha256": "34140169b61be8866b6cd5dfbd6a6997d1376a4ee112a0332cec49c9531fb84c"
     },
     "Huarpean": {
       "url": "data/f02db30da72fcebe.json.gz",
       "forms": 164,
-      "bytes": 7633,
-      "sha256": "a70588d7be19c8853c8aec7bf2bc01a0654cc403d7f4f0cf6430977d1a569526"
+      "bytes": 7630,
+      "sha256": "ab614c9041152bb9718058a5a8ca0ce3d611d2a8bf2aaaacde5edb404f1d0b75"
     },
     "Huavean": {
       "url": "data/e4064549859f9793.json.gz",
       "forms": 362,
-      "bytes": 18226,
-      "sha256": "0df6f76763a55562e8621ef4e84424ed05286d90677cb85f0753962fa549226c"
+      "bytes": 18217,
+      "sha256": "8f63ce51da8ae7e5f7517491681aeed3d7dcf731a6a0f9c1e262af72021e5ebe"
     },
     "Huitotoan": {
       "url": "data/72bd58de7bb12e6f.json.gz",
       "forms": 1484,
-      "bytes": 85991,
-      "sha256": "64fcfb13ef433304c04e2b70c653d7de9a03d7fcae70f4bc67ac05af4656d76a"
+      "bytes": 85973,
+      "sha256": "d01df3e844f640146643a64a24b8275bfbc7998cb273b4e2312856f797ac2eaa"
     },
     "Hurro-Urartian": {
       "url": "data/424ec1ddf62e19e5.json.gz",
       "forms": 9,
-      "bytes": 878,
-      "sha256": "2138abf1ea4d1b52820c9287454324680fceadf05ce9d02df36d299055fdfb81"
+      "bytes": 879,
+      "sha256": "73646a1e9ca9fdf66393f033d389cb7bd11f19bd7fd869390529dc2cc4dfd23b"
     },
     "Ijoid": {
       "url": "data/89c0c75ff285f32e.json.gz",
       "forms": 1084,
-      "bytes": 50973,
-      "sha256": "7f111b11765df2457f72eb3450df4562cd887ca0b69777bedce250dc9dd7f3e1"
+      "bytes": 51001,
+      "sha256": "d56076411a9c900037ee816ab360019926d86399612a0fad91593438effd6a08"
     },
     "Indo-European": {
       "url": "data/5fd64bac1a097674.json.gz",
       "forms": 172829,
-      "bytes": 9873888,
-      "sha256": "03840c97d6bf9d23d543958fb03abea6f4aa4aaf295df42e8b13c9e9a3ec783e"
+      "bytes": 9874125,
+      "sha256": "d34180a1c270008b194ec51382e04b02cd19ae87f56b200ef2b5efa7642f0e0a"
     },
     "Iroquoian": {
       "url": "data/30f450c2bd5a00bd.json.gz",
       "forms": 767,
-      "bytes": 38890,
-      "sha256": "f226249261c032a5b89a753d252b624cbe3b5c2f33351e49f9a89c3cce14c4d6"
+      "bytes": 38889,
+      "sha256": "e4ffc2fd9b3f27007d870eff19f005ba4063a28bafd1b1d4ba0bc21b5630c782"
     },
     "Irántxe-Münkü": {
       "url": "data/a1c9383e4e0718a7.json.gz",
       "forms": 34,
-      "bytes": 2453,
-      "sha256": "4d6a9489920ecbfc3e6db909fa8c47eba41b75ad59f896625c8edd553649b4a8"
+      "bytes": 2449,
+      "sha256": "d03d9cdf9b1255581d5b7015110c227d3c0480f99bb10da4916052e13856a918"
     },
     "Itonama": {
       "url": "data/9b586272d72735ae.json.gz",
       "forms": 284,
-      "bytes": 13531,
-      "sha256": "549fa53b77195710a95c79f3e63586fae2530e1c84be9bcc5df3d32d9cab0335"
+      "bytes": 13521,
+      "sha256": "4790e3b7458e22d5ce800e6cbc7e3d9fa36bccdf66d03618f846fc9e9ba139d7"
     },
     "Iwaidjan Proper": {
       "url": "data/3025bc27b00aa8ef.json.gz",
       "forms": 350,
-      "bytes": 18239,
-      "sha256": "5c69925e9a8bdda0c3e27ebfad6f5314485b97ddaca32e47d7aa9b26aeac453a"
+      "bytes": 18237,
+      "sha256": "7d9ebb782f2a18c028afab4eb79ea96517726ef63b61d45433d33360532d269c"
     },
     "Japonic": {
       "url": "data/34d8540b129efaa0.json.gz",
       "forms": 16853,
-      "bytes": 919448,
-      "sha256": "68c9578f172d504890ecd1eea962cd89e84e3ca0fa872d73cfd255298f6a26f8"
+      "bytes": 919410,
+      "sha256": "f6d9c072a7cd3fcfbccc635ed044ed644a3f874a24a71fbbf901c0b6c66b6a71"
     },
     "Jarawa-Onge": {
       "url": "data/0c6ba2e1ab0edd37.json.gz",
       "forms": 213,
-      "bytes": 11159,
-      "sha256": "ce36daae67747e1e0a02aa8154b78519a99bccabd0c57080f210441f886ae1d7"
+      "bytes": 11168,
+      "sha256": "ef562ff17bf9eecbdbbb2b08090e48273612a147c0b50c3e923c8bb9586b2f1b"
     },
     "Jarrakan": {
       "url": "data/c0f651502ca1e4c2.json.gz",
       "forms": 1028,
-      "bytes": 52649,
-      "sha256": "cdfc304996d1c9da79a80be1e1721952b65c2c4eece8ca9cd0192a5d08074e3b"
+      "bytes": 52608,
+      "sha256": "7de5eb6efeafaadec124eb698d2be11b94e4e664eaa0688f180a7699d4fb98c0"
     },
     "Jicaquean": {
       "url": "data/b44504904c3e48f7.json.gz",
       "forms": 143,
-      "bytes": 7055,
-      "sha256": "4cb1dff024f119e41ca520a39c0549a1c6f63aa2c1eac5cc534c262d3d37019b"
+      "bytes": 7054,
+      "sha256": "4c2f34f529c951e7a20d2697018da97d72051a3813f3fad385b4ad98b69288b1"
     },
     "Kadugli-Krongo": {
       "url": "data/9d60e61166d07621.json.gz",
       "forms": 907,
-      "bytes": 44088,
-      "sha256": "273e4b5814b980aa40fc0d14c421b7a2aa50f6fc7045914905da4ca42cb17b2a"
+      "bytes": 44080,
+      "sha256": "57f46b32add839a4951f8dbc2207616be3f0aaecda4c93aab0f03cd2394ab431"
     },
     "Kaki Ae": {
       "url": "data/b366a7b49f984846.json.gz",
       "forms": 248,
-      "bytes": 12443,
-      "sha256": "e94127175728ca970cc4fedeccc2b01bb975a8fdfb1b0389ce4e2ccfb725d5ec"
+      "bytes": 12454,
+      "sha256": "d77223eb297c24b0b444dab4b0b51ca8e6382ad156c7f14af9930193a33c4a4e"
     },
     "Kakua-Nukak": {
       "url": "data/fb97548510352ffc.json.gz",
       "forms": 758,
-      "bytes": 36282,
-      "sha256": "0099708b826d58f3afb61a788b9ec2843af548c3d9135e6c8cca5decc3cc48cc"
+      "bytes": 36305,
+      "sha256": "8a75a8bb30c1064b872acf937c6dffd262a5eecb9d6dfe0a2de53ff084fd34ec"
     },
     "Kalapuyan": {
       "url": "data/e187d4252b318752.json.gz",
       "forms": 2,
-      "bytes": 420,
-      "sha256": "2d3c824a9bdf6479319733f6147ebb6f7b37b4965224f570bb0e1ebb886aa625"
+      "bytes": 421,
+      "sha256": "641febe9c7f9ac985711a12e395585db94d23561ed64b774cbb82f96191b1057"
     },
     "Kamakanan": {
       "url": "data/446ca3b0800e4fb2.json.gz",
       "forms": 2,
-      "bytes": 327,
-      "sha256": "bd447fa4c598f1b981e61ce7ae4b42d5b7d11b696cd1a30eb2f8ed1cba34992d"
+      "bytes": 326,
+      "sha256": "cd849782c9a06d9a63999734beac311cb4925fe692157d41fd97cd69f8cd3c17"
     },
     "Kamula-Elevala": {
       "url": "data/7ac0a4af741cc945.json.gz",
       "forms": 474,
-      "bytes": 22830,
-      "sha256": "f639423567db57eba56c702286f5b2d7699285cc7847e3ee20ed1028cbad6256"
+      "bytes": 22863,
+      "sha256": "3322809f4f41e31611a6a370b281607487dfd70dc10f187b9c9100f46fece3cf"
     },
     "Kanoê": {
       "url": "data/00a02da8732bb192.json.gz",
       "forms": 263,
-      "bytes": 11519,
-      "sha256": "ea2a10d7482f14ade5284e40d2c87cb47e28b13b8ba619ac6a0d25f33bc6474e"
+      "bytes": 11514,
+      "sha256": "238af3d9915a0712e2506c7c2016c77090eec05ef282fc7631410613b1454a71"
     },
     "Kapori": {
       "url": "data/54776c866bfd84f7.json.gz",
       "forms": 38,
-      "bytes": 2049,
-      "sha256": "2cb1f67dadb1e50deaa4392824fd43d8257d349d3a20f87c82d321958d0bf568"
+      "bytes": 2052,
+      "sha256": "6bdf44462cb57dd1c5493985e711be6afd04a7f9ee42998aa89d386c3680fa35"
     },
     "Karankawa": {
       "url": "data/36b01a8a169ab4f6.json.gz",
       "forms": 83,
-      "bytes": 3861,
-      "sha256": "c364594ba69daa59550d6935804efa2bdce317eeb414d9d1b9e672c1190c6982"
+      "bytes": 3854,
+      "sha256": "31935e20620cd104da2a76a415b6bc2f172f0b8eeadf85d17810c8e950c9a1eb"
     },
     "Kartvelian": {
       "url": "data/f40f00bae64ab567.json.gz",
       "forms": 2264,
-      "bytes": 108552,
-      "sha256": "fbf8a1e771ba38a2bc66daa54961fc8bc5b11419956b68d53c876b8d93961ddd"
+      "bytes": 108542,
+      "sha256": "5567c751c95b97c1df36151156c4b4ed8bcb33efc403cfb0881009e1607ee01f"
     },
     "Karuk": {
       "url": "data/54ecc7851bcca654.json.gz",
       "forms": 852,
-      "bytes": 39329,
-      "sha256": "2f72f1c0ca8adb3db693ea56fbb5eb04c160ecd7f030882a42f9e6338bda1229"
+      "bytes": 39346,
+      "sha256": "3adab6aba3e9adf615c2e145010430699dd4bf3301b66a0edab12557a6e0a873"
     },
     "Katla-Tima": {
       "url": "data/50227bdb82311662.json.gz",
       "forms": 331,
-      "bytes": 16962,
-      "sha256": "9e5189ffc87191fc37b1a231a64f0c3889defc15ed32314980c6196ceb0e5171"
+      "bytes": 16958,
+      "sha256": "97b5370d6d3fd87c67f196dac776276dd05823f76cd0fdb7fa0717f1823d5d2a"
     },
     "Katukinan": {
       "url": "data/7a5670e558e16258.json.gz",
       "forms": 209,
-      "bytes": 12813,
-      "sha256": "0cb0698d94b7acc8e4e8f9b1f34d00337bf2347583e3c1c7f10e8405b5cdb916"
+      "bytes": 12799,
+      "sha256": "f38351df592b547fc538b225f7b982628eb35dc52907bdd9b5e669a71295cd8f"
     },
     "Kaure-Kosare": {
       "url": "data/6bf554e1fd880d12.json.gz",
       "forms": 437,
-      "bytes": 22257,
-      "sha256": "4db9e84e534dbaaf20f5e61f1a6927a8efeaf72ab755fc2bf003a64f3e37a530"
+      "bytes": 22260,
+      "sha256": "04734852484879bb1ecc1d8ddc8aad4aa039bb13b15c6bf18ebd80c58dc82699"
     },
     "Kawesqar": {
       "url": "data/f9a3542589b10319.json.gz",
       "forms": 634,
-      "bytes": 29072,
-      "sha256": "7207746e2d9c7db165f5108693c5326e63d6bdad9622e7ffad80e5659d4f6435"
+      "bytes": 29079,
+      "sha256": "c626b26d12e93d2da7f7b4114a3a4944f4c47408e8dcf2c6093621530f8ea314"
     },
     "Kayagaric": {
       "url": "data/1d8fa309f7ffb5eb.json.gz",
       "forms": 394,
-      "bytes": 18209,
-      "sha256": "fb9463b8daaf5559881f661524bb919ddeacfc3b0181746f1cd6229d9ee42037"
+      "bytes": 18192,
+      "sha256": "c7f15819ef2431cd13001a489bf4c1aa0c3a93c8d26948b0ae30d89415422644"
     },
     "Kehu": {
       "url": "data/4fd930890b3d184f.json.gz",
       "forms": 290,
-      "bytes": 15783,
-      "sha256": "74a6294cd080051d2e34321f88726678afcfc4db69ffab6ea9a1eb14fbc100ac"
+      "bytes": 15772,
+      "sha256": "d695f5823b52be1cd748046f670fd41e5dfdfcc37e872880cb0294bc64bff0c0"
     },
     "Kenaboi": {
       "url": "data/86568bbc93c6ca14.json.gz",
       "forms": 136,
-      "bytes": 7526,
-      "sha256": "2d5206b57f76c7b31d8647be3f07a4de390bb98a9c9f0e76de5a7c945c67ad95"
+      "bytes": 7536,
+      "sha256": "5ae8ceeb8af519edc467da935a2555a76454151effa33559594479f813c29058"
     },
     "Keram": {
       "url": "data/6875e71b4d62c55e.json.gz",
       "forms": 1176,
-      "bytes": 62013,
-      "sha256": "1545245d50902accd869d2144d8f2afe8ea34b4d0fe3cfc63fba6df89b5370ca"
+      "bytes": 62009,
+      "sha256": "ab2bb11f9bac2a6357d3a43de6d0f8df43069ebe09103677dbe2575f683773cf"
     },
     "Keresan": {
       "url": "data/760ebeb45a109d1a.json.gz",
       "forms": 483,
-      "bytes": 28030,
-      "sha256": "df8813a461a04725704e890e79115398a27f3f6335c72bb543f030cece0f452e"
+      "bytes": 28032,
+      "sha256": "675bfb8af2433fd74d8198ed383ae1af8aa09ddb9b66cbf835550759c3cbf222"
     },
     "Khoe-Kwadi": {
       "url": "data/e73dc1eb83a1f6f5.json.gz",
       "forms": 682,
-      "bytes": 31722,
-      "sha256": "40ee4ad75dec94463dfc492596d63f4b161e1319e13fa2159419cf4eec26e899"
+      "bytes": 31708,
+      "sha256": "d58ef269ca231851ba51b8312c060fc975f903d1042c239d1a152c0590ae1705"
     },
     "Kibiri": {
       "url": "data/2783b3bbbd0c7a2f.json.gz",
       "forms": 101,
-      "bytes": 5117,
-      "sha256": "33d1b1d610639f5bda1b83c0faae756657c8c64bb789199fe6c46cbbca6c1d1c"
+      "bytes": 5115,
+      "sha256": "a80a4269c7ab729f7349616086a996a66b1268315783ff98c0c0de1c4d0171a4"
     },
     "Kimki": {
       "url": "data/3822657db6292e45.json.gz",
       "forms": 55,
-      "bytes": 3058,
-      "sha256": "285c197c9832be9162403a02e897573606f508a51ae845b59084779c8c8d04a4"
+      "bytes": 3057,
+      "sha256": "33fc6b529a3ebdb0ee83ac6cfc7000ec3d275101cb3146cb82af0d6fc3a56003"
     },
     "Kiowa-Tanoan": {
       "url": "data/707feb14164bdfab.json.gz",
       "forms": 815,
-      "bytes": 42558,
-      "sha256": "1ecd2eeec211734b5794857b258fd96fdec0df386e9a06eccf0ed12ef8950389"
+      "bytes": 42571,
+      "sha256": "5579c5b4f8a41e55cc6470659a3c217b0735c461e741ef4da61e7ab326dbdf38"
     },
     "Kiwaian": {
       "url": "data/7f9669052f5e0f8e.json.gz",
       "forms": 1630,
-      "bytes": 78058,
-      "sha256": "ab478efa283339c021f7238141c1f9e29da4150a5239c0180e0b165c52fedbda"
+      "bytes": 78102,
+      "sha256": "e10f14e7255551956a464ce606a0374063a42c05cd6d13056954254265821af2"
     },
     "Klamath-Modoc": {
       "url": "data/e9a74891fa276d06.json.gz",
       "forms": 311,
-      "bytes": 14678,
-      "sha256": "c5775d3f031265430501949837fb1f15fc2ecc8ee7f69e18ed4f1a17b187ee1e"
+      "bytes": 14681,
+      "sha256": "230f6dc7d097d06006c9ee88138661f0cbd706ff80658d8debd86cbef81c59aa"
     },
     "Koiarian": {
       "url": "data/6aef4b23d70d3b11.json.gz",
       "forms": 1846,
-      "bytes": 91569,
-      "sha256": "d02880884912e3511779540910c8d297d38d39ebbb921fe9ebf1557b69ebd4cf"
+      "bytes": 91563,
+      "sha256": "41d0e4c548f1d144f54d24ccbe4314f86adc816ad22cbf4383cee4143045b71e"
     },
     "Kol (Papua New Guinea)": {
       "url": "data/3e29cfc98de3ce7c.json.gz",
       "forms": 219,
-      "bytes": 11294,
-      "sha256": "9993fa32f9c5c1074400d5feb0f12553ee4852ca5034b89e13c3ae361636161f"
+      "bytes": 11303,
+      "sha256": "5636110665bc5ef61426ececc47e3a2ef703d724d77c6176f69282a726ad4145"
     },
     "Kolopom": {
       "url": "data/452106734e296473.json.gz",
       "forms": 134,
-      "bytes": 5841,
-      "sha256": "0311c7c7b5bc50ca195ffb358eb871dfd8266d00a9976f6940c5f1967526c03c"
+      "bytes": 5831,
+      "sha256": "3996cb3dc5b2a7634a094a11669d64951c34de99bcdc02e8c4c5b93faf7042c0"
     },
     "Koman": {
       "url": "data/ba080ccc7839f7d3.json.gz",
       "forms": 481,
-      "bytes": 23843,
-      "sha256": "3505cd6d619711c5200267d90fc62ab4f5fcdb4dd88c71f29dba2a3e8faa7667"
+      "bytes": 23842,
+      "sha256": "6b4de6e17ccfdbab53a2d28356a76f962414fff9497362284f861980f2cd7b59"
     },
     "Konda-Yahadian": {
       "url": "data/13afb73382ec6960.json.gz",
       "forms": 81,
-      "bytes": 3767,
-      "sha256": "4a2cdd6557017378f336e60bcce3d135d24b9cd974993cac2df9c662d4d96442"
+      "bytes": 3788,
+      "sha256": "843f3051b9dfa7d4b8fefd52ee98b0977e550d73fc5ca13a4ca3568755c70ca9"
     },
     "Koreanic": {
       "url": "data/710a631b97118a5d.json.gz",
       "forms": 3661,
-      "bytes": 210819,
-      "sha256": "fa9b099fd9254be63cf7c60a558e3741211c05cc81e63b1e9ae7b5863be4163b"
+      "bytes": 210853,
+      "sha256": "9c61c51894605f4c2cb86c15e9fe57b5159302a8a85bcf38c5c976e5c4e95193"
     },
     "Kresh-Aja": {
       "url": "data/057e00edafac7e58.json.gz",
       "forms": 74,
-      "bytes": 4231,
-      "sha256": "5c4f0758fc2c2654955662fd04e97c44de397ebc5d6a9c13c50c8170a342a757"
+      "bytes": 4236,
+      "sha256": "fa6fe22c03fa4583619f928cfbad85b403611b21a074cb4282a6bc5a90eb9fa5"
     },
     "Kru": {
       "url": "data/d581186c8b9952d7.json.gz",
       "forms": 1961,
-      "bytes": 98525,
-      "sha256": "8c3579ccf7daf5a009c78c137c8c10fc689d9cf1f46c81e60230544f8fcde507"
+      "bytes": 98516,
+      "sha256": "cde04a144e8113451d1d95d106d18608a1111ef98d17071910564b2d9c065db7"
     },
     "Kujarge": {
       "url": "data/bc3ec03a08cbfeca.json.gz",
       "forms": 53,
-      "bytes": 3284,
-      "sha256": "9dee48bb1033a70fed97f7af8830f8ccfafd93feee247ca6a3e76df0bb81a7dd"
+      "bytes": 3278,
+      "sha256": "aea21b6095101655b5d189ed81b2c73383b4df7198c7a8da676920d216d87d4c"
     },
     "Kuliak": {
       "url": "data/ce7d49aa3c0b2efb.json.gz",
       "forms": 379,
-      "bytes": 18076,
-      "sha256": "66e4745e072f56572230b0938aa0bccbf370bb62e3429f9d9096564e6b215764"
+      "bytes": 18098,
+      "sha256": "3d5d33500ddb0ad4f2f343df1bbc63a1701c5d1a797e07d6e490d97efa9ce867"
     },
     "Kunama": {
       "url": "data/fb262df3654310fd.json.gz",
       "forms": 76,
-      "bytes": 3844,
-      "sha256": "1896468f51ce99d10f5e88b9928fb4cf660d724a784e5c9852362735f923e61f"
+      "bytes": 3846,
+      "sha256": "1747073cc3f1ea75049ece9312ec42e9cfc4d008810761d9ab1a9a105454ab3b"
     },
     "Kungarakany": {
       "url": "data/6fbd688e0c1f6363.json.gz",
       "forms": 46,
-      "bytes": 2999,
-      "sha256": "7218d4e57bf7513d5b319472430a6e0e8586cdb92abe26d797c68ce4b43439ce"
+      "bytes": 3002,
+      "sha256": "3a923bc6982c7553e0d734f30626a2480f323f0e85946a26ac360e77717b0f54"
     },
     "Kunimaipan": {
       "url": "data/f8181ce342d5fce4.json.gz",
       "forms": 214,
-      "bytes": 10595,
-      "sha256": "ec3b5629608a0f9a634e4af0b19c280c0d8ac89df50edd1d0f40e47c607dd04e"
+      "bytes": 10583,
+      "sha256": "16ef8bbde9f9286654abb379a0ca9998b246fe48e87fab047503341220cda7eb"
     },
     "Kunza": {
       "url": "data/41913155df7e3f25.json.gz",
       "forms": 895,
-      "bytes": 34731,
-      "sha256": "a9d8981915bafa688c0597df239bc23d4ac481f59d7fafdc85bbec46e521bf60"
+      "bytes": 34735,
+      "sha256": "07bd3ca8d200da13e72060ae58a3d26e980fd49719dd41beb92e538483d43b93"
     },
     "Kuot": {
       "url": "data/6f0fbcb1840693dc.json.gz",
       "forms": 293,
-      "bytes": 15963,
-      "sha256": "aeeec029aa8f5ba771bbf726d1162334e3f0c9f799a2b823532c63a8430345a4"
+      "bytes": 15964,
+      "sha256": "12ffcb16950c9982e391f72f5bc91f9be634fbf900562d1a4e3f4cbb6a7e2aed"
     },
     "Kusunda": {
       "url": "data/75b8bed613bc5797.json.gz",
       "forms": 451,
-      "bytes": 18925,
-      "sha256": "1a80d4a171e69bb077eb8bfa965711149dba044770c57d79f1a45c3ca7288d98"
+      "bytes": 18917,
+      "sha256": "3ae3876087c169deee7506eda510bd95769819ed3cbc4fb956a7e2e93db3662b"
     },
     "Kutenai": {
       "url": "data/029784148c941ebd.json.gz",
       "forms": 134,
-      "bytes": 7569,
-      "sha256": "6a86962cb6d58ed90a24e393105979df50b53001289383770cbbc14997e32062"
+      "bytes": 7575,
+      "sha256": "441fd933ee0216a614c591b0ec6d2cbfe970f01441b4346f711a8de68de2da27"
     },
     "Kwalean": {
       "url": "data/46ee7d64742e210b.json.gz",
       "forms": 984,
-      "bytes": 49923,
-      "sha256": "d510f2d9759173f9cfd79241d2049b1c8fea0729698884cccd4a854f3829b291"
+      "bytes": 49917,
+      "sha256": "88d6fde45fc81dd2bb7c184db85792781506caf35b6afd07b9d90d363484058e"
     },
     "Kwaza": {
       "url": "data/df112b744fa58889.json.gz",
       "forms": 303,
-      "bytes": 18434,
-      "sha256": "e519e22d577cce0dd4f39fd192cc5cb9260d1e0e4b5521a1d0d689a18c5cea57"
+      "bytes": 18449,
+      "sha256": "766d5a72ea2b82135cbb681c78a45f9fa7fecd25820fd7e726084d0fbfe7db3b"
     },
     "Kwomtari-Nai": {
       "url": "data/0f973828595929c3.json.gz",
       "forms": 31,
-      "bytes": 2205,
-      "sha256": "86545c80490963aefdfa2d4bb8770adbdc36f49eb17265bcbb135826479e76a9"
+      "bytes": 2210,
+      "sha256": "7b68b2b64da3de078551d0ab7cb4ac34e3ba05f119b579c452d99568d052c73d"
     },
     "Kxa": {
       "url": "data/fd94765c35df9866.json.gz",
       "forms": 518,
-      "bytes": 24647,
-      "sha256": "e3503da310299c87af772908940a5165a2d2efb1dae68c4ceb03095dfa7d0e20"
+      "bytes": 24657,
+      "sha256": "ba5e1d0f24c43e0c1e7e5429489e83e62a98c91d9b75e3c84775131de1107a2b"
     },
     "Laal": {
       "url": "data/602f50148c8b67fc.json.gz",
       "forms": 34,
-      "bytes": 2182,
-      "sha256": "9c809c265ef505dd648e11c537356580096f0ea9442be663b0796bff9c310ffc"
+      "bytes": 2176,
+      "sha256": "0103b06e60c652804d2e4c772491975f12637ea458deda9a35ef168950d39865"
     },
     "Lakes Plain": {
       "url": "data/55ace79583fedaf8.json.gz",
       "forms": 5098,
-      "bytes": 243230,
-      "sha256": "a86746a60964792051b4469d0523ba3565a7a2ca99e952d518c77a664b9ac470"
+      "bytes": 243250,
+      "sha256": "9b4f5d724bfcf00168cdd7683447e86a8fc3eeee546f21a79fc27da560c698cb"
     },
     "Laragia": {
       "url": "data/62c77242755d7c7c.json.gz",
       "forms": 32,
-      "bytes": 2360,
-      "sha256": "03796fb02f7c9b780179cd71152706de5a754033bdce65c83feefaf92114a30a"
+      "bytes": 2364,
+      "sha256": "e00136c1ca5d2361a7ead240d8058f1a76f19e722dc02ddb926c8cbadb83fbd9"
     },
     "Lavukaleve": {
       "url": "data/27023c28ed11c927.json.gz",
       "forms": 339,
-      "bytes": 15519,
-      "sha256": "dc56af49332bb54188bb3e7cf3808fec5f478babc5ab806b1027b4f6cb2e7854"
+      "bytes": 15497,
+      "sha256": "3b93f3660d6a578798b1deff72ad236b99746b6957a4503f90db622909b87341"
     },
     "Leco": {
       "url": "data/9ff0a4e3ca26570c.json.gz",
       "forms": 7,
       "bytes": 485,
-      "sha256": "7e4be593cab727029c4f115569bda22faf233cb3d57e2cfa6010ea4d47fb1e89"
+      "sha256": "c0d5eaff2449b3358458f7164184943dbf73802bbcd8a1c907efddd66eb9dbf9"
     },
     "Left May": {
       "url": "data/cbbce80a61c1f353.json.gz",
       "forms": 1119,
-      "bytes": 55497,
-      "sha256": "ad122beccb840465b47488801bbebe5c9e4cb970e62e4655e07a25655f810b33"
+      "bytes": 55519,
+      "sha256": "4fe1cb8bed7083f17a81a109efabe378358ac9ec5df7ed65c024a3872bb46d7e"
     },
     "Lencan": {
       "url": "data/91022cb637df9596.json.gz",
       "forms": 440,
-      "bytes": 21100,
-      "sha256": "3d245da0ff9bcb927f9cbe71228806760914b29030b8a3688f245a43ff3b5e64"
+      "bytes": 21113,
+      "sha256": "020d0aa7aafdfa8c30dc8087c1dacc0a320ba9b8355f92eabce2f4bdb603925e"
     },
     "Lengua-Mascoy": {
       "url": "data/01703581dd3a6412.json.gz",
       "forms": 4801,
-      "bytes": 221238,
-      "sha256": "4d039bfae5a00eb8b9d7e96fd34892782317a615b96cfc16e812fccdf4409b75"
+      "bytes": 221197,
+      "sha256": "b4b52dfa4533d1a587f19b7640018f89dfc18a13411c6fb5f3e31213067e3484"
     },
     "Lepki-Murkim-Kembra": {
       "url": "data/4a0e53c672aa6c0f.json.gz",
       "forms": 113,
-      "bytes": 5430,
-      "sha256": "b6abcd3abe927e8ed1815236e3cd879d29ebaff54ec3862bbd14613e32ef6077"
+      "bytes": 5436,
+      "sha256": "9a22d0195bccb2d8d5640e7751c0ee8baa08ec8c04b559ec6adb8f4383d199c8"
     },
     "Limilngan-Wulna": {
       "url": "data/e7125f4643d9f46a.json.gz",
       "forms": 231,
       "bytes": 11016,
-      "sha256": "aecf897d8590b614542708d209d76ef92b3f8a39c1e9c96f5b767df87b5abcd4"
+      "sha256": "c8ed21b56606921f851366ad7f064e6327b2a1f75b748e98e4f06baf8aff5054"
     },
     "Lower Sepik": {
       "url": "data/a1f528fabeb2f2e7.json.gz",
       "forms": 2577,
-      "bytes": 123212,
-      "sha256": "079e09387d002112d3ab8666e0bca97585c943d8d885377fc450f623a82f9fc6"
+      "bytes": 123158,
+      "sha256": "f2cc48751e634e026c010b332225f44cae5379be00616fb12c8749c4336ef9fa"
     },
     "Lule": {
       "url": "data/e9aba93d36ada064.json.gz",
       "forms": 295,
-      "bytes": 12568,
-      "sha256": "74efc4042ddd5ab0002e34892a6371f1cab0d202b4e79c1546de5bed3932d732"
+      "bytes": 12564,
+      "sha256": "1488cacdb39f2bd797fab43114eb3853d36f0e81193a20d5787f041542ffa0f7"
     },
     "Maban": {
       "url": "data/f090b8780ddb51ff.json.gz",
       "forms": 455,
-      "bytes": 21431,
-      "sha256": "59e9d0e9c749191a809c242e68f673b26fa7d3048731799e5366e4a95a18b4ec"
+      "bytes": 21432,
+      "sha256": "bc94898968393287a4bd5fbf150e7fd68cd6166f631340c21cf182a03483f69a"
     },
     "Maiduan": {
       "url": "data/5a9d1d3ad16c54d1.json.gz",
       "forms": 735,
-      "bytes": 38047,
-      "sha256": "5944577a32e47785beb51bf97abb0206193f928774e22986c16630c9295e52dc"
+      "bytes": 38046,
+      "sha256": "b43872905a3576ad091e9ffc763b318930c8b9e31669f333173350932a1233da"
     },
     "Mailuan": {
       "url": "data/a5ff863357287139.json.gz",
       "forms": 3032,
-      "bytes": 154816,
-      "sha256": "d90e042a73362cdad56b3d79bf4d32f460f4be8a3262f762d13c0ef4688d6feb"
+      "bytes": 154845,
+      "sha256": "a5de5eabe9a7dc33cf9182753121994236d701e99760fe7a2865a4d4eba605d3"
     },
     "Mairasic": {
       "url": "data/5bd0f91a69fb9d50.json.gz",
       "forms": 280,
-      "bytes": 14501,
-      "sha256": "8e86967fea1044a2a4e1f53d48bf1a5a5c0818f022eb79937f2d3ca6ed03f7eb"
+      "bytes": 14495,
+      "sha256": "d1eff1af2f200fcc9d244800ea4f58432d6e695cbe7a6258722f0250f0744e05"
     },
     "Mande": {
       "url": "data/5e8eca07b836875a.json.gz",
       "forms": 9221,
-      "bytes": 449844,
-      "sha256": "601579b6a68addef295a1a043ac0dab1f94b34246d2a0f640def19eeefde25b2"
+      "bytes": 449889,
+      "sha256": "cf2d532c93055076605ed7303bf503ac463c2338371bb3e1cf4c9fc6477ad4e2"
     },
     "Mangarrayi-Maran": {
       "url": "data/7e110126f866c0c2.json.gz",
       "forms": 457,
-      "bytes": 22705,
-      "sha256": "cc350cf3c58ffeef534d7d2c5d52028a2b9201cb2c1f5f91d78d0aacf0fb2aa5"
+      "bytes": 22710,
+      "sha256": "11f14dbd7ded6622df8d64f647d3d58cd3469754b1fc5b7577d0150b403ae811"
     },
     "Maningrida": {
       "url": "data/1a231d6e562517f3.json.gz",
       "forms": 662,
-      "bytes": 33897,
-      "sha256": "dfeda94ebfe264c5427086f7105ded4339868e7b3c8707eaea735cf6efad9aee"
+      "bytes": 33885,
+      "sha256": "3e3720f723a2f68947abdfbb2438810ff8aebbe13b27ebdb2ec361f2042deca7"
     },
     "Manubaran": {
       "url": "data/b9e91ac2d1c5128e.json.gz",
       "forms": 2227,
-      "bytes": 112906,
-      "sha256": "b2f12619c1b5f49e74b697129b5ebe56d687106fd29019d76ab6678f05eee3b4"
+      "bytes": 112883,
+      "sha256": "11933d86db823abc80fd93f5cf96ab62b50d72e120d6e1cb7e25369a54ee4e24"
     },
     "Marori": {
       "url": "data/dcb13754a094726b.json.gz",
       "forms": 40,
-      "bytes": 2201,
-      "sha256": "7f4175299a5a437da5b522a33396a0ea4098e049a96094e2f4a6e8941d4e0bb2"
+      "bytes": 2206,
+      "sha256": "a560a55f2280be45df7a37a57ba3b89332a4f8ea475904141632f382b8399170"
     },
     "Marrku-Wurrugu": {
       "url": "data/2b78e66495abc76d.json.gz",
       "forms": 40,
-      "bytes": 2769,
-      "sha256": "0337ca41bd9aa40caa5a9da190f9062157ac6fa367ba723006d8cb278a3f65e2"
+      "bytes": 2776,
+      "sha256": "ade9123eda86bf832410198f29bfea25ed0080bfeff1cd3fbfa17aa8feec6e76"
     },
     "Massep": {
       "url": "data/6c3754e326f7d628.json.gz",
       "forms": 38,
-      "bytes": 2734,
-      "sha256": "b25ed0caeda4d7c28cb6deb795528653509b051f17cc088307081a9e1d824b4b"
+      "bytes": 2731,
+      "sha256": "3eb986998ffdb28b9df0850bcda6449307fb08b8cfce8d93285a51f6b5f318db"
     },
     "Matacoan": {
       "url": "data/3338bcd5a5d95fb2.json.gz",
       "forms": 387,
-      "bytes": 19245,
-      "sha256": "5b11d8fd835c2610fa8db156cc71276057e2ec0fc23ee86295e6ff7de993f21e"
+      "bytes": 19255,
+      "sha256": "5f4c8b07e1b97efb0c4ae512c48e835b4a4cbbd4009b5cb07b4f7801f10dc4d7"
     },
     "Mataguayan": {
       "url": "data/2cd6cc3738d2705b.json.gz",
       "forms": 5881,
-      "bytes": 257177,
-      "sha256": "50daba6d821219fad78681c3f25ecc0169496ccf106d008e5671ee21f6cd33ab"
+      "bytes": 257186,
+      "sha256": "68012caadf0867c57b7ec260ec02022221a709862ef4831f0f95a22124667335"
     },
     "Mawes": {
       "url": "data/642c2351ff318de9.json.gz",
       "forms": 39,
-      "bytes": 2187,
-      "sha256": "c97576d459b70dbf24eacbcafdabeb43d3ac91e6fbab58027e6be48fac0c831b"
+      "bytes": 2188,
+      "sha256": "4d9db32039bcdaf2813ee7b80221d10a6274a5aa439d86b3eab05c8a16b1e386"
     },
     "Mayan": {
       "url": "data/05feb39e3cc42513.json.gz",
       "forms": 6233,
-      "bytes": 259183,
-      "sha256": "1743ed344df26163e575b095a7ef21772c181f18c9b256a63c7d12f7b39a946c"
+      "bytes": 259175,
+      "sha256": "4244dd069732278f2bfc6352b1ad962296b79e4c401c61191efef96c5ed19274"
     },
     "Maybratic": {
       "url": "data/6183c8ba6c6a3fef.json.gz",
       "forms": 564,
-      "bytes": 25292,
-      "sha256": "156eeeb9a96b07c71dc536db7383e9f63553685aead551337a6819e1eabe97a0"
+      "bytes": 25290,
+      "sha256": "71171fc6626a740bfc1ef0d4f8ce8d1d2592ee0e3538fb6d3bbee63cf2721fdf"
     },
     "Meroitic": {
       "url": "data/295802d03b64e27f.json.gz",
       "forms": 4,
       "bytes": 555,
-      "sha256": "30439c46480ab52657f02d2e1c0f4570743a02a108c7b4a54f1c3a2dc29ab946"
+      "sha256": "e72bf71144d326145120354b2bca3811ec5c3b3682015cfb6daad51e101ec731"
     },
     "Mirndi": {
       "url": "data/3f689a69742f7a86.json.gz",
       "forms": 417,
-      "bytes": 22341,
-      "sha256": "807dd3686fcf53686efe215214ee10262c45e5d6f092217c526cdc3a97ac3738"
+      "bytes": 22346,
+      "sha256": "1e2e2093816c522f018aab995c424f77d61473e1fd91476926808dccfac4e412"
     },
     "Misumalpan": {
       "url": "data/19b30fd09cdbf151.json.gz",
       "forms": 662,
       "bytes": 33737,
-      "sha256": "6d09da4c50d2a2050f1d37514f601648a32f13e6bddc76574f7d22a7cdc5016d"
+      "sha256": "ce87ef77bc4a3110e552ff5afb2951ece09cb83dcb179af9de9f2606837a1429"
     },
     "Miwok-Costanoan": {
       "url": "data/919671ae121e2aa7.json.gz",
       "forms": 2528,
-      "bytes": 138460,
-      "sha256": "5c03c6bb8e628823a778ded0dc4b647346a031b2617809d598824ceeb1aff5b0"
+      "bytes": 138457,
+      "sha256": "7e425d493b05580708880f3eadb4aa9a423f0ec2473c623026d8391219e9eee9"
     },
     "Mixe-Zoque": {
       "url": "data/6e756bf2c7e4bfed.json.gz",
       "forms": 5396,
-      "bytes": 265829,
-      "sha256": "803056161d5f2ea48e765b209a6fc73fa1aa7a34797860c99386c8c9ecd68b02"
+      "bytes": 265726,
+      "sha256": "4f7a8814483077a07f29bf2aa9fa92b9a77e458424a4b2f37498ccb3c15c6c44"
     },
     "Mixed Language": {
       "url": "data/bd8feea9999bfab4.json.gz",
       "forms": 3219,
-      "bytes": 428085,
-      "sha256": "b79e0e680c2bda274808347ad6a7f49349e9b8421b8e02d949e622b678ae8947"
+      "bytes": 434941,
+      "sha256": "24b9f9adfc395376bb3f3fbe762f060ddbe0255b1d20076c39d1adac75af5f28"
     },
     "Mochica": {
       "url": "data/26191517cc4c3970.json.gz",
       "forms": 39,
-      "bytes": 2644,
-      "sha256": "0bdf3e8f3c92daa5272e7cb75c158112fdc8ea87ba2426e721b3285941f537bb"
+      "bytes": 2647,
+      "sha256": "f57e5a94c0c5b274c90ee33d5fe3237ed40c425b5deef79e557312145605c171"
     },
     "Molale": {
       "url": "data/019b086a0a87859d.json.gz",
       "forms": 43,
-      "bytes": 2818,
-      "sha256": "cea14156e2af16ebe2db5d03bf72fad78f265da7646bcfc50a5c6a70c6607d79"
+      "bytes": 2820,
+      "sha256": "2cae7d69bfc9c478eb71c53d61d34725351609441c9ae9986811ebd993da5c8a"
     },
     "Molof": {
       "url": "data/73d64b1aa11cbd00.json.gz",
       "forms": 118,
-      "bytes": 5594,
-      "sha256": "dd9a9754a599dfe4eb83539613d8de6bb100c7d60abcc5790b98670e692e2f16"
+      "bytes": 5588,
+      "sha256": "507e0459cc398141e9c7a7b794e76b659682fc7a6393824e3557e468dc46e7dd"
     },
     "Mombum-Koneraw": {
       "url": "data/872f4e1d72ea4215.json.gz",
       "forms": 85,
-      "bytes": 3944,
-      "sha256": "a79dd5f745ab05dbab1dcac1f48ff1a6be0f009a3635b538995821703f70139b"
+      "bytes": 3928,
+      "sha256": "f9658d57574b32f1b2ad0f794edaa253ada38cb9f0f7630d367e2bd16985e61a"
     },
     "Momuna": {
       "url": "data/1b24ee45960d5b39.json.gz",
       "forms": 34,
-      "bytes": 1939,
-      "sha256": "2526a651d0d065b51386fd72c34be827021cc258f75205e6631a83207276042d"
+      "bytes": 1936,
+      "sha256": "4673e2492e6104f58974bc2aee3ce714e367bc2fa272b8eb044e56ad5c1adf3b"
     },
     "Mongolic": {
       "url": "data/217e73e5ea24fe86.json.gz",
       "forms": 299,
       "bytes": 16483,
-      "sha256": "066eb943b97eff1c707316deaa7118cf4e39e866f12169e746c94605d8499c5e"
+      "sha256": "066058d1ce70202c1ebf26a64743eeb36a4a5f9269d23b77d35a17466d25154e"
     },
     "Mongolic-Khitan": {
       "url": "data/dc15784b2c45ec59.json.gz",
       "forms": 6968,
-      "bytes": 365601,
-      "sha256": "d59e76c73fc9449f6d9a71da070861aa6ffaa1748e1ae2d29ed5be33fd03e562"
+      "bytes": 365594,
+      "sha256": "e896405dfefa01f456ac219d75994492dee57630a08d25f3a1f022ad3679c854"
     },
     "Mor (Bomberai Peninsula)": {
       "url": "data/ffc9a3b713e51270.json.gz",
       "forms": 40,
-      "bytes": 2242,
-      "sha256": "aedaca5c03d72a9c3d4fb21f17216160547b9e9dd10645db801879d9183f2161"
+      "bytes": 2240,
+      "sha256": "9bae2cf5ed5bbae13782aa6ce8996554e106d8be84ddf260b521201110ce30a4"
     },
     "Mosetén-Chimané": {
       "url": "data/f2c50c8d5bd8a342.json.gz",
       "forms": 1023,
-      "bytes": 63956,
-      "sha256": "f904579e4817aa83ed933c13e09e80a431a8b32342c92db900bf9bd033101c9b"
+      "bytes": 63962,
+      "sha256": "d8d10a3807f29410cfeeb60d8e9ecd33482d786bf0d5102589f92df0e271f6cc"
     },
     "Movima": {
       "url": "data/4d650c22fe4af78d.json.gz",
       "forms": 320,
-      "bytes": 18912,
-      "sha256": "909644dfb67a5954cd60c9b9d3d163d202fbb317ac379060317677199ce6e076"
+      "bytes": 18931,
+      "sha256": "94a343173b9b1dd6ba614dac9a70cb8e18f16de78a7d431d9b310a247e861dca"
     },
     "Mpur": {
       "url": "data/95f30ec331c8bafd.json.gz",
       "forms": 214,
-      "bytes": 9773,
-      "sha256": "06af5fc656743fdd5ecf570810f6ba467c5790f985428d87eefab775edeae8e8"
+      "bytes": 9763,
+      "sha256": "f4b1c67801cdfedc2ef79a2713f6620a2092c5e456e2c73f511dec05111959db"
     },
     "Muniche": {
       "url": "data/be82120802f6e203.json.gz",
       "forms": 246,
-      "bytes": 11338,
-      "sha256": "233c0ee5b05b281ef2663070dc976a3b7656a2e5a9cc5e6020a24ff1631e86ca"
+      "bytes": 11346,
+      "sha256": "1b3df52e776dd5a234f7ed2c8ce3f8f7ae65a2ff3b113f3082d8779a9cc13e38"
     },
     "Muno": {
       "url": "data/0354d2566d8655c9.json.gz",
       "forms": 30,
-      "bytes": 2138,
-      "sha256": "30d98ca89aafc2a17efab7e032a961c3d166b80fe075ee28116c0b1aaf9031b3"
+      "bytes": 2133,
+      "sha256": "3096f3fa5703c76ad2e3f9d8227d0d478ba5439b64f9fcb2c79eb9ad508e6849"
     },
     "Muskogean": {
       "url": "data/c7f3a508f1390cfe.json.gz",
       "forms": 614,
-      "bytes": 32772,
-      "sha256": "81de31c845fd4eb493fcc29e920c66d822d5708a95a04ed20f2e5a1e6864a72d"
+      "bytes": 32800,
+      "sha256": "63c5eb167150327ce6255d1184bc5995090126b9317a775671d3490e21dd59df"
     },
     "Máku": {
       "url": "data/24c9b9d9598adb36.json.gz",
       "forms": 112,
-      "bytes": 6630,
-      "sha256": "71ef8a32be01488b1618bba7f0cca4909f2242e03e78ed52c4bb585538d4ceaa"
+      "bytes": 6639,
+      "sha256": "4138b27ba150422af85ac959afae825a80a44b269765d241df862767f1246ce8"
     },
     "Naduhup": {
       "url": "data/36e97cd90e9eeb24.json.gz",
       "forms": 1047,
-      "bytes": 61885,
-      "sha256": "86674afe7bf61e840a52343c1b56a88fe870d412d3f84b76ded69fd9aa1773d9"
+      "bytes": 61878,
+      "sha256": "915ed22d0aa72dbbcbfc6944b3e4f5a3a54efd657f51d4926cf07b65c47ece16"
     },
     "Nakh-Daghestanian": {
       "url": "data/37a0a6e9a845b5de.json.gz",
       "forms": 127423,
-      "bytes": 6366574,
-      "sha256": "59c8397fe5afcb1366eb20fc12697010e786cf6abb06a2c6001aa0527311b0df"
+      "bytes": 6366260,
+      "sha256": "d05861337d0d728e3675e22bca74913df116f9dc69c9bf60b6cf9643efdce86c"
     },
     "Nambiquaran": {
       "url": "data/298822857c8f0cf2.json.gz",
       "forms": 703,
-      "bytes": 32720,
-      "sha256": "0886a7ee30bc35ae7fa86b38f8f30888398e37ff3446cbdd3b893aa69ae754a9"
+      "bytes": 32709,
+      "sha256": "c1b61e1c86054bcb919aad2ed1abe082c3e6a844d8433a19f6437279cbb9da7d"
     },
     "Namla-Tofanma": {
       "url": "data/55578e32cdcc2a07.json.gz",
       "forms": 119,
-      "bytes": 5739,
-      "sha256": "d2a9f13919bd8d744b320f0459a1a634ca3864501daa54867bc89fd480d7e425"
+      "bytes": 5742,
+      "sha256": "87cd06c6a68846c5a63c7f2123089af95e7c3f11c58bed82c4ed81f4d10566f9"
     },
     "Nara": {
       "url": "data/e90153ba22304573.json.gz",
       "forms": 224,
-      "bytes": 10657,
-      "sha256": "1264c57e2e334c3cc2a584fa3062d469d053fbeda74b3c966e9725d90620a196"
+      "bytes": 10667,
+      "sha256": "121b6f7b404a13e879a9124f4f9282d97a16273810452eee16c501f44b1bbfa9"
     },
     "Narrow Talodi": {
       "url": "data/3e4e896a32c00b30.json.gz",
       "forms": 213,
-      "bytes": 10871,
-      "sha256": "8fc4116215fa9564f196707367ae50eb694dccf225596d24d928a2b13612c446"
+      "bytes": 10872,
+      "sha256": "10a56f1ab0f1d68d0f16c402d9d86ec443c2c47d1309903f40ca89f221feefab"
     },
     "Natchez": {
       "url": "data/63fd26c9fdd0edcc.json.gz",
       "forms": 308,
       "bytes": 14757,
-      "sha256": "1bcf5ba915465ed72abcb3686a82fc0c3e6d86c300c960064e4766721618a035"
+      "sha256": "dfba2783c83796bb703ad9c77e1b648bf1aa390dbcda87d30db108af5e99b8c0"
     },
     "Ndu": {
       "url": "data/fee218486e2ba13f.json.gz",
       "forms": 1396,
-      "bytes": 67606,
-      "sha256": "0f4a1319b6a15496baef9248d7782152ba73a394a606d902bc4c1a46d15ca3e6"
+      "bytes": 67615,
+      "sha256": "8e226cc11a157368dc430372f4b8c40f24f1ceb8bcaaae04909a10f6ec90a147"
     },
     "Nihali": {
       "url": "data/95144bba35d1c9ac.json.gz",
       "forms": 210,
-      "bytes": 10621,
-      "sha256": "777abce42a04fd5fa082a630f7d0e244d2b8930d0c5a7a7fe372de8d24626188"
+      "bytes": 10618,
+      "sha256": "9d788c12e38a7149bdfb908e0db177330fe8a87ceb7f6e8801649723d8a34cf9"
     },
     "Nilotic": {
       "url": "data/a0e1d797fb95db53.json.gz",
       "forms": 2167,
-      "bytes": 110596,
-      "sha256": "afefc375116315e1923cb98609f0982b417a5932e7821d4eb0f37865815f41e3"
+      "bytes": 110600,
+      "sha256": "db6fbf136b5671a5bbf26825c044b1f630ccc0e79589710d6fb7cb7baabceade"
     },
     "Nimboranic": {
       "url": "data/a85b3eeaa2bac387.json.gz",
       "forms": 356,
-      "bytes": 15535,
-      "sha256": "2c4009318ab12c25138e0afc5ad8bf9e9546ac2f57b988c6af39209da7ab220e"
+      "bytes": 15568,
+      "sha256": "05f14d7d8bd42b013fe648ace490d20127981b226453c5b0055f42001e2c04d4"
     },
     "Nivkh": {
       "url": "data/ec7aa25c3a88c0a3.json.gz",
       "forms": 982,
-      "bytes": 44620,
-      "sha256": "874083b160cea42f6a19d9c37b8bc7b75e3f25a8f9393d6eaa0eb35fe1664efa"
+      "bytes": 44609,
+      "sha256": "48047ca7c56a71e34600af7202bbe573574ae03c3de5154c74ec0b8e6569210c"
     },
     "North Bougainville": {
       "url": "data/c1533f119b7ab48c.json.gz",
       "forms": 366,
-      "bytes": 18036,
-      "sha256": "caa82e90bdbbacda9daf628c061ead0b6c1288e7f201ff653f57ba2bf3359986"
+      "bytes": 18042,
+      "sha256": "fcc9920485c7d25bb6522b0b3142984a08539d0aba9e40bb65d2200d6990370e"
     },
     "North Halmahera": {
       "url": "data/41c69f0ad6725ac8.json.gz",
       "forms": 1084,
-      "bytes": 53026,
-      "sha256": "2e17023b3113052d7b2260a7a3be19d47114eac25d08b670f910b2351a35cbbc"
+      "bytes": 53008,
+      "sha256": "8b9dc1c910dc7ecef7f7cc7d2d2bbfc800b69d0b92eae7a05681793ef8ccae00"
     },
     "North-Eastern Tasmanian": {
       "url": "data/f31397d736a3d96b.json.gz",
       "forms": 1529,
-      "bytes": 55079,
-      "sha256": "2946e64509e6e9dbedb2f132e7525f2c005169bcffc8db6e4ed987dc3352a422"
+      "bytes": 55076,
+      "sha256": "8d9bf8fe0da198d8ed43823af54d5dd591996b4863c6451c3d4b5c34ee4690db"
     },
     "Nubian": {
       "url": "data/d9471aaea2af3265.json.gz",
       "forms": 2081,
-      "bytes": 85613,
-      "sha256": "136619a96d196ad6538767f7cb409a4a534425a17aa8d06040427a290fa46c6a"
+      "bytes": 85608,
+      "sha256": "7bbe97d036e72bb48667bdabe6d47db1f747c6f2350b6822cba7bfe4267e0fc8"
     },
     "Nuclear Torricelli": {
       "url": "data/09b438f1ca314b8f.json.gz",
       "forms": 2675,
-      "bytes": 133255,
-      "sha256": "0f78c2873779aa39caac1e8d770c784b6473344577580d4fc2b3ac420d418a5f"
+      "bytes": 133243,
+      "sha256": "0c4426d81ad4b998f60c9b77f6e488a9b91fc4eee1dbb395014d57fa1e90c296"
     },
     "Nuclear Trans New Guinea": {
       "url": "data/9ed2d3113f8dc361.json.gz",
       "forms": 82312,
-      "bytes": 4048227,
-      "sha256": "c72bb00a7efd9384a1d9f6fb36db5888e600559d7ee56fc33558935421cf041c"
+      "bytes": 4048314,
+      "sha256": "6ce10dfb1d43af3d3e0939b5a2ec685d7920a47f0a38daaed1e0d392477453ac"
     },
     "Nuclear-Macro-Je": {
       "url": "data/873d62c9ec4be884.json.gz",
       "forms": 3033,
-      "bytes": 154143,
-      "sha256": "8c5a12ab02ce24f507e876fafdab3d47f092418b333c4e8e1968dd5a286087b6"
+      "bytes": 154220,
+      "sha256": "df4ecb0725d882e9662aad752c2d826b6221c00e9a4f4c1d16b9bd23e772d79f"
     },
     "Nyimang": {
       "url": "data/03d1b09d14b9389c.json.gz",
       "forms": 90,
-      "bytes": 4916,
-      "sha256": "a42d7d09ba33399f35856e86ccf02f2ccbf9ab51b78d4e29568585b5259d6525"
+      "bytes": 4920,
+      "sha256": "0215a7f7cded47c2fc4c9258291a31660df7918f2e5de893e64ff70bac8ab77a"
     },
     "Nyulnyulan": {
       "url": "data/c1d00abbf1c4e6e7.json.gz",
       "forms": 2521,
-      "bytes": 131409,
-      "sha256": "c6701b377eaa459388ac72e422bd9ee216f4df5e7a9506fab93cbba07deffe96"
+      "bytes": 131381,
+      "sha256": "214e0974ec18d0a4da4e3bbd3f667913ee0a3a0e2e5e28f1e8c6635e7ab10f0d"
     },
     "Odiai": {
       "url": "data/513c187567c371c8.json.gz",
       "forms": 88,
-      "bytes": 4706,
-      "sha256": "251b762883a61fe7a8f400874a30bcf062fee3de60ada9029fc9febfa1292c7d"
+      "bytes": 4694,
+      "sha256": "9c6ba190b801fd0a47f89720d9069c19e0b6b0e105ee3192a35990465fc75c3b"
     },
     "Omurano": {
       "url": "data/cfaac11dc75d46c8.json.gz",
       "forms": 60,
-      "bytes": 4526,
-      "sha256": "43a3def6449479f2fd85da17b631d7a992797366003949baa007a021a387ba70"
+      "bytes": 4525,
+      "sha256": "9747616d2c6b450201219eb0b2f1cf3f8625f681545a3a059bf60c39860c3532"
     },
     "Ongota": {
       "url": "data/5b790c2f626ac699.json.gz",
       "forms": 247,
-      "bytes": 11478,
-      "sha256": "dfee089a63b90b2e12616f160cbff8fbf5c4440c22eb1afa02343127b454058d"
+      "bytes": 11483,
+      "sha256": "938392daea300843c7cca1d3d3ddbd545771cc8eaf514f9a9c90dde55aa04063"
     },
     "Otomanguean": {
       "url": "data/9a2787a9bf3b19ea.json.gz",
       "forms": 19985,
-      "bytes": 1150208,
-      "sha256": "3f69cef164d0d9284814c36e7258fdbbf40b35860e33224926438a42f485674a"
+      "bytes": 1150276,
+      "sha256": "446eb553e4ee12b37b29bfbf25d8c30997fa8e9c0ca760de33c0ddf105d9267d"
     },
     "Oyster Bay-Big River-Little Swanport": {
       "url": "data/806183708e4b6385.json.gz",
       "forms": 1891,
       "bytes": 69004,
-      "sha256": "94da35e750415db72af3b0f2ae1e255ebbb50367c87ffaf20fa2a6862cca3e60"
+      "sha256": "8111bf68326ec52e02bc063e4baf93340cb8c59733bea488c9895e4a92ee80f2"
     },
     "Pahoturi": {
       "url": "data/4646c9c6deadeae4.json.gz",
       "forms": 2778,
-      "bytes": 118706,
-      "sha256": "b9936b5294145a89994d1d6104c60d84f4a4ad2c125e120f3aabef4047cc32cf"
+      "bytes": 118694,
+      "sha256": "d45b7b4759272b9ccebd405474104f932c63970d144a05550123332c74c9dbd0"
     },
     "Palaihnihan": {
       "url": "data/31974c7f11cd1fb3.json.gz",
       "forms": 378,
-      "bytes": 19028,
-      "sha256": "6488339ad4cac5335533ac228fc9ee7340cda9405f1a2915c26ea032724941d9"
+      "bytes": 19020,
+      "sha256": "581f9b11ad38e48419cbe13f567b1f2c56dc35da6302dfa98c2ddae0ca29e5a0"
     },
     "Pama-Nyungan": {
       "url": "data/79b9f2a581179760.json.gz",
       "forms": 45356,
-      "bytes": 2710410,
-      "sha256": "d8c89aabff6d7409bbc0729c36e80574324f32550d3d51b4349cda1a280ba747"
+      "bytes": 2710289,
+      "sha256": "f70d714efe1b42e0285f74b905862c08c84a5729c613470c1dd751cd706774a1"
     },
     "Pano-Tacanan": {
       "url": "data/df8fbde2291c2fb9.json.gz",
-      "forms": 10909,
-      "bytes": 621712,
-      "sha256": "7b20781dd649bb3eeb3ef67fa71aca37b05ac87558c286f9bf1b8b8de9ec92f2"
+      "forms": 10989,
+      "bytes": 627316,
+      "sha256": "a157cac060fce16460e7a09f4addd6293d3f91378c58ba2c0f9b7669f31057e3"
     },
     "Papi": {
       "url": "data/6be376803ca76779.json.gz",
       "forms": 107,
-      "bytes": 5954,
-      "sha256": "2d8087df1751e21f5a773fe5145fbfbfa6d9b3175a23897b12268ab7bf33be62"
+      "bytes": 5953,
+      "sha256": "d243dc877f9b152e657326e685844ca3e99e0eef3f8b08415f7dce23e46fb527"
     },
     "Pauwasi": {
       "url": "data/e0f1c4eb98a3c492.json.gz",
       "forms": 464,
-      "bytes": 22111,
-      "sha256": "4fdffd7eac3df861322273a712cd55d507929f648304af23106401f80115ff57"
+      "bytes": 22127,
+      "sha256": "bb757321ec3b3c3e43a352efa03c84f1b88806b7694d72c27504da45550d7d1f"
     },
     "Pawaia": {
       "url": "data/a63b37da6175f1d6.json.gz",
       "forms": 294,
-      "bytes": 14787,
-      "sha256": "4b4782f98facc00e43d25701c13d8d56bf977daf6434291ad27da90340e2a1e0"
+      "bytes": 14781,
+      "sha256": "318b32aabc5f3beb4dcde0fb77edd8e0f9d63763163a1b39e0fac696cbbf8585"
     },
     "Peba-Yagua": {
       "url": "data/726d9975151d37c7.json.gz",
       "forms": 487,
-      "bytes": 30399,
-      "sha256": "40c94468f0af5254ecdeb4160f80b9d01b2e205d15190ec588063aea4ef4a9e9"
+      "bytes": 30396,
+      "sha256": "863f103348f4db22c784d39adac40d20e88ea3045ef6c8eca13852a6ac103c87"
     },
     "Pele-Ata": {
       "url": "data/425fcc83af809c20.json.gz",
       "forms": 291,
-      "bytes": 13550,
-      "sha256": "846661b3906c60cd401a27ebe31ccaf484ecd4cff69d8648d447c0fac0fbf146"
+      "bytes": 13573,
+      "sha256": "25f2396750c545053ede1b22a64075f048b9690c320f1bff0fd97442f9e90afb"
     },
     "Piawi": {
       "url": "data/9796fb17bdfdb274.json.gz",
       "forms": 623,
-      "bytes": 33675,
-      "sha256": "686d29e8378681af90c67c427ead5e139817cd41dd9b7a312b8d8b260757d11c"
+      "bytes": 33670,
+      "sha256": "30eca3dc8e8db4906c541ed603dde3d85aa90d074f242a1e91fecdd9b773a37e"
     },
     "Pidgin": {
       "url": "data/8587fa3cfd777fef.json.gz",
       "forms": 166,
-      "bytes": 9596,
-      "sha256": "a8956f9d28429d5a76d910b682102368d9b51118331aef7f5c5af9573ef7ceb2"
+      "bytes": 9618,
+      "sha256": "9b02705a60795b457a17c3d75046be57e9a4f5c7abacbf4951851a3fafd0bc07"
     },
     "Pirahã": {
       "url": "data/18daa96a7c30db57.json.gz",
       "forms": 215,
-      "bytes": 9854,
-      "sha256": "30ce1487fc6ff309fa9fd9a81253db3f5e13566496addaaec2455f56b6412188"
+      "bytes": 9870,
+      "sha256": "aa35acbe209f387a6ac9d53abe8ec29ae48df081161db527f80f879c071756a1"
     },
     "Pomoan": {
       "url": "data/ed4c9eca1662f268.json.gz",
       "forms": 360,
-      "bytes": 18032,
-      "sha256": "698917e51977191c7dca90439b8f403e04c6fe262b3e7580f9bcaf559ea42b0f"
+      "bytes": 18041,
+      "sha256": "e244a633ff477c9eb461ce2d6fdc6bc9ef797c6e1c393eaf9a169ce95d518b00"
     },
     "Puelche": {
       "url": "data/2dc0b97b507526f9.json.gz",
       "forms": 298,
-      "bytes": 13861,
-      "sha256": "44ff423ef6b6989499215b3ce3aaac5c00a4056279bc80f0c9aaab33ef2b2855"
+      "bytes": 13862,
+      "sha256": "589c0f94a57993e2882a398258c92ca6a6a1c4d250c0741ad90bf05e66ca2055"
     },
     "Puinave": {
       "url": "data/ef2333e7f04fa559.json.gz",
-      "forms": 283,
-      "bytes": 17776,
-      "sha256": "581377dc664d81b15b3caa47b9a3106fd969f50552f030cb592aa829b5e995f4"
+      "forms": 346,
+      "bytes": 21399,
+      "sha256": "0ab66e749c0fe3df421c9e01cbf4390cc63a01da45fb3ed8af24d448a8e136ce"
     },
     "Pumé": {
       "url": "data/d275ba3a2a27b27a.json.gz",
       "forms": 312,
-      "bytes": 20232,
-      "sha256": "807c735b85e8ef6ee7a8c3e72b5334b76e6ca6feacedff497687a752a669e31d"
+      "bytes": 20223,
+      "sha256": "af7be47eb2174aceb58de44d75e5c8a99158d9e5a4f9e7c13fa51c8046aee917"
     },
     "Purari": {
       "url": "data/8d39e73f4184c510.json.gz",
       "forms": 100,
-      "bytes": 4994,
-      "sha256": "59578d3541609b97e57ea7a93a11cc999fad92a7878ca57b404469c269e1fae7"
+      "bytes": 5009,
+      "sha256": "27a31ba8fe44dae84a5471d2f76952f2b6121c22a6710c032f3a3707159e6b41"
     },
     "Puri-Coroado": {
       "url": "data/64029f2f61841566.json.gz",
       "forms": 31,
-      "bytes": 2193,
-      "sha256": "8fae7083cddc4a637129aa62c257093f51b4f3ed02754b9a6cab5ed74c2a22e5"
+      "bytes": 2198,
+      "sha256": "292b3f51bfab1e06ce7e8facfc0ee32938165524693d818e1dc7eb937bafd048"
     },
     "Pyu": {
       "url": "data/71a6fbde50b0299a.json.gz",
       "forms": 136,
-      "bytes": 7052,
-      "sha256": "713c4a416831c567497c0e383bf6420101ad4f8d9dbe0379f86962103b97afa0"
+      "bytes": 7049,
+      "sha256": "26cabe3b9339f3dcfe104054876a0f454c58a00037a1fd7ed934b4ad6ccbe324"
     },
     "Páez": {
       "url": "data/1e46175cf781b908.json.gz",
       "forms": 336,
-      "bytes": 20235,
-      "sha256": "04f0df622f277274ee11b91bb331cc5ac6db2830f91964c97f59e6f1a3187116"
+      "bytes": 20253,
+      "sha256": "0c5541566ae681528a02649f2b4410f99bd4a1e78ab134269927ee01c366d80c"
     },
     "Quechua": {
       "url": "data/a57db7b827fd7716.json.gz",
       "forms": 147,
       "bytes": 9134,
-      "sha256": "ccb781139fc1b68c7cd600d9a77a6ee40e1a38a2c296c55507d2e0c9954eb19c"
+      "sha256": "d9d0a70dcd9d8631cea97094499c6db30434263271259014afb4088faf63779b"
     },
     "Quechuan": {
       "url": "data/c4e31751841c3ca4.json.gz",
       "forms": 7801,
-      "bytes": 430820,
-      "sha256": "fb5b45a10f004115de77b18f6676fc057ad343ee20079bf7eef8733141a6565d"
+      "bytes": 430827,
+      "sha256": "9e9066b1f36dd3fb61e4b1008f7deff22134653fe7d7cb21ce567c058e9429d7"
     },
     "Ramu": {
       "url": "data/be49833dedc8e451.json.gz",
       "forms": 1196,
-      "bytes": 63262,
-      "sha256": "51ce24a5481b370915c89803573e66bb8d1aaf6a61089202e46ae681f59ccd7d"
+      "bytes": 63215,
+      "sha256": "0a3eb212ce1b58164c9f2dbc7e1e9b7d12bd65f952213195b06dea49ab8047d9"
     },
     "Rashad": {
       "url": "data/22b85bc438bb9278.json.gz",
       "forms": 57,
-      "bytes": 3379,
-      "sha256": "d3510e8136a6525f3a26c3414472226ec6e496d0ac1dc28299e6b20dd3d804e5"
+      "bytes": 3378,
+      "sha256": "db7652f066b565ec45c4d0338a3674afd32e43fdc9c1b69801e260c2e6733acb"
     },
     "Sahaptian": {
       "url": "data/440008687e2ee9a1.json.gz",
       "forms": 627,
-      "bytes": 32215,
-      "sha256": "97c9815bdef54a04ca5cf9ad96136748f6fbe10b43432ed1d7897a6cf957c65e"
+      "bytes": 32238,
+      "sha256": "b222aa9631545db860fd7ca159bb3a07631e0ba35e55163f733ed00104b9329e"
     },
     "Saharan": {
       "url": "data/222c81f1bafc0a3d.json.gz",
       "forms": 1949,
-      "bytes": 98623,
-      "sha256": "9a39667628fbbba48f16e3c1f3d3096a13b9405fc92c201fb8b471ef2d7bdc37"
+      "bytes": 98653,
+      "sha256": "54bd643581c8f65b468e96e8ae5d751a88f4ddb302a134f74080f1a33b3f1484"
     },
     "Saliban": {
       "url": "data/02df85685c997518.json.gz",
       "forms": 650,
-      "bytes": 39898,
-      "sha256": "77862e25495414d32ca884014124b4af64786b3f30de6f46efb57c5aa3480583"
+      "bytes": 39907,
+      "sha256": "f98dad10dca68a72b6489a32c1309cc55ae0a04893f87602bc5d75f2a3fea59b"
     },
     "Salinan": {
       "url": "data/69471bb16b922d5f.json.gz",
       "forms": 665,
-      "bytes": 37665,
-      "sha256": "8d078e76c21b9df2c88a714209b12f57a89aba4225da1e14defa1c40890c5010"
+      "bytes": 37666,
+      "sha256": "96fd7c755afaeaf7837e35d307c8a0a9939c66ccee5aebf6ba9010cd0f16c182"
     },
     "Salishan": {
       "url": "data/ecf940ad5983d80a.json.gz",
       "forms": 3610,
-      "bytes": 174961,
-      "sha256": "6b4bb89ee310cc186ac36a6de818d387fb8fa9ea2c31bf0e66d8892bd0d3a74c"
+      "bytes": 174970,
+      "sha256": "2da4d60a704b26a9320c45e7056a04106e4b94c4a6553b192df6330ae37e322f"
     },
     "Sandawe": {
       "url": "data/26bdf28eb0a95bec.json.gz",
       "forms": 276,
-      "bytes": 13181,
-      "sha256": "d32c1f7e74383317e04e61eb9a9d640354380c50e884f5b5e85b6f9a83863794"
+      "bytes": 13201,
+      "sha256": "76b514ae5ce2552f2f5408fa54d107ba313350b6d6780028a4e95e897330e895"
     },
     "Sapé": {
       "url": "data/9cd85bda531afa83.json.gz",
       "forms": 78,
-      "bytes": 4177,
-      "sha256": "7b84d59784ccd0759be9e416df8da905de9b77cb6486ddb178406a9f81790f3c"
+      "bytes": 4167,
+      "sha256": "7e094a49b70d24773bb117e9b57faf5d95844a161a032dc595d61994ac17a3f8"
     },
     "Sause": {
       "url": "data/e30f0a17b0d4c7a2.json.gz",
       "forms": 23,
-      "bytes": 1348,
-      "sha256": "3d0eb565937bd97a82a4ebf3a8ee6aa64683ab215e759dd8b3c58974a607e997"
+      "bytes": 1353,
+      "sha256": "58d8aed6027fd466bd7dba475f21cff8f4a6237d11d12c110a9a9178ae6c1adc"
     },
     "Savosavo": {
       "url": "data/d982807ad3112037.json.gz",
       "forms": 244,
-      "bytes": 13057,
-      "sha256": "f493bad2cf51cc5c2f67102ff623485afbe61c7efefec12ccf9bbdade7bbcd18"
+      "bytes": 13055,
+      "sha256": "ee0d73ee21fdc3a1f170171b35ae75e1b0b94f5f74eff92c96c9f0bc92cadc9c"
     },
     "Senagi": {
       "url": "data/0c3307a350bcc0e2.json.gz",
       "forms": 256,
-      "bytes": 12820,
-      "sha256": "e0dc12133617259058aa576a1526f1fbe2c194c287aaf22688e733a9932f2e19"
+      "bytes": 12816,
+      "sha256": "1aee58dcd6ed85a6778211f325895c8be1f72587a41ded58028cdc9dadf5859a"
     },
     "Sentanic": {
       "url": "data/3434b7084c8c96c0.json.gz",
       "forms": 514,
-      "bytes": 22241,
-      "sha256": "571954ee09ebfe9e34fbaf4a7bcde9b947d26d335b6c3d32c49d083ce86347bb"
+      "bytes": 22247,
+      "sha256": "ce7c69216629b28a70851c729da35d52784fbf8659da652c063a686719fb2603"
     },
     "Sepik": {
       "url": "data/d63d4c59a06c1deb.json.gz",
       "forms": 2626,
-      "bytes": 129200,
-      "sha256": "5c181a2e5a40dd4939f177c8e64480d3ddf9ea1eb86b82578817fb761cba19ec"
+      "bytes": 129152,
+      "sha256": "85e4b73ca3dfcef1e987cf8df354db57ec1b6e82f24dd36bfc11d75abbecabb4"
     },
     "Seri": {
       "url": "data/73fc1e6b33e41145.json.gz",
       "forms": 1290,
-      "bytes": 59112,
-      "sha256": "8ebb884ba933c5cea25805a35704b2fd34fc23dda63af05e2ffd4f8bab71e1cd"
+      "bytes": 59118,
+      "sha256": "8f35c9389b710c767a0950432be532a75e2d7c200f100b0f5765149a00caa83b"
     },
     "Shabo": {
       "url": "data/a36ac1b57e8e9de4.json.gz",
       "forms": 50,
-      "bytes": 2992,
-      "sha256": "ce4951bed792c1d47c1de38594f8480b66bd6271a4b68b3ad1dcebf45da375d7"
+      "bytes": 2985,
+      "sha256": "b3453e95c27da96ca113d72f2b8f1a425bb833c9a5f356bf1c5c201276e95584"
     },
     "Shastan": {
       "url": "data/d855c69ce58f9cc9.json.gz",
       "forms": 127,
-      "bytes": 6220,
-      "sha256": "8d2c60ff442433cb85789a9d72f7c7a14fcafd8234cf945a2d3fb3fdd0206afb"
+      "bytes": 6214,
+      "sha256": "95a48db977f1e9cdb4a235b122a1ae62d133955519fcb1b85da2ff205fe1c040"
     },
     "Shom Peng": {
       "url": "data/977a56e0f1f36d48.json.gz",
       "forms": 223,
-      "bytes": 10667,
-      "sha256": "dd1469c9e19001f738f935f7dc311beba75821d812c54d572bbbfd3630374ae1"
+      "bytes": 10666,
+      "sha256": "d52106e7d443851ac95565583db1ac7da7d4c688f38783378c3105ff628160f5"
     },
     "Siamou": {
       "url": "data/5a8b2c7d71904c72.json.gz",
       "forms": 32,
-      "bytes": 2067,
-      "sha256": "9cf6cc90e952aba3e5729890720623720eb81d013f66503d26e6ef6c79ab798b"
+      "bytes": 2065,
+      "sha256": "1854dce06350920cd19c283cd82a5929b416f6d04677964c38958fa5af3bc4e4"
     },
     "Sign Language": {
       "url": "data/6741e6ac0f599dbc.json.gz",
       "forms": 149,
-      "bytes": 10170,
-      "sha256": "440e2408fcc535a85e167e343ab2ab0cf49e27d88c03d4d87a891af0d01af7c9"
+      "bytes": 10171,
+      "sha256": "6d4ec9fcb6f2e66a3ead263dfc008c647b5d9f1196efaa5b90deb0bdba4eb2b4"
     },
     "Sino-Tibetan": {
       "url": "data/0389174d622b025f.json.gz",
-      "forms": 192922,
-      "bytes": 9577232,
-      "sha256": "d2fa5bc25f0315d1deab4762efe6da0cf8aa5d04c4730bbf521692a0220a1c91"
+      "forms": 193021,
+      "bytes": 9595580,
+      "sha256": "0461bddb416412542c7f078910ebd5814b68040167f20271e437750d6a867f81"
     },
     "Siouan": {
       "url": "data/6989a91746da4686.json.gz",
       "forms": 977,
-      "bytes": 48036,
-      "sha256": "27d5ccd4d15292516783baf16d9e9550282e216a5dcdaab10d03454faed461f6"
+      "bytes": 48044,
+      "sha256": "356b64f05b9a7a3745af0c44674b97b7bfeb2836fccc48970b79453473ba6cf1"
     },
     "Siuslaw": {
       "url": "data/4689b1fe7a08d564.json.gz",
       "forms": 49,
-      "bytes": 3170,
-      "sha256": "8cfddd77708021db73dc87d1bda02d18a1977071e6f458585cf652c28ef88035"
+      "bytes": 3167,
+      "sha256": "c2aa7707113827278c75548bfa19d6e6fb9d601781f005219cf13f67e9e17936"
     },
     "Sko": {
       "url": "data/0ecc594965ac0eef.json.gz",
       "forms": 674,
-      "bytes": 31541,
-      "sha256": "170616d5b78c52ffce745842e773bb86e36d01e83580ad22645d5e33f30b8db3"
+      "bytes": 31532,
+      "sha256": "c5739c5e75fb42149022216ab57ab0e85432094784a1903fda5b22fb4d382ad9"
     },
     "Songhay": {
       "url": "data/c4075b3cc0542078.json.gz",
       "forms": 1177,
-      "bytes": 58838,
-      "sha256": "8b9b478c26448b38654301bfb1dc7e5508c0705d24f09743d9ab08717fd43961"
+      "bytes": 58840,
+      "sha256": "486843400e382ce887f9d321ea1cfd30fde9f40ed7c9d19787cc6a9279ec74f8"
     },
     "South Bird's Head": {
       "url": "data/e3aa67362908b15a.json.gz",
       "forms": 1974,
-      "bytes": 91745,
-      "sha256": "02b85b9a093a2222f6ab6522d951b469310b8976a3efcd337f198e674ad2c636"
+      "bytes": 91734,
+      "sha256": "ec1db806f08ce3caae5dc8f0892d15558255f931ee460daae0ac28d6b0421da1"
     },
     "South Bird's Head Family": {
       "url": "data/224e248cca595a71.json.gz",
       "forms": 70,
-      "bytes": 3189,
-      "sha256": "448c4fabf28b8e31677b2cce9e7efb3c1aa861a28eb14b33355f63059173d1e6"
+      "bytes": 3185,
+      "sha256": "40ad37d9fd9fedba8cfe684269bcda23cf23b141f3919d0ce93194671b96b3ff"
     },
     "South Bougainville": {
       "url": "data/8ad3ea2abf90ed86.json.gz",
       "forms": 402,
-      "bytes": 18913,
-      "sha256": "29308255046db82bd54320c8771a3dab4fcd8bb5fdcbf4cbbba2bb99b25dc0f6"
+      "bytes": 18921,
+      "sha256": "5e70f06f94d2b643f1178661acea7c63291a6b03ed319e40b1644ef5c2e10818"
     },
     "South Omotic": {
       "url": "data/f83030243a0f9666.json.gz",
       "forms": 481,
-      "bytes": 24174,
-      "sha256": "b25fcf04441155f366ae42100b62e2d8754bde14089cd71f5877160ec466c2fa"
+      "bytes": 24152,
+      "sha256": "a7bf015036b3485c34ff5d850639b993b6928175a20c6db22177bf25ca4413d6"
     },
     "South-Eastern Tasmanian": {
       "url": "data/5747a1b7e10b53ed.json.gz",
       "forms": 3899,
-      "bytes": 133835,
-      "sha256": "9f75563b8da851fea9fa3e12d0ae6ad6694192bc7e080c96ad0fa20809c70d9f"
+      "bytes": 133861,
+      "sha256": "de40d709e85a555a0975f8c6516645def5636e83e23c655e0423e356c7776ffd"
     },
     "Southern Daly": {
       "url": "data/cfe7beea70e12fb0.json.gz",
       "forms": 216,
-      "bytes": 10491,
-      "sha256": "60c110812502c5c8d0e11631fd573bc62df484bcc81624f8467b325c1e335d8c"
+      "bytes": 10493,
+      "sha256": "e7081784432ad607ef35dabd77a362f872351b1a08ac0a5b4645f9f7638cb272"
     },
     "Speech Register": {
       "url": "data/866afa4dbb4c3bcc.json.gz",
       "forms": 356,
-      "bytes": 16820,
-      "sha256": "eef040d1ecd7d11355c19d840790606fa5acfdd3aec9d9d5fe180d1b324c7630"
+      "bytes": 16834,
+      "sha256": "b8bda6221104a2ff2c20d1ae52ba43d74cc35a1b9f7654861925c8fbe7afa06e"
     },
     "Suki-Gogodala": {
       "url": "data/f63d67a8178e3ed4.json.gz",
       "forms": 336,
-      "bytes": 16659,
-      "sha256": "bb1c8bd286dfb1ca0eb19d4142a65ea1d5a0a8fe1012033ad562a3df9e416094"
+      "bytes": 16671,
+      "sha256": "5743b7acef2ee7422386ec6d1c673eb5b80dc3888cbf177829e6c7b5c2b8bb85"
     },
     "Sulka": {
       "url": "data/b3e319b5fab62026.json.gz",
       "forms": 165,
-      "bytes": 7849,
-      "sha256": "e852c586f3de669537362275c0d568fdf9b6c577dfaa27729f01d057bfd081c3"
+      "bytes": 7842,
+      "sha256": "892b45f3cf4721d853415d9714c2d6b78394b974c4591227c4b42fe378a04101"
     },
     "Sumerian": {
       "url": "data/3b5c11d774f823d0.json.gz",
       "forms": 245,
-      "bytes": 10992,
-      "sha256": "a29e4948ec59c5cee354deceebda22c6d84759514b1f4dafe0c6b094514d165a"
+      "bytes": 10975,
+      "sha256": "bc723a95813be53055663bf7483aea48fbc97ba7bc777649393e8d93718792d7"
     },
     "Surmic": {
       "url": "data/fefc8609ac3a0522.json.gz",
       "forms": 702,
-      "bytes": 34300,
-      "sha256": "36c65dcb206e5b070d81ba3e026f71366359bcce251a5ed08e89e06ce0c64ad8"
+      "bytes": 34309,
+      "sha256": "f48e21062fcf1a13e13631c00590b4d194bedac55abd42a5137c35ec1d3752f3"
     },
     "Ta-Ne-Omotic": {
       "url": "data/7d278d085ede471b.json.gz",
       "forms": 1398,
-      "bytes": 65212,
-      "sha256": "b20f2fdfa630c663c1164f278044a18d9ac89c7b7c3042624c2ec7a6c2836c91"
+      "bytes": 65197,
+      "sha256": "51fe9aa3219e7f0336af217bdb49723447130deefb99b5c198a0a5af14df7a94"
     },
     "Tabo": {
       "url": "data/cc6c2cd91a48f13f.json.gz",
       "forms": 171,
-      "bytes": 8817,
-      "sha256": "847fc274d8adb1cbb88587fcc6710c0a8e1ab82c62e1d0eed6b8849aeee7a843"
+      "bytes": 8824,
+      "sha256": "8342f7fd488cdf29be58cd29b7f8f9394f41b0aa9a5707310ebcf3a138356fdf"
     },
     "Tai-Kadai": {
       "url": "data/9fed3a25d4b10828.json.gz",
       "forms": 64656,
-      "bytes": 2843017,
-      "sha256": "77b09510208dff50c7e64e6d0259a8d491f37c710fc505006b7d6c883ef57ff6"
+      "bytes": 2843110,
+      "sha256": "070537da3a996e697c848da58933e6129ef7fd3a2c42a2f42809a4fad4f4a9f3"
     },
     "Taiap": {
       "url": "data/5ab9ee2d6b81d3d1.json.gz",
       "forms": 47,
-      "bytes": 3080,
-      "sha256": "bcee43cf51983cd8f23929d0e606004b6a996c26cd31a42786cbd469fc0130fe"
+      "bytes": 3087,
+      "sha256": "2d345af88e9849b12002ea5c6280db03c2e4d52517739125bd70e24d2c2eeae4"
     },
     "Takelma": {
       "url": "data/d4a342a1abd09847.json.gz",
       "forms": 260,
-      "bytes": 11702,
-      "sha256": "fdffd27fd28390add03c3ca39f56d809ddb1dcf96f87568b441eb6c7e061c629"
+      "bytes": 11707,
+      "sha256": "acbfd9dcfa9499d5ece023a5eb2b7070ebc95b252fd1ed2c490a0bea3ca0a976"
     },
     "Tamaic": {
       "url": "data/3df07ea746cf1dc6.json.gz",
       "forms": 60,
-      "bytes": 3375,
-      "sha256": "4bf44aefec7c90df483bc36014b3dff9bb7446de6c813896c3804109aa96d7dc"
+      "bytes": 3376,
+      "sha256": "06e8f6ea80aea50fadeb029535d1c8a2479f7e3b361e8a2dddd1dd162bcf9bf5"
     },
     "Tambora": {
       "url": "data/4dda3045111572ce.json.gz",
       "forms": 1,
-      "bytes": 292,
-      "sha256": "490370c7334b15e82de04f680455d83205198ab58b8a3edfc7e9e96830028adb"
+      "bytes": 293,
+      "sha256": "b635f11e67bc6f647c1d6a7554047a8922463edb1da2491503e586ca0be7dc96"
     },
     "Tanahmerah": {
       "url": "data/5591efc8d9be32a6.json.gz",
       "forms": 81,
-      "bytes": 3331,
-      "sha256": "584b68b2e9715695da8a7ddbc9e4041e56976f9c28c9f2731a00313a4f9642e4"
+      "bytes": 3329,
+      "sha256": "2cd1ccc68a9cf6b33e0c284e49f4575893a912f48ba794592a28c1fbde862301"
     },
     "Tangkic": {
       "url": "data/61bc21c2735b2419.json.gz",
       "forms": 342,
-      "bytes": 17235,
-      "sha256": "3d1da64d51e229ef99f4eac62e2a8bf799d11afd092036fe1d8c7d14f9268d06"
+      "bytes": 17236,
+      "sha256": "0f710c53f1cf07b349c98a9a84feac170c47558db89eb1571e439790744b7687"
     },
     "Tarascan": {
       "url": "data/d3dd8945e1e38760.json.gz",
       "forms": 320,
       "bytes": 16508,
-      "sha256": "6f2b6e247937f182ae7d3e2be967020f236699d70ee2a185fb43a3281c9430d4"
+      "sha256": "f211e5a5304e3e4b1c7d4fb6c396268c8328c518320a2d8983ec618decdffe41"
     },
     "Taruma": {
       "url": "data/52fd30c939f22102.json.gz",
       "forms": 1,
-      "bytes": 292,
-      "sha256": "92d74a0744af8258e96499512092d7a10642d810e058a3d4acdfb6d75c95339f"
+      "bytes": 291,
+      "sha256": "140a14319950c81e01a0ef0878cb25a52d0a6638d3bf88aa9eb1ce83964aded8"
     },
     "Tauade": {
       "url": "data/844a29718a68e28d.json.gz",
       "forms": 325,
-      "bytes": 16985,
-      "sha256": "97b9ee25b324b88e14598134bc7814e617849632ee9305d015b8ed70d6cb040f"
+      "bytes": 16997,
+      "sha256": "761fd92e068a32b7e901ec38fa2a83600c1a40e6e3a71d0d4ca41cace7ffaf61"
     },
     "Taulil-Butam": {
       "url": "data/8ee7d1ef9f765a16.json.gz",
       "forms": 39,
-      "bytes": 2630,
-      "sha256": "abca8c5981cbf61be4f932ab8628622d65c13f1ff62c7ddb6e3c4496a75aa7ed"
+      "bytes": 2632,
+      "sha256": "d35ab04a166361d66eeb99e6dfe428ed7cc671ddb6a2e4695e2d4224d2cf5b9e"
     },
     "Taushiro": {
       "url": "data/f81de714782acebf.json.gz",
       "forms": 245,
-      "bytes": 14311,
-      "sha256": "3471984b447c0a96d54b8ea5c12066b46fcd0b85904e830b803260996965d154"
+      "bytes": 14308,
+      "sha256": "535d53984a645157f8bfdb457d366f963dadbbde429993013376b1c93ae8fafd"
     },
     "Teberan": {
       "url": "data/8d83c912fa5cf513.json.gz",
       "forms": 806,
-      "bytes": 38859,
-      "sha256": "09a0bda0c27eb973b8d47f5fcf3220189efe9e028c6dea0c916f80ddda4634cc"
+      "bytes": 38844,
+      "sha256": "7093e47cccd666bcd02e1ada9fb60124e8bb4d403bcd050fd63747990e18912b"
     },
     "Tegem": {
       "url": "data/19801140763973b4.json.gz",
       "forms": 41,
-      "bytes": 2714,
-      "sha256": "3cc161c12eed87288f1c7b179fefadc9616f7dc7e1bb171748db38b850cfd9db"
+      "bytes": 2718,
+      "sha256": "126127d9cfefdeb91ef1fd1c7b3f40f936bc88450dfee6e0248de80a4fc0ebbb"
     },
     "Temeinic": {
       "url": "data/531a1a918fabf7f8.json.gz",
       "forms": 97,
-      "bytes": 5274,
-      "sha256": "7e92433ef6a795a5163b4012c5bd5caa424e8fa365796b1d7f1ebef19ad51d6d"
+      "bytes": 5285,
+      "sha256": "cd1a7491608ec0d0b6d48c039aa819e273516eec08fe37786efad472e0879fb5"
     },
     "Tequistlatecan": {
       "url": "data/1962909add06595d.json.gz",
       "forms": 321,
-      "bytes": 17113,
-      "sha256": "b5969714f61fdd751f7b6ca14a2f88ae4ecfadc33b65380d29ab8a303f856e36"
+      "bytes": 17129,
+      "sha256": "327dbfa8efc8cfb245e04439aa9541b2290df5042fc57e4b19776fd9a5fc9431"
     },
     "Ticuna-Yuri": {
       "url": "data/e333b557ec5f58f5.json.gz",
       "forms": 485,
-      "bytes": 31195,
-      "sha256": "0f4947697cb6a4ec9cf626f33551b32e2662dcc75253547d4a3087b24d2df965"
+      "bytes": 31199,
+      "sha256": "50b7fb6ff8b2c504b64b5c03cd214f9ba0d3978cd20baa5cfa94dc06906cdbd3"
     },
     "Timor-Alor-Pantar": {
       "url": "data/b3f87c6ad747ac1a.json.gz",
       "forms": 7847,
-      "bytes": 433104,
-      "sha256": "6fb2ead6419aa34f944b745275540d848ae4383e84634410fe997bdd4e7a14ff"
+      "bytes": 433097,
+      "sha256": "ec46fa84570c2eaa847ec24697a25e1b9605812631799ae5f774dfe666eb8d12"
     },
     "Timucua": {
       "url": "data/c388e30b63fbdbf0.json.gz",
       "forms": 274,
-      "bytes": 11690,
-      "sha256": "c428c92e513637e41c8fd00faa50c0584c5ec379a7d5f268a25a4702f8a02577"
+      "bytes": 11700,
+      "sha256": "e501bbfe3c3668d2b84f2f742f1707cc3e1aaf4a2d910e88a0056795edac1cba"
     },
     "Tinigua": {
       "url": "data/8d0149a862a4c0d7.json.gz",
       "forms": 23,
-      "bytes": 1577,
-      "sha256": "a3121f0752cc487c261aaed7a6094af0f9fc89b642b713e37781213b6bea8c02"
+      "bytes": 1573,
+      "sha256": "6cc5cfc5d6c03c0b1d3f03802a139fddbbb1286718b77f0bf37dcf3222d7945b"
     },
     "Tiwi": {
       "url": "data/c38cceb69dd895e1.json.gz",
       "forms": 321,
-      "bytes": 15672,
-      "sha256": "aa3086bc0fa62d625ed75cc924adca8cef37eef34e93eec65fbfc73467784dcd"
+      "bytes": 15666,
+      "sha256": "b8a52bb04b72c04d48c0e8076e41addc665983174258a96d32deb64b9aa292ac"
     },
     "Tonkawa": {
       "url": "data/b22c0104fa7907a9.json.gz",
       "forms": 34,
-      "bytes": 2484,
-      "sha256": "bac775616d9d7e583917559b38c01f96c9882fae680f0bf1f3528d90bd451562"
+      "bytes": 2483,
+      "sha256": "1c687c0eea2341ca59e060d45c958e25c4cab82a73c9d52818f34955045a7c12"
     },
     "Tor-Orya": {
       "url": "data/f9938a114111f081.json.gz",
       "forms": 931,
-      "bytes": 48772,
-      "sha256": "553f287b92421ac048cde1494b783f78e8e62592307778e956b3472c813f0a22"
+      "bytes": 48767,
+      "sha256": "0d283b2ea89869b55de357295ba7d47b0b2cc2287b53883a413f9813c148c10b"
     },
     "Totonacan": {
       "url": "data/707baa093b68501d.json.gz",
       "forms": 687,
-      "bytes": 36986,
-      "sha256": "76246ffff409a5d7cd334c6ec5ca0899dce396612340f8e27ec14b70231d0b86"
+      "bytes": 36994,
+      "sha256": "c83f8b3ce4784fdc40bbae70a880b2aaff79c23b7627c7f62a8a2eaa3cc08329"
     },
     "Touo": {
       "url": "data/9a158d31140ffd91.json.gz",
       "forms": 718,
-      "bytes": 32147,
-      "sha256": "d81b26583c97364e141fd6908ac7c13e704b1e1830f2e7ca2f0104502836e52c"
+      "bytes": 32160,
+      "sha256": "4762116a58db47c695d4915125eadcf1206d42678bd292f5c219d7c49254eb9d"
     },
     "Trumai": {
       "url": "data/4a0369ab0568c9f6.json.gz",
       "forms": 682,
-      "bytes": 30144,
-      "sha256": "03a64740a11fd6ab23c898ec6a94b1fbc4e84873451e4243f5a993d6dbfdc1d2"
+      "bytes": 30168,
+      "sha256": "08ec50cdc5b32a46fcde31151044ef9d6aced342c22bb5f2da4261b2d83349cc"
     },
     "Tsimshian": {
       "url": "data/58be8c6fdea274cf.json.gz",
       "forms": 1230,
-      "bytes": 53392,
-      "sha256": "62fd12f917ce1be0dd635c4bd2229ee351df9a3b89ee0b47f2809ab25032ebfa"
+      "bytes": 53384,
+      "sha256": "d74c802b5ed4291ea51e47d6ee3b169f1f63da6c05fc8e84eda8e9320b017b86"
     },
     "Tucanoan": {
       "url": "data/c55373024c0fdde1.json.gz",
       "forms": 7945,
-      "bytes": 451227,
-      "sha256": "698cc769cd942c17dda3aeaa8f396397e488bedf7faa13b259d8c7059a99ca88"
+      "bytes": 451185,
+      "sha256": "87e881cff34195d7a3dc4ef398345e8107d1322bffb25cb6719fe958fbe09c2e"
     },
     "Tungusic": {
       "url": "data/f88b955bd91de346.json.gz",
       "forms": 7986,
-      "bytes": 486901,
-      "sha256": "bda65ded27fbed0944484f8df24a430b4cec0e21b0460a4a3f66a33d64e60c98"
+      "bytes": 486944,
+      "sha256": "79e78d559b840fe1fcb84374765be256f673dbcfb0f660283019ee4d52a5db6c"
     },
     "Tunica": {
       "url": "data/c60ece77dffd577c.json.gz",
       "forms": 313,
-      "bytes": 14259,
-      "sha256": "d61b85f7d1d4338f4128b8162e9e2bff1c96714bc0b753231da5eede4d73579e"
+      "bytes": 14248,
+      "sha256": "be3369f5613c5ea327df33007d692a326579f03b46230b69ef9c0989706e6021"
     },
     "Tupian": {
       "url": "data/561ad2199798c356.json.gz",
       "forms": 22880,
-      "bytes": 1357339,
-      "sha256": "c0fb61bc24be4dbd0f7814a88ffa7ccdd1bf44d8ba4f4fa12399de8fd0ed84bb"
+      "bytes": 1357532,
+      "sha256": "5ee1aff303cb8a6f4b87b18aae481b185015944370b60f366f1af2518d481a80"
     },
     "Turama-Kikori": {
       "url": "data/45bb21e4787773af.json.gz",
       "forms": 685,
-      "bytes": 34067,
-      "sha256": "9b6acd9be6226a23160de2d712da69323a06ffafcf2f796dd8e3e963f0444194"
+      "bytes": 34061,
+      "sha256": "0e8a79e286c1ca6d864508f3163d3b61a6e8e177207a393cee0e809d2af22405"
     },
     "Turkic": {
       "url": "data/1da2cc9e68af7fe5.json.gz",
       "forms": 37670,
-      "bytes": 2161651,
-      "sha256": "2ef498b103014fba704395d203297b9c0107d7e445772bd5c30c03270fdf917e"
+      "bytes": 2161690,
+      "sha256": "3e61c6ea9e75d3480289193ff40fabddbb2d90656b9861622d714cb7400a354b"
     },
     "Tuu": {
       "url": "data/abffd7eebe3f481f.json.gz",
       "forms": 708,
-      "bytes": 38064,
-      "sha256": "3f828fe3b7fef9a8046fa9a32b11c5fa4b6685851c2c098d0413de711b8dd2c9"
+      "bytes": 38050,
+      "sha256": "ca05c7b01afe5879956d203d4ceb9da8db8a691e62febdf3c7bb4e29d065224c"
     },
     "Unattested": {
       "url": "data/e22d6ea2ce3374be.json.gz",
       "forms": 49,
-      "bytes": 3151,
-      "sha256": "41c70ca76472054d9746bac23a60966ca1f56094f1bb6829d900a1b773848033"
+      "bytes": 3153,
+      "sha256": "c8ae3615909db5e99683211f134d7f38fecc4e1839cf545867612bd848bf2955"
     },
     "Unclassifiable": {
       "url": "data/80972a618ef07c68.json.gz",
       "forms": 35,
       "bytes": 2756,
-      "sha256": "327577a4df7d1caef9d82a263b34673b5768e8e119ffe1cc3f7ce129a5a06391"
+      "sha256": "e93468dafe55cbc89887dfa4cdc8c3a5d0add5db3c5bce295e43dc1907775d12"
     },
     "Unclassified": {
       "url": "data/1372a3810da5224a.json.gz",
       "forms": 1445,
-      "bytes": 70000,
-      "sha256": "a82dd54ac51bf0ca7d79181b61a9da8ca8d7ae5df59bff747b9f9da93c30b01e"
+      "bytes": 69964,
+      "sha256": "239d592fbf86061008af4f58d77c9d8e356d01de0eae4210ce3b7f0e0d415543"
     },
     "Uralic": {
       "url": "data/d6bb4946dbc55aea.json.gz",
       "forms": 16215,
-      "bytes": 873234,
-      "sha256": "eb293b4b2cbf1339ec3862213839d2b3419aa2c90bdd860422f8512ef332124e"
+      "bytes": 873206,
+      "sha256": "a77d43c244b808476e743c43075716cd68b09115262287f1955628f9a1f25e64"
     },
     "Urarina": {
       "url": "data/6cfbac45dfeae3db.json.gz",
       "forms": 298,
-      "bytes": 17581,
-      "sha256": "f9f7f87dae237c061b09324cfc20427cf93de06ce73215034cb067651e82b82c"
+      "bytes": 17584,
+      "sha256": "842de4cb42249e5098f45602a5e78306628b68863af1194070571c53b02f9ed3"
     },
     "Uru-Chipaya": {
       "url": "data/b524a3026e19de08.json.gz",
       "forms": 1240,
-      "bytes": 58470,
-      "sha256": "bc6d41948dc6ed02d48e41f24ce5e85c9306d9f0e72c9e11b76d6e43b31d02c2"
+      "bytes": 58479,
+      "sha256": "58272a6dfc40d7c46bfcc5f79e0e538e95afe18eff9e4df8cfe09275a10d67bd"
     },
     "Usku": {
       "url": "data/0b9b8b593a9d800b.json.gz",
       "forms": 116,
-      "bytes": 5567,
-      "sha256": "1de2141d96f12dedc6937bf562a84e1930c33284c8bfabce6ff5ee59340fb1c7"
+      "bytes": 5568,
+      "sha256": "987bace5557bf1de0447840297340a9a72ef3275122bedc40d6fb9b199b3e0a7"
     },
     "Uto-Aztecan": {
       "url": "data/dedba43cc71437fd.json.gz",
       "forms": 15453,
-      "bytes": 813857,
-      "sha256": "f8ae2496f047508cd88350d07f9545d5f03e28e002ec21c8218d8dca737384f4"
+      "bytes": 813767,
+      "sha256": "752b74d73870587241fc59d096c224b5433a04b4d89fdbbf4835178cd35a5ec3"
     },
     "Vilela": {
       "url": "data/b651d91f2d83a113.json.gz",
       "forms": 73,
-      "bytes": 3538,
-      "sha256": "9bed58593e67f6caed8bb62818e32923494da5df8c5e8ddfdaa89f29b5827192"
+      "bytes": 3545,
+      "sha256": "ee9106e8eb99860c1222592712aa258d3aaf3c7c529c53e86fdc9f3d599dd77f"
     },
     "Wadjiginy": {
       "url": "data/db1fe325b500dab4.json.gz",
       "forms": 1,
       "bytes": 290,
-      "sha256": "b37a894c25775b068770535411fb9d817caaf4687b089e9872ed531898ff02ae"
+      "sha256": "956b03005dfa956dc9f150c68b75bce83b6cda486fa380e67efe9944a2336d5e"
     },
     "Wageman": {
       "url": "data/6bf33ad4b2b11bbf.json.gz",
       "forms": 259,
-      "bytes": 12549,
-      "sha256": "e69be3eeef96eaa25d2c73998ca2908a9f870cb99f17750399b758431fc67da1"
+      "bytes": 12551,
+      "sha256": "7b66ec3ca94894f3583fd396d0952ebf21aea9acf26cbd000ad0c1d72bb38342"
     },
     "Wakashan": {
       "url": "data/99996ee01a33de19.json.gz",
       "forms": 1817,
-      "bytes": 71537,
-      "sha256": "97fd07cd58f51ecd1b07c35d4d0a3984b49360d475ca5dcdeda7bc52af106db1"
+      "bytes": 71522,
+      "sha256": "931ab1966d3f8b8e67e75be2b985c49a7c90fb78bb9fc728bb0d9f71c4c28f82"
     },
     "Walioic": {
       "url": "data/e94dd65c8e7a8511.json.gz",
       "forms": 269,
-      "bytes": 15076,
-      "sha256": "acfd73a46639c051cc048bf8fb2d28cfc472ee7731968255af65b64742df8ccf"
+      "bytes": 15089,
+      "sha256": "87d587d63813fa439fb6f2f50398a5833d47f821fce0896ce2ffc5dbd8d1adc7"
     },
     "Waorani": {
       "url": "data/b87650e94533371b.json.gz",
       "forms": 1230,
-      "bytes": 58939,
-      "sha256": "0167a608eba87579e2b328f98365cb42732ecd75ccd5fe710723d0fd05a7a816"
+      "bytes": 58963,
+      "sha256": "a81afb0bb12da4717b012a3eea49916b0953918d9ca5b45e4dea607af191c367"
     },
     "Warao": {
       "url": "data/835d35c04c75be07.json.gz",
       "forms": 316,
-      "bytes": 14040,
-      "sha256": "a5db095f54be464e5270376fa2ff1723278109ee27c31e54876f63fe15267a8b"
+      "bytes": 14051,
+      "sha256": "480fdb617dd2fca7c3dd567025aa3a73b42450c83dc885e3585c1a4bb02feefe"
     },
     "Washo": {
       "url": "data/772e522f8ea42051.json.gz",
       "forms": 370,
-      "bytes": 20756,
-      "sha256": "59f063e3805f8f735a6d8f4d1c283c74ec5fb985d32c5112dd6575f6b7afbf4f"
+      "bytes": 20763,
+      "sha256": "31d503eeb60994dd111f3c546f6a2c2fc9a4edd93294d4cead2ae5e7f8dd2874"
     },
     "West Bird's Head": {
       "url": "data/500cb7f600da020b.json.gz",
       "forms": 210,
-      "bytes": 8938,
-      "sha256": "c20039cf999e8f97f4bdb98b521b06c4f6ced3d2f3409fb90a56638a7b986f04"
+      "bytes": 8940,
+      "sha256": "db5a62ffb5dc5055632d89ccf6bbfa68db8673de37be7993897e4021bfb4d9fe"
     },
     "West Bomberai": {
       "url": "data/e26cad2833db91a6.json.gz",
       "forms": 1430,
-      "bytes": 58728,
-      "sha256": "6395c9b08297300d824dd686e7ffc5950cb277ef5a77ca7c86ae8e4f9b0fa564"
+      "bytes": 58741,
+      "sha256": "476f899b782c6187caecd51b47e7d862f6843166e267d4844655c6be3060ba01"
     },
     "Western Daly": {
       "url": "data/44c0e8b2f39b4ecb.json.gz",
       "forms": 252,
-      "bytes": 11886,
-      "sha256": "e0388815aa0f5a6e1a147c281b1353ec5ed1052438e1bc7ff9744ddd2497778d"
+      "bytes": 11892,
+      "sha256": "54bc54c27e95d57184d0bb297d30fc2cb2183929c13ae2f0f3427790c373cd9a"
     },
     "Western Tasmanian": {
       "url": "data/11eba8a2596885f4.json.gz",
       "forms": 856,
-      "bytes": 33015,
-      "sha256": "01216c30c5a4d080d464ade1f80eada03de152af17c1d9e1c13f467e11a89e91"
+      "bytes": 33024,
+      "sha256": "00a626be7c7fabaf5e189743f8369d8d1e0ac6a9217a7555d83598bcd9bf668d"
     },
     "Wintuan": {
       "url": "data/cec7fba92990ff44.json.gz",
       "forms": 489,
-      "bytes": 24938,
-      "sha256": "36fd18e4cd1c3efb3da588fb05e50dde163a498ba63e1049178507ef2c11453c"
+      "bytes": 24946,
+      "sha256": "d28d51f1892e2d4d4feaba7ef95ccc43eb55ce5ec558d8b02262e3129fac45f6"
     },
     "Wiru": {
       "url": "data/1a85fba0508ebeed.json.gz",
       "forms": 188,
-      "bytes": 9391,
-      "sha256": "4db15f6d776ff3ae13ab7d064587ae8a2c2c562c80f1f0b1c9520419431cecc2"
+      "bytes": 9379,
+      "sha256": "e03e6bd3ac88a6798eaf19b4f57bb5d16e191b497ecc8ca7b6c94512bf7ca5e3"
     },
     "Worrorran": {
       "url": "data/8c06ab8bc86a80b9.json.gz",
       "forms": 390,
-      "bytes": 20015,
-      "sha256": "ab14dcdfc6f813048cf28edfb2fb41972222c8370a3749e899aac4c91f2ca864"
+      "bytes": 20016,
+      "sha256": "5ed454fd602df117c153aecc36f3390ee06a45c13fae660cac175052a6e36ae1"
     },
     "Xincan": {
       "url": "data/202d799f22b1ced4.json.gz",
       "forms": 64,
-      "bytes": 3456,
-      "sha256": "5adcea240d5ecf75459734c9d95d5b57b77260b50ad97e0435cc75aca1c79fd3"
+      "bytes": 3459,
+      "sha256": "c299cd7da0902943a870cd93628e6d5c2a020114b114e57dd15ba0449003d7fd"
     },
     "Yale": {
       "url": "data/c31bc980f6615e28.json.gz",
       "forms": 102,
-      "bytes": 5727,
-      "sha256": "8d87e28213e8999b224794dd20cb1dfdd0d9177ee5d101ee2a7a961753e409f1"
+      "bytes": 5730,
+      "sha256": "a9707ae786d812e9392b420d5c7e695e65ab6b82494ef5a69fa6bf8f58b2d7d7"
     },
     "Yam": {
       "url": "data/a67708557056f417.json.gz",
       "forms": 6331,
-      "bytes": 267919,
-      "sha256": "df6831119a9eece61f770c01da82e662cfa249c4c7bca3e11fca5a93ada3baca"
+      "bytes": 267989,
+      "sha256": "f70b152b936529ff7e83f6bf41dc7876723615a9f1eae9c5293cc099d6b5b5e1"
     },
     "Yana": {
       "url": "data/75b6e89e1d5fe85d.json.gz",
       "forms": 304,
-      "bytes": 14479,
-      "sha256": "33edb85312508a5848308c04d8a1875f399b38f387854d5789dbda591a29e081"
+      "bytes": 14469,
+      "sha256": "467ccb6864b18dfa1a22ad11828cffdf9b5bff2e16a2cb2b6c96f6f329d03b90"
     },
     "Yangmanic": {
       "url": "data/a445df7c5f3b818b.json.gz",
       "forms": 437,
-      "bytes": 21482,
-      "sha256": "cb9634b1bb6b3b78153b37cdb1cfb19c31ecf6d5eb32f5bf3e8cccb40505fb26"
+      "bytes": 21485,
+      "sha256": "a96e6a5f937f5c94eee3875c740ce4c81ec5b1cc9a6ee8e53f3816ac3d85cc0a"
     },
     "Yanomamic": {
       "url": "data/c6e1e904d967f802.json.gz",
       "forms": 1776,
-      "bytes": 96776,
-      "sha256": "ea0ae65678aa72ae91bb0d7f57c6a991dfdbe4eee5d237c984fe278439f2aa69"
+      "bytes": 96747,
+      "sha256": "b420a3b35d801b294b022091a673d695cee1c47ac25a6fef4286e7764e3a1086"
     },
     "Yareban": {
       "url": "data/c283c43b9c931bb7.json.gz",
       "forms": 410,
-      "bytes": 19575,
-      "sha256": "9762747dfc831a52210eb2b3af875783828a82996bdec45fc8adc8b56f83a221"
+      "bytes": 19558,
+      "sha256": "6376fc877afb2bfe3551ffdad80a7dc95b51743ddf5d247ac93020b8274f778a"
     },
     "Yawa-Saweru": {
       "url": "data/47c6b86307611d93.json.gz",
       "forms": 375,
-      "bytes": 18417,
-      "sha256": "b6d32a7a2bd9abdda8425de52834e86201f4dc31f4daaa672bfeac010d7e089f"
+      "bytes": 18416,
+      "sha256": "717ae58fe86763464c3666646145a80eefecdc66fc0d73587917377b5d1d1eb6"
     },
     "Yele": {
       "url": "data/99d68c1d0dcfa416.json.gz",
       "forms": 304,
-      "bytes": 14073,
-      "sha256": "fb465a1b58baf302481b92cdd80afb345b7182923f0a2cab84d72eafefd64842"
+      "bytes": 14069,
+      "sha256": "d8be3c5fc504ab24671e34d6c98c30eaffd4255c6165c0a161a2cc8b59d28a85"
     },
     "Yeniseian": {
       "url": "data/98f81a2401f02b78.json.gz",
       "forms": 1184,
-      "bytes": 58072,
-      "sha256": "9c6e7ecec1e34f65e561a448e2ade2f6c3497fc767bc36d987f4f0784cdc9b94"
+      "bytes": 58043,
+      "sha256": "89066fb84f4d45c0fbe6df52a0050b9dafad1a3ce4ce14339d843a3fc780e7d0"
     },
     "Yerakai": {
       "url": "data/5d3bd0f79dcbfea9.json.gz",
       "forms": 39,
-      "bytes": 2566,
-      "sha256": "2fbf58eef89f2a81972f3ae86a0993b405e16c6ea99e9356ab68e460bf96f6a7"
+      "bytes": 2569,
+      "sha256": "288e3dfa79a5b813ced8d8b690e41c1f8734b9d2d604ed95cde2462bf21ecc68"
     },
     "Yetfa": {
       "url": "data/6a08ab7b05276143.json.gz",
       "forms": 111,
-      "bytes": 5853,
-      "sha256": "2b484f56fa490a9cb8f68f90e0233e1629d1598c9467c7ad38c830c89b11f230"
+      "bytes": 5864,
+      "sha256": "4e3ee4566dee72225218742baddf77c7cdb46220c79b4c8a560f9af6226c117f"
     },
     "Yokutsan": {
       "url": "data/470fce84ff825d6c.json.gz",
       "forms": 936,
-      "bytes": 53319,
-      "sha256": "9d4b102d3c8690f5a5004d5bd8a6392bb66983a758b70ef2901e029f4c967ec9"
+      "bytes": 53321,
+      "sha256": "7b50400109a5985b8345f5dd6c98ad197786954c05bb764fe1ce43e48a4ee7e5"
     },
     "Yuat": {
       "url": "data/d04d8a4261ab144b.json.gz",
       "forms": 680,
-      "bytes": 37186,
-      "sha256": "cc153487e9b76efc16322e973e0103b320301b751bbbf866d234574eafef5cbc"
+      "bytes": 37192,
+      "sha256": "dbcf1deb51204f94ce18f9ec0f4bffd1fc0bb34fae7a390f9c82ce37e3b817be"
     },
     "Yuchi": {
       "url": "data/77f55d26b922967c.json.gz",
       "forms": 40,
-      "bytes": 2490,
-      "sha256": "b1a393c21f1eedd0e902401f966b88f82ed355109c211a4736ead31bded830d1"
+      "bytes": 2489,
+      "sha256": "9de32b502fb2771b0d007b35e832730a027178c0484dd7498b50d479c711210d"
     },
     "Yukaghir": {
       "url": "data/fc5ff3e269fbdbc9.json.gz",
       "forms": 1178,
-      "bytes": 61336,
-      "sha256": "aed96c8d9a8340579b8e0892646d16b28e91d502d30e520fd9ca0aa841ff31a6"
+      "bytes": 61309,
+      "sha256": "bd48805e182030a147695cd5d5cbbe4e14a9c14c2a2bb0f0ee31c75abaadb9d4"
     },
     "Yuki-Wappo": {
       "url": "data/b6a978191f97bc7a.json.gz",
       "forms": 747,
-      "bytes": 40122,
-      "sha256": "58a0e95df468ee93d5950c9d621bb927e7b1fc61c88ea97f97ad28dcad0d4a9d"
+      "bytes": 40118,
+      "sha256": "d1454a70e1b66133a3bb5da89afafa8c1f271dd11192944eea1cdfb0b6399051"
     },
     "Yuracaré": {
       "url": "data/572ae286308ce6c0.json.gz",
       "forms": 269,
-      "bytes": 11993,
-      "sha256": "5141c231a8529f2fe70d10bf60fbc3b8bbc6fd09630b1a3affac94d9cc013ebd"
+      "bytes": 12009,
+      "sha256": "bbdb60b2199ad4c33144a868ada8df3a2268b10ac6fc924955339634c95c782c"
     },
     "Yámana": {
       "url": "data/d73e176bfc7136f9.json.gz",
       "forms": 715,
-      "bytes": 30096,
-      "sha256": "53fc775b589fae8dcccd10295c83f2d41185f3051958d5af870fbb13a8a0581a"
+      "bytes": 30103,
+      "sha256": "b9462ee9bdc136e6f40daf376abc39953a222ef10e6fdbe639817737239489b7"
     },
     "Zamucoan": {
       "url": "data/6c83cbb8a1159223.json.gz",
       "forms": 1655,
-      "bytes": 73898,
-      "sha256": "5c5913bfe119b2ea26fa436d498438a5e7192ca92f449b390c2e8f0c8d686037"
+      "bytes": 73887,
+      "sha256": "093e10123bfa4e22210ff51219d97e72a66c9467085fe306a239be4e98ef9dd7"
     },
     "Zaparoan": {
       "url": "data/212cf57db306dabf.json.gz",
-      "forms": 869,
-      "bytes": 60004,
-      "sha256": "3eeb19736079fed1ea4c9f580788a9968028cf60fdb140af8b6d5865ded0e8a3"
+      "forms": 912,
+      "bytes": 64398,
+      "sha256": "13478639bd6b60152a8b716b190bcc6ac17d8b9140d6c32d6e50e335da67a288"
     },
     "Zuni": {
       "url": "data/609f65ca3f330c07.json.gz",
       "forms": 979,
-      "bytes": 43845,
-      "sha256": "647cf0431e9aaeec50269e1e66217b58c1e21d21c9cafc1ac33036661a8c4375"
+      "bytes": 43843,
+      "sha256": "b94b2fe46216659141f99911d18b6b06df4eab60c579a5358e05a746844317c0"
     }
   },
   "catalog": {
     "url": "data/catalog.json.gz",
-    "bytes": 3627652,
-    "sha256": "9141794f807bafd23d52548de062e3b80e1f7a319265ad805d9a2152d5483560"
+    "bytes": 3629601,
+    "sha256": "3431043607fdcc8d0d8b119bfdca4efe0662004488b2907daa6b6da5388a3eb0"
   },
   "core_count": 161,
   "source_files": {
-    "forms.csv": "9514349cd9b9c967e97901916eab49bdb90e2438cacb6f2391d368b293518b72",
-    "varieties.csv": "e7e26b1e5c56275ed54e0a0d8ae0345ed6422b78c190105b7f9725870c4e8430",
+    "forms.csv": "933b8be9244c1d68eb189742bb9e16618947c657f796a76011f4771f804edfdc",
+    "varieties.csv": "400b6d7feeb7a6cd00a852b32396250b146ed74a442a0c85aed1f9460947ffb9",
     "parameters.csv": "382a057512cf504f68818c0b7142c2c9738d3561f294ceff332bc3e196a16433"
   }
 }

@@ -30,3 +30,12 @@ def test_documented_subset_and_unicode_equivalence(word, expected):
 @pytest.mark.parametrize("word", ["aáka", "áaka", "niínaki", "síipa", "na=áka", "nua", "casa", "majaaka?", "", "á́ka"])
 def test_ambiguous_tone_length_palatalization_and_foreign_characters_are_held(word):
     assert module.reading(word) == ""
+
+
+@pytest.mark.parametrize(("word", "expected"), [("ani", "a n i"), ("níta", "n í t a"), ("nina", "n i n a")])
+def test_short_i_is_a_vowel_outside_ni_plus_vowel_context(word, expected):
+    assert module.reading(word) == expected
+
+
+def test_marked_vowel_before_another_vowel_does_not_become_a_palatal_consonant():
+    assert module.reading("níaka") == ""

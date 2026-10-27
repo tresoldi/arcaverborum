@@ -1,0 +1,19 @@
+{
+  "dataset": "bodtbangru",
+  "record": "1116263",
+  "doi": "10.5281/zenodo.1116263",
+  "url": "https://zenodo.org/records/1116263",
+  "filename": "Bangru Wordlist.pdf",
+  "sha256": "61760ad451c9594d7d82bb04fa24b392c592cb88f0d153cd8a90e813c816a9fa",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "overview_record": "1116298",
+  "overview_sha256": "42d0873fe1cc8dae80b87c2e94d7bf44392c10d71fd8083e519b612aaade2ec6",
+  "speaker": "A",
+  "speaker_name": "Pisa Chachung",
+  "sample": "Sarli circle; fieldwork December 2013; recording series BANGA151213/BANGA161213",
+  "glottocode": "bang1369",
+  "source_dialect_glottocode": "leva1238",
+  "phonology_record": "1116254",
+  "phonology_slide": 9,
+  "phonology_sha256": "776ea3a4ae2038982d31ed8c9dfd1bb5ed24f4c470bfa4c2a69c3211a89be3e3"
+}

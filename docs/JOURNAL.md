@@ -1,8 +1,73 @@
 # Project journal and working memory
 
+## 2026-10-27 — Amazonian expansion and original-source Bangru admission
+
+Current baseline: **7,313 accepted varieties / 2,066,454 forms**; 1,743,092
+supplied-source forms, 13,277 profile forms, **465,118 supported core slots** and
+539,211 mapped core slots. This batch adds **437 forms / 382 supported slots**,
+including one genuinely new accepted language. GLED primary selections remain
+1,582 and Core-source membership remains 892.
+
+All five agreed tracks were completed sequentially:
+
+1. Amahuaca: 80 Blum-source supplements, supported core **79 → 147**; two
+   chest/breast entries held. English/Spanish senses and original Hyde citations
+   retained; no new genealogical claims inferred.
+2. Puinave: 63 additions, **96 → 159**. Huber preferred for overlaps; six IDS
+   records fill separate gaps. IDS conversion remains explicitly provisional.
+3. Apurinã: 54 additions, **50 → 102**; Resígaro: 51, **97 → 146**; Baré: 47,
+   **65 → 112**. Bound forms/source cognacy retained; old-man, egg and playa
+   ambiguities held rather than forced into core meanings.
+4. Media Lengua: 220 new selected sense decisions; 397 total mappings, 331
+   mapped concepts, supported core **124 → 132**, with all lexical records
+   preserved. Iquito: 44 new sense decisions, short n+i context clarified,
+   profile forms **26 → 69** (43 added), 425 total forms, core still 129.
+   There are 106 reviewed Iquito senses, 69 admitted / 37 held. Mixed-tone long
+   vowels and s/ʃ uncertainty remain held. Earlier dated review CSV is preserved;
+   default regenerable reports now go under ignored output/report/.
+5. **Bangru admitted as sit-bangru**: 99 supplied-IPA forms, 95 core concepts,
+   one consistently identified speaker A (Pisa Chachung), Sarli 2013 fieldwork.
+   Original Bodt Zenodo deposit **1116263**, explicit CC BY 4.0, bypasses no
+   restrictions and does not license the Wust derivative. All 119 reviewed PDF
+   spans verified against frozen document hashes; 95 entries admitted / 24 held.
+   Every supplied alternative retained. Comparative languages, tentative roots,
+   optional readings and unreviewed notation are not admitted as Bangru data.
+
+Bangru canonical code is bang1369; the source's Sarli dialect leva1238 belongs
+to it and was not already accepted. Glottolog map coordinates are regional
+reference points, not speaker GPS. Source manifest, authored entries, fetch
+handler and staging/audit script are tracked. Document fetch never attempts Git;
+source-version metadata supports Source document provenance. The original
+source's tʃ/dʒ are tied for segmentation using the author's documented inventory;
+raw IPA, tone, phonation, length and nasalization are retained. No cognacy inferred.
+
+Only the new bodtbangru namespace was staged, validated and appended to active
+intake, then intake-db rebuilt. Existing namespaces were not subset-ingested.
+Full original PDF SHA256:
+61760ad451c9594d7d82bb04fa24b392c592cb88f0d153cd8a90e813c816a9fa.
+Optional PDF audit used PyMuPDF 2.0. Other candidates remain held: NLS attribution
+is anonymous/year 0000 and related survey literature cannot be grafted onto the
+rows; Chhulung sample/location labels need reconciliation; Tangam original
+lexical evidence/redistribution remains unresolved.
+
+Verification: **384 tests**, full Ruff and JS checks pass; 7,313 accepted outputs
+are fresh (zero rebuilds/no failures); seven core-pilot and Vakh audits pass;
+all 400 compressed hashes verified. All 1,719 original primary forms in six
+supplemented constructions match prior exported evidence. Media Lengua's 3,216
+lexical/transcription records and previous mappings are preserved. Local generic
+and mixed-source browser checks pass, including Bangru source evidence and
+69 Iquito profile records. Web artifacts regenerated from the accepted aggregate.
+
+See [the full report](AMAZONIAN_EXPANSION_2026-10-27.md),
+[metrics](amazonian_expansion_summary_2026-10-27.json),
+[ranked follow-up](amazonian_expansion_opportunities_2026-10-27.csv), and
+[remaining language blockers](amazonian_expansion_missing_languages_2026-10-27.csv).
+The ranking has 6,831 member opportunities, including **628 South American**
+candidates; these overlap and are not promised gains. Asturian remains 82 core.
+
 ## 2026-10-27 — Next coverage batch completed
 
-Current baseline: **7,312 varieties / 2,066,017 forms**, 1,742,698 supplied-source
+Baseline at that earlier batch: **7,312 varieties / 2,066,017 forms**, 1,742,698 supplied-source
 forms, 13,234 profile-supported forms, **464,736 supported core slots** and
 538,833 mapped core slots. Core-source collection remains 892 varieties;
 GLED primary selections remain 1,582. This batch adds **256 forms and 215

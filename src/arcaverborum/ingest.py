@@ -145,7 +145,7 @@ def _parse_metadata(metadata_json: dict, dataset: str, has_cognates: bool) -> di
     derived = metadata_json.get("prov:wasDerivedFrom", []) or []
     repo_version = next(
         (item.get("dc:created", "") for item in derived
-         if item.get("dc:title") == "Repository"),
+         if item.get("dc:title") in {"Repository", "Source document"}),
         "",
     )
     generated_by = metadata_json.get("prov:wasGeneratedBy", []) or []

@@ -38,3 +38,13 @@ checked with accompanying Spanish/Quichua translations, add eighteen supported
 core slots. Generic day, verbal rain/thunder and the noun labelled “heavy” remain
 unmapped to incompatible frozen concepts. See the dictionary-sense follow-up
 ledger; the lexical records and supplied segment strings are unchanged.
+
+## Further dictionary-sense review, 2026-10-27
+
+A further 220 individually selected literal/bilingual sense mappings bring the
+construction to 397 guarded decisions, 331 mapped concepts and 132 supported
+core concepts (previously 124). Lexical forms and supplied IPA remain unchanged.
+The breathing action is supported by source POS verb and Spanish respirar even
+though the English gloss is written breath. Formal singular you retains its
+register; numeric one retains its article polysemy. Ambiguous English homonyms
+were not bulk-admitted. See docs/amazonian_expansion_dictionary_senses_2026-10-27.csv.
