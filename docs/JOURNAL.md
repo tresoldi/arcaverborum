@@ -1,8 +1,63 @@
 # Project journal and working memory
 
+## 2026-10-27 — Next coverage batch completed
+
+Current baseline: **7,312 varieties / 2,066,017 forms**, 1,742,698 supplied-source
+forms, 13,234 profile-supported forms, **464,736 supported core slots** and
+538,833 mapped core slots. Core-source collection remains 892 varieties;
+GLED primary selections remain 1,582. This batch adds **256 forms and 215
+supported core slots**, without manufacturing new varieties.
+
+All five agreed tracks were handled sequentially. Twenty new Media Lengua
+sense mappings raise supported core 106 → 124. Staged dictionary reviews add
+62 Iquito and 119 Guarayu decisions. Five North American supplements add 54
+forms / 53 core slots. A source-scoped Iquito profile adds 26 forms / four
+slots (125 → 129); 36 ambiguous senses remain held. Guarayu's transcription
+issues prevent an active profile.
+
+The missing-language screen found candidates but held them on provenance,
+license, modality, transcription or identity grounds. NLS citations are
+placeholders; Wust phylogenies lacks supplied segments and an explicit repository
+license; Borch is already represented through a parent-coded Rutul member.
+No new source namespaces were appended to active intake in this batch.
+
+The new additive opportunity ranking found larger South American gains outside
+the GLED-only scan. Reviewed Huber–Reed supplements add 104 Sikuani forms and
+72 Hitnu forms, filling 71 and 69 slots: **Sikuani 76 → 147**, **Hitnu 79 → 148**.
+A Spanish editorial note masquerading as a word, a playing-card heart, an old-man
+noun mapped to an adjective, and insufficiently specific egg senses were held.
+
+Important implementation changes: supplemental profiles use separate exact-form
+files and guarded SHA256, retain Segments_Source=profile, and cannot affect the
+primary source or reinterpret supplied IPA. The supplement compiler now accepts
+explicit sources and merges partial reviews without erasing prior admissions.
+Staged dictionary senses are validated even when not selected as a primary source.
+
+Verification: **370 pytest tests**, full Ruff and JavaScript checks passed; all
+7,312 accepted builds succeeded. A final freshness run rebuilt zero varieties.
+All 400 compressed artifact hashes, seven core-pilot audits and the Vakh repair
+audit passed. All 1,268 original primary forms across eight supplemented
+constructions match the pre-batch exported evidence. Local generic and mixed-source
+browser checks passed, including profile status, scholarly supplements and Core
+isolation. Web artifacts were regenerated from the accepted aggregate.
+
+See [the complete report](COVERAGE_BATCH_2026-10-27.md),
+[metrics](coverage_batch_summary_2026-10-27.json), and
+[ranked opportunities](coverage_opportunities_2026-10-27.csv). The current report
+contains 6,838 member opportunities, including **635 South American** candidates.
+They overlap and remain unreviewed; do not sum them as accepted gains. Next strong
+review targets include Amahuaca (blumpanotacana), Puinave (IDS/Huber), Paraguayan
+Guarani (IDS), Apurinã (Walker), Resígaro (Huber), and Baré (Walker).
+
+Persistent user priorities and operational rules remain below. Asturian is still
+**82 supported core concepts**, not the superseded 92/100. Pages deploys tracked
+web artifacts; new raw repositories remain ignored. Old numeric export IDs may
+shift with aggregate order; existing browser links resolve unique legacy source
+identities. Pronunciation alternatives retain their persistent IDs.
+
 ## 2026-10-27 — Coverage, provenance and Americas follow-up
 
-Current accepted baseline: **7,312 varieties, 2,065,761 forms**, 1,742,468
+Baseline at that earlier batch: **7,312 varieties, 2,065,761 forms**, 1,742,468
 source-supported forms, 13,208 profile-supported forms, 464,521 supported core
 slots and 538,618 mapped core slots. There are 892 Core-source collection
 varieties and 1,582 GLED primary selections. Discovery counts are not admissions.

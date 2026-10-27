@@ -111,16 +111,16 @@ python build.py concepts --mint
 
 ## 5. Current Baseline
 
-As of 2026-10-27, after commit `46813603`:
+As of the latest coverage batch, 2026-10-27:
 
-* 7,312 accepted varieties and 2,065,761 forms;
-* 1,742,468 source-supported and 13,208 profile-supported forms;
-* 464,521 supported and 538,618 mapped core-concept slots;
+* 7,312 accepted varieties and 2,066,017 forms;
+* 1,742,698 source-supported and 13,234 profile-supported forms;
+* 464,736 supported and 538,833 mapped core-concept slots;
 * 892 Core-source collection varieties; 1,582 GLED primary selections.
 
-The latest batch added 3,288 forms and 153 supported core slots without
+The latest batch added 256 forms and 215 supported core slots without
 inflating variety counts. See [the journal](docs/JOURNAL.md) for the handoff,
-[the follow-up report](docs/AMERICAS_COVERAGE_FOLLOWUP_2026-10-27.md) for evidence,
+[the follow-up report](docs/COVERAGE_BATCH_2026-10-27.md) for evidence,
 and its companion JSON for reproducible before/after metrics.
 
 ## 6. Source Policy
@@ -147,6 +147,12 @@ concept mapping, transcription quality, cognates, provenance, tradeoffs, and
 recommended authority recipe.
 
 Small fixes can live in `varieties/<av_id>/custom/*`:
+
+Supplementary sources use guarded `custom/supplements.csv` admissions. Their
+profiles live separately under `custom/supplement_profiles/`, with exact
+whole-form keys and a SHA256 recorded per admission; they never affect the
+primary source. See `scripts/iquito_profile.py` for the first pilot.
+
 
 * `transcriptions.csv` overrides source transcription columns;
 * `forms.csv` adds new forms;

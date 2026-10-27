@@ -115,6 +115,10 @@ def custom_component(custom_dir: Path) -> str:
     for name in (*_CUSTOM_FILES, "supplements.csv"):
         p = custom_dir / name
         digests[name] = hashlib.sha1(p.read_bytes()).hexdigest() if p.exists() else ""
+    directory = custom_dir / "supplement_profiles"
+    if directory.exists():
+        for path in sorted(directory.glob("*.tsv")):
+            digests["supplement_profiles/" + path.name] = hashlib.sha256(path.read_bytes()).hexdigest()
     return _sha16(json.dumps(digests, sort_keys=True))
 
 

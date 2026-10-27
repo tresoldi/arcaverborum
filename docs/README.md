@@ -5,6 +5,10 @@ Start with the root `README.md` for the project overview and
 
 ## Current handoff
 
+* [Coverage batch](COVERAGE_BATCH_2026-10-27.md): dictionary senses, American
+  supplements, missing-language screening, Iquito source-scoped profile and a
+  [ranked opportunity report](coverage_opportunities_2026-10-27.csv).
+
 * [Journal and working memory](JOURNAL.md): decisions, current metrics, verification,
   held evidence and next opportunities (updated 2026-10-27).
 * [Americas coverage follow-up](AMERICAS_COVERAGE_FOLLOWUP_2026-10-27.md): latest

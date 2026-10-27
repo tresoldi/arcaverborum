@@ -47,9 +47,31 @@ with sync_playwright() as p:
     text = page.locator("#app").inner_text()
     assert "Stewart" in text and "dictmedialengua" in text and "3,216" in text
     assert "Kalamang" not in text
+    # A dictionary profile applies to its source only, with derived status exported.
+    route.update(view="variety", id="zap-iquito", collection="all")
+    page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Supplemental lexical source')")
+    with page.expect_download() as download:
+        page.locator("#exportcsv").click()
+    iquito = list(csv.DictReader(open(download.value.path())))
+    profile_rows = [r for r in iquito if r["transcription_source"] == "dictiquito"]
+    assert len(iquito) == 382 and len(profile_rows) == 26
+    assert all(r["Segments_Source"] == "profile" for r in profile_rows)
+    assert all("Source-scoped orthographic profile" in r["Comment"] for r in profile_rows)
+    assert not any(r["Segments_Source"] == "profile" for r in iquito if r["transcription_source"] == "huntergatherer")
+    route.update(id="gub-sikuani")
+    page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Supplemental lexical source')")
+    with page.expect_download() as download:
+        page.locator("#exportcsv").click()
+    sikuani = list(csv.DictReader(open(download.value.path())))
+    supplements = [r for r in sikuani if r["transcription_source"] == "hubercolumbian"]
+    assert len(supplements) == 104
+    assert not any(r["Form"] == "al fin de la cita" for r in supplements)
+    assert all(r["Segments_Source"] == "source" for r in supplements)
     assert not errors, errors
     print(
         "PASS: mixed-source provenance, separate IPA alternatives, stable pronunciation IDs, "
-        "Core isolation, corrected dictionary attribution"
+        "Core isolation, corrected dictionary attribution, source-scoped profile and South American supplements"
     )
     browser.close()

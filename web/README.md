@@ -99,3 +99,10 @@ release`).
 
 Shareable URLs via hash: top-level views (`#map`, `#concepts`, …) plus
 deep-links `#concept:<concept_id>` and `#variety:<av_id>`.
+
+Source-scoped orthographic supplements retain `Segments_Source=profile` in
+research exports, with the profile name/hash and original dictionary evidence
+in comments. They are distinct from supplied source IPA and do not apply to
+primary-source forms. The Iquito pilot is covered by the mixed-source browser
+check. Current coverage and held candidates are documented in
+`docs/COVERAGE_BATCH_2026-10-27.md` and the ranked opportunity CSV.

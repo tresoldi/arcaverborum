@@ -1,4 +1,4 @@
-"""Reviewed additive source forms, with exact evidence and concept guards."""
+"""Reviewed additive source forms, with exact evidence, concept and profile guards."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from pathlib import Path
 import pandas as pd
 
 from arcaverborum.intake_db import IntakeDB
-from arcaverborum.phonology import normalize_segments
+from arcaverborum.phonology import load_profile, normalize_segments, segments_are_valid
 from arcaverborum.sources.wiktionary.pronunciations import ipa_segments
 
 EVIDENCE_FIELDS = (
@@ -82,7 +82,26 @@ def reviewed_frames(custom_dir, intake, glottocode, param_index, concept_index):
         return
     if isinstance(intake, Path):
         intake = pd.read_csv(intake, dtype=str, keep_default_na=False)
-    for gc, source in sorted(input_keys(custom_dir)):
+    groups = sorted({(r["source_glottocode"].strip().lower(), r["source"], r.get("profile_file", ""))
+                     for r in decisions})
+    for gc, source, profile_file in groups:
+        selected = [r for r in decisions if (
+            r["source_glottocode"].strip().lower(), r["source"], r.get("profile_file", "")
+        ) == (gc, source, profile_file)]
+        profile = None
+        if profile_file:
+            if Path(profile_file).name != profile_file or not profile_file.endswith(".tsv"):
+                raise ValueError("Supplement profile must name a local TSV file")
+            directory = (custom_dir / "supplement_profiles").resolve()
+            path = directory / profile_file
+            if not path.resolve().is_relative_to(directory) or not path.is_file():
+                raise ValueError("Supplement profile missing or outside its directory")
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            if any(r.get("profile_sha256") != digest for r in selected):
+                raise ValueError("Reviewed supplement profile changed")
+            profile = load_profile(path)
+            if not profile or any(not (key.startswith("^") and key.endswith("$")) for key in profile):
+                raise ValueError("Supplement profiles require reviewed whole-form keys")
         if gc != glottocode.strip().lower():
             for decision in [r for r in decisions if r["source_glottocode"].strip().lower() == gc]:
                 if not decision.get("pronunciation_scope"):
@@ -94,7 +113,7 @@ def reviewed_frames(custom_dir, intake, glottocode, param_index, concept_index):
             mask = intake["Glottocode"].str.strip().str.lower().eq(gc) & intake["Dataset"].eq(source)
             frame = intake[mask].copy()
         chosen = []
-        for decision in [r for r in decisions if (r["source_glottocode"].strip().lower(), r["source"]) == (gc, source)]:
+        for decision in selected:
             matches = frame[frame["ID"].eq(decision["source_form_id"])]
             if len(matches) != 1:
                 raise ValueError("Supplement source form missing or duplicated: " + decision["source_form_id"])
@@ -138,13 +157,18 @@ def reviewed_frames(custom_dir, intake, glottocode, param_index, concept_index):
                         ],
                     )
                 )
-            _, status = normalize_segments(row["Segments"], row["Form"])
-            if status != "source":
-                raise ValueError("Supplement requires validated supplied segments")
+            segments, status = normalize_segments(row["Segments"], row["Form"], profile)
+            if profile is not None and (row["Segments"] or decision.get("raw_ipa")):
+                raise ValueError("Profile admission must not reinterpret supplied source segments")
+            expected_status = "profile" if profile is not None else "source"
+            if status != expected_status or not segments_are_valid(segments):
+                raise ValueError("Supplement requires validated supplied segments or an exact reviewed profile")
+            if profile is not None:
+                row["Comment"] += "; Source-scoped orthographic profile: " + profile_file + "; SHA256 " + digest
             row["_concept_id_override"] = cid
             row["Concepticon_ID"] = concept_index[cid]
             row["Comment"] = "; ".join(
                 filter(None, [row.get("Comment", ""), "Reviewed supplement: " + decision["rationale"]])
             )
             chosen.append(row)
-        yield source, pd.DataFrame(chosen).fillna("")
+        yield source, pd.DataFrame(chosen).fillna(""), profile

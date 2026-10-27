@@ -44,12 +44,12 @@ def fixture(tmp_path):
 
 def test_retains_raw_ids_cognacy_and_supplied_segments_without_primary_profile(tmp_path):
     row = fixture(tmp_path)
-    source, frame = next(
+    source, frame, profile = next(
         reviewed_frames(
             tmp_path, pd.DataFrame([row]), "xxxx1234", {"wikt_water": ("948", "WATER")}, {"phy-water": "948"}
         )
     )
-    assert source == "wiktionary"
+    assert source == "wiktionary" and profile is None
     result = frame.iloc[0]
     assert (result.ID, result.Language_ID, result.Cognacy, result.Source) == (
         row["ID"],
@@ -95,3 +95,73 @@ def test_reviewed_members_and_supplement_ledgers_affect_freshness(tmp_path):
     before = custom_component(tmp_path)
     fixture(tmp_path)
     assert custom_component(tmp_path) != before
+
+
+def test_source_scoped_profile_is_guarded_and_keeps_derived_status(tmp_path):
+    import hashlib
+
+    from arcaverborum.catalog import Variety
+    from arcaverborum.variety import emit_forms
+
+    row = fixture(tmp_path)
+    row["Segments"] = ""
+    path = tmp_path / "supplements.csv"
+    with path.open() as handle:
+        review = next(csv.DictReader(handle))
+    review.update(evidence_sha256=evidence_hash(row), profile_file="dictionary.tsv")
+    profiles = tmp_path / "supplement_profiles"
+    profiles.mkdir()
+    profile_path = profiles / "dictionary.tsv"
+    profile_path.write_text("Grapheme\tIPA\n^á$\tiː\n")
+    review["profile_sha256"] = hashlib.sha256(profile_path.read_bytes()).hexdigest()
+
+    def save():
+        with path.open("w", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(review))
+            writer.writeheader()
+            writer.writerow(review)
+
+    def frames():
+        return list(
+            reviewed_frames(
+                tmp_path, pd.DataFrame([row]), "xxxx1234", {"wikt_water": ("948", "WATER")}, {"phy-water": "948"}
+            )
+        )
+
+    save()
+    source, frame, profile = frames()[0]
+    emitted = emit_forms(
+        frame,
+        av_id="und-test",
+        variety=Variety(av_id="und-test"),
+        transcription_source=source,
+        cognate_source=source,
+        forms_score=0.5,
+        tier="bronze",
+        param_index={},
+        concept_index={},
+        concept_labels={"phy-water": "water"},
+        profile=profile,
+    )[0]
+    assert emitted["Segments"] == "iː" and emitted["Segments_Source"] == "profile"
+    assert emitted["source_form_id"] == row["ID"]
+    before = custom_component(tmp_path)
+    profile_path.write_text("Grapheme\tIPA\n^á$\tuː\n")
+    assert custom_component(tmp_path) != before
+    with pytest.raises(ValueError, match="profile changed"):
+        frames()
+    review["profile_file"] = "../profile.tsv"
+    save()
+    with pytest.raises(ValueError, match="local TSV"):
+        frames()
+    review["profile_file"] = "dictionary.tsv"
+    profile_path.write_text("Grapheme\tIPA\ná\ta\n")
+    review["profile_sha256"] = hashlib.sha256(profile_path.read_bytes()).hexdigest()
+    save()
+    with pytest.raises(ValueError, match="whole-form"):
+        frames()
+    profile_path.write_text("Grapheme\tIPA\n^á$\tTHIS_IS_NOT_IPA\n")
+    review["profile_sha256"] = hashlib.sha256(profile_path.read_bytes()).hexdigest()
+    save()
+    with pytest.raises(ValueError, match="validated"):
+        frames()

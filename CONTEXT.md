@@ -35,10 +35,10 @@ Use these terms when naming things in code, commits, and conversation.
 | **concept** | A cross-linguistic meaning slot (e.g. "water", "eye"). Has a frozen `concept_id` prefixed by semantic field: `<field_code>-<label_slug>` (e.g. `bod-eye`). Maps to a Concepticon ID as a column. |
 | **concept catalog** | The frozen registry of concept_ids (`data/concepts.csv`). Extended by minting, never re-keyed. |
 | **concept core** | The 161 basic-vocabulary concepts attested across ≥7 of the 13 CORE families (`data/concept_core.csv`). |
-| **construction** | The accepted build of a variety: which source's forms, which cognate source, plus any custom corrections. Recorded in `config.yaml` + `custom/*`. |
+| **construction** | The accepted build of a variety: primary source, reviewed source-specific supplements, cognate source, and custom corrections. Recorded in `config.yaml` + `custom/*`. |
 | **form** | A single lexical entry: a (variety, concept, word-form, transcription) tuple with provenance. |
 | **intake** | Normalized, source-prefixed CSVs produced by ingest from raw CLDF data. The common input format for the build. |
-| **profile** | An orthographic profile (`custom/profile.tsv`): a grapheme→IPA mapping table that replaces re-segmentation for a variety. |
+| **profile** | An orthographic profile (`custom/profile.tsv`): a grapheme→IPA table replacing re-segmentation within a reviewed source scope; supplemental profiles use guarded whole-form keys. |
 | **segments** | Space-separated IPA tokens for a form, validated by merkmal. |
 | **segments source** | How the segments were obtained: `source` (valid source IPA), `profile` (orthographic profile), `resegmented` (re-tokenized from the form string), or `unclean` (failed validation). |
 | **tier** | Quality band: gold / silver / bronze / copper. Derived from source quality scoring. |

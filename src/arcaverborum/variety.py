@@ -638,12 +638,12 @@ def build_one(
     )
 
     concepticon_by_id = {cid: ccid for ccid, (cid, _) in concept_index.items()}
-    for source, supplement in reviewed_frames(vd.custom_dir, intake_forms, variety.glottocode,
+    for source, supplement, supplement_profile in reviewed_frames(vd.custom_dir, intake_forms, variety.glottocode,
                                               param_index, concepticon_by_id):
         out_rows.extend(emit_forms(
             supplement, av_id=av_id, variety=variety, transcription_source=source, cognate_source=source,
             forms_score=forms_score, tier=tier, param_index=param_index, concept_index=concept_index,
-            concept_labels=concept_labels, profile=None))
+            concept_labels=concept_labels, profile=supplement_profile))
 
     custom_forms_df = _read_custom(vd.custom_path("forms.csv"))
     out_rows.extend(_additive_custom_rows(

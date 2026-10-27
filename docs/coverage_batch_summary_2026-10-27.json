@@ -1,0 +1,144 @@
+{
+  "before": {
+    "varieties": 7312,
+    "forms": 2065761,
+    "source_forms": 1742468,
+    "profile_forms": 13208,
+    "supported_core_slots": 464521,
+    "mapped_core_slots": 538618,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "after": {
+    "varieties": 7312,
+    "forms": 2066017,
+    "source_forms": 1742698,
+    "profile_forms": 13234,
+    "supported_core_slots": 464736,
+    "mapped_core_slots": 538833,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "change": {
+    "varieties": 0,
+    "forms": 256,
+    "source_forms": 230,
+    "profile_forms": 26,
+    "supported_core_slots": 215,
+    "mapped_core_slots": 215,
+    "gled_primary_varieties": 0,
+    "core_collection_varieties": 0
+  },
+  "constructions": [
+    {
+      "av_id": "mia-media-lengua",
+      "before_forms": 3216,
+      "after_forms": 3216,
+      "before_supported_core": 106,
+      "after_supported_core": 124,
+      "source_counts": {
+        "dictmedialengua": 3216
+      }
+    },
+    {
+      "av_id": "zap-iquito",
+      "before_forms": 356,
+      "after_forms": 382,
+      "before_supported_core": 125,
+      "after_supported_core": 129,
+      "source_counts": {
+        "huntergatherer": 356,
+        "dictiquito": 26
+      }
+    },
+    {
+      "av_id": "gub-sikuani",
+      "before_forms": 279,
+      "after_forms": 383,
+      "before_supported_core": 76,
+      "after_supported_core": 147,
+      "source_counts": {
+        "huntergatherer": 279,
+        "hubercolumbian": 104
+      }
+    },
+    {
+      "av_id": "gub-hitnu",
+      "before_forms": 231,
+      "after_forms": 303,
+      "before_supported_core": 79,
+      "after_supported_core": 148,
+      "source_counts": {
+        "huntergatherer": 231,
+        "hubercolumbian": 72
+      }
+    },
+    {
+      "av_id": "kio-rio-grande-tewa",
+      "before_forms": 131,
+      "after_forms": 146,
+      "before_supported_core": 38,
+      "after_supported_core": 53,
+      "source_counts": {
+        "gled": 131,
+        "wiktionary": 15
+      }
+    },
+    {
+      "av_id": "may-yucatec-maya",
+      "before_forms": 117,
+      "after_forms": 129,
+      "before_supported_core": 38,
+      "after_supported_core": 50,
+      "source_counts": {
+        "gled": 117,
+        "wiktionary": 12
+      }
+    },
+    {
+      "av_id": "kio-taos-northern-tiwa",
+      "before_forms": 83,
+      "after_forms": 94,
+      "before_supported_core": 38,
+      "after_supported_core": 49,
+      "source_counts": {
+        "gled": 83,
+        "wiktionary": 11
+      }
+    },
+    {
+      "av_id": "alg-unami",
+      "before_forms": 36,
+      "after_forms": 44,
+      "before_supported_core": 34,
+      "after_supported_core": 42,
+      "source_counts": {
+        "gled": 36,
+        "wiktionary": 8
+      }
+    },
+    {
+      "av_id": "ath-western-apache",
+      "before_forms": 35,
+      "after_forms": 43,
+      "before_supported_core": 33,
+      "after_supported_core": 40,
+      "source_counts": {
+        "gled": 35,
+        "wiktionary": 8
+      }
+    }
+  ],
+  "new_varieties_admitted": 0,
+  "missing_language_screen": "No admissions: provenance, modality, identity or transcription evidence still requires review.",
+  "profile_review": {
+    "iquito_admitted": 26,
+    "iquito_held": 36,
+    "guarayu": "held"
+  },
+  "verification": {
+    "pytest_passed": 370,
+    "primary_constructions_preserved": 8,
+    "primary_forms_compared": 1268
+  }
+}

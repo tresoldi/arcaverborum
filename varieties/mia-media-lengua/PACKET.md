@@ -9,8 +9,8 @@ The source provides Phonological_Representation for all 3,216 entries. These are
 used directly, with ASCII stress apostrophes interpreted as the source's stress
 notation and removed in Arca's segmental canonicalization. Explicit word
 boundaries are retained. No Spanish/Quichua spelling-to-IPA rules are inferred.
-All 3,216 emitted forms have validated supplied segments; 157 reviewed sense
-mappings cover 126 concepts, including 106/161 basic concepts. Other definitions
+All 3,216 emitted forms have validated supplied segments; 177 reviewed sense
+mappings cover 144 concepts, including 124/161 basic concepts. Other definitions
 remain searchable with their original glosses and empty concept mappings.
 
 Original entry and sense IDs, complete source fields, phonological strings,
@@ -32,3 +32,9 @@ Source: https://github.com/dictionaria/medialengua
 Reproduce mappings with scripts/compile_dictionary_maps.py --write. Ingest new
 sources into staging; do not run subset ingest over active intake. The source
 adapter rejects drift in reviewed headwords, definitions and grammatical labels.
+
+Follow-up sense review (same date): twenty additional explicit source senses,
+checked with accompanying Spanish/Quichua translations, add eighteen supported
+core slots. Generic day, verbal rain/thunder and the noun labelled “heavy” remain
+unmapped to incompatible frozen concepts. See the dictionary-sense follow-up
+ledger; the lexical records and supplied segment strings are unchanged.
