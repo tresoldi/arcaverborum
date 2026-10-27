@@ -4,7 +4,7 @@ This guide is for a local checkout that already has the tracked repo state.
 Generated products under `varieties/*/generated/`, `intake/`, `raw/`, and
 `output/` are intentionally not part of the committed source of truth.
 
-Read this first, then use `docs/README.md` to choose the relevant design
+Read this first and check `docs/JOURNAL.md` for the latest handoff, then use `docs/README.md` to choose the relevant design
 specification.
 
 ## 1. Project Shape
@@ -111,34 +111,33 @@ python build.py concepts --mint
 
 ## 5. Current Baseline
 
-The latest local aggregate reviewed while reorganizing the docs contained:
+As of 2026-10-27, after commit `46813603`:
 
-* 7,308 varieties;
-* 2,007,699 forms;
-* 1,701,250 source-clean forms;
-* 5,682 profile-clean forms;
-* 195,357 resegmented forms;
-* 105,410 unclean forms;
-* 160 pinned selections;
-* 1,271 varieties whose selected cognate candidate differs from the
-  selected transcription source;
-* 236,246 forms without `concept_id`;
-* 369 varieties with zero mapped concepts.
+* 7,312 accepted varieties and 2,065,761 forms;
+* 1,742,468 source-supported and 13,208 profile-supported forms;
+* 464,521 supported and 538,618 mapped core-concept slots;
+* 892 Core-source collection varieties; 1,582 GLED primary selections.
 
-These numbers will change after rebuilds. Treat them as a recent snapshot,
-not a contract.
+The latest batch added 3,288 forms and 153 supported core slots without
+inflating variety counts. See [the journal](docs/JOURNAL.md) for the handoff,
+[the follow-up report](docs/AMERICAS_COVERAGE_FOLLOWUP_2026-10-27.md) for evidence,
+and its companion JSON for reproducible before/after metrics.
 
 ## 6. Source Policy
 
-The current implementation still uses a priority floor in
-`src/arcaverborum/selection.py`: Lexibank first, then GLED, then
-Wiktionary. Fallback picks never exceed `copper`.
+Prioritize better evidence and broader lexical coverage, with particular
+attention to the Americas, especially South America. Suitable languages without
+source IPA may receive documented orthographic profiles. Never treat spelling
+as IPA merely because an upstream field is named “Pronunciation”.
 
-The intended curation policy is different and is documented in
-`docs/CURATION_WORKFLOW_SPECIFICATION.md`: curated lexical sources first,
-Wiktionary as an important fallback and research entry point, and GLED only
-as last-resort scaffolding. Do not change source-priority behavior casually;
-the policy, docs, and rebuild consequences need to move together.
+An accepted construction may combine a primary source with individually reviewed
+supplements. Keep original source identities, raw readings, semantic decisions
+and cognacy scopes. Do not apply a primary source's profile or cognate judgments
+to a secondary source. The guarded supplementation ledger fails closed on drift.
+
+The explorer defaults to All accepted varieties. Its Core-source preset filters
+individual lexical rows; it is distinct from the 161-concept vocabulary filter
+and the archived Core 0.1.0 release.
 
 ## 7. Curation Rules
 
@@ -180,8 +179,16 @@ construction rather than the upstream source alone.
 * Phonology uses merkmal's `descriptive` system. Source segments are
   normalized, tone digits are merged onto their nucleus before validation,
   and invalid source segments are preserved as `unclean`.
-* Generated outputs are gitignored. Commit configs, custom curation files,
-  data registries, docs, tests, and code.
+* Intake and per-variety generated outputs are gitignored. The research web
+  catalog, family shards, manifest and bibliography under `web/data/` are tracked.
+  Pages deploys these committed artifacts; it does not rebuild lexical data.
+* Never ingest a subset directly into the active intake: ingestion replaces
+  tables. Stage first, then use `scripts/append_source_intake.py` for new source
+  namespaces. Existing namespaces require an explicit guarded migration.
+* For accepted-only rebuilds, select varieties with existing
+  `generated/forms.csv`; orphan configs are not accepted varieties.
+* Use `.venv/bin/python` or `uv run --no-sync` with the installed local merkmal
+  build. Both UTF8PROC normalization modes must be tested; do not add uv.lock.
 
 ## 9. Documentation Map
 

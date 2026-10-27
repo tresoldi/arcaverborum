@@ -2,7 +2,8 @@
 
 This document is the domain glossary and architectural map for agents and
 contributors working on the codebase. Read it before touching code; update
-it when the domain language changes.
+it when the domain language changes. Current session decisions and operational
+handoff are maintained in [docs/JOURNAL.md](docs/JOURNAL.md).
 
 
 ## What Arca Verborum is
