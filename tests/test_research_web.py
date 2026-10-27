@@ -49,17 +49,22 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
                 Segments='a', Segments_Source='profile',
                 transcription_source='source', source_form_id='one', source_parameter_id='p',
                 Cognacy='source_1;source_2', Cognate_Source='expert_reference', cognate_source='source')
-    write_csv(aggregate / 'forms.csv', [base, {**base, 'source_form_id': 'two', 'Segments_Source': 'unclean'}])
+    write_csv(aggregate / 'forms.csv', [base, {**base, 'source_form_id': 'two', 'Segments_Source': 'unclean'},
+        {**base, 'source_form_id': 'supplement', 'transcription_source': 'supplement',
+         'cognate_source': 'supplement', 'Cognacy': '', 'concept_id': 'phy-water', 'Segments_Source': 'source'}])
     output = tmp_path / 'web/data'
     manifest = builder.build(tmp_path, output)
-    assert manifest['counts']['forms'] == 2
+    assert manifest['counts']['forms'] == 3
     assert len(manifest['fields']) == len({f.lower() for f in manifest['fields']})
     catalog = json.loads(gzip.decompress((output / 'catalog.json.gz').read_bytes()))
     variety = catalog['languages'][0]
-    assert variety['forms'] == 2
+    assert variety['forms'] == 3
     assert variety['supported_core'] == 1  # Synonyms must not inflate concept coverage.
-    assert variety['statuses'] == {'profile': 1, 'unclean': 1}
-    assert variety['concept_ids'] == ['bod-head']
+    assert variety['statuses'] == {'profile': 1, 'unclean': 1, 'source': 1}
+    assert variety['core_metrics']['forms'] == 2
+    assert variety['core_metrics']['concept_ids'] == ['bod-head']
+    assert variety['source_counts'] == {'source': 2, 'supplement': 1}
+    assert variety['concept_ids'] == ['bod-head', 'phy-water']
     assert variety['parent_av_id'] == 'parent'
     assert variety['countries'] == 'XY'
     assert variety['glottolog_family_id'] == 'testfamily'

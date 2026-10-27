@@ -113,6 +113,10 @@ def aggregate_all(
     for av_id in av_ids_built:
         gen = varieties_root / av_id / "generated" / "forms.csv"
         df = pd.read_csv(gen, dtype=str, keep_default_na=False)
+        # Optional evidence fields may be absent in older generated slices.
+        # Align by column name before appending; positional append corrupts a
+        # mixed-schema aggregate after a partial rebuild.
+        df = df.reindex(columns=FORMS_OUT_FIELDS, fill_value="")
         if df.empty:
             continue
         df.to_csv(out_forms, index=False, mode="w" if first else "a", header=first)

@@ -15,7 +15,7 @@ import pandas as pd
 FORMS_OUT_FIELDS = (
     "av_id", "Glottocode", "Variety_Name",
     "concept_id", "concept_label", "Concepticon_ID",
-    "Value", "Form", "Segments", "Segments_Source",
+    "Value", "Form", "Segments", "Segments_Source", "raw_ipa", "pronunciation_tags", "source_pronunciation_id",
     "Cognacy", "canonical_cognate_id",
     "Alignment", "Morpheme_Index", "Segment_Slice", "Doubt",
     "Cognate_Detection_Method", "Cognate_Source",

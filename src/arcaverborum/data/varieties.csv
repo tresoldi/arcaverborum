@@ -2419,7 +2419,7 @@ ine-bishnupriya-manipuri,bish1244,bpy,Bishnupriya Manipuri,,Indo-European,Eurasi
 ine-bislama,bisl1239,bis,Bislama,,Indo-European,Papunesia,-15.4,166.89,true,
 ine-bosnian-standard,bosn1245,bos,Bosnian Standard,,Indo-European,Eurasia,43.859,17.046,true,
 ine-braj,braj1242,bra,Braj,,Indo-European,Eurasia,26.4758,78.0813,true,
-ine-brazilian-portuguese,braz1246,,Brazilian Portuguese,,Indo-European,Eurasia,39.91,-8.1,true,
+ine-brazilian-portuguese,braz1246,,Brazilian Portuguese,ine-portuguese,Indo-European,South America,,,true,Brazil-tagged pronunciation supplementation; exact braz1246 dialect under port1283. IECOR deliberately places this sample off Portugal for map framing; that artificial point and inherited catalog coordinates are suppressed until actual sample geography is documented.
 ine-breton,bret1244,bre,Breton,,Indo-European,Eurasia,48.2452,-3.78934,true,
 ine-brokskat,brok1247,bkk,Brokskat,,Indo-European,Eurasia,34.5308,76.6026,true,
 ine-bugurdzi,bugu1249,,Bugurdži,,Indo-European,Eurasia,42.67,21.17,true,

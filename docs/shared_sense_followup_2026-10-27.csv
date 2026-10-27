@@ -1,0 +1,41 @@
+Parameter_ID,status,action,reviewed_languages
+wikt_all_det_4c1529d5,new consensus,unmap,ine-asturian-leonese-cantabrian;ine-brazilian-portuguese
+wikt_bark_noun_7b9b386b,retained,map,ine-asturian-leonese-cantabrian;ine-galician
+wikt_bird_noun_cf2e5bff,retained,map,ine-aragonese;ine-galician
+wikt_blood_noun_4f6a82b9,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_bone_noun_0f6bb6ae,retained,map,ine-asturian-leonese-cantabrian;ine-galician
+wikt_breast_noun_7ca0d701,retained,map,ine-asturian-leonese-cantabrian;ine-galician
+wikt_cold_adj_587ea78f,retained,map,ine-aragonese;ine-asturian-leonese-cantabrian;ine-galician
+wikt_cold_adj_b6ebfd02,retained,unmap,ine-aragonese;ine-asturian-leonese-cantabrian;ine-galician
+wikt_father_noun_8c67ab0d,new consensus,unmap,ine-brazilian-portuguese;ine-galician
+wikt_foot_noun_a2a67d8d,new consensus,unmap,alg-yurok;ine-galician
+wikt_fruit_noun_e2470a61,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_green_adj_0ad08abc,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_horn_noun_f12b6dd4,retained,map,afa-afar;afa-saho;afa-somali;ine-galician
+wikt_human_noun_2bc0ec05,retained,map,afa-saho;afa-somali;ine-aragonese;ine-brazilian-portuguese;ine-galician
+wikt_i_noun_a07bf211,retained,map,ine-asturian-leonese-cantabrian;ine-galician
+wikt_leg_noun_d0fbbe37,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_long_adj_b267a230,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_man_noun_9914ec6b,retained,map,afa-saho;afa-somali;ine-aragonese;ine-asturian-leonese-cantabrian;ine-brazilian-portuguese;ine-galician;ine-pannonian-ruthenian
+wikt_old_adj_2a364306,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_one_det_fbba665c,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_one_pron_26d3633c,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_one_pron_daf56f64,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_person_noun_abc420d9,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_person_noun_ae727786,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_red_adj_94144abf,retained,unmap,afa-somali;ine-galician
+wikt_right_adj_59b47373,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_sky_noun_eda0ce51,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_small_adj_dbba921c,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_stand_verb_6a209712,retained,map,afa-afar;afa-saho;ine-galician
+wikt_that_adv_436df6e0,new consensus,unmap,ine-brazilian-portuguese;ine-galician
+wikt_that_adv_68597c79,new consensus,unmap,ine-brazilian-portuguese;ine-galician
+wikt_that_conj_7a64f776,retained,unmap,ine-galician;ine-pannonian-ruthenian
+wikt_that_pron_77bc06c5,new consensus,unmap,ine-brazilian-portuguese;ine-galician
+wikt_thunder_noun_547bd8a5,new consensus,unmap,ine-brazilian-portuguese;ine-galician
+wikt_thunder_noun_66e23c69,new consensus,unmap,ine-brazilian-portuguese;ine-galician
+wikt_what_det_2cd23ac7,new consensus,unmap,ine-asturian-leonese-cantabrian;ine-brazilian-portuguese
+wikt_who_pron_77031a13,new consensus,unmap,ine-asturian-leonese-cantabrian;ine-brazilian-portuguese
+wikt_wing_noun_c150546c,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_yesterday_noun_52d99d0e,retained,unmap,ine-asturian-leonese-cantabrian;ine-galician
+wikt_you_pron_cdaef398,retained,map,afa-afar;afa-somali;ine-aragonese;ine-brazilian-portuguese;ine-galician

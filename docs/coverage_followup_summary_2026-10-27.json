@@ -1,0 +1,133 @@
+{
+  "before": {
+    "varieties": 7312,
+    "forms": 2062473,
+    "source_forms": 1739178,
+    "profile_forms": 12810,
+    "supported_core_slots": 464368,
+    "mapped_core_slots": 538457,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "after": {
+    "varieties": 7312,
+    "forms": 2065761,
+    "source_forms": 1742468,
+    "profile_forms": 13208,
+    "supported_core_slots": 464521,
+    "mapped_core_slots": 538618,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "change": {
+    "varieties": 0,
+    "forms": 3288,
+    "source_forms": 3290,
+    "profile_forms": 398,
+    "supported_core_slots": 153,
+    "mapped_core_slots": 161,
+    "gled_primary_varieties": 0,
+    "core_collection_varieties": 0
+  },
+  "constructions": [
+    {
+      "av_id": "alg-yurok",
+      "before_forms": 62,
+      "after_forms": 85,
+      "before_supported_core": 38,
+      "after_supported_core": 58,
+      "source_counts": {
+        "gled": 62,
+        "wiktionary": 23
+      }
+    },
+    {
+      "av_id": "mus-chickasaw",
+      "before_forms": 39,
+      "after_forms": 53,
+      "before_supported_core": 37,
+      "after_supported_core": 50,
+      "source_counts": {
+        "gled": 39,
+        "wiktionary": 14
+      }
+    },
+    {
+      "av_id": "nub-xavante",
+      "before_forms": 46,
+      "after_forms": 47,
+      "before_supported_core": 34,
+      "after_supported_core": 35,
+      "source_counts": {
+        "gled": 46,
+        "wiktionary": 1
+      }
+    },
+    {
+      "av_id": "nub-apinaye",
+      "before_forms": 40,
+      "after_forms": 41,
+      "before_supported_core": 35,
+      "after_supported_core": 36,
+      "source_counts": {
+        "gled": 40,
+        "wiktionary": 1
+      }
+    },
+    {
+      "av_id": "nub-xerente",
+      "before_forms": 38,
+      "after_forms": 39,
+      "before_supported_core": 35,
+      "after_supported_core": 36,
+      "source_counts": {
+        "gled": 38,
+        "wiktionary": 1
+      }
+    },
+    {
+      "av_id": "ine-brazilian-portuguese",
+      "before_forms": 170,
+      "after_forms": 204,
+      "before_supported_core": 128,
+      "after_supported_core": 149,
+      "source_counts": {
+        "iecor": 170,
+        "wiktionary": 34
+      }
+    },
+    {
+      "av_id": "ine-asturian-leonese-cantabrian",
+      "before_forms": 9715,
+      "after_forms": 9715,
+      "before_supported_core": 92,
+      "after_supported_core": 82,
+      "source_counts": {
+        "wiktionary": 9715
+      }
+    },
+    {
+      "av_id": "mia-media-lengua",
+      "before_forms": 2,
+      "after_forms": 3216,
+      "before_supported_core": 0,
+      "after_supported_core": 106,
+      "source_counts": {
+        "dictmedialengua": 3216
+      }
+    }
+  ],
+  "accepted_scoped_pronunciation_variants": 34,
+  "cognacy_intake_repairs": {
+    "abvdphilippines": 38019,
+    "chacontukanoan": 1542,
+    "uralex": 10106
+  },
+  "accepted_rows_with_repaired_cognacy_scope": {
+    "abvdphilippines": 31010,
+    "chacontukanoan": 141,
+    "uralex": 9968
+  },
+  "primary_gled_retention_verified": 5,
+  "compressed_artifact_hashes_verified": 400
+}

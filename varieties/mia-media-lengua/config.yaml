@@ -4,18 +4,21 @@ glottocode: medi1245
 family: Mixed Language
 macroarea: South America
 sources:
-  transcription: wiktionary
-  cognates: wiktionary
+  transcription: dictmedialengua
+  cognates: dictmedialengua
+  source_language_id: dictmedialengua_mue
 extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
+  concept_map: true
   profile: false
 scoring:
-  forms_score: 0.2108
-  cognates_score: 0.2
-  tier: copper
-pinned: false
+  forms_score: 0.6858
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.21) [fallback p3]; cognates=wiktionary (0.20)'
+notes: Reviewed Dictionaria Media Lengua source; supplied Phonological_Representation
+  used, no spelling-to-IPA inference. Entry/sense evidence and conservative reviewed
+  concept mappings retained. See PACKET.md.

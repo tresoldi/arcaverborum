@@ -40,3 +40,13 @@ def test_raw_numeric_labels_do_not_create_cross_meaning_cognate_sets():
     assert set(merged.iloc[0].Cognacy.split(';')).isdisjoint(merged.iloc[1].Cognacy.split(';'))
     assert '"Cognacy_Raw": "1,64"' in merged.iloc[0].Comment
     assert raw.iloc[0].Cognacy == '1,64'
+
+
+def test_unmatched_structured_rows_do_not_erase_existing_uncertainty():
+    from arcaverborum.ingest import _merge_cognates
+    raw = pd.DataFrame([dict(ID='one', Cognacy='', Doubt='true', Alignment='original'),
+                        dict(ID='two', Cognacy='', Doubt='', Alignment='')])
+    judgments = pd.DataFrame([dict(Form_ID='two', Cognateset_ID='source_hand-1', Doubt='false', Alignment='a')])
+    result = _merge_cognates(raw, judgments, 'source')
+    assert result.iloc[0].Doubt == 'true' and result.iloc[0].Alignment == 'original'
+    assert result.iloc[1].Doubt == 'false'

@@ -18,7 +18,10 @@ No pin or source change is requested at this stage.
 
 The candidate gains 71 core concepts and loses ten: `bod-blood`, `bod-die`,
 `bod-horn`, `bod-skin`, `bod-tooth`, `kin-i`, `kin-thou`, `mot-come`,
-`phy-fire`, `sns-see`. Source identity is `wikt_hig`, Glottocode `higa1237`.
+`phy-fire`, `sns-see`. Source identity is `wikt_mba`, Glottocode `higa1237`.
+The earlier identifier `wikt_hig` was a documentation error: the cached source
+and Glottolog tables identify it as Kamwe (kamw1239), a different language.
+No accepted source switch or pronunciation profile uses that erroneous identifier.
 These figures measure lexical availability, not validated pronunciations.
 
 ## Why a general profile is not yet adequate

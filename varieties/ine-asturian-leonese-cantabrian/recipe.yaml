@@ -6,7 +6,7 @@ review:
   date: '2026-10-27'
 quality:
   tier: bronze
-  forms_score: 0.6682
+  forms_score: 0.6806
   cognates_score: 0.1243
   pinned: true
 construction:
@@ -14,14 +14,15 @@ construction:
     broad phonemic profile.
   lexical_base:
     source: wiktionary
-    rationale: Supported core increases from 37 to 92 after English-sense review;
-      no Leonese/Cantabrian members pooled.
+    rationale: Named Asturian construction, without pooling Leonese/Cantabrian. Follow-up
+      source audit corrects unsupported final-r readings; 82 supported core versus
+      37 in original GLED.
   transcription:
     strategy: profile
     profile: custom/profile.tsv
     overrides: none
-    notes: 166 source IPA, 3548 profile-supported, 6001 unresolved. Source IPA takes
-      precedence; stress remains in its raw evidence, not canonical segments.
+    notes: 166 supplied IPA, 3946 profile-supported, 5603 unresolved. Final-r ambiguity
+      withheld after regression fix; see PACKET.md.
   concepts:
     mapping: corrected
     core_coverage: 142/161
@@ -41,8 +42,9 @@ provenance:
   bibliography:
   - wiktionary
 tradeoffs:
-  gains: 9715 forms and 92 supported core concepts versus 46 GLED forms / 37 core.
-  known_losses: GLED expert/source comparisons not transferred; incomplete profile
-    leaves 6001 rows unresolved.
+  gains: 9715 lexical forms; 82 supported core, with +398 profile-supported forms
+    versus the preliminary profile.
+  known_losses: 'Final-r readings now withheld: preliminary core92 revised to82; no
+    GLED cognacy transferred.'
 notes: ALLA grammar 2001 pp.15–16,23–24,36–48. Broad phonemic subset; specialist lexical
   validation pending. See PACKET.md.

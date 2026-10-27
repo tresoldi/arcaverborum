@@ -17,7 +17,9 @@ and overlays its custom data, runs phonology normalization, and writes
 from __future__ import annotations
 
 import csv
+import hashlib
 import logging
+import re
 import sqlite3
 from dataclasses import dataclass
 from datetime import date
@@ -32,6 +34,8 @@ from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load
 from arcaverborum.fsutil import atomic_path, write_text_atomic
 from arcaverborum.intake_db import IntakeDB
 from arcaverborum.phonology import load_profile, normalize_segments
+from arcaverborum.supplements import input_keys as supplemental_keys
+from arcaverborum.supplements import reviewed_frames
 
 logger = logging.getLogger(__name__)
 
@@ -405,6 +409,9 @@ def _additive_custom_rows(
             "Form": form,
             "Segments": segments,
             "Segments_Source": seg_source,
+            "raw_ipa": "",
+            "pronunciation_tags": row.get('_pronunciation_tags', ''),
+            "source_pronunciation_id": "",
             "Cognacy": str(row.get("Cognacy", "")).strip(),
             "canonical_cognate_id": "",
             "Alignment": "",
@@ -480,6 +487,14 @@ def emit_forms(
         src_segments = row.get("Segments", "") or ""
         src_form = row.get("Form", "") or row.get("Value", "") or ""
         segments, seg_source = normalize_segments(src_segments, src_form, profile)
+        raw_ipa = row.get('_raw_ipa', '')
+        if not raw_ipa and transcription_source == 'wiktionary':
+            match = re.search(r'Pronunciation IPA ([^;]+);', str(row.get('Comment', '')))
+            raw_ipa = match.group(1) if match else ''
+        pronunciation_id = row.get('_source_pronunciation_id', '')
+        if raw_ipa and not pronunciation_id:
+            key = '|'.join([str(row.get('Language_ID', '')), src_form, raw_ipa])
+            pronunciation_id = 'ipa-' + hashlib.sha256(key.encode()).hexdigest()[:16]
         out_rows.append({
             "av_id": av_id,
             "Glottocode": variety.glottocode,
@@ -491,6 +506,9 @@ def emit_forms(
             "Form": row.get("Form", ""),
             "Segments": segments,
             "Segments_Source": seg_source,
+            "raw_ipa": raw_ipa,
+            "pronunciation_tags": row.get('_pronunciation_tags', ''),
+            "source_pronunciation_id": pronunciation_id,
             "Cognacy": row.get("Cognacy", ""),
             "canonical_cognate_id": "",
             "Alignment": row.get("Alignment", ""),
@@ -619,6 +637,14 @@ def build_one(
         profile=profile,
     )
 
+    concepticon_by_id = {cid: ccid for ccid, (cid, _) in concept_index.items()}
+    for source, supplement in reviewed_frames(vd.custom_dir, intake_forms, variety.glottocode,
+                                              param_index, concepticon_by_id):
+        out_rows.extend(emit_forms(
+            supplement, av_id=av_id, variety=variety, transcription_source=source, cognate_source=source,
+            forms_score=forms_score, tier=tier, param_index=param_index, concept_index=concept_index,
+            concept_labels=concept_labels, profile=None))
+
     custom_forms_df = _read_custom(vd.custom_path("forms.csv"))
     out_rows.extend(_additive_custom_rows(
         custom_forms_df, av_id, variety, forms_score, tier,
@@ -737,6 +763,7 @@ def update_many(
             for input_code in {gc.lower(), *((cfg.get("sources") or {}).get("source_glottocodes", []))}:
                 wanted.add((input_code.strip().lower(), (cfg.get("sources") or {}).get("transcription", "")))
             wanted.add((gc.lower(), FALLBACK_SOURCE))  # see _slice_component
+            wanted.update(supplemental_keys(vd.custom_dir))
         # Few varieties: one indexed query per slice. Many: one sequential
         # scan is cheaper. Both give the same digest for every wanted key.
         slice_hashes = tracking.compute_slice_hashes_from_db(
@@ -759,6 +786,8 @@ def update_many(
         src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
         gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
         slice_h = _slice_component(cfg, gc, slice_hashes)
+        for source_gc, source in sorted(supplemental_keys(vd.custom_dir)):
+            slice_h += f"|supplement:{source_gc}:{source}:" + slice_hashes.get((source_gc, source), "")
         digest, components = tracking.fingerprint(
             tracking.config_component(cfg),
             tracking.custom_component(vd.custom_dir),
@@ -799,6 +828,7 @@ def update_many(
         for batch_gc in batch_gcs:
             for batch_aid, _, _ in gc_to_avids[batch_gc]:
                 batch_cfg = load_config(VarietyDir(av_id=batch_aid, root=varieties_root / batch_aid))
+                input_gcs.update(code for code, _ in supplemental_keys(varieties_root / batch_aid / "custom"))
                 input_gcs.update(code.strip().lower() for code in
                                  (batch_cfg.get("sources") or {}).get("source_glottocodes", []))
         intake_df = _load_intake_for_glottocodes(existing_paths, input_gcs)

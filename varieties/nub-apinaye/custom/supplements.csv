@@ -1,0 +1,2 @@
+source,source_form_id,source_language_id,source_glottocode,evidence_sha256,expected_source_concepticon_id,concept_id,decision,mapping_decision,rationale
+wiktionary,wikt_565765,wikt_apn,apin1244,2ceeef71deea82aaeea47005e1b5015654172f0bf749b3be7d72a1d0f95eeb53,1220,bod-tail,admit,retain,Explicit English sense matches the frozen concept definition; supplied unqualified IPA and exact source member retained. This is not independent native lexical certification.

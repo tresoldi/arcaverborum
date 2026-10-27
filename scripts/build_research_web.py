@@ -61,6 +61,12 @@ def build(root=ROOT, output=None):
         for row in read(path):
             language_labels[row['ID']] = [row.get('Name', ''), row.get('Glottolog_Name', '')]
     aliases = defaultdict(set)
+    source_counts = defaultdict(Counter)
+    collection_counts = Counter()
+    collection_status = defaultdict(Counter)
+    collection_seen = defaultdict(set)
+    collection_core = defaultdict(set)
+    collection_supported = defaultdict(set)
     parameters = {}
     for path in (root / 'intake').glob('*/parameters_raw.csv'):
         for row in read(path):
@@ -68,14 +74,15 @@ def build(root=ROOT, output=None):
     reviews = {}
     for custom in (root / 'varieties').glob('*/custom'):
         av = custom.parent.name
-        for filename in ['concept_map.csv', 'core_review.csv', 'form_review.csv']:
+        for filename in ['concept_map.csv', 'core_review.csv', 'form_review.csv', 'supplements.csv']:
             path = custom / filename
             if not path.exists():
                 continue
             for record in read(path):
                 key = record.get('source_form_id') or record.get('Parameter_ID')
                 if key:
-                    reviews[av, key] = (record.get('decision') or record.get('action') or 'mapping override',
+                    reviews[av, key] = (record.get('mapping_decision') or record.get('decision')
+                                        or record.get('action') or 'mapping override',
                                         record.get('rationale') or record.get('notes', ''),
                                         record.get('expected_form') or record.get('source_form', ''))
     shared_path = root / 'src/arcaverborum/data/wiktionary_sense_overrides.csv'
@@ -108,7 +115,7 @@ def build(root=ROOT, output=None):
                               'is_core_concept', 'License', 'source_gloss', 'cognate_sets',
                               'mapping_review', 'mapping_note']
                 row['cognate_evidence_source'] = row.pop('Cognate_Source', '')
-                row['ID'] = f"{row['av_id']}:{row['source_form_id']}:{index}"
+                row['ID'] = f"{row['av_id']}:{row['source_form_id']}:{row.get('source_pronunciation_id') or index}"
                 row['is_core_concept'] = 'true' if row['concept_id'] in core else 'false'
                 meta = sources.get(row['transcription_source'], {})
                 row['License'] = meta.get('License', '') or 'Not recorded; consult upstream source terms'
@@ -130,6 +137,16 @@ def build(root=ROOT, output=None):
                 aliases[av].update(label for label in language_labels.get(row.get('source_language_id', ''), [])
                                    if label)
                 counts[av] += 1
+                source_counts[av][row['transcription_source']] += 1
+                if row['transcription_source'] in core_sources:
+                    collection_counts[av] += 1
+                    collection_status[av][row['Segments_Source']] += 1
+                    if row['concept_id']:
+                        collection_seen[av].add(row['concept_id'])
+                    if row['concept_id'] in core:
+                        collection_core[av].add(row['concept_id'])
+                        if row['Segments_Source'] in {'source', 'profile'}:
+                            collection_supported[av].add(row['concept_id'])
                 statuses[av][row['Segments_Source']] += 1
                 if row['concept_id']:
                     seen[av].add(row['concept_id'])
@@ -167,13 +184,20 @@ def build(root=ROOT, output=None):
         av = row['av_id']
         row.update(forms=counts[av], mapped_concepts=len(seen[av]), core_concepts=len(core_seen[av]),
                    supported_core=len(supported[av]), statuses=dict(statuses[av]))
+        row['source_counts'] = dict(source_counts[av])
+        row['core_collection'] = bool(collection_counts[av])
+        row['core_metrics'] = dict(forms=collection_counts[av], mapped_concepts=len(collection_seen[av]),
+            core_concepts=len(collection_core[av]), supported_core=len(collection_supported[av]),
+            statuses=dict(collection_status[av]), concept_ids=sorted(collection_seen[av]),
+            core_ids=sorted(collection_core[av]), supported_ids=sorted(collection_supported[av]))
         row['aliases'] = sorted(aliases[av])
         row['concept_ids'] = sorted(seen[av])
         row['core_ids'] = sorted(core_seen[av])
         row['supported_ids'] = sorted(supported[av])
         row['packet_url'] = ('https://github.com/tresoldi/arcaverborum/blob/master/varieties/' + av + '/PACKET.md'
                              if (root / 'varieties' / av / 'PACKET.md').exists() else '')
-    catalog = dict(languages=languages, concepts=concepts, sources=list(sources.values()), core=sorted(core))
+    catalog = dict(languages=languages, concepts=concepts, sources=list(sources.values()),
+                   core=sorted(core), core_sources=sorted(core_sources))
     catalog_meta = write_json(output / 'catalog.json.gz', catalog)
     bib = aggregate / 'sources.bib'
     if bib.exists():

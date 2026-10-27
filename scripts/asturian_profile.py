@@ -1,7 +1,9 @@
 """Conservative standard-Asturian broad phonemic profile (ALLA 2001).
 
-Excludes loans/foreign letters, dialect signs, ambiguous x/y, vowel sequences,
-and non-intervocalic noninitial r. No surface allophones or stress are inferred.
+Excludes loans/foreign letters, dialect signs, ambiguous x/y and ambiguous glide sequences,
+and unspecified rhotics. Documented onset clusters, post-l/n/s trills and
+open-vowel/marked-weak-vowel hiatus are admitted; remaining glides are excluded.
+No surface allophones or stress are inferred.
 Source-supplied IPA always takes precedence over this incomplete profile.
 """
 from __future__ import annotations
@@ -20,7 +22,8 @@ SIMPLE = dict(zip('abdefgilmnñopstuvz',
 
 
 def reading(form):
-    word = unicodedata.normalize('NFC', form.lower())
+    marked = unicodedata.normalize('NFC', form.lower())
+    word = marked
     word = word.translate(str.maketrans('áéíóú', 'aeiou'))
     if not word or any(c not in SIMPLE and c not in 'chqr' for c in word):
         return ''
@@ -58,16 +61,20 @@ def reading(form):
         elif c == 'r':
             if i == 0:
                 out.append('r')
-            elif word[i-1] in 'aeiou' and next_c in 'aeiou':
+            elif next_c and word[i-1] in 'aeiouptcbdgz' and next_c in 'aeiou':
                 out.append('ɾ')
+            elif next_c and word[i-1] in 'lns' and next_c in 'aeiou':
+                out.append('r')
             else:
                 return ''
         else:
-            out.append(SIMPLE[c])
+            out.append(marked[i] if marked[i] in 'íú' else SIMPLE[c])
         i += 1
-    if any(a in 'aeiou' and b in 'aeiou' for a, b in zip(out, out[1:])):
-        return ''
-    result = ' '.join(out)
+    for a, b in zip(out, out[1:]):
+        if a in 'aeiouíú' and b in 'aeiouíú':
+            if not ((a in 'aeo' and b in 'aeo') or a in 'íú' or b in 'íú'):
+                return ''
+    result = ' '.join(out).translate(str.maketrans('íú', 'iu'))
     return result if result and segments_are_valid(result) else ''
 
 
@@ -92,7 +99,8 @@ def main():
         with (path / 'profile.tsv').open('w') as f:
             f.write('Grapheme\tIPA\tnotes\n')
             for form, segments in sorted(profile.items()):
-                f.write(f'^{form}$\t{segments}\tALLA 2001 pp.15–16,23–24,36–48; broad phonemic subset\n')
+                f.write(f'^{form}$\t{segments}\tALLA 2001 pp.15–16,23–24,36–48,51; '
+                        'broad phonemic subset; hiatus/onset-r reviewed\n')
         with (path / 'profile_review.csv').open('w', newline='') as f:
             w = csv.DictWriter(f, fieldnames=list(review[0]), lineterminator='\n')
             w.writeheader()

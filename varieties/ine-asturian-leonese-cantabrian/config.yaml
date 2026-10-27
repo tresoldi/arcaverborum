@@ -14,7 +14,7 @@ extensions:
   concept_map: true
   profile: true
 scoring:
-  forms_score: 0.6682
+  forms_score: 0.6806
   cognates_score: 0.1243
   tier: bronze
 pinned: true

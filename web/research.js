@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261027-3';
+const VERSION = 'research-20261027-4';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -51,9 +51,15 @@ function link(text,patch,cls='') { return `<a class="${cls}" href="${esc(href(pa
 function safeURL(url) { return /^https?:\/\//i.test(url||'') ? url : ''; }
 function external(text,url) { const valid=safeURL(url); return valid?`<a href="${esc(valid)}" target="_blank" rel="noopener">${esc(text)} ↗</a>`:esc(text); }
 function options(items,current,empty='All') { return `<option value="">${esc(empty)}</option>`+items.map(item=>`<option value="${esc(item)}" ${item===current?'selected':''}>${esc(item)}</option>`).join(''); }
+function collectionLanguage(l) { return state.collection==='core'&&l?.core_metrics?{...l,...l.core_metrics}:l; }
+function coreSourceCondition(alias='f') {
+  if(state.collection!=='core')return '1';
+  const names=(catalog.core_sources||[]).map(s=>"'"+s.replaceAll("'","''")+"'");
+  return names.length?`${alias?alias+'.':''}transcription_source IN (${names.join(',')})`:'0';
+}
 function scopedLanguages() {
   const term=state.search.toLocaleLowerCase();
-  return catalog.languages.filter(l=>(state.collection!=='core'||l.core_collection)&&(!state.family||(l.Family||'Unclassified')===state.family)&&
+  return catalog.languages.map(collectionLanguage).filter(l=>(state.collection!=='core'||l.core_collection)&&(!state.family||(l.Family||'Unclassified')===state.family)&&
     (!state.area||l.Macroarea===state.area)&&(!state.tier||l.tier===state.tier)&&Number(l.supported_core)>=Number(state.minCore||0)&&
     (!state.status||(state.status==='usable'?(l.statuses.source||l.statuses.profile):(l.statuses[state.status]||0)))&&
     (!term||[l.Name,l.av_id,l.Glottocode,l.iso639p3,l.notes,...(l.aliases||[])].some(v=>String(v||'').toLocaleLowerCase().includes(term))));
@@ -62,6 +68,7 @@ function languageCondition(alias='f') {
   const ids=scopedLanguages().map(l=>l.av_id);
   if(!ids.length) return {sql:'0',params:[]};
   let sql=`${alias}.av_id IN (${ids.map(()=>'?').join(',')})`,params=[...ids];
+  sql+=` AND ${coreSourceCondition(alias)}`;
   if(state.vocab==='core') sql+=` AND ${alias}.is_core_concept='true'`;
   if(state.status==='usable') sql+=` AND ${alias}.Segments_Source IN ('source','profile')`;
   else if(state.status) { sql+=` AND ${alias}.Segments_Source=?`; params.push(state.status); }
@@ -120,7 +127,7 @@ function formColumns() { return [
   {key:'av_id',label:'Variety',render:r=>link(languages.get(r.av_id)?.Name||r.av_id,{view:'variety',id:r.av_id,page:0,columns:[]})},
   {key:'cognate_sets',label:'Cognate sets',render:cognatesCell},
   {key:'Cognate_Detection_Method',label:'Cognate evidence',optional:true},
-  {key:'transcription_source',label:'Source',optional:true},
+  {key:'transcription_source',label:'Sources',optional:true,render:l=>Object.keys(l.source_counts||{[l.transcription_source]:0}).filter(s=>state.collection!=='core'||catalog.core_sources.includes(s)).map(sourceLink).join(' · ')},
   {key:'Doubt',label:'Source doubt flag',optional:true},
   {key:'Loan',label:'Source loan flag',optional:true},
   {key:'source_gloss',label:'Original source gloss',optional:true},
@@ -187,7 +194,7 @@ function showVarieties() {
       {key:state.vocab==='core'?'core_concepts':'mapped_concepts',label:state.vocab==='core'?'Mapped core concepts':'Mapped concepts'}, {key:'Family',label:'Family'},
       {key:'forms',label:'Forms',optional:true}, {key:'core_concepts',label:'Mapped core',optional:true},
       {key:'Macroarea',label:'Macroarea',optional:true}, {key:'tier',label:'Tier',optional:true},
-      {key:'transcription_source',label:'Source',optional:true}, {key:'Glottocode',label:'Glottocode',optional:true},
+      {key:'transcription_source',label:'Sources',optional:true,render:l=>Object.keys(l.source_counts||{[l.transcription_source]:0}).filter(s=>state.collection!=='core'||catalog.core_sources.includes(s)).map(sourceLink).join(' · ')}, {key:'Glottocode',label:'Glottocode',optional:true},
     ],rows,{select:true})}`;
   debouncedInput('#varietysearch','search');
 }
@@ -227,9 +234,9 @@ function sourceMetadata(key,roles) {
     ['License',present(source.License)],['Upstream source',external(source.URL||'Not recorded',source.URL)]])}</section>`;
 }
 async function showVariety(token) {
-  const l=languages.get(state.id);if(!l)throw Error('Variety not found in this build.');
+  const l=collectionLanguage(languages.get(state.id));if(!l)throw Error('Variety not found in this build.');
   await ensure([l.Family||'Unclassified']);if(token!==epoch)return;
-  let sql='SELECT * FROM forms f WHERE av_id=?',params=[l.av_id];
+  let sql='SELECT * FROM forms f WHERE av_id=? AND '+coreSourceCondition('f'),params=[l.av_id];
   if(state.vocab==='core')sql+=" AND is_core_concept='true'";
   if(state.status==='usable')sql+=" AND Segments_Source IN ('source','profile')";
   else if(state.status){sql+=' AND Segments_Source=?';params.push(state.status);}
@@ -254,7 +261,7 @@ async function showVariety(token) {
       ['Catalog classification',l.glottolog_family_id?external(l.glottolog_family_id,'https://glottolog.org/resource/languoid/id/'+l.glottolog_family_id):'Not recorded']])}
       <p class="sub">Documentation dates are catalog annotations, not necessarily dates of the lexical sample. Historical labels above describe the catalog name.</p></section></div>
     <section class="metadata-card"><h3>Lexical and transcription evidence</h3>
-      <p>${Object.entries(l.statuses).map(([status,n])=>`${esc(statusNames[status]||status)}: <strong>${fmt(n)}</strong>`).join(' · ')} (whole variety)</p>
+      <p>${Object.entries(l.statuses).map(([status,n])=>`${esc(statusNames[status]||status)}: <strong>${fmt(n)}</strong>`).join(' · ')} (whole variety in the current collection)</p>
       ${metadataList([['Forms with cognate assignments',`${fmt(e.assigned)} / ${fmt(rows.length)} in this view`],
         ['Source-scoped cognate sets',fmt(e.sets.size)],['Forms with multiple assignments',fmt(e.multiple)],
         ['Source-flagged loans',fmt(e.loans)],['Source-flagged doubt',fmt(e.doubts)],
@@ -267,7 +274,7 @@ async function showVariety(token) {
     <details class="metadata-card" id="segmentinventory"><summary>Observed segment tokens (${e.inventory.size})</summary>
       <p>Attested tokens from ${fmt(e.segmented)} source-supplied/profile-inferred forms in this view, including any prosodic marks. Boundary markers are excluded. This is a lexical-sample inventory, not a verified phoneme inventory. Counts include repeated occurrences.</p>
       <div class="segment-inventory">${[...e.inventory].sort((a,b)=>a[0].localeCompare(b[0])).map(([segment,n])=>`<span class="segment-token"><b class="ipa">${esc(segment)}</b><span>${fmt(n.source+n.profile)} occurrences</span><small>source ${fmt(n.source)} · profile ${fmt(n.profile)}</small></span>`).join('')||'<p>No source/profile-supported segment tokens in the current view.</p>'}</div></details>
-    <div class="source-cards">${sourceMetadata(l.transcription_source,l.transcription_source===l.cognate_source?'Lexical and cognate source':'Lexical source')}${l.transcription_source!==l.cognate_source?sourceMetadata(l.cognate_source,'Cognate source'):''}</div>
+    <div class="source-cards">${[...new Set(rows.map(r=>r.transcription_source))].filter(s=>s!==l.transcription_source&&s!==l.cognate_source).map(s=>sourceMetadata(s,'Supplemental lexical source')).join('')}${sourceMetadata(l.transcription_source,l.transcription_source===l.cognate_source?'Lexical and cognate source':'Lexical source')}${l.transcription_source!==l.cognate_source?sourceMetadata(l.cognate_source,'Cognate source'):''}</div>
     <details class="metadata-card"><summary>Identity notes, curation and missing core concepts</summary><p>${esc(l.notes||'No additional identity notes recorded.')}</p>
       <p>${l.packet_url?external('Read the curation packet',l.packet_url):'No published curation packet for this variety.'}</p>
       <p>${missing.map(c=>link(concepts.get(c)?.label||c,{view:'concept',cid:c})).join(', ')||'All core concepts have supported entries.'}</p><p>Missing support means not supplied, not mapped, or unresolved here. It does not establish lexical absence.</p></details>
@@ -330,7 +337,7 @@ async function showForm(token) {
     <p>Cognate membership: ${cognatesCell(r)}. Method: ${esc(r.Cognate_Detection_Method||'Not recorded')}; source: ${esc(r.cognate_evidence_source||r.cognate_source)}.</p>
     <p>Doubt flag: ${esc(r.Doubt||'Not recorded')} · Loan flag: ${esc(r.Loan||'Not recorded')}. Empty flags do not mean verified absence.</p>
     <details open><summary>Alignment and morpheme evidence</summary><dl>${['Alignment','Morpheme_Index','Segment_Slice','canonical_cognate_id'].map(k=>`<dt>${esc(k)}</dt><dd class="ipa">${esc(r[k]||'Not supplied')}</dd>`).join('')}</dl></details>
-    <h3>Provenance</h3><dl>${['Value','source_form_id','source_language_id','source_parameter_id','bibtex_key','Comment'].map(k=>`<dt>${esc(k.replaceAll('_',' '))}</dt><dd>${esc(r[k]||'Not supplied')}</dd>`).join('')}</dl>
+    <h3>Provenance</h3><dl>${['Value','raw_ipa','pronunciation_tags','source_pronunciation_id','source_form_id','source_language_id','source_parameter_id','bibtex_key','Comment'].map(k=>`<dt>${esc(k.replaceAll('_',' '))}</dt><dd>${esc(r[k]||'Not supplied')}</dd>`).join('')}</dl>
     <p>${esc(s?.Citation||r.transcription_source)} ${sourceLink(r.transcription_source)}</p>
     <p>Source version: ${esc(s?.Repository_Version||'Not recorded')} · License: ${esc(r.License)}</p>
     ${l.packet_url?external('Review construction and mapping decisions',l.packet_url):'<p>No published mapping review packet. Consult the original source before assuming the English sense mapping is independently reviewed.</p>'}
@@ -362,7 +369,7 @@ async function showCompare(token) {
       if(selected.length>16)throw Error('Compare up to 16 varieties at once for a readable matrix.');
       if(chosen.length>200)throw Error('Select up to 200 concepts at once; all 161 core concepts fit in one matrix.');
       await ensure(selected.map(l=>l.Family||'Unclassified'));if(token!==epoch)return;
-      let sql=`SELECT * FROM forms WHERE av_id IN (${selected.map(()=>'?').join(',')}) AND concept_id IN (${chosen.map(()=>'?').join(',')})`;
+      let sql=`SELECT * FROM forms WHERE av_id IN (${selected.map(()=>'?').join(',')}) AND concept_id IN (${chosen.map(()=>'?').join(',')}) AND ${coreSourceCondition('')}`;
       const params=selected.map(l=>l.av_id).concat(chosen);
       if(state.status==='usable')sql+=" AND Segments_Source IN ('source','profile')";
       else if(state.status){sql+=' AND Segments_Source=?';params.push(state.status);}
@@ -454,7 +461,7 @@ async function drawMap(rows,cognate,token) {
   const coords=[...coordinates.values()].map(g=>[+g[0].latitude,+g[0].longitude]);if(cognate&&coords.length)map.fitBounds(L.latLngBounds(coords).pad(.15));
 }
 function showSources() {
-  const used=new Set(scopedLanguages().map(l=>l.transcription_source));
+  const used=new Set(scopedLanguages().flatMap(l=>Object.keys(l.source_counts||{[l.transcription_source]:0})).filter(s=>state.collection!=='core'||catalog.core_sources.includes(s)));
   $('#app').innerHTML=`<h2>Sources and attribution</h2><p>Licenses remain per source; inclusion in Arca does not relicense the underlying data. Records missing license metadata explicitly require checking upstream terms.</p>
     ${table([{key:'Title',label:'Dataset',render:s=>external(s.Title||s.Dataset,s.URL)}, {key:'Citation',label:'Citation'}, {key:'License',label:'License'},
       {key:'Repository_Version',label:'Version'}],[...used].map(key=>sources.get(key)||{Dataset:key,Title:key,Citation:'Citation metadata not recorded; inspect the form source keys and upstream data.',License:'Not recorded'}))}

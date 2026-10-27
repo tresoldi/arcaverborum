@@ -46,7 +46,7 @@ _RECIPE_FILES = (
     "data/score_weights.yaml",
     # The frozen concept catalog: re-curating a label/field/id rebuilds the
     # forms that resolve through it.
-    "wiktionary_senses.py", "data/wiktionary_sense_overrides.csv",
+    "supplements.py", "data/pronunciation_scopes.csv", "wiktionary_senses.py", "data/wiktionary_sense_overrides.csv",
     "data/concepts.csv", "data/semantic_field_codes.csv",
 )
 
@@ -100,6 +100,8 @@ def config_component(config: dict) -> str:
         "transcription": str(sources.get("transcription", "")),
         "cognates": str(sources.get("cognates", "") or sources.get("transcription", "")),
         "source_language_id": str(sources.get("source_language_id", "")),
+        "source_language_ids": sources.get("source_language_ids", []),
+        "source_glottocodes": sources.get("source_glottocodes", []),
         "source_glottocode": str(sources.get("source_glottocode", "")),
         "forms_score": round(float(scoring.get("forms_score", 0.0) or 0.0), 4),
         "tier": str(scoring.get("tier", "")),
@@ -110,7 +112,7 @@ def config_component(config: dict) -> str:
 def custom_component(custom_dir: Path) -> str:
     """Digest of the four custom override files (raw bytes; "" if absent)."""
     digests = {}
-    for name in _CUSTOM_FILES:
+    for name in (*_CUSTOM_FILES, "supplements.csv"):
         p = custom_dir / name
         digests[name] = hashlib.sha1(p.read_bytes()).hexdigest() if p.exists() else ""
     return _sha16(json.dumps(digests, sort_keys=True))

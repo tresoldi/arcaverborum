@@ -88,3 +88,35 @@ def test_shared_sense_corrections_are_guarded_and_local_overrides_win(tmp_path):
     result = _apply_concept_map(forms, local)
     assert not result.iloc[0]['_concept_mapping_blocked']
     assert result.iloc[0]['_concept_id_override'] == 'fun-this'
+
+
+def test_regional_alternatives_preserve_readings_and_require_every_homograph():
+    import importlib.util
+    from pathlib import Path
+
+    spec = importlib.util.spec_from_file_location('qualified_pronunciations',
+        Path(__file__).resolve().parents[1] / 'scripts/qualified_pronunciations.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    native = {'sounds': [{'ipa': '/a/', 'tags': ['Brazil']}, {'ipa': '[ɐ]', 'tags': ['Brazil']},
+                         {'ipa': '/i/', 'tags': ['Portugal']}]}
+    status, variants = module.scoped_readings([(1, native)], ['Brazil'])
+    assert status == 'accept_alternatives' and set(variants) == {'/a/', '[ɐ]'}
+    assert module.scoped_readings([(1, native), (2, {'sounds': []})], ['Brazil'])[0] != 'accept_alternatives'
+    assert module.scoped_readings([(1, {'sounds': [{'ipa': '/a/', 'tags': ['Brazil', 'Rio-de-Janeiro']}]})],
+                                  ['Brazil'])[0] != 'accept_alternatives'
+
+
+def test_asturian_documented_hiatus_and_rhotic_contexts():
+    import importlib.util
+    from pathlib import Path
+    spec = importlib.util.spec_from_file_location('asturian_profile_v2',
+        Path(__file__).resolve().parents[1] / 'scripts/asturian_profile.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    assert module.reading('poeta') == 'p o e t a'
+    assert module.reading('rodía') == 'r o d i a'
+    assert module.reading('branu') == 'b ɾ a n u'
+    assert module.reading('alredores') == 'a l r e d o ɾ e s'
+    assert module.reading('falar') == ''  # documented tap/trill variation
+    assert module.reading('agua') == ''  # remaining glide/hiatus uncertainty

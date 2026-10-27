@@ -1,0 +1,5 @@
+dataset,commit,decision,url
+dictmedialengua,6dc4aad848dd7092c2fd54a67073198cba117a53,admit source upgrade for mia-media-lengua,https://dictionaria.clld.org/contributions/medialengua
+dictiquito,558c466271b546d00b48979f61a64c4a5a5392c2,"stage only; Pronunciation is orthographic reduction, not automatically IPA; retain current source",https://dictionaria.clld.org/contributions/iquito
+dictguarayu,5e02ef6236b5d638c26ba4f68e5b1ccd880dc3a5,stage only; nasal/glottal/dialect spelling variation needs profile review; retain current source,https://dictionaria.clld.org/contributions/guarayu
+dicttseltal,ca7582dbce9229966a2505d8dc228783255b2dec,stage only; sparse Phonetic_Form is not automatically IPA; multidialectal mapping/orthography review needed,https://dictionaria.clld.org/contributions/tseltal

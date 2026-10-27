@@ -13,3 +13,18 @@ Core gained with clean support: act-burn, act-rope, agr-flower, agr-root, agr-se
 Prior clean core not supported by this construction: agr-leaf, agr-tree, ani-fish, bod-blood, bod-bone, bod-ear, bod-eye, bod-horn, bod-knee, bod-tongue, kin-i, phy-star, phy-stone, phy-water, sns-hear, tim-new, tim-night.
 
 Run `python scripts/asturian_profile.py --write`, then `python scripts/audit_core_pilots.py --write-maps`, rebuild, and run the audit without write flags. Specialist phonological and lexical review remains pending.
+
+## Follow-up profile audit, 2026-10-27
+
+The current construction has **166 source-provided, 3,946 profile-supported and
+5,603 unresolved forms**, with **82 supported core concepts**. These supersede
+the preliminary 92-core profile count above. The revised rules add documented
+onset-cluster taps, post-l/n/s trills, open-vowel hiatus and written stressed-weak-
+vowel hiatus (ALLA grammar pp.42–43,51). They retain source IPA precedence.
+
+A regression test exposed that Python's empty-string membership test had allowed
+word-final r into the old intervocalic branch. The grammar explicitly allows
+both tap and trill in final position; these readings are now withheld. The new
+contexts add 856 profile forms, and the correction removes 458 unsupported
+ones: net +398 profile forms, with a conservative core change of 92 → 82.
+Remaining glide/hiatus, x/y and variable-rhotic cases are not guessed.

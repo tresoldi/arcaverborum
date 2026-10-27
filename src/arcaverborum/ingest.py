@@ -135,7 +135,7 @@ def _merge_cognates(forms: pd.DataFrame, cognates: pd.DataFrame, dataset: str) -
                 continue
             cog_col = f"{col}_cog"
             if cog_col in forms.columns:
-                non_empty = forms[cog_col].astype(str).str.strip().ne("")
+                non_empty = forms[cog_col].fillna("").astype(str).str.strip().ne("")
                 forms.loc[non_empty, col] = forms.loc[non_empty, cog_col]
                 del forms[cog_col]
     return forms
@@ -179,6 +179,10 @@ def _parse_metadata(metadata_json: dict, dataset: str, has_cognates: bool) -> di
 
 
 def _process_one(dataset: str, cldf_dir: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, dict, str]:
+    if ((cldf_dir / 'entries.csv').exists() and (cldf_dir / 'senses.csv').exists()
+            and not (cldf_dir / 'forms.csv').exists()):
+        from arcaverborum.sources.dictionaria import process_dictionary
+        return process_dictionary(dataset, cldf_dir)
     forms = _read_csv(cldf_dir / "forms.csv")
     languages = _read_csv(cldf_dir / "languages.csv")
     parameters = _read_csv(cldf_dir / "parameters.csv")
@@ -193,6 +197,9 @@ def _process_one(dataset: str, cldf_dir: Path) -> tuple[pd.DataFrame, pd.DataFra
             bib_path.read_text(encoding="utf-8") if bib_path.exists() else ""):
         from arcaverborum.sources.abvd_provenance import preserve
         forms = preserve(forms, use_cognate_table=not cognates.empty)
+
+    from arcaverborum.sources.cognacy_scope import apply_policy
+    forms = apply_policy(forms, cognates, dataset, cldf_dir)
 
     forms["Dataset"] = dataset
     languages["Dataset"] = dataset

@@ -2,7 +2,9 @@
 
 The default explorer covers all accepted varieties. The **Core source collection** is a collection preset; the **161 basic concepts** are a separate vocabulary filter. The preceding Core-only interface is preserved at `core.html` and still uses `arca-core.sqlite.gz`.
 
-The initial catalog contains variety metadata, aliases from selected source samples, parent relationships, concept definitions, supported-core coverage and source metadata. Lexical records load by family only when requested. The complete accepted aggregate is split into 399 family shards (about 109 MB compressed in this build); no visitor downloads all shards on startup. Downloads are cached by content hash. Older form links with shifted aggregate row numbers resolve by unchanged variety/source-form identity when the match is unique. SQLite, decompression, search and SQL run in `research-worker.js`, off the UI thread.
+Mixed-source constructions preserve original source IDs and reviewed supplementary evidence. Core source collection filtering applies per lexical row and uses its own coverage metrics; it never admits non-Core supplements. Separate supplied pronunciation readings retain raw IPA, qualifier tags and stable pronunciation IDs.
+
+The initial catalog contains variety metadata, aliases from selected source samples, parent relationships, concept definitions, supported-core coverage and source metadata. Lexical records load by family only when requested. The complete accepted aggregate is split into 399 family shards (about 111 MB compressed in this build); no visitor downloads all shards on startup. Downloads are cached by content hash. Older form links with shifted aggregate row numbers resolve by unchanged variety/source-form identity when the match is unique. SQLite, decompression, search and SQL run in `research-worker.js`, off the UI thread.
 
 ## Rebuild and deploy
 
@@ -43,9 +45,9 @@ node --check web/research-worker.js
 uv run --no-project --with playwright python web/tests/research_browser.py http://127.0.0.1:8799/
 ```
 
-The browser check covers collection scopes, persistent URLs, comparison, provenance, CSV/manifests, search, read-only SQL, maps, keyboard links, and mobile overflow. Source datasets and the full aggregate remain reproducible through the repository's normal build pipeline.
+The browser check covers collection scopes, persistent URLs, comparison, provenance, CSV/manifests, search, read-only SQL, maps, keyboard links, and mobile overflow. Run `web/tests/mixed_source_browser.py URL` as an additional check of pronunciation alternatives, source attribution and Core-source isolation. Source datasets and the full aggregate remain reproducible through the repository's normal build pipeline.
 
-## Previous Core-only explorer
+## Archived Core-only explorer
 
 
 
