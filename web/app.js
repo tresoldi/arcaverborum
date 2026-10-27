@@ -2,7 +2,7 @@
 
 // Bump on every deploy so browsers never serve a stale app.js / dataset.
 // Keep in sync with the ?v= query on app.js/style.css in index.html.
-const AV_VER = "0.1.0-b3";
+const AV_VER = "0.1.0-20261027";
 let db = null;
 let BUILD = {};
 let coreOnly = false;
@@ -461,7 +461,7 @@ async function boot() {
     const c = BUILD.counts || {};
     $("#ver").textContent = BUILD.version ? "v" + BUILD.version : "";
     $("#counts").textContent = c.forms
-      ? `${fmt(c.forms)} forms · ${fmt(c.languages)} varieties · ${fmt(c.parameters)} concepts · merkmal ${BUILD.merkmal_version || "?"}`
+      ? `${fmt(c.forms)} forms · ${fmt(c.languages)} varieties · ${fmt(c.parameters)} concepts · merkmal ${BUILD.merkmal_version || "?"}${BUILD.build_date ? " · updated " + BUILD.build_date : ""}`
       : "";
     $("#status").hidden = true;
     app().hidden = false;

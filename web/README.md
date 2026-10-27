@@ -30,6 +30,15 @@ python scripts/build_web_db.py          # -> web/arca-core.sqlite.gz + web/BUILD
 They are committed so the site deploys by pushing `web/`, but they are
 regeneratable and should be refreshed whenever the release changes.
 
+The Pages workflow copies these committed artifacts; it does **not** rebuild
+the release or database. A successful deployment alone does not mean the data
+is current. After a data refresh, bump the cache version described below, commit
+the artifacts, and verify the live `/BUILD_INFO` date/counts against the local
+file. The explorer shows the build date beside its counts.
+
+Core includes only sources flagged `CORE=TRUE` in `datasets.csv`. Rebuilding
+the full aggregate does not automatically admit other sources to this website.
+
 ## Local preview
 
 Serve over HTTP (a `file://` open won't work — `fetch` + WASM need a server):
