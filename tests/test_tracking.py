@@ -187,6 +187,7 @@ def test_atomic_path_keeps_old_file_on_failure(tmp_path):
 def test_recipe_hash_flags_merkmal_without_utf8proc(monkeypatch):
     import merkmal
 
+    monkeypatch.setattr(merkmal, "HAVE_UTF8PROC", True, raising=False)
     full = tracking.recipe_hash()
     monkeypatch.setattr(merkmal, "HAVE_UTF8PROC", False, raising=False)
     assert tracking.recipe_hash() != full
