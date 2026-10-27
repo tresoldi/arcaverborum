@@ -6,16 +6,19 @@ macroarea: Eurasia
 sources:
   transcription: wiktionary
   cognates: wiktionary
+  source_language_id: wikt_rsk
 extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
-  profile: false
+  concept_map: true
+  profile: true
 scoring:
-  forms_score: 0.3845
+  forms_score: 0.8329
   cognates_score: 0.2021
-  tier: copper
-pinned: false
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=wiktionary (0.38) [fallback p3]; cognates=wiktionary (0.20)'
+notes: Reviewed broad phonemic orthographic profile 2026-10-27; source identity wikt_rsk.
+  No inferred stress or surface assimilation; unsupported forms remain unclean. Core
+  senses audited; see PACKET.md.

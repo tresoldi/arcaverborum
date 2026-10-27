@@ -1,0 +1,3 @@
+Parameter_ID,Concepticon_ID,Concepticon_Gloss,concept_id,action,notes,source_form_id,expected_form
+wikt_man_noun_9914ec6b,683,,kin-person,map,"Human-being sense is person, not adult male kin-man.",,
+wikt_that_conj_7a64f776,,,,unmap,Complementizer connecting a clause is not the demonstrative defined by fun-that.,,

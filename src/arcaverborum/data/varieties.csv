@@ -7303,3 +7303,6 @@ zun-zuni,zuni1245,zun,Zuni,,Zuni,North America,35.0056,-108.782,true,
 mix-jitotolteco,jito1235,,Jitotolteco,,Mixe-Zoque,North America,17.054524,-92.858395,true,Coverage recovery: mixezoqueanvoices / mixezoqueanvoices_Jitotol
 urj-vach-vasjugan,fare1244,,Vach-Vasjugan,,Uralic,Eurasia,60.10378,79.873651,true,Coverage recovery: uralex / uralex_khanty_vakh_vasyugan
 mix-mazatlan-mixe,maza1292,mzl,Mazatlán Mixe (Santiago Tutla),,Mixe-Zoque,North America,17.0156,-95.2833,true,"Santiago Tutla member mixezoqueanvoices_Tutla; source_glottocode lowl1263 is a family-level input key, not the accepted language identity."
+pan-chaninawa,chan1321,,Chaninawa,pan-sharanahua,Pano-Tacanan,South America,-9.8626,-71.1232,true,Named Amazonian Voices recording sample chaninawa; Glottolog dialect under shar1245.
+pan-kakataibo-sinchi-roca,caca1248,,Kakataibo (Sinchi Roca),pan-cashibo-cacataibo,Pano-Tacanan,South America,-8.70232,-75.4206,true,Named Amazonian Voices recording sample kakataibosinchiroca; Glottolog dialect under cash1251.
+pan-shawandawa,shaw1250,,Shawandawá,pan-sharanahua,Pano-Tacanan,South America,-9.8626,-71.1232,true,Named Amazonian Voices recording sample shawandawa; Glottolog dialect under shar1245.

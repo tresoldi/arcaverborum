@@ -1,0 +1,45 @@
+av_id: pan-shawandawa
+name: Shawandawá
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.8591
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Single named Amazonian Voices recording sample; dialect under the documented
+    parent language.
+  lexical_base:
+    source: amazonianvoices
+    rationale: Primary recording sample with supplied source IPA; no pooling.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 248/248 forms clean (source 248, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 55/161
+    notes: 175/248 forms mapped; 170 distinct concepts.
+  cognates:
+    source: amazonianvoices
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ''
+candidates: []
+provenance:
+  bibliography:
+  - amazonianvoices_dataset
+  source_url: https://github.com/lexibank/amazonianvoices
+tradeoffs:
+  gains: Additional named dialect coverage; source-clean forms.
+  known_losses: No parent construction replaced; no supplied cognates.
+notes: CC-BY-NC-4.0; dataset-level citation added from metadata; individual source
+  references absent. Specialist review pending. See PACKET.md.

@@ -1,0 +1,45 @@
+av_id: pan-kakataibo-sinchi-roca
+name: Kakataibo (Sinchi Roca)
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.8568
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Single named Amazonian Voices recording sample; dialect under the documented
+    parent language.
+  lexical_base:
+    source: amazonianvoices
+    rationale: Primary recording sample with supplied source IPA; no pooling.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 234/234 forms clean (source 234, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 52/161
+    notes: 172/234 forms mapped; 164 distinct concepts.
+  cognates:
+    source: amazonianvoices
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: ''
+candidates: []
+provenance:
+  bibliography:
+  - amazonianvoices_dataset
+  source_url: https://github.com/lexibank/amazonianvoices
+tradeoffs:
+  gains: Additional named dialect coverage; source-clean forms.
+  known_losses: No parent construction replaced; no supplied cognates.
+notes: CC-BY-NC-4.0; dataset-level citation added from metadata; individual source
+  references absent. Specialist review pending. See PACKET.md.

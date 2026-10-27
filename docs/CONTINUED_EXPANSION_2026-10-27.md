@@ -1,0 +1,12 @@
+# Continued expansion — 2026-10-27
+
+The four agreed tracks were completed in order:
+
+1. **Amazonian Voices:** [all 27 members screened](amazonianvoices_audit_2026-10-27.csv); three named dialect samples admitted, totaling 700 forms with supplied valid IPA. Chaninawa and Shawandawá retain Sharanahua as parent; Kakataibo (Sinchi Roca) retains Cashibo-Cacataibo as parent. These are three additional varieties, not three independently new languages. Existing parent constructions are preserved. Source citation scope, recording IDs and CC-BY-NC-4.0 remain explicit. Other members remain available in intake without automatic source replacement.
+2. **GLED replacements:** [875 member-level alternatives ranked](GLED_REPLACEMENT_QUEUE_2026-10-27.md), separating lexical potential from verified clean support. All existing alternatives require Wiktionary orthography review; none justifies a switch merely from raw coverage. Exact member selection prevents pooled counts inflating prospective gains.
+3. **Pannonian Ruthenian:** [conservative broad phonemic profile](../varieties/ine-pannonian-ruthenian/PACKET.md), 2,028/2,407 forms supported and 95/161 clean-supported core concepts. All 102 source core senses reviewed; two mapping corrections. Unsupported spellings remain unclean. Profile readings specify neither stress nor narrow surface realization.
+4. **IECOR, then ABVD refresh:** [separate staged snapshots audited](source_refresh_2026-10-27/README.md). IECOR has no form or mapping changes; its new sense descriptions remain staged for review. ABVD has 46 member Glottocode changes and 42 changed accepted member selections, requiring identity reconciliation. Neither active source was overwritten.
+
+Reproduction tools: `stage_amazonianvoices.py`, `append_source_intake.py`, `rank_gled_replacements.py`, `pannonian_profile.py`, `audit_core_pilots.py`, and `audit_source_refresh.py` in `scripts/`. The staged Amazonian import adds a dataset-level citation explicitly from metadata; it refuses to replace newly supplied individual references. Staging does not change original raw source files. The refresh audit records full table hashes, all change counts, and bounded detailed form/cognate examples.
+
+The accepted aggregate now has **7,310 varieties and 2,048,653 forms**, a net increase of 700 forms. Profiles improve supported coverage without inventing new lexical records. Catalog definitions, the core concept list and existing av_ids are preserved.

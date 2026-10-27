@@ -20,7 +20,8 @@ from arcaverborum.concepts import load_concept_maps, load_concepts
 from arcaverborum.forms_schema import load_parameter_index
 
 ROOT = Path(__file__).resolve().parents[1]
-PILOTS = ('afa-somali', 'afa-afar', 'afa-saho', 'ine-aragonese', 'ine-galician')
+PILOTS = ('afa-somali', 'afa-afar', 'afa-saho', 'ine-aragonese', 'ine-galician',
+          'ine-pannonian-ruthenian')
 
 
 def compile_mapping(review: dict, concepts: dict) -> dict | None:

@@ -1,0 +1,98 @@
+{
+  "accepted_member_selections_changed": 42,
+  "accepted_varieties_exposed": 632,
+  "active_intake_changed": false,
+  "cached": {
+    "commit": "2af9f4ef6fff6250e0a31f383f249c3c9cf42e55",
+    "files": {
+      "cognates.csv": "0bc7f4f54f80e7568bf40ef736ec8fc8f2befaaf18f249ecb0bcc2e4606fd137",
+      "forms.csv": "82ff051cb5ae5a3c5a4e1b459f9060b1dca83bae2ed35c2be0b2eb8d9fdfc09b",
+      "languages.csv": "fc84029c1bcb454a9870096a2887f4c3ad78a130acbe9c2603f42d2443070bb4",
+      "parameters.csv": "1c3fb6a8fd6e95b4153874db752bd0fd7bf1f4235a9302a4a727f3cbe113543e",
+      "sources.bib": "da1e4cd4839f67eab116a8a4130d877486f10b392ee9e447313d549beddc1787"
+    }
+  },
+  "concept_mapping_changes": 0,
+  "dataset": "abvd",
+  "decision": "stage_only_identity_or_mapping_migration_required",
+  "detail_policy": "All language/parameter changes; first 500 form/cognate field changes per table. Summary counts cover every row; staged snapshots retain full evidence.",
+  "language_identity_changes": 46,
+  "staged": {
+    "commit": "81748db0c5fcf3bf1d8c8372b86df75c375e1f22",
+    "files": {
+      "cognates.csv": "bcac9efcf94a63877d71a8d76ce9acfd884d6327c1bf17691cfeba64549a16c5",
+      "forms.csv": "ae471a382c9caa972e5c96e3b4f7e12f5176e0519cf874a663edf89c98a512a8",
+      "languages.csv": "3bfb0a6411ae3364880296061496e8ed7504b16b8112ee70d70a84915208797a",
+      "parameters.csv": "494adff377dddc44915fe1189bb7b09ed544876f698a8abc664f5c31875e8975",
+      "sources.bib": "29cffa0de832bc9b86895578105c864b87ff0cdb202dc5c975238f3aa37a020c"
+    }
+  },
+  "tables": {
+    "cognates": {
+      "added": 11759,
+      "after": 291354,
+      "before": 291382,
+      "changed_fields": {
+        "Cognateset_ID": 58,
+        "Form": 99,
+        "added": 11759,
+        "removed": 11787
+      },
+      "changed_rows": 99,
+      "removed": 11787
+    },
+    "forms": {
+      "added": 14261,
+      "after": 349424,
+      "before": 346919,
+      "changed_fields": {
+        "Cognacy": 615,
+        "Cognacy_Comment": 565,
+        "Comment": 590,
+        "Contribution_ID": 335163,
+        "Form": 693,
+        "Loan": 83,
+        "Loan_Raw": 3263,
+        "Local_ID": 713,
+        "Source": 310451,
+        "Value": 692,
+        "added": 14261,
+        "removed": 11756
+      },
+      "changed_rows": 335163,
+      "removed": 11756
+    },
+    "languages": {
+      "added": 0,
+      "after": 1982,
+      "before": 2040,
+      "changed_fields": {
+        "Family": 1,
+        "Glottocode": 46,
+        "Glottolog_Name": 51,
+        "Latitude": 4,
+        "Longitude": 4,
+        "Name": 9,
+        "author": 1981,
+        "checkedby": 634,
+        "notes": 1650,
+        "problems": 168,
+        "removed": 58,
+        "source": 1972,
+        "typedby": 1950
+      },
+      "changed_rows": 1982,
+      "removed": 58
+    },
+    "parameters": {
+      "added": 0,
+      "after": 210,
+      "before": 210,
+      "changed_fields": {
+        "Comment": 59
+      },
+      "changed_rows": 59,
+      "removed": 0
+    }
+  }
+}

@@ -1,0 +1,2041 @@
+member,old_name,new_name,old_glottocode,new_glottocode
+1,Balinese,Balinese,bali1278,bali1278
+10,Gimán,Gimán,gane1237,gane1237
+100,Ngadha,Ngadha,ngad1261,ngad1261
+1000,Lelepa,Lelepa,lele1267,lele1267
+1001,Vao,Vao,vaoo1237,vaoo1237
+1002,Maskelynes,Maskelynes,mask1242,mask1242
+1003,Paama (Lironesa),Paama (Lironesa),paam1238,paam1238
+1004,Futuna-Aniwa (Aniwa),Futuna-Aniwa (Aniwa),aniw1237,aniw1237
+1005,Araki,Araki,arak1252,arak1252
+1006,Roria,Roria,rori1237,rori1237
+1007,Bierebo (Yevali),Bierebo (Yevali),bier1244,bier1244
+1008,Lamenu (Visina),Lamenu (Visina),lame1260,lame1260
+1009,Mpotovoro,Mpotovoro,mpot1241,mpot1241
+101,Ngaibor (S.Aru),Ngaibor (S.Aru),west2538,west2538
+1010,Akei (Penantsiro),Akei (Penantsiro),akei1237,akei1237
+1011,Tutuba,Tutuba,tutu1241,tutu1241
+1012,Uripiv-Wala-Rano-Atchin (Uripiv),Uripiv-Wala-Rano-Atchin (Uripiv),urip1239,urip1240
+1013,Lapwangtoai,Lapwangtoai,sout2869,sout2869
+1014,Sie,Sie,siee1239,siee1239
+1015,Vunapu,Vunapu,vuna1239,vuna1239
+1016,"Ambrym, North (Ranon)","Ambrym, North (Ranon)",nort2839,nort2839
+1017,Mwerlap (Merig),Mwerlap (Merig),mwer1250,mwer1250
+1018,Uripiv-Wala-Rano-Atchin (Rano),Uripiv-Wala-Rano-Atchin (Rano),urip1239,wala1267
+1019,Lakona,Lakona,lako1245,lako1245
+102,Nggela,Nggela,gela1263,gela1263
+1020,Malo (South),Malo (South),malo1243,malo1243
+1021,"Ambrym, Southeast (Maat)","Ambrym, Southeast (Maat)",mele1255,mele1255
+1022,Bierebo (Burupika),Bierebo (Burupika),bier1244,bier1244
+1023,Akei,Akei,akei1237,akei1237
+1024,Morouas (Batunlamak),Morouas (Batunlamak),moro1286,moro1286
+1025,Dixon Reef,Dixon Reef,dixo1238,dixo1238
+1026,Lonwolwol,Lonwolwol,lonw1238,lonw1238
+1027,Tangoa,Tangoa,tang1347,tang1347
+1028,Kwamera (Isiai),Kwamera (Isiai),kwam1252,kwam1252
+1029,Neve'ei,,vinm1237,
+103,Nguna,Nguna,ngun1274,ngun1274
+1030,Emae (Makatea),Emae (Makatea),emae1237,emae1237
+1031,Bieria (Vowa),Bieria (Vowa),bier1246,bier1246
+1032,Koro,Koro,koro1308,koro1308
+1033,Baki,Baki,baki1244,baki1244
+1034,Larevat,Larevat,lare1249,lare1249
+1035,Axamb (Maxbaxo),Axamb (Maxbaxo),axam1237,axam1237
+1036,Piamatsina,Piamatsina,piam1242,piam1242
+1037,Seke,Seke,seke1241,seke1241
+1038,Daakaka (Baiap),Daakaka (Baiap),daka1243,daka1243
+1039,Ikiti,Ikiti,sout2869,sout2869
+104,Nias,Nias,nias1242,nias1242
+1040,Namakura (Makura),Namakura (Makura),maku1276,maku1276
+1041,Bierebo (Bonkovia),Bierebo (Bonkovia),bier1244,bier1244
+1042,Amblong,Amblong,ambl1237,ambl1237
+1043,Ikiyau,Ikiyau,sout2869,sout2869
+1044,Lamenu (Nuvi),Lamenu (Nuvi),lame1260,lame1260
+1045,Mae (Orap),Mae (Orap),maee1241,maee1241
+1046,Lenakel,,lena1238,
+1047,Labo (Ninde),Labo (Ninde),labo1244,labo1244
+1048,Malo (North),Malo (North),malo1243,malo1243
+1049,Lorediakarkar,Lorediakarkar,lore1244,lore1244
+105,Nissan,Nissan,neha1247,neha1247
+1050,"Ambae, East (Lolsiwoi)","Ambae, East (Lolsiwoi)",east2443,east2443
+1051,Labo (Windua),Labo (Windua),labo1244,labo1244
+1052,Maragus,Maragus,mara1399,mara1399
+1053,Litzlitz,Litzlitz,litz1237,litz1237
+1054,Uripiv-Wala-Rano-Atchin (Tautu),Uripiv-Wala-Rano-Atchin (Tautu),urip1239,urip1239
+1055,Mele,Mele,mele1251,mele1251
+1056,Narango (Nambel),Narango (Nambel),nara1263,nara1263
+1057,Dixon Reef,,dixo1238,
+1058,Hiw,,hiww1237,
+1059,Paama (Faulili),Paama (Faulili),paam1238,paam1238
+106,Numfor,Numfor,biak1248,biak1248
+1060,Lamenu (Nikaura),Lamenu (Nikaura),lame1260,lame1260
+1061,Nahavaq (Lembinwen),Nahavaq (Lembinwen),sout2857,sout2857
+1062,Repanbitipmbangir,Repanbitipmbangir,repa1237,repa1237
+1063,Lenakel (Lenaukas),Lenakel (Lenaukas),lena1238,lena1238
+1064,Shark Bay,Shark Bay,shar1244,shar1244
+1065,Vurës (Mosina),Vurës (Mosina),vure1239,vure1239
+1066,Unua,Unua,unua1237,unua1237
+1067,Baetora (Nasawa),Baetora (Nasawa),nasa1241,nasa1241
+1068,Aore,Aore,aore1237,aore1237
+1069,Uripiv-Wala-Rano-Atchin (Uri),Uripiv-Wala-Rano-Atchin (Uri),urip1239,urip1239
+107,Ogan,Ogan,cent2053,cent2053
+1070,Baetora,Baetora,baet1237,baet1237
+1071,Vovo,Vovo,vovo1240,vovo1240
+1072,Wusi (Valui),Wusi (Valui),wusi1237,wusi1237
+1073,Daakaka (Sesivi),Daakaka (Sesivi),sesi1237,sesi1237
+1074,Namakura (Mataso),Namakura (Mataso),mata1250,mata1250
+1075,Maii,Maii,maii1238,maii1238
+1076,"Efate, North (Siviri)","Efate, North (Siviri)",nort2836,nort2836
+1077,Vera'a (Vatrata),Vera'a (Vatrata),vera1241,vera1241
+1078,"Efate, North (Pwele)","Efate, North (Pwele)",nort2836,nort2836
+1079,Akei (Tasiriki),Akei (Tasiriki),akei1237,akei1237
+108,Paamese (South),Paamese (South),sout2858,sout2858
+1080,"Maewo, Central (Peterara)","Maewo, Central (Peterara)",cent2058,cent2058
+1081,Banam Bay (Vartavo),Banam Bay (Vartavo),burm1263,burm1263
+1082,Kwamera (Yatukwey),Kwamera (Yatukwey),kwam1252,kwam1252
+1083,"Tanna, North","Tanna, North",nort2847,nort2847
+1084,Tambotalo,Tambotalo,tamb1253,tamb1253
+1085,Port Sandwich,Port Sandwich,port1285,port1285
+1086,Marino,Marino,mari1426,mari1426
+1087,Timbembe,Timbembe,katb1237,katb1237
+1088,Eton,Eton,eton1255,eton1255
+1089,Baetora (Tam),Baetora (Tam),baet1237,baet1237
+109,Palauan,Palauan,pala1344,pala1344
+1090,Lamenu (Mapremo),Lamenu (Mapremo),lame1260,lame1260
+1091,Namakura (Tongariki),Namakura (Tongariki),tong1322,tong1322
+1092,Mota,,mota1237,
+1093,Aulua,Aulua,aulu1238,aulu1238
+1094,Axamb (Avok),Axamb (Avok),avok1244,avok1244
+1095,Whitesands (Loniel),Whitesands (Loniel),whit1269,whit1269
+1096,Malua Bay,Malua Bay,malu1245,malu1245
+1097,Lelepa,,lele1267,
+1098,"Efate, North (Woraviu)","Efate, North (Woraviu)",nort2836,nort2836
+1099,Letemboi,Letemboi,lete1241,lete1241
+11,Fijian (Bau),Fijian (Bau),bauu1243,bauu1243
+110,Paulohi,Paulohi,paul1238,paul1238
+1100,Butmas-Tur (Butmas),Butmas-Tur (Butmas),butm1237,butm1237
+1101,Morouas,Morouas,moro1286,moro1286
+1102,Naha'ai,Naha'ai,malf1237,malf1237
+1103,Lamenu (Nul),Lamenu (Nul),lewo1242,lewo1242
+1104,Vurës (Vetumboso),Vurës (Vetumboso),vetu1237,vetu1237
+1105,Uripiv-Wala-Rano-Atchin (Atchin),Uripiv-Wala-Rano-Atchin (Atchin),urip1239,atch1238
+1106,Lelepa (Pango),Lelepa (Pango),lele1267,lele1267
+1107,Lamenu,Lamenu,lame1260,lame1260
+1108,Tasmate,Tasmate,tasm1246,tasm1246
+1109,Katbol,Katbol,katb1237,katb1237
+111,Peterara (Maewo),Peterara (Maewo),pete1237,pete1237
+1110,"Efate, South (Eratap)","Efate, South (Eratap)",sout2856,sout2856
+1111,Mwerlap (Merlav),Mwerlap (Merlav),merl1237,merl1237
+1112,Lenakel (Lonasilian),Lenakel (Lonasilian),lena1238,lena1238
+1113,Navut (Matae),Navut (Matae),navu1237,navu1237
+1114,Wailapa,Wailapa,wail1242,wail1242
+1115,Navut,Navut,navu1237,navu1237
+1116,"Ambae, East (Wailengi)","Ambae, East (Wailengi)",east2443,east2443
+1117,Tiale,Tiale,tial1239,tial1239
+1118,Butmas-Tur (Tur),Butmas-Tur (Tur),butm1237,butm1237
+1119,Futuna-Aniwa (Futuna),Futuna-Aniwa (Futuna),west2515,west2515
+112,Popalia,Popalia,tuka1249,tuka1249
+1120,Namakura (Bongabonga),Namakura (Bongabonga),nama1268,nama1268
+1121,Banam Bay (Burmbar),Banam Bay (Burmbar),burm1263,burm1263
+1122,Wusi (Mana),Wusi (Mana),wusi1237,wusi1237
+1123,Löyöp,Löyöp,leha1244,leha1244
+1124,"Efate, North (Sesake)","Efate, North (Sesake)",sesa1243,sesa1243
+1125,Mafea,Mafea,mafe1237,mafe1237
+1126,Lamenu (Mate),Lamenu (Mate),lewo1242,lewo1242
+1127,Kwamera (Port Resolution),Kwamera (Port Resolution),kwam1252,kwam1252
+1128,Port Vato,Port Vato,port1286,port1286
+1129,Dorig,Dorig,weta1242,weta1242
+113,Raga,Raga,hano1246,hano1246
+1130,Mwotlap,,motl1237,
+1131,"Ambrym, North (Fonah)","Ambrym, North (Fonah)",nort2839,nort2839
+1132,Wusi (Kerepua),Wusi (Kerepua),wusi1237,wusi1237
+1133,Sakao,Sakao,saka1289,saka1289
+1134,Wetamut,Wetamut,weta1242,weta1242
+1135,Lamenu (Filakara),Lamenu (Filakara),lewo1242,lewo1242
+1136,Lemerig (Bek),Lemerig (Bek),leme1238,leme1238
+1137,"Ambae, East (Lolomatui)","Ambae, East (Lolomatui)",east2443,east2443
+1138,Valpei,Valpei,valp1237,valp1237
+1139,Whitesands (Iarkei),Whitesands (Iarkei),whit1269,whit1269
+114,Rejang Rejang,Rejang Rejang,reja1240,reja1240
+1140,Neverver,Neverver,ling1265,ling1265
+1141,Ura,,urav1235,
+1142,"Ambrym, Southeast (Toak)","Ambrym, Southeast (Toak)",toak1237,toak1237
+1143,Paama (Laul),Paama (Laul),paam1238,paam1238
+1144,"Ambae, West (Ngwatua)","Ambae, West (Ngwatua)",west2513,west2513
+1145,Baetora (Navenevene),Baetora (Navenevene),baet1237,baet1237
+1146,Uripiv-Wala-Rano-Atchin (Wala),Uripiv-Wala-Rano-Atchin (Wala),urip1239,wala1267
+1147,Enfitena,Enfitena,sout2869,sout2869
+1148,Imreang,Imreang,sout2869,sout2869
+1149,Valpei (Hukua),Valpei (Hukua),valp1237,valp1237
+115,Roti (Termanu Dialect),Roti (Termanu Dialect),term1237,term1237
+1150,Rerep,Rerep,rere1240,rere1240
+1151,Polonombauk,Polonombauk,polo1242,polo1242
+1152,Tolomako,Tolomako,tolo1255,tolo1255
+1153,Toga,Toga,loto1240,loto1240
+1154,Narango,Narango,nara1263,nara1263
+1155,Aneityum,Aneityum,anei1239,anei1239
+1156,Baetora (Narovorovo),Baetora (Narovorovo),naro1250,naro1250
+1157,"Efate, North (Nguna)","Efate, North (Nguna)",ngun1274,ngun1274
+1158,Merei,,mere1242,
+1159,Mae,Mae,maee1241,maee1241
+116,Rotuman,Rotuman,rotu1241,rotu1241
+1160,Banam Bay (Lepaxsivir),Banam Bay (Lepaxsivir),burm1263,burm1263
+1161,Nahavaq (Benour),Nahavaq (Benour),sout2857,sout2857
+1162,Apma,Apma,apma1240,apma1240
+1163,Fila,Fila,fila1237,fila1237
+1164,V'ënen Taut (Unmet),V'ënen Taut (Unmet),bign1238,bign1238
+1165,Raga,,hano1246,
+1166,Nokuku,Nokuku,noku1237,noku1237
+1167,Fortsenal,Fortsenal,fort1240,fort1240
+1168,Lehali,Lehali,leha1243,leha1243
+1169,V'ënen Taut (Leviamp),V'ënen Taut (Leviamp),bign1238,bign1238
+117,Roviana,Roviana,rovi1238,rovi1238
+1170,Uripiv-Wala-Rano-Atchin (Pinalum),Uripiv-Wala-Rano-Atchin (Pinalum),urip1239,urip1239
+1171,Sa,Sa,saaa1241,saaa1241
+1172,Nume,Nume,nume1241,nume1241
+1173,Sowa,,sowa1244,
+1174,Shark Bay,,shar1244,
+1175,Lemerig (Sasar),Lemerig (Sasar),leme1238,leme1238
+1176,Axamb,Axamb,axam1237,axam1237
+1177,Bierebo (Tavio),Bierebo (Tavio),bier1244,bier1244
+1178,Malua Bay (Petarmur),Malua Bay (Petarmur),malu1245,malu1245
+1179,Wusi (Nonona),Wusi (Nonona),wusi1237,wusi1237
+118,Samoan,Samoan,samo1305,samo1305
+1180,Ulithian,Ulithian,ulit1238,ulit1238
+1181,Fatakai (Nuaulu),Fatakai (Nuaulu),sout2895,sout2895
+1182,Mentawai (Ngangan Sakalagan),Mentawai (Ngangan Sakalagan),ment1249,ment1249
+1183,Enggano,Enggano,engg1245,engg1245
+1184,Malagasy (Sakalava),Malagasy (Sakalava),saka1291,saka1291
+1185,Mentawai (Pagai and Sipora),Mentawai (Pagai and Sipora),ment1249,ment1249
+1186,Malagasy (Tandroy),Malagasy (Tandroy),tand1256,tand1256
+1187,Nyelâyu,Nyelâyu,nyal1254,nyal1254
+1188,Houaïlou,Houaïlou,houa1234,houa1234
+1189,Proto Northern Central Vanuatu,Proto Northern Central Vanuatu,nort3195,nort3195
+119,Savu,Savu,sabu1255,sabu1255
+1190,Malagasy (Tanala),Malagasy (Tanala),plat1254,plat1254
+1191,Bangka Malay,Bangka Malay,bang1365,bang1365
+1192,Jambi Malay,Jambi Malay,jamb1236,jamb1236
+1193,Lom (Mapurese),Lom (Mapurese),bang1365,bang1365
+1194,Hewa,Hewa,sika1262,sika1262
+1195,Proto-Kimbe,Proto-Kimbe,,
+1196,Portuguese,Portuguese,port1283,port1283
+1197,"Nicobarese, Central","Nicobarese, Central",cent1990,cent1990
+1198,Ainu,Ainu,ainu1251,ainu1251
+1199,"Gelao, Red","Gelao, Red",redg1235,redg1235
+12,Gorontalo (Hulondalo),Gorontalo (Hulondalo),goro1259,goro1259
+120,"Ambrym, South-East","Ambrym, South-East",sout2859,sout2859
+1200,Kapampangan,,pamp1243,
+1201,Jiamao,Jiamao,jiam1236,jiam1236
+1202,Bola,Bola,bola1250,bola1250
+1203,Bulu,Bulu,bulu1253,bulu1253
+1204,Lahat (Central Malay),Lahat (Central Malay),cent2053,cent2053
+1205,Meramera,Meramera,mera1242,mera1242
+1206,Fas,Fas,fass1245,fass1245
+1207,Mangaia,Mangaia,mang1402,mang1402
+1208,Naga Bikol,Naga Bikol,cent2087,cent2087
+1209,Paser,Paser,lawa1257,lawa1257
+121,Seimat,Seimat,seim1238,seim1238
+1210,Nasal,Nasal,nasa1239,nasa1239
+1211,Arta,Arta,arta1239,arta1239
+1212,Nukeria,Nukeria,nuku1259,nuku1259
+1213,Ra'ivavae,Ra'ivavae,raiv1237,raiv1237
+1214,Old Rapa (Rapa),Old Rapa (Rapa),rapa1245,rapa1245
+1215,Ponosakan,Ponosakan,pono1240,pono1240
+1216,Ninde (Opmomba),Ninde (Opmomba),labo1244,labo1244
+1217,Ninde (Lawa),Ninde (Lawa),labo1244,labo1244
+1218,Ninde (Lorlo),Ninde (Lorlo),labo1244,labo1244
+1219,Ninde (Labo),Ninde (Labo),labo1244,labo1244
+122,Selaru,Selaru,sela1259,sela1259
+1220,Ninde (Windua),Ninde (Windua),labo1244,labo1244
+1221,Avava (Tisvel),Avava (Tisvel),katb1237,katb1237
+1222,Avava (Khatbol),Avava (Khatbol),katb1237,katb1237
+1223,Avava (Timbibi),Avava (Timbibi),katb1237,katb1237
+1224,Avava (Bangaːsak),Avava (Bangaːsak),katb1237,katb1237
+1225,Salang (Dixon Reef),Salang (Dixon Reef),dixo1238,dixo1238
+1226,Nahavaq (Caroline Bay),Nahavaq (Caroline Bay),sout2857,sout2857
+1227,Nahavaq (Benour),,sout2857,
+1228,Nahavaq (Lembinwin),Nahavaq (Lembinwin),sout2857,sout2857
+1229,Na:ti (Windua),Na:ti (Windua),nati1244,nati1244
+123,Sengseng,Sengseng,seng1281,seng1281
+1230,Nombotkote (Usus - Melkin),Nombotkote (Usus - Melkin),lete1241,lete1241
+1231,Nombotkote (Blacksands),Nombotkote (Blacksands),lete1241,lete1241
+1232,Nombotkote (Melaklak (Melkin)),Nombotkote (Melaklak (Melkin)),lete1241,lete1241
+1233,Letemboi (Aingelemolesa),Letemboi (Aingelemolesa),lete1241,lete1241
+1234,Letemboi (Natingatlang North),Letemboi (Natingatlang North),lete1241,lete1241
+1235,Letemboi (Nevatanyene),Letemboi (Nevatanyene),lete1241,lete1241
+1236,Letemboi (Newotenyene),Letemboi (Newotenyene),lete1241,lete1241
+1237,Nasarian (Wileven tu),Nasarian (Wileven tu),nasa1240,nasa1240
+1238,Angavae (Dixon Reef),Angavae (Dixon Reef),dixo1238,dixo1238
+1239,Novol (Usus - Dixon Reef),Novol (Usus - Dixon Reef),lete1241,lete1241
+124,Sika,Sika,sika1262,sika1262
+1240,Novol (Usus - Dixon Reef),,lete1241,
+1241,Novol (Usus - Dixon Reef),,lete1241,
+1242,Novol (Melaklak),Novol (Melaklak),lete1241,lete1241
+1243,Neverver (Lingarak - Mindu),Neverver (Lingarak - Mindu),ling1265,ling1265
+1244,Neverver (Lingarak - Sakan),Neverver (Lingarak - Sakan),ling1265,ling1265
+1245,Pangkumu (Ndarmif),Pangkumu (Ndarmif),rere1240,rere1240
+1246,Pangkumu (Datisman),Pangkumu (Datisman),rere1240,rere1240
+1247,Unua (Noferai),Unua (Noferai),unua1237,unua1237
+1248,Unua (Mbatumbo),Unua (Mbatumbo),unua1237,unua1237
+1249,Neve'ei (Vinmavis),Neve'ei (Vinmavis),wini1242,wini1242
+125,Singhi,Singhi,baub1235,baub1235
+1250,Neve'ei (Vinmavis),,wini1242,
+1251,Tesmbol (Usus),Tesmbol (Usus),aulu1238,aulu1238
+1252,Tesmbol (Melaklak),Tesmbol (Melaklak),aulu1238,aulu1238
+1253,Fifti (Khatbol),Fifti (Khatbol),vivt1234,vivt1234
+1254,Nitita (Khatbol),Nitita (Khatbol),niti1249,niti1249
+1255,Tape (Tautu),Tape (Tautu),mara1399,mara1399
+1256,Naman (Litzlitz),Naman (Litzlitz),litz1237,litz1237
+1257,Ayta Mag-antsi,Ayta Mag-antsi,maga1263,maga1263
+1258,Manide,Manide,cama1250,cama1250
+1259,Utudnon,Utudnon,bayb1234,bayb1234
+126,Sobei,Sobei,sobe1238,sobe1238
+1260,Inati (Nagpana),Inati (Nagpana),atii1237,atii1237
+1261,Umiray Dumaget,Umiray Dumaget,umir1236,umir1236
+1262,Ayta Abellen,Ayta Abellen,aben1249,aben1249
+1263,Ayta Ambala,Ayta Ambala,amba1267,amba1267
+1264,Ayta Mag-anchi,Ayta Mag-anchi,maga1263,maga1263
+1265,Bolinao,Bolinao,boli1256,boli1256
+1266,Botolan Sambal,Botolan Sambal,boto1242,boto1242
+1267,Ayta Mag-indi,Ayta Mag-indi,magi1241,magi1241
+1268,Sambal,Sambal,tina1248,tina1248
+1269,Iraya,Iraya,iray1237,iray1237
+127,Soboyo,Soboyo,tali1262,tali1262
+1270,Alangan,Alangan,alan1249,alan1249
+1271,Tadyawan,Tadyawan,tady1237,tady1237
+1272,Batangan,Batangan,buhi1245,buhi1245
+1273,Buhid,Buhid,buhi1245,buhi1245
+1274,Hanunoo,Hanunoo,hanu1241,hanu1241
+1275,Ratagnon,Ratagnon,rata1245,rata1245
+1276,Sogodnin (Boracay),Sogodnin (Boracay),atii1237,atii1237
+1277,Sogodnin (Iloilo),Sogodnin (Iloilo),atii1237,atii1237
+1278,Malaweg,Malaweg,itaw1240,itaw1240
+1279,ßatarxobu (Benut),Batarxopu (Benut),malu1245,malu1245
+128,Rurutuan,Rurutuan,ruru1237,ruru1237
+1280,ßatarxobu (Lipitav),Batarxopu (Lipitav),malu1245,malu1245
+1281,ßatarxobu (Limsak),Batarxopu (Limsak),malu1245,malu1245
+1282,Aulua (Loxse Lanfitfit),Aulua (Loxse Lanfitfit),aulu1238,aulu1238
+1283,Maraxus,Maraxus,mara1399,mara1399
+1284,Venen Taute (Unmet),Venen Taute (Unmet),bign1238,bign1238
+1285,Vao (Torono),Vao (Torono),vaoo1237,vaoo1237
+1286,"Siviti (Beterbu, Jericho)","Siviti (Beterbu, Jericho)",malu1245,malu1245
+1287,Venen Taute (Hamax),Venen Taute (Hamax),bign1238,bign1238
+1288,Aulua (Netimb),Aulua (Netimb),aulu1238,aulu1238
+1289,Aitchin (Orap),Aitchin (Orap),atch1238,atch1238
+129,Tabar,Tabar,taba1261,taba1261
+1290,Malua Bay (Petarmul 1),Malua Bay (Petarmul 1),malu1245,malu1245
+1291,Tirax (Bakru),Tirax (Bakru),maee1241,maee1241
+1292,Burmbar (Fartavo),Burmbar (Fartavo),burm1263,burm1263
+1293,Nisvai (Blacksands),Nisvai (Blacksands),nisv1234,nisv1234
+1294,Uripiv (D'urpif 1),Uripiv (D'urpif 1),urip1240,urip1240
+1295,Alavas-Wowo (Wowo 2),Alavas-Wowo (Wowo 2),mpot1241,mpot1241
+1296,Tirax (Olamb),Tirax (Olamb),maee1241,maee1241
+1297,Uripiv (D'urpif 2,Uripiv (D'urpif 2,urip1240,urip1240
+1298,Wala (Botku),Wala (Botku),wala1267,wala1267
+1299,Wala (Worprev A),Wala (Worprev A),wala1267,wala1267
+13,Hanunóo,Hanunóo,hanu1241,hanu1241
+130,Tahitian (18th Century),Tahitian (18th Century),tahi1242,tahi1242
+1300,Venen Taute (Alpalak),Venen Taute (Alpalak),bign1238,bign1238
+1301,Rano (Chinambong),Rano (Chinambong),wala1267,wala1267
+1302,Rano (Small Island),Rano (Small Island),wala1267,wala1267
+1303,Rano (Potora),Rano (Potora),wala1267,wala1267
+1304,Vao (Peteri),Vao (Peteri),vaoo1237,vaoo1237
+1305,Alavas 1,Alavas 1,mpot1241,mpot1241
+1306,Uripiv (Potnambwe),Uripiv (Potnambwe),urip1240,urip1240
+1307,Nese (Matanvat),Nese (Matanvat),nese1235,nese1235
+1308,Espiegels' Bay (Shore),Espiegels' Bay (Shore),malu1245,malu1245
+1309,ßatarxobu (Gunwar),Batarxopu (Gunwar),malu1245,malu1245
+131,Tangga,Tangga,tang1348,tang1348
+1310,Siviti (Womol),Siviti (Womol),malu1245,malu1245
+1311,Espiegel's Bay (Litebral),Espiegel's Bay (Litebral),malu1245,malu1245
+1312,Malua Bay (Petarmul 2),Malua Bay (Petarmul 2),malu1245,malu1245
+1313,Najit,Najit,naji1240,naji1240
+1314,Alavas-Wowo (Wowo 1),Alavas-Wowo (Wowo 1),mpot1241,mpot1241
+1315,Aitchin (Small Island),Aitchin (Small Island),atch1238,atch1238
+1316,Mbwenelang (Xoli),Mbwenelang (Xoli),bwen1239,bwen1239
+1317,Tirax (Mae A),Tirax (Mae A),maee1241,maee1241
+1318,Malua Bay (Marasup),Malua Bay (Marasup),malu1245,malu1245
+1319,Tirax (Mae B),Tirax (Mae B),maee1241,maee1241
+132,Tarpia,Tarpia,tarp1240,tarp1240
+1320,Burmbar,Burmbar,burm1263,burm1263
+1321,Port Sandwich (Lamap 1),Port Sandwich (Lamap 1),port1285,port1285
+1322,Alavas 2,Alavas 2,mpot1241,mpot1241
+1323,Malua Bay (TipTir),Malua Bay (TipTir),malu1245,malu1245
+1324,Aulua (Loxse Asolokh),Aulua (Loxse Asolokh),aulu1238,aulu1238
+1325,Wala (Worprev B),Wala (Worprev B),wala1267,wala1267
+1326,Port Sandwich (Lamap 2),Port Sandwich (Lamap 2),port1285,port1285
+1327,Vao (Beetehul),Vao (Beetehul),vaoo1237,vaoo1237
+1328,Paiwan (Tjatjigel Egli),Paiwan (Tjatjigel Egli),paiw1248,paiw1248
+1329,Mato (Ramuk dialect),Mato (Ramuk dialect),mato1252,mato1252
+133,Tboli (Tagabili),Tboli (Tagabili),tbol1240,tbol1240
+1330,Mangap-Mbula,Mangap-Mbula,mbul1263,mbul1263
+1331,Dobel (Koijabi dialect),Dobel (Koijabi dialect),dobe1238,dobe1238
+1332,Kola,Kola,kola1285,kola1285
+1333,Tami,Tami,tami1290,tami1290
+1334,Mumeng (Patep dialect),Mumeng (Patep dialect),pate1247,pate1247
+1335,Mangseng,Mangseng,mang1403,mang1403
+1336,Bariai,Bariai,bari1286,bari1286
+1337,Wogeo,,woge1237,
+1338,Batuley,Batuley,batu1258,batu1258
+1339,Ujir (Schapper),Ujir (Schapper),ujir1237,ujir1237
+134,Tetum,Tetum,tetu1246,tetu1246
+1340,Label,Label,labe1239,labe1239
+1341,Ramoaaina,Ramoaaina,ramo1244,ramo1244
+1342,Sursurunga,Sursurunga,surs1246,surs1246
+1343,Malalamai,Malalamai,mala1489,mala1489
+1344,Ham,Ham,mari1428,mari1428
+1345,Siŋorakai,Siŋorakai,sing1268,sing1268
+1346,Wab,Wab,wabb1237,wabb1237
+1347,Biliau,,awad1244,
+1348,Roinji,Roinji,ronj1237,ronj1237
+1349,Bali-Vitu,Bali-Vitu,unea1237,unea1237
+135,Tigak,Tigak,tiga1245,tiga1245
+1350,Nenaya,Nenaya,nana1258,nana1258
+1351,Takia,,taki1248,
+1352,Kumokio,Kumokio,kumu1247,kumu1247
+1353,Mindiri,Mindiri,mind1255,mind1255
+1354,Sialum,Sialum,sial1240,sial1240
+1355,Sio,Sio,sioo1240,sioo1240
+1356,Malasanga,Malasanga,mala1487,mala1487
+1357,Kinalakna,Kinalakna,kina1251,kina1251
+1358,Mutu,Mutu,mutu1242,mutu1242
+1359,Gitua,Gitua,gitu1237,gitu1237
+136,Tongan,Tongan,tong1325,tong1325
+1360,Arop,Arop,arop1242,arop1242
+1361,Bebeli,Bebeli,bebe1252,bebe1252
+1362,Dadu'a,Dadu'a,dadu1237,dadu1237
+1363,Fordata,Fordata,ford1242,ford1242
+1364,Irarutu,Irarutu,irar1238,irar1238
+1365,Naueti,Naueti,naue1237,naue1237
+1366,Tetun Fehan,Tetun Fehan,tetu1245,tetu1245
+1367,Tokodede,Tokodede,tuku1254,tuku1254
+1368,Waima'a,Waima'a,waim1252,waim1252
+1369,Drubea,Drubea,dumb1241,dumb1241
+137,Tontemboan,Tontemboan,tont1239,tont1239
+1370,Novol (Bangir),Novol (Bangir),lete1241,lete1241
+1371,Kaniet,Kaniet,kani1282,kani1282
+1372,Ninigo,Ninigo,seim1238,seim1238
+1373,Awa,Awa,auaa1241,auaa1241
+1374,Sori,Sori,sori1242,sori1242
+1375,Lup,Lup,herm1237,herm1237
+1376,Njada,Njada,nyin1250,nyin1250
+1377,Ponam,Ponam,pona1250,pona1250
+1378,Andra,Andra,andr1248,andr1248
+1379,Hus,Hus,andr1248,andr1248
+138,Tsou T63,Tsou T63,tsou1248,tsou1248
+1380,Jiriw,Jiriw,nali1245,nali1245
+1381,Pitilu,Pitilu,leip1237,leip1237
+1382,Bujan,Bujan,kele1258,kele1258
+1383,Mokaren,Mokaren,moke1240,moke1240
+1384,Bipi,Bipi,bipi1237,bipi1237
+1385,Lebei,Lebei,kheh1237,kheh1237
+1386,Tulu,Tulu,tulu1259,tulu1259
+1387,Pak,Pak,pakt1239,pakt1239
+1388,Mbunai,Mbunai,tita1241,tita1241
+1389,Baluan,Baluan,balu1257,balu1257
+139,Vaghua,Vaghua,vagh1249,vagh1249
+1390,Musau,Musau,muss1248,muss1248
+1391,Avau,Avau,avau1237,avau1237
+1392,Hote (Misim dialect),Hote (Misim dialect),hote1245,hote1245
+1393,Nyindrou,Nyindrou,nyin1250,nyin1250
+1394,Sissano (Arop dialect),Sissano (Arop dialect),siss1243,siss1243
+1395,Akolet,Akolet,akol1237,akol1237
+1396,Na'ahai (Mbatvanui) 162-85,Na'ahai (Mbatvanui) 162-85,malf1237,malf1237
+1397,Natangan (Mbonvor) 162-86,Natangan (Mbonvor) 162-86,lete1241,lete1241
+1398,Axamb (Small Island-Brisbane) 162-89,Axamb (Small Island-Brisbane) 162-89,axam1237,axam1237
+1399,Na'ahai (Mbatambang) 162-83,Na'ahai (Mbatambang) 162-83,malf1237,malf1237
+14,Bima,Bima,bima1247,bima1247
+140,Vitu,Vitu,mudu1242,mudu1242
+1400,Avok (Hokai) 162-98,Avok (Hokai) 162-98,avok1244,avok1244
+1401,Mandri (Farun) 162-91,Mandri (Farun) 162-91,nasv1234,nasv1234
+1402,Na'axai (Malfaxal) 162-84,Na'axai (Malfaxal) 162-84,malf1237,malf1237
+1403,Uliveo (Palongk) 162-104,Uliveo (Palongk) 162-104,mask1242,mask1242
+1404,Nasvang (Farun) 162-93,Nasvang (Farun) 162-93,nasv1234,nasv1234
+1405,Natangan (Farun) 162-95b,Natangan (Farun) 162-95b,lete1241,lete1241
+1406,Na'ahai (Toman Island) 162-82,Na'ahai (Toman Island) 162-82,malf1237,malf1237
+1407,Avok (Shiaf),Avok (Shiaf),avok1244,avok1244
+1408,Nasvang (Farun) 162-90,Nasvang (Farun) 162-90,nasv1234,nasv1234
+1409,Avok (Hokai) 162-97a,Avok (Hokai) 162-97a,avok1244,avok1244
+141,Wampar,Wampar,wamp1247,wamp1247
+1410,Axamb (Small Island-Maliambur) 162-88,Axamb (Small Island-Maliambur) 162-88,axam1237,axam1237
+1411,Navwien 162-87,Navwien 162-87,navw1234,navw1234
+1412,Uliveo (Lurtes) 162-107,Uliveo (Lurtes) 162-107,mask1242,mask1242
+1413,Axamb (Farun) 162-94,Axamb (Farun) 162-94,axam1237,axam1237
+1414,Uliveo (Pescaros) 162-106,Uliveo (Pescaros) 162-106,mask1242,mask1242
+1415,Mandri (Faru) 162-100,Mandri (Faru) 162-100,axam1237,axam1237
+1416,Nasvang (Farun - children) 162-96,Nasvang (Farun - children) 162-96,nasv1234,nasv1234
+1417,Uliveo (Palongk) 162-103,Uliveo (Palongk) 162-103,mask1242,mask1242
+1418,Avok (Avok) 162-101,Avok (Avok) 162-101,avok1244,avok1244
+1419,Uliveo (Peskaros) 162-105,Uliveo (Peskaros) 162-105,mask1242,mask1242
+142,Waropen,Waropen,waro1242,waro1242
+1420,Nasvang (Farun) 162-95a,Nasvang (Farun) 162-95a,nasv1234,nasv1234
+1421,Avok (Avok) 162-99,Avok (Avok) 162-99,avok1244,avok1244
+1422,Eastern Ngad'a,Eastern Ngad'a,east2464,east2464
+1423,Anuki,Anuki,anuk1239,anuk1239
+1424,Sinaugoro (Balawaia Dialect),Sinaugoro (Balawaia Dialect),bala1307,bala1307
+1425,Buhutu,Buhutu,buhu1237,buhu1237
+1426,Bunama,Bunama,buna1276,buna1276
+1427,Bwaidoga,,bwai1243,
+1428,Dawawa,Dawawa,dawa1242,dawa1242
+1429,Dobu,Dobu,dobu1241,dobu1241
+143,Watubela,Watubela,watu1247,watu1247
+1430,"Mekeo, East","Mekeo, East",east2455,east2455
+1431,Gapapaiwa,,gapa1238,
+1432,Ghayavi,Ghayavi,ghay1237,ghay1237
+1433,Gumawana,,guma1254,
+1434,Hula,Hula,hula1239,hula1239
+1435,Iamalele,Iamalele,iama1237,iama1237
+1436,Iduna,Iduna,idun1242,idun1242
+1437,Kilivila,,kili1267,
+1438,Koluwawa,Koluwawa,kolu1245,kolu1245
+1439,Lala,,lala1268,
+144,Western Bukidnon Manobo,Western Bukidnon Manobo,west2555,west2555
+1440,Maisin,,mais1250,
+1441,Minaveha,Minaveha,mina1269,mina1269
+1442,Misima,,misi1243,
+1443,Molima,,moli1248,
+1444,Motu,,motu1246,
+1445,Muyuw,,muyu1244,
+1446,"Mekeo, North-West","Mekeo, North-West",nort2851,nort2851
+1447,Proto Central Papuan,Proto Central Papuan,cent2070,cent2070
+1448,Proto North Mainland/D'Entrecasteaux,Proto North Mainland/D'Entrecasteaux,nort2848,nort2848
+1449,Proto Papuan Tip,Proto Papuan Tip,papu1253,papu1253
+145,Windesi Wandamen,Windesi Wandamen,wand1267,wand1267
+1450,Proto Suauic,Proto Suauic,suau1243,suau1243
+1451,Roro,,waim1251,
+1452,Saliba,,sali1295,
+1453,Sinaugoro (Saroa Dialect),Sinaugoro (Saroa Dialect),saro1238,saro1238
+1454,Sewa,,sewa1251,
+1455,Suau,,suau1242,
+1456,Sudest,,sude1239,
+1457,Tawala,,tawa1275,
+1458,Tubetube,Tubetube,bwan1241,bwan1241
+1459,Wedau,,weda1241,
+146,Wogeo,Wogeo,woge1237,woge1237
+1460,'Auhelawa,,auhe1237,
+1461,'Oyaoya,'Oyaoya,oyao1237,oyao1237
+1462,Roon,Roon,roon1237,roon1237
+1463,Isinay (Dupax),Isinay (Dupax),isin1239,isin1239
+1464,Proto-Subanen,Proto-Subanen,suba1253,suba1253
+1465,Proto-Manobo,Proto-Manobo,mano1276,mano1276
+1466,Proto-Sama-Bajaw,Proto-Sama-Bajaw,sama1302,sama1302
+1467,Mindoro Tagalog,Mindoro Tagalog,taga1270,taga1270
+1468,Proto North Sarawak,Proto North Sarawak,nort3171,nort3171
+1469,Proto Kenyah,Proto Kenyah,keny1280,keny1280
+147,Wuna,Wuna,muna1247,muna1247
+1470,Lebo' Vo',Lebo' Vo',main1275,main1275
+1471,Uma' Pawe,Uma' Pawe,waha1238,waha1238
+1472,Lepo' Gah,Lepo' Gah,main1275,main1275
+1473,Lepo' Laang,Lepo' Laang,main1275,main1275
+1474,Lepo' Sawa,Lepo' Sawa,main1275,main1275
+1475,Lepo' Tau,Lepo' Tau,main1275,main1275
+1476,Badeng,Badeng,main1275,main1275
+1477,Ngorek,Ngorek,ngor1244,ngor1244
+1478,Kayan,Kayan,bara1370,bara1370
+1479,Paicî,Paicî,paic1239,paic1239
+148,Wuvulu,Wuvulu,wuvu1240,wuvu1240
+1480,Nyelâyu (Belep Dialect),Nyelâyu (Belep Dialect),nyal1254,nyal1254
+1481,Ansus,Ansus,ansu1237,ansu1237
+1482,Ajiø,Ajiø,ajie1238,ajie1238
+1483,Anesù,Anesù,xara1244,xara1244
+1484,Aro,Aro,arho1237,arho1237
+1485,Arʃa,Arʃa,arha1237,arha1237
+1486,Iai,Iai,iaai1238,iaai1238
+1487,ⁿDuᵐbea,ⁿDuᵐbea,dumb1241,dumb1241
+1488,Jawe,,jawe1237,
+1489,Kapone,Kapone,nume1242,nume1242
+149,Anejom (Aneityum),Anejom (Aneityum),anei1239,anei1239
+1490,Koumac,Koumac,nene1250,nene1250
+1491,Moeneᵐbeŋ,Moeneᵐbeŋ,caac1237,caac1237
+1492,Neku,Neku,neku1237,neku1237
+1493,Nenema,Nenema,nene1250,nene1250
+1494,Neŋone,Neŋone,neng1238,neng1238
+1495,Nɛmi,Nɛmi,nemi1240,nemi1240
+1496,Pat̪i,Pat̪i,paic1239,paic1239
+1497,Pinje,Pinje,pije1237,pije1237
+1498,Poai,Poai,fwai1237,fwai1237
+1499,Poamei,Poamei,pwaa1237,pwaa1237
+15,Bintulu,Bintulu,bint1246,bint1246
+150,Banjarese Malay,Banjarese Malay,banj1239,banj1239
+1500,Poapoã,Poapoã,pwap1237,pwap1237
+1501,Sirehë,Sirehë,zire1240,zire1240
+1502,Wamoaŋ,Wamoaŋ,waam1236,waam1236
+1503,camuki,camuki,cemu1238,cemu1238
+1504,Ciri,Ciri,tiri1258,tiri1258
+1505,ɲua,ɲua,yuag1237,yuag1237
+1506,ʝalasu,ʝalasu,bala1316,bala1316
+1507,ʰMoaekɛ,ʰMoaekɛ,vama1243,vama1243
+1508,ʰMoavekɛ,ʰMoavekɛ,hmwa1243,hmwa1243
+1509,ᵐBelep,ᵐBelep,nyal1254,nyal1254
+151,Belait,Belait,bela1260,bela1260
+1510,ᵐBonⁿde,ᵐBonⁿde,yuag1237,yuag1237
+1511,ᵐBoewe,ᵐBoewe,orow1242,orow1242
+1512,‘Aragùrɛ,‘Aragùrɛ,xara1243,xara1243
+1513,’Aekɛ,’Aekɛ,haek1239,haek1239
+1514,’Avekɛ,’Avekɛ,have1241,have1241
+1515,ⁿDe’u,ⁿDe’u,dehu1237,dehu1237
+1516,Siraya A,Siraya A,sira1267,sira1267
+1517,Siraya UM (Utrecht Manuscript) dialect,Siraya UM (Utrecht Manuscript) dialect,sira1267,sira1267
+1518,Proto Siraya,Proto Siraya,sira1267,sira1267
+1519,Siraya Gospel dialect,Siraya Gospel dialect,sira1267,sira1267
+152,Pukapuka,Pukapuka,puka1242,puka1242
+1520,Kaisabu,Kaisabu,kaes1237,kaes1237
+1521,Kumbewaha,Kumbewaha,kumb1274,kumb1274
+1522,Lasalimu,Lasalimu,lasa1237,lasa1237
+1523,Wakole dialect of Kumbewaha,Wakole dialect of Kumbewaha,kumb1274,kumb1274
+1524,Wasambua dialect of Cia-Cia,Wasambua dialect of Cia-Cia,ciac1237,ciac1237
+1525,Wolowa dialect of Kumbewaha,Wolowa dialect of Kumbewaha,kumb1274,kumb1274
+1526,Proto Malagasy,Proto Malagasy,mala1537,mala1537
+1527,Bwatoo,Bwatoo,bwat1240,bwat1240
+1528,Pwapwâ - mBoyen,Pwapwâ - mBoyen,pwap1237,pwap1237
+1529,Haeke,Haeke,haek1239,haek1239
+153,Cebuano,Cebuano,cebu1242,cebu1242
+1530,Haveke,Haveke,have1241,have1241
+1531,Caac,Caac,caac1237,caac1237
+1532,Javanese (Yogyakarta),Javanese (Yogyakarta),java1254,java1254
+1533,Tengger (Ngadas),Tengger (Ngadas),teng1272,teng1272
+1534,Javanese (Malang),Javanese (Malang),java1254,java1254
+1535,Old/Middle Javanese,Old/Middle Javanese,java1254,java1254
+1536,Jizhao (Li & Wu 2017),Jizhao (Li & Wu 2017),jizh1234,jizh1234
+1537,"Jizhao (Shao 2016, Shao & Meng 2016)","Jizhao (Shao 2016, Shao & Meng 2016)",jizh1234,jizh1234
+1538,Jizhao (Zhang 1992),Jizhao (Zhang 1992),jizh1234,jizh1234
+1539,Tobati,Tobati,toba1266,toba1266
+154,Dayak Ngaju,Dayak Ngaju,ngaj1237,ngaj1237
+1540,Ifo (Utaha),Ifo (Utaha),ifoo1237,ifoo1237
+1541,Raga,,hano1246,
+1542,Sa (Ha),Sa (Ha),saaa1241,saaa1241
+1543,Sa (F Yantas),Sa (F Yantas),saaa1241,saaa1241
+1544,Sa (Bunlap),Sa (Bunlap),saaa1241,saaa1241
+1545,Lolkasai,Lolkasai,hano1246,hano1246
+1546,Proto-Danaw,Proto-Danaw,dana1253,dana1253
+1547,Bulalakawnon,Bulalakawnon,bula1256,bula1256
+1548,Inonhan (Dispoholnon),Inonhan (Dispoholnon),disp1238,disp1238
+1549,Kamayo,Kamayo,kama1363,kama1363
+155,Tikopia,Tikopia,tiko1237,tiko1237
+1550,Caluyanun (Semirara),Caluyanun (Semirara),semi1263,semi1263
+1551,Guiangan (Sirib),Guiangan (Sirib),gian1241,gian1241
+1552,Guiangan (Baguio),Guiangan (Baguio),gian1241,gian1241
+1553,Inati (Hamtic),Inati (Hamtic),atii1237,atii1237
+1554,"Inati (Jordan, Guimaras)","Inati (Jordan, Guimaras)",atii1237,atii1237
+1555,Tandaganon (Naturalis),Tandaganon (Naturalis),natu1247,natu1247
+1556,Malay,Malay,indo1316,indo1316
+1557,Kala,Kala,kela1255,kela1255
+1558,Jiamao,,jiam1236,
+1559,Jiamao (Lingshui),Jiamao (Lingshui),jiam1236,jiam1236
+156,Futuna-Aniwa,Futuna-Aniwa,futu1245,futu1245
+1560,Great Andamanese,Great Andamanese,grea1241,grea1241
+1561,Proto-Austroasiatic,Proto-Austroasiatic,aust1305,aust1305
+1562,Proto-Japanese,Proto-Japanese,japo1237,japo1237
+1563,Proto-Nivkh,Proto-Nivkh,gily1242,gily1242
+1564,Kenaboi (I),Kenaboi (I),kena1236,kena1236
+1565,Proto-Nicobarese,Proto-Nicobarese,nico1262,nico1262
+1566,Proto-Aslian,Proto-Aslian,asli1243,asli1243
+1567,Kusunda,Kusunda,kusu1250,kusu1250
+1568,Kenaboi (II),Kenaboi (II),kena1236,kena1236
+1569,Agutyanen,Agutyanen,agut1237,agut1237
+157,Itbayaten,Itbayaten,ivat1242,ivat1242
+1570,Moklen,Moklen,mokl1243,mokl1243
+1571,Proto-Moken-Moklen,Proto-Moken-Moklen,moke1241,moke1241
+1572,Nihali,Nihali,niha1238,niha1238
+1573,Fwâi,Fwâi,fwai1237,fwai1237
+1574,Pije (mountain),Pije (mountain),pije1237,pije1237
+1575,Pije (Ocean),Pije (Ocean),pije1237,pije1237
+1576,Xârâcùù,Xârâcùù,xara1244,xara1244
+1577,Keapara (Kalo Dialect),Keapara (Kalo Dialect),kalo1259,kalo1259
+1578,Nguluwan,Nguluwan,ngul1236,ngul1236
+1579,Sungwadia (Naomumu),Sungwadia (Naomumu),cent2058,cent2058
+158,Katingan,Katingan,ngaj1237,ngaj1237
+1580,North Ambae (Leonda),North Ambae (Leonda),east2443,east2443
+1581,North Ambae (Havai),North Ambae (Havai),east2443,east2443
+1582,Sungwadia (Uta),Sungwadia (Uta),mari1426,mari1426
+1583,Sungwadia (Marino),Sungwadia (Marino),mari1426,mari1426
+1584,North Ambae (Leo),North Ambae (Leo),east2443,east2443
+1585,Mwerlap (of N. Maewo),Mwerlap (of N. Maewo),merl1237,merl1237
+1586,Sungwadaga (Roŋnawo),Sungwadaga (Roŋnawo),cent2058,cent2058
+1587,Sungwaloge (Tawet) as spoken at Naviso,Sungwaloge (Tawet) as spoken at Naviso,cent2058,cent2058
+1588,Sungwadaga (Lalaundi),Sungwadaga (Lalaundi),cent2058,cent2058
+1589,Sungwada (Ngota),Sungwada (Ngota),cent2058,cent2058
+159,Kilivila,Kilivila,kili1267,kili1267
+1590,Sungwadola (Gʷaaran Uta),Sungwadola (Gʷaaran Uta),cent2058,cent2058
+1591,Sungwadoga (Rata),Sungwadoga (Rata),cent2058,cent2058
+1592,East Ambae (Sana),East Ambae (Sana),east2443,east2443
+1593,South Ambae (Lolovele),South Ambae (Lolovele),east2443,east2443
+1594,South Ambae (Biribiri),South Ambae (Biribiri),east2443,east2443
+1595,South Ambae (Sakao),South Ambae (Sakao),east2443,east2443
+1596,Sungwaloge (Tawet) as spoken at Narovorovo,Sungwaloge (Tawet) as spoken at Narovorovo,cent2058,cent2058
+1597,East Ambae (Vuindondo),East Ambae (Vuindondo),east2443,east2443
+1598,Sungwaloge (Nalemba) as spoken at Narovorovo),Sungwaloge (Nalemba) as spoken at Narovorovo),cent2058,cent2058
+1599,West Ambae (Walaha),West Ambae (Walaha),wala1268,wala1268
+16,Bobot,Bobot,bobo1254,bobo1254
+160,Kisar,Kisar,kisa1266,kisa1266
+1600,East Ambae (Lolovoli),East Ambae (Lolovoli),east2443,east2443
+1601,Sungwaloge (Nalemba) as spoken at Nasawa,Sungwaloge (Nalemba) as spoken at Nasawa,cent2058,cent2058
+1602,Sungagage (Avanbatai),Sungagage (Avanbatai),cent2058,cent2058
+1603,Raga,,hano1246,
+1604,Sungagage (Avavanvae),Sungagage (Avavanvae),cent2058,cent2058
+1605,Sungagage (Asanvari),Sungagage (Asanvari),cent2058,cent2058
+1606,Xalangi (Baetora),Xalangi (Baetora),baet1237,baet1237
+1607,Sungwadia (Tasmaor),Sungwadia (Tasmaor),mari1426,mari1426
+1608,Cemuhî,Cemuhî,cemu1238,cemu1238
+1609,Xârâgurè,Xârâgurè,xara1243,xara1243
+161,Koiwai (Irian Jaya),Koiwai (Irian Jaya),kowi1239,kowi1239
+1610,Hamea,Hamea,meaa1237,meaa1237
+1611,Proto-Kra-Dai,Proto-Kra-Dai,kada1291,kada1291
+1612,Tîrî (Tsîrî - Tintin),Tîrî (Tsîrî - Tintin),tiri1261,tiri1261
+1613,Nemi (Temala area),Nemi (Temala area),nemi1240,nemi1240
+1614,Nemi (East cost area),Nemi (East cost area),nemi1240,nemi1240
+1615,Numèè (Nââ Numèè),Numèè (Nââ Numèè),nume1242,nume1242
+1616,Proto-Asmat-Kamoro,Proto-Asmat-Kamoro,asma1256,asma1256
+1617,Jawe,,jawe1237,
+1618,Sishëë,Sishëë,zire1240,zire1240
+1619,Keapara (Keapara/Kerepunu Dialect),Keapara (Keapara/Kerepunu Dialect),keap1239,keap1239
+162,Lenakel,Lenakel,lena1238,lena1238
+1620,Proto-Palawan,Proto-Palawan,pala1354,pala1354
+1621,Proto-Batanic,Proto-Batanic,bata1315,bata1315
+1622,Proto-Central Luzon,Proto-Central Luzon,cent2080,cent2080
+1623,Proto-Kalamianic,Proto-Kalamianic,kala1389,kala1389
+1624,Proto-Gorontalo-Mongondow,Proto-Gorontalo-Mongondow,goro1257,goro1257
+1625,Sungwadia (Naone),Sungwadia (Naone),cent2058,cent2058
+1626,Mangaia,,mang1402,
+1627,Tokelau Fijian,Tokelau Fijian,fiji1243,fiji1243
+1628,Penrhyn (Tongareva),Penrhyn (Tongareva),penr1237,penr1237
+1629,Beothuk,Beothuk,beot1247,beot1247
+163,Tuvalu,Tuvalu,tuva1244,tuva1244
+1630,Aitutaki,Aitutaki,aitu1237,aitu1237
+1631,Ma'uke,Ma'uke,mauk1238,mauk1238
+1632,Serewen,Serewen,pomm1237,pomm1237
+1633,Pom,Pom,pomm1237,pomm1237
+1634,Biak (Northern),Biak (Northern),biak1248,biak1248
+1635,Inagta Alabat,Inagta Alabat,alab1246,alab1246
+1636,Tahitian,Tahitian,tahi1242,tahi1242
+1637,Surigaonon,,suri1273,
+1638,Western Subanon,Western Subanon,west2557,west2557
+1639,Tugun,,tugu1245,
+164,Magori (South East Papua),Magori (South East Papua),mago1248,mago1248
+1640,"Tobian, Hatohobeian, Ramari Hatohobei","Tobian, Hatohobeian, Ramari Hatohobei",tobi1238,tobi1238
+1641,Manide (Labo),Manide (Labo),cama1250,cama1250
+1642,Vaha (Tanna Island),Vaha (Tanna Island),sout2869,sout2869
+1643,Central Sinama,Central Sinama,cent2092,cent2092
+1644,Southern Thai,Southern Thai,sout2746,sout2746
+1645,Tai Dam 1,Tai Dam 1,taid1247,taid1247
+1646,Tai Dam 2,Tai Dam 2,taid1247,taid1247
+1647,Tai Nüa 1,Tai Nüa 1,tain1252,tain1252
+1648,Tai Nüa 2,Tai Nüa 2,tain1252,tain1252
+1649,Tai Nüa 3,Tai Nüa 3,tain1252,tain1252
+165,Maisin,Maisin,mais1250,mais1250
+1650,Tai Nüa 4,Tai Nüa 4,tain1252,tain1252
+1651,Thai,Thai,thai1261,thai1261
+1652,Lao,,laoo1244,
+1653,Shan,,shan1277,
+1654,Nukumanu,Nukumanu,nuku1258,nuku1258
+1655,Mandailing,Mandailing,bata1291,bata1291
+1656,Ngevin,Ngevin,lame1259,lame1259
+1657,Nalema,Nalema,lame1259,lame1259
+1658,Red Ston,Red Stone,lame1259,lame1259
+1659,Red Ston (Nakanamanga),Red Ston (Nakanamanga),nort2836,nort2836
+166,Makassar,Makassar,maka1311,maka1311
+1660,Taolia,Taolia,lame1259,lame1259
+1661,Vilakara,Vilakara,lame1259,lame1259
+1662,Vilakara (Nakanamanga),Vilakara (Nakanamanga),nort2836,nort2836
+1663,Lopika,Lopika,lame1259,lame1259
+1664,Lopika (Nakanamanga),Lopika (Nakanamanga),nort2836,nort2836
+1665,Tekelele,Tekelele,lame1259,lame1259
+1666,Tekelele (Nakanamanga),Tekelele (Nakanamanga),nort2836,nort2836
+1667,Oreao,Oreao,bier1246,bier1246
+1668,Oreao (Nakanamanga),Oreao (Nakanamanga),nort2836,nort2836
+1669,Lopalis,Lopalis,lame1259,lame1259
+167,Mambai,Mambai,mamb1306,mamb1306
+1670,Lopalis (Nakanamanga),Lopalis (Nakanamanga),nort2836,nort2836
+1671,Tamalia,Tamalia,lame1259,lame1259
+1672,Miapika,Miapika,lame1259,lame1259
+1673,nul nelsa 1-18,Nulnesa,lame1259,lame1259
+1674,sara 1-16,sara 1-16,bier1246,bier1246
+1675,votlo 1-15,Votlo,bier1246,bier1246
+1676,jakena,Jakena,lame1259,lame1259
+1677,Nouvi,Nouvi,lame1259,lame1259
+1678,mate wan,Mate wan,lame1259,lame1259
+1679,Lepa,Lepa,lame1259,lame1259
+168,Manam,Manam,mana1295,mana1295
+1680,Maŋgalava,Maŋgalava,bier1246,bier1246
+1681,Nivenuhe,Nivenuhe,lame1259,lame1259
+1682,Morju,Morju,lame1259,lame1259
+1683,Maparahu,Maparahu,lame1259,lame1259
+1684,Niku,Niku,lame1259,lame1259
+1685,Laman Bay,Laman Bay,lame1259,lame1259
+1686,Betawi Malay (Tengahan dialect),Betawi Malay (Tengahan dialect),tang1384,tang1384
+1687,Ulpea,Ulpea,,
+1688,Lewo (Mate village),Lewo (Mate village),mate1259,mate1259
+1689,Lewo (Nivu village),Lewo (Nivu village),lewo1242,lewo1242
+169,Marshallese (E. Dialect),Marshallese (E. Dialect),rata1243,rata1243
+1690,Lewo (Nikaura village),Lewo (Nikaura village),lewo1242,lewo1242
+1691,Buang (Headwaters dialect),Buang (Headwaters dialect),mapo1242,mapo1242
+1692,Lamen Bay,Lamen Bay,lame1260,lame1260
+1693,Proto-Atayal,Proto-Atayal,atay1246,atay1246
+1694,Atayal (Matu'uwal),Atayal (Matu'uwal),atay1247,mayr1237
+1695,Atayal (Plngawan),Atayal (Plngawan),atay1247,plna1234
+1696,Atayal (Squliq),Atayal (Squliq),sqol1237,sqol1237
+1697,Atayal (Skikun),Atayal (Skikun),atay1247,skik1234
+1698,Atayal (Klesan),Atayal (Klesan),atay1247,kles1234
+1699,Atayal (Matu'aw),Atayal (Matu'aw),atay1247,matu1265
+17,Bonerate,Bonerate,bone1254,bone1254
+170,Melayu Ambon,Melayu Ambon,ambo1250,ambo1250
+1700,Atayal (S'uli),Atayal (S'uli),sqol1237,suli1239
+1701,Proto-Bunun,Proto-Bunun,bunu1267,bunu1267
+1702,South African Malay (Cape Malay),South African Malay (Cape Malay),mala1538,mala1538
+1703,Kelinjau Modang,Kelinjau Modang,moda1244,moda1244
+1704,Wehea (Wahau),Wehea (Wahau),moda1244,moda1244
+1705,Bahau,Bahau,baha1257,baha1257
+1706,Mahakam Kayan,Mahakam Kayan,kaya1324,kaya1324
+1707,Kuanua (Makada),Kuanua (Makada),kuan1248,kuan1248
+1708,Tomoip,Tomoip,tomo1244,tomo1244
+1709,Lote,Lote,lote1237,lote1237
+171,Lamusong,Lamusong,lamu1255,lamu1255
+1710,Acehnese-Lamno,Acehnese-Lamno,achi1257,achi1257
+1711,Aneityumese,Aneityumese,anei1239,anei1239
+1712,Dalkalaen,Dalkalaen,dalk1234,dalk1234
+1713,Malay (1600),Malay (1600),stan1306,stan1306
+1714,Tamambo,Tamambo,malo1243,malo1243
+1715,Fijian (Rewa; Burebasaga),Fijian (Rewa; Burebasaga),,
+1716,Fijian (Yasayasabeqa; Yanuca),Fijian (Yasayasabeqa; Yanuca),,
+1717,Fijian (Vanualevuicake; Dogotuki),Fijian (Vanualevuicake; Dogotuki),,
+1718,Fijian (Vanualevuicake; Vaturovaivanua),Fijian (Vanualevuicake; Vaturovaivanua),,
+1719,Fijian (Vanualevuiloma; Wailevuirā),Fijian (Vanualevuiloma; Wailevuirā),,
+172,Minangkabau,Minangkabau,mina1268,mina1268
+1720,Fijian (Rakiraki; Natokea),Fijian (Rakiraki; Natokea),,
+1721,Fijian (Wainibuka; Nalawa),Fijian (Wainibuka; Nalawa),,
+1722,Fijian (Vanuabalavu; Lomaloma),Fijian (Vanuabalavu; Lomaloma),vanu1243,vanu1243
+1723,Fijian (Nadroga; Nakaria),Fijian (Nadroga; Nakaria),nadr1235,nadr1235
+1724,Fijian (Ba; Votua),Fijian (Ba; Votua),,
+1725,Fijian (Nadroga; Wai),Fijian (Nadroga; Wai),nadr1235,nadr1235
+1726,Fijian (Vanualevuiloma; Nukubolu),Fijian (Vanualevuiloma; Nukubolu),,
+1727,Fijian (Vanuabalavu; Mualevu),Fijian (Vanuabalavu; Mualevu),vanu1243,vanu1243
+1728,Fijian (Wainimala; Vuna Tailevu),Fijian (Wainimala; Vuna Tailevu),,
+1729,Fijian (Nadroga; Tubaniwai/Jubaniwai),Fijian (Nadroga; Tubaniwai/Jubaniwai),nadr1235,nadr1235
+173,Tahitian (Modern),Tahitian (Modern),tahi1242,tahi1242
+1730,Fijian (Ovalau; Rukuruku Ovalau),Fijian (Ovalau; Rukuruku Ovalau),,
+1731,Fijian (Vatulawa; Mabuco),Fijian (Vatulawa; Mabuco),,
+1732,Fijian (Vanualevuiloma; Macuata),Fijian (Vanualevuiloma; Macuata),,
+1733,Fijian (Vanualevuicake; Saqani),Fijian (Vanualevuicake; Saqani),,
+1734,Fijian (Kadavu; Namālata),Fijian (Kadavu; Namālata),kada1285,kada1285
+1735,Fijian (Wainibuka; Nabuto),Fijian (Wainibuka; Nabuto),,
+1736,Fijian (Vanualevuiloma; Buca),Fijian (Vanualevuiloma; Buca),,
+1737,Fijian (Vanualevuicake; Namuka),Fijian (Vanualevuicake; Namuka),,
+1738,Fijian (Gau; Qalitū),Fijian (Gau; Qalitū),,
+1739,Fijian (Wainimala; Lutu),Fijian (Wainimala; Lutu),,
+174,Pulo Anna,Pulo Anna,pulo1240,pulo1240
+1740,Fijian (Vatulawa; Nadakeke/Narocake),Fijian (Vatulawa; Nadakeke/Narocake),,
+1741,Fijian (Bau; Batiki Tailevu),Fijian (Bau; Batiki Tailevu),bauu1243,bauu1243
+1742,Fijian (Tailevu; Kuku),Fijian (Tailevu; Kuku),,
+1743,Fijian (Kadavu; Yawe),Fijian (Kadavu; Yawe),kada1285,kada1285
+1744,Fijian (Sērua; Nadruku),Fijian (Sērua; Nadruku),namo1248,namo1248
+1745,Fijian (Verata; Bureta),Fijian (Verata; Bureta),,
+1746,Fijian (Vanualevuicake; Nadogo),Fijian (Vanualevuicake; Nadogo),,
+1747,Fijian (Naitasiri; Lami),Fijian (Naitasiri; Lami),namo1248,namo1248
+1748,Fijian (Kadavu; Yale),Fijian (Kadavu; Yale),kada1285,kada1285
+1749,Fijian (Nadrau; Nadrau),Fijian (Nadrau; Nadrau),nadr1234,nadr1234
+175,Chuukese,Chuukese,chuu1238,chuu1238
+1750,Fijian (Rewa; Kiuva),Fijian (Rewa; Kiuva),,
+1751,Fijian (Vanualevuiloma; Tamonibuca),Fijian (Vanualevuiloma; Tamonibuca),,
+1752,Fijian (Yasawa; Yasawa),Fijian (Yasawa; Yasawa),,
+1753,Fijian (Wainibuka; Nakorotubu),Fijian (Wainibuka; Nakorotubu),,
+1754,Fijian (Vanualevuicake; Udu),Fijian (Vanualevuicake; Udu),,
+1755,Fijian (Sērua; Bajiwai/Batiwai),Fijian (Sērua; Bajiwai/Batiwai),namo1248,namo1248
+1756,Fijian (Magodro; Nāloto Bā),Fijian (Magodro; Nāloto Bā),west2519,west2519
+1757,Fijian (Verata; Qomā),Fijian (Verata; Qomā),,
+1758,Fijian (Bua; Wailevu Bua),Fijian (Bua; Wailevu Bua),west2514,west2514
+1759,Fijian (Bua; Bua),Fijian (Bua; Bua),west2514,west2514
+176,Nakanai (Bileki Dialect),Nakanai (Bileki Dialect),bile1245,bile1245
+1760,Fijian (Wainibuka; Nailuva),Fijian (Wainibuka; Nailuva),,
+1761,Fijian (Bua; Kubulau),Fijian (Bua; Kubulau),west2514,west2514
+1762,Fijian (Rakiraki; Navatu Nakorotubu),Fijian (Rakiraki; Navatu Nakorotubu),,
+1763,Fijian (Wainibuka; Nalidi),Fijian (Wainibuka; Nalidi),,
+1764,Fijian (Vanualevuiloma; Sēqāqāirā),Fijian (Vanualevuiloma; Sēqāqāirā),,
+1765,Fijian (Nadrau; Nabōbuco),Fijian (Nadrau; Nabōbuco),nadr1234,nadr1234
+1766,Fijian (Bua; Natokalau Kubulau),Fijian (Bua; Natokalau Kubulau),west2514,west2514
+1767,Fijian (Yasawa; Teci),Fijian (Yasawa; Teci),,
+1768,Fijian (Ba; Nailaga,Fijian (Ba; Nailaga,,
+1769,Fijian (Verata; Nasēsara),Fijian (Verata; Nasēsara),,
+177,Paiwan (Kulalao F82),Paiwan (Kulalao F82),paiw1248,paiw1248
+1770,Fijian (Wainibuka; Nausori Rā),Fijian (Wainibuka; Nausori Rā),,
+1771,Fijian (Yasayasabeqa; Sawau),Fijian (Yasayasabeqa; Sawau),,
+1772,Fijian (Rakiraki; Tokaimalo),Fijian (Rakiraki; Tokaimalo),,
+1773,Fijian (Verata; Nasinu),Fijian (Verata; Nasinu),,
+1774,Fijian (Naitasiri; Navunokonoko),Fijian (Naitasiri; Navunokonoko),namo1248,namo1248
+1775,Fijian (Vanualevuiloma; Kiā),Fijian (Vanualevuiloma; Kiā),,
+1776,Fijian (Vanualevuiloma; Wailevu),Fijian (Vanualevuiloma; Wailevu),,
+1777,Fijian (Vatulawa; Nasau),Fijian (Vatulawa; Nasau),,
+1778,Fijian (Verata; Tokou),Fijian (Verata; Tokou),,
+1779,Fijian (Verata; Yanuca Moturiki),Fijian (Verata; Yanuca Moturiki),,
+178,Patpatar,Patpatar,patp1243,patp1243
+1780,Fijian (Vanualevuiloma; Naqumu),Fijian (Vanualevuiloma; Naqumu),,
+1781,Fijian (Vanualevuiloma; Navadra),Fijian (Vanualevuiloma; Navadra),,
+1782,Fijian (Magodro; Magodro),Fijian (Magodro; Magodro),west2519,west2519
+1783,Fijian (Naitasiri; Lomaivuna),Fijian (Naitasiri; Lomaivuna),namo1248,namo1248
+1784,Fijian (Wainibuka; Nakida),Fijian (Wainibuka; Nakida),,
+1785,Fijian (Vanualevuiloma; Sāsā),Fijian (Vanualevuiloma; Sāsā),,
+1786,Fijian (Yasayasabeqa; Deuba),Fijian (Yasayasabeqa; Deuba),,
+1787,Fijian (Wainibuka; Bureivanua),Fijian (Wainibuka; Bureivanua),,
+1788,Fijian (Nadroga; Bemana),Fijian (Nadroga; Bemana),nadr1235,nadr1235
+1789,Fijian (Wainibuka; Bureiwai),Fijian (Wainibuka; Bureiwai),,
+179,Ponapean,Ponapean,pohn1238,pohn1238
+1790,Fijian (Kadavu; Namara Kadavu),Fijian (Kadavu; Namara Kadavu),kada1285,kada1285
+1791,Fijian (Rewa; Visama),Fijian (Rewa; Visama),,
+1792,Fijian (Yasayasabeqa; Naduruvesi),Fijian (Yasayasabeqa; Naduruvesi),,
+1793,Fijian (Nadroga; Tuva),Fijian (Nadroga; Tuva),nadr1235,nadr1235
+1794,Fijian (Rewa; Toga),Fijian (Rewa; Toga),,
+1795,Fijian (Bua; Navakasiga),Fijian (Bua; Navakasiga),west2514,west2514
+1796,Fijian (Vanualevuiloma; Drakaniwai),Fijian (Vanualevuiloma; Drakaniwai),,
+1797,Fijian (Yasawa; Marou),Fijian (Yasawa; Marou),,
+1798,Fijian (Vatulawa; Wainikeli),Fijian (Vatulawa; Wainikeli),,
+1799,Fijian (Bau; Kaba),Fijian (Bau; Kaba),bauu1243,bauu1243
+18,Chamorro,Chamorro,cham1312,cham1312
+180,Pulau (Arguni),Pulau (Arguni),argu1237,argu1237
+1800,Fijian (Naitasiri; Navakavu),Fijian (Naitasiri; Navakavu),namo1248,namo1248
+1801,Fijian (Wainibuka; Silana),Fijian (Wainibuka; Silana),,
+1802,Fijian (Rewa; Rewa),Fijian (Rewa; Rewa),,
+1803,Fijian (Rakiraki; Raviravi Ra),Fijian (Rakiraki; Raviravi Ra),,
+1804,Fijian (Vuda; Buduka),Fijian (Vuda; Buduka),,
+1805,Fijian (Vanualevuiloma; Dreketi),Fijian (Vanualevuiloma; Dreketi),,
+1806,Fijian (Wainimala; Rārā),Fijian (Wainimala; Rārā),,
+1807,Fijian (Tailevu; Burerua),Fijian (Tailevu; Burerua),,
+1808,Fijian (Vatulawa; Naweni),Fijian (Vatulawa; Naweni),,
+1809,Fijian (Wainibuka; Namena),Fijian (Wainibuka; Namena),,
+181,Punan Kelai,Punan Kelai,sega1243,sega1243
+1810,Fijian (Ovalau; Cawaci),Fijian (Ovalau; Cawaci),,
+1811,Fijian (Vuda; Māmānuca),Fijian (Vuda; Māmānuca),,
+1812,Fijian (Waya; Viwa),Fijian (Waya; Viwa),waya1268,waya1268
+1813,Fijian (Vuda; Malolo),Fijian (Vuda; Malolo),,
+1814,Fijian (Vanualevuiloma; Naqelelevu),Fijian (Vanualevuiloma; Naqelelevu),,
+1815,Fijian (Vanualevuiloma; Bāravi),Fijian (Vanualevuiloma; Bāravi),,
+1816,Fijian (Vanualevuicake; Batinikama),Fijian (Vanualevuicake; Batinikama),,
+1817,Fijian (Sērua; Sērua),Fijian (Sērua; Sērua),namo1248,namo1248
+1818,Fijian (Rewa; Buretū),Fijian (Rewa; Buretū),,
+1819,Fijian (Gau; Gau),Fijian (Gau; Gau),,
+182,Ririo,Ririo,riri1237,riri1237
+1820,Fijian (Rewa; Nukui),Fijian (Rewa; Nukui),,
+1821,Fijian (Vanualevuicake; Koibau/Qoibau),Fijian (Vanualevuicake; Koibau/Qoibau),,
+1822,Fijian (Vanualevuiloma; Nasavusavu,Fijian (Vanualevuiloma; Nasavusavu,,
+1823,Fijian (Nadroga; Lomawai),Fijian (Nadroga; Lomawai),nadr1235,nadr1235
+1824,Fijian (Waidina; Navuakece),Fijian (Waidina; Navuakece),waid1240,waid1240
+1825,Fijian (Nadroga; Naqwalimare),Fijian (Nadroga; Naqwalimare),nadr1235,nadr1235
+1826,Fijian (Keiasi; Vusu),Fijian (Keiasi; Vusu),,
+1827,Fijian (Vanualevuiloma; Nabekavu),Fijian (Vanualevuiloma; Nabekavu),,
+1828,Fijian (Wainibuka; Nasautoka),Fijian (Wainibuka; Nasautoka),,
+1829,Fijian (Rakiraki; Naroko),Fijian (Rakiraki; Naroko),,
+183,Sangir,Sangir,sang1336,sang1336
+1830,Fijian (Vatulawa; Qamea),Fijian (Vatulawa; Qamea),,
+1831,Fijian (Nadroga; Davutukia/Davujukia),Fijian (Nadroga; Davutukia/Davujukia),nadr1235,nadr1235
+1832,Fijian (Ba; Qaliyalatina),Fijian (Ba; Qaliyalatina),,
+1833,Fijian (Vanualevuiloma; Dewala),Fijian (Vanualevuiloma; Dewala),,
+1834,Fijian (Rewa; Naqarani),Fijian (Rewa; Naqarani),,
+1835,Fijian (Keiasi; Mosi),Fijian (Keiasi; Mosi),,
+1836,Fijian (Verata; Nāloto Verata),Fijian (Verata; Nāloto Verata),,
+1837,Fijian (Bau; Taiobau),Fijian (Bau; Taiobau),bauu1243,bauu1243
+1838,Fijian (Rewa; Vūtia),Fijian (Rewa; Vūtia),,
+1839,Fijian (Waidina; Naitavuni),Fijian (Waidina; Naitavuni),waid1240,waid1240
+184,Santa Ana,Santa Ana,sant1414,sant1414
+1840,Fijian (Vanualevuicake; Namukaicake),Fijian (Vanualevuicake; Namukaicake),,
+1841,Fijian (Namosi; Vunaqumu),Fijian (Namosi; Vunaqumu),namo1248,namo1248
+1842,Fijian (Gau; Narocake),Fijian (Gau; Narocake),,
+1843,Fijian (Nadroga; Momi),Fijian (Nadroga; Momi),nadr1235,nadr1235
+1844,Fijian (Tailevu; Nacovu),Fijian (Tailevu; Nacovu),,
+1845,Fijian (Rewa; Noco),Fijian (Rewa; Noco),,
+1846,Fijian (Bau; Nairai),Fijian (Bau; Nairai),bauu1243,bauu1243
+1847,Fijian (Vanualevuicake; Labasa),Fijian (Vanualevuicake; Labasa),,
+1848,Fijian (Wainibuka; Nayavu),Fijian (Wainibuka; Nayavu),,
+1849,Fijian (Rewa; Nukutubu),Fijian (Rewa; Nukutubu),,
+185,Sasak,Sasak,sasa1249,sasa1249
+1850,Fijian (Verata; Savuna),Fijian (Verata; Savuna),,
+1851,Fijian (Kadavu; Nabukelevu),Fijian (Kadavu; Nabukelevu),kada1285,kada1285
+1852,Fijian (Yasayasabeqa; Naturū),Fijian (Yasayasabeqa; Naturū),,
+1853,Fijian (Yasawa; Nacula),Fijian (Yasawa; Nacula),,
+1854,Fijian (Bau; Batiki),Fijian (Bau; Batiki),bauu1243,bauu1243
+1855,Fijian (Yasayasabeqa; Kulu),Fijian (Yasayasabeqa; Kulu),,
+1856,Fijian (Ovalau; Gavo),Fijian (Ovalau; Gavo),,
+1857,Fijian (Wainibuka; Barotu),Fijian (Wainibuka; Barotu),,
+1858,Fijian (Wainibuka; Nababa),Fijian (Wainibuka; Nababa),,
+1859,Fijian (Nadroga; Cuvu),Fijian (Nadroga; Cuvu),nadr1235,nadr1235
+186,Sekar,Sekar,seka1247,seka1247
+1860,Fijian (Verata; Nasauvuki),Fijian (Verata; Nasauvuki),,
+1861,Fijian (Tailevu; Tubalevu),Fijian (Tailevu; Tubalevu),,
+1862,Fijian (Rewa; Tokatoka),Fijian (Rewa; Tokatoka),,
+1863,Fijian (Wainibuka; Wailotua),Fijian (Wainibuka; Wailotua),,
+1864,Fijian (Rewa; Nuku),Fijian (Rewa; Nuku),,
+1865,Fijian (Bua; Lekutu),Fijian (Bua; Lekutu),west2514,west2514
+1866,Fijian (Rakiraki; Vatukaloko),Fijian (Rakiraki; Vatukaloko),,
+1867,Fijian (Sērua; Mami/Bajiwaiilolo),Fijian (Sērua; Mami/Bajiwaiilolo),namo1248,namo1248
+1868,Fijian (Verata; Natokalau),Fijian (Verata; Natokalau),,
+1869,Fijian (Yasayasamuala; Natokalau Cicia),Fijian (Yasayasamuala; Natokalau Cicia),,
+187,Teop,Teop,teop1238,teop1238
+1870,Fijian (Yasayasabeqa; Raviravi),Fijian (Yasayasabeqa; Raviravi),,
+1871,Fijian (Sērua; Tubai),Fijian (Sērua; Tubai),namo1248,namo1248
+1872,Fijian (Rakiraki; Navatu Rā),Fijian (Rakiraki; Navatu Rā),,
+1873,Fijian (Vanualevuicake; Korotubu),Fijian (Vanualevuicake; Korotubu),,
+1874,Fijian (Yasayasabeqa; Vābea),Fijian (Yasayasabeqa; Vābea),,
+1875,Fijian (Verata; Naicabecabe),Fijian (Verata; Naicabecabe),,
+1876,Fijian (Ovalau; Nasaumatua),Fijian (Ovalau; Nasaumatua),,
+1877,Fijian (Ovalau; Levuka),Fijian (Ovalau; Levuka),,
+1878,Fijian (Rewa; Dravo),Fijian (Rewa; Dravo),,
+1879,Fijian (Rewa; Dreketi Rewa),Fijian (Rewa; Dreketi Rewa),,
+188,Toba Batak,Toba Batak,bata1289,bata1289
+1880,Fijian (Sērua; Vunaniu),Fijian (Sērua; Vunaniu),namo1248,namo1248
+1881,Fijian (Vatulawa; Natewa),Fijian (Vatulawa; Natewa),,
+1882,Fijian (Kadavu; Tavuki),Fijian (Kadavu; Tavuki),kada1285,kada1285
+1883,Fijian (Bua; Sōlevu),Fijian (Bua; Sōlevu),west2514,west2514
+1884,Fijian (Vuda; Vuda),Fijian (Vuda; Vuda),,
+1885,Fijian (Ba; Nakoroboya),Fijian (Ba; Nakoroboya),,
+1886,Fijian (Waidina; Waidina),Fijian (Waidina; Waidina),waid1240,waid1240
+1887,Fijian (Tailevu; Mokani),Fijian (Tailevu; Mokani),,
+1888,Fijian (Bua; Dama),Fijian (Bua; Dama),west2514,west2514
+1889,Fijian (Lau; Oneata),Fijian (Lau; Oneata),lauu1248,lauu1248
+189,Tunjung,Tunjung,tunj1244,tunj1244
+1890,Fijian (Wainibuka; Nasoqo),Fijian (Wainibuka; Nasoqo),,
+1891,Fijian (Wainibuka; Dakuinuku),Fijian (Wainibuka; Dakuinuku),,
+1892,Fijian (Vanualevuiloma; Cikobia),Fijian (Vanualevuiloma; Cikobia),,
+1893,Fijian (Ba; Vitogo),Fijian (Ba; Vitogo),,
+1894,Fijian (Bau; Bau),Fijian (Bau; Bau),bauu1243,bauu1243
+1895,Fijian (Vanualevuiloma; Savudrodro),Fijian (Vanualevuiloma; Savudrodro),,
+1896,Fijian (Vuda; Naua),Fijian (Vuda; Naua),,
+1897,Fijian (Rakiraki; Yadua),Fijian (Rakiraki; Yadua),,
+1898,Fijian (Yasayasabeqa; Natūsara),Fijian (Yasayasabeqa; Natūsara),,
+1899,Fijian (Tailevu; Nausori),Fijian (Tailevu; Nausori),,
+19,Canala,Canala,xara1244,xara1244
+190,Ujir (N.Aru),Ujir (N.Aru),ujir1237,ujir1237
+1900,Fijian (Nadroga; Namaqumaqua),Fijian (Nadroga; Namaqumaqua),nadr1235,nadr1235
+1901,Fijian (Bua; Kavula),Fijian (Bua; Kavula),west2514,west2514
+1902,Fijian (Tailevu; Vugalei),Fijian (Tailevu; Vugalei),,
+1903,Fijian (Bau; Viwa Bau),Fijian (Bau; Viwa Bau),bauu1243,bauu1243
+1904,Fijian (Bua; Wainunu),Fijian (Bua; Wainunu),west2514,west2514
+1905,Fijian (Wainibuka; Nakuailava),Fijian (Wainibuka; Nakuailava),,
+1906,Fijian (Vanualevuicake; Nakama),Fijian (Vanualevuicake; Nakama),,
+1907,Fijian (Vanualevuiloma; Muanivatu),Fijian (Vanualevuiloma; Muanivatu),,
+1908,Fijian (Ba; Bulu),Fijian (Ba; Bulu),,
+1909,Fijian (Vuda; Nawaka),Fijian (Vuda; Nawaka),,
+191,Varisi,Varisi,vari1239,vari1239
+1910,Fijian (Rakiraki; Vatumali),Fijian (Rakiraki; Vatumali),,
+1911,Fijian (Ba; Tāvua/Tavua),Fijian (Ba; Tāvua/Tavua),,
+1912,Fijian (Verata; Navatu Bua),Fijian (Verata; Navatu Bua),,
+1913,Fijian (Naitasiri; Tamavua),Fijian (Naitasiri; Tamavua),namo1248,namo1248
+1914,Fijian (Vanualevuicake; Vaturova),Fijian (Vanualevuicake; Vaturova),,
+1915,Fijian (Nadrogā; Mavua),Fijian (Nadrogā; Mavua),nadr1235,nadr1235
+1916,Fijian (Rewa; Nabuli),Fijian (Rewa; Nabuli),,
+1917,Fijian (Rewa; Nakeloiwai),Fijian (Rewa; Nakeloiwai),,
+1918,Fijian (Bau; Qalivakabau),Fijian (Bau; Qalivakabau),bauu1243,bauu1243
+1919,Fijian (Wainibuka; Nailega),Fijian (Wainibuka; Nailega),,
+192,Wolio,Wolio,woli1241,woli1241
+1920,Fijian (Rakiraki; Malake),Fijian (Rakiraki; Malake),,
+1921,Fijian (Naitasiri; Nasele),Fijian (Naitasiri; Nasele),namo1248,namo1248
+1922,Fijian (Emalu; Emalu),Fijian (Emalu; Emalu),,
+1923,Fijian (Gonedau; Macuataiwai),Fijian (Gonedau; Macuataiwai),gone1237,gone1237
+1924,Fijian (Wainibuka; Waimarōiwai),Fijian (Wainibuka; Waimarōiwai),,
+1925,Fijian (Wainimala; Wailevu Wainimala),Fijian (Wainimala; Wailevu Wainimala),,
+1926,Fijian (Vatulawa; Cawa),Fijian (Vatulawa; Cawa),,
+1927,Fijian (Namosi; Namosi),Fijian (Namosi; Namosi),namo1248,namo1248
+1928,Fijian (Vanualevuicake; Koroalau),Fijian (Vanualevuicake; Koroalau),,
+1929,Fijian (Keiasi; Nasikawa),Fijian (Keiasi; Nasikawa),,
+193,Hiligaynon,Hiligaynon,hili1240,hili1240
+1930,Fijian (Verata; Uluibau),Fijian (Verata; Uluibau),,
+1931,Fijian (Kadavu; Galoa),Fijian (Kadavu; Galoa),kada1285,kada1285
+1932,Fijian (Naitasiri; Maū),Fijian (Naitasiri; Maū),namo1248,namo1248
+1933,Fijian (Lau; Ono),Fijian (Lau; Ono),lauu1248,lauu1248
+1934,Fijian (Vatulawa; Boumā),Fijian (Vatulawa; Boumā),,
+1935,Fijian (Vatulawa; Nabuna),Fijian (Vatulawa; Nabuna),,
+1936,Fijian (Keiasi; Namataku/Nabau),Fijian (Keiasi; Namataku/Nabau),,
+1937,Fijian (Emalu; Nalea/Naleā),Fijian (Emalu; Nalea/Naleā),,
+1938,Fijian (Vanualevuicake; Bucaisau),Fijian (Vanualevuicake; Bucaisau),,
+1939,Fijian (Wainimala; Laselevu),Fijian (Wainimala; Laselevu),,
+194,Bonfia,Bonfia,masi1266,masi1266
+1940,Fijian (Yasayasamuala; Muala/Moala),Fijian (Yasayasamuala; Muala/Moala),,
+1941,Fijian (Vanualevuiloma; Turiwai/Wainiqeu),Fijian (Vanualevuiloma; Turiwai/Wainiqeu),,
+1942,Fijian (Vanualevuicake; Wairikiibuca),Fijian (Vanualevuicake; Wairikiibuca),,
+1943,Fijian (Bua; Vuya),Fijian (Bua; Vuya),west2514,west2514
+1944,Fijian (Kadavu; Tabuya),Fijian (Kadavu; Tabuya),kada1285,kada1285
+1945,Fijian (Ovalau; Lovoni),Fijian (Ovalau; Lovoni),,
+1946,Fijian (Nadroga; Lawalawa),Fijian (Nadroga; Lawalawa),nadr1235,nadr1235
+1947,Fijian (Vuda; Nadele),Fijian (Vuda; Nadele),,
+1948,Fijian (Vatulawa; Vuna),Fijian (Vatulawa; Vuna),,
+1949,Fijian (Verata; Kumī),Fijian (Verata; Kumī),,
+195,Bukat,Bukat,buka1261,buka1261
+1950,Fijian (Tailevu; Tai),Fijian (Tailevu; Tai),,
+1951,Fijian (Wainibuka; Nasau Wainibuka),Fijian (Wainibuka; Nasau Wainibuka),,
+1952,Fijian (Vuda; Sikituru),Fijian (Vuda; Sikituru),,
+1953,Fijian (Nadroga; Conua),Fijian (Nadroga; Conua),nadr1235,nadr1235
+1954,Fijian (Noikoro; Navatusila),Fijian (Noikoro; Navatusila),west2519,west2519
+1955,Fijian (Rewa; Nakelo),Fijian (Rewa; Nakelo),,
+1956,Fijian (Yasayasamuala; Totoya),Fijian (Yasayasamuala; Totoya),,
+1957,Fijian (Yasayasamuala; Matuku),Fijian (Yasayasamuala; Matuku),,
+1958,Fijian (Wainimala; Taivugalei),Fijian (Wainimala; Taivugalei),,
+1959,Fijian (Vatulawa; Nacamaki),Fijian (Vatulawa; Nacamaki),,
+196,Dehu,Dehu,dehu1237,dehu1237
+1960,Fijian (Naitasiri; Vuna Naitasiri),Fijian (Naitasiri; Vuna Naitasiri),namo1248,namo1248
+1961,Fijian (Lau; Lauicake),Fijian (Lau; Lauicake),lauu1248,lauu1248
+1962,Fijian (Ba; Yākete),Fijian (Ba; Yākete),,
+1963,Fijian (Vatulele; Vatulele),Fijian (Vatulele; Vatulele),,
+1964,Fijian (Bua; Drakaniwai Bua),Fijian (Bua; Drakaniwai Bua),west2514,west2514
+1965,Fijian (Vatulawa; Cakaudrove),Fijian (Vatulawa; Cakaudrove),,
+1966,Fijian (Vatulawa; Tunuloa),Fijian (Vatulawa; Tunuloa),,
+1967,Fijian (Wainimala; Waimarō Naulucavu),Fijian (Wainimala; Waimarō Naulucavu),,
+1968,Fijian (Verata; Verata),Fijian (Verata; Verata),,
+1969,Fijian (Nadroga; Tabanivono),Fijian (Nadroga; Tabanivono),nadr1235,nadr1235
+197,"Elat, Kei Besar","Elat, Kei Besar",keib1237,keib1237
+1970,Fijian (Wainibuka; Nāloto),Fijian (Wainibuka; Nāloto),,
+1971,Fijian (Nadroga; Rukuruku),Fijian (Nadroga; Rukuruku),nadr1235,nadr1235
+1972,Fijian (Kadavu; Nakasaleka),Fijian (Kadavu; Nakasaleka),kada1285,kada1285
+1973,Fijian (Verata; Nakodu/Naceva),Fijian (Verata; Nakodu/Naceva),,
+1974,Fijian (Vanualevuiloma; Seaqāqā/Sēqāqā),Fijian (Vanualevuiloma; Seaqāqā/Sēqāqā),,
+1975,Fijian (Vanualevuiloma; Natuvu),Fijian (Vanualevuiloma; Natuvu),,
+1976,Fijian (Kadavu; Tabanivonolevu),Fijian (Kadavu; Tabanivonolevu),kada1285,kada1285
+1977,Fijian (Sērua; Narukusara),Fijian (Sērua; Narukusara),namo1248,namo1248
+1978,Fijian (Rewa; Vunivaivai),Fijian (Rewa; Vunivaivai),,
+1979,Fijian (Verata; Navuloa),Fijian (Verata; Navuloa),,
+198,Woleai,Woleai,wole1240,wole1240
+1980,Fijian (Namosi; Wainikoroiluva),Fijian (Namosi; Wainikoroiluva),namo1248,namo1248
+1981,Fijian (Sērua; Burenitū),Fijian (Sērua; Burenitū),namo1248,namo1248
+1982,Fijian (Tailevu; Namara),Fijian (Tailevu; Namara),,
+1983,Fijian (Bua; Nadi Bua),Fijian (Bua; Nadi Bua),west2514,west2514
+1984,Fijian (Kadavu; Sānima),Fijian (Kadavu; Sānima),kada1285,kada1285
+1985,Fijian (Nadroga; Waicoba),Fijian (Nadroga; Waicoba),nadr1235,nadr1235
+1986,Fijian (Bau; Sawaieke),Fijian (Bau; Sawaieke),bauu1243,bauu1243
+1987,Fijian (Naitasiri; Suva),Fijian (Naitasiri; Suva),namo1248,namo1248
+1988,Fijian (Kadavu; Jioma/Tioma),Fijian (Kadavu; Jioma/Tioma),kada1285,kada1285
+1989,Fijian (Vuda; Vatutū),Fijian (Vuda; Vatutū),,
+199,Alune,Alune,alun1238,alun1238
+1990,Fijian (Vanualevuiloma; Wairiki),Fijian (Vanualevuiloma; Wairiki),,
+1991,Fijian (Vuda; Nadi),Fijian (Vuda; Nadi),,
+1992,Fijian (Naitasiri; Naitāsiri),Fijian (Naitasiri; Naitāsiri),namo1248,namo1248
+1993,Fijian (Wainimala; Matailobau),Fijian (Wainimala; Matailobau),,
+1994,Fijian (Wainibuka; Saivou),Fijian (Wainibuka; Saivou),,
+1995,Fijian (Ovalau; Naigani),Fijian (Ovalau; Naigani),,
+1996,Fijian (Rewa; Waikete),Fijian (Rewa; Waikete),,
+1997,Fijian (Waidina; Ovalau),Fijian (Waidina; Ovalau),waid1240,waid1240
+1998,Fijian (Vanualevuiloma; Dogoru),Fijian (Vanualevuiloma; Dogoru),,
+1999,Fijian (Rakiraki; Rakiraki),Fijian (Rakiraki; Rakiraki),,
+2,Banggai (W.dialect),Banggai (W.dialect),bang1368,bang1368
+20,Javanese,Javanese,java1254,java1254
+200,Yakan,Yakan,yaka1277,yaka1277
+2000,Fijian (Vanualevuiloma; Naulana),Fijian (Vanualevuiloma; Naulana),,
+2001,Fijian (Bau; Naiviqeleqele),Fijian (Bau; Naiviqeleqele),bauu1243,bauu1243
+2002,Fijian (Wainibuka; Dawasamu),Fijian (Wainibuka; Dawasamu),,
+2003,Fijian (Wainimala; Nabaitavo),Fijian (Wainimala; Nabaitavo),,
+2004,Fijian (Nadroga; Nasoni/Nahoni),Fijian (Nadroga; Nasoni/Nahoni),nadr1235,nadr1235
+2005,Fijian (Kadavu; Ravitaki),Fijian (Kadavu; Ravitaki),kada1285,kada1285
+2006,Fijian (Vanualevuiloma; Nabalebale),Fijian (Vanualevuiloma; Nabalebale),,
+2007,Fijian (Yasayasamuala; Cicia),Fijian (Yasayasamuala; Cicia),,
+2008,Fijian (Wainibuka; Nalaba),Fijian (Wainibuka; Nalaba),,
+2009,Fijian (Rakiraki; Navitilevu),Fijian (Rakiraki; Navitilevu),,
+201,Carolinian,Carolinian,caro1242,caro1242
+2010,Fijian (Kadavu; Naceva/Soso),Fijian (Kadavu; Naceva/Soso),kada1285,kada1285
+2011,Fijian (Vuda; Namoli),Fijian (Vuda; Namoli),,
+2012,Fijian (Vuda; Sabeto),Fijian (Vuda; Sabeto),,
+2013,Fijian (Wainimala; Nasalia),Fijian (Wainimala; Nasalia),,
+2014,Fijian (Rewa; Waivou),Fijian (Rewa; Waivou),,
+2015,Fijian (Verata; Moturiki),Fijian (Verata; Moturiki),,
+2016,Fijian (Wainimala; Nadaravakawalu),Fijian (Wainimala; Nadaravakawalu),,
+2017,Fijian (Vanualevuiloma; Raviravi Macuata),Fijian (Vanualevuiloma; Raviravi Macuata),,
+2018,Fijian (Gonedau; Gonedau),Fijian (Gonedau; Gonedau),gone1237,gone1237
+2019,Fijian (Nadroga; Sanasana/Hanahana),Fijian (Nadroga; Sanasana/Hanahana),nadr1235,nadr1235
+202,"Bunun F69, Southern","Bunun F69, Southern",bunu1267,bunu1267
+2020,Fijian (Vuda; Vaturu),Fijian (Vuda; Vaturu),,
+2021,Fijian (Tailevu; Maumi),Fijian (Tailevu; Maumi),,
+2022,Fijian (Vatulawa; Navatu),Fijian (Vatulawa; Navatu),,
+2023,Fijian (Bau; Cautatā),Fijian (Bau; Cautatā),bauu1243,bauu1243
+2024,Fijian (Wainibuka; Matacaucau),Fijian (Wainibuka; Matacaucau),,
+2025,Fijian (Nadroga; Malomalo),Fijian (Nadroga; Malomalo),nadr1235,nadr1235
+2026,Fijian (Wainibuka; Dere),Fijian (Wainibuka; Dere),,
+2027,Fijian (Savatu; Savatu),Fijian (Savatu; Savatu),,
+2028,Fijian (Vuda; Navō),Fijian (Vuda; Navō),,
+2029,Fijian (Wainibuka; Mataso),Fijian (Wainibuka; Mataso),,
+203,Kanakanabu F69,Kanakanabu F69,kana1286,kana1286
+2030,Fijian (Tailevu; Nāmata),Fijian (Tailevu; Nāmata),,
+2031,Fijian (Ovalau; Levukairā),Fijian (Ovalau; Levukairā),,
+2032,Fijian (Noikoro; Noikoro),Fijian (Noikoro; Noikoro),west2519,west2519
+2033,Fijian (Wainibuka; Lawaki),Fijian (Wainibuka; Lawaki),,
+2034,Fijian (Wainimala; Muairā),Fijian (Wainimala; Muairā),,
+2035,Fijian (Rewa; Rewa Vulagi),Fijian (Rewa; Rewa Vulagi),,
+2036,Fijian (Waya; Waya),Fijian (Waya; Waya),waya1268,waya1268
+2037,Fijian (Yasawa; Muairā Naviti),Fijian (Yasawa; Muairā Naviti),,
+2038,Fijian (Yasayasamuala; Vanuavatu),Fijian (Yasayasamuala; Vanuavatu),,
+2039,Yoke,Yoke,yoke1239,yoke1239
+204,"Lio, Flores Tongah","Lio, Flores Tongah",lioo1240,lioo1240
+2040,Warembori,Warembori,ware1253,ware1253
+2041,Kaxabu,Kaxabu,kaha1242,kaha1242
+205,Lahanan,Lahanan,laha1253,laha1253
+206,Rennellese,Rennellese,mung1271,mung1271
+207,As,As,asss1237,asss1237
+208,Bare'e,Bare'e,pamo1252,pamo1252
+209,Cheke Holo,Cheke Holo,chek1238,chek1238
+21,Kilokaka (Ysabel),Kilokaka (Ysabel),zaza1245,zaza1245
+210,"Futuna, East","Futuna, East",east2447,east2447
+211,Gapapaiwa,Gapapaiwa,gapa1238,gapa1238
+212,Jawe,Jawe,jawe1237,jawe1237
+213,Kwara'ae (Solomon Islands'),Kwara'ae (Solomon Islands'),kwar1239,kwar1239
+214,Lampung,Lampung,lamp1243,lamp1243
+215,Ma'anyan,Ma'anyan,maan1238,maan1238
+216,Mailu,Mailu,mail1248,mail1248
+217,Kapingamarangi,Kapingamarangi,kapi1249,kapi1249
+218,Dobuan,Dobuan,dobu1241,dobu1241
+219,Molima,Molima,moli1248,moli1248
+22,Timugon (Murut),Timugon (Murut),timu1262,timu1262
+220,Roro,Roro,waim1251,waim1251
+221,Sa'a,Sa'a,saaa1240,saaa1240
+222,Ubir,Ubir,ubir1237,ubir1237
+223,To'ambaita,To'ambaita,toab1237,toab1237
+224,Teanu,Teanu,tean1237,tean1237
+225,Taiof,Taiof,sapo1253,sapo1253
+226,Tae' (S.Toraja),Tae' (S.Toraja),tora1261,tora1261
+227,Suau,Suau,suau1242,suau1242
+228,"Tanna, Southwest","Tanna, Southwest",sout2869,sout2869
+229,Emae,Emae,emae1237,emae1237
+23,Kis,Kis,kiss1246,kiss1246
+230,Sakao (Port-Olry),Sakao (Port-Olry),saka1289,saka1289
+231,Numbami (Siboma),Numbami (Siboma),numb1247,numb1247
+232,Modang,Modang,moda1244,moda1244
+233,Malay (Bahasa Indonesia),Malay (Bahasa Indonesia),indo1316,indo1316
+234,Zabana (Kia),Zabana (Kia),zaba1237,zaba1237
+235,Penrhyn,Penrhyn,penr1237,penr1237
+236,Kédang,Kédang,keda1252,keda1252
+237,Kayan (Uma Juman),Kayan (Uma Juman),reja1241,reja1241
+238,Luangiua,Luangiua,onto1237,onto1237
+239,Mangareva,Mangareva,mang1401,mang1401
+24,Mor,Mor,morm1235,morm1235
+240,Bolaang Mongondow,Bolaang Mongondow,mong1342,mong1342
+241,Thao B96,Thao B96,thao1240,thao1240
+242,Ifira-Mele (Mele-Fila),Ifira-Mele (Mele-Fila),mele1250,mele1250
+243,Sikaiana,Sikaiana,sika1261,sika1261
+244,Takuu,Takuu,taku1257,taku1257
+245,Tokelau,Tokelau,toke1240,toke1240
+246,Tuamotu,Tuamotu,tuam1242,tuam1242
+247,Niue,Niue,niue1239,niue1239
+248,Iraralay,Iraralay,ivat1242,ivat1242
+249,Itbayat,Itbayat,ivat1242,ivat1242
+25,Mota,Mota,mota1237,mota1237
+250,Imorod,Imorod,ivat1242,ivat1242
+251,Ivasay,Ivasay,ivat1242,ivat1242
+252,Isamorong,Isamorong,ivat1242,ivat1242
+253,Anuta,Anuta,anut1237,anut1237
+254,Yami,Yami,yami1254,yami1254
+255,Atayal - Squliq F69,Atayal - Squliq F69,atay1247,sqol1237
+256,Atayal - C'uli' F69 (Bandai),Atayal - C'uli' F69 (Bandai),atay1247,suli1239
+257,Favorlang F69,Favorlang F69,babu1240,babu1240
+258,"Uvea, East","Uvea, East",wall1257,wall1257
+259,"Uvea, West","Uvea, West",west2516,west2516
+26,Motu,Motu,motu1246,motu1246
+260,Kavalan F69,Kavalan F69,kava1241,kava1241
+262,Ida'an,Ida'an,idaa1241,idaa1241
+263,Melayu Brunei (Dialect),Melayu Brunei (Dialect),brun1242,brun1242
+264,Rapanui (Easter Island),Rapanui (Easter Island),rapa1244,rapa1244
+265,Palawan Batak,Palawan Batak,bata1301,bata1301
+266,Pazih F69,Pazih F69,kulo1237,kulo1237
+267,Proto-Central Eastern Malayo Polynesian,Proto-Central Eastern Malayo Polynesian,ruka1240,ruka1240
+268,Proto-Central Malayo Polynesian,Proto-Central Malayo Polynesian,,
+269,Proto-Malayo-Polynesian,Proto-Malayo-Polynesian,mala1545,mala1545
+27,Muna (Katobu-Tongkuno Dialect),Muna (Katobu-Tongkuno Dialect),muna1247,muna1247
+270,Proto-Oceanic (Blust),Proto-Oceanic (Blust),ocea1241,ocea1241
+271,Puyuma (Chihpen F69),Puyuma (Chihpen F69),puyu1239,puyu1239
+272,Rukai (Budai F69),Rukai (Budai F69),ruka1240,buda1252
+273,Saaroa F69,Saaroa F69,saar1237,saar1237
+274,Saisiyat F69,Saisiyat F69,sais1237,sais1237
+275,Seediq F69 (Sakura),Seediq F69 (Sakura),taro1264,taro1264
+276,Siraya F69,Siraya F69,sira1267,sira1267
+277,Tagalog,Tagalog,taga1270,taga1270
+278,Werinama,Werinama,bobo1254,bobo1254
+279,Ibanag,Ibanag,iban1267,iban1267
+28,Iban,Iban,iban1264,iban1264
+280,Proto-Austronesian,Proto-Austronesian,aust1307,aust1307
+281,Lakalai,Lakalai,naka1262,naka1262
+282,Kove,Kove,kove1237,kove1237
+283,Yogya,Yogya,java1254,java1254
+284,Sundanese,Sundanese,sund1252,sund1252
+285,Amara,Amara,amar1272,amar1272
+286,Mouk,Mouk,mouk1240,mouk1240
+287,Aria,Aria,mouk1239,mouk1239
+288,Ilokano,Ilokano,ilok1237,ilok1237
+289,Babuyan,Babuyan,babu1242,babu1242
+29,Kaidipang,Kaidipang,kaid1239,kaid1239
+290,Old Javanese,Old Javanese,java1254,java1254
+291,Koronadal Blaan,Koronadal Blaan,koro1310,koro1310
+292,Proto-Southern Mindanaon,Proto-Southern Mindanaon,,
+293,Sarangani Blaan,Sarangani Blaan,sara1326,sara1326
+294,'Auhelawa,'Auhelawa,auhe1237,auhe1237
+295,Oirata,Oirata,oira1263,oira1263
+296,Iliun,Iliun,iliu1237,iliu1237
+297,Tugun,Tugun,tugu1245,tugu1245
+298,Perai,Perai,pera1257,pera1257
+299,Aputai,Aputai,aput1237,aput1237
+3,Banggi,Banggi,bong1289,bong1289
+30,Kairiru,Kairiru,kair1263,kair1263
+300,Galolen (Talur),Galolen (Talur),galo1243,galo1243
+301,Luang,Luang,luan1263,luan1263
+302,East Damar,East Damar,east2472,east2472
+303,Teun,Teun,teun1241,teun1241
+304,Serua,Serua,seru1245,seru1245
+305,Nila,Nila,nila1244,nila1244
+306,West Damar,West Damar,west2548,west2548
+307,Dawera-Daweloor,Dawera-Daweloor,dawe1237,dawe1237
+308,Dai,Dai,daii1240,daii1240
+309,North Babar,North Babar,nort2860,nort2860
+31,Kakiduge:n Ilongot,Kakiduge:n Ilongot,ilon1239,ilon1239
+310,South-East Babar,South-East Babar,sout2883,sout2883
+311,Serili,Serili,seri1255,seri1255
+312,East Masela,East Masela,east2462,east2462
+313,Central Masela,Central Masela,cent2072,cent2072
+314,Emplawas,Emplawas,empl1237,empl1237
+315,Tela-Masbuar,Tela-Masbuar,tela1241,tela1241
+316,Imroing,Imroing,imro1237,imro1237
+317,Pondok,Pondok,anak1240,anak1240
+318,Kodi,Kodi,kodi1247,kodi1247
+319,Wanukaka,Wanukaka,wanu1241,wanu1241
+32,Kambera,Kambera,kamb1299,kamb1299
+320,Anakalang,Anakalang,anak1240,anak1240
+321,Baliledo,Baliledo,anak1240,anak1240
+322,South Efate,South Efate,sout2856,sout2856
+323,Lamboya,Lamboya,lamb1273,lamb1273
+324,Mamboru,Mamboru,mamb1305,mamb1305
+325,Gaura Nggaura,Gaura Nggaura,kodi1247,kodi1247
+326,Wewewa (Tana Righu dialect),Wewewa (Tana Righu dialect),weje1237,weje1237
+327,So'a,So'a,cent2074,cent2074
+328,"East Sumbanese Kambera, Southern dialect","East Sumbanese Kambera, Southern dialect",kamb1299,kamb1299
+329,"East Sumbanese, Lewa dialect","East Sumbanese, Lewa dialect",kamb1299,kamb1299
+33,Kapampangan,Kapampangan,pamp1243,pamp1243
+330,"East Sumbanese, Umbu Ratu Nggai dialect","East Sumbanese, Umbu Ratu Nggai dialect",kamb1299,kamb1299
+331,Old Chinese,Old Chinese,oldc1244,oldc1244
+332,Roma,Roma,roma1332,roma1332
+333,Komering,Komering,kome1238,kome1238
+334,Yabem,Yabem,yabe1254,yabe1254
+335,Yami,,yami1254,
+336,Puluwatese,Puluwatese,pulu1242,pulu1242
+337,Pulo-Annan,Pulo-Annan,pulo1240,pulo1240
+338,Saipan Carolinian,Saipan Carolinian,caro1242,caro1242
+339,Saipan Carolinian Tanapag,Saipan Carolinian Tanapag,tana1281,tana1281
+34,Lamaholot Ile Mandiri (Flores Timur),Lamaholot Ile Mandiri (Flores Timur),lama1277,lama1277
+340,Proto-Micronesian,Proto-Micronesian,micr1243,micr1243
+341,Nage,Nage,nage1237,nage1237
+342,Mokilese,Mokilese,moki1238,moki1238
+343,Satawalese,Satawalese,sata1237,sata1237
+344,Marshallese,Marshallese,mars1254,mars1254
+345,Mortlockese,Mortlockese,mort1237,mort1237
+346,Kiribati,Kiribati,gilb1244,gilb1244
+347,Woleaian,Woleaian,wole1240,wole1240
+348,Proto-Chuukic,Proto-Chuukic,truk1243,truk1243
+349,Chuukese,,chuu1238,
+35,Iliun (Erai),Iliun (Erai),eray1237,eray1237
+350,Amis (Central),Amis (Central),amis1246,amis1246
+351,Buyang (Langjia),Buyang (Langjia),emab1235,emab1235
+352,Nembao,Nembao,amba1266,amba1266
+353,Asumboa,Asumboa,asum1237,asum1237
+354,Tanimbili,Tanimbili,tani1255,tani1255
+355,Buma,Buma,tean1237,tean1237
+356,Vano,Vano,vano1237,vano1237
+357,Tanema,Tanema,tane1237,tane1237
+358,Amahai,Amahai,amah1245,amah1245
+359,Tungag / Tungak / Lavongai,Tungag / Tungak / Lavongai,tung1290,tung1290
+36,"Bontok, Guina-ang","Bontok, Guina-ang",guin1256,guin1256
+360,Dayak Ngaju,,ngaj1237,
+361,Hainan Cham,Hainan Cham,tsat1238,tsat1238
+362,Indonesian,Indonesian,indo1316,indo1316
+363,Sisingga,Sisingga,sisi1250,sisi1250
+364,Siar,Siar,siar1238,siar1238
+365,Kokota,Kokota,koko1269,koko1269
+366,Takia,Takia,taki1248,taki1248
+367,Sudest,Sudest,sude1239,sude1239
+368,Nalik,Nalik,nali1244,nali1244
+369,Basay TsYM91,Basay TsYM91,basa1287,basa1287
+37,Bughotu,Bughotu,bugh1239,bugh1239
+370,Nalik,,nali1244,
+371,Phan Rang Cham (Eastern Cham),Phan Rang Cham (Eastern Cham),east2563,east2563
+372,Madara,Madara,mand1440,mand1440
+373,Savosavo,Savosavo,savo1255,savo1255
+374,Diodio,Diodio,diod1237,diod1237
+375,Vaeakau-Taumako,Vaeakau-Taumako,pile1238,pile1238
+376,Mwotlap,Mwotlap,motl1237,motl1237
+377,Haku,Haku,hako1237,hako1237
+378,Japhug Rgyalrong,Japhug Rgyalrong,jiar1240,jiar1240
+379,Sou Amana Teru,Sou Amana Teru,tule1244,tule1244
+38,Marquesan,Marquesan,nort2845,nort2845
+380,Vilirupu,Vilirupu,sina1266,sina1266
+381,Wedau,Wedau,weda1241,weda1241
+382,Tolai,Tolai,kuan1248,kuan1248
+383,Madak,Madak,mada1285,mada1285
+384,Kara (West),Kara (West),west2524,west2524
+385,Lihir (Sunglik),Lihir (Sunglik),lihi1237,lihi1237
+386,Lunga Lunga  (Minigir),Lunga Lunga  (Minigir),mini1251,mini1251
+387,Barok,Barok,baro1253,baro1253
+388,Kandas,Kandas,kand1301,kand1301
+389,Tagalog,,taga1270,
+39,Ali,Ali,kapp1237,kapp1237
+390,Torau,Torau,tora1259,tora1259
+391,Tiang,Tiang,tian1237,tian1237
+392,Bilur,Bilur,bilu1244,bilu1244
+393,Kuni,Kuni,kuni1263,kuni1263
+394,Maututu,Maututu,maut1237,maut1237
+395,Lala,Lala,lala1268,lala1268
+396,Doura,Doura,tour1243,tour1243
+397,Gabadi,Gabadi,abad1241,abad1241
+398,Solos,Solos,solo1257,solo1257
+399,Megiar,Megiar,megi1245,megi1245
+4,Banoni,Banoni,bann1247,bann1247
+40,Ambai (Yapen),Ambai (Yapen),amba1265,amba1265
+400,Matukar,Matukar,matu1261,matu1261
+401,Riwo,Riwo,geda1237,geda1237
+402,Bilibil,Bilibil,bilb1241,bilb1241
+403,Tetun Terik (Fehan dialect),Tetun Terik (Fehan dialect),tetu1245,tetu1245
+404,Saliba,Saliba,sali1295,sali1295
+405,Pangasinan,Pangasinan,pang1290,pang1290
+406,Chru,Chru,chru1239,chru1239
+407,"Hmong, White","Hmong, White",hmon1333,hmon1333
+408,Tagalog (Anthony dela Paz),Tagalog (Anthony dela Paz),taga1270,taga1270
+409,Agta,Agta,cent2084,cent2084
+41,Mori,Mori,mori1268,mori1268
+410,"Atta, Pamplona","Atta, Pamplona",pamp1244,pamp1244
+411,Balangaw,Balangaw,bala1310,bala1310
+412,"Batak, Palawan","Batak, Palawan",bata1301,bata1301
+413,"Bilaan, Koronadal","Bilaan, Koronadal",koro1310,koro1310
+414,"Bilaan, Sarangani","Bilaan, Sarangani",sara1326,sara1326
+415,Binukid,Binukid,binu1244,binu1244
+416,"Bontok, Guina-ang",,guin1256,
+417,"Dumagat, Casiguran","Dumagat, Casiguran",casi1235,casi1235
+418,Gaddang,Gaddang,gadd1244,gadd1244
+419,"Ifugao, Amganad","Ifugao, Amganad",amga1235,amga1235
+42,Atoni,Atoni,uabm1237,uabm1237
+420,"Ifugao, Batad","Ifugao, Batad",bata1298,bata1298
+421,"Ifugao, Bayninan","Ifugao, Bayninan",kele1259,kele1259
+422,"Ilongot, Kakiduge:n","Ilongot, Kakiduge:n",ilon1239,ilon1239
+423,Inibaloi,Inibaloi,ibal1244,ibal1244
+424,"Isneg, Dibagat-Kabugao-Isneg","Isneg, Dibagat-Kabugao-Isneg",isna1241,isna1241
+425,Itbayaten,,ivat1242,
+426,"Itneg, Binongan","Itneg, Binongan",bino1237,bino1237
+427,"Ivatan, Basco Dialect","Ivatan, Basco Dialect",ivat1242,ivat1242
+428,Kalagan,Kalagan,kala1388,kala1388
+429,"Kalinga, Guinaang, Lubuagan Dialect","Kalinga, Guinaang, Lubuagan Dialect",lubu1243,lubu1243
+43,Aklanon - Bisayan,Aklanon - Bisayan,akla1241,akla1241
+430,"Kallahan, Kayapa Proper","Kallahan, Kayapa Proper",kaya1320,kaya1320
+431,"Kallahan, Keleyqiq","Kallahan, Keleyqiq",kele1259,kele1259
+432,"Kankanay, Northern","Kankanay, Northern",nort2877,nort2877
+433,Mamanwa,Mamanwa,mama1275,mama1275
+434,"Manobo, Ata (up-river)","Manobo, Ata (up-river)",atam1240,atam1240
+435,"Manobo, Ata (down-river)","Manobo, Ata (down-river)",atam1240,atam1240
+436,"Manobo, Dibabawon","Manobo, Dibabawon",diba1242,diba1242
+437,"Manobo, Ilianen (Kibudtungan Dialect)","Manobo, Ilianen (Kibudtungan Dialect)",ilia1236,ilia1236
+438,"Manobo, Kalamansig Cotabato (Paril Dialect)","Manobo, Kalamansig Cotabato (Paril Dialect)",cota1241,cota1241
+439,"Manobo, Sarangani, Kayaponga Dialect","Manobo, Sarangani, Kayaponga Dialect",sara1327,sara1327
+44,Babatana,Babatana,baba1268,baba1268
+440,"Manobo, Tigwa, Iglogsad Dialect","Manobo, Tigwa, Iglogsad Dialect",mati1250,mati1250
+441,"Manobo, Western Bukidnon","Manobo, Western Bukidnon",west2555,west2555
+442,Mansaka,Mansaka,mans1262,mans1262
+443,"Samal, Siasi Dialect","Samal, Siasi Dialect",cent2092,cent2092
+444,"Sambal, Botolan","Sambal, Botolan",boto1242,boto1242
+445,"Sangil, Saragani Islands","Sangil, Saragani Islands",sang1337,sang1337
+446,"Sangir, Tabukang Dialect","Sangir, Tabukang Dialect",sang1336,sang1336
+447,"Subanun, Sindangan","Subanun, Sindangan",cent2089,cent2089
+448,"Subanon, Siocon","Subanon, Siocon",west2557,west2557
+449,Tagabili,Tagabili,tbol1240,tbol1240
+45,Berawan (Long Terawan),Berawan (Long Terawan),west2564,west2564
+450,"Tagbanwa, Aborlan Dialect","Tagbanwa, Aborlan Dialect",cent2090,cent2090
+451,"Tagbanwa, Kalamian, Coron Island Dialect","Tagbanwa, Kalamian, Coron Island Dialect",cala1258,cala1258
+452,"Tausug, Jolo Dialect","Tausug, Jolo Dialect",taus1251,taus1251
+453,Nahavaq,Nahavaq,sout2857,sout2857
+454,Amami,Amami,nort2935,nort2935
+455,Miyako,Miyako,miya1259,miya1259
+456,Avava,Avava,katb1237,katb1237
+457,Naman,Naman,litz1237,litz1237
+458,Iranun,Iranun,iran1262,iran1262
+459,Nese,Nese,nese1235,nese1235
+46,Biga (Misool),Biga (Misool),matb1237,matb1237
+460,Tape,Tape,mara1399,mara1399
+461,Fataluku,Fataluku,fata1247,fata1247
+462,Makasae,Makasae,maka1316,maka1316
+463,Sye (Erromangan),Sye (Erromangan),siee1239,siee1239
+464,Ura,Ura,urav1235,urav1235
+465,Araki (Southwest Santo),Araki (Southwest Santo),arak1252,arak1252
+466,Surigaonon,Surigaonon,suri1273,suri1273
+467,Ilonggo,Ilonggo,hili1240,hili1240
+468,Melayu,Melayu,stan1306,stan1306
+469,Tolo,Tolo,tolo1254,tolo1254
+47,Bikol (Naga City),Bikol (Naga City),cent2087,cent2087
+470,Merei,Merei,mere1242,mere1242
+471,Iaai,Iaai,iaai1238,iaai1238
+472,Nehan,Nehan,neha1247,neha1247
+473,Simbo,Simbo,simb1256,simb1256
+474,Uruava,Uruava,urua1242,urua1242
+475,Namakir,Namakir,nama1268,nama1268
+476,Orkon,Orkon,orko1234,orko1234
+477,Kwamera,Kwamera,kwam1252,kwam1252
+478,Low Malay (1773),Low Malay (1773),stan1306,stan1306
+479,Maori (1773),Maori (1773),maor1246,maor1246
+48,Buginese (Soppeng Dialect),Buginese (Soppeng Dialect),bugi1244,bugi1244
+480,Guguyimidjir (1773),Guguyimidjir (1773),gugu1255,gugu1255
+481,Tahiti (1773),Tahiti (1773),tahi1242,tahi1242
+482,Savu (1773),Savu (1773),sabu1255,sabu1255
+483,Butuanon,Butuanon,butu1244,butu1244
+484,Neve'ei,Neve'ei,vinm1237,vinm1237
+485,Nāti,Nāti,nati1244,nati1244
+486,Lamalera (lembata),Lamalera (lembata),lama1278,lama1278
+487,Kadorih,Kadorih,otda1235,otda1235
+488,Dayak Bakatiq-Sara/Riok,Dayak Bakatiq-Sara/Riok,beka1241,beka1241
+489,Bajo,Bajo,indo1317,indo1317
+49,Buli,Buli,buli1255,buli1255
+490,Inabaknon,Inabaknon,inab1237,inab1237
+491,Mapun,Mapun,mapu1244,mapu1244
+492,Enggano (Malakoni Village),Enggano (Malakoni Village),engg1245,engg1245
+493,Enggano (Banjar Sari),Enggano (Banjar Sari),engg1245,engg1245
+494,S.W. Palawano,S.W. Palawano,sout2916,sout2916
+495,Bundu Dusun (Central Dusun),Bundu Dusun (Central Dusun),cent2100,cent2100
+496,Tonsea,Tonsea,tons1240,tons1240
+497,Biliau,Biliau,awad1244,awad1244
+498,Pingilapese,Pingilapese,ping1243,ping1243
+499,Sonsorolese,Sonsorolese,sons1243,sons1243
+5,Bantik,Bantik,bant1286,bant1286
+50,Buru [Namrole Bay],Buru [Namrole Bay],buru1303,buru1303
+500,Arosi,Arosi,aros1241,aros1241
+501,Äiwoo,Äiwoo,ayiw1239,ayiw1239
+502,Nanggu,Nanggu,nang1262,nang1262
+503,Ende,Ende,ende1246,ende1246
+504,"Malo, Santa Cruz","Malo, Santa Cruz",malo1246,malo1246
+505,"Lwepe, Santa Cruz","Lwepe, Santa Cruz",natu1246,natu1246
+506,Tetun (Dili),Tetun (Dili),tetu1246,tetu1246
+507,Melayu Sarawak (dialect),Melayu Sarawak (dialect),mala1479,mala1479
+508,Kubokota,Kubokota,kubo1244,kubo1244
+509,Luqa,Luqa,lung1249,lung1249
+51,Bwaidoga,Bwaidoga,bwai1243,bwai1243
+510,Sivisa Titan,Sivisa Titan,tita1241,tita1241
+511,Gumawana,Gumawana,guma1254,guma1254
+512,Western Fijian (Navosa),Western Fijian (Navosa),west2519,west2519
+513,Waray-Waray,Waray-Waray,wara1300,wara1300
+514,Kahua (Mami),Kahua (Mami),kahu1241,kahu1241
+515,Kahua,Kahua,kahu1241,kahu1241
+516,Tawaroga,Tawaroga,kahu1241,kahu1241
+517,Fagani,Fagani,faga1239,faga1239
+518,Ughele,Ughele,ughe1237,ughe1237
+519,Lavukaleve,Lavukaleve,lavu1241,lavu1241
+52,Hawaiian,Hawaiian,hawa1245,hawa1245
+520,Lengo (Paripao),Lengo (Paripao),pari1257,pari1257
+521,Nduke,Nduke,duke1237,duke1237
+522,Babatana (Katazi),Babatana (Katazi),kata1267,kata1267
+523,Mbilua (Ndovele),Mbilua (Ndovele),bilu1245,bilu1245
+524,Mbilua,Mbilua,bilu1245,bilu1245
+525,Ghanongga,Ghanongga,ghan1242,ghan1242
+526,Mbaniata (Lokuru),Mbaniata (Lokuru),touo1238,touo1238
+527,Mbaniata,Mbaniata,touo1238,touo1238
+528,Kusaghe,Kusaghe,kusa1251,kusa1251
+529,Mono (Fauro),Mono (Fauro),faur1237,faur1237
+53,Hitu (Ambon),Hitu (Ambon),hitu1239,hitu1239
+530,Mono (Alu),Mono (Alu),aluu1243,aluu1243
+531,Lengo (Ghaimuta),Lengo (Ghaimuta),ghai1237,ghai1237
+532,Dori'o,Dori'o,dori1246,dori1246
+533,Sa'a (Ulawa),Sa'a (Ulawa),ulaw1237,ulaw1237
+534,Sa'a (Uki Ni Masi),Sa'a (Uki Ni Masi),ukin1237,ukin1237
+535,Vangunu,Vangunu,vang1243,vang1243
+536,Babatana (Avasö),Babatana (Avasö),avas1237,avas1237
+537,Ghari (Nggae),Ghari (Nggae),gaee1238,gaee1238
+538,Ghari (Ndi),Ghari (Ndi),ndii1241,ndii1241
+539,Ghari (Nggeri),Ghari (Nggeri),geri1237,geri1237
+54,Hoava,Hoava,hoav1238,hoav1238
+540,Ghari (Tandai),Ghari (Tandai),tand1254,tand1254
+541,Ghari (Nginia),Ghari (Nginia),ngin1246,ngin1246
+542,Malango,Malango,mala1484,mala1484
+543,Talise (Koo),Talise (Koo),kooo1245,kooo1245
+544,Talise (Malagheti),Talise (Malagheti),mala1483,mala1483
+545,Talise (Moli),Talise (Moli),moli1247,moli1247
+546,Talise (Poleo),Talise (Poleo),pole1240,pole1240
+547,Talise,Talise,tali1259,tali1259
+548,Mbirao,Mbirao,bira1254,bira1254
+549,Langalanga,Langalanga,wala1266,wala1266
+55,Kasira (Irahutu),Kasira (Irahutu),irar1238,irar1238
+550,Kwai,Kwai,gula1270,gula1270
+551,Varisi (Ghone),Varisi (Ghone),bare1273,bare1273
+552,Babatana (Lömaumbi),Babatana (Lömaumbi),loma1262,loma1262
+553,Laghu (Samasodu),Laghu (Samasodu),lagh1246,lagh1246
+554,Mbareke,Mbareke,bare1273,bare1273
+555,Nggao (Poro),Nggao (Poro),gaoo1237,gaoo1237
+556,Fagani (Rihu'a),Fagani (Rihu'a),rihu1237,rihu1237
+557,Oroha,Oroha,oroh1237,oroh1237
+558,Santa Catalina,Santa Catalina,sant1413,sant1413
+559,Bellona,Bellona,mung1270,mung1270
+56,Kaulong (Au Village),Kaulong (Au Village),kaul1240,kaul1240
+560,Kazukuru,Kazukuru,kazu1245,kazu1245
+561,Longgu,Longgu,long1395,long1395
+562,Lungga,Lungga,lung1249,lung1249
+563,Lengo,Lengo,leng1259,leng1259
+564,Mbaelelea,Mbaelelea,bael1237,bael1237
+565,Mbaengguu,Mbaengguu,baeg1237,baeg1237
+566,Fataleka,Fataleka,fata1245,fata1245
+567,Bauro (Haununu),Bauro (Haununu),haun1237,haun1237
+568,Marau (Guadalcanal),Marau (Guadalcanal),area1240,area1240
+569,Babatana (Tunöe),Babatana (Tunöe),baba1268,baba1268
+57,Kayupulau [Kajupulau],Kayupulau [Kajupulau],kayu1243,kayu1243
+570,Fagani (Agufi),Fagani (Agufi),aguf1237,aguf1237
+571,Sengga,Sengga,seng1280,seng1280
+572,Rawo,Rawo,rawo1242,rawo1242
+573,Maringe (Tataba),Maringe (Tataba),mari1427,mari1427
+574,Maringe (Leleghia),Maringe (Leleghia),mari1427,mari1427
+575,Sa'a (Sa'a Village),Sa'a (Sa'a Village),saaa1240,saaa1240
+576,Sa'a (A'ulu Village),Sa'a (A'ulu Village),saaa1240,saaa1240
+577,Maringe (Kmagha),Maringe (Kmagha),mari1427,mari1427
+578,Blablanga (Ghove),Blablanga (Ghove),blab1237,blab1237
+579,Mbughotu (Dhadhaje),Mbughotu (Dhadhaje),bugh1239,bugh1239
+58,Rarotongan,Rarotongan,raro1241,raro1241
+580,Blablanga,Blablanga,blab1237,blab1237
+581,Bauro (Pawa Village),Bauro (Pawa Village),baur1252,baur1252
+582,Bauro (Baroo Village),Bauro (Baroo Village),baur1252,baur1252
+583,Arosi (Oneibia Village),Arosi (Oneibia Village),aros1241,aros1241
+584,Arosi (Tawatana Village),Arosi (Tawatana Village),aros1241,aros1241
+585,'Are'are (Ma'asupa Village),'Are'are (Ma'asupa Village),area1240,area1240
+586,'Are'are (Waiahaa Village),'Are'are (Waiahaa Village),area1240,area1240
+587,Lau (Walade),Lau (Walade),lauu1247,lauu1247
+588,Lau (North),Lau (North),lauu1247,lauu1247
+589,Manihiki,Manihiki,raka1237,raka1237
+59,Kei (Tanimbar-Kei),Kei (Tanimbar-Kei),keii1239,keii1239
+590,Kuot,Kuot,kuot1243,kuot1243
+591,Tarangan Barat (Feruni),Tarangan Barat (Feruni),west2538,west2538
+592,Palu'e (Nitung),Palu'e (Nitung),palu1252,palu1252
+593,Qabiao,Qabiao,qabi1235,qabi1235
+594,Komering (Kayu Agung Asli),Komering (Kayu Agung Asli),kome1238,kome1238
+595,"Komering (Ulu), Adumanis Village","Komering (Ulu), Adumanis Village",kome1238,kome1238
+596,"Komering (Ilir), Palau Gemantung Village","Komering (Ilir), Palau Gemantung Village",kome1238,kome1238
+597,"Komering (Ulu), Perjaya Village","Komering (Ulu), Perjaya Village",kome1238,kome1238
+598,"Komering (Ulu), Damarpura Village","Komering (Ulu), Damarpura Village",kome1238,kome1238
+599,Lampung Api (Daya),Lampung Api (Daya),lamp1243,lamp1243
+6,Gayo,Gayo,gayo1244,gayo1244
+60,Kelabit (Bario),Kelabit (Bario),kela1258,kela1258
+600,Lampung Api (Ranau),Lampung Api (Ranau),lamp1243,lamp1243
+601,Lampung Api (Sukau),Lampung Api (Sukau),lamp1243,lamp1243
+602,Lampung Api (Krui),Lampung Api (Krui),lamp1243,krui1237
+603,Lampung Api (Belalau),Lampung Api (Belalau),lamp1243,lamp1243
+604,Lampung Api (Way Kanan),Lampung Api (Way Kanan),lamp1243,lamp1243
+605,Lampung Api (Kota Agung),Lampung Api (Kota Agung),lamp1243,lamp1243
+606,Lampung Api (Talang Padang),Lampung Api (Talang Padang),lamp1243,lamp1243
+607,Lampung Api (Way Lima),Lampung Api (Way Lima),lamp1243,lamp1243
+608,Lampung Api (Sungkai),Lampung Api (Sungkai),lamp1243,lamp1243
+609,Lampung Api (Pubian),Lampung Api (Pubian),lamp1243,pubi1237
+61,Kemak,Kemak,kema1243,kema1243
+610,Lampung Api (Kalianda),Lampung Api (Kalianda),lamp1243,lamp1243
+611,Lampung Nyo (Melinting),Lampung Nyo (Melinting),lamp1243,lamp1243
+612,Lampung Api (Jabung),Lampung Api (Jabung),lamp1243,lamp1243
+613,Komering (Kayu Agung Pendatang),Komering (Kayu Agung Pendatang),kome1238,kome1238
+614,Lampung Nyo (Abung/Sukadana),Lampung Nyo (Abung/Sukadana),lamp1242,lamp1242
+615,Lampung Nyo (Abung/Kotabumi),Lampung Nyo (Abung/Kotabumi),lamp1242,lamp1242
+616,Lampung Nyo (Menggala/Tulang Bawang),Lampung Nyo (Menggala/Tulang Bawang),lamp1242,lamp1242
+617,Sewa,Sewa,sewa1251,sewa1251
+618,Buol,Buol,buol1237,buol1237
+619,Bajo (Kolo Bawah),Bajo (Kolo Bawah),indo1317,indo1317
+62,Kenyah (Long Anap),Kenyah (Long Anap),main1275,main1275
+620,Bajo (Padei Laut),Bajo (Padei Laut),indo1317,indo1317
+621,Bajo (Kayuadi),Bajo (Kayuadi),indo1317,indo1317
+622,Bajo (Pitulua),Bajo (Pitulua),indo1317,indo1317
+623,Bajo (Bajoe),Bajo (Bajoe),indo1317,indo1317
+624,Bajo (Lauru),Bajo (Lauru),indo1317,indo1317
+625,Bajo (Moramo),Bajo (Moramo),indo1317,indo1317
+626,Bajo (Boepinang),Bajo (Boepinang),indo1317,indo1317
+627,Bajo (Lakaramba),Bajo (Lakaramba),indo1317,indo1317
+628,Bajo (Kaleroang),Bajo (Kaleroang),indo1317,indo1317
+629,Bajo (Lakonea),Bajo (Lakonea),indo1317,indo1317
+63,Kerinci,Kerinci,keri1250,keri1250
+630,Bajo (Langara Laut),Bajo (Langara Laut),indo1317,indo1317
+631,Bajo (Lapulu),Bajo (Lapulu),indo1317,indo1317
+632,Bajo (Luwuk),Bajo (Luwuk),indo1317,indo1317
+633,Bajo (Anaiwoi),Bajo (Anaiwoi),indo1317,indo1317
+634,Bajo (Lemo Bajo),Bajo (Lemo Bajo),indo1317,indo1317
+635,Babuza Ts82,Babuza Ts82,babu1240,babu1240
+636,Hoanya Ts82,Hoanya Ts82,papo1239,papo1239
+637,Papora Ts82,Papora Ts82,papo1239,papo1239
+638,Taokas Ts82,Taokas Ts82,babu1240,babu1240
+639,Hiw,Hiw,hiww1237,hiww1237
+64,Nukuoro,Nukuoro,nuku1260,nuku1260
+640,Eskayan,Eskayan,eska1234,eska1234
+641,Apma (Suru Mwerani),Apma (Suru Mwerani),apma1240,suru1259
+642,Apma (Suru Kavian),Apma (Suru Kavian),apma1240,suru1260
+643,Sa (south-eastern dialect),Sa (south-eastern dialect),saaa1241,saaa1241
+644,Sowa,Sowa,sowa1244,sowa1244
+645,Ske (Seke),Ske (Seke),seke1241,seke1241
+646,Muyuw,Muyuw,muyu1244,muyu1244
+647,Halia (Selau),Halia (Selau),hali1244,hali1244
+648,Acehnese,Acehnese,achi1257,achi1257
+649,Lungchow,Lungchow,nung1283,nung1283
+65,Kusaie,Kusaie,kosr1238,kosr1238
+650,Besemah,Besemah,cent2053,cent2053
+651,Tawala,Tawala,tawa1275,tawa1275
+652,Ternate (Pasar-Lingua franca),Ternate (Pasar-Lingua franca),nort2828,nort2828
+653,Fijian (Suva Dialect),Fijian (Suva Dialect),sout2864,sout2864
+654,Marquesan (Nukuhiva dialect),Marquesan (Nukuhiva dialect),nuku1261,nuku1261
+655,Palembang Malay,Palembang Malay,mala1479,mala1479
+656,Dusun Tuhauon (Tambunan),Dusun Tuhauon (Tambunan),tamb1254,tamb1254
+657,Kinaray-a,Kinaray-a,kina1250,kina1250
+658,Proto-Polynesian,Proto-Polynesian,poly1242,poly1242
+659,Niuafo'ou,Niuafo'ou,niua1240,niua1240
+66,Kwaio,Kwaio,kwai1243,kwai1243
+660,Capisano,Capisano,capi1239,capi1239
+661,Karo Batak,Karo Batak,bata1293,bata1293
+662,"Thai, Siamese","Thai, Siamese",thai1261,thai1261
+663,Sumbawa,Sumbawa,sumb1241,sumb1241
+664,Rapa,Rapa,rapa1245,rapa1245
+665,Proto-Oceanic (Pawley),Proto-Oceanic (Pawley),ocea1241,ocea1241
+666,Vietnamese,Vietnamese,viet1252,viet1252
+667,Khmer,Khmer,cent1989,cent1989
+668,Proto-Central Pacific,Proto-Central Pacific,cent2060,cent2060
+669,Nimoa,Nimoa,nimo1246,nimo1246
+67,Lamogai (Mulakaino),Lamogai (Mulakaino),lamo1244,lamo1244
+670,Kalaw Kawaw Ya,Kalaw Kawaw Ya,kala1377,kala1377
+671,"Kalinga, Southern","Kalinga, Southern",sout2908,sout2908
+672,"Kalinga, Limos","Kalinga, Limos",limo1248,limo1248
+673,"Bontok, Eastern","Bontok, Eastern",cent2292,cent2292
+674,Tolaki,Tolaki,tola1247,tola1247
+675,Nuguria,Nuguria,nuku1259,nuku1259
+676,Mooriori,Mooriori,mori1267,mori1267
+677,"Dong, Southern","Dong, Southern",sout2741,sout2741
+678,Itawis,Itawis,itaw1240,itaw1240
+679,Ibaloi,Ibaloi,ibal1244,ibal1244
+68,Lau,Lau,lauu1247,lauu1247
+680,Shan,Shan,shan1277,shan1277
+681,Kankanaey,Kankanaey,kank1243,kank1243
+682,Proto-Greater Central Philippines,Proto-Greater Central Philippines,grea1284,grea1284
+683,Mon,Mon,monn1252,monn1252
+684,Proto-Southwestern Tai,Proto-Southwestern Tai,wenm1239,wenm1239
+685,Maguindanaon,Maguindanaon,magu1243,magu1243
+686,Sinauna,Sinauna,remo1247,remo1247
+687,Romblon,Romblon,romb1245,romb1245
+688,Cuyonon,Cuyonon,cuyo1237,cuyo1237
+689,Tày (Cao Bằng),Tày (Cao Bằng),tayy1238,tayy1238
+69,Leipon,Leipon,leip1237,leip1237
+690,Proto-Kra,Proto-Kra,kada1291,kada1291
+691,Gelao (Niupo),Gelao (Niupo),whit1267,whit1267
+692,Proto-Hlai (Norquest),Proto-Hlai (Norquest),hlai1238,hlai1238
+693,Buyang (Ecun),Buyang (Ecun),baha1256,baha1256
+694,Paha,Paha,baha1256,baha1256
+695,Gelao (Zhenfeng),Gelao (Zhenfeng),gree1278,gree1278
+696,Lemerig,Lemerig,leme1238,leme1238
+697,Proto-Lakkja,Proto-Lakkja,lakk1238,lakk1238
+698,Proto-Tai,Proto-Tai,kamt1241,kamt1241
+699,Gelao (Wanzi),Gelao (Wanzi),gree1278,gree1278
+7,Gedaged,Gedaged,geda1237,geda1237
+70,Letinese,Letinese,leti1246,leti1246
+700,Gelao (Sanchong),Gelao (Sanchong),gree1278,gree1278
+701,Laha (Ta Mit),Laha (Ta Mit),laha1250,laha1250
+702,Japanese (Tokyo),Japanese (Tokyo),nucl1643,nucl1643
+703,Japanese (Kyoto),Japanese (Kyoto),nucl1643,nucl1643
+704,Shuri,Shuri,cent2126,cent2126
+705,Naha,Naha,cent2126,cent2126
+706,Yonamine,Yonamine,kuni1268,kuni1268
+707,Tiruray,Tiruray,tiru1241,tiru1241
+708,Bantoanon (Banton),Bantoanon (Banton),bant1288,bant1288
+709,Proto-Bisayan,Proto-Bisayan,bisa1268,bisa1268
+71,Levei,Levei,kheh1237,kheh1237
+710,Bikol (Buhinon),Bikol (Buhinon),buhi1243,buhi1243
+711,Kalinga (Minangali),Kalinga (Minangali),lowe1412,lowe1412
+712,Lundayeh,Lundayeh,lund1271,lund1271
+713,Yogad,Yogad,yoga1237,yoga1237
+714,Ai-Cham (Diwo),Ai-Cham (Diwo),aich1238,aich1238
+715,Proto-Kam-Sui,Proto-Kam-Sui,kams1241,kams1241
+716,Mak (Yangfeng),Mak (Yangfeng),makc1235,makc1235
+717,Chadong,Chadong,chad1240,chad1240
+718,Proto-Austronesian (Zorc),Proto-Austronesian (Zorc),aust1307,aust1307
+719,Then,Then,tenn1245,tenn1245
+72,Likum,Likum,liku1243,liku1243
+720,Kavalan LTs,Kavalan LTs,kava1241,kava1241
+721,Proto-Malayo-Polynesian (Zorc),Proto-Malayo-Polynesian (Zorc),mala1545,mala1545
+722,Bikol (Rinconada),Bikol (Rinconada),irig1242,irig1242
+723,Proto-Atayalic,Proto-Atayalic,atay1246,atay1246
+724,Ong Be (Lincheng),Ong Be (Lincheng),ling1262,ling1262
+725,Proto-Rukai,Proto-Rukai,ruka1240,ruka1240
+726,Bunun (Takituduh L88),Bunun (Takituduh L88),bunu1267,taki1253
+727,Proto-Tibeto-Burman,Proto-Tibeto-Burman,,
+728,Gelao (Judu),Gelao (Judu),whit1267,whit1267
+729,Gelao (Hongfeng),Gelao (Hongfeng),whit1267,whit1267
+73,Loniu,Loniu,loni1238,loni1238
+730,Dupaningan Agta,Dupaningan Agta,dupa1235,dupa1235
+731,Bouyei (Wangmo),Bouyei (Wangmo),bouy1240,bouy1240
+732,Sama (Sibutu),Sama (Sibutu),sout2918,sout2918
+733,Sama (Pangutaran),Sama (Pangutaran),pang1291,pang1291
+734,Lao,Lao,laoo1244,laoo1244
+735,Chewong,Chewong,chew1245,chew1245
+736,Sui,Sui,suii1243,suii1243
+737,Santali,Santali,sant1410,sant1410
+738,Proto-Chamic,Proto-Chamic,cham1330,cham1330
+739,Proto-Hmong-Mien,Proto-Hmong-Mien,hmon1336,hmon1336
+74,Lou,Lou,louu1245,louu1245
+740,Proto-Malayic,Proto-Malayic,mala1538,mala1538
+741,Rhade,Rhade,rade1240,rade1240
+742,Atayal - C'uli' L04 (Mayrinax),Atayal - C'uli' L04 (Mayrinax),atay1247,suli1239
+743,Proto-Puyuma,Proto-Puyuma,puyu1239,puyu1239
+744,Jarai,Jarai,jara1266,jara1266
+745,"Roglai, Northern","Roglai, Northern",nort2994,nort2994
+746,Proto-Hmongic,Proto-Hmongic,hmon1337,hmon1337
+747,Proto-Mienic,Proto-Mienic,mien1242,mien1242
+748,Totoli,Totoli,toto1304,toto1304
+749,Proto-Tsouic,Proto-Tsouic,tsou1248,tsou1248
+75,Madurese,Madurese,nucl1460,nucl1460
+750,Saek,Saek,saek1240,saek1240
+751,Biao (Shidong),Biao (Shidong),biao1253,biao1253
+752,Tomini (Tialo),Tomini (Tialo),tomi1243,tomi1243
+753,Nanumea,Nanumea,nort2844,nort2844
+754,Lakkja (Jinxiu),Lakkja (Jinxiu),lakk1238,lakk1238
+755,Masbatenyo,Masbatenyo,masb1238,masb1238
+756,Younuo (Xiaozhai),Younuo (Xiaozhai),youn1235,youn1235
+757,Pa-Hng (Gundong),Pa-Hng (Gundong),pahn1237,pahn1237
+758,Proto-East Mindanao,Proto-East Mindanao,,
+759,Puyuma (Nanwang Cq),Puyuma (Nanwang Cq),puyu1239,nanw1237
+76,Nêlêmwa,Nêlêmwa,kuma1276,kuma1276
+760,Pazih LTs (Auran),Pazih LTs (Auran),kulo1237,kulo1237
+761,Mulam (Dongmen),Mulam (Dongmen),mula1253,mula1253
+762,She (Lianhua),She (Lianhua),shee1238,shee1238
+763,South Island Maori,South Island Maori,sout2867,sout2867
+764,Proto-Lampungic,Proto-Lampungic,lamp1241,lamp1241
+765,Dongnu Bunu (Nongjing),Dongnu Bunu (Nongjing),buna1273,buna1273
+766,Mulao,Mulao,gela1264,gela1264
+767,Zhuang (Wuming),Zhuang (Wuming),yong1276,yong1276
+768,Jiongnai (Longhua),Jiongnai (Longhua),jion1236,jion1236
+769,Mak (Laliu),Mak (Laliu),makc1235,makc1235
+77,Yapese,Yapese,yape1248,yape1248
+770,Ai-Cham (Taiyang),Ai-Cham (Taiyang),aich1238,aich1238
+771,She (Haifeng),She (Haifeng),shee1238,shee1238
+772,Hlai (Baoding),Hlai (Baoding),hlai1239,hlai1239
+773,Dzao Min (Daping),Dzao Min (Daping),dzao1238,dzao1238
+774,Mien (Jiangdi),Mien (Jiangdi),iumi1238,iumi1238
+775,Mien (Changping),Mien (Changping),biao1256,biao1256
+776,Biao Min (Dongshan),Biao Min (Dongshan),biao1256,biao1256
+777,Proto-Koiarian,Proto-Koiarian,koia1260,koia1260
+778,Dehong,Dehong,tain1252,tain1252
+779,Enga,Enga,enga1252,enga1252
+78,Yamdena,Yamdena,yamd1240,yamd1240
+780,Proto-Bungku-Tolaki,Proto-Bungku-Tolaki,bung1268,bung1268
+781,Proto-Trans-New Guinea,Proto-Trans-New Guinea,nucl1709,nucl1709
+782,Lachi (Tân Lợi),Lachi (Tân Lợi),whit1266,whit1266
+783,Samar-Leyte,Samar-Leyte,wara1300,wara1300
+784,Maonan,Maonan,maon1241,maon1241
+785,Proto-Ongan,Proto-Ongan,,
+786,Kim Mun (Hainan),Kim Mun (Hainan),kimm1245,kimm1245
+787,Proto-Sino-Tibetan,Proto-Sino-Tibetan,sino1245,sino1245
+788,Marinduque Tagalog,Marinduque Tagalog,taga1270,taga1270
+789,"Dong, Northern","Dong, Northern",nort2735,nort2735
+79,Mussau,Mussau,muss1248,muss1248
+790,Asilulu,Asilulu,asil1242,asil1242
+791,Lachi (Jinchang),Lachi (Jinchang),whit1266,whit1266
+792,Proto-Hlai (Ostapirat),Proto-Hlai (Ostapirat),hlai1238,hlai1238
+793,Urak Lawoi',Urak Lawoi',urak1238,urak1238
+794,Pingilapese,,ping1243,
+795,Proto-Minahasan,Proto-Minahasan,mina1272,mina1272
+796,Proto-Sangiric,Proto-Sangiric,sang1335,sang1335
+797,Proto-Sumba-Hawu,Proto-Sumba-Hawu,sumb1242,sumb1242
+798,"Daa kaka (West Ambrym, Vanuatu)","Daa kaka (West Ambrym, Vanuatu)",daka1243,daka1243
+799,Amis (Fata'an),Amis (Fata'an),amis1246,amis1246
+8,Geser,Geser,gese1240,gese1240
+80,Murnaten (Alune),Murnaten (Alune),alun1238,alun1238
+800,Amis (Farang),Amis (Farang),amis1246,amis1246
+801,Sakizaya,Sakizaya,nata1254,nata1254
+802,Atayal - C'uli' L04 (Skikun),Atayal - C'uli' L04 (Skikun),atay1247,suli1239
+803,Bunun (Takituduh L04),Bunun (Takituduh L04),bunu1267,taki1253
+804,Bunun (Takbanuaz),Bunun (Takbanuaz),bunu1267,tako1237
+805,Bunun (Iskubun),Bunun (Iskubun),bunu1267,sout2930
+806,Paiwan (Butanglu L04),Paiwan (Butanglu L04),paiw1248,paiw1248
+807,Paiwan (Stimul L04),Paiwan (Stimul L04),paiw1248,paiw1248
+808,Paiwan (Tjubar L04),Paiwan (Tjubar L04),paiw1248,paiw1248
+809,Puyuma (Pilam L04),Puyuma (Pilam L04),puyu1239,puyu1239
+81,Mono,Mono,mono1274,mono1274
+810,Puyuma (Lower Pinlang L04),Puyuma (Lower Pinlang L04),puyu1239,puyu1239
+811,Puyuma (Katipul L04),Puyuma (Katipul L04),puyu1239,puyu1239
+812,Rukai (Tanan L04),Rukai (Tanan L04),ruka1240,tana1287
+813,Rukai (Budai L04),Rukai (Budai L04),ruka1240,buda1252
+814,Rukai (Maga L04),Rukai (Maga L04),ruka1240,maga1265
+815,Rukai (Tona),Rukai (Tona),ruka1240,tona1238
+816,Rukai (Mantauran L04),Rukai (Mantauran L04),ruka1240,mant1271
+817,Saisiyat L04 (Tungho),Saisiyat L04 (Tungho),sais1237,tung1292
+818,Saisiyat L04 (Ta'ai),Saisiyat L04 (Ta'ai),sais1237,taai1237
+819,Atayal - Squliq L04,Atayal - Squliq L04,atay1247,sqol1237
+82,Maleu,Maleu,male1289,male1289
+820,Seediq L04 (Paran),Seediq L04 (Paran),taro1264,taro1264
+821,Seediq L04 (Toda),Seediq L04 (Toda),taro1264,taro1264
+822,Seediq L04 (Hecuo),Seediq L04 (Hecuo),taro1264,taro1264
+823,Seediq L04 (Truku),Seediq L04 (Truku),taro1264,taro1264
+824,Tsou (Duhtu L04),Tsou (Duhtu L04),tsou1248,tsou1248
+825,Kanakanabu L04,Kanakanabu L04,kana1286,kana1286
+826,Saaroa L04,Saaroa L04,saar1237,saar1237
+827,Proto-Mon-Khmer,Proto-Mon-Khmer,,
+828,Proto-Ainu,Proto-Ainu,ainu1252,ainu1252
+829,Old Japanese,Old Japanese,nucl1643,nucl1643
+83,Maloh,Maloh,emba1238,emba1238
+830,"Cham, Western","Cham, Western",west2650,west2650
+831,Favorlang OL03,Favorlang OL03,babu1240,babu1240
+832,Basay L04,Basay L04,basa1287,basa1287
+833,Daxin,Daxin,yong1275,yong1275
+834,Debao,Debao,yong1275,yong1275
+835,Fusui (Central),Fusui (Central),cent2009,cent2009
+836,Guangnan Nong,Guangnan Nong,yong1275,yong1275
+837,Guigang,Guigang,cent2009,cent2009
+838,Jingxi,Jingxi,yong1275,yong1275
+839,Laibin,Laibin,cent2009,cent2009
+84,Manggarai,Manggarai,mang1405,mang1405
+840,Lianshan,Lianshan,cent2009,cent2009
+841,Long'an,Long'an,cent2009,cent2009
+842,Longzhou,Longzhou,yong1275,yong1275
+843,Ningming,Ningming,yong1275,yong1275
+844,Qinzhou,Qinzhou,cent2009,cent2009
+845,Shanglin,Shanglin,cent2009,cent2009
+846,Shangsi,Shangsi,yong1275,yong1275
+847,Wenma Tu,Wenma Tu,yong1275,yong1275
+848,Yanshan Nong,Yanshan Nong,yong1275,yong1275
+849,Yongnan,Yongnan,cent2009,cent2009
+85,Maori,Maori,maor1246,maor1246
+850,Chongzuo,Chongzuo,yong1275,yong1275
+851,Klon,Klon,kelo1247,kelo1247
+852,Maybrat,Maybrat,maib1239,maib1239
+853,Wetan,Wetan,luan1263,luan1263
+854,Sahu,Sahu,sahu1245,sahu1245
+855,Taba,Taba,east2440,east2440
+856,West Makian,West Makian,west2600,west2600
+857,East Makian,East Makian,east2440,east2440
+858,Piva,Piva,lawu1237,lawu1237
+859,Bikol (Bisakol),Bikol (Bisakol),cent2087,cent2087
+86,Maranao,Maranao,mara1404,mara1404
+860,Kagayanen,Kagayanen,kaga1256,kaga1256
+861,Proto-South Sulawesi,Proto-South Sulawesi,sout2923,sout2923
+862,Saek,,saek1240,
+863,Angkola,Angkola,bata1290,bata1290
+864,Mentawai,Mentawai,ment1249,ment1249
+865,Tidore,Tidore,tido1248,tido1248
+866,Red Gelao,Red Gelao,redg1235,redg1235
+867,Kazakh,Kazakh,kaza1248,kaza1248
+868,Salar,Salar,sala1264,sala1264
+869,Tatar,Tatar,tata1255,tata1255
+87,Marovo,Marovo,maro1244,maro1244
+870,Uighur,Uighur,uigh1240,uigh1240
+871,Uzbek,Uzbek,nort2690,nort2690
+872,Western Yugu,Western Yugu,west2402,west2402
+873,Kirgiz,Kirgiz,kirg1245,kirg1245
+874,Proto-Philippine,Proto-Philippine,lame1259,
+875,Bahonsuai,Bahonsuai,baho1237,baho1237
+876,Bungku,Bungku,bung1269,bung1269
+877,Bungku (Landawe),Bungku (Landawe),bung1269,land1259
+878,Bungku (Routa),Bungku (Routa),bung1269,rout1237
+879,Bungku (Torete),Bungku (Torete),bung1269,tore1237
+88,Masiwang,Masiwang,masi1266,masi1266
+880,Bungku (Tulambatu),Bungku (Tulambatu),bung1269,tula1253
+881,Bungku (Waia),Bungku (Waia),bung1269,waia1242
+882,Kodeoha,Kodeoha,bung1269,bung1269
+883,Koroni,Koroni,koro1311,koro1311
+884,Kulisusu,Kulisusu,kuli1254,kuli1254
+885,Mori Atas (Doule),Mori Atas (Doule),mori1269,mori1269
+886,Mori Atas (Impo),Mori Atas (Impo),mori1269,mori1269
+887,Mori Atas (Kolo-Kolo),Mori Atas (Kolo-Kolo),mori1269,mori1269
+888,Mori Atas (Lolonggoio),Mori Atas (Lolonggoio),mori1269,mori1269
+889,Mori Atas (Molio'A),Mori Atas (Molio'A),mori1269,mori1269
+89,Mekeo,Mekeo,meke1243,meke1243
+890,Mori Atas (Molongkuni),Mori Atas (Molongkuni),mori1269,mori1269
+891,Mori Atas (Olota),Mori Atas (Olota),mori1269,mori1269
+892,Mori Atas (Tambee),Mori Atas (Tambee),mori1269,mori1269
+893,Mori Atas (Ulu'Uwoi),Mori Atas (Ulu'Uwoi),mori1269,mori1269
+894,Mori Atas (Wulanderi),Mori Atas (Wulanderi),mori1269,mori1269
+895,Mori Bawah (Bahano),Mori Bawah (Bahano),mori1268,mori1268
+896,Mori Bawah (Kangua),Mori Bawah (Kangua),mori1268,mori1268
+897,Mori Bawah (Karunsi'E),Mori Bawah (Karunsi'E),mori1268,karo1300
+898,Mori Bawah (Mo'Iki),Mori Bawah (Mo'Iki),mori1268,mori1268
+899,Mori Bawah (Petasia),Mori Bawah (Petasia),mori1268,peta1246
+9,Ghari,Ghari,ghar1239,ghar1239
+90,Melanau (Mukah),Melanau (Mukah),cent2101,cent2101
+900,Mori Bawah (Roda),Mori Bawah (Roda),mori1268,mori1268
+901,Mori Bawah (Soroako),Mori Bawah (Soroako),mori1268,soro1239
+902,Mori Bawah (Watu),Mori Bawah (Watu),mori1268,mori1268
+903,Mori Bawah (Ŋgusumbatu),Mori Bawah (Ŋgusumbatu),mori1268,mori1268
+904,Moronene,Moronene,moro1287,moro1287
+905,Moronene (Mornene),Moronene (Mornene),moro1287,moro1287
+906,Moronene (Tokotu'A),Moronene (Tokotu'A),moro1287,moro1287
+907,Padoe,Padoe,pado1242,pado1242
+908,Taloki,Taloki,talo1252,talo1252
+909,Tolaki (Asera),Tolaki (Asera),tola1247,aser1237
+91,Mengen,Mengen,meng1267,meng1267
+910,Tolaki (Konawe),Tolaki (Konawe),tola1247,kona1243
+911,Tolaki (Laiwui),Tolaki (Laiwui),tola1247,laiw1239
+912,Tolaki (Mekongga),Tolaki (Mekongga),tola1247,meko1237
+913,Tolaki (Wiwirano),Tolaki (Wiwirano),tola1247,wiwi1237
+914,Tomadino,Tomadino,toma1248,toma1248
+915,Waru,Waru,waru1266,waru1266
+916,Waru (Lalomerui),Waru (Lalomerui),waru1266,waru1266
+917,Wawonii,Wawonii,wawo1239,wawo1239
+918,Wawonii (Menui),Wawonii (Menui),wawo1239,wawo1239
+919,Wiau,Wiau,raha1237,raha1237
+92,Merina (Malagasy),Merina (Malagasy),meri1243,meri1243
+920,Yi (Dafang),Yi (Dafang),wusa1235,wusa1235
+921,Tai Phake,Tai Phake,phak1238,phak1238
+922,Tai Aiton,Tai Aiton,aito1238,aito1238
+923,Mortlockese (Lukunosh),Mortlockese (Lukunosh),mort1237,mort1237
+924,Gelao (Fengyan),Gelao (Fengyan),whit1267,whit1267
+925,Gelao (Wantao),Gelao (Wantao),whit1267,whit1267
+926,Red Gelao (Vietnam),Red Gelao (Vietnam),redg1235,redg1235
+927,Laha (Noong Lay),Laha (Noong Lay),laha1250,laha1250
+928,En (Nung Ven),En (Nung Ven),ennn1243,ennn1243
+929,Buyang (Yalang),Buyang (Yalang),yero1238,yero1238
+93,Minyaifuin (Gebe),Minyaifuin (Gebe),gebe1237,gebe1237
+930,Gelao (Bigong),Gelao (Bigong),redg1235,redg1235
+931,Gelao (Yueliangwan),Gelao (Yueliangwan),whit1267,whit1267
+932,Gelao (Dagouchang),Gelao (Dagouchang),whit1267,whit1267
+933,Tai Mene,Tai Mene,taim1250,taim1250
+934,"Kadazan Dusun of Taginambur, Kota Belud, Sabah, Malaysia","Kadazan Dusun of Taginambur, Kota Belud, Sabah, Malaysia",sugu1243,sugu1243
+935,Wusehua (Rongshui),Wusehua (Rongshui),eeee1240,eeee1240
+936,Mulam (Siba),Mulam (Siba),mula1253,mula1253
+937,Lakkja (Liula),Lakkja (Liula),lakk1238,lakk1238
+938,Gelao (Moji),Gelao (Moji),whit1267,whit1267
+939,Dongxiang 东乡语,Dongxiang 东乡语,dong1285,dong1285
+94,Misima,Misima,misi1243,misi1243
+940,Tuzu 土族语,Tuzu 土族语,tuuu1240,tuuu1240
+941,Eastern Yugu 东部裕固语,Eastern Yugu 东部裕固语,east2337,east2337
+942,Bao'an 保安语,Bao'an 保安语,bona1250,bona1250
+943,Mongol 蒙古语,Mongol 蒙古语,halh1238,halh1238
+944,Southwestern Mandarin (Bijie),Southwestern Mandarin (Bijie),mand1415,mand1415
+945,"Gelao, Hongfeng","Gelao, Hongfeng",whit1267,whit1267
+946,Proto-Seko,Proto-Seko,seko1241,seko1241
+947,Qabiao (Phó Là),Qabiao (Phó Là),qabi1235,qabi1235
+948,Gelao (Heijiaoyan),Gelao (Heijiaoyan),whit1267,whit1267
+949,Laha,Laha,laha1250,laha1250
+95,Moken,Moken,moke1242,moke1242
+950,Proto-Manide-Alabat,Proto-Manide-Alabat,alab1255,alab1255
+951,Proto-Lolo-Burmese,Proto-Lolo-Burmese,lolo1265,lolo1265
+952,Proto-Alor-Pantar,Proto-Alor-Pantar,alor1249,alor1249
+953,Mondzi,Mondzi,mond1267,mond1267
+954,Maang,Maang,maan1239,maan1239
+955,Gaokujiao Lolo,Gaokujiao Lolo,,
+956,White Lolo,White Lolo,,
+957,Black Lolo,Black Lolo,mant1265,mant1265
+958,Flowery Lolo,Flowery Lolo,mant1265,mant1265
+959,Qo Xiong (Jiwei),Qo Xiong (Jiwei),west2430,west2430
+96,Nauna,Nauna,naun1237,naun1237
+960,Bolyu,Bolyu,boly1239,boly1239
+961,Bugan (Nala),Bugan (Nala),buga1247,buga1247
+962,Bugan (Manlong),Bugan (Manlong),buga1247,buga1247
+963,Mantsi,Mantsi,mant1265,mant1265
+964,Mo'ang,Mo'ang,mant1265,mant1265
+965,Kathu,Kathu,kath1251,kath1251
+966,Mang (Jinping),Mang (Jinping),mang1378,mang1378
+967,Pa Na,Pa Na,pana1310,pana1310
+968,Kambowa,Kambowa,kiok1239,kiok1239
+969,Kioko,Kioko,kiok1239,kiok1239
+97,Nauru,Nauru,naur1243,naur1243
+970,Mongi,Mongi,wusa1235,wusa1235
+971,Caijia,Caijia,caij1234,caij1234
+972,Mori Bawah (Tofatu),Mori Bawah (Tofatu),mori1268,mori1268
+973,Waxianghua (Guzhang),Waxianghua (Guzhang),waxi1236,waxi1236
+974,Yao (Lianmin),Yao (Lianmin),lian1256,lian1256
+975,Mien (Tashi),Mien (Tashi),iumi1238,iumi1238
+976,Biao (Fengkai),Biao (Fengkai),biao1253,biao1253
+977,Yi (Powu),Yi (Powu),sich1238,sich1238
+978,Itawis,,itaw1240,
+979,Proto-Nisoic,Proto-Nisoic,,
+98,Nehan Hape,Nehan Hape,neha1247,neha1247
+980,Tangga (Feni),Tangga (Feni),anir1237,anir1237
+981,Mentawai (Madobat),Mentawai (Madobat),ment1249,ment1249
+982,Mentawai (Salappa),Mentawai (Salappa),ment1249,ment1249
+983,Mentawai (Ulubaga),Mentawai (Ulubaga),ment1249,ment1249
+984,Mentawai (Bariulou),Mentawai (Bariulou),ment1249,ment1249
+985,Mentawai (Bosua),Mentawai (Bosua),ment1249,ment1249
+986,Mentawai (Sioban),Mentawai (Sioban),ment1249,ment1249
+987,Mentawai (Pasapuat),Mentawai (Pasapuat),ment1249,ment1249
+988,Mentawai (Silabu),Mentawai (Silabu),ment1249,ment1249
+989,Mentawai (Saumanganya),Mentawai (Saumanganya),ment1249,ment1249
+99,Nengone,Nengone,neng1238,neng1238
+990,Mentawai (Boriai),Mentawai (Boriai),ment1249,ment1249
+991,Mentawai (Bulasat),Mentawai (Bulasat),ment1249,ment1249
+992,Mentawai (Sikakap),Mentawai (Sikakap),ment1249,ment1249
+993,Enggano (Meok),Enggano (Meok),engg1245,engg1245
+994,Simeulue,Simeulue,sime1241,sime1241
+995,Papitalai,Papitalai,papi1254,papi1254
+996,Moor,Moor,morm1235,morm1235
+997,Andio,Andio,andi1257,andi1257
+998,East Kara (Lemakot),East Kara (Lemakot),east2453,east2453
+999,Uma (Kantewu dialect),Uma (Kantewu dialect),umaa1242,umaa1242

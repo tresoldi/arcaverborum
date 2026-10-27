@@ -1,0 +1,50 @@
+av_id: ine-pannonian-ruthenian
+name: Pannonian Ruthenian
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.8329
+  cognates_score: 0.2021
+  pinned: true
+construction:
+  summary: Wiktionary forms with a conservative broad phonemic profile and audited
+    core senses.
+  lexical_base:
+    source: wiktionary
+    rationale: Retain named wikt_rsk source and its lexical provenance; infer only
+      reviewed spelling-to-phoneme correspondences.
+  transcription:
+    strategy: profile
+    profile: custom/profile.tsv
+    overrides: none
+    notes: '2028 profile-supported forms; 379 deferred. Broad phonemic reading only:
+      stress and surface assimilation unspecified; exact spellings only.'
+  concepts:
+    mapping: corrected
+    core_coverage: 98/161
+    notes: 102 English sense mappings reviewed; human-being man mapped to person,
+      complementizer that unmapped.
+  cognates:
+    source: wiktionary
+    method: source
+    computed: none
+    notes: Retained source etymology annotations; not expert comparative cognates.
+  loans:
+    handling: source
+    annotated: 28%
+    notes: ''
+candidates: []
+provenance:
+  bibliography:
+  - wiktionary
+  source_url: https://digitalna.ff.uns.ac.rs/sadrzaj/2002/86-17-09626-8
+tradeoffs:
+  gains: 2028/2407 profile-supported forms; 95/161 supported core concepts, previously
+    zero.
+  known_losses: 379 unsupported forms retained unclean; stress and surface allophones
+    unspecified.
+notes: Native grammar Ramač 2002 §§7–14 and21; profile is broad phonemic, not recorded
+  IPA. Specialist lexical and pronunciation review pending. See PACKET.md.

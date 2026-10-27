@@ -1,0 +1,68 @@
+{
+  "accepted_member_selections_changed": 0,
+  "accepted_varieties_exposed": 160,
+  "active_intake_changed": false,
+  "cached": {
+    "commit": "700b635a04786427b78841489c46eefbe2843509",
+    "files": {
+      "cognates.csv": "f2d3b7b9732c47a1d33e493e26ccb468f960aba7c8343b648c9c870d33cd7855",
+      "forms.csv": "d282e7407d9fd4f9d660e4fcca443f21b353ea746c15ebbf1577830e3f3a9723",
+      "languages.csv": "10eb2cee2f686540cd4347bfb2f767f439dcb84ba596d7d78b365c262de87b29",
+      "parameters.csv": "c8278d4d153e1b6eee5940f54d60d0ce47a7f1170ff29e2ea9938a514427032e",
+      "sources.bib": "1f1eebddc31e5cf9b28116cb882a24d08f2508386a4af90a9437021a48152fbe"
+    }
+  },
+  "concept_mapping_changes": 0,
+  "dataset": "iecor",
+  "decision": "stage_review_complete_no_identity_or_mapping_changes",
+  "detail_policy": "All language/parameter changes; first 500 form/cognate field changes per table. Summary counts cover every row; staged snapshots retain full evidence.",
+  "language_identity_changes": 0,
+  "staged": {
+    "commit": "dd1ebc997bc38c824fb18a1ef234bbf2c229420b",
+    "files": {
+      "cognates.csv": "f2d3b7b9732c47a1d33e493e26ccb468f960aba7c8343b648c9c870d33cd7855",
+      "forms.csv": "d282e7407d9fd4f9d660e4fcca443f21b353ea746c15ebbf1577830e3f3a9723",
+      "languages.csv": "6a41f6c7f8335c352f6950451b47426d2a4f605caba9e04682b7c67fffb8d113",
+      "parameters.csv": "9979742e60ae807e0b234b00fd1211ad2f4cbb37794c58ef607eebbd1604a041",
+      "sources.bib": "1f1eebddc31e5cf9b28116cb882a24d08f2508386a4af90a9437021a48152fbe"
+    }
+  },
+  "tables": {
+    "cognates": {
+      "added": 0,
+      "after": 25741,
+      "before": 25741,
+      "changed_fields": {},
+      "changed_rows": 0,
+      "removed": 0
+    },
+    "forms": {
+      "added": 0,
+      "after": 25731,
+      "before": 25731,
+      "changed_fields": {},
+      "changed_rows": 0,
+      "removed": 0
+    },
+    "languages": {
+      "added": 0,
+      "after": 160,
+      "before": 160,
+      "changed_fields": {
+        "Glottolog_Name": 3
+      },
+      "changed_rows": 3,
+      "removed": 0
+    },
+    "parameters": {
+      "added": 0,
+      "after": 170,
+      "before": 170,
+      "changed_fields": {
+        "Description_md": 170
+      },
+      "changed_rows": 170,
+      "removed": 0
+    }
+  }
+}

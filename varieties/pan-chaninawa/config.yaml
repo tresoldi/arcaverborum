@@ -1,0 +1,23 @@
+av_id: pan-chaninawa
+name: Chaninawa
+glottocode: chan1321
+family: Pano-Tacanan
+macroarea: South America
+sources:
+  transcription: amazonianvoices
+  cognates: amazonianvoices
+  source_language_id: amazonianvoices_chaninawa
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8472
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-27'
+notes: Reviewed named recording sample; dialect coverage, not a new independent language.
+  CC-BY-NC-4.0; dataset-level citation added from metadata. See PACKET.md.
