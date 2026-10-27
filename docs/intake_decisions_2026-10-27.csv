@@ -1,0 +1,5 @@
+candidate,source_member,decision,reason,reviewed_at
+Kaxabu (Kahabu),abvd_2041,defer,Dialect under existing Pazeh-Kahabu; Kunay orthography e/é and r/l correspondence unresolved. No profile inferred from Latin spelling.,2026-10-27
+Vovo,abvd_1071,defer,Dialect under Nese; independence from accepted Nese samples and Tryon transcription conventions unresolved.,2026-10-27
+Najit,abvd_1313,defer,Cached Glottolog places under Nese; newer abvdoceanic assigns Najit_1313 to malu1245. Identity conflict and dʳ convention unresolved.,2026-10-27
+Santiago Tutla,mixezoqueanvoices_Tutla,accept mix-mazatlan-mixe,Mazatlán Mixe maza1292 / ISO mzl; source family code lowl1263 used only for selecting named sample.,2026-10-27

@@ -4,8 +4,9 @@ glottocode: tomo1244
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: abvd
-  cognates: abvd
+  transcription: barlowkilliantomoip
+  cognates: barlowkilliantomoip
+  source_language_id: barlowkilliantomoip_tomo1244-1
 extensions:
   transcriptions: false
   forms: false
@@ -13,9 +14,10 @@ extensions:
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.4985
-  cognates_score: 0.1906
+  forms_score: 0.8857
+  cognates_score: 0.0
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=abvd (0.50); cognates=abvd (0.19)'
+notes: 'Reviewed 2026-10-27: single documented fieldwork sample with source IPA; replaces
+  pooled ABVD records. Old ABVD cognates are not transferred. See PACKET.md.'

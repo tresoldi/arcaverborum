@@ -1,0 +1,51 @@
+av_id: map-tomoip
+name: Tomoip
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.8857
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Named primary fieldwork sample with validated source IPA and explicit member
+    selection.
+  lexical_base:
+    source: barlowkilliantomoip
+    rationale: Named primary fieldwork sample with validated source IPA and explicit
+      member selection.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 1111/1111 forms clean (source 1111, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 136/161
+    notes: 754/1111 forms mapped; 623 distinct concepts. Composite meanings retained.
+  cognates:
+    source: barlowkilliantomoip
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: Source flags retained; no independent loanword review.
+candidates: []
+provenance:
+  bibliography:
+  - barlowkilliantomoip_BarlowKillian2023
+  source_url: https://doi.org/10.5281/zenodo.8435080
+  source_commit: b919e3dd1541f1adde5beb340ab281fd14303f48
+tradeoffs:
+  gains: 1111 source-clean IPA forms; 136/161 strict core concepts.
+  known_losses: Replaces ABVD 415 forms / 135 strict core concepts with 1111 forms
+    / 136 strict core concepts. The former 113 cognate annotations are retained in
+    intake but are not transferred to unrelated source rows. Some strict core slots
+    are lost because the new source uses broader composite concepts; this is not evidence
+    that the words are absent.
+notes: Source identity and machine diagnostics reviewed 2026-10-27; specialist transcription
+  and sense review pending. See PACKET.md.

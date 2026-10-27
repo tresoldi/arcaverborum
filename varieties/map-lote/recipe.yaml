@@ -1,0 +1,51 @@
+av_id: map-lote
+name: Lote
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.9263
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Named primary fieldwork sample with validated source IPA and explicit member
+    selection.
+  lexical_base:
+    source: barlowlote
+    rationale: Named primary fieldwork sample with validated source IPA and explicit
+      member selection.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 591/591 forms clean (source 591, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 139/161
+    notes: 521/591 forms mapped; 444 distinct concepts. Composite meanings retained.
+  cognates:
+    source: barlowlote
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: Source flags retained; no independent loanword review.
+candidates: []
+provenance:
+  bibliography:
+  - barlowlote_Barlow2024
+  source_url: https://doi.org/10.5281/zenodo.14505729
+  source_commit: 4916b2ab9d33142f32f04ca262f8b47f410b6fb1
+tradeoffs:
+  gains: 591 source-clean IPA forms; 139/161 strict core concepts.
+  known_losses: Replaces ABVD 356 forms / 135 strict core concepts with 591 forms
+    / 139 strict core concepts. The former 47 cognate annotations are retained in
+    intake but are not transferred to unrelated source rows. Some strict core slots
+    are lost because the new source uses broader composite concepts; this is not evidence
+    that the words are absent.
+notes: Source identity and machine diagnostics reviewed 2026-10-27; specialist transcription
+  and sense review pending. See PACKET.md.

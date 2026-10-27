@@ -1,0 +1,48 @@
+av_id: mix-mazatlan-mixe
+name: Mazatlán Mixe (Santiago Tutla)
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-27'
+quality:
+  tier: bronze
+  forms_score: 0.9906
+  cognates_score: 0.0
+  pinned: true
+construction:
+  summary: Named primary fieldwork sample with validated source IPA and explicit member
+    selection.
+  lexical_base:
+    source: mixezoqueanvoices
+    rationale: Named primary fieldwork sample with validated source IPA and explicit
+      member selection.
+  transcription:
+    strategy: source
+    profile: none
+    overrides: none
+    notes: 199/199 forms clean (source 199, profile 0, resegmented 0, unclean 0).
+  concepts:
+    mapping: source
+    core_coverage: 134/161
+    notes: 199/199 forms mapped; 198 distinct concepts. Composite meanings retained.
+  cognates:
+    source: mixezoqueanvoices
+    method: none
+    computed: none
+    notes: 0% of forms carry Cognacy.
+  loans:
+    handling: source
+    annotated: 0%
+    notes: Source flags retained; no independent loanword review.
+candidates: []
+provenance:
+  bibliography:
+  - mixezoqueanvoices_Kondic2023
+  source_url: https://github.com/lexibank/mixezoqueanvoices
+  source_commit: 893901d4d1f60feab43023c538ae029289322cfc
+tradeoffs:
+  gains: 199 source-clean IPA forms; 134/161 strict core concepts.
+  known_losses: Adds an unrepresented language using a single named sample; no existing
+    accepted construction is replaced.
+notes: Source identity and machine diagnostics reviewed 2026-10-27; specialist transcription
+  and sense review pending. See PACKET.md.

@@ -6,7 +6,7 @@ review:
   date: ''
 quality:
   tier: bronze
-  forms_score: 0.9003
+  forms_score: 0.9438
   cognates_score: 0.7
   pinned: true
 construction:
@@ -19,13 +19,12 @@ construction:
       configs; identity confirmed against the cached Glottolog language/dialect entry
       and the single named source language.
   transcription:
-    strategy: source
+    strategy: override
     profile: none
-    overrides: none
-    notes: 85 forms retain unclean source segments. These include transcription tokenization/diacritic
-      issues that require separate review; the 292 validated forms cover 121 core
-      concepts. UraLex source cognacy remains marked expert. This is the tresoldi
-      IPA-conversion fork, not an unmodified upstream release.
+    overrides: custom/transcriptions.csv
+    notes: 82 reviewed tokenization repairs attach detached breves to the preceding
+      ɑ, o or ø; source phonemes and NFD characters are preserved. 374 clean forms,
+      three unclean comma-separated alternatives.
   concepts:
     mapping: source
     core_coverage: 150/161
@@ -51,7 +50,7 @@ provenance:
   - uralex_DEWbOstj
   source_url: https://github.com/tresoldi/uralex
 tradeoffs:
-  gains: 150 core concepts, 121 with source-clean forms.
+  gains: 150 core concepts with clean support after 82 conservative tokenization repairs.
   known_losses: No accepted construction replaced.
-notes: Source identity and machine diagnostics reviewed 2026-10-23; specialist review
-  pending. See PACKET.md.
+notes: Reviewed 2026-10-27; source snapshots and repair decisions in custom/transcription_review.csv;
+  specialist review pending.

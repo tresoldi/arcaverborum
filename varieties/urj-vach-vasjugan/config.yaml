@@ -8,13 +8,13 @@ sources:
   cognates: uralex
   source_language_id: uralex_khanty_vakh_vasyugan
 extensions:
-  transcriptions: false
+  transcriptions: true
   forms: false
   cognates: false
   concept_map: false
   profile: false
 scoring:
-  forms_score: 0.9003
+  forms_score: 0.9438
   cognates_score: 0.7
   tier: bronze
 pinned: true

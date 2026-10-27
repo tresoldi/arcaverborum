@@ -1,0 +1,25 @@
+av_id: mix-mazatlan-mixe
+name: Mazatlán Mixe (Santiago Tutla)
+glottocode: maza1292
+family: Mixe-Zoque
+macroarea: North America
+sources:
+  transcription: mixezoqueanvoices
+  cognates: mixezoqueanvoices
+  source_language_id: mixezoqueanvoices_Tutla
+  source_glottocode: lowl1263
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.9906
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-27'
+notes: 'Reviewed source-member identity 2026-10-27: Tutla/Mazatlán Mixe (ISO mzl),
+  canonical maza1292. Source broad family code lowl1263 is used only to select the
+  named intake member. See PACKET.md.'
