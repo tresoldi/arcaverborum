@@ -1,0 +1,3375 @@
+{
+  "prior_records_preserved": 2463,
+  "intentional_gallurese_changes": [
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_21013",
+      "changes": {
+        "Segments": [
+          "r a n d u m à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_33915",
+      "changes": {
+        "Segments": [
+          "a s s e n t i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_37727",
+      "changes": {
+        "Segments": [
+          "a t t u ɡ n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_37728",
+      "changes": {
+        "Segments": [
+          "o t t u ɡ n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_37729",
+      "changes": {
+        "Segments": [
+          "v a ɡ ɡ j m u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_42139",
+      "changes": {
+        "Segments": [
+          "a r a n z u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_42308",
+      "changes": {
+        "Segments": [
+          "p u r t i ɡ à l l u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_78508",
+      "changes": {
+        "Segments": [
+          "a r i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_94041",
+      "changes": {
+        "Segments": [
+          "a b b a l t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_99624",
+      "changes": {
+        "Segments": [
+          "a l i m e n t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_99625",
+      "changes": {
+        "Segments": [
+          "r i c c a t t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_102982",
+      "changes": {
+        "Segments": [
+          "d í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_105371",
+      "changes": {
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_105372",
+      "changes": {
+        "Segments": [
+          "p u r u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_105581",
+      "changes": {
+        "Segments": [
+          "a ɡ ɡ j u ɡ n ì",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_126127",
+      "changes": {
+        "Segments": [
+          "a m ó r i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_158224",
+      "changes": {
+        "Segments": [
+          "s t é d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_168383",
+      "changes": {
+        "Segments": [
+          "i s c a t t e d d a r e",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_175096",
+      "changes": {
+        "Segments": [
+          "ɡ h j e s ɡ i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_182955",
+      "changes": {
+        "Segments": [
+          "a l ɡ e n t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_187254",
+      "changes": {
+        "Segments": [
+          "b a t t a d d ó l u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_227207",
+      "changes": {
+        "Segments": [
+          "t r a p i n t à d a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_232246",
+      "changes": {
+        "Segments": [
+          "c a c c i ɡ ɡ j à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_233514",
+      "changes": {
+        "Segments": [
+          "a l b u r i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_252009",
+      "changes": {
+        "Segments": [
+          "a i r a t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_296557",
+      "changes": {
+        "Segments": [
+          "p i n t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_300127",
+      "changes": {
+        "Segments": [
+          "c a m b a r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_313958",
+      "changes": {
+        "Segments": [
+          "c i t t a i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_313959",
+      "changes": {
+        "Segments": [
+          "z i t t a i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_328828",
+      "changes": {
+        "Segments": [
+          "a m i c u",
+          "a m i k u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_332050",
+      "changes": {
+        "Segments": [
+          "f u s t i c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_332051",
+      "changes": {
+        "Segments": [
+          "a d d u b b à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_334065",
+      "changes": {
+        "Segments": [
+          "i s c u l t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_334353",
+      "changes": {
+        "Segments": [
+          "i s c u l t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_337383",
+      "changes": {
+        "Segments": [
+          "a l è n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_337884",
+      "changes": {
+        "Segments": [
+          "c a n t z o n i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_358398",
+      "changes": {
+        "Segments": [
+          "ɡ h i n o c c h i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_359135",
+      "changes": {
+        "Segments": [
+          "c a n a r i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_359192",
+      "changes": {
+        "Segments": [
+          "c a n a r i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_359213",
+      "changes": {
+        "Segments": [
+          "c a n a r i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_379770",
+      "changes": {
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_408553",
+      "changes": {
+        "Segments": [
+          "a l l i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_408616",
+      "changes": {
+        "Segments": [
+          "a l l i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_410038",
+      "changes": {
+        "Segments": [
+          "b r u j à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_410300",
+      "changes": {
+        "Segments": [
+          "a l d ì",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_410301",
+      "changes": {
+        "Segments": [
+          "b r u j à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_411150",
+      "changes": {
+        "Segments": [
+          "a ɡ ɡ a n t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_425257",
+      "changes": {
+        "Segments": [
+          "s m i n t i c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_425258",
+      "changes": {
+        "Segments": [
+          "u l v i d à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_425483",
+      "changes": {
+        "Segments": [
+          "s m i n t i c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_425484",
+      "changes": {
+        "Segments": [
+          "u l v i d à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_426921",
+      "changes": {
+        "Segments": [
+          "a n d à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_428392",
+      "changes": {
+        "Segments": [
+          "a p p i c c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_448269",
+      "changes": {
+        "Segments": [
+          "c a m i s ɡ i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_455118",
+      "changes": {
+        "Segments": [
+          "a d d i z i o n i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_455262",
+      "changes": {
+        "Segments": [
+          "a d d i z i o n e",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_461699",
+      "changes": {
+        "Segments": [
+          "i s m é r u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_461700",
+      "changes": {
+        "Segments": [
+          "a p p é n t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_461701",
+      "changes": {
+        "Segments": [
+          "a f f i c c u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_476316",
+      "changes": {
+        "Segments": [
+          "d r u m m í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_482703",
+      "changes": {
+        "Segments": [
+          "i n n a n d i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_485056",
+      "changes": {
+        "Segments": [
+          "à r r i t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_494557",
+      "changes": {
+        "Segments": [
+          "a t t a c c à s s i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_499720",
+      "changes": {
+        "Segments": [
+          "c u m p r i n d í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_501495",
+      "changes": {
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_501710",
+      "changes": {
+        "Segments": [
+          "i n f u n d í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_501711",
+      "changes": {
+        "Segments": [
+          "i n f u n d í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_501781",
+      "changes": {
+        "Segments": [
+          "i n f u n d í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_506573",
+      "changes": {
+        "Segments": [
+          "r à n c i c u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_512405",
+      "changes": {
+        "Segments": [
+          "c a l a n d r u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_513060",
+      "changes": {
+        "Segments": [
+          "p i e t r a m à t z a r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_516728",
+      "changes": {
+        "Segments": [
+          "b a d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_520234",
+      "changes": {
+        "Segments": [
+          "r i s v ò l t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_528707",
+      "changes": {
+        "Segments": [
+          "a s c i n à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_579940",
+      "changes": {
+        "Segments": [
+          "c h i x i n a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_579941",
+      "changes": {
+        "Segments": [
+          "c i n u s",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_580637",
+      "changes": {
+        "Segments": [
+          "a f f l u s c i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_586641",
+      "changes": {
+        "Segments": [
+          "c a m p u",
+          "k a m p u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_586880",
+      "changes": {
+        "Segments": [
+          "c a m p u",
+          "k a m p u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ],
+        "concept_id": [
+          "agr-field",
+          ""
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_586943",
+      "changes": {
+        "Segments": [
+          "c a m p u",
+          "k a m p u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ],
+        "concept_id": [
+          "agr-field",
+          ""
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_587008",
+      "changes": {
+        "Segments": [
+          "c a m p u",
+          "k a m p u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ],
+        "concept_id": [
+          "agr-field",
+          ""
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_634910",
+      "changes": {
+        "Segments": [
+          "ɡ a f f è",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_658166",
+      "changes": {
+        "Segments": [
+          "a ɡ ɡ j u t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_658167",
+      "changes": {
+        "Segments": [
+          "a d i u t o r i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_685165",
+      "changes": {
+        "Segments": [
+          "a l b o r e",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_685354",
+      "changes": {
+        "Segments": [
+          "a l b a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_754606",
+      "changes": {
+        "Segments": [
+          "b a s ɡ i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_754894",
+      "changes": {
+        "Segments": [
+          "b a s ɡ i a s s i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_772067",
+      "changes": {
+        "Segments": [
+          "c a l c u l u",
+          "k a l k u l u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_772113",
+      "changes": {
+        "Segments": [
+          "c a l c u l u",
+          "k a l k u l u"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_809985",
+      "changes": {
+        "Segments": [
+          "r a m i n à i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_822883",
+      "changes": {
+        "Segments": [
+          "s t a n t a ɡ l i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_837913",
+      "changes": {
+        "Segments": [
+          "c a p i t ù ɡ n u l u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_845115",
+      "changes": {
+        "Segments": [
+          "d i t t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_891519",
+      "changes": {
+        "Segments": [
+          "a v v i n é",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_900227",
+      "changes": {
+        "Segments": [
+          "b a r r a c o c c u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_900388",
+      "changes": {
+        "Segments": [
+          "b a r r a c o c",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_910918",
+      "changes": {
+        "Segments": [
+          "b a ɡ a ɡ l i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_952075",
+      "changes": {
+        "Segments": [
+          "c a t t e d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_958285",
+      "changes": {
+        "Segments": [
+          "a b b r u n c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_961886",
+      "changes": {
+        "Segments": [
+          "a b b a ɡ ɡ j à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_992163",
+      "changes": {
+        "Segments": [
+          "a c c o l d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_992313",
+      "changes": {
+        "Segments": [
+          "a f f i t t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_992314",
+      "changes": {
+        "Segments": [
+          "a f f i t t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_998677",
+      "changes": {
+        "Segments": [
+          "a d a t t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1001501",
+      "changes": {
+        "Segments": [
+          "a m m i r i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1002856",
+      "changes": {
+        "Segments": [
+          "a v a n t z à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1004702",
+      "changes": {
+        "Segments": [
+          "a f f e t t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1013067",
+      "changes": {
+        "Segments": [
+          "ɡ a d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1013068",
+      "changes": {
+        "Segments": [
+          "i n c à d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1020817",
+      "changes": {
+        "Segments": [
+          "c a s i d d a ɡ ɡ i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1025206",
+      "changes": {
+        "Segments": [
+          "ɡ i u d i t z i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1025251",
+      "changes": {
+        "Segments": [
+          "p a d d i n ó s u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1031673",
+      "changes": {
+        "Segments": [
+          "c a t à v a r u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1031674",
+      "changes": {
+        "Segments": [
+          "c a d à v a r u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1054537",
+      "changes": {
+        "Segments": [
+          "r u i ɡ n í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1065940",
+      "changes": {
+        "Segments": [
+          "a f f a r r à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1068246",
+      "changes": {
+        "Segments": [
+          "a p p a r í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1068997",
+      "changes": {
+        "Segments": [
+          "ɡ a n a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1068998",
+      "changes": {
+        "Segments": [
+          "s ɡ h i s c i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1085816",
+      "changes": {
+        "Segments": [
+          "v a ɡ ɡ j à n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1100177",
+      "changes": {
+        "Segments": [
+          "b a t t ì s ɡ i m u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1108712",
+      "changes": {
+        "Segments": [
+          "a c c u l t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1133518",
+      "changes": {
+        "Segments": [
+          "a t t a s t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1133519",
+      "changes": {
+        "Segments": [
+          "t a s t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1133640",
+      "changes": {
+        "Segments": [
+          "t a s t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1133641",
+      "changes": {
+        "Segments": [
+          "a t t a s t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1143447",
+      "changes": {
+        "Segments": [
+          "a s i t t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1143448",
+      "changes": {
+        "Segments": [
+          "a m b a r à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1143647",
+      "changes": {
+        "Segments": [
+          "a s è t t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1154045",
+      "changes": {
+        "Segments": [
+          "a l l a r ɡ a i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1179175",
+      "changes": {
+        "Segments": [
+          "r a s t é l l u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1179176",
+      "changes": {
+        "Segments": [
+          "y a c a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1190265",
+      "changes": {
+        "Segments": [
+          "a b b a t i c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1190552",
+      "changes": {
+        "Segments": [
+          "c a n t a r a n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1190553",
+      "changes": {
+        "Segments": [
+          "ɡ u a r d a v ì",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1194372",
+      "changes": {
+        "Segments": [
+          "a s i t t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1219596",
+      "changes": {
+        "Segments": [
+          "a l c i è s c a m u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1229861",
+      "changes": {
+        "Segments": [
+          "s u i l c u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1243212",
+      "changes": {
+        "Segments": [
+          "a r m e n t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1245315",
+      "changes": {
+        "Segments": [
+          "s t a n t a ɡ l i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1249965",
+      "changes": {
+        "Segments": [
+          "a c c a p p i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1249966",
+      "changes": {
+        "Segments": [
+          "l i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1249967",
+      "changes": {
+        "Segments": [
+          "a l l a c c i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1281890",
+      "changes": {
+        "Segments": [
+          "f a s ɡ i o l u t u n d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1281982",
+      "changes": {
+        "Segments": [
+          "f a s ɡ i o l u t u n d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1290551",
+      "changes": {
+        "Segments": [
+          "s í n d r i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1290713",
+      "changes": {
+        "Segments": [
+          "s í n d r i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1290714",
+      "changes": {
+        "Segments": [
+          "p a t é c a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1296153",
+      "changes": {
+        "Segments": [
+          "l a u r à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1296250",
+      "changes": {
+        "Segments": [
+          "l a u r à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1304613",
+      "changes": {
+        "Segments": [
+          "p a ɡ ɡ h j ò l a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1309435",
+      "changes": {
+        "Segments": [
+          "s c u l l ó p p i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1309591",
+      "changes": {
+        "Segments": [
+          "s c u l l ó p p i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1311176",
+      "changes": {
+        "Segments": [
+          "i m b u l i c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1321269",
+      "changes": {
+        "Segments": [
+          "c u n s è n s u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1330905",
+      "changes": {
+        "Segments": [
+          "b a s ɡ i r i c ò",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1337446",
+      "changes": {
+        "Segments": [
+          "a r r u d à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1337933",
+      "changes": {
+        "Segments": [
+          "a l z i d d a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1337934",
+      "changes": {
+        "Segments": [
+          "c a c c a v i n a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1337935",
+      "changes": {
+        "Segments": [
+          "l u ɡ i à n a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1354126",
+      "changes": {
+        "Segments": [
+          "b a d d à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1408667",
+      "changes": {
+        "Segments": [
+          "ɡ j u n ɡ i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1429193",
+      "changes": {
+        "Segments": [
+          "d i s a l m à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1429231",
+      "changes": {
+        "Segments": [
+          "d i s a l m à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1488302",
+      "changes": {
+        "Segments": [
+          "a m m u n t o n à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1488675",
+      "changes": {
+        "Segments": [
+          "m a d o n i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1488779",
+      "changes": {
+        "Segments": [
+          "m a d o n i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1489561",
+      "changes": {
+        "Segments": [
+          "s c u r z ó n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1494513",
+      "changes": {
+        "Segments": [
+          "a ɡ r a c c i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1494514",
+      "changes": {
+        "Segments": [
+          "a ɡ r i t z u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1496427",
+      "changes": {
+        "Segments": [
+          "m a c c r a m m è",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1496428",
+      "changes": {
+        "Segments": [
+          "s c i u a m a n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1540139",
+      "changes": {
+        "Segments": [
+          "i n ɡ u d d ò s s u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1540140",
+      "changes": {
+        "Segments": [
+          "s t r ù z i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1589957",
+      "changes": {
+        "Segments": [
+          "i m b u l i c à t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1606468",
+      "changes": {
+        "Segments": [
+          "a b b a l t u r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1610950",
+      "changes": {
+        "Segments": [
+          "a ɡ ɡ r u c i u p p í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1624190",
+      "changes": {
+        "Segments": [
+          "ɡ j u m p ì",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1624191",
+      "changes": {
+        "Segments": [
+          "i m b i s t ì",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1624246",
+      "changes": {
+        "Segments": [
+          "a l c i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1638936",
+      "changes": {
+        "Segments": [
+          "a b b a c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1640979",
+      "changes": {
+        "Segments": [
+          "a c c u n c i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1667826",
+      "changes": {
+        "Segments": [
+          "b a u l u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1675472",
+      "changes": {
+        "Segments": [
+          "a f f i t z i u n à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1693936",
+      "changes": {
+        "Segments": [
+          "s t u n d a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1708310",
+      "changes": {
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1715049",
+      "changes": {
+        "Segments": [
+          "i s p a r a u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1715162",
+      "changes": {
+        "Segments": [
+          "i s p a r a u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1736067",
+      "changes": {
+        "Segments": [
+          "c a r i ɡ n à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1736068",
+      "changes": {
+        "Segments": [
+          "a c c a r i t z à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1736987",
+      "changes": {
+        "Segments": [
+          "t u l m e n t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1736988",
+      "changes": {
+        "Segments": [
+          "m a l t u r ì z i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1768383",
+      "changes": {
+        "Segments": [
+          "a b b a ɡ l i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1820782",
+      "changes": {
+        "Segments": [
+          "a b b a t t ì",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1820783",
+      "changes": {
+        "Segments": [
+          "l a m p a n n i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1837549",
+      "changes": {
+        "Segments": [
+          "c a p i t z a l i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1873718",
+      "changes": {
+        "Segments": [
+          "c a t t e d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1893107",
+      "changes": {
+        "Segments": [
+          "ɡ i a n t e r i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1893237",
+      "changes": {
+        "Segments": [
+          "ɡ i a n t e r i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_1996142",
+      "changes": {
+        "Segments": [
+          "i n d u l c í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2000933",
+      "changes": {
+        "Segments": [
+          "a l l i n t à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2000934",
+      "changes": {
+        "Segments": [
+          "a l l i n à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2038395",
+      "changes": {
+        "Segments": [
+          "i m b a s c i a d a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2088828",
+      "changes": {
+        "Segments": [
+          "ɡ j u n c a t a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2115500",
+      "changes": {
+        "Segments": [
+          "t r a c c u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2134396",
+      "changes": {
+        "Segments": [
+          "a m a l ɡ u r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2153315",
+      "changes": {
+        "Segments": [
+          "m u t z a t u r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2154348",
+      "changes": {
+        "Segments": [
+          "a l l i s u m b r é t t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2186252",
+      "changes": {
+        "Segments": [
+          "a l l i c i r i c à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2187298",
+      "changes": {
+        "Segments": [
+          "p a t i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2187299",
+      "changes": {
+        "Segments": [
+          "i n t r a t a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2193335",
+      "changes": {
+        "Segments": [
+          "ɡ j n t ó r i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2203325",
+      "changes": {
+        "Segments": [
+          "m a l t a r i a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2294431",
+      "changes": {
+        "Segments": [
+          "p i c u n d r ì a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2302848",
+      "changes": {
+        "Segments": [
+          "a s c i u l v í",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2320333",
+      "changes": {
+        "Segments": [
+          "l u c i n t u r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2376797",
+      "changes": {
+        "Segments": [
+          "c a p u m i d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2403477",
+      "changes": {
+        "Segments": [
+          "i m p u d d a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2415041",
+      "changes": {
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2437655",
+      "changes": {
+        "Segments": [
+          "a r ɡ h i ò l a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2439613",
+      "changes": {
+        "Segments": [
+          "d i è ɡ n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2439614",
+      "changes": {
+        "Segments": [
+          "a f f a s c i u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2448041",
+      "changes": {
+        "Segments": [
+          "a f f a c c a s s i",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2463813",
+      "changes": {
+        "Segments": [
+          "t a r a b ù c c h j u l u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2497108",
+      "changes": {
+        "Segments": [
+          "m u t z a t u r a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2532566",
+      "changes": {
+        "Segments": [
+          "m u f f ì t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2549130",
+      "changes": {
+        "Segments": [
+          "c a b a d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2549131",
+      "changes": {
+        "Segments": [
+          "c a d d u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2549132",
+      "changes": {
+        "Segments": [
+          "a c c h e t t u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2549133",
+      "changes": {
+        "Segments": [
+          "e b b a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2569233",
+      "changes": {
+        "Segments": [
+          "a r a ɡ u s t a",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2694691",
+      "changes": {
+        "Segments": [
+          "s c u r z ó n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2694692",
+      "changes": {
+        "Segments": [
+          "t a c c a ɡ n u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2747133",
+      "changes": {
+        "Segments": [
+          "c a m p a n i l i",
+          "k a m p a n i l i"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2761170",
+      "changes": {
+        "Segments": [
+          "b a c c a ɡ l i à",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2836027",
+      "changes": {
+        "Segments": [
+          "c a n i",
+          "k a n i"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2836717",
+      "changes": {
+        "Segments": [
+          "c a n i",
+          "k a n i"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2836821",
+      "changes": {
+        "Segments": [
+          "c a n i",
+          "k a n i"
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "profile"
+        ],
+        "concept_id": [
+          "ani-dog",
+          ""
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2877260",
+      "changes": {
+        "Segments": [
+          "ɡ a d d h u r e s u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "source_form_id": "wikt_2877261",
+      "changes": {
+        "Segments": [
+          "ɡ a d d u r e s u",
+          ""
+        ],
+        "Segments_Source": [
+          "resegmented",
+          "unclean"
+        ]
+      }
+    }
+  ]
+}

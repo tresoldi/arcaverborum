@@ -1,0 +1,41 @@
+{
+  "repository": "https://gitlab.com/sbeniamine/Romance_Verbal_Inflection_Dataset",
+  "commit": "eb1efef3ef02fbbf06f96f77637736d9cd27db8a",
+  "license": "GPL-3.0",
+  "languages": 74,
+  "italy_country_rows": 27,
+  "forms": 155029,
+  "lexemes": 2410,
+  "paradigm_parameters": 41,
+  "sha256": {
+    "cldf/Wordlist-metadata.json": "49cf252662f400ce0a0aa83bf18c46e6de5c57324cbedbbaa5675de9a5b17b9b",
+    "cldf/cognatesets.csv": "54609ff39a03cec92fe3d9e9e6c9b9a90848cb1849ddadd9dd88fb06d6d4bf26",
+    "cldf/forms.csv": "5f9aeb0c90ff65547793b92402d9dba707644e852b5882f0004faace96fe7e39",
+    "cldf/languages.csv": "cb5260738db9748ff5075006ddd7ed3ea7d4bc5b2687b8cff28381bbb78bcefe",
+    "cldf/lexemes.csv": "4fa3c495b524fb0fb198d7c41ce618ff5ac5faf649e9e942056ed81746e450ec",
+    "cldf/parameters.csv": "b6659ec9a71966586d48fb20b9b5cdf1a810b2c211eae8e92ac1067f0bc28ff2",
+    "cldf/sources.bib": "11670bee52c8764d4370b32851a3b7f73fd9e5151ad369858f35281b6fe8857d",
+    "LICENSE": "c1fa0bd41787c785a0c65c3d1ecf2a95d6edbed16f5419d89b3bf9fa0eb1209e",
+    "README.md": "5d2eaf4fbdc30fb3b81aa233290364ed9edc5c7e347b3c2e7b5b60530c8a434e"
+  },
+  "staging": "Research clone outside active intake; not ingested",
+  "dataset": "rvidinfinitives",
+  "samples": {
+    "Sardinian_Sassarese": {
+      "av_id": "ine-sassarese-sardinian",
+      "glottocode": "sass1235"
+    },
+    "Sardinian_Nuorese": {
+      "av_id": "ine-nuorese",
+      "glottocode": "nuor1238"
+    },
+    "Sardinian_Logudorese": {
+      "av_id": "ine-logudorese-sardinian",
+      "glottocode": "logu1236"
+    },
+    "Italian_Northern_I_Lombard_Cremonese_from_Cremona": {
+      "av_id": "ine-rvid-cremona",
+      "glottocode": ""
+    }
+  }
+}

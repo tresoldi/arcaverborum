@@ -1,0 +1,16 @@
+av_id: ine-gallurese-sardinian
+construction:
+  summary: "Romance R01\u2013R06: 254 forms and 2/161 supported core concepts. Primary\
+    \ wiktionary; earlier evidence retained."
+  lexical_base:
+    source: wiktionary
+  transcription:
+    strategy: source_and_finite_profile
+  supplements: none
+  primary_guard: none
+  cognates:
+    source: wiktionary
+    scope: original source namespaces; no cross-source transfer
+review:
+  date: '2026-10-28'
+  status: reviewed_bounded_batch

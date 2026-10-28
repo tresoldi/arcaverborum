@@ -21,6 +21,7 @@ Newest completed batches first. Each report links its decisions and metrics.
 
 | Report | Work recorded |
 | --- | --- |
+| [Romance R01–R06](../ROMANCE_EXPANSION_2026-10-28.md) | 176 new source forms,16 profile readings,+138 supported slots in existing constructions;14 named samples; RVID acquisition and Alpine evidence gates |
 | [Central/North America NA01–NA07](../NORTH_AMERICA_EXPANSION_2026-10-28.md) | +377 supported core slots;508 new lexical forms;755 recording placeholders separated; Tseltal replacement, Zapotec/Alutiiq profiles and Nizaviguiti named-variety admission |
 | [Source-led N01–N05](../SOURCE_LED_EXPANSION_2026-10-28.md) | +269 forms/+164 supported core slots; broader Jê non-core vocabulary; Lule and Apolista evidence holds |
 | [South American depth, 2026-10-28](../SOUTH_AMERICA_DEPTH_2026-10-28.md) | Mastanahua, Tupinambá and four Tupian constructions; Panará/Apinayé profiles and GLED replacements; Ingain numerals; six missing-language holds |

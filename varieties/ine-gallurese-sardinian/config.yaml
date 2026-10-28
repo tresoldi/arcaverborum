@@ -10,12 +10,12 @@ extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
-  profile: false
+  concept_map: true
+  profile: true
 scoring:
   forms_score: 0.2584
   cognates_score: 0.0206
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
 notes: 'auto: forms=wiktionary (0.26) [fallback p3]; cognates=wiktionary (0.02)'

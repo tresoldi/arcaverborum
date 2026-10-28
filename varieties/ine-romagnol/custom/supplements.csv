@@ -1,0 +1,3 @@
+source,source_form_id,source_language_id,source_glottocode,evidence_sha256,expected_source_concepticon_id,concept_id,decision,mapping_decision,rationale
+wiktionary,wikt_45990,wikt_rgn,roma1328,086044d3a8cb2d900580273f8db5b2e833f32b2866e03656ee578e131cf1f696,1732,phy-sky,admit,retain,Exact frozen language/POS pronunciation and literal source sense fit frozen definition; retain source variation without inferring a town or transferring primary cognacy.
+wiktionary,wikt_54207,wikt_rgn,roma1328,113d04b219d5bf560b4450e336301ef735809609f3669f65d6e8396b48b925a3,492,qua-three,admit,retain,Exact frozen language/POS pronunciation and literal source sense fit frozen definition; retain source variation without inferring a town or transferring primary cognacy.

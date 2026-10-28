@@ -1,0 +1,16 @@
+av_id: ine-romansh
+construction:
+  summary: "Romance R01\u2013R06: 143 forms and 4/161 supported core concepts. Primary\
+    \ diacl; earlier evidence retained."
+  lexical_base:
+    source: diacl
+  transcription:
+    strategy: source
+  supplements: custom/supplements.csv
+  primary_guard: none
+  cognates:
+    source: diacl
+    scope: original source namespaces; no cross-source transfer
+review:
+  date: '2026-10-28'
+  status: reviewed_bounded_batch

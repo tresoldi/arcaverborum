@@ -129,13 +129,20 @@ supersede them where applicable. [Full report](../NORTH_AMERICA_EXPANSION_2026-1
 All remaining per-sense holds are in the dated NA01–NA07 decision CSVs linked
 from the report. Reopen on relevant evidence, not a repeated ranking ceiling.
 
-## Romance acquisition gates — 2026-10-28
+## Romance gates after R01–R06 — 2026-10-28
 
-See [investigation](../ROMANCE_INVESTIGATION_2026-10-28.md). Sound Comparisons
-Romance2019: restricted CC BY-NC-ND4.0; reopen on applicable derivative permission
-or compatible new release. digitALD: establish redistribution rights, export and
-notation key. VinKo: reconcile exact deposit/version rights with project terms;
-automated repository access blocked. RVID is research-staged at the recorded pin,
-not admitted: reconcile sample identity, meaning and paradigm representation.
-Saenko Logudorese→Barbaricino requires original sample authority before transfer
-or parent expansion. These are source-specific gates, not blanket language holds.
+[Executed results](../ROMANCE_EXPANSION_2026-10-28.md) and
+[acquisition evidence](../romance_r05_acquisition_2026-10-28.json).
+
+| Case | Current gate | Reopening evidence |
+| --- | --- | --- |
+| Lombard/Venetian broad profiles | Frozen spelling mixtures do not identify one locality/system | Source-scoped dictionary/orthographic authority or explicit qualified supplied IPA; Milanese route proposed in NEXT |
+| Istriot profile | Local conventions lack reviewed conversion | Locality-specific spelling/pronunciation source and exact sense review |
+| Gallurese extension | Ten-word subset complete; other mid vowels/rhotics/glides/palatals unresolved | Actual lexical readings or documented unambiguous convention subset; preserve three earlier supplied readings |
+| Saenko Logudorese/Barbaricino | Source label/code scope differs | Original sample authority before parent/Nuorese transfer; new RVID evidence was separately admitted |
+| RVID held14 infinitives | Missing values, grammatical/semantic ambiguity or clitic conflict | Original cited paradigms/modern lexical senses; namespace33 forms/four members already appended, never append again |
+| VerbaAlpina | Live service maintenance; archival payload host DNS fails | Reachable frozen token CSV with advertised checksum, source notation/locality/meaning reviewed; metadata alone no admission |
+| digitALD | Site CC BY-SA4.0 now established; earlier unspecified-rights hold narrowed | Selected-table scope and reviewed Böhmer–Ascoli–AIS conversion, with response context; audio/transcription dating separate |
+| VinKo v1.2 | Project explicitly CC BY-NC-SA4.0; deposit lexical transcription inaccessible/unverified | Exact deposit metadata and actual lexical transcriptions; secondary ND listing is not project's stated terms |
+| Sound Comparisons Romance2019 | Restricted CC BY-NC-ND4.0 derivative gate unchanged | Applicable derivative permission or compatible new release |
+| Wider Romance profiles | Occitan/Romansh supplied pilot complete; broader spelling unresolved, Extremaduran/Picard/Fala/Arpitan screened | Exact source-system/locality pronunciation authority; no automatic Spanish/French/Italian rules |

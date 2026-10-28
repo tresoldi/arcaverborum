@@ -1,0 +1,13 @@
+av_id: ine-saenko-palermitan
+construction:
+  summary: Named source sample under ine-sicilian; source member saenkoromance_palermitansicilian.
+    No distinct-language or canonical town-code claim. GLD-derived source; parent
+    evidence retained.
+  lexical_base:
+    source: saenkoromance
+    member: saenkoromance_palermitansicilian
+  transcription:
+    strategy: source
+  cognates:
+    source: saenkoromance
+    scope: source-member namespace

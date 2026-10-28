@@ -1,5 +1,26 @@
 # Project journal and working memory
 
+## 2026-10-28 — Authorized Romance R01–R06 batch
+
+Executed sequentially with bounded admissions and named evidence holds. Baseline
+7,329 constructions/2,069,214 forms/467,872 supported core slots.176 new source
+forms,16 profile readings on existing rows;138 extra supported slots in existing
+constructions.14 named additions:13 previously pooled Saenko samples (1,463 rows,
+1,287 slots repeated with explicit parent links), plus Cremona11 infinitives/4 slots.
+No distinct-new-language or independent GLD evidence claim; parents retained.
+R01 supplied forms71; R02 ten Gallurese spellings/16 profile rows,2 core gains,
+five semantic unmaps, unsupported tail now explicitly unclean; all254 rows kept.
+R03 all43 Saenko members audited; Logudorese→Barbaricino transfer held. R04 pinned
+GPLv3 RVID derivative33/47 infinitives, new append-only namespace, guarded source
+and morphology/modern-sense checks. Public source/licence/notice retained.
+R05 zero admissions: VA maintenance redirect/archival download DNS failure;
+ALD CC BY-SA4.0 now evidenced, notation/table scope remains; VinKo project v1.2
+licence confirmed but deposit lexical transcription unverified. R06 Occitan67/59
+core and Romansh5/4; nonliteral senses held. Broad mixed-spelling profiles held.
+430 tests/full lint, compilers/affected builds,2,463 prior-record checks and401
+artifact hashes pass. Aggregate/public artifacts rebuilt. See Romance report and
+metrics; NEXT replaces R01–R06 with proposed RP01–RP03, American NB stays parked.
+
 ## 2026-10-28 — Romance / Italian-area investigation
 
 Planning only; accepted baseline unchanged. NEXT now proposes R01–R06 sequentially:

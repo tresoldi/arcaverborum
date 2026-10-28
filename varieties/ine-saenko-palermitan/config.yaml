@@ -1,0 +1,25 @@
+av_id: ine-saenko-palermitan
+name: Palermitan (Saenko sample)
+glottocode: ''
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: saenkoromance
+  cognates: saenkoromance
+  source_glottocode: sici1248
+  source_language_id: saenkoromance_palermitansicilian
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8
+  cognates_score: 0.6
+  tier: bronze
+pinned: true
+registered_on: '2026-10-28'
+notes: Named source sample under ine-sicilian; source member saenkoromance_palermitansicilian.
+  No distinct-language or canonical town-code claim. GLD-derived source; parent evidence
+  retained.

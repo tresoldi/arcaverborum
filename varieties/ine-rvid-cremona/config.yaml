@@ -1,0 +1,25 @@
+av_id: ine-rvid-cremona
+name: Cremonese (Cremona, RVID sample)
+glottocode: ''
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: rvidinfinitives
+  cognates: rvidinfinitives
+  source_language_id: rvidinfinitives_Italian_Northern_I_Lombard_Cremonese_from_Cremona
+  member_only: true
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-28'
+notes: Named Cremona sample from Rossini1975 via RVID2.0. Closest source code lomb1257
+  is not a canonical town code; parent Lombard. Infinitives only, GPLv3; no distinct-language
+  claim.

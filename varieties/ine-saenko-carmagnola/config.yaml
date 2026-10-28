@@ -1,0 +1,25 @@
+av_id: ine-saenko-carmagnola
+name: Carmagnola (Saenko sample)
+glottocode: ''
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: saenkoromance
+  cognates: saenkoromance
+  source_glottocode: piem1238
+  source_language_id: saenkoromance_carmagnolapiemontese
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8
+  cognates_score: 0.6
+  tier: bronze
+pinned: true
+registered_on: '2026-10-28'
+notes: Named source sample under ine-piemontese; source member saenkoromance_carmagnolapiemontese.
+  No distinct-language or canonical town-code claim. GLD-derived source; parent evidence
+  retained.

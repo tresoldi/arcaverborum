@@ -1,0 +1,473 @@
+{
+  "before": {
+    "varieties": 7315,
+    "forms": 2067575,
+    "source_forms": 1744382,
+    "profile_forms": 13869,
+    "supported_core": 466443,
+    "mapped_core": 540270,
+    "gled_primaries": 1577,
+    "core_source_varieties": 906
+  },
+  "after": {
+    "varieties": 7329,
+    "forms": 2069214,
+    "source_forms": 1746021,
+    "profile_forms": 13885,
+    "supported_core": 467872,
+    "mapped_core": 541637,
+    "gled_primaries": 1577,
+    "core_source_varieties": 906
+  },
+  "changes": [
+    {
+      "av_id": "ine-corsican",
+      "new_named_variety": false,
+      "forms_before": 39,
+      "forms_after": 55,
+      "supported_core_before": 36,
+      "supported_core_after": 51,
+      "supported_core_gain": 15,
+      "mapped_core_before": 36,
+      "mapped_core_after": 51,
+      "statuses_before": {
+        "source": 39
+      },
+      "statuses_after": {
+        "source": 55
+      }
+    },
+    {
+      "av_id": "ine-gallurese-sardinian",
+      "new_named_variety": false,
+      "forms_before": 254,
+      "forms_after": 254,
+      "supported_core_before": 0,
+      "supported_core_after": 2,
+      "supported_core_gain": 2,
+      "mapped_core_before": 10,
+      "mapped_core_after": 10,
+      "statuses_before": {
+        "unclean": 10,
+        "resegmented": 241,
+        "source": 3
+      },
+      "statuses_after": {
+        "unclean": 235,
+        "profile": 16,
+        "source": 3
+      }
+    },
+    {
+      "av_id": "ine-italian",
+      "new_named_variety": false,
+      "forms_before": 171,
+      "forms_after": 202,
+      "supported_core_before": 128,
+      "supported_core_after": 159,
+      "supported_core_gain": 31,
+      "mapped_core_before": 128,
+      "mapped_core_after": 159,
+      "statuses_before": {
+        "source": 171
+      },
+      "statuses_after": {
+        "source": 202
+      }
+    },
+    {
+      "av_id": "ine-ligurian",
+      "new_named_variety": false,
+      "forms_before": 223,
+      "forms_after": 232,
+      "supported_core_before": 99,
+      "supported_core_after": 106,
+      "supported_core_gain": 7,
+      "mapped_core_before": 99,
+      "mapped_core_after": 106,
+      "statuses_before": {
+        "source": 223
+      },
+      "statuses_after": {
+        "source": 232
+      }
+    },
+    {
+      "av_id": "ine-logudorese-sardinian",
+      "new_named_variety": false,
+      "forms_before": 200,
+      "forms_after": 203,
+      "supported_core_before": 0,
+      "supported_core_after": 1,
+      "supported_core_gain": 1,
+      "mapped_core_before": 134,
+      "mapped_core_after": 134,
+      "statuses_before": {
+        "resegmented": 200
+      },
+      "statuses_after": {
+        "resegmented": 200,
+        "source": 3
+      }
+    },
+    {
+      "av_id": "ine-lombard",
+      "new_named_variety": false,
+      "forms_before": 81,
+      "forms_after": 84,
+      "supported_core_before": 38,
+      "supported_core_after": 41,
+      "supported_core_gain": 3,
+      "mapped_core_before": 38,
+      "mapped_core_after": 41,
+      "statuses_before": {
+        "source": 81
+      },
+      "statuses_after": {
+        "source": 84
+      }
+    },
+    {
+      "av_id": "ine-nuorese",
+      "new_named_variety": false,
+      "forms_before": 198,
+      "forms_after": 210,
+      "supported_core_before": 0,
+      "supported_core_after": 4,
+      "supported_core_gain": 4,
+      "mapped_core_before": 133,
+      "mapped_core_after": 133,
+      "statuses_before": {
+        "resegmented": 198
+      },
+      "statuses_after": {
+        "resegmented": 198,
+        "source": 12
+      }
+    },
+    {
+      "av_id": "ine-occitan",
+      "new_named_variety": false,
+      "forms_before": 334,
+      "forms_after": 401,
+      "supported_core_before": 0,
+      "supported_core_after": 59,
+      "supported_core_gain": 59,
+      "mapped_core_before": 134,
+      "mapped_core_after": 140,
+      "statuses_before": {
+        "resegmented": 331,
+        "unclean": 3
+      },
+      "statuses_after": {
+        "resegmented": 331,
+        "unclean": 3,
+        "source": 67
+      }
+    },
+    {
+      "av_id": "ine-romagnol",
+      "new_named_variety": false,
+      "forms_before": 110,
+      "forms_after": 112,
+      "supported_core_before": 98,
+      "supported_core_after": 100,
+      "supported_core_gain": 2,
+      "mapped_core_before": 98,
+      "mapped_core_after": 100,
+      "statuses_before": {
+        "source": 110
+      },
+      "statuses_after": {
+        "source": 112
+      }
+    },
+    {
+      "av_id": "ine-romansh",
+      "new_named_variety": false,
+      "forms_before": 138,
+      "forms_after": 143,
+      "supported_core_before": 0,
+      "supported_core_after": 4,
+      "supported_core_gain": 4,
+      "mapped_core_before": 89,
+      "mapped_core_after": 91,
+      "statuses_before": {
+        "unclean": 53,
+        "resegmented": 85
+      },
+      "statuses_after": {
+        "unclean": 53,
+        "resegmented": 85,
+        "source": 5
+      }
+    },
+    {
+      "av_id": "ine-rvid-cremona",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 11,
+      "supported_core_before": 0,
+      "supported_core_after": 4,
+      "supported_core_gain": 4,
+      "mapped_core_before": 0,
+      "mapped_core_after": 4,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 11
+      }
+    },
+    {
+      "av_id": "ine-saenko-barbania",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-saenko-bellunese",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 112,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 112
+      }
+    },
+    {
+      "av_id": "ine-saenko-carmagnola",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-saenko-carpigiano",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 114,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 114
+      }
+    },
+    {
+      "av_id": "ine-saenko-catanian",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 112,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 112
+      }
+    },
+    {
+      "av_id": "ine-saenko-ferrarese",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 110,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 110
+      }
+    },
+    {
+      "av_id": "ine-saenko-lanzo-torinese",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-saenko-palermitan",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-saenko-primiero",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 112,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 112
+      }
+    },
+    {
+      "av_id": "ine-saenko-reggiano",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 112,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 112
+      }
+    },
+    {
+      "av_id": "ine-saenko-southeastern-sicilian",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-saenko-venice",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-saenko-vercellese",
+      "new_named_variety": true,
+      "forms_before": 0,
+      "forms_after": 113,
+      "supported_core_before": 0,
+      "supported_core_after": 99,
+      "supported_core_gain": 99,
+      "mapped_core_before": 0,
+      "mapped_core_after": 99,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 113
+      }
+    },
+    {
+      "av_id": "ine-sassarese-sardinian",
+      "new_named_variety": false,
+      "forms_before": 40,
+      "forms_after": 47,
+      "supported_core_before": 38,
+      "supported_core_after": 38,
+      "supported_core_gain": 0,
+      "mapped_core_before": 38,
+      "mapped_core_after": 38,
+      "statuses_before": {
+        "source": 40
+      },
+      "statuses_after": {
+        "source": 47
+      }
+    },
+    {
+      "av_id": "ine-sicilian",
+      "new_named_variety": false,
+      "forms_before": 338,
+      "forms_after": 346,
+      "supported_core_before": 99,
+      "supported_core_after": 107,
+      "supported_core_gain": 8,
+      "mapped_core_before": 99,
+      "mapped_core_after": 107,
+      "statuses_before": {
+        "source": 338
+      },
+      "statuses_after": {
+        "source": 346
+      }
+    },
+    {
+      "av_id": "ine-venetian",
+      "new_named_variety": false,
+      "forms_before": 337,
+      "forms_after": 339,
+      "supported_core_before": 99,
+      "supported_core_after": 101,
+      "supported_core_gain": 2,
+      "mapped_core_before": 99,
+      "mapped_core_after": 101,
+      "statuses_before": {
+        "source": 337
+      },
+      "statuses_after": {
+        "source": 339
+      }
+    }
+  ],
+  "distinct_new_languages": 0,
+  "new_named_varieties": 14,
+  "previously_pooled_saenko_named_samples": 13,
+  "previously_pooled_saenko_rows": 1463,
+  "new_source_forms": 176,
+  "notes": "176 newly admitted lexical evidence rows plus 1463 source rows exposed again in named Saenko samples. Parent rows retained; neither count represents distinct new languages or independent GLD sources."
+}

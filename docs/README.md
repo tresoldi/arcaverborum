@@ -25,6 +25,7 @@ paths and observations; the history index gives them context.
 | Reference | Scope |
 | --- | --- |
 | [Build specification](BESTOF_SPECIFICATION.md) | Per-variety build, source/config/custom mechanics; current supplementation note included |
+| [RVID data component](RVID_DATA_LICENSE.md) | GPLv3 source, derivative scope and reproduction |
 | [Concept specification](CONCEPTS_SPECIFICATION.md) | Frozen IDs, definitions and Concepticon mapping/drift |
 | [Curation workflow specification](CURATION_WORKFLOW_SPECIFICATION.md) | Design direction; original diagnostic baseline is historical |
 | [Curation machinery](CURATION_MACHINERY.md) | Descriptive recipes/packets and their relationship to enforced config/custom files |

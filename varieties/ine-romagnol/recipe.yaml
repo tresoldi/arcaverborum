@@ -1,0 +1,16 @@
+av_id: ine-romagnol
+construction:
+  summary: "Romance R01\u2013R06: 112 forms and 100/161 supported core concepts. Primary\
+    \ saenkoromance; earlier evidence retained."
+  lexical_base:
+    source: saenkoromance
+  transcription:
+    strategy: source
+  supplements: custom/supplements.csv
+  primary_guard: none
+  cognates:
+    source: saenkoromance
+    scope: original source namespaces; no cross-source transfer
+review:
+  date: '2026-10-28'
+  status: reviewed_bounded_batch

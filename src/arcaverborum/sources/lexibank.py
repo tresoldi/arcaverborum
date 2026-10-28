@@ -72,17 +72,19 @@ def fetch(
         repo_dir = target_dir / name
 
         if dry_run:
-            action = ("materialize document" if name in {"bodtbangru", "gerardije2025"}
+            action = ("materialize reviewed source" if name in {"bodtbangru", "gerardije2025", "rvidinfinitives"}
                       else ("update" if repo_dir.exists() else "clone"))
             logger.info("[dry-run] %s %s", action, name)
             continue
 
-        if name in {"bodtbangru", "gerardije2025"}:
+        if name in {"bodtbangru", "gerardije2025", "rvidinfinitives"}:
             # These frozen originals need reviewed materialization, not Git pull.
             if name == "bodtbangru":
                 from arcaverborum.sources.bangru_original import materialize
-            else:
+            elif name == "gerardije2025":
                 from arcaverborum.sources.je_original import materialize
+            else:
+                from arcaverborum.sources.rvid import materialize
             existed = repo_dir.exists()
             try:
                 materialize(raw_root, download=True)

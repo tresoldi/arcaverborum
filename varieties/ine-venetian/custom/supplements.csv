@@ -1,0 +1,3 @@
+source,source_form_id,source_language_id,source_glottocode,evidence_sha256,expected_source_concepticon_id,concept_id,decision,mapping_decision,rationale
+wiktionary,wikt_96551,wikt_vec,vene1258,8d992e506299db9ebf5599df83c68fdd72caefa24cf74e7b33bec98fedf4e0f0,1200,kin-husband,admit,retain,Exact frozen language/POS pronunciation and literal source sense fit frozen definition; retain source variation without inferring a town or transferring primary cognacy.
+wiktionary,wikt_310156,wikt_vec,vene1258,3ac271f25e1a1bba07f39cd742f4a0e823fd0ff2a5a3979a6050656986ce1f00,1509,ani-mosquito,admit,retain,Exact frozen language/POS pronunciation and literal source sense fit frozen definition; retain source variation without inferring a town or transferring primary cognacy.

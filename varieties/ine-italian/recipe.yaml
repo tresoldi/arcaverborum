@@ -1,0 +1,16 @@
+av_id: ine-italian
+construction:
+  summary: "Romance R01\u2013R06: 202 forms and 159/161 supported core concepts. Primary\
+    \ iecor; earlier evidence retained."
+  lexical_base:
+    source: iecor
+  transcription:
+    strategy: source
+  supplements: custom/supplements.csv
+  primary_guard: none
+  cognates:
+    source: iecor
+    scope: original source namespaces; no cross-source transfer
+review:
+  date: '2026-10-28'
+  status: reviewed_bounded_batch

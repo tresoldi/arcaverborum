@@ -5,25 +5,25 @@ of each data batch; dated reports retain their original before/after observation
 The active work queue is [NEXT.md](NEXT.md); planning procedure is
 [coverage-planning](workflows/arca-coverage-planning/SKILL.md).
 
-Latest planning: [Romance / Italian-area investigation](ROMANCE_INVESTIGATION_2026-10-28.md).
-R01–R06 proposed; American NB proposals parked. No accepted data changes.
+Latest batch: [Romance R01–R06](ROMANCE_EXPANSION_2026-10-28.md), executed in order.
+American NB proposals remain parked. Bounded admissions and evidence holds are
+recorded separately; R01–R06 is no longer a proposed queue.
 
 ## Accepted baseline
 
-Data commit:`7de14ecd8710ad399189cd12405d1a4afc50fc54`.
-Build/test correction:`74c4468cebe183dd6df3a28a88f1b13c658119e8`.
-Authoritative batch counts: [regional expansion summary](north_america_expansion_summary_2026-10-28.json),
+Data commit: this Romance batch (publication commit recorded after push).
+Authoritative counts: [Romance summary](romance_expansion_summary_2026-10-28.json),
 `after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
 compressed `web/data/catalog.json.gz`.
 
 | Measure | Accepted value |
 | --- | ---: |
-| Varieties | 7,315 |
-| Forms | 2,067,575 |
-| Supplied-source forms | 1,744,382 |
-| Profile-derived forms | 13,869 |
-| Supported core-concept slots | 466,443 |
-| Mapped core-concept slots | 540,270 |
+| Varieties | 7,329 |
+| Forms | 2,069,214 |
+| Supplied-source forms | 1,746,021 |
+| Profile-derived forms | 13,885 |
+| Supported core-concept slots | 467,872 |
+| Mapped core-concept slots | 541,637 |
 | GLED primary selections | 1,577 |
 | Core-source collection varieties | 906 |
 | Frozen concepts / core concepts | 3,787 / 161 |
@@ -32,38 +32,37 @@ Supported slots are distinct variety–concept pairs with `source` or `profile`
 evidence. Mapped slots can include unresolved transcription. Core-source is a
 row-level source collection; the 161-concept vocabulary filter is independent.
 
-Latest data batch: [Central/North America NA01–NA07](NORTH_AMERICA_EXPANSION_2026-10-28.md).
-508 lexical forms added;755 recording placeholders retained separately; net−247
-lexical forms.377 additional supported core slots, including126 in the new named
-Nizaviguiti community variety. No distinct-new-language claim or guessed code.
-Tseltal replaces GLED as primary with104 bounded profile forms, retaining all87
-prior GLED records. Alutiiq gains six profile readings on existing forms.
+176 newly admitted source forms;16 profile readings on existing Gallurese rows;
+138 new supported core slots in existing constructions. Four more slots in new
+Cremona, plus1,287 in13 isolated Saenko samples, give1,429 total slot gain.
+The1,639-row increase includes1,463 previously pooled Saenko rows exposed again
+as named constructions. No distinct-new-language or independent-GLD-source claim.
+All parents retained;14 new named constructions. No GLED replacement that would
+lose supported evidence. RVID infinitive derivative retains GPLv3 terms and a
+public notice; etyma are not inferred modern meanings or expert cognacy.
 
-Verification:424 tests; full7,315-output rebuild without failures;1,982 earlier
-lexical and755 recording records preserved;401 artifact hashes verified;
-core-pilot/Vakh and dictionary/profile compilers passed. Local research and
-mixed-source browser/export checks passed, including guarded profiles,
-Nizaviguiti and zero-form/recording-only pages.
-[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40678901092) passes on
-Python3.12/3.13; [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40678444005)
-succeeded. Live research/mixed-source browser checks passed; public manifest
-and recording metadata hashes match committed artifacts. An initial test
-portability failure was corrected using tracked review/profile evidence and
-explicit Unicode NFC, without requiring ignored intake files in CI. A complete
-corrected-code rebuild produced7,315 byte-identical lexical outputs, confirming
-the published data remains current.
+Verification:430 tests, full lint, affected builds and compilers pass. Aggregate
+and web artifacts rebuilt;2,463 prior affected rows retained, with only reviewed
+Gallurese reading/mapping changes. All401 artifact hashes and catalog totals
+verified. Publication/browser outcomes are recorded at closure below.
+
+Previous data baseline: `7de14ecd8710ad399189cd12405d1a4afc50fc54`, with build/test
+correction `74c4468cebe183dd6df3a28a88f1b13c658119e8`; see the
+[American report](NORTH_AMERICA_EXPANSION_2026-10-28.md) for that batch's checks.
 
 ## Evidence for planning
 
-Current regional focus: Central/North America. Authorized batch complete;
-NB01–NB04 in NEXT are proposed. The initial investigation retains its historical
-baselines. Current regional totals:611 varieties/95,316 lexical forms/33,415 supported core
-slots,254 GLED primaries and129 profile readings. Global data
-counts above include the eight extra placeholders in a broader catalog node.
+Current focus: Romance, especially Italian local varieties. R01–R06 bounded
+batch complete. Remaining profiles/Alpine acquisition have explicit reopening
+evidence in HELD. New prospective work is in NEXT; earlier American proposals
+are parked, not completed.
 
-* [Latest opportunity CSV](north_america_expansion_opportunities_2026-10-28.csv) and
-  [method/counts](north_america_expansion_opportunities_2026-10-28.json):6,811 member
-  opportunities, including 611 South American. Counts overlap and remain unreviewed.
+* [Latest opportunity CSV](romance_expansion_opportunities_2026-10-28.csv) and
+  [method/counts](romance_expansion_opportunities_2026-10-28.json): overlapping,
+  unreviewed discovery counts. Blank-code named samples are not automatically
+  matched to alternative sources.
+* [Romance decisions/results](ROMANCE_EXPANSION_2026-10-28.md), including separate
+  acquisition and locality audits.
 * [Latest missing-language decisions](south_america_depth_missing_languages_2026-10-28.csv)
   and [four-source screen](south_america_depth_source_screen_2026-10-28.json).
 * [Held-work register](planning/HELD.md): current blockers across earlier batches.
@@ -84,7 +83,7 @@ the accepted aggregate; a successful Pages run does not regenerate lexical data.
 
 Current Jê namespace:463 admitted forms/five members,657 reviewed candidates
 (194 held). This expansion preserved all371 earlier source rows. Intake database:
-7,191,850 rows. Two new dictionary namespaces contributed9,998 rows. The historical251/371-row migrations are complete; any later
+7,191,883 rows. Two new dictionary namespaces contributed9,998 rows. The historical251/371-row migrations are complete; any later
 expansion must guard the actual current source count463.
 
 Use [ONBOARDING.md](../ONBOARDING.md) for commands and environment details.

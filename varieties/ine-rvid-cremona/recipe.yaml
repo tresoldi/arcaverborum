@@ -1,0 +1,16 @@
+av_id: ine-rvid-cremona
+construction:
+  summary: "Romance R01\u2013R06: 11 forms and 4/161 supported core concepts. Primary\
+    \ rvidinfinitives; earlier evidence retained."
+  lexical_base:
+    source: rvidinfinitives
+  transcription:
+    strategy: source
+  supplements: none
+  primary_guard: custom/primary.csv
+  cognates:
+    source: rvidinfinitives
+    scope: original source namespaces; no cross-source transfer
+review:
+  date: '2026-10-28'
+  status: reviewed_bounded_batch

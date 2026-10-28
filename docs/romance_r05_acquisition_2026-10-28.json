@@ -1,0 +1,46 @@
+[
+  {
+    "source": "VerbaAlpina live API",
+    "url": "https://www.verba-alpina.gwi.uni-muenchen.de/?api=1",
+    "retrieved": "2026-10-28",
+    "response_sha256": "50d2aae5feebbb85abef967d0cf1352b534e810699505cbca663f9d0d8f955b2",
+    "decision": "hold_live_service_unavailable",
+    "next_evidence": "Restore live token API; current HTTP200 is emergency maintenance HTML, not lexical data.",
+    "admitted_forms": 0
+  },
+  {
+    "source": "VerbaAlpina archival record",
+    "url": "https://discover.ub.uni-muenchen.de/catalog/98411a8e-8312-3d3e-a437-1412bb0eab84",
+    "retrieved": "2026-10-28",
+    "response_sha256": "37a700393b2dbb312137bf1eeec3be8c7fe60e6d10b8cff727cdd13327a14536",
+    "decision": "hold_archival_payload_unreachable",
+    "next_evidence": "CC BY-SA4.0 CSV download advertised, 2506B, SHA512 4866efde30a016f80d5b8aa30aa2d2f8441610ea815c11bdcf881b6784d7301e4602049225bee94f4389154ef9fb68db9381d1a09141812c0b6a607c6fead4c0. repo.ub.uni-muenchen.de fails DNS resolution. Retrieve and verify payload before token/meaning review.",
+    "admitted_forms": 0
+  },
+  {
+    "source": "digitALD",
+    "url": "https://www.ald.gwi.uni-muenchen.de/?db=ald",
+    "retrieved": "2026-10-28",
+    "response_sha256": "b86aebe043cd992af8754b0d8095ac485b3e49ce9528630619dcf88f33b93480",
+    "decision": "rights_gate_narrowed_notation_hold",
+    "next_evidence": "Site explicitly CC BY-SA4.0; earlier unspecified-rights hold superseded for site material. Establish selected table scope and Böhmer–Ascoli–AIS notation mapping, distinguish atlas transcription from later audio.",
+    "admitted_forms": 0
+  },
+  {
+    "source": "digitALD imprint",
+    "url": "https://www.ald.gwi.uni-muenchen.de/impressum/",
+    "retrieved": "2026-10-28",
+    "response_sha256": "a09c146bdab5e3836552c7d4a414a8b97549feb2252a4aa46743d1847cdd3db5",
+    "decision": "rights_evidence",
+    "next_evidence": "Footer CC BY-SA4.0; preserve attribution/sharealike for derivative tables.",
+    "admitted_forms": 0
+  },
+  {
+    "source": "VinKo v1.2",
+    "url": "https://alpilink.it/en/vinko/",
+    "retrieved": "2026-10-28",
+    "decision": "project_license_confirmed_deposit_access_held",
+    "next_evidence": "Project explicitly identifies v1.2 as CC BY-NC-SA4.0. Repository automated access remains blocked; retrieve version metadata/lexical transcriptions before ingestion. Audio/sentences alone are not IPA wordlists.",
+    "admitted_forms": 0
+  }
+]

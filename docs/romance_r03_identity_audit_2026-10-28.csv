@@ -1,0 +1,44 @@
+source_language_id,source_name,source_glottocode,existing_construction,named_construction,decision,rationale
+saenkoromance_meglenoromanian,Megleno_Romanian,megl1237,ine-megleno-romanian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_istroromanian,Istro_Romanian,istr1245,ine-istro-romanian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_aromanian,Aromanian,arom1237,ine-aromanian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_romanian,Romanian,roma1327,ine-romanian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_dalmatian,Dalmatian,dalm1243,ine-dalmatian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_friulian,Friulian,friu1240,ine-friulian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_gardeneseladin,Gardenese_Ladin,gard1241,ine-gardenese,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_fassanoladin,Fassano_Ladin,fass1244,ine-fassano,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_rumantschgrischun,Rumantsch_Grischun,ruma1247,ine-rumantsch-grischun,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_sursilvanromansh,Sursilvan_Romansh,surs1244,ine-sursilvan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_surmiranromansh,Surmiran_Romansh,surm1243,ine-surmiran-albula,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_valladerromansh,Vallader_Romansh,lowe1386,ine-lower-engadine,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_lanzotorinesepiemontese,Lanzo_Torinese_Piemontese,piem1238,ine-piemontese,ine-saenko-lanzo-torinese,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_barbaniapiemontese,Barbania_Piemontese,piem1238,ine-piemontese,ine-saenko-barbania,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_carmagnolapiemontese,Carmagnola_Piemontese,piem1238,ine-piemontese,ine-saenko-carmagnola,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_vercellesepiemontese,Vercellese_Piemontese,piem1238,ine-piemontese,ine-saenko-vercellese,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_ravennateromagnol,Ravennate_Romagnol,roma1328,ine-romagnol,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_ferrareseemiliano,Ferrarese_Emiliano,emil1241,ine-emiliano,ine-saenko-ferrarese,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_carpigianoemiliano,Carpigiano_Emiliano,emil1241,ine-emiliano,ine-saenko-carpigiano,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_reggianoemiliano,Reggiano_Emiliano,emil1241,ine-emiliano,ine-saenko-reggiano,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_rapalloligurian,Rapallo_Ligurian,ligu1248,ine-ligurian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_genoeseligurian,Genoese_Ligurian,geno1240,ine-genoese,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_stellaligurian,Stella_Ligurian,ligu1248,ine-ligurian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_venicevenetian,Venice_Venetian,vene1258,ine-venetian,ine-saenko-venice,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_primierovenetian,Primiero_Venetian,vene1258,ine-venetian,ine-saenko-primiero,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_bellunesevenetian,Bellunese_Venetian,vene1258,ine-venetian,ine-saenko-bellunese,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_standarditalian,Standard_Italian,ital1282,ine-italian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_grossetoitalian,Grosseto_Italian,ital1282,ine-italian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_neapolitan,Neapolitan,neap1235,ine-continental-southern-italian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_logudorese,Logudorese,barb1262,ine-barbaricino,,retain_existing_identity,Logudorese label maps to Barbaricino; no transfer to broader parent without original sample authority.
+saenkoromance_campidanese,Campidanese,camp1261,ine-campidanese-sardinian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_palermitansicilian,Palermitan_Sicilian,sici1248,ine-sicilian,ine-saenko-palermitan,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_messinesesicilian,Messinese_Sicilian,mess1247,ine-messinese,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_cataniansicilian,Catanian_Sicilian,sici1248,ine-sicilian,ine-saenko-catanian,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_southeasternsicilian,South-Eastern_Sicilian,sici1248,ine-sicilian,ine-saenko-southeastern-sicilian,isolate_existing_named_sample,No canonical dialect code inferred; retain parent and original source genealogy.
+saenkoromance_centralcatalan,Central_Catalan,stan1289,ine-catalan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_northwesterncatalan,North-Western_Catalan,stan1289,ine-catalan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_minorcancatalan,Minorcan_Catalan,stan1289,ine-catalan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_castellodelaplanacatalan,Castelló_de_la_Plana_Catalan,stan1289,ine-catalan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_valenciancatalan,Valencian_Catalan,stan1289,ine-catalan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_manisescatalan,Manises_Catalan,stan1289,ine-catalan,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_castilianspanish,Castilian_Spanish,cast1244,ine-castilian,,retain_existing_identity,Exact member already accepted; no new language claim.
+saenkoromance_provencaloccitan,Provençal_Occitan,prov1235,ine-provencal,,retain_existing_identity,Exact member already accepted; no new language claim.

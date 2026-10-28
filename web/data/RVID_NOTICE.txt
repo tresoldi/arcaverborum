@@ -1,0 +1,24 @@
+RVID infinitive data component — GPL version 3
+
+Original: Sacha Beniamine, Martin Maiden and Erich Round (2020),
+Opening the Romance Verbal Inflection Dataset 2.0: A CLDF lexicon.
+https://doi.org/10.5281/zenodo.3611076
+https://gitlab.com/sbeniamine/Romance_Verbal_Inflection_Dataset
+Pinned original commit: eb1efef3ef02fbbf06f96f77637736d9cd27db8a
+
+Arca Verborum's rvidinfinitives derivative selects reviewed infinitives from
+four source samples, tokenizes supplied IPA, maps reviewed modern meanings,
+and preserves source lexical comments, cell labels, original IDs and bibliography.
+It does not infer meanings from Latin etyma or treat inflected cells as lemmas.
+This data component remains under GPLv3; see RVID_GPL-3.0.txt.
+Other data components retain their own per-source terms. The repository code's
+MIT license does not relicense the RVID data.
+
+Corresponding source, review and reproducible transformation:
+https://github.com/tresoldi/arcaverborum/tree/master/src/arcaverborum/sources/rvid.py
+https://github.com/tresoldi/arcaverborum/blob/master/src/arcaverborum/data/rvid_source.json
+https://github.com/tresoldi/arcaverborum/blob/master/docs/romance_r04_review_2026-10-28.csv
+https://github.com/tresoldi/arcaverborum/blob/master/scripts/stage_rvid.py
+The source JSON pins SHA256 for all original tables, README and license.
+Reproduce outside intake with scripts/stage_rvid.py --fetch. The complete
+original snapshot is publicly available at the pinned GitLab commit above.

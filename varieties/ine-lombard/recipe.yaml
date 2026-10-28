@@ -1,0 +1,16 @@
+av_id: ine-lombard
+construction:
+  summary: "Romance R01\u2013R06: 84 forms and 41/161 supported core concepts. Primary\
+    \ gled; earlier evidence retained."
+  lexical_base:
+    source: gled
+  transcription:
+    strategy: source
+  supplements: custom/supplements.csv
+  primary_guard: none
+  cognates:
+    source: gled
+    scope: original source namespaces; no cross-source transfer
+review:
+  date: '2026-10-28'
+  status: reviewed_bounded_batch

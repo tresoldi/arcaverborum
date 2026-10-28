@@ -1,26 +1,23 @@
 # Active expansion queue
 
-Updated2026-10-28 against [STATUS](STATUS.md). Authorized NA01–NA07 is complete;
-[results and decisions](NORTH_AMERICA_EXPANSION_2026-10-28.md). The work below is
-**proposed**, not automatically authorized. Use the
-[planning workflow](workflows/arca-coverage-planning/SKILL.md).
+Updated2026-10-28 against [STATUS](STATUS.md). Authorized R01–R06 completed as
+bounded reviews/admissions with explicit evidence holds; [results](ROMANCE_EXPANSION_2026-10-28.md).
+Use the [planning workflow](workflows/arca-coverage-planning/SKILL.md).
+The work below is proposed, not automatically authorized by this batch's closure.
 
-## Recommended next regional work — Romance, especially Italy
-
-[Investigation and evidence](ROMANCE_INVESTIGATION_2026-10-28.md). These tasks are
-proposed; no new lexical batch is authorized. Execute sequentially after approval.
+## Recommended next work — Romance depth
 
 | ID | Priority | Exact work / first gate |
 | --- | ---: | --- |
-| R01 | 1 | Supplied-reading supplements for Corsican, Lombard, Sicilian, Ligurian, Venetian and Romagnol; review original senses and pronunciation scope. Preserve GLED evidence before considering replacement. |
-| R02 | 2 | Bounded profiles for Lombard/Venetian; sparse Gallurese/Istriot recovery. Establish exact orthography/locality and pronunciation authority first. |
-| R03 | 3 | Sardinian identity and merged-locality audit: Logudorese/Nuorese/Barbaricino, Piemontese, Emiliano, Venetian, Sicilian. No automatic parent/locality transfer. |
-| R04 | 4 | Pinned RVID broad-IPA acquisition pilot, preserving verbal morphology, semantics, GPL terms and exact sample identity. |
-| R05 | 5 | VerbaAlpina token-level pilot; digitALD/VinKo rights/export/notation feasibility. Audio or normalized types alone supply no IPA. |
-| R06 | 6 | Wider Romance: Occitan and Romansh first, then Extremaduran/Picard/Fala/Arpitan exact-source screen. |
+| RP01 | 1 | Recover explicitly Milanese-tagged Lombard IPA through a scoped-pronunciation route. Frozen raw evidence includes Milanese-tagged `andà` and `can`; retain every eligible alternative and source qualifier. This can improve locality evidence without assuming a global Lombard spelling system. Measure missing concepts after R01, not the old67-spelling ceiling. |
+| RP02 | 2 | Extend RVID infinitive review to other named Italian localities (Travo, Lugo, Ascrea first), with modern senses and original bibliography. Pilot now33 forms/four samples; inspect each source's clitics, missing cells and closest-code scope. Preserve morphology; do not repeat completed47 decisions or append the namespace again. |
+| RP03 | 3 | digitALD selected-table/notation pilot. Site CC BY-SA4.0 is now evidenced; establish Böhmer–Ascoli–AIS conversion and exact response/context before admission. Distinguish217 atlas locations from21 speaking points and earlier transcripts from later audio. |
 
-Raw potential and tradeoffs are in the report; overlapping source counts are not
-promised gains. American priorities remain parked below, not completed.
+Gallurese ten-word profile and R01/R06 supplied-reading pilots are completed.
+Broader Lombard/Venetian/Istriot/Occitan/Romansh and smaller Romance profiles need
+source-system authority. VerbaAlpina live/archival payload access and VinKo deposit
+transcription remain held; do not repeatedly rank inaccessible metadata as gains.
+American priorities remain parked below.
 
 ## Parked Central/North American proposals
 
@@ -39,8 +36,8 @@ arrives; unchanged licensing/classification holds are not a fresh proposal.
 
 ## Evidence
 
-* [Updated ranking](north_america_expansion_opportunities_2026-10-28.csv) and
-  [method/counts](north_america_expansion_opportunities_2026-10-28.json):6811 member
+* [Updated ranking](romance_expansion_opportunities_2026-10-28.csv) and
+  [method/counts](romance_expansion_opportunities_2026-10-28.json):6810 member
   opportunities,611 South American and303 North American. These overlap and
   are not linguistic certification. Unlinked community identities are excluded
   from automatic cross-source matching; a shared blank code is not identity.

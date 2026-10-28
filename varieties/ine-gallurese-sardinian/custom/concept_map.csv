@@ -1,0 +1,6 @@
+Parameter_ID,source_form_id,expected_form,Concepticon_ID,Concepticon_Gloss,concept_id,action,notes
+wikt_field_noun_c98123a7,wikt_586880,campu,,,,unmap,Literal lexical concept mismatch; R02 review.
+wikt_field_noun_6b2db19b,wikt_586943,campu,,,,unmap,Literal lexical concept mismatch; R02 review.
+wikt_field_noun_84ba84f1,wikt_587008,campu,,,,unmap,Literal lexical concept mismatch; R02 review.
+wikt_calculus_noun_a4498068,wikt_772113,calculu,,,,unmap,Literal lexical concept mismatch; R02 review.
+wikt_dog_noun_e11ce6ae,wikt_2836821,cani,,,,unmap,Literal lexical concept mismatch; R02 review.
