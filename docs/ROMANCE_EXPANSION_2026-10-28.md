@@ -172,3 +172,10 @@ hashes and aggregate/catalog totals verified. Public RVID licence is included.
 snapshots, not additional admissions. New blank-code named samples are excluded
 from automatic cross-source identity matching. See STATUS for publication checks
 and NEXT/HELD for the remaining evidence-driven queue.
+
+Publication closure: [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40684966112) passed on
+Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40684966179)
+succeeded for verification commit `96c44bc25a616e7d9167ad0324b0f1f2b6cec093`.
+Live manifest, catalog, Indo-European shard and recording hashes match committed
+artifacts; public RVID notice/licence bytes match. Live Romance browser exports
+pass. Fresh pinned-source download reproduces all33 RVID evidence hashes.

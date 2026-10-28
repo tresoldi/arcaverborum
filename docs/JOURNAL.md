@@ -22,6 +22,13 @@ artifact hashes pass. Local generic/mixed/Romance browser exports pass. Data com
 `6009c09e58021f203beb920677418d9f7f51f805`. Aggregate/public artifacts rebuilt. See Romance report and
 metrics; NEXT replaces R01–R06 with proposed RP01–RP03, American NB stays parked.
 
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40684966112) passed on
+Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40684966179)
+succeeded for verification commit `96c44bc25a616e7d9167ad0324b0f1f2b6cec093`.
+Live manifest, catalog, Indo-European shard and recording hashes match committed
+artifacts; public RVID notice/licence bytes match. Live Romance browser exports
+pass. Fresh pinned-source download reproduces all33 RVID evidence hashes.
+
 ## 2026-10-28 — Romance / Italian-area investigation
 
 Planning only; accepted baseline unchanged. NEXT now proposes R01–R06 sequentially:

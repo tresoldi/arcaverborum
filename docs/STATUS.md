@@ -46,7 +46,13 @@ and web artifacts rebuilt;2,463 prior affected rows retained, with only reviewed
 Gallurese reading/mapping changes. All401 artifact hashes and catalog totals
 verified. Local generic, mixed-source and Romance-specific browser/export checks
 pass, including GPL notice/source metadata, INF cell preservation, scoped profiles,
-locality isolation and retained GLED rows. Publication checks follow this push.
+locality isolation and retained GLED rows.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40684966112) passed on
+Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40684966179)
+succeeded for verification commit `96c44bc25a616e7d9167ad0324b0f1f2b6cec093`.
+Live manifest, catalog, Indo-European shard and recording hashes match committed
+artifacts; public RVID notice/licence bytes match. Live Romance browser exports
+pass. Fresh pinned-source download reproduces all33 RVID evidence hashes.
 
 Previous data baseline: `7de14ecd8710ad399189cd12405d1a4afc50fc54`, with build/test
 correction `74c4468cebe183dd6df3a28a88f1b13c658119e8`; see the
