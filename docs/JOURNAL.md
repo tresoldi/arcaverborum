@@ -55,7 +55,9 @@ All7,314 outputs fresh, zero failures. All1,922 earlier affected records preserv
 lexical/transcription/concept/cognacy evidence; primary replacements have expected
 annotation/score/tier changes. All400 compressed hashes verified. Local generic
 and mixed-source browser tests pass, including Ingain and retained GLED exports.
-Web artifacts rebuilt. Asturian remains82 supported core. NLS/Tangam blockers
+Web artifacts rebuilt. CI initially caught a test-only scripts import under the
+pytest entry point; the test now uses the existing explicit importlib pattern,
+and all408 tests also pass with .venv/bin/pytest. Asturian remains82 supported core. NLS/Tangam blockers
 remain. Independent specialist review of draft packets remains welcome.
 
 See [batch report](SOUTH_AMERICA_COVERAGE_2026-10-28.md),

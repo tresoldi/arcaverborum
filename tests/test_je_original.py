@@ -1,5 +1,6 @@
 """Original Jê notation remains profile-derived and automatic cognacy stays raw."""
 
+import importlib.util
 import json
 from pathlib import Path
 
@@ -8,7 +9,11 @@ import pytest
 from arcaverborum.ingest import _process_one
 from arcaverborum.phonology import apply_profile, load_profile, normalize_segments
 from arcaverborum.sources import je_original as source
-from scripts.stage_je_original import compile_profiles
+
+spec = importlib.util.spec_from_file_location("stage_je_original", Path(__file__).parents[1] / "scripts/stage_je_original.py")
+stage = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(stage)
+compile_profiles = stage.compile_profiles
 
 CONCEPTS = {"phy-water": dict(concepticon_id="948", label="water")}
 LANGUAGES = {"Xerénte": dict(ID="Xerente", Glottocode="xere1240", Name="Xerénte", Glottolog_Name="Xerénte")}
