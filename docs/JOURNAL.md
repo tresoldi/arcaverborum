@@ -28,7 +28,13 @@ core pilots/Vakh, compilers and local browser/export checks passed.
 
 Report NORTH_AMERICA_EXPANSION_2026-10-28.md and measured expansion summary.
 NEXT replaces completed NA tasks with proposed NB01–NB04; South P01–P04 parked.
-Publication checks recorded in STATUS after push. Update local memory likewise.
+Data commit7de14ecd pushed; Pages40678444005 succeeded. Initial CI caught
+ignored-local-intake dependence and Unicode normalization differences in the new
+tests. Fixed in74c4468c: tracked-ledger/profile checks, explicit NFC, missing
+primary failure before fallback, and stale recording-sidecar cleanup. CI40678901092
+passes3.12/3.13. Live research/mixed-source checks and manifest/recording hashes
+match. Corrected-code rebuild:all7,315 lexical outputs byte-identical to published
+data; zero failures. Summary records the complete preservation check.
 
 ## 2026-10-28 — Central/North American planning investigation
 

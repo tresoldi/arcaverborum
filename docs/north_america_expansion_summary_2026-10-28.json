@@ -219,7 +219,14 @@
     "local_research_browser": "passed",
     "local_mixed_source_browser": "passed",
     "original_registry_rows_preserved": 7311,
-    "original_dictionary_sense_reviews_preserved": 622
+    "original_dictionary_sense_reviews_preserved": 622,
+    "ci_run": 40678901092,
+    "pages_run": 40678444005,
+    "live_manifest_matches": true,
+    "live_recording_metadata_matches": true,
+    "live_research_browser": "passed",
+    "live_mixed_source_browser": "passed",
+    "corrected_code_outputs_byte_identical": 7315
   },
   "regional_before": {
     "varieties": 610,
@@ -259,5 +266,7 @@
       }
     }
   },
-  "new_source_hash_note": "File hashes describe pinned Git working checkouts. Earlier HTTP research-copy CSV hashes use LF; Git checkouts use CRLF. Parsed records are identical; the immutable commits identify the source snapshots."
+  "new_source_hash_note": "File hashes describe pinned Git working checkouts. Earlier HTTP research-copy CSV hashes use LF; Git checkouts use CRLF. Parsed records are identical; the immutable commits identify the source snapshots.",
+  "data_commit": "7de14ecd8710ad399189cd12405d1a4afc50fc54",
+  "build_test_correction": "74c4468cebe183dd6df3a28a88f1b13c658119e8"
 }

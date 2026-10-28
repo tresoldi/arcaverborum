@@ -1,6 +1,6 @@
 import csv
-import json
 import io
+import json
 import sys
 from urllib.parse import quote
 

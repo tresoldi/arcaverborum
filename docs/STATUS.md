@@ -7,8 +7,8 @@ The active work queue is [NEXT.md](NEXT.md); planning procedure is
 
 ## Accepted baseline
 
-Data baseline: completed NA01–NA07 expansion; publication verification pending.
-Prior data commit:`9b1a16c282e8dddc6f52d2a8e325d663505169d1`.
+Data commit:`7de14ecd8710ad399189cd12405d1a4afc50fc54`.
+Build/test correction:`74c4468cebe183dd6df3a28a88f1b13c658119e8`.
 Authoritative batch counts: [regional expansion summary](north_america_expansion_summary_2026-10-28.json),
 `after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
 compressed `web/data/catalog.json.gz`.
@@ -40,7 +40,15 @@ Verification:424 tests; full7,315-output rebuild without failures;1,982 earlier
 lexical and755 recording records preserved;401 artifact hashes verified;
 core-pilot/Vakh and dictionary/profile compilers passed. Local research and
 mixed-source browser/export checks passed, including guarded profiles,
-Nizaviguiti and zero-form/recording-only pages. Publication checks follow the push.
+Nizaviguiti and zero-form/recording-only pages.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40678901092) passes on
+Python3.12/3.13; [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40678444005)
+succeeded. Live research/mixed-source browser checks passed; public manifest
+and recording metadata hashes match committed artifacts. An initial test
+portability failure was corrected using tracked review/profile evidence and
+explicit Unicode NFC, without requiring ignored intake files in CI. A complete
+corrected-code rebuild produced7,315 byte-identical lexical outputs, confirming
+the published data remains current.
 
 ## Evidence for planning
 

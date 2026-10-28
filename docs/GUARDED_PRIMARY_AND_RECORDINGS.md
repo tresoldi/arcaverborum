@@ -32,3 +32,8 @@ orthographic/profile potential. No IPA is inferred from audio.
 
 [NA01–NA07 report](NORTH_AMERICA_EXPANSION_2026-10-28.md),
 [standing workflow](workflows/arca-coverage-planning/SKILL.md).
+
+Missing bounded-primary input fails before generic fallback, including an entirely
+absent primary slice. Empty non-guarded sources clear stale generated recording
+sidecars. Profile readers normalize derived output to Unicode NFC; portable tests
+use tracked authored ledgers/profiles rather than ignored local intake.
