@@ -1,0 +1,26 @@
+{
+  "source": "DHARMA K.1",
+  "commit": "329c55f29e845260ade1eaef515193d569fae74d",
+  "path": "texts/xml/DHARMA_INSCIK00001.xml",
+  "sha256": "c0f50b1c17dbe6a812cd763afa10a4b77eb26510f07f063c9403b8a8e9b5b70e",
+  "title": "K. 1. Stela of Vat Thleng, 6th-7th century Śaka",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "period_evidence": "Title gives 6th–7th century Śaka; this is inscription-period evidence, not the 2019–2026 publication date. No origDate element; retain source dating without an invented exact year.",
+  "language": "Old Khmer, okz-Latn; oldk1249",
+  "candidate_lexemes": [
+    {
+      "form": "kon",
+      "line": "11",
+      "context": "one child in prose/list translation"
+    },
+    {
+      "form": "sre",
+      "line": "13 and later",
+      "context": "list of rice fields"
+    }
+  ],
+  "decision": "hold lexical admission",
+  "reason": "Draft edition with prose/list translation rather than a word-aligned lexical analysis. Verify exact lemma/sense and number/morphological scope against original Coedès vol.6 pp.28–30 or an attributed Old Khmer lexicon before adding a new accepted language. EFEO 271 estampage unavailable for re-editing according to file.",
+  "gandhari": "Live dictionary reachable; no redistributable frozen lexical export/terms established. Related Pali permission does not transfer.",
+  "old_tamil": "Existing sparse Wiktionary construction is not automatically classical-only evidence. Require individually dated early Tamil lexical attestations and reusable edition/lexicon."
+}

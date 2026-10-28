@@ -1,0 +1,44 @@
+[
+  {
+    "name": "epsd2_zip",
+    "url": "https://oracc.museum.upenn.edu/json/epsd2.zip",
+    "error": "HTTPSConnectionPool(host='oracc.museum.upenn.edu', port=443): Max retries exceeded with url: /json/epsd2.zip (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))"
+  },
+  {
+    "name": "epsd2_open",
+    "url": "https://oracc.museum.upenn.edu/epsd2/doc/opendata/",
+    "error": "HTTPSConnectionPool(host='oracc.museum.upenn.edu', port=443): Max retries exceeded with url: /epsd2/doc/opendata/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))"
+  },
+  {
+    "name": "bhsa_commit",
+    "url": "https://api.github.com/repos/ETCBC/bhsa/commits/master",
+    "status": 200,
+    "bytes": 30820,
+    "sha256": "921dacbc0f1349d6d3e26f66cb7f144ed5a7a46b95dc9d860b70f98884e96bfe",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "name": "gandhari_dictionary",
+    "url": "https://gandhari.org/dictionary",
+    "status": 200,
+    "bytes": 6103,
+    "sha256": "b18202b6d233cb1a826c00b82ddabdd1c39c9d574f694a83b3c31a6ded83ac37",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "name": "ediana_citation",
+    "url": "https://www.ediana.gwi.uni-muenchen.de/assets/pdfs/citation.pdf",
+    "status": 200,
+    "bytes": 7946,
+    "sha256": "906fc4dd8e2f38c9b0b7c615264ba6694039d3b26eaae9e26b5fa9178101684b",
+    "content_type": "text/html"
+  },
+  {
+    "name": "ediana_dictionary",
+    "url": "https://www.ediana.gwi.uni-muenchen.de/dictionary.php",
+    "status": 200,
+    "bytes": 7946,
+    "sha256": "906fc4dd8e2f38c9b0b7c615264ba6694039d3b26eaae9e26b5fa9178101684b",
+    "content_type": "text/html"
+  }
+]

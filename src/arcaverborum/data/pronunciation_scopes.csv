@@ -1,2 +1,5 @@
-scope,source_language_id,source_glottocode,target_glottocode,tags,evidence
-pt-Brazil,wikt_pt,port1283,braz1246,"[""Brazil""]",Exact Wiktextract Brazil tag; cached Glottolog braz1246 is the Brazilian Portuguese dialect under port1283. Finer regional and register tags are excluded.
+scope,source_language_id,source_glottocode,target_glottocode,tags,evidence,note
+pt-Brazil,wikt_pt,port1283,braz1246,"[""Brazil""]",Exact Wiktextract Brazil tag; cached Glottolog braz1246 is the Brazilian Portuguese dialect under port1283. Finer regional and register tags are excluded.,
+sa-Classical,wikt_sa,sans1269,sans1269,"[""Classical-Sanskrit""]","Exact frozen language/POS historical label; supplied reconstruction, all eligible homographs/alternatives reviewed.",
+la-Classical,wikt_la,lati1261,lati1261,"[""Classical-Latin""]","Exact frozen language/POS historical label; supplied reconstruction, all eligible homographs/alternatives reviewed.",
+grc-Attic5BCE,wikt_grc,anci1242,anci1242,[],"Exact frozen language/POS historical label; supplied reconstruction, all eligible homographs/alternatives reviewed.",5ᵗʰ BCE Attic

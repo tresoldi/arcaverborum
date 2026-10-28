@@ -42,7 +42,7 @@ MANIFEST_NAME = "build_manifest.json"
 
 _PKG_DIR = Path(__file__).resolve().parent
 _RECIPE_FILES = (
-    "variety.py", "source_evidence.py", "intake_db.py", "phonology.py",
+    "variety.py", "source_evidence.py", "intake_db.py", "phonology.py", "historical_evidence.py",
     "aggregate.py", "forms_schema.py", "concepts.py",
     "data/score_weights.yaml",
     # The frozen concept catalog: re-curating a label/field/id rebuilds the
@@ -51,7 +51,8 @@ _RECIPE_FILES = (
     "data/concepts.csv", "data/semantic_field_codes.csv",
 )
 
-_CUSTOM_FILES = ("transcriptions.csv", "forms.csv", "cognates.csv", "concept_map.csv", "profile.tsv")
+_CUSTOM_FILES = ("transcriptions.csv", "forms.csv", "cognates.csv", "concept_map.csv", "profile.tsv",
+                 "historical_evidence.csv")
 
 # Columns of the intake forms table that build_one actually consumes
 # (Concepticon resolution is added separately via the parameter index).

@@ -1,0 +1,263 @@
+{
+  "before": {
+    "varieties": 7329,
+    "forms": 2069214,
+    "source_forms": 1746021,
+    "profile_forms": 13885,
+    "supported_core": 467872,
+    "mapped_core": 541637,
+    "gled_primaries": 1577,
+    "core_source_varieties": 906
+  },
+  "after": {
+    "varieties": 7329,
+    "forms": 2069498,
+    "source_forms": 1746190,
+    "profile_forms": 13885,
+    "supported_core": 468037,
+    "mapped_core": 541874,
+    "gled_primaries": 1577,
+    "core_source_varieties": 906
+  },
+  "delta": {
+    "varieties": 0,
+    "forms": 284,
+    "source_forms": 169,
+    "profile_forms": 0,
+    "supported_core": 165,
+    "mapped_core": 237,
+    "gled_primaries": 0,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "afa-akkadian",
+      "forms_before": 905,
+      "forms_after": 915,
+      "supported_core_before": 109,
+      "supported_core_after": 119,
+      "mapped_core_before": 109,
+      "mapped_core_after": 119,
+      "statuses_before": {
+        "source": 905
+      },
+      "statuses_after": {
+        "source": 915
+      }
+    },
+    {
+      "av_id": "afa-coptic",
+      "forms_before": 64,
+      "forms_after": 81,
+      "supported_core_before": 36,
+      "supported_core_after": 36,
+      "mapped_core_before": 36,
+      "mapped_core_after": 38,
+      "statuses_before": {
+        "source": 64
+      },
+      "statuses_after": {
+        "source": 64,
+        "unclean": 17
+      }
+    },
+    {
+      "av_id": "afa-egyptian-ancient",
+      "forms_before": 1346,
+      "forms_after": 1354,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 91,
+      "mapped_core_after": 94,
+      "statuses_before": {
+        "unclean": 1308,
+        "resegmented": 38
+      },
+      "statuses_after": {
+        "unclean": 1316,
+        "resegmented": 38
+      }
+    },
+    {
+      "av_id": "ela-elamite",
+      "forms_before": 787,
+      "forms_after": 790,
+      "supported_core_before": 71,
+      "supported_core_after": 71,
+      "mapped_core_before": 71,
+      "mapped_core_after": 71,
+      "statuses_before": {
+        "source": 787
+      },
+      "statuses_after": {
+        "source": 787,
+        "unclean": 3
+      }
+    },
+    {
+      "av_id": "etr-etruscan",
+      "forms_before": 70,
+      "forms_after": 94,
+      "supported_core_before": 9,
+      "supported_core_after": 9,
+      "mapped_core_before": 14,
+      "mapped_core_after": 19,
+      "statuses_before": {
+        "source": 25,
+        "unclean": 44,
+        "resegmented": 1
+      },
+      "statuses_after": {
+        "source": 25,
+        "unclean": 68,
+        "resegmented": 1
+      }
+    },
+    {
+      "av_id": "ine-avestan",
+      "forms_before": 146,
+      "forms_after": 162,
+      "supported_core_before": 113,
+      "supported_core_after": 113,
+      "mapped_core_before": 113,
+      "mapped_core_after": 129,
+      "statuses_before": {
+        "profile": 146
+      },
+      "statuses_after": {
+        "profile": 146,
+        "unclean": 16
+      }
+    },
+    {
+      "av_id": "ine-gothic",
+      "forms_before": 123,
+      "forms_after": 140,
+      "supported_core_before": 95,
+      "supported_core_after": 112,
+      "mapped_core_before": 95,
+      "mapped_core_after": 112,
+      "statuses_before": {
+        "source": 123
+      },
+      "statuses_after": {
+        "source": 140
+      }
+    },
+    {
+      "av_id": "ine-ionic-attic-ancient-greek",
+      "forms_before": 172,
+      "forms_after": 196,
+      "supported_core_before": 128,
+      "supported_core_after": 152,
+      "mapped_core_before": 128,
+      "mapped_core_after": 152,
+      "statuses_before": {
+        "source": 172
+      },
+      "statuses_after": {
+        "source": 196
+      }
+    },
+    {
+      "av_id": "ine-latin",
+      "forms_before": 172,
+      "forms_after": 187,
+      "supported_core_before": 128,
+      "supported_core_after": 142,
+      "mapped_core_before": 128,
+      "mapped_core_after": 142,
+      "statuses_before": {
+        "source": 172
+      },
+      "statuses_after": {
+        "source": 187
+      }
+    },
+    {
+      "av_id": "ine-sanskrit",
+      "forms_before": 275,
+      "forms_after": 376,
+      "supported_core_before": 43,
+      "supported_core_after": 141,
+      "mapped_core_before": 43,
+      "mapped_core_after": 141,
+      "statuses_before": {
+        "source": 275
+      },
+      "statuses_after": {
+        "source": 376
+      }
+    },
+    {
+      "av_id": "ine-tokharian-a",
+      "forms_before": 126,
+      "forms_after": 147,
+      "supported_core_before": 98,
+      "supported_core_after": 98,
+      "mapped_core_before": 98,
+      "mapped_core_after": 119,
+      "statuses_before": {
+        "source": 126
+      },
+      "statuses_after": {
+        "source": 126,
+        "unclean": 21
+      }
+    },
+    {
+      "av_id": "ine-tokharian-b",
+      "forms_before": 155,
+      "forms_after": 180,
+      "supported_core_before": 118,
+      "supported_core_after": 118,
+      "mapped_core_before": 118,
+      "mapped_core_after": 143,
+      "statuses_before": {
+        "source": 155
+      },
+      "statuses_after": {
+        "source": 155,
+        "unclean": 25
+      }
+    },
+    {
+      "av_id": "may-epigraphic-mayan",
+      "forms_before": 1,
+      "forms_after": 2,
+      "supported_core_before": 1,
+      "supported_core_after": 1,
+      "mapped_core_before": 1,
+      "mapped_core_after": 1,
+      "statuses_before": {
+        "source": 1
+      },
+      "statuses_after": {
+        "source": 1,
+        "unclean": 1
+      }
+    },
+    {
+      "av_id": "sit-old-chinese",
+      "forms_before": 289,
+      "forms_after": 291,
+      "supported_core_before": 138,
+      "supported_core_after": 140,
+      "mapped_core_before": 138,
+      "mapped_core_after": 140,
+      "statuses_before": {
+        "source": 289
+      },
+      "statuses_after": {
+        "source": 291
+      }
+    }
+  ],
+  "earlier_lexical_rows_preserved_excluding_comment": 2069214,
+  "new_distinct_languages": 0,
+  "new_named_varieties": 0,
+  "phonetic_reading_admissions": 169,
+  "written_only_admissions": 115,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3
+}

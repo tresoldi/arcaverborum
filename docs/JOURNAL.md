@@ -1,5 +1,46 @@
 # Project journal and working memory
 
+## 2026-10-28 — Authorized ancient AN01–AN09 batch
+
+Executed the authorized tracks with bounded admissions and explicit holds.
+User specifically prioritizes Etruscan and Elamite; recorded in AGENTS and NEXT.
+284 added forms in14 existing constructions:169 supplied historical readings,
+115 guarded written-only forms;165 new supported core and237 mapped core slots.
+Accepted7,329 varieties /2,069,498 forms /468,037 supported core; no new language,
+named variety, profile or GLED replacement claims. Etruscan70→94/9 supported core;
+Elamite787→790/71 supported core. Phonetic support unchanged for these written pilots.
+
+AN01 reading-basis annotations cover58 historical constructions; Kogan identity
+collisions held. AN02 scoped Classical Sanskrit101 readings/98 concepts, Attic24,
+Latin15 readings/14 new core (filius explicitly SON). Every matching homograph and
+alternative guarded against frozen dump. AN03 Gothic17/Akkadian10 supplied rows;
+IDS original Tokharian A21/B25/Avestan16 lexical-only. Ugaritic and Old Japanese
+notation held. AN04 Sahidic17/TLA Egyptian8 original-source lexical rows, stage,
+dialect and source morphology retained. AN05 ORACC inaccessible; BHSA four real
+features pinned/hashed, no runtime Text-Fabric dependency, admission linkage held.
+AN06 two explicitly Baxter–Sagart-model Old Chinese readings. AN07 K.1 title gives
+sixth–seventh centuries Śaka; draft prose translation needs lexical alignment.
+Gandhari export/terms and early Tamil scope held. AN08 Mayan hul original-paper
+pilot with page/sign/context, no inferred IPA. AN09 Etruscan24 frozen Kaikki
+headwords plus Elamite3 cuneiform nouns; complete787-row Elamite audit finds448
+exact,337 Unicode-only,2 spacing/uncertainty-marker changes. eDiAna200 responses
+are HTML, not PDF/export; Linear Elamite hypotheses remain separate.
+
+Written-only guards forbid supplied segments/profile/raw IPA and bypass automatic
+spelling tokenization; exported status stays unsupported. Source terms and
+cognacy namespaces retained. All four source slices reproduced outside intake;
+Mayan exact page quotation audited against pinned PDF. Full7,329 accepted rebuild
+has zero failures;436 tests/lint pass. All2,069,214 earlier lexical rows retained
+excluding additive comment metadata/global IDs. Aggregate/web rebuilt;401 website
+hashes plus3 aggregate-input hashes match. Local generic, mixed-source and ancient
+browser exports pass. CI/Pages/live publication recorded in STATUS after push.
+
+[Batch report](ANCIENT_EXPANSION_2026-10-28.md), summary JSON and dated review/
+acquisition CSVs retain exact decisions. NEXT now holds proposed AE follow-ups;
+AN01–AN09 is completed, not proposed again. AE01/AE02 continue Etruscan/Elamite
+original-sense, attestation and dictionary/period evidence; remaining holds require
+new reopening evidence. Romance and American queues remain parked.
+
 ## 2026-10-28 — Ancient-language worldwide investigation
 
 Planning only; accepted data commit6009c09e/baseline7,329 varieties and467,872

@@ -63,6 +63,7 @@ def scope_rule(decision, target):
         or rule["target_glottocode"] != target
         or rule["source_language_id"] != decision["source_language_id"]
         or json.loads(rule["tags"]) != json.loads(decision.get("pronunciation_tags") or "[]")
+        or rule.get("note", "") != decision.get("pronunciation_note", "")
     ):
         raise ValueError("Pronunciation scope does not establish source identity")
     return rule
@@ -84,12 +85,16 @@ def reviewed_frames(
         return
     if isinstance(intake, Path):
         intake = pd.read_csv(intake, dtype=str, keep_default_na=False)
-    groups = sorted({(r["source_glottocode"].strip().lower(), r["source"], r.get("profile_file", ""))
-                     for r in decisions})
+    groups = sorted(
+        {(r["source_glottocode"].strip().lower(), r["source"], r.get("profile_file", "")) for r in decisions}
+    )
     for gc, source, profile_file in groups:
-        selected = [r for r in decisions if (
-            r["source_glottocode"].strip().lower(), r["source"], r.get("profile_file", "")
-        ) == (gc, source, profile_file)]
+        selected = [
+            r
+            for r in decisions
+            if (r["source_glottocode"].strip().lower(), r["source"], r.get("profile_file", ""))
+            == (gc, source, profile_file)
+        ]
         profile = None
         if profile_file:
             if Path(profile_file).name != profile_file or not profile_file.endswith(".tsv"):
@@ -152,6 +157,7 @@ def reviewed_frames(
                             + decision["raw_ipa"]
                             + "; tags "
                             + decision["pronunciation_tags"]
+                            + ("; note " + decision["pronunciation_note"] if decision.get("pronunciation_note") else "")
                             + "; lines "
                             + decision["pronunciation_lines"]
                             + "; dump "
@@ -159,11 +165,19 @@ def reviewed_frames(
                         ],
                     )
                 )
+            orthographic = decision.get("transcription_policy") == "orthographic_only"
+            if decision.get("transcription_policy", "") not in {"", "orthographic_only"}:
+                raise ValueError("Unknown supplemental transcription policy")
+            if orthographic:
+                if row["Segments"] or profile is not None or decision.get("raw_ipa"):
+                    raise ValueError("Orthographic admission must not reinterpret supplied readings")
+                row["_orthographic_only"] = True
+                row["Comment"] += "; Reviewed orthographic evidence only; no phonetic reading inferred."
             segments, status = normalize_segments(row["Segments"], row["Form"], profile)
             if profile is not None and (row["Segments"] or decision.get("raw_ipa")):
                 raise ValueError("Profile admission must not reinterpret supplied source segments")
             expected_status = "profile" if profile is not None else "source"
-            if status != expected_status or not segments_are_valid(segments):
+            if not orthographic and (status != expected_status or not segments_are_valid(segments)):
                 raise ValueError("Supplement requires validated supplied segments or an exact reviewed profile")
             if profile is not None:
                 row["Comment"] += "; Source-scoped orthographic profile: " + profile_file + "; SHA256 " + digest

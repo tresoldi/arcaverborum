@@ -37,3 +37,12 @@ Missing bounded-primary input fails before generic fallback, including an entire
 absent primary slice. Empty non-guarded sources clear stale generated recording
 sidecars. Profile readers normalize derived output to Unicode NFC; portable tests
 use tracked authored ledgers/profiles rather than ignored local intake.
+
+Historical lexical evidence can use `transcription_policy=orthographic_only` in a
+reviewed ledger. It requires empty supplied Segments, no profile and no raw IPA;
+the emitter preserves blank segments even for a tokenizable Latin spelling.
+These rows remain unsupported in phonetic coverage. This is an explicit lexical
+admission, not a fallback that reinterprets source pronunciations. Source/member
+historical reading rules in `custom/historical_evidence.csv` annotate exported
+comments independently of segment origin and participate in freshness checks.
+[Ancient batch](ANCIENT_EXPANSION_2026-10-28.md).

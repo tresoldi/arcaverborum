@@ -1,27 +1,24 @@
 # Active expansion queue
 
-Updated2026-10-28 against [STATUS](STATUS.md). The ancient-language investigation
-is planning only; AN01–AN09 below are proposed, not a lexical batch already
-accepted or automatically authorized. Use the
-[planning workflow](workflows/arca-coverage-planning/SKILL.md).
+Updated 2026-10-28 against [STATUS](STATUS.md). Authorized AN01–AN09 has been
+reviewed and closed in the [ancient batch](ANCIENT_EXPANSION_2026-10-28.md).
+Admissions and evidence holds are distinct. Etruscan and Elamite remain explicit
+user priorities; no new batch is automatically authorized by this next queue.
 
-## Recommended next work — ancient languages worldwide
-
-[Investigation, baselines and source evidence](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md).
-Regional ancient/classical stages and adjacent historical traditions remain explicit.
-Execute bounded pilots in order if asked to proceed; report holds as holds.
+## Proposed next ancient evidence work
 
 | ID | Priority | Exact work / first gate |
 | --- | ---: | --- |
-| AN01 | 1 | Historical reading-basis/stage/authority audit; separate supplied or derived segments from the epistemic basis of a reading. Audit IDSsegmented conversion and Kogan Hebrew/Aramaic identity warnings first. |
-| AN02 | 2 | Classical Sanskrit, fifth-century BCE Attic and Classical Latin qualified-reading pilots. Raw missing-core ceilings99/26/17; exact scope, every homograph, morphology and literal sense review. No Vedic/modern/medieval reading substitution. |
-| AN03 | 3 | Cross-regional source supplements: Gothic, Tokharian A/B, Avestan, Akkadian, Ugaritic and Old Japanese. Inspect original conversion/reading authority; raw ceilings22/21/27/18/14/5/13 overlap alternatives and are not admissions. |
-| AN04 | 4 | African lexical acquisition: bounded Sahidic Coptic dictionary slice, then stage-specific Egyptian TLA sample. Preserve dialect/script/lemma/sense; unresolved pronunciation need not become guessed IPA. |
-| AN05 | 5 | Near Eastern glossary/reading pilots: ORACC/ePSD2 Sumerian/Akkadian and Ancient Hebrew BHSA feasibility. Pin payload/terms, modern editorial interpretation and period; corpus tokens are not lemmas. |
-| AN06 | 6 | Old Chinese reconstruction provenance and small depth pilot, plus Old Japanese comparison. Named models, attested graph/word identity and period retained; no consensus reconstruction or modern reading substitution. |
-| AN07 | 7 | Old Khmer dated-source/lexicon pilot; Gandhari rights/export and Old Tamil feasibility. Khmer XML sample is actual CC BY-SA4.0 and draft, despite broader repository listing. Distinguish ancient/early historical and edition dates. |
-| AN08 | 8 | Classic Mayan source-led lexical pilot from attributable readings/attestations. Existing1 form/1 core; document sign IDs, uncertainty, site/date. Verify actual dataset/API release; announced2026 interface is not proof of availability. |
-| AN09 | 9 | eDiAna rare-language pilot (Carian/Lycian/Lydian; Palaic/Hieroglyphic Luwian availability), with remaining Etruscan/Hurrian/Urartian/Hattic/Meroitic discovery gates. Confidence and lexical semantics before counts. |
+| AE01 | 1 | Etruscan original attestation/sense reassessment: collate existing `neri` water/hymn, `phersu` mask/actor and `viku` village/proper-name cases against attributable editions. Then recover additional headwords from the frozen498-entry Kaikki snapshot only where meaning and source are secure. Distinguish duplicate/inflected/named forms; no general profile without historical reading authority. |
+| AE02 | 2 | Elamite source-rich reconstruction: attach original IDS period-specific comments and EW references to each accepted reading, resolve the two spacing/uncertainty cases in the787-row audit, and investigate a reusable cuneiform dictionary payload. Original IDS and IDSsegmented are one source genealogy; Linear Elamite hypotheses are separate. |
+| AE03 | 3 | Extend Sahidic Coptic beyond Alpha and the8-row Egyptian pilot with exact dialect/lemma/context review. Pin each additional dictionary file/TLA stage separately; lexical-only evidence remains useful and must not inflate supported phonetic coverage. |
+| AE04 | 4 | Ancient Hebrew BHSA lemma/verse pilot from pinned2021 features: implement node linkage, Hebrew/Aramaic filter, exact senses and scoped NonCommercial attribution. Preserve later vocalization convention; no inferred Iron Age surface pronunciation. |
+| AE05 | 5 | Old Khmer original-edition alignment and further Classic Mayan text pilots. K.1 title gives coarse Śaka dating; establish actual lemma/sense before a new-language admission. For Maya retain sign IDs/attestations and exclude disputed decipherments. |
+
+[HELD](planning/HELD.md) specifies evidence needed to reopen ORACC, eDiAna,
+Gandhari, Old Tamil and unresolved ancient reading systems. Earlier raw scope and
+member ceilings are historical screens, not unspent verified gains. Choose
+future work from accepted counts and fresh evidence rather than replaying AN01–AN09.
 
 ## Parked Romance proposals
 

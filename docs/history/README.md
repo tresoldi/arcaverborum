@@ -23,6 +23,10 @@ so packet links and source references remain stable. A historical shortlist or
 
 Newest completed batches first. Each report links its decisions and metrics.
 
+* [Ancient languages AN01–AN09,2026-10-28](../ANCIENT_EXPANSION_2026-10-28.md):
+  qualified historical readings, written lexical pilots, original-source metadata
+  and acquisition gates; explicit Etruscan/Elamite priority.
+
 | Report | Work recorded |
 | --- | --- |
 | [Romance R01–R06](../ROMANCE_EXPANSION_2026-10-28.md) | 176 new source forms,16 profile readings,+138 supported slots in existing constructions;14 named samples; RVID acquisition and Alpine evidence gates |

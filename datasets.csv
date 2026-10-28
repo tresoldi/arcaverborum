@@ -184,3 +184,7 @@ dicttseltal,https://github.com/dictionaria/tseltal,,
 bodtbangru,https://zenodo.org/records/1116263,,
 gerardije2025,https://github.com/TGH-2020/Je_Phylogeny,,
 rvidinfinitives,https://gitlab.com/sbeniamine/Romance_Verbal_Inflection_Dataset,,
+copticsahidic,https://raw.githubusercontent.com/CopticScriptorium/dictionary/d39e8a844779c8e7f89f88a78e21c1e92957f1f1/xml/01_Alpha.xml,,
+tlaearlieregyptian,https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-Earlier_Egyptian_original-v18-premium/resolve/a7ba9e9d1a74a9a0f919b024ba84dd6d643b2966/train.jsonl,,
+kaikkietruscan,https://kaikki.org/dictionary/Etruscan/kaikki.org-dictionary-Etruscan.jsonl,FALSE,FALSE
+twkmmayan,https://classicmayan.org/portal/editor/uploads/1062_twkm_note_013.pdf,FALSE,FALSE

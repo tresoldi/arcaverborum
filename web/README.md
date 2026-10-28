@@ -114,3 +114,7 @@ check. Current coverage and held candidates are documented in
 Recording placeholders from Mixe-Zoquean Voices are excluded from lexical tables.
 `data/recordings.csv` retains their source identities/citations; its manifest entry
 hashes that separate metadata and affected variety pages link the download.
+
+Historical-data checks: `web/tests/ancient_browser.py URL` verifies Etruscan and
+Elamite written-only exports, automatic-conversion disclosure, exact Attic scope,
+and the Classic Mayan scholarly transcription with its sign/attestation metadata.

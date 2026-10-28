@@ -5,80 +5,76 @@ of each data batch; dated reports retain their original before/after observation
 The active work queue is [NEXT.md](NEXT.md); planning procedure is
 [coverage-planning](workflows/arca-coverage-planning/SKILL.md).
 
-Latest batch: [Romance R01–R06](ROMANCE_EXPANSION_2026-10-28.md), executed in order.
-American NB proposals remain parked. Bounded admissions and evidence holds are
-recorded separately; R01–R06 is no longer a proposed queue.
-
-Latest planning: [ancient languages worldwide](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md).
-AN01–AN09 proposed; Romance RP and American NB/P proposals parked. This
-investigation changes no accepted data, source choice or publication artifacts.
+Latest batch: [ancient languages AN01–AN09](ANCIENT_EXPANSION_2026-10-28.md).
+All nine tracks received reviewed admissions or documented evidence holds.
+Etruscan and Elamite are explicit standing priorities. Earlier Romance RP and
+American NB/P proposals remain parked; NEXT now carries proposed AE follow-ups.
 
 ## Accepted baseline
 
-Data commit:`6009c09e58021f203beb920677418d9f7f51f805`.
-Authoritative counts: [Romance summary](romance_expansion_summary_2026-10-28.json),
+Data commit: this ancient-batch commit; immutable hash recorded after publication.
+Authoritative counts: [ancient summary](ancient_expansion_summary_2026-10-28.json),
 `after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
 compressed `web/data/catalog.json.gz`.
 
 | Measure | Accepted value |
 | --- | ---: |
 | Varieties | 7,329 |
-| Forms | 2,069,214 |
-| Supplied-source forms | 1,746,021 |
+| Forms | 2,069,498 |
+| Supplied-source forms | 1,746,190 |
 | Profile-derived forms | 13,885 |
-| Supported core-concept slots | 467,872 |
-| Mapped core-concept slots | 541,637 |
+| Supported core-concept slots | 468,037 |
+| Mapped core-concept slots | 541,874 |
 | GLED primary selections | 1,577 |
 | Core-source collection varieties | 906 |
 | Frozen concepts / core concepts | 3,787 / 161 |
 
 Supported slots are distinct variety–concept pairs with `source` or `profile`
-evidence. Mapped slots can include unresolved transcription. Core-source is a
-row-level source collection; the 161-concept vocabulary filter is independent.
+evidence. Historical `source` identifies segment origin, not direct observation
+of ancient pronunciation. Mapped slots can include unresolved/written-only
+transcription. Core-source is a row-level collection, independent of161-core scope.
 
-176 newly admitted source forms;16 profile readings on existing Gallurese rows;
-138 new supported core slots in existing constructions. Four more slots in new
-Cremona, plus1,287 in13 isolated Saenko samples, give1,429 total slot gain.
-The1,639-row increase includes1,463 previously pooled Saenko rows exposed again
-as named constructions. No distinct-new-language or independent-GLD-source claim.
-All parents retained;14 new named constructions. No GLED replacement that would
-lose supported evidence. RVID infinitive derivative retains GPLv3 terms and a
-public notice; etyma are not inferred modern meanings or expert cognacy.
+284 forms added in14 existing constructions:169 supplied historical readings and
+115 explicitly written-only lexical rows. Gain165 supported core slots and237
+mapped core slots. No new languages/named varieties, profile readings or GLED swaps.
+Etruscan70→94 forms and14→19 mapped core (supported9 unchanged); Elamite787→790
+forms (supported71 unchanged). Full787-record Elamite source-text audit and
+historical reading-basis metadata for the58-construction shortlist accompany
+these gains. Qualified Sanskrit43→141, Attic128→152, Latin128→142 supported core;
+Latin filius maps to SON, not generic CHILD. Written-only rows add zero phonetic
+support. Actual source terms remain attached.
 
-Verification:430 tests, full lint, affected builds and compilers pass. Aggregate
-and web artifacts rebuilt;2,463 prior affected rows retained, with only reviewed
-Gallurese reading/mapping changes. All401 artifact hashes and catalog totals
-verified. Local generic, mixed-source and Romance-specific browser/export checks
-pass, including GPL notice/source metadata, INF cell preservation, scoped profiles,
-locality isolation and retained GLED rows.
-[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40684966112) passed on
-Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40684966179)
-succeeded for verification commit `96c44bc25a616e7d9167ad0324b0f1f2b6cec093`.
-Live manifest, catalog, Indo-European shard and recording hashes match committed
-artifacts; public RVID notice/licence bytes match. Live Romance browser exports
-pass. Fresh pinned-source download reproduces all33 RVID evidence hashes.
+Verification:436 tests and full lint pass. All7,329 accepted constructions rebuilt
+with zero failures; aggregate, curation report and web artifacts rebuilt.
+All2,069,214 earlier lexical rows preserved apart from additive comment metadata
+(global aggregate IDs may shift). All401 website artifact hashes and three
+aggregate-input hashes verified. Local generic, historical and mixed-source
+browser/export checks cover scope, licenses, Etruscan/Elamite orthography,
+conversion disclosure, exact Attic note and Mayan sign/context. Four pinned
+original lexical slices reproduced outside intake. CI/Pages/live checks pending
+publication; no freshness claim based solely on a deployment run.
 
-Previous data baseline: `7de14ecd8710ad399189cd12405d1a4afc50fc54`, with build/test
-correction `74c4468cebe183dd6df3a28a88f1b13c658119e8`; see the
-[American report](NORTH_AMERICA_EXPANSION_2026-10-28.md) for that batch's checks.
+Previous data baseline:`6009c09e58021f203beb920677418d9f7f51f805`,
+[Romance report](ROMANCE_EXPANSION_2026-10-28.md). Its430-test CI and Pages
+verification are recorded in that batch's journal/history; older baseline
+`7de14ecd8710ad399189cd12405d1a4afc50fc54` and correction`74c4468c` belong to the
+[American batch](NORTH_AMERICA_EXPANSION_2026-10-28.md).
 
 ## Evidence for planning
 
-Current planning focus: ancient languages worldwide, with historical stages and
-reading bases explicit. [58-construction screen](ancient_baseline_2026-10-28.csv),
-[74-member subset](ancient_opportunities_2026-10-28.csv),
-[qualified-reading ceilings](ancient_qualified_scope_screen_2026-10-28.json), and
-[pinned research samples](ancient_investigation_2026-10-28.json).20 shortlisted
-constructions have zero supported core; this is not lexical absence. AN01–AN09
-are proposed. The previous R01–R06 bounded batch is complete; remaining Romance
-and American work is parked, not completed by this investigation.
+The [ancient batch report](ANCIENT_EXPANSION_2026-10-28.md), authored review
+CSVs and [realized metrics](ancient_expansion_summary_2026-10-28.json) supersede
+its earlier58-construction and74-member planning ceilings. Follow-ups prioritize
+Etruscan attestations and Elamite original dictionary/period evidence, then
+Coptic/Egyptian expansion, BHSA linkage and Old Khmer/Mayan source pilots.
+Acquisition/sense/reading holds have precise reopening evidence in HELD.
 
-* [Latest opportunity CSV](romance_expansion_opportunities_2026-10-28.csv) and
-  [method/counts](romance_expansion_opportunities_2026-10-28.json): overlapping,
-  unreviewed discovery counts. Blank-code named samples are not automatically
-  matched to alternative sources.
-* [Romance decisions/results](ROMANCE_EXPANSION_2026-10-28.md), including separate
-  acquisition and locality audits.
+* [Original ancient investigation](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md)
+  remains historical discovery evidence, not an unspent admission queue.
+* [Romance decisions/results](ROMANCE_EXPANSION_2026-10-28.md) retain the earlier
+  source/locality evidence. Fresh full opportunity ranking is generated locally
+  under `output/report/coverage_opportunities.csv`; opportunities overlap and
+  require source/member/sense review before admission.
 * [Latest missing-language decisions](south_america_depth_missing_languages_2026-10-28.csv)
   and [four-source screen](south_america_depth_source_screen_2026-10-28.json).
 * [Held-work register](planning/HELD.md): current blockers across earlier batches.

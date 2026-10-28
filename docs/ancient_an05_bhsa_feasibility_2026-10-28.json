@@ -1,0 +1,132 @@
+{
+  "commit": "4db00e2157915495e1a4d3d57e41223df24775da",
+  "release": "2021",
+  "license": "CC BY-NC 4.0",
+  "citation": "ETCBC / BHSA, DOI 10.17026/dans-z6y-skyh",
+  "features": [
+    {
+      "feature": "lex_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/lex_utf8.tf",
+      "bytes": 2741098,
+      "sha256": "21f0dde6d79cdde12558b88ae5e07b5717b1a5f7566d37847c57ff7b53b74627",
+      "header": [
+        "@node",
+        "@author=Eep Talstra Centre for Bible and Computer",
+        "@dataset=BHSA",
+        "@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis",
+        "@description=✅ lexeme consonantal-Hebrew (ב ראשׁית֜ ברא אלהים֜)",
+        "@email=shebanq@ancient-data.org",
+        "@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)",
+        "@provenance=from additional lexicon file provided by the ETCBC",
+        "@valueType=str",
+        "@version=2021",
+        "@website=https://shebanq.ancient-data.org",
+        "@writtenBy=Text-Fabric",
+        "@dateWritten=2021-12-09T14:21:15Z"
+      ],
+      "sample_rows": [
+        "ב",
+        "ראשׁית",
+        "ברא",
+        "אלהים",
+        "את",
+        "ה",
+        "שׁמים",
+        "ו"
+      ]
+    },
+    {
+      "feature": "g_word_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_word_utf8.tf",
+      "bytes": 5392356,
+      "sha256": "504330f4b4dbcfac628e45998796bcf0ba58b0c905c30a8ebdec088b10d692e0",
+      "header": [
+        "@node",
+        "@author=Eep Talstra Centre for Bible and Computer",
+        "@dataset=BHSA",
+        "@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis",
+        "@description=✅ word pointed-Hebrew (בְּ רֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים)",
+        "@email=shebanq@ancient-data.org",
+        "@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)",
+        "@valueType=str",
+        "@version=2021",
+        "@website=https://shebanq.ancient-data.org",
+        "@writtenBy=Text-Fabric",
+        "@dateWritten=2021-12-09T14:18:04Z"
+      ],
+      "sample_rows": [
+        "בְּ",
+        "רֵאשִׁ֖ית",
+        "בָּרָ֣א",
+        "אֱלֹהִ֑ים",
+        "אֵ֥ת",
+        "הַ",
+        "שָּׁמַ֖יִם",
+        "וְ"
+      ]
+    },
+    {
+      "feature": "gloss",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/gloss.tf",
+      "bytes": 2572582,
+      "sha256": "b0e94e5e43d6d4305c7321986afbbded1bb980b161a765891b66f40c66434d2e",
+      "header": [
+        "@node",
+        "@author=Eep Talstra Centre for Bible and Computer",
+        "@dataset=BHSA",
+        "@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis",
+        "@description=🆗 english translation of lexeme (beginning create god(s))",
+        "@email=shebanq@ancient-data.org",
+        "@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)",
+        "@provenance=from additional lexicon file provided by the ETCBC",
+        "@valueType=str",
+        "@version=2021",
+        "@website=https://shebanq.ancient-data.org",
+        "@writtenBy=Text-Fabric",
+        "@dateWritten=2021-12-09T14:21:13Z"
+      ],
+      "sample_rows": [
+        "in",
+        "beginning",
+        "create",
+        "god(s)",
+        "<object marker>",
+        "the",
+        "heavens",
+        "and"
+      ]
+    },
+    {
+      "feature": "language",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/language.tf",
+      "bytes": 3058048,
+      "sha256": "b6e9f2a855901d6d29c970c2710fd7189ad2b5fc5e457f1b4c92e54d8c77cd5a",
+      "header": [
+        "@node",
+        "@author=Eep Talstra Centre for Bible and Computer",
+        "@dataset=BHSA",
+        "@datasetName=Biblia Hebraica Stuttgartensia Amstelodamensis",
+        "@description=✅ of word or lexeme (Hebrew; Aramaic.)",
+        "@email=shebanq@ancient-data.org",
+        "@encoders=Constantijn Sikkel (QDF), Ulrik Petersen (MQL) and Dirk Roorda (TF)",
+        "@provenance=from additional lexicon file provided by the ETCBC",
+        "@valueType=str",
+        "@version=2021",
+        "@website=https://shebanq.ancient-data.org",
+        "@writtenBy=Text-Fabric",
+        "@dateWritten=2021-12-09T14:21:13Z"
+      ],
+      "sample_rows": [
+        "Hebrew",
+        "Hebrew",
+        "Hebrew",
+        "Hebrew",
+        "Hebrew",
+        "Hebrew",
+        "Hebrew",
+        "Hebrew"
+      ]
+    }
+  ],
+  "decision": "Feasible plain Text-Fabric parsing without runtime dependency; lexical admission held until explicit node/lemma/verse linkage, Hebrew versus Aramaic filter and frozen sense review. Vocalized Masoretic writing is not direct ancient phonetic evidence. NonCommercial terms remain attached."
+}

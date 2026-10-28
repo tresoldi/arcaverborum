@@ -167,3 +167,50 @@ from the report. Reopen on relevant evidence, not a repeated ranking ceiling.
 Medieval/colonial stages and reconstructed proto-languages remain separate scope.
 No established precolonial South American phonetic wordlist acquisition emerged
 from this screen; this is not evidence that ancient languages lacked vocabulary.
+
+## Ancient AN01–AN09 execution — 2026-10-28
+
+[Completed batch](../ANCIENT_EXPANSION_2026-10-28.md) replaces the earlier raw
+opportunities as an admission queue. Etruscan and Elamite are standing priorities.
+
+* **Etruscan:**24 written headwords admitted from frozen Kaikki snapshot
+  `adf44ca6...`; no general pronunciation profile. Reopen phonetic recovery only
+  with explicit source-specific historical reading authority. Disputed four/six,
+  mask/actor, bronze/wood and ambiguous pronouns stay held. Existing older `neri`
+  water (alternative hymn analysis), `phersu` mask and `viku` village need original
+  entry/attestation reassessment; retaining them is not independent validation.
+* **Elamite:**3 cuneiform common nouns admitted;787 original IDS records audited.
+  Two form strings replace spaces next to uncertain segments with underscores.
+  Original comments, references and spellings are in the audit; resolve those
+  exact entries against EW111/499 and EW600 before reading repair. General IDS
+  automatic segmentation is not a documented Elamite phonology. A fresh
+  cuneiform lexicon requires a reusable pinned lexical payload, period-specific
+  identity and exact lemma/sense/attestation review. Linear Elamite decipherment
+  proposals stay separate. User priority does not establish an unattested reading.
+* **ORACC/ePSD2:** acquisition retried, no valid payload; certificate errors in
+  Python and gateway/timeouts via browser. Reopen with actual downloadable
+  glossary JSON/ZIP and checked project/version/terms, not corpus object counts.
+* **BHSA:** pinned four-feature feasibility succeeds; next gate is explicit
+  Hebrew/Aramaic node/lemma/verse linkage and literal concept review. Retain
+  CC BY-NC4.0; Masoretic vocalization is a later editorial tradition.
+* **Tokharian/Avestan IDS, Ugaritic, Old Japanese:** original written evidence
+  admitted only for the reviewed IDS subsets. Remaining converted/reported
+  readings need source-specific quantity, sibilant, vowel and historical
+  romanization authority. The raw ceilings are not ready IPA.
+* **Old Chinese:** two explicitly attributed Baxter–Sagart readings admitted.
+  Peiros markers/macrons and Zhang uppercase-A values remain unresolved; inspect
+  original notation before any profile or model conversion.
+* **Old Khmer:** K.1 title supplies sixth–seventh centuries Śaka, despite no
+  origDate element. Draft translation lists/prose do not independently align
+  candidate `kon`/`sre` lemmas; original edition or attributed lexicon needed.
+  Gandhari needs reusable frozen export/terms; Old Tamil needs dated early scope.
+* **eDiAna:** requests for citation PDF and dictionary return identical HTML
+  (HTTP200); no validated payload. Reopen on an actual attributable lexical
+  export, preserving licensing, language/script identity and uncertain readings.
+* **Classic Mayan:** `hul` text pilot admitted; broader API export not established.
+  Reopen paper slices with exact sign/lemma/sense and attestation review; do not
+  force lima-bean compounds or supernatural WAY senses into unrelated concepts.
+
+Exact reviewed alternatives/holds remain in the batch CSVs. Kogan historical
+identity migrations require original sample attribution, immutable version and
+terms; Hebrew/Aramaic/Demotic names cannot authorize automatic code correction.

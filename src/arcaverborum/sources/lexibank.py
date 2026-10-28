@@ -22,7 +22,9 @@ def _clone(name: str, url: str, target_dir: Path) -> bool:
     try:
         subprocess.run(
             ["git", "clone", "--depth", "1", url, str(target_dir)],
-            capture_output=True, text=True, check=True,
+            capture_output=True,
+            text=True,
+            check=True,
         )
         return True
     except subprocess.CalledProcessError as e:
@@ -34,7 +36,9 @@ def _update(name: str, repo_dir: Path) -> bool:
     try:
         subprocess.run(
             ["git", "-C", str(repo_dir), "pull"],
-            capture_output=True, text=True, check=True,
+            capture_output=True,
+            text=True,
+            check=True,
         )
         return True
     except subprocess.CalledProcessError as e:
@@ -65,6 +69,12 @@ def fetch(
 
     logger.info("Fetch lexibank: %d repos", len(repos))
     stats = {"cloned": 0, "updated": 0, "failed": 0}
+    import json
+
+    ancient = {
+        r["dataset"]
+        for r in json.loads((Path(__file__).resolve().parents[1] / "data/ancient_lexical_sources.json").read_text())
+    }
 
     for repo in repos:
         name = repo["NAME"].strip()
@@ -72,9 +82,24 @@ def fetch(
         repo_dir = target_dir / name
 
         if dry_run:
-            action = ("materialize reviewed source" if name in {"bodtbangru", "gerardije2025", "rvidinfinitives"}
-                      else ("update" if repo_dir.exists() else "clone"))
+            action = (
+                "materialize reviewed source"
+                if name in ancient | {"bodtbangru", "gerardije2025", "rvidinfinitives"}
+                else ("update" if repo_dir.exists() else "clone")
+            )
             logger.info("[dry-run] %s %s", action, name)
+            continue
+
+        if name in ancient:
+            from arcaverborum.sources.ancient_lexica import materialize
+
+            existed = repo_dir.exists()
+            try:
+                materialize(raw_root, dataset=name, download=True)
+                stats["updated" if existed else "cloned"] += 1
+            except (OSError, ValueError, RuntimeError) as error:
+                logger.error("Historical source fetch %s: %s", name, error)
+                stats["failed"] += 1
             continue
 
         if name in {"bodtbangru", "gerardije2025", "rvidinfinitives"}:
@@ -103,6 +128,7 @@ def fetch(
 
         if ok and name in DATASETS_NEEDING_CONVERSION:
             from arcaverborum.sources import gled
+
             gled.convert(repo_dir)
 
     logger.info("Lexibank fetch summary: %s", stats)

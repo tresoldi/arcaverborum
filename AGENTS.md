@@ -12,7 +12,9 @@ Update these at batch closure. Dated reports and rankings are historical evidenc
 check them against accepted output before proposing a task again.
 
 The user's standing priorities are more languages, broader coverage and stronger
-linguistic evidence, especially in the Americas and South America. Keep source
+linguistic evidence, especially in the Americas and South America.
+Etruscan and Elamite are explicit ancient-language priorities whenever reliable
+lexical evidence permits; retain uncertain readings and historical stages. Keep source
 transcriptions, derived profiles, semantic judgments and source-specific cognacy
 explicit. An intake source's spelling is not IPA merely because it tokenizes.
 

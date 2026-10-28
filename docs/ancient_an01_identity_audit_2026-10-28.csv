@@ -1,0 +1,4 @@
+source,source_language_id,source_name,intake_glottocode,decision,rationale
+kogansemitic,kogansemitic_hebrew,Hebrew,hebr1245,hold_identity_migration,"Original stage/lexical authority, immutable version and terms required. Preserve accepted rows; do not automatically redirect or supplement another stage."
+kogansemitic,kogansemitic_officialaramaic,Official Aramaic,midd1367,hold_identity_migration,"Original stage/lexical authority, immutable version and terms required. Preserve accepted rows; do not automatically redirect or supplement another stage."
+kogansemitic,kogansemitic_demoticaramaic,Demotic Aramaic,demo1234,hold_identity_migration,"Original stage/lexical authority, immutable version and terms required. Preserve accepted rows; do not automatically redirect or supplement another stage."

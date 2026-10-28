@@ -501,7 +501,10 @@ def emit_forms(
             concept_id, concept_label = concept_index.get(concepticon_id, ("", ""))
         src_segments = row.get("Segments", "") or ""
         src_form = row.get("Form", "") or row.get("Value", "") or ""
-        segments, seg_source = normalize_segments(src_segments, src_form, profile)
+        if row.get('_orthographic_only', False):
+            segments, seg_source = '', 'unclean'
+        else:
+            segments, seg_source = normalize_segments(src_segments, src_form, profile)
         raw_ipa = row.get('_raw_ipa', '')
         if not raw_ipa and transcription_source == 'wiktionary':
             match = re.search(r'Pronunciation IPA ([^;]+);', str(row.get('Comment', '')))
@@ -710,6 +713,9 @@ def build_one(
             pd.DataFrame(recordings).to_csv(tmp, index=False)
     elif recording_path.exists():
         recording_path.unlink()
+    from arcaverborum.historical_evidence import annotate
+
+    out_rows = annotate(out_rows, vd.custom_dir)
     out_df = pd.DataFrame(out_rows, columns=list(FORMS_OUT_FIELDS))
     with atomic_path(vd.generated_forms) as tmp:
         out_df.to_csv(tmp, index=False)
