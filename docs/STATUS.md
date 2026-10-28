@@ -5,6 +5,9 @@ of each data batch; dated reports retain their original before/after observation
 The active work queue is [NEXT.md](NEXT.md); planning procedure is
 [coverage-planning](workflows/arca-coverage-planning/SKILL.md).
 
+Latest planning: [Romance / Italian-area investigation](ROMANCE_INVESTIGATION_2026-10-28.md).
+R01–R06 proposed; American NB proposals parked. No accepted data changes.
+
 ## Accepted baseline
 
 Data commit:`7de14ecd8710ad399189cd12405d1a4afc50fc54`.

@@ -1,5 +1,19 @@
 # Project journal and working memory
 
+## 2026-10-28 — Romance / Italian-area investigation
+
+Planning only; accepted baseline unchanged. NEXT now proposes R01–R06 sequentially:
+supplied-reading supplements, scoped profiles, Sardinian/locality audit, RVID,
+Alpine acquisition and wider Romance. NB01–NB04 parked, not completed. All43
+Saenko members already map to accepted identities; merged localities are not new
+languages. Saenko shares GLD source genealogy. GLED replacement screen favors
+supplementing Lombard/Corsican first because whole-source swaps lose concepts.
+Pinned external RVID research clone eb1efef3ef02fbbf06f96f77637736d9cd27db8a:
+74 varieties/27 Italy rows/155,029 paradigm forms/2,410 lexemes; GPLv3, no ingestion.
+Exact closest-code/meaning/morphology gates remain. VerbaAlpina promising;
+digitALD rights/export, VinKo version rights/access and Sound Comparisons ND
+adaptation remain gated. Report and companion baseline/ranking/hash JSON retained.
+
 ## 2026-10-28 — Authorized Central/North American batch NA01–NA07
 
 Executed all seven tracks in order. Collection7,315 varieties/2,067,575 forms/

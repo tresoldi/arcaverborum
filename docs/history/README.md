@@ -7,6 +7,10 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Romance / Italian area,2026-10-28](../ROMANCE_INVESTIGATION_2026-10-28.md):
+  supplied/profile/locality triage, pinned RVID snapshot and acquisition gates;
+  R01–R06 proposed, zero accepted-data changes.
+
 * [Central/North America,2026-10-28](../NORTH_AMERICA_INVESTIGATION_2026-10-28.md):
   regional triage, GLED/profile review, two pinned Zapotec dictionary acquisitions,
   placeholder/identity findings and proposed NA01–NA07. Zero accepted-data changes.

@@ -5,7 +5,24 @@ Updated2026-10-28 against [STATUS](STATUS.md). Authorized NA01–NA07 is complet
 **proposed**, not automatically authorized. Use the
 [planning workflow](workflows/arca-coverage-planning/SKILL.md).
 
-## Recommended next regional work
+## Recommended next regional work — Romance, especially Italy
+
+[Investigation and evidence](ROMANCE_INVESTIGATION_2026-10-28.md). These tasks are
+proposed; no new lexical batch is authorized. Execute sequentially after approval.
+
+| ID | Priority | Exact work / first gate |
+| --- | ---: | --- |
+| R01 | 1 | Supplied-reading supplements for Corsican, Lombard, Sicilian, Ligurian, Venetian and Romagnol; review original senses and pronunciation scope. Preserve GLED evidence before considering replacement. |
+| R02 | 2 | Bounded profiles for Lombard/Venetian; sparse Gallurese/Istriot recovery. Establish exact orthography/locality and pronunciation authority first. |
+| R03 | 3 | Sardinian identity and merged-locality audit: Logudorese/Nuorese/Barbaricino, Piemontese, Emiliano, Venetian, Sicilian. No automatic parent/locality transfer. |
+| R04 | 4 | Pinned RVID broad-IPA acquisition pilot, preserving verbal morphology, semantics, GPL terms and exact sample identity. |
+| R05 | 5 | VerbaAlpina token-level pilot; digitALD/VinKo rights/export/notation feasibility. Audio or normalized types alone supply no IPA. |
+| R06 | 6 | Wider Romance: Occitan and Romansh first, then Extremaduran/Picard/Fala/Arpitan exact-source screen. |
+
+Raw potential and tradeoffs are in the report; overlapping source counts are not
+promised gains. American priorities remain parked below, not completed.
+
+## Parked Central/North American proposals
 
 | ID | Priority | Exact work | Baseline / first gate |
 | --- | ---: | --- | --- |

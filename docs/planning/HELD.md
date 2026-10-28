@@ -128,3 +128,14 @@ supersede them where applicable. [Full report](../NORTH_AMERICA_EXPANSION_2026-1
 
 All remaining per-sense holds are in the dated NA01–NA07 decision CSVs linked
 from the report. Reopen on relevant evidence, not a repeated ranking ceiling.
+
+## Romance acquisition gates — 2026-10-28
+
+See [investigation](../ROMANCE_INVESTIGATION_2026-10-28.md). Sound Comparisons
+Romance2019: restricted CC BY-NC-ND4.0; reopen on applicable derivative permission
+or compatible new release. digitALD: establish redistribution rights, export and
+notation key. VinKo: reconcile exact deposit/version rights with project terms;
+automated repository access blocked. RVID is research-staged at the recorded pin,
+not admitted: reconcile sample identity, meaning and paradigm representation.
+Saenko Logudorese→Barbaricino requires original sample authority before transfer
+or parent expansion. These are source-specific gates, not blanket language holds.

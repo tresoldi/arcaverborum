@@ -1,0 +1,29 @@
+av_id,Name,Glottocode,identity_level,forms,supported_core,transcription_source
+ine-arpitan,Arpitan,fran1260,language,54,31,gled
+ine-barbaricino,Barbaricino,barb1262,dialect,170,128,iecor
+ine-campidanese-sardinian,Campidanese Sardinian,camp1261,language,112,99,saenkoromance
+ine-continental-southern-italian,Continental Southern Italian,neap1235,language,170,128,iecor
+ine-corsican,Corsican,cors1241,language,39,36,gled
+ine-dalmatian,Dalmatian,dalm1243,language,148,113,iecor
+ine-emiliano,Emiliano,emil1241,language,336,99,saenkoromance
+ine-fassano,Fassano,fass1244,dialect,113,99,saenkoromance
+ine-francoprovencalic,Francoprovencalic,fran1269,family,170,128,iecor
+ine-friulian,Friulian,friu1240,language,173,128,iecor
+ine-gallurese-sardinian,Gallurese Sardinian,gall1276,language,254,0,wiktionary
+ine-gardenese,Gardenese,gard1241,dialect,114,99,saenkoromance
+ine-genoese,Genoese,geno1240,dialect,111,99,saenkoromance
+ine-istriot,Istriot,istr1244,language,399,4,wiktionary
+ine-italian,Italian,ital1282,language,171,128,iecor
+ine-judeo-italian,Judeo-Italian,jude1255,language,75,0,wiktionary
+ine-ladin,Ladin,ladi1250,language,175,128,iecor
+ine-ligurian,Ligurian,ligu1248,language,223,99,saenkoromance
+ine-logudorese-sardinian,Logudorese Sardinian,logu1236,language,200,0,dyenindoeuropean
+ine-lombard,Lombard,lomb1257,language,81,38,gled
+ine-messinese,Messinese,mess1247,dialect,112,99,saenkoromance
+ine-nuorese,Nuorese,nuor1238,dialect,198,0,dyenindoeuropean
+ine-old-italian,Old Italian,fior1236,dialect,125,0,diacl
+ine-piemontese,Piemontese,piem1238,language,452,99,saenkoromance
+ine-romagnol,Romagnol,roma1328,language,110,98,saenkoromance
+ine-sassarese-sardinian,Sassarese Sardinian,sass1235,language,40,38,gled
+ine-sicilian,Sicilian,sici1248,language,338,99,saenkoromance
+ine-venetian,Venetian,vene1258,language,337,99,saenkoromance
