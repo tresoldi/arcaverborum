@@ -72,19 +72,23 @@ def fetch(
         repo_dir = target_dir / name
 
         if dry_run:
-            action = "materialize document" if name == "bodtbangru" else ("update" if repo_dir.exists() else "clone")
+            action = ("materialize document" if name in {"bodtbangru", "gerardije2025"}
+                      else ("update" if repo_dir.exists() else "clone"))
             logger.info("[dry-run] %s %s", action, name)
             continue
 
-        if name == "bodtbangru":
-            # The licensed original is a document deposit, not a Git remote.
-            from arcaverborum.sources.bangru_original import materialize
+        if name in {"bodtbangru", "gerardije2025"}:
+            # These frozen originals need reviewed materialization, not Git pull.
+            if name == "bodtbangru":
+                from arcaverborum.sources.bangru_original import materialize
+            else:
+                from arcaverborum.sources.je_original import materialize
             existed = repo_dir.exists()
             try:
                 materialize(raw_root, download=True)
                 stats["updated" if existed else "cloned"] += 1
             except (OSError, ValueError, RuntimeError) as error:
-                logger.error("Original Bangru fetch: %s", error)
+                logger.error("Original source fetch %s: %s", name, error)
                 stats["failed"] += 1
             continue
 

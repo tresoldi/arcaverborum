@@ -1,0 +1,25 @@
+av_id: tup-karitiana
+name: Karitiâna
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-28'
+quality:
+  forms_score: 0.9642
+  cognates_score: 1.0
+  tier: bronze
+  pinned: false
+construction:
+  lexical_base:
+    source: huntergatherer
+    source_language_id: ''
+    rationale: Reviewed additive construction; exact original source identities retained.
+  transcription:
+    strategy: source with explicit supplements
+  concepts:
+    mapping: reviewed
+    core_coverage: 153/161
+    ledger: docs/south_america_coverage_2026-10-28_track3.csv
+  cognates:
+    source: source-scoped
+    notes: No cross-source inference; Jê study automatic IDs are raw provenance only.

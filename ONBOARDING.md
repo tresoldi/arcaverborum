@@ -111,17 +111,24 @@ python build.py concepts --mint
 
 ## 5. Current Baseline
 
-As of the latest coverage batch, 2026-10-27:
+As of the latest coverage batch, 2026-10-28:
 
-* 7,313 accepted varieties and 2,066,454 forms;
-* 1,743,092 source-supported and 13,277 profile-supported forms;
-* 465,118 supported and 539,211 mapped core-concept slots;
-* 892 Core-source collection varieties; 1,582 GLED primary selections.
+* 7,314 accepted varieties and 2,067,154 forms;
+* 1,743,541 source-supported and 13,528 profile-supported forms;
+* 465,590 supported and 539,683 mapped core-concept slots;
+* 896 Core-source collection varieties; 1,580 GLED primary selections.
 
-The latest batch added 437 forms, 382 supported core slots and one newly
-represented language (Bangru), from a licensed original fieldwork source. See [the journal](docs/JOURNAL.md) for the handoff,
-[the follow-up report](docs/AMAZONIAN_EXPANSION_2026-10-27.md) for evidence,
-and its companion JSON for reproducible before/after metrics.
+The latest five-track South American batch added 700 forms and 472 supported
+slots, admitted Ingain, and replaced GLED as primary for Xerénte and Xavánte
+while retaining their earlier evidence as separately attributed supplements.
+Of the additions, 449 retain supplied segments and 251 use exact-form broad
+phonemic profiles. See [the journal](docs/JOURNAL.md) and
+[batch report](docs/SOUTH_AMERICA_COVERAGE_2026-10-28.md).
+
+Frozen Jê source reproduction: scripts/stage_je_original.py --fetch
+--write-profiles; stage/validate first, append the new namespace only on first
+installation, then rebuild intake-db. Never subset-ingest active intake or
+append a namespace twice. See the report for the guarded source/provenance policy.
 
 ## 6. Source Policy
 

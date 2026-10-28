@@ -1,0 +1,6 @@
+name,source_glottocode,catalog_level,canonical_language,decision,reason
+Ingain,inga1254,language,inga1254,admit,"No earlier accepted sample or source alias found; licensed Jê study exact member; 24 reviewed profile forms / 22 concepts / 16 core. Remaining ambiguous notation held."
+Tapayúna,beic1238,dialect,suya1243,hold_identity,"Named dialect under accepted Suyá; source material does not establish a new independent language. Any later dialect admission needs an explicit sample packet."
+Parkatêjê,timb1254,dialect,para1315,hold_identity,"Named dialect under accepted Pará Gavião; do not count a source-code difference as a new language."
+Pykobjê / Gavião-Pyhcopji,krik1239,dialect,cane1242,hold_identity,"Named dialect under accepted Central-Southern Timbira; reconcile exact source sample before any separate construction."
+Xikrin,xikr1238,dialect,kaya1330,hold_identity,"Named dialect under accepted Mebengokre; no independent language inflation."

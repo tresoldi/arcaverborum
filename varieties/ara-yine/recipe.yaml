@@ -1,0 +1,25 @@
+av_id: ara-yine
+name: Yine
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-28'
+quality:
+  forms_score: 0.8512
+  cognates_score: 0.7
+  tier: bronze
+  pinned: false
+construction:
+  lexical_base:
+    source: carvalhopurus
+    source_language_id: ''
+    rationale: Reviewed additive construction; exact original source identities retained.
+  transcription:
+    strategy: source with explicit supplements
+  concepts:
+    mapping: reviewed
+    core_coverage: 115/161
+    ledger: docs/south_america_coverage_2026-10-28_track2.csv
+  cognates:
+    source: source-scoped
+    notes: No cross-source inference; Jê study automatic IDs are raw provenance only.

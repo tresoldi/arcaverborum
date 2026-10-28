@@ -5,6 +5,10 @@ Start with the root `README.md` for the project overview and
 
 ## Current handoff
 
+* [South American coverage](SOUTH_AMERICA_COVERAGE_2026-10-28.md): Guaraní/Hoti/
+  Yurutí, Arawakan and Tupian additions, documented GLED replacements and Ingain;
+  [latest ranking](south_america_opportunities_2026-10-28.csv).
+
 * [Amazonian expansion](AMAZONIAN_EXPANSION_2026-10-27.md): Amahuaca, Puinave,
   Arawakan supplements, dictionary/profile work and original-source Bangru;
   [latest ranking](amazonian_expansion_opportunities_2026-10-27.csv).
@@ -14,7 +18,7 @@ Start with the root `README.md` for the project overview and
   [ranked opportunity report](coverage_opportunities_2026-10-27.csv).
 
 * [Journal and working memory](JOURNAL.md): decisions, current metrics, verification,
-  held evidence and next opportunities (updated 2026-10-27).
+  held evidence and next opportunities (updated 2026-10-28).
 * [Americas coverage follow-up](AMERICAS_COVERAGE_FOLLOWUP_2026-10-27.md): latest
   five-track batch, evidence and reproduction.
 * [Data expansion](DATA_EXPANSION_2026-10-27.md): preceding expansion batch.

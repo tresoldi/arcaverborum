@@ -1,0 +1,26 @@
+av_id: nub-xavante
+name: Xavánte
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-28'
+quality:
+  forms_score: 0.7
+  cognates_score: 0
+  tier: bronze
+  pinned: true
+construction:
+  lexical_base:
+    source: gerardije2025
+    source_language_id: gerardije2025_Xavante
+    rationale: Reviewed additive construction; exact original source identities retained.
+  transcription:
+    strategy: exact-form broad phonemic profile; supplements keep their own transcription
+      status
+  concepts:
+    mapping: reviewed
+    core_coverage: 61/161
+    ledger: src/arcaverborum/data/je_original_review.csv
+  cognates:
+    source: source-scoped
+    notes: No cross-source inference; Jê study automatic IDs are raw provenance only.

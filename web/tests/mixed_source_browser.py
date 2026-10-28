@@ -78,10 +78,32 @@ with sync_playwright() as p:
     assert len(bangru) == 99 and {r["transcription_source"] for r in bangru} == {"bodtbangru"}
     assert all(r["Segments_Source"] == "source" and not r["Cognacy"] for r in bangru)
     assert all('"speaker": "A"' in r["Comment"] and "pdf_sha256" in r["Comment"] for r in bangru)
+    # Primary replacement preserves GLED evidence and isolates its new profile.
+    for aid, total, derived, legacy in [("nub-xerente", 159, 120, 38), ("nub-xavante", 154, 107, 46),
+                                        ("nub-ingain", 24, 24, 0)]:
+        route.update(id=aid)
+        page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+        page.wait_for_function(
+            "document.querySelector('#app').textContent.includes('Lexical and transcription evidence')"
+        )
+        assert "gerardije2025" in page.locator("#app").inner_text()
+        with page.expect_download() as download:
+            page.locator("#exportcsv").click()
+        lexical = list(csv.DictReader(open(download.value.path())))
+        study = [r for r in lexical if r["transcription_source"] == "gerardije2025"]
+        assert len(lexical) == total and len(study) == derived
+        assert sum(r["transcription_source"] == "gled" for r in lexical) == legacy
+        assert all(r["Segments_Source"] == "profile" and not r["Cognacy"] for r in study)
+        assert all("original_row_sha256" in r["Comment"] for r in study)
+        if aid == "nub-xerente":
+            cross = next(r for r in study if r["source_form_id"] == "gerardije2025_658")
+            assert cross["concept_id"] == "mot-traverse" and "atravessar" in cross["Comment"]
+        assert not any(r["Segments_Source"] == "profile" for r in lexical
+                       if r["transcription_source"] != "gerardije2025")
     assert not errors, errors
     print(
         "PASS: mixed-source provenance, separate IPA alternatives, stable pronunciation IDs, "
         "Core isolation, corrected dictionary attribution, source-scoped profile, "
-        "South American supplements and original-source Bangru"
+        "South American supplements, original-source Bangru, GLED replacements and Ingain"
     )
     browser.close()

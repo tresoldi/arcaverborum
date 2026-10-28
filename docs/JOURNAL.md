@@ -1,5 +1,67 @@
 # Project journal and working memory
 
+## 2026-10-28 — Five South American coverage tracks completed
+
+Current baseline: **7,314 accepted varieties / 2,067,154 forms**; 1,743,541
+supplied-source forms, 13,528 profile forms, **465,590 supported core slots** and
+539,683 mapped slots. This batch adds **700 forms / 472 supported slots**.
+GLED primary selections **1,582 → 1,580**. Core-source collection membership
+**892 → 896**, as four constructions now contain TuLeD rows; its row-level
+source policy is unchanged. Frozen vocabulary remains 3,787 concepts.
+
+All five agreed tracks completed in order:
+
+1. Guaraní +72 forms / core102→153; Hoti +51 /103→148; Yurutí +52 /96→143.
+   Exact IDS and Huber members reviewed. IDS remains provisional CLTS conversion;
+   Hoti repeated four/five alternatives, generic day/egg and bare fear held.
+2. Mandahuaca +45 /41→86; Yine +44 /71→115. Walker source identity, bound
+   morphology and source-specific cognacy retained; generic egg held.
+3. Sateré-Mawé +45 /92→136; Tocantins Asurini +45 /93→133; Guarayu +46
+   /100→139; Karitiâna +49 /113→153. TuLeD supplied segments/cognacy retained.
+   Three generic eggs and Mawé posture ambiguity held. No Guarayu dictionary
+   profile activated.
+4. **Xerénte and Xavánte replace GLED as primary** with the licensed 2025 Jê
+   study supplement and exact-form phonemic profiles. Xerénte159 total forms,
+   120 study-profile forms, core36→71; Xavánte154 forms, 107 study-profile,
+   core35→61. All84 GLED forms and two Wiktionary records remain separately
+   attributed. Primary profiles never apply to secondary sources.
+5. **Ingain admitted as nub-ingain**, canonical language inga1254, no earlier
+   accepted sample/alias found:24 profile forms /22 concepts /16 core. Other
+   screened Jê source codes are dialect cases under accepted languages; no
+   language-count inflation.
+
+New namespace gerardije2025: author repository TGH-2020/Je_Phylogeny, commit
+8f4f0a9a7b36ba4e3a9a15ba49b13056cfbbcf1e; explicit CC BY4.0; supplementary
+data doi:10.5281/zenodo.15041553, related article10.12688/openreseurope.19346.3.
+368 mapped source rows reviewed:251admitted /117held. Raw notation is NOT
+silently supplied IPA: all251 readings are explicitly profile-derived broad
+phonemic values. Nikulin2020§1.4 pp50–53 documents notation. Ambiguous
+c/ĵ/j/r/y, circumflexes, shielding alternatives, leading diacritics, missing
+values and unsplit compounds held; NFC preserves nasalization/length. Original
+automatic COGID/COGIDS survives only in provenance, no accepted cognacy inferred.
+Dataset citation does not invent individual fieldwork authorship. Xerénte CROSS
+is corrected to traverse: original Nikulin2020p453 tbro glossed atravessar,
+not the geometric noun. Source label and full raw row retained.
+
+Source manifest/review under src/arcaverborum/data/je_original_*. Materializer
+and scripts/stage_je_original.py --fetch --write-profiles verify frozen TSV,
+README and license hashes; default stage outside intake. Only this new namespace
+appended; existing namespaces preserved. Intake DB7,181,640rows. Never subset
+ingest active intake or append an existing namespace; refresh requires guarded
+migration. Generic source fetch materializes the frozen source, no moving pull.
+
+Verification: **408 tests**, full Ruff/JS, seven core-pilot/Vakh audits pass.
+All7,314 outputs fresh, zero failures. All1,922 earlier affected records preserve
+lexical/transcription/concept/cognacy evidence; primary replacements have expected
+annotation/score/tier changes. All400 compressed hashes verified. Local generic
+and mixed-source browser tests pass, including Ingain and retained GLED exports.
+Web artifacts rebuilt. Asturian remains82 supported core. NLS/Tangam blockers
+remain. Independent specialist review of draft packets remains welcome.
+
+See [batch report](SOUTH_AMERICA_COVERAGE_2026-10-28.md),
+[metrics](south_america_coverage_summary_2026-10-28.json), and
+[updated triage ranking](south_america_opportunities_2026-10-28.csv).
+
 ## 2026-10-27 — Amazonian expansion and original-source Bangru admission
 
 Current baseline: **7,313 accepted varieties / 2,066,454 forms**; 1,743,092

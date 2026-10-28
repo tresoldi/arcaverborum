@@ -1,0 +1,25 @@
+av_id: nub-ingain
+name: Ingain
+glottocode: inga1254
+family: Nuclear-Macro-Je
+macroarea: South America
+sources:
+  transcription: gerardije2025
+  cognates: gerardije2025
+  source_language_id: gerardije2025_Ingain
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: true
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-28'
+notes: 'First accepted Ingain construction: conservative reviewed slice of the licensed
+  2025 Jê study supplement. Canonical Glottolog language inga1254; no dialect split
+  or reidentification. Broad phonemic profile only; unresolved source notation and
+  automatic cognacy held. Regional reference point is not speaker GPS.'

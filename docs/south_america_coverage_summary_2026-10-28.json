@@ -1,0 +1,181 @@
+{
+  "before": {
+    "varieties": 7313,
+    "forms": 2066454,
+    "source_forms": 1743092,
+    "profile_forms": 13277,
+    "supported_core_slots": 465118,
+    "mapped_core_slots": 539211,
+    "gled_primary_varieties": 1582,
+    "core_collection_varieties": 892
+  },
+  "after": {
+    "varieties": 7314,
+    "forms": 2067154,
+    "source_forms": 1743541,
+    "profile_forms": 13528,
+    "supported_core_slots": 465590,
+    "mapped_core_slots": 539683,
+    "gled_primary_varieties": 1580,
+    "core_collection_varieties": 896
+  },
+  "change": {
+    "varieties": 1,
+    "forms": 700,
+    "source_forms": 449,
+    "profile_forms": 251,
+    "supported_core_slots": 472,
+    "mapped_core_slots": 472,
+    "gled_primary_varieties": -2,
+    "core_collection_varieties": 4
+  },
+  "constructions": [
+    {
+      "av_id": "tup-paraguayan-guarani",
+      "before_forms": 236,
+      "after_forms": 308,
+      "before_supported_core": 102,
+      "after_supported_core": 153,
+      "source_counts": {
+        "gerarditupi": 236,
+        "idssegmented": 72
+      }
+    },
+    {
+      "av_id": "hot-hoti",
+      "before_forms": 266,
+      "after_forms": 317,
+      "before_supported_core": 103,
+      "after_supported_core": 148,
+      "source_counts": {
+        "huntergatherer": 266,
+        "idssegmented": 51
+      }
+    },
+    {
+      "av_id": "tuc-yuruti",
+      "before_forms": 187,
+      "after_forms": 239,
+      "before_supported_core": 96,
+      "after_supported_core": 143,
+      "source_counts": {
+        "huntergatherer": 187,
+        "hubercolumbian": 52
+      }
+    },
+    {
+      "av_id": "ara-mandahuaca",
+      "before_forms": 83,
+      "after_forms": 128,
+      "before_supported_core": 41,
+      "after_supported_core": 86,
+      "source_counts": {
+        "huntergatherer": 83,
+        "walkerarawakan": 45
+      }
+    },
+    {
+      "av_id": "ara-yine",
+      "before_forms": 197,
+      "after_forms": 241,
+      "before_supported_core": 71,
+      "after_supported_core": 115,
+      "source_counts": {
+        "carvalhopurus": 197,
+        "walkerarawakan": 44
+      }
+    },
+    {
+      "av_id": "tup-satere-mawe",
+      "before_forms": 207,
+      "after_forms": 252,
+      "before_supported_core": 92,
+      "after_supported_core": 136,
+      "source_counts": {
+        "gerarditupi": 207,
+        "tuled": 45
+      }
+    },
+    {
+      "av_id": "tup-tocantins-asurini",
+      "before_forms": 189,
+      "after_forms": 234,
+      "before_supported_core": 93,
+      "after_supported_core": 133,
+      "source_counts": {
+        "gerarditupi": 189,
+        "tuled": 45
+      }
+    },
+    {
+      "av_id": "tup-guarayu",
+      "before_forms": 207,
+      "after_forms": 253,
+      "before_supported_core": 100,
+      "after_supported_core": 139,
+      "source_counts": {
+        "gerarditupi": 207,
+        "tuled": 46
+      }
+    },
+    {
+      "av_id": "tup-karitiana",
+      "before_forms": 264,
+      "after_forms": 313,
+      "before_supported_core": 113,
+      "after_supported_core": 153,
+      "source_counts": {
+        "huntergatherer": 264,
+        "tuled": 49
+      }
+    },
+    {
+      "av_id": "nub-xerente",
+      "before_forms": 39,
+      "after_forms": 159,
+      "before_supported_core": 36,
+      "after_supported_core": 71,
+      "source_counts": {
+        "gerardije2025": 120,
+        "gled": 38,
+        "wiktionary": 1
+      }
+    },
+    {
+      "av_id": "nub-xavante",
+      "before_forms": 47,
+      "after_forms": 154,
+      "before_supported_core": 35,
+      "after_supported_core": 61,
+      "source_counts": {
+        "gerardije2025": 107,
+        "gled": 46,
+        "wiktionary": 1
+      }
+    },
+    {
+      "av_id": "nub-ingain",
+      "before_forms": 0,
+      "after_forms": 24,
+      "before_supported_core": 0,
+      "after_supported_core": 16,
+      "source_counts": {
+        "gerardije2025": 24
+      }
+    }
+  ],
+  "new_varieties": [
+    "nub-ingain"
+  ],
+  "gled_primary_replacements": [
+    "nub-xerente",
+    "nub-xavante"
+  ],
+  "verification": {
+    "pytest_passed": 408,
+    "earlier_records_preserved": 1922,
+    "accepted_outputs_fresh": 7314,
+    "source_je_admitted": 251,
+    "source_je_held": 117
+  }
+}

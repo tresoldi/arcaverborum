@@ -1,0 +1,59 @@
+{
+  "dataset": "gerardije2025",
+  "repository": "TGH-2020/Je_Phylogeny",
+  "commit": "8f4f0a9a7b36ba4e3a9a15ba49b13056cfbbcf1e",
+  "url": "https://github.com/TGH-2020/Je_Phylogeny",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "Ferraz Gerardi, Fabrício; Wientzek, Tim; Roksandic, Ivan; Gregorio de Souza, Jonas; Orphão de Carvalho, Fernando. 2025. A phylogenetic classification of the Je language family: Supplementary data. doi:10.5281/zenodo.15041553. Related article doi:10.12688/openreseurope.19346.3.",
+  "files": {
+    "data/auto_cogids.tsv": "a5dea3ead33aa3f45999cab842fc125fe983bc93f5e96cd03e26ad2b2a8db6d4",
+    "README.md": "ee348e8ab4b156e3239826d6ab0d3184760902d0e314f7df49846fa06fadbd25",
+    "LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+  },
+  "languages": [
+    {
+      "ID": "Xerente",
+      "Name": "Xerénte",
+      "Source_Doculect": "Xerénte",
+      "Glottocode": "xere1240",
+      "Macroarea": "South America",
+      "Family": "Nuclear-Macro-Je",
+      "ISO639P3code": "xer",
+      "Latitude": "-9.59",
+      "Longitude": "-48.26",
+      "Location": "Brazil",
+      "Remark": "Regional catalog reference coordinates, not speaker GPS. Source-notation review; no exact speaker location supplied.",
+      "Glottolog_Name": "Xerénte"
+    },
+    {
+      "ID": "Xavante",
+      "Name": "Xavánte",
+      "Source_Doculect": "Xavánte",
+      "Glottocode": "xava1240",
+      "Macroarea": "South America",
+      "Family": "Nuclear-Macro-Je",
+      "ISO639P3code": "xav",
+      "Latitude": "-14.3",
+      "Longitude": "-52.44",
+      "Location": "Brazil",
+      "Remark": "Regional catalog reference coordinates, not speaker GPS. Source-notation review; no exact speaker location supplied.",
+      "Glottolog_Name": "Xavánte"
+    },
+    {
+      "ID": "Ingain",
+      "Name": "Ingain",
+      "Source_Doculect": "Ingain",
+      "Glottocode": "inga1254",
+      "Macroarea": "South America",
+      "Family": "Nuclear-Macro-Je",
+      "ISO639P3code": "",
+      "Latitude": "-24.621052",
+      "Longitude": "-54.254151",
+      "Location": "Brazil",
+      "Remark": "Regional catalog reference coordinates, not speaker GPS. Source-notation review; no exact speaker location supplied.",
+      "Glottolog_Name": "Ingain"
+    }
+  ],
+  "notation_authority": "Nikulin 2020 section 1.4, pp.50–53; ambiguous Macro-Jê c/j/r/y, circumflex vowels and shielding alternatives held. Only already explicit unambiguous symbols receive exact-form broad phonemic profiles.",
+  "notation_url": "https://repositorio.unb.br/bitstream/10482/38893/1/2020_AndreyNikulin.pdf"
+}
