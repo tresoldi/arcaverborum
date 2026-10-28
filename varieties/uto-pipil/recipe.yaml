@@ -1,0 +1,10 @@
+av_id: uto-pipil
+review:
+  status: draft
+  date: '2026-10-28'
+north_america_2026_10_28:
+  task: NA02
+  additional_forms: 23
+  supported_core: 109/161
+  report: docs/NORTH_AMERICA_EXPANSION_2026-10-28.md
+  guarded_admissions: custom/supplements.csv

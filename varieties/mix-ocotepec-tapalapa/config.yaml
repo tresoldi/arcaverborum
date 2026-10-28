@@ -18,4 +18,5 @@ scoring:
   tier: bronze
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=mixezoqueanvoices (0.45)'
+notes: 'auto: forms=mixezoqueanvoices (0.45); NA01: 158 recording placeholders separated
+  from lexical forms; source metadata retained, no inferred IPA.'

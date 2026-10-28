@@ -1,0 +1,263 @@
+{
+  "before": {
+    "varieties": 7314,
+    "forms": 2067822,
+    "source_forms": 1743997,
+    "profile_forms": 13740,
+    "supported_core_slots": 466066,
+    "mapped_core_slots": 540159,
+    "gled_primary_varieties": 1578,
+    "core_collection_varieties": 904
+  },
+  "after": {
+    "varieties": 7315,
+    "forms": 2067575,
+    "source_forms": 1744382,
+    "profile_forms": 13869,
+    "supported_core_slots": 466443,
+    "mapped_core_slots": 540270,
+    "gled_primary_varieties": 1577,
+    "core_collection_varieties": 906
+  },
+  "change": {
+    "varieties": 1,
+    "forms": -247,
+    "source_forms": 385,
+    "profile_forms": 129,
+    "supported_core_slots": 377,
+    "mapped_core_slots": 111,
+    "gled_primary_varieties": -1,
+    "core_collection_varieties": 2
+  },
+  "gross_lexical_forms_added": 508,
+  "recording_placeholders_separated": 755,
+  "new_profile_readings_on_existing_forms": 6,
+  "new_varieties": [
+    "mix-santa-maria-nizaviguiti"
+  ],
+  "new_distinct_language_claims": 0,
+  "gled_primary_replacements": [
+    "may-tzeltal"
+  ],
+  "constructions": [
+    {
+      "av_id": "mix-tlahuitoltepec-mixe",
+      "before_forms": 110,
+      "after_forms": 159,
+      "before_supported_core": 97,
+      "after_supported_core": 146,
+      "source_counts": {
+        "wichmannmixezoquean": 110,
+        "mixezoqueanvoices": 49
+      }
+    },
+    {
+      "av_id": "mix-highland-popoluca",
+      "before_forms": 94,
+      "after_forms": 135,
+      "before_supported_core": 69,
+      "after_supported_core": 107,
+      "source_counts": {
+        "joophonosemantic": 94,
+        "wichmannmixezoquean": 41
+      }
+    },
+    {
+      "av_id": "chi-bribri",
+      "before_forms": 110,
+      "after_forms": 117,
+      "before_supported_core": 86,
+      "after_supported_core": 93,
+      "source_counts": {
+        "constenlachibchan": 110,
+        "pachechibchan": 7
+      }
+    },
+    {
+      "av_id": "uto-pipil",
+      "before_forms": 98,
+      "after_forms": 121,
+      "before_supported_core": 89,
+      "after_supported_core": 109,
+      "source_counts": {
+        "davletshinaztecan": 98,
+        "utoaztecan": 23
+      }
+    },
+    {
+      "av_id": "uto-central-tarahumara",
+      "before_forms": 382,
+      "after_forms": 434,
+      "before_supported_core": 86,
+      "after_supported_core": 128,
+      "source_counts": {
+        "lionnetyotonahua": 382,
+        "utoaztecan": 44,
+        "wheelerutoaztecan": 8
+      }
+    },
+    {
+      "av_id": "uto-mayo",
+      "before_forms": 114,
+      "after_forms": 142,
+      "before_supported_core": 91,
+      "after_supported_core": 119,
+      "source_counts": {
+        "wheelerutoaztecan": 114,
+        "lionnetyotonahua": 28
+      }
+    },
+    {
+      "av_id": "may-tzeltal",
+      "before_forms": 87,
+      "after_forms": 191,
+      "before_supported_core": 38,
+      "after_supported_core": 99,
+      "source_counts": {
+        "dicttseltal": 104,
+        "gled": 87
+      }
+    },
+    {
+      "av_id": "oto-isthmus-zapotec",
+      "before_forms": 50,
+      "after_forms": 69,
+      "before_supported_core": 38,
+      "after_supported_core": 41,
+      "source_counts": {
+        "gled": 50,
+        "dictdidxazageneral": 5,
+        "dictdiidxaza": 14
+      }
+    },
+    {
+      "av_id": "esk-pacific-gulf-yupik",
+      "before_forms": 86,
+      "after_forms": 86,
+      "before_supported_core": 0,
+      "after_supported_core": 3,
+      "source_counts": {
+        "wiktionary": 86
+      }
+    },
+    {
+      "av_id": "chd-creolized-grand-ronde-chinook-jargon",
+      "before_forms": 142,
+      "after_forms": 142,
+      "before_supported_core": 2,
+      "after_supported_core": 2,
+      "source_counts": {
+        "wiktionary": 142
+      }
+    },
+    {
+      "av_id": "mix-chapultenango",
+      "before_forms": 567,
+      "after_forms": 175,
+      "before_supported_core": 118,
+      "after_supported_core": 118,
+      "source_counts": {
+        "mixezoqueanvoices": 175
+      }
+    },
+    {
+      "av_id": "mix-ocotepec-mixe",
+      "before_forms": 196,
+      "after_forms": 0,
+      "before_supported_core": 0,
+      "after_supported_core": 0,
+      "source_counts": {}
+    },
+    {
+      "av_id": "mix-ocotepec-tapalapa",
+      "before_forms": 158,
+      "after_forms": 0,
+      "before_supported_core": 0,
+      "after_supported_core": 0,
+      "source_counts": {}
+    },
+    {
+      "av_id": "mix-puxmetecin",
+      "before_forms": 188,
+      "after_forms": 187,
+      "before_supported_core": 127,
+      "after_supported_core": 127,
+      "source_counts": {
+        "mixezoqueanvoices": 187
+      }
+    },
+    {
+      "av_id": "mix-lowland-midland-south-highland-mixe",
+      "before_forms": 355,
+      "after_forms": 347,
+      "before_supported_core": 130,
+      "after_supported_core": 130,
+      "source_counts": {
+        "mixezoqueanvoices": 347
+      }
+    },
+    {
+      "av_id": "mix-santa-maria-nizaviguiti",
+      "before_forms": 0,
+      "after_forms": 185,
+      "before_supported_core": 0,
+      "after_supported_core": 126,
+      "source_counts": {
+        "mixezoqueanvoices": 185
+      }
+    }
+  ],
+  "verification": {
+    "pytest_passed": 424,
+    "accepted_outputs_fresh": 7315,
+    "earlier_lexical_records_preserved": 1982,
+    "recording_metadata_rows_preserved": 755,
+    "artifact_hashes_verified": 401,
+    "original_source_rows_preserved": 7181852,
+    "new_dictionary_intake_rows": 9998,
+    "new_language_claims": 0,
+    "local_research_browser": "passed",
+    "local_mixed_source_browser": "passed",
+    "original_registry_rows_preserved": 7311,
+    "original_dictionary_sense_reviews_preserved": 622
+  },
+  "regional_before": {
+    "varieties": 610,
+    "forms": 95555,
+    "supported_core_slots": 33038,
+    "gled_primaries": 255,
+    "profile_forms": 0
+  },
+  "regional_after": {
+    "varieties": 611,
+    "forms": 95316,
+    "supported_core_slots": 33415,
+    "gled_primaries": 254,
+    "profile_forms": 129
+  },
+  "new_sources": {
+    "dictdiidxaza": {
+      "commit": "daf603b21dda05ac60ecc95081696c840e487356",
+      "files": {
+        "LICENSE": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "README.md": "9bef0ef7452324f02e2431a6e8202706b7cb7be2c4009951bfc1edd0ee49d75e",
+        "cldf/cldf-metadata.json": "513bc13564442f5980837255524f09a4bbbbb1cf2a69e967dee7b8f3d4bb7903",
+        "cldf/entries.csv": "412f0440a9da6b7a5e0ccfbb9fb749c7be7fe96f17e9d0bd65b1906787b423ae",
+        "cldf/senses.csv": "46714ec50317b3856690cedfb412adaffa4097c59ebcc89bb1ef578947a1bc27",
+        "cldf/languages.csv": "0821bbca50c28c206e3e011c626f179a376528b62d5d4332d3a16911f1c2f77c"
+      }
+    },
+    "dictdidxazageneral": {
+      "commit": "76c22cf30c23d8f4bc5c83c11013a8cb24fe0f85",
+      "files": {
+        "LICENSE": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "README.md": "d387a5c717067fa50c43003fdc8070d31ddc2f41bd312f39f78e7dc12ce49372",
+        "cldf/cldf-metadata.json": "0309eb70159a54ec8ee7e5b78c5e04cd082cd3b8a8eee4a6e2743b1ea42e6112",
+        "cldf/entries.csv": "bba2f47472db99ed9eb159c3e468d0c2207b98c4af0713aea28410027aacc78f",
+        "cldf/senses.csv": "58bc4f801e8c138844bba36a6eaa1358daf761085ff01e52a1dd81a0e9a1d388",
+        "cldf/languages.csv": "246a9e3d2b4d388df07e123642c1c8650832b71df4e4b2f3f912c23bcd07ac1d"
+      }
+    }
+  },
+  "new_source_hash_note": "File hashes describe pinned Git working checkouts. Earlier HTTP research-copy CSV hashes use LF; Git checkouts use CRLF. Parsed records are identical; the immutable commits identify the source snapshots."
+}

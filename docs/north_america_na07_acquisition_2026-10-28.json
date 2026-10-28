@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "miluk": {
+    "url": "https://miluk.org/wordlist/",
+    "page_sha256": "6ad18998836611c7785354aeba517c4c12d5b2623850772b1203383f126ce168",
+    "glottocode": "milu1241",
+    "decision": "hold",
+    "reason": "Original community recording/transcription page located. Applicable redistribution authorization and verified lexical reading/Unicode representation remain unresolved; no lexical source imported and no contact sent.",
+    "reopen_when": "Establish source/community reuse terms and a documented, attributable transcribed lexical subset."
+  },
+  "northern_haida": {
+    "repository": "giellalt/lang-hdn",
+    "commit": "3badb20987fbc2281103decf8412753f94991c9e",
+    "decision": "hold",
+    "reason": "License explicitly excludes certain original dictionary text, includes Cree-specific source text, and does not independently establish the Haida lexical terms. Existing IDS remains primary; no bulk lexical import.",
+    "reopen_when": "Unambiguous Haida-source lexical redistribution terms and exact dictionary/notation attribution."
+  },
+  "nizaviguiti": {
+    "av_id": "mix-santa-maria-nizaviguiti",
+    "decision": "admit_named_variety",
+    "forms": 185,
+    "distinct_new_language_claim": false,
+    "canonical_glottocode": "",
+    "basis": "Exact recorded community sample, published CC BY-NC4.0 source. Community-language classification unresolved; no neighbouring/Ulterior-Mixe code inferred."
+  }
+}

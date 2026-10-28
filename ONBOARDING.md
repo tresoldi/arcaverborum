@@ -217,3 +217,6 @@ and verifies a frozen Zenodo PDF, then materializes its reviewed CSVW/CLDF slice
 Use scripts/stage_bangru_original.py --fetch --audit-pdf before validated append
 of the new namespace; optional PyMuPDF 2.0 reproduces the PDF-span audit. Source
 versions may be immutable DOI/document hashes rather than Git commits.
+
+For bounded reviewed dictionary primaries, unlinked community-member selectors
+and recording-only metadata, see [the evidence format](docs/GUARDED_PRIMARY_AND_RECORDINGS.md).

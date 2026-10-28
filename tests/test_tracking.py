@@ -62,6 +62,9 @@ def test_custom_component_reacts_to_content(tmp_path: Path):
     assert before != after
     (custom / "cognates.csv").write_text("form_id,Cognacy\na1,8\n", encoding="utf-8")
     assert tracking.custom_component(custom) != after
+    before_primary = tracking.custom_component(custom)
+    (custom / "primary.csv").write_text("source_form_id,evidence_sha256\nreviewed,hash\n")
+    assert tracking.custom_component(custom) != before_primary
 
 
 def test_slice_hash_per_variety_and_source():

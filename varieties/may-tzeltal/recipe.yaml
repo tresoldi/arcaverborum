@@ -1,0 +1,10 @@
+av_id: may-tzeltal
+review:
+  status: draft
+  date: '2026-10-28'
+north_america_2026_10_28:
+  task: NA04
+  additional_forms: 104
+  supported_core: 99/161
+  report: docs/NORTH_AMERICA_EXPANSION_2026-10-28.md
+  guarded_admissions: custom/primary.csv

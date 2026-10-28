@@ -68,13 +68,15 @@ def scope_rule(decision, target):
     return rule
 
 
-def reviewed_frames(custom_dir, intake, glottocode, param_index, concept_index):
+def reviewed_frames(
+    custom_dir, intake, glottocode, param_index, concept_index, *, decisions=None, review_label="Reviewed supplement"
+):
     """Yield source-separated frames; fail closed on drift or uncertified segments.
 
     Ordinary admission requires canonical Glottocode equality. A pronunciation
     alternative can use only an explicitly registered source/target/tag scope.
     """
-    decisions = ledger(custom_dir)
+    decisions = ledger(custom_dir) if decisions is None else decisions
     keys = [(r["source"], r["source_form_id"], r.get("source_pronunciation_id", "")) for r in decisions]
     if len(set(keys)) != len(keys):
         raise ValueError("Duplicate supplemental source-form decision")
@@ -168,7 +170,7 @@ def reviewed_frames(custom_dir, intake, glottocode, param_index, concept_index):
             row["_concept_id_override"] = cid
             row["Concepticon_ID"] = concept_index[cid]
             row["Comment"] = "; ".join(
-                filter(None, [row.get("Comment", ""), "Reviewed supplement: " + decision["rationale"]])
+                filter(None, [row.get("Comment", ""), review_label + ": " + decision["rationale"]])
             )
             chosen.append(row)
         yield source, pd.DataFrame(chosen).fillna(""), profile

@@ -1,5 +1,35 @@
 # Project journal and working memory
 
+## 2026-10-28 — Authorized Central/North American batch NA01–NA07
+
+Executed all seven tracks in order. Collection7,315 varieties/2,067,575 forms/
+466,443 supported core slots.508 new forms minus755 play-symbol rows gives
+net−247 forms; source forms+385/profile readings+129.377 new supported slots,
+251 in existing constructions and126 in Nizaviguiti. No distinct-language claim.
+Tseltal replaces GLED as primary; GLED selections1578→1577. All87 old GLED
+Tseltal rows retained. Bounded primary ledger prevents emitting unreviewed
+whole dictionaries and fails on source/profile drift. Exact member-only route
+supports unlinked named samples without guessing a code or generic fallback.
+
+NA01:90 forms/87 gaps. NA02:30/27, most Bribri readings held on conversion loss.
+NA03:80/70, Tarahumara overlap preference explicit. NA04:104 Tseltal profiles,
+38→99 supported core. NA05:19 Zapotec profiles,38→41; two pinned CC BY namespaces
+append9,998 original rows, all earlier intake bytes preserved. NA06:6 Alutiiq
+profiles,0→3 core; Chinuk Wawa held. NA07:Nizaviguiti185/196 rows admitted as
+named community variety,126 core; canonical Glottocode/ISO/parent blank. Miluk
+and Haida acquisition gates remain held with source-specific evidence.
+
+Full cleanup found755 recording-only rows:747 regional plus8 in a broader
+catalog construction. Public recording metadata CSV/manifest and variety-page
+notice retain those source records separately. Two accepted varieties have zero
+lexical forms; no guessed transcriptions. Full7,315-output rebuild succeeded;
+424 tests,1,982 lexical/755 recording preservation checks,401 artifact hashes,
+core pilots/Vakh, compilers and local browser/export checks passed.
+
+Report NORTH_AMERICA_EXPANSION_2026-10-28.md and measured expansion summary.
+NEXT replaces completed NA tasks with proposed NB01–NB04; South P01–P04 parked.
+Publication checks recorded in STATUS after push. Update local memory likewise.
+
 ## 2026-10-28 — Central/North American planning investigation
 
 User requested investigation of the next regional focus. No lexical execution

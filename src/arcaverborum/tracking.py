@@ -42,7 +42,8 @@ MANIFEST_NAME = "build_manifest.json"
 
 _PKG_DIR = Path(__file__).resolve().parent
 _RECIPE_FILES = (
-    "variety.py", "intake_db.py", "phonology.py", "aggregate.py", "forms_schema.py", "concepts.py",
+    "variety.py", "source_evidence.py", "intake_db.py", "phonology.py",
+    "aggregate.py", "forms_schema.py", "concepts.py",
     "data/score_weights.yaml",
     # The frozen concept catalog: re-curating a label/field/id rebuilds the
     # forms that resolve through it.
@@ -100,6 +101,7 @@ def config_component(config: dict) -> str:
         "transcription": str(sources.get("transcription", "")),
         "cognates": str(sources.get("cognates", "") or sources.get("transcription", "")),
         "source_language_id": str(sources.get("source_language_id", "")),
+        "member_only": bool(sources.get("member_only", False)),
         "source_language_ids": sources.get("source_language_ids", []),
         "source_glottocodes": sources.get("source_glottocodes", []),
         "source_glottocode": str(sources.get("source_glottocode", "")),
@@ -112,7 +114,7 @@ def config_component(config: dict) -> str:
 def custom_component(custom_dir: Path) -> str:
     """Digest of the four custom override files (raw bytes; "" if absent)."""
     digests = {}
-    for name in (*_CUSTOM_FILES, "supplements.csv"):
+    for name in (*_CUSTOM_FILES, "supplements.csv", "primary.csv"):
         p = custom_dir / name
         digests[name] = hashlib.sha1(p.read_bytes()).hexdigest() if p.exists() else ""
     directory = custom_dir / "supplement_profiles"

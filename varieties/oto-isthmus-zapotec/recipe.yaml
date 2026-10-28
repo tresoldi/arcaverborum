@@ -1,0 +1,10 @@
+av_id: oto-isthmus-zapotec
+review:
+  status: draft
+  date: '2026-10-28'
+north_america_2026_10_28:
+  task: NA05
+  additional_forms: 19
+  supported_core: 41/161
+  report: docs/NORTH_AMERICA_EXPANSION_2026-10-28.md
+  guarded_admissions: custom/supplements.csv

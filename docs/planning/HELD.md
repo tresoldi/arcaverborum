@@ -98,3 +98,33 @@ admissions or accepted-data reclassifications have been made.
 [Investigation and original-source links](../NORTH_AMERICA_INVESTIGATION_2026-10-28.md),
 [member audit](../north_america_member_audit_2026-10-28.csv),
 [acquisition hashes](../north_america_planning_summary_2026-10-28.json).
+
+## NA01–NA07 execution outcomes — 2026-10-28
+
+The preceding planning gates retain historical context; these execution outcomes
+supersede them where applicable. [Full report](../NORTH_AMERICA_EXPANSION_2026-10-28.md).
+
+* **Nizaviguiti:** admitted as a named community variety,185 forms/126 core;
+  no canonical code, parent or distinct-language claim. The classification gate
+  remains for any future language-level assertion. Eleven lexical rows stay held.
+* **Bribri:** seven intact readings admitted;26 candidates require recovery of
+  original tone/nasalization/alternatives rather than re-admitting converted rows.
+* **Tseltal:**104 consonant-initial profile stems admitted as bounded primary;
+  all87 GLED records preserved. Vowel-initial/morphological/dialect ambiguity and
+  narrower senses remain held. Its profile is completed work, not an inactive proposal.
+* **Zapotec:**19 exact PDLMA profile forms admitted; remaining reviewed mappings
+  are not pronunciation admissions. Rearticulation, rhotics/nd, morphology and
+  laryngealization spreading require original notation/context before expansion.
+* **Alutiiq:** six exact spellings gain profiles; unresolved apostrophe/e/c/r/R
+  and other conventions remain held. Existing IPA/etymology evidence preserved.
+* **Chinuk Wawa:** no profile admitted; exact community/system correspondence
+  remains unresolved for mixed modern/historical spellings. All142 rows retained.
+* **Miluk and Northern Haida:** actual wordlist/project sources inspected;
+  no usable lexical reuse/reading packet established. No contact sent. See the
+  [execution acquisition packet](../north_america_na07_acquisition_2026-10-28.json).
+* **Recording-only rows:**755 accepted markers now retained as recording metadata,
+  not lexical forms/profile candidates. Actual attributed transcription would
+  reopen lexical admission. No source data or recording is declared linguistically absent.
+
+All remaining per-sense holds are in the dated NA01–NA07 decision CSVs linked
+from the report. Reopen on relevant evidence, not a repeated ranking ceiling.

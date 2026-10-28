@@ -12,6 +12,7 @@
 | Domain vocabulary and architecture | [CONTEXT](../CONTEXT.md) |
 | Completed batches and dated evidence | [History index](history/README.md) |
 | Chronological decisions and handoffs | [Journal](JOURNAL.md) |
+| Bounded primary admissions, unlinked samples and recordings | [Evidence format](GUARDED_PRIMARY_AND_RECORDINGS.md) |
 
 STATUS and NEXT are maintained at batch closure. The planning workflow is a
 repository-local skill-style procedure, routed from [AGENTS.md](../AGENTS.md).

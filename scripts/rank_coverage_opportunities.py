@@ -18,6 +18,7 @@ from pathlib import Path
 import yaml
 
 from arcaverborum.phonology import normalize_segments
+from arcaverborum.source_evidence import is_recording_placeholder
 
 ROOT = Path(__file__).resolve().parents[1]
 SUPPORTED = {"source", "profile"}
@@ -38,6 +39,8 @@ def opportunity(target, source, member, forms, parameters, concepts, core, revie
     mapped, supplied = set(), set()
     invalid = 0
     for form in forms:
+        if is_recording_placeholder(source, form["Form"], form["Value"]):
+            continue
         cid = reviewed.get((source, form["Parameter_ID"]), concepts.get(parameters.get(form["Parameter_ID"], ""), ""))
         if cid not in core or cid in target["supported"]:
             continue
@@ -101,6 +104,8 @@ def build(root, output):
         if not built.exists():
             continue
         config = yaml.safe_load(path.read_text())
+        if not str(config.get("glottocode", "")).strip():
+            continue  # A shared blank code cannot establish alternative-source identity.
         _, supported = baseline(read(built), core)
         if supported == core:
             continue

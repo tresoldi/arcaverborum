@@ -34,6 +34,7 @@ from arcaverborum.forms_schema import FORMS_OUT_FIELDS, form_quality_score, load
 from arcaverborum.fsutil import atomic_path, write_text_atomic
 from arcaverborum.intake_db import IntakeDB
 from arcaverborum.phonology import load_profile, normalize_segments
+from arcaverborum.source_evidence import is_recording_placeholder
 from arcaverborum.supplements import input_keys as supplemental_keys
 from arcaverborum.supplements import reviewed_frames
 
@@ -469,10 +470,24 @@ def emit_forms(
     concept_index: dict[str, tuple[str, str]],
     concept_labels: dict[str, str],
     profile: list | None,
+    recordings: list[dict] | None = None,
 ) -> list[dict]:
     """Transform overlaid intake rows into output dicts."""
     out_rows: list[dict] = []
     for _, row in df.iterrows():
+        if is_recording_placeholder(transcription_source, row.get("Form", ""), row.get("Value", "")):
+            if recordings is not None:
+                recordings.append({
+                    "av_id": av_id, "source": transcription_source,
+                    "source_form_id": row.get("ID", ""),
+                    "source_language_id": row.get("Language_ID", ""),
+                    "source_parameter_id": row.get("Parameter_ID", ""),
+                    "bibtex_key": row.get("Source", ""),
+                    "raw_marker": row.get("Form", "") or row.get("Value", ""),
+                    "source_url": "https://mixezoqueanvoices.clld.org",
+                    "reason": "Audio recording placeholder; no lexical transcription supplied.",
+                })
+            continue
         param_id = row.get("Parameter_ID", "")
         looked_cid, _looked_gloss = param_index.get(param_id, ("", ""))
         concepticon_id = row.get("Concepticon_ID", "") or looked_cid
@@ -531,6 +546,16 @@ def emit_forms(
     return out_rows
 
 
+def source_code(config: dict, variety: Variety) -> str:
+    """An unlinked community sample requires an exact member, never a guessed code."""
+    sources = config.get("sources") or {}
+    if sources.get("member_only"):
+        if variety.glottocode or config.get("glottocode") or not sources.get("source_language_id"):
+            raise ValueError("Member-only selection requires an unlinked identity and an exact source member")
+        return ""
+    return str(sources.get("source_glottocode") or variety.glottocode or variety.av_id).strip().lower()
+
+
 def build_one(
     av_id: str,
     varieties_root: Path,
@@ -553,10 +578,9 @@ def build_one(
     transcription_source = config["sources"]["transcription"]
     cognate_source = config["sources"].get("cognates", "") or transcription_source
     source_language_id = str(config["sources"].get("source_language_id", "") or "").strip()
-    source_glottocode = str(config["sources"].get("source_glottocode", "") or "").strip()
     forms_score = float(config.get("scoring", {}).get("forms_score", 0.0))
     tier = config.get("scoring", {}).get("tier", "copper")
-    gc = (source_glottocode or variety.glottocode or av_id).lower()
+    gc = source_code(config, variety)
     extra_codes = config["sources"].get("source_glottocodes", [])
     member_ids = config["sources"].get("source_language_ids", [])
     if (not isinstance(extra_codes, list) or not isinstance(member_ids, list)
@@ -597,6 +621,9 @@ def build_one(
             raise ValueError("Reviewed source members disappeared: " + ', '.join(sorted(missing)))
         df = df[df["Language_ID"].isin(member_ids)].copy()
 
+    if df.empty and config["sources"].get("member_only"):
+        raise ValueError("Reviewed member-only source disappeared; no generic fallback permitted")
+
     if df.empty and transcription_source != FALLBACK_SOURCE and isinstance(intake_forms, (pd.DataFrame, IntakeDB)):
         if isinstance(intake_forms, IntakeDB):
             fb = intake_forms.slice(gc, FALLBACK_SOURCE)
@@ -621,8 +648,27 @@ def build_one(
     from arcaverborum.wiktionary_senses import apply_shared
 
     df = apply_shared(df, transcription_source)
-    df, profile = apply_overlays(df, vd)
+    primary_path = vd.custom_path("primary.csv")
+    if primary_path.exists():
+        with primary_path.open() as handle:
+            decisions = list(csv.DictReader(handle))
+        if not decisions or {r["source"] for r in decisions} != {transcription_source}:
+            raise ValueError("Reviewed primary ledger must select the configured source")
+        frames = list(reviewed_frames(
+            vd.custom_dir, intake_forms, variety.glottocode, param_index,
+            {cid: ccid for ccid, (cid, _) in concept_index.items()},
+            decisions=decisions, review_label="Reviewed primary form",
+        ))
+        if len(frames) != 1:
+            raise ValueError("Reviewed primary must use one exact source/profile scope")
+        _, df, profile = frames[0]
+        df, overlay_profile = apply_overlays(df, vd)
+        if overlay_profile:
+            raise ValueError("Reviewed primary profile belongs in its guarded source scope")
+    else:
+        df, profile = apply_overlays(df, vd)
 
+    recordings = []
     out_rows = emit_forms(
         df,
         av_id=av_id,
@@ -635,6 +681,7 @@ def build_one(
         concept_index=concept_index,
         concept_labels=concept_labels,
         profile=profile,
+        recordings=recordings,
     )
 
     concepticon_by_id = {cid: ccid for ccid, (cid, _) in concept_index.items()}
@@ -643,7 +690,7 @@ def build_one(
         out_rows.extend(emit_forms(
             supplement, av_id=av_id, variety=variety, transcription_source=source, cognate_source=source,
             forms_score=forms_score, tier=tier, param_index=param_index, concept_index=concept_index,
-            concept_labels=concept_labels, profile=supplement_profile))
+            concept_labels=concept_labels, profile=supplement_profile, recordings=recordings))
 
     custom_forms_df = _read_custom(vd.custom_path("forms.csv"))
     out_rows.extend(_additive_custom_rows(
@@ -651,6 +698,12 @@ def build_one(
         concept_index, concept_labels, profile,
     ))
 
+    recording_path = vd.generated_dir / "recordings.csv"
+    if recordings:
+        with atomic_path(recording_path) as tmp:
+            pd.DataFrame(recordings).to_csv(tmp, index=False)
+    elif recording_path.exists():
+        recording_path.unlink()
     out_df = pd.DataFrame(out_rows, columns=list(FORMS_OUT_FIELDS))
     with atomic_path(vd.generated_forms) as tmp:
         out_df.to_csv(tmp, index=False)
@@ -758,8 +811,7 @@ def update_many(
                 cfg = load_config(vd)
             except Exception:
                 continue
-            src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
-            gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+            gc = source_code(cfg, catalog.get(av_id, Variety(av_id)))
             for input_code in {gc.lower(), *((cfg.get("sources") or {}).get("source_glottocodes", []))}:
                 wanted.add((input_code.strip().lower(), (cfg.get("sources") or {}).get("transcription", "")))
             wanted.add((gc.lower(), FALLBACK_SOURCE))  # see _slice_component
@@ -783,8 +835,7 @@ def update_many(
             cfg = load_config(vd)
         except Exception:
             continue
-        src_gc = str((cfg.get("sources") or {}).get("source_glottocode", "") or "").strip()
-        gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+        gc = source_code(cfg, catalog.get(av_id, Variety(av_id)))
         slice_h = _slice_component(cfg, gc, slice_hashes)
         for source_gc, source in sorted(supplemental_keys(vd.custom_dir)):
             slice_h += f"|supplement:{source_gc}:{source}:" + slice_hashes.get((source_gc, source), "")
@@ -814,8 +865,7 @@ def update_many(
     for av_id, digest, components in stale:
         vd_tmp = VarietyDir(av_id=av_id, root=varieties_root / av_id)
         cfg_tmp = load_config(vd_tmp)
-        src_gc = str((cfg_tmp.get("sources") or {}).get("source_glottocode", "") or "").strip()
-        gc = src_gc or (catalog[av_id].glottocode if av_id in catalog else "") or av_id
+        gc = source_code(cfg_tmp, catalog.get(av_id, Variety(av_id)))
         gc_to_avids.setdefault(gc.lower(), []).append((av_id, digest, components))
 
     gc_list = list(gc_to_avids.keys())

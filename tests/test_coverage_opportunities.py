@@ -57,3 +57,11 @@ def test_profiles_count_as_supported_but_resegmented_spelling_does_not():
     )
     north = {**south, "macroarea": "North America", "additive_source_core_potential": 20}
     assert module.rank_key(south) < module.rank_key(north)
+
+
+def test_recording_buttons_are_not_profile_opportunities():
+    target = dict(av_id="test", name="Test", macroarea="North America", glottocode="test1234",
+                  primary="gled", supported=set())
+    forms = [dict(Parameter_ID="water", Form="►", Value="►", Segments="")]
+    assert module.opportunity(target, "mixezoqueanvoices", "member", forms,
+                              {"water": "1"}, {"1": "phy-water"}, {"phy-water"}, {}, {}) is None

@@ -1,0 +1,10 @@
+av_id: mix-highland-popoluca
+review:
+  status: draft
+  date: '2026-10-28'
+north_america_2026_10_28:
+  task: NA01
+  additional_forms: 41
+  supported_core: 107/161
+  report: docs/NORTH_AMERICA_EXPANSION_2026-10-28.md
+  guarded_admissions: custom/supplements.csv

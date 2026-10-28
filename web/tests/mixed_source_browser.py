@@ -1,5 +1,6 @@
 import csv
 import json
+import io
 import sys
 from urllib.parse import quote
 
@@ -122,6 +123,42 @@ with sync_playwright() as p:
             tuled = {r["concept_id"] for r in lexical if r["transcription_source"] == "tuled"}
             lundgren = {r["concept_id"] for r in lexical if r["transcription_source"] == "lundgrenomagoa"}
             assert not tuled & lundgren
+    for aid, total, source_profiles in [
+        ("may-tzeltal", 191, {"dicttseltal": 104}),
+        ("oto-isthmus-zapotec", 69, {"dictdiidxaza": 14, "dictdidxazageneral": 5}),
+        ("esk-pacific-gulf-yupik", 86, {"wiktionary": 6}),
+    ]:
+        route.update(id=aid)
+        page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+        page.wait_for_function(
+            "document.querySelector('#app').textContent.includes('Lexical and transcription evidence')"
+        )
+        with page.expect_download() as download:
+            page.locator("#exportcsv").click()
+        lexical = list(csv.DictReader(open(download.value.path())))
+        assert len(lexical) == total
+        for source_name, count in source_profiles.items():
+            selected = [r for r in lexical if r["transcription_source"] == source_name
+                        and r["Segments_Source"] == "profile"]
+            assert len(selected) == count
+            if aid != "esk-pacific-gulf-yupik":
+                assert all(not r["Cognacy"] for r in selected)
+        if aid == "may-tzeltal":
+            assert sum(r["transcription_source"] == "gled" for r in lexical) == 87
+    route.update(id="mix-santa-maria-nizaviguiti")
+    page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('126/161')")
+    with page.expect_download() as download:
+        page.locator("#exportcsv").click()
+    community = list(csv.DictReader(open(download.value.path())))
+    assert len(community) == 185 and all(not r["Glottocode"] for r in community)
+    assert {r["source_language_id"] for r in community} == {"mixezoqueanvoices_Nizaviguiti"}
+    route.update(id="mix-ocotepec-mixe")
+    page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('196 untranscribed recordings')")
+    metadata = list(csv.DictReader(io.StringIO(page.request.get(url + "data/recordings.csv").text())))
+    assert len(metadata) == 755 and all(r["raw_marker"] == "►" for r in metadata)
+    assert sum(r["av_id"] == "mix-ocotepec-mixe" for r in metadata) == 196
     assert not errors, errors
     print(
         "PASS: mixed-source provenance, separate IPA alternatives, stable pronunciation IDs, "

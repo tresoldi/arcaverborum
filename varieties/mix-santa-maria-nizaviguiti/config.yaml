@@ -1,0 +1,25 @@
+av_id: mix-santa-maria-nizaviguiti
+name: Mixe (Santa María Nizaviguiti)
+glottocode: ''
+family: Mixe-Zoque
+macroarea: North America
+sources:
+  transcription: mixezoqueanvoices
+  cognates: mixezoqueanvoices
+  source_language_id: mixezoqueanvoices_Nizaviguiti
+  member_only: true
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.7
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-28'
+notes: Named community sample; classification unresolved. No guessed Glottocode/ISO/parent
+  and no distinct new-language claim. Regional source village coordinates, not speaker
+  GPS.

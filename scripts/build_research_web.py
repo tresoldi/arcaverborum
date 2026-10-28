@@ -196,6 +196,24 @@ def build(root=ROOT, output=None):
         row['supported_ids'] = sorted(supported[av])
         row['packet_url'] = ('https://github.com/tresoldi/arcaverborum/blob/master/varieties/' + av + '/PACKET.md'
                              if (root / 'varieties' / av / 'PACKET.md').exists() else '')
+    recordings = []
+    for language in languages:
+        path = root / 'varieties' / language['av_id'] / 'generated/recordings.csv'
+        selected = read(path) if path.exists() else []
+        language['recordings'] = len(selected)
+        recordings.extend(selected)
+    recording_meta = None
+    recording_path = output / 'recordings.csv'
+    if recordings:
+        with recording_path.open('w', newline='') as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(recordings[0]), lineterminator='\n')
+            writer.writeheader()
+            writer.writerows(recordings)
+        recording_meta = dict(url='data/recordings.csv', records=len(recordings),
+                              bytes=recording_path.stat().st_size,
+                              sha256=hashlib.sha256(recording_path.read_bytes()).hexdigest())
+    elif recording_path.exists():
+        recording_path.unlink()
     catalog = dict(languages=languages, concepts=concepts, sources=list(sources.values()),
                    core=sorted(core), core_sources=sorted(core_sources))
     catalog_meta = write_json(output / 'catalog.json.gz', catalog)
@@ -208,6 +226,8 @@ def build(root=ROOT, output=None):
                     core_count=len(core), source_files={name: hashlib.file_digest((aggregate / name).open('rb'),
                                                                                'sha256').hexdigest()
                                                       for name in ['forms.csv', 'varieties.csv', 'parameters.csv']})
+    if recording_meta:
+        manifest['recordings'] = recording_meta
     # Remove obsolete generated shards only; keep bibliography and manifest.
     active = {r['url'].split('/')[-1] for r in shards.values()} | {'catalog.json.gz'}
     for path in output.glob('*.json.gz'):

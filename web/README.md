@@ -106,3 +106,7 @@ in comments. They are distinct from supplied source IPA and do not apply to
 primary-source forms. The Iquito pilot is covered by the mixed-source browser
 check. Current coverage and held candidates are documented in
 `docs/COVERAGE_BATCH_2026-10-27.md` and the ranked opportunity CSV.
+
+Recording placeholders from Mixe-Zoquean Voices are excluded from lexical tables.
+`data/recordings.csv` retains their source identities/citations; its manifest entry
+hashes that separate metadata and affected variety pages link the download.

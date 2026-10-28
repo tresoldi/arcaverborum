@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261028-1';
+const VERSION = 'research-20261028-2';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -247,6 +247,7 @@ async function showVariety(token) {
     <div class="controls page-jumps"><button id="jumprecords">Lexical records ↓</button><button id="jumpinventory">Segment evidence ↓</button></div>
     <p class="sub">${esc(l.Family)} · ${esc(l.Macroarea)} · ${external(l.Glottocode,'https://glottolog.org/resource/languoid/id/'+l.Glottocode)}</p>
     <div class="metrics"><div><strong>${l.supported_core}/161</strong> supported core</div><div><strong>${l.mapped_concepts}</strong> mapped concepts</div><div><strong>${fmt(l.forms)}</strong> total forms</div><div><strong>${fmt(rows.length)}</strong> forms in this view</div></div>
+    ${l.recordings?`<p class="sub">${fmt(l.recordings)} untranscribed recordings are kept separately from lexical forms. <a href="data/recordings.csv" download>Download recording metadata</a> (all varieties; filter by variety ID).</p>`:''}
     <div class="variety-overview"><section class="metadata-card"><h3>Location</h3>
     ${validCoordinates(l)?'<div id="varietymap" class="map variety-map" role="region" aria-label="Approximate catalog location"></div><p class="sub">Approximate catalog point, not a speaker distribution, language boundary, or necessarily a recording site.</p>':'<p class="empty">No valid catalog coordinates recorded. No location is inferred.</p>'}
     <p>${validCoordinates(l)?`Latitude ${(+l.latitude).toFixed(4)} · Longitude ${(+l.longitude).toFixed(4)}`:''}</p>

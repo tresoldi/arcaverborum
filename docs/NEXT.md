@@ -1,49 +1,47 @@
 # Active expansion queue
 
-Updated2026-10-28. The requested Central/North American investigation is complete;
-[findings, exact members and gates](NORTH_AMERICA_INVESTIGATION_2026-10-28.md).
-Accepted data remains at [STATUS](STATUS.md). The tasks below are **proposed**;
-this planning turn makes zero lexical changes. Follow the
+Updated2026-10-28 against [STATUS](STATUS.md). Authorized NA01–NA07 is complete;
+[results and decisions](NORTH_AMERICA_EXPANSION_2026-10-28.md). The work below is
+**proposed**, not automatically authorized. Use the
 [planning workflow](workflows/arca-coverage-planning/SKILL.md).
 
-## Recommended regional batch
+## Recommended next regional work
 
-| ID | Order | Task | Baseline and potential | First gate |
-| --- | ---: | --- | --- | --- |
-| NA01 | 1 | Tlahuitoltepec Mixe + Highland Popoluca; recording-placeholder cleanup | 97/69 supported core; up to51/39 gaps | Exact Voices Tlahuitoltepec and Wichmann Soteapan members/senses. Exclude `►` recording links from lexical/profile opportunities; audit747 accepted placeholder rows across four constructions. |
-| NA02 | 2 | Bribri + Nawat/Pipil | 86/89; up to33/22 gaps | Pache Bribri raw dialect/tone/optional-segment conventions; exact Uto-Aztecan Pipil lexical authorities and senses. |
-| NA03 | 3 | Rarámuri/Tarahumara + Mayo | 86/91; up to42 or38 overlapping Tarahumara gaps,29 Mayo | Compare exact regional samples and original stress/reading conventions before choosing evidence. Historical Ópata is a reserve, not a shortcut. |
-| NA04 | 4 | Tseltal dictionary/profile pilot and potential GLED replacement | GLED38; staged dictionary116 mapped core,88 missing concepts | Conservative source-specific readings and dialect/POS/sense review. Preserve10 old core concepts absent from dictionary mappings; do not equate9,616 form rows with usable IPA. |
-| NA05 | 5 | Isthmus Zapotec dictionary acquisition/profile work | GLED38;9,012 general entries plus952 botanical, mapped gain unmeasured | Pinned Dictionaria sources, exact La Ventosa/Juchitán identity, attribution, phonological notation and reviewed concept mappings. Same accepted language, not two new ones. |
-| NA06 | 6 | US profile pilots: Alutiiq first, Grand Ronde Chinuk Wawa second | 0/2 supported core;10/19 mapped core;86/142 forms | Match source spellings to exact community/dialect orthography; hold mixed historical systems and unresolved rules. Small measured scope, useful unsupported-variety recovery. |
-| NA07 | 7 | Missing identity/source acquisition, with US/Canada representation | Nizaviguiti196 rows/193 supplied; Miluk and Canadian sources unmeasured | Investigate Nizaviguiti community identity without guessing a neighbouring code; establish Miluk lexical reuse/reading; resolve Northern Haida source terms before acquisition. New-language count remains unpromised. |
+| ID | Priority | Exact work | Baseline / first gate |
+| --- | ---: | --- | --- |
+| NB01 | 1 | Recover Bribri original phonetic evidence, rather than re-admitting converted rows | `chi-bribri`93/161;26 held Pache candidates. Compare Chevrier2017/raw values against normalized tone, nasalization and alternatives. Implement an explicitly guarded original-reading migration only where authority establishes each reading. Remaining ranking potential is held evidence, not26 ready admissions. |
+| NB02 | 2 | US coverage: Southern Paiute and Hopi | `uto-southern-paiute`121/161, up to27 gaps from `utoaztecan_SouthernPaiute`; `uto-hopi`92/161, up to21 from `utoaztecan_Hopi`. Review exact regional authorities, stress/phonemic conventions and source senses. Keep original prosody visible; compare existing evidence before choosing rows. |
+| NB03 | 3 | Canadian profile pilot: Mi’kmaq source-system review | `alg-mi-kmaq`38/161; up to11 missing spelling concepts from `wikt_mic`. Verify Francis–Smith versus other spelling systems and exact pronunciation authority before a bounded profile. Smaller coverage ceiling, but useful Canadian representation; do not infer dialect or surface pronunciation from Latin letters alone. |
+| NB04 | 4 | Extend the Tseltal subset through original morphological/glottal evidence | `may-tzeltal`99/161, primary dictionary profile established. Review held vowel-initial roots versus prefixes, compounds and source dialect metadata. Measure genuinely new concepts before extending; do not treat the earlier88-spelling ceiling as remaining gain. |
 
-All ceilings are **unreviewed** and may shrink. Source members overlap. Source
-segments can reflect converted notation rather than independently certified IPA.
-The recommended sequence combines quick coverage, quality corrections, GLED
-reduction and longer source research; the tasks need not have equal yields.
+Do not promote unreviewed historical Ópata47 or Johansson Kwak’wala45 purely
+because they top the additive rank. Their original transcription/sample gates
+remain necessary. Recording-only Totontepec is not a spelling-profile candidate.
+Miluk/Haida acquisition cases remain held until source-specific new evidence
+arrives; unchanged licensing/classification holds are not a fresh proposal.
 
-## Current evidence
+## Evidence
 
-* [Regional ranking](north_america_opportunities_2026-10-28.csv):306 alternatives.
-* [GLED replacement screen](north_america_gled_screen_2026-10-28.csv):221 member
-  alternatives, zero net-positive replacements from supplied segments alone.
-* [Member audit](north_america_member_audit_2026-10-28.csv): placeholder counts,
-  source versions, exact selectors and redistribution terms.
-* [Summary/source hashes](north_america_planning_summary_2026-10-28.json).
-* [Held register](planning/HELD.md): identity, notation and source-access gates.
+* [Updated ranking](north_america_expansion_opportunities_2026-10-28.csv) and
+  [method/counts](north_america_expansion_opportunities_2026-10-28.json):6811 member
+  opportunities,611 South American and303 North American. These overlap and
+  are not linguistic certification. Unlinked community identities are excluded
+  from automatic cross-source matching; a shared blank code is not identity.
+* [Latest results](north_america_expansion_summary_2026-10-28.json).
+* [Held register](planning/HELD.md), including current Bribri/Tseltal/profile gates.
+* [Initial regional investigation](NORTH_AMERICA_INVESTIGATION_2026-10-28.md)
+  retains the original prospective baselines; it is no longer the execution queue.
 
 ## Parked South American proposals
 
 P01 Marinahua; P02 compared Kokama sources; P03 Yukpa/Camsá; P04 Johansson
-transcription-convention audit remain proposed. They are not completed or
-cancelled; the user's current regional focus takes priority. Their prior
-baselines/gates are retained in the preceding source-led planning commit and
-summarized in the new investigation. Re-rank against accepted output when resumed.
+transcription audit remain proposed, not completed or cancelled. Re-rank and
+recheck original source/sense gates when that regional focus resumes.
 
-## Queue lifecycle
+## Lifecycle
 
-**Proposed → reviewing → completed/held.** Mark execution when instructed to
-proceed. Keep proposed/reviewing work here; move results to dated reports/history
-and holds to the held register with reopening evidence. Update STATUS, NEXT, HELD,
-packets/recipes, journal and memory at closure. Historical ceilings are not gains.
+**Proposed → reviewing → completed/held.** Execute after an instruction to proceed.
+Move results to dated history, holds to their evidence register, and update STATUS,
+packets, recipes, journal and memory at closure. Preserve measured gains separately
+from raw ceilings, named varieties separately from distinct-language claims, and
+recordings separately from lexical forms. Batch size follows evidence.

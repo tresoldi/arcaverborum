@@ -45,6 +45,8 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
               [dict(Parameter_ID='p', decision='retain', rationale='Reviewed English sense; not native certification')])
     write_csv(tmp_path / 'intake/lexibank/languages.csv',
               [dict(ID='L', Name='Native sample label', Glottolog_Name='Catalog label')])
+    write_csv(tmp_path / 'varieties/demo/generated/recordings.csv',
+              [dict(av_id='demo', source_form_id='audio', source='source', raw_marker='►')])
     base = dict(source_language_id='L', av_id='demo', concept_id='bod-head', Form='a',
                 Segments='a', Segments_Source='profile',
                 transcription_source='source', source_form_id='one', source_parameter_id='p',
@@ -62,6 +64,9 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     assert variety['supported_core'] == 1  # Synonyms must not inflate concept coverage.
     assert variety['statuses'] == {'profile': 1, 'unclean': 1, 'source': 1}
     assert variety['core_metrics']['forms'] == 2
+    assert variety['recordings'] == 1
+    assert manifest['recordings']['records'] == 1
+    assert (output / 'recordings.csv').exists()
     assert variety['core_metrics']['concept_ids'] == ['bod-head']
     assert variety['source_counts'] == {'source': 2, 'supplement': 1}
     assert variety['concept_ids'] == ['bod-head', 'phy-water']
