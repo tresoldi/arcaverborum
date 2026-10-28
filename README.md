@@ -12,6 +12,11 @@ historical-linguistic dataset.
 > (Full / Curated / Expert-Cognates) is fully replaced. New here? Start
 > with `ONBOARDING.md`; for the documentation map see `docs/README.md`.
 
+For the current dataset and next priorities, read [STATUS](docs/STATUS.md) and
+[NEXT](docs/NEXT.md). The [coverage-planning workflow](docs/workflows/arca-coverage-planning/SKILL.md)
+records how to turn “what could be next?” into an evidence-backed batch and
+maintain the queue afterwards.
+
 ## Layout
 
 ```
@@ -37,8 +42,8 @@ varieties/<av_id>/              one dir per variety (tracked)
 output/aggregate/               (gitignored) union across enrolled varieties
 
 src/arcaverborum/               package code
-  catalog.py · score.py · selection.py · phonology.py
-  variety.py · aggregate.py · report.py · tracking.py · avid.py · explore.py
+  catalog.py · score.py · supplements.py · phonology.py
+  variety.py · aggregate.py · forms_schema.py · tracking.py · avid.py · explore.py
   concepts.py · concept_audit.py · concepticon.py
   sources/{lexibank,gled,wiktionary,glottolog,concepticon}.py
   data/{score_weights.yaml, selection.csv, family_codes.csv, varieties.csv,

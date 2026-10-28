@@ -4,8 +4,10 @@ This guide is for a local checkout that already has the tracked repo state.
 Generated products under `varieties/*/generated/`, `intake/`, `raw/`, and
 `output/` are intentionally not part of the committed source of truth.
 
-Read this first and check `docs/JOURNAL.md` for the latest handoff, then use `docs/README.md` to choose the relevant design
-specification.
+Read [STATUS](docs/STATUS.md) for the accepted baseline and [NEXT](docs/NEXT.md)
+for proposed work. Use [the planning workflow](docs/workflows/arca-coverage-planning/SKILL.md)
+when choosing an expansion batch, [the journal](docs/JOURNAL.md) for handoff
+history, and [the documentation map](docs/README.md) for technical references.
 
 ## 1. Project Shape
 
@@ -24,7 +26,7 @@ Arca-derived layers and computed/curated cognates when they are reviewed.
 ```
 fetch     -> raw/<source>/...                         downloaded; gitignored
 ingest    -> intake/<source>/{forms,languages,...}    normalized intake; gitignored
-bootstrap -> varieties/<av_id>/config.yaml            tracked source choices
+register/curate -> varieties/<av_id>/config.yaml       tracked source choices
 update    -> varieties/<av_id>/generated/forms.csv    generated; gitignored
 aggregate -> output/aggregate/...                     generated; gitignored
 report    -> output/report/curation.*                 generated; gitignored
@@ -52,9 +54,11 @@ pip install ../merkmal            # from the local sibling checkout, or
 pip install "merkmal @ git+https://github.com/tresoldi/merkmal.git"
 ```
 
+For a fresh checkout, run from its root. On this workstation, preserve the
+existing `.venv` and its local merkmal installation and use `.venv/bin/python`.
+
 ```bash
-cd /home/tiagot/repos/arcaverborum
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -e .
 pip install -e ../merkmal/python
@@ -69,10 +73,10 @@ specific reviewed reason.
 
 ## 4. Common Commands
 
-Build or refresh all generated data from available intake:
+Build or refresh the affected accepted constructions from available intake:
 
 ```bash
-python build.py update --all
+python build.py update <accepted-av-id> [<accepted-av-id> ...]
 python build.py aggregate
 python build.py report
 python explore.py index
@@ -109,29 +113,23 @@ python build.py concepts
 python build.py concepts --mint
 ```
 
-## 5. Current Baseline
+## 5. Current Baseline and Planning
 
-As of the latest depth batch, 2026-10-28:
+[STATUS](docs/STATUS.md) maintains the accepted counts, data commit, verification,
+latest evidence pointers and publication state. [NEXT](docs/NEXT.md) maintains
+proposed tasks; [HELD](docs/planning/HELD.md) records reopening evidence.
+Update these when a batch closes rather than copying historical metrics here.
 
-* 7,314 accepted varieties and 2,067,553 forms;
-* 1,743,820 source-supported and 13,648 profile-supported forms;
-* 465,902 supported and 539,995 mapped core-concept slots;
-* 901 Core-source collection varieties; 1,578 GLED primary selections.
+The [coverage-planning workflow](docs/workflows/arca-coverage-planning/SKILL.md)
+connects discovery, identity/source/sense gates, execution and closure. Dated
+reports are indexed in [history](docs/history/README.md).
 
-The latest five-track South American batch adds 399 forms and 312 supported
-slots across nine existing constructions, including documented Panará/Apinayé
-profiles and two further GLED primary replacements. Earlier evidence is retained
-separately. No new language is admitted this round; missing-language cases have
-explicit identity, lexical-evidence or transcription holds. See
-[the journal](docs/JOURNAL.md) and [report](docs/SOUTH_AMERICA_DEPTH_2026-10-28.md).
-
-Frozen Jê source: scripts/stage_je_original.py --fetch --write-profiles.
-Fresh intake can append this complete namespace once. An existing namespace
-requires scripts/expand_source_intake.py with a complete staged source and the
-expected preceding form count; only additions and count metadata may change,
-with all earlier evidence/citation/license/version/bibliography preserved.
-The documented251→371 migration cannot be repeated with251 after it succeeds.
-Never subset-ingest active intake or append an existing namespace as new.
+Frozen Jê source reproduction uses scripts/stage_je_original.py --fetch
+--write-profiles. Fresh intake can append the complete namespace once. An
+existing namespace requires scripts/expand_source_intake.py with a complete
+stage and the actual preceding form count. Earlier rows, citations, license,
+version and bibliography remain unchanged. The earlier251→371 migration has
+already succeeded; never replay its old count or subset-ingest active intake.
 
 ## 6. Source Policy
 

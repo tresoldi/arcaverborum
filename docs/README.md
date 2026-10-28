@@ -1,88 +1,56 @@
-# Documentation Map
+# Documentation map
 
-Start with the root `README.md` for the project overview and
-`ONBOARDING.md` for local setup and common workflows.
+## Start here
 
-## Current handoff
+| Need | Read |
+| --- | --- |
+| Current accepted dataset, metrics and publication evidence | [STATUS](STATUS.md) |
+| What could be next, with evidence and first gates | [NEXT](NEXT.md) |
+| Repeatable planning and batch closure | [Coverage-planning workflow](workflows/arca-coverage-planning/SKILL.md) |
+| Why a candidate is held and what would reopen it | [Held-work register](planning/HELD.md) |
+| Environment, build commands and operational constraints | [ONBOARDING](../ONBOARDING.md) |
+| Domain vocabulary and architecture | [CONTEXT](../CONTEXT.md) |
+| Completed batches and dated evidence | [History index](history/README.md) |
+| Chronological decisions and handoffs | [Journal](JOURNAL.md) |
 
-* [South American depth](SOUTH_AMERICA_DEPTH_2026-10-28.md): Mastanahua,
-  Tupinambá/Tupian additions, scoped Jê profiles, GLED replacements and explicit
-  missing-language holds; [latest triage](south_america_depth_opportunities_2026-10-28.csv).
+STATUS and NEXT are maintained at batch closure. The planning workflow is a
+repository-local skill-style procedure, routed from [AGENTS.md](../AGENTS.md).
+Per-variety `PACKET.md` and `recipe.yaml` explain the accepted construction;
+configs and guarded `custom/*` implement it. Dated reports retain their original
+paths and observations; the history index gives them context.
 
-* [South American coverage](SOUTH_AMERICA_COVERAGE_2026-10-28.md): Guaraní/Hoti/
-  Yurutí, Arawakan and Tupian additions, documented GLED replacements and Ingain;
-  [latest ranking](south_america_opportunities_2026-10-28.csv).
+## Technical references
 
-* [Amazonian expansion](AMAZONIAN_EXPANSION_2026-10-27.md): Amahuaca, Puinave,
-  Arawakan supplements, dictionary/profile work and original-source Bangru;
-  [latest ranking](amazonian_expansion_opportunities_2026-10-27.csv).
+| Reference | Scope |
+| --- | --- |
+| [Build specification](BESTOF_SPECIFICATION.md) | Per-variety build, source/config/custom mechanics; current supplementation note included |
+| [Concept specification](CONCEPTS_SPECIFICATION.md) | Frozen IDs, definitions and Concepticon mapping/drift |
+| [Curation workflow specification](CURATION_WORKFLOW_SPECIFICATION.md) | Design direction; original diagnostic baseline is historical |
+| [Curation machinery](CURATION_MACHINERY.md) | Descriptive recipes/packets and their relationship to enforced config/custom files |
+| [Research explorer](RESEARCH_EXPLORER.md) and [web README](../web/README.md) | Current All-accepted explorer, provenance, exports, maps and publication checks |
+| [Core v0.1.0 release specification](RELEASE_SPECIFICATION.md) | Archived release design, distinct from the live Core-source collection preset |
 
-* [Coverage batch](COVERAGE_BATCH_2026-10-27.md): dictionary senses, American
-  supplements, missing-language screening, Iquito source-scoped profile and a
-  [ranked opportunity report](coverage_opportunities_2026-10-27.csv).
+Use build/concept specifications alongside current code and source-specific
+packets. Older design intentions and historical counts do not override accepted
+configs, guarded ledgers or current generated evidence.
 
-* [Journal and working memory](JOURNAL.md): decisions, current metrics, verification,
-  held evidence and next opportunities (updated 2026-10-28).
-* [Americas coverage follow-up](AMERICAS_COVERAGE_FOLLOWUP_2026-10-27.md): latest
-  five-track batch, evidence and reproduction.
-* [Data expansion](DATA_EXPANSION_2026-10-27.md): preceding expansion batch.
+## Evidence and tools by task
 
-## Project Specs
+* **Additive coverage:** latest ranking is linked from STATUS;
+  `scripts/rank_coverage_opportunities.py` refreshes member-level discovery.
+* **GLED primary replacement:** `scripts/rank_gled_replacements.py`, followed by
+  exact-member, gain/loss and preservation review. Source additions alone do not
+  count as primary replacements.
+* **Dictionary/profile review:** source-specific scripts such as
+  `galician_dictionary.py`, `iquito_profile.py` and `stage_je_original.py`;
+  inspect their packets and authored ledgers before regenerating profiles.
+* **Concept/source drift:** `build.py concepts`, `audit_core_pilots.py`,
+  `audit_source_refresh.py` and source-specific guarded review compilers.
+* **Safe intake changes:** stage outside active intake. `append_source_intake.py`
+  handles a new namespace; `expand_source_intake.py` handles strictly additive
+  expansion with immutable earlier evidence. Other changes need reviewed migrations.
+* **Publication:** rebuild accepted output, aggregate and `web/data/`, then use
+  the checks in the web README. Pages publishes committed artifacts.
 
-* `BESTOF_SPECIFICATION.md` describes the current per-variety build
-  mechanics: source selection as implemented today, config/custom file
-  schemas, scoring, phonology, output schema, and curation report.
-* `CONCEPTS_SPECIFICATION.md` describes Arca's frozen concept catalog,
-  `concept_id` design, Concepticon mapping, and concept drift audit.
-* `CURATION_WORKFLOW_SPECIFICATION.md` describes the planned language
-  curation workflow: authority recipes, curation packets, Arca-derived
-  layers, computed cognates, tier metadata, source-policy direction, and
-  pilot scope.
-* `coverage_recovery_2026-10-23.csv` records the review of 34 apparently
-  unregistered lexical-source slices, including accepted additions,
-  duplicate samples, family-level identifiers, and unresolved identities.
-  Language-specific profile decisions and pronunciation evidence live in
-  each variety's `PACKET.md` and `recipe.yaml`.
-
-Run `python scripts/audit_coverage.py` after refreshing the intake store to
-rank remaining alternatives to GLED. Its metrics describe uncorrected intake,
-so inspect curation packets and applied profiles before accepting a source.
-For Galician, `scripts/galician_dictionary.py` records exact dictionary
-pronunciation evidence and produces a dictionary-only profile; unresolved
-spellings remain unclean rather than receiving guessed pronunciations.
-Its core selection respects accepted concept corrections and preserves
-previously recorded pronunciations when a sense moves out of the core.
-
-The 2026-10-24 core-sense audit is recorded in the five profile pilots'
-`custom/core_review.csv` files. `scripts/audit_core_pilots.py --write-maps`
-compiles those decisions; running without flags checks rebuilt output and
-source drift. Individual translation corrections have guarded source-form IDs
-and supporting evidence in `custom/form_review.csv`. See each `PACKET.md`
-for corrected coverage, unresolved senses and remaining recovery work.
-
-## Reading Order
-
-For normal development:
-
-1. `ONBOARDING.md`
-2. `BESTOF_SPECIFICATION.md`
-3. The module or test relevant to the change
-
-For concept work:
-
-1. `CONCEPTS_SPECIFICATION.md`
-2. `src/arcaverborum/concepts.py`
-3. `src/arcaverborum/concept_audit.py`
-
-For language curation planning:
-
-1. `CURATION_WORKFLOW_SPECIFICATION.md`
-2. `BESTOF_SPECIFICATION.md`
-3. The current `output/report/curation.csv` generated locally
-
-## Current vs Planned Behavior
-
-`BESTOF_SPECIFICATION.md` documents behavior that exists today.
-`CURATION_WORKFLOW_SPECIFICATION.md` documents the agreed direction for the
-next curation layer. When the two differ, treat the curation workflow as a
-planning target, not as implemented behavior.
+The held register routes to dated candidate decisions. Detailed per-form admit/
+hold judgments stay in their original ledgers rather than being copied here.

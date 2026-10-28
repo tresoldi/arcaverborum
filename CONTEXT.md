@@ -3,7 +3,8 @@
 This document is the domain glossary and architectural map for agents and
 contributors working on the codebase. Read it before touching code; update
 it when the domain language changes. Current session decisions and operational
-handoff are maintained in [docs/JOURNAL.md](docs/JOURNAL.md).
+handoff are maintained in [docs/JOURNAL.md](docs/JOURNAL.md). Current metrics
+live in [STATUS](docs/STATUS.md); proposed work lives in [NEXT](docs/NEXT.md).
 
 
 ## What Arca Verborum is
@@ -40,14 +41,14 @@ Use these terms when naming things in code, commits, and conversation.
 | **intake** | Normalized, source-prefixed CSVs produced by ingest from raw CLDF data. The common input format for the build. |
 | **profile** | An orthographic profile (`custom/profile.tsv`): a grapheme→IPA table replacing re-segmentation within a reviewed source scope; supplemental profiles use guarded whole-form keys. |
 | **segments** | Space-separated IPA tokens for a form, validated by merkmal. |
-| **segments source** | How the segments were obtained: `source` (valid source IPA), `profile` (orthographic profile), `resegmented` (re-tokenized from the form string), or `unclean` (failed validation). |
-| **tier** | Quality band: gold / silver / bronze / copper. Derived from source quality scoring. |
+| **segments source** | How the segments were obtained: `source` (validated supplied transcription, with original conventions retained), `profile` (documented derived reading), `resegmented` (re-tokenized form string), or `unclean` (unresolved validation). Token validity is not independent pronunciation verification. |
+| **tier** | Quality band recorded in the accepted config: gold / silver / bronze / copper. Per-form scores and transcription evidence are separate diagnostics. |
 | **pin** | A manually fixed source choice for a variety (overrides automatic selection). |
-| **recipe** | The authority recipe (`recipe.yaml`): a structured record of a variety's accepted construction, produced by the packet scaffolder. |
+| **recipe** | The authority recipe (`recipe.yaml`): a descriptive record of a variety's accepted construction, authored or scaffolded then reviewed. Enforced choices remain in config/custom files. |
 | **packet** | The curation packet (`PACKET.md`): a human-readable summary of a variety's current state for a curator. |
 | **aggregate** | The union of all per-variety `generated/forms.csv` files into `output/aggregate/`. |
 | **release** | A versioned, CLDF-compatible dataset sliced from the aggregate (CORE families only). |
-| **CORE** | The 13 curated source families flagged in `datasets.csv`; the release includes only CORE data. |
+| **Core-source collection** | Sources flagged `CORE=TRUE` in `datasets.csv`; the live explorer filters lexical rows by this membership. It is distinct from the 161-concept vocabulary and archived Core v0.1.0 release. |
 | **merkmal** | External library for IPA phonology: segment validation, tokenization, feature extraction, tone handling. The phonological backbone. |
 | **Glottolog** | External authority for language classification (Glottocodes, families, macroareas, coordinates). |
 | **Concepticon** | External authority for cross-linguistic concept sets (Concepticon IDs, glosses, semantic fields). |
@@ -117,7 +118,6 @@ both ID spaces follow the same `<3-char-code>-<slug>[-qualifier]` pattern.
 |---|---|---|
 | `catalog` | Build variety catalog from intake + Glottolog + overrides | `build_catalog()`, `Variety` |
 | `score` | Two-block quality scoring (forms + cognates) | `compute_signals_for_group()`, `score_forms_block()` |
-| `selection` | Source auto-selection with pin overrides | `select_all()`, `Selection` |
 
 ### Per-variety build
 
@@ -148,9 +148,6 @@ both ID spaces follow the same `<3-char-code>-<slug>[-qualifier]` pattern.
 | Module | Role | Notes |
 |---|---|---|
 | `schema` | Column tuples and structural dataclasses | Pure definitions, no logic |
-| `validation` | Statistical accumulator for dataset QA | Possibly vestigial — not called from current pipeline |
-| `report` | Selection report JSON assembly | Companion to `selection`; not called from `build.py` |
-| `util` | Formatting and JSON helpers | Possibly unused |
 
 
 ## CLI entry points
@@ -167,7 +164,9 @@ fingerprinting, concept resolution), not a shallow dispatcher.
 ## Key design decisions
 
 1. **One construction per variety.** Arca picks one source per variety and
-   optionally layers corrections on top. It does not merge multiple sources.
+   adds explicit corrections and individually reviewed source supplements. Each
+   row keeps its own source identity and cognacy scope; sources are not pooled
+   automatically.
 
 2. **Frozen IDs.** Both `av_id` (varieties) and `concept_id` (concepts)
    are assigned once and never re-keyed. External authority drift
@@ -183,25 +182,29 @@ fingerprinting, concept resolution), not a shallow dispatcher.
    are kept verbatim for later recovery, not discarded.
 
 5. **Orthographic profiles over re-segmentation.** When a profile exists,
-   it is authoritative for the variety; form-level re-segmentation is not
-   attempted as a fallback.
+   it is authoritative within its reviewed source scope; form-level
+   re-segmentation is not attempted as a fallback. Primary and supplemental
+   profiles are separate.
 
-6. **merkmal as the phonological backbone.** All IPA validation,
+6. **merkmal as the phonological backbone.** IPA validation,
    segmentation, canonicalization, and tone handling go through merkmal's
    `descriptive` system.
 
 7. **No framework for the web explorer.** Vanilla JS + sql.js + Leaflet.
-   The SQLite database is the same one the console explorer uses.
+   The current browser loads a lightweight catalog and family shards into an
+   in-browser SQLite worker. Console indexing and the archived Core explorer
+   are separate products; see `web/README.md`.
 
 
-## Known structural issues
+## Maintenance boundaries
 
-- **Private-function coupling.** `variety.py` and `build.py` import
-  `aggregate._form_quality_score`, `aggregate._load_parameter_index`, and
-  `aggregate.FORMS_OUT_FIELDS`. These are shared infrastructure used as
-  private functions.
-
-- **Potentially dead modules.** `selection.py`, `report.py`, `util.py`,
-  and `validation.py` appear to not be called from the current `build.py`
-  pipeline. They may represent an earlier architecture phase or be used by
-  offline scripts not in the repo.
+- Shared form schema, quality and parameter helpers live in `forms_schema.py`;
+  the build imports that public module. Older private-coupling notes are obsolete.
+- Legacy bootstrap scripts reference a removed selection module. Review/repair
+  that path before using it to recreate configs; normal curation updates accepted
+  configs and guarded custom data directly.
+- Planning specifications contain historical diagnostics and intended mechanisms.
+  Use STATUS, current code and per-variety packets to establish implemented state.
+- The repeatable planning procedure is
+  [coverage-planning](docs/workflows/arca-coverage-planning/SKILL.md); it keeps
+  completed work and held candidates from resurfacing as fresh proposals.

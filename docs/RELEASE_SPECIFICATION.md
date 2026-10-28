@@ -1,9 +1,14 @@
 # Release Specification — Arca Verborum Core v0.1.0
 
-Status: **scoped, ready to implement** (2026-08-22). Defines the first
+Historical scope: **Core v0.1.0 design** (2026-08-22). Defines the first
 downloadable Arca Verborum dataset release. See
 `CURATION_WORKFLOW_SPECIFICATION.md` for the broader curation model and
 `CURATION_MACHINERY.md` for authority recipes/packets.
+
+The Core-only browser is now archived at `web/core.html`. The active research
+explorer covers all accepted varieties with a row-level Core-source preset;
+see [STATUS](STATUS.md) and [the explorer reference](RESEARCH_EXPLORER.md).
+The scope and future milestones below describe the original release plan.
 
 ## Product
 

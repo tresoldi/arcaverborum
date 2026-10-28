@@ -7,9 +7,14 @@ as an individual scholarly object. This document defines the planning model
 for that work. It is intentionally descriptive for now; it does not by
 itself change build behavior.
 
-## Current Baseline
+## Historical design diagnostics
 
-As of the latest local aggregate reviewed for this specification:
+The following numbers record the baseline used when this specification was
+written. Current metrics, accepted mechanisms and proposed tasks are maintained
+in [STATUS](STATUS.md), [NEXT](NEXT.md) and the
+[planning workflow](workflows/arca-coverage-planning/SKILL.md).
+
+In that historical aggregate:
 
 * The aggregate contains 7,308 varieties and 2,007,699 forms.
 * Segment status is approximately 85.0% source/profile clean, with 105,410
@@ -78,16 +83,18 @@ The intended policy is:
 
 Source replacement decisions should be reviewed and durable. The compact
 source-of-truth for an intentional source choice should be a reviewed pin,
-currently represented by `src/arcaverborum/data/selection.csv`. Per-variety
-`config.yaml` files may reflect that choice, but should not become the only
-place where source-choice policy is recorded.
+originally proposed through `src/arcaverborum/data/selection.csv`. Current
+accepted source choices are enforced in per-variety `config.yaml` with exact
+member selectors and pins; packets/recipes explain the decision. Treat the
+whitelist proposal as design history, not a second admission mechanism.
 
 ## Curation Packets
 
 Improving a language should produce a structured curation packet rather
 than ad hoc edits. The durable packet should be file-based and live in the
 repo. A project-level spec lives under `docs/`; per-language packets should
-live in a tracked curation area to be decided.
+live in `varieties/<av_id>/PACKET.md`, with `recipe.yaml` and guarded `custom/*`
+evidence. This location has now been implemented.
 
 Each packet should have a human-readable Markdown report as its entry
 point. Optional machine-readable sidecar files may hold proposed changes:

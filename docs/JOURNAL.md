@@ -1,5 +1,43 @@
 # Project journal and working memory
 
+## 2026-10-28 — Documentation and repeatable coverage planning
+
+Documentation-only maintenance; accepted data baseline remains data commit
+b2ba04ca,7,314varieties/2,067,553forms/465,902supported core slots,1,578GLED
+primaries. No lexical admissions, source changes or web-data rebuild in this task.
+
+New maintained entry points:
+
+* [STATUS](STATUS.md): current metrics, authoritative summary/artifact pointers,
+  data commit, recorded verification/publication and ranking limitations.
+* [NEXT](NEXT.md): active proposed queue, exact source members, potential versus
+  verified gains, first gates, alternatives and lifecycle.
+* [Held register](planning/HELD.md): cross-batch blockers and concrete reopening
+  evidence, routing to original ledgers/packets rather than repeating their rows.
+* [History](history/README.md): completed reports and dated discovery snapshots.
+* [Planning workflow](workflows/arca-coverage-planning/SKILL.md): repository-local
+  skill-style procedure, routed by new root AGENTS.md. No global installation.
+
+README, ONBOARDING and documentation index route to these entries. Current
+baseline counts have one maintained prose home in STATUS. Corrected CONTEXT's
+obsolete no-supplements/browser-database/private-helper notes; labelled original
+design diagnostics/selection policies and release milestones as historical.
+Legacy bootstrap still references a removed selection module: recorded as a
+maintenance boundary, not repaired during this documentation task.
+
+Proposed N01–N05: Lule (up to45candidate gaps), Carapana38, Warázu/Yuqui/Mbyá
+35/34/33, non-core Panará/Apinayé vocabulary (unmeasured), original-source
+acquisition for missing South American languages (no admission quota). All
+remain proposed, not accepted data. Completed tasks leave NEXT; held cases reopen
+on new relevant evidence. Future batches update STATUS/NEXT/HELD/history/journal
+and packets at closure. The additive ranking excludes primary-source recovery;
+its overlapping counts do not cover every kind of opportunity.
+
+Validation: skill-format validator passed;109local links checked across13entry
+points/references; current baseline and seven proposed/alternative source-member
+opportunities checked against catalog/summary/ranking; whitespace checks passed.
+No runtime code or lexical artifacts changed.
+
 ## 2026-10-28 — South American depth, scoped Jê profiles and admission screening
 
 Current baseline: **7,314 varieties /2,067,553 forms**; 1,743,820 supplied-source

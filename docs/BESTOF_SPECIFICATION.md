@@ -9,36 +9,48 @@ curation workflow, including authority recipes, Arca-derived layers, and the
 intended source-priority revision, lives in
 `docs/CURATION_WORKFLOW_SPECIFICATION.md`.
 
+## Current supplementation and planning entry points
+
+Current accepted builds use explicit config source/member selections and guarded
+custom data. An accepted construction can combine its primary with individually
+reviewed source supplements (`custom/supplements.csv`); each row retains its
+source identity, semantics, transcription status and cognacy scope. Supplemental
+profiles are separately scoped and hashed. See `src/arcaverborum/supplements.py`
+and the current [coverage workflow](workflows/arca-coverage-planning/SKILL.md).
+
+Historical automatic selection/priority/tier policies below are original design
+context. The legacy bootstrap path currently references a removed selection
+module; it is not the active mechanism for accepting a curation batch. The
+build consumes config/custom choices, and recipes/packets document them.
+[STATUS](STATUS.md) and [NEXT](NEXT.md) hold the current baseline and priorities.
+
 ## Design constraints
 
 1. **One accepted construction per variety.** The current build emits one
    selected construction for each variety. In the implemented v1 mechanics,
-   transcription columns come from one selected source; cognate columns are
-   emitted from the same per-variety build path, with cross-source
-   reconciliation reserved for later.
-2. **Two scored blocks.** Forms-block and cognates-block quality are scored
-   independently. Today a source is eligible for the cognates block only
-   when it also provides forms for the variety.
+   the primary transcription comes from one selected source, with guarded
+   additive source supplements. Source-specific cognacy is retained separately;
+   cross-source cognate reconciliation remains reserved for later.
+2. **Two quality dimensions.** Config records forms and cognate scores;
+   per-form quality is computed through `forms_schema.py`. A separate configured
+   cognate-source label does not imply reconciled cross-source judgments.
 3. **Variety = av_id.** `av_id` is Arca's frozen primary key, assigned in
    `src/arcaverborum/data/varieties.csv`. It normally has the form
    `<family_code>-<name_slug>`, e.g. `ine-latin`; Glottocode remains a
    mapped external column.
-4. **Pins beat the score.** `src/arcaverborum/data/selection.csv` is the
-   manual whitelist. Unpinned varieties auto-select the highest-scoring
-   source.
+4. **Explicit accepted sources.** Current builds read the selected source,
+   exact member filters and pinned status from `config.yaml`. The historical
+   `selection.csv` whitelist and automatic ranking policy do not replace a
+   reviewed config/custom admission.
 5. **Custom data extends source data per-column.**
    `varieties/<av_id>/custom/transcriptions.csv` overrides specific
    columns by `source_form_id` or `Concepticon_ID`; empty cells leave
    the source value intact.
-6. **All sources compete, with a priority floor.** Every Lexibank
-   dataset, GLED, and Wiktionary is a candidate. Current implemented
-   source priority is Lexibank = 1, GLED = 2, Wiktionary = 3. Selection
-   restricts to the most-preferred priority tier that has a candidate,
-   then ranks by composite score within it. Fallback picks never exceed
-   `copper`. This priority order is known to be a planning mismatch: the
-   intended curation policy is curated lexical sources first, Wiktionary as
-   an important fallback and research entry point, and GLED only as
-   last-resort scaffolding.
+6. **Historical automatic priority policy.** The original selector used
+   Lexibank = 1, GLED = 2, Wiktionary = 3, then composite scores within a
+   priority tier. This describes the original selection design. Current curation
+   prefers strong lexical evidence, treats Wiktionary as a research/fallback
+   source, and reduces GLED dependence through reviewed config/custom choices.
 7. **Variety dirs are config-only by default.** `register` writes just
    `config.yaml`; `custom/*.csv` templates are scaffolded on demand
    (`build.py extend`). Missing custom files mean "no extension".
@@ -52,7 +64,10 @@ varieties/<av_id>/
 │   ├── transcriptions.csv     col override; matched by source_form_id
 │   ├── forms.csv              additive new rows
 │   ├── cognates.csv           per-source_form_id cognate overrides
-│   └── concept_map.csv        per-Parameter_ID Concepticon fixes
+│   ├── concept_map.csv        per-Parameter_ID Concepticon fixes
+│   ├── supplements.csv        reviewed, guarded source-form admissions
+│   ├── profile.tsv            primary source profile
+│   └── supplement_profiles/  source-specific supplemental profiles
 └── generated/
     └── forms.csv              gitignored — written by build.py update
 ```
@@ -68,10 +83,10 @@ varieties/<av_id>/
 | `sources.transcription` | str | dataset name from intake |
 | `sources.cognates` | str | dataset name; usually equals transcription |
 | `extensions.transcriptions` etc. | bool | true if `custom/*.csv` has rows |
-| `scoring.forms_score` | float [0,1] | auto-computed |
-| `scoring.cognates_score` | float [0,1] | auto-computed |
+| `scoring.forms_score` | float [0,1] | accepted construction base score |
+| `scoring.cognates_score` | float [0,1] | accepted cognacy assessment |
 | `scoring.tier` | str | gold/silver/bronze/copper |
-| `pinned` | bool | true = whitelisted, source choice locked |
+| `pinned` | bool | reviewed/manual source-selection marker |
 | `notes` | str | free-form |
 
 ### Custom CSV schemas
