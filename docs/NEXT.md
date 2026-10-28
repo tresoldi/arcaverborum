@@ -70,18 +70,20 @@ remain necessary. Recording-only Totontepec is not a spelling-profile candidate.
 Miluk/Haida acquisition cases remain held until source-specific new evidence
 arrives; unchanged licensing/classification holds are not a fresh proposal.
 
-## Evidence
+## Historical evidence for parked regions
 
-* [Updated ranking](romance_expansion_opportunities_2026-10-28.csv) and
+Current results and rankings are linked in the AF/AX section above.
+
+* [Prior Romance ranking](romance_expansion_opportunities_2026-10-28.csv) and
   [method/counts](romance_expansion_opportunities_2026-10-28.json):6810 member
   opportunities,611 South American and303 North American. These overlap and
   are not linguistic certification. Unlinked community identities are excluded
   from automatic cross-source matching; a shared blank code is not identity.
-* [Latest accepted results](romance_expansion_summary_2026-10-28.json).
+* [Prior Romance results](romance_expansion_summary_2026-10-28.json).
 * [Ancient baseline](ancient_baseline_2026-10-28.csv),
   [member subset](ancient_opportunities_2026-10-28.csv), and
   [qualified-scope screen](ancient_qualified_scope_screen_2026-10-28.json):
-  prospective evidence; accepted data unchanged.
+  original planning evidence, superseded by the accepted ancient batch.
 * [Held register](planning/HELD.md), including current Bribri/Tseltal/profile gates.
 * [Initial regional investigation](NORTH_AMERICA_INVESTIGATION_2026-10-28.md)
   retains the original prospective baselines; it is no longer the execution queue.
