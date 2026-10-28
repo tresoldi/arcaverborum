@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-28",
+  "language": "Apolista / Lapachu",
+  "glottocode": "apol1242",
+  "decision": "hold",
+  "new_language_admissions": 0,
+  "new_variety_admissions": 0,
+  "source": "Ramirez, Henri; França, Maria Cristina Victorino de. 2019. Línguas Arawak da Bolívia. LIAMES19:e019012. Sections10.1–10.2, pp57–60.",
+  "doi": "10.20396/liames.v19i0.8655045",
+  "download_url": "https://periodicos.sbu.unicamp.br/ojs/index.php/liames/article/download/8655045/21356/58674",
+  "sha256": "d590bda6f4ea23f2ad3834d97e016d4efe660ef319bdab6bea31bedd3641b50c",
+  "local_research_copy": "raw/curation/apolista/ramirez-franca2019.pdf",
+  "original_lexical_authority": "Créqui-Montfort, Georges de; Rivet, Paul. 1913. La langue Lapaču ou Apolista. Zeitschrift für Ethnologie45:512–531; Nordenskiöld field material. Distinct from Montaño Aragón1987 material.",
+  "inspected_evidence": "Acquired full author publication; read sections10.1–10.2 and historical vocabulary. Modern study explicitly separates two incompatible Apolista collections, challenges the later collection, and discusses heterogeneous earlier material. Historical spelling such as hu-, j-, alternatives and personal prefixes is not a certified IPA inventory.",
+  "reason": "No defensible sample-wide reading or reconciled lexical identity: do not merge later and earlier collections or infer IPA from historical transcription. A catalog identity does not validate each collection. No rows admitted and no source license inferred from catalog license.",
+  "reopen_when": "Acquire and collate the original1913 collection against the manuscript/transcription key; independently review a defensible pronunciation subset, original senses and sample identity; establish applicable redistribution terms before materializing lexical rows. Preserve disputed later material separately as unaccepted evidence.",
+  "other_leads": [
+    {"language": "Charrúa", "status": "bibliographic lead only", "reference": "Schuller1917, The only known words of the Charrúa language of Rio de La Plata, pp552–554", "next_gate": "Acquire original pages and transcription authority; a modern web glossary does not establish original readings or reuse terms."},
+    {"language": "Puquina", "status": "bibliographic lead only", "next_gate": "Acquire original Oré1607 lexical context and a documented reading; devotional text or toponyms alone do not establish a mapped wordlist."}
+  ]
+}

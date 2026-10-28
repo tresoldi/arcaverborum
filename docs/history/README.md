@@ -11,6 +11,7 @@ Newest completed batches first. Each report links its decisions and metrics.
 
 | Report | Work recorded |
 | --- | --- |
+| [Source-led N01–N05](../SOURCE_LED_EXPANSION_2026-10-28.md) | +269 forms/+164 supported core slots; broader Jê non-core vocabulary; Lule and Apolista evidence holds |
 | [South American depth, 2026-10-28](../SOUTH_AMERICA_DEPTH_2026-10-28.md) | Mastanahua, Tupinambá and four Tupian constructions; Panará/Apinayé profiles and GLED replacements; Ingain numerals; six missing-language holds |
 | [South American coverage, 2026-10-28](../SOUTH_AMERICA_COVERAGE_2026-10-28.md) | Guaraní/Hoti/Yurutí, Arawakan/Tupian supplements; Xerénte/Xavánte replacements; Ingain admission |
 | [Amazonian expansion, 2026-10-27](../AMAZONIAN_EXPANSION_2026-10-27.md) | Amahuaca, Puinave, Apurinã/Resígaro/Baré, dictionary work and original-source Bangru |

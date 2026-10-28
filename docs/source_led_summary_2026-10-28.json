@@ -1,0 +1,124 @@
+{
+  "before": {
+    "varieties": 7314,
+    "forms": 2067553,
+    "source_forms": 1743820,
+    "profile_forms": 13648,
+    "supported_core_slots": 465902,
+    "mapped_core_slots": 539995,
+    "gled_primary_varieties": 1578,
+    "core_collection_varieties": 901
+  },
+  "after": {
+    "varieties": 7314,
+    "forms": 2067822,
+    "source_forms": 1743997,
+    "profile_forms": 13740,
+    "supported_core_slots": 466066,
+    "mapped_core_slots": 540159,
+    "gled_primary_varieties": 1578,
+    "core_collection_varieties": 904
+  },
+  "change": {
+    "varieties": 0,
+    "forms": 269,
+    "source_forms": 177,
+    "profile_forms": 92,
+    "supported_core_slots": 164,
+    "mapped_core_slots": 164,
+    "gled_primary_varieties": 0,
+    "core_collection_varieties": 3
+  },
+  "constructions": [
+    {
+      "av_id": "car-waimiri-atroari",
+      "before_forms": 204,
+      "after_forms": 235,
+      "before_supported_core": 89,
+      "after_supported_core": 120,
+      "source_counts": {
+        "huntergatherer": 204,
+        "mattercariban": 31
+      }
+    },
+    {
+      "av_id": "tuc-carapana",
+      "before_forms": 295,
+      "after_forms": 337,
+      "before_supported_core": 114,
+      "after_supported_core": 151,
+      "source_counts": {
+        "huntergatherer": 295,
+        "hubercolumbian": 42
+      }
+    },
+    {
+      "av_id": "tup-warazu",
+      "before_forms": 236,
+      "after_forms": 270,
+      "before_supported_core": 102,
+      "after_supported_core": 136,
+      "source_counts": {
+        "gerarditupi": 236,
+        "tuled": 34
+      }
+    },
+    {
+      "av_id": "tup-yuqui",
+      "before_forms": 195,
+      "after_forms": 231,
+      "before_supported_core": 93,
+      "after_supported_core": 125,
+      "source_counts": {
+        "gerarditupi": 195,
+        "tuled": 36
+      }
+    },
+    {
+      "av_id": "tup-mbya-guarani",
+      "before_forms": 239,
+      "after_forms": 273,
+      "before_supported_core": 101,
+      "after_supported_core": 131,
+      "source_counts": {
+        "gerarditupi": 239,
+        "tuled": 34
+      }
+    },
+    {
+      "av_id": "nub-panara",
+      "before_forms": 70,
+      "after_forms": 90,
+      "before_supported_core": 54,
+      "after_supported_core": 54,
+      "source_counts": {
+        "gerardije2025": 59,
+        "gled": 31
+      }
+    },
+    {
+      "av_id": "nub-apinaye",
+      "before_forms": 120,
+      "after_forms": 192,
+      "before_supported_core": 82,
+      "after_supported_core": 82,
+      "source_counts": {
+        "gerardije2025": 151,
+        "gled": 40,
+        "wiktionary": 1
+      }
+    }
+  ],
+  "new_varieties": [],
+  "gled_primary_replacements": [],
+  "verification": {
+    "pytest_passed": 417,
+    "earlier_records_preserved": 1359,
+    "accepted_outputs_fresh": 7314,
+    "je_old_source_rows_preserved": 371,
+    "je_new_source_rows": 92,
+    "new_language_admissions": 0,
+    "earlier_je_review_rows_unchanged": 549,
+    "artifact_hashes_verified": 400
+  }
+}

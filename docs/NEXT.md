@@ -1,61 +1,45 @@
 # Active expansion queue
 
-Updated 2026-10-28 against the [current accepted baseline](STATUS.md).
-All entries below are **proposed**, awaiting source/identity/sense review and
-user authorization to execute. This documentation task makes no lexical admissions.
-Use [the workflow](workflows/arca-coverage-planning/SKILL.md) to refresh this queue.
+Updated 2026-10-28 against [STATUS](STATUS.md). The authorized N01–N05 batch is
+completed in the [source-led report](SOURCE_LED_EXPANSION_2026-10-28.md).
+Lule and Apolista evidence is in [HELD](planning/HELD.md), not active admissions.
+The tasks below are **proposed, not authorized for execution**. Follow the
+[planning workflow](workflows/arca-coverage-planning/SKILL.md).
 
-## Recommended next batch
+## Recommended next work
 
-| ID | Priority | Task | Current evidence | First decision gate |
-| --- | --- | --- | --- | --- |
-| N01 | 1 | Lule coverage and source-quality review | 79/161 supported core; up to 45 candidate gaps from `johanssonsoundsymbolic_Lule` | Trace the original lexical authority and verify transcription conventions, then review each missing sense. Valid tokens alone do not establish high-quality IPA. |
-| N02 | 2 | Carapana supplements | 114/161; up to 38 gaps from `hubercolumbian_Carapana` | Verify the exact sample and original senses, including body parts, spatial terms and old-property versus old-person. |
-| N03 | 3 | Warázu, Yuqui and Mbyá Guaraní | Respectively 102/93/101 supported core; up to 35/34/33 candidate gaps from TuLeD | Review exact `Warazu`, `Yuki`, `Mbya` members and source-specific alternatives; keep egg and other narrow senses unresolved until established. |
-| N04 | 4 | Broader Jê vocabulary beyond the core | Panará/Apinayé currently have deliberately core-only study slices; source and scoped profiles are already documented | Review non-core source senses and POS against frozen definitions before extending exact-form profiles. No gain estimate yet. |
-| N05 | 5 | Original-source acquisition for missing South American languages | Latest screen produced six holds and zero admissions | Find attributable, redistributable lexical rows outside the unchanged four-source screen; produce an admissible packet or a concrete evidence-backed hold. |
+| ID | Priority | Exact task | Current evidence and first gate |
+| --- | --- | --- | --- |
+| P01 | 1 | Marinahua: `pan-marinahua` / `amazonianvoices_marinawa` | 78/161 supported core; up to30 candidate missing concepts. Review exact recording/sample, original senses and CC BY-NC terms before compiling supplements. Recommended sparse South American target. |
+| P02 | 2 | Kokama: `tup-cocama-cocamilla` / `tuled_Kokama` and `gerarditupi_Kokama` | 116/161; ceilings31 and27 overlap. Compare lexical authorities and exact samples first; admit the better evidence once per gap, preserving legitimate alternatives. Broader accepted Cocama-Cocamilla identity needs explicit scope. |
+| P03 | 3 | Yukpa and Camsá: `car-yukpa` / `hubercolumbian_Yukpa`; `cam-camsa` / `hubercolumbian_Kamsa` | 122/119 supported core, up to28/27 gaps. Verify original Huber–Reed lexical contexts and narrow senses. Adds family/geographic balance beyond the Tupian work. |
+| P04 | 4 | Audit Johansson transcription conventions in accepted South American constructions | N01 found feature transformations in a source counted as supplied transcription. Inventory actual accepted uses; compare representative raw spelling, converted form, original authority and source paper. Decide any reclassification through a separately reviewed migration with losses reported. No blanket deletion or preclaimed improvement. |
 
-N01–N03 are drawn from the latest [member ranking](south_america_depth_opportunities_2026-10-28.csv),
-not independent linguistic certification. Their numbers are ceilings from existing
-mappings, not expected or promised yields. N04 is outside that ranking's primary-
-source/profile scope. N05 has a research outcome, without a quota of new languages.
-Do not sum overlapping alternatives or require a fixed five-track batch in future.
+Reserve the next original-source acquisition effort for a genuinely missing
+South American language with a usable modern description/lexicon and explicit
+reuse terms. First establish actual lexical rows, exact identity and a reading
+key; do not repeat unchanged Apolista/Jeikó/Malali holds or inflate dialect counts.
+This research is unmeasured and has no admission quota. The latest historical
+acquisition packet provides leads and precise blockers, not ready-to-import data.
 
-### Candidate identities and evidence
+## Evidence and tradeoffs
 
-| ID | Accepted construction / exact source member | Evidence to open first |
-| --- | --- | --- |
-| N01 | `lul-lule` / `johanssonsoundsymbolic_Lule` | Ranking row, config, packet if present, original references and raw source transcription notes |
-| N02 | `tuc-carapana` / `hubercolumbian_Carapana` | Ranking row, Huber–Reed source concepts/references, current generated forms |
-| N03 | `tup-warazu` / `tuled_Warazu`; `tup-yuqui` / `tuled_Yuki`; `tup-mbya-guarani` / `tuled_Mbya` | TuLeD exact members, pinned intake version, raw lexical citations, current construction and cognacy scopes |
-| N04 | `nub-panara`, `nub-apinaye` / frozen `gerardije2025` study | [Depth report](SOUTH_AMERICA_DEPTH_2026-10-28.md), source manifest/review, packets, original TSV and phonological references |
-| N05 | Independently identified missing language; no predetermined admission | [Held register](planning/HELD.md), source screen hashes, original publication/deposit and language identity evidence |
+[Updated member ranking](source_led_opportunities_2026-10-28.csv) and
+[method/counts](source_led_opportunities_2026-10-28.json):6814 member opportunities,
+611 South American. These are unreviewed ceilings, not linguistic certification;
+member totals overlap. The ranking excludes primary-source profile recovery.
+Lule remains numerically first but is held on transcription evidence. Jamamadi
+requires broader Madi/sample identity reconciliation; Taushiro's Johansson
+representation should wait for the convention audit.
 
-For each task record the selected source version, baseline, inspected candidates,
-admissions/holds, realized gains and validation in its review/packet. Replace
-potential numbers with measured results when a task closes.
-
-## Alternatives if a task fails its first gate
-
-* `car-waimiri-atroari`: 89 supported core, up to 31 candidate gaps from
-  `mattercariban_wmr`; source identity and semantic review still required.
-* `pan-marinahua`: 78 supported core, up to 30 candidate gaps from
-  `amazonianvoices_marinawa`; retain the recording/sample scope and CC BY-NC terms.
-* Madi/Jamamadi has a ranked opportunity, but the broader accepted identity and
-  exact Jamamadi sample require reconciliation before coverage claims.
-
-Prefer a new source or well-supported sparse construction when the gate cannot
-be resolved. Record the failed gate and the evidence needed to reopen it.
+The recommendation combines sparse coverage, compared sources and a quality audit.
+Acquisition has greater potential diversity benefit but greater research cost and
+uncertain yield; a defensible held outcome remains preferable to invented IPA.
 
 ## Queue lifecycle
 
-Statuses: **proposed → reviewing → completed** or **held**. Mark work reviewing
-when execution starts. Keep active proposed/reviewing work here. Completed work
-moves to a dated batch report and the [history index](history/README.md); a held
-case moves to [HELD.md](planning/HELD.md) with a specific reopening condition.
-A completed data task is not a candidate merely because an old ranking lists it.
-
-At batch closure update STATUS, this queue, held cases, journal, packets/recipes
-and relevant evidence pointers. Re-evaluate the ordering from the new baseline;
-remove or replace completed IDs rather than copying the previous proposal.
-No data task is currently in progress.
+**Proposed → reviewing → completed/held.** Mark execution when authorized; retain
+only proposed/reviewing work here. Move results to a dated report/history and holds
+to the held register with explicit reopening evidence. At closure update STATUS,
+NEXT, HELD, packets/recipes, journal and local memory. Check accepted outputs before
+re-proposing a historical candidate. Batch size follows evidence, not a fixed quota.

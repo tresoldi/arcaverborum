@@ -1,0 +1,10 @@
+av_id: car-waimiri-atroari
+review:
+  status: draft
+  date: '2026-10-28'
+source_led_expansion_2026_10_28:
+  member: mattercariban_wmr
+  review: docs/coverage_n01_waimiri_review_2026-10-28.csv
+  admitted_forms: 31
+  supported_core: 120/161
+  enforcement: custom/supplements.csv

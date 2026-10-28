@@ -44,3 +44,25 @@ Bangru and Ingain were admitted from documented sources; they are completed
 admissions, not continuing missing-language blockers. Four Jê GLED replacements
 are also complete: Xerénte, Xavánte, Panará and Apinayé. Their remaining held
 readings do not undo the accepted subsets.
+
+## Source-led batch N01–N05 — 2026-10-28
+
+* **Lule / johanssonsoundsymbolic_Lule v1.1:**45 candidates deferred. The study's
+  sound-symbolism representation and historical spelling do not independently
+  establish IPA. Reopen after collating Maccioni2008[1732] original entries and
+  transcription authority into a documented exact-sample reading. Valid j/z
+  tokens are insufficient. Existing Chaco output is unchanged. [Review](../coverage_n01_lule_review_2026-10-28.csv).
+* **Apolista / apol1242:** original-source acquisition produced zero admissions.
+  Ramirez & França2019 sections10.1–10.2 distinguish Nordenskiöld and later
+  Montaño Aragón collections and challenge later material. Reopen only with
+  original1913 collation, reading key, identity reconciliation and applicable
+  redistribution terms. Never merge the two collections by name. [Hashed acquisition packet](../coverage_n05_acquisition_2026-10-28.json).
+* **Carapana old-man; TuLeD generic eggs, Yuqui/Mbyá old scope, Mbyá person vaʔe:**
+  source context must establish the frozen broad sense; see batch review CSVs.
+* **Jê non-core:**16 additional rows held for original semantic/POS context.
+  Indigenous rattle does not meet the frozen football-rattle definition; a future
+  concept proposal could preserve the instrument without forcing that mapping.
+  Earlier178 holds remain unchanged; total194 held rows. The guarded authored
+  review records each row and condition.
+
+[Completed batch and all decisions](../SOURCE_LED_EXPANSION_2026-10-28.md).

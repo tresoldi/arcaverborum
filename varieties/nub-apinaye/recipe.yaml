@@ -24,3 +24,8 @@ construction:
     source: source-scoped
     notes: Original judgments retained independently; Jê automatic IDs are provenance
       only.
+non_core_expansion_2026_10_28:
+  additional_forms: 72
+  ledger: src/arcaverborum/data/je_original_review.csv
+  namespace_forms: 463
+  preserved_namespace_forms: 371

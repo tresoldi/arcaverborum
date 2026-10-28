@@ -29,3 +29,15 @@ which forbids changes/removals to earlier forms/languages/parameters, changes to
 license/citation/version/bibliography, and checks the expected baseline count.
 Only new rows and source count metadata are added; replacement failures roll back.
 Never subset-ingest active intake or append an existing namespace as new.
+
+## Non-core source-led expansion — 2026-10-28
+
+Added 20 non-core study forms; current total 90. Existing core coverage and
+primary selection remain unchanged. The frozen source is expanded371→463 forms
+with `expand_source_intake.py --expected-old-forms371`; all371 earlier forms and
+all earlier languages, parameters, citations and source version remain intact.
+Authored row hashes, senses and exact scoped readings remain in
+`src/arcaverborum/data/je_original_review.csv`; profiles are compiled from it.
+Unresolved road/path, brother, throat and other sense distinctions stay held.
+A football-rattle definition is explicitly rejected for the Indigenous instrument.
+Automatic cognacy is provenance only. See the source-led batch report.

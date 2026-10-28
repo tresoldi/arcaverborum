@@ -50,7 +50,7 @@ with sync_playwright() as p:
     # A dictionary profile applies to its source only, with derived status exported.
     route.update(view="variety", id="zap-iquito", collection="all")
     page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
-    page.wait_for_function("document.querySelector('#app').textContent.includes('Supplemental lexical source')")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Lexical and transcription evidence')")
     with page.expect_download() as download:
         page.locator("#exportcsv").click()
     iquito = list(csv.DictReader(open(download.value.path())))
@@ -61,7 +61,7 @@ with sync_playwright() as p:
     assert not any(r["Segments_Source"] == "profile" for r in iquito if r["transcription_source"] == "huntergatherer")
     route.update(id="gub-sikuani")
     page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
-    page.wait_for_function("document.querySelector('#app').textContent.includes('Supplemental lexical source')")
+    page.wait_for_function("document.querySelector('#app').textContent.includes('Lexical and transcription evidence')")
     with page.expect_download() as download:
         page.locator("#exportcsv").click()
     sikuani = list(csv.DictReader(open(download.value.path())))
@@ -80,8 +80,8 @@ with sync_playwright() as p:
     assert all('"speaker": "A"' in r["Comment"] and "pdf_sha256" in r["Comment"] for r in bangru)
     # Primary replacement preserves GLED evidence and isolates its new profile.
     for aid, total, derived, legacy in [("nub-xerente", 159, 120, 38), ("nub-xavante", 154, 107, 46),
-                                        ("nub-ingain", 26, 26, 0), ("nub-panara", 70, 39, 31),
-                                        ("nub-apinaye", 120, 79, 40)]:
+                                        ("nub-ingain", 26, 26, 0), ("nub-panara", 90, 59, 31),
+                                        ("nub-apinaye", 192, 151, 40)]:
         route.update(id=aid)
         page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
         page.wait_for_function(
@@ -102,10 +102,15 @@ with sync_playwright() as p:
         assert not any(r["Segments_Source"] == "profile" for r in lexical
                        if r["transcription_source"] != "gerardije2025")
     for aid, total, counts in [("pan-mastanahua", 63, {"amazonianvoices": 37}),
-                                ("tup-tupinamba", 320, {"tuled": 49, "lundgrenomagoa": 28})]:
+                                ("tup-tupinamba", 320, {"tuled": 49, "lundgrenomagoa": 28}),
+                                ("tuc-carapana", 337, {"hubercolumbian": 42}),
+                                ("car-waimiri-atroari", 235, {"mattercariban": 31}),
+                                ("tup-warazu", 270, {"tuled": 34})]:
         route.update(id=aid)
         page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
-        page.wait_for_function("document.querySelector('#app').textContent.includes('Supplemental lexical source')")
+        page.wait_for_function(
+            "document.querySelector('#app').textContent.includes('Lexical and transcription evidence')"
+        )
         with page.expect_download() as download:
             page.locator("#exportcsv").click()
         lexical = list(csv.DictReader(open(download.value.path())))

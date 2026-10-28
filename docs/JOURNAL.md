@@ -1,5 +1,27 @@
 # Project journal and working memory
 
+## 2026-10-28 — Source-led N01–N05 expansion
+
+Executed the five authorized tasks in order. +269 forms/+164 supported core slots,
+7,314 varieties/2,067,822 forms/466,066 supported core slots;1,578 GLED primaries
+unchanged.31 Waimiri-Atroari fallback forms,42 Carapana,104 across Warázu/Yuqui/Mbyá,
+92 non-core Panará/Apinayé study forms.177 supplied and92 profile readings.
+
+Lule's45 Johansson candidates are held: sound-symbolism representations do not
+establish historical phonemic readings. Apolista original-source acquisition
+found incompatible collections and a published authenticity challenge; zero new
+languages admitted. Recorded hashed publication, original1913 reference and
+reopening gates. Source licenses/cognacy/sample identity remain explicit.
+
+Jê expanded371→463 with strict additive staging; all371 earlier lexical rows,
+all549 earlier review decisions and earlier metadata/citations retained. Profiles
+use existing scoped rules only. New semantic holds include a rattle mapped to the
+wrong instrument definition. Earlier1,359 affected accepted records preserved.
+
+Report/metrics/decisions: SOURCE_LED_EXPANSION_2026-10-28.md and source_led_summary.
+STATUS/NEXT/HELD/history and packets/recipes updated. Next queue is proposed,
+not automatically authorized. Publication checks recorded in STATUS at closure.
+
 ## 2026-10-28 — Documentation and repeatable coverage planning
 
 Documentation-only maintenance; accepted data baseline remains data commit

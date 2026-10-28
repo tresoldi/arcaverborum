@@ -1,0 +1,10 @@
+av_id: tup-yuqui
+review:
+  status: draft
+  date: '2026-10-28'
+source_led_expansion_2026_10_28:
+  member: tuled_Yuki
+  review: docs/coverage_n03_tuled_review_2026-10-28.csv
+  admitted_forms: 36
+  supported_core: 125/161
+  enforcement: custom/supplements.csv
