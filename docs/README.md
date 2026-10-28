@@ -5,6 +5,10 @@ Start with the root `README.md` for the project overview and
 
 ## Current handoff
 
+* [South American depth](SOUTH_AMERICA_DEPTH_2026-10-28.md): Mastanahua,
+  Tupinambá/Tupian additions, scoped Jê profiles, GLED replacements and explicit
+  missing-language holds; [latest triage](south_america_depth_opportunities_2026-10-28.csv).
+
 * [South American coverage](SOUTH_AMERICA_COVERAGE_2026-10-28.md): Guaraní/Hoti/
   Yurutí, Arawakan and Tupian additions, documented GLED replacements and Ingain;
   [latest ranking](south_america_opportunities_2026-10-28.csv).

@@ -1,0 +1,147 @@
+{
+  "before": {
+    "varieties": 7314,
+    "forms": 2067154,
+    "source_forms": 1743541,
+    "profile_forms": 13528,
+    "supported_core_slots": 465590,
+    "mapped_core_slots": 539683,
+    "gled_primary_varieties": 1580,
+    "core_collection_varieties": 896
+  },
+  "after": {
+    "varieties": 7314,
+    "forms": 2067553,
+    "source_forms": 1743820,
+    "profile_forms": 13648,
+    "supported_core_slots": 465902,
+    "mapped_core_slots": 539995,
+    "gled_primary_varieties": 1578,
+    "core_collection_varieties": 901
+  },
+  "change": {
+    "varieties": 0,
+    "forms": 399,
+    "source_forms": 279,
+    "profile_forms": 120,
+    "supported_core_slots": 312,
+    "mapped_core_slots": 312,
+    "gled_primary_varieties": -2,
+    "core_collection_varieties": 5
+  },
+  "constructions": [
+    {
+      "av_id": "pan-mastanahua",
+      "before_forms": 26,
+      "after_forms": 63,
+      "before_supported_core": 21,
+      "after_supported_core": 58,
+      "source_counts": {
+        "panobodyparts": 26,
+        "amazonianvoices": 37
+      }
+    },
+    {
+      "av_id": "tup-tupinamba",
+      "before_forms": 243,
+      "after_forms": 320,
+      "before_supported_core": 103,
+      "after_supported_core": 154,
+      "source_counts": {
+        "gerarditupi": 243,
+        "lundgrenomagoa": 28,
+        "tuled": 49
+      }
+    },
+    {
+      "av_id": "tup-tenharim-parintintin-diahoi",
+      "before_forms": 227,
+      "after_forms": 271,
+      "before_supported_core": 98,
+      "after_supported_core": 138,
+      "source_counts": {
+        "gerarditupi": 227,
+        "tuled": 44
+      }
+    },
+    {
+      "av_id": "tup-urubu-kaapor",
+      "before_forms": 230,
+      "after_forms": 270,
+      "before_supported_core": 99,
+      "after_supported_core": 137,
+      "source_counts": {
+        "gerarditupi": 230,
+        "tuled": 40
+      }
+    },
+    {
+      "av_id": "tup-parakana",
+      "before_forms": 228,
+      "after_forms": 268,
+      "before_supported_core": 96,
+      "after_supported_core": 132,
+      "source_counts": {
+        "gerarditupi": 228,
+        "tuled": 40
+      }
+    },
+    {
+      "av_id": "tup-wayampi",
+      "before_forms": 346,
+      "after_forms": 387,
+      "before_supported_core": 118,
+      "after_supported_core": 156,
+      "source_counts": {
+        "huntergatherer": 346,
+        "tuled": 41
+      }
+    },
+    {
+      "av_id": "nub-panara",
+      "before_forms": 31,
+      "after_forms": 70,
+      "before_supported_core": 30,
+      "after_supported_core": 54,
+      "source_counts": {
+        "gerardije2025": 39,
+        "gled": 31
+      }
+    },
+    {
+      "av_id": "nub-apinaye",
+      "before_forms": 41,
+      "after_forms": 120,
+      "before_supported_core": 36,
+      "after_supported_core": 82,
+      "source_counts": {
+        "gerardije2025": 79,
+        "gled": 40,
+        "wiktionary": 1
+      }
+    },
+    {
+      "av_id": "nub-ingain",
+      "before_forms": 24,
+      "after_forms": 26,
+      "before_supported_core": 16,
+      "after_supported_core": 18,
+      "source_counts": {
+        "gerardije2025": 26
+      }
+    }
+  ],
+  "new_varieties": [],
+  "gled_primary_replacements": [
+    "nub-panara",
+    "nub-apinaye"
+  ],
+  "verification": {
+    "pytest_passed": 416,
+    "earlier_records_preserved": 1396,
+    "accepted_outputs_fresh": 7314,
+    "je_old_source_rows_preserved": 251,
+    "je_new_source_rows": 120,
+    "new_language_admissions": 0
+  }
+}

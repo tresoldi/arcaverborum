@@ -29,20 +29,29 @@ def row_hash(row):
     return hashlib.sha256(json.dumps(row, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
 
 
-def conservative_reading(raw):
-    """Leave ambiguous Macro-Jê letters/allophones unresolved, including c/j/r/y.
+def conservative_reading(raw, doculect=""):
+    """Read unambiguous symbols, with separately documented language scopes.
 
     Already explicit IPA symbols retain their broad source value; no surface
     allophony or vowel precision beyond that source representation is inferred.
+    The default leaves c/j/r/y unresolved; scoped mappings never generalize to
+    other doculects or choose between slash alternatives.
     """
     allowed = set("p b t d k g m n ŋ ɲ ɾ h s z ç w ʔ a i u ə ɛ ɔ ɨ ɘ ẽ õ".split())
     allowed |= {unicodedata.normalize("NFC", v + mark) for v in "aiuəɛɔɨɘ" for mark in ("̃", "ː", "̃ː")}
     allowed |= {"ẽː", "õː"}
     allowed.add("+")
     tokens = unicodedata.normalize("NFC", raw).split()
-    if not tokens or any(t not in allowed for t in tokens):
+    # These language-specific readings are separately documented. They never
+    # generalize to the other Macro-Jê samples or expand slash alternatives.
+    scoped = {
+        "Panará": {"j": "j", "ĭ": "ĭ"},
+        "Apinayé": {"c": "t͡ʃ", "r": "ɾ", "j": "j", "ñ": "ɲ", "ê": "e", "ô": "o", "ə̂": "ɘ", "y": "ɨ", "ỹ": "ɨ̃"},
+        "Ingain": {"ɾi": "ɾ i", "kəɾ": "k ə ɾ"},
+    }.get(doculect, {})
+    if not tokens or any(t not in allowed and t not in scoped for t in tokens):
         return ""
-    result = " ".join(tokens)
+    result = " ".join(scoped.get(t, t) for t in tokens)
     return result if segments_are_valid(result) else ""
 
 
@@ -69,7 +78,7 @@ def reviewed_rows(originals, reviews, concepts, languages):
             raise ValueError("Jê sample or sense identity changed")
         if row["decision"] == "hold":
             continue
-        reading = conservative_reading(row["raw_value"])
+        reading = conservative_reading(row["raw_value"], row["doculect"])
         if row["decision"] != "admit" or not reading or reading != row["ipa_segments"] or not row["rationale"]:
             raise ValueError("Unreviewed Jê reading")
         concept = concepts[row["concept_id"]]

@@ -111,24 +111,27 @@ python build.py concepts --mint
 
 ## 5. Current Baseline
 
-As of the latest coverage batch, 2026-10-28:
+As of the latest depth batch, 2026-10-28:
 
-* 7,314 accepted varieties and 2,067,154 forms;
-* 1,743,541 source-supported and 13,528 profile-supported forms;
-* 465,590 supported and 539,683 mapped core-concept slots;
-* 896 Core-source collection varieties; 1,580 GLED primary selections.
+* 7,314 accepted varieties and 2,067,553 forms;
+* 1,743,820 source-supported and 13,648 profile-supported forms;
+* 465,902 supported and 539,995 mapped core-concept slots;
+* 901 Core-source collection varieties; 1,578 GLED primary selections.
 
-The latest five-track South American batch added 700 forms and 472 supported
-slots, admitted Ingain, and replaced GLED as primary for Xerénte and Xavánte
-while retaining their earlier evidence as separately attributed supplements.
-Of the additions, 449 retain supplied segments and 251 use exact-form broad
-phonemic profiles. See [the journal](docs/JOURNAL.md) and
-[batch report](docs/SOUTH_AMERICA_COVERAGE_2026-10-28.md).
+The latest five-track South American batch adds 399 forms and 312 supported
+slots across nine existing constructions, including documented Panará/Apinayé
+profiles and two further GLED primary replacements. Earlier evidence is retained
+separately. No new language is admitted this round; missing-language cases have
+explicit identity, lexical-evidence or transcription holds. See
+[the journal](docs/JOURNAL.md) and [report](docs/SOUTH_AMERICA_DEPTH_2026-10-28.md).
 
-Frozen Jê source reproduction: scripts/stage_je_original.py --fetch
---write-profiles; stage/validate first, append the new namespace only on first
-installation, then rebuild intake-db. Never subset-ingest active intake or
-append a namespace twice. See the report for the guarded source/provenance policy.
+Frozen Jê source: scripts/stage_je_original.py --fetch --write-profiles.
+Fresh intake can append this complete namespace once. An existing namespace
+requires scripts/expand_source_intake.py with a complete staged source and the
+expected preceding form count; only additions and count metadata may change,
+with all earlier evidence/citation/license/version/bibliography preserved.
+The documented251→371 migration cannot be repeated with251 after it succeeds.
+Never subset-ingest active intake or append an existing namespace as new.
 
 ## 6. Source Policy
 

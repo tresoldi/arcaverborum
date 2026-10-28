@@ -1,0 +1,30 @@
+[
+  {
+    "repo": "lexibank/amazonianvoices",
+    "sha": "8af0f5dbce88cf979bca280173aaccce5edd9e63",
+    "language_table_sha256": "3606ef6c5bf6f253ee0f44adeebf41d5fc1dcb8ebcb06c6f2b46a717cf34a270",
+    "members": 27,
+    "new_south_american_canonical_members": 0
+  },
+  {
+    "repo": "lexibank/hubercolumbian",
+    "sha": "53b584403e232e3d69b6125c24151f606bf1088b",
+    "language_table_sha256": "c83aea9aac8ca8fd1013ac166d6263cafff39ef1d60f9183cf94d7ba186d76e7",
+    "members": 69,
+    "new_south_american_canonical_members": 0
+  },
+  {
+    "repo": "tupian-language-resources/tuled",
+    "sha": "91c20e199ad3963d41c8987ac59431c4706f7645",
+    "language_table_sha256": "490c25af1b4ae68d2a04e8b83d6bdf3c8cbbf96b79248844e0dd607f95d81006",
+    "members": 89,
+    "new_south_american_canonical_members": 0
+  },
+  {
+    "repo": "intercontinental-dictionary-series/idssegmented",
+    "sha": "3374498b56f7dd1d7b70fda1f3fe66f9a9e87fa3",
+    "language_table_sha256": "4a721423a54064280fade80f0f305f258f5d326fcc3302b1a139834cf969007b",
+    "members": 268,
+    "new_south_american_canonical_members": 0
+  }
+]

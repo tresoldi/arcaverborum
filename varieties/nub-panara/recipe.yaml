@@ -1,0 +1,26 @@
+av_id: nub-panara
+name: Panará
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-28'
+quality:
+  forms_score: 0.7
+  cognates_score: 0
+  tier: bronze
+  pinned: true
+construction:
+  lexical_base:
+    source: gerardije2025
+    source_language_id: gerardije2025_Panara
+    rationale: Reviewed source construction with separate original-source supplements.
+  transcription:
+    strategy: documented source-specific exact-form broad phonemic profile
+  concepts:
+    mapping: reviewed
+    core_coverage: 54/161
+    ledger: src/arcaverborum/data/je_original_review.csv
+  cognates:
+    source: source-scoped
+    notes: Original judgments retained independently; Jê automatic IDs are provenance
+      only.

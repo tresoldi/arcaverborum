@@ -80,7 +80,8 @@ with sync_playwright() as p:
     assert all('"speaker": "A"' in r["Comment"] and "pdf_sha256" in r["Comment"] for r in bangru)
     # Primary replacement preserves GLED evidence and isolates its new profile.
     for aid, total, derived, legacy in [("nub-xerente", 159, 120, 38), ("nub-xavante", 154, 107, 46),
-                                        ("nub-ingain", 24, 24, 0)]:
+                                        ("nub-ingain", 26, 26, 0), ("nub-panara", 70, 39, 31),
+                                        ("nub-apinaye", 120, 79, 40)]:
         route.update(id=aid)
         page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
         page.wait_for_function(
@@ -100,10 +101,26 @@ with sync_playwright() as p:
             assert cross["concept_id"] == "mot-traverse" and "atravessar" in cross["Comment"]
         assert not any(r["Segments_Source"] == "profile" for r in lexical
                        if r["transcription_source"] != "gerardije2025")
+    for aid, total, counts in [("pan-mastanahua", 63, {"amazonianvoices": 37}),
+                                ("tup-tupinamba", 320, {"tuled": 49, "lundgrenomagoa": 28})]:
+        route.update(id=aid)
+        page.goto(url + "#s=" + quote(json.dumps(route)), wait_until="networkidle")
+        page.wait_for_function("document.querySelector('#app').textContent.includes('Supplemental lexical source')")
+        with page.expect_download() as download:
+            page.locator("#exportcsv").click()
+        lexical = list(csv.DictReader(open(download.value.path())))
+        assert len(lexical) == total
+        for source_name, count in counts.items():
+            selected = [r for r in lexical if r["transcription_source"] == source_name]
+            assert len(selected) == count and all(r["Segments_Source"] == "source" for r in selected)
+        if aid == "tup-tupinamba":
+            tuled = {r["concept_id"] for r in lexical if r["transcription_source"] == "tuled"}
+            lundgren = {r["concept_id"] for r in lexical if r["transcription_source"] == "lundgrenomagoa"}
+            assert not tuled & lundgren
     assert not errors, errors
     print(
         "PASS: mixed-source provenance, separate IPA alternatives, stable pronunciation IDs, "
         "Core isolation, corrected dictionary attribution, source-scoped profile, "
-        "South American supplements, original-source Bangru, GLED replacements and Ingain"
+        "South American supplements, original-source Bangru, Jê profile isolation, GLED replacements and Ingain"
     )
     browser.close()

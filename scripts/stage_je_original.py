@@ -14,13 +14,19 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def compile_profiles(root, *, write=False):
     reviews = read(root / "src/arcaverborum/data/je_original_review.csv")
-    targets = {"Xerénte": "nub-xerente", "Xavánte": "nub-xavante", "Ingain": "nub-ingain"}
+    targets = {
+        "Xerénte": "nub-xerente",
+        "Xavánte": "nub-xavante",
+        "Ingain": "nub-ingain",
+        "Panará": "nub-panara",
+        "Apinayé": "nub-apinaye",
+    }
     for name, aid in targets.items():
         entries = {}
         for row in reviews:
             if row["doculect"] != name or row["decision"] != "admit":
                 continue
-            ipa = conservative_reading(row["raw_value"])
+            ipa = conservative_reading(row["raw_value"], row["doculect"])
             if not ipa or ipa != row["ipa_segments"]:
                 raise ValueError("Unreviewed profile value")
             key = "^" + row["source_form"] + "$"

@@ -1,0 +1,26 @@
+av_id: tup-urubu-kaapor
+name: Urubú-Kaapor
+review:
+  status: draft
+  reviewer: ''
+  date: '2026-10-28'
+quality:
+  forms_score: 0.9429
+  cognates_score: 1.0
+  tier: bronze
+  pinned: false
+construction:
+  lexical_base:
+    source: gerarditupi
+    source_language_id: ''
+    rationale: Reviewed source construction with separate original-source supplements.
+  transcription:
+    strategy: source plus guarded supplements
+  concepts:
+    mapping: reviewed
+    core_coverage: 137/161
+    ledger: docs/south_america_depth_2026-10-28_track3.csv
+  cognates:
+    source: source-scoped
+    notes: Original judgments retained independently; Jê automatic IDs are provenance
+      only.

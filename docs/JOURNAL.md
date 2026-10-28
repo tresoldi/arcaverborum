@@ -1,5 +1,68 @@
 # Project journal and working memory
 
+## 2026-10-28 — South American depth, scoped Jê profiles and admission screening
+
+Current baseline: **7,314 varieties /2,067,553 forms**; 1,743,820 supplied-source
+forms,13,648 profile forms, **465,902 supported core slots**,539,995 mapped
+slots. This batch adds **399 forms /312 supported slots**, across nine existing
+constructions. **No new language admission this round**: unresolved identity,
+missing lexical rows and transcription cases remain held. GLED primaries
+**1,580→1,578**; Core-source membership896→901 as five constructions gain TuLeD
+rows. Frozen concepts3,787; Asturian82 supported core unchanged.
+
+All five tracks completed:
+
+1. Mastanahua:37 supplied Amazonian Voices forms /37 gaps, core21→58,
+   forms26→63. Exact mastanawa/mast1238; CC BY-NC4.0 and dataset citation retained.
+2. Tupinambá:49 TuLeD+28 Lundgren forms /51 unique gaps, core103→154.
+   TuLeD preferred for overlaps; source alternatives/senses retained separately.
+   Historical source coordinates are not shared speaker GPS. Egg/old-scope and
+   ambiguous capture/be-informed-of readings held.131 candidates77admit54defer.
+3. Parintintin44forms/core98→138; Kaapor40/99→137; Parakanã40/96→132;
+   Wayampi41/118→156.165forms152gaps, six egg/old-scope holds. Exact Parintintin
+   member is not a claim about every variety in the broader accepted construction.
+4. **Panará and Apinayé replace GLED as primary**, retaining all71 GLED forms
+   and one Wiki supplement. Panará39 profile forms/core30→54,total70;
+   Apinayé79/core36→82,total120. Panará j and explicit extra-short i documented
+   with Lapierre2024table2; Apinayé c/r/j and source vowel/ñ symbols documented
+   with Oliveira2005pp34,57–58 and Nikulin2020pp50–51. Plain e/o, high circumflex,
+   shielding alternatives, leading diacritics and unreviewed notation remain held.
+   No surface-allophone inference; exact whole forms, source/language scoped.
+   Ingain repairs two explicitly unsplit numeral tokens,24→26forms,core16→18.
+5. Fresh TuLeD/Huber/AV/IDS language tables offer no new unrepresented South
+   American code relative to accepted identities/aliases. Malali/Kamakan lack
+   raw lexical rows; Duit/Nutabe have zero active forms; Jeikó has67 historic
+   written rows with unresolved canonical identity/phonemic reading; Mawayana
+   overlaps the accepted Mapidian-Mawayana construction. Six explicit holds,
+   zero admissions; no dialect/overlap count inflation. Not an exhaustive-source
+   claim. Earlier NLS/Tangam blockers remain unresolved.
+
+Jê source namespace **251→371 forms**,3→5 members,+33parameters, same frozen
+licensed commit. All earlier251 source rows unchanged; automatic COGID/COGIDS
+provenance only. Review549mapped candidates:371admit178hold. Manifest includes
+phonological reference PDF hashes. New scripts/expand_source_intake.py supports
+ONLY additive existing-namespace expansions: all earlier form/language/parameter
+rows exact, citation/license/version/bibliography unchanged, expected baseline
+count required, metadata counts checked; preserve original bytes and roll back
+failed replacements. Default validates. For this specific preceding baseline:
+stage_je_original.py --write-profiles; expand_source_intake.py --staged
+raw/curation/je-stage/lexibank --dataset gerardije2025 --expected-old-forms251
+[then --write]. Never repeat with251 after migration; never subset-ingest active
+intake or append an existing namespace as new. Intake DB7,181,760rows.
+
+Verification: **416 tests**, full Ruff/JS and core-pilot/Vakh audits pass.
+All7,314 outputs fresh,0failures. All1,396 earlier affected lexical/transcription/
+concept/cognacy records preserved (expected annotation/score/tier changes in two
+replacements). All400 compressed hashes verified. Local generic/mixed browser
+checks pass, including profile isolation, retained GLED, Ingain numerals,
+Mastanahua and nonoverlapping Tupinambá exports. Nine packets/recipes updated.
+
+See [report](SOUTH_AMERICA_DEPTH_2026-10-28.md),
+[metrics](south_america_depth_summary_2026-10-28.json),
+[admission holds](south_america_depth_missing_languages_2026-10-28.csv), and
+[updated triage](south_america_depth_opportunities_2026-10-28.csv):6,818 member
+opportunities,615South American, overlapping/unreviewed rather than promised gains.
+
 ## 2026-10-28 — Five South American coverage tracks completed
 
 Current baseline: **7,314 accepted varieties / 2,067,154 forms**; 1,743,541

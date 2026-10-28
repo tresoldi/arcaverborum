@@ -74,7 +74,7 @@ def test_compiled_profiles_match_every_authored_admission():
     root = Path(__file__).resolve().parents[1]
     compile_profiles(root)
     reviews = source.read(source.DATA / "je_original_review.csv")
-    expected = {"Xerénte": (120, 86), "Xavánte": (107, 73), "Ingain": (24, 22)}
+    expected = {"Xerénte": (120, 86), "Xavánte": (107, 73), "Ingain": (26, 24), "Panará": (39, 38), "Apinayé": (79, 59)}
     for name, (forms, concepts) in expected.items():
         rows = [r for r in reviews if r["doculect"] == name and r["decision"] == "admit"]
         assert len(rows) == forms and len({r["concept_id"] for r in rows}) == concepts
@@ -144,3 +144,14 @@ def test_xerente_cross_is_the_attested_traverse_verb():
     row = next(r for r in source.read(source.DATA / "je_original_review.csv") if r["ID"] == "658")
     assert row["source_concept"] == "CROSS" and row["raw_value"] == "t b ɾ ɔ"
     assert row["concept_id"] == "mot-traverse" and "p.453" in row["rationale"]
+
+
+def test_language_specific_profiles_do_not_leak_to_other_samples():
+    assert source.conservative_reading("c r j ñ ê ô y", "Apinayé") == "t͡ʃ ɾ j ɲ e o ɨ"
+    assert source.conservative_reading("c r j ñ ê ô y", "Panará") == ""
+    assert source.conservative_reading("j ĭ", "Panará") == "j ĭ"
+    assert source.conservative_reading("j ĭ", "Ingain") == ""
+    assert source.conservative_reading("ɾi", "Ingain") == "ɾ i"
+    assert source.conservative_reading("ɾi", "Apinayé") == ""
+    assert source.conservative_reading("m/b a", "Apinayé") == ""
+    assert source.conservative_reading("e o", "Apinayé") == ""

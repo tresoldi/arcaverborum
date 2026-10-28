@@ -52,8 +52,50 @@
       "Location": "Brazil",
       "Remark": "Regional catalog reference coordinates, not speaker GPS. Source-notation review; no exact speaker location supplied.",
       "Glottolog_Name": "Ingain"
+    },
+    {
+      "ID": "Panara",
+      "Name": "Panará",
+      "Source_Doculect": "Panará",
+      "Glottocode": "pana1307",
+      "Macroarea": "South America",
+      "Family": "Nuclear-Macro-Je",
+      "ISO639P3code": "kre",
+      "Latitude": "-10.58",
+      "Longitude": "-53",
+      "Location": "Brazil",
+      "Remark": "Regional catalog reference coordinates, not speaker GPS. Source-notation review; no exact speaker location supplied.",
+      "Glottolog_Name": "Panará"
+    },
+    {
+      "ID": "Apinaye",
+      "Name": "Apinayé",
+      "Source_Doculect": "Apinayé",
+      "Glottocode": "apin1244",
+      "Macroarea": "South America",
+      "Family": "Nuclear-Macro-Je",
+      "ISO639P3code": "apn",
+      "Latitude": "-6.11",
+      "Longitude": "-47.63",
+      "Location": "Brazil",
+      "Remark": "Regional catalog reference coordinates, not speaker GPS. Source-notation review; no exact speaker location supplied.",
+      "Glottolog_Name": "Apinayé"
     }
   ],
-  "notation_authority": "Nikulin 2020 section 1.4, pp.50–53; ambiguous Macro-Jê c/j/r/y, circumflex vowels and shielding alternatives held. Only already explicit unambiguous symbols receive exact-form broad phonemic profiles.",
-  "notation_url": "https://repositorio.unb.br/bitstream/10482/38893/1/2020_AndreyNikulin.pdf"
+  "notation_authority": "Nikulin2020 pp50–53 default conservative notation; scoped Panará j and explicit extra-short i, Apinayé c/r/j/ñ and vowel symbols separately reviewed using Lapierre2024 and Oliveira2005. Other samples retain their original conservative policy; Ingain only repairs two explicit unsplit IPA sequences.",
+  "notation_url": "https://repositorio.unb.br/bitstream/10482/38893/1/2020_AndreyNikulin.pdf",
+  "scoped_notation_references": [
+    {
+      "doculect": "Apinayé",
+      "citation": "Oliveira, Christiane Cunha de. 2005. The language of the Apinajé people of Central Brazil. PhD, University of Oregon. pp34,57–58; Nikulin2020 pp50–51 for Macro-Jê vowels/ñ.",
+      "url": "https://www.etnolinguistica.org/local--files/tese:oliveira-2005/oliveira_2005.pdf",
+      "sha256": "098e70ada8ecf19ac74eecb4e246cccd8a9cb593984a3a7b2f9fd8bd0a16d974"
+    },
+    {
+      "doculect": "Panará",
+      "citation": "Lapierre, Myriam. 2024. Postoralized and devoiced nasals in Panãra (Jê): ND > NT. Table2, p60. Explicit supplied breve is retained, not an inferred echo vowel.",
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.uw.edu/dist/2/29962/files/2024/10/292-EnkeEtAl-2024-3-1.pdf",
+      "sha256": "86d4bd1c257811370b77366f5662bf64528ebb04283fcb1da779e8edcd107a5e"
+    }
+  ]
 }

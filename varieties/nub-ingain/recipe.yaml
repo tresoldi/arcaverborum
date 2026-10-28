@@ -13,14 +13,14 @@ construction:
   lexical_base:
     source: gerardije2025
     source_language_id: gerardije2025_Ingain
-    rationale: Reviewed additive construction; exact original source identities retained.
+    rationale: Reviewed source construction with separate original-source supplements.
   transcription:
-    strategy: exact-form broad phonemic profile; supplements keep their own transcription
-      status
+    strategy: documented source-specific exact-form broad phonemic profile
   concepts:
     mapping: reviewed
-    core_coverage: 16/161
+    core_coverage: 18/161
     ledger: src/arcaverborum/data/je_original_review.csv
   cognates:
     source: source-scoped
-    notes: No cross-source inference; Jê study automatic IDs are raw provenance only.
+    notes: Original judgments retained independently; Jê automatic IDs are provenance
+      only.

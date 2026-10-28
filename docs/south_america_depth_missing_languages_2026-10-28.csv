@@ -1,0 +1,7 @@
+name,glottocode,source,decision,reason
+Malali,mala1432,macro-je,hold_missing_lexical_rows,"Source language metadata exists, but the frozen raw wordlist has no Malali rows. A language-table entry is not lexical evidence."
+Kamakan,kama1372,macro-je,hold_missing_lexical_rows,"Kamakã metadata exists with no linked source Glottocode, but the frozen raw wordlist has no Kamakã rows; no citation/reading inferred from related languages."
+Jeikó,,macro-je,hold_identity_and_transcription,"67 historic written records exist, but this sample has no resolved canonical code in the cached catalog and no reviewed phonemic profile. Historical spelling is not supplied IPA."
+Mawayana,mawa1271,walkerarawakan;gled,hold_overlap_with_accepted_construction,Existing ara-mapidian-mawayana explicitly combines Mapidian-Mawayana; Walker names the exact sample Mawayana. Reconcile and preserve that construction before claiming a newly represented language.
+Duit,duit1239,pachechibchan,hold_missing_lexical_rows,Active source has language metadata but zero forms for this canonical code.
+Nutabe / Antioquian,anti1242,pachechibchan,hold_missing_lexical_rows,Active source has language metadata but zero forms for this canonical code.

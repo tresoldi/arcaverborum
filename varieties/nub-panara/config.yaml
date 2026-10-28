@@ -4,18 +4,21 @@ glottocode: pana1307
 family: Nuclear-Macro-Je
 macroarea: South America
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: gerardije2025
+  cognates: gerardije2025
+  source_language_id: gerardije2025_Panara
 extensions:
   transcriptions: false
   forms: false
   cognates: false
   concept_map: false
-  profile: false
+  profile: true
 scoring:
-  forms_score: 0.7589
-  cognates_score: 0.6
-  tier: copper
-pinned: false
+  forms_score: 0.7
+  cognates_score: 0
+  tier: bronze
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: Licensed Jê study exact member with language-specific documented broad phonemic
+  profile. Earlier GLED/Wiktionary evidence retained separately; unreviewed notation
+  and automatic cognacy held.
