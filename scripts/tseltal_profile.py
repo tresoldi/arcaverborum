@@ -9,6 +9,7 @@ import argparse
 import csv
 import hashlib
 import sqlite3
+import unicodedata
 from pathlib import Path
 
 from arcaverborum.phonology import canonicalize
@@ -29,7 +30,7 @@ def reading(word):
         out.append(DIGRAPHS.get(key, SIMPLE.get(key, "ʔ" if key == "'" else "")))
         word = word[len(key):]
     tokens, valid = canonicalize(out)
-    return " ".join(tokens) if valid else ""
+    return unicodedata.normalize("NFC", " ".join(tokens)) if valid else ""
 
 
 def read(path):

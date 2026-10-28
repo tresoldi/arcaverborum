@@ -26,6 +26,9 @@ def test_recording_metadata_is_separate_from_transcribed_forms(tmp_path):
         recording = list(csv.DictReader(f))
     assert len(recording) == 1 and recording[0]["source_form_id"] == "audio"
     assert recording[0]["bibtex_key"] == "author" and recording[0]["source_language_id"] == "sample"
+    assert build_one("test-language", root, forms.iloc[:0], catalog, param_index={},
+                     concept_index={}, concept_labels={}) == 0
+    assert not (gen / "recordings.csv").exists()
 
 
 def test_primary_review_limits_scope_and_fails_on_evidence_drift(tmp_path):
@@ -52,6 +55,8 @@ def test_primary_review_limits_scope_and_fails_on_evidence_drift(tmp_path):
                   param_index={"water": ("1", "WATER")},
                   concept_index={"1": ("phy-water", "water")}, concept_labels={"phy-water": "water"})
     assert build_one(intake_forms=pd.DataFrame(rows).fillna(""), **kwargs) == 1
+    with pytest.raises(ValueError, match="primary source disappeared"):
+        build_one(intake_forms=pd.DataFrame(rows).iloc[:0], **kwargs)
     rows[0]["Value"] = "changed"
     with pytest.raises(ValueError, match="evidence changed"):
         build_one(intake_forms=pd.DataFrame(rows).fillna(""), **kwargs)

@@ -621,6 +621,9 @@ def build_one(
             raise ValueError("Reviewed source members disappeared: " + ', '.join(sorted(missing)))
         df = df[df["Language_ID"].isin(member_ids)].copy()
 
+    if df.empty and vd.custom_path("primary.csv").exists():
+        raise ValueError("Reviewed primary source disappeared; no generic fallback permitted")
+
     if df.empty and config["sources"].get("member_only"):
         raise ValueError("Reviewed member-only source disappeared; no generic fallback permitted")
 
@@ -642,6 +645,9 @@ def build_one(
             logger.info("Fallback to %s for %s (%d forms)", FALLBACK_SOURCE, av_id, len(df))
 
     if df.empty and not vd.custom_path("forms.csv").exists():
+        recording_path = vd.generated_dir / "recordings.csv"
+        if recording_path.exists():
+            recording_path.unlink()
         write_text_atomic(vd.generated_forms, ",".join(FORMS_OUT_FIELDS) + "\n")
         return 0
 
