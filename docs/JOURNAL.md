@@ -1,5 +1,27 @@
 # Project journal and working memory
 
+## 2026-10-28 — Ancient-language worldwide investigation
+
+Planning only; accepted data commit6009c09e/baseline7,329 varieties and467,872
+supported core unchanged. Explicit58-construction shortlist,20 with zero supported
+core;74 member opportunities retained. Separate historical/late-antique scope,
+no automatic ancient=extinct or medieval/colonial redating. Qualified frozen IPA
+screen finds raw missing-concept ceilings99 Classical Sanskrit,26 fifth-century
+BCE Attic,17 Classical Latin; all need sense/morphology/source-scope review.
+IDSsegmented's own automatic-conversion warning and Kogan source-name/code pairs
+make representation/identity audit the first track. Coptic GLED swap loses34
+supported concepts; supplement/acquire rather than blindly replace.
+Pinned/read external samples: Coptic dictionary d39e8a8 (Alpha316 TEI entries,
+multiple dialects/bound forms), DHARMA Khmer329c55f (actual sampleCC BY-SA4.0,
+okz-Latn/draft; publication date is not ancient dating), csl-orig e4742e1 (MW
+286,525 source records/SLP1/CC BY-SA4.0). No intake or lexical admissions.
+TLA stage-specific releases, ORACC glossary route, BHSA reading convention,
+East Asian reconstruction evidence, Classic Mayan TWKM/API and eDiAna acquisition
+screened. Public access/announced API/sign count are not licensed lexical payloads.
+Nine proposed tracks AN01–AN09 now in NEXT; Romance RP01–RP03 and earlier American
+NB/P proposals parked, not completed. Report, baseline/ranking/scope JSON and
+pin/hash evidence in docs. No source contacts or web-data rebuild.
+
 ## 2026-10-28 — Authorized Romance R01–R06 batch
 
 Executed sequentially with bounded admissions and named evidence holds. Baseline

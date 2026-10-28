@@ -9,6 +9,10 @@ Latest batch: [Romance R01–R06](ROMANCE_EXPANSION_2026-10-28.md), executed in 
 American NB proposals remain parked. Bounded admissions and evidence holds are
 recorded separately; R01–R06 is no longer a proposed queue.
 
+Latest planning: [ancient languages worldwide](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md).
+AN01–AN09 proposed; Romance RP and American NB/P proposals parked. This
+investigation changes no accepted data, source choice or publication artifacts.
+
 ## Accepted baseline
 
 Data commit:`6009c09e58021f203beb920677418d9f7f51f805`.
@@ -60,10 +64,14 @@ correction `74c4468cebe183dd6df3a28a88f1b13c658119e8`; see the
 
 ## Evidence for planning
 
-Current focus: Romance, especially Italian local varieties. R01–R06 bounded
-batch complete. Remaining profiles/Alpine acquisition have explicit reopening
-evidence in HELD. New prospective work is in NEXT; earlier American proposals
-are parked, not completed.
+Current planning focus: ancient languages worldwide, with historical stages and
+reading bases explicit. [58-construction screen](ancient_baseline_2026-10-28.csv),
+[74-member subset](ancient_opportunities_2026-10-28.csv),
+[qualified-reading ceilings](ancient_qualified_scope_screen_2026-10-28.json), and
+[pinned research samples](ancient_investigation_2026-10-28.json).20 shortlisted
+constructions have zero supported core; this is not lexical absence. AN01–AN09
+are proposed. The previous R01–R06 bounded batch is complete; remaining Romance
+and American work is parked, not completed by this investigation.
 
 * [Latest opportunity CSV](romance_expansion_opportunities_2026-10-28.csv) and
   [method/counts](romance_expansion_opportunities_2026-10-28.json): overlapping,

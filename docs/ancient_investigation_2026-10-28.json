@@ -1,0 +1,79 @@
+{
+  "accepted_data_changed": false,
+  "data_commit": "6009c09e58021f203beb920677418d9f7f51f805",
+  "accepted_varieties": 7329,
+  "accepted_forms": 2069214,
+  "accepted_supported_core": 467872,
+  "shortlist_constructions": 58,
+  "zero_supported_core": 20,
+  "member_opportunities": 74,
+  "scope": "Explicit reviewed historical shortlist, not an exhaustive census. Regional ancient/classical and adjacent late-antique/early-historical stages are distinguished; medieval/colonial examples only contextual.",
+  "ranking": "romance_expansion_opportunities_2026-10-28.csv",
+  "research_pins": [
+    {
+      "repository": "https://github.com/CopticScriptorium/dictionary",
+      "commit": "d39e8a844779c8e7f89f88a78e21c1e92957f1f1",
+      "branch": "master",
+      "files": 104,
+      "tree_sha256": "208016aad31a32094b1632c51683c17a3d876a955b702a27ea82d244ed9504df",
+      "sample_sha256": {
+        "README.md": "4f796e61cdef51b0df8207de96a81e16a85452fcb0b59b35e496f0596c08275c",
+        "xml/01_Alpha.xml": "e4c7fda9e82519f997f4d859f65b5fe116f779712ce8749ccf8d9900afbb7ec5"
+      }
+    },
+    {
+      "repository": "https://github.com/erc-dharma/tfc-khmer-epigraphy",
+      "commit": "329c55f29e845260ade1eaef515193d569fae74d",
+      "branch": "master",
+      "files": 1424,
+      "tree_sha256": "0cfc41184cf3d559597b81e2ec86f80d1dec65229a791fbd17f74be1e785af5d",
+      "sample_sha256": {
+        "README.md": "ddc4a0bc1fa8cc8228de35d2545cfe40399eb278deefa45f7f8bb59ca4599595",
+        "texts/xml/DHARMA_INSCIK00001.xml": "c0f50b1c17dbe6a812cd763afa10a4b77eb26510f07f063c9403b8a8e9b5b70e"
+      }
+    },
+    {
+      "repository": "https://github.com/sanskrit-lexicon/csl-orig",
+      "commit": "e4742e12cde786b1a2d10e0507808620a4f2c8eb",
+      "branch": "main",
+      "files": 398,
+      "tree_sha256": "8000fc10da67d13247ea915ecf4bb99da986fde33b4d190a97e2bca4d62a3640",
+      "sample_sha256": {
+        "README.md": "bd96a3f52185b2edffa6996834d52fef0a83f6dcb3d91a4a0937f08b9b5cc69f",
+        "LICENSE": "0b7fc2608b6d990314e908569407a6058b4a29175167c6d91ca0070c946661be",
+        "v02/mw/mw.txt": "e4641dc4384de459408368a9b34b2a13c90a19b0ecd4671f92c055b7578d0129"
+      }
+    }
+  ],
+  "samples": {
+    "coptic_alpha": {
+      "tei_entries": 316,
+      "status": "mixed dialect/form/lemma records; no admission count",
+      "license": "CC BY-SA4.0 per repository README"
+    },
+    "sanskrit_mw": {
+      "source_records": 286525,
+      "encoding": "SLP1; original v02/mw/mw.txt",
+      "license": "CC BY-SA4.0 per LICENSE; not software GPL terms"
+    },
+    "khmer_K00001": {
+      "language": "okz-Latn",
+      "file_license": "CC BY-SA4.0 (actual XML; repository overview advertises CC BY4.0)",
+      "status": "draft; edition date2019–2026 is not ancient attestation date"
+    }
+  },
+  "gled_screen": {
+    "coptic": {
+      "member": "wikt_cop",
+      "source_core_gained": 6,
+      "source_core_lost": 34,
+      "decision": "supplement first; no blind replacement"
+    }
+  },
+  "qualified_scope_snapshot": {
+    "dump_sha256": "a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643",
+    "dump_bytes": 2826672112,
+    "index_parent_policy": "exact language/NFC spelling/POS; all matching entries unqualified and identical raw IPA",
+    "screen_policy": "Exact historical tag or note, language/NFC/POS; all matching homographs supply scope, all valid raw alternatives retained; missing-core ceiling before sense/morphology admission."
+  }
+}

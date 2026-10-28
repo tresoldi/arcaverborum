@@ -7,6 +7,10 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Ancient languages worldwide,2026-10-28](../ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md):
+  58-construction baseline, historical qualified-reading ceilings, three pinned
+  original-source research samples and AN01–AN09 proposed. Zero accepted-data changes.
+
 * [Romance / Italian area,2026-10-28](../ROMANCE_INVESTIGATION_2026-10-28.md):
   supplied/profile/locality triage, pinned RVID snapshot and acquisition gates;
   R01–R06 proposed, zero accepted-data changes.

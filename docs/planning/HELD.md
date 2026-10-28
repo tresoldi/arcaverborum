@@ -146,3 +146,24 @@ from the report. Reopen on relevant evidence, not a repeated ranking ceiling.
 | VinKo v1.2 | Project explicitly CC BY-NC-SA4.0; deposit lexical transcription inaccessible/unverified | Exact deposit metadata and actual lexical transcriptions; secondary ND listing is not project's stated terms |
 | Sound Comparisons Romance2019 | Restricted CC BY-NC-ND4.0 derivative gate unchanged | Applicable derivative permission or compatible new release |
 | Wider Romance profiles | Occitan/Romansh supplied pilot complete; broader spelling unresolved, Extremaduran/Picard/Fala/Arpitan screened | Exact source-system/locality pronunciation authority; no automatic Spanish/French/Italian rules |
+
+## Ancient-language evidence gates — 2026-10-28
+
+[Investigation](../ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md); planning only.
+
+| Case | Current gate | Reopening evidence |
+| --- | --- | --- |
+| IDSsegmented historical readings | Source explicitly describes rough automatic IPA conversion and prior orthography confusion | Compare original dictionary and documented language-specific sound mapping; source token validity alone is insufficient |
+| Kogan historical identity/provenance | Hebrew→Modern Hebrew, Official Aramaic→Middle-Modern Aramaic, Demotic Aramaic→Demotic Egyptian; missing citation/licence/version metadata | Original lexical sample, intended stage/code and actual terms; no blind parent reassignment or destructive migration |
+| Sanskrit/Attic/Latin qualified readings | Scope screen only, no admissions; homonyms/form quantity and Greek note scope need review | Registered exact scope, all matching entries, preserved alternatives and tested compiler; literal-sense/morphology decisions |
+| Egyptian phonetic support | Current forms include glyph encodings; vowels/period reading not supplied by spelling | Stage-specific authoritative reconstruction/reading, or admit lexical transcription as explicitly nonphonetic evidence |
+| Coptic replacement/profile | Wiktionary whole-source swap gains6/loses34; dictionary contains multiple dialects and bound forms | Exact dialect/lemma/sense subset and supported historical convention; keep old evidence and avoid modern liturgical substitution |
+| ORACC/ePSD2 | Live endpoints502/unavailable; no lexical payload pinned | Accessible frozen project glossary, applicable JSON/edition terms, language-period scope and modern sense/normalization review |
+| Gandhari/CEToM | Public access does not establish selected reusable lexical export | Exact version/payload and terms; never inherit hosted Pali dictionary permission as blanket licence |
+| DHARMA Old Khmer | Verified file is draft and CC BY-SA4.0, not generic repository CC BY4.0 | Original attestation dating, editor/citation, word boundaries and lexical meanings; no corpus-token import |
+| Classic Mayan | Current1-form construction; sign catalog/announced2026 API is not verified lexical release | Licensed stable word-level readings, source texts/site/dating, certainty and script-versus-transcription distinction; third-party image rights separate |
+| Rare ancient corpora | Several languages have only tiny written/name samples; no eDiAna lexical export pinned | Attributable words/senses and reading confidence; zero unsupported lexical/IPA invention for undeciphered material |
+
+Medieval/colonial stages and reconstructed proto-languages remain separate scope.
+No established precolonial South American phonetic wordlist acquisition emerged
+from this screen; this is not evidence that ancient languages lacked vocabulary.

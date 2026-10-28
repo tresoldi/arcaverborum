@@ -1,0 +1,313 @@
+[
+  {
+    "av_id": "ine-latin",
+    "tag": "Classical-Latin",
+    "note": null,
+    "policy": "Exact language/NFC spelling/POS; every matching homograph supplies same registered scope, all valid alternatives retained. Note-based scope is a research screen, not implemented admission support.",
+    "raw_entry_group_counts": {
+      "complete_scope": 6271,
+      "held": 1406
+    },
+    "missing_core_form_candidates": 58,
+    "missing_core_concept_ceiling": 17,
+    "candidate_concepts": [
+      "bod-breast",
+      "bod-hair",
+      "bod-shoulder",
+      "cog-what",
+      "cog-who",
+      "fun-that",
+      "fun-this",
+      "kin-child",
+      "kin-father",
+      "kin-husband",
+      "kin-i",
+      "kin-person",
+      "kin-thou",
+      "kin-wife",
+      "mot-walk",
+      "phy-firewood",
+      "phy-thunder"
+    ],
+    "examples": [
+      {
+        "Form": "coniunx",
+        "source_sense": "husband (noun): male partner in marriage",
+        "raw_alternatives": [
+          "[ˈkɔn.juːŋks]"
+        ],
+        "concept": "kin-husband"
+      },
+      {
+        "Form": "vir",
+        "source_sense": "husband (noun): male partner in marriage",
+        "raw_alternatives": [
+          "[ˈwɪr]"
+        ],
+        "concept": "kin-husband"
+      },
+      {
+        "Form": "tu",
+        "source_sense": "thou (pron): singular nominative form of you",
+        "raw_alternatives": [
+          "[ˈtuː]"
+        ],
+        "concept": "kin-thou"
+      },
+      {
+        "Form": "homo",
+        "source_sense": "person (noun): individual",
+        "raw_alternatives": [
+          "[ˈhɔ.moː]",
+          "[ˈhɔ.mɔ]"
+        ],
+        "concept": "kin-person"
+      },
+      {
+        "Form": "hic",
+        "source_sense": "this (det): the (thing) here",
+        "raw_alternatives": [
+          "[ˈhɪk]"
+        ],
+        "concept": "fun-this"
+      }
+    ]
+  },
+  {
+    "av_id": "ine-sanskrit",
+    "tag": "Classical-Sanskrit",
+    "note": null,
+    "policy": "Exact language/NFC spelling/POS; every matching homograph supplies same registered scope, all valid alternatives retained. Note-based scope is a research screen, not implemented admission support.",
+    "raw_entry_group_counts": {
+      "complete_scope": 2363,
+      "held": 93
+    },
+    "missing_core_form_candidates": 180,
+    "missing_core_concept_ceiling": 99,
+    "candidate_concepts": [
+      "act-burn",
+      "act-rope",
+      "agr-bark",
+      "agr-dig",
+      "agr-flower",
+      "agr-grass",
+      "agr-leaf",
+      "agr-seed",
+      "agr-tree",
+      "ani-ant",
+      "ani-fish",
+      "ani-louse",
+      "ani-mosquito",
+      "ani-snake",
+      "ani-spider",
+      "bod-bite",
+      "bod-blood",
+      "bod-bone",
+      "bod-breast",
+      "bod-feather",
+      "bod-heart",
+      "bod-kill",
+      "bod-knee",
+      "bod-leg",
+      "bod-liver",
+      "bod-navel",
+      "bod-neck",
+      "bod-shoulder",
+      "bod-skin",
+      "bod-sleep",
+      "bod-spit",
+      "bod-tail",
+      "bod-vomit",
+      "bod-wing",
+      "emo-cry",
+      "emo-good",
+      "emo-laugh",
+      "foo-chew",
+      "foo-drink",
+      "foo-egg",
+      "foo-fruit",
+      "foo-salt",
+      "foo-suck",
+      "kin-child",
+      "kin-husband",
+      "kin-man",
+      "law-steal",
+      "lng-name",
+      "lng-say",
+      "lng-sing",
+      "mot-fall",
+      "mot-swim",
+      "mot-throw",
+      "mot-walk",
+      "phy-ash",
+      "phy-cloud",
+      "phy-dust",
+      "phy-firewood",
+      "phy-fog",
+      "phy-forest",
+      "phy-lake",
+      "phy-mountain",
+      "phy-river",
+      "phy-sand",
+      "phy-sky",
+      "phy-stone",
+      "phy-thunder",
+      "phy-wind",
+      "qua-all",
+      "qua-count",
+      "qua-full",
+      "sns-black",
+      "sns-cold",
+      "sns-dirty",
+      "sns-dry",
+      "sns-green",
+      "sns-hear",
+      "sns-heavy",
+      "sns-hot",
+      "sns-red",
+      "sns-see",
+      "sns-sharp",
+      "sns-wet",
+      "sns-white",
+      "sns-yellow",
+      "spa-big",
+      "spa-left",
+      "spa-long",
+      "spa-right",
+      "spa-round",
+      "spa-short",
+      "spa-small",
+      "spa-thick",
+      "tim-new",
+      "tim-night",
+      "tim-old",
+      "tim-tomorrow",
+      "tim-year",
+      "tim-yesterday"
+    ],
+    "examples": [
+      {
+        "Form": "नामन्",
+        "source_sense": "name (noun): word or phrase indicating a particular person, place, class or thing",
+        "raw_alternatives": [
+          "/n̪ɑː.mɐn̪/"
+        ],
+        "concept": "lng-name"
+      },
+      {
+        "Form": "अस्थि",
+        "source_sense": "bone (noun): material",
+        "raw_alternatives": [
+          "/ɐs̪.t̪ʰi/"
+        ],
+        "concept": "bod-bone"
+      },
+      {
+        "Form": "अस्थि",
+        "source_sense": "bone (noun): component of a skeleton",
+        "raw_alternatives": [
+          "/ɐs̪.t̪ʰi/"
+        ],
+        "concept": "bod-bone"
+      },
+      {
+        "Form": "दिव",
+        "source_sense": "sky (noun): atmosphere above a given point, especially as visible from the surface of the Earth as the place where the sun, moon, stars, and clouds are seen",
+        "raw_alternatives": [
+          "/d̪i.ʋɐ/"
+        ],
+        "concept": "phy-sky"
+      },
+      {
+        "Form": "आकाश",
+        "source_sense": "sky (noun): atmosphere above a given point, especially as visible from the surface of the Earth as the place where the sun, moon, stars, and clouds are seen",
+        "raw_alternatives": [
+          "/ɑː.kɑː.ɕɐ/"
+        ],
+        "concept": "phy-sky"
+      }
+    ]
+  },
+  {
+    "av_id": "ine-ionic-attic-ancient-greek",
+    "tag": null,
+    "note": "5ᵗʰ BCE Attic",
+    "policy": "Exact language/NFC spelling/POS; every matching homograph supplies same registered scope, all valid alternatives retained. Note-based scope is a research screen, not implemented admission support.",
+    "raw_entry_group_counts": {
+      "complete_scope": 6661,
+      "held": 344
+    },
+    "missing_core_form_candidates": 58,
+    "missing_core_concept_ceiling": 26,
+    "candidate_concepts": [
+      "act-rope",
+      "ani-mosquito",
+      "ani-spider",
+      "bod-breast",
+      "bod-hair",
+      "bod-shoulder",
+      "bod-spit",
+      "cog-what",
+      "cog-who",
+      "foo-chew",
+      "foo-suck",
+      "fun-that",
+      "fun-this",
+      "kin-child",
+      "kin-father",
+      "kin-i",
+      "kin-mother",
+      "kin-person",
+      "kin-thou",
+      "kin-wife",
+      "law-steal",
+      "mot-walk",
+      "qua-all",
+      "spa-lie-down",
+      "spa-open",
+      "tim-tomorrow"
+    ],
+    "examples": [
+      {
+        "Form": "ἀνοίγω",
+        "source_sense": "open (verb): to make something accessible",
+        "raw_alternatives": [
+          "/a.nǒi̯.ɡɔː/"
+        ],
+        "concept": "spa-open"
+      },
+      {
+        "Form": "ἀνοίγνυμι",
+        "source_sense": "open (verb): to make something accessible",
+        "raw_alternatives": [
+          "/a.nǒi̯.ɡny.mi/"
+        ],
+        "concept": "spa-open"
+      },
+      {
+        "Form": "οἴγω",
+        "source_sense": "open (verb): to make something accessible",
+        "raw_alternatives": [
+          "/ǒi̯.ɡɔː/"
+        ],
+        "concept": "spa-open"
+      },
+      {
+        "Form": "σύ",
+        "source_sense": "thou (pron): singular nominative form of you",
+        "raw_alternatives": [
+          "/sý/"
+        ],
+        "concept": "kin-thou"
+      },
+      {
+        "Form": "ἄνθρωπος",
+        "source_sense": "person (noun): individual",
+        "raw_alternatives": [
+          "/án.tʰrɔː.pos/"
+        ],
+        "concept": "kin-person"
+      }
+    ]
+  }
+]

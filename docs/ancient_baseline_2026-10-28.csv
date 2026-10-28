@@ -1,0 +1,59 @@
+av_id,Name,Glottocode,Family,forms,supported_core,transcription_source,scope,zero_supported_core
+afa-akkadian,Akkadian,akka1240,Afro-Asiatic,905,109,kogansemitic,ancient_or_classical_core,False
+afa-ancient-hebrew,Ancient Hebrew,anci1244,Afro-Asiatic,109,0,diacl,ancient_or_classical_core,True
+afa-coptic,Coptic,copt1239,Afro-Asiatic,64,36,gled,late_antique_or_regional_early_historical_overlap,False
+afa-eblaite,Eblaite,ebla1238,Afro-Asiatic,191,27,kogansemitic,ancient_or_classical_core,False
+afa-egyptian-ancient,Egyptian (Ancient),egyp1246,Afro-Asiatic,1346,0,wiktionary,ancient_or_classical_core,True
+afa-geez,Geez,geez1241,Afro-Asiatic,739,117,kogansemitic,late_antique_or_regional_early_historical_overlap,False
+afa-hadrami,Hadrami,hadr1235,Afro-Asiatic,16,3,kogansemitic,ancient_or_classical_core,False
+afa-imperial-aramaic-700-300-bce,Imperial Aramaic (700-300 BCE),impe1235,Afro-Asiatic,116,23,kogansemitic,ancient_or_classical_core,False
+afa-minaean,Minaean,mina1279,Afro-Asiatic,148,15,kogansemitic,ancient_or_classical_core,False
+afa-phoenician,Phoenician,phoe1239,Afro-Asiatic,173,31,kogansemitic,ancient_or_classical_core,False
+afa-punic,Punic,puni1241,Afro-Asiatic,23,0,wiktionary,ancient_or_classical_core,True
+afa-qatabanian,Qatabanian,qata1238,Afro-Asiatic,134,15,kogansemitic,ancient_or_classical_core,False
+afa-sabaic,Sabaic,saba1279,Afro-Asiatic,381,49,kogansemitic,ancient_or_classical_core,False
+afa-ugaritic,Ugaritic,ugar1238,Afro-Asiatic,698,107,kogansemitic,ancient_or_classical_core,False
+dra-old-tamil,Old Tamil,oldt1248,Dravidian,4,0,wiktionary,ancient_or_classical_core,True
+ela-elamite,Elamite,elam1244,Elamite,787,71,idssegmented,ancient_or_classical_core,False
+etr-etruscan,Etruscan,etru1241,Etruscan,70,9,wiktionary,ancient_or_classical_core,False
+haa-hattic,Hattic,hatt1246,Hattic,1,0,wiktionary,ancient_or_classical_core,True
+hur-hurrian,Hurrian,hurr1240,Hurro-Urartian,6,0,wiktionary,ancient_or_classical_core,True
+hur-urartian,Urartian,urar1245,Hurro-Urartian,3,0,wiktionary,ancient_or_classical_core,True
+ine-achaean-greek,Achaean Greek,myce1241,Indo-European,47,39,iecor,ancient_or_classical_core,False
+ine-aeolic-greek,Aeolic Greek,aeol1234,Indo-European,199,0,dyenindoeuropean,ancient_or_classical_core,True
+ine-avestan,Avestan,aves1237,Indo-European,146,113,iecor,ancient_or_classical_core,False
+ine-bactrian,Bactrian,bact1239,Indo-European,57,47,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-carian,Carian,cari1274,Indo-European,2,0,wiktionary,ancient_or_classical_core,True
+ine-celtiberian,Celtiberian,celt1247,Indo-European,9,0,diacl,ancient_or_classical_core,True
+ine-cuneiform-luwian,Cuneiform Luwian,cune1239,Indo-European,79,59,iecor,ancient_or_classical_core,False
+ine-faliscan,Faliscan,fali1291,Indo-European,51,0,wiktionary,ancient_or_classical_core,True
+ine-gandhari,Gandhari,gand1259,Indo-European,4,0,wiktionary,ancient_or_classical_core,True
+ine-gothic,Gothic,goth1244,Indo-European,123,95,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-hittite,Hittite,hitt1242,Indo-European,137,105,iecor,ancient_or_classical_core,False
+ine-ionic-attic-ancient-greek,Ionic-Attic Ancient Greek,anci1242,Indo-European,172,128,iecor,ancient_or_classical_core,False
+ine-khotanese,Khotanese,khot1251,Indo-European,155,120,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-koineic-greek,Koineic Greek,koin1234,Indo-European,160,120,iecor,ancient_or_classical_core,False
+ine-latin,Latin,lati1261,Indo-European,172,128,iecor,ancient_or_classical_core,False
+ine-lycian-a,Lycian A,lyci1241,Indo-European,9,0,diacl,ancient_or_classical_core,True
+ine-lydian,Lydian,lydi1241,Indo-European,5,0,diacl,ancient_or_classical_core,True
+ine-messapic,Messapic,mess1244,Indo-European,1,0,wiktionary,ancient_or_classical_core,True
+ine-old-persian-ca-600-400-b-c,Old Persian (ca. 600-400 B.C.),oldp1254,Indo-European,47,38,iecor,ancient_or_classical_core,False
+ine-oscan,Oscan,osca1245,Indo-European,35,27,iecor,ancient_or_classical_core,False
+ine-pahlavi,Pahlavi,pahl1241,Indo-European,165,126,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-pali,Pali,pali1273,Indo-European,174,128,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-parthian,Parthian,part1239,Indo-European,135,107,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-phrygian,Phrygian,phry1239,Indo-European,6,0,wiktionary,ancient_or_classical_core,True
+ine-sanskrit,Sanskrit,sans1269,Indo-European,275,43,lsi,ancient_or_classical_core,False
+ine-sauraseni-prakrit,Sauraseni Prakrit,saur1252,Indo-European,356,43,lsi,ancient_or_classical_core,False
+ine-sogdian,Sogdian,sogd1245,Indo-European,161,23,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-south-picene,South Picene,sout2618,Indo-European,2,0,wiktionary,ancient_or_classical_core,True
+ine-tokharian-a,Tokharian A,tokh1242,Indo-European,126,98,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-tokharian-b,Tokharian B,tokh1243,Indo-European,155,118,iecor,late_antique_or_regional_early_historical_overlap,False
+ine-umbrian,Umbrian,umbr1253,Indo-European,44,34,iecor,ancient_or_classical_core,False
+ine-vedic-sanskrit,Vedic Sanskrit,vedi1234,Indo-European,170,127,iecor,ancient_or_classical_core,False
+ine-venetic,Venetic,vene1257,Indo-European,1,0,wiktionary,ancient_or_classical_core,True
+jpx-old-japanese,Old Japanese,oldj1239,Japonic,258,145,robbeetstriangulation,late_antique_or_regional_early_historical_overlap,False
+may-epigraphic-mayan,Epigraphic Mayan,epig1241,Mayan,1,1,wiktionary,ancient_or_classical_core,False
+mer-meroitic,Meroitic,mero1237,Meroitic,4,0,wiktionary,ancient_or_classical_core,True
+sit-classical-chinese,Classical Chinese,lite1248,Sino-Tibetan,40,0,wiktionary,ancient_or_classical_core,True
+sit-old-chinese,Old Chinese,oldc1244,Sino-Tibetan,289,138,sagartst,ancient_or_classical_core,False
