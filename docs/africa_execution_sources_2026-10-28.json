@@ -1,0 +1,557 @@
+{
+  "date": "2026-10-28",
+  "purpose": "Read-only planning investigation; no lexical admissions or accepted-data change",
+  "accepted_data_commit": "5d0981260945f7d90b827f8ade7ac9d603ca1f6d",
+  "manifest_sha256": "b4e21279706dffc58999715a5fd7c52ce6a2904020c0cea5c07df382c90133ee",
+  "full_ranking_sha256": "e2019b5dc92a351248c86d0080fbcfb07defe6bfd5dc1ff30d9c480b980b477d",
+  "africa_wide_accepted": 1788,
+  "bantu": {
+    "definition": "Glottolog Narrow Bantu narr1281 in classification ancestry; not all Atlantic-Congo or Grollemund outgroups",
+    "varieties": 485,
+    "forms": 149873,
+    "supported_core": 34732,
+    "gled_primaries": 97,
+    "zero_supported_core": 23,
+    "below_80_supported_core": 365
+  },
+  "glottolog": {
+    "commit": "072ca0d0410039fb8b779be8fc165bac575d2cda",
+    "files": [
+      {
+        "name": "languages.csv",
+        "bytes": 2477017,
+        "sha256": "1a50a393bc81568b656f9522be18aa4f80f38e94309ba6c863d583234adfbb89"
+      },
+      {
+        "name": "values.csv",
+        "bytes": 21447242,
+        "sha256": "a8601cb04ccc6a310538217f772d2461853aa0ea49e3bfe24c7396570fc4ea25"
+      }
+    ]
+  },
+  "intake_sources": [
+    {
+      "dataset": "grollemundbantu",
+      "intake_version": "v1.0-3-g51de943",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "citation": "Grollemund, Rebecca, Branford, Simon, Bostoen, Koen, Meade, Andrew, Venditti, Chris, & Pagel, Mark (2015) Bantu expansion shows habitat alters the route and pace of human dispersals. Proc Natl Acad Sci USA. doi:10.1073/pnas.1503793112.",
+      "url": "https://github.com/lexibank/grollemundbantu",
+      "form_count": 37730,
+      "language_members": 424,
+      "raw_checkout_commit": "0e19723b2d60ea6c30940ea5a2f3d1baee6d2114",
+      "intake_commit": "51de943dda206b98b981156753e6555ee34a9715",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/grollemundbantu/51de943dda206b98b981156753e6555ee34a9715/lexibank_grollemundbantu.py",
+        "status": 200,
+        "sha256": "62f8d73185fc8fb38ec2d9e70dd55ebabc408a7eec4838e50be46cad09bfeb3b",
+        "first_form_only_true": true
+      }
+    },
+    {
+      "dataset": "tls",
+      "intake_version": "v4.1.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Nurse, Derek and Gérard Philippson (1975). The Tanzanian Language Survey. Department of Foreign Languages and Linguistics of the University of Dar es Salaam: Dar es Salaam.",
+      "url": "https://github.com/lexibank/tls",
+      "form_count": 115642,
+      "language_members": 127,
+      "raw_checkout_commit": "dbfc360add9936097e6e247c1187e40652590b5b",
+      "intake_commit": "9d55b7c6f4e7f71045cd9fddf21da23542fd663c",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/lexibank_tls.py",
+        "status": 200,
+        "sha256": "fa815bec9d9b2dca1d69c700a36b6ce94f2a71a0be54044c0cadd5242ae0759d",
+        "first_form_only_true": true
+      }
+    },
+    {
+      "dataset": "bantubvd",
+      "intake_version": "v4.0-1-g1df9ff6",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Simon Greenhill and Russell Gray, 2015. Bantu Basic Vocabulary Database",
+      "url": "https://github.com/lexibank/bantubvd",
+      "form_count": 4256,
+      "language_members": 10,
+      "raw_checkout_commit": "947fcb889f1c362aa409f2fb3ec845bdd473935b",
+      "intake_commit": "1df9ff64d64fec16a9b4f9ab6819008f1778f458",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/bantubvd/1df9ff64d64fec16a9b4f9ab6819008f1778f458/lexibank_bantubvd.py",
+        "status": 200,
+        "sha256": "293fe8c28079e18207d6de8af4b84fe2ca344c7259aa49cfd78d884277fbdf3c",
+        "first_form_only_true": false
+      }
+    },
+    {
+      "dataset": "mitterhoferbena",
+      "intake_version": "v3.0",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Mitterhofer, Bernadette. 2013. Lessons from a dialect survey of Bena: Analyzing wordlists. SIL International.",
+      "url": "https://github.com/lexibank/mitterhoferbena",
+      "form_count": 2017,
+      "language_members": 13,
+      "raw_checkout_commit": "40ca2dc4f31adcda0dbb2ccf2017376254bfda0c",
+      "intake_commit": "3a4914795a6a431d54cea2bde910dfa1c93e7562",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/mitterhoferbena/3a4914795a6a431d54cea2bde910dfa1c93e7562/lexibank_mitterhoferbena.py",
+        "status": 200,
+        "sha256": "73a3097150173cc56dbfccb2063865a6747d648e1e312b38682dedb3517d3e08",
+        "first_form_only_true": false
+      }
+    },
+    {
+      "dataset": "polyglottaafricana",
+      "intake_version": "v2.0-1-gf2fdef4",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Koelle, Sigismund W. (1854). Polyglotta Africana or Comparative Vocabulary of Nearly Three Hundred Words and Phrases in more than One Hundred Distinct African Languages. London: Church Missionary House.",
+      "url": "https://github.com/lexibank/polyglottaafricana",
+      "form_count": 57593,
+      "language_members": 200,
+      "raw_checkout_commit": "8f80c8d3e7c970dad4570e2e6a8f0a1c78ea294c",
+      "intake_commit": "f2fdef4232c23589e9b1b34ecb617ecfa3ed7267",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/polyglottaafricana/f2fdef4232c23589e9b1b34ecb617ecfa3ed7267/lexibank_polyglottaafricana.py",
+        "status": 200,
+        "sha256": "95832fa7592816d71b6b15205075090634bb9ddcb1998baa3c7365ec99fe5f05",
+        "first_form_only_true": false
+      }
+    },
+    {
+      "dataset": "sawkatokaleya",
+      "intake_version": "0260a64",
+      "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "citation": "Sawka, Kenneth S. and Mbewe, Christopher and Josephat, Daka and Schwertfeger, Jacob (2019): Toka-Leya of Zambia: Southern Province: Livingstone, Kazungula, Zimba, and Kalomo District. SIL International.",
+      "url": "https://github.com/lexibank/sawkatokaleya",
+      "form_count": 2166,
+      "language_members": 11,
+      "raw_checkout_commit": "0e82ad71ede93f9963b402094874ce30aebf086d",
+      "intake_commit": "0260a6429923269621df3c9de68f991d60417bd5",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/sawkatokaleya/0260a6429923269621df3c9de68f991d60417bd5/lexibank_sawkatokaleya.py",
+        "status": 200,
+        "sha256": "b73a94b9dd1a0303cea3f56efba22462bf13073dc4843e0b68a751734b0891d4",
+        "first_form_only_true": false
+      }
+    },
+    {
+      "dataset": "hantganbangime",
+      "intake_version": "v1.0-2-g576845f",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Hantgan, Abbie and List, Johann-Mattis (2018): Bangime. Secret language, language isolate, or language island? Journal of Language Contact.",
+      "url": "https://github.com/lexibank/hantganbangime",
+      "form_count": 6181,
+      "language_members": 22,
+      "raw_checkout_commit": "287dfce497c4eddce3fe3326c6a27a447ff47839",
+      "intake_commit": "576845fffc886e33c51a315edeefa1be5123869c",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/hantganbangime/576845fffc886e33c51a315edeefa1be5123869c/lexibank_hantganbangime.py",
+        "status": 200,
+        "sha256": "ccdac3731dd905170d3cec2e6c1c3dbe99eafcc31e983a991175b13cb100e708",
+        "first_form_only_true": false
+      }
+    },
+    {
+      "dataset": "baf2",
+      "intake_version": "v1.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "Hantgan, Abbie and Babiker, Hiba and List, Johann-Mattis (2022): First steps towards the detection of contact layers in Bangime: a multi-disciplinary, computer-assisted approach [version 2; peer review: 2 approved]. Open Research Europe 2022, 2:10.",
+      "url": "https://github.com/lexibank/baf2",
+      "form_count": 9541,
+      "language_members": 38,
+      "raw_checkout_commit": "1d0d30506ecbc8e535b50fcc29ca15cff23e0d64",
+      "intake_commit": "74dcd1b721063b8a8f27ad02c24518f04bb47776",
+      "pinned_recipe": {
+        "url": "https://raw.githubusercontent.com/lexibank/baf2/74dcd1b721063b8a8f27ad02c24518f04bb47776/lexibank_baf2.py",
+        "status": 200,
+        "sha256": "3d23bd225b35ce8a4dcc50b033fcc183b2e60167595042954528edb587646109",
+        "first_form_only_true": false
+      }
+    }
+  ],
+  "acquisition_responses": [
+    {
+      "name": "reflex_nakala",
+      "url": "https://api.nakala.fr/datas/10.34847/nkl.e3cbkjzm",
+      "status": 200,
+      "bytes": 7760,
+      "sha256": "0fa300b5111f061e7f06e2c59a36f52f247a56234427eeb6e304aa2dfe4e4260",
+      "content_type": "application/json"
+    },
+    {
+      "name": "reflex_languages",
+      "url": "https://reflex.clld.huma-num.fr/languages?format=csv",
+      "status": 200,
+      "bytes": 49667,
+      "sha256": "fffc77eaf591f9997b1f9c923316106fbeffd591ac40c14f7b87eed312f1b26d",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "name": "sidaama_commit",
+      "url": "https://api.github.com/repos/dictionaria/sidaama/commits/master",
+      "status": 200,
+      "bytes": 9816,
+      "sha256": "dfc8bd99e969e2a66d9951b1221f8c3e49f4d319d85cd76d993993614b4af5d7",
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "name": "hdi_commit",
+      "url": "https://api.github.com/repos/dictionaria/hdi/commits/master",
+      "status": 200,
+      "bytes": 19948,
+      "sha256": "318ee0e4f75897e2a0cb859bcedeab1b2af849b6056f7ae53a6ba255ee012402",
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "name": "sbed_about",
+      "url": "https://www.bantuetymology.org/about",
+      "status": 200,
+      "bytes": 97066,
+      "sha256": "941d9c8662056946ddcc6fd707b05aabc750a7414b33076bb6e72e1402dd255e",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "name": "bantudarc",
+      "url": "https://bantudarc.aa-ken.jp/about.html",
+      "status": 200,
+      "bytes": 13251,
+      "sha256": "2ab5ef9026be3843ab7c79cd066bf42d94523e032640450093d3b707325bf1fe",
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ],
+  "reflex": {
+    "doi": "10.34847/nkl.e3cbkjzm",
+    "license": "CC BY-NC-SA 4.0",
+    "resources": [
+      {
+        "name": "README.md",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/4e5abdeb38108dfeeb4e61694ab8822a17220cb6",
+        "bytes": 3329,
+        "sha1": "4e5abdeb38108dfeeb4e61694ab8822a17220cb6",
+        "sha256": "15081ce207c1bc10aaf48254ae57b2206b492848959bafcf312559b2e7dc6cb4"
+      },
+      {
+        "name": "langues.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/f627eef8264f3eba0210d0669f75219ab08e20d4",
+        "bytes": 78736,
+        "sha1": "f627eef8264f3eba0210d0669f75219ab08e20d4",
+        "sha256": "f9814ae1fd2dcc418f50cfdcb1cd733f92bcb7917d98976e9593e45f46ca4a1a"
+      },
+      {
+        "name": "pays.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/f913ae3db6b7dc79a3ad80b0bf96be40c6976b32",
+        "bytes": 3918,
+        "sha1": "f913ae3db6b7dc79a3ad80b0bf96be40c6976b32",
+        "sha256": "2b878befe43772e1e374f0e3468cfea4fcd2de5147534cb608968341fb3afdf4"
+      },
+      {
+        "name": "records.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/dcc56cac85c0f20bad49e386656b96041e197ac8",
+        "bytes": 55637563,
+        "sha1": "dcc56cac85c0f20bad49e386656b96041e197ac8",
+        "sha256": "ac96f29b212df5d605c1c3f3526b5d1573337697934143735a1b9d198e2247aa"
+      },
+      {
+        "name": "references.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/af5586ab41db11f3dbe356656415e955aaccd5d4",
+        "bytes": 46617,
+        "sha1": "af5586ab41db11f3dbe356656415e955aaccd5d4",
+        "sha256": "80081ddffd8687c3afed3b43392235fda38a3a5930e46d7417ccc72aa63a2405"
+      },
+      {
+        "name": "sources.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/081618ff04ea5593aca28c5f501516ac181d7799",
+        "bytes": 416794,
+        "sha1": "081618ff04ea5593aca28c5f501516ac181d7799",
+        "sha256": "639b5df1d4dc7af1c2094a31b485c9b1e96d1ec1ed63a40999024885b721efb1"
+      }
+    ],
+    "observed": {
+      "records": 932836,
+      "sources": 1435,
+      "language_samples": 815,
+      "bantu_records": 239769,
+      "bantu_sources": 280,
+      "bantu_language_samples": 197
+    },
+    "missing_language_codes": 38,
+    "missing_narrow_bantu_canonical_candidates": 0,
+    "warning": "Actual frozen export has932836 rows, unlike site927845. Same original references as existing TLS/Polyglotta/BCCW are not independent sources."
+  },
+  "books": [
+    {
+      "repo": "langsci/351",
+      "commit": "9134466812515305638fb6afa32e757cbb665338",
+      "candidate_paths": [
+        "README.md",
+        "chapters/acknowledgments.tex",
+        "chapters/appendix.tex",
+        "chapters/appendixA.tex",
+        "chapters/appendixB.tex",
+        "chapters/appendixC.tex"
+      ]
+    },
+    {
+      "repo": "langsci/298",
+      "commit": "fbcdc58811049568454fa80990e36af940e56ad1",
+      "candidate_paths": [
+        "AppIII-Lexicon/testDict.tex",
+        "chapters/acknowledgments.tex"
+      ]
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "candidate_paths": [
+        "README.md",
+        "chapters/acknowledgments.tex",
+        "chapters/dictionary_users_guide.tex"
+      ]
+    }
+  ],
+  "book_samples": [
+    {
+      "repo": "langsci/351",
+      "commit": "9134466812515305638fb6afa32e757cbb665338",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/langsci/351/9134466812515305638fb6afa32e757cbb665338/README.md",
+      "bytes": 417,
+      "sha256": "3c715a4cb1f894bf4d5f232c3560a2bbd83cf4033765530a78f1dcd2685fcd2c"
+    },
+    {
+      "repo": "langsci/351",
+      "commit": "9134466812515305638fb6afa32e757cbb665338",
+      "path": "chapters/2.tex",
+      "url": "https://raw.githubusercontent.com/langsci/351/9134466812515305638fb6afa32e757cbb665338/chapters/2.tex",
+      "bytes": 114688,
+      "sha256": "e1c36721fe9a08427aa6f1e29fdbbc9c2d44cf0cb7cafc45070c0f474997c17d"
+    },
+    {
+      "repo": "langsci/351",
+      "commit": "9134466812515305638fb6afa32e757cbb665338",
+      "path": "chapters/appendixC.tex",
+      "url": "https://raw.githubusercontent.com/langsci/351/9134466812515305638fb6afa32e757cbb665338/chapters/appendixC.tex",
+      "bytes": 238750,
+      "sha256": "f9ab9d7bb6c1419bf9668e9dc1a6084a97f46e02e5c944a44d013c5428625870"
+    },
+    {
+      "repo": "langsci/298",
+      "commit": "fbcdc58811049568454fa80990e36af940e56ad1",
+      "path": "chapters/CH2.tex",
+      "url": "https://raw.githubusercontent.com/langsci/298/fbcdc58811049568454fa80990e36af940e56ad1/chapters/CH2.tex",
+      "bytes": 214214,
+      "sha256": "0a4ebc7b6fd596da9d52e91d351705eeb3ae0af22c1bd13b5fe6ffc56ee28d10"
+    },
+    {
+      "repo": "langsci/298",
+      "commit": "fbcdc58811049568454fa80990e36af940e56ad1",
+      "path": "chapters/AppIII.tex",
+      "url": "https://raw.githubusercontent.com/langsci/298/fbcdc58811049568454fa80990e36af940e56ad1/chapters/AppIII.tex",
+      "bytes": 144571,
+      "sha256": "9c2d33cd72d9f4fcf9d6f0d0024d77a0b75c1849da4082b195ca662cf3db4b3d"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/README.md",
+      "bytes": 641,
+      "sha256": "67fe4d84e8953668e51ace1dd6bcfed24ff1343e3465239e7b37a94f9d292e2e"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "chapters/02.tex",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/chapters/02.tex",
+      "bytes": 69298,
+      "sha256": "164b86571ac8e9103508b9fe499e031bf5a37b785f4a6def0a61964a2065a715"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "chapters/03.tex",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/chapters/03.tex",
+      "bytes": 124353,
+      "sha256": "dbb4c9ffa451faf56fac750ec00bede3958c2dc4bc7778232a48d856cbfde1e8"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "chapters/dictionary_users_guide.tex",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/chapters/dictionary_users_guide.tex",
+      "bytes": 7256,
+      "sha256": "20d08ad390de379a7204374a94b7a1ba96cc2c66e2c92fd514cd86572f1d1e97"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "chapters/m.tex",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/chapters/m.tex",
+      "bytes": 452239,
+      "sha256": "339d22060b09fe1877d5b6eec97b39baf17c2ca19e1e2f4513a18a865183c1c5"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "chapters/a.tex",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/chapters/a.tex",
+      "bytes": 41418,
+      "sha256": "33e5fe99bc51e0111a58b9eee7a85fc450c2def225548611606bdac84c005958"
+    },
+    {
+      "repo": "langsci/326",
+      "commit": "5c8dd12975c308c32638756216544703cafbbd8d",
+      "path": "chapters/o.tex",
+      "url": "https://raw.githubusercontent.com/langsci/326/5c8dd12975c308c32638756216544703cafbbd8d/chapters/o.tex",
+      "bytes": 16493,
+      "sha256": "cece7dc9d17652a2e672861172695cfa8039ed8cb7c67fdf338069de4dd82bad"
+    },
+    {
+      "repo": "langsci/298",
+      "commit": "fbcdc58811049568454fa80990e36af940e56ad1",
+      "path": "chapters/CH1.tex",
+      "url": "https://raw.githubusercontent.com/langsci/298/fbcdc58811049568454fa80990e36af940e56ad1/chapters/CH1.tex",
+      "bytes": 97710,
+      "sha256": "c13f50136f7cd47acc0688af0f196af30ea67ad1cb0d4ae669e8e525bd78b760"
+    },
+    {
+      "repo": "langsci/351",
+      "commit": "9134466812515305638fb6afa32e757cbb665338",
+      "path": "chapters/3.tex",
+      "url": "https://raw.githubusercontent.com/langsci/351/9134466812515305638fb6afa32e757cbb665338/chapters/3.tex",
+      "bytes": 87596,
+      "sha256": "dd59834294e8f7c48017cb7f6a48c07ac67029d86581316763eca061f2322df2"
+    }
+  ],
+  "dictionaria": [
+    {
+      "dataset": "hdi",
+      "commit": "0a286be9392aade7007533f7de5e81e52ee636bb",
+      "files": [
+        {
+          "path": "cldf/cldf-metadata.json",
+          "bytes": 22101,
+          "sha256": "8d9d917dbdaa53799dc1cfc35370c5bc17ad699f49fad7bd14098c59832c79a2",
+          "url": "https://raw.githubusercontent.com/dictionaria/hdi/0a286be9392aade7007533f7de5e81e52ee636bb/cldf/cldf-metadata.json"
+        },
+        {
+          "path": "cldf/entries.csv",
+          "bytes": 82968,
+          "sha256": "1cb75faa7d8403f0f5bd3b44ad24cc534dff6664def326d26495fde8f4f1ea4b",
+          "url": "https://raw.githubusercontent.com/dictionaria/hdi/0a286be9392aade7007533f7de5e81e52ee636bb/cldf/entries.csv"
+        },
+        {
+          "path": "cldf/senses.csv",
+          "bytes": 126626,
+          "sha256": "7817c0b6031bc260604f2143081cbf68a3ea2ef082af67d053181cebd4636ed1",
+          "url": "https://raw.githubusercontent.com/dictionaria/hdi/0a286be9392aade7007533f7de5e81e52ee636bb/cldf/senses.csv"
+        },
+        {
+          "path": "cldf/languages.csv",
+          "bytes": 85,
+          "sha256": "110b729a0ec8e2f89ae70d00a001a1db2e74c631fee75fcffced00f3395937fd",
+          "url": "https://raw.githubusercontent.com/dictionaria/hdi/0a286be9392aade7007533f7de5e81e52ee636bb/cldf/languages.csv"
+        },
+        {
+          "path": "README.md",
+          "bytes": 196560,
+          "sha256": "addc3b7a6a56d14db1c2f0a2ee56da0a4688db4a30efd5ded62e0197aa1084ba",
+          "url": "https://raw.githubusercontent.com/dictionaria/hdi/0a286be9392aade7007533f7de5e81e52ee636bb/README.md"
+        }
+      ]
+    },
+    {
+      "dataset": "sidaama",
+      "commit": "51897791fcb5fad622e7956de657d9a84576056e",
+      "files": [
+        {
+          "path": "cldf/cldf-metadata.json",
+          "bytes": 18046,
+          "sha256": "8b7ff96e801ef62f6a9930088857cd4ff197372ac34a7745f92a436cef28e2fe",
+          "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/cldf/cldf-metadata.json"
+        },
+        {
+          "path": "cldf/entries.csv",
+          "bytes": 246070,
+          "sha256": "c7ab672b848c68a35994e67b2a3444f7fc4a1eae4ea3d5e313fd0fe64461eafe",
+          "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/cldf/entries.csv"
+        },
+        {
+          "path": "cldf/senses.csv",
+          "bytes": 142381,
+          "sha256": "cd932e511df711a771217fe23b8b505532ad2e4f2e8d758decf3c89c6b7608a9",
+          "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/cldf/senses.csv"
+        },
+        {
+          "path": "cldf/languages.csv",
+          "bytes": 89,
+          "sha256": "01224c8a77e7cb39d4891f243e720693d9b06b74d9f35c01b2ee001341c7e132",
+          "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/cldf/languages.csv"
+        },
+        {
+          "path": "README.md",
+          "bytes": 501866,
+          "sha256": "1ce9e6afcf7980321205589180a65b2338b7b76c5880a382d60eddd2b92799e3",
+          "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/README.md"
+        }
+      ]
+    }
+  ],
+  "depth_audit": {
+    "tls": {
+      "mapped": 68614,
+      "total": 101971,
+      "value_with_alternative_separator": 9268,
+      "value_with_parenthesis": 10416,
+      "unmapped": 33357
+    },
+    "polyglottaafricana": {
+      "mapped": 8172,
+      "unmapped": 888
+    },
+    "grollemundbantu": {
+      "mapped": 22264,
+      "total": 22264,
+      "value_with_alternative_separator": 66,
+      "value_with_parenthesis": 185
+    },
+    "wiktionary": {
+      "mapped": 235,
+      "unmapped": 78
+    },
+    "gled": {
+      "mapped": 5996
+    },
+    "mitterhoferbena": {
+      "mapped": 1972,
+      "unmapped": 45
+    },
+    "bantubvd": {
+      "mapped": 4187,
+      "unmapped": 69
+    },
+    "sawkatokaleya": {
+      "mapped": 2145,
+      "unmapped": 21
+    },
+    "wold": {
+      "mapped": 1813,
+      "unmapped": 17
+    }
+  },
+  "baseline_union_rows": 1789,
+  "africa_macroarea_missing_bantu": [
+    {
+      "av_id": "atl-tanzania-mozambique-ngoni",
+      "glottocode": "ngon1269",
+      "name": "Tanzania-Mozambique Ngoni",
+      "forms": 967,
+      "supported_core": 127
+    }
+  ],
+  "verification": {
+    "planning_resource_hashes_verified": 38,
+    "accepted_manifest_unchanged": true,
+    "active_intake_modified": false,
+    "lexical_admissions": 0,
+    "web_artifacts_rebuilt": false
+  }
+}

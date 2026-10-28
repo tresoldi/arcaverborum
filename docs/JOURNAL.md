@@ -1,5 +1,38 @@
 # Project journal and working memory
 
+## 2026-10-28 — Sub-Saharan Africa / Bantu execution
+
+User authorized AF01–AF09 sequentially with autonomous specifics. Completed all
+nine as bounded admissions or explicit holds. See AFRICA_EXPANSION_2026-10-28.md
+and africa_expansion_summary_2026-10-28.json. Accepted7,331 varieties/2,070,117
+forms/468,501 supported slots/542,429 mapped slots; GLED primaries1,575.
+Added619 records:280 supplied,221 profile,118 written-only; +464 supported slots.
+Bantu485 constructions/150,276 forms/35,084 supported slots (+403/+352).
+Konyagi/Wamey atl-wamey20 and Kam atl-kam30 are two new canonical languages,
+written-only. Gyeli64-profile and Hdi45-profile primaries retain all36/32 earlier
+GLED rows with native cognacy; Fwe26-profile slice cannot replace36 supported slots.
+Five unsupported prenasalized-unit entries remain written-only, not split to force
+validation. Ruruuli18 and Sidaama45 remain written-only; AF08 recovers explicit
+tones on76 rows rather than admitting toneless conversions as supplied IPA.
+302 Bantu Grollemund/TLS constructions disclose upstream profile conversion;
+312 constructions total carry modern reading metadata. No Ndebele/Kamba/RefLex
+identity reassignment guessed. Temi alignment and Shashi scope held. Preserve
+original source forms, classes, prefixes, citation/floating tones and toneless
+syllables. RefLex source39/3074 attribution joins and NC-SA terms retained.
+
+Seven new original-source namespaces/329 records staged outside intake, appended
+once and exactly reproduced from pinned bytes. Do not reappend or subset-ingest.
+Future source expansions require complete-stage guarded migration. New finite
+profile compilers validate native evidence and preserve promoted primaries.
+All7,331 accepted outputs rebuilt with no failures;440 tests/lint pass. All
+2,069,498 earlier lexical rows and original comments preserved; mechanical scores
+change on68 retained GLED rows due explicit guarded concept mappings, not new
+phonetic quality.401 website hashes and three aggregate inputs checked; generic,
+African, ancient and mixed-source browser exports pass. Fresh African ranking579
+member opportunities;432 GLED alternatives, zero lossless positive supplied-reading
+swaps. NEXT closes AF01–AF09 and proposes unapproved AX01–AX05; HELD updated.
+Publication commit/CI/Pages/live checks to be recorded immediately after push.
+
 ## 2026-10-28 — Sub-Saharan Africa / Bantu investigation
 
 User requests investigation, not a lexical batch. Accepted ancient data commit

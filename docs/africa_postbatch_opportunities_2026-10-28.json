@@ -1,0 +1,12 @@
+{
+  "accepted_targets_with_gaps": 7316,
+  "member_opportunities": 6815,
+  "south_american_opportunities": 611,
+  "american_opportunities": 914,
+  "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+  "source_policy": "Source IPA only counts as supplied. Resegmented spelling is orthographic potential, never supported evidence.",
+  "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report.",
+  "tracked_subset": "Africa baseline union plus two newly accepted African languages; not exclusively Sub-Saharan",
+  "african_member_opportunities": 579,
+  "full_local_ranking": "output/report/coverage_opportunities.csv"
+}

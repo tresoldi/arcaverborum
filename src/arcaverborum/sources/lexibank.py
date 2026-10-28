@@ -76,6 +76,11 @@ def fetch(
         for r in json.loads((Path(__file__).resolve().parents[1] / "data/ancient_lexical_sources.json").read_text())
     }
 
+    african = {
+        r["dataset"]
+        for r in json.loads((Path(__file__).resolve().parents[1] / "data/african_lexical_sources.json").read_text())
+    }
+
     for repo in repos:
         name = repo["NAME"].strip()
         url = repo["URL"].strip()
@@ -84,14 +89,17 @@ def fetch(
         if dry_run:
             action = (
                 "materialize reviewed source"
-                if name in ancient | {"bodtbangru", "gerardije2025", "rvidinfinitives"}
+                if name in ancient | african | {"bodtbangru", "gerardije2025", "rvidinfinitives"}
                 else ("update" if repo_dir.exists() else "clone")
             )
             logger.info("[dry-run] %s %s", action, name)
             continue
 
-        if name in ancient:
-            from arcaverborum.sources.ancient_lexica import materialize
+        if name in ancient | african:
+            if name in african:
+                from arcaverborum.sources.african_lexica import materialize
+            else:
+                from arcaverborum.sources.ancient_lexica import materialize
 
             existed = repo_dir.exists()
             try:

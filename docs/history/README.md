@@ -5,6 +5,13 @@ active proposals. Reports and companion CSV/JSON files retain their dated paths
 so packet links and source references remain stable. A historical shortlist or
 “held” decision is not automatically the current work queue.
 
+## Accepted data batches
+
+* [Sub-Saharan Africa/Bantu AF01–AF09,2026-10-28](../AFRICA_EXPANSION_2026-10-28.md):
+  supplied readings, bounded original dictionary profiles, two written-only new
+  languages, two loss-preserving GLED primary replacements and explicit holds.
+  [Realized metrics](../africa_expansion_summary_2026-10-28.json).
+
 ## Planning investigations
 
 * [Sub-Saharan Africa, especially Bantu,2026-10-28](../SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md):

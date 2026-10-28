@@ -4,8 +4,9 @@ glottocode: gyel1242
 family: Atlantic-Congo
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: gyelioriginal
+  cognates: gyelioriginal
+  source_language_id: gyelioriginal_Gyeli
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,8 @@ scoring:
   forms_score: 0.7651
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.77) [fallback p2]; cognates=gled (0.60)'
+notes: Bounded reviewed original dictionary primary; every earlier GLED row retained
+  as guarded supplements. Finite broad source-specific profile; original tone/morphology
+  retained; no transferred cognacy.

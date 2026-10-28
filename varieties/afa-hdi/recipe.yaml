@@ -1,0 +1,14 @@
+av_id: afa-hdi
+name: Hdi
+africa_review_2026_10_28:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_EXPANSION_2026-10-28.md
+  primary: hdioriginal
+  forms: 77
+  supported_core: 67
+  source_statuses:
+    profile: 45
+    source: 32
+  preservation: Earlier lexical rows retained, source-specific cognacy not transferred.
+  reading_scope: Guarded supplied readings, exact finite profiles or explicitly written-only;
+    see custom ledgers and reading_evidence.csv.

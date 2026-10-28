@@ -188,3 +188,10 @@ copticsahidic,https://raw.githubusercontent.com/CopticScriptorium/dictionary/d39
 tlaearlieregyptian,https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-Earlier_Egyptian_original-v18-premium/resolve/a7ba9e9d1a74a9a0f919b024ba84dd6d643b2966/train.jsonl,,
 kaikkietruscan,https://kaikki.org/dictionary/Etruscan/kaikki.org-dictionary-Etruscan.jsonl,FALSE,FALSE
 twkmmayan,https://classicmayan.org/portal/editor/uploads/1062_twkm_note_013.pdf,FALSE,FALSE
+ruruulioriginal,https://github.com/langsci/326,FALSE,FALSE
+fweoriginal,https://github.com/langsci/351,FALSE,FALSE
+gyelioriginal,https://github.com/langsci/298,FALSE,FALSE
+reflexoriginal,https://nakala.fr/10.34847/nkl.e3cbkjzm,FALSE,FALSE
+westafricanoriginal,https://github.com/lexibank/hantganbangime,FALSE,FALSE
+hdioriginal,https://github.com/dictionaria/hdi,FALSE,FALSE
+sidaamaoriginal,https://github.com/dictionaria/sidaama,FALSE,FALSE

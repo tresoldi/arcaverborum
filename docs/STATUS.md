@@ -1,126 +1,103 @@
 # Current project state
 
-Updated 2026-10-28. This is the current-state entry point. Update it at the close
-of each data batch; dated reports retain their original before/after observations.
-The active work queue is [NEXT.md](NEXT.md); planning procedure is
-[coverage-planning](workflows/arca-coverage-planning/SKILL.md).
+Updated 2026-10-28. Current baseline and handoff; dated reports preserve their
+original observations. Active proposals are in [NEXT](NEXT.md), with evidence
+requirements in [HELD](planning/HELD.md).
 
-Latest batch: [ancient languages AN01–AN09](ANCIENT_EXPANSION_2026-10-28.md).
-All nine tracks received reviewed admissions or documented evidence holds.
-Etruscan and Elamite are explicit standing priorities. Earlier Romance RP and
-American NB/P proposals remain parked. The current investigation focuses on
-Sub-Saharan Africa/Bantu; NEXT carries AF01–AF09, with AE follow-ups parked.
-
-Latest planning: [Sub-Saharan Africa/Bantu investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md).
-485 Narrow Bantu constructions,97 GLED primaries and23 zero-supported-core cases;
-577 Africa-wide member opportunities,240 Bantu. Actual RefLex/archive and original
-Bantu dictionary payloads acquired outside intake; no accepted-data change.
+Latest batch: [Sub-Saharan Africa/Bantu AF01–AF09](AFRICA_EXPANSION_2026-10-28.md).
+All nine authorized tracks received bounded admissions or explicit evidence holds.
+Data commit: publication commit containing this batch's manifest; exact SHA and
+live verification will be recorded after deployment.
+Authoritative counts: [realized metrics](africa_expansion_summary_2026-10-28.json).
 
 ## Accepted baseline
 
-Data commit:`5d0981260945f7d90b827f8ade7ac9d603ca1f6d`.
-Authoritative counts: [ancient summary](ancient_expansion_summary_2026-10-28.json),
-`after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
-compressed `web/data/catalog.json.gz`.
-
 | Measure | Accepted value |
 | --- | ---: |
-| Varieties | 7,329 |
-| Forms | 2,069,498 |
-| Supplied-source forms | 1,746,190 |
-| Profile-derived forms | 13,885 |
-| Supported core-concept slots | 468,037 |
-| Mapped core-concept slots | 541,874 |
-| GLED primary selections | 1,577 |
+| Varieties | 7,331 |
+| Forms | 2,070,117 |
+| Supplied-source forms | 1,746,470 |
+| Profile-derived forms | 14,106 |
+| Supported core-concept slots | 468,501 |
+| Mapped core-concept slots | 542,429 |
+| GLED primary selections | 1,575 |
 | Core-source collection varieties | 906 |
 | Frozen concepts / core concepts | 3,787 / 161 |
 
-Supported slots are distinct variety–concept pairs with `source` or `profile`
-evidence. Historical `source` identifies segment origin, not direct observation
-of ancient pronunciation. Mapped slots can include unresolved/written-only
-transcription. Core-source is a row-level collection, independent of161-core scope.
+619 new records:280 supplied readings,221 profile readings and118 explicitly
+written-only entries. Gains464 supported and555 mapped core slots. Two new
+canonical languages, Konyagi/Wamey and Kam, have20/30 written entries respectively;
+no phonetic coverage is claimed for them. Zero new named sample/dialect varieties.
+Gyeli and Hdi original dictionaries replace two GLED primaries, retaining all68
+previous GLED rows and their cognacy. Fwe remains GLED-primary pending a larger
+supported dictionary slice. Ruruuli and Sidaama additions remain written-only.
 
-284 forms added in14 existing constructions:169 supplied historical readings and
-115 explicitly written-only lexical rows. Gain165 supported core slots and237
-mapped core slots. No new languages/named varieties, profile readings or GLED swaps.
-Etruscan70→94 forms and14→19 mapped core (supported9 unchanged); Elamite787→790
-forms (supported71 unchanged). Full787-record Elamite source-text audit and
-historical reading-basis metadata for the58-construction shortlist accompany
-these gains. Qualified Sanskrit43→141, Attic128→152, Latin128→142 supported core;
-Latin filius maps to SON, not generic CHILD. Written-only rows add zero phonetic
-support. Actual source terms remain attached.
+Narrow Bantu ancestry scope remains485 constructions:150,276 forms and35,084
+supported core slots, gains403 forms/352 slots. GLED primaries97→96;23 zero-core
+cases remain. Ngoni's blank Macroarea remains an explicit metadata hold; do not
+replace ancestry-based scope with a geography-only filter.
 
-Verification:436 tests and full lint pass. All7,329 accepted constructions rebuilt
-with zero failures; aggregate, curation report and web artifacts rebuilt.
-All2,069,214 earlier lexical rows preserved apart from additive comment metadata
-(global aggregate IDs may shift). All401 website artifact hashes and three
-aggregate-input hashes verified. Local generic, historical and mixed-source
-browser/export checks cover scope, licenses, Etruscan/Elamite orthography,
-conversion disclosure, exact Attic note and Mayan sign/context. Four pinned
-original lexical slices reproduced outside intake. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40749787006)
-passed on Python3.12/3.13 and
-[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40749786754)
-succeeded for the data commit. Canonical live manifest, catalog, recordings,
-source bibliography and six representative family shards match committed bytes;
-live historical browser exports pass. Original comments on all9,886 earlier
-historical rows remain intact;10,170 rows now carry reading-basis annotations.
+Supported slots are distinct variety–concept pairs with source/profile evidence.
+Source labels describe segment origin:302 Bantu upstream Grollemund/TLS
+conversions now disclose their profile genealogy; they are not independent
+phonetic elicitation. Historical source readings likewise require their reading
+basis and period qualifiers. Written-only entries have blank segments and add
+zero supported phonetic slots. Core-source is a row-level collection independent
+of the161-concept vocabulary filter. Mechanical quality scores are not linguistic
+certification; guarded concept mappings recomputed scores on68 retained GLED rows.
 
-Previous data baseline:`6009c09e58021f203beb920677418d9f7f51f805`,
-[Romance report](ROMANCE_EXPANSION_2026-10-28.md). Its430-test CI and Pages
-verification are recorded in that batch's journal/history; older baseline
-`7de14ecd8710ad399189cd12405d1a4afc50fc54` and correction`74c4468c` belong to the
-[American batch](NORTH_AMERICA_EXPANSION_2026-10-28.md).
+## Verification and publication
+
+440 tests and full lint pass. All7,331 accepted constructions rebuilt, zero
+failures; aggregate, curation report and web artifacts regenerated. All2,069,498
+earlier lexical rows and original comments preserved, including multiplicity;
+aggregate IDs, additive review metadata and derived scores may change.
+401 website artifact hashes and three aggregate-input hashes verified.
+All329 original-source intake records reproduce from immutable source bytes.
+Generic research, African, ancient and mixed-source browser/export checks pass.
+CI, Pages and canonical live verification are pending the publication push.
+
+Publication artifacts: [manifest](../web/data/manifest.json), compressed catalog,
+399 family shards, bibliography and755 recording-metadata rows. The site deploys
+tracked artifacts; Pages does not rebuild lexical data.
 
 ## Evidence for planning
 
-Current discovery evidence: [Africa/Bantu investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md),
-[accepted baseline](africa_baseline_2026-10-28.csv),
-[member opportunities](africa_opportunities_2026-10-28.csv),
-[loss-aware GLED screen](africa_gled_replacements_2026-10-28.csv),
-[pins/acquisition](africa_investigation_2026-10-28.json),
-[RefLex source identities](africa_reflex_source_screen_2026-10-28.csv) and
-[missing-language candidates](africa_missing_language_candidates_2026-10-28.csv).
-RefLex actual archived932,836 records differ from live-site927,845 description;
-239,769 Narrow Bantu records are source material, not approved forms.38 absent
-canonical codes remain provisional identity candidates, none established as new
-Narrow Bantu languages. AF01–AF09 are proposed; no lexical batch authorized yet.
+* [Completed execution and boundaries](AFRICA_EXPANSION_2026-10-28.md),
+  [source pins](africa_execution_sources_2026-10-28.json), authored AF01–AF09 reviews
+  and the [lexical registry](../src/arcaverborum/data/african_lexical_sources.json).
+* [Fresh African member opportunities](africa_postbatch_opportunities_2026-10-28.csv)
+  and [method/counts](africa_postbatch_opportunities_2026-10-28.json):579 overlapping
+  member opportunities, not admissions. The
+  [post-batch GLED screen](africa_postbatch_gled_2026-10-28.csv) has432 alternatives,
+  zero lossless positive supplied-reading replacements. Existing profiles and
+  original-source acquisition need separate review.
+* [Original investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md),
+  [historical485-construction scope](africa_baseline_2026-10-28.csv) and
+  [RefLex source identities](africa_reflex_source_screen_2026-10-28.csv).
+  RefLex's actual932,836 archived records differ from the live-site927,845
+  description; raw source records are not accepted gains. Konyagi and Kam are
+  now admitted; other missing-language candidates remain provisional.
+* [Prior ancient baseline](ANCIENT_EXPANSION_2026-10-28.md), data commit
+  `5d0981260945f7d90b827f8ade7ac9d603ca1f6d`, and
+  [earlier Romance](ROMANCE_EXPANSION_2026-10-28.md) and
+  [American](NORTH_AMERICA_EXPANSION_2026-10-28.md) results remain historical evidence.
+* [Journal](JOURNAL.md), [history](history/README.md) and [held register](planning/HELD.md).
 
-The [ancient batch report](ANCIENT_EXPANSION_2026-10-28.md) and
-[realized metrics](ancient_expansion_summary_2026-10-28.json) retain the accepted
-data baseline. Ancient AE priorities remain parked alongside earlier proposals.
+Americas/South America and Etruscan/Elamite remain standing priorities. Parked
+ancient, Romance and American proposals are retained in NEXT. The AX follow-ups
+are recommendations after this completed batch, not newly authorized work.
 
-* [Original ancient investigation](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md)
-  remains historical discovery evidence, not an unspent admission queue.
-* [Romance decisions/results](ROMANCE_EXPANSION_2026-10-28.md) retain the earlier
-  source/locality evidence. [Fresh ancient subset](ancient_expansion_opportunities_2026-10-28.csv) and
-  [method/counts](ancient_expansion_opportunities_2026-10-28.json) derive from the
-  regenerated full local ranking. Opportunities overlap held or already-admitted
-  written evidence and require source/member/sense review before further work.
-* [Latest missing-language decisions](south_america_depth_missing_languages_2026-10-28.csv)
-  and [four-source screen](south_america_depth_source_screen_2026-10-28.json).
-* [Held-work register](planning/HELD.md): current blockers across earlier batches.
-* [Journal](JOURNAL.md): chronological decisions and operational handoffs.
-* [History index](history/README.md): completed reports and their evidence files.
+## Build state
 
-The additive ranking excludes a construction's primary source and does not
-model recovery through its existing profile. Use a separate GLED replacement
-scan and inspect primary-source profile/dictionary opportunities explicitly.
-A source language table without lexical rows establishes no coverage gain.
+Source of truth: configs, guarded custom ledgers/profiles, source registries,
+packets and recipes. Generated intake/aggregate files remain local products.
+Intake now has7,192,262 rows. The seven African namespaces contain329 records and
+have been appended once; future expansion must use a complete staged guarded
+migration, never subset-ingest or repeat that append. Jê remains463 admitted forms
+across five members; its historical251/371 migrations are complete.
 
-## Build and publication state
-
-Accepted constructions live in `varieties/*/config.yaml` plus guarded `custom/*`;
-packets and recipes document their rationale. Generated intake/aggregate files
-are local products. The website publishes tracked `web/data/` artifacts from
-the accepted aggregate; a successful Pages run does not regenerate lexical data.
-
-Current Jê namespace:463 admitted forms/five members,657 reviewed candidates
-(194 held). This expansion preserved all371 earlier source rows. Intake database:
-7,191,883 rows. Two new dictionary namespaces contributed9,998 rows. The historical251/371-row migrations are complete; any later
-expansion must guard the actual current source count463.
-
-Use [ONBOARDING.md](../ONBOARDING.md) for commands and environment details.
-
-[Guarded primary subsets and recording metadata](GUARDED_PRIMARY_AND_RECORDINGS.md)
-explain bounded dictionary admission, exact unlinked-member selection and separate
-recording exports. Current public recording metadata has755 rows.
+Use [ONBOARDING](../ONBOARDING.md) for commands and environment details, and
+[guarded primary/recording formats](GUARDED_PRIMARY_AND_RECORDINGS.md) for bounded
+source selections. The [coverage-planning workflow](workflows/arca-coverage-planning/SKILL.md)
+connects accepted evidence to the next proposal.

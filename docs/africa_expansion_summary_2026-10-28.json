@@ -1,0 +1,367 @@
+{
+  "before": {
+    "varieties": 7329,
+    "forms": 2069498,
+    "source_forms": 1746190,
+    "profile_forms": 13885,
+    "supported_core": 468037,
+    "mapped_core": 541874,
+    "gled_primaries": 1577,
+    "core_source_varieties": 906
+  },
+  "after": {
+    "varieties": 7331,
+    "forms": 2070117,
+    "source_forms": 1746470,
+    "profile_forms": 14106,
+    "supported_core": 468501,
+    "mapped_core": 542429,
+    "gled_primaries": 1575,
+    "core_source_varieties": 906
+  },
+  "delta": {
+    "varieties": 2,
+    "forms": 619,
+    "source_forms": 280,
+    "profile_forms": 221,
+    "supported_core": 464,
+    "mapped_core": 555,
+    "gled_primaries": -2,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "afa-hdi",
+      "forms_before": 32,
+      "forms_after": 77,
+      "supported_core_before": 31,
+      "supported_core_after": 67,
+      "mapped_core_before": 31,
+      "mapped_core_after": 67,
+      "statuses_before": {
+        "source": 32
+      },
+      "statuses_after": {
+        "profile": 45,
+        "source": 32
+      }
+    },
+    {
+      "av_id": "afa-sidamo",
+      "forms_before": 49,
+      "forms_after": 94,
+      "supported_core_before": 38,
+      "supported_core_after": 38,
+      "mapped_core_before": 38,
+      "mapped_core_after": 69,
+      "statuses_before": {
+        "source": 49
+      },
+      "statuses_after": {
+        "source": 49,
+        "unclean": 45
+      }
+    },
+    {
+      "av_id": "atl-fwe",
+      "forms_before": 47,
+      "forms_after": 76,
+      "supported_core_before": 36,
+      "supported_core_after": 55,
+      "mapped_core_before": 36,
+      "mapped_core_after": 56,
+      "statuses_before": {
+        "source": 47
+      },
+      "statuses_after": {
+        "source": 47,
+        "unclean": 3,
+        "profile": 26
+      }
+    },
+    {
+      "av_id": "atl-gyele",
+      "forms_before": 36,
+      "forms_after": 102,
+      "supported_core_before": 34,
+      "supported_core_after": 78,
+      "mapped_core_before": 34,
+      "mapped_core_after": 79,
+      "statuses_before": {
+        "source": 36
+      },
+      "statuses_after": {
+        "profile": 64,
+        "source": 36,
+        "unclean": 2
+      }
+    },
+    {
+      "av_id": "atl-ikizu",
+      "forms_before": 200,
+      "forms_after": 242,
+      "supported_core_before": 76,
+      "supported_core_after": 118,
+      "mapped_core_before": 76,
+      "mapped_core_after": 118,
+      "statuses_before": {
+        "source": 200
+      },
+      "statuses_after": {
+        "source": 242
+      }
+    },
+    {
+      "av_id": "atl-ikoma-nata",
+      "forms_before": 98,
+      "forms_after": 144,
+      "supported_core_before": 75,
+      "supported_core_after": 121,
+      "mapped_core_before": 75,
+      "mapped_core_after": 121,
+      "statuses_before": {
+        "source": 98
+      },
+      "statuses_after": {
+        "source": 144
+      }
+    },
+    {
+      "av_id": "atl-kam",
+      "forms_before": 0,
+      "forms_after": 30,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 0,
+      "mapped_core_after": 30,
+      "statuses_before": {},
+      "statuses_after": {
+        "unclean": 30
+      }
+    },
+    {
+      "av_id": "atl-kamba-kenya",
+      "forms_before": 296,
+      "forms_after": 338,
+      "supported_core_before": 76,
+      "supported_core_after": 118,
+      "mapped_core_before": 76,
+      "mapped_core_after": 118,
+      "statuses_before": {
+        "source": 296
+      },
+      "statuses_after": {
+        "source": 338
+      }
+    },
+    {
+      "av_id": "atl-ngoreme",
+      "forms_before": 100,
+      "forms_after": 142,
+      "supported_core_before": 76,
+      "supported_core_after": 118,
+      "mapped_core_before": 76,
+      "mapped_core_after": 118,
+      "statuses_before": {
+        "source": 100
+      },
+      "statuses_after": {
+        "source": 142
+      }
+    },
+    {
+      "av_id": "atl-nilamba",
+      "forms_before": 99,
+      "forms_after": 139,
+      "supported_core_before": 75,
+      "supported_core_after": 115,
+      "mapped_core_before": 75,
+      "mapped_core_after": 115,
+      "statuses_before": {
+        "source": 99
+      },
+      "statuses_after": {
+        "source": 139
+      }
+    },
+    {
+      "av_id": "atl-ruuli",
+      "forms_before": 6,
+      "forms_after": 24,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 2,
+      "mapped_core_after": 10,
+      "statuses_before": {
+        "resegmented": 2,
+        "unclean": 4
+      },
+      "statuses_after": {
+        "resegmented": 2,
+        "unclean": 22
+      }
+    },
+    {
+      "av_id": "atl-suba",
+      "forms_before": 100,
+      "forms_after": 137,
+      "supported_core_before": 76,
+      "supported_core_after": 113,
+      "mapped_core_before": 76,
+      "mapped_core_after": 113,
+      "statuses_before": {
+        "source": 100
+      },
+      "statuses_after": {
+        "source": 137
+      }
+    },
+    {
+      "av_id": "atl-tumbuka",
+      "forms_before": 68,
+      "forms_after": 78,
+      "supported_core_before": 60,
+      "supported_core_after": 70,
+      "mapped_core_before": 60,
+      "mapped_core_after": 70,
+      "statuses_before": {
+        "source": 68
+      },
+      "statuses_after": {
+        "source": 68,
+        "profile": 10
+      }
+    },
+    {
+      "av_id": "atl-wamey",
+      "forms_before": 0,
+      "forms_after": 20,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 0,
+      "mapped_core_after": 20,
+      "statuses_before": {},
+      "statuses_after": {
+        "unclean": 20
+      }
+    },
+    {
+      "av_id": "atl-xhosa",
+      "forms_before": 100,
+      "forms_after": 109,
+      "supported_core_before": 76,
+      "supported_core_after": 85,
+      "mapped_core_before": 76,
+      "mapped_core_after": 85,
+      "statuses_before": {
+        "source": 100
+      },
+      "statuses_after": {
+        "source": 109
+      }
+    },
+    {
+      "av_id": "atl-zulu",
+      "forms_before": 200,
+      "forms_after": 222,
+      "supported_core_before": 76,
+      "supported_core_after": 97,
+      "mapped_core_before": 76,
+      "mapped_core_after": 97,
+      "statuses_before": {
+        "source": 200
+      },
+      "statuses_after": {
+        "source": 222
+      }
+    },
+    {
+      "av_id": "man-bambara",
+      "forms_before": 317,
+      "forms_after": 329,
+      "supported_core_before": 78,
+      "supported_core_after": 90,
+      "mapped_core_before": 78,
+      "mapped_core_after": 90,
+      "statuses_before": {
+        "source": 317
+      },
+      "statuses_after": {
+        "source": 317,
+        "profile": 12
+      }
+    },
+    {
+      "av_id": "man-soninke",
+      "forms_before": 296,
+      "forms_after": 326,
+      "supported_core_before": 78,
+      "supported_core_after": 108,
+      "mapped_core_before": 78,
+      "mapped_core_after": 108,
+      "statuses_before": {
+        "source": 296
+      },
+      "statuses_after": {
+        "source": 296,
+        "profile": 30
+      }
+    },
+    {
+      "av_id": "son-koyra-chiini-songhay",
+      "forms_before": 384,
+      "forms_after": 418,
+      "supported_core_before": 78,
+      "supported_core_after": 112,
+      "mapped_core_before": 78,
+      "mapped_core_after": 112,
+      "statuses_before": {
+        "source": 384
+      },
+      "statuses_after": {
+        "source": 384,
+        "profile": 34
+      }
+    }
+  ],
+  "earlier_lexical_rows_preserved": 2069498,
+  "earlier_comments_preserved": 2069498,
+  "new_distinct_languages": 2,
+  "new_named_varieties": 0,
+  "supplied_reading_admissions": 280,
+  "profile_reading_admissions": 221,
+  "written_only_admissions": 118,
+  "new_original_intake_records": 329,
+  "original_intake_records_reproduced": 329,
+  "gled_primaries_replaced": [
+    "atl-gyele",
+    "afa-hdi"
+  ],
+  "all_old_gled_rows_retained": 68,
+  "derived_quality_scores_recomputed_for_guarded_gled_rows": 68,
+  "metadata_constructions": 312,
+  "upstream_conversion_disclosure_initial_bantu_constructions": 302,
+  "artifact_hashes_checked": 401,
+  "tests_passed": 440,
+  "bantu_before": {
+    "varieties": 485,
+    "forms": 149873,
+    "supported_core": 34732,
+    "gled_primaries": 97,
+    "zero_supported_core": 23
+  },
+  "bantu_after": {
+    "varieties": 485,
+    "forms": 150276,
+    "supported_core": 35084,
+    "gled_primaries": 96,
+    "zero_supported_core": 23
+  },
+  "aggregate_input_hashes_checked": 3,
+  "browser_checks": [
+    "research",
+    "african",
+    "ancient",
+    "mixed_source"
+  ]
+}

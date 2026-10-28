@@ -1,0 +1,2 @@
+source,source_language_id,reading_basis,authority,reading_scope,notes
+tls,,upstream_profile_conversion,9d55b7c6f4e7f71045cd9fddf21da23542fd663c,Original source notation converted by the upstream Lexibank profile,"Supplied Segments are the upstream conversion layer, not independent IPA elicitation. Preserve original Value, tone and morphological notation. The pinned source recipe retains only the first form; alternatives and optionality require individual original-source review. Exact member identity remains in source_language_id."

@@ -1,0 +1,13 @@
+av_id: atl-nilamba
+name: Nilamba
+africa_review_2026_10_28:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_EXPANSION_2026-10-28.md
+  primary: grollemundbantu
+  forms: 139
+  supported_core: 115
+  source_statuses:
+    source: 139
+  preservation: Earlier lexical rows retained, source-specific cognacy not transferred.
+  reading_scope: Guarded supplied readings, exact finite profiles or explicitly written-only;
+    see custom ledgers and reading_evidence.csv.

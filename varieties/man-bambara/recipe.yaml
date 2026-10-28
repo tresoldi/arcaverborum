@@ -1,0 +1,14 @@
+av_id: man-bambara
+name: Bambara
+africa_review_2026_10_28:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_EXPANSION_2026-10-28.md
+  primary: polyglottaafricana
+  forms: 329
+  supported_core: 90
+  source_statuses:
+    source: 317
+    profile: 12
+  preservation: Earlier lexical rows retained, source-specific cognacy not transferred.
+  reading_scope: Guarded supplied readings, exact finite profiles or explicitly written-only;
+    see custom ledgers and reading_evidence.csv.

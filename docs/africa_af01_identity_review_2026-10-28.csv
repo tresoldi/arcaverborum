@@ -1,0 +1,9 @@
+source,source_language_id,glottocode,decision,rationale
+gled,gled_SOUTHERN_NDEBELE,nort2795,hold_reassignment,40 pooled rows under Zimbabwean Ndebele; original Southern label does not authorize reassignment to sout3270.
+grollemundbantu,grollemundbantu_e55kamba,kamb1297,hold_reassignment,100 generic Kamba rows retained separately from Kitui/Machakos.
+grollemundbantu,grollemundbantu_e55kambakitu,kamb1297,hold_reassignment,"99 Kitui rows; TLS Kitui is matched as a sample, not silently pooled with Machakos."
+grollemundbantu,grollemundbantu_e55kambamach,kamb1297,hold_reassignment,97 Machakos rows; RefLex Machakos repeats underlying TLS genealogy.
+reflex,257,luyi1234,hold_reassignment,Luyia language label differs from current Glottolog family level; hold canonical admission.
+reflex,318,subi1247,hold_reassignment,Subi source language label differs from current dialect level; hold canonical admission.
+reflex,OgadenArabic,taiz1242,hold_reassignment,Geographic/name-code pairing requires original source reconciliation; no admission.
+catalog,atl-tanzania-mozambique-ngoni,ngon1269,hold_reassignment,Bantu ancestry present despite blank Macroarea; retain accepted identity pending dialect/metadata scope review.

@@ -13,18 +13,29 @@ BASES = {
     "source_reported_historical_reading",
     "orthographic_transcription_only",
     "profile_inferred_broad_reading",
+    "upstream_profile_conversion",
+    "source_reported_pronunciation",
+    "source_reported_phonemic_citation",
 }
 
 
 def annotate(rows, custom_dir: Path):
-    path = custom_dir / "historical_evidence.csv"
+    for name, label in [
+        ("historical_evidence.csv", "Historical reading evidence"),
+        ("reading_evidence.csv", "Reading evidence"),
+    ]:
+        _annotate(rows, custom_dir / name, label)
+    return rows
+
+
+def _annotate(rows, path, label):
     if not path.exists():
         return rows
     with path.open() as f:
         rules = list(csv.DictReader(f))
     seen = set()
     for rule in rules:
-        key = rule["source"], rule.get("source_language_id", "")
+        key = rule["source"], rule.get("source_language_id", ""), rule.get("segments_source", "")
         if key in seen or not key[0] or rule["reading_basis"] not in BASES or not rule.get("notes"):
             raise ValueError("Invalid or duplicate historical reading rule")
         seen.add(key)
@@ -34,6 +45,7 @@ def annotate(rows, custom_dir: Path):
             for r in rules
             if r["source"] == row["transcription_source"]
             and (not r.get("source_language_id") or r["source_language_id"] == row["source_language_id"])
+            and (not r.get("segments_source") or r["segments_source"] == row.get("Segments_Source"))
         ]
         exact = [r for r in matches if r.get("source_language_id")]
         matches = exact or matches
@@ -46,7 +58,7 @@ def annotate(rows, custom_dir: Path):
                     None,
                     [
                         row.get("Comment", ""),
-                        "Historical reading evidence: " + json.dumps(evidence, ensure_ascii=False, sort_keys=True),
+                        label + ": " + json.dumps(evidence, ensure_ascii=False, sort_keys=True),
                     ],
                 )
             )

@@ -1,0 +1,24 @@
+av_id: atl-wamey
+name: Konyagi
+glottocode: wame1240
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: reflexoriginal
+  cognates: reflexoriginal
+  source_language_id: reflexoriginal_39
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-28'
+notes: Bounded original RefLex lexical evidence; written-only primary, no inferred
+  phonetic reading or cognacy. Original source, alternatives, class forms and NonCommercial-ShareAlike
+  terms retained.

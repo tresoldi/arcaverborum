@@ -1,0 +1,13 @@
+av_id: atl-wamey
+name: Konyagi
+africa_review_2026_10_28:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_EXPANSION_2026-10-28.md
+  primary: reflexoriginal
+  forms: 20
+  supported_core: 0
+  source_statuses:
+    unclean: 20
+  preservation: Earlier lexical rows retained, source-specific cognacy not transferred.
+  reading_scope: Guarded supplied readings, exact finite profiles or explicitly written-only;
+    see custom ledgers and reading_evidence.csv.

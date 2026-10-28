@@ -2,31 +2,29 @@
 
 Updated2026-10-28 against [STATUS](STATUS.md). Current requested focus is
 Sub-Saharan Africa, especially Bantu. The [investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md)
-changes no accepted data. AF01–AF09 are proposed, not yet an authorized lexical
-batch. Earlier ancient AE, Romance and American proposals are parked. Etruscan
+was followed by the completed [AF01–AF09 execution](AFRICA_EXPANSION_2026-10-28.md).
+Routine pilot details were chosen autonomously within the agreed evidence gates. Earlier ancient AE, Romance and American proposals are parked. Etruscan
 and Elamite remain explicit standing priorities when ancient work resumes.
 
-## Proposed Sub-Saharan African batch
+## Proposed follow-ups after AF01–AF09
 
-| ID | Priority | Exact work / first gate |
-| --- | ---: | --- |
-| AF01 | 1 | Bantu identity/notation/alternative audit: Kamba's three Grollemund members, four GLED Ndebele labels, TLS/RefLex Luyia/Subi identities, and first-form-only conversions. Keep morphology/tone/source genealogy explicit; do not silently reassign Southern Ndebele or count Bantoid outgroups as Narrow Bantu. No immediate gain promised. |
-| AF02 | 2 | TLS depth supplements: Ngoreme76/161, Nilamba75 and Temi76 first, each with raw59 missing-core potential; then Kamba Kitui59, Ikizu57/Shashi58, Nata58 and Suba58. Exact member, source conversion, gloss/POS and noun-class review; retain current Grollemund evidence and regional identity. Ceilings overlap and are not admissions. |
-| AF03 | 3 | Zulu/Xhosa supplied Wiktionary readings: current76 core each; raw21/9 missing-core candidates. Frozen dump a6a32d41…; preserve exact POS, all pronunciation alternatives, tone, clicks and morphology. Do not generalize21/10 spelling opportunities into automatic profiles. |
-| AF04 | 4 | Tumbuka source-specific profile: current60 core, up to20 missing spelling concepts from wikt_tum. Downing2019 distinguishes predictable phrase-level non-ideophonic prosody from contrastive ideophones. Gate exact spelling, aspiration/ŵ/nasal conventions and representation; exclude uncertain forms/ideophones. |
-| AF05 | 5 | Original Ruruuli-Lunyala dictionary slice (langsci/3265c8dd129…): accepted Ruuli6 forms/0 core; about10,000 dictionary entries with classes, citation forms, senses and examples. Written-first pilot plus only individually attested readings; no invented tone from ordinary headword spelling. Existing construction, not a new-language claim. |
-| AF06 | 6 | Original Fwe/Gyeli lexical/reading pilots to reduce GLED dependence: current36/34 core. Fwe2022 wordlist at langsci/35191344668… and Gyeli2021 lexicon at langsci/298fbcdc588… are CC BY4.0 and downloaded. Preserve Fwe NF/ZF/citation/floating tones and Gyeli toneless syllables; validate gains/losses and retain earlier GLED evidence before a primary change. Gains unmeasured. |
-| AF07 | 7 | RefLex archive pilot:932,836 actual records,280 Narrow Bantu source members; no automatic import. First missing-language candidates Konyagi/wame1240, Santos1996 source39/4,044 rows; Kam/kamm1249, Lesage2019 source3074/1,694. Resolve identity/aliases, attribution, native senses and notation; retain CC BY-NC-SA4.0.38 absent canonical codes are candidates, not verified admissions. |
-| AF08 | 8 | West African supplied-source depth: Bambara78 core / raw36 from hantganbangime_Bambara; Soninke78 /38 from baf2_Soninke; Koyra Chiini78 /44 from hantganbangime_Songhai_Kiini. Preserve historical Koelle versus modern samples, tone and literal sense; do not sum overlapping sources. |
-| AF09 | 9 | Hdi and Sidaama original Dictionaria pilots: existing31/38 core; pinned1,681/3,578 entries. Hdi raw73 missing-core mappings need bilingual sense review; Sidaama official spelling differs from phonemic examples. Source-specific profiles/analyses and preserved GLED losses before any primary replacement. |
+AF01–AF09 are completed as bounded admissions or evidence holds; see
+[the execution report](AFRICA_EXPANSION_2026-10-28.md) and
+[realized metrics](africa_expansion_summary_2026-10-28.json).
+These follow-ups are proposals, not a newly authorized lexical batch.
 
-All pins, baselines, measured ceilings, tradeoffs and source/identity gates are in
-the investigation and its CSV/JSON evidence. The GLED screen found **no safe
-positive-net supplied-reading replacement in current African intake**. Original
-acquisition, additive evidence and guarded profiles are the appropriate routes.
-RefLex originals can duplicate TLS/Koelle/BCCW; do not claim independence.
-BantuDArc derivatives, SBED full-data claims and unscoped tonal profiles remain
-held pending the specific evidence in [HELD](planning/HELD.md).
+| ID | Recommendation | First evidence gate / tradeoff |
+| --- | --- | --- |
+| AX01 | Recover Temi/Sonjo original alignment and review Shashi separately | Zero admission until gloss–form alignment and exact sample notation are established. High potential depth, higher source-reconstruction cost; do not replay the old59-row ceiling. |
+| AX02 | Deepen original Bantu dictionaries: Ruruuli and Fwe first, then Gyeli | Re-rank missing concepts against accepted outputs; review exact senses/classes and documented readings. Written Ruruuli evidence can grow without inventing tone. Fwe still needs enough supported concepts to justify a loss-aware primary change. Remaining gains unmeasured. |
+| AX03 | Establish RefLex source-specific reading conventions for Konyagi and Kam | Existing20/30 written records are already accepted. Acquire original notation guides before phonetic conversion; preserve class alternatives and NC-SA terms. Useful quality gain even if no new lexical records. |
+| AX04 | Resolve unsupported prenasalized units and Sidaama field conventions | Five Fwe/Gyeli written records need validated phonemic-unit support. Sidaama requires exact CLDF Headword/Official_Orthography/prominence reconciliation. Do not split units or equate spelling with IPA for coverage. |
+| AX05 | Extend explicit-tone recovery in West African originals | Review held nasal/creaky/compound/toneless cases using source authority, and preserve source genealogy. Greater fidelity is the goal; remaining gains unmeasured and not the earlier raw ceiling. |
+
+Identity holds and original source/version requirements are in [HELD](planning/HELD.md).
+The [post-batch member screen](africa_postbatch_opportunities_2026-10-28.csv) has579 African member opportunities; the [GLED screen](africa_postbatch_gled_2026-10-28.csv) has432 member alternatives and zero lossless positive supplied-reading replacements. These include held and overlapping cases, not ready admissions. Recheck exact missing slots before another expansion. Source-rich Bantu depth is the recommended continuation;
+Americas/South America and Etruscan/Elamite remain standing priorities when their
+parked tracks resume.
 
 ## Parked ancient evidence proposals
 

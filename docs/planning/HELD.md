@@ -261,3 +261,23 @@ admission. Accepted data remains5d098126.
   is useful, but no new pinned reusable complete lexical export established here.
   Trace each actual lexical resource and its terms; do not duplicate existing
   TLS/BVD/RefLex source genealogies under a new wrapper.
+
+## AF01–AF09 evidence holds — 2026-10-28
+
+| Case | Current boundary | Evidence that would reopen it |
+| --- | --- | --- |
+| TLS Temi/Sonjo | Suspicious systematic gloss–form alignment; no additions | Reconciled original response/gloss table at the frozen source, not guessed translations |
+| TLS Shashi | Kept separate from Ikizu despite shared canonical code | Exact sample identity and notation review |
+| Kamba/Ndebele/RefLex identity cases | Eight reassignment/metadata decisions held in AF01 CSV | Attributable sample-level identity, original label mapping and preserved earlier scope |
+| Fwe primary promotion |26 profile concepts below earlier36 supported GLED concepts | Larger reviewed phonetic slice with gains/losses quantified; keep all earlier rows |
+| Five Fwe/Gyeli units | Written evidence accepted; profile withheld for unsupported prenasalized units | Engine validates the actual source phoneme without artificial unit splitting, with source/normalization regression checks |
+| Konyagi/Kam readings |20/30 original records accepted written-only | Original Santos/Lesage notation and explicit handling of class/alternative strings, retaining NC-SA terms |
+| Ruruuli tone |18 entries accepted written-only | Source-specific attested readings/tone, beyond ordinary unmarked dictionary spelling |
+| Sidaama readings |45 written entries; CLDF Headword differs from Official_Orthography, prominence not fully marked | Reconcile exact field conversion and source phonemic/prominence conventions; preserve separate written fields |
+| West African remaining readings | Explicit-tone pilot76 accepted; ambiguous nasal/creaky/compound/toneless cases held | Exact original notation and sense authority; no automatic tonal completion |
+
+See [execution report](../AFRICA_EXPANSION_2026-10-28.md), dated authored reviews and
+[immutable source specifications](../../src/arcaverborum/data/african_lexical_sources.json).
+Book parsers materialize reviewed simple records only; their recognized entries are
+not a claim to complete dictionary ingestion. Existing namespaces require an explicit
+complete-stage guarded migration for later expansion, never a second blind append.

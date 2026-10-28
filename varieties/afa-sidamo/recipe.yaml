@@ -1,0 +1,14 @@
+av_id: afa-sidamo
+name: Sidamo
+africa_review_2026_10_28:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_EXPANSION_2026-10-28.md
+  primary: gled
+  forms: 94
+  supported_core: 38
+  source_statuses:
+    source: 49
+    unclean: 45
+  preservation: Earlier lexical rows retained, source-specific cognacy not transferred.
+  reading_scope: Guarded supplied readings, exact finite profiles or explicitly written-only;
+    see custom ledgers and reading_evidence.csv.
