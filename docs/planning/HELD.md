@@ -214,3 +214,50 @@ opportunities as an admission queue. Etruscan and Elamite are standing prioritie
 Exact reviewed alternatives/holds remain in the batch CSVs. Kogan historical
 identity migrations require original sample attribution, immutable version and
 terms; Hebrew/Aramaic/Demotic names cannot authorize automatic code correction.
+
+## Sub-Saharan Africa / Bantu investigation — 2026-10-28
+
+Planning only; [AF01–AF09](../SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md) are
+proposed. These gates distinguish original-source opportunities from automatic
+admission. Accepted data remains5d098126.
+
+* **General Bantu profiles:** no universal orthography-to-IPA mapping. Lingala49,
+  Ngazidja39, Maore24 and Shona12 raw spelling-gap ceilings need exact spelling,
+  tone and dialect authority. Tumbuka is a bounded proposed exception grounded in
+  non-ideophonic prosody, not a claim that ideophones or phrase melody lack tone.
+* **Current GLED swaps:** all38 Bantu candidate members lose supported core;
+  no positive-net supplied-reading swap among431 Africa-wide candidates. Reopen
+  using source/reading/semantic improvements and full loss review, or new original
+  sources; do not repeat current raw rankings as accepted replacements.
+* **Ndebele/Kamba identity:** GLED Zimbabwean Ndebele pools NORTHERN_NDEBELE,
+  SOUTHERN_NDEBELE, ZIMBABWE_NDEBELE and S44_NDEBELE_ZIMBABWE. Labels warrant an
+  original-source check, not automatic relocation to South Transvaal Ndebele.
+  Kamba pools Kamba/Kitui/Machakos; TLS Kitui and RefLex Machakos are not identical
+  samples. Reopen mappings only with exact original member/dialect attribution.
+* **TLS/Grollemund alternatives:** pinned intake recipes retain first form only.
+  Separator/parenthesis counts are inspection flags, not recovered variants.
+  Original notation, optionality, prefixes, tone and semantic scope needed before
+  emitting more readings. Upstream profile conversion is not independent IPA.
+* **RefLex identities:**38 absent canonical-language codes are candidates after
+  level checks, not38 proven new languages. Resolve aliases and source members;
+  Luyia/luyi1234, Subi/subi1247 and Ogaden-Arabic/Taizzi-Adeni pairing specifically
+  need reconciliation. Repeated TLS/Koelle/BCCW records do not provide independent
+  confirmation. Archive snapshot has932,836 rows versus site's927,845 description.
+* **Ruruuli/Sidaama spelling:** lexical tone/prominence cannot be inferred from
+  every ordinary headword. Admit written evidence or individually matched source
+  readings; a complete phonetic profile requires additional form-specific evidence.
+  Ruruuli's augmented citation/root/class and Sidaama's phonemic analyses must
+  remain separate from simple official headword spelling.
+* **BantuDArc:** published CC BY-NC-ND and restricted academic audio access do not
+  automatically permit transformed lexical redistribution. Metadata/links may be
+  useful; new derivative rights or an independently licensed payload would reopen
+  lexical intake. No source contact has been made.
+* **SBED/BLR3:** SBED current public sample covers about200 reconstruction entries;
+  its stated full13,000 modern forms are not all available and broader access is
+  planned2027. Need actual reusable export/terms and retained original references.
+  BLR reconstruction reliability, regional depth, rejected/variant hypotheses and
+  semantic uncertainty cannot be flattened into uniform Proto-Bantu facts.
+* **Bantu Historical Linguistic Database / CBOLD / BantUGent:** source discovery
+  is useful, but no new pinned reusable complete lexical export established here.
+  Trace each actual lexical resource and its terms; do not duplicate existing
+  TLS/BVD/RefLex source genealogies under a new wrapper.

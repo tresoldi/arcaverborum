@@ -8,7 +8,13 @@ The active work queue is [NEXT.md](NEXT.md); planning procedure is
 Latest batch: [ancient languages AN01–AN09](ANCIENT_EXPANSION_2026-10-28.md).
 All nine tracks received reviewed admissions or documented evidence holds.
 Etruscan and Elamite are explicit standing priorities. Earlier Romance RP and
-American NB/P proposals remain parked; NEXT now carries proposed AE follow-ups.
+American NB/P proposals remain parked. The current investigation focuses on
+Sub-Saharan Africa/Bantu; NEXT carries AF01–AF09, with AE follow-ups parked.
+
+Latest planning: [Sub-Saharan Africa/Bantu investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md).
+485 Narrow Bantu constructions,97 GLED primaries and23 zero-supported-core cases;
+577 Africa-wide member opportunities,240 Bantu. Actual RefLex/archive and original
+Bantu dictionary payloads acquired outside intake; no accepted-data change.
 
 ## Accepted baseline
 
@@ -67,12 +73,21 @@ verification are recorded in that batch's journal/history; older baseline
 
 ## Evidence for planning
 
-The [ancient batch report](ANCIENT_EXPANSION_2026-10-28.md), authored review
-CSVs and [realized metrics](ancient_expansion_summary_2026-10-28.json) supersede
-its earlier58-construction and74-member planning ceilings. Follow-ups prioritize
-Etruscan attestations and Elamite original dictionary/period evidence, then
-Coptic/Egyptian expansion, BHSA linkage and Old Khmer/Mayan source pilots.
-Acquisition/sense/reading holds have precise reopening evidence in HELD.
+Current discovery evidence: [Africa/Bantu investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md),
+[accepted baseline](africa_baseline_2026-10-28.csv),
+[member opportunities](africa_opportunities_2026-10-28.csv),
+[loss-aware GLED screen](africa_gled_replacements_2026-10-28.csv),
+[pins/acquisition](africa_investigation_2026-10-28.json),
+[RefLex source identities](africa_reflex_source_screen_2026-10-28.csv) and
+[missing-language candidates](africa_missing_language_candidates_2026-10-28.csv).
+RefLex actual archived932,836 records differ from live-site927,845 description;
+239,769 Narrow Bantu records are source material, not approved forms.38 absent
+canonical codes remain provisional identity candidates, none established as new
+Narrow Bantu languages. AF01–AF09 are proposed; no lexical batch authorized yet.
+
+The [ancient batch report](ANCIENT_EXPANSION_2026-10-28.md) and
+[realized metrics](ancient_expansion_summary_2026-10-28.json) retain the accepted
+data baseline. Ancient AE priorities remain parked alongside earlier proposals.
 
 * [Original ancient investigation](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md)
   remains historical discovery evidence, not an unspent admission queue.

@@ -1,5 +1,60 @@
 # Project journal and working memory
 
+## 2026-10-28 — Sub-Saharan Africa / Bantu investigation
+
+User requests investigation, not a lexical batch. Accepted ancient data commit
+5d098126 /7,329 varieties /2,069,498 forms /468,037 supported core unchanged.
+Africa-wide screen1,788 constructions includes North Africa; not an SSA count.
+Pinned Glottolog Narrow Bantu narr1281 ancestry gives485 constructions/149,873
+forms/34,732 supported slots;97 GLED primaries,23 zero-core and365 below80/161.
+Fe'fe'/Tiv and other Grollemund outgroups excluded from Narrow Bantu totals.
+Ancestry rescues Tanzania-Mozambique Ngoni (967 forms/127 core) despite blank
+accepted Macroarea; baseline union1,789 rows,485 Bantu. Geography-only filtering
+would undercount Bantu as484. Metadata review proposed, no change made.
+577 African member opportunities,240 Bantu. Separate GLED replacement screen:
+38 Bantu members/38 targets, all lose supported core; no positive-net source-IPA
+swap among431 Africa-wide candidates. Do not replace mechanically.
+
+Highest measured depth: TLS Ngoreme/Nilamba/Temi59 raw gaps each, Kamba Kitui59,
+Ikizu57/Shashi58, Nata/Suba58; preserve regional scope. Zulu/Xhosa Wiktionary21/9
+source-reading candidates; Tumbuka20 spelling concepts with empirically grounded
+restricted non-ideophonic prosody, not blanket tone absence. Existing TLS primary
+Bantu output has33,357 unmapped rows and9,268 separator-bearing Values. Pinned
+TLS/Grollemund recipes first_form_only=True; inspect alternatives/prefixes instead
+of mechanically splitting. Kamba296 forms pools three members. GLED Zimbabwean
+Ndebele159 forms pools four source labels, including SOUTHERN_NDEBELE; identity
+review before reassignment. Raw checkout HEAD differs from intake release; full
+intake commits resolved separately and exact old conversion recipes downloaded.
+
+Major acquisition: RefLex DOI10.34847/nkl.e3cbkjzm Nakala API works despite web
+landing403. Downloaded six files outside intake; all advertised SHA1 and own
+SHA256 checked. Actual archive932,836 rows (site says927,845),1,435 sources/815
+samples;239,769 Narrow Bantu rows/280 sources/197 samples.38 absent canonical
+codes are provisional non-Narrow-Bantu candidates: Konyagi/Santos1996 source39
+4,044 rows and Kam/Lesage2019 source3074 1,694 rows prioritized. Luyia/Subi
+level mismatches and Ogaden-Arabic/code pairing require reconciliation; unaccepted
+dialects within accepted parents are varieties, not new-language claims. RefLex
+CC BY-NC-SA4.0 retained; TLS/Koelle/BCCW repeats are not independent sources.
+
+Pinned actual original books: Ruruuli-Lunyala langsci/3265c8dd129… about10,000
+entries for existing Ruuli6 forms/0 core; root/citation/classes/senses/examples,
+unmarked lexical tone cannot be invented. Fwe langsci/35191344668… about2,200
+lexemes, citation/floating tones and NF/ZF labels; Gyeli langsci/298fbcdc588…
+about1,500 lexemes, explicitly toneless unmarked syllables. Both improve candidates
+currently GLED36/34 core; gains unmeasured. CC BY4.0 original sources, distinct
+from earlier RefLex thesis editions. Hdi/Sidaama CLDF payloads pinned:1,681/3,578
+entries, current31/38 core; Hdi73 raw mappings need native bilingual sense checks,
+Sidaama orthography differs from phonemic analyses. West Africa Bambara/Soninke/
+Koyra Chiini raw36/38/44 supplied opportunities also proposed.
+
+BantuDArc CC BY-NC-ND/audio restrictions; no automatic transformed intake. SBED
+public sample about200 reconstructions, not its full13,000 modern forms; wider
+access planned2027 and reuse/export unresolved. No source contacts made.
+Report, baseline/rankings/source screen/missing candidates and hash manifest saved.
+NEXT proposes AF01–AF09; ancient AE, Romance and American queues parked. No code,
+active intake, accepted recipes, generated lexical data or publication artifacts
+changed; no execution tests/browser/data rebuild needed for this planning turn.
+
 ## 2026-10-28 — Authorized ancient AN01–AN09 batch
 
 Executed the authorized tracks with bounded admissions and explicit holds.

@@ -7,6 +7,12 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Sub-Saharan Africa, especially Bantu,2026-10-28](../SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md):
+  ancestry-scoped485-construction Bantu baseline, TLS/IPA/profile depth, loss-aware
+  GLED screen, actual RefLex and original dictionary acquisitions, and AF01–AF09
+  proposed. Zero accepted-data changes.
+
+
 * [Ancient languages worldwide,2026-10-28](../ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md):
   58-construction baseline, historical qualified-reading ceilings, three pinned
   original-source research samples and AN01–AN09 proposed. Zero accepted-data changes.

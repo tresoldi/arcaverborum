@@ -1,11 +1,34 @@
 # Active expansion queue
 
-Updated 2026-10-28 against [STATUS](STATUS.md). Authorized AN01–AN09 has been
-reviewed and closed in the [ancient batch](ANCIENT_EXPANSION_2026-10-28.md).
-Admissions and evidence holds are distinct. Etruscan and Elamite remain explicit
-user priorities; no new batch is automatically authorized by this next queue.
+Updated2026-10-28 against [STATUS](STATUS.md). Current requested focus is
+Sub-Saharan Africa, especially Bantu. The [investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md)
+changes no accepted data. AF01–AF09 are proposed, not yet an authorized lexical
+batch. Earlier ancient AE, Romance and American proposals are parked. Etruscan
+and Elamite remain explicit standing priorities when ancient work resumes.
 
-## Proposed next ancient evidence work
+## Proposed Sub-Saharan African batch
+
+| ID | Priority | Exact work / first gate |
+| --- | ---: | --- |
+| AF01 | 1 | Bantu identity/notation/alternative audit: Kamba's three Grollemund members, four GLED Ndebele labels, TLS/RefLex Luyia/Subi identities, and first-form-only conversions. Keep morphology/tone/source genealogy explicit; do not silently reassign Southern Ndebele or count Bantoid outgroups as Narrow Bantu. No immediate gain promised. |
+| AF02 | 2 | TLS depth supplements: Ngoreme76/161, Nilamba75 and Temi76 first, each with raw59 missing-core potential; then Kamba Kitui59, Ikizu57/Shashi58, Nata58 and Suba58. Exact member, source conversion, gloss/POS and noun-class review; retain current Grollemund evidence and regional identity. Ceilings overlap and are not admissions. |
+| AF03 | 3 | Zulu/Xhosa supplied Wiktionary readings: current76 core each; raw21/9 missing-core candidates. Frozen dump a6a32d41…; preserve exact POS, all pronunciation alternatives, tone, clicks and morphology. Do not generalize21/10 spelling opportunities into automatic profiles. |
+| AF04 | 4 | Tumbuka source-specific profile: current60 core, up to20 missing spelling concepts from wikt_tum. Downing2019 distinguishes predictable phrase-level non-ideophonic prosody from contrastive ideophones. Gate exact spelling, aspiration/ŵ/nasal conventions and representation; exclude uncertain forms/ideophones. |
+| AF05 | 5 | Original Ruruuli-Lunyala dictionary slice (langsci/3265c8dd129…): accepted Ruuli6 forms/0 core; about10,000 dictionary entries with classes, citation forms, senses and examples. Written-first pilot plus only individually attested readings; no invented tone from ordinary headword spelling. Existing construction, not a new-language claim. |
+| AF06 | 6 | Original Fwe/Gyeli lexical/reading pilots to reduce GLED dependence: current36/34 core. Fwe2022 wordlist at langsci/35191344668… and Gyeli2021 lexicon at langsci/298fbcdc588… are CC BY4.0 and downloaded. Preserve Fwe NF/ZF/citation/floating tones and Gyeli toneless syllables; validate gains/losses and retain earlier GLED evidence before a primary change. Gains unmeasured. |
+| AF07 | 7 | RefLex archive pilot:932,836 actual records,280 Narrow Bantu source members; no automatic import. First missing-language candidates Konyagi/wame1240, Santos1996 source39/4,044 rows; Kam/kamm1249, Lesage2019 source3074/1,694. Resolve identity/aliases, attribution, native senses and notation; retain CC BY-NC-SA4.0.38 absent canonical codes are candidates, not verified admissions. |
+| AF08 | 8 | West African supplied-source depth: Bambara78 core / raw36 from hantganbangime_Bambara; Soninke78 /38 from baf2_Soninke; Koyra Chiini78 /44 from hantganbangime_Songhai_Kiini. Preserve historical Koelle versus modern samples, tone and literal sense; do not sum overlapping sources. |
+| AF09 | 9 | Hdi and Sidaama original Dictionaria pilots: existing31/38 core; pinned1,681/3,578 entries. Hdi raw73 missing-core mappings need bilingual sense review; Sidaama official spelling differs from phonemic examples. Source-specific profiles/analyses and preserved GLED losses before any primary replacement. |
+
+All pins, baselines, measured ceilings, tradeoffs and source/identity gates are in
+the investigation and its CSV/JSON evidence. The GLED screen found **no safe
+positive-net supplied-reading replacement in current African intake**. Original
+acquisition, additive evidence and guarded profiles are the appropriate routes.
+RefLex originals can duplicate TLS/Koelle/BCCW; do not claim independence.
+BantuDArc derivatives, SBED full-data claims and unscoped tonal profiles remain
+held pending the specific evidence in [HELD](planning/HELD.md).
+
+## Parked ancient evidence proposals
 
 | ID | Priority | Exact work / first gate |
 | --- | ---: | --- |
