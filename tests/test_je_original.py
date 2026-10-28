@@ -10,7 +10,9 @@ from arcaverborum.ingest import _process_one
 from arcaverborum.phonology import apply_profile, load_profile, normalize_segments
 from arcaverborum.sources import je_original as source
 
-spec = importlib.util.spec_from_file_location("stage_je_original", Path(__file__).parents[1] / "scripts/stage_je_original.py")
+spec = importlib.util.spec_from_file_location(
+    "stage_je_original", Path(__file__).parents[1] / "scripts/stage_je_original.py"
+)
 stage = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(stage)
 compile_profiles = stage.compile_profiles
