@@ -66,3 +66,35 @@ readings do not undo the accepted subsets.
   review records each row and condition.
 
 [Completed batch and all decisions](../SOURCE_LED_EXPANSION_2026-10-28.md).
+
+## Central/North American investigation — 2026-10-28
+
+These are source-specific gates from a planning investigation; no new lexical
+admissions or accepted-data reclassifications have been made.
+
+* **Totontepec/Ocotepec Voices:**196 play-symbol rows each, no supplied text
+  transcription. Exclude these from profile-ready spelling claims. Reopen on
+  actual attributed transcriptions; retain audio metadata separately. Accepted
+  Ocotepec currently includes196 such rows: cleanup is explicitly proposed.
+* **Lenca Salvador / Constenla LencaHonduras:** the17-concept ranked opportunity
+  crosses named Honduran/Salvadoran samples. Resolve original language/member
+  identity before admitting any row; a shared inherited code is insufficient.
+* **Huetar / Pache:** metadata but zero lexical rows. Original lexical evidence
+  is required; no missing-language gain is established.
+* **Nizaviguiti:**193 supplied-segment rows/196 total; no canonical code. Community
+  researchers describe classification uncertainty. Investigate the exact named
+  sample; neither a guessed Ulterior-Mixe code nor a neighbouring Mixe code is
+  established. A named-variety admission and a new-language claim are different.
+* **Copainalá/Tapalapa/Tutla:** dialect, blank or family-level source identifiers
+  need reconciliation with accepted Chiapas Zoque/Mazatlán scopes. No automatic
+  new-language counts. **Tinnē-Nakoontloon:** historical locality/authority unresolved.
+* **Miluk:** concrete community recording/transcription lead, but no established
+  lexical reuse terms or reviewed pronunciation/mapping subset. No contact or
+  bulk lexical extraction made; source acquisition is proposed, not admitted.
+* **Northern Haida GiellaLT:** inspected license has source-dictionary exclusions
+  and Cree-specific text. Resolve actual Haida lexical terms/attribution before
+  treating software licensing as lexical licensing. IDS construction remains intact.
+
+[Investigation and original-source links](../NORTH_AMERICA_INVESTIGATION_2026-10-28.md),
+[member audit](../north_america_member_audit_2026-10-28.csv),
+[acquisition hashes](../north_america_planning_summary_2026-10-28.json).

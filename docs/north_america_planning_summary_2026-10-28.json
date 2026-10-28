@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-28",
+  "data_commit": "9b1a16c282e8dddc6f52d2a8e325d663505169d1",
+  "scope": "Catalog North America macroarea, including Mexico, Central America, Caribbean and Greenland; proposals distinguish subregions and exact samples.",
+  "baseline": {
+    "varieties": 610,
+    "forms": 95555,
+    "supported_core_slots": 33038,
+    "gled_primaries": 255,
+    "statuses": {
+      "source": 91977,
+      "resegmented": 2205,
+      "unclean": 1373
+    },
+    "profile_forms": 0
+  },
+  "member_opportunities": 306,
+  "gled_alternative_members": 221,
+  "positive_supplied_only_gled_replacements": 0,
+  "missing_intake_members": 10,
+  "limitations": [
+    "Ranked potential is not reviewed gain; source members overlap.",
+    "Audio-play markers are not orthographic forms.",
+    "North America catalog language gaps include retired codes, varieties and signs; not a new-language admission list.",
+    "Supplied normalized segments require original-convention and sense review."
+  ],
+  "accepted_data_changes": 0,
+  "dictionary_acquisitions": [
+    {
+      "repository": "dictionaria/didxazageneral",
+      "commit": "76c22cf30c23d8f4bc5c83c11013a8cb24fe0f85",
+      "license": "CC BY4.0",
+      "language": "isth1244",
+      "new_language": false,
+      "entries": 9012,
+      "senses": 9046,
+      "files": {
+        "README.md": "d387a5c717067fa50c43003fdc8070d31ddc2f41bd312f39f78e7dc12ce49372",
+        "LICENSE": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "cldf/languages.csv": "9f404366e9022910871793f63d1d27163f8e32e998b8ab8f41ca147e0818f261",
+        "cldf/senses.csv": "244769e4b3d724e5373feb3ccd26405c517340d05b70d962564ed4a4142d2afb",
+        "cldf/entries.csv": "a093b8eb5087affb7d7d7f364bb0a423921c20e959d61fe7efcd85de62b249d0"
+      },
+      "decision": "research candidate; no active intake or accepted forms changed"
+    },
+    {
+      "repository": "dictionaria/diidxaza",
+      "commit": "daf603b21dda05ac60ecc95081696c840e487356",
+      "license": "CC BY4.0",
+      "language": "isth1244",
+      "new_language": false,
+      "entries": 952,
+      "senses": 952,
+      "files": {
+        "README.md": "9bef0ef7452324f02e2431a6e8202706b7cb7be2c4009951bfc1edd0ee49d75e",
+        "LICENSE": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9",
+        "cldf/languages.csv": "45e655f1b142c9ef420988ff7509a64ccccafc892eaf002542cbf5379a107340",
+        "cldf/senses.csv": "bfa6c9054340880a40353469ebef5f34a50080ad523a1df5cf43902eecfcbef2",
+        "cldf/entries.csv": "42ea8edeec757099b240545e22e565713b0b2e02294ca0372ff73d75fa8fd4aa"
+      },
+      "decision": "research candidate; no active intake or accepted forms changed"
+    }
+  ],
+  "external_evidence": {
+    "haida-license": {
+      "url": "https://raw.githubusercontent.com/giellalt/lang-hdn/3badb20987fbc2281103decf8412753f94991c9e/LICENSE",
+      "sha256": "2765c3132dc0afadf2ebe90421e2830fa0711e54fa8f0deb14c92d17fe5f7274",
+      "decision": "research evidence only; no lexical ingestion"
+    },
+    "nizaviguiti-community": {
+      "url": "https://ichan.ciesas.edu.mx/hacia-una-documentacion-linguistica-comunitaria-consideraciones-sobre-la-documentacion-de-dos-comunalectos-de-la-lengua-mixe/",
+      "sha256": "0c0095a2e7709e85de7315010619f2c7b2e52000e6c424604f16e48ceb5a0a56",
+      "decision": "research evidence only; no lexical ingestion"
+    },
+    "miluk": {
+      "url": "https://miluk.org/",
+      "sha256": "e86763ce492fd0a4be1e48b299af262cf2ba476828b26d84307236d5754da719",
+      "decision": "research evidence only; no lexical ingestion"
+    }
+  },
+  "missing_intake_members_note": "Six Lexibank members and four one-word Wiktionary members; missing source membership is not a new-language admission.",
+  "recording_placeholders": {
+    "raw_voices_rows": 1097,
+    "accepted_rows": 747,
+    "accepted_by_variety": {
+      "mix-chapultenango": 392,
+      "mix-ocotepec-mixe": 196,
+      "mix-ocotepec-tapalapa": 158,
+      "mix-puxmetecin": 1
+    },
+    "action": "proposed audit only; no counts changed"
+  },
+  "baseline_artifacts": {
+    "web/data/manifest.json": "f4edcce09b94c2193217a241210630b58daae118908d9970a95cdc6f7ddb799f",
+    "web/data/catalog.json.gz": "7a39e8167cb1c8a076cdac1f4ef72e5a9b310c4fd98ba8022833a13cd9bad5dd"
+  },
+  "planning_base_commit": "6963baaeea22a88ee76cddd69d7ef8dba2480a14"
+}

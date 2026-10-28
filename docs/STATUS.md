@@ -47,6 +47,15 @@ keyboard-focus check now waits for the catalog to render after navigation.
 
 ## Evidence for planning
 
+Current regional focus: Central/North America, requested2026-10-28.
+[Investigation](NORTH_AMERICA_INVESTIGATION_2026-10-28.md) and
+[regional summary](north_america_planning_summary_2026-10-28.json):610 accepted
+varieties/95,555 forms/33,038 supported core slots;255 GLED primaries.
+306 additive alternatives and221 GLED alternatives screened; none of the latter
+is net-positive on supplied segments alone. NA01–NA07 in NEXT are proposed.
+This planning update makes **zero accepted-data changes**; no web-data rebuild.
+
+
 * [Latest opportunity CSV](source_led_opportunities_2026-10-28.csv) and
   [method/counts](source_led_opportunities_2026-10-28.json): 6,814 member
   opportunities, including 611 South American. Counts overlap and remain unreviewed.

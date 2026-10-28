@@ -1,0 +1,23 @@
+av_id,source,member,glottocode,source_name,forms,source_segment_forms,audio_placeholder_forms,source_version,license
+mix-tlahuitoltepec-mixe,mixezoqueanvoices,mixezoqueanvoices_Tlahuitoltepec,tlah1239,Tlahuitoltepec,189,189,0,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+mix-totontepec-mixe,mixezoqueanvoices,mixezoqueanvoices_Totontepec,toto1305,Totontepec,196,0,196,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+mix-ocotepec-mixe,mixezoqueanvoices,mixezoqueanvoices_Ocotepec,ocot1241,Ocotepec,196,0,196,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+mix-highland-popoluca,wichmannmixezoquean,wichmannmixezoquean_SoteapanZoque,high1276,Soteapan Zoque,107,107,0,v1.0,https://creativecommons.org/licenses/by/4.0/
+chi-bribri,pachechibchan,pachechibchan_Bribri,brib1243,Bribri,117,117,0,d97d914,https://creativecommons.org/licenses/by/4.0/
+uto-central-tarahumara,utoaztecan,utoaztecan_Tarahumara,cent2131,Tarahumara,139,139,0,v1.3-1-g33d3734,https://creativecommons.org/licenses/by/4.0/
+uto-central-tarahumara,wheelerutoaztecan,wheelerutoaztecan_Raramuri,cent2131,Rarámuri,123,123,0,v1.0,https://creativecommons.org/licenses/by-nc/4.0/
+uto-teguima,utoaztecan,utoaztecan_Opata,opat1246,Ópata,139,139,0,v1.3-1-g33d3734,https://creativecommons.org/licenses/by/4.0/
+uto-mayo,lionnetyotonahua,lionnetyotonahua_Mayo,mayo1264,Mayo,260,260,0,7475017,https://creativecommons.org/licenses/by/4.0/
+may-tzeltal,dicttseltal,dicttseltal_tzh,tzel1254,Tseltal,9616,0,0,ca7582dbce9229966a2505d8dc228783255b2dec,https://creativecommons.org/licenses/by/4.0/
+iro-cherokee,wiktionary,wikt_chr,cher1273,Cherokee,2787,77,0,sha256:a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643,
+chd-creolized-grand-ronde-chinook-jargon,wiktionary,wikt_chn,chin1272,Chinook Jargon,142,7,0,sha256:a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643,
+,mixezoqueanvoices,mixezoqueanvoices_Copainala,copa1239,Copainalá Zoque,152,152,0,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+,mixezoqueanvoices,mixezoqueanvoices_Nizaviguiti,,Nizaviguiti,196,193,0,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+,mixezoqueanvoices,mixezoqueanvoices_Tapalapa,,Tapalapa,198,198,0,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+,mixezoqueanvoices,mixezoqueanvoices_Tutla,lowl1263,Santiago Tutla,199,199,0,v1.0.1-329-gc04bf4d,https://creativecommons.org/licenses/by-nc/4.0/
+,pachechibchan,pachechibchan_Huetar,huet1235,Huetar,0,0,0,d97d914,https://creativecommons.org/licenses/by/4.0/
+,tolmiebritishcolumbia,tolmiebritishcolumbia_Tinne-Nakoontloon,,Tinnē,182,182,0,v1.0-1-g48f4169,https://creativecommons.org/licenses/by/4.0/
+,wiktionary,wikt_ncx,cent2133,Central Puebla Nahuatl,1,0,0,sha256:a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643,
+,wiktionary,wikt_nhz,sant1423,Santa María La Alta Nahuatl,1,1,0,sha256:a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643,
+,wiktionary,wikt_xrt,aran1265,Aranama,1,0,0,sha256:a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643,
+,wiktionary,wikt_zam,miah1235,Central Mahuatlán Zapotec,1,0,0,sha256:a6a32d41e35990b79a886d9082ebb3459a16fbaed6d2995aaedf6ef46d3ee643,

@@ -1,5 +1,31 @@
 # Project journal and working memory
 
+## 2026-10-28 — Central/North American planning investigation
+
+User requested investigation of the next regional focus. No lexical execution
+authorized by this request; accepted data remains9b1a16c2.610 regional varieties,
+95,555 forms,33,038 supported core slots,255 GLED primaries. Screened306 additive
+member alternatives and221 GLED alternatives: zero net-positive supplied-only
+GLED replacements. Profile/dictionary acquisition therefore matters.
+
+NA01–NA07 proposed: Mixe/Popoluca plus recording-placeholder cleanup; Bribri/Nawat;
+Tarahumara/Mayo comparison; Tseltal profile; two Isthmus Zapotec dictionaries;
+Alutiiq/Chinuk Wawa pilots; identity/source acquisition with US/Canada coverage.
+Pinned and hashed two CC BY Zapotec dictionaries outside active intake.
+
+Quality findings:1,097 play-symbol rows in raw Voices data;747 accepted rows
+across four Voices-primary constructions.196 each in Totontepec and Ocotepec;
+accepted Ocotepec has zero supported core. LencaHonduras alternative under
+Salvadoran target requires identity review. Six unused Lexibank members include
+dialect/family/blank codes and zero-row Huetar, not six ready new languages.
+Nizaviguiti is a substantive193-supplied-row identity lead; classification remains
+uncertain. Miluk community source and Northern Haida lexical licensing need
+further acquisition evidence. Four unused Wiktionary scopes have one word each.
+
+Full report NORTH_AMERICA_INVESTIGATION_2026-10-28.md and north_america_* evidence.
+NEXT/STATUS/HELD/history/local memory updated. Prior South American P01–P04 parked,
+not completed or cancelled. No active intake/config/profile or web-data changes.
+
 ## 2026-10-28 — Source-led N01–N05 expansion
 
 Executed the five authorized tasks in order. +269 forms/+164 supported core slots,

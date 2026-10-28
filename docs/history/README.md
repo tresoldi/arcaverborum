@@ -5,6 +5,12 @@ active proposals. Reports and companion CSV/JSON files retain their dated paths
 so packet links and source references remain stable. A historical shortlist or
 “held” decision is not automatically the current work queue.
 
+## Planning investigations
+
+* [Central/North America,2026-10-28](../NORTH_AMERICA_INVESTIGATION_2026-10-28.md):
+  regional triage, GLED/profile review, two pinned Zapotec dictionary acquisitions,
+  placeholder/identity findings and proposed NA01–NA07. Zero accepted-data changes.
+
 ## Batch reports
 
 Newest completed batches first. Each report links its decisions and metrics.

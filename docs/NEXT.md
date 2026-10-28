@@ -1,45 +1,49 @@
 # Active expansion queue
 
-Updated 2026-10-28 against [STATUS](STATUS.md). The authorized N01–N05 batch is
-completed in the [source-led report](SOURCE_LED_EXPANSION_2026-10-28.md).
-Lule and Apolista evidence is in [HELD](planning/HELD.md), not active admissions.
-The tasks below are **proposed, not authorized for execution**. Follow the
+Updated2026-10-28. The requested Central/North American investigation is complete;
+[findings, exact members and gates](NORTH_AMERICA_INVESTIGATION_2026-10-28.md).
+Accepted data remains at [STATUS](STATUS.md). The tasks below are **proposed**;
+this planning turn makes zero lexical changes. Follow the
 [planning workflow](workflows/arca-coverage-planning/SKILL.md).
 
-## Recommended next work
+## Recommended regional batch
 
-| ID | Priority | Exact task | Current evidence and first gate |
-| --- | --- | --- | --- |
-| P01 | 1 | Marinahua: `pan-marinahua` / `amazonianvoices_marinawa` | 78/161 supported core; up to30 candidate missing concepts. Review exact recording/sample, original senses and CC BY-NC terms before compiling supplements. Recommended sparse South American target. |
-| P02 | 2 | Kokama: `tup-cocama-cocamilla` / `tuled_Kokama` and `gerarditupi_Kokama` | 116/161; ceilings31 and27 overlap. Compare lexical authorities and exact samples first; admit the better evidence once per gap, preserving legitimate alternatives. Broader accepted Cocama-Cocamilla identity needs explicit scope. |
-| P03 | 3 | Yukpa and Camsá: `car-yukpa` / `hubercolumbian_Yukpa`; `cam-camsa` / `hubercolumbian_Kamsa` | 122/119 supported core, up to28/27 gaps. Verify original Huber–Reed lexical contexts and narrow senses. Adds family/geographic balance beyond the Tupian work. |
-| P04 | 4 | Audit Johansson transcription conventions in accepted South American constructions | N01 found feature transformations in a source counted as supplied transcription. Inventory actual accepted uses; compare representative raw spelling, converted form, original authority and source paper. Decide any reclassification through a separately reviewed migration with losses reported. No blanket deletion or preclaimed improvement. |
+| ID | Order | Task | Baseline and potential | First gate |
+| --- | ---: | --- | --- | --- |
+| NA01 | 1 | Tlahuitoltepec Mixe + Highland Popoluca; recording-placeholder cleanup | 97/69 supported core; up to51/39 gaps | Exact Voices Tlahuitoltepec and Wichmann Soteapan members/senses. Exclude `►` recording links from lexical/profile opportunities; audit747 accepted placeholder rows across four constructions. |
+| NA02 | 2 | Bribri + Nawat/Pipil | 86/89; up to33/22 gaps | Pache Bribri raw dialect/tone/optional-segment conventions; exact Uto-Aztecan Pipil lexical authorities and senses. |
+| NA03 | 3 | Rarámuri/Tarahumara + Mayo | 86/91; up to42 or38 overlapping Tarahumara gaps,29 Mayo | Compare exact regional samples and original stress/reading conventions before choosing evidence. Historical Ópata is a reserve, not a shortcut. |
+| NA04 | 4 | Tseltal dictionary/profile pilot and potential GLED replacement | GLED38; staged dictionary116 mapped core,88 missing concepts | Conservative source-specific readings and dialect/POS/sense review. Preserve10 old core concepts absent from dictionary mappings; do not equate9,616 form rows with usable IPA. |
+| NA05 | 5 | Isthmus Zapotec dictionary acquisition/profile work | GLED38;9,012 general entries plus952 botanical, mapped gain unmeasured | Pinned Dictionaria sources, exact La Ventosa/Juchitán identity, attribution, phonological notation and reviewed concept mappings. Same accepted language, not two new ones. |
+| NA06 | 6 | US profile pilots: Alutiiq first, Grand Ronde Chinuk Wawa second | 0/2 supported core;10/19 mapped core;86/142 forms | Match source spellings to exact community/dialect orthography; hold mixed historical systems and unresolved rules. Small measured scope, useful unsupported-variety recovery. |
+| NA07 | 7 | Missing identity/source acquisition, with US/Canada representation | Nizaviguiti196 rows/193 supplied; Miluk and Canadian sources unmeasured | Investigate Nizaviguiti community identity without guessing a neighbouring code; establish Miluk lexical reuse/reading; resolve Northern Haida source terms before acquisition. New-language count remains unpromised. |
 
-Reserve the next original-source acquisition effort for a genuinely missing
-South American language with a usable modern description/lexicon and explicit
-reuse terms. First establish actual lexical rows, exact identity and a reading
-key; do not repeat unchanged Apolista/Jeikó/Malali holds or inflate dialect counts.
-This research is unmeasured and has no admission quota. The latest historical
-acquisition packet provides leads and precise blockers, not ready-to-import data.
+All ceilings are **unreviewed** and may shrink. Source members overlap. Source
+segments can reflect converted notation rather than independently certified IPA.
+The recommended sequence combines quick coverage, quality corrections, GLED
+reduction and longer source research; the tasks need not have equal yields.
 
-## Evidence and tradeoffs
+## Current evidence
 
-[Updated member ranking](source_led_opportunities_2026-10-28.csv) and
-[method/counts](source_led_opportunities_2026-10-28.json):6814 member opportunities,
-611 South American. These are unreviewed ceilings, not linguistic certification;
-member totals overlap. The ranking excludes primary-source profile recovery.
-Lule remains numerically first but is held on transcription evidence. Jamamadi
-requires broader Madi/sample identity reconciliation; Taushiro's Johansson
-representation should wait for the convention audit.
+* [Regional ranking](north_america_opportunities_2026-10-28.csv):306 alternatives.
+* [GLED replacement screen](north_america_gled_screen_2026-10-28.csv):221 member
+  alternatives, zero net-positive replacements from supplied segments alone.
+* [Member audit](north_america_member_audit_2026-10-28.csv): placeholder counts,
+  source versions, exact selectors and redistribution terms.
+* [Summary/source hashes](north_america_planning_summary_2026-10-28.json).
+* [Held register](planning/HELD.md): identity, notation and source-access gates.
 
-The recommendation combines sparse coverage, compared sources and a quality audit.
-Acquisition has greater potential diversity benefit but greater research cost and
-uncertain yield; a defensible held outcome remains preferable to invented IPA.
+## Parked South American proposals
+
+P01 Marinahua; P02 compared Kokama sources; P03 Yukpa/Camsá; P04 Johansson
+transcription-convention audit remain proposed. They are not completed or
+cancelled; the user's current regional focus takes priority. Their prior
+baselines/gates are retained in the preceding source-led planning commit and
+summarized in the new investigation. Re-rank against accepted output when resumed.
 
 ## Queue lifecycle
 
-**Proposed → reviewing → completed/held.** Mark execution when authorized; retain
-only proposed/reviewing work here. Move results to a dated report/history and holds
-to the held register with explicit reopening evidence. At closure update STATUS,
-NEXT, HELD, packets/recipes, journal and local memory. Check accepted outputs before
-re-proposing a historical candidate. Batch size follows evidence, not a fixed quota.
+**Proposed → reviewing → completed/held.** Mark execution when instructed to
+proceed. Keep proposed/reviewing work here; move results to dated reports/history
+and holds to the held register with reopening evidence. Update STATUS, NEXT, HELD,
+packets/recipes, journal and memory at closure. Historical ceilings are not gains.
