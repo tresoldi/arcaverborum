@@ -76,3 +76,16 @@ All401 web artifact hashes and three aggregate-input hashes checked. Full accept
 rebuild has zero failures;436 tests and lint pass; local generic, mixed-source
 and historical browser/export checks pass. All four source slices reproduced
 outside active intake, including exact Mayan PDF page/quotation audit.
+
+
+Published data commit `5d0981260945f7d90b827f8ade7ac9d603ca1f6d`:
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40749787006) passes
+Python3.12/3.13;
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40749786754) succeeds.
+Canonical public manifest/catalog/recordings/source bibliography and six family
+shards match local artifacts. Live historical browser exports pass. All9,886
+original historical comments are preserved;10,170 rows carry historical metadata.
+[Post-batch ancient opportunities](ancient_expansion_opportunities_2026-10-28.csv)
+and [method/counts](ancient_expansion_opportunities_2026-10-28.json) are refreshed;
+77 member rows include overlapping held/already-admitted written evidence and
+are not77 ready admissions. The complete full local ranking has6,813 member rows.

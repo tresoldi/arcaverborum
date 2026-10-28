@@ -12,7 +12,7 @@ American NB/P proposals remain parked; NEXT now carries proposed AE follow-ups.
 
 ## Accepted baseline
 
-Data commit: this ancient-batch commit; immutable hash recorded after publication.
+Data commit:`5d0981260945f7d90b827f8ade7ac9d603ca1f6d`.
 Authoritative counts: [ancient summary](ancient_expansion_summary_2026-10-28.json),
 `after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
 compressed `web/data/catalog.json.gz`.
@@ -51,8 +51,13 @@ All2,069,214 earlier lexical rows preserved apart from additive comment metadata
 aggregate-input hashes verified. Local generic, historical and mixed-source
 browser/export checks cover scope, licenses, Etruscan/Elamite orthography,
 conversion disclosure, exact Attic note and Mayan sign/context. Four pinned
-original lexical slices reproduced outside intake. CI/Pages/live checks pending
-publication; no freshness claim based solely on a deployment run.
+original lexical slices reproduced outside intake. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40749787006)
+passed on Python3.12/3.13 and
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40749786754)
+succeeded for the data commit. Canonical live manifest, catalog, recordings,
+source bibliography and six representative family shards match committed bytes;
+live historical browser exports pass. Original comments on all9,886 earlier
+historical rows remain intact;10,170 rows now carry reading-basis annotations.
 
 Previous data baseline:`6009c09e58021f203beb920677418d9f7f51f805`,
 [Romance report](ROMANCE_EXPANSION_2026-10-28.md). Its430-test CI and Pages
@@ -72,9 +77,10 @@ Acquisition/sense/reading holds have precise reopening evidence in HELD.
 * [Original ancient investigation](ANCIENT_LANGUAGES_INVESTIGATION_2026-10-28.md)
   remains historical discovery evidence, not an unspent admission queue.
 * [Romance decisions/results](ROMANCE_EXPANSION_2026-10-28.md) retain the earlier
-  source/locality evidence. Fresh full opportunity ranking is generated locally
-  under `output/report/coverage_opportunities.csv`; opportunities overlap and
-  require source/member/sense review before admission.
+  source/locality evidence. [Fresh ancient subset](ancient_expansion_opportunities_2026-10-28.csv) and
+  [method/counts](ancient_expansion_opportunities_2026-10-28.json) derive from the
+  regenerated full local ranking. Opportunities overlap held or already-admitted
+  written evidence and require source/member/sense review before further work.
 * [Latest missing-language decisions](south_america_depth_missing_languages_2026-10-28.csv)
   and [four-source screen](south_america_depth_source_screen_2026-10-28.json).
 * [Held-work register](planning/HELD.md): current blockers across earlier batches.

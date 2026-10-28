@@ -259,5 +259,7 @@
   "phonetic_reading_admissions": 169,
   "written_only_admissions": 115,
   "artifact_hashes_checked": 401,
-  "aggregate_input_hashes_checked": 3
+  "aggregate_input_hashes_checked": 3,
+  "earlier_historical_rows_with_original_comments_preserved": 9886,
+  "historical_annotation_rows": 10170
 }

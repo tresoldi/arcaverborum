@@ -33,7 +33,12 @@ Mayan exact page quotation audited against pinned PDF. Full7,329 accepted rebuil
 has zero failures;436 tests/lint pass. All2,069,214 earlier lexical rows retained
 excluding additive comment metadata/global IDs. Aggregate/web rebuilt;401 website
 hashes plus3 aggregate-input hashes match. Local generic, mixed-source and ancient
-browser exports pass. CI/Pages/live publication recorded in STATUS after push.
+browser exports pass. Data commit5d098126 pushed. CI40749787006 passes Python3.12/3.13 and Pages40749786754
+succeeds. Canonical live manifest/catalog/recordings/source bibliography and six
+family shards match committed artifacts; live ancient browser exports pass.
+Original comments verified on9,886 earlier historical rows;10,170 annotated rows.
+Fresh ranking regenerated (6,813 full member opportunities,77 ancient subset),
+retaining overlap/hold warnings. Publication evidence linked from STATUS.
 
 [Batch report](ANCIENT_EXPANSION_2026-10-28.md), summary JSON and dated review/
 acquisition CSVs retain exact decisions. NEXT now holds proposed AE follow-ups;

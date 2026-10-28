@@ -1,0 +1,13 @@
+{
+  "accepted_targets_with_gaps": 7314,
+  "member_opportunities": 6813,
+  "south_american_opportunities": 611,
+  "american_opportunities": 914,
+  "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+  "source_policy": "Source IPA only counts as supplied. Resegmented spelling is orthographic potential, never supported evidence.",
+  "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report.",
+  "ancient_member_opportunities": 77,
+  "full_ranking_sha256": "e2019b5dc92a351248c86d0080fbcfb07defe6bfd5dc1ff30d9c480b980b477d",
+  "accepted_summary": "ancient_expansion_summary_2026-10-28.json",
+  "warning": "Remaining raw potential overlaps held or already-admitted written evidence. This is not an admission queue or a count of unspent new forms."
+}
