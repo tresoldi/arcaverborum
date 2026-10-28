@@ -11,7 +11,7 @@ recorded separately; R01–R06 is no longer a proposed queue.
 
 ## Accepted baseline
 
-Data commit: this Romance batch (publication commit recorded after push).
+Data commit:`6009c09e58021f203beb920677418d9f7f51f805`.
 Authoritative counts: [Romance summary](romance_expansion_summary_2026-10-28.json),
 `after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
 compressed `web/data/catalog.json.gz`.
@@ -44,7 +44,9 @@ public notice; etyma are not inferred modern meanings or expert cognacy.
 Verification:430 tests, full lint, affected builds and compilers pass. Aggregate
 and web artifacts rebuilt;2,463 prior affected rows retained, with only reviewed
 Gallurese reading/mapping changes. All401 artifact hashes and catalog totals
-verified. Publication/browser outcomes are recorded at closure below.
+verified. Local generic, mixed-source and Romance-specific browser/export checks
+pass, including GPL notice/source metadata, INF cell preservation, scoped profiles,
+locality isolation and retained GLED rows. Publication checks follow this push.
 
 Previous data baseline: `7de14ecd8710ad399189cd12405d1a4afc50fc54`, with build/test
 correction `74c4468cebe183dd6df3a28a88f1b13c658119e8`; see the

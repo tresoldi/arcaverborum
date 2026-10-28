@@ -155,6 +155,10 @@ Previously completed Galician, Aragonese and Asturian pilots were not repeated.
 
 ## Verification and reproducibility
 
+Data commit:`6009c09e58021f203beb920677418d9f7f51f805`. Local generic, mixed-source and Romance-specific
+browser checks pass, including licence/morphology/profile/sense scopes and retained
+GLED exports.
+
 430 tests pass, including six new RVID morphology/lexical drift checks; full lint
 passes. Profile and supplementary compilers validate against current intake.
 Affected constructions rebuild without failures; aggregate and web artifacts are

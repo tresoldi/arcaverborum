@@ -18,7 +18,8 @@ ALD CC BY-SA4.0 now evidenced, notation/table scope remains; VinKo project v1.2
 licence confirmed but deposit lexical transcription unverified. R06 Occitan67/59
 core and Romansh5/4; nonliteral senses held. Broad mixed-spelling profiles held.
 430 tests/full lint, compilers/affected builds,2,463 prior-record checks and401
-artifact hashes pass. Aggregate/public artifacts rebuilt. See Romance report and
+artifact hashes pass. Local generic/mixed/Romance browser exports pass. Data commit
+`6009c09e58021f203beb920677418d9f7f51f805`. Aggregate/public artifacts rebuilt. See Romance report and
 metrics; NEXT replaces R01–R06 with proposed RP01–RP03, American NB stays parked.
 
 ## 2026-10-28 — Romance / Italian-area investigation
