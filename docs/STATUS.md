@@ -6,8 +6,7 @@ requirements in [HELD](planning/HELD.md).
 
 Latest batch: [Sub-Saharan Africa/Bantu AF01–AF09](AFRICA_EXPANSION_2026-10-28.md).
 All nine authorized tracks received bounded admissions or explicit evidence holds.
-Data commit: publication commit containing this batch's manifest; exact SHA and
-live verification will be recorded after deployment.
+Data commit:`a1f8e941692d5e1f6ec893e37edf916d5b40058e`.
 Authoritative counts: [realized metrics](africa_expansion_summary_2026-10-28.json).
 
 ## Accepted baseline
@@ -55,7 +54,12 @@ aggregate IDs, additive review metadata and derived scores may change.
 401 website artifact hashes and three aggregate-input hashes verified.
 All329 original-source intake records reproduce from immutable source bytes.
 Generic research, African, ancient and mixed-source browser/export checks pass.
-CI, Pages and canonical live verification are pending the publication push.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40760562984) passed on
+Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40760563003)
+succeeded. Canonical live manifest/catalog, recordings, source bibliography and
+six representative family shards match committed bytes. Live African browser
+exports pass for written-only terms, source profiles, original tones and retained
+GLED evidence.
 
 Publication artifacts: [manifest](../web/data/manifest.json), compressed catalog,
 399 family shards, bibliography and755 recording-metadata rows. The site deploys

@@ -118,3 +118,8 @@ hashes that separate metadata and affected variety pages link the download.
 Historical-data checks: `web/tests/ancient_browser.py URL` verifies Etruscan and
 Elamite written-only exports, automatic-conversion disclosure, exact Attic scope,
 and the Classic Mayan scholarly transcription with its sign/attestation metadata.
+
+African-data checks: `web/tests/african_browser.py URL` verifies written-only
+Konyagi/Kam records and NC-SA terms, Gyeli/Hdi dictionary primaries with every
+older GLED row retained, finite profile provenance and original West African
+tone exports. The AF01–AF09 execution report records the bounded source reviews.

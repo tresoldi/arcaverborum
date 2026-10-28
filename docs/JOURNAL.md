@@ -31,7 +31,10 @@ phonetic quality.401 website hashes and three aggregate inputs checked; generic,
 African, ancient and mixed-source browser exports pass. Fresh African ranking579
 member opportunities;432 GLED alternatives, zero lossless positive supplied-reading
 swaps. NEXT closes AF01–AF09 and proposes unapproved AX01–AX05; HELD updated.
-Publication commit/CI/Pages/live checks to be recorded immediately after push.
+Data commita1f8e941692d5e1f6ec893e37edf916d5b40058e pushed. CI40760562984 passed on3.12/3.13;
+Pages40760563003 succeeded. Canonical live manifest, catalog, recordings,
+bibliography and six family shards match committed bytes; live African browser
+exports pass. Publication verified, no remaining required data work.
 
 ## 2026-10-28 — Sub-Saharan Africa / Bantu investigation
 

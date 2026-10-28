@@ -363,5 +363,27 @@
     "african",
     "ancient",
     "mixed_source"
-  ]
+  ],
+  "publication": {
+    "data_commit": "a1f8e941692d5e1f6ec893e37edf916d5b40058e",
+    "ci_run": 40760562984,
+    "ci_python_versions": [
+      "3.12",
+      "3.13"
+    ],
+    "ci_conclusion": "success",
+    "pages_run": 40760563003,
+    "pages_conclusion": "success",
+    "canonical_url": "https://arcaverborum.org/",
+    "live_manifest_catalog_recordings_bibliography_verified": true,
+    "live_family_shards_verified": [
+      "Atlantic-Congo",
+      "Afro-Asiatic",
+      "Mande",
+      "Songhay",
+      "Etruscan",
+      "Elamite"
+    ],
+    "live_african_browser_exports": "passed"
+  }
 }

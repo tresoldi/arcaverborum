@@ -5,6 +5,11 @@ The [realized metrics](africa_expansion_summary_2026-10-28.json) distinguish lex
 records, supported concepts, written-only evidence and source changes. Raw ceilings
 in the investigation are historical screens, not outstanding admissions.
 
+Realized:619 records across19 constructions, +464 supported core slots and555
+mapped slots. Narrow Bantu gains403 records and352 supported slots across the
+same485 constructions. Totals:7,331 varieties,2,070,117 forms,468,501 supported
+core slots and1,575 GLED primaries. All2,069,498 earlier rows/comments survive.
+
 ## Reviewed outcomes
 
 | Track | Accepted action | Boundary retained |
@@ -91,3 +96,9 @@ while allowing new reading/review comments, derived quality scores and current p
 The summary records actual realized gains and hash checks. Browser checks exercise
 written-only exports, tone/profile provenance, old GLED preservation and existing
 research workflows. Publication evidence is recorded in STATUS after deployment.
+
+Publication: data commit `a1f8e941692d5e1f6ec893e37edf916d5b40058e`;
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40760562984) and
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40760563003) succeeded.
+The canonical live manifest, catalog, recordings, bibliography and six family
+shards match committed bytes. Live African browser exports pass.
