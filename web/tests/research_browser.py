@@ -92,6 +92,7 @@ with sync_playwright() as playwright:
     page.wait_for_selector('[data-legend]')
     page.locator('[data-legend]').last.click()
     page.locator('#nav a').filter(has_text='Varieties').click()
+    page.wait_for_selector('#varietysearch')
     page.set_viewport_size({'width': 390, 'height': 844})
     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
     page.locator('#app a').first.focus()

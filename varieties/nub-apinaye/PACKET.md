@@ -40,7 +40,7 @@ Never subset-ingest active intake or append an existing namespace as new.
 
 Added 72 non-core study forms; current total 192. Existing core coverage and
 primary selection remain unchanged. The frozen source is expanded371→463 forms
-with `expand_source_intake.py --expected-old-forms371`; all371 earlier forms and
+with `expand_source_intake.py --expected-old-forms 371`; all371 earlier forms and
 all earlier languages, parameters, citations and source version remain intact.
 Authored row hashes, senses and exact scoped readings remain in
 `src/arcaverborum/data/je_original_review.csv`; profiles are compiled from it.

@@ -119,6 +119,12 @@
     "je_new_source_rows": 92,
     "new_language_admissions": 0,
     "earlier_je_review_rows_unchanged": 549,
-    "artifact_hashes_verified": 400
-  }
+    "artifact_hashes_verified": 400,
+    "local_browser_checks": "passed",
+    "live_browser_checks": "passed",
+    "live_manifest_matches": true,
+    "ci_run": 40670038699,
+    "pages_run": 40670038798
+  },
+  "data_commit": "9b1a16c282e8dddc6f52d2a8e325d663505169d1"
 }

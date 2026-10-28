@@ -7,8 +7,7 @@ The active work queue is [NEXT.md](NEXT.md); planning procedure is
 
 ## Accepted baseline
 
-Data baseline: source-led N01–N05 batch, based on prior data commit
-`b2ba04ca7b8082fb6576bfb95383b96541b39b5d`. Publication verification pending.
+Data commit: `9b1a16c282e8dddc6f52d2a8e325d663505169d1`.
 Authoritative batch counts: [source-led summary](source_led_summary_2026-10-28.json),
 `after` object. Publication artifacts: [manifest](../web/data/manifest.json) and
 compressed `web/data/catalog.json.gz`.
@@ -39,8 +38,12 @@ Asturian remains82 supported core concepts.
 
 Verification:417 tests; core-pilot and Vakh audits; all7,314 accepted outputs fresh;
 1,359 earlier affected records preserved;549 earlier Jê review rows unchanged;
-371 earlier Jê source rows preserved;400 artifact hashes checked. Local research and mixed-source browser/export checks passed; live publication
-verification follows the data push.
+371 earlier Jê source rows preserved;400 artifact hashes checked. Local research and mixed-source browser/export checks passed.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40670038699) and
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40670038798) succeeded.
+The public manifest matches all committed counts and artifact hashes exactly.
+Live research and mixed-source browser/export checks passed. The research
+keyboard-focus check now waits for the catalog to render after navigation.
 
 ## Evidence for planning
 

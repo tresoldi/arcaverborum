@@ -20,7 +20,8 @@ wrong instrument definition. Earlier1,359 affected accepted records preserved.
 
 Report/metrics/decisions: SOURCE_LED_EXPANSION_2026-10-28.md and source_led_summary.
 STATUS/NEXT/HELD/history and packets/recipes updated. Next queue is proposed,
-not automatically authorized. Publication checks recorded in STATUS at closure.
+not automatically authorized. Data commit9b1a16c2 pushed; CI40670038699/Pages40670038798 succeeded.
+Public manifest matches committed artifacts. Publication checks recorded in STATUS.
 
 ## 2026-10-28 — Documentation and repeatable coverage planning
 
