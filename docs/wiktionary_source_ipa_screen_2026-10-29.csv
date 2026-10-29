@@ -1,0 +1,162 @@
+av_id,name,glottocode,source_member,baseline_core,raw_core,unqualified_ipa_records,unqualified_ipa_core,unqualified_ipa_concepts,review_status
+alg-yurok,Yurok,yuro1248,wikt_yur,58,46,56,36,47,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nor-ternate,Ternate,tern1247,wikt_tft,38,52,72,34,72,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-corsican,Corsican,cors1241,wikt_co,51,61,84,26,80,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+kio-rio-grande-tewa,Rio Grande Tewa,tewa1260,wikt_tew,53,33,60,25,59,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+mus-chickasaw,Chickasaw,chic1270,wikt_cic,50,66,62,21,49,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-tachelhit,Tachelhit,tach1250,wikt_shi,38,34,60,20,50,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-northern-frisian,Northern Frisian,nort2626,wikt_frr,38,77,71,18,63,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-scots,Scots,scot1243,wikt_sco,37,73,157,17,108,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-kabyle,Kabyle,kaby1243,wikt_kab,38,23,81,17,65,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+kio-taos-northern-tiwa,Taos Northern Tiwa,nort1550,wikt_twf,49,53,76,17,63,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-dzongkha,Dzongkha,dzon1239,wikt_dz,30,39,57,17,52,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+may-yucatec-maya,Yucatec Maya,yuca1254,wikt_yua,50,60,71,16,63,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-western-apache,Western Apache,west2615,wikt_apw,40,49,58,15,53,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-unami,Unami,unam1242,wikt_unm,42,55,65,14,64,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-atong-india,Atong (India),aton1241,wikt_aot,37,18,33,11,33,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-tlaxcala-puebla-central-nahuatl,Tlaxcala-Puebla-Central Nahuatl,cent2132,wikt_nhn,29,17,34,11,28,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-ewe,Ewe,ewee1241,wikt_ee,28,56,54,10,47,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nor-tabaru,Tabaru,taba1263,wikt_tby,28,11,22,9,22,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-coptic,Coptic,copt1239,wikt_cop,36,51,35,8,32,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+chu-koryak,Koryak,kory1246,wikt_kpy,38,17,16,8,15,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-central-huasteca-nahuatl,Central Huasteca Nahuatl,cent2134,wikt_nch,28,10,13,7,12,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-kinyarwanda,Kinyarwanda,kiny1244,wikt_rw,38,34,10,7,10,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-ga,Ga,gaaa1244,wikt_gaa,28,9,10,7,7,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-farefare,Farefare,fare1241,wikt_gur,37,28,50,6,44,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-wymysorys,Wymysorys,wymy1235,wikt_wym,31,53,21,6,19,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sah-beria,Beria,zagh1240,wikt_zag,38,7,13,6,13,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-beja,Beja,beja1238,wikt_bej,38,13,12,6,12,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+iro-mohawk,Mohawk,moha1258,wikt_moh,38,12,12,6,12,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-gilit-mesopotamian-arabic,Gilit Mesopotamian Arabic,meso1252,wikt_acm,38,20,8,6,8,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-lombard,Lombard,lomb1257,wikt_lmo,49,99,19,5,19,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-western-neo-aramaic,Western Neo-Aramaic,west2763,wikt_amw,28,8,15,5,10,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-ladino,Ladino,ladi1251,wikt_lad,38,69,23,4,22,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+chu-alutor,Alutor,alut1245,wikt_alr,38,5,19,4,18,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+jpx-yaeyama,Yaeyama,yaey1239,wikt_rys,38,15,11,4,11,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+may-akateko,Akateko,west2635,wikt_knj,38,6,6,4,6,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-hijazi-arabic,Hijazi Arabic,hija1235,wikt_acw,30,20,103,3,91,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-lower-tanana,Lower Tanana,lowe1425,wikt_taa,38,7,33,3,33,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-plains-cree,Plains Cree,plai1258,wikt_crk,37,12,11,3,8,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+pny-umbuygamu,Umbuygamu,umbu1256,wikt_umg,31,4,6,3,6,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+tai-tai-don,Tai Dón,taid1250,wikt_twh,38,3,6,3,6,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-sudanese-arabic,Sudanese Arabic,suda1236,wikt_apd,32,9,5,3,5,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+gun-bininj-kun-wok,Bininj Kun-Wok,gunw1252,wikt_gup,30,3,8,3,5,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-limburgan,Limburgan,limb1263,wikt_li,38,43,22,2,21,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-plautdietsch,Plautdietsch,plau1238,wikt_pdt,37,85,21,2,19,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-tunisian-arabic,Tunisian Arabic,tuni1259,wikt_aeb,38,14,10,2,9,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-potawatomi,Potawatomi,pota1247,wikt_pot,36,5,7,2,7,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-mirandese,Mirandese,mira1251,wikt_mwl,33,55,7,2,5,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+aav-eastern-lawa,Eastern Lawa,east2330,wikt_lwl,35,3,5,2,5,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-western-huasteca-nahuatl,Western Huasteca Nahuatl,west2624,wikt_nhw,28,5,4,2,4,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-sango,Sango,sang1328,wikt_sg,35,27,3,2,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sea-angor,Angor,ango1254,wikt_agg,29,5,3,2,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+yar-aneme-wake,Aneme Wake,anem1248,wikt_aby,31,6,3,2,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-kurtokha,Kurtokha,kurt1248,wikt_xkz,30,2,3,2,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-swabian,Swabian,swab1242,wikt_swg,38,9,3,2,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ton-tonkawa,Tonkawa,tonk1249,wikt_tqw,30,5,2,2,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nub-para-gaviao,Pará Gavião,para1315,wikt_gvp,33,6,2,2,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-rendille,Rendille,rend1243,wikt_rel,37,9,2,2,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-saraiki,Saraiki,sera1259,wikt_skr,33,3,2,2,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+hmx-chuanqiandian-cluster-miao,Chuanqiandian Cluster Miao,chua1256,wikt_cqd,38,2,2,2,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-dungan,Dungan,dung1253,wikt_dng,38,20,19,1,18,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-libyan-arabic,Libyan Arabic,liby1240,wikt_ayl,37,2,6,1,5,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-sassarese-sardinian,Sassarese Sardinian,sass1235,wikt_sdc,38,11,4,1,4,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+pny-woiwurrung-thagungwurrung,Woiwurrung-Thagungwurrung,woiw1237,wikt_wyi,34,59,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-central-guerrero-nahuatl,Central Guerrero Nahuatl,guer1241,wikt_ngu,29,5,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+oto-isthmus-zapotec,Isthmus Zapotec,isth1244,wikt_zai,41,12,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+yen-arin,Arin,arin1243,wikt_xrn,32,2,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+aav-western-lawa,Western Lawa,west2396,wikt_lcp,35,3,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-ugong,Ugong,ugon1239,wikt_ugo,38,1,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+tai-cun-nadou,Cun-Nadou,cunn1236,wikt_cuq,38,1,3,1,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-southern-sotho,Southern Sotho,sout2807,wikt_st,38,54,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+may-kaqchikel,Kaqchikel,kaqc1270,wikt_cak,38,12,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-morelos-nahuatl,Morelos Nahuatl,more1259,wikt_nhm,29,1,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+aav-eastern-katu,Eastern Katu,east1236,wikt_ktv,33,5,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-nkonya,Nkonya,nkon1248,wikt_nko,38,5,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nor-loloda-laba,Loloda-Laba,lolo1264,wikt_loa,35,1,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nil-samburu,Samburu,samb1315,wikt_saq,38,2,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+aav-pnar,Pnar,pnar1238,wikt_pbv,37,1,2,1,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-assyrian-neo-aramaic,Assyrian Neo-Aramaic,assy1241,wikt_aii,37,47,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sio-ho-chunk,Ho-Chunk,hoch1243,wikt_win,38,33,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-tedim-chin,Tedim Chin,tedi1235,wikt_ctd,36,24,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-northern-straits-salish,Northern Straits Salish,stra1244,wikt_str,38,21,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-tlamacazapa-nahuatl,Tlamacazapa Nahuatl,tlam1239,wikt_nuz,29,5,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-han,Han,hann1241,wikt_haa,29,4,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-cimbrian,Cimbrian,cimb1238,wikt_cim,33,8,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+soa-hamer-banna,Hamer-Banna,hame1242,wikt_amf,38,12,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-beaver,Beaver,beav1236,wikt_bea,30,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-wiyot,Wiyot,wiyo1248,wikt_wiy,31,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+cen-baka-south-sudan,Baka (South Sudan),baka1274,wikt_bdh,32,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sko-vanimo,Vanimo,vani1248,wikt_vam,32,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nuc-wano,Wano,wano1243,wikt_wno,33,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+cen-lendu,Lendu,lend1245,wikt_led,33,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+moc-mochica,Mochica,moch1259,wikt_omc,35,3,2,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-pande,Pande,pand1264,wikt_bkj,34,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-southern-yamphu,Southern Yamphu,sout2734,wikt_lrr,34,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nar-tocho,Tocho,toch1257,wikt_taz,35,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nud-midob,Midob,mido1240,wikt_mei,36,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+nor-pagu,Pagu,pagu1249,wikt_pgu,36,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-shuswap,Shuswap,shus1248,wikt_shs,38,3,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+aav-chut,Chut,chut1247,wikt_scb,38,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+may-aguacateco,Aguacateco,agua1252,wikt_agu,38,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+win-nuclear-wintu,Nuclear Wintu,nucl1651,wikt_wnw,38,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-bilin,Bilin,bili1260,wikt_byn,37,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+cen-kenga,Kenga,keng1240,wikt_kyq,37,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+oto-chichimeca-jonaz,Chichimeca-Jonaz,chic1272,wikt_pei,37,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sur-mursi,Mursi,murs1242,wikt_muz,37,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+tot-papantla-totonac,Papantla Totonac,papa1238,wikt_top,37,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+may-mam,Mam,mamm1241,wikt_mam,38,2,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-dahalo,Dahalo,daha1245,wikt_dal,38,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-senhaja-de-srair,Senhaja De Srair,senh1238,wikt_sjs,38,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-xamtanga,Xamtanga,xamt1239,wikt_xan,38,1,1,1,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-south-levantine-arabic,South Levantine Arabic,sout3123,wikt_ajp,29,11,17,0,13,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-algonquin,Algonquin,algo1255,wikt_alq,38,4,12,0,12,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-cheyenne,Cheyenne,chey1247,wikt_chy,37,26,3,0,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-algerian-arabic,Algerian Arabic,alge1239,wikt_arq,36,5,3,0,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-miami,Miami,miam1252,wikt_mia,38,5,3,0,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+oto-zoogocho-zapotec,Zoogocho Zapotec,zoog1238,wikt_zpq,38,2,3,0,3,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-montagnais,Montagnais,mont1268,wikt_moe,37,16,2,0,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+yen-kott-assan,Kott-Assan,kott1239,wikt_zko,34,4,2,0,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+cad-arikara,Arikara,arik1262,wikt_ari,35,3,2,0,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+pny-martuthunira,Martuthunira,mart1255,wikt_vma,35,2,2,0,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+may-achi,Achi,achi1256,wikt_acr,38,1,2,0,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ine-palula,Palula,phal1254,wikt_phl,40,1,2,0,2,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+esk-central-alaskan-yupik,Central Alaskan Yupik,cent2127,wikt_esu,35,42,2,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-western-abenaki,Western Abenaki,west2630,wikt_abe,37,12,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+trk-taiga-sayan-turkic,Taiga Sayan Turkic,kara1462,wikt_kim,38,13,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sio-dakota,Dakota,dako1258,wikt_dak,38,11,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+jpx-kikai,Kikai,kika1239,wikt_kzg,37,9,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+uto-zacatlan-ahuacatlan-tepetzintla-nahuatl,Zacatlán-Ahuacatlán-Tepetzintla Nahuatl,zaca1241,wikt_nhi,29,0,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-chaouia-of-the-aures,Chaouia of the Aures,tach1249,wikt_shy,33,4,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-chipewyan,Chipewyan,chip1261,wikt_chp,33,2,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sko-i-saka,I'saka,kris1246,wikt_ksi,36,4,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+pny-yankunytjatjara,Yankunytjatjara,yank1247,wikt_kdd,37,3,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+oto-san-pedro-amuzgos-amuzgo,San Pedro Amuzgos Amuzgo,sanp1260,wikt_azg,38,2,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+wak-makah,Makah,maka1318,wikt_myh,38,2,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-vengo,Vengo,veng1238,wikt_bav,38,1,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-western-parbate-kham,Western Parbate Kham,west2420,wikt_kjl,38,0,1,0,1,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-mi-kmaq,Mi'kmaq,mikm1235,wikt_mic,38,16,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+saa-northwest-sahaptin,Northwest Sahaptin,yaki1237,wikt_yak,29,2,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-sarsi,Sarsi,sars1236,wikt_srs,33,6,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+atl-igede,Igede,iged1239,wikt_ige,28,0,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-upper-kuskokwim,Upper Kuskokwim,uppe1438,wikt_kuu,31,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-dena-ina,Dena'ina,tana1289,wikt_tfn,38,8,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-clallam,Clallam,clal1241,wikt_clm,38,6,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-cowlitz,Cowlitz,cowl1242,wikt_cow,38,6,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+alg-meskwaki,Meskwaki,mesk1242,wikt_sac,36,3,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+ath-koyukon,Koyukon,koyu1237,wikt_koy,36,3,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+afa-mangas,Mangas,mang1416,wikt_zns,36,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+iro-seneca,Seneca,sene1264,wikt_see,38,3,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-okanagan,Okanagan,okan1243,wikt_oka,38,3,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-squamish,Squamish,squa1248,wikt_squ,38,2,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-columbia-wenatchi,Columbia-Wenatchi,colu1241,wikt_col,37,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-comox,Comox,como1259,wikt_coo,38,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-quinault,Quinault,quin1251,wikt_qun,38,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-thompson,Thompson,thom1243,wikt_thp,38,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+wak-haisla,Haisla,hais1244,wikt_has,38,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-twana,Twana,twan1247,wikt_twa,37,0,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sit-gamale-kham,Gamale Kham,gama1251,wikt_kgj,37,0,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+wak-ditidaht,Ditidaht,diti1235,wikt_dtd,37,0,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+wak-heiltsuk-oowekyala,Heiltsuk-Oowekyala,heil1246,wikt_hei,38,1,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-sechelt,Sechelt,sech1246,wikt_sec,38,0,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.
+sal-spokane,Spokane,spok1245,wikt_spo,38,0,0,0,0,Unreviewed raw potential; before WS primary promotions; no quality or sense certification.

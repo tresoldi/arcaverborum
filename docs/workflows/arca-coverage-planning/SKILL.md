@@ -51,7 +51,7 @@ blanket inversion of source-name rankings.
    source profile recovery, unmapped/non-core vocabulary and genuinely missing
    languages. The additive ranking excludes the primary source and does not
    measure all these opportunities. Use `scripts/rank_gled_replacements.py` for
-   replacement triage, then review accepted losses as well as gains. The lossless
+   replacement triage, then review accepted losses as well as gains. Also run `scripts/audit_reviewed_source_choices.py --output PATH` to inventory guarded alternatives across all accepted primaries; this includes authored profile/scoped evidence omitted by raw intake screens, but does not certify quality. The lossless
    supplied-reading screen is only a narrow diagnostic: profile-backed Wiktionary
    promotion and quality-led choices can be justified outside it.
 4. Prefer concrete source/sense review with high-quality evidence and meaningful

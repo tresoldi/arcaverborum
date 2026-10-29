@@ -1,5 +1,13 @@
 # Project journal and working memory
 
+## 2026-10-29 — Reviewed Wiktionary preference executed
+
+User authorized proceeding and rethinking easy existing choices. WS promotes bounded supplied-IPA slices for Yurok/Ternate/Corsican/Lombard and admits97 additional readings (31/66),59 supported slots/16 core. All2,071,680 earlier records/readings/cognacy/comments preserved; all223 earlier GLED records in these constructions retained as guarded supplements.223 per-form scores recalculate from explicit concept mappings under the unchanged formula; zero variety-level score changes. Eight sense/scope candidates held. No new language or intake rows.
+
+Accepted7,338 constructions/2,071,777 forms/469,321 supported core/543,160 mapped core/1,207,913 supported all slots;1,569 GLED primaries,915 Core-source varieties. Reusable audit inventories140 guarded alternatives across all accepted source choices; pre-batch strict ordinary-IPA screen has161 unreviewed member candidates. Next easy group: Chickasaw/Yucatec Maya/Unami/Western Apache; require expanded sense review before tiny-slice promotion. Profiles and exact historical/community scopes remain evidence gates.
+
+456 tests/lint, four builds,401 artifact hashes/3 aggregate hashes,120 strict pronunciation cache checks and source-preference/Romance/mixed-source browser suites pass. See WIKTIONARY_SOURCE_SELECTION_2026-10-29.md and companion metrics/reviews. Publication verification follows push.
+
 ## 2026-10-29 — Prefer trustworthy richer Wiktionary evidence over GLED
 
 User explicitly clarified the historical Lexibank→GLED→Wiktionary preference:

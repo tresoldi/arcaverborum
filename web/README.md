@@ -131,3 +131,7 @@ Palula mora-specific accents, Nen/Teop finite profiles, Wanukaka/Broome written-
 evidence, recovered original Bribri IPA, Milanese alternatives, named Italian
 locality scope, Elamite dictionary context and corrected Etruscan/shared meanings.
 See `docs/WORLDWIDE_EXPANSION_2026-10-29.md` for realized gains and explicit holds.
+
+Source-preference checks: `web/tests/source_preference_browser.py URL` verifies the
+reviewed Yurok/Ternate/Corsican/Lombard Wiktionary slices, raw IPA, retained GLED
+and explicitly Milanese-tagged readings. Counts describe bounded reviewed slices.

@@ -22,3 +22,7 @@ Earlier evidence and source-specific cognacy remain; six precise shared English-
 rules correct older mappings where applicable. Source conversions are not independent
 IPA elicitation, profiles are finite and source-specific, and written-only records
 add no phonetic support. Config and guarded custom ledgers enforce acceptance.
+
+## Reviewed primary preference — 2026-10-29
+
+The bounded Wiktionary ledger in custom/primary.csv is now authoritative for its reviewed readings (42 records). Exact senses, raw IPA, source IDs and snapshot hashes remain guarded. All 81 earlier GLED records remain in custom/supplements.csv with their original ASJP-derived limitations and cognacy namespace. Coverage outside the Wiktionary slice remains GLED-dependent; neither source role nor token validity certifies lexical accuracy. Existing specialist-review holds remain open. Lombard readings retain their explicit Milanese scope where supplied; no global Lombard profile is inferred. See [batch review](../../docs/WIKTIONARY_SOURCE_SELECTION_2026-10-29.md).

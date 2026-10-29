@@ -5,6 +5,10 @@ Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## Wiktionary source-choice review — 2026-10-29
+
+WS completes four bounded primary preferences and97 additional supplied readings. Eight Yurok/Ternate candidates remain held in the authored WS review: measurement foot, pea seed/plant, generic fruit, plural-you scope, tagi go/walk, watermelon fruit/plant, calabash taxonomy and rattan plant/material. Reopen only with exact source meaning/number/taxonomic authority or a matching frozen concept. Zeeuws/Higaonon/Plautdietsch profiles need source-specific orthographic authority; Tewa/Taos need community scope and Coptic dialect/stage authority. No general spelling-as-IPA promotion.
+
 ## Worldwide WF01–WF12 resolutions — 2026-10-29
 
 [Execution](../WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md) supersedes earlier slice
@@ -12,7 +16,7 @@ ceilings. All twelve closed; holds below require actual new evidence.
 
 * Palula43/Nen42/Teop58 finite profiles now exist; Chintang26,Teanu24,Sanzhi20,
   Kalamang30 added. Further exact senses/alternatives need authored review.
-  Palula22 dictionary core cannot justify replacing33-core GLED primary.
+  Palula22 dictionary core versus33 GLED core records a coverage tradeoff; original-reading quality comparison remains pending and the count alone is not a veto.
 * Vietnamese104 raw candidate records held: original WOLD Hanoi scope versus
   frozen conversion dialect/tone authority unresolved. No valid-token shortcut.
   Kraft macrons/slash fallbacks, Enga acute and Ap Ma undertilde remain unresolved.

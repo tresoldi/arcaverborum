@@ -4,8 +4,9 @@ glottocode: yuro1248
 family: Algic
 macroarea: North America
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
+  source_language_id: wikt_yur
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,8 @@ scoring:
   forms_score: 0.7493
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.75) [fallback p2]; cognates=gled (0.60)'
+notes: WS reviewed bounded Wiktionary supplied-IPA primary; all earlier GLED records
+  retained as guarded source-separated supplements. No spelling-as-IPA, inferred locality,
+  transferred cognacy or changed variety-level quality score. See PACKET.md and docs/WIKTIONARY_SOURCE_SELECTION_2026-10-29.md.

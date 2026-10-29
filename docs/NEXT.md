@@ -3,7 +3,7 @@
 Updated2026-10-29 against [STATUS](STATUS.md). **All WF01–WF12 and preceding
 GW01–GW10 are complete**. See [latest execution](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md)
 and [realized metrics](worldwide_followup_summary_2026-10-29.json).
-No authorized track remains pending.
+WS is complete:97 supplied readings,59 supported slots/16 core and four reviewed Wiktionary primaries; all earlier evidence retained. Preceding WF/GW tracks remain closed.
 
 ## WF01–WF12 completed
 
@@ -22,15 +22,13 @@ on profile-backed or quality-led primary promotion. Review replacements individu
 keep useful earlier evidence attributable and show any coverage/uncertainty tradeoff.
 See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-coverage-planning/SKILL.md).
 
-## Unapproved next work from the accepted baseline
+## Source-selection execution complete
 
-1. **Wiktionary-led GLED replacement review:** re-screen the1,573 GLED primaries
-   for richer exact-variety Wiktionary evidence, including all qualified IPA
-   alternatives and defensible profiles. Compare retained contrasts and reliable
-   concept coverage; include non-core depth. Separate independently supplied
-   readings from ASJP-derived or spelling-only material. Do not require a raw
-   profile slice to beat GLED's nominal core count before considering its quality.
-   No blanket promotion or lexical migration is made by this policy clarification.
+[WS review](WIKTIONARY_SOURCE_SELECTION_2026-10-29.md): Yurok/Ternate additional supplied IPA and reviewed Wiktionary primary preference for Yurok, Ternate, Corsican and Lombard. Preserve all earlier GLED evidence. [All-primary guarded-alternative inventory](reviewed_source_choices_2026-10-29.csv) replaces a core-count-only view of easy opportunities.
+
+## Further work from the accepted baseline
+
+1. **Next reviewed Wiktionary group:** Chickasaw, Yucatec Maya, Unami and Western Apache have earlier admitted slices and more frozen supplied IPA. Extend exact sense/POS review before promoting a tiny primary slice. Scots/Kabyle need fresh admission review; Tewa/Taos need exact community scope. Zeeuws/Higaonon/Plautdietsch require source-specific profile authority, not generic spelling resegmentation. Counts remain prospective, not admissions. Use the all-primary inventory alongside original readings, non-core depth and residual coverage.
 2. **Original dictionary core depth:** Palula43 profiles/22 dictionary-supported
    core versus33 GLED core; retain108 GLED records. Nen42/Teop58, Chintang26,
    Teanu24, Sanzhi20 and Kalamang30 finite readings now exist. Extend new exact

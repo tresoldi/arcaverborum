@@ -1,26 +1,25 @@
 # Current project state
 
-Updated2026-10-29. Latest accepted batch:
-[Worldwide follow-up WF01–WF12](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md), all twelve
-closed after the user added West Papua and Torricelli. [Metrics](worldwide_followup_summary_2026-10-29.json)
-are authoritative. Baseline commit:`0ad3789e8ee2502d8dfc39349fe6051a8bfb8954` (preceding GW data:`b115e6806783f0b9e5d94df71ef232e2ac586814`).
+Updated2026-10-29. Latest accepted batch: [reviewed Wiktionary source preference WS](WIKTIONARY_SOURCE_SELECTION_2026-10-29.md). [Metrics](wiktionary_source_selection_summary_2026-10-29.json) are authoritative. Preceding data commit: `05eeb0df5020eacd1e152640cfc5638f3e7b28ee` (WF01–WF12).
 
 ## Accepted baseline
 
 | Measure | Accepted value |
 | --- | ---: |
 | Varieties | 7,338 |
-| Forms | 2,071,680 |
-| Supplied/upstream-converted forms | 1,747,252 |
+| Forms | 2,071,777 |
+| Supplied/upstream-converted forms | 1,747,349 |
 | Profile-derived forms | 14,686 |
-| Supported core slots | 469,305 |
-| Mapped core slots | 543,144 |
-| Supported all-concept slots | 1,207,854 |
-| Mapped all-concept slots | 1,335,284 |
-| GLED primaries | 1,573 |
+| Supported core slots | 469,321 |
+| Mapped core slots | 543,160 |
+| Supported all-concept slots | 1,207,913 |
+| Mapped all-concept slots | 1,335,343 |
+| GLED primaries | 1,569 |
 | Core-source varieties | 915 |
 
-Frozen vocabulary3,787 concepts/161 core. Added543 records:293 supplied/source
+WS adds97 supplied-IPA records (31 Yurok/66 Ternate),59 supported slots/16 core. Four bounded Wiktionary primaries replace GLED: Yurok, Ternate, Corsican, Lombard. All2,071,680 earlier records/readings/cognacy/source comments remain;223 retained GLED per-form scores recalculate under the existing explicit-mapping formula, with zero variety-level score changes. No new language/intake rows.
+
+Frozen vocabulary3,787 concepts/161 core. Historical preceding WF batch: Added543 records:293 supplied/source
 conversions,180 finite profiles,70 written. +408 net supported slots:411 gross
 minus3 earlier overcounts;242 core/166 non-core net. Corrected47 earlier mappings
 through six exact source-sense rules. All2,071,137 earlier records/readings/cognacy
@@ -37,9 +36,12 @@ before publication and excluded from the543 additions.
 Core-source is a row-level collection preset, independent of the161-concept filter.
 Upstream conversions are disclosed, finite profiles are derived, and written-only
 records do not add phonetic support. Palula's43 dictionary readings cover22 core,
-versus33 core in108 preserved GLED records; no promotion from that incomplete slice.
+versus33 core in108 preserved GLED records; further pronunciation/identity comparison remains needed before a primary change.
 
 ## Verification and publication
+
+WS:456 tests/full lint, four affected builds, all-earlier-record preservation,401 website hashes/3 aggregate-input hashes pass. Browser checks cover source preference, Romance and mixed-source workflows.120 admitted Yurok/Ternate records independently match strict cached pronunciation decisions. Publication pending push/live verification; preceding WF proof below is historical.
+
 
 456 tests/full lint pass. All7,338 accepted builds pass, followed by three corrected
 POS-affected builds. Preservation checks validate every earlier record and original
@@ -63,9 +65,7 @@ recording metadata rows. Pages copies committed data; it does not rebuild lexica
 The user clarified2026-10-29 that richer, trustworthy Wiktionary evidence should
 outrank GLED, including reviewed IPA or documented profiles. GLED's ASJP-derived
 representation and supported-core counts are not an automatic quality benchmark.
-This supersedes the historical fixed GLED-before-Wiktionary preference. Current
-accepted data and the1,573 GLED primary choices are unchanged by this policy note;
-future promotions require individual evidence review. See NEXT and AGENTS.
+This supersedes the historical fixed GLED-before-Wiktionary preference. WS executes four reviewed promotions;1,569 GLED primaries remain. Future promotions require individual evidence review. See NEXT and AGENTS.
 
 ## Evidence, source state and next work
 

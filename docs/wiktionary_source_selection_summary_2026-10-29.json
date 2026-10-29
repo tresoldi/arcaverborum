@@ -1,0 +1,92 @@
+{
+  "before": {
+    "varieties": 7338,
+    "forms": 2071680,
+    "source_forms": 1747252,
+    "profile_forms": 14686,
+    "supported_core": 469305,
+    "mapped_core": 543144,
+    "mapped_all_concepts": 1335284,
+    "supported_all_concepts": 1207854,
+    "gled_primaries": 1573,
+    "core_source_varieties": 915
+  },
+  "after": {
+    "varieties": 7338,
+    "forms": 2071777,
+    "source_forms": 1747349,
+    "profile_forms": 14686,
+    "supported_core": 469321,
+    "mapped_core": 543160,
+    "mapped_all_concepts": 1335343,
+    "supported_all_concepts": 1207913,
+    "gled_primaries": 1569,
+    "core_source_varieties": 915
+  },
+  "delta": {
+    "varieties": 0,
+    "forms": 97,
+    "source_forms": 97,
+    "profile_forms": 0,
+    "supported_core": 16,
+    "mapped_core": 16,
+    "mapped_all_concepts": 59,
+    "supported_all_concepts": 59,
+    "gled_primaries": -4,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "alg-yurok",
+      "forms_before": 85,
+      "forms_after": 116,
+      "supported_core_before": 58,
+      "supported_core_after": 58,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "ine-corsican",
+      "forms_before": 55,
+      "forms_after": 55,
+      "supported_core_before": 51,
+      "supported_core_after": 51,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "ine-lombard",
+      "forms_before": 123,
+      "forms_after": 123,
+      "supported_core_before": 49,
+      "supported_core_after": 49,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "nor-ternate",
+      "forms_before": 41,
+      "forms_after": 107,
+      "supported_core_before": 38,
+      "supported_core_after": 54,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    }
+  ],
+  "all_earlier_records_readings_cognacy_preserved": 2071680,
+  "derived_per_form_score_recalculations": 223,
+  "variety_level_scores_changed": 0,
+  "original_source_comments_preserved": true,
+  "derived_source_role_comment_changes": 81,
+  "new_records": 97,
+  "new_records_by_status": {
+    "source": 97
+  },
+  "new_supported_slots": 59,
+  "new_supported_core_slots": 16,
+  "new_distinct_languages": 0,
+  "new_intake_rows": 0,
+  "primary_changes": 4,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3
+}

@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Wiktionary source preference WS,2026-10-29](../WIKTIONARY_SOURCE_SELECTION_2026-10-29.md): four reviewed primary changes, additional Yurok/Ternate supplied IPA, all earlier GLED evidence retained. [Metrics](../wiktionary_source_selection_summary_2026-10-29.json).
+
 * [Worldwide follow-up WF01–WF12,2026-10-29](../WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md):543 records,408 net supported slots, West Papua/Torricelli, two named varieties, original dictionary depth, ancient context and semantic corrections. [Metrics](../worldwide_followup_summary_2026-10-29.json).
 
 * [Worldwide GW01–GW10,2026-10-29](../WORLDWIDE_EXPANSION_2026-10-29.md):
