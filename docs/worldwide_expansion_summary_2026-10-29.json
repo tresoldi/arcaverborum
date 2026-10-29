@@ -864,5 +864,37 @@
     "african",
     "ancient",
     "mixed-source"
-  ]
+  ],
+  "publication": {
+    "data_commit": "b115e6806783f0b9e5d94df71ef232e2ac586814",
+    "ci_run": 40867211283,
+    "ci_python_versions": [
+      "3.12",
+      "3.13"
+    ],
+    "pages_run": 40867211550,
+    "canonical_url": "https://arcaverborum.org/",
+    "live_hashes": "passed",
+    "live_artifacts": 21,
+    "live_families": [
+      "Afro-Asiatic",
+      "Artificial Language",
+      "Atlantic-Congo",
+      "Austronesian",
+      "Camsá",
+      "Cariban",
+      "Chibchan",
+      "Elamite",
+      "Etruscan",
+      "Indo-European",
+      "Pama-Nyungan",
+      "Pano-Tacanan",
+      "Pidgin",
+      "Sino-Tibetan",
+      "Tupian",
+      "Uto-Aztecan",
+      "Yam"
+    ],
+    "worldwide_live_browser": "passed"
+  }
 }

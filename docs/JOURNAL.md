@@ -17,7 +17,10 @@ lexical admission still held. Intake7,212,459; new original dictionaries19,768 r
 African726, RVID46, Coptic36 reproduce. Current migrations are complete: do not
 replay old appends/counts. 449 tests/lint, all7,336 builds,401 web/3 input hashes,
 78 source hashes and all five local browser suites pass. NEXT closes all GW tasks
-and HELD records precise remaining evidence. Publication pending push.
+and HELD records precise remaining evidence. Published data commit `b115e6806783f0b9e5d94df71ef232e2ac586814`; CI40867211283 passes Python3.12/3.13,
+Pages40867211550 succeeds. Canonical live hashes (17 worldwide families plus manifest,
+catalog, recordings and bibliography) and worldwide browser/export check pass.
+Documentation-only closure preserves the verified lexical artifact hashes.
 
 ## 2026-10-29 — Worldwide next-work investigation
 

@@ -44,8 +44,12 @@ hashes and3 aggregate-input hashes match. All19,768 new original dictionary rows
 726 African-original rows,46 RVID and36 Coptic rows reproduce. 78 source resources
 and23 BHSA feature hashes verified;15 original lemma/verse/language witnesses.
 All five local research/worldwide/African/ancient/mixed-source browser suites pass.
-Publication verification pending this batch's push; this paragraph will be replaced
-with exact data commit, CI, Pages and canonical live evidence.
+Lexical data commit: `b115e6806783f0b9e5d94df71ef232e2ac586814`.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40867211283) passes Python3.12/3.13;
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40867211550) succeeds.
+Canonical live manifest, catalog, bibliography, recordings and17 worldwide family
+shards match committed bytes. Updated worldwide live browser/export checks pass.
+Subsequent documentation-only closure keeps these lexical artifact hashes unchanged.
 
 The site publishes tracked catalog,399 family shards, bibliography and755 recording
 metadata rows. Pages publishes tracked artifacts; it does not rebuild lexical data.

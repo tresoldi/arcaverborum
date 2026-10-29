@@ -5,7 +5,10 @@ Completed **GW01→GW02→GW03→GW04→GW05→GW06→GW07→GW08→GW09→GW10*
 admissions, corrections and explicit evidence holds. Baseline: lexical data commit
 `f1e6f1a9bddf09c6fa1c524f39252eaf328eff18`; the planning commit was `e1ee5468`.
 [Realized metrics](worldwide_expansion_summary_2026-10-29.json) are authoritative;
-publication proof is recorded in STATUS. Earlier planning ceilings are historical.
+publication proof is recorded in STATUS. Lexical data commit:`b115e6806783f0b9e5d94df71ef232e2ac586814`.
+CI40867211283 and Pages40867211550 pass;21 canonical live artifacts including17 worldwide
+family shards match, and the live worldwide browser/export check passes.
+Earlier planning ceilings are historical.
 
 ## Realized results
 
