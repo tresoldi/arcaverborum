@@ -5,6 +5,26 @@ Updated 2026-10-28. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## Current African resolutions — 2026-10-29
+
+This section supersedes the older African holds below where named. See the
+[AX report](../AFRICA_FOLLOWUP_2026-10-29.md). All six AX tracks are closed.
+
+* Resolved: five baseline Fwe/Gyeli unit readings, Sidaama45 phonemic witnesses,
+  Kam30 source readings,12 of52 West African holds. Fwe/Sidaama primaries now replace
+  GLED without dropping prior rows. Older slice ceilings are historical.
+* Still held: Fwe n-síkì boundary; Gyeli mbvû unit/cluster scope; Ruruuli unmarked
+  tone; exact Konyagi Santos notation; Gimnime class/alternative reading authority.
+* West African40 decisions remain held for tone/phonation/compound/sense/duplicate
+  reasons. Undertilde is not automatically nasalization; duplicate year adds no gain.
+* Shashi32 candidates need exact notation/alternative/sense authority (especially
+  bh/ny/ng);30 reviewed rows are accepted within existing Ikizu. Temi/Sonjo bad
+  pairs occur in original ODS/CSV: only corrected original response–gloss authority
+  can reopen these, not guessed translations or CLDF reindexing.
+* Momi identity resolved as existing Vere Kaadam evidence, stable atl-mom-jango.
+  Raw RefLex CM geography remains conflicting; original dictionary URLs failed404.
+  Do not claim a new language or a downloaded dictionary. Kam M-tone caveat remains.
+
 ## Missing-language and identity cases
 
 | Case | Current blocker | Evidence that would reopen it | Decision record |

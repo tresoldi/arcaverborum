@@ -1,0 +1,13 @@
+av_id: atl-mom-jango
+name: Momi (Vere Kaadam)
+africa_followup_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_FOLLOWUP_2026-10-29.md
+  primary: gled
+  forms: 70
+  supported_core: 35
+  source_statuses:
+    source: 37
+    unclean: 33
+  preservation: Earlier lexical evidence and source-specific cognacy retained with
+    explicitly reviewed reading, semantic and identity corrections.

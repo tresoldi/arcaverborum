@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://llacan.cnrs.fr/AdaGram/publications/KAM_Grammar_LESAGE_2020_PhD_thesis.pdf",
+    "sha256": "8c678b582cb60911731b04e373324b30970eb2a6fb193ff954300daa685c9d94",
+    "bytes": 10034417,
+    "author": "Jakob Lesage",
+    "year": 2020,
+    "title": "A grammar of Kam"
+  },
+  {
+    "url": "https://zenodo.org/records/3254955/files/Lesage_Kam_kdx_24-06-2019.xlsx?download=1",
+    "sha256": "9f3a9bace1ec60a5645442f9c8a8475bec0b317ac3314ceb1dc5dbd6c4704a22",
+    "bytes": 62500,
+    "doi": "10.5281/zenodo.3254955",
+    "year": 2019,
+    "title": "A Kam Lexicon"
+  }
+]

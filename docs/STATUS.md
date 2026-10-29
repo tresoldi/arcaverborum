@@ -1,107 +1,75 @@
 # Current project state
 
-Updated 2026-10-28. Current baseline and handoff; dated reports preserve their
-original observations. Active proposals are in [NEXT](NEXT.md), with evidence
-requirements in [HELD](planning/HELD.md).
-
-Latest batch: [Sub-Saharan Africa/Bantu AF01–AF09](AFRICA_EXPANSION_2026-10-28.md).
-All nine authorized tracks received bounded admissions or explicit evidence holds.
-Data commit:`a1f8e941692d5e1f6ec893e37edf916d5b40058e`.
-Authoritative counts: [realized metrics](africa_expansion_summary_2026-10-28.json).
+Updated 2026-10-29. Accepted baseline and portable handoff. Latest batch:
+[African follow-up AX01–AX06](AFRICA_FOLLOWUP_2026-10-29.md), all six authorized
+tracks completed with bounded admissions or evidence holds. Earlier AF01–AF09
+baseline data commit: `a1f8e941692d5e1f6ec893e37edf916d5b40058e`.
+[Realized metrics](africa_followup_summary_2026-10-29.json) are authoritative.
 
 ## Accepted baseline
 
 | Measure | Accepted value |
 | --- | ---: |
-| Varieties | 7,331 |
-| Forms | 2,070,117 |
-| Supplied-source forms | 1,746,470 |
-| Profile-derived forms | 14,106 |
-| Supported core-concept slots | 468,501 |
-| Mapped core-concept slots | 542,429 |
-| GLED primary selections | 1,575 |
-| Core-source collection varieties | 906 |
-| Frozen concepts / core concepts | 3,787 / 161 |
+| Varieties | 7,332 |
+| Forms | 2,070,480 |
+| Supplied-source forms | 1,746,500 |
+| Profile-derived forms | 14,390 |
+| Supported core slots | 468,581 |
+| Mapped core slots | 542,492 |
+| Supported all-concept slots | 1,206,914 |
+| Mapped all-concept slots | 1,334,347 |
+| GLED primary selections | 1,573 |
+| Core-source varieties | 906 |
 
-619 new records:280 supplied readings,221 profile readings and118 explicitly
-written-only entries. Gains464 supported and555 mapped core slots. Two new
-canonical languages, Konyagi/Wamey and Kam, have20/30 written entries respectively;
-no phonetic coverage is claimed for them. Zero new named sample/dialect varieties.
-Gyeli and Hdi original dictionaries replace two GLED primaries, retaining all68
-previous GLED rows and their cognacy. Fwe remains GLED-primary pending a larger
-supported dictionary slice. Ruruuli and Sidaama additions remain written-only.
+Frozen vocabulary3,787 concepts/161 core. Added363 records (30 supplied upstream
+conversions,204 profile,129 written-only), +256 supported slots (80 core), and
+recovered readings for80 earlier records. Gimnime is one new written-only language;
+no new named varieties. Momi corrects existing scope at stable atl-mom-jango, now
+Momi (Vere Kaadam), vere1252. Fwe/Sidaama replace two GLED primaries, retaining all96
+prior GLED rows and their cognacy. Ten earlier semantic mappings are corrected.
 
-Narrow Bantu ancestry scope remains485 constructions:150,276 forms and35,084
-supported core slots, gains403 forms/352 slots. GLED primaries97→96;23 zero-core
-cases remain. Ngoni's blank Macroarea remains an explicit metadata hold; do not
-replace ancestry-based scope with a geography-only filter.
-
-Supported slots are distinct variety–concept pairs with source/profile evidence.
-Source labels describe segment origin:302 Bantu upstream Grollemund/TLS
-conversions now disclose their profile genealogy; they are not independent
-phonetic elicitation. Historical source readings likewise require their reading
-basis and period qualifiers. Written-only entries have blank segments and add
-zero supported phonetic slots. Core-source is a row-level collection independent
-of the161-concept vocabulary filter. Mechanical quality scores are not linguistic
-certification; guarded concept mappings recomputed scores on68 retained GLED rows.
+Bantu ancestry scope485 constructions:150,574 forms/35,101 supported core;
+95 GLED primaries,23 zero-supported-core cases. Written-only entries add no
+supported phonetic slots. Source origin is not certification: TLS/Grollemund
+conversions retain profile-genealogy disclosure, finite Arca profiles are derived,
+and Kam retains the author's M-tone caveat. Core-source collection is independent
+of the161-concept vocabulary. Mechanical quality scores are not linguistic judgments.
 
 ## Verification and publication
 
-440 tests and full lint pass. All7,331 accepted constructions rebuilt, zero
-failures; aggregate, curation report and web artifacts regenerated. All2,069,498
-earlier lexical rows and original comments preserved, including multiplicity;
-aggregate IDs, additive review metadata and derived scores may change.
-401 website artifact hashes and three aggregate-input hashes verified.
-All329 original-source intake records reproduce from immutable source bytes.
-Generic research, African, ancient and mixed-source browser/export checks pass.
-[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40760562984) passed on
-Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40760563003)
-succeeded. Canonical live manifest/catalog, recordings, source bibliography and
-six representative family shards match committed bytes. Live African browser
-exports pass for written-only terms, source profiles, original tones and retained
-GLED evidence.
+447 tests and full lint pass; all7,332 accepted builds update with zero failures.
+All2,070,117 earlier records and original comments/JSON evidence are preserved,
+with exactly reviewed80 readings,10 semantic mappings and37 Momi metadata changes.
+Derived IDs/captions and97 quality scores may change. All662 original intake rows
+reproduce from immutable source bytes. 401 web hashes and3 aggregate-input hashes
+match. Local research, African, ancient and mixed-source browser/export checks pass.
+Publication verification is pending this batch's push; this paragraph will be
+replaced with exact data-commit, CI, Pages and canonical live-hash evidence.
 
-Publication artifacts: [manifest](../web/data/manifest.json), compressed catalog,
-399 family shards, bibliography and755 recording-metadata rows. The site deploys
-tracked artifacts; Pages does not rebuild lexical data.
+The site publishes tracked web artifacts: manifest, compressed catalog,399 family
+shards, bibliography and recording metadata. Pages does not rebuild lexical data.
 
-## Evidence for planning
+## Evidence and next work
 
-* [Completed execution and boundaries](AFRICA_EXPANSION_2026-10-28.md),
-  [source pins](africa_execution_sources_2026-10-28.json), authored AF01–AF09 reviews
-  and the [lexical registry](../src/arcaverborum/data/african_lexical_sources.json).
-* [Fresh African member opportunities](africa_postbatch_opportunities_2026-10-28.csv)
-  and [method/counts](africa_postbatch_opportunities_2026-10-28.json):579 overlapping
-  member opportunities, not admissions. The
-  [post-batch GLED screen](africa_postbatch_gled_2026-10-28.csv) has432 alternatives,
-  zero lossless positive supplied-reading replacements. Existing profiles and
-  original-source acquisition need separate review.
-* [Original investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md),
-  [historical485-construction scope](africa_baseline_2026-10-28.csv) and
-  [RefLex source identities](africa_reflex_source_screen_2026-10-28.csv).
-  RefLex's actual932,836 archived records differ from the live-site927,845
-  description; raw source records are not accepted gains. Konyagi and Kam are
-  now admitted; other missing-language candidates remain provisional.
-* [Prior ancient baseline](ANCIENT_EXPANSION_2026-10-28.md), data commit
-  `5d0981260945f7d90b827f8ade7ac9d603ca1f6d`, and
-  [earlier Romance](ROMANCE_EXPANSION_2026-10-28.md) and
-  [American](NORTH_AMERICA_EXPANSION_2026-10-28.md) results remain historical evidence.
-* [Journal](JOURNAL.md), [history](history/README.md) and [held register](planning/HELD.md).
-
-Americas/South America and Etruscan/Elamite remain standing priorities. Parked
-ancient, Romance and American proposals are retained in NEXT. The AX follow-ups
-are recommendations after this completed batch, not newly authorized work.
+[Execution report](AFRICA_FOLLOWUP_2026-10-29.md), dated AX decision/source manifests,
+[registry](../src/arcaverborum/data/african_lexical_sources.json),
+[current member screen](africa_followup_opportunities_2026-10-29.csv) and
+[GLED screen](africa_followup_gled_2026-10-29.csv) support planning. Raw alternatives
+are overlapping unreviewed potential. [NEXT](NEXT.md) contains proposals after
+completed AX tracks; [HELD](planning/HELD.md) defines exact reopening evidence.
+Americas/South America and Etruscan/Elamite remain standing priorities. Earlier
+African, ancient, Romance and American reports preserve historical observations.
 
 ## Build state
 
-Source of truth: configs, guarded custom ledgers/profiles, source registries,
-packets and recipes. Generated intake/aggregate files remain local products.
-Intake now has7,192,262 rows. The seven African namespaces contain329 records and
-have been appended once; future expansion must use a complete staged guarded
-migration, never subset-ingest or repeat that append. Jê remains463 admitted forms
-across five members; its historical251/371 migrations are complete.
+Configs, guarded custom ledgers/profiles, source registries, packets and recipes
+are authoritative. Intake now7,192,595 rows. Eight African original namespaces
+contain662 rows; cumulative counts92/120/169/50/88/45/45/53 are in the report.
+Existing-source guarded expansions and the new reflexdiversity append are done:
+never replay old counts/appends or subset-ingest over active tables. Materialized
+metadata reports actual table extents. Generated intake/aggregates remain local.
+Jê remains463 admitted forms across five members; older251/371 migrations are done.
 
-Use [ONBOARDING](../ONBOARDING.md) for commands and environment details, and
-[guarded primary/recording formats](GUARDED_PRIMARY_AND_RECORDINGS.md) for bounded
-source selections. The [coverage-planning workflow](workflows/arca-coverage-planning/SKILL.md)
-connects accepted evidence to the next proposal.
+Use [ONBOARDING](../ONBOARDING.md),
+[coverage workflow](workflows/arca-coverage-planning/SKILL.md),
+[journal](JOURNAL.md) and [history](history/README.md) for reproducible continuation.

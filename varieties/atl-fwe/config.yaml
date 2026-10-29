@@ -4,8 +4,9 @@ glottocode: fwee1238
 family: Atlantic-Congo
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: fweoriginal
+  cognates: fweoriginal
+  source_language_id: fweoriginal_Fwe
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,8 @@ scoring:
   forms_score: 0.7606
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: Bounded original dictionary primary; every previous GLED record retained as
+  guarded supplements. Source-specific units/readings and POS/sense corrections are
+  explicit in AX02/AX04 reviews; no transferred cognacy.

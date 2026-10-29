@@ -1,0 +1,38 @@
+[
+  {
+    "path": "raw/TLS-NursePhillipson1975.ods",
+    "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/raw/TLS-NursePhillipson1975.ods",
+    "sha256": "8548d3a4818a9368d54ddc33a3ce5a3e68fc9ea8de70134ca8d929c36db6d63e",
+    "bytes": 4212360
+  },
+  {
+    "path": "raw/tls.txt",
+    "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/raw/tls.txt",
+    "sha256": "0090b1b413d1719e33d5a71735167f176c67a236ca55e545bb61f95e971d2b8d",
+    "bytes": 7520197
+  },
+  {
+    "path": "etc/orthography.tsv",
+    "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/etc/orthography.tsv",
+    "sha256": "8c40a4163f324819f17d7feeaa6b69c5cf2b0556c31bf31ba01ec8449e85f63e",
+    "bytes": 5399
+  },
+  {
+    "path": "lexibank_tls.py",
+    "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/lexibank_tls.py",
+    "sha256": "fa815bec9d9b2dca1d69c700a36b6ce94f2a71a0be54044c0cadd5242ae0759d",
+    "bytes": 3099
+  },
+  {
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/README.md",
+    "sha256": "671fbf0d517abb2b3d9d6d71d0602603be5f4c14703d16ec18661e288938a639",
+    "bytes": 2307
+  },
+  {
+    "path": "raw/README.md",
+    "url": "https://raw.githubusercontent.com/lexibank/tls/9d55b7c6f4e7f71045cd9fddf21da23542fd663c/raw/README.md",
+    "sha256": "f446474736c26c935776ee37344cbcfcaac4b5e764a9d8fb9b582c006ed07346",
+    "bytes": 46
+  }
+]

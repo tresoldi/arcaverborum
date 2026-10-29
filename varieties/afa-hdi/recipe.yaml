@@ -12,3 +12,14 @@ africa_review_2026_10_28:
   preservation: Earlier lexical rows retained, source-specific cognacy not transferred.
   reading_scope: Guarded supplied readings, exact finite profiles or explicitly written-only;
     see custom ledgers and reading_evidence.csv.
+africa_followup_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_FOLLOWUP_2026-10-29.md
+  primary: hdioriginal
+  forms: 77
+  supported_core: 66
+  source_statuses:
+    profile: 45
+    source: 32
+  preservation: Earlier lexical evidence and source-specific cognacy retained with
+    explicitly reviewed reading, semantic and identity corrections.

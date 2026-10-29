@@ -1,0 +1,50 @@
+[
+  {
+    "dataset": "hantganbangime",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/lexibank/hantganbangime/576845fffc886e33c51a315edeefa1be5123869c/README.md",
+    "sha256": "cb752a00759431aa7cd5e31b36c01cab47bf248f4787d13e07f5caa41a44ebaf"
+  },
+  {
+    "dataset": "hantganbangime",
+    "path": "etc/orthography.tsv",
+    "url": "https://raw.githubusercontent.com/lexibank/hantganbangime/576845fffc886e33c51a315edeefa1be5123869c/etc/orthography.tsv",
+    "sha256": "d0c0b739c7e7c0344cc390c2be6a89a858b2ea04f4b8c9123e90e4b5a4889787"
+  },
+  {
+    "dataset": "hantganbangime",
+    "path": "lexibank_hantganbangime.py",
+    "url": "https://raw.githubusercontent.com/lexibank/hantganbangime/576845fffc886e33c51a315edeefa1be5123869c/lexibank_hantganbangime.py",
+    "sha256": "ccdac3731dd905170d3cec2e6c1c3dbe99eafcc31e983a991175b13cb100e708"
+  },
+  {
+    "dataset": "hantganbangime",
+    "path": "raw/sources.bib",
+    "url": "https://raw.githubusercontent.com/lexibank/hantganbangime/576845fffc886e33c51a315edeefa1be5123869c/raw/sources.bib",
+    "sha256": "9b065ab1c0b59b3e8a5d2818ee466717d8a950a6ee674b7520565d42b843f692"
+  },
+  {
+    "dataset": "baf2",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/lexibank/baf2/74dcd1b721063b8a8f27ad02c24518f04bb47776/README.md",
+    "sha256": "2e08ff7a8dc97fd7bf149f87261a21fa769b5520edbda07f10b9c4da12d12295"
+  },
+  {
+    "dataset": "baf2",
+    "path": "lexibank_baf2.py",
+    "url": "https://raw.githubusercontent.com/lexibank/baf2/74dcd1b721063b8a8f27ad02c24518f04bb47776/lexibank_baf2.py",
+    "sha256": "3d23bd225b35ce8a4dcc50b033fcc183b2e60167595042954528edb587646109"
+  },
+  {
+    "dataset": "baf2",
+    "path": "raw/README.md",
+    "url": "https://raw.githubusercontent.com/lexibank/baf2/74dcd1b721063b8a8f27ad02c24518f04bb47776/raw/README.md",
+    "sha256": "13f2f8b35358df40de084d76a2430528db065037bf700eea3453786b085f0fef"
+  },
+  {
+    "dataset": "baf2",
+    "path": "raw/sources.bib",
+    "url": "https://raw.githubusercontent.com/lexibank/baf2/74dcd1b721063b8a8f27ad02c24518f04bb47776/raw/sources.bib",
+    "sha256": "514e001779bdb7274205c59d94ee961183dddb572282884328a06b77572feaa5"
+  }
+]

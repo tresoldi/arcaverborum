@@ -7,6 +7,10 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [African follow-up AX01–AX06,2026-10-29](../AFRICA_FOLLOWUP_2026-10-29.md):
+  363 new records,80 recovered readings,one written-only new language,two GLED
+  swaps and semantic/identity corrections. [Metrics](../africa_followup_summary_2026-10-29.json).
+
 * [Sub-Saharan Africa/Bantu AF01–AF09,2026-10-28](../AFRICA_EXPANSION_2026-10-28.md):
   supplied readings, bounded original dictionary profiles, two written-only new
   languages, two loss-preserving GLED primary replacements and explicit holds.

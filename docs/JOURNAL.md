@@ -1,5 +1,21 @@
 # Project journal and working memory
 
+## 2026-10-29 — AX01–AX06 execution complete
+
+User authorized all six with autonomous specifics; order AX02→AX04→AX03→AX06→AX05→AX01.
+See AFRICA_FOLLOWUP_2026-10-29.md and africa_followup_summary_2026-10-29.json.
+Accepted7,332 varieties/2,070,480 forms/468,581 supported core/542,492 mapped core;
+1,573 GLED primaries. Added363 records,256 supported all-concept slots (80 core),
+80 existing reading recoveries; Gimnime one written-only new language. Fwe/Sidaama
+primary swaps retain all96 GLED rows. Momi is existing scope corrected to Vere
+Kaadam at stable atl-mom-jango, not a new language. Ten earlier semantic mappings
+corrected; all2,070,117 previous lexical records preserved under exact reviewed
+changes. 662 original-source rows reproduce; intake7,192,595. All7,332 builds,
+447 tests, lint,401 web hashes/3 input hashes and four local browser suites pass.
+Current source counts and irreversible intake migration guards are in the report;
+do not replay migrations. NEXT closes all AX tracks and proposes fresh depth,
+South American rotation and evidence-gated acquisitions. Publication pending push.
+
 ## 2026-10-29 — Recommended next Africa batch
 
 Read accepted AF01–AF09 results, current rankings and evidence holds. Recommendation

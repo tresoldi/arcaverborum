@@ -19,3 +19,13 @@ No primary cognate judgments are transferred onto dictionary forms.
 The dated admit/hold reviews establish the exact lexical slice. Uncertain units,
 source alignments, semantic senses and source-system conventions remain bounded
 as described in the report and [held register](../../docs/planning/HELD.md).
+
+## Accepted African follow-up — 2026-10-29
+
+[Execution and source/decision evidence](../../docs/AFRICA_FOLLOWUP_2026-10-29.md).
+Forms 242→272; supported core 118→122.
+Current primary: `grollemundbantu`. Current statuses: {'source': 272}.
+This dated section supersedes earlier current-state statements. Exact source/member,
+meaning and finite readings are enforced by config and guarded custom ledgers.
+Written evidence remains explicitly written-only; earlier GLED rows/cognacy retained.
+See current held register before reopening uncertain notation or sense decisions.

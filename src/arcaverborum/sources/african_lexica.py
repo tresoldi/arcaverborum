@@ -242,7 +242,12 @@ def materialize(raw_root, *, dataset, download=False):
                 col["separator"] = ";" if k == "Source" else " "
             cols.append(col)
         meta["tables"].append(
-            {"url": name, "dc:conformsTo": term + kind, "tableSchema": {"columns": cols, "primaryKey": "ID"}}
+            {
+                "url": name,
+                "dc:conformsTo": term + kind,
+                "dc:extent": len(rows),
+                "tableSchema": {"columns": cols, "primaryKey": "ID"},
+            }
         )
     (cldf / "cldf-metadata.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
     (cldf / "sources.bib").write_text(

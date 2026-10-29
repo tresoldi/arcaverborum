@@ -1,0 +1,313 @@
+{
+  "before": {
+    "varieties": 7331,
+    "forms": 2070117,
+    "source_forms": 1746470,
+    "profile_forms": 14106,
+    "supported_core": 468501,
+    "mapped_core": 542429,
+    "mapped_all_concepts": 1334045,
+    "gled_primaries": 1575,
+    "core_source_varieties": 906,
+    "supported_all_concepts": 1206658
+  },
+  "after": {
+    "varieties": 7332,
+    "forms": 2070480,
+    "source_forms": 1746500,
+    "profile_forms": 14390,
+    "supported_core": 468581,
+    "mapped_core": 542492,
+    "mapped_all_concepts": 1334347,
+    "gled_primaries": 1573,
+    "core_source_varieties": 906,
+    "supported_all_concepts": 1206914
+  },
+  "delta": {
+    "varieties": 1,
+    "forms": 363,
+    "source_forms": 30,
+    "profile_forms": 284,
+    "supported_core": 80,
+    "mapped_core": 63,
+    "mapped_all_concepts": 302,
+    "gled_primaries": -2,
+    "core_source_varieties": 0,
+    "supported_all_concepts": 256
+  },
+  "changes": [
+    {
+      "av_id": "afa-hdi",
+      "forms_before": 77,
+      "forms_after": 77,
+      "supported_core_before": 67,
+      "supported_core_after": 66,
+      "mapped_core_before": 67,
+      "mapped_core_after": 66,
+      "mapped_all_before": 68,
+      "mapped_all_after": 68,
+      "statuses_before": {
+        "profile": 45,
+        "source": 32
+      },
+      "statuses_after": {
+        "profile": 45,
+        "source": 32
+      }
+    },
+    {
+      "av_id": "afa-sidamo",
+      "forms_before": 94,
+      "forms_after": 94,
+      "supported_core_before": 38,
+      "supported_core_after": 65,
+      "mapped_core_before": 69,
+      "mapped_core_after": 65,
+      "mapped_all_before": 71,
+      "mapped_all_after": 71,
+      "statuses_before": {
+        "source": 49,
+        "unclean": 45
+      },
+      "statuses_after": {
+        "profile": 45,
+        "source": 49
+      }
+    },
+    {
+      "av_id": "atl-fwe",
+      "forms_before": 76,
+      "forms_after": 167,
+      "supported_core_before": 55,
+      "supported_core_after": 60,
+      "mapped_core_before": 56,
+      "mapped_core_after": 60,
+      "mapped_all_before": 58,
+      "mapped_all_after": 145,
+      "statuses_before": {
+        "source": 47,
+        "unclean": 3,
+        "profile": 26
+      },
+      "statuses_after": {
+        "profile": 119,
+        "unclean": 1,
+        "source": 47
+      }
+    },
+    {
+      "av_id": "atl-gimnime",
+      "forms_before": 0,
+      "forms_after": 20,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 0,
+      "mapped_core_after": 19,
+      "mapped_all_before": 0,
+      "mapped_all_after": 20,
+      "statuses_before": {},
+      "statuses_after": {
+        "unclean": 20
+      }
+    },
+    {
+      "av_id": "atl-gyele",
+      "forms_before": 102,
+      "forms_after": 205,
+      "supported_core_before": 78,
+      "supported_core_after": 86,
+      "mapped_core_before": 79,
+      "mapped_core_after": 87,
+      "mapped_all_before": 81,
+      "mapped_all_after": 177,
+      "statuses_before": {
+        "profile": 64,
+        "source": 36,
+        "unclean": 2
+      },
+      "statuses_after": {
+        "profile": 168,
+        "source": 36,
+        "unclean": 1
+      }
+    },
+    {
+      "av_id": "atl-ikizu",
+      "forms_before": 242,
+      "forms_after": 272,
+      "supported_core_before": 118,
+      "supported_core_after": 122,
+      "mapped_core_before": 118,
+      "mapped_core_after": 122,
+      "mapped_all_before": 142,
+      "mapped_all_after": 146,
+      "statuses_before": {
+        "source": 242
+      },
+      "statuses_after": {
+        "source": 272
+      }
+    },
+    {
+      "av_id": "atl-kam",
+      "forms_before": 30,
+      "forms_after": 30,
+      "supported_core_before": 0,
+      "supported_core_after": 29,
+      "mapped_core_before": 30,
+      "mapped_core_after": 29,
+      "mapped_all_before": 30,
+      "mapped_all_after": 30,
+      "statuses_before": {
+        "unclean": 30
+      },
+      "statuses_after": {
+        "profile": 30
+      }
+    },
+    {
+      "av_id": "atl-mom-jango",
+      "forms_before": 37,
+      "forms_after": 70,
+      "supported_core_before": 35,
+      "supported_core_after": 35,
+      "mapped_core_before": 35,
+      "mapped_core_after": 50,
+      "mapped_all_before": 36,
+      "mapped_all_after": 51,
+      "statuses_before": {
+        "source": 37
+      },
+      "statuses_after": {
+        "source": 37,
+        "unclean": 33
+      }
+    },
+    {
+      "av_id": "atl-ruuli",
+      "forms_before": 24,
+      "forms_after": 98,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 10,
+      "mapped_core_after": 21,
+      "mapped_all_before": 18,
+      "mapped_all_after": 90,
+      "statuses_before": {
+        "resegmented": 2,
+        "unclean": 22
+      },
+      "statuses_after": {
+        "resegmented": 2,
+        "unclean": 96
+      }
+    },
+    {
+      "av_id": "man-bambara",
+      "forms_before": 329,
+      "forms_after": 334,
+      "supported_core_before": 90,
+      "supported_core_after": 95,
+      "mapped_core_before": 90,
+      "mapped_core_after": 95,
+      "mapped_all_before": 264,
+      "mapped_all_after": 269,
+      "statuses_before": {
+        "source": 317,
+        "profile": 12
+      },
+      "statuses_after": {
+        "source": 317,
+        "profile": 17
+      }
+    },
+    {
+      "av_id": "man-soninke",
+      "forms_before": 326,
+      "forms_after": 332,
+      "supported_core_before": 108,
+      "supported_core_after": 110,
+      "mapped_core_before": 108,
+      "mapped_core_after": 110,
+      "mapped_all_before": 276,
+      "mapped_all_after": 278,
+      "statuses_before": {
+        "source": 296,
+        "profile": 30
+      },
+      "statuses_after": {
+        "source": 296,
+        "profile": 36
+      }
+    },
+    {
+      "av_id": "son-koyra-chiini-songhay",
+      "forms_before": 418,
+      "forms_after": 419,
+      "supported_core_before": 112,
+      "supported_core_after": 113,
+      "mapped_core_before": 112,
+      "mapped_core_after": 113,
+      "mapped_all_before": 286,
+      "mapped_all_after": 287,
+      "statuses_before": {
+        "source": 384,
+        "profile": 34
+      },
+      "statuses_after": {
+        "source": 384,
+        "profile": 35
+      }
+    }
+  ],
+  "all_earlier_lexical_records_preserved": 2070117,
+  "source_comments_or_original_evidence_json_preserved": 2070117,
+  "earlier_written_records_recovered_readings": 80,
+  "earlier_semantic_mappings_corrected": 10,
+  "earlier_identity_metadata_corrected": 37,
+  "derived_quality_scores_recomputed": 97,
+  "new_distinct_languages": 1,
+  "new_named_varieties": 0,
+  "new_language": "Gimnime",
+  "momi_is_existing_coverage": true,
+  "momi_stable_av_id": "atl-mom-jango",
+  "new_original_intake_records": 333,
+  "total_original_source_records_reproduced": 662,
+  "new_lexical_records": 363,
+  "new_supplied_reading_records": 30,
+  "new_profile_reading_records": 204,
+  "new_written_only_records": 129,
+  "profile_form_increase_including_reading_recovery": 284,
+  "gled_primaries_replaced": [
+    "atl-fwe",
+    "afa-sidamo"
+  ],
+  "all_earlier_gled_rows_retained_for_replacements": 96,
+  "tracks_completed_in_order": [
+    "AX02",
+    "AX04",
+    "AX03",
+    "AX06",
+    "AX05",
+    "AX01"
+  ],
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tests_passed": 447,
+  "bantu_before": {
+    "varieties": 485,
+    "forms": 150276,
+    "supported_core": 35084,
+    "mapped_core": 35190,
+    "gled_primaries": 96,
+    "zero_supported_core": 23
+  },
+  "bantu_after": {
+    "varieties": 485,
+    "forms": 150574,
+    "supported_core": 35101,
+    "mapped_core": 35217,
+    "gled_primaries": 95,
+    "zero_supported_core": 23
+  }
+}

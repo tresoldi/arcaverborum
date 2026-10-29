@@ -90,3 +90,19 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     previous_hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in output.glob('*.gz')}
     builder.build(tmp_path, output)
     assert previous_hashes == {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in output.glob('*.gz')}
+
+    # Effective per-form overlays are applied after the guarded primary admission.
+    # Export provenance must report the unmapping, not the older retained target.
+    write_csv(tmp_path / 'varieties/demo/custom/primary.csv',
+              [dict(source_form_id='one', mapping_decision='retain', rationale='Earlier admission')])
+    write_csv(tmp_path / 'varieties/demo/custom/concept_map.csv',
+              [dict(source_form_id='one', action='unmap', expected_form='a', notes='Source POS mismatch')])
+    write_csv(aggregate / 'forms.csv', [{**base, 'concept_id': ''},
+        {**base, 'source_form_id': 'two', 'Segments_Source': 'unclean'}])
+    manifest = builder.build(tmp_path, output)
+    spec = manifest['shards']['Family']
+    rows = [dict(zip(manifest['fields'], row)) for row in
+            json.loads(gzip.decompress((output / Path(spec['url']).name).read_bytes()))]
+    assert rows[0]['concept_id'] == ''
+    assert rows[0]['mapping_review'] == 'unmap'
+    assert rows[0]['mapping_note'] == 'Source POS mismatch'

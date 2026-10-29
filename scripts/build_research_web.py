@@ -74,7 +74,7 @@ def build(root=ROOT, output=None):
     reviews = {}
     for custom in (root / 'varieties').glob('*/custom'):
         av = custom.parent.name
-        for filename in ['concept_map.csv', 'core_review.csv', 'form_review.csv', 'supplements.csv', 'primary.csv']:
+        for filename in ['core_review.csv', 'form_review.csv', 'supplements.csv', 'primary.csv', 'concept_map.csv']:
             path = custom / filename
             if not path.exists():
                 continue

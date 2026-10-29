@@ -1,0 +1,3 @@
+source_form_id,Form,old_concept_id,accepted_concept_id,rationale
+reflexoriginal_reflex-1225483,kpár,phy-rain-precipitation,phy-rain-raining,Original Lesage2019 lexicon and RefLex classify kpár as a verb; retain RAIN (RAINING) rather than the nominal precipitation concept.
+hdioriginal_senses-SN000306,ghwághù,agr-bark,ani-barking,"Original Hdi sense explicitly supplies BARKING [1206], French aboyer, and verb POS; tree BARK was an earlier English-label mapping error."

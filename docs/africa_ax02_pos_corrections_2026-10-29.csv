@@ -1,0 +1,8 @@
+dataset,source_form_id,Form,original_concept_id,accepted_concept_id,action,rationale
+fweoriginal,fweoriginal_fwe-75,bbôːzà,agr-bark,ani-barking,map,"Source v bark is dog barking, not tree bark."
+fweoriginal,fweoriginal_fwe-539,kâmà,foo-milk,foo-draw-milk,map,"Source v milk means to milk, not the milk substance."
+gyelioriginal,gyelioriginal_gyeli-96,búlɔ,ani-fish,act-fishing,map,Source v fish is general fishing; net/hook method not specified.
+gyelioriginal,gyelioriginal_gyeli-98,búmɛ,agr-bark,ani-barking,map,"Source v bark is barking, not tree bark."
+gyelioriginal,gyelioriginal_gyeli-959,ndzĩ̀,mot-fly,ani-fly,map,"Source n fly is an insect, not flying."
+gyelioriginal,gyelioriginal_gyeli-1076,pfùwɔ,phy-dust,,unmap,Source v dust is not the dust substance; no securely matching frozen verbal concept.
+gyelioriginal,gyelioriginal_gyeli-1427,-wê,emo-cry,,unmap,Source n cry is a nominal cry; do not equate it to the verb shed tears.

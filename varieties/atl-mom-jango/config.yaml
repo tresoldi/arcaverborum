@@ -1,11 +1,14 @@
 av_id: atl-mom-jango
-name: Mom Jango
-glottocode: momj1237
+name: Momi (Vere Kaadam)
+glottocode: vere1252
 family: Atlantic-Congo
 macroarea: Africa
 sources:
   transcription: gled
   cognates: gled
+  source_glottocode: momj1237
+  source_language_ids:
+  - gled_MOMI
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +19,9 @@ scoring:
   forms_score: 0.7653
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.77) [fallback p2]; cognates=gled (0.60)'
+notes: 'AX06 identity correction: stable legacy av_id retained, all37 source GLED_MOMI
+  records preserved; source input remains momj1237 only for this exact member. Momi/Yadim
+  belongs to Vere Kaadam, not Mom Jango. New original source3294 evidence is written-only
+  and not a new-language claim.'

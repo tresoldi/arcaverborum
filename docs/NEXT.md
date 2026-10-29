@@ -1,73 +1,45 @@
 # Active expansion queue
 
-Updated2026-10-29 against [STATUS](STATUS.md). Current requested focus is
-Sub-Saharan Africa, especially Bantu. The [investigation](SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md)
-was followed by the completed [AF01–AF09 execution](AFRICA_EXPANSION_2026-10-28.md).
-Routine pilot details were chosen autonomously within the agreed evidence gates. Earlier ancient AE, Romance and American proposals are parked. Etruscan
-and Elamite remain explicit standing priorities when ancient work resumes.
+Updated 2026-10-29 against [STATUS](STATUS.md). The authorized African AX01–AX06
+batch is complete, in order AX02→AX04→AX03→AX06→AX05→AX01. See the
+[execution report](AFRICA_FOLLOWUP_2026-10-29.md) and
+[realized metrics](africa_followup_summary_2026-10-29.json).
+No unexecuted AX track remains. Future batches below are proposals, not new authorization.
 
-## Proposed follow-ups after AF01–AF09
+## After AX01–AX06
 
-AF01–AF09 are completed as bounded admissions or evidence holds; see
-[the execution report](AFRICA_EXPANSION_2026-10-28.md) and
-[realized metrics](africa_expansion_summary_2026-10-28.json).
-These follow-ups are proposals, not a newly authorized lexical batch.
+1. **Bantu dictionary depth beyond core:** continue exact sense/POS review in pinned
+   Fwe351/Gyeli298/Ruruuli326 originals. Current original namespace slices are
+   120/169/92 rows; total construction forms167/205/98, supported core60/86/0.
+   Broader vocabulary can grow substantially, but remaining reviewed gains are
+   unmeasured. First gate: compare literal entries against all accepted concepts,
+   retain classes and alternatives; use full-stage guarded current-count migration.
+   Ruruuli spelling still cannot supply tone. Best direct continuation of depth.
+2. **Rotate to South American depth and missing-language acquisition:** the user's
+   standing geographic priority. Re-run exact member/sense review against this new
+   baseline and the parked American source packets. Prefer attributable original
+   dictionaries; raw alternative-member ceilings are overlapping and unreviewed.
+   First gate: aliases and actual lexical sample, original licensing and notation.
+   Useful geographic balance after two African batches; gains unmeasured.
+3. **Bounded notation acquisition:** Konyagi20 and Gimnime20 remain written-only;
+   obtain exact Santos/source2897 notation and class/alternative authority before
+   profiles. Kam30 now has readings with historical M-tone caveat; Sidaama45 has
+   explicit original phonemic witnesses. Those are completed recoveries, not future
+   opportunities. Fwe n-síkì/Gyeli mbvû require specific boundary/unit evidence.
+4. **Reopen held African cases only on new evidence:** Shashi32 need exact sample
+   notation/alternative/sense authority; Temi/Sonjo needs corrected original response–
+   gloss alignment (bad pairs exist in raw CSV and ODS). West African40 holds need
+   missing-tone/phonation/compound evidence; undertilde is not nasalization and a
+   duplicate year is not a gain. This is acquisition, not automatic conversion.
 
-| ID | Recommendation | First evidence gate / tradeoff |
-| --- | --- | --- |
-| AX01 | Recover Temi/Sonjo original alignment and review Shashi separately | Zero admission until gloss–form alignment and exact sample notation are established. High potential depth, higher source-reconstruction cost; do not replay the old59-row ceiling. |
-| AX02 | Deepen original Bantu dictionaries: Ruruuli and Fwe first, then Gyeli | Re-rank missing concepts against accepted outputs; review exact senses/classes and documented readings. Written Ruruuli evidence can grow without inventing tone. Fwe still needs enough supported concepts to justify a loss-aware primary change. Remaining gains unmeasured. |
-| AX03 | Establish RefLex source-specific reading conventions for Konyagi and Kam | Existing20/30 written records are already accepted. Acquire original notation guides before phonetic conversion; preserve class alternatives and NC-SA terms. Useful quality gain even if no new lexical records. |
-| AX04 | Resolve unsupported prenasalized units and Sidaama field conventions | Five Fwe/Gyeli written records need validated phonemic-unit support. Sidaama requires exact CLDF Headword/Official_Orthography/prominence reconciliation. Do not split units or equate spelling with IPA for coverage. |
-| AX05 | Extend explicit-tone recovery in West African originals | Review held nasal/creaky/compound/toneless cases using source authority, and preserve source genealogy. Greater fidelity is the goal; remaining gains unmeasured and not the earlier raw ceiling. |
-
-### Recommended order — 2026-10-29
-
-Recommendation only; no new lexical execution is authorized by the request for
-next steps. Order: **AX02 → AX04 → AX03 → AX06 → AX05 → AX01**.
-
-1. **AX02, Bantu dictionary depth:** current supported core is Fwe55/161,
-   Gyeli78/161 and Ruruuli0/161 (ten mapped core concepts, written-only). Expand
-   beyond the finite reviewed slices in Gunnink2022 (langsci351 commit91344668…),
-   Grimm2021 (langsci298 fbcdc588…) and Namyalo et al.2021 (langsci3265c8dd129…).
-   First measure remaining literal core entries and reading authority, then admit
-   reviewed vocabulary beyond core as well. Best direct continuation of Bantu
-   depth and reduced GLED dependence; additional gains remain unmeasured.
-2. **AX04, quality recovery:** five written Fwe/Gyeli entries need actual
-   prenasalized-unit support; Sidaama has45 written dictionary additions and
-   remains38/161 supported. Reconcile unit validation and exact dictionary field/
-   prominence conventions before converting any entry. Finite technical scope,
-   but no automatic promise of five new concepts or45 phonetic readings.
-3. **AX03, Konyagi/Kam readings:**20/30 accepted written entries, zero supported
-   slots. Obtain exact Santos1996/Lesage2019 notation guides for pinned RefLex
-   members39/3074; preserve alternatives, classes and NC-SA terms. Improves
-   existing evidence even without a new-language count; authority may limit gains.
-4. **AX06, another bounded missing-language pilot:** first investigate Gimnime
-   (gimn1238, RefLex source2897, Dieu/Perrois2016,2696 raw records) and Momi
-   (vere1252, source3294, Blench/Edwards1988,1640 raw records). No current accepted
-   configs carry these canonical codes. Check aliases/identity, exact attribution,
-   native senses, terms and notation against the already pinned April2026 RefLex
-   archive before proposing admissions. These are non-Bantu African diversity
-   candidates, not established additions; use written-only entries if readings
-   cannot be justified. Raw record totals are not anticipated gains.
-5. **AX05, explicit-tone recovery:**52 AF08 decisions remain held after76
-   admissions. Review source-specific nasal/creaky/compound and missing-tone
-   conventions, rather than replaying those52 as ready candidates. High fidelity
-   benefit; supported-slot gains unmeasured and source genealogies overlap.
-6. **AX01, source repair last:** Temi/Sonjo alignment and Shashi sample notation
-   remain bounded research tasks. Require original response/gloss alignment and
-   exact sample authority; no guessed correction or old59-row gain claim.
-
-The April2026 RefLex archive and all dictionary resource hashes are recorded in
-[the immutable registry](../src/arcaverborum/data/african_lexical_sources.json) and
-[original investigation](africa_investigation_2026-10-28.json). Existing sources
-need complete-stage guarded expansion, not a second namespace append. Before/after
-figures will distinguish new languages, new lexical records and recovered readings.
-
-Identity holds and original source/version requirements are in [HELD](planning/HELD.md).
-The [post-batch member screen](africa_postbatch_opportunities_2026-10-28.csv) has579 African member opportunities; the [GLED screen](africa_postbatch_gled_2026-10-28.csv) has432 member alternatives and zero lossless positive supplied-reading replacements. These include held and overlapping cases, not ready admissions. Recheck exact missing slots before another expansion. Source-rich Bantu depth is the recommended continuation;
-Americas/South America and Etruscan/Elamite remain standing priorities when their
-parked tracks resume.
+Fresh [African member screen](africa_followup_opportunities_2026-10-29.csv),
+[GLED screen](africa_followup_gled_2026-10-29.csv) and
+[method/counts](africa_followup_opportunities_2026-10-29.json) are current triage.
+Do not sum overlapping members or treat valid tokens as phonetic authority.
+Primary-source profiles and unmapped/non-core vocabulary require separate review.
+Momi is already represented as Vere Kaadam at stable `atl-mom-jango`; do not propose
+it as a new language. Gimnime is now admitted. Fwe/Sidaama GLED swaps are completed.
+Americas/South America and Etruscan/Elamite remain standing priorities.
 
 ## Parked ancient evidence proposals
 

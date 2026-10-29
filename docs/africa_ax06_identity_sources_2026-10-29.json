@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://rogerblench.info/Language/Africa/Niger-Congo/AU/Momi%20dictionary.pdf",
+    "status": 404,
+    "bytes": 26096
+  },
+  {
+    "url": "https://rogerblench.info/Language/Africa/Niger-Congo/Adamawa/Momi%20dictionary.pdf",
+    "status": 404,
+    "bytes": 26096
+  },
+  {
+    "url": "https://rogerblench.info/Language/Niger-Congo/Adamawa/Momi%20dictionary.pdf",
+    "status": 404,
+    "bytes": 26096
+  },
+  {
+    "url": "https://www.blogs.uni-mainz.de/fb07-adamawa/files/2015/06/Vere-group-100-.pdf",
+    "sha256": "b8e341c6c3f1e37c03466f0c7902d2a67ee84ab1d4fc3ec725af72f1c0d42677",
+    "bytes": 891254,
+    "identity_scope": "p1 distinguishes Jango from Momi/Vere Kaadam; pp2 onward source lexical diagnostics"
+  }
+]

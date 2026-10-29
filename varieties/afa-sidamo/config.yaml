@@ -4,18 +4,21 @@ glottocode: sida1246
 family: Afro-Asiatic
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: sidaamaoriginal
+  cognates: sidaamaoriginal
+  source_language_id: sidaamaoriginal_Sidaama
 extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
+  concept_map: true
   profile: false
 scoring:
   forms_score: 0.7388
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.74) [fallback p2]; cognates=gled (0.60)'
+notes: Bounded original dictionary primary; every previous GLED record retained as
+  guarded supplements. Source-specific units/readings and POS/sense corrections are
+  explicit in AX02/AX04 reviews; no transferred cognacy.

@@ -1,0 +1,12 @@
+av_id: atl-gimnime
+name: Gimnime
+africa_followup_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/AFRICA_FOLLOWUP_2026-10-29.md
+  primary: reflexdiversity
+  forms: 20
+  supported_core: 0
+  source_statuses:
+    unclean: 20
+  preservation: Earlier lexical evidence and source-specific cognacy retained with
+    explicitly reviewed reading, semantic and identity corrections.

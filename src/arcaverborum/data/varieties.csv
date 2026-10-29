@@ -1376,7 +1376,7 @@ atl-mmen,mmen1238,bfm,Mmen,,Atlantic-Congo,Africa,6.43213,10.2541,true,
 atl-moba,moba1244,mfq,Moba,,Atlantic-Congo,Africa,10.9496,0.159565,true,
 atl-mochi,moch1256,old,Mochi,,Atlantic-Congo,Africa,-3.33743,37.3357,true,
 atl-mokpwe,mokp1239,bri,Mokpwe,,Atlantic-Congo,Africa,4.24178,9.23887,true,
-atl-mom-jango,momj1237,ver,Mom Jango,,Atlantic-Congo,Africa,8.8658,12.7473,true,
+atl-mom-jango,vere1252,,Momi (Vere Kaadam),,Atlantic-Congo,Africa,9.006331,12.416214,true,Legacy Mom Jango label corrected from exact GLED_MOMI sample and Momi/Yadim authority; stable av_id retained. Source metadata input momj1237 is not canonical identity.
 atl-mongo,mong1338,lol,Mongo,,Atlantic-Congo,Africa,-1.54228,20.4259,true,
 atl-mono-cameroon,mono1269,mru,Mono (Cameroon),,Atlantic-Congo,Africa,8.78372,14.2254,true,
 atl-mono-democratic-republic-of-congo,mono1270,mnh,Mono (Democratic Republic of Congo),,Atlantic-Congo,Africa,4.57915,19.8264,true,
@@ -7327,3 +7327,4 @@ ine-saenko-southeastern-sicilian,,,Southeastern Sicilian (Saenko sample),ine-sic
 ine-rvid-cremona,,,"Cremonese (Cremona, RVID sample)",ine-lombard,Indo-European,Eurasia,45.13,10.03,false,"Named Cremona sample from Rossini1975 via RVID2.0. Closest source code lomb1257 is not a canonical town code; parent Lombard. Infinitives only, GPLv3; no distinct-language claim."
 atl-wamey,wame1240,cou,Wamey,,Atlantic-Congo,Africa,12.5421,-13.177,true,
 atl-kam,kamm1249,kdx,Kam,,Atlantic-Congo,Africa,8.305,11.05611111,true,
+atl-gimnime,gimn1238,gmn,Gimnime,,Atlantic-Congo,Africa,8.58129,12.7869,true,

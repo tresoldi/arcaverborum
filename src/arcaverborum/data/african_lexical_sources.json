@@ -8,7 +8,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Namyalo, Saudah et al.2021. A dictionary and grammatical sketch of Ruruuli-Lunyala. Language Science Press. DOI10.5281/zenodo.5548947.",
     "genealogy": "Original dictionary; not independent confirmation of the same underlying source cited elsewhere.",
-    "review": "docs/africa_af05_review_2026-10-28.csv",
+    "review": "docs/africa_ax02_ruruuli_review_2026-10-29.csv",
     "resources": [
       {
         "key": "ruruuli-m",
@@ -41,7 +41,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Gunnink, Hilde.2022. A grammar of Fwe. DOI10.5281/zenodo.6669944.",
     "genealogy": "Original author lexicon; prior thesis/RefLex/GLED witnesses may share underlying data and are not independent confirmation.",
-    "review": "docs/africa_af06_fwe_review_2026-10-28.csv",
+    "review": "docs/africa_ax04_fwe_review_2026-10-29.csv",
     "resources": [
       {
         "key": "fwe",
@@ -60,7 +60,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Grimm, Nadine.2021. A grammar of Gyeli. DOI10.5281/zenodo.4737370.",
     "genealogy": "Original author lexicon; prior thesis/RefLex/GLED witnesses may share underlying data and are not independent confirmation.",
-    "review": "docs/africa_af06_gyeli_review_2026-10-28.csv",
+    "review": "docs/africa_ax04_gyeli_review_2026-10-29.csv",
     "resources": [
       {
         "key": "gyeli",
@@ -79,7 +79,7 @@
     "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "citation": "Segerer, Guillaume, Sébastien Flavier, Jeanne Zerner and Uyen-To Doan-Rabier.2025/2026. RefLex-CLLD v1.0; Nakala April2026 export. DOI10.34847/nkl.e3cbkjzm. Original sources: Rosine Santos1996 Le mey; Jakob Lesage2019 A Kam Lexicon.",
     "genealogy": "Individual original lexical records and references retained. This is one RefLex/source genealogy, not independent corroboration of wrappers.",
-    "review": "docs/africa_af07_review_2026-10-28.csv",
+    "review": "docs/africa_ax03_reflex_review_2026-10-29.csv",
     "resources": [
       {
         "key": "reflex",
@@ -119,7 +119,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Hantgan, Abbie and Johann-Mattis List.2018. Bangime. Secret language, language isolate, or language island?; Hantgan, Babiker and List.2022. First steps towards detection of contact layers in Bangime. Original wordlist values and explicit tones, not the toneless converted layer.",
     "genealogy": "Same original wordlist genealogy as hantganbangime/baf2; source tone recovery is not independent lexical corroboration. Original cognacy retained in native metadata, not reissued as new expert judgments.",
-    "review": "docs/africa_af08_review_2026-10-28.csv",
+    "review": "docs/africa_ax05_westafrican_review_2026-10-29.csv",
     "resources": [
       {
         "key": "hantgan",
@@ -159,7 +159,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Frajzyngier, Zygmunt, Paul Eguchi, Roger Prafé, Megan Schwabauer, Erin Shay and Henry Tourneux.2017. Hdi dictionary. Dictionaria1:1–236. DOI10.5281/zenodo.5526333.",
     "genealogy": "Original dictionary records; exact source headwords, bilingual senses and morphological fields retained. No new independent expert cognacy.",
-    "review": "docs/africa_af09_hdi_review_2026-10-28.csv",
+    "review": "docs/africa_ax04_hdi_review_2026-10-29.csv",
     "resources": [
       {
         "key": "entries",
@@ -185,7 +185,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Yri, Kjell Magne and Steve Pepper.2021. Sidaama dictionary. Dictionaria. DOI10.5281/zenodo.5526518.",
     "genealogy": "Original dictionary records; exact source headwords, bilingual senses and morphological fields retained. No new independent expert cognacy.",
-    "review": "docs/africa_af09_sidaama_review_2026-10-28.csv",
+    "review": "docs/africa_ax04_sidaama_review_2026-10-29.csv",
     "resources": [
       {
         "key": "entries",
@@ -200,6 +200,46 @@
         "filename": "senses.csv",
         "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/cldf/senses.csv",
         "sha256": "cd932e511df711a771217fe23b8b505532ad2e4f2e8d758decf3c89c6b7608a9"
+      }
+    ]
+  },
+  {
+    "dataset": "reflexdiversity",
+    "name": "RefLex Gimnime and Momi exact-source written lexical pilot",
+    "version": "Nakala10.34847/nkl.e3cbkjzm-records-ac96f29b212df5d6",
+    "url": "https://nakala.fr/10.34847/nkl.e3cbkjzm",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "citation": "Segerer, Guillaume, Sébastien Flavier, Jeanne Zerner and Uyen-To Doan-Rabier. RefLex-CLLD v1.0; frozen April2026 Nakala export, DOI10.34847/nkl.e3cbkjzm. Original sources: Dieu, Perrois and Tourneux2016 Koma-gimbe dictionary; Blench and Edwards1988 Momi/Vere Yadim dictionary.",
+    "genealogy": "Same RefLex archive genealogy as reflexoriginal, with distinct original lexical sources2897/3294. This collection scope preserves prior Santos/Lesage citations unchanged; it is not independent corroboration of RefLex.",
+    "review": "docs/africa_ax06_reflex_review_2026-10-29.csv",
+    "resources": [
+      {
+        "key": "reflex",
+        "kind": "reflex",
+        "filename": "records.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/dcc56cac85c0f20bad49e386656b96041e197ac8",
+        "sha256": "ac96f29b212df5d605c1c3f3526b5d1573337697934143735a1b9d198e2247aa"
+      },
+      {
+        "key": "sources",
+        "kind": "tsv_metadata",
+        "filename": "sources.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/081618ff04ea5593aca28c5f501516ac181d7799",
+        "sha256": "639b5df1d4dc7af1c2094a31b485c9b1e96d1ec1ed63a40999024885b721efb1"
+      },
+      {
+        "key": "languages",
+        "kind": "tsv_metadata",
+        "filename": "langues.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/f627eef8264f3eba0210d0669f75219ab08e20d4",
+        "sha256": "f9814ae1fd2dcc418f50cfdcb1cd733f92bcb7917d98976e9593e45f46ca4a1a"
+      },
+      {
+        "key": "references",
+        "kind": "tsv_metadata",
+        "filename": "references.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/af5586ab41db11f3dbe356656415e955aaccd5d4",
+        "sha256": "80081ddffd8687c3afed3b43392235fda38a3a5930e46d7417ccc72aa63a2405"
       }
     ]
   }

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "cldfbench_sidaama.py",
+    "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/cldfbench_sidaama.py",
+    "sha256": "4a08aaa6a6f2f3330bbe24029a3b1cb21f3ec98c95b2ebef62c8ea23f6054d96"
+  },
+  {
+    "path": "etc/md.json",
+    "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/etc/md.json",
+    "sha256": "243bdab2b9a78c9c85701dadaa54ad7bbe8e348d6b1fc432cbf1418308c0a73c"
+  },
+  {
+    "path": "raw/db.sfm",
+    "url": "https://raw.githubusercontent.com/dictionaria/sidaama/51897791fcb5fad622e7956de657d9a84576056e/raw/db.sfm",
+    "sha256": "7ab8ad8ad2b4a3a2623d1c229e123e5f50bd14f4e69ff8bbc7dec3634912a0b8"
+  }
+]
