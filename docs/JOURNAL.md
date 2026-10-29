@@ -1,5 +1,17 @@
 # Project journal and working memory
 
+## 2026-10-29 — Recommended next Africa batch
+
+Read accepted AF01–AF09 results, current rankings and evidence holds. Recommendation
+order AX02 dictionary depth, AX04 reading-quality blockers, AX03 Konyagi/Kam
+notation, new AX06 Gimnime/Momi identity/source pilots, AX05 tone recovery, AX01
+Temi/Shashi source repair. NEXT records exact current baselines, pinned source
+identities and tradeoffs. Fwe55/Gyeli78/Ruruuli0 supported core; Konyagi/Kam20/30
+written entries, Sidaama45 written additions.52 AF08 decisions remain held, not
+ready gains. New candidate counts are raw archive records, not admissions.
+No lexical changes or new execution authorization. Americas/South America and
+Etruscan/Elamite priorities retained; current recommendation continues African focus.
+
 ## 2026-10-28 — Sub-Saharan Africa / Bantu execution
 
 User authorized AF01–AF09 sequentially with autonomous specifics. Completed all
