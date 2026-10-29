@@ -26,6 +26,22 @@ See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-covera
 
 [WS review](WIKTIONARY_SOURCE_SELECTION_2026-10-29.md): Yurok/Ternate additional supplied IPA and reviewed Wiktionary primary preference for Yurok, Ternate, Corsican and Lombard. Preserve all earlier GLED evidence. [All-primary guarded-alternative inventory](reviewed_source_choices_2026-10-29.csv) replaces a core-count-only view of easy opportunities.
 
+## Recommended next worldwide batch — WN01–WN09 (proposed)
+
+[Full proposal](WORLDWIDE_NEXT_AFTER_WS_2026-10-29.md) supersedes the ordering below.
+1. Americas supplied-IPA expansion and justified primary upgrades.
+2. South American original dictionary/non-core depth.
+3. African original-source preference and tone-aware supplied IPA.
+4. Corsican/Scots/Kabyle supplied-IPA review.
+5. Dzongkha/Atong plus Chintang/Palula dictionary depth.
+6. Wersing/Pacific dictionary acquisition and further original entries.
+7. Dedicated missing-language inventory, including Australia and New Guinea.
+8. Etruscan/Elamite authority and other ancient exact attestations.
+9. Per-concept source preference, residual dependence and source-fidelity reporting.
+
+Candidate counts in the proposal are unreviewed potential, not gains. No new
+lexical batch is authorized by the recommendation request. Preserve existing holds.
+
 ## Further work from the accepted baseline
 
 1. **Next reviewed Wiktionary group:** Chickasaw, Yucatec Maya, Unami and Western Apache have earlier admitted slices and more frozen supplied IPA. Extend exact sense/POS review before promoting a tiny primary slice. Scots/Kabyle need fresh admission review; Tewa/Taos need exact community scope. Zeeuws/Higaonon/Plautdietsch require source-specific profile authority, not generic spelling resegmentation. Counts remain prospective, not admissions. Use the all-primary inventory alongside original readings, non-core depth and residual coverage.
@@ -59,7 +75,7 @@ See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-covera
    remain held. Further POS/homonym audits must inspect original definitions;
    the three rejected sail/drill profiles are not accepted gains.
 
-Fresh screen:6,808 overlapping member opportunities,602 South American/905 American;
+Historical pre-WS screen:6,808 overlapping member opportunities,602 South American/905 American;
 871 GLED alternatives,zero lossless positive supplied-reading swaps.
 [Current method/counts](worldwide_followup_opportunities_2026-10-29.json) and
 [remaining selected members](worldwide_followup_remaining_members_2026-10-29.csv)

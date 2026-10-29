@@ -27,6 +27,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Worldwide after WS,WN01–WN09](../WORLDWIDE_NEXT_AFTER_WS_2026-10-29.md): proposed balanced source upgrades, original dictionary depth, missing-language search and quality reporting; not executed.
+
 * [Worldwide follow-up WF01–WF10,2026-10-29](../WORLDWIDE_FOLLOWUP_2026-10-29.md): post-GW recommendations, identity checks and exact source-member candidates; not executed.
 
 * [Worldwide next-work investigation,2026-10-29](../WORLDWIDE_NEXT_2026-10-29.md):
