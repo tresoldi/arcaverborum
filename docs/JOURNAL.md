@@ -14,7 +14,9 @@ changes. 662 original-source rows reproduce; intake7,192,595. All7,332 builds,
 447 tests, lint,401 web hashes/3 input hashes and four local browser suites pass.
 Current source counts and irreversible intake migration guards are in the report;
 do not replay migrations. NEXT closes all AX tracks and proposes fresh depth,
-South American rotation and evidence-gated acquisitions. Publication pending push.
+South American rotation and evidence-gated acquisitions. Published data commit `f1e6f1a9bddf09c6fa1c524f39252eaf328eff18`. CI40848955077 passes Python3.12/3.13;
+Pages40848955070 succeeds. Canonical live hashes and updated African browser
+exports pass. Documentation-only closure preserves these lexical artifact hashes.
 
 ## 2026-10-29 — Recommended next Africa batch
 

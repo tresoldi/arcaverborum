@@ -309,5 +309,22 @@
     "mapped_core": 35217,
     "gled_primaries": 95,
     "zero_supported_core": 23
+  },
+  "publication": {
+    "data_commit": "f1e6f1a9bddf09c6fa1c524f39252eaf328eff18",
+    "ci_run": 40848955077,
+    "ci_python_versions": [
+      "3.12",
+      "3.13"
+    ],
+    "pages_run": 40848955070,
+    "canonical_live_hashes": "passed; manifest, catalog, recordings, sources.bib and six representative family shards",
+    "african_live_browser": "passed",
+    "local_browser_suites": [
+      "research",
+      "african",
+      "ancient",
+      "mixed-source"
+    ]
   }
 }

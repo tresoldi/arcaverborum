@@ -43,8 +43,13 @@ with exactly reviewed80 readings,10 semantic mappings and37 Momi metadata change
 Derived IDs/captions and97 quality scores may change. All662 original intake rows
 reproduce from immutable source bytes. 401 web hashes and3 aggregate-input hashes
 match. Local research, African, ancient and mixed-source browser/export checks pass.
-Publication verification is pending this batch's push; this paragraph will be
-replaced with exact data-commit, CI, Pages and canonical live-hash evidence.
+Data commit: `f1e6f1a9bddf09c6fa1c524f39252eaf328eff18`.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40848955077) passed on
+Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40848955070)
+succeeded. Canonical live manifest, catalog, recordings, source bibliography and
+Atlantic-Congo/Afro-Asiatic/Mande/Songhay/Etruscan/Elamite shards match committed
+bytes. Updated African live browser/export checks pass. This is the lexical data
+commit; subsequent documentation-only commits do not change its artifact hashes.
 
 The site publishes tracked web artifacts: manifest, compressed catalog,399 family
 shards, bibliography and recording metadata. Pages does not rebuild lexical data.
