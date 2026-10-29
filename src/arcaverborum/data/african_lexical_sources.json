@@ -41,7 +41,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Gunnink, Hilde.2022. A grammar of Fwe. DOI10.5281/zenodo.6669944.",
     "genealogy": "Original author lexicon; prior thesis/RefLex/GLED witnesses may share underlying data and are not independent confirmation.",
-    "review": "docs/worldwide_gw07_fweoriginal_review_2026-10-29.csv",
+    "review": "docs/worldwide_wf04_fweoriginal_review_2026-10-29.csv",
     "resources": [
       {
         "key": "fwe",
@@ -60,7 +60,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Grimm, Nadine.2021. A grammar of Gyeli. DOI10.5281/zenodo.4737370.",
     "genealogy": "Original author lexicon; prior thesis/RefLex/GLED witnesses may share underlying data and are not independent confirmation.",
-    "review": "docs/worldwide_gw07_gyelioriginal_review_2026-10-29.csv",
+    "review": "docs/worldwide_wf04_gyelioriginal_review_2026-10-29.csv",
     "resources": [
       {
         "key": "gyeli",

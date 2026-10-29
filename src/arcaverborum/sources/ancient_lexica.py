@@ -83,18 +83,26 @@ def materialize(raw_root, *, dataset, download=False):
     spec = next(s for s in specs if s["dataset"] == dataset)
     root = raw_root / "lexibank" / dataset
     root.mkdir(parents=True, exist_ok=True)
-    path = root / spec["filename"]
-    if spec.get("snapshot"):
-        path.write_bytes(gzip.decompress((DATA / spec["snapshot"]).read_bytes()))
-    elif download:
-        r = requests.get(spec["url"], timeout=30)
-        r.raise_for_status()
-        if hashlib.sha256(r.content).hexdigest() != spec["sha256"]:
-            raise ValueError("Pinned historical source changed")
-        path.write_bytes(r.content)
-    payload = path.read_bytes()
-    if hashlib.sha256(payload).hexdigest() != spec["sha256"]:
-        raise ValueError("Historical source hash mismatch")
+    resources = {r["filename"]: r for r in spec.get("resources", [spec])}
+    if spec["filename"] not in resources:
+        raise ValueError("Historical default resource is missing")
+    payloads = {}
+    for filename, resource in resources.items():
+        if Path(filename).name != filename:
+            raise ValueError("Historical resource must name a local file")
+        path = root / filename
+        if resource.get("snapshot"):
+            path.write_bytes(gzip.decompress((DATA / resource["snapshot"]).read_bytes()))
+        elif download:
+            response = requests.get(resource["url"], timeout=30)
+            response.raise_for_status()
+            if hashlib.sha256(response.content).hexdigest() != resource["sha256"]:
+                raise ValueError("Pinned historical source changed")
+            path.write_bytes(response.content)
+        payload = path.read_bytes()
+        if hashlib.sha256(payload).hexdigest() != resource["sha256"]:
+            raise ValueError("Historical source hash mismatch")
+        payloads[filename] = payload
     concepts = {r["concept_id"]: r for r in read(DATA / "concepts.csv")}
     forms, params, seen = [], {}, set()
     for review in read(ROOT / spec["review"]):
@@ -103,16 +111,19 @@ def materialize(raw_root, *, dataset, download=False):
         if review["dataset"] != dataset or review["source_form_id"] in seen or not review["rationale"]:
             raise ValueError("Invalid historical admission")
         seen.add(review["source_form_id"])
-        form, sense, evidence = extract(spec, payload, review)
+        filename = review.get("source_filename") or spec["filename"]
+        if filename not in payloads:
+            raise ValueError("Historical review names an unpinned resource")
+        form, sense, evidence = extract(spec, payloads[filename], review)
         c = concepts[review["concept_id"]]
-        pid = review["concept_id"]
+        pid = review.get("source_parameter_id") or review["concept_id"]
         params[pid] = dict(ID=pid, Name=sense, Concepticon_ID=c["concepticon_id"], Concepticon_Gloss=c["label"])
         # Distinct senses sharing a frozen concept retain their own source gloss in each form.
         evidence.update(
             source_gloss=sense,
             reading_basis="orthographic_transcription_only",
             source_version=spec["version"],
-            source_sha256=spec["sha256"],
+            source_sha256=resources[filename]["sha256"],
             mapping_review=review["rationale"],
         )
         forms.append(

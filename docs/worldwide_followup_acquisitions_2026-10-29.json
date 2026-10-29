@@ -1,0 +1,43 @@
+{
+  "yeri_grammar": {
+    "url": "https://www.acsu.buffalo.edu/~dryer/wilson_yeri2017.pdf",
+    "status": 200,
+    "sha256": "46bde1f2ec39c9537ed5c852f61889fbc89ab42efa9df70eff62b0bbad47dd97",
+    "bytes": 9193337,
+    "note": "Grammar acquired for notation/identity review; author copyright stated, no bulk lexical redistribution license established. No copied lexical table admitted.",
+    "final_url": "https://www.acsu.buffalo.edu/~dryer/wilson_yeri2017.pdf",
+    "cache_path": "raw/curation/wf/yeri_grammar.pdf"
+  },
+  "wubuy_dictionary": {
+    "url": "https://pure.mpg.de/pubman/item/item_2049478_2/component/file_2049477/nunggubuyudictionary_heath1982_o.pdf",
+    "status": 403,
+    "sha256": "328e99cbe8c62fee64a28108279cab9066d3c3d7bfbd58451d616da450db05b2",
+    "bytes": 7059,
+    "note": "Direct byte acquisition failed; no reusable local payload acquired from this request. Primary page/PDF text was inspected separately with the web reader. Author permission page states books may be copied/disseminated without restriction; not a Creative Commons license. Dictionary OCR/notation review remains necessary.",
+    "final_url": "https://pure.mpg.de/pubman/item/item_2049478_2/component/file_2049477/nunggubuyudictionary_heath1982_o.pdf"
+  },
+  "wubuy_permission": {
+    "url": "https://sites.lsa.umich.edu/jheath/fieldwork-and-documentation/australian-languages/nunggubuyu-wubuy-ngandi-anindilyakwa-ngalakan/",
+    "status": 403,
+    "sha256": "685d4fe4dbff51639e4aff090631e04be100175202c0dd4161905cbf8b520984",
+    "bytes": 5897,
+    "note": "Direct byte acquisition failed; no reusable local payload acquired from this request. Primary page/PDF text was inspected separately with the web reader. Author permission page states books may be copied/disseminated without restriction; not a Creative Commons license. Dictionary OCR/notation review remains necessary.",
+    "final_url": "https://sites.lsa.umich.edu/jheath/fieldwork-and-documentation/australian-languages/nunggubuyu-wubuy-ngandi-anindilyakwa-ngalakan/"
+  },
+  "urim_dictionary_record": {
+    "url": "https://pnglanguages.sil.org/resources/archives/63545",
+    "status": 403,
+    "sha256": "59b77dbd5bd2fc76b94d7b9a41837433c8c74be0e80427665d2b2664e60a3a91",
+    "bytes": 17,
+    "note": "SIL catalog describes Yangkolen dialect Urim picture dictionary. Search-index record says Not Available Online; direct request status retained. Metadata is not an acquired dictionary payload.",
+    "final_url": "https://pnglanguages.sil.org/resources/archives/63545"
+  },
+  "sanzhi_grammar": {
+    "url": "https://langsci-press.org/catalog/view/250/2031/1789-1.pdf",
+    "status": 500,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "note": "Direct byte acquisition failed; no reusable local payload acquired from this request. Primary page/PDF text was inspected separately with the web reader. Primary Forker grammar explicitly identifies Sanzhi sanz1248; this is identity evidence, not newly acquired lexical forms.",
+    "final_url": "https://langsci-press.org/catalog/view/250/2031/1789-1.pdf"
+  }
+}

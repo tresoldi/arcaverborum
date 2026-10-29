@@ -1,0 +1,26 @@
+av_id: nak-sanzhi-dargwa
+name: Sanzhi Dargwa
+glottocode: sanz1248
+family: Nakh-Daghestanian
+macroarea: Eurasia
+sources:
+  transcription: dictsanzhi
+  cognates: dictsanzhi
+  source_glottocode: darg1241
+  source_language_id: dictsanzhi_dar
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8
+  cognates_score: 0.0
+  tier: bronze
+pinned: true
+registered_on: '2026-10-29'
+notes: WF07 exact Sanzhi source sample. Primary Forker grammar identifies sanz1248,
+  source dictionary inherited darg1241 is coarse and explicitly scoped; never pool
+  with North-Central Dargwa. New named variety; no new Glottolog language claim. Source
+  does not mark weak lexical stress; no stress invented.

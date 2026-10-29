@@ -1,45 +1,60 @@
 # Active expansion queue
 
-Updated2026-10-29 against [STATUS](STATUS.md). **All GW01–GW10 are complete**.
-See [execution](WORLDWIDE_EXPANSION_2026-10-29.md) and
-[realized metrics](worldwide_expansion_summary_2026-10-29.json). No authorized GW
-track remains pending. Proposals below require a new instruction to proceed.
+Updated2026-10-29 against [STATUS](STATUS.md). **All WF01–WF12 and preceding
+GW01–GW10 are complete**. See [latest execution](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md)
+and [realized metrics](worldwide_followup_summary_2026-10-29.json).
+No authorized track remains pending.
 
-## Recommended worldwide follow-up (WF01–WF10)
+## WF01–WF12 completed
 
-[Detailed proposal, gates and tradeoffs](WORLDWIDE_FOLLOWUP_2026-10-29.md);
-[exact ranked source members/versions](worldwide_followup_candidates_2026-10-29.csv).
-All ten are **proposed**, not yet authorized. Recommended order:
+[Execution](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md) and
+[realized metrics](worldwide_followup_summary_2026-10-29.json):543 records,
+408 net supported slots/242 core;47 older mappings corrected; two named varieties,
+zero new distinct-language claims or GLED swaps. West Papua61 records, Torricelli8
+written records. All authorized workstreams closed with admissions or evidence holds.
 
-1. **WF01:** fresh South American targets: Kamayurá, Chibcha, Baure, Colombian Inga.
-2. **WF02:** original Palula/Nen/Teop dictionary depth and loss-aware GLED reassessment.
-3. **WF03:** Vietnamese WOLD gap review and original Chintang dictionary acquisition.
-4. **WF04:** Chadic Hildi/Higikamale identity/notation review plus further Bantu dictionary depth.
-5. **WF05:** Teguima/Bella Coola original evidence and complete Bribri IPA alternatives.
-6. **WF06:** Enga/Ap Ma attribution/notation recovery and Daakaka/Teanu dictionary depth.
-7. **WF07:** new-language/variety acquisition; Sanzhi identity pilot, then Americas-first worldwide search.
-8. **WF08:** Djinang/Ngarluma, Soqotri and Wubuy original dictionary feasibility.
-9. **WF09:** Etruscan/Elamite source authority, BHSA lexical units and further Coptic files.
-10. **WF10:** further Italian localities and new global semantic/POS review.
+## Unapproved next work from the accepted baseline
 
-Daakaka is already Dakaka; Wubuy is already present. Sanzhi cannot be pooled into
-North-Central Dargwa merely because a coarse code matches. Ranked potentials are
-review ceilings, never verified gains. Earlier GW completions and HELD gates remain.
+1. **Original dictionary core depth:** Palula43 profiles/22 dictionary-supported
+   core versus33 GLED core; retain108 GLED records. Nen42/Teop58, Chintang26,
+   Teanu24, Sanzhi20 and Kalamang30 finite readings now exist. Extend new exact
+   senses and all qualified alternatives using original guides; do not replay
+   completed slices. Potential further gains unmeasured.
+2. **Americas original acquisition and unresolved identities:** Kamayurá144,
+   Chibcha152,Baure144,Colombian Inga154 supported core; previous ceilings spent.
+   Prioritize original dictionaries/non-core depth and genuinely missing-language
+   payloads. Opata64/Bella Coola27/Bribri16 remain evidence holds, not ready gains.
+3. **West Papua identity/notation recovery:** Mairasi84,Suabo117,Hatam106,
+   Moskona128,Sentani112,Kalamang141 supported core. Investigate exact Hatam-Borai
+   attribution separately; no guessed pooling or code reassignment. Original
+   dy, incisor/leg-foot and water-specific senses require authority. New gains unmeasured.
+4. **Torricelli original lexical payloads:** inventory46 accepted Nuclear
+   Torricelli constructions;8 written additions already admitted across three.
+   Yeri grammar is acquired research context; source terms and machine-readable
+   lexical attribution remain gates. Urim Yangkolen dictionary is catalogued but
+   unavailable online. Do not call catalog metadata a downloaded dictionary.
+5. **Ancient exact evidence:** BHSA14 substantive written lexemes are now
+   admitted (9 Hebrew/5 Aramaic), beyond the completed linkage feasibility gate.
+   Extend reviewed lexemes/contexts and historical stages; Coptic now58 across
+   Alpha/Beta. Etruscan neri/phersu and Elamite EW111/499/EW600 need new primary
+   authority;787 earlier Elamite contexts remain preserved. No inferred ancient IPA.
+6. **Asian/African precision and further locality depth:** WOLD Vietnamese104
+   candidate records held for actual Hanoi/dialect/tone authority; Chintang core40.
+   Kraft macron/phonation and other older holds stay gated. Italian Milanese39
+   supplied readings, RVID92/seven samples are completed; andà/bianch and '?' cells
+   remain held. Further POS/homonym audits must inspect original definitions;
+   the three rejected sail/drill profiles are not accepted gains.
 
-Fresh screen: 6,808 overlapping worldwide member opportunities,
-871 GLED alternatives, **zero lossless positive supplied-reading swaps**.
-[Selected members](worldwide_postbatch_selected_members_2026-10-29.csv) and
-[method/counts](worldwide_postbatch_opportunities_2026-10-29.json) include held cases,
-not ready admissions; profiles, non-core depth and new acquisition need separate review.
-Africa's original slices are now Ruruuli111/Fwe142/Gyeli192; current constructions
-117/189/228 forms. Earlier AX recoveries/swaps stay completed; do not replay holds.
+Fresh screen:6,808 overlapping member opportunities,602 South American/905 American;
+871 GLED alternatives,zero lossless positive supplied-reading swaps.
+[Current method/counts](worldwide_followup_opportunities_2026-10-29.json) and
+[remaining selected members](worldwide_followup_remaining_members_2026-10-29.csv)
+include held identity/notation cases, not admissions. Primary profile recovery,
+unmapped/non-core depth and new acquisition need separate evidence review.
 
-Americas/South America and Etruscan/Elamite retain standing priority. Regional
-sections below are historical detail for narrower gates, not a second active batch.
-Current GW results supersede the earlier baselines: RP01 Milanese scope and RP02's
-first three localities are completed; NB02 Paiute/Hopi conservative slices completed;
-NB01 Bribri10 recovered; BHSA node linkage demonstrated; Elamite context attached;
-Viku unmapped. Remaining holds are in [HELD](planning/HELD.md).
+Regional tables below retain historical proposal detail; current WF results above
+supersede older slice counts and completed gates. [HELD](planning/HELD.md) records
+exact reopening evidence. No further lexical batch is authorized by this closure.
 
 ## Parked ancient evidence proposals
 
@@ -47,8 +62,8 @@ Viku unmapped. Remaining holds are in [HELD](planning/HELD.md).
 | --- | ---: | --- |
 | AE01 | 1 | Etruscan original attestation/sense reassessment: collate remaining `neri` water/hymn and `phersu` mask/actor cases against attributable editions. GW08 has already withdrawn Viku village mapping using CIE3234/TLE481 donor-name evidence. Then recover additional headwords from the frozen498-entry Kaikki snapshot only where meaning and source are secure. Distinguish duplicate/inflected/named forms; no general profile without historical reading authority. |
 | AE02 | 2 | Elamite source-rich reconstruction: original IDS period-specific comments/EW references are now attached to all787 readings. Next obtain exact EW111/499 and EW600 authority for the two held spacing/uncertainty cases, then investigate a reusable cuneiform dictionary payload. Original IDS and IDSsegmented are one source genealogy; Linear Elamite hypotheses are separate. |
-| AE03 | 3 | Extend Sahidic Coptic beyond Alpha and the8-row Egyptian pilot with exact dialect/lemma/context review. Pin each additional dictionary file/TLA stage separately. Existing namespaces contain36 Coptic/8 Egyptian/24 Etruscan/1 TWKM rows; expand complete guarded namespaces or use an explicit reviewed migration, never subset-overwrite or append them again. Lexical-only evidence must not inflate phonetic support. |
-| AE04 | 4 | Ancient Hebrew BHSA lemma/verse pilot from pinned2021 features: GW08 demonstrates node/lexeme/verse linkage and Hebrew/Aramaic filtering. Next review lexical units/proclitics, exact senses and scoped NonCommercial attribution before intake. Preserve later vocalization convention; no inferred Iron Age surface pronunciation. |
+| AE03 | 3 | Extend Sahidic Coptic beyond the completed Alpha/Beta58-row slice and the8-row Egyptian pilot with exact dialect/lemma/context review. Pin each additional dictionary file/TLA stage separately. Existing namespaces contain58 Coptic/8 Egyptian/24 Etruscan/1 TWKM rows; expand complete guarded namespaces or use an explicit reviewed migration, never subset-overwrite or append them again. Lexical-only evidence must not inflate phonetic support. |
+| AE04 | 4 | Ancient Hebrew BHSA lemma/verse pilot from pinned2021 features: GW08 demonstrates node/lexeme/verse linkage and Hebrew/Aramaic filtering. WF09 admits14 substantive written lexemes with exact verse/lexeme context and scoped NonCommercial terms; extend further lexemes/stages after original review. Preserve later vocalization convention; no inferred Iron Age surface pronunciation. |
 | AE05 | 5 | Old Khmer original-edition alignment and further Classic Mayan text pilots. K.1 title gives coarse Śaka dating; establish actual lemma/sense before a new-language admission. For Maya retain sign IDs/attestations and exclude disputed decipherments. |
 
 [HELD](planning/HELD.md) specifies evidence needed to reopen ORACC, eDiAna,
@@ -60,8 +75,8 @@ future work from accepted counts and fresh evidence rather than replaying AN01�
 
 | ID | Priority | Exact work / first gate |
 | --- | ---: | --- |
-| RP01 | 1 | GW06 recovered18 explicitly Milanese-tagged readings from17 lexical decisions, including can and both iron alternatives. Extend only newly reviewed headwords; andà movement meaning and bianch inflection/IPA remain held. Retain every eligible alternative and source qualifier. This can improve locality evidence without assuming a global Lombard spelling system. Measure missing concepts after R01, not the old67-spelling ceiling. |
-| RP02 | 2 | Travo/Lugo/Ascrea pilots are now admitted. Extend RVID infinitive review to further named Italian localities with modern senses and original bibliography. Namespace now46 forms/seven samples; inspect each source's clitics, missing cells and closest-code scope. Preserve morphology; do not repeat completed47 decisions or append the namespace again. |
+| RP01 | 1 | GW06/WF10 recovered39 explicitly Milanese-tagged readings including can and both iron alternatives. Extend only newly reviewed headwords; andà movement meaning and bianch inflection/IPA remain held. Retain every eligible alternative and source qualifier. This can improve locality evidence without assuming a global Lombard spelling system. Measure new gaps against the current39-reading construction, not the old67-spelling ceiling. |
+| RP02 | 2 | Travo/Lugo/Ascrea pilots are now admitted. Extend RVID infinitive review to further named Italian localities with modern senses and original bibliography. Namespace now92 forms/seven samples; inspect each source's clitics, missing cells and closest-code scope. Preserve morphology; do not repeat the109 completed review decisions or append the namespace again. |
 | RP03 | 3 | digitALD selected-table/notation pilot. Site CC BY-SA4.0 is now evidenced; establish Böhmer–Ascoli–AIS conversion and exact response/context before admission. Distinguish217 atlas locations from21 speaking points and earlier transcripts from later audio. |
 
 Gallurese ten-word profile and R01/R06 supplied-reading pilots are completed.

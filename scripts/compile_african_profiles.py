@@ -5,6 +5,8 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import json
+import re
 import sqlite3
 from pathlib import Path
 
@@ -27,8 +29,23 @@ def write_csv(path, rows):
         w.writerows(rows)
 
 
+def reject_dictionary_pos_conflict(comment, target_pos):
+    """Reject explicit noun/verb contradictions; unknown labels remain unclassified."""
+    prefix = "Original dictionary evidence: "
+    if not comment.startswith(prefix):
+        return
+    original = json.loads(comment[len(prefix):])
+    pos = original.get("entry", {}).get("Part_Of_Speech", "").lower().strip()
+    noun = pos.startswith("n") or pos.endswith("noun")
+    verb = not noun and (pos.startswith("v") or re.search(r"\bverb\b", pos))
+    if (noun and target_pos == "v") or (verb and target_pos == "n"):
+        raise ValueError("Dictionary source/target POS mismatch")
+
+
 def compile_profiles(review, *, root=ROOT, write=False):
-    concepts = {r["concept_id"]: r["concepticon_id"] for r in read(root / "src/arcaverborum/data/concepts.csv")}
+    concept_rows = read(root / "src/arcaverborum/data/concepts.csv")
+    concepts = {r["concept_id"]: r["concepticon_id"] for r in concept_rows}
+    positions = {r["concept_id"]: r["pos"] for r in concept_rows}
     params = {r["ID"]: r for p in (root / "intake").glob("*/parameters_raw.csv") for r in read(p)}
     groups = {}
     with sqlite3.connect((root / "intake/intake.sqlite").as_uri() + "?mode=ro", uri=True) as db:
@@ -52,6 +69,7 @@ def compile_profiles(review, *, root=ROOT, write=False):
                 or not segments_are_valid(r["segments"])
             ):
                 raise ValueError("African profile evidence or reading changed")
+            reject_dictionary_pos_conflict(row["Comment"], positions[r["concept_id"]])
             groups.setdefault((r["av_id"], r["source"]), []).append((r, row, p))
     for (aid, source), entries in groups.items():
         words = {}
@@ -92,6 +110,11 @@ def compile_profiles(review, *, root=ROOT, write=False):
                     profile_sha256=digest,
                 )
             )
+        # Exact source/target identity scopes must survive profile reproduction.
+        for record, (reviewed, _, _) in zip(records, entries, strict=True):
+            for field in ("pronunciation_scope", "pronunciation_tags", "pronunciation_note"):
+                if reviewed.get(field):
+                    record[field] = reviewed[field]
         keys = {(r["source"], r["source_form_id"]) for r in records}
         for r in old:
             key = (r["source"], r["source_form_id"])

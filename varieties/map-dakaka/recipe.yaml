@@ -1,0 +1,16 @@
+av_id: map-dakaka
+name: Dakaka
+worldwide_followup_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md
+  primary: tryonvanuatu
+  forms: 298
+  supported_core: 139
+  source_statuses:
+    source: 272
+    unclean: 26
+  preservation: Earlier lexical records/readings/cognacy and native evidence retained.
+    Only six exact shared sense rules change earlier mappings; profile artifact hashes
+    were revalidated.
+  reading_scope: Guarded source conversions, supplied IPA, finite dictionary profiles
+    or explicit written-only rows; see custom ledgers and authored source reviews.

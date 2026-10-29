@@ -1,0 +1,169 @@
+{
+  "dictchintang": {
+    "repo": "https://github.com/dictionaria/chintang",
+    "commit": "319975a9b9bd479b6d1fc27daefd23990ee1b9e5",
+    "resource_sha256": {
+      "README.md": "95cf126688b0592f8d35ff9ecdca3573867ec013a36dde33a7bb6940732235c3",
+      "cldf/cldf-metadata.json": "3412f788b78843aa39e85ce19c37b4076b64ca33c9b331f20ccc12e00514d541",
+      "cldf/entries.csv": "23614d7d167172a80d2250f8dd7b2b9ca407d75f2658a8209af7b1f3fa7f4c9e",
+      "cldf/senses.csv": "ab064d17ae989baed441fdf7d5f5086294f1655a189879f6216494fecd949676",
+      "cldf/languages.csv": "352c185fa138377bda8fb5e16f85e515a32117d8f5f267b7debaf9b5fc42c2a1",
+      "raw/intro.md": "cc2baa8d71cce7524b0fa1046382701b65c17bf1932f2d7d292ee64ecf86b1b9",
+      "raw/db.sfm": "5d4925d080826dd1388b42b0a939d45996c98ebb2d4d0c06f6e30be35f6f231d",
+      "cldfbench_chintang.py": "b27ce720304a6ffe175993c6a675bb65f82acedadbc4ba6ec273cbc430dc9757"
+    }
+  },
+  "wold": {
+    "repo": "https://github.com/lexibank/wold",
+    "commit": "1df62b9bdc7292b35982aea49b4d5bd1951f6f3e",
+    "resource_sha256": {
+      "README.md": "0e0755dfdb459b15c3bb7d1c38178656645cbede0750b212c92be167e08b3dae",
+      "cldf/cldf-metadata.json": "8e3483b5e20c1f6adcf34c0e4ef603d4cb2a0237c812bec93fab81635c88efea",
+      "cldf/forms.csv": "a2179913f05b19d66b5ba0ed90a1f253dcf0f91c0ea5e6bdf3d4b4e315bc3084",
+      "cldf/languages.csv": "acec1a4778939e2ffb933bf22763446d3376c276851837b5297a1e032b5a38a3",
+      "cldf/parameters.csv": "bf8b7935da08662353fd4d21e61f44b7b575686cc62d477cfaf7fb89083f1ebc",
+      "cldf/descriptions/vocabulary_24.md": "34b151b96d662b0e57c774e9e8eb5dda4d619f7f40370ed2f58cc0a6c4c7ad2d",
+      "etc/orthography/Vietnamese.tsv": "ef2fb71eed65dc3fef61bbe4e350130b1af376180eca389a19ed21b11dc1a02b",
+      "lexibank_wold.py": "56662b04c254f86737c2ddb486ea67c09aa113d4bd32d22a5fddff3d6d61cddd"
+    }
+  },
+  "kraftchadic": {
+    "repo": "https://github.com/lexibank/kraftchadic",
+    "commit": "d69aed108612b7fb9019790fd4e9f06b71166ef3",
+    "resource_sha256": {
+      "README.md": "4a9cb31771d6d486abd48c6824dfb3897ff2e13409a9e96362e73bfe4c59acfd",
+      "cldf/cldf-metadata.json": "198082215db62c22d95c6a9671a9de9946b2b80110d6aaac181b13286d5c2c2d",
+      "cldf/forms.csv": "50d7f929e160e12a030d18b79930492a460881f4964c17d79559d9c2617c0804",
+      "cldf/languages.csv": "e65bc9763bb1117f57d95dd94b24d41767f460851ea1eac55df1624914f268a0",
+      "cldf/parameters.csv": "d1bc7a31a5a75f18f426adf4ce47c7deb68bf084791bbbcf306a56bc6dfcfe22",
+      "etc/orthography.tsv": "1fb64ac54a080c77b8d485fb66ae6ec29d27a7c2535d8fcff2f364330066b42a",
+      "lexibank_kraftchadic.py": "6959d062838aa7097829fd3533f5e498b71cc00a8be59b88a0e6b11c7c76e0d0"
+    }
+  },
+  "utoaztecan": {
+    "repo": "https://github.com/lexibank/utoaztecan",
+    "commit": "13aaffc2f50124f3e77e6086d6a1ff5a9e5c1653",
+    "resource_sha256": {
+      "README.md": "808f4f4b464cbb5c5b490890d16f38f26d8eb8823c49da39d081bc824cbfe22e",
+      "cldf/cldf-metadata.json": "80f79595329c2dd2f880fe53b954d7d0965041ad19fb5f7d0e3ce4f0eb7fb031",
+      "cldf/forms.csv": "6f62d2074d3d7a0b49e4631ff871ca7d57497773855f6e5a2f6bdc97abfa024f",
+      "cldf/languages.csv": "a2d7a3262660b72c087649f2acfa8bc525d433b47562bec53beaf109a1be8527",
+      "cldf/parameters.csv": "4277a2c0081aa62f89fc4f6bbf6e31a2ff209044eb500fe06f96efdf7fc83cc6"
+    }
+  },
+  "tolmiebritishcolumbia": {
+    "repo": "https://github.com/lexibank/tolmiebritishcolumbia",
+    "commit": "0a403a72304b0e15dde1650d97f8ceb72799ae7e",
+    "resource_sha256": {
+      "README.md": "2db64c78e4eddc14095285a43a978d9c31f9f9ceaf27d57a3565a81d38e95f75",
+      "cldf/cldf-metadata.json": "14c86bef03ae1366daa0b4525b9018bff146c7dc2736b3227e0ca758591492ac",
+      "cldf/forms.csv": "5ec3e20dff951a646f566656ba90e9ec6491da9fd6a6ac2a251dfc6de97012ac",
+      "cldf/languages.csv": "fcf6621861b2f368556dcb5d82a43e0c420c2aa51ed93b4176b65565d990ccf2",
+      "cldf/parameters.csv": "8b595204f970bc8b3479c42438b3c5d8025be80f7758b1e1f5a88857455b5408",
+      "etc/languages.csv": "6d3f11c69a73fb558e4e2c5b4c2542f9eff92ae5b6a243fe37ce2a5c0f09ea31",
+      "etc/orthography.tsv": "160c5c23451f5199f494aaa2e085fc1132e61413ed810209b35e6d05fdd92364"
+    }
+  },
+  "pachechibchan": {
+    "repo": "https://github.com/lexibank/pachechibchan",
+    "commit": "ba9362af2608563e219681c7afcf8874fa08990b",
+    "resource_sha256": {
+      "README.md": "b34b31a3d36e372b85067f857e6c060ddaedbafb8daabf2c27dce33f883137bb",
+      "cldf/cldf-metadata.json": "e1263fbd6dfb401092f09ebd02eea516f310fcb711d51044d804bb7d82cf4cc5",
+      "cldf/forms.csv": "87864d23451e54fd9ff2af08dd8dbcaf560091f57334039553063c42a4023c7e",
+      "cldf/languages.csv": "cc3b2387107d296e9625816adbbaf21459701ce9740d26e423c7e440064b9896",
+      "cldf/parameters.csv": "af65b3315fe59855bb9c0c8ebfb6e70250e0b75612b086a674cc9589bf1e4bd3"
+    }
+  },
+  "dictdaakaka": {
+    "repo": "https://github.com/dictionaria/daakaka",
+    "commit": "91063809fded1d25cfc1308696e57cd415dc9b3e",
+    "resource_sha256": {
+      "README.md": "2298e136faf6971b710a3f3fe9fc4964871f6ed91ad4d3bea44bd73eacc53a4e",
+      "cldf/cldf-metadata.json": "ce428b873e02e453f2e6d30365c865e2cf2517cd77941710ee2c411e8a6f7e87",
+      "cldf/entries.csv": "b2c0be84c18f7afe4e4dca2de6e03190a153e4b685d29c875717434cef93eed1",
+      "cldf/senses.csv": "289615c0e12fa721fa7b503f0227e3d8e5005beacecebf9e94b5ce49899c6bad",
+      "cldf/languages.csv": "df48657b52870b7c540d2dc96160edde606f954f219cf93daffdff9381184a2a",
+      "raw/intro.md": "5adc208c2bc634a713ded5456d40edd61af3505b3bd0f75201d297ebb21c9a30",
+      "raw/db.sfm": "a01b2965265e872fd930c969ebdcf2fb3f5535b7020a1f4cd2f4435a20b65ab8",
+      "cldfbench_daakaka.py": "872d3ce98f4bcf195e8b8a740a8d47c5a7dfb51d29916c32d511487ad17b3378"
+    }
+  },
+  "dictteanu": {
+    "repo": "https://github.com/dictionaria/teanu",
+    "commit": "a9d17d933700a268a6071e9b1ca6d0dceeaadaaf",
+    "resource_sha256": {
+      "README.md": "e8d24692b55844435e5a7828f2ea9fbfa3e8d038bc96b8e0c6a321694965757c",
+      "cldf/cldf-metadata.json": "f819cd5e05b163b5f61a41d9419a0ac4db8a1b02ea99b0cc63cfda209f638e5f",
+      "cldf/entries.csv": "f346129f0af60c1337b9c6c4c90f5e4e0907ad6c8354ecf4a2412099000c0004",
+      "cldf/senses.csv": "d1ba540f75c3e070fbc7ee45fdb17eb08434e129981c5c23d84fc5a8756fe74b",
+      "cldf/languages.csv": "09a1c97a4f4e2faad29fc6cab8854bb6bbc445b01f762743f7a773c858a3efd4",
+      "raw/intro.md": "bbbf12d079d067065ccf67506789436992dc1785f7fc3966fb27ebdf47f24716",
+      "raw/db.sfm": "d546089066871161552bc924795b12ddbaca247d08181ce1dfab61f7921bcba5",
+      "cldfbench_teanu.py": "0411a2b5ca1b2855fd4d08e2a9ec22eab18cc641f45227866fbfff257fb3f0ff"
+    }
+  },
+  "transnewguineaorg": {
+    "repo": "https://github.com/lexibank/transnewguineaorg",
+    "commit": "f3691bf7f7ac5523496b7a288aaa369fa8d29d03",
+    "resource_sha256": {
+      "README.md": "72169723ab16bf9d158ff857f5597ba7b54ef76bfb887adc76720ba1d0b866fe",
+      "cldf/cldf-metadata.json": "46946557962a9e46336de0413d4a9a51bc09e196fd4630ef6ae2a04b1b8beef4",
+      "cldf/forms.csv": "9e8027cfbbcc169e804519ed66e0745d967883b4ad3b35bd64d814e4f765f352",
+      "cldf/languages.csv": "b2698f7184ce6b76a3bde427a9162f8f7b90885e6ce9e937017baecb0e086486",
+      "cldf/parameters.csv": "6a8bed742510ee5da71feb9237e5ff05f368b9ff4d28557c16e4bdd1b1a3a00e"
+    }
+  },
+  "dictsanzhi": {
+    "repo": "https://github.com/dictionaria/sanzhi",
+    "commit": "87403c9c43e69f9f70b2572b1503ffb723dc892c",
+    "resource_sha256": {
+      "README.md": "151065beda7fdc559b79d935991708dad783c76bd5a5cff90e13e991af4a29c1",
+      "cldf/cldf-metadata.json": "11d6bb6213b32e2540601811bc1e48fc2446dd9851c42c0bd8974184fe203c7e",
+      "cldf/entries.csv": "117320e37739371a97eec855eaa8d03c76f898f8aefb424f428adb768b3d63b3",
+      "cldf/senses.csv": "050b58f4860b7bfd6a1a547176b618b953ab3b4585edab86f5d1257056c4e3b8",
+      "cldf/languages.csv": "f8ba572a5758b2eac3ecc8e7eb7b967287d02353136381040b7f6a8722936023",
+      "raw/intro.md": "70e41d22c3a13bb857ffd0f5d5c1298d4a5f5713e915c12a6f8f3ee69afe5725",
+      "raw/db.sfm": "12896671adff39e47af2be3ed7d28d01e070fd9fd73e6562906ecdbe0869d8a4",
+      "cldfbench_sanzhi.py": "7f2b0dd10ae3db3e3749dcd8c5a444ee9b4bb1f61bc1ed4b3f10082464f5ddd7"
+    }
+  },
+  "bowernpny": {
+    "repo": "https://github.com/lexibank/bowernpny",
+    "commit": "0641c6a23e908e4a34eee834e0903e78d4781048",
+    "resource_sha256": {
+      "README.md": "af41005da2abe3712b452ea24adfb3f812d8d336557e9c3b07ed3393b753b416",
+      "cldf/cldf-metadata.json": "555ebf6279826fea3547feead1c5aafda7c09ca91f93dc264919ce653996510b",
+      "cldf/forms.csv": "c8300dac939799aacb024f76f27b43e25799d534998a98d031b65295cf55d3f4",
+      "cldf/languages.csv": "29b97acd38caa8cd87da1abf8e7de2548808ea9a5de0fc15c4de4c20700cc10b",
+      "cldf/parameters.csv": "98158994d84352911d15911d7ea1604450f776975cafca508e6d5504e5b48c75"
+    }
+  },
+  "kitchensemitic": {
+    "repo": "https://github.com/lexibank/kitchensemitic",
+    "commit": "de5d0fd71ab09cb6b4d3d77c9b160bd520184883",
+    "resource_sha256": {
+      "README.md": "55253b18e04645d6bed346840d2e2b75447a9d48fd57c5269a285dda53215935",
+      "cldf/cldf-metadata.json": "49b0f410939357838ebb1c161d53355c252a7f8d2b64d7aa4357be3c1ec2e0fb",
+      "cldf/forms.csv": "8b8aeb3667b073bd8ad5126840f38afe9bd8079abae836385d19f5d305ed976e",
+      "cldf/languages.csv": "a96f45e63f2512433c9deca5f0a18bf85197e4ac64cd7ceb4bb55b7f3cdda2ec",
+      "cldf/parameters.csv": "201c184d5ddcc3d0ea7a5b0778e53d5daa2b705c9935c57a2e6ff7882145ca63",
+      "lexibank_kitchensemitic.py": "4b881bc2482bc5d35b0f64d2c72d8ea301849134942a3422367a435c1fdde98a",
+      "raw/Semitic.Wordlists.ActualWordlists.csv": "b31e58cd8cce3a834b581296adb3cc5c01e4b133ca774ddc5a053e8913eb39ba"
+    }
+  },
+  "dictkalamang": {
+    "repo": "https://github.com/dictionaria/kalamang",
+    "commit": "483eb7e6eb8f307a6270ffb12c920d0fa6cbb955",
+    "resource_sha256": {
+      "README.md": "31b9ff3ac440dc14f7b7dd579976cc3dd136e9be5dbf67180192b1dd8cd45aa7",
+      "cldf/cldf-metadata.json": "1d2f580427546efb5b4a53aa058584347bb42ba26412d5e9936e37ffedaa59e4",
+      "cldf/entries.csv": "8b07174253b601edc00820b05915551b206995112ed5786c189155fb57d72655",
+      "cldf/senses.csv": "8de7f912decf172f2c62296ff7178dc82f8369cd6beb9cf99a53c09a3bd1c2fd",
+      "cldf/languages.csv": "89976d18d615bb67f941cd65690b610fcc203658cbab921c2c8cb850dacc3c5e",
+      "raw/intro.md": "796501a96476afdc8bd54ead239493d34b6ead3014cb227da0f52ba212b5a1dc",
+      "raw/db.sfm": "e02498aa46f5b736d77f04706b9e37bf8dc34f7761ba1a47a5114cfd85c91959",
+      "cldfbench_kalamang.py": "9c293abcea77280e8982bfb54326451042dece94312ba7bef60c744761f343e2"
+    }
+  }
+}

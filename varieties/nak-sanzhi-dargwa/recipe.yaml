@@ -1,0 +1,15 @@
+av_id: nak-sanzhi-dargwa
+name: Sanzhi Dargwa
+worldwide_followup_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md
+  primary: dictsanzhi
+  forms: 20
+  supported_core: 1
+  source_statuses:
+    profile: 20
+  preservation: Earlier lexical records/readings/cognacy and native evidence retained.
+    Only six exact shared sense rules change earlier mappings; profile artifact hashes
+    were revalidated.
+  reading_scope: Guarded source conversions, supplied IPA, finite dictionary profiles
+    or explicit written-only rows; see custom ledgers and authored source reviews.

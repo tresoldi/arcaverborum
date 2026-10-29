@@ -1,0 +1,26 @@
+av_id: afa-biblical-aramaic-bhsa
+name: Biblical Aramaic (BHSA corpus)
+glottocode: ''
+family: Afro-Asiatic
+macroarea: Eurasia
+sources:
+  transcription: bhsalexical
+  cognates: bhsalexical
+  source_language_id: bhsalexical_Aramaic
+  member_only: true
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-29'
+notes: WF09 five exact Biblical Aramaic substantive lexemes from BHSA2021. Named historical
+  corpus sample, no new-language claim. No automatic assignment to dated Imperial
+  Aramaic700–300BCE and no inferred ancient IPA. Later Masoretic pointing and original
+  word-language/verse context retained. Data CC BY-NC4.0, independent of code license.

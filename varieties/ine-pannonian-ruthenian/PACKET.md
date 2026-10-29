@@ -19,3 +19,12 @@ The compiler excludes multiword expressions, affixes/punctuation, mixed Latin/Cy
 All 102 raw core English senses were reviewed in `custom/core_review.csv`. Human-being “man” maps to person; complementizer “that” is unmapped from the demonstrative concept. Other senses are checked against frozen definitions. This is an English-sense audit, not native certification of each translation. Source etymology annotations are retained without relabeling them expert cognates.
 
 Reproduce with `python scripts/pannonian_profile.py --write`; the default checks source snapshots and compiler output. Run `python scripts/audit_core_pilots.py` after rebuilding to check source senses and effective mappings. Specialist pronunciation and lexical review remain pending.
+
+## Worldwide follow-up — 2026-10-29
+
+Accepted 2407 records; 99/161 supported core concepts. Primary: `wiktionary`.
+[Execution, sources, gains and holds](../../docs/WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md).
+Earlier evidence and source-specific cognacy remain; six precise shared English-sense
+rules correct older mappings where applicable. Source conversions are not independent
+IPA elicitation, profiles are finite and source-specific, and written-only records
+add no phonetic support. Config and guarded custom ledgers enforce acceptance.

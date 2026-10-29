@@ -50,7 +50,7 @@
       "glottocode": ""
     }
   },
-  "review": "docs/worldwide_gw06_rvid_review_2026-10-29.csv",
-  "expected_forms": 46,
+  "review": "docs/worldwide_wf10_rvid_review_2026-10-29.csv",
+  "expected_forms": 92,
   "title": "Reviewed RVID 2.0 infinitives: seven Italian-area samples"
 }

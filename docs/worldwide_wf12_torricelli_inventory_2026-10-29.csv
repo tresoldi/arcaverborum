@@ -1,0 +1,47 @@
+av_id,name,family,forms,supported_core,primary_source,status
+nua-abu-arapesh,Abu' Arapesh,Nuclear Torricelli,170,107,transnewguineaorg,baseline_inventory_not_a_gain
+nua-agi,Agi,Nuclear Torricelli,41,33,transnewguineaorg,baseline_inventory_not_a_gain
+nua-alu-sinagen,Alu-Sinagen,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-aro-mukweym-orok,Aro-Mukweym-Orok,Nuclear Torricelli,39,32,transnewguineaorg,baseline_inventory_not_a_gain
+nua-aruek,Aruek,Nuclear Torricelli,33,32,gled,baseline_inventory_not_a_gain
+nua-au,Au,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-beli-papua-new-guinea,Beli (Papua New Guinea),Nuclear Torricelli,44,33,transnewguineaorg,baseline_inventory_not_a_gain
+nua-bragat,Bragat,Nuclear Torricelli,1,0,wiktionary,baseline_inventory_not_a_gain
+nua-bukiyip,Bukiyip,Nuclear Torricelli,36,27,transnewguineaorg,baseline_inventory_not_a_gain
+nua-buna,Buna,Nuclear Torricelli,170,106,transnewguineaorg,baseline_inventory_not_a_gain
+nua-bungain,Bungain,Nuclear Torricelli,38,33,gled,baseline_inventory_not_a_gain
+nua-eitiep,Eitiep,Nuclear Torricelli,36,34,gled,baseline_inventory_not_a_gain
+nua-elepi,Elepi,Nuclear Torricelli,37,32,gled,baseline_inventory_not_a_gain
+nua-elkei,Elkei,Nuclear Torricelli,44,33,transnewguineaorg,baseline_inventory_not_a_gain
+nua-galu,Galu,Nuclear Torricelli,38,31,transnewguineaorg,baseline_inventory_not_a_gain
+nua-heyo,Heyo,Nuclear Torricelli,38,32,transnewguineaorg,baseline_inventory_not_a_gain
+nua-inebu-one,Inebu One,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-juwal,Juwal,Nuclear Torricelli,64,34,gled,baseline_inventory_not_a_gain
+nua-kamasau,Kamasau,Nuclear Torricelli,305,124,johanssonsoundsymbolic,baseline_inventory_not_a_gain
+nua-kombio,Kombio,Nuclear Torricelli,41,37,gled,baseline_inventory_not_a_gain
+nua-minidien,Minidien,Nuclear Torricelli,42,33,transnewguineaorg,baseline_inventory_not_a_gain
+nua-mol,Mol,Nuclear Torricelli,45,34,transnewguineaorg,baseline_inventory_not_a_gain
+nua-molmo-one,Molmo One,Nuclear Torricelli,40,37,gled,baseline_inventory_not_a_gain
+nua-mufian,Mufian,Nuclear Torricelli,67,35,gled,baseline_inventory_not_a_gain
+nua-nabi-metan,Nabi-Metan,Nuclear Torricelli,51,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-ningil,Ningil,Nuclear Torricelli,41,32,transnewguineaorg,baseline_inventory_not_a_gain
+nua-olo,Olo,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-seta,Seta,Nuclear Torricelli,105,59,transnewguineaorg,baseline_inventory_not_a_gain
+nua-seti,Seti,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-siliput,Siliput,Nuclear Torricelli,44,33,transnewguineaorg,baseline_inventory_not_a_gain
+nua-srenge,Srenge,Nuclear Torricelli,43,34,transnewguineaorg,baseline_inventory_not_a_gain
+nua-urat,Urat,Nuclear Torricelli,40,30,transnewguineaorg,baseline_inventory_not_a_gain
+nua-urim,Urim,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-urimo,Urimo,Nuclear Torricelli,75,37,gled,baseline_inventory_not_a_gain
+nua-walman,Walman,Nuclear Torricelli,74,37,gled,baseline_inventory_not_a_gain
+nua-wanap,Wanap,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-wiarumus,Wiarumus,Nuclear Torricelli,34,30,gled,baseline_inventory_not_a_gain
+nua-wom-papua-new-guinea,Wom (Papua New Guinea),Nuclear Torricelli,79,37,gled,baseline_inventory_not_a_gain
+nua-yahang,Yahang,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-yambes,Yambes,Nuclear Torricelli,95,38,gled,baseline_inventory_not_a_gain
+nua-yangum-dey,Yangum Dey,Nuclear Torricelli,35,33,gled,baseline_inventory_not_a_gain
+nua-yangum-mon,Yangum Mon,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-yau-sandaun-province,Yau (Sandaun Province),Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-yeri,Yeri,Nuclear Torricelli,39,36,gled,baseline_inventory_not_a_gain
+nua-yil,Yil,Nuclear Torricelli,46,35,transnewguineaorg,baseline_inventory_not_a_gain
+nua-yis,Yis,Nuclear Torricelli,45,34,transnewguineaorg,baseline_inventory_not_a_gain

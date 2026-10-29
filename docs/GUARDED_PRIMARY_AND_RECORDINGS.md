@@ -46,3 +46,10 @@ admission, not a fallback that reinterprets source pronunciations. Source/member
 historical reading rules in `custom/historical_evidence.csv` annotate exported
 comments independently of segment origin and participate in freshness checks.
 [Ancient batch](ANCIENT_EXPANSION_2026-10-28.md).
+
+A dictionary whose inherited source code is too coarse may use an exact registered
+source/target scope after primary identity review. Sanzhi's `dictsanzhi_dar` source
+code darg1241 maps only to target sanz1248 through its guarded rule; other Dargwa
+members are not covered. The finite-profile compiler preserves all scope fields.
+Explicit original dictionary noun/verb conflicts now fail profile compilation;
+unknown labels and other semantic/POS relations still need manual review.

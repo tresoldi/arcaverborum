@@ -30,10 +30,10 @@ with sync_playwright() as p:
         assert all(not r["Segments"] and r["Segments_Source"] == "unclean" for r in rows)
         assert all("by-nc-sa/4.0" in r["License"] and "attribution" in r["Comment"] for r in rows)
     rows = export("atl-gyele")
-    assert len(rows) == 228
+    assert len(rows) == 231
     assert sum(r["transcription_source"] == "gled" for r in rows) == 36
     original = [r for r in rows if r["transcription_source"] == "gyelioriginal"]
-    assert sum(r["Segments_Source"] == "profile" for r in original) == 191
+    assert sum(r["Segments_Source"] == "profile" for r in original) == 194
     assert sum(not r["Segments"] for r in original) == 1
     assert all(
         "native_sha256" in r["Comment"] and r["mapping_review"] != "source mapping; no local review recorded"
@@ -55,8 +55,8 @@ with sync_playwright() as p:
     assert all("M-tone" in r["Comment"] and "by-nc-sa/4.0" in r["License"] for r in rows)
     assert next(r for r in rows if r["Form"] == "kpár")["concept_id"] == "phy-rain-raining"
     rows = export("atl-fwe")
-    assert len(rows) == 189 and sum(r["transcription_source"] == "gled" for r in rows) == 47
-    assert sum(r["Segments_Source"] == "profile" for r in rows) == 141
+    assert len(rows) == 194 and sum(r["transcription_source"] == "gled" for r in rows) == 47
+    assert sum(r["Segments_Source"] == "profile" for r in rows) == 146
     rows = export("afa-sidamo")
     assert len(rows) == 94 and sum(r["transcription_source"] == "gled" for r in rows) == 49
     original = [r for r in rows if r["transcription_source"] == "sidaamaoriginal"]

@@ -220,3 +220,15 @@ versions may be immutable DOI/document hashes rather than Git commits.
 
 For bounded reviewed dictionary primaries, unlinked community-member selectors
 and recording-only metadata, see [the evidence format](docs/GUARDED_PRIMARY_AND_RECORDINGS.md).
+
+## Worldwide follow-up reproduction state
+
+WF01–WF12 is closed; see docs/WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md. Verify
+new original dictionaries with scripts/verify_worldwide_sources.py --manifest
+docs/worldwide_followup_sources_2026-10-29.json. The optional Text-Fabric command
+in scripts/stage_bhsa_lexical.py reproduces14 written lexemes from23 pinned features.
+Coptic materialization now uses two independently hashed files (58 rows); RVID's
+complete derivative is92 rows/seven samples. Existing namespace expansions already
+succeeded: do not replay older expected counts or append a namespace twice.
+Cumulative profile reviews retain earlier exact keys and identity-scope fields;
+do not compile a new partial slice over an existing profile inventory.

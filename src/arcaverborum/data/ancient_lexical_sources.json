@@ -11,8 +11,20 @@
     "name": "Coptic (Sahidic dictionary forms)",
     "license": "https://creativecommons.org/licenses/by-sa/4.0/",
     "citation": "Feder, Frank, Maxim Kupreyev and contributors. Comprehensive Coptic Lexicon / Coptic Dictionary Online; CopticScriptorium dictionary snapshot d39e8a844779c8e7f89f88a78e21c1e92957f1f1.",
-    "review": "docs/worldwide_gw08_coptic_review_2026-10-29.csv",
-    "stage": "Sahidic Coptic"
+    "review": "docs/worldwide_wf09_coptic_review_2026-10-29.csv",
+    "stage": "Sahidic Coptic",
+    "resources": [
+      {
+        "filename": "01_Alpha.xml",
+        "url": "https://raw.githubusercontent.com/CopticScriptorium/dictionary/d39e8a844779c8e7f89f88a78e21c1e92957f1f1/xml/01_Alpha.xml",
+        "sha256": "e4c7fda9e82519f997f4d859f65b5fe116f779712ce8749ccf8d9900afbb7ec5"
+      },
+      {
+        "filename": "02_Beta.xml",
+        "url": "https://raw.githubusercontent.com/CopticScriptorium/dictionary/d39e8a844779c8e7f89f88a78e21c1e92957f1f1/xml/02_Beta.xml",
+        "sha256": "f5f057cac1251bac2f0506d92271ac30efc3156b407d329b49a220b441971f58"
+      }
+    ]
   },
   {
     "dataset": "tlaearlieregyptian",

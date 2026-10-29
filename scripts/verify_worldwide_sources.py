@@ -23,9 +23,9 @@ def git(root, *args):
     return subprocess.check_output(["git", "-C", str(root), *args], text=True).strip()
 
 
-def verify(*, fetch=False):
+def verify(*, fetch=False, manifest=MANIFEST):
     resources = 0
-    for name, spec in json.loads(MANIFEST.read_text()).items():
+    for name, spec in json.loads(manifest.read_text()).items():
         if "resource_sha256" in spec:
             root = ROOT / "raw/lexibank" / name
             if fetch:
@@ -60,5 +60,8 @@ def verify(*, fetch=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fetch", action="store_true")
+    parser.add_argument("--manifest", type=Path, default=MANIFEST)
     args = parser.parse_args()
-    print("Verified", verify(fetch=args.fetch), "pinned source resources; active intake unchanged")
+    print(
+        "Verified", verify(fetch=args.fetch, manifest=args.manifest), "pinned source resources; active intake unchanged"
+    )

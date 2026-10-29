@@ -5,6 +5,46 @@ Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## Worldwide WF01–WF12 resolutions — 2026-10-29
+
+[Execution](../WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md) supersedes earlier slice
+ceilings. All twelve closed; holds below require actual new evidence.
+
+* Palula43/Nen42/Teop58 finite profiles now exist; Chintang26,Teanu24,Sanzhi20,
+  Kalamang30 added. Further exact senses/alternatives need authored review.
+  Palula22 dictionary core cannot justify replacing33-core GLED primary.
+* Vietnamese104 raw candidate records held: original WOLD Hanoi scope versus
+  frozen conversion dialect/tone authority unresolved. No valid-token shortcut.
+  Kraft macrons/slash fallbacks, Enga acute and Ap Ma undertilde remain unresolved.
+* Opata64/Bella Coola27/Bribri16 decisions remain held; Bella Coola original
+  Bentinck Arm/Ya-kowd-las1875–76 context recovered, historical phonetic key absent.
+  Complete Bribri alternatives need an explicit recovery mechanism; never select one.
+* Sanzhi exact sanz1248 scope is resolved and admitted separately; coarse source
+  darg1241 does not authorize pooling with North-Central Dargwa. New named variety,
+  not a new distinct-language claim. American dictionary routes mostly already
+  represent accepted languages; metadata or spelling aliases do not create languages.
+* West Papua Mairasi84/Suabo117/Hatam106/Moskona128/Sentani112/Kalamang141 core.
+  Hatam-Borai and Moskona-Merdey source identities were not pooled. Incisor/leg-foot,
+  dirty-water and Mairasi dy cases remain original-context/notation holds.
+* Nuclear Torricelli46-construction inventory is not46 gains;8 written additions
+  across three varieties. Yeri grammar pinned for research, no reusable lexical
+  export license established; Urim Yangkolen dictionary metadata says unavailable
+  online, direct403. Do not replace these gates with generic family-wide profiles.
+* Wubuy author permission page allows copying/dissemination, but direct dictionary
+  retrieval403: no acquired lexical payload claimed. Need actual bytes and notation.
+* BHSA14 substantive written lexemes now admitted with word-level Hebrew/Aramaic
+  separation, source lexical IDs and verse witnesses. Proclitics are excluded;
+  later pointed stems are context, not complete citation forms or ancient IPA.
+  Further exact lexical/stage review remains; Etruscan neri/phersu and Elamite
+  EW111/499/EW600 remain unrepaired. Coptic58 across Alpha/Beta now admitted written.
+* Milanese39 supplied readings; RVID92/seven samples, Travo/Lugo/Ascrea9/15/35.
+  Earlier andà/bianch and '?' cells stay held. Six exact world/fruit-plant/hardness
+  rules correct47 earlier accepted mappings. All lexical records retained.
+* Three newly proposed profiles (Nen/Teanu sail nouns, Kalamang drill verb) were
+  withheld before publication: no matching frozen noun/verb target. Raw dictionary
+  rows remain. The compiler now rejects explicit dictionary noun/verb conflicts;
+  this is not automatic validation of every other POS or sense relation.
+
 ## Worldwide GW resolutions — 2026-10-29
 
 [Execution](../WORLDWIDE_EXPANSION_2026-10-29.md) and authored GW reviews supersede

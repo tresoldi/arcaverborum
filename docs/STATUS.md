@@ -1,78 +1,78 @@
 # Current project state
 
-Planning: [worldwide follow-up WF01–WF10](WORLDWIDE_FOLLOWUP_2026-10-29.md) is proposed; no new lexical batch authorized.
-
 Updated2026-10-29. Latest accepted batch:
-[Worldwide GW01–GW10](WORLDWIDE_EXPANSION_2026-10-29.md), all ten authorized tracks
-completed sequentially with admissions, corrections or evidence holds.
-[Realized metrics](worldwide_expansion_summary_2026-10-29.json) are authoritative.
-Previous African data baseline:`f1e6f1a9bddf09c6fa1c524f39252eaf328eff18`.
+[Worldwide follow-up WF01–WF12](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md), all twelve
+closed after the user added West Papua and Torricelli. [Metrics](worldwide_followup_summary_2026-10-29.json)
+are authoritative. Baseline commit:`0ad3789e8ee2502d8dfc39349fe6051a8bfb8954` (preceding GW data:`b115e6806783f0b9e5d94df71ef232e2ac586814`).
 
 ## Accepted baseline
 
 | Measure | Accepted value |
 | --- | ---: |
-| Varieties | 7,336 |
-| Forms | 2,071,137 |
-| Supplied-source forms | 1,746,959 |
-| Profile-derived forms | 14,506 |
-| Supported core slots | 469,063 |
-| Mapped core slots | 542,891 |
-| Supported all-concept slots | 1,207,446 |
-| Mapped all-concept slots | 1,334,838 |
+| Varieties | 7,338 |
+| Forms | 2,071,680 |
+| Supplied/upstream-converted forms | 1,747,252 |
+| Profile-derived forms | 14,686 |
+| Supported core slots | 469,305 |
+| Mapped core slots | 543,144 |
+| Supported all-concept slots | 1,207,854 |
+| Mapped all-concept slots | 1,335,284 |
 | GLED primaries | 1,573 |
-| Core-source varieties | 912 |
+| Core-source varieties | 915 |
 
-Frozen vocabulary3,787 concepts/161 core. Added657 records (459 supplied/source
-conversions,116 finite profiles,82 written), +532 net supported slots including482
-core. Corrected3 earlier slot overcounts;83 earlier row mappings change. Broome
-Pearling Lugger Pidgin is one new language,11 written records; Travo/Lugo/Ascrea are
-three new named samples,13 infinitives, not new languages. Ten previously held
-Bribri original IPA readings recovered as new records; no earlier reading changed.
-All787 Elamite readings now carry original dictionary/period/uncertainty context.
+Frozen vocabulary3,787 concepts/161 core. Added543 records:293 supplied/source
+conversions,180 finite profiles,70 written. +408 net supported slots:411 gross
+minus3 earlier overcounts;242 core/166 non-core net. Corrected47 earlier mappings
+through six exact source-sense rules. All2,071,137 earlier records/readings/cognacy
+and original evidence retained.403 derived profile-digest annotations revalidated;
+no earlier reading or mechanical quality score changed.
 
-Core-source is a row-level source preset, independent of the161-concept vocabulary.
-Source status is not independent phonetic elicitation: upstream conversions remain
-disclosed; finite profiles are derived, and written-only evidence adds no phonetic
-support. GLED1573 unchanged: no forced primary promotion from an incomplete slice.
-Earlier quality scores are unchanged and are not linguistic certification.
+Two new named varieties: Sanzhi Dargwa20 profile readings and Biblical Aramaic
+(BHSA corpus)5 written lexemes. Zero new distinct-language claims or GLED swaps.
+West Papua61 records across six existing languages; Torricelli8 written records
+across three. BHSA14 substantive lexemes in all, Coptic22 more Beta forms; no new
+Etruscan/Elamite readings inferred. Three sail/drill POS-conflicting profiles held
+before publication and excluded from the543 additions.
+
+Core-source is a row-level collection preset, independent of the161-concept filter.
+Upstream conversions are disclosed, finite profiles are derived, and written-only
+records do not add phonetic support. Palula's43 dictionary readings cover22 core,
+versus33 core in108 preserved GLED records; no promotion from that incomplete slice.
 
 ## Verification and publication
 
-449 tests/full lint pass. All7,336 accepted builds pass, zero failures.
-All2,070,480 earlier lexical records, readings, source cognacy and original comments/
-JSON evidence preserved with exactly83 reviewed semantic changes. 401 website
-hashes and3 aggregate-input hashes match. All19,768 new original dictionary rows,
-726 African-original rows,46 RVID and36 Coptic rows reproduce. 78 source resources
-and23 BHSA feature hashes verified;15 original lemma/verse/language witnesses.
-All five local research/worldwide/African/ancient/mixed-source browser suites pass.
-Lexical data commit: `b115e6806783f0b9e5d94df71ef232e2ac586814`.
-[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40867211283) passes Python3.12/3.13;
-[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40867211550) succeeds.
-Canonical live manifest, catalog, bibliography, recordings and17 worldwide family
-shards match committed bytes. Updated worldwide live browser/export checks pass.
-Subsequent documentation-only closure keeps these lexical artifact hashes unchanged.
+456 tests/full lint pass. All7,338 accepted builds pass, followed by three corrected
+POS-affected builds. Preservation checks validate every earlier record and original
+comment/evidence (only checked profile-artifact digests change),401 website hashes
+and3 aggregate-input hashes.89 follow-up source-resource checks plus78 legacy GW
+checks,23 BHSA feature pins; complete staged lexical/parameter/citation/terms
+reproduction recorded in [proof](worldwide_followup_reproduction_2026-10-29.json).
+Local browser workflows cover research/worldwide/African/ancient/Romance/mixed-source.
+Canonical publication verification is pending the data commit and push.
 
-The site publishes tracked catalog,399 family shards, bibliography and755 recording
-metadata rows. Pages publishes tracked artifacts; it does not rebuild lexical data.
+The site publishes tracked artifacts:399 family shards, source bibliography and755
+recording metadata rows. Pages copies committed data; it does not rebuild lexica.
 
 ## Evidence, source state and next work
 
-[Execution and decisions](WORLDWIDE_EXPANSION_2026-10-29.md),
-[immutable pins](worldwide_execution_sources_2026-10-29.json),
-[post-batch selected members](worldwide_postbatch_selected_members_2026-10-29.csv) and
-[method/counts](worldwide_postbatch_opportunities_2026-10-29.json) support planning.
-[NEXT](NEXT.md) closes GW01–GW10; [HELD](planning/HELD.md) defines exact reopening
-evidence. Americas/South America and Etruscan/Elamite remain standing priorities.
+[Execution](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md),
+[pins](worldwide_followup_sources_2026-10-29.json),
+[acquisitions](worldwide_followup_acquisitions_2026-10-29.json),
+[remaining members](worldwide_followup_remaining_members_2026-10-29.csv),
+[rank method/counts](worldwide_followup_opportunities_2026-10-29.json).
+[NEXT](NEXT.md) closes all twelve and leaves unapproved proposals;
+[HELD](planning/HELD.md) records exact reopening evidence. Americas/South America
+and Etruscan/Elamite retain standing priority; added West Papua/Torricelli interest
+is retained separately from genealogical classification.
 
-Intake7,212,459 rows. Four original dictionary namespaces total19,768 rows, appended
-once. Existing-source expansions are complete: African originals111/142/192/50/88/
-45/45/53 (726 total); RVID46, Coptic36. Do not replay old namespace appends or old
-expected-count migrations; never subset-ingest over active tables. RVID's title-only
-metadata migration is recorded separately. Jê463 and its older251/371 migrations
-remain unchanged. See the report for full source-specific safeguards.
+Intake7,236,931 rows (+24,472). Five new full dictionaries total24,382 raw rows;
+African-original namespaces total734 (Fwe147,Gyeli195,Ruruuli111 and the other
+unchanged namespaces); RVID92,Coptic58,BHSA14 reproduce. New namespaces appended
+once; existing expansions are complete. Never replay earlier142/192/36/46 expected
+counts or overwrite active intake with a subset. Jê463 and older migrations unchanged.
+Unknown frozen Wiktionary snapshot metadata were not backfilled from current terms.
 
-Configs, guarded ledgers/profiles, registries, packets and recipes remain the source
-of truth. Generated intake/aggregates are local products. Use [ONBOARDING](../ONBOARDING.md),
-[coverage workflow](workflows/arca-coverage-planning/SKILL.md), [journal](JOURNAL.md)
-and [history](history/README.md) for continuation.
+Configs, guarded ledgers/profiles, registries, packets and recipes remain truth.
+Generated intake/aggregates are local products. See [ONBOARDING](../ONBOARDING.md),
+[workflow](workflows/arca-coverage-planning/SKILL.md), [journal](JOURNAL.md),
+[history](history/README.md) and [earlier GW execution](WORLDWIDE_EXPANSION_2026-10-29.md).

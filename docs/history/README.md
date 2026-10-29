@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Worldwide follow-up WF01–WF12,2026-10-29](../WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md):543 records,408 net supported slots, West Papua/Torricelli, two named varieties, original dictionary depth, ancient context and semantic corrections. [Metrics](../worldwide_followup_summary_2026-10-29.json).
+
 * [Worldwide GW01–GW10,2026-10-29](../WORLDWIDE_EXPANSION_2026-10-29.md):
   657 records,532 net supported slots,one written-only new language,three named
   Italian samples,original IPA/context recovery and semantic correction.

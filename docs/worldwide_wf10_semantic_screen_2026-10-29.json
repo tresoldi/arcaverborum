@@ -1,0 +1,6 @@
+{
+  "exact_senses": 6,
+  "raw_source_rows": 700,
+  "guarded_admission_conflicts": [],
+  "limitations": "Accepted mapping corrections and slot changes require before/after preservation audit; raw row count is not a lexical gain."
+}

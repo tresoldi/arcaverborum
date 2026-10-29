@@ -1,0 +1,216 @@
+{
+  "intake_rows": 7236931,
+  "source_stages": [
+    {
+      "dataset": "dictchintang",
+      "forms": 10822,
+      "stage": "raw/curation/wf-stage-dictchintang/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "c6119ba5aa4953df4fcd5b532ae170f963317e0de02b5363fae7c2351f5e6920",
+        "languages.csv": "049f88b6a2262eb936b2d7c460e2128fcec93a1cbb41a08efdfedc793efad6c0",
+        "parameters_raw.csv": "33f62c62d7ee25e4c97b9b46d3cdd220fa8d25b5b24f7db3b23579f7d6d76c1c",
+        "metadata.csv": "b07d6db6087acb5a910187ce8327ff5093f388fade36cc8b7d625330b4488565",
+        "sources.bib": "b186fdfad429236166a08386a2f6e20ddefd3e5ce398cd4cbabb68f3e1abc7b0"
+      }
+    },
+    {
+      "dataset": "dictdaakaka",
+      "forms": 2229,
+      "stage": "raw/curation/wf-stage-dictdaakaka/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "20b258583b0b636719282f15da9e6384eb4111f3520402cc8d64023380db960c",
+        "languages.csv": "3d5fd056c1a7a425ded5fc4b0ab59a19c17273afd8837f055b39e79f78b2ed81",
+        "parameters_raw.csv": "97df3ed5519bf1a91edcdf03b4c54e4464824a49a4a7dba774adf9fd37c143fb",
+        "metadata.csv": "c9e46ea5c3c4e899b980c9168a1784f6922d2d5cd43f605f3cb16b21acee27aa",
+        "sources.bib": "35039d38b45c2659e80c6ba3214d04daf8dd4a093cc15a052fff98f3149d333a"
+      }
+    },
+    {
+      "dataset": "dictteanu",
+      "forms": 2781,
+      "stage": "raw/curation/wf-stage-dictteanu/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "cf2db0332bd25f0131fbbdcb5dd664a2e3f21cb20b243bd4439a19a6f703e4f8",
+        "languages.csv": "dedb4a0397f44dabe0273715197fa32be7ed39f19c111b83dab21dd2af3513bd",
+        "parameters_raw.csv": "08c196af318fac8ae78b9629599b4c3324080a3f0b7a841293347eb181d66b55",
+        "metadata.csv": "1910d4087f442d4866b3c7e2d48105b864510ff3a2c61bda82ef6c1bdc21bed0",
+        "sources.bib": "953b5f56afd76818a910bacf8ebe27748a3631e8cc0e5841c2af6ff66b8ebb57"
+      }
+    },
+    {
+      "dataset": "dictsanzhi",
+      "forms": 5793,
+      "stage": "raw/curation/wf-stage-dictsanzhi/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "0a47e5e2b78b36b4a490f3b124125b26bcc35269e9a2cb8372c703cae86cd205",
+        "languages.csv": "1b4e15f488b34ee7ec90f4d5dc8a403dbdd4de01745004c4b787df1869fdfe73",
+        "parameters_raw.csv": "53e606a34c7b740ffae59ca30627fc9868c02e416b9cbd73ede3fa0b9307edb7",
+        "metadata.csv": "d3c9651e87059304db1c27b428d7b46cf65d3024f2246c136b5cd76c26198509",
+        "sources.bib": "48b23940c21dcba6a03df6ada2fb572f31dec2eb3b4c34d8edc3c58d2ba96dbd"
+      }
+    },
+    {
+      "dataset": "dictkalamang",
+      "forms": 2757,
+      "stage": "raw/curation/wf-stage-dictkalamang/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "f40149ca6666fc6456425b17f173bfba1cac71b950390a1076b3bb4555f3e59b",
+        "languages.csv": "d74544ae8cd82f1ed6f1331e29d3efd8d2275e64561380e9833fbb88c03c6a4d",
+        "parameters_raw.csv": "68f114fb2103fd639249cb03b22a7598a8f435555c45fc3cef338817473b69bb",
+        "metadata.csv": "ad0a7f97ff7ad71eb32f477b942bc224875ef6942cb631cdd8e18890094daf96",
+        "sources.bib": "d3657ae0722015b05a3fd85ff5fea09ee6486a8662f58a881e1cb3d8caeeb302"
+      }
+    },
+    {
+      "dataset": "bhsalexical",
+      "forms": 14,
+      "stage": "raw/curation/wf-stage-bhsalexical/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "b23cb2f60ae90d58719e5460716e23d2477283efeb08be21ce11053d27a77dc7",
+        "languages.csv": "289c14a7fa368d8aa29e9b47bfb2cf60ae7053106bc068b404149f3e76ccdeb8",
+        "parameters_raw.csv": "e2acced1b7b92904979eb5b654120afac1f8afff43cfc3bde780c22b755ebd40",
+        "metadata.csv": "53c224dac09146ecdee4b60c01299e1bb37d96df311254c90cca91c742e8a06e",
+        "sources.bib": "991ed0b5972441185d4ca37a9e9f31a4ba920a344fc3ce82c3d720c1e5e76fcf"
+      }
+    },
+    {
+      "dataset": "fweoriginal",
+      "forms": 147,
+      "stage": "raw/curation/stage-fweoriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "688cdf6838d6fe52b7f8427c19c62b96f37711ae3044099ccf86db23d046c650",
+        "languages.csv": "a0e5d9b2b045e289e26031d897009937b7c8bcc23e8db100c5d699b9b163c724",
+        "parameters_raw.csv": "e5ad0cb9395ce1453f3107dcc6d496a6579a839e0fab4eb099516dc78861532f",
+        "metadata.csv": "0e6fedbef7ff08f34bb41a83d1ab230ae1fad3c90412b7dd193372d4975da955",
+        "sources.bib": "dcd06f83ad2774cbb6a0f830e2094dd9b94a0d803302f9b94eb73c95366a0c62"
+      }
+    },
+    {
+      "dataset": "gyelioriginal",
+      "forms": 195,
+      "stage": "raw/curation/stage-gyelioriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "71e98e0a7a939745d9483a862226d0183b1f0ca14c47332820fb0a5ba715d141",
+        "languages.csv": "edd01854da5b18abac6abbe60b3b5851fef4534cf47fe755e62cdbc9974e4d9e",
+        "parameters_raw.csv": "1fedaf23469f023878c7e7463a827728e222a5e4d1b150a7d4d6ab1906873c1f",
+        "metadata.csv": "75ba38258a935b7e9fa438097bb9f4ebaf5d80768059fb77969af8c3fbe020e4",
+        "sources.bib": "77c46b3b9db7c53d4cf3749e639839c28371429821a4c330c19bab78129deaaa"
+      }
+    },
+    {
+      "dataset": "ruruulioriginal",
+      "forms": 111,
+      "stage": "raw/curation/stage-ruruulioriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "bb0265109567f1223f4ee2d5cbdba75351bc4b44ad072ead606bfda372e088da",
+        "languages.csv": "3c0ab547cf274d39ea18dab6c5645fdd5bf2fd8f07cbeac627ef697c8c4a466b",
+        "parameters_raw.csv": "24fc802b8eee0e6ec6302f672b4a00f583cda1c37a174d66dae24cc091347887",
+        "metadata.csv": "98a8268af017cbca15510730ebf6740cf39da5e795567e49cfe6ec4889982710",
+        "sources.bib": "01519182e2f906784d675972a6a3c03fe709f89ee2082a63e22eacd79fddad71"
+      }
+    },
+    {
+      "dataset": "reflexoriginal",
+      "forms": 50,
+      "stage": "raw/curation/stage-reflexoriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "6291e5d8db16f4e4d9d2e2dfa40cda441f98a6b9ba79c8acdb6a6d6cf2b4ba80",
+        "languages.csv": "6a523da53cbb7964348c55b11880722c1613173c1cc65fd0df7c239fb565f638",
+        "parameters_raw.csv": "769a7c1bfbdb8ad841df853314a263ec29ad16d17c688843794d637729e2f62e",
+        "metadata.csv": "4d01f8ac37937b8a57741adaee70f04a6015cdd65648016e3f0d5ad54edcbbc9",
+        "sources.bib": "722885cc87689a2b2dcf43f155fcc83a53b04503c3314250ceefdf87f7cf007e"
+      }
+    },
+    {
+      "dataset": "westafricanoriginal",
+      "forms": 88,
+      "stage": "raw/curation/stage-westafricanoriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "4c2a5d7e86d4ca8be33de3e3687ff5c44230814c86cb37dafb947f6ca23bcaea",
+        "languages.csv": "fc7c7b6f942fc03a730dddec8e6e2389ae77eb6e40c9c7be1def4436db2f8a4a",
+        "parameters_raw.csv": "cb4d1988a0f75ecd4d87441b273c3b9df89b288e0921279d751138690ce3a8e4",
+        "metadata.csv": "908285d0072ad049833634c662e4de1f399ee359b565fa7139f64d19302bb090",
+        "sources.bib": "866653018db89b73639b0743169773bd094751499d1422099d55f9a1b34f0d1f"
+      }
+    },
+    {
+      "dataset": "hdioriginal",
+      "forms": 45,
+      "stage": "raw/curation/stage-hdioriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "57830406d7a3f98374c5fc8da0a6a9d67a6a472081d13e0d6a6f0a1186f01263",
+        "languages.csv": "069ab9238eec100045eb58bf9282c2f9348b311dda8a39fa4bbc3fe4c4360b41",
+        "parameters_raw.csv": "39cfe07e15b1c37174113bf44cbbfcd2db3c5b3d8feb4037252ef52178f77fc2",
+        "metadata.csv": "2c040340138237c9c4282b6a3b7629fa9c4911f06d996754ad6a7114155f825b",
+        "sources.bib": "31443570e01caec89ca755d2a427c52a974153d3a78c481e4b4bbb80f1af5d44"
+      }
+    },
+    {
+      "dataset": "sidaamaoriginal",
+      "forms": 45,
+      "stage": "raw/curation/stage-sidaamaoriginal/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "c0dfedf9940ff1872694ca240db37f6b28d0388fd3891067d971e707c00b1aef",
+        "languages.csv": "c0f6f02b3e6830221f0c77efc1fc050378fb46032375655046bbffbbcda44bdd",
+        "parameters_raw.csv": "4e2a6f2a265a07e882c9d59ced887eddbe609645efdd7dac441c222033c96ff3",
+        "metadata.csv": "6aa2c31fd802a0407683b5dc4846b7b277bcde812f091788d3f19de2382c4c16",
+        "sources.bib": "bde584c512fe50deb29db528eee7f04b23bacd83dba1eeb38bdd385e031417bd"
+      }
+    },
+    {
+      "dataset": "reflexdiversity",
+      "forms": 53,
+      "stage": "raw/curation/stage-reflexdiversity/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "ded8ede6ee9348e140dd394d3a9a94fa420c0fb79392121fa601ef8308377173",
+        "languages.csv": "a656b7d6688976e190869930c39c9716e240bc600fe8cc9c9bb2c71707dd5035",
+        "parameters_raw.csv": "9b51494ab71885607c6247d653cd0717d178fc7d06f5ab3202ca5c5c0696205f",
+        "metadata.csv": "2ed51d643e6a4fc4fc58e0ced37abe07e079d4e41cce5011314a003fd5f9fa47",
+        "sources.bib": "840ca5bd49be9ca862e322ecc2d73bb42e9260aca3042de70c11b6a8085dad18"
+      }
+    },
+    {
+      "dataset": "copticsahidic",
+      "forms": 58,
+      "stage": "raw/curation/stage-copticsahidic/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "dc475a183f53071d97c39a4c83f199ef6f8af4c4c81dadd102609fc628bbe281",
+        "languages.csv": "69837a3f7e3f36e3d725ec98e6b57f1c7ec51b822dd079094b8f074713dd1898",
+        "parameters_raw.csv": "b7405221df1345de31a217be5462dfff75c4033775e33b215b16b9abd7e36f96",
+        "metadata.csv": "13280acb633c1fbbef25e6d65a1e4bb32a2615318b9a4d819837a81aaa34b48a",
+        "sources.bib": "a767d54f9be599fb26b4b1993c4fe6d8f17b0838fcc57596d6919355117f2ff7"
+      }
+    },
+    {
+      "dataset": "rvidinfinitives",
+      "forms": 92,
+      "stage": "raw/curation/wf-stage-rvid/lexibank",
+      "status": "exact_lexical_fields_parameters_and_metadata_match",
+      "resource_sha256": {
+        "forms.csv": "6ed58c177cd6a7c07a68118c95cef6172241f7378b37bdc501fc86313c84b3e9",
+        "languages.csv": "ea2def8fa8b336eb26a071515f00143029fec5960e37972e7d34ff5f0be43fbc",
+        "parameters_raw.csv": "14f715ba4f9f59df2605dca67d1f10de4cc9861e61271efb45b941c5fb7efa76",
+        "metadata.csv": "d9589083c2276443110eb14118d0cdee2ee07c063a0774c414da7c978748d6e0",
+        "sources.bib": "f717868defe42257cc8e313b4b456b16f6a539ca67bb3ffa3725a58e75655a1c"
+      }
+    }
+  ],
+  "all_source_metadata_unchanged": true,
+  "bhsa_feature_manifest": "docs/worldwide_gw08_bhsa_linkage_sources_2026-10-29.json",
+  "bhsa_feature_resources": 23
+}

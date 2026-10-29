@@ -38,3 +38,18 @@ worldwide_review_2026_10_29:
   preservation: Earlier lexical records/readings and native cognacy/evidence retained
     with exact reviewed semantic corrections. No unreviewed profile, historical IPA
     or new-language identity inferred.
+worldwide_followup_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md
+  primary: fweoriginal
+  forms: 194
+  supported_core: 60
+  source_statuses:
+    profile: 146
+    unclean: 1
+    source: 47
+  preservation: Earlier lexical records/readings/cognacy and native evidence retained.
+    Only six exact shared sense rules change earlier mappings; profile artifact hashes
+    were revalidated.
+  reading_scope: Guarded source conversions, supplied IPA, finite dictionary profiles
+    or explicit written-only rows; see custom ledgers and authored source reviews.

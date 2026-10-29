@@ -1,5 +1,25 @@
 # Project journal and working memory
 
+## 2026-10-29 — Worldwide WF01–WF12 executed, with West Papua/Torricelli
+
+User authorized all ten prior proposals plus added West Papua and Torricelli,
+sequentially with autonomous specifics. Closed twelve bounded reviews:543 records
+(293 source/supplied conversions,180 profiles,70 written);408 net supported slots,
+242 core/166 non-core.47 older semantic mappings corrected,3 old overcounts removed.
+All2,071,137 earlier records/readings/cognacy/native evidence retained;403 generated
+profile-digest annotations checked against both actual files. Two named varieties:
+Sanzhi20 profiles, Biblical Aramaic corpus5 written; zero distinct-language claims
+or GLED swaps. West Papua61 records, Torricelli8 written. Five full dictionaries
+24,382 raw rows; total intake7,236,931. African734/RVID92/Coptic58/BHSA14 reproduce.
+Three noun/verb-conflicting sail/drill profiles withheld before publication; compiler
+regression guard added. Coptic supports multiple pinned files without changing Alpha.
+Accepted7,338 constructions/2,071,680 forms/469,305 supported core;915 Core-source.
+456 tests/lint and7,338 full builds pass; three corrected builds revalidated. Source,
+profile, preservation and web hash proofs retained. Execution/metrics in
+WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md and worldwide_followup_summary_2026-10-29.json.
+NEXT/HELD and52 construction packets/recipes updated; canonical publication proof
+will be attached after push. No further lexical batch authorized by closure.
+
 ## 2026-10-29 — Worldwide follow-up recommendations
 
 Prepared WF01–WF10 after completed GW01–GW10, with exact ranked candidate CSV,
