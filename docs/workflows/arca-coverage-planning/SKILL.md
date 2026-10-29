@@ -49,7 +49,7 @@ blanket inversion of source-name rankings.
    do not sum overlapping members or promote a ranking directly into admissions.
 3. Separately inspect sparse constructions, GLED primary replacements, primary-
    source profile recovery, unmapped/non-core vocabulary and genuinely missing
-   languages. The additive ranking excludes the primary source and does not
+   languages. Use `scripts/audit_missing_languages.py` for exact-code absence leads, then exclude family nodes, represented dialects and aliases before counting new languages. Use `scripts/report_source_fidelity.py` for whole-construction preferred support, residual GLED dependence and descriptive notation differences; those are not independent attestations or inferred contrasts. The additive ranking excludes the primary source and does not
    measure all these opportunities. Use `scripts/rank_gled_replacements.py` for
    replacement triage, then review accepted losses as well as gains. Also run `scripts/audit_reviewed_source_choices.py --output PATH` to inventory guarded alternatives across all accepted primaries; this includes authored profile/scoped evidence omitted by raw intake screens, but does not certify quality. The lossless
    supplied-reading screen is only a narrow diagnostic: profile-backed Wiktionary

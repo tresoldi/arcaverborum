@@ -1,0 +1,28 @@
+{
+  "source_resource_and_profile_checks": 37,
+  "cached_pronunciation_decisions": 459,
+  "complete_namespace_reproduction": {
+    "dictwersing": 1617,
+    "copticsahidic": 65
+  },
+  "accepted_coptic_original_records": 63,
+  "withheld_coptic_candidates": [
+    "C431",
+    "C437"
+  ],
+  "source_hashes_verified_by_materializer": true,
+  "all_earlier_accepted_records_preserved": 2071777,
+  "tests": 459,
+  "local_browser_suites": [
+    "research",
+    "mixed_source",
+    "romance",
+    "ancient",
+    "worldwide",
+    "african",
+    "source_preference",
+    "worldwide_wn"
+  ],
+  "website_artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3
+}

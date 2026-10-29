@@ -232,3 +232,11 @@ complete derivative is92 rows/seven samples. Existing namespace expansions alrea
 succeeded: do not replay older expected counts or append a namespace twice.
 Cumulative profile reviews retain earlier exact keys and identity-scope fields;
 do not compile a new partial slice over an existing profile inventory.
+
+For complete research-web rebuilds on this workstation, use disk-backed scratch
+space if `/tmp` is full (its tmpfs is small):
+
+```bash
+mkdir -p raw/curation/web-tmp
+TMPDIR="$PWD/raw/curation/web-tmp" .venv/bin/python scripts/build_research_web.py
+```

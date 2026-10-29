@@ -1,0 +1,269 @@
+{
+  "before": {
+    "varieties": 7338,
+    "forms": 2071777,
+    "source_forms": 1747349,
+    "profile_forms": 14686,
+    "supported_core": 469321,
+    "mapped_core": 543160,
+    "mapped_all_concepts": 1335343,
+    "supported_all_concepts": 1207913,
+    "gled_primaries": 1569,
+    "core_source_varieties": 915
+  },
+  "after": {
+    "varieties": 7341,
+    "forms": 2072270,
+    "source_forms": 1747808,
+    "profile_forms": 14715,
+    "supported_core": 469356,
+    "mapped_core": 543195,
+    "mapped_all_concepts": 1335682,
+    "supported_all_concepts": 1208249,
+    "gled_primaries": 1559,
+    "core_source_varieties": 915
+  },
+  "delta": {
+    "varieties": 3,
+    "forms": 493,
+    "source_forms": 459,
+    "profile_forms": 29,
+    "supported_core": 35,
+    "mapped_core": 35,
+    "mapped_all_concepts": 339,
+    "supported_all_concepts": 336,
+    "gled_primaries": -10,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "aav-birhor",
+      "forms_before": 0,
+      "forms_after": 1,
+      "supported_core_before": 0,
+      "supported_core_after": 1,
+      "primary_before": "",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "afa-coptic",
+      "forms_before": 122,
+      "forms_after": 127,
+      "supported_core_before": 36,
+      "supported_core_after": 36,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "afa-kabyle",
+      "forms_before": 79,
+      "forms_after": 113,
+      "supported_core_before": 38,
+      "supported_core_after": 43,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "alg-unami",
+      "forms_before": 44,
+      "forms_after": 53,
+      "supported_core_before": 42,
+      "supported_core_after": 42,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "ath-western-apache",
+      "forms_before": 43,
+      "forms_after": 49,
+      "supported_core_before": 40,
+      "supported_core_after": 40,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "atl-ewe",
+      "forms_before": 34,
+      "forms_after": 69,
+      "supported_core_before": 28,
+      "supported_core_after": 34,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "atl-kinyarwanda",
+      "forms_before": 192,
+      "forms_after": 201,
+      "supported_core_before": 38,
+      "supported_core_after": 40,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "atl-xhosa",
+      "forms_before": 109,
+      "forms_after": 137,
+      "supported_core_before": 85,
+      "supported_core_after": 85,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "atl-zulu",
+      "forms_before": 222,
+      "forms_after": 303,
+      "supported_core_before": 97,
+      "supported_core_after": 97,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "ine-corsican",
+      "forms_before": 55,
+      "forms_after": 116,
+      "supported_core_before": 51,
+      "supported_core_after": 51,
+      "primary_before": "wiktionary",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "ine-palula",
+      "forms_before": 151,
+      "forms_after": 151,
+      "supported_core_before": 40,
+      "supported_core_after": 40,
+      "primary_before": "gled",
+      "primary_after": "dictpalula"
+    },
+    {
+      "av_id": "ine-scots",
+      "forms_before": 59,
+      "forms_after": 87,
+      "supported_core_before": 37,
+      "supported_core_after": 42,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "map-teanu",
+      "forms_before": 378,
+      "forms_after": 390,
+      "supported_core_before": 140,
+      "supported_core_after": 140,
+      "primary_before": "tryonsolomon",
+      "primary_after": "tryonsolomon"
+    },
+    {
+      "av_id": "may-yucatec-maya",
+      "forms_before": 129,
+      "forms_after": 174,
+      "supported_core_before": 50,
+      "supported_core_after": 50,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "mia-media-lengua",
+      "forms_before": 3216,
+      "forms_after": 3216,
+      "supported_core_before": 132,
+      "supported_core_after": 132,
+      "primary_before": "dictmedialengua",
+      "primary_after": "dictmedialengua"
+    },
+    {
+      "av_id": "mus-chickasaw",
+      "forms_before": 53,
+      "forms_after": 90,
+      "supported_core_before": 50,
+      "supported_core_after": 50,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "nor-gamkonora",
+      "forms_before": 0,
+      "forms_after": 1,
+      "supported_core_before": 0,
+      "supported_core_after": 1,
+      "primary_before": "",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "sit-atong-india",
+      "forms_before": 53,
+      "forms_after": 85,
+      "supported_core_before": 37,
+      "supported_core_after": 44,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "sit-dzongkha",
+      "forms_before": 32,
+      "forms_after": 83,
+      "supported_core_before": 30,
+      "supported_core_after": 37,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "tim-wersing",
+      "forms_before": 396,
+      "forms_after": 408,
+      "supported_core_before": 143,
+      "supported_core_after": 143,
+      "primary_before": "robinsonap",
+      "primary_after": "robinsonap"
+    },
+    {
+      "av_id": "yan-yaroame",
+      "forms_before": 0,
+      "forms_after": 1,
+      "supported_core_before": 0,
+      "supported_core_after": 1,
+      "primary_before": "",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "zap-iquito",
+      "forms_before": 425,
+      "forms_after": 430,
+      "supported_core_before": 129,
+      "supported_core_after": 129,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    }
+  ],
+  "all_earlier_records_readings_cognacy_preserved": 2071777,
+  "derived_per_form_score_recalculations": 599,
+  "variety_level_scores_changed": 0,
+  "original_source_comments_preserved": true,
+  "derived_source_role_comment_changes": 85,
+  "new_records": 493,
+  "new_records_by_status": {
+    "unclean": 5,
+    "source": 459,
+    "profile": 29
+  },
+  "earlier_unmapped_records_now_mapped": 7,
+  "new_supported_slots": 336,
+  "new_supported_core_slots": 35,
+  "new_distinct_languages": 3,
+  "new_intake_rows": 1624,
+  "intake_total_rows": 7238555,
+  "primary_changes": 10,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "WN01",
+    "WN02",
+    "WN03",
+    "WN04",
+    "WN05",
+    "WN06",
+    "WN07",
+    "WN08",
+    "WN09"
+  ]
+}

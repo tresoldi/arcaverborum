@@ -1,0 +1,2 @@
+source,source_form_id,source_language_id,source_glottocode,evidence_sha256,expected_source_concepticon_id,concept_id,decision,mapping_decision,rationale
+wiktionary,wikt_2841241,wikt_gak,gamk1238,b950be78fc76596230dc34af99bd3afda105119010335e04a9896b28bdb57061,948,phy-water,admit,retain,"WN07 exact language-level identity, exact source member and literal water sense reviewed; supplied frozen Wiktionary IPA retained. Single-record pilot with no independent original-dictionary corroboration or inferred phonology."

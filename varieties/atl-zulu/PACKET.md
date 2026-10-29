@@ -19,3 +19,7 @@ No primary cognate judgments are transferred onto dictionary forms.
 The dated admit/hold reviews establish the exact lexical slice. Uncertain units,
 source alignments, semantic senses and source-system conventions remain bounded
 as described in the report and [held register](../../docs/planning/HELD.md).
+
+## WN03 reviewed supplied IPA — 2026-10-29
+
+81 additional exact source records admitted; raw IPA, frozen snapshot and sense decisions are retained in [review](../../docs/worldwide_wn03_review_2026-10-29.csv). Unadmitted candidates remain held; no primary cognacy is transferred.

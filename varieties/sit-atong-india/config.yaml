@@ -4,8 +4,9 @@ glottocode: aton1241
 family: Sino-Tibetan
 macroarea: Eurasia
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
+  source_language_id: wikt_aot
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,8 @@ scoring:
   forms_score: 0.7551
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: WN reviewed bounded primary; earlier source records retained as guarded supplements.
+  Exact source scope/readings preserved; no transferred cognacy or changed variety-level
+  score. See PACKET.md.

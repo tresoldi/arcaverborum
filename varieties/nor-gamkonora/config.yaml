@@ -1,0 +1,24 @@
+av_id: nor-gamkonora
+name: Gamkonora
+glottocode: gamk1238
+family: North Halmahera
+macroarea: Papunesia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+  source_language_id: wikt_gak
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.0
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-29'
+notes: WN07 cached Glottolog language-level identity reconciled with exact Wiktionary
+  member. One supplied-IPA water reading; extremely sparse initial construction, not
+  broad language coverage or independent lexical certification.

@@ -48,3 +48,7 @@ The breathing action is supported by source POS verb and Spanish respirar even
 though the English gloss is written breath. Formal singular you retains its
 register; numeric one retains its article polysemy. Ambiguous English homonyms
 were not bulk-admitted. See docs/amazonian_expansion_dictionary_senses_2026-10-27.csv.
+
+## WN02 — 2026-10-29
+
+Five new exact Iquito partial-tone profiles and seven Media Lengua mappings reviewed in [WN02](../../docs/worldwide_wn02_review_2026-10-29.csv). Media Lengua sell is held for noun/verb conflict. Guarayu profile hold remains; no inconsistent genderlect/nasality system inferred.

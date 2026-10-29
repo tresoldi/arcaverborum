@@ -11,7 +11,7 @@
     "name": "Coptic (Sahidic dictionary forms)",
     "license": "https://creativecommons.org/licenses/by-sa/4.0/",
     "citation": "Feder, Frank, Maxim Kupreyev and contributors. Comprehensive Coptic Lexicon / Coptic Dictionary Online; CopticScriptorium dictionary snapshot d39e8a844779c8e7f89f88a78e21c1e92957f1f1.",
-    "review": "docs/worldwide_wf09_coptic_review_2026-10-29.csv",
+    "review": "docs/worldwide_wn08_coptic_review_2026-10-29.csv",
     "stage": "Sahidic Coptic",
     "resources": [
       {

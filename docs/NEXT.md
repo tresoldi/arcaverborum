@@ -26,21 +26,19 @@ See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-covera
 
 [WS review](WIKTIONARY_SOURCE_SELECTION_2026-10-29.md): Yurok/Ternate additional supplied IPA and reviewed Wiktionary primary preference for Yurok, Ternate, Corsican and Lombard. Preserve all earlier GLED evidence. [All-primary guarded-alternative inventory](reviewed_source_choices_2026-10-29.csv) replaces a core-count-only view of easy opportunities.
 
-## Recommended next worldwide batch — WN01–WN09 (proposed)
+## Recommended next worldwide batch — WN01–WN09 (complete)
 
-[Full proposal](WORLDWIDE_NEXT_AFTER_WS_2026-10-29.md) supersedes the ordering below.
-1. Americas supplied-IPA expansion and justified primary upgrades.
-2. South American original dictionary/non-core depth.
-3. African original-source preference and tone-aware supplied IPA.
-4. Corsican/Scots/Kabyle supplied-IPA review.
-5. Dzongkha/Atong plus Chintang/Palula dictionary depth.
-6. Wersing/Pacific dictionary acquisition and further original entries.
-7. Dedicated missing-language inventory, including Australia and New Guinea.
-8. Etruscan/Elamite authority and other ancient exact attestations.
-9. Per-concept source preference, residual dependence and source-fidelity reporting.
+[Execution](WORLDWIDE_WN_EXECUTION_2026-10-29.md) and [metrics](worldwide_wn_summary_2026-10-29.json):493 records/336 supported slots/35 core, three one-record languages and ten primary changes. All nine authorized tracks are closed with admissions or explicit holds; no authorized execution remains.
 
-Candidate counts in the proposal are unreviewed potential, not gains. No new
-lexical batch is authorized by the recommendation request. Preserve existing holds.
+## Next evidence to pursue (not authorized by closure)
+
+1. Deepen the three one-record pilots through original lexical acquisition; avoid presenting a water entry as broad coverage. The reusable missing-language audit leaves121 exact-code leads, many dialect/family nodes or aliases; Australian/new-language acquisition remains unmeasured.
+2. Use [source-fidelity dependence](worldwide_wn_source_fidelity_2026-10-29.json) to prioritize57,528 GLED-only slots and inspect161 notation-difference leads. Compare exact lexemes/varieties; no automatic source ranking or phonemic-contrast inference.
+3. Extend unadmitted exact senses and qualified IPA beyond the bounded WN slices. Candidate holds include merely deferred work as well as true mismatches; review original context before reopening.
+4. Ruruuli original lexical preference needs preservation of four unmapped earlier records and a documented pronunciation authority;111 written records are not phonetic support. Chintang's two unmapped LSI rows need a preservation path and historical/member comparison. Palula promotion is complete.
+5. Etruscan neri/phersu and Elamite EW111/499/600 still need exact authority. Ancient Coptic Adv. far/noun vomit, Media Lengua noun sell and earlier Guarayu/West Papua/Torricelli notation holds remain gated.
+
+The older regional proposal detail below is historical and must be checked against WN results before reuse.
 
 ## Further work from the accepted baseline
 

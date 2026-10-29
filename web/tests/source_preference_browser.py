@@ -8,7 +8,7 @@ from urllib.parse import quote
 from playwright.sync_api import sync_playwright
 
 url = sys.argv[1]
-expected = {"alg-yurok": 54, "nor-ternate": 66, "ine-corsican": 16, "ine-lombard": 42}
+expected = {"alg-yurok": 54, "nor-ternate": 66, "ine-corsican": 77, "ine-lombard": 42}
 with sync_playwright() as p:
     b = p.chromium.launch(headless=True)
     page = b.new_page(accept_downloads=True)

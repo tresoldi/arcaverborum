@@ -1,21 +1,29 @@
 # Current project state
 
-Updated2026-10-29. Latest accepted batch: [reviewed Wiktionary source preference WS](WIKTIONARY_SOURCE_SELECTION_2026-10-29.md). [Metrics](wiktionary_source_selection_summary_2026-10-29.json) are authoritative. Preceding data commit: `05eeb0df5020eacd1e152640cfc5638f3e7b28ee` (WF01–WF12).
+Updated2026-10-29. Latest accepted batch: [worldwide WN01–WN09](WORLDWIDE_WN_EXECUTION_2026-10-29.md), all nine closed with admissions, infrastructure or evidence holds. [Metrics](worldwide_wn_summary_2026-10-29.json) are authoritative. Preceding WS data commit:`9e758d89b36b93420bd255e89ee0417d5c8d92f0`.
 
 ## Accepted baseline
 
 | Measure | Accepted value |
 | --- | ---: |
-| Varieties | 7,338 |
-| Forms | 2,071,777 |
-| Supplied/upstream-converted forms | 1,747,349 |
-| Profile-derived forms | 14,686 |
-| Supported core slots | 469,321 |
-| Mapped core slots | 543,160 |
-| Supported all-concept slots | 1,207,913 |
-| Mapped all-concept slots | 1,335,343 |
-| GLED primaries | 1,569 |
+| Varieties | 7,341 |
+| Forms | 2,072,270 |
+| Supplied/upstream-converted forms | 1,747,808 |
+| Profile-derived forms | 14,715 |
+| Supported core slots | 469,356 |
+| Mapped core slots | 543,195 |
+| Supported all-concept slots | 1,208,249 |
+| Mapped all-concept slots | 1,335,682 |
+| GLED primaries | 1,559 |
 | Core-source varieties | 915 |
+
+WN adds493 records:459 supplied IPA,29 source-scoped profiles/conversions,5 written. +336 supported slots/35 core,339 mapped slots. Three new languages (Yaroame, Birhor, Gamkonora) each have one water reading only; no broad coverage claim. Ten primary changes include Palula's original Ashret dictionary and nine Wiktionary slices. All2,071,777 earlier records/readings/cognacy/comments remain; seven older Media Lengua mappings added.599 derived per-form score recalculations and85 role-label updates are separately checked; no variety-level score changed.
+
+The explorer/exports now disclose per-concept configured preferred support, source role, GLED dependence, representation basis and observed notation marks. [Fidelity report](worldwide_wn_source_fidelity_2026-10-29.json):57,528 GLED-only supported slots; overlap is not independent evidence. Five accepted new Sahidic forms; two POS-conflicting candidates withheld before publication. Complete intake contains65 raw Coptic records but63 are accepted. No new Etruscan/Elamite readings or historical IPA. Wersing12 new readings retain single-speaker Peitoko/Pureman scope; all old source records remain.
+
+459 tests/lint, affected builds, eight local browser suites, all-earlier preservation,401 artifact/3 aggregate hashes,37 original-resource/profile checks and459 pronunciation-cache checks pass. Complete Wersing1,617/Coptic65 raw namespace reproduction passes; [proof](worldwide_wn_verification_2026-10-29.json). Publication verification pending push. Intake7,238,555 rows (+1,617 full Wersing namespace/+7 Coptic raw rows).
+
+## Historical preceding WS/WF evidence
 
 WS adds97 supplied-IPA records (31 Yurok/66 Ternate),59 supported slots/16 core. Four bounded Wiktionary primaries replace GLED: Yurok, Ternate, Corsican, Lombard. All2,071,680 earlier records/readings/cognacy/source comments remain;223 retained GLED per-form scores recalculate under the existing explicit-mapping formula, with zero variety-level score changes. No new language/intake rows.
 
@@ -35,8 +43,7 @@ before publication and excluded from the543 additions.
 
 Core-source is a row-level collection preset, independent of the161-concept filter.
 Upstream conversions are disclosed, finite profiles are derived, and written-only
-records do not add phonetic support. Palula's43 dictionary readings cover22 core,
-versus33 core in108 preserved GLED records; further pronunciation/identity comparison remains needed before a primary change.
+records do not add phonetic support. Palula's43 reviewed Ashret readings are now primary, with all108 GLED records retained. Lower dictionary core coverage is residual dependence, not a quality veto.
 
 ## Verification and publication
 
@@ -65,7 +72,7 @@ recording metadata rows. Pages copies committed data; it does not rebuild lexica
 The user clarified2026-10-29 that richer, trustworthy Wiktionary evidence should
 outrank GLED, including reviewed IPA or documented profiles. GLED's ASJP-derived
 representation and supported-core counts are not an automatic quality benchmark.
-This supersedes the historical fixed GLED-before-Wiktionary preference. WS executes four reviewed promotions;1,569 GLED primaries remain. Future promotions require individual evidence review. See NEXT and AGENTS.
+This supersedes the historical fixed GLED-before-Wiktionary preference. WS executed four promotions; WN adds ten and1,559 GLED primaries remain. Future promotions require individual evidence review. See NEXT and AGENTS.
 
 ## Evidence, source state and next work
 

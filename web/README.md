@@ -135,3 +135,9 @@ See `docs/WORLDWIDE_EXPANSION_2026-10-29.md` for realized gains and explicit hol
 Source-preference checks: `web/tests/source_preference_browser.py URL` verifies the
 reviewed Yurok/Ternate/Corsican/Lombard Wiktionary slices, raw IPA, retained GLED
 and explicitly Milanese-tagged readings. Counts describe bounded reviewed slices.
+
+WN source-fidelity fields and minimal-language pilots are described in
+[WN execution](../docs/WORLDWIDE_WN_EXECUTION_2026-10-29.md). Run
+`web/tests/worldwide_wn_browser.py URL` for the new readings, held POS cases,
+source roles and residual GLED exports. `scripts/report_source_fidelity.py`
+produces a concept-level report without replacing source review or scoring fidelity.

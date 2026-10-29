@@ -20,4 +20,6 @@ IPA elicitation, profiles are finite and source-specific, and written-only recor
 add no phonetic support. Config and guarded custom ledgers enforce acceptance.
 
 The43 original dictionary profiles cover22 core concepts; the108 preserved
-GLED records cover33. No primary promotion from the incomplete dictionary slice.
+GLED records cover33. WN05 supersedes the earlier count-based hold:43 reviewed Ashret dictionary readings now form the bounded primary; all108 GLED records remain. The original Phonetic field preserves mora-specific pitch/quantity and retroflex affrication in the admitted subset. Dictionary22 core versus33 GLED core is residual dependence, not a quality veto.
+
+Reviewed primary preference: dictpalula (43 records), with all 108 earlier gled records retained. Residual coverage remains source-dependent.

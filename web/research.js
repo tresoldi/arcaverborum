@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261028-2';
+const VERSION = 'research-20261029-wn';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -267,8 +267,11 @@ async function showVariety(token) {
         ['Source-scoped cognate sets',fmt(e.sets.size)],['Forms with multiple assignments',fmt(e.multiple)],
         ['Source-flagged loans',fmt(e.loans)],['Source-flagged doubt',fmt(e.doubts)],
         ['Forms with recorded sense-review decisions',fmt(e.reviewed)],
+        ['Concepts with preferred supported readings in this view',fmt(new Set(rows.filter(r=>r.preferred_source===r.transcription_source&&['source','profile'].includes(r.Segments_Source)).map(r=>r.concept_id).filter(Boolean)).size)],
+        ['Concepts in this view with only GLED support in the whole construction',fmt(new Set(rows.filter(r=>r.gled_dependence==='gled_only').map(r=>r.concept_id).filter(Boolean)).size)],
         ['Construction tier',esc(l.tier)],['Transcription score',present(l.forms_score)],['Cognate score',present(l.cognates_score)]])}
       <p class="sub">Counts here use the current vocabulary/transcription filters unless marked otherwise. Source flags and sense reviews are not independent native-speaker verification; empty flags do not establish absence. ${link('Interpret evidence and tiers',{view:'about'})}</p>
+      <p class="sub">Source preference follows the configured construction for each concept where it supplies a supported reading. Alternatives remain visible. GLED dependence compares the whole construction, including sources outside the current collection. Scores summarize feature presence; they do not measure phonetic fidelity or completeness of tone.</p>
       <details><summary>Cognate evidence methods</summary>${metadataList([...e.methods].sort((a,b)=>b[1]-a[1]).map(([method,n])=>[method,fmt(n)+' forms']))}</details>
       <details><summary>Semantic-field coverage</summary><p>Distinct mapped concepts in this view; synonyms count once.</p>${metadataList([...e.fields].sort((a,b)=>b[1]-a[1]).map(([field,n])=>[field,fmt(n)]))}</details>
     </section>
@@ -335,6 +338,9 @@ async function showForm(token) {
     <p class="ipa large">${esc(r.Segments)}</p><p>${statusBadge(r)} · ${link('Interpret transcription and uncertainty',{view:'about'})}</p>
     <p>Concept: ${r.concept_id?link(r.concept_label,{view:'concept',cid:r.concept_id}):'Unmapped'} · Original source gloss: ${esc(r.source_gloss||'Not recorded')}</p>
     <p>Mapping review: <strong>${esc(r.mapping_review||'Not recorded')}</strong>. ${esc(r.mapping_note||'No sense-review note recorded; consult source definitions.')}</p>
+    <p>Reading evidence: ${esc(r.representation_basis||'Not recorded')}. Source role: ${esc((r.evidence_role||'not recorded').replaceAll('_',' '))}.</p>
+    <p>Preferred supported source for this concept: ${esc(r.preferred_source||'No supported reading from the configured primary')}. GLED dependence: ${esc(r.gled_dependence||'Not recorded')}.</p>
+    <p>Observed notation marks: ${esc((r.phonological_marks||'none recorded').replaceAll('_',' '))}. These are marks in the retained reading, not a complete phoneme inventory; absence does not establish absence of a contrast.</p>
     <p>Cognate membership: ${cognatesCell(r)}. Method: ${esc(r.Cognate_Detection_Method||'Not recorded')}; source: ${esc(r.cognate_evidence_source||r.cognate_source)}.</p>
     <p>Doubt flag: ${esc(r.Doubt||'Not recorded')} · Loan flag: ${esc(r.Loan||'Not recorded')}. Empty flags do not mean verified absence.</p>
     <details open><summary>Alignment and morpheme evidence</summary><dl>${['Alignment','Morpheme_Index','Segment_Slice','canonical_cognate_id'].map(k=>`<dt>${esc(k)}</dt><dd class="ipa">${esc(r[k]||'Not supplied')}</dd>`).join('')}</dl></details>

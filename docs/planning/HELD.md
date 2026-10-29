@@ -5,6 +5,14 @@ Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## Worldwide WN01–WN09 closure — 2026-10-29
+
+[Execution](../WORLDWIDE_WN_EXECUTION_2026-10-29.md) supersedes completed gates. Palula's43 Ashret readings are now primary; all108 GLED records remain. Earlier count-based promotion holds are superseded. Ruruuli111 original records remain written; a primary move needs preservation of four unmapped earlier Wiktionary records and source phonological authority. Chintang26 dictionary records versus LSI83 mapped/2 unmapped require a preservation path and exact historical/member comparison.
+
+Two new Coptic staged candidates are withheld from accepted ledgers: C431 Adv. far versus frozen adjective, C437 Subst. vomit versus frozen verb. Raw complete Coptic intake65 includes these candidates; only63 original records are accepted. [Final decisions](../worldwide_wn08_admission_decisions_2026-10-29.csv). Media Lengua vendena sell is source noun, not a licensed verb mapping. Guarayu conventions remain unresolved.
+
+Yaroame/Birhor/Gamkonora are accepted language-level pilots with one supported water record each, not future missing-language gains. Mom Jango code mismatch is not a new language. Other124 pre-batch exact-code leads require classification/alias review. Fresh Etruscan CIE/repository access has not resolved neri/phersu; EW route returned403 and exact pages remain absent. No disputed reading is inferred.
+
 ## Wiktionary source-choice review — 2026-10-29
 
 WS completes four bounded primary preferences and97 additional supplied readings. Eight Yurok/Ternate candidates remain held in the authored WS review: measurement foot, pea seed/plant, generic fruit, plural-you scope, tagi go/walk, watermelon fruit/plant, calabash taxonomy and rattan plant/material. Reopen only with exact source meaning/number/taxonomic authority or a matching frozen concept. Zeeuws/Higaonon/Plautdietsch profiles need source-specific orthographic authority; Tewa/Taos need community scope and Coptic dialect/stage authority. No general spelling-as-IPA promotion.

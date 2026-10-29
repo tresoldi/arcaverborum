@@ -47,3 +47,7 @@ The first pilot's dated review CSV remains unchanged. Reproduce current output
 with scripts/iquito_profile.py --write --review-output
  docs/amazonian_expansion_iquito_profile_2026-10-27.csv. Other sources and every
 primary record remain unaffected by the source-scoped profile.
+
+## WN02 — 2026-10-29
+
+Five new exact Iquito partial-tone profiles and seven Media Lengua mappings reviewed in [WN02](../../docs/worldwide_wn02_review_2026-10-29.csv). Media Lengua sell is held for noun/verb conflict. Guarayu profile hold remains; no inconsistent genderlect/nasality system inferred.

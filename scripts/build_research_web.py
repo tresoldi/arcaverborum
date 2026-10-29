@@ -16,6 +16,8 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
+from arcaverborum.research_evidence import annotate, update_state
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -102,6 +104,9 @@ def build(root=ROOT, output=None):
     seen, counts, statuses = defaultdict(set), Counter(), defaultdict(Counter)
     core_seen, supported = defaultdict(set), defaultdict(set)
     fields = []
+    evidence_fields = ['preferred_source', 'evidence_role', 'gled_dependence',
+                       'representation_basis', 'phonological_marks']
+    concept_evidence = defaultdict(lambda: [False, False, False])
     families = sorted({r['Family'] or 'Unclassified' for r in languages})
     family_keys = {family: hashlib.sha256(family.encode()).hexdigest()[:16] for family in families}
     with tempfile.TemporaryDirectory() as temp:
@@ -113,7 +118,7 @@ def build(root=ROOT, output=None):
                 if not fields:
                     fields = ['ID', *('cognate_evidence_source' if k == 'Cognate_Source' else k for k in row),
                               'is_core_concept', 'License', 'source_gloss', 'cognate_sets',
-                              'mapping_review', 'mapping_note']
+                              'mapping_review', 'mapping_note', *evidence_fields]
                 row['cognate_evidence_source'] = row.pop('Cognate_Source', '')
                 row['ID'] = f"{row['av_id']}:{row['source_form_id']}:{row.get('source_pronunciation_id') or index}"
                 row['is_core_concept'] = 'true' if row['concept_id'] in core else 'false'
@@ -154,6 +159,7 @@ def build(root=ROOT, output=None):
                     core_seen[av].add(row['concept_id'])
                     if row['Segments_Source'] in {'source', 'profile'}:
                         supported[av].add(row['concept_id'])
+                update_state(concept_evidence[av, row['concept_id']], row, by_id[av]['transcription_source'])
                 family = by_id[av]['Family'] or 'Unclassified'
                 batch.append((family, json.dumps([row.get(k, '') for k in fields], ensure_ascii=False)))
                 if len(batch) >= 5000:
@@ -173,7 +179,14 @@ def build(root=ROOT, output=None):
                 for (payload,) in db.execute('SELECT payload FROM rows WHERE family=? ORDER BY rowid', (family,)):
                     if not first:
                         handle.write(b',')
-                    handle.write(payload.encode())
+                    values = json.loads(payload)
+                    row = dict(zip(fields, values, strict=True))
+                    av = row['av_id']
+                    annotations = annotate(row, by_id[av]['transcription_source'],
+                                           concept_evidence.get((av, row['concept_id']), (False, False, False)))
+                    for key, value in annotations.items():
+                        values[fields.index(key)] = value
+                    handle.write(json.dumps(values, ensure_ascii=False, separators=(',', ':')).encode())
                     first = False
                     n += 1
                 handle.write(b']')

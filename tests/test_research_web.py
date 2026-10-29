@@ -87,6 +87,12 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     assert 'not native certification' in rows[0]['mapping_note']
     assert rows[0]['License'] == 'CC-BY-4.0'
     assert rows[1]['Segments_Source'] == 'unclean'
+    assert rows[0]['preferred_source'] == 'source'
+    assert rows[0]['evidence_role'] == 'configured_primary_supported'
+    assert rows[1]['evidence_role'] == 'written_or_unresolved'
+    assert rows[2]['preferred_source'] == ''
+    assert rows[2]['evidence_role'] == 'supported_alternative'
+    assert all(r['gled_dependence'] == 'none' for r in rows)
     previous_hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in output.glob('*.gz')}
     builder.build(tmp_path, output)
     assert previous_hashes == {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in output.glob('*.gz')}

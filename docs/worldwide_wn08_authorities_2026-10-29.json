@@ -1,0 +1,32 @@
+[
+  {
+    "name": "etruscan_cie_access",
+    "url": "https://www.studietruschi.org/corpus-inscriptionum-etruscarum-online",
+    "status": 200,
+    "bytes": 82705,
+    "sha256": "29841feeab45700c3182c240545c5135e481776a96fcd8f8cf0b1b5d78a4476a",
+    "cached_path": "raw/curation/wn/etruscan_cie_access.html",
+    "decision": "research_only",
+    "note": "Institutional CIE volume access route; access does not by itself resolve neri/phersu lexical sense."
+  },
+  {
+    "name": "phersu_uurepository",
+    "url": "https://research-portal.uu.nl/ws/files/278388932/Phersu_Prosopon_Persona_final_version_.pdf",
+    "status": 200,
+    "bytes": 832622,
+    "sha256": "b09efdd46ac2de09d0218784cc2b716096de42ba1978b5e27394f0292e9faeb0",
+    "cached_path": "raw/curation/wn/phersu_uurepository.pdf",
+    "decision": "research_only",
+    "note": "University repository discussion explicitly retains uncertainty over phersu as a name versus a designation; no secure mask/person/actor admission established."
+  },
+  {
+    "name": "elamite_ew_catalog",
+    "url": "https://www.nli.org.il/en/books/NNL_ALEPH990010898380205171/NLI",
+    "status": 403,
+    "bytes": 6644,
+    "sha256": "f969605d0e48fa07bae6cb65ce9eddd1881b7b399336037f7b6fb0287667be6d",
+    "cached_path": "raw/curation/wn/elamite_ew_catalog.html",
+    "decision": "research_only",
+    "note": "Library bibliographic record for Hinz/Koch dictionary; not the required EW111/499/600 page evidence."
+  }
+]

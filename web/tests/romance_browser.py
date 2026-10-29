@@ -45,9 +45,9 @@ with sync_playwright() as p:
     assert {r["source_language_id"] for r in sample} == {"saenkoromance_lanzotorinesepiemontese"}
     assert "Piemontese" in page.locator("#app").inner_text()
     corsican = export("ine-corsican")
-    assert len(corsican) == 55
+    assert len(corsican) == 116
     assert {r["transcription_source"] for r in corsican} == {"gled", "wiktionary"}
-    assert len([r for r in corsican if r["transcription_source"] == "wiktionary"]) == 16
+    assert len([r for r in corsican if r["transcription_source"] == "wiktionary"]) == 77
     assert not errors, errors
     print(
         "PASS: RVID licence/morphology, Gallurese profile/sense scope, "
