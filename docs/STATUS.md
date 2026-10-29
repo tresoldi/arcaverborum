@@ -1,8 +1,31 @@
 # Current project state
 
-Updated2026-10-29. Latest accepted batch: [worldwide WN01–WN09](WORLDWIDE_WN_EXECUTION_2026-10-29.md), all nine closed with admissions, infrastructure or evidence holds. [Metrics](worldwide_wn_summary_2026-10-29.json) are authoritative. Preceding WS data commit:`9e758d89b36b93420bd255e89ee0417d5c8d92f0`.
+Updated2026-10-29. Latest accepted batch: [worldwide Q01–Q08](WORLDWIDE_Q_EXECUTION_2026-10-29.md), all eight authorized tracks closed with admissions or bounded evidence holds. [Metrics](worldwide_q_summary_2026-10-29.json) and [verification](worldwide_q_verification_2026-10-29.json) are authoritative.
 
 ## Accepted baseline
+
+| Measure | Accepted value |
+| --- | ---: |
+| Varieties | 7,343 |
+| Forms | 2,072,595 |
+| Supplied/upstream-converted forms | 1,748,026 |
+| Profile-derived forms | 14,760 |
+| Supported core slots | 469,426 |
+| Mapped core slots | 543,263 |
+| Supported all-concept slots | 1,208,471 |
+| Mapped all-concept slots | 1,335,920 |
+| GLED primaries | 1,558 |
+| Core-source varieties | 915 |
+
+Q adds325 records:218 supplied IPA,45 finite profiles/conversions and62 written records. Two new language-level pilots, Gimme and Basa-Benue, each cover24 concepts in writing. Net+222 supported slots/+70 core and+238 mapped slots. Afrikaans/Sranan/Brunei supplied readings, Iquito/Media Lengua depth, Wersing/Teanu and Mooring/Scots are reviewed separately. Three primary changes include Mooring over GLED and original Ruruuli/Chintang dictionaries; written lexical authority is distinct from phonetic support.
+
+All2,072,270 earlier records/readings/cognacy/source comments remain.22 earlier Media Lengua mappings are added; one incorrect Kabyle alphabet-letter/message mapping is removed while its supplied reading survives. 66 derived per-form score recalculations and137 role-label changes are checked separately; zero variety-level score changes. All91 earlier Ruruuli/Chintang native records retain exact prior fields, including six unmapped records. Intake7,238,617 rows (+62); complete Coptic raw74/accepted72.
+
+Australian/Birhor reuse and original-source gates remain explicit. Etruscan CIE5328/5335 original written attestations are acquired and inspected; lexical equivalence and pronunciation remain unsettled. Elamite EW111/499/600 exact pages remain held. No disputed ancient reading or spelling-derived IPA is invented.
+
+467 tests pass with both HAVE_UTF8PROC flag values; lint, all accepted builds, nine browser suites, full preservation,401 artifact hashes/3 aggregate hashes,45 finite derivations,218 strict/scoped pronunciation decisions and three complete source namespace reproductions pass. [Source fidelity](worldwide_q_source_fidelity_2026-10-29.json) records57,523 GLED-only slots; notation differences remain descriptive leads, not certified lost contrasts. Publication verification follows the data commit.
+
+## Historical preceding WN evidence
 
 | Measure | Accepted value |
 | --- | ---: |

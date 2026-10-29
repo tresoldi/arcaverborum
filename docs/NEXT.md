@@ -1,21 +1,19 @@
 # Active expansion queue
 
-Updated2026-10-29 against [STATUS](STATUS.md). **WN01–WN09, WS and prior WF/GW batches are complete.** Current baseline:7,341 constructions/2,072,270 records;1,559 GLED primaries. [WN results](WORLDWIDE_WN_EXECUTION_2026-10-29.md).
+Updated2026-10-29 against [STATUS](STATUS.md). **Q01–Q08 is complete**, following WN/WS/WF/GW. Accepted7,343 constructions/2,072,595 records;1,558 GLED primaries. [Q execution](WORLDWIDE_Q_EXECUTION_2026-10-29.md), [metrics](worldwide_q_summary_2026-10-29.json).
 
-## Recommended next batch — Q01–Q08 (proposed)
+## Candidate next work — not yet authorized
 
-[Detailed worldwide plan](WORLDWIDE_AFTER_WN_PLAN_2026-10-29.md) is the current proposal; no new lexical batch is authorized by the recommendation request.
+Choose from the current accepted output and the [holds](planning/HELD.md), not the spent Q ceilings. The previous6,795-member screen predates these admissions and must be refreshed before assigning new gain estimates.
 
-1. Recover supplied IPA for zero-supported-core Afrikaans, Sranan Tongo and Brunei Malay.
-2. Investigate dictionary-scale missing-language pilots for Gimme/Basa, alongside Bantu original-source depth.
-3. Deepen Iquito/Media Lengua and acquire substantive evidence for Yaroame/Nonuya, Birhor and Gamkonora.
-4. Extend Papuan/Pacific dictionaries with source-specific phonology and citation-form treatment.
-5. Review exact North Frisian/Italian locality groups and newly reviewed Scots entries.
-6. Acquire original Australian evidence for Iwaidja/Eastern Arrernte, with actual notation and reuse gates.
-7. Preserve unmapped earlier evidence through source migrations; apply language-specific word-class/citation conventions.
-8. Extend accessible ancient attestations and pursue exact Etruscan/Elamite edition evidence.
+1. **Quality-led source depth:** use the new [source-fidelity report](worldwide_q_source_fidelity_2026-10-29.json) to select residual GLED slots alongside existing original dictionaries. Fwe/Gyeli/Ruruuli are useful Bantu depth candidates; verify exact native tone/citation conventions before deriving readings. Ruruuli/Chintang preservation blockers are resolved. Do not count their completed primary migrations again.
+2. **Substantial African pilots:** Gimme/Basa now have24 written concepts each. Obtain exact edition/citation/notation authority for their large remaining frozen dictionary inventories before certifying phonology; citation-year differences remain unresolved, not silently reconciled. Their identities are no longer missing-language gains.
+3. **Protected Americas depth/acquisition:** review new Iquito/Media Lengua semantic domains beyond Q admissions, retaining partial-tone/source-POS limits. Nonuya/Yaroame original payload and Birhor derivative reuse remain acquisition gates. Three water-only pilots remain minimal; do not relabel metadata access as vocabulary coverage.
+4. **Papuan/Pacific and locality readings:** continue only newly reviewed Wersing/Teanu/Nen/Teop entries, exact citation forms and all original alternatives. Nen native predicate-adjective know is not invalid merely because English uses a verb. Mooring33 and Scots58 supplied slices are accepted; further locality cells need new review. West Papua/Torricelli notation holds still need original authority.
+5. **Ancient attestation to interpretation:** CIE5328/5335 written φersu evidence is now available. Review the exact lexeme/sense against frozen definitions before any new mapping or phonetic claim; neri and Elamite EW111/499/600 need their specific edition/interpretive evidence. Sahidic72 written entries are accepted; C431/C437 remain held, independently of the admitted C436 verb.
+6. **Australian original acquisition:** preserve the Iwaidja/Eastern Arrernte track. Exact reusable lexical material and pronunciation keys are still needed. ECALL's educational-use/copyright notice and archive readability do not establish derivative redistribution terms. No broader pilot is promised until this gate passes.
 
-Q01 has raw supplied-core potential86/27/49, not promised gains. Refreshed additive screen:6,795 overlapping member opportunities,602 South American/900 American. Do not replay held Lule, Opata, Vietnamese, Enga/Ap Ma or historical-stage mismatches as ready gains. [Current screen summary](worldwide_after_wn_opportunities_2026-10-29.json).
+Each task needs an authored bounded review and measured gains, with earlier evidence preserved. More languages, coverage and information retained are separate outcomes. Full websites must be rebuilt with disk-backed TMPDIR and checked against canonical artifact hashes after publication.
 
 ## Completed batches and historical detail
 
@@ -44,7 +42,7 @@ See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-covera
 
 [Execution](WORLDWIDE_WN_EXECUTION_2026-10-29.md) and [metrics](worldwide_wn_summary_2026-10-29.json):493 records/336 supported slots/35 core, three one-record languages and ten primary changes. All nine authorized tracks are closed with admissions or explicit holds; no authorized execution remains.
 
-## Post-WN closure notes (historical; Q01–Q08 above governs the current proposal)
+## Post-WN closure notes (historical; use the current queue above)
 
 1. Deepen the three one-record pilots through original lexical acquisition; avoid presenting a water entry as broad coverage. The reusable missing-language audit leaves121 exact-code leads, many dialect/family nodes or aliases; Australian/new-language acquisition remains unmeasured.
 2. Use [source-fidelity dependence](worldwide_wn_source_fidelity_2026-10-29.json) to prioritize57,528 GLED-only slots and inspect161 notation-difference leads. Compare exact lexemes/varieties; no automatic source ranking or phonemic-contrast inference.

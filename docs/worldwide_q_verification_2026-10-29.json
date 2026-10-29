@@ -1,0 +1,39 @@
+{
+  "accepted_varieties": 7343,
+  "rebuilt": 7342,
+  "unchanged": 1,
+  "build_failures": 0,
+  "tests": 467,
+  "tests_with_utf8proc_flag_false": 467,
+  "lint": "passed",
+  "finite_readings": 45,
+  "strict_pronunciations": 185,
+  "qualified_pronunciations": 33,
+  "full_frozen_entries": 6010,
+  "coptic_resource_pins": 2,
+  "complete_namespace_reproduction": {
+    "reflexqdict": 48,
+    "ruruulioriginal": 116,
+    "copticsahidic": 74
+  },
+  "accepted_coptic_original_records": 72,
+  "withheld_coptic_candidates": [
+    "C431",
+    "C437"
+  ],
+  "all_earlier_accepted_records_preserved": 2072270,
+  "native_snapshot_rows": 91,
+  "website_artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "local_browser_suites": [
+    "research",
+    "mixed_source",
+    "romance",
+    "ancient",
+    "worldwide",
+    "african",
+    "source_preference",
+    "worldwide_wn",
+    "worldwide_q"
+  ]
+}

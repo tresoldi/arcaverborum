@@ -1,0 +1,47 @@
+{
+  "iwaidja_intro": {
+    "url": "https://ausil.org.au/Dictionary/Iwaidja/Iwaidja-intro.htm",
+    "status": 200,
+    "bytes": 49566,
+    "sha256": "621f7677e4f3238d9dd438c8317e8156438a82a9824f8541b358e44fe2f435b1",
+    "cache": "raw/curation/q/iwaidja_intro.html",
+    "decision": "research_only",
+    "gate": "Exact source/sample, pronunciation key, lexical bytes and reuse terms are required; web access is not lexical admission."
+  },
+  "iwaidja_dictionary": {
+    "url": "https://ausil.org.au/Dictionary/Iwaidja/index.htm",
+    "status": 200,
+    "bytes": 134,
+    "sha256": "3d89cf32a0e8200e52e5553100d8429156438b3011bec9b562ebef9d5ec40a21",
+    "cache": "raw/curation/q/iwaidja_dictionary.html",
+    "decision": "research_only",
+    "gate": "Exact source/sample, pronunciation key, lexical bytes and reuse terms are required; web access is not lexical admission."
+  },
+  "arrernte_archive": {
+    "url": "https://collection.aiatsis.gov.au/search?search_api_fulltext=Eastern%20Central%20Arrernte%20dictionary",
+    "status": 403,
+    "bytes": 5752,
+    "sha256": "0ac45cdea48efaecc76155abfead862c73d0c447955468ebfa6854b6bc097eb0",
+    "cache": "raw/curation/q/arrernte_archive.html",
+    "decision": "research_only",
+    "gate": "Exact source/sample, pronunciation key, lexical bytes and reuse terms are required; web access is not lexical admission."
+  },
+  "paradisec_access": {
+    "url": "https://paradisec-archive.github.io/PARADISEC_workflows/02_getting-started.html",
+    "status": 200,
+    "bytes": 28361,
+    "sha256": "7db580ceb5322839e83fca8264733ffafd74bdd3f6416888b7db73ef990911a6",
+    "cache": "raw/curation/q/paradisec_access.html",
+    "decision": "research_only",
+    "gate": "Exact source/sample, pronunciation key, lexical bytes and reuse terms are required; web access is not lexical admission."
+  },
+  "arrernte_ecall": {
+    "url": "https://arrernte-angkentye.online/ecall/about.html",
+    "status": 200,
+    "bytes": 18829,
+    "sha256": "6287532dafc5409ee588353f813f1298648e3da912d9f8f7b19191a1326b9c12",
+    "cache": "raw/curation/q/arrernte_ecall_about.html",
+    "decision": "research_only",
+    "gate": "ECALL1.2(2020) explicitly educational/not commercial; separate community/text/audio copyrights. Public readability does not establish lexical derivative redistribution terms. Updated1991 learners list is distinct from full1994/2020 dictionary."
+  }
+}

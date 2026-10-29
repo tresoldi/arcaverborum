@@ -4,8 +4,9 @@ glottocode: nort2626
 family: Indo-European
 macroarea: Eurasia
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: wiktionary
+  cognates: wiktionary
+  source_language_id: wikt_frr
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,8 @@ scoring:
   forms_score: 0.7704
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.77) [fallback p2]; cognates=gled (0.60)'
+notes: Q reviewed bounded primary; earlier source records retained as guarded supplements.
+  Exact source scope/readings preserved; no transferred cognacy or changed variety-level
+  score. See PACKET.md.

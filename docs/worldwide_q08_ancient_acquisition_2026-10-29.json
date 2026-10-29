@@ -1,0 +1,71 @@
+{
+  "cie_tarquinia_section": {
+    "url": "https://www.studietruschi.org/?page_id=20572&preview=true",
+    "final_url": "https://www.studietruschi.org/tarquinii-tit-5327-5424-pp-183-250",
+    "status": 200,
+    "sha256": "fc58e7c962f23a0602781b6a8a6d6895779735bfe1e04acada67c9fe1b6b80a6",
+    "cache": "raw/curation/q/cie_tarquinia_section.html",
+    "pdf_links": [
+      "https://www.studietruschi.org/wp-content/uploads/2024/12/CIE-II.1.3_Tarquinii-nn.-5327-5424-pp.-183-250.pdf",
+      "https://www.studietruschi.org/wp-content/uploads/2024/12/CIE-II.1.3_Tarquinii-nn.-5327-5424-pp.-183-250.pdf"
+    ],
+    "decision": "research_only",
+    "gate": "Exact edition/attestation text and licensed extract required before lexical change. Bibliographic/scenic context alone cannot settle an uncertain dictionary sense."
+  },
+  "ew_original_bibliography": {
+    "url": "https://ids.clld.org/sources/hinz1987",
+    "final_url": "https://ids.clld.org/sources/hinz1987",
+    "status": 200,
+    "sha256": "2a0b37ab1cbe380ac45d3cbeb3564012c918384291031b14b0dbe4863bcb0837",
+    "cache": "raw/curation/q/ew_original_bibliography.html",
+    "pdf_links": [],
+    "decision": "research_only",
+    "gate": "Exact edition/attestation text and licensed extract required before lexical change. Bibliographic/scenic context alone cannot settle an uncertain dictionary sense."
+  },
+  "ew_original_library": {
+    "url": "https://www.si.edu/object/siris_sil_873691",
+    "final_url": "https://www.si.edu/object/siris_sil_873691",
+    "status": 403,
+    "sha256": "bd58d30b9760f6a44ad563bb018e67253bc954baf4fe7ebfb15ec11718493cd2",
+    "cache": "raw/curation/q/ew_original_library.html",
+    "pdf_links": [],
+    "decision": "research_only",
+    "gate": "Exact edition/attestation text and licensed extract required before lexical change. Bibliographic/scenic context alone cannot settle an uncertain dictionary sense."
+  },
+  "phersu_museum_context": {
+    "url": "https://www.penn.museum/sites/expedition/etruscan-athletics/",
+    "final_url": "https://www.penn.museum/sites/expedition/etruscan-athletics/",
+    "status": 200,
+    "sha256": "9c81ffb4281bc706c99e8aaf907e9286b68264492646ff3a2deacab8b582b7a6",
+    "cache": "raw/curation/q/phersu_museum_context.html",
+    "pdf_links": [
+      "/documents/publications/expedition/27-2/Vellucci.pdf"
+    ],
+    "decision": "research_only",
+    "gate": "Exact edition/attestation text and licensed extract required before lexical change. Bibliographic/scenic context alone cannot settle an uncertain dictionary sense."
+  },
+  "cie_tarquinia_pdf": {
+    "url": "https://www.studietruschi.org/wp-content/uploads/2024/12/CIE-II.1.3_Tarquinii-nn.-5327-5424-pp.-183-250.pdf",
+    "status": 200,
+    "bytes": 85986377,
+    "sha256": "fb65e3d3d5060d54426c2b706e5f2577b727ee980a24b368ff802f1c66c117f0",
+    "cache": "raw/curation/q/cie-tarquinia-183-250.pdf",
+    "decision": "exact_written_attestation_acquired_no_lexical_change",
+    "pages": 68,
+    "exact_attestations": [
+      {
+        "entry": "CIE5328",
+        "printed_page": 191,
+        "pdf_page": 9,
+        "context": "Label adjacent to a masked male figure"
+      },
+      {
+        "entry": "CIE5335",
+        "printed_page": 194,
+        "pdf_page": 12,
+        "context": "Repeated \u03c6ersu label adjacent to another masked male figure"
+      }
+    ],
+    "gate": "Written attestation is now established by original edition. It does not uniquely establish frozen mask/person/actor sense or pronunciation. Preserve existing uncertain treatment; no inferred IPA or new mapping."
+  }
+}

@@ -39,3 +39,9 @@ native evidence are retained; exact reviewed semantic corrections may unmap a
 record without deleting it. Source profiles and original IPA routes remain scoped
 to their guarded members/forms, with uncertainty and written-only status explicit.
 See HELD before reopening source notation, sample identity or sense decisions.
+
+## Q07 primary preference — 2026-10-29
+
+Ruruuli-Lunyala dictionary:116 reviewed written entries. The six older Wiktionary records remain verbatim, including class-number strings and four unmapped names. No IPA is inferred from either orthography or class labels.
+
+`custom/preserved_forms.csv` pins raw evidence and complete prior output independently. This is preservation, not a new admission route.

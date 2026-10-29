@@ -1,0 +1,24 @@
+av_id: atl-gimme
+name: Gimme (Kompana dictionary)
+glottocode: gimm1241
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: reflexqdict
+  cognates: reflexqdict
+  source_language_id: reflexqdict_3573
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.0
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-29'
+notes: Q02 exact original member written pilot; class/plural alternatives retained,
+  no inferred phonetics. Exact canonical code absent from earlier accepted catalog.
+  See PACKET.md.

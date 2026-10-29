@@ -5,6 +5,16 @@ Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## Worldwide Q01–Q08 closure — 2026-10-29
+
+[Execution](../WORLDWIDE_Q_EXECUTION_2026-10-29.md) supersedes the Ruruuli/Chintang preservation blocker: all91 earlier native records now survive under explicit guards, including six unmapped, and original dictionaries are primary. Ruruuli116 entries remain written; this does not resolve phonological authority. Gimme/Basa24-entry written pilots are accepted identities, not missing-language opportunities; source citation-year differences are preserved, and broader phonological admission needs the exact original edition/conventions.
+
+Afrikaans crow-only *kraai* cannot be admitted as raven, and air-only *lug* cannot be admitted as sky without new reciprocal sense evidence. Kabyle *asekkil* remains a supplied reading but is unmapped because alphabet symbol is not written message. Native Nen predicate-adjective *mete* has a legitimate know-with-copula sense; the pending gate is exact finite pronunciation/citation context, not English verbal POS alone. Media Lengua noun/verb homographs remain distinct.
+
+Birhor2021 original dictionary has educational/noncommercial restrictions without established derivative-redistribution terms; retain UNT/IIIF acquisition evidence without extracting a new pilot. Iwaidja AuSIL dictionary copyright and Arrernte ECALL1.2 educational-use/community-text-audio terms likewise leave lexical reuse unresolved. Nonuya archive acquisition failed; Yaroame/Gamkonora metadata alone is not a new lexical source. No contacts or access bypass authorized or attempted.
+
+Etruscan CIE5328/5335 **written φersu attestation is now acquired and inspected** (printed191/194, PDF9/12); this supersedes the broad edition-access hold for these two attestations. Exact mask/person/actor equivalence and pronunciation remain unsettled. Neri and Elamite EW111/499/600 still require exact interpretive/edition evidence. Sahidic C431 adverb far and C437 noun vomit remain held; separately admitted C436 is an explicitly labelled compound verb. Raw Coptic74/accepted72; no historical IPA invented.
+
 ## Worldwide WN01–WN09 closure — 2026-10-29
 
 [Execution](../WORLDWIDE_WN_EXECUTION_2026-10-29.md) supersedes completed gates. Palula's43 Ashret readings are now primary; all108 GLED records remain. Earlier count-based promotion holds are superseded. Ruruuli111 original records remain written; a primary move needs preservation of four unmapped earlier Wiktionary records and source phonological authority. Chintang26 dictionary records versus LSI83 mapped/2 unmapped require a preservation path and exact historical/member comparison.

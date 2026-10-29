@@ -727,6 +727,14 @@ def build_one(
     from arcaverborum.historical_evidence import annotate
 
     out_rows = annotate(out_rows, vd.custom_dir)
+    from arcaverborum.preservation import preserved_rows
+
+    retained = preserved_rows(vd.custom_dir, intake_forms, av_id, variety.glottocode,
+                              param_index, concepticon_by_id)
+    emitted = {(r["transcription_source"], r["source_form_id"], r.get("source_pronunciation_id", "")) for r in out_rows}
+    if any((r["transcription_source"], r["source_form_id"], r["source_pronunciation_id"]) in emitted for r in retained):
+        raise ValueError("Preserved evidence already emitted; do not duplicate source records")
+    out_rows.extend(retained)
     out_df = pd.DataFrame(out_rows, columns=list(FORMS_OUT_FIELDS))
     with atomic_path(vd.generated_forms) as tmp:
         out_df.to_csv(tmp, index=False)

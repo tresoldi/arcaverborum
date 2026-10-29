@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Worldwide Q01–Q08,2026-10-29](../WORLDWIDE_Q_EXECUTION_2026-10-29.md):325 records, two24-entry written language pilots, three primary changes, native-evidence preservation, dictionary depth and exact Etruscan edition acquisition. [Metrics](../worldwide_q_summary_2026-10-29.json).
+
 * [Worldwide WN01–WN09,2026-10-29](../WORLDWIDE_WN_EXECUTION_2026-10-29.md):493 records,336 supported slots, three minimal-language pilots, ten primary changes and per-concept source-fidelity reporting. [Metrics](../worldwide_wn_summary_2026-10-29.json).
 
 * [Wiktionary source preference WS,2026-10-29](../WIKTIONARY_SOURCE_SELECTION_2026-10-29.md): four reviewed primary changes, additional Yurok/Ternate supplied IPA, all earlier GLED evidence retained. [Metrics](../wiktionary_source_selection_summary_2026-10-29.json).

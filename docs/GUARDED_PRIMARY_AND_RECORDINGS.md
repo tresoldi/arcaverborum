@@ -53,3 +53,20 @@ code darg1241 maps only to target sanz1248 through its guarded rule; other Dargw
 members are not covered. The finite-profile compiler preserves all scope fields.
 Explicit original dictionary noun/verb conflicts now fail profile compilation;
 unknown labels and other semantic/POS relations still need manual review.
+
+## Verbatim native evidence across a primary change
+
+`custom/preserved_forms.csv` retains previously emitted native rows, including
+unmapped evidence. It carries every `FORMS_OUT_FIELDS` column plus
+`evidence_sha256`, `expected_source_concepticon_id`, `previous_output_sha256` and
+`preservation_rationale`. The prior-output digest covers the complete prior row;
+raw evidence, member/parameter, mapping, bibliography, native cognacy and the
+unchanged normalizer result are independently checked. Unmapped rows stay
+unmapped. This path cannot upgrade spelling, introduce a profile, carry qualified
+IPA outside its original guard, or emit a duplicate already admitted elsewhere.
+Both raw source slices and the preservation ledger participate in freshness.
+
+Use this for an audited migration, with a preceding accepted-output comparison.
+New lexical admissions still require the normal guarded primary/supplement route.
+The Q07 Ruruuli and Chintang packets are bounded examples; the prior evidence
+remains attributable and does not become independent confirmation of the new source.

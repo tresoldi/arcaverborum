@@ -56,7 +56,7 @@ with sync_playwright() as p:
         page.locator("#exportcsv").click()
     iquito = list(csv.DictReader(open(download.value.path())))
     profile_rows = [r for r in iquito if r["transcription_source"] == "dictiquito"]
-    assert len(iquito) == 430 and len(profile_rows) == 74
+    assert len(iquito) == 438 and len(profile_rows) == 82
     assert all(r["Segments_Source"] == "profile" for r in profile_rows)
     assert all("Source-scoped orthographic profile" in r["Comment"] for r in profile_rows)
     assert not any(r["Segments_Source"] == "profile" for r in iquito if r["transcription_source"] == "huntergatherer")

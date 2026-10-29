@@ -1,0 +1,47 @@
+{
+  "birhor_metadata": {
+    "url": "https://digital.library.unt.edu/ark:/67531/metadc2356114/metadata.untl.xml",
+    "status": 200,
+    "bytes": 7787,
+    "sha256": "335af4d1bda2ec37e546d59ab60c90cd15242c533f3f90446182572d322808b4",
+    "cache": "raw/curation/q/birhor_metadata.txt",
+    "decision": "research_only"
+  },
+  "birhor_manifest": {
+    "url": "https://digital.library.unt.edu/ark:/67531/metadc2356114/manifest/",
+    "status": 200,
+    "bytes": 112339,
+    "sha256": "69e6296e4c442912f1d760d8db4af2019bdaccf21a00a1ed5aa87ea74b836668",
+    "cache": "raw/curation/q/birhor_manifest.txt",
+    "decision": "research_only"
+  },
+  "birhor_citation": {
+    "url": "https://digital.library.unt.edu/ark:/67531/metadc2356114/citation/",
+    "status": 200,
+    "bytes": 3673,
+    "sha256": "8ba03a3aeff01e43ed463d39a0256af3b7b359a2895cab66356b9098ea3bfb33",
+    "cache": "raw/curation/q/birhor_citation.txt",
+    "decision": "research_only"
+  },
+  "nonuya_original_archive": {
+    "url": "https://dobes.mpi.nl/projects/center/",
+    "error": "HTTPSConnectionPool(host='dobes.mpi.nl', port=443): Max retries exceeded with url: /projects/center/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)')))",
+    "decision": "unavailable"
+  },
+  "yaroame_catalog": {
+    "url": "https://glottolog.org/resource/languoid/id/yaro1235",
+    "status": 200,
+    "bytes": 35492,
+    "sha256": "8105c62abdf74710b8f5f46a82a6df6392af0873df3575f8e183294c1f9e184f",
+    "cache": "raw/curation/q/yaroame_catalog.txt",
+    "decision": "research_only"
+  },
+  "gamkonora_catalog": {
+    "url": "https://glottolog.org/resource/languoid/id/gamk1238",
+    "status": 200,
+    "bytes": 37381,
+    "sha256": "ded6ecafe2e09782bdf3653506722d9abec17aefa6e82dde4c956e50ab331019",
+    "cache": "raw/curation/q/gamkonora_catalog.txt",
+    "decision": "research_only"
+  }
+}

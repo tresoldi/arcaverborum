@@ -1,5 +1,13 @@
 # Project journal and working memory
 
+## 2026-10-29 — Worldwide Q01–Q08 executed
+
+User authorized all eight sequentially with autonomous specifics.325 records (218 supplied IPA/45 finite profiles or conversions/62 written), two24-concept written language pilots Gimme/Basa, net222 supported slots/70 core,238 mapped slots.22 Media Lengua mappings added; Kabyle alphabet-letter/message mismatch unmapped while supplied reading survives. Three primary changes: Mooring Wiktionary, Ruruuli original written dictionary, Chintang original profile-backed dictionary. All2,072,270 earlier readings/native cognacy/comments retained;91 native snapshots preserve six unmapped records, with66 separately verified derived score recalculations/137 role labels and no variety-level score changes.
+
+Accepted7,343/2,072,595 forms/469,426 supported core/543,263 mapped core/1,208,471 supported all/1,335,920 mapped all;1,558 GLED primaries/915 Core-source varieties. Intake7,238,617 (+62). Complete namespace reproduction:RefLex48/Ruruuli116/Coptic74 raw;72 Coptic accepted. Australian/Birhor reuse gates remain research-only. Original CIE Tarquinia PDF acquired/inspected:φersu at CIE5328/5335, printed191/194, PDF9/12. Exact attestation supersedes access hold, but no mask/person/actor mapping or IPA inferred; neri/EW111/499/600 still held.
+
+467 tests in both HAVE_UTF8PROC flag states/full lint, accepted builds, nine browser suites, all-earlier preservation,401 artifact/3 aggregate hashes,45 finite readings,185 strict+33 scoped pronunciation decisions and three complete namespace reproductions pass. See WORLDWIDE_Q_EXECUTION_2026-10-29.md; STATUS/NEXT/HELD updated. Publication proof follows the data commit. Use disk-backed TMPDIR for web rebuilds. No subagents used in this sequential batch.
+
 ## 2026-10-29 — Worldwide Q01–Q08 recommendations (planning only)
 
 Refreshed accepted-data ranking:6,795 overlapping member leads,602 South American/900 American. Current WN results remain unchanged. Proposed recovery for Afrikaans/Sranan/Brunei (zero supported core; raw Wiktionary potential86/27/49), original Gimme/Basa dictionary-scale pilots (frozen RefLex1,208/1,087 rows, exact identity/edition pending), South American/pilot depth, Papuan/Pacific phonology, European locality groups, Iwaidja/Eastern Arrernte original acquisition, guarded preservation of unmapped evidence with language-specific POS/citation treatment, and ancient exact attestations. Checked primary Basa/Mainz/Iwaidja/Nen/Wersing sources and PARADISEC access workflow. Existing holds are not reopened; no lexical execution authorized. See WORLDWIDE_AFTER_WN_PLAN_2026-10-29.md; NEXT now leads with the current WN baseline and Q proposal.

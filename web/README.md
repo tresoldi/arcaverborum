@@ -141,3 +141,8 @@ WN source-fidelity fields and minimal-language pilots are described in
 `web/tests/worldwide_wn_browser.py URL` for the new readings, held POS cases,
 source roles and residual GLED exports. `scripts/report_source_fidelity.py`
 produces a concept-level report without replacing source review or scoring fidelity.
+
+Q recovery and preservation checks: `web/tests/worldwide_q_browser.py URL` tests
+Afrikaans/Sranan/Brunei supplied IPA, written Gimme/Basa pilots, Mooring qualifiers,
+Ruruuli/Chintang primary preference with unmapped native evidence, the Kabyle
+alphabet-letter correction and written Sahidic depth. See the Q execution report.

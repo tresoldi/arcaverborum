@@ -50,7 +50,12 @@ def ledger(custom_dir):
 
 
 def input_keys(custom_dir):
-    return {(r["source_glottocode"].strip().lower(), r["source"]) for r in ledger(custom_dir)}
+    keys = {(r["source_glottocode"].strip().lower(), r["source"]) for r in ledger(custom_dir)}
+    path = custom_dir / "preserved_forms.csv"
+    if path.exists():
+        with path.open() as handle:
+            keys.update((r["Glottocode"].strip().lower(), r["transcription_source"]) for r in csv.DictReader(handle))
+    return keys
 
 
 def scope_rule(decision, target):

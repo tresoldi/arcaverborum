@@ -1,0 +1,201 @@
+{
+  "before": {
+    "varieties": 7341,
+    "forms": 2072270,
+    "source_forms": 1747808,
+    "profile_forms": 14715,
+    "supported_core": 469356,
+    "mapped_core": 543195,
+    "mapped_all_concepts": 1335682,
+    "supported_all_concepts": 1208249,
+    "gled_primaries": 1559,
+    "core_source_varieties": 915
+  },
+  "after": {
+    "varieties": 7343,
+    "forms": 2072595,
+    "source_forms": 1748026,
+    "profile_forms": 14760,
+    "supported_core": 469426,
+    "mapped_core": 543263,
+    "mapped_all_concepts": 1335920,
+    "supported_all_concepts": 1208471,
+    "gled_primaries": 1558,
+    "core_source_varieties": 915
+  },
+  "delta": {
+    "varieties": 2,
+    "forms": 325,
+    "source_forms": 218,
+    "profile_forms": 45,
+    "supported_core": 70,
+    "mapped_core": 68,
+    "mapped_all_concepts": 238,
+    "supported_all_concepts": 222,
+    "gled_primaries": -1,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "afa-coptic",
+      "forms_before": 127,
+      "forms_after": 136,
+      "supported_core_before": 36,
+      "supported_core_after": 36,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "atl-basa-benue",
+      "forms_before": 0,
+      "forms_after": 24,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexqdict"
+    },
+    {
+      "av_id": "atl-gimme",
+      "forms_before": 0,
+      "forms_after": 24,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexqdict"
+    },
+    {
+      "av_id": "atl-ruuli",
+      "forms_before": 117,
+      "forms_after": 122,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "wiktionary",
+      "primary_after": "ruruulioriginal"
+    },
+    {
+      "av_id": "ine-afrikaans",
+      "forms_before": 285,
+      "forms_after": 360,
+      "supported_core_before": 0,
+      "supported_core_after": 21,
+      "primary_before": "dyenindoeuropean",
+      "primary_after": "dyenindoeuropean"
+    },
+    {
+      "av_id": "ine-northern-frisian",
+      "forms_before": 43,
+      "forms_after": 76,
+      "supported_core_before": 38,
+      "supported_core_after": 45,
+      "primary_before": "gled",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "ine-scots",
+      "forms_before": 87,
+      "forms_after": 117,
+      "supported_core_before": 42,
+      "supported_core_after": 46,
+      "primary_before": "wiktionary",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "ine-sranan-tongo",
+      "forms_before": 233,
+      "forms_after": 275,
+      "supported_core_before": 0,
+      "supported_core_after": 18,
+      "primary_before": "dyenindoeuropean",
+      "primary_after": "dyenindoeuropean"
+    },
+    {
+      "av_id": "map-brunei",
+      "forms_before": 445,
+      "forms_after": 483,
+      "supported_core_before": 0,
+      "supported_core_after": 17,
+      "primary_before": "smithborneo",
+      "primary_after": "smithborneo"
+    },
+    {
+      "av_id": "map-teanu",
+      "forms_before": 390,
+      "forms_after": 411,
+      "supported_core_before": 140,
+      "supported_core_after": 142,
+      "primary_before": "tryonsolomon",
+      "primary_after": "tryonsolomon"
+    },
+    {
+      "av_id": "mia-media-lengua",
+      "forms_before": 3216,
+      "forms_after": 3216,
+      "supported_core_before": 132,
+      "supported_core_after": 132,
+      "primary_before": "dictmedialengua",
+      "primary_after": "dictmedialengua"
+    },
+    {
+      "av_id": "sit-chintang",
+      "forms_before": 111,
+      "forms_after": 111,
+      "supported_core_before": 40,
+      "supported_core_after": 40,
+      "primary_before": "lsi",
+      "primary_after": "dictchintang"
+    },
+    {
+      "av_id": "tim-wersing",
+      "forms_before": 408,
+      "forms_after": 424,
+      "supported_core_before": 143,
+      "supported_core_after": 143,
+      "primary_before": "robinsonap",
+      "primary_after": "robinsonap"
+    },
+    {
+      "av_id": "zap-iquito",
+      "forms_before": 430,
+      "forms_after": 438,
+      "supported_core_before": 129,
+      "supported_core_after": 130,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    }
+  ],
+  "all_earlier_records_readings_cognacy_preserved": 2072270,
+  "derived_per_form_score_recalculations": 66,
+  "variety_level_scores_changed": 0,
+  "original_source_comments_preserved": true,
+  "derived_source_role_comment_changes": 137,
+  "new_records": 325,
+  "new_records_by_status": {
+    "unclean": 62,
+    "source": 218,
+    "profile": 45
+  },
+  "earlier_unmapped_records_now_mapped": 22,
+  "new_supported_slots": 223,
+  "new_supported_core_slots": 70,
+  "new_distinct_languages": 2,
+  "new_intake_rows": 62,
+  "intake_total_rows": 7238617,
+  "primary_changes": 3,
+  "earlier_incorrect_mappings_removed": 1,
+  "preserved_native_snapshot_rows": 91,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q04",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q08"
+  ],
+  "newly_supported_slots": 223,
+  "removed_incorrect_supported_slots": 1,
+  "net_supported_slots": 222
+}

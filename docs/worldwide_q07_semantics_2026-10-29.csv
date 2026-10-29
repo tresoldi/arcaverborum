@@ -1,0 +1,7 @@
+av_id,source_form_id,native_sense,target,decision,rationale
+afa-kabyle,wikt_56267,letter(noun):a symbol in an alphabet,mod-letter,unmap_keep_reading,Frozen concept is written message; supplied asekkil /asəkːil/ is retained without a false letter-message equivalence.
+yam-nen,dictnen_SN002607,mete; predicate adjective; know (when used with verb to be),cog-know,defer_profile,Native predicate adjective is a legitimate know lexeme with a copular construction; English verb POS is not an automatic veto. Citation/phonology needs an independently guarded finite reading; none added by this review.
+mia-media-lengua,dictmedialengua_SN001720,llobina; verb rain,phy-rain,hold_mapping,Frozen target is noun precipitation. Retain native source record; no automatic English homograph mapping.
+mia-media-lengua,dictmedialengua_SN002267,pescana; verb fish,ani-fish,hold_mapping,"Frozen target is the animal noun, not catching fish; noun piji admitted separately."
+atl-ruuli,wikt_18005;wikt_340138,omutwe class3;eriiso class5,bod-head;bod-eye,preserve_unreviewed_spelling,Six legacy records remain verbatim; class suffix strings are not an approved pronunciation. 116 original entries supply written lexical authority.
+sit-chintang,lsi_CHHINGTANG-98_goodman-1;lsi_CHHINGTANG-102_badboy-1,good man;bad boy,,preserve_unmapped,Compound evidence stays unmapped; do not force equivalence to adjective good/bad merely to permit a primary migration.

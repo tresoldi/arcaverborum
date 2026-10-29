@@ -35,7 +35,7 @@ with sync_playwright() as p:
         ("alg-unami", 17),
         ("ath-western-apache", 14),
         ("atl-ewe", 35),
-        ("ine-scots", 28),
+        ("ine-scots", 58),
         ("afa-kabyle", 34),
         ("sit-dzongkha", 51),
         ("sit-atong-india", 32),
@@ -45,7 +45,7 @@ with sync_playwright() as p:
         assert len(supplied) == count and all(r["raw_ipa"] for r in supplied)
         legacy = [r for r in rows if r["transcription_source"] == "gled"]
         assert legacy and all("ASJP-derived" in r["representation_basis"] for r in legacy)
-        assert all(r["preferred_source"] == "wiktionary" for r in supplied)
+        assert all(r["preferred_source"] == "wiktionary" for r in supplied if r["concept_id"])
         assert "Scores summarize feature presence" in page.locator("#app").inner_text()
     rows = export("ine-palula")
     original = [r for r in rows if r["transcription_source"] == "dictpalula"]
@@ -55,11 +55,11 @@ with sync_playwright() as p:
     assert len([r for r in rows if r["transcription_source"] == "gled"]) == 108
     rows = export("tim-wersing")
     original = [r for r in rows if r["transcription_source"] == "dictwersing"]
-    assert len(original) == 12 and all(r["Segments_Source"] == "profile" for r in original)
+    assert len(original) == 28 and all(r["Segments_Source"] == "profile" for r in original)
     assert all("Peitoko" in r["Comment"] and "Pronunciation" in r["Comment"] for r in original)
     rows = export("afa-coptic")
     written = [r for r in rows if r["transcription_source"] == "copticsahidic"]
-    assert len(written) == 63 and all(not r["Segments"] for r in written)
+    assert len(written) == 72 and all(not r["Segments"] for r in written)
     assert all(r["representation_basis"] == "written_or_unresolved" for r in written)
     rows = export("mia-media-lengua")
     assert next(r for r in rows if r["source_parameter_id"] == "dictmedialengua_SN000410")["concept_id"] == "mod-bottle"
