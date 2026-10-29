@@ -56,6 +56,10 @@ shards, bibliography and recording metadata. Pages does not rebuild lexical data
 
 ## Evidence and next work
 
+Latest planning: [worldwide GW01–GW10 investigation](WORLDWIDE_NEXT_2026-10-29.md),
+with global baseline, selected source members and evidence gates. Proposed only;
+no new lexical changes or execution authorization.
+
 [Execution report](AFRICA_FOLLOWUP_2026-10-29.md), dated AX decision/source manifests,
 [registry](../src/arcaverborum/data/african_lexical_sources.json),
 [current member screen](africa_followup_opportunities_2026-10-29.csv) and

@@ -18,6 +18,9 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Worldwide next-work investigation,2026-10-29](../WORLDWIDE_NEXT_2026-10-29.md):
+  global coverage/quality baseline and GW01–GW10 proposed; no lexical changes.
+
 * [Sub-Saharan Africa, especially Bantu,2026-10-28](../SUBSAHARAN_AFRICA_INVESTIGATION_2026-10-28.md):
   ancestry-scoped485-construction Bantu baseline, TLS/IPA/profile depth, loss-aware
   GLED screen, actual RefLex and original dictionary acquisitions, and AF01–AF09

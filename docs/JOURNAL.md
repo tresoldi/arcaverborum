@@ -1,5 +1,22 @@
 # Project journal and working memory
 
+## 2026-10-29 — Worldwide next-work investigation
+
+User requested recommendations considering the whole world. No lexical changes.
+WORLDWIDE_NEXT_2026-10-29.md and NEXT propose GW01–GW10: Asian sparse-source review,
+Papuan/Oceanic dictionary readings, South American depth, Australia, North America,
+Europe/Central Asia, African dictionary depth, ancient attestations, genuinely
+missing-language acquisition, worldwide semantic/evidence audit. Recommended order
+GW01→GW02→GW03→GW04→GW05→GW06→GW07→GW08→GW09→GW10, checks throughout.
+Papunesia763 zero-supported-core constructions; Asia includes103/100/97 raw missing
+ceilings for Muya/Zaiwa/Kman, with strict sample gates. Nen/Teop/Wanukaka zero-core
+written sources merit original dictionary pilots; Palula GLED33 merits source recovery.
+Worldwide6,814 member opportunities/870 GLED alternatives, zero lossless positive
+supplied swaps. Forty absent-code members are provisional, mostly1–2-row fragments,
+including known Momi alias false positive; not40 new languages. External original
+acquisition needed for real breadth. Fresh baseline/selected members/method hashes
+and source links saved. No execution authorization inferred; all AF/AX complete.
+
 ## 2026-10-29 — AX01–AX06 execution complete
 
 User authorized all six with autonomous specifics; order AX02→AX04→AX03→AX06→AX05→AX01.

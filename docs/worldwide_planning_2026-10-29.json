@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-29",
+  "baseline_data_commit": "f1e6f1a9bddf09c6fa1c524f39252eaf328eff18",
+  "accepted_varieties": 7332,
+  "global_member_opportunities": 6814,
+  "global_gled_member_alternatives": 870,
+  "lossless_positive_supplied_gled_candidates": 0,
+  "selected_member_rows": 52,
+  "absent_catalog_code_members": 40,
+  "absent_catalog_codes": 40,
+  "regions": [
+    {
+      "macroarea": "Africa",
+      "varieties": 1791,
+      "zero_supported_core": 233,
+      "under_40_supported_core": 1090,
+      "gled_primaries": 824
+    },
+    {
+      "macroarea": "Africa;Eurasia",
+      "varieties": 3,
+      "zero_supported_core": 0,
+      "under_40_supported_core": 1,
+      "gled_primaries": 1
+    },
+    {
+      "macroarea": "Africa;Eurasia;South America",
+      "varieties": 1,
+      "zero_supported_core": 0,
+      "under_40_supported_core": 0,
+      "gled_primaries": 0
+    },
+    {
+      "macroarea": "Africa;North America",
+      "varieties": 1,
+      "zero_supported_core": 1,
+      "under_40_supported_core": 1,
+      "gled_primaries": 0
+    },
+    {
+      "macroarea": "Australia",
+      "varieties": 295,
+      "zero_supported_core": 33,
+      "under_40_supported_core": 95,
+      "gled_primaries": 47
+    },
+    {
+      "macroarea": "Australia;Papunesia",
+      "varieties": 1,
+      "zero_supported_core": 0,
+      "under_40_supported_core": 0,
+      "gled_primaries": 0
+    },
+    {
+      "macroarea": "Eurasia",
+      "varieties": 1733,
+      "zero_supported_core": 258,
+      "under_40_supported_core": 568,
+      "gled_primaries": 193
+    },
+    {
+      "macroarea": "Eurasia;Papunesia",
+      "varieties": 1,
+      "zero_supported_core": 0,
+      "under_40_supported_core": 0,
+      "gled_primaries": 0
+    },
+    {
+      "macroarea": "North America",
+      "varieties": 611,
+      "zero_supported_core": 91,
+      "under_40_supported_core": 353,
+      "gled_primaries": 254
+    },
+    {
+      "macroarea": "Papunesia",
+      "varieties": 2178,
+      "zero_supported_core": 763,
+      "under_40_supported_core": 1189,
+      "gled_primaries": 215
+    },
+    {
+      "macroarea": "South America",
+      "varieties": 489,
+      "zero_supported_core": 42,
+      "under_40_supported_core": 99,
+      "gled_primaries": 34
+    },
+    {
+      "macroarea": "Unspecified",
+      "varieties": 228,
+      "zero_supported_core": 99,
+      "under_40_supported_core": 142,
+      "gled_primaries": 5
+    }
+  ],
+  "input_sha256": {
+    "web/data/catalog.json.gz": "bc5f86305e297cc27afe8f5994b3971b2fb20ffad9ebb598796effefc4c1bbe2",
+    "web/data/manifest.json": "c1c4680fab35a604c36bb2d34fe70028b9d4712f6f0a69474db110ba6231d9ba",
+    "output/report/coverage_opportunities.csv": "11849ba6ae216c8de262dcad04e514b12010a81e21c3c71b373b108cc1d8e91a",
+    "output/report/africa_followup_gled.csv": "164eb1baa54da927c954e820573af1c14d10728d84e35b94e0bfb2c493277285"
+  },
+  "limitations": [
+    "Potential missing core concepts from upstream mappings, not verified gains; members overlap.",
+    "Source segments require genealogy, notation and sense review.",
+    "Macroarea groups use literal accepted values; combined areas are separate groups.",
+    "Zero-supported-core is a triage indicator, not proof that recoverable IPA exists.",
+    "Absent-code screen checks Glottolog language level but not aliases, sample identity or source routes. Momi is an explicit known false positive. Sign-language evidence is outside a spoken-IPA pipeline.",
+    "Primary-source profile recovery, original dictionaries, non-core vocabulary and new-source acquisition are not measured by additive ranking."
+  ],
+  "live_primary_sources_checked": [
+    "https://dictionaria.clld.org/download",
+    "https://dictionaria.clld.org/contributions/nen",
+    "https://dictionaria.clld.org/contributions/teop",
+    "https://dictionaria.clld.org/contributions/wanukaka",
+    "https://dictionaria.clld.org/contributions/palula",
+    "https://github.com/lexibank/cals",
+    "https://github.com/lexibank/naganorgyalrongic",
+    "https://github.com/lexibank/bowernpny",
+    "https://github.com/lexibank/utoaztecan",
+    "https://lexibank.clld.org/"
+  ]
+}
