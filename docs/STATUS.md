@@ -21,7 +21,13 @@ WN adds493 records:459 supplied IPA,29 source-scoped profiles/conversions,5 writ
 
 The explorer/exports now disclose per-concept configured preferred support, source role, GLED dependence, representation basis and observed notation marks. [Fidelity report](worldwide_wn_source_fidelity_2026-10-29.json):57,528 GLED-only supported slots; overlap is not independent evidence. Five accepted new Sahidic forms; two POS-conflicting candidates withheld before publication. Complete intake contains65 raw Coptic records but63 are accepted. No new Etruscan/Elamite readings or historical IPA. Wersing12 new readings retain single-speaker Peitoko/Pureman scope; all old source records remain.
 
-459 tests/lint, affected builds, eight local browser suites, all-earlier preservation,401 artifact/3 aggregate hashes,37 original-resource/profile checks and459 pronunciation-cache checks pass. Complete Wersing1,617/Coptic65 raw namespace reproduction passes; [proof](worldwide_wn_verification_2026-10-29.json). Publication verification pending push. Intake7,238,555 rows (+1,617 full Wersing namespace/+7 Coptic raw rows).
+459 tests/lint, affected builds, eight local browser suites, all-earlier preservation,401 artifact/3 aggregate hashes,37 original-resource/profile checks and459 pronunciation-cache checks pass. Complete Wersing1,617/Coptic65 raw namespace reproduction passes; [proof](worldwide_wn_verification_2026-10-29.json). Data commit:`947d563086d275b16b3c07ee10f43888f478cda2`.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40903696218) and
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40903696258) succeed.
+[Canonical proof](worldwide_wn_publication_2026-10-29.json): all399 family shards,
+manifest/catalog/recordings/bibliography match committed bytes/hashes (403 artifacts).
+WN-specific and general research browser/export suites pass on https://arcaverborum.org/.
+This subsequent documentation-only closure preserves the verified lexical artifacts. Intake7,238,555 rows (+1,617 full Wersing namespace/+7 Coptic raw rows).
 
 ## Historical preceding WS/WF evidence
 

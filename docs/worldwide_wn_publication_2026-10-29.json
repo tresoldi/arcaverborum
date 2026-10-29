@@ -1,0 +1,24 @@
+{
+  "canonical_url": "https://arcaverborum.org/",
+  "data_commit": "947d563086d275b16b3c07ee10f43888f478cda2",
+  "checked_artifacts": 403,
+  "family_shards": 399,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "all_hashes": "passed",
+  "accepted_varieties": 7341,
+  "forms": 2072270,
+  "new_export_fields": [
+    "preferred_source",
+    "evidence_role",
+    "gled_dependence",
+    "representation_basis",
+    "phonological_marks"
+  ],
+  "ci_run": 40903696218,
+  "ci_conclusion": "success",
+  "pages_run": 40903696258,
+  "pages_conclusion": "success",
+  "live_worldwide_wn_browser": "passed",
+  "live_research_browser": "passed"
+}

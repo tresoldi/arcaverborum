@@ -188,5 +188,11 @@ GLED/non-GLED overlap slots and161 slots with preferred notation marks absent fr
 the retained GLED representation. These161 are descriptive comparison leads,
 not161 established lost phonemic contrasts.
 
-Publication proof follows commit/push. Source/batch summaries are authoritative;
+Data commit:`947d563086d275b16b3c07ee10f43888f478cda2`.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40903696218) and
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40903696258) succeed.
+[Canonical proof](worldwide_wn_publication_2026-10-29.json): all399 family shards,
+manifest/catalog/recordings/bibliography match committed bytes/hashes (403 artifacts).
+WN-specific and general research browser/export suites pass on https://arcaverborum.org/.
+This subsequent documentation-only closure preserves the verified lexical artifacts. Source/batch summaries are authoritative;
 individual historical packet counts retain their dates.
