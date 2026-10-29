@@ -29,6 +29,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Worldwide after WN,Q01–Q08](../WORLDWIDE_AFTER_WN_PLAN_2026-10-29.md): zero-supported reading recovery, dictionary-scale new-language pilots, original-source depth, Australia, locality/citation conventions and ancient editions; not executed.
+
 * [Worldwide after WS,WN01–WN09](../WORLDWIDE_NEXT_AFTER_WS_2026-10-29.md): proposed balanced source upgrades, original dictionary depth, missing-language search and quality reporting; not executed.
 
 * [Worldwide follow-up WF01–WF10,2026-10-29](../WORLDWIDE_FOLLOWUP_2026-10-29.md): post-GW recommendations, identity checks and exact source-member candidates; not executed.

@@ -1,9 +1,23 @@
 # Active expansion queue
 
-Updated2026-10-29 against [STATUS](STATUS.md). **All WF01–WF12 and preceding
-GW01–GW10 are complete**. See [latest execution](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md)
-and [realized metrics](worldwide_followup_summary_2026-10-29.json).
-WS is complete:97 supplied readings,59 supported slots/16 core and four reviewed Wiktionary primaries; all earlier evidence retained. Preceding WF/GW tracks remain closed.
+Updated2026-10-29 against [STATUS](STATUS.md). **WN01–WN09, WS and prior WF/GW batches are complete.** Current baseline:7,341 constructions/2,072,270 records;1,559 GLED primaries. [WN results](WORLDWIDE_WN_EXECUTION_2026-10-29.md).
+
+## Recommended next batch — Q01–Q08 (proposed)
+
+[Detailed worldwide plan](WORLDWIDE_AFTER_WN_PLAN_2026-10-29.md) is the current proposal; no new lexical batch is authorized by the recommendation request.
+
+1. Recover supplied IPA for zero-supported-core Afrikaans, Sranan Tongo and Brunei Malay.
+2. Investigate dictionary-scale missing-language pilots for Gimme/Basa, alongside Bantu original-source depth.
+3. Deepen Iquito/Media Lengua and acquire substantive evidence for Yaroame/Nonuya, Birhor and Gamkonora.
+4. Extend Papuan/Pacific dictionaries with source-specific phonology and citation-form treatment.
+5. Review exact North Frisian/Italian locality groups and newly reviewed Scots entries.
+6. Acquire original Australian evidence for Iwaidja/Eastern Arrernte, with actual notation and reuse gates.
+7. Preserve unmapped earlier evidence through source migrations; apply language-specific word-class/citation conventions.
+8. Extend accessible ancient attestations and pursue exact Etruscan/Elamite edition evidence.
+
+Q01 has raw supplied-core potential86/27/49, not promised gains. Refreshed additive screen:6,795 overlapping member opportunities,602 South American/900 American. Do not replay held Lule, Opata, Vietnamese, Enga/Ap Ma or historical-stage mismatches as ready gains. [Current screen summary](worldwide_after_wn_opportunities_2026-10-29.json).
+
+## Completed batches and historical detail
 
 ## WF01–WF12 completed
 
@@ -30,7 +44,7 @@ See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-covera
 
 [Execution](WORLDWIDE_WN_EXECUTION_2026-10-29.md) and [metrics](worldwide_wn_summary_2026-10-29.json):493 records/336 supported slots/35 core, three one-record languages and ten primary changes. All nine authorized tracks are closed with admissions or explicit holds; no authorized execution remains.
 
-## Next evidence to pursue (not authorized by closure)
+## Post-WN closure notes (historical; Q01–Q08 above governs the current proposal)
 
 1. Deepen the three one-record pilots through original lexical acquisition; avoid presenting a water entry as broad coverage. The reusable missing-language audit leaves121 exact-code leads, many dialect/family nodes or aliases; Australian/new-language acquisition remains unmeasured.
 2. Use [source-fidelity dependence](worldwide_wn_source_fidelity_2026-10-29.json) to prioritize57,528 GLED-only slots and inspect161 notation-difference leads. Compare exact lexemes/varieties; no automatic source ranking or phonemic-contrast inference.

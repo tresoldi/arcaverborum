@@ -1,5 +1,9 @@
 # Project journal and working memory
 
+## 2026-10-29 — Worldwide Q01–Q08 recommendations (planning only)
+
+Refreshed accepted-data ranking:6,795 overlapping member leads,602 South American/900 American. Current WN results remain unchanged. Proposed recovery for Afrikaans/Sranan/Brunei (zero supported core; raw Wiktionary potential86/27/49), original Gimme/Basa dictionary-scale pilots (frozen RefLex1,208/1,087 rows, exact identity/edition pending), South American/pilot depth, Papuan/Pacific phonology, European locality groups, Iwaidja/Eastern Arrernte original acquisition, guarded preservation of unmapped evidence with language-specific POS/citation treatment, and ancient exact attestations. Checked primary Basa/Mainz/Iwaidja/Nen/Wersing sources and PARADISEC access workflow. Existing holds are not reopened; no lexical execution authorized. See WORLDWIDE_AFTER_WN_PLAN_2026-10-29.md; NEXT now leads with the current WN baseline and Q proposal.
+
 ## 2026-10-29 — Worldwide WN01–WN09 executed
 
 User authorized all nine sequentially with autonomous specifics.493 records:459 supplied IPA,29 profiles/finite source conversions,5 written Coptic;336 supported slots/35 core and339 mapped slots. Seven existing Media Lengua mappings added. Three new language-level pilots Yaroame/Birhor/Gamkonora have one water reading each; no broad coverage claim. Ten primary changes: nine Wiktionary slices and Palula43 original Ashret readings with all108 GLED records retained. All2,071,777 earlier records/readings/cognacy/source comments preserved;599 derived score recalculations from explicit mappings,85 role-label changes, zero changed variety-level scores.
