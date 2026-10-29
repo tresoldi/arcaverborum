@@ -1,5 +1,11 @@
 # Project journal and working memory
 
+## 2026-10-29 — JOHD555 South American source assessment (planning only)
+
+User asked whether Arozarena Gómez/Verkerk/Tanti2026 JOHD555 is useful. Downloaded six files from resolved Zenodo20330494 (concept19458765), verified all MD5s and pinned GitHub8d8b6358.299 source members/25,203 forms/1,521 parameters;15 proto inventories/4,842 forms.17,807 rows match current intake exactly on canonical-code/concept/NFC-trimmed form;2,683 non-proto nonmatches are not verified gains. Seven apparent absent non-proto codes need aliases/dialects reconciliation; five have represented language counterparts and two are Nadëb scopes.
+
+Strongest discovery: cached HGN v2.0 builder selects only nonempty Orthographic Form, dropping phonemic-only rows. Original cached South American JSON yields11,962 such rows across101 source members. Nadëb/Roçado122 has341 (178 basic), Rio Negro121154; accepted nad-nadeb only one record. Live original122 page confirms phonemic cells. Recommend a bounded exact-source Roçado pilot, preserving dialects/notation/alternatives and old intake. Article notebook cleaning removes digits/parentheses/spaces, proto cleaning removes stars/hyphens, and intermediate HGN CSV headers are misaligned; use originals, not blind derivative admission. Proto inventories are a separate reconstruction workstream. No lexical/config changes. See SOURCE_ASSESSMENT_JOHD555_2026-10-29.md, assessmentJSON and101-member leadsCSV; NEXT updated.
+
 ## 2026-10-29 — Worldwide Q01–Q08 executed
 
 User authorized all eight sequentially with autonomous specifics.325 records (218 supplied IPA/45 finite profiles or conversions/62 written), two24-concept written language pilots Gimme/Basa, net222 supported slots/70 core,238 mapped slots.22 Media Lengua mappings added; Kabyle alphabet-letter/message mismatch unmapped while supplied reading survives. Three primary changes: Mooring Wiktionary, Ruruuli original written dictionary, Chintang original profile-backed dictionary. All2,072,270 earlier readings/native cognacy/comments retained;91 native snapshots preserve six unmapped records, with66 separately verified derived score recalculations/137 role labels and no variety-level score changes.

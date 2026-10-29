@@ -1,0 +1,102 @@
+source_id,name,gc,phonemic_only,basic,flora,cult,accepted_av_id,accepted_forms,primary
+122,Nadëb/Roçado dialect,nade1244,341,178,114,49,nad-nadeb,1,huntergatherer
+267,Paraguayan Guaraní,para1311,290,183,48,59,tup-paraguayan-guarani,308,gerarditupi
+350,Cha'palaa,chac1249,289,182,50,57,bar-cha-palaa,1613,idssegmented
+398,Nivaclé,niva1238,282,183,45,54,mat-nivacle,1556,idssegmented
+395,Wichí Lhamtés Güisnay,wich1264,282,182,45,55,mat-guisnay,1361,wold
+394,Sanapaná/Dialect Enlhet,toba1268,282,181,47,54,,,
+361,Yaminahua,yami1256,280,180,48,52,pan-yaminahua,519,blumpanotacana
+365,Chiriguano,east2555,280,181,44,55,tup-eastern-bolivian-guarani,1413,idssegmented
+358,Katukina,pano1254,280,181,49,50,pan-panoan-katukina,316,johanssonsoundsymbolic
+396,"Chorote, Iyojwa'ja",iyoj1235,278,180,44,54,mat-riverine-chorote,1510,idssegmented
+399,Ayoreo,ayor1240,277,180,43,54,zam-ayoreo,1405,idssegmented
+393,Sanapaná/Dialect Angaité,anga1316,276,178,44,54,len-angaite,1158,idssegmented
+380,Mosetén-Chimané,mose1249,274,179,47,48,mos-moseten-chimane,499,blumpanotacana
+389,Mocoví,moco1246,273,183,36,54,gua-mocovi,1195,idssegmented
+356,Epena,epen1239,273,182,40,51,cho-epena,1089,idssegmented
+392,Lengua,leng1262,272,177,44,51,len-lengua,1110,idssegmented
+397,Maca,maca1260,271,179,42,50,mat-maka,1063,idssegmented
+391,Toba,toba1269,270,178,43,49,gua-toba,1359,idssegmented
+372,Araona,arao1248,267,177,44,46,pan-araona,424,blumpanotacana
+154,Aché,ache1246,267,182,42,43,tup-ache,969,idssegmented
+265,Mapudungun,mapu1245,267,182,31,54,arc-mapudungun,1377,idssegmented
+390,Pilagá,pila1245,265,178,38,49,gua-pilaga,1209,idssegmented
+343,Ignaciano,igna1246,252,169,39,44,ara-ignaciano,1109,idssegmented
+360,Shipibo-Konibo,ship1254,250,167,44,39,pan-shipibo-conibo,588,blumpanotacana
+63,Wayuu,wayu1243,249,170,42,37,ara-wayuu,978,idssegmented
+378,Itonama,iton1250,247,166,41,40,ito-itonama,284,johanssonsoundsymbolic
+373,Ese Ejja,esee1248,247,171,39,37,pan-ese-ejja,260,huntergatherer
+344,Trinitario,trin1274,244,169,37,38,ara-trinitario-javeriano-loretano,907,idssegmented
+374,Tacana,taca1256,239,162,42,35,pan-tacana,462,blumpanotacana
+131,Bará,poka1242,237,155,60,22,tuc-tiquie-pokanga,4,wiktionary
+117,Kakua,cacu1241,234,181,41,12,kak-kakua,431,hubercolumbian
+377,Cayuvava,cayu1262,233,161,34,38,cab-cayubaba,268,johanssonsoundsymbolic
+357,Kakataibo,cash1251,232,158,42,32,pan-cashibo-cacataibo,1008,blumpanotacana
+388,Chipaya,chip1262,224,170,20,34,uru-chipaya,1010,idssegmented
+80,Yabarana,yaba1248,222,143,45,34,car-yabarana,98,mattercariban
+401,Selknam,onaa1245,211,166,22,23,che-selk-nam,864,idssegmented
+400,Qawasqar,qawa1238,209,156,23,30,kaw-qawasqar,634,idssegmented
+355,Barí,bari1297,207,154,33,20,chi-bari,465,idssegmented
+402,Tehuelche,tehu1242,204,159,17,28,che-tehuelche,862,idssegmented
+404,Yine,yine1238,199,134,38,27,ara-yine,241,carvalhopurus
+118,Nukak,nuka1242,184,154,2,28,kak-nukak-maku,327,hubercolumbian
+92,Cuiva,cuib1242,183,134,38,11,gub-cuiba,492,hubercolumbian
+386,Karajá,kara1500,176,127,25,24,nub-karaja,525,idssegmented
+93,Guayabero,guay1257,163,156,3,4,gub-guayabero,440,hubercolumbian
+121,Nadëb/Rio Negro dialect,nade1244,154,85,52,17,nad-nadeb,1,huntergatherer
+95,Playero,play1240,141,81,57,3,gub-playero,411,hubercolumbian
+385,Canela,cane1242,119,91,16,12,nub-central-southern-timbira,195,idssegmented
+96,Sikuani,guah1255,83,80,2,1,gub-sikuani,383,huntergatherer
+94,Macaguan,maca1259,82,79,2,1,gub-hitnu,303,huntergatherer
+359,Pacahuara,paca1246,77,55,14,8,pan-pacahuara,20,panobodyparts
+102,Hodï,yuwa1244,61,60,0,1,hot-hoti,317,huntergatherer
+98,Central Aymara,cent2142,40,13,5,22,aym-central-aymara,277,huntergatherer
+104,Máku,maku1246,25,5,8,12,mak-maku,112,huntergatherer
+90,Northern Emberá,nort2972,19,0,19,0,cho-northern-embera,793,idssegmented
+81,Yukpa,yukp1241,16,10,6,0,car-yukpa,345,huntergatherer
+148,Secoya,seco1241,16,0,15,1,tuc-secoya,283,huntergatherer
+110,Tikuna,ticu1245,16,16,0,0,tic-ticuna,335,huntergatherer
+123,Yuhup,yuhu1238,13,1,0,12,nad-yuhup,251,huntergatherer
+126,Ingá,inga1252,10,0,10,0,qwe-colombian-inga,296,huntergatherer
+119,Dâw,daww1239,10,8,2,0,nad-daw,382,huntergatherer
+111,Tinigua,tini1245,9,0,8,1,tin-tinigua,23,huntergatherer
+137,Waikhana,pira1254,9,1,4,4,tuc-wa-ikhana,230,huntergatherer
+72,Carijona,cari1279,8,0,8,0,car-carijona,314,huntergatherer
+106,Páez,paez1247,5,0,5,0,pae-paez,336,huntergatherer
+48,Achagua,acha1250,5,0,5,0,ara-achagua,316,huntergatherer
+371,Wari,wari1268,5,5,0,0,cha-wari,326,huntergatherer
+140,Tatuyo,tatu1247,5,5,0,0,tuc-tatuyo,217,huntergatherer
+142,Tuyuka,tuyu1244,5,5,0,0,tuc-tuyuca,1075,idssegmented
+107,Puinave,puin1248,4,0,4,0,pui-puinave,346,huntergatherer
+145,Yuruti,yuru1263,4,1,0,3,tuc-yuruti,239,huntergatherer
+75,Makushi ,macu1259,3,0,0,3,car-macushi,316,huntergatherer
+91,Kaingang,kain1272,3,0,1,2,nub-kaingang,316,huntergatherer
+161,Yanomam,yano1261,2,1,1,0,yan-yanomamo,278,huntergatherer
+58,Piapoco ,piap1246,2,0,2,0,ara-piapoco,358,huntergatherer
+138,Siriano,siri1274,2,0,2,0,tuc-siriano,262,huntergatherer
+61,Wapishana,wapi1253,2,2,0,0,ara-wapishana,1152,idssegmented
+258,Makiritare,maqu1238,1,0,1,0,car-ye-kwana,439,idssegmented
+67,Sape,sape1238,1,1,0,0,sap-sape,78,huntergatherer
+149,Siona,sion1247,1,1,0,0,tuc-siona-tetete,334,huntergatherer
+124,Matses,mats1244,1,0,0,1,pan-matses,365,huntergatherer
+448,Kapanawa,ship1253,1,0,1,0,,,
+443,Rikbaktsa,rikb1245,1,0,1,0,nub-rikbaktsa,251,johanssonsoundsymbolic
+446,Marubo,maru1252,1,0,1,0,pan-marubo,324,oliveiraprotopanoan
+467,Emerillon,emer1243,1,0,1,0,tup-teko,470,tuled
+162,Yanomami,yano1262,1,1,0,0,yan-yanomam,931,idssegmented
+57,Paresi ,pare1272,1,0,1,0,ara-parecis,332,huntergatherer
+435,Huachapaeri,huac1244,1,0,1,0,har-huachipaeri,49,gled
+146,Koreguaje,kore1283,1,0,1,0,tuc-koreguaje,338,huntergatherer
+487,Matis,mati1255,1,0,1,0,pan-matis,244,oliveiraprotopanoan
+78,Wai Wai,waiw1244,1,0,1,0,car-waiwai,338,huntergatherer
+60,Tariana,tari1256,1,0,1,0,ara-tariana,489,hubercolumbian
+116,Huambisa,huam1247,1,0,0,1,chc-huambisa,360,huntergatherer
+433,Miskitu,misk1235,1,0,1,0,mis-miskito,331,johanssonsoundsymbolic
+68,Bora,bora1263,1,1,0,0,boa-bora,382,huntergatherer
+449,Kaxarari,kaxa1239,1,0,1,0,pan-kaxarari,110,blumpanotacana
+479,Shiwiar,shiw1235,1,0,1,0,,,
+77,Pemon,pemo1248,1,0,1,0,car-pemon,357,huntergatherer
+66,Arutani,arut1244,1,1,0,0,aru-arutani,78,huntergatherer
+472,Andoa,ando1255,1,0,1,0,zap-andoa,36,northperulex
+477,Tunebo,tune1260,1,0,1,0,chi-tunebo,186,pachechibchan
+447,Kashibo,cash1252,1,0,1,0,,,

@@ -2,6 +2,12 @@
 
 Updated2026-10-29 against [STATUS](STATUS.md). **Q01–Q08 is complete**, following WN/WS/WF/GW. Accepted7,343 constructions/2,072,595 records;1,558 GLED primaries. [Q execution](WORLDWIDE_Q_EXECUTION_2026-10-29.md), [metrics](worldwide_q_summary_2026-10-29.json).
 
+## New South American source lead — assessed2026-10-29
+
+[JOHD555 assessment](SOURCE_ASSESSMENT_JOHD555_2026-10-29.md) is planning only. Its aggregate largely overlaps intake, but investigation exposes a more valuable original-source gap: cached HGN v2.0 omits phonemic-only rows whenever its orthographic field is blank. Screened11,962 raw rows across101 South American source members; no gains admitted. **First recommendation: Nadëb/Roçado source122**,341 raw phonemic-only rows/178 basic versus one accepted record; preserve Rio Negro source121 separately (154 rows). Review a bounded original-source pilot, exact meanings, notation and citations before ingestion. [Member leads](johd555_hgn_phonemic_leads_2026-10-29.csv).
+
+The aggregate also has15 reconstructed inventories/4,842 forms; these require an explicitly reconstructed scope and original-authority review. Its seven apparent missing modern-code matches do not establish seven new languages. No bulk derivative import or automatic phonemic certification. This new source evidence takes priority within the protected Americas track below; Q results remain unchanged.
+
 ## Candidate next work — not yet authorized
 
 Choose from the current accepted output and the [holds](planning/HELD.md), not the spent Q ceilings. The previous6,795-member screen predates these admissions and must be refreshed before assigning new gain estimates.

@@ -98,3 +98,7 @@ Earlier language recovery decisions are in
 Dated rankings are discovery snapshots. Their rows can overlap, retain already
 reviewed holds and omit primary-source/profile opportunities. The latest useful
 ranking is linked from STATUS; refresh it after relevant intake or build changes.
+
+## Source assessments
+
+* [JOHD555 South American aggregate,2026-10-29](../SOURCE_ASSESSMENT_JOHD555_2026-10-29.md): strong original HGN phonemic-only recovery lead, duplicate/source-quality audit and separately scoped proto-language inventories; planning only.
