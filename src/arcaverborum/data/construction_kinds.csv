@@ -1,0 +1,4 @@
+av_id,construction_kind,expected_primary_source,expected_member,notes
+qwe-proto-quechuan-johd,reconstruction,johdproto,johdproto_ProtoQuechuan,"Analytical source-reported reconstruction inventory; no attested language, inferred date, geographic point, supplied IPA or modern-language count."
+aym-proto-aymaran-johd,reconstruction,johdproto,johdproto_ProtoAymaran,"Analytical source-reported reconstruction inventory; no attested language, inferred date, geographic point, supplied IPA or modern-language count."
+gua-proto-guaicuruan-johd,reconstruction,johdproto,johdproto_ProtoGuaicuruan,"Analytical source-reported reconstruction inventory; no attested language, inferred date, geographic point, supplied IPA or modern-language count."

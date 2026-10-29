@@ -10,7 +10,7 @@ extensions:
   transcriptions: false
   forms: false
   cognates: false
-  concept_map: false
+  concept_map: true
   profile: false
 scoring:
   forms_score: 0.8396

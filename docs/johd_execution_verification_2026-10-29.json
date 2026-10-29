@@ -1,0 +1,34 @@
+{
+  "tests": 476,
+  "tests_with_utf8proc_flag_false": 476,
+  "lint": "passed",
+  "affected_constructions": 15,
+  "build_failures_final": 0,
+  "local_browser_suites": [
+    "johd",
+    "research",
+    "mixed_source",
+    "romance",
+    "ancient",
+    "worldwide",
+    "african",
+    "source_preference",
+    "worldwide_wn",
+    "worldwide_q"
+  ],
+  "resource_hashes": 6,
+  "complete_namespace_reproduction": {
+    "hgnphonemic": 71,
+    "hgnphonemicdepth": 20,
+    "johdproto": 60
+  },
+  "native_rows_verified": 151,
+  "all_earlier_records_preserved": 2072595,
+  "earlier_records_gaining_mapping": 10,
+  "derived_per_form_score_recalculations": 10,
+  "variety_level_score_changes": 0,
+  "explicit_analytical_reconstruction_inventories": 3,
+  "new_extant_languages": 0,
+  "website_artifact_hashes": 401,
+  "aggregate_input_hashes": 3
+}

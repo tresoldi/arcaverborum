@@ -1,0 +1,14 @@
+{
+  "rows": 2683,
+  "categories": {
+    "same_form_other_sense_or_mapping": 589,
+    "unresolved_original_source_review": 653,
+    "possible_boundary_or_stress_difference": 1432,
+    "exact_match_after_identity_reconciliation": 9
+  },
+  "new_admissions": 0,
+  "identity_cases": 7,
+  "interpretation": "Screen categories are not phonetic equivalence or gain estimates. No new aggregate lexical rows admitted; ten separately reviewed existing TuLeD records gain exact daughter-of-woman mappings.",
+  "accepted_existing_record_mappings": 10,
+  "semantic_sample": 30
+}

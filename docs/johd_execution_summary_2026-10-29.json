@@ -1,0 +1,122 @@
+{
+  "before": {
+    "varieties": 7343,
+    "forms": 2072595,
+    "source_forms": 1748026,
+    "profile_forms": 14760,
+    "supported_core": 469426,
+    "mapped_core": 543263,
+    "mapped_all_concepts": 1335920,
+    "supported_all_concepts": 1208471,
+    "gled_primaries": 1558,
+    "core_source_varieties": 915
+  },
+  "after": {
+    "varieties": 7346,
+    "forms": 2072746,
+    "source_forms": 1748117,
+    "profile_forms": 14760,
+    "supported_core": 469471,
+    "mapped_core": 543366,
+    "mapped_all_concepts": 1336044,
+    "supported_all_concepts": 1208535,
+    "gled_primaries": 1558,
+    "core_source_varieties": 915
+  },
+  "delta": {
+    "varieties": 3,
+    "forms": 151,
+    "source_forms": 91,
+    "profile_forms": 0,
+    "supported_core": 45,
+    "mapped_core": 103,
+    "mapped_all_concepts": 124,
+    "supported_all_concepts": 64,
+    "gled_primaries": 0,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "aym-proto-aymaran-johd",
+      "forms_before": 0,
+      "forms_after": 20,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "johdproto"
+    },
+    {
+      "av_id": "car-yabarana",
+      "forms_before": 98,
+      "forms_after": 118,
+      "supported_core_before": 88,
+      "supported_core_after": 90,
+      "primary_before": "mattercariban",
+      "primary_after": "mattercariban"
+    },
+    {
+      "av_id": "gua-proto-guaicuruan-johd",
+      "forms_before": 0,
+      "forms_after": 20,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "johdproto"
+    },
+    {
+      "av_id": "mia-media-lengua",
+      "forms_before": 3216,
+      "forms_after": 3216,
+      "supported_core_before": 132,
+      "supported_core_after": 132,
+      "primary_before": "dictmedialengua",
+      "primary_after": "dictmedialengua"
+    },
+    {
+      "av_id": "nad-nadeb",
+      "forms_before": 1,
+      "forms_after": 72,
+      "supported_core_before": 0,
+      "supported_core_after": 43,
+      "primary_before": "huntergatherer",
+      "primary_after": "hgnphonemic"
+    },
+    {
+      "av_id": "qwe-proto-quechuan-johd",
+      "forms_before": 0,
+      "forms_after": 20,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "johdproto"
+    }
+  ],
+  "all_earlier_records_readings_cognacy_preserved": 2072595,
+  "derived_per_form_score_recalculations": 10,
+  "variety_level_scores_changed": 0,
+  "original_source_comments_preserved": true,
+  "derived_source_role_comment_changes": 0,
+  "new_records": 151,
+  "new_records_by_status": {
+    "unclean": 60,
+    "source": 91
+  },
+  "earlier_unmapped_records_now_mapped": 10,
+  "new_supported_slots": 64,
+  "new_supported_core_slots": 45,
+  "new_distinct_languages": 0,
+  "new_reconstruction_inventories": 3,
+  "new_intake_rows": 151,
+  "intake_total_rows": 7238768,
+  "primary_changes": 1,
+  "earlier_incorrect_mappings_removed": 0,
+  "preserved_native_snapshot_rows": 1,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "J01",
+    "J02",
+    "J03",
+    "J04"
+  ]
+}

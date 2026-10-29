@@ -1,5 +1,32 @@
 # Current project state
 
+Updated2026-10-29. Latest accepted batch: [JOHD/HGN evidence J01–J04](JOHD_EVIDENCE_EXECUTION_2026-10-29.md), all four authorized tracks closed with admissions, semantic corrections or specific holds. [Metrics](johd_execution_summary_2026-10-29.json), [verification](johd_execution_verification_2026-10-29.json).
+
+## Accepted baseline
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,346 |
+| Forms | 2,072,746 |
+| Supplied/upstream-converted forms | 1,748,117 |
+| Profile-derived forms | 14,760 |
+| Supported core slots | 469,471 |
+| Mapped core slots | 543,366 |
+| Supported all-concept slots | 1,208,535 |
+| Mapped all-concept slots | 1,336,044 |
+| GLED primaries | 1,558 |
+| Core-source varieties | 915 |
+
+J01–J04 adds151 records:91 supplied original phonemic citations (48 Roçado/23 Rio Negro/20 Yabarana) and60 written source-reported reconstructions. Three new analytical inventories are explicitly marked as reconstruction, with blank canonical codes/coordinates/dates, retained stars/bound morphology and no phonetic support. **Zero new extant languages.** Net+64 supported slots/45 core; ten existing TuLeD daughter-of-woman records gain exact frozen mappings. Mapped slots+124/core+103 includes the separately counted written hypotheses.
+
+All2,072,595 earlier readings/native cognacy/source comments remain. One old Nadëb mystery-vowel record is retained verbatim as original HGN Roçado phonemic evidence becomes primary; Yabarana's primary is unchanged. Ten per-form scores recalculate solely from explicit concept mappings; no variety-level score or derived role comment changes. Intake7,238,768 (+151); original64,607-row HGN namespace unchanged.
+
+All101 HGN source members ranked; Bará and Sanapaná identity holds remain specific. All15 proto inventories reviewed as separate leads; only three written pilots admitted. Proto-Zaparoan original file absent, Proto-Tucanoan existing family-code scope unresolved. All2,683 non-proto nonmatches screened; normalization and pronominal specificity are not automatically imported. [Source fidelity](johd_source_fidelity_2026-10-29.json):57,523 GLED-only supported slots, unchanged.
+
+476 tests in both HAVE_UTF8PROC flag states/full lint,15 affected builds, ten browser suites, whole accepted-data preservation,401 artifact hashes/3 aggregate hashes and six resource pins/151 native-row reproductions pass. Publication verification follows the data commit.
+
+## Historical preceding Q evidence
+
 Updated2026-10-29. Latest accepted batch: [worldwide Q01–Q08](WORLDWIDE_Q_EXECUTION_2026-10-29.md), all eight authorized tracks closed with admissions or bounded evidence holds. [Metrics](worldwide_q_summary_2026-10-29.json) and [verification](worldwide_q_verification_2026-10-29.json) are authoritative.
 
 ## Accepted baseline

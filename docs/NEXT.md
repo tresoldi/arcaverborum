@@ -1,12 +1,15 @@
 # Active expansion queue
 
-Updated2026-10-29 against [STATUS](STATUS.md). **Q01–Q08 is complete**, following WN/WS/WF/GW. Accepted7,343 constructions/2,072,595 records;1,558 GLED primaries. [Q execution](WORLDWIDE_Q_EXECUTION_2026-10-29.md), [metrics](worldwide_q_summary_2026-10-29.json).
+Updated2026-10-29 against [STATUS](STATUS.md). **JOHD/HGN J01–J04 and Q01–Q08 are complete.** Accepted7,346 constructions/2,072,746 records; three newly admitted constructions are analytical written reconstruction inventories, not new extant languages.1,558 GLED primaries. [JOHD execution](JOHD_EVIDENCE_EXECUTION_2026-10-29.md), [metrics](johd_execution_summary_2026-10-29.json).
 
-## New South American source lead — assessed2026-10-29
+## Current original-HGN/reconstruction follow-up — not yet authorized
 
-[JOHD555 assessment](SOURCE_ASSESSMENT_JOHD555_2026-10-29.md) is planning only. Its aggregate largely overlaps intake, but investigation exposes a more valuable original-source gap: cached HGN v2.0 omits phonemic-only rows whenever its orthographic field is blank. Screened11,962 raw rows across101 South American source members; no gains admitted. **First recommendation: Nadëb/Roçado source122**,341 raw phonemic-only rows/178 basic versus one accepted record; preserve Rio Negro source121 separately (154 rows). Review a bounded original-source pilot, exact meanings, notation and citations before ingestion. [Member leads](johd555_hgn_phonemic_leads_2026-10-29.csv).
+1. Deepen the reviewed original phonemic source scopes beyond Roçado48/Rio Negro23/Yabarana20. Nadëb now has72 accepted records, Yabarana118; do not repeat their old sparse baselines. Use the [101-member ranking](johd_j02_hgn_ranking_2026-10-29.csv), exact source conventions, semantic definitions and all variants; raw valid-token counts are not gains. The11,962-row original field screen includes the completed slices and remains a historical raw inventory.
+2. Reopen Bará only with exact Huber/Reed source-member/variety evidence; native source Notes leave its identity uncertain. Sanapaná/Enlhet versus Toba code assignment also remains held. Do not manufacture a new language from an alias mismatch.
+3. Extend the three explicitly written reconstruction inventories only after new original-row/sense review; phonetic reconstruction admission needs original edition/notation authority beyond collective compiler attribution. Other12 proto inventories remain distinct leads: Proto-Tucanoan overlaps an existing family-code construction; Proto-Zaparoan lacks its original repository file.
+4. Continue original-source semantic comparison beyond the ten corrected daughter-of-woman records and30-case sample. Keep the [2,683-row screen](johd_j04_nonproto_summary_2026-10-29.json) as triage; boundary/stress similarity and generic we do not establish phonetic equivalence or inclusivity. Navel/bellybutton already has distinct frozen mappings.
 
-The aggregate also has15 reconstructed inventories/4,842 forms; these require an explicitly reconstructed scope and original-authority review. Its seven apparent missing modern-code matches do not establish seven new languages. No bulk derivative import or automatic phonemic certification. This new source evidence takes priority within the protected Americas track below; Q results remain unchanged.
+The remaining worldwide candidates below are proposals, not another authorized lexical batch. Recheck them against the current JOHD baseline.
 
 ## Candidate next work — not yet authorized
 

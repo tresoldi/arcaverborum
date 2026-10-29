@@ -1,5 +1,15 @@
 # Project journal and working memory
 
+## 2026-10-29 — JOHD/HGN J01–J04 executed
+
+User authorized all opportunities sequentially with autonomous specifics.151 records:91 original supplied phonemic citations (Nadëb/Roçado48, Rio Negro23, Yabarana20) and60 written reconstructions in three explicitly analytical inventories. Original HGN122 authority becomes primary for Nadëb; all preceding readings/native cognacy/comments survive, including one mystery-vowel record verbatim. No new extant language claim, reconstructed IPA, inferred neutral roots or etymology-to-cognacy conversion. Exact original source-member and native metadata preserved.
+
+Accepted7,346 constructions/2,072,746 records/469,471 supported core/543,366 mapped core/1,208,535 supported all/1,336,044 mapped all; GLED primaries1,558/Core-source varieties915 unchanged. Net64 supported slots/45 core; ten existing TuLeD DAUGHTER OF WOMAN records map to3930. All2,072,595 earlier evidence retained, ten per-form CI-bonus score recalculations, no variety-level or derived role-comment changes. Intake7,238,768 (+151); old HGN64,607 untouched.
+
+101 HGN members ranked; Bará native identity uncertainty and Sanapaná/Enlhet-to-Toba assignment held. Fifteen proto inventories assessed; three written20-concept samples admitted under blank-code member scopes and explicit construction_kind=reconstruction; Proto-Zaparoan original file absent, Proto-Tucanoan already overlaps accepted family code.2,683 non-proto nonmatches screened:9 match after alias reconciliation/1,432 boundary-or-stress leads/589 same-form-other-sense/653 unresolved; no automatic phonetic or pronominal-specificity inference.30-case semantic sample keeps navel/bellybutton mappings and holds narrow pronoun claims. Martins2005 original LOT104 PDF acquired, pp55–74 corroborates distinct Nadëb dialect entries and length/phonation/nasality; accents not assumed tone.
+
+476 tests in both HAVE_UTF8PROC flag states/full lint,15 affected builds, ten browser suites,401 artifact/3 aggregate hashes, six resource hashes and three complete namespace reproductions71/20/60 pass. See JOHD_EVIDENCE_EXECUTION_2026-10-29.md and johd_execution_summary_2026-10-29.json. STATUS/NEXT/HELD updated. Publication proof follows the data commit.
+
 ## 2026-10-29 — JOHD555 South American source assessment (planning only)
 
 User asked whether Arozarena Gómez/Verkerk/Tanti2026 JOHD555 is useful. Downloaded six files from resolved Zenodo20330494 (concept19458765), verified all MD5s and pinned GitHub8d8b6358.299 source members/25,203 forms/1,521 parameters;15 proto inventories/4,842 forms.17,807 rows match current intake exactly on canonical-code/concept/NFC-trimmed form;2,683 non-proto nonmatches are not verified gains. Seven apparent absent non-proto codes need aliases/dialects reconciliation; five have represented language counterparts and two are Nadëb scopes.

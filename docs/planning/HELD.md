@@ -5,6 +5,14 @@ Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## JOHD/HGN J01–J04 closure —2026-10-29
+
+[Execution](../JOHD_EVIDENCE_EXECUTION_2026-10-29.md) supersedes the original Nadëb acquisition gap for the admitted48 Roçado/23 Rio Negro citations; one earlier mystery-vowel record remains unchanged. Yabarana20 source citations admitted separately; other native alternatives, colon/underbar/accent/morphology cases need exact review.101-member raw counts are not new gains. Bará's own HGN Notes leave identity uncertain (possible Barasano/Waimaha affiliation); need exact Huber/Reed member evidence. Sanapaná/Enlhet labelled member394 mapped to toba1268 remains an identity hold.
+
+Three source-reported reconstruction inventories have20 written concepts each. Edition-level per-row authority/phonological convention is not independently established, so no reconstructed IPA is admitted. Proto-Zaparoan original source file is absent from the pinned repository tree; its cleaned39-row derivative and notebook mention do not resolve provenance. Proto-Tucanoan family code already occurs in accepted output; resolve scope before another claim. Other proto inventories require separately pinned original rows/authority/senses.
+
+Ten existing TuLeD daughter-of-woman mappings are complete; do not reopen as missing slots. Bellybutton3715/navel1838 already have frozen distinctions and are not automatically re-keyed. Generic we, coincident pronominal forms and derivative inclusivity claims need source-language grammar.2,683-row screen categories are comparison leads, not certified new readings or independent confirmations.
+
 ## Worldwide Q01–Q08 closure — 2026-10-29
 
 [Execution](../WORLDWIDE_Q_EXECUTION_2026-10-29.md) supersedes the Ruruuli/Chintang preservation blocker: all91 earlier native records now survive under explicit guards, including six unmapped, and original dictionaries are primary. Ruruuli116 entries remain written; this does not resolve phonological authority. Gimme/Basa24-entry written pilots are accepted identities, not missing-language opportunities; source citation-year differences are preserved, and broader phonological admission needs the exact original edition/conventions.

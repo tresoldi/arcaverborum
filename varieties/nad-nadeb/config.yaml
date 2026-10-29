@@ -4,8 +4,9 @@ glottocode: nade1244
 family: Naduhup
 macroarea: South America
 sources:
-  transcription: huntergatherer
-  cognates: huntergatherer
+  transcription: hgnphonemic
+  cognates: hgnphonemic
+  source_language_id: hgnphonemic_122
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,8 @@ scoring:
   forms_score: 0.5556
   cognates_score: 0.0
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=huntergatherer (0.56)'
+notes: J01 original HGN Roçado48 supplied phonemic citations primary;23 Rio Negro
+  citations separately scoped, one old record preserved verbatim. Source-cited forms,
+  not neutral roots; no transfer of source etymology into cognacy.

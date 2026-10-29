@@ -208,3 +208,12 @@ fingerprinting, concept resolution), not a shallow dispatcher.
 - The repeatable planning procedure is
   [coverage-planning](docs/workflows/arca-coverage-planning/SKILL.md); it keeps
   completed work and held candidates from resurfacing as fresh proposals.
+
+Explicit analytical reconstruction inventories are distinct from documented
+language varieties and attested historical stages. Their named member scopes have
+blank canonical Glottocodes and no inferred dates or coordinates. The reviewed
+`data/construction_kinds.csv` registry marks these inventories in the research
+catalog; builds fail on a conflicting primary or identity. Written reconstruction
+pilots retain original stars, bound stems and uncertainty, with empty segments and
+`source_reported_reconstruction` evidence. They do not count as newly documented
+extant languages or supported pronunciations.

@@ -112,3 +112,17 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     assert rows[0]['concept_id'] == ''
     assert rows[0]['mapping_review'] == 'unmap'
     assert rows[0]['mapping_note'] == 'Source POS mismatch'
+
+
+def test_reconstruction_catalog_metadata_requires_explicit_unlinked_scope():
+    import pytest
+
+    rule = dict(construction_kind='reconstruction', expected_primary_source='reconstructed')
+    row = dict(transcription_source='reconstructed')
+    assert builder.construction_metadata(row, {}, rule)['identity_level'] == 'analytical reconstruction'
+    assert builder.construction_metadata(row, {}, None) == {}
+    for entry in [dict(glottocode='family1234'), dict(latitude='0')]:
+        with pytest.raises(ValueError, match='scope changed'):
+            builder.construction_metadata(row, entry, rule)
+    with pytest.raises(ValueError):
+        builder.construction_metadata(dict(transcription_source='modern'), {}, rule)

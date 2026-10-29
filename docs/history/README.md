@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [JOHD/HGN J01–J04,2026-10-29](../JOHD_EVIDENCE_EXECUTION_2026-10-29.md):151 records,64 supported slots/45 core, three explicitly written reconstruction inventories, original HGN recovery and ten exact semantic mappings. [Metrics](../johd_execution_summary_2026-10-29.json).
+
 * [Worldwide Q01–Q08,2026-10-29](../WORLDWIDE_Q_EXECUTION_2026-10-29.md):325 records, two24-entry written language pilots, three primary changes, native-evidence preservation, dictionary depth and exact Etruscan edition acquisition. [Metrics](../worldwide_q_summary_2026-10-29.json).
 
 * [Worldwide WN01–WN09,2026-10-29](../WORLDWIDE_WN_EXECUTION_2026-10-29.md):493 records,336 supported slots, three minimal-language pilots, ten primary changes and per-concept source-fidelity reporting. [Metrics](../worldwide_wn_summary_2026-10-29.json).

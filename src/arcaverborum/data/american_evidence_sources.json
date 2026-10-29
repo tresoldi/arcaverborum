@@ -1,0 +1,71 @@
+[
+  {
+    "dataset": "hgnphonemic",
+    "kind": "hgn_phonemic",
+    "name": "Original HGN phonemic-only Nadëb citations",
+    "version": "717ad159cd6352508fa204ae93a067142a65e3f6",
+    "url": "https://github.com/lexibank/huntergatherer",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "citation": "Bowern, Epps, Hill and McConvell2013. Languages of Hunter-Gatherers and their Neighbors; exact Nadëb/Roçado122 and Rio Negro121 phonemic fields, frozen Lexibank v2.0 raw JSON. Original authorities: Martins2005 (LOT104); Rio Negro additionally Barbosa2005, Martins/Senn1999, Weir1984 as reported by HGN.",
+    "genealogy": "Original HGN source tradition, reused through its pinned raw JSON; not independent confirmation of Hunter-Gatherer-derived copies, ASJP or GLED.",
+    "review": "docs/johd_j01_hgn_review_2026-10-29.csv",
+    "resources": [
+      {
+        "filename": "122.json",
+        "url": "https://raw.githubusercontent.com/lexibank/huntergatherer/717ad159cd6352508fa204ae93a067142a65e3f6/raw/122.json",
+        "sha256": "9d0cd4004f487e45f4ed49db1013d923f94eb2df3616a7a424ab868d7eb7d678"
+      },
+      {
+        "filename": "121.json",
+        "url": "https://raw.githubusercontent.com/lexibank/huntergatherer/717ad159cd6352508fa204ae93a067142a65e3f6/raw/121.json",
+        "sha256": "4175820b6b762ac722a07a1280535b62ea3ed62a367670c7226a99180498e15e"
+      }
+    ]
+  },
+  {
+    "dataset": "hgnphonemicdepth",
+    "kind": "hgn_phonemic",
+    "name": "Original HGN phonemic-only depth citations",
+    "version": "717ad159cd6352508fa204ae93a067142a65e3f6",
+    "url": "https://github.com/lexibank/huntergatherer",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "citation": "Bowern, Epps, Hill and McConvell2013. Languages of Hunter-Gatherers and their Neighbors, original phonemic-only fields; source members and original bibliography retained with every lexical row. Frozen Lexibank v2.0 raw JSON.",
+    "genealogy": "Original HGN lineage; derivative overlaps are not independent confirmations.",
+    "review": "docs/johd_j02_yabarana_review_2026-10-29.csv",
+    "resources": [
+      {
+        "filename": "80.json",
+        "url": "https://raw.githubusercontent.com/lexibank/huntergatherer/717ad159cd6352508fa204ae93a067142a65e3f6/raw/80.json",
+        "sha256": "be8a5eabdf75f406d7aafb408226b0c6c43cad7757d397d47684ab4e728cd3c7"
+      }
+    ]
+  },
+  {
+    "dataset": "johdproto",
+    "kind": "reconstruction_csv",
+    "name": "JOHD source-reported American reconstructions, written evidence only",
+    "version": "8d8b6358078dfbedc2df857cee48357d047cc09e",
+    "url": "https://doi.org/10.5281/zenodo.19458765",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "citation": "Arozarena Gómez, Álvaro; Verkerk, Annemarie; Tanti, Marc.2026. JOHD555 South American Lexical Dataset, declared CC BY4.0, Zenodo20330494; original repository protoform inventories retained before stripping reconstruction markers. Collective original authorities are attached per row; edition-level agreement is not independently established.",
+    "genealogy": "Same published JOHD compilation; not independent confirmation of its final CLDF table or the original cited scholarly hypotheses. Reconstructed inventories are separate from attested speech.",
+    "review": "docs/johd_j03_proto_review_2026-10-29.csv",
+    "resources": [
+      {
+        "filename": "p-quechuan.csv",
+        "url": "https://raw.githubusercontent.com/lumenauta/south-american-phylogenies/8d8b6358078dfbedc2df857cee48357d047cc09e/data/source%20data/protoforms/p-quechuan.csv",
+        "sha256": "0193d963ead02a9da0a5a396d5e5032ab80c2c0f26b7fdc05e038f06b6c7260c"
+      },
+      {
+        "filename": "p-aymaran.csv",
+        "url": "https://raw.githubusercontent.com/lumenauta/south-american-phylogenies/8d8b6358078dfbedc2df857cee48357d047cc09e/data/source%20data/protoforms/p-aymaran.csv",
+        "sha256": "d5c6d1f7b2462211455457ce1f1579c54694954495cfe23e93109128c87223bd"
+      },
+      {
+        "filename": "p-guaicuru.csv",
+        "url": "https://raw.githubusercontent.com/lumenauta/south-american-phylogenies/8d8b6358078dfbedc2df857cee48357d047cc09e/data/source%20data/protoforms/p-guaicuru.csv",
+        "sha256": "9f939760b9bde66e040f086bacf32c751812ac1fd89561e5484db7c84cee8d88"
+      }
+    ]
+  }
+]

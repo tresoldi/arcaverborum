@@ -38,11 +38,25 @@ def assignments(row):
     return sorted(set(part.strip() for part in value.split(';') if part.strip()))
 
 
+def construction_metadata(row, entry, rule):
+    """Explicitly distinguish analytical reconstructions from attested varieties."""
+    if not rule:
+        return {}
+    if (rule['construction_kind'] != 'reconstruction' or entry.get('glottocode')
+            or row['transcription_source'] != rule['expected_primary_source']
+            or entry.get('latitude') or entry.get('longitude')):
+        raise ValueError('Reconstruction construction scope changed')
+    return dict(construction_kind='reconstruction', identity_level='analytical reconstruction',
+                first_documented='', last_documented='')
+
+
 def build(root=ROOT, output=None):
     output = output or root / 'web/data'
     output.mkdir(parents=True, exist_ok=True)
     aggregate = root / 'output/aggregate'
     registry = {r['av_id']: r for r in read(root / 'src/arcaverborum/data/varieties.csv')}
+    kinds_path = root / 'src/arcaverborum/data/construction_kinds.csv'
+    kinds = {r['av_id']: r for r in read(kinds_path)} if kinds_path.exists() else {}
     core = {r['concept_id'] for r in read(root / 'src/arcaverborum/data/concept_core.csv')}
     sources = {r['Dataset']: r for r in read(aggregate / 'metadata.csv')}
     if 'wiktionary' not in sources:
@@ -99,6 +113,7 @@ def build(root=ROOT, output=None):
                    identity_level=g.get('Level', 'not recorded'),
                    first_documented=g.get('First_Year_Of_Documentation', ''),
                    last_documented=g.get('Last_Year_Of_Documentation', ''))
+        row.update(construction_metadata(row, entry, kinds.get(row['av_id'])))
         row.update(core_collection=row['transcription_source'] in core_sources,
                    mapped_concepts=0, core_concepts=0, supported_core=0, forms=0, statuses={})
     seen, counts, statuses = defaultdict(set), Counter(), defaultdict(Counter)
@@ -115,6 +130,11 @@ def build(root=ROOT, output=None):
         batch = []
         with (aggregate / 'forms.csv').open() as handle:
             for index, row in enumerate(csv.DictReader(handle)):
+                kind = kinds.get(row['av_id'])
+                if kind and (row['source_language_id'] != kind['expected_member']
+                             or row['Segments'] or row['Segments_Source'] in {'source', 'profile'}
+                             or not row['Value'].strip().startswith('*')):
+                    raise ValueError('Written reconstruction evidence lost its explicit scope')
                 if not fields:
                     fields = ['ID', *('cognate_evidence_source' if k == 'Cognate_Source' else k for k in row),
                               'is_core_concept', 'License', 'source_gloss', 'cognate_sets',

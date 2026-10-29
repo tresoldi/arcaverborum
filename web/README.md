@@ -146,3 +146,11 @@ Q recovery and preservation checks: `web/tests/worldwide_q_browser.py URL` tests
 Afrikaans/Sranan/Brunei supplied IPA, written Gimme/Basa pilots, Mooring qualifiers,
 Ruruuli/Chintang primary preference with unmapped native evidence, the Kabyle
 alphabet-letter correction and written Sahidic depth. See the Q execution report.
+
+JOHD/HGN checks: `web/tests/johd_browser.py URL` verifies separate Roçado/Rio Negro
+phonemic citations, retained phonation/quantity, the preceding Nadëb record,
+Yabarana depth, explicitly analytical written reconstructions and precise
+mother-referred daughter mappings. `construction_kinds.csv` registers only
+explicitly reviewed reconstruction inventories; catalog labels and source-member
+guards distinguish them from attested speech. Source stages reproduce with
+`scripts/verify_johd_evidence.py`.
