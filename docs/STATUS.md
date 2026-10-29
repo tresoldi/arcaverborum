@@ -23,7 +23,7 @@ All2,072,595 earlier readings/native cognacy/source comments remain. One old Nad
 
 All101 HGN source members ranked; Bará and Sanapaná identity holds remain specific. All15 proto inventories reviewed as separate leads; only three written pilots admitted. Proto-Zaparoan original file absent, Proto-Tucanoan existing family-code scope unresolved. All2,683 non-proto nonmatches screened; normalization and pronominal specificity are not automatically imported. [Source fidelity](johd_source_fidelity_2026-10-29.json):57,523 GLED-only supported slots, unchanged.
 
-476 tests in both HAVE_UTF8PROC flag states/full lint,15 affected builds, ten browser suites, whole accepted-data preservation,401 artifact hashes/3 aggregate hashes and six resource pins/151 native-row reproductions pass. Publication verification follows the data commit.
+476 tests in both HAVE_UTF8PROC flag states/full lint,15 affected builds, ten browser suites, whole accepted-data preservation,401 artifact hashes/3 aggregate hashes and six resource pins/151 native-row reproductions pass. Data commit:`9fd57c7cc4b2f39ddf3f54413d0707c6d6665973` is pushed. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40963949358) and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40963949368) succeed. [Canonical publication proof](johd_execution_publication_2026-10-29.json) verifies all399 family shards plus manifest/catalog/recordings/bibliography (403 artifacts). JOHD/HGN-specific and general research browser/CSV suites pass on https://arcaverborum.org/. This subsequent documentation-only closure preserves the verified lexical artifacts.
 
 ## Historical preceding Q evidence
 

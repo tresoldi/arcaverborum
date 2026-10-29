@@ -99,4 +99,4 @@ zero variety-level score and role-comment changes. [Metrics](johd_execution_summ
 HAVE_UTF8PROC flag states, full lint,15 affected builds, ten browser suites,401
 artifact hashes/3 aggregate hashes and151 native source-row reproductions pass.
 [Source-fidelity summary](johd_source_fidelity_2026-10-29.json); the generated CSV
-remains under output/report. Publication verification follows the data commit.
+remains under output/report. Data commit:`9fd57c7cc4b2f39ddf3f54413d0707c6d6665973` is pushed. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40963949358) and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40963949368) succeed. [Canonical publication proof](johd_execution_publication_2026-10-29.json) verifies all399 family shards plus manifest/catalog/recordings/bibliography (403 artifacts). JOHD/HGN-specific and general research browser/CSV suites pass on https://arcaverborum.org/. This subsequent documentation-only closure preserves the verified lexical artifacts.
