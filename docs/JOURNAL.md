@@ -6,7 +6,7 @@ User authorized proceeding and rethinking easy existing choices. WS promotes bou
 
 Accepted7,338 constructions/2,071,777 forms/469,321 supported core/543,160 mapped core/1,207,913 supported all slots;1,569 GLED primaries,915 Core-source varieties. Reusable audit inventories140 guarded alternatives across all accepted source choices; pre-batch strict ordinary-IPA screen has161 unreviewed member candidates. Next easy group: Chickasaw/Yucatec Maya/Unami/Western Apache; require expanded sense review before tiny-slice promotion. Profiles and exact historical/community scopes remain evidence gates.
 
-456 tests/lint, four builds,401 artifact hashes/3 aggregate hashes,120 strict pronunciation cache checks and source-preference/Romance/mixed-source browser suites pass. See WIKTIONARY_SOURCE_SELECTION_2026-10-29.md and companion metrics/reviews. Publication verification follows push.
+456 tests/lint, four builds,401 artifact hashes/3 aggregate hashes,120 strict pronunciation cache checks and source-preference/Romance/mixed-source browser suites pass. See WIKTIONARY_SOURCE_SELECTION_2026-10-29.md and companion metrics/reviews. Data9e758d89 pushed; CI40890661775/Pages40890662366 succeed. Canonical7-artifact byte/hash proof and live source-preference browser/CSV checks pass.
 
 ## 2026-10-29 — Prefer trustworthy richer Wiktionary evidence over GLED
 

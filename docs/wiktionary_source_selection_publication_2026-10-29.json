@@ -1,0 +1,20 @@
+{
+  "canonical_url": "https://arcaverborum.org/",
+  "data_commit": "9e758d89b36b93420bd255e89ee0417d5c8d92f0",
+  "families": [
+    "Algic",
+    "Indo-European",
+    "North Halmahera"
+  ],
+  "checked_artifacts": 7,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "all_hashes": "passed",
+  "accepted_varieties": 7338,
+  "forms": 2071777,
+  "ci_run": 40890661775,
+  "ci_conclusion": "success",
+  "pages_run": 40890662366,
+  "pages_conclusion": "success",
+  "live_source_preference_browser": "passed"
+}

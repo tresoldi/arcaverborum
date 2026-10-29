@@ -40,7 +40,7 @@ versus33 core in108 preserved GLED records; further pronunciation/identity compa
 
 ## Verification and publication
 
-WS:456 tests/full lint, four affected builds, all-earlier-record preservation,401 website hashes/3 aggregate-input hashes pass. Browser checks cover source preference, Romance and mixed-source workflows.120 admitted Yurok/Ternate records independently match strict cached pronunciation decisions. Publication pending push/live verification; preceding WF proof below is historical.
+WS:456 tests/full lint, four affected builds, all-earlier-record preservation,401 website hashes/3 aggregate-input hashes pass. Browser checks cover source preference, Romance and mixed-source workflows.120 admitted Yurok/Ternate records independently match strict cached pronunciation decisions. Data commit:`9e758d89b36b93420bd255e89ee0417d5c8d92f0`. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40890661775) and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40890662366) succeed. [Canonical publication proof](wiktionary_source_selection_publication_2026-10-29.json): manifest/catalog/recordings/bibliography plus all three affected family shards match committed bytes/hashes (7 artifacts). Source-preference browser/export checks pass on https://arcaverborum.org/. Preceding WF proof below is historical.
 
 
 456 tests/full lint pass. All7,338 accepted builds pass, followed by three corrected

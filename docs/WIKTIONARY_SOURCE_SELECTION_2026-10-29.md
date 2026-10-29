@@ -93,3 +93,11 @@ through the existing explicit-mapping bonus;81 comments change only the derived
 supplement/primary role label. All401 website artifact hashes and3 aggregate
 input hashes pass.456 tests/lint and source-preference/Romance/mixed-source browser
 checks pass. Post-batch inventory contains140 guarded source alternatives.
+
+Data commit:`9e758d89b36b93420bd255e89ee0417d5c8d92f0`. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/40890661775) and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40890662366) succeed. [Canonical publication proof](wiktionary_source_selection_publication_2026-10-29.json): manifest/catalog/recordings/bibliography plus all three affected family shards match committed bytes/hashes (7 artifacts). Source-preference browser/export checks pass on https://arcaverborum.org/.
+
+Aggregate-position-derived export IDs shift when earlier rows are inserted;391
+family shard bytes change as a result. Original source-form IDs and pronunciation
+IDs remain preserved. The preservation audit excludes only derived aggregate IDs,
+review-role annotations and the explicitly checked223 score recalculations; it
+checks original evidence/readings/cognacy and all earlier concept coverage.
