@@ -17,8 +17,11 @@ Accepted7,338 constructions/2,071,680 forms/469,305 supported core;915 Core-sour
 456 tests/lint and7,338 full builds pass; three corrected builds revalidated. Source,
 profile, preservation and web hash proofs retained. Execution/metrics in
 WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md and worldwide_followup_summary_2026-10-29.json.
-NEXT/HELD and52 construction packets/recipes updated; canonical publication proof
-will be attached after push. No further lexical batch authorized by closure.
+NEXT/HELD and52 construction packets/recipes updated. Data commit `05eeb0df5020eacd1e152640cfc5638f3e7b28ee`;
+CI40881329197 and Pages40881329126 pass. Canonical27 artifacts (23 family
+shards plus manifest/catalog/recordings/bibliography) match; worldwide live browser/
+export passes. Documentation-only closure preserves these lexical bytes. No further
+lexical batch authorized by closure.
 
 ## 2026-10-29 — Worldwide follow-up recommendations
 

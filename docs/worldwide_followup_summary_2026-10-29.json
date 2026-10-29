@@ -1066,7 +1066,18 @@
   "legacy_source_resource_checks": 78,
   "followup_source_resource_checks": 89,
   "bhsa_feature_resource_checks": 23,
-  "publication": "Local verification complete; canonical deployment verification pending data push.",
+  "publication": {
+    "data_commit": "05eeb0df5020eacd1e152640cfc5638f3e7b28ee",
+    "ci_run": "40881329197",
+    "ci_status": "success",
+    "pages_run": "40881329126",
+    "pages_status": "success",
+    "canonical_url": "https://arcaverborum.org/",
+    "checked_live_artifacts": 27,
+    "live_family_shards": 23,
+    "canonical_hashes": "byte-identical",
+    "worldwide_live_browser": "passed"
+  },
   "local_browser_suites": [
     "research",
     "worldwide",

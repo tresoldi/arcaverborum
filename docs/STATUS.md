@@ -48,7 +48,12 @@ and3 aggregate-input hashes.89 follow-up source-resource checks plus78 legacy GW
 checks,23 BHSA feature pins; complete staged lexical/parameter/citation/terms
 reproduction recorded in [proof](worldwide_followup_reproduction_2026-10-29.json).
 Local browser workflows cover research/worldwide/African/ancient/Romance/mixed-source.
-Canonical publication verification is pending the data commit and push.
+Lexical data commit:`05eeb0df5020eacd1e152640cfc5638f3e7b28ee`.
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/40881329197) succeeds;
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/40881329126) succeeds.
+Canonical live manifest/catalog/recordings/bibliography and23 family shards match
+committed bytes (27 checked artifacts). Worldwide live browser/export checks pass.
+This subsequent documentation-only closure preserves the verified lexical artifacts.
 
 The site publishes tracked artifacts:399 family shards, source bibliography and755
 recording metadata rows. Pages copies committed data; it does not rebuild lexica.

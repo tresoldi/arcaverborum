@@ -123,7 +123,10 @@ only a new partial slice over an existing profile's whole-form inventory.
 three affected builds after the final POS corrections. Preservation and web
 checks validate401 artifact hashes and3 aggregate-input hashes. Browser checks
 cover research, worldwide, African, ancient, Romance and mixed-source workflows.
-Canonical deployment verification is recorded in STATUS after the data push.
+Data commit:`05eeb0df5020eacd1e152640cfc5638f3e7b28ee`. CI40881329197 and
+Pages40881329126 succeed. Canonical live manifest, catalog, recordings,
+bibliography and23 family shards match (27 artifacts); worldwide live browser/
+export checks pass. Documentation-only closure preserves the verified data bytes.
 
 ## Remaining work
 
