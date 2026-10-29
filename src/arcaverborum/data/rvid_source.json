@@ -36,6 +36,21 @@
     "Italian_Northern_I_Lombard_Cremonese_from_Cremona": {
       "av_id": "ine-rvid-cremona",
       "glottocode": ""
+    },
+    "Italian_Northern_I_Emilian_from_Travo": {
+      "av_id": "ine-rvid-travo",
+      "glottocode": ""
+    },
+    "Italian_Northern_I_Emilian_Romagnol_from_Lugo": {
+      "av_id": "ine-rvid-lugo",
+      "glottocode": ""
+    },
+    "Italian_Central_Laziale_North-central_from_Ascrea": {
+      "av_id": "ine-rvid-ascrea",
+      "glottocode": ""
     }
-  }
+  },
+  "review": "docs/worldwide_gw06_rvid_review_2026-10-29.csv",
+  "expected_forms": 46,
+  "title": "Reviewed RVID 2.0 infinitives: seven Italian-area samples"
 }

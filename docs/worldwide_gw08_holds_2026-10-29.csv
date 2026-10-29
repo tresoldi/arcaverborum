@@ -1,0 +1,5 @@
+source,source_record,Form,source_sense,decision,rationale
+tlaearlieregyptian,37,nḫt,Nacht,hold,"Original UPOS=PROPN and gloss=PERSN: Nacht is a transliterated personal name, not German night. No tim-night mapping. Remaining sentence-derived or narrowly technical single words do not establish additional reviewed frozen meanings in this bounded slice."
+idssegmented_elamite,elamite-3-180-1;elamite-5-840-1,ba-at_-ir;hal_-la_-ki,EW111/499;EW600,hold_reading_repair,Original uncertainty and EW references now attached per reading; original EW entries not acquired as reusable lexical payload. No guessed spacing/phonology repair.
+BHSA2021,lemma/verse pilot,,,hold_lexical_admission,"GW08 now proves15 exact word/lexeme/verse witnesses with the official Text-Fabric loader, including Hebrew and Aramaic. Lexical admission still needs exact frozen sense, word-versus-proclitic/lemma unit and historical-stage review. Later Masoretic vocalization is not ancient surface IPA; CC BY-NC4.0 retained."
+copticsahidic,C152,ⲁⲛⲧⲁϣ,sneeze,hold,Original TEI labels Subst.; frozen bod-sneeze is a verb. No noun/verb coercion.

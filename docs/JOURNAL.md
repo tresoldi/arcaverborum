@@ -1,5 +1,24 @@
 # Project journal and working memory
 
+## 2026-10-29 — Worldwide GW01–GW10 completed
+
+User authorized all ten, sequentially, with autonomous specifics. See
+WORLDWIDE_EXPANSION_2026-10-29.md and worldwide_expansion_summary_2026-10-29.json.
+Added657 records:459 supplied/source conversions,116 profiles,82 written. Gross535
+supported slots minus3 corrected overcounts =532 net;483 core gains minus1 =482.
+Accepted7,336 constructions/2,071,137 forms/469,063 supported core/542,891 mapped core;
+1,573 GLED primaries,912 Core-source varieties. One new language Broome11 written;
+three named RVID samples Travo/Lugo/Ascrea3/3/7. No new historical IPA or GLED swap.
+83 earlier mappings corrected:82 shared plusViku, with25 other subjects already
+unmapped. All2,070,480 earlier records/readings/cognacy/native evidence preserved.
+787 Elamite contexts and3 Etruscan reviews;10 previously held Bribri IPA recoveries.
+BHSA15 exact word/lexeme/verse/language witnesses now proved (23 feature hashes),
+lexical admission still held. Intake7,212,459; new original dictionaries19,768 rows;
+African726, RVID46, Coptic36 reproduce. Current migrations are complete: do not
+replay old appends/counts. 449 tests/lint, all7,336 builds,401 web/3 input hashes,
+78 source hashes and all five local browser suites pass. NEXT closes all GW tasks
+and HELD records precise remaining evidence. Publication pending push.
+
 ## 2026-10-29 — Worldwide next-work investigation
 
 User requested recommendations considering the whole world. No lexical changes.

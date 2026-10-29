@@ -48,3 +48,16 @@ tradeoffs:
     GLED cognacy transferred.'
 notes: ALLA grammar 2001 pp.15–16,23–24,36–48. Broad phonemic subset; specialist lexical
   validation pending. See PACKET.md.
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: wiktionary
+  forms: 9715
+  supported_core: 82
+  source_statuses:
+    unclean: 5603
+    profile: 3946
+    source: 166
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

@@ -165,3 +165,31 @@ def test_source_scoped_profile_is_guarded_and_keeps_derived_status(tmp_path):
     save()
     with pytest.raises(ValueError, match="validated"):
         frames()
+
+
+def test_original_bracketed_ipa_recovers_tone_and_nasality_without_losing_cognacy(tmp_path):
+    row = fixture(tmp_path)
+    row.update(Value='[ˈw̃ã́ɲɛ̃̀] (A)', Segments='w ã́ ɲ ɛ̃̀')
+    review = next(csv.DictReader((tmp_path / 'supplements.csv').open()))
+    review.update(evidence_sha256=evidence_hash(row), original_ipa='ˈw̃ã́ɲɛ̃̀',
+                  source_pronunciation_id='original-test', pronunciation_tags='["A"]',
+                  pronunciation_note='Exact original source IPA; upstream nasal glide loss corrected.')
+    args = (tmp_path, pd.DataFrame([row]), 'xxxx1234', {'wikt_water': ('948', 'WATER')}, {'phy-water': '948'})
+    result = next(reviewed_frames(*args, decisions=[review]))[1].iloc[0]
+    assert result.Segments == 'w̃ ã́ ɲ ɛ̃̀'
+    assert result['_raw_ipa'] == 'ˈw̃ã́ɲɛ̃̀'
+    assert result.Cognacy == row['Cognacy'] and result.Value == row['Value']
+    for changed in [
+        dict(original_ipa='wãɲɛ'),
+        dict(source_pronunciation_id=''),
+        dict(pronunciation_note=''),
+        dict(raw_ipa='ˈw̃ã́ɲɛ̃̀'),
+        dict(transcription_policy='orthographic_only'),
+    ]:
+        with pytest.raises(ValueError, match='one exact bracketed'):
+            list(reviewed_frames(*args, decisions=[{**review, **changed}]))
+    for value in ['[ˈw̃ã́ɲɛ̃̀ ~ wãɲɛ] (A)', '[ˈw̃ã́ɲɛ̃̀] (A), [wãɲɛ] (C)', 'ˈw̃ã́ɲɛ̃̀']:
+        different = {**row, 'Value': value}
+        decision = {**review, 'evidence_sha256': evidence_hash(different)}
+        with pytest.raises(ValueError, match='one exact bracketed'):
+            list(reviewed_frames(tmp_path, pd.DataFrame([different]), *args[2:], decisions=[decision]))

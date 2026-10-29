@@ -1,0 +1,15 @@
+av_id: map-teop
+name: Teop
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: abvd2026
+  forms: 295
+  supported_core: 25
+  source_statuses:
+    resegmented: 264
+    unclean: 3
+    profile: 28
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

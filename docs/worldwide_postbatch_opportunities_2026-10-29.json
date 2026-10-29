@@ -1,0 +1,13 @@
+{
+  "accepted_targets_with_gaps": 7318,
+  "member_opportunities": 6808,
+  "south_american_opportunities": 604,
+  "american_opportunities": 907,
+  "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+  "source_policy": "Source IPA only counts as supplied. Resegmented spelling is orthographic potential, never supported evidence.",
+  "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report.",
+  "global_gled_member_alternatives": 871,
+  "lossless_positive_supplied_gled_candidates": 0,
+  "selected_member_rows": 51,
+  "known_holds": "Includes Nyagrong-Minyaɡ/Muya identity mismatch and other held notation/sense cases. Raw ceilings overlap and are not admissions. Primary-source profile recovery and beyond-core vocabulary are not measured by this screen."
+}

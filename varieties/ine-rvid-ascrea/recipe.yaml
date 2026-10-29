@@ -1,0 +1,13 @@
+av_id: ine-rvid-ascrea
+name: Laziale (Ascrea, RVID sample)
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: rvidinfinitives
+  forms: 7
+  supported_core: 5
+  source_statuses:
+    source: 7
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

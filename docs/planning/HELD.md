@@ -1,9 +1,56 @@
 # Held work and reopening evidence
 
-Updated 2026-10-28. Read alongside [STATUS](../STATUS.md) and the
+Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 [active queue](../NEXT.md). A hold applies to the named source/sample or reading,
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
+
+## Worldwide GW resolutions — 2026-10-29
+
+[Execution](../WORLDWIDE_EXPANSION_2026-10-29.md) and authored GW reviews supersede
+older numeric ceilings below. All ten GW tracks are closed.
+
+* **Nyagrong Minyag/Muya:** primary Van Way phonetics explicitly distinguishes
+  them; no automatic Nagano-member admission to Muya. Reopen on exact sample/
+  canonical-parent reconciliation, not a shared inherited code. Sun Muya48,
+  Zaiwa45 and Kman53 records are admitted; v→ɤ, shortness and phonation ambiguities
+  need the exact source notation key. Current supported core84/83/94.
+* **Palula/Nen/Teop:**20/23/28 finite dictionary readings admitted. Retain source
+  mora-specific pitch/quantity, underlying-versus-surface distinction and Teop
+  non-standardized quantity/spacing. Additional headwords need individual sense/
+  reading review. Wanukaka33 stays written-only; final nasals, glottals, quantity
+  and vowel-sequence analysis need word-specific authority. Enga accent stripping
+  in slash fallbacks cannot certify source tone; original key needed.
+* **South America/Australia:** GW03 restricted meanings/concatenated Camsá form
+  remain held. Jina leg/foot, old age/property, chase/hunt and day/daytime require
+  original context. Source-class/bound-form annotations are retained on admissions.
+* **Paiute/Hopi/Bribri:** Spanish dirty contamination is in the original JSON;
+  require original source collation. Optional consonants/ambiguous vowels and
+  Hopi accent conventions remain held. Bribri10 original IPA readings recovered;
+  16 decisions remain held for multiple alternatives, notation or exact senses.
+  Recover every qualified alternative/dialect separately; never silently pick one.
+* **Italian:**17 Milanese lexical decisions/18 readings admitted, including both
+  iron alternatives. Andà go/walk and bianch headword/inflection/IPA agreement
+  remain held. RVID Travo/Lugo/Ascrea3/3/7 records admitted; Travo3 missing '?' cells
+  cannot be inferred from other paradigm cells or Latin etyma. Named samples are
+  not new languages. Current RVID namespace46 rows/seven members.
+* **African depth:** Ruruuli111/Fwe142/Gyeli192 original namespace rows now admitted.
+  New Fwe plan/itch/guard are verbs versus frozen noun targets, so held. Existing
+  unit, tone, Temi alignment,40 West African and32 Shashi gates remain unchanged.
+* **Ancient:** Viku is a donor personal name in the acquired primary edition,
+  CIE3234/TLE481: village mapping withdrawn. Neri/phersu remain source-reported
+  uncertain senses. Elamite787 source references/period contexts attached; two EW
+  uncertainty strings unrepaired. Coptic19 more written forms admitted; noun sneeze
+  cannot map to the verb. Egyptian Nacht is a person, not German night. BHSA
+  occurrence/lemma/verse/language linkage is now demonstrated on15 witnesses;
+  lexical units, exact senses and historical stages still need review before intake.
+* **Missing languages:** Broome is admitted with11 written records; no general
+  contact-pidgin profile. Attempted Hosokawa DOI404, acquired Kimberley handbook is
+  context only. Momi absent-code flag is an alias false positive, sign-language
+  evidence needs its own representation,37 other tiny/source-route cases remain held.
+* **Shared semantics:**81 new exact parameter rules exclude non-anatomical and
+  non-directional senses. Records/readings/cognacy retained. Future non-core
+  mappings require exact definitions; do not undo these rules by English headword.
 
 ## Current African resolutions — 2026-10-29
 

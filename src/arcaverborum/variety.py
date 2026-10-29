@@ -58,6 +58,7 @@ _KEYED_HASH_MAX = 1000  # intake-DB path: per-slice hashing below this many slic
 
 CUSTOM_TRANSCRIPTION_FIELDS = (
     "Concepticon_ID", "source_form_id", "Value", "Form", "Segments", "Comment", "notes",
+    "expected_evidence_sha256",
 )
 CUSTOM_FORMS_FIELDS = (
     "concept_id", "Concepticon_ID", "Value", "Form", "Segments",
@@ -317,6 +318,11 @@ def _apply_transcription_overrides(forms: pd.DataFrame, overrides: pd.DataFrame)
                    for col in ("Value", "Form", "Segments", "Comment")}
         if not any(payload.values()):
             continue
+        expected = str(row.get("expected_evidence_sha256", "")).strip()
+        if expected:
+            if not fid or len(expected) != 64:
+                raise ValueError("Guarded transcription requires exact source form and evidence hash")
+            payload["expected_evidence_sha256"] = expected
         if fid:
             by_form_id[fid] = payload
         elif cid:
@@ -336,8 +342,13 @@ def _apply_transcription_overrides(forms: pd.DataFrame, overrides: pd.DataFrame)
         override = by_form_id.get(fid) or by_concept.get(cid)
         if override is None:
             continue
+        if override.get("expected_evidence_sha256"):
+            from arcaverborum.supplements import evidence_hash
+
+            if evidence_hash(row.to_dict()) != override["expected_evidence_sha256"]:
+                raise ValueError("Guarded transcription source evidence changed: " + fid)
         for col, val in override.items():
-            if val:
+            if val and col != "expected_evidence_sha256":
                 forms.at[idx, col] = val
     return forms
 

@@ -1,0 +1,13 @@
+av_id: car-yukpa
+name: Yukpa
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: huntergatherer
+  forms: 345
+  supported_core: 149
+  source_statuses:
+    source: 345
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

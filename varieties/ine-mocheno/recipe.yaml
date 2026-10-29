@@ -1,0 +1,15 @@
+av_id: ine-mocheno
+name: Mòcheno
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: wiktionary
+  forms: 378
+  supported_core: 10
+  source_statuses:
+    resegmented: 304
+    source: 37
+    unclean: 37
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

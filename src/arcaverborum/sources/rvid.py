@@ -111,7 +111,7 @@ def materialize(raw_root, *, download=False, source_root=None):
         if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != digest:
             raise ValueError("RVID pinned source changed: " + name)
     concepts = {r["concept_id"]: r for r in read(DATA / "concepts.csv")}
-    reviews = read(ROOT / "docs/romance_r04_review_2026-10-28.csv")
+    reviews = read(ROOT / spec.get("review", "docs/romance_r04_review_2026-10-28.csv"))
     forms, parameters = reviewed_forms(
         read(original / "cldf/forms.csv"), read(original / "cldf/lexemes.csv"), reviews, spec["samples"], concepts
     )
@@ -169,7 +169,7 @@ def materialize(raw_root, *, download=False, source_root=None):
     metadata = {
         "@context": "http://www.w3.org/ns/csvw",
         "dc:conformsTo": term + "Wordlist",
-        "dc:title": "Reviewed RVID 2.0 infinitives: four Italian-area samples",
+        "dc:title": spec.get("title", "Reviewed RVID 2.0 infinitives: four Italian-area samples"),
         "dc:bibliographicCitation": (
             "Beniamine, Sacha, Martin Maiden and Erich Round. 2020. "
             "Opening the Romance Verbal Inflection Dataset 2.0: A CLDF lexicon. "

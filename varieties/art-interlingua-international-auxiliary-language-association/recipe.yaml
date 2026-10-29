@@ -1,0 +1,15 @@
+av_id: art-interlingua-international-auxiliary-language-association
+name: Interlingua (International Auxiliary Language Association)
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: wiktionary
+  forms: 4087
+  supported_core: 24
+  source_statuses:
+    resegmented: 3287
+    source: 330
+    unclean: 470
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

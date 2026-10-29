@@ -1,0 +1,118 @@
+{
+  "word_nodes": 426590,
+  "language_counts": {
+    "Hebrew": 420484,
+    "Aramaic": 6106
+  },
+  "linked_witnesses": 15,
+  "hebrew_witnesses": 10,
+  "aramaic_witnesses": 5,
+  "decision": "Node/lexeme/verse and language linkage now demonstrated with official Text-Fabric loader. Lexical admission remains bounded: proclitic word nodes are not automatically independent headwords; exact frozen sense and historical stage need separate review. No intake or lexical outputs changed.",
+  "examples": [
+    {
+      "word_node": 1,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 2,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 3,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 4,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 5,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 6,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 7,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 8,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 9,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 10,
+      "language": "Hebrew",
+      "book": "Genesis",
+      "chapter": 1,
+      "verse": 1
+    },
+    {
+      "word_node": 17278,
+      "language": "Aramaic",
+      "book": "Genesis",
+      "chapter": 31,
+      "verse": 47
+    },
+    {
+      "word_node": 17279,
+      "language": "Aramaic",
+      "book": "Genesis",
+      "chapter": 31,
+      "verse": 47
+    },
+    {
+      "word_node": 240076,
+      "language": "Aramaic",
+      "book": "Jeremia",
+      "chapter": 10,
+      "verse": 11
+    },
+    {
+      "word_node": 240077,
+      "language": "Aramaic",
+      "book": "Jeremia",
+      "chapter": 10,
+      "verse": 11
+    },
+    {
+      "word_node": 240078,
+      "language": "Aramaic",
+      "book": "Jeremia",
+      "chapter": 10,
+      "verse": 11
+    }
+  ]
+}

@@ -1,41 +1,60 @@
 # Active expansion queue
 
-Updated2026-10-29 against [STATUS](STATUS.md). The latest African AX01–AX06 batch
-is complete. Current request: recommend next steps **worldwide**. This is planning;
-no new lexical execution is authorized by the request for recommendations.
+Updated2026-10-29 against [STATUS](STATUS.md). **All GW01–GW10 are complete**.
+See [execution](WORLDWIDE_EXPANSION_2026-10-29.md) and
+[realized metrics](worldwide_expansion_summary_2026-10-29.json). No authorized GW
+track remains pending. Proposals below require a new instruction to proceed.
 
-## Recommended worldwide batch
+## Recommended continuation from accepted results
 
-See [the worldwide investigation](WORLDWIDE_NEXT_2026-10-29.md),
-[baseline](worldwide_baseline_2026-10-29.csv),
-[selected source members](worldwide_selected_members_2026-10-29.csv) and
-[method/input hashes](worldwide_planning_2026-10-29.json).
+1. **Original Palula/Nen/Teop dictionary depth:** already ingested full raw sources,
+   current finite slices20/23/28. Palula now38 supported core, Nen21, Teop25.
+   Review new exact senses/POS and the original phonetic/phonemic guides, extending
+   finite profiles without re-appending the namespaces. Palula20-profile slice
+   still cannot replace the33-core GLED primary; preserve all108 earlier GLED rows.
+   Best measured source-quality continuation; additional gains unmeasured.
+2. **South American original-source depth:** current Marinahua108, Kokama145,
+   Yukpa149, Camsá146 supported core. Their GW03 slices are completed. Re-rank
+   actual missing concepts and broaden non-core dictionary evidence; reserve a
+   bounded external acquisition task for genuinely unrepresented languages.
+   Strong standing priority; do not repeat earlier30/31/28/27 ceilings.
+3. **Source-notation recovery in Asia and the Americas:** Muya84, Zaiwa83, Kman94,
+   Yagnobi94; their admitted subsets are completed. Remaining Sun v/shortness/
+   phonation and CALS verb/context cases need original authority. Nyagrong Minyag
+   is explicitly not Muya; its apparent code match is held. Bribri now103 core:
+   recover additional full alternatives only with exact dialect labels and all
+   source readings retained, never a first-reading shortcut. Gains unmeasured.
+4. **Ancient lexical unit/sense review after proved linkage:** BHSA now has15
+   word/lexeme/verse witnesses and a working Hebrew/Aramaic filter, including
+   Aramaic outside Daniel/Ezra. Next gate is lemma/proclitic and literal meaning/
+   historical-stage review, not another four-file feasibility check. Etruscan Viku
+   village mapping is withdrawn; neri/phersu remain uncertain. Elamite787 source
+   contexts are attached; exact EW111/499 and EW600 repairs still need authority.
+5. **Italian localities and written-language depth:** Travo/Lugo/Ascrea3/3/7 forms
+   are admitted, with both Ascrea go alternatives. Review other genuine infinitives
+   from current RVID46-record namespace; question marks cannot supply forms.
+   Milanese18 scoped readings are admitted; andà meaning and bianch inflection
+   remain held. Broome11 written records now exist; seek original word-specific
+   pronunciation evidence, not a generic Malay/Japanese spelling profile.
+6. **Continue worldwide semantic review:**100 exact body/direction/homonym senses
+   reviewed,81 new shared rules,83 earlier mappings corrected including Viku.
+   Further original POS/meaning and source-normalization audits can improve
+   precision; retain records as unmapped rather than forcing English-label matches.
 
-Recommended sequence: **GW01→GW02→GW03→GW04→GW05→GW06→GW07→GW08→GW09→GW10**.
-GW10 evidence/semantic checks apply throughout; finish with its focused audit.
-All ten are proposed, with exact finite slices chosen during authorized execution.
-Raw ceilings below are not verified gains and overlapping members cannot be summed.
+Fresh screen: 6,808 overlapping worldwide member opportunities,
+871 GLED alternatives, **zero lossless positive supplied-reading swaps**.
+[Selected members](worldwide_postbatch_selected_members_2026-10-29.csv) and
+[method/counts](worldwide_postbatch_opportunities_2026-10-29.json) include held cases,
+not ready admissions; profiles, non-core depth and new acquisition need separate review.
+Africa's original slices are now Ruruuli111/Fwe142/Gyeli192; current constructions
+117/189/228 forms. Earlier AX recoveries/swaps stay completed; do not replay holds.
 
-| ID | Recommended work | Current evidence and potential | First gate / tradeoff |
-| --- | --- | --- | --- |
-| GW01 | Asian sparse languages: Muya, Zaiwa, Kman; Palula dictionary pilot | Muya36 supported core, up to103 missing from naganorgyalrongic_NyagrongMinyag; Zaiwa39, up to100 from sagartst_Atsi; Kman42, up to97 from suntb_Kaman. Palula33, GLED-primary; dictionary gain unmeasured. | Exact named samples, tones and source phonology; NyagrongMinyag is not automatically the existing Muya sample. High potential, substantial identity work. |
-| GW02 | Papuan/Oceanic quality recovery: Nen, Teop, Wanukaka; Enga supplement | Nen456 forms/0 supported core; Teop267/0; Wanukaka220/0. Original Dictionaria dictionaries accessible. Enga67 core, up to72 missing from transnewguineaorg_enga. | Acquire pinned lexical exports and exact orthography/phonology first; preserve Nen verb morphology, Teop coastal scope and Wanukaka dialect distinctions. Large quality need; dictionary profile gains unmeasured. |
-| GW03 | South American depth: Marinahua, Kokama, Yukpa, Camsá | Baselines78/116/122/119 supported core; raw missing ceilings30/31/28/27 from amazonianvoices_marinawa, tuled_Kokama and hubercolumbian_Yukpa/Kamsa. | Original senses, sample identity and transcription; compare Kokama source genealogies. Strong standing priority, no new-language claim. Lule/Johansson remains held. |
-| GW04 | Australian depth and source fidelity | Nyangumarta110 supported core, up to30 from bowernpny_Nyangumarta; Paakantyi123, up to19; Dhangu111, up to17. | Exact community/sample, historical orthography and source loans/cognacy. Smaller measurable ceilings, valuable geographic/family balance; no generic Australian profile. |
-| GW05 | Central/North American continuation | Southern Paiute121 core/up to27, Hopi92/up to21 from utoaztecan; Bribri93 core/26 earlier held. | Paiute/Hopi dialect/prosodic source conventions; Bribri requires original phonetic migration, not re-admission of normalized rows. Historical Ópata and Kwak’wala remain notation-gated despite rank. |
-| GW06 | Europe/Central Asia: Yagnobi source recovery and Italian locality evidence | Yagnobi29 core, up to106 from individual CALS Ydugova/Ysafedorak members; overlapping, not cumulative. Milanese-tagged IPA and RVID Travo/Lugo/Ascrea remain bounded locality pilots. | Separate villages/stages and cognacy; preserve Lombard tags/clitics. Early Modern Slovene→modern Slovene146 raw match is a historical-stage trap, not an approved gain. |
-| GW07 | African dictionary depth beyond core | Current Fwe167 forms/60 supported core, Gyeli205/86, Ruruuli98/0; curated originals120/169/92. | New literal sense/POS review with current-count guarded expansion. Ruruuli lacks tone. Fwe/Sidaama swaps and Kam/Sidaama reading recoveries are completed. Remaining gains unmeasured; avoid repeating40 West African or32 Shashi holds as ready rows. |
-| GW08 | Ancient attestation and reading-quality work, worldwide | Etruscan24 newer written headwords; Elamite787-row audit; Coptic17/Egyptian8 original namespace rows; BHSA feasibility already pinned. | Prioritize Etruscan neri/phersu/viku attestations and Elamite EW111/499/EW600 uncertainty; then Coptic/Egyptian/BHSA expansion. Small likely counts, high research value; no invented historical IPA. |
-| GW09 | Genuinely missing-language acquisition | Current intake absent-code screen has40 members across40 language-level codes, mostly1–2-row Wiktionary fragments, plus known Momi false positive. | Resolve aliases before counting; inspect new original dictionary/grammar releases and source inventories across Papunesia, Asia and the Americas. Bound each acquisition to an attributable licensed lexical slice. No verified new-language gain yet. |
-| GW10 | Worldwide semantic and evidence audit | Latest batch corrected10 earlier noun/verb/state/homonym mappings plus4 new candidates. 1,334,347 mapped versus1,206,914 supported all-concept slots. | Screen original POS/Concepticon conflicts, source-only punctuation/alternatives, spelling mislabeled as IPA, periods and duplicate genealogies; author individual corrections. Reduces false coverage; may lower counts while improving research quality. |
-
-The worldwide screen finds no currently lossless positive supplied-reading GLED
-replacement. Original dictionary/profile recovery remains a promising route.
-Forty absent canonical codes are provisional flags, mostly tiny fragments and
-including known aliases; none is certified as a new language. See [HELD](planning/HELD.md)
-before reopening repeated cases. Americas/South America and Etruscan/Elamite retain
-standing priority. Older regional detail below supports the new GW tracks; it is
-not a second independent batch and completed AF/AX work must not be repeated.
+Americas/South America and Etruscan/Elamite retain standing priority. Regional
+sections below are historical detail for narrower gates, not a second active batch.
+Current GW results supersede the earlier baselines: RP01 Milanese scope and RP02's
+first three localities are completed; NB02 Paiute/Hopi conservative slices completed;
+NB01 Bribri10 recovered; BHSA node linkage demonstrated; Elamite context attached;
+Viku unmapped. Remaining holds are in [HELD](planning/HELD.md).
 
 ## Parked ancient evidence proposals
 

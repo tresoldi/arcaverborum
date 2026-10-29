@@ -1,0 +1,16 @@
+word_node,language,source_lexeme_id,consonantal_lexeme,pointed_lexeme,occurrence,source_gloss,book,chapter,verse,status,reading_basis,license
+1,Hebrew,B,ב,בְּ,בְּ,in,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+2,Hebrew,R>CJT/,ראשׁית,רֵאשִׁית,רֵאשִׁ֖ית,beginning,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+3,Hebrew,BR>[,ברא,בָּרָא,בָּרָ֣א,create,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+4,Hebrew,>LHJM/,אלהים,אֱלֹה,אֱלֹהִ֑ים,god(s),Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+5,Hebrew,>T,את,אֵת,אֵ֥ת,<object marker>,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+6,Hebrew,H,ה,הַ,הַ,the,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+7,Hebrew,CMJM/,שׁמים,שָּׁמַי,שָּׁמַ֖יִם,heavens,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+8,Hebrew,W,ו,וְ,וְ,and,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+9,Hebrew,>T,את,אֵת,אֵ֥ת,<object marker>,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+10,Hebrew,H,ה,הָ,הָ,the,Genesis,1,1,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+17278,Aramaic,JGR/,יגר,יְגַר,יְגַ֖ר,heap of stones,Genesis,31,47,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+17279,Aramaic,FHDW/,שׂהדו,שָׂהֲדוּ,שָׂהֲדוּתָ֑א,testimony,Genesis,31,47,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+240076,Aramaic,K,כ,כִּ,כִּ,like,Jeremia,10,11,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+240077,Aramaic,DNH,דנה,דְנָה,דְנָה֙,this,Jeremia,10,11,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0
+240078,Aramaic,>MR[,אמר,אמְר,תֵּאמְר֣וּן,say,Jeremia,10,11,linkage_witness_only,"Later Masoretic pointed writing, not inferred ancient surface IPA",CC BY-NC4.0

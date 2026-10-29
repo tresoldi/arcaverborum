@@ -23,3 +23,15 @@ africa_followup_2026_10_29:
     unclean: 96
   preservation: Earlier lexical evidence and source-specific cognacy retained with
     explicitly reviewed reading, semantic and identity corrections.
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: wiktionary
+  forms: 117
+  supported_core: 0
+  source_statuses:
+    resegmented: 2
+    unclean: 115
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

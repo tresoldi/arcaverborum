@@ -1,0 +1,147 @@
+{
+  "commit": "4db00e2157915495e1a4d3d57e41223df24775da",
+  "release": "2021",
+  "data_license": "CC BY-NC4.0",
+  "citation": "ETCBC / BHSA, DOI 10.17026/dans-z6y-skyh",
+  "features": [
+    {
+      "feature": "lex_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/lex_utf8.tf",
+      "sha256": "21f0dde6d79cdde12558b88ae5e07b5717b1a5f7566d37847c57ff7b53b74627",
+      "bytes": 2741098
+    },
+    {
+      "feature": "g_word_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_word_utf8.tf",
+      "sha256": "504330f4b4dbcfac628e45998796bcf0ba58b0c905c30a8ebdec088b10d692e0",
+      "bytes": 5392356
+    },
+    {
+      "feature": "gloss",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/gloss.tf",
+      "sha256": "b0e94e5e43d6d4305c7321986afbbded1bb980b161a765891b66f40c66434d2e",
+      "bytes": 2572582
+    },
+    {
+      "feature": "language",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/language.tf",
+      "sha256": "b6e9f2a855901d6d29c970c2710fd7189ad2b5fc5e457f1b4c92e54d8c77cd5a",
+      "bytes": 3058048
+    },
+    {
+      "feature": "otype",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/otype.tf",
+      "sha256": "bb5da974a3b1dd7ff9ddab54dfb533059442642ab830b832a49eea8670aaa920",
+      "bytes": 667
+    },
+    {
+      "feature": "oslots",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/oslots.tf",
+      "sha256": "c4efaeed8047d4e75834cc94856d79eacc7a146aea01c34d8be88497d8fa303b",
+      "bytes": 13526306
+    },
+    {
+      "feature": "otext",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/otext.tf",
+      "sha256": "20c1c41bc602804ecafbf56bfc88541b0af92afcc16fb594db6acfc6f3a846e9",
+      "bytes": 958
+    },
+    {
+      "feature": "book",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/book.tf",
+      "sha256": "2f84c9493bb9a553bb40d7955472673b85933fe0af116299036d33e09d75702a",
+      "bytes": 199917
+    },
+    {
+      "feature": "chapter",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/chapter.tf",
+      "sha256": "a09f8a2df52e7d2cec99b251852f9f88a6ecc0ea4a37ad5bd4a7fd3f3f3b2fc9",
+      "bytes": 66379
+    },
+    {
+      "feature": "verse",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/verse.tf",
+      "sha256": "ad850b19aae6ecb31c75fa4ff80ad956835e5089d60d37c7d73aa0d5a0893b84",
+      "bytes": 61897
+    },
+    {
+      "feature": "lex",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/lex.tf",
+      "sha256": "2469664dc71bcde35a916d6a85453a5567cff3dcbc3e3323204e1120bc5ed25a",
+      "bytes": 1792859
+    },
+    {
+      "feature": "g_lex_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_lex_utf8.tf",
+      "sha256": "4026b48c461ed5f73d6fd39a36927ae0435f32ddc7abdcba1d00993e1fe68669",
+      "bytes": 3995396
+    },
+    {
+      "feature": "voc_lex_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/voc_lex_utf8.tf",
+      "sha256": "e67e3a0d67205fbb8508faabfc210c59e1475465084ea8bfe88fa160bfb628b3",
+      "bytes": 4048628
+    },
+    {
+      "feature": "g_lex",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_lex.tf",
+      "sha256": "3c81d126a2fae0ca67aad0d923c37b3ddfd6b741cf93e96760d196322056b828",
+      "bytes": 2304909
+    },
+    {
+      "feature": "g_cons_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_cons_utf8.tf",
+      "sha256": "1b5a3e41fdadb63e162404fadf83bbebc1ff1a1e016cdee321701ce863c5c87b",
+      "bytes": 2938233
+    },
+    {
+      "feature": "g_cons",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_cons.tf",
+      "sha256": "39161c1ba2dc44f19f070fa320cb00dc2c51bbe566f8da4495749b769d1e06a4",
+      "bytes": 1624791
+    },
+    {
+      "feature": "g_word",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/g_word.tf",
+      "sha256": "191726a37db8976ebead3aee8cc01f3520d41bf7ba2fd077b4ca08604e953ca4",
+      "bytes": 3295014
+    },
+    {
+      "feature": "qere_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/qere_utf8.tf",
+      "sha256": "970fd6e1099e9a8c08ccaa35af896f963d3ad7c7e153fbf833fb36b84efa321e",
+      "bytes": 36561
+    },
+    {
+      "feature": "qere_trailer_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/qere_trailer_utf8.tf",
+      "sha256": "6aed11605413792577afe76f1f05a05d5bb8f22b47375971e53295aa1e8043e0",
+      "bytes": 12739
+    },
+    {
+      "feature": "trailer_utf8",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/trailer_utf8.tf",
+      "sha256": "cc9120b92248318cd335a088381e464c0650976ff39027ebe87a99b664567899",
+      "bytes": 834560
+    },
+    {
+      "feature": "qere",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/qere.tf",
+      "sha256": "3aa63d0061ffe37d22f07f105c187cc96507f859e1867ff2b3b283de4ee2393f",
+      "bytes": 25373
+    },
+    {
+      "feature": "qere_trailer",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/qere_trailer.tf",
+      "sha256": "a0ee4a58cde242bc5375cb6959c5cbc394b6a7a56ec39f187fcff44aa2c37e26",
+      "bytes": 12677
+    },
+    {
+      "feature": "trailer",
+      "url": "https://raw.githubusercontent.com/ETCBC/bhsa/4db00e2157915495e1a4d3d57e41223df24775da/tf/2021/trailer.tf",
+      "sha256": "d41a18f54482fc20c615cd207091a40ff8cbd667752b6da25f04fe209f109663",
+      "bytes": 789147
+    }
+  ],
+  "purpose": "Read-only occurrence/lemma/verse and Hebrew/Aramaic linkage audit, no lexical ingestion."
+}

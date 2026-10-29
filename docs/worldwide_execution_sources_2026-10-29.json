@@ -1,0 +1,171 @@
+{
+  "dictpalula": {
+    "repo": "https://github.com/dictionaria/palula",
+    "commit": "2017cb7622fd276ce075ec7a3d932dbf4d1f7f15",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "resource_sha256": {
+      "README.md": "d102d3781bc884d17057ce6b02b06557f591513353dc8235eb8237d45f52b534",
+      "cldf/cldf-metadata.json": "8918e838762ae16374bba5092fb2bbb02f3bbc21a409ba8ee204cdecec1c0f78",
+      "cldf/entries.csv": "2a81f07ee12f1ee45f8afe9f26573f977fb1fb09667ebcebfcfbbddfa5cb6699",
+      "cldf/senses.csv": "02a7f4dfb8bec8d9accc735eb5920bf6ac0dc6e13a501ead3a0dca24aa82dd07",
+      "cldf/languages.csv": "0ffd9bc872a75dda59808355f3eb933309c915f5a127f77b90b4e12899ff06df",
+      "raw/intro.md": "0e1d31214a8bfb800246f5ddaf7e45f72070951a8eb40b74c117452c304d8dda",
+      "raw/db.sfm": "de7acb29bf6e446db475fcc20362851aec2b2478bae05cff90ad3f30c1cff8ae",
+      "cldfbench_palula.py": "cf34436c6a08f153d35b4e0aa40b0c684c79bc882cdf5969d6dd6df9895473cb"
+    }
+  },
+  "suntb": {
+    "repo": "https://github.com/lexibank/suntb",
+    "version": "v4.0-1-g843b2f5",
+    "commit": "49b987aaa7ef71b8fd030c0983d9e8aff4be850f",
+    "resource_sha256": {
+      "raw/ZMYYC.csv": "c275350e96f1655ef837b38b5d8d5d198992141630513fcedadfb79fcbd23017",
+      "etc/languages.csv": "a8819050e01bd7e432291374ea741410c99401eed4d5d23a9003f64d494eb7a0",
+      "etc/orthography.tsv": "3805d53e51c3f40fe69d13ef6422b64d5dffe1f4d7573dd1b1613494a13b0362",
+      "lexibank_suntb.py": "df991156df2c8a8a46291ba5ea145a6f4f83620fbe55569394576de742fd2c1c",
+      "cldf/forms.csv": "acdfc555db9ea580310374a01824d2d92462ef8dfdce8d4dd33d17b83a9e2e46",
+      "cldf/parameters.csv": "a1c33ba0e023e871c5a46bf112fd9c011cac74fc5adb3b9f1cc89101ff26978f"
+    }
+  },
+  "nyagrong_identity": {
+    "url": "https://stw-sichuan2013.sciencesconf.org/14718/vanway_paris_abstract_revised.pdf",
+    "sha256": "6a0a9ffb4218ff6dfdc14a743c26341889b30b05d6d928c5ae179302300a17d1",
+    "reason": "Primary phonetic abstract explicitly distinguishes Nyagrong Minyag from Muya mvm near Kangding.",
+    "cache_path": "raw/curation/gw/nyagrong-identity.pdf"
+  },
+  "dictnen": {
+    "repo": "https://github.com/dictionaria/nen",
+    "commit": "7300522ee6087068ede65ab4697a5e6d8368a110",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "resource_sha256": {
+      "README.md": "0a407d8f14a7cfbba0b1835ef0eb19d10b2ec0870b0c11e46b3f97555bd76d44",
+      "cldf/cldf-metadata.json": "a23aab5a0f4239040ec50ea75a36cbe832dc3427ef88a347be70b8f63dda9621",
+      "cldf/entries.csv": "1582568d96fbee5599d78b6e674123a4df0482ff123208906cdbd04fb64c6ca3",
+      "cldf/senses.csv": "f925c04187e9defad882a0e06a49d3023d17cc51eb192ea120ca070611618b5e",
+      "cldf/languages.csv": "e0152b32dc597840c84bc469362453e43ad77f970c547008fdaf07558eee2e34",
+      "raw/intro.md": "12b4e5c18bb0c95efdb8c7130103662c538d435a29b6f28b5e2f14116bd8cbd3",
+      "raw/db.sfm": "c1e35e32ee9bdcd8049dc6754aa67a71a14596f3be99e288e16ce3d8886fed5c",
+      "cldfbench_nen.py": "1a561c443bc8bf55214d6dce29a42130cb0547d570986163e04febdfcaa004a8"
+    }
+  },
+  "dictteop": {
+    "repo": "https://github.com/dictionaria/teop",
+    "commit": "cee823df0d4fe1280feea0ed84fb24c75f8f851c",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "resource_sha256": {
+      "README.md": "d01f234489ddac6f154967ab590efbe82e73fb9fc0cd01858dcb9db72a1992cc",
+      "cldf/cldf-metadata.json": "9dc97ccdf2b9afb3b177892d443547cab0e60535a87febe6a304147f5147843f",
+      "cldf/entries.csv": "d8f8102d45166644c924c4c4fb3d3c58de72b3a6e228b580d09a99b72a9e7c36",
+      "cldf/senses.csv": "297a9cd25d2e8fcd79ce3cc43c21730b0ccdd7fb66768c1d16d3ac524812a4a1",
+      "cldf/languages.csv": "fadc55893c3512d0545e7dca78f2b4057ec8fd1e568e88c1f160c08d5b02c768",
+      "raw/intro.md": "c27e202f785b57502a479004d7272f995dac6a1d8948eb50f6430ec4d5e09043",
+      "raw/db.sfm": "ca213f174f544e0be4492a4a8e0ce38bf30d782e139ece62709ea128191b3108",
+      "cldfbench_teop.py": "db746c8c04a2b5ddb828fd68177597a5e4d0ae88d1372831ba0f8822c3b1cd5d"
+    }
+  },
+  "dictwanukaka": {
+    "repo": "https://github.com/dictionaria/wanukaka",
+    "commit": "eea4d7e558e5dfa90e6319c6ecd34fa3adbeadca",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "resource_sha256": {
+      "README.md": "d806781820448213be065a147f0ea1e632f240617999fe23a69f1e44cee65166",
+      "cldf/cldf-metadata.json": "7fb2d80eef2be15282b168c0006095fba96f8eb869af886e89cf4938bd103e13",
+      "cldf/entries.csv": "424615178fbe2b4215fdbe92da25c58fa9d38040b8dab107e99bd50374822e81",
+      "cldf/senses.csv": "eefe48491f6711fb95e4282e3d5ebc73d175740d800eeb979112d4da4a45acc2",
+      "cldf/languages.csv": "831d29aac81bea19dbfc2cb2c773f7fefde6527f8c632709c16d5508f2ae1a7a",
+      "raw/intro.md": "11c0110159c5009e717bfabc3e5475bbb753e785b699dd4d8924b873d29c0537",
+      "raw/db.sfm": "5a5b4e2994ac0aa1c1d642e347bb5c8322e43ba805afb0e1379c0470448a32c3",
+      "cldfbench_wanukaka.py": "4aa9350af1fa21fa4a4da5471474ccd7a1266c7c1a509f006287b56ea679ef03"
+    }
+  },
+  "etruscan_viku_edition": {
+    "url": "https://www.studietruschi.org/wp-content/uploads/2021/06/SE45_10.pdf",
+    "sha256": "4acdb299559195b48fcd46ceb94aba6a62884d43462b1b79ce424d2dacbeb851",
+    "author": "Mauro Cristofani",
+    "title": "Appunti di epigrafia etrusca arcaica III: Le iscrizioni di Chiusi",
+    "pages": "194,199",
+    "attestation": "CIE3234=TLE481; Chiusi bucchero olla, source dating625–600 BCE",
+    "decision": "Viku is interpreted as the donor personal name; no village concept. No images or article text redistributed.",
+    "cache_path": "raw/curation/gw/cristofani-chiusi.pdf"
+  },
+  "amazonianvoices": {
+    "repo": "https://github.com/lexibank/amazonianvoices.git",
+    "commit": "8af0f5dbce88cf979bca280173aaccce5edd9e63",
+    "resource_sha256": {
+      "cldf/forms.csv": "ea2a8f6002820214e64e5ff1728240dfb47d5ded572307a23afc37e976ef9ad1",
+      "cldf/languages.csv": "c863bfdac7ab8c5313f0b40a7c18338e4a4515d57ac7d3bd3c1a5ea4622e4a1c",
+      "cldf/parameters.csv": "9fc15874e0316a87ca75c39f6c944b65dff703eae01cbcd7dabc9404ac5f07ab",
+      "README.md": "376d85adf3494baf40139c6d56c7029bb45758f7f0dd6a2277adbad2e2840515",
+      "lexibank_amazonianvoices.py": "ef5f572432ab54724260ae6abcd39ea445553a983b29cd83280045ea08c9a31e"
+    }
+  },
+  "tuled": {
+    "repo": "https://github.com/tupian-language-resources/tuled",
+    "commit": "91c20e199ad3963d41c8987ac59431c4706f7645",
+    "resource_sha256": {
+      "cldf/forms.csv": "878578c990c2791d8e343f2ae56654bd2287c579b1e1a9fd3f6e516c7ca83b50",
+      "cldf/languages.csv": "d08c8cc6cd3a2e528817cfd39e7314c96c9196a90da68dc21ae8b002e663b442",
+      "cldf/parameters.csv": "7d3bab2fd0960368dc6f32422b5bf69eb60f483d40b3dbe682ae073be6c3b94d",
+      "README.md": "39061641537c7ba04d323ab7d060645f6d855528589141ba94a8573e7e6dbf33",
+      "lexibank_tuled.py": "2d56afd7124a82f6f637e406ac7e48f972789aab1dcbd0795ab31da4dcd1d076"
+    }
+  },
+  "hubercolumbian": {
+    "repo": "https://github.com/lexibank/hubercolumbian",
+    "commit": "53b584403e232e3d69b6125c24151f606bf1088b",
+    "resource_sha256": {
+      "cldf/forms.csv": "87b0f1ddae03318f470e0e01e5f9ea403ce470254b866e5af0c3f6782e2272a1",
+      "cldf/languages.csv": "ac03f43148bef26e8251e9393d2bf92f4c76776d3744b16dee65c209a4427695",
+      "cldf/parameters.csv": "0f35ba1b632fedaef6369e270885e428ccbf7ed6004bef9e09986bb7df5c2059",
+      "README.md": "c1494a4668c35ab968f5c7a69d541255444a24158d578e22e790edf79a57732c",
+      "lexibank_hubercolumbian.py": "90a11a385a49fbfc55396c76c3719d4405aa8b0555f955b0d862c8f3c9670d94"
+    }
+  },
+  "bowernpny": {
+    "repo": "https://github.com/lexibank/bowernpny",
+    "commit": "0641c6a23e908e4a34eee834e0903e78d4781048",
+    "resource_sha256": {
+      "cldf/forms.csv": "c8300dac939799aacb024f76f27b43e25799d534998a98d031b65295cf55d3f4",
+      "cldf/languages.csv": "29b97acd38caa8cd87da1abf8e7de2548808ea9a5de0fc15c4de4c20700cc10b",
+      "cldf/parameters.csv": "98158994d84352911d15911d7ea1604450f776975cafca508e6d5504e5b48c75",
+      "README.md": "af41005da2abe3712b452ea24adfb3f812d8d336557e9c3b07ed3393b753b416",
+      "lexibank_bowernpny.py": "dc21f77a9c24b69fa8f24d4f1eecb18160007f73e0344dfa293dc37f40297a0f"
+    }
+  },
+  "utoaztecan": {
+    "repo": "https://github.com/lexibank/utoaztecan",
+    "commit": "13aaffc2f50124f3e77e6086d6a1ff5a9e5c1653",
+    "resource_sha256": {
+      "cldf/forms.csv": "6f62d2074d3d7a0b49e4631ff871ca7d57497773855f6e5a2f6bdc97abfa024f",
+      "cldf/languages.csv": "a2d7a3262660b72c087649f2acfa8bc525d433b47562bec53beaf109a1be8527",
+      "cldf/parameters.csv": "4277a2c0081aa62f89fc4f6bbf6e31a2ff209044eb500fe06f96efdf7fc83cc6",
+      "README.md": "808f4f4b464cbb5c5b490890d16f38f26d8eb8823c49da39d081bc824cbfe22e",
+      "lexibank_utoaztecan.py": "2669be9d82a1100c742aecc5159f87777b9a345a0a9c81a001a1d1ff665a0795",
+      "raw/8.json": "daa1c57392372800e92b1c19109a0a574566e4da981cbf11053df667e4d6ede2",
+      "raw/16.json": "fa51e641d658b81dd41f95470f2313c10b56fd7d12660be86f51dca5345c9c35"
+    }
+  },
+  "cals": {
+    "repo": "https://github.com/lexibank/cals",
+    "commit": "968ad6beaf8cb138b17758fed45918b1bbfa9a0a",
+    "resource_sha256": {
+      "cldf/forms.csv": "72ff7ad586e76f5dad1faaa8b2e4690d7107b469d43860c0af3528c0224ef41d",
+      "cldf/languages.csv": "ca86e80377dcfc2fab072284bf6bb66efa3732dd3c566bf2ff5a423787a3d075",
+      "cldf/parameters.csv": "d2f184491a1c12b29c08ace4fe57246d0aefc34c306b1dd57b438d224b1e6d27",
+      "README.md": "85f969998e48a0f875a74cfe25b4faafd63da65aee5b162305f3fda09c197c92",
+      "lexibank_cals.py": "a10383c1732cba5fd7e18db43660d7be0754daa0fa63319167e1a40c0bf24d9e"
+    }
+  },
+  "pachechibchan": {
+    "repo": "https://github.com/lexibank/pachechibchan",
+    "commit": "ba9362af2608563e219681c7afcf8874fa08990b",
+    "resource_sha256": {
+      "cldf/forms.csv": "87864d23451e54fd9ff2af08dd8dbcaf560091f57334039553063c42a4023c7e",
+      "cldf/languages.csv": "cc3b2387107d296e9625816adbbaf21459701ce9740d26e423c7e440064b9896",
+      "cldf/parameters.csv": "af65b3315fe59855bb9c0c8ebfb6e70250e0b75612b086a674cc9589bf1e4bd3",
+      "README.md": "b34b31a3d36e372b85067f857e6c060ddaedbafb8daabf2c27dce33f883137bb",
+      "lexibank_pachechibchan.py": "622077a96a43f0d034fd80be3a615d58568e490adaef274f31403147daa9d566",
+      "raw/Chibchan_Swadesh207_MP.xlsx": "17b36d48c65fb4607a6579016a3fb8738ae2d90c164c4c0f1d7a2dde02290dfc"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "accepted_source": "Already frozen Wiktionary bpl lexical evidence, not newly extracted from Hosokawa chapter",
+  "acquisitions": [
+    {
+      "resource": "glottolog",
+      "url": "https://glottolog.org/resource/languoid/id/broo1238",
+      "status": 200,
+      "final_url": "https://glottolog.org/resource/languoid/id/broo1238",
+      "sha256": "d6a44f89ed228f399dd47d4b5469e923bb0a29a086c69d136ae607e1a91a65ec",
+      "bytes": 50195,
+      "content_type": "text/html; charset=utf-8",
+      "use": "Identity/terms discovery only; not an acquired reusable lexical export."
+    },
+    {
+      "resource": "kimberley_handbook",
+      "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/8d21e941-b2fd-4b77-a8d3-c1bd15854058/content",
+      "status": 200,
+      "final_url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/8d21e941-b2fd-4b77-a8d3-c1bd15854058/content",
+      "sha256": "2be53d5b3d85395c2aa7aa226099323ce1a5550f7056a6e227576a110182bf0b",
+      "bytes": 10207703,
+      "content_type": "application/pdf;charset=UTF-8",
+      "use": "Identity/documentation context only; no lexical table or images redistributed."
+    },
+    {
+      "resource": "hosokawa_chapter_doi_attempt",
+      "url": "https://doi.org/10.15144/PL-C100.287",
+      "status": 404,
+      "final_url": "https://doi.org/10.15144/PL-C100.287",
+      "sha256": "9df7cec7c67187d720c90ec97bbe1c4ec8e09bf6fa81048bb167b86f49e496ae",
+      "bytes": 10604,
+      "content_type": "text/html;charset=utf-8",
+      "use": "Identity/terms discovery only; not an acquired reusable lexical export."
+    },
+    {
+      "resource": "wiktionary_terms",
+      "url": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+      "status": 403,
+      "final_url": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+      "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+      "bytes": 126,
+      "content_type": "text/plain",
+      "use": "Identity/terms discovery only; not an acquired reusable lexical export."
+    }
+  ],
+  "other_candidates": "Current original dictionaries Nen/Teop/Wanukaka/Palula deepen already represented languages; no new-language counts for these. Tiny absent-code fragments and aliases remain unreviewed/held."
+}

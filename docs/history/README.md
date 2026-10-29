@@ -7,6 +7,11 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Worldwide GW01–GW10,2026-10-29](../WORLDWIDE_EXPANSION_2026-10-29.md):
+  657 records,532 net supported slots,one written-only new language,three named
+  Italian samples,original IPA/context recovery and semantic correction.
+  [Metrics](../worldwide_expansion_summary_2026-10-29.json).
+
 * [African follow-up AX01–AX06,2026-10-29](../AFRICA_FOLLOWUP_2026-10-29.md):
   363 new records,80 recovered readings,one written-only new language,two GLED
   swaps and semantic/identity corrections. [Metrics](../africa_followup_summary_2026-10-29.json).

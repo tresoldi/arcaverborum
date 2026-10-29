@@ -7328,3 +7328,7 @@ ine-rvid-cremona,,,"Cremonese (Cremona, RVID sample)",ine-lombard,Indo-European,
 atl-wamey,wame1240,cou,Wamey,,Atlantic-Congo,Africa,12.5421,-13.177,true,
 atl-kam,kamm1249,kdx,Kam,,Atlantic-Congo,Africa,8.305,11.05611111,true,
 atl-gimnime,gimn1238,gmn,Gimnime,,Atlantic-Congo,Africa,8.58129,12.7869,true,
+ine-rvid-travo,,,"Emilian (Travo, RVID sample)",ine-emiliano,Indo-European,Eurasia,44.87,9.55,false,Named RVID town sample with explicit source member; closest source code is not canonical identity.
+ine-rvid-lugo,,,"Romagnol (Lugo, RVID sample)",ine-romagnol,Indo-European,Eurasia,44.42,11.92,false,Named RVID town sample with explicit source member; closest source code is not canonical identity.
+ine-rvid-ascrea,,,"Laziale (Ascrea, RVID sample)",ine-italian,Indo-European,Eurasia,42.2,13.0,false,Named RVID town sample with explicit source member; closest source code is not canonical identity.
+pid-broome-pearling-lugger-pidgin,broo1238,bpl,Broome Pearling Lugger Pidgin,,Pidgin,Australia,-17.927,122.233,true,"GW09 exact bpl/Glottolog Broome pidgin identity; eleven written records, original source aliases reconciled."

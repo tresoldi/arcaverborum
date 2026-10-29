@@ -1,0 +1,15 @@
+av_id: ine-jerriais
+name: Jerriais
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: wiktionary
+  forms: 6260
+  supported_core: 4
+  source_statuses:
+    resegmented: 4677
+    source: 34
+    unclean: 1549
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

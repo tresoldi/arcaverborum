@@ -1,0 +1,15 @@
+av_id: afa-south-sudanese-creole-arabic
+name: South Sudanese Creole Arabic
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: wiktionary
+  forms: 67
+  supported_core: 3
+  source_statuses:
+    source: 9
+    resegmented: 55
+    unclean: 3
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.

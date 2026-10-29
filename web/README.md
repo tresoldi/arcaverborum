@@ -125,3 +125,9 @@ Gyeli/Hdi/Fwe/Sidaama dictionary primaries retaining all earlier GLED rows; exac
 Sidaama phonemic fields and semantic corrections; stable Momi/Vere identity;
 Shashi optional-prefix evidence; original West African tone/nasality exports.
 The AF01–AF09 and AX01–AX06 execution reports record source reviews and holds.
+
+Worldwide-data checks: `web/tests/worldwide_browser.py URL` verifies source tones,
+Palula mora-specific accents, Nen/Teop finite profiles, Wanukaka/Broome written-only
+evidence, recovered original Bribri IPA, Milanese alternatives, named Italian
+locality scope, Elamite dictionary context and corrected Etruscan/shared meanings.
+See `docs/WORLDWIDE_EXPANSION_2026-10-29.md` for realized gains and explicit holds.

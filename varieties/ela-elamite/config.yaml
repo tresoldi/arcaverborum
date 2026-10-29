@@ -7,7 +7,7 @@ sources:
   transcription: idssegmented
   cognates: idssegmented
 extensions:
-  transcriptions: false
+  transcriptions: true
   forms: false
   cognates: false
   concept_map: false

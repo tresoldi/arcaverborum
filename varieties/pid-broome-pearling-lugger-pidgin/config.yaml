@@ -1,0 +1,26 @@
+av_id: pid-broome-pearling-lugger-pidgin
+name: Broome Pearling Lugger Pidgin
+glottocode: broo1238
+family: Pidgin
+macroarea: Australia
+sources:
+  transcription: wiktionary
+  cognates: wiktionary
+  source_language_ids:
+  - wikt_bpl
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-29'
+notes: GW09 exact Broome/Koepang/Malay Talk pidgin, AU; distinct language, not a Japanese
+  variety or already represented Kriol. Eleven guarded written records, no invented
+  phonetic profile. Frozen Wiktionary evidence; original Hosokawa/McGregor literature
+  remains separate attribution/context, not independent new word elicitation.

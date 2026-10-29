@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -136,6 +137,36 @@ def reviewed_frames(
             cid = decision["concept_id"]
             if cid not in concept_index or decision["decision"] != "admit" or not decision["rationale"]:
                 raise ValueError("Supplement lacks a valid explicit sense decision")
+            if decision.get("original_ipa"):
+                # Recover an explicitly bracketed original reading when an upstream
+                # conversion lost distinctions. The full intake evidence is already
+                # hashed above; this route cannot pronounce spelling or pick one of
+                # several alternatives. More complex source notation needs its own
+                # review mechanism rather than an implicit first-reading choice.
+                original = decision["original_ipa"]
+                brackets = re.findall(r"\[([^\[\]]+)\]", row["Value"])
+                if (
+                    brackets != [original]
+                    or "~" in row["Value"]
+                    or any(mark in original for mark in (",", ";", "|", "/"))
+                    or profile is not None
+                    or decision.get("raw_ipa")
+                    or decision.get("transcription_policy")
+                    or not decision.get("source_pronunciation_id")
+                    or not decision.get("pronunciation_note")
+                ):
+                    raise ValueError("Original IPA recovery requires one exact bracketed source reading")
+                segments = ipa_segments(original)
+                if not segments or not segments_are_valid(segments):
+                    raise ValueError("Original IPA recovery has unsupported source notation")
+                row["Segments"] = segments
+                row["_raw_ipa"] = original
+                row["_pronunciation_tags"] = decision.get("pronunciation_tags", "[]")
+                row["_source_pronunciation_id"] = decision["source_pronunciation_id"]
+                row["Comment"] = "; ".join(filter(None, [
+                    row.get("Comment", ""),
+                    "Reviewed original IPA recovery: " + original + "; " + decision["pronunciation_note"],
+                ]))
             if decision.get("raw_ipa"):
                 scope_rule(decision, glottocode.strip().lower())
                 segments = ipa_segments(decision["raw_ipa"])

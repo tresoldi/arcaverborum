@@ -1,0 +1,2 @@
+source,source_language_id,reading_basis,authority,reading_scope,notes
+suntb,suntb_Kaman,upstream_profile_conversion,Sun1991 Zangmianyu yuyin he cihui; pinned suntb v4.0-1-g843b2f5 raw ZMYYC.csv and orthography.tsv,Individually reviewed GW01 source member and lexical records,"Source tone numbers and syllable boundaries preserved. Broad upstream normalization, not independent phonetic elicitation. Global v→ɤ, unresolved phonation and short-vowel fallbacks excluded. Original Value and source genealogy retained; do not generalize to a different Muya/Zaiwa/Kman sample."

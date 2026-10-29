@@ -1,0 +1,868 @@
+{
+  "before": {
+    "varieties": 7332,
+    "forms": 2070480,
+    "source_forms": 1746500,
+    "profile_forms": 14390,
+    "supported_core": 468581,
+    "mapped_core": 542492,
+    "mapped_all_concepts": 1334347,
+    "gled_primaries": 1573,
+    "core_source_varieties": 906,
+    "supported_all_concepts": 1206914
+  },
+  "after": {
+    "varieties": 7336,
+    "forms": 2071137,
+    "source_forms": 1746959,
+    "profile_forms": 14506,
+    "supported_core": 469063,
+    "mapped_core": 542891,
+    "mapped_all_concepts": 1334838,
+    "gled_primaries": 1573,
+    "core_source_varieties": 912,
+    "supported_all_concepts": 1207446
+  },
+  "delta": {
+    "varieties": 4,
+    "forms": 657,
+    "source_forms": 459,
+    "profile_forms": 116,
+    "supported_core": 482,
+    "mapped_core": 399,
+    "mapped_all_concepts": 491,
+    "gled_primaries": 0,
+    "core_source_varieties": 6,
+    "supported_all_concepts": 532
+  },
+  "changes": [
+    {
+      "av_id": "afa-coptic",
+      "forms_before": 81,
+      "forms_after": 100,
+      "supported_core_before": 36,
+      "supported_core_after": 36,
+      "mapped_core_before": 38,
+      "mapped_core_after": 39,
+      "mapped_all_before": 53,
+      "mapped_all_after": 69,
+      "statuses_before": {
+        "source": 64,
+        "unclean": 17
+      },
+      "statuses_after": {
+        "source": 64,
+        "unclean": 36
+      }
+    },
+    {
+      "av_id": "afa-egyptian-ancient",
+      "forms_before": 1354,
+      "forms_after": 1354,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 94,
+      "mapped_core_after": 94,
+      "mapped_all_before": 514,
+      "mapped_all_after": 514,
+      "statuses_before": {
+        "unclean": 1316,
+        "resegmented": 38
+      },
+      "statuses_after": {
+        "unclean": 1316,
+        "resegmented": 38
+      }
+    },
+    {
+      "av_id": "afa-south-sudanese-creole-arabic",
+      "forms_before": 67,
+      "forms_after": 67,
+      "supported_core_before": 3,
+      "supported_core_after": 3,
+      "mapped_core_before": 22,
+      "mapped_core_after": 22,
+      "mapped_all_before": 50,
+      "mapped_all_after": 50,
+      "statuses_before": {
+        "source": 9,
+        "resegmented": 55,
+        "unclean": 3
+      },
+      "statuses_after": {
+        "source": 9,
+        "resegmented": 55,
+        "unclean": 3
+      }
+    },
+    {
+      "av_id": "art-esperanto",
+      "forms_before": 32258,
+      "forms_after": 32258,
+      "supported_core_before": 149,
+      "supported_core_after": 149,
+      "mapped_core_before": 152,
+      "mapped_core_after": 152,
+      "mapped_all_before": 2492,
+      "mapped_all_after": 2492,
+      "statuses_before": {
+        "source": 20016,
+        "resegmented": 8719,
+        "unclean": 3523
+      },
+      "statuses_after": {
+        "source": 20016,
+        "resegmented": 8719,
+        "unclean": 3523
+      }
+    },
+    {
+      "av_id": "art-ido",
+      "forms_before": 9398,
+      "forms_after": 9398,
+      "supported_core_before": 84,
+      "supported_core_after": 83,
+      "mapped_core_before": 132,
+      "mapped_core_after": 132,
+      "mapped_all_before": 1475,
+      "mapped_all_after": 1475,
+      "statuses_before": {
+        "source": 2381,
+        "resegmented": 6160,
+        "unclean": 857
+      },
+      "statuses_after": {
+        "source": 2381,
+        "resegmented": 6160,
+        "unclean": 857
+      }
+    },
+    {
+      "av_id": "art-interlingua-international-auxiliary-language-association",
+      "forms_before": 4087,
+      "forms_after": 4087,
+      "supported_core_before": 24,
+      "supported_core_after": 24,
+      "mapped_core_before": 109,
+      "mapped_core_after": 109,
+      "mapped_all_before": 816,
+      "mapped_all_after": 816,
+      "statuses_before": {
+        "resegmented": 3287,
+        "source": 330,
+        "unclean": 470
+      },
+      "statuses_after": {
+        "resegmented": 3287,
+        "source": 330,
+        "unclean": 470
+      }
+    },
+    {
+      "av_id": "art-volapuk",
+      "forms_before": 7034,
+      "forms_after": 7034,
+      "supported_core_before": 38,
+      "supported_core_after": 38,
+      "mapped_core_before": 119,
+      "mapped_core_after": 118,
+      "mapped_all_before": 1188,
+      "mapped_all_after": 1187,
+      "statuses_before": {
+        "source": 774,
+        "resegmented": 5637,
+        "unclean": 623
+      },
+      "statuses_after": {
+        "source": 774,
+        "resegmented": 5637,
+        "unclean": 623
+      }
+    },
+    {
+      "av_id": "atl-fwe",
+      "forms_before": 167,
+      "forms_after": 189,
+      "supported_core_before": 60,
+      "supported_core_after": 60,
+      "mapped_core_before": 60,
+      "mapped_core_after": 60,
+      "mapped_all_before": 145,
+      "mapped_all_after": 167,
+      "statuses_before": {
+        "profile": 119,
+        "unclean": 1,
+        "source": 47
+      },
+      "statuses_after": {
+        "profile": 141,
+        "unclean": 1,
+        "source": 47
+      }
+    },
+    {
+      "av_id": "atl-gyele",
+      "forms_before": 205,
+      "forms_after": 228,
+      "supported_core_before": 86,
+      "supported_core_after": 86,
+      "mapped_core_before": 87,
+      "mapped_core_after": 87,
+      "mapped_all_before": 177,
+      "mapped_all_after": 199,
+      "statuses_before": {
+        "profile": 168,
+        "source": 36,
+        "unclean": 1
+      },
+      "statuses_after": {
+        "profile": 191,
+        "source": 36,
+        "unclean": 1
+      }
+    },
+    {
+      "av_id": "atl-ruuli",
+      "forms_before": 98,
+      "forms_after": 117,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 21,
+      "mapped_core_after": 21,
+      "mapped_all_before": 90,
+      "mapped_all_after": 108,
+      "statuses_before": {
+        "resegmented": 2,
+        "unclean": 96
+      },
+      "statuses_after": {
+        "resegmented": 2,
+        "unclean": 115
+      }
+    },
+    {
+      "av_id": "cam-camsa",
+      "forms_before": 204,
+      "forms_after": 234,
+      "supported_core_before": 119,
+      "supported_core_after": 146,
+      "mapped_core_before": 119,
+      "mapped_core_after": 146,
+      "mapped_all_before": 194,
+      "mapped_all_after": 221,
+      "statuses_before": {
+        "source": 204
+      },
+      "statuses_after": {
+        "source": 234
+      }
+    },
+    {
+      "av_id": "car-yukpa",
+      "forms_before": 314,
+      "forms_after": 345,
+      "supported_core_before": 122,
+      "supported_core_after": 149,
+      "mapped_core_before": 122,
+      "mapped_core_after": 149,
+      "mapped_all_before": 276,
+      "mapped_all_after": 303,
+      "statuses_before": {
+        "source": 314
+      },
+      "statuses_after": {
+        "source": 345
+      }
+    },
+    {
+      "av_id": "chi-bribri",
+      "forms_before": 117,
+      "forms_after": 127,
+      "supported_core_before": 93,
+      "supported_core_after": 103,
+      "mapped_core_before": 93,
+      "mapped_core_after": 103,
+      "mapped_all_before": 117,
+      "mapped_all_after": 127,
+      "statuses_before": {
+        "source": 117
+      },
+      "statuses_after": {
+        "source": 127
+      }
+    },
+    {
+      "av_id": "etr-etruscan",
+      "forms_before": 94,
+      "forms_after": 94,
+      "supported_core_before": 9,
+      "supported_core_after": 9,
+      "mapped_core_before": 19,
+      "mapped_core_after": 19,
+      "mapped_all_before": 49,
+      "mapped_all_after": 48,
+      "statuses_before": {
+        "source": 25,
+        "unclean": 68,
+        "resegmented": 1
+      },
+      "statuses_after": {
+        "source": 25,
+        "unclean": 68,
+        "resegmented": 1
+      }
+    },
+    {
+      "av_id": "ine-asturian-leonese-cantabrian",
+      "forms_before": 9715,
+      "forms_after": 9715,
+      "supported_core_before": 82,
+      "supported_core_after": 82,
+      "mapped_core_before": 142,
+      "mapped_core_after": 142,
+      "mapped_all_before": 1424,
+      "mapped_all_after": 1424,
+      "statuses_before": {
+        "unclean": 5603,
+        "profile": 3946,
+        "source": 166
+      },
+      "statuses_after": {
+        "unclean": 5603,
+        "profile": 3946,
+        "source": 166
+      }
+    },
+    {
+      "av_id": "ine-jerriais",
+      "forms_before": 6260,
+      "forms_after": 6260,
+      "supported_core_before": 4,
+      "supported_core_after": 4,
+      "mapped_core_before": 105,
+      "mapped_core_after": 105,
+      "mapped_all_before": 1149,
+      "mapped_all_after": 1149,
+      "statuses_before": {
+        "resegmented": 4677,
+        "source": 34,
+        "unclean": 1549
+      },
+      "statuses_after": {
+        "resegmented": 4677,
+        "source": 34,
+        "unclean": 1549
+      }
+    },
+    {
+      "av_id": "ine-kabuverdianu",
+      "forms_before": 1032,
+      "forms_after": 1032,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 55,
+      "mapped_core_after": 54,
+      "mapped_all_before": 291,
+      "mapped_all_after": 290,
+      "statuses_before": {
+        "resegmented": 985,
+        "unclean": 46,
+        "source": 1
+      },
+      "statuses_after": {
+        "resegmented": 985,
+        "unclean": 46,
+        "source": 1
+      }
+    },
+    {
+      "av_id": "ine-lombard",
+      "forms_before": 84,
+      "forms_after": 102,
+      "supported_core_before": 41,
+      "supported_core_after": 48,
+      "mapped_core_before": 41,
+      "mapped_core_after": 48,
+      "mapped_all_before": 43,
+      "mapped_all_after": 55,
+      "statuses_before": {
+        "source": 84
+      },
+      "statuses_after": {
+        "source": 102
+      }
+    },
+    {
+      "av_id": "ine-mocheno",
+      "forms_before": 378,
+      "forms_after": 378,
+      "supported_core_before": 10,
+      "supported_core_after": 10,
+      "mapped_core_before": 60,
+      "mapped_core_after": 60,
+      "mapped_all_before": 243,
+      "mapped_all_after": 243,
+      "statuses_before": {
+        "resegmented": 304,
+        "source": 37,
+        "unclean": 37
+      },
+      "statuses_after": {
+        "resegmented": 304,
+        "source": 37,
+        "unclean": 37
+      }
+    },
+    {
+      "av_id": "ine-muslim-tat",
+      "forms_before": 179,
+      "forms_after": 179,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 55,
+      "mapped_core_after": 54,
+      "mapped_all_before": 131,
+      "mapped_all_after": 130,
+      "statuses_before": {
+        "unclean": 54,
+        "resegmented": 125
+      },
+      "statuses_after": {
+        "unclean": 54,
+        "resegmented": 125
+      }
+    },
+    {
+      "av_id": "ine-palula",
+      "forms_before": 108,
+      "forms_after": 128,
+      "supported_core_before": 33,
+      "supported_core_after": 38,
+      "mapped_core_before": 33,
+      "mapped_core_after": 38,
+      "mapped_all_before": 35,
+      "mapped_all_after": 40,
+      "statuses_before": {
+        "source": 108
+      },
+      "statuses_after": {
+        "source": 108,
+        "profile": 20
+      }
+    },
+    {
+      "av_id": "ine-rvid-ascrea",
+      "forms_before": 0,
+      "forms_after": 7,
+      "supported_core_before": 0,
+      "supported_core_after": 5,
+      "mapped_core_before": 0,
+      "mapped_core_after": 5,
+      "mapped_all_before": 0,
+      "mapped_all_after": 6,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 7
+      }
+    },
+    {
+      "av_id": "ine-rvid-lugo",
+      "forms_before": 0,
+      "forms_after": 3,
+      "supported_core_before": 0,
+      "supported_core_after": 2,
+      "mapped_core_before": 0,
+      "mapped_core_after": 2,
+      "mapped_all_before": 0,
+      "mapped_all_after": 3,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 3
+      }
+    },
+    {
+      "av_id": "ine-rvid-travo",
+      "forms_before": 0,
+      "forms_after": 3,
+      "supported_core_before": 0,
+      "supported_core_after": 2,
+      "mapped_core_before": 0,
+      "mapped_core_after": 2,
+      "mapped_all_before": 0,
+      "mapped_all_after": 3,
+      "statuses_before": {},
+      "statuses_after": {
+        "source": 3
+      }
+    },
+    {
+      "av_id": "ine-yagnobi",
+      "forms_before": 133,
+      "forms_after": 198,
+      "supported_core_before": 29,
+      "supported_core_after": 94,
+      "mapped_core_before": 103,
+      "mapped_core_after": 123,
+      "mapped_all_before": 133,
+      "mapped_all_after": 153,
+      "statuses_before": {
+        "source": 34,
+        "unclean": 56,
+        "resegmented": 43
+      },
+      "statuses_after": {
+        "source": 99,
+        "unclean": 56,
+        "resegmented": 43
+      }
+    },
+    {
+      "av_id": "map-teop",
+      "forms_before": 267,
+      "forms_after": 295,
+      "supported_core_before": 0,
+      "supported_core_after": 25,
+      "mapped_core_before": 134,
+      "mapped_core_after": 137,
+      "mapped_all_before": 200,
+      "mapped_all_after": 203,
+      "statuses_before": {
+        "resegmented": 264,
+        "unclean": 3
+      },
+      "statuses_after": {
+        "resegmented": 264,
+        "unclean": 3,
+        "profile": 28
+      }
+    },
+    {
+      "av_id": "map-wanukaka",
+      "forms_before": 220,
+      "forms_after": 253,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 135,
+      "mapped_core_after": 139,
+      "mapped_all_before": 208,
+      "mapped_all_after": 212,
+      "statuses_before": {
+        "resegmented": 205,
+        "unclean": 15
+      },
+      "statuses_after": {
+        "resegmented": 205,
+        "unclean": 48
+      }
+    },
+    {
+      "av_id": "pan-marinahua",
+      "forms_before": 447,
+      "forms_after": 477,
+      "supported_core_before": 78,
+      "supported_core_after": 108,
+      "mapped_core_before": 82,
+      "mapped_core_after": 112,
+      "mapped_all_before": 258,
+      "mapped_all_after": 288,
+      "statuses_before": {
+        "source": 385,
+        "unclean": 62
+      },
+      "statuses_after": {
+        "source": 415,
+        "unclean": 62
+      }
+    },
+    {
+      "av_id": "pid-broome-pearling-lugger-pidgin",
+      "forms_before": 0,
+      "forms_after": 11,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "mapped_core_before": 0,
+      "mapped_core_after": 3,
+      "mapped_all_before": 0,
+      "mapped_all_after": 11,
+      "statuses_before": {},
+      "statuses_after": {
+        "unclean": 11
+      }
+    },
+    {
+      "av_id": "pny-dhangu",
+      "forms_before": 243,
+      "forms_after": 259,
+      "supported_core_before": 111,
+      "supported_core_after": 127,
+      "mapped_core_before": 111,
+      "mapped_core_after": 127,
+      "mapped_all_before": 198,
+      "mapped_all_after": 214,
+      "statuses_before": {
+        "source": 243
+      },
+      "statuses_after": {
+        "source": 259
+      }
+    },
+    {
+      "av_id": "pny-nyangumarta",
+      "forms_before": 322,
+      "forms_after": 350,
+      "supported_core_before": 110,
+      "supported_core_after": 138,
+      "mapped_core_before": 110,
+      "mapped_core_after": 138,
+      "mapped_all_before": 226,
+      "mapped_all_after": 254,
+      "statuses_before": {
+        "source": 322
+      },
+      "statuses_after": {
+        "source": 350
+      }
+    },
+    {
+      "av_id": "pny-paakantyi",
+      "forms_before": 187,
+      "forms_after": 204,
+      "supported_core_before": 123,
+      "supported_core_after": 140,
+      "mapped_core_before": 123,
+      "mapped_core_after": 140,
+      "mapped_all_before": 186,
+      "mapped_all_after": 203,
+      "statuses_before": {
+        "source": 187
+      },
+      "statuses_after": {
+        "source": 204
+      }
+    },
+    {
+      "av_id": "sit-khiamniungan-naga",
+      "forms_before": 853,
+      "forms_after": 853,
+      "supported_core_before": 36,
+      "supported_core_after": 36,
+      "mapped_core_before": 51,
+      "mapped_core_after": 50,
+      "mapped_all_before": 310,
+      "mapped_all_after": 309,
+      "statuses_before": {
+        "source": 576,
+        "unclean": 20,
+        "resegmented": 257
+      },
+      "statuses_after": {
+        "source": 576,
+        "unclean": 20,
+        "resegmented": 257
+      }
+    },
+    {
+      "av_id": "sit-kman",
+      "forms_before": 112,
+      "forms_after": 165,
+      "supported_core_before": 42,
+      "supported_core_after": 94,
+      "mapped_core_before": 42,
+      "mapped_core_after": 94,
+      "mapped_all_before": 77,
+      "mapped_all_after": 129,
+      "statuses_before": {
+        "source": 112
+      },
+      "statuses_after": {
+        "source": 165
+      }
+    },
+    {
+      "av_id": "sit-muya",
+      "forms_before": 80,
+      "forms_after": 128,
+      "supported_core_before": 36,
+      "supported_core_after": 84,
+      "mapped_core_before": 36,
+      "mapped_core_after": 84,
+      "mapped_all_before": 70,
+      "mapped_all_after": 118,
+      "statuses_before": {
+        "source": 80
+      },
+      "statuses_after": {
+        "source": 128
+      }
+    },
+    {
+      "av_id": "sit-zaiwa",
+      "forms_before": 107,
+      "forms_after": 152,
+      "supported_core_before": 39,
+      "supported_core_after": 83,
+      "mapped_core_before": 39,
+      "mapped_core_after": 83,
+      "mapped_all_before": 82,
+      "mapped_all_after": 126,
+      "statuses_before": {
+        "source": 107
+      },
+      "statuses_after": {
+        "source": 152
+      }
+    },
+    {
+      "av_id": "trk-ottoman-turkish",
+      "forms_before": 10801,
+      "forms_after": 10801,
+      "supported_core_before": 8,
+      "supported_core_after": 8,
+      "mapped_core_before": 132,
+      "mapped_core_after": 132,
+      "mapped_all_before": 1453,
+      "mapped_all_after": 1453,
+      "statuses_before": {
+        "unclean": 10636,
+        "source": 165
+      },
+      "statuses_after": {
+        "unclean": 10636,
+        "source": 165
+      }
+    },
+    {
+      "av_id": "tup-cocama-cocamilla",
+      "forms_before": 287,
+      "forms_after": 317,
+      "supported_core_before": 116,
+      "supported_core_after": 145,
+      "mapped_core_before": 116,
+      "mapped_core_after": 145,
+      "mapped_all_before": 248,
+      "mapped_all_after": 277,
+      "statuses_before": {
+        "source": 287
+      },
+      "statuses_after": {
+        "source": 317
+      }
+    },
+    {
+      "av_id": "uto-hopi",
+      "forms_before": 143,
+      "forms_after": 146,
+      "supported_core_before": 92,
+      "supported_core_after": 95,
+      "mapped_core_before": 92,
+      "mapped_core_after": 95,
+      "mapped_all_before": 101,
+      "mapped_all_after": 104,
+      "statuses_before": {
+        "source": 143
+      },
+      "statuses_after": {
+        "source": 146
+      }
+    },
+    {
+      "av_id": "uto-southern-paiute",
+      "forms_before": 339,
+      "forms_after": 361,
+      "supported_core_before": 121,
+      "supported_core_after": 141,
+      "mapped_core_before": 121,
+      "mapped_core_after": 141,
+      "mapped_all_before": 240,
+      "mapped_all_after": 260,
+      "statuses_before": {
+        "source": 339
+      },
+      "statuses_after": {
+        "source": 361
+      }
+    },
+    {
+      "av_id": "yam-nen",
+      "forms_before": 456,
+      "forms_after": 479,
+      "supported_core_before": 0,
+      "supported_core_after": 21,
+      "mapped_core_before": 142,
+      "mapped_core_after": 142,
+      "mapped_all_before": 315,
+      "mapped_all_after": 315,
+      "statuses_before": {
+        "resegmented": 439,
+        "unclean": 17
+      },
+      "statuses_after": {
+        "resegmented": 439,
+        "unclean": 17,
+        "profile": 23
+      }
+    }
+  ],
+  "all_earlier_lexical_records_preserved": 2070480,
+  "original_comments_or_original_evidence_json_preserved": 2070480,
+  "earlier_semantic_mappings_corrected": 83,
+  "shared_rule_subject_records": 107,
+  "shared_previously_unmapped_records": 25,
+  "shared_new_mapping_corrections": 82,
+  "earlier_readings_changed": 0,
+  "derived_quality_scores_recomputed": 0,
+  "new_records_by_status": {
+    "unclean": 82,
+    "profile": 116,
+    "source": 459
+  },
+  "new_lexical_records": 657,
+  "gross_supported_slot_gains": 535,
+  "corrected_supported_slot_overcounts": 3,
+  "net_supported_slot_gain": 532,
+  "gross_supported_core_gains": 483,
+  "corrected_supported_core_overcounts": 1,
+  "new_distinct_languages": 1,
+  "new_named_varieties": 3,
+  "new_language": "Broome Pearling Lugger Pidgin",
+  "new_named_samples": [
+    "Travo",
+    "Lugo",
+    "Ascrea"
+  ],
+  "new_gled_replacements": 0,
+  "bribri_previously_held_original_readings_recovered": 10,
+  "elamite_readings_with_original_context": 787,
+  "etruscan_attestation_reviews": 3,
+  "new_intake_rows": 19864,
+  "intake_total_rows": 7212459,
+  "african_original_records_reproduced": 726,
+  "rvid_original_records_reproduced": 46,
+  "coptic_original_records_reproduced": 36,
+  "original_dictionary_intake_records_reproduced": 19768,
+  "pinned_source_resources_verified": 78,
+  "tracks_completed_in_order": [
+    "GW01",
+    "GW02",
+    "GW03",
+    "GW04",
+    "GW05",
+    "GW06",
+    "GW07",
+    "GW08",
+    "GW09",
+    "GW10"
+  ],
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tests_passed": 449,
+  "bhsa_linkage_witnesses": 15,
+  "bhsa_feature_hashes_verified": 23,
+  "local_browser_suites_passed": [
+    "worldwide",
+    "research",
+    "african",
+    "ancient",
+    "mixed-source"
+  ]
+}

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 from arcaverborum.ingest import ingest_lexibank
@@ -19,6 +20,7 @@ if __name__ == "__main__":
         raise ValueError("Stage outside active intake")
     print(materialize(ROOT / "raw", download=a.fetch, source_root=a.source_root))
     result = ingest_lexibank(ROOT / "raw", a.output, datasets=["rvidinfinitives"])
-    if result["datasets_ingested"] != 1 or result["total_forms"] != 33:
+    spec = json.loads((ROOT / "src/arcaverborum/data/rvid_source.json").read_text())
+    if result["datasets_ingested"] != 1 or result["total_forms"] != spec.get("expected_forms", 33):
         raise ValueError("Reviewed RVID slice did not stage completely")
     print(result)

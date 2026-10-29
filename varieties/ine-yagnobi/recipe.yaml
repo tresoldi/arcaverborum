@@ -1,0 +1,15 @@
+av_id: ine-yagnobi
+name: Yagnobi
+worldwide_review_2026_10_29:
+  status: accepted_bounded_review
+  report: ../../docs/WORLDWIDE_EXPANSION_2026-10-29.md
+  primary: iecor
+  forms: 198
+  supported_core: 94
+  source_statuses:
+    source: 99
+    unclean: 56
+    resegmented: 43
+  preservation: Earlier lexical records/readings and native cognacy/evidence retained
+    with exact reviewed semantic corrections. No unreviewed profile, historical IPA
+    or new-language identity inferred.
