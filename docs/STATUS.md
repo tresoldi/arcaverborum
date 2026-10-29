@@ -58,6 +58,15 @@ This subsequent documentation-only closure preserves the verified lexical artifa
 The site publishes tracked artifacts:399 family shards, source bibliography and755
 recording metadata rows. Pages copies committed data; it does not rebuild lexica.
 
+## Source preference
+
+The user clarified2026-10-29 that richer, trustworthy Wiktionary evidence should
+outrank GLED, including reviewed IPA or documented profiles. GLED's ASJP-derived
+representation and supported-core counts are not an automatic quality benchmark.
+This supersedes the historical fixed GLED-before-Wiktionary preference. Current
+accepted data and the1,573 GLED primary choices are unchanged by this policy note;
+future promotions require individual evidence review. See NEXT and AGENTS.
+
 ## Evidence, source state and next work
 
 [Execution](WORLDWIDE_FOLLOWUP_EXECUTION_2026-10-29.md),

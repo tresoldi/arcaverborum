@@ -22,6 +22,23 @@ with the Americas, especially South America, first. Supplied transcriptions and
 well-founded source-specific profiles are useful; valid tokens and larger raw
 counts alone do not certify pronunciation or meaning.
 
+## Source preference clarified by the user
+
+Wiktionary is preferred over GLED when its reviewed variety-specific evidence
+provides better coverage and trustworthy readings, whether supplied IPA or a
+well-founded source-specific orthographic profile. GLED does not get a fixed
+second-tier advantage: its ASJP-derived representations retain limitations that
+normalization only partly addresses. Normalization cannot restore information
+absent from the ASJP input. Compare original information, not just token
+validity or the existing supported-core count. Record tone, quantity, phonation,
+consonant contrasts, dialect/stage, exact senses and source provenance explicitly.
+A larger GLED count or a zero-loss screen is not an automatic veto on a justified
+quality-led primary change. Preserve earlier GLED evidence and document gaps,
+superseded/uncertain readings and overlap without treating it as independent
+confirmation. Generic Wiktionary spelling resegmentation alone does not establish
+pronunciation. Source promotions remain reviewed config/custom changes, never a
+blanket inversion of source-name rankings.
+
 ## Build a proposal
 
 1. Remove completed tasks and check whether held cases have new reopening
@@ -34,7 +51,9 @@ counts alone do not certify pronunciation or meaning.
    source profile recovery, unmapped/non-core vocabulary and genuinely missing
    languages. The additive ranking excludes the primary source and does not
    measure all these opportunities. Use `scripts/rank_gled_replacements.py` for
-   replacement triage, then review accepted losses as well as gains.
+   replacement triage, then review accepted losses as well as gains. The lossless
+   supplied-reading screen is only a narrow diagnostic: profile-backed Wiktionary
+   promotion and quality-led choices can be justified outside it.
 4. Prefer concrete source/sense review with high-quality evidence and meaningful
    gaps, while reserving a bounded original-source acquisition task when language
    diversity is underserved. Compare family/geographic balance and research cost;

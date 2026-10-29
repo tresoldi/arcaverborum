@@ -18,6 +18,22 @@ lexical evidence permits; retain uncertain readings and historical stages. Keep 
 transcriptions, derived profiles, semantic judgments and source-specific cognacy
 explicit. An intake source's spelling is not IPA merely because it tokenizes.
 
+
+Wiktionary is preferred over GLED when its reviewed variety-specific evidence
+provides better coverage and trustworthy readings, whether supplied IPA or a
+well-founded source-specific orthographic profile. GLED does not get a fixed
+second-tier advantage: its ASJP-derived representations retain limitations that
+normalization only partly addresses. Normalization cannot restore information
+absent from the ASJP input. Compare original information, not just token
+validity or the existing supported-core count. Record tone, quantity, phonation,
+consonant contrasts, dialect/stage, exact senses and source provenance explicitly.
+A larger GLED count or a zero-loss screen is not an automatic veto on a justified
+quality-led primary change. Preserve earlier GLED evidence and document gaps,
+superseded/uncertain readings and overlap without treating it as independent
+confirmation. Generic Wiktionary spelling resegmentation alone does not establish
+pronunciation. Source promotions remain reviewed config/custom changes, never a
+blanket inversion of source-name rankings.
+
 A planning request calls for recommendations and maintained documentation.
 Execute data changes when the user asks to proceed; carry existing authorization
 through the agreed batch. Choose implementation details autonomously within scope.

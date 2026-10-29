@@ -1,5 +1,17 @@
 # Project journal and working memory
 
+## 2026-10-29 — Prefer trustworthy richer Wiktionary evidence over GLED
+
+User explicitly clarified the historical Lexibank→GLED→Wiktionary preference:
+when Wiktionary offers more and its quality can be trusted, prefer it, remembering
+that GLED only partly addresses ASJP's limitations. Updated AGENTS, planning
+workflow, build specification, STATUS and NEXT. Supplied IPA and source-specific
+profiles are both eligible. Raw token validity, GLED's supported-core count and
+zero-loss swap screens are diagnostics rather than automatic quality vetoes.
+Retain original GLED evidence with appropriate uncertainty/dependence; source
+promotion remains an individual reviewed construction change. No lexical/config,
+score, aggregate or website data changed in this clarification turn.
+
 ## 2026-10-29 — Worldwide WF01–WF12 executed, with West Papua/Torricelli
 
 User authorized all ten prior proposals plus added West Papua and Torricelli,

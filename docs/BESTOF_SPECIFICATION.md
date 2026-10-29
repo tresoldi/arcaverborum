@@ -48,9 +48,14 @@ build consumes config/custom choices, and recipes/packets document them.
    the source value intact.
 6. **Historical automatic priority policy.** The original selector used
    Lexibank = 1, GLED = 2, Wiktionary = 3, then composite scores within a
-   priority tier. This describes the original selection design. Current curation
-   prefers strong lexical evidence, treats Wiktionary as a research/fallback
-   source, and reduces GLED dependence through reviewed config/custom choices.
+   priority tier. This describes the original selection design, not the current
+   normative preference. The user explicitly prefers richer, trustworthy
+   Wiktionary evidence over GLED, including supplied IPA and documented
+   source-specific profiles. ASJP-derived GLED representations are not a quality
+   benchmark merely because their tokens validate. Primary changes are reviewed
+   config/custom choices; raw coverage, source names and a zero-loss screen alone
+   do not decide them. Earlier useful GLED evidence may remain as explicit
+   supplements, with uncertainty and dependence disclosed.
 7. **Variety dirs are config-only by default.** `register` writes just
    `config.yaml`; `custom/*.csv` templates are scaffolded on demand
    (`build.py extend`). Missing custom files mean "no extension".

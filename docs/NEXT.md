@@ -13,32 +13,48 @@ No authorized track remains pending.
 zero new distinct-language claims or GLED swaps. West Papua61 records, Torricelli8
 written records. All authorized workstreams closed with admissions or evidence holds.
 
+## Standing source preference — clarified2026-10-29
+
+Prioritize richer, trustworthy Wiktionary evidence over GLED, through supplied IPA
+or documented profiles. ASJP/GLED token counts are not the standard of quality.
+The zero lossless supplied-reading swaps below is a narrow diagnostic, not a veto
+on profile-backed or quality-led primary promotion. Review replacements individually,
+keep useful earlier evidence attributable and show any coverage/uncertainty tradeoff.
+See [build policy](BESTOF_SPECIFICATION.md) and [workflow](workflows/arca-coverage-planning/SKILL.md).
+
 ## Unapproved next work from the accepted baseline
 
-1. **Original dictionary core depth:** Palula43 profiles/22 dictionary-supported
+1. **Wiktionary-led GLED replacement review:** re-screen the1,573 GLED primaries
+   for richer exact-variety Wiktionary evidence, including all qualified IPA
+   alternatives and defensible profiles. Compare retained contrasts and reliable
+   concept coverage; include non-core depth. Separate independently supplied
+   readings from ASJP-derived or spelling-only material. Do not require a raw
+   profile slice to beat GLED's nominal core count before considering its quality.
+   No blanket promotion or lexical migration is made by this policy clarification.
+2. **Original dictionary core depth:** Palula43 profiles/22 dictionary-supported
    core versus33 GLED core; retain108 GLED records. Nen42/Teop58, Chintang26,
    Teanu24, Sanzhi20 and Kalamang30 finite readings now exist. Extend new exact
    senses and all qualified alternatives using original guides; do not replay
    completed slices. Potential further gains unmeasured.
-2. **Americas original acquisition and unresolved identities:** Kamayurá144,
+3. **Americas original acquisition and unresolved identities:** Kamayurá144,
    Chibcha152,Baure144,Colombian Inga154 supported core; previous ceilings spent.
    Prioritize original dictionaries/non-core depth and genuinely missing-language
    payloads. Opata64/Bella Coola27/Bribri16 remain evidence holds, not ready gains.
-3. **West Papua identity/notation recovery:** Mairasi84,Suabo117,Hatam106,
+4. **West Papua identity/notation recovery:** Mairasi84,Suabo117,Hatam106,
    Moskona128,Sentani112,Kalamang141 supported core. Investigate exact Hatam-Borai
    attribution separately; no guessed pooling or code reassignment. Original
    dy, incisor/leg-foot and water-specific senses require authority. New gains unmeasured.
-4. **Torricelli original lexical payloads:** inventory46 accepted Nuclear
+5. **Torricelli original lexical payloads:** inventory46 accepted Nuclear
    Torricelli constructions;8 written additions already admitted across three.
    Yeri grammar is acquired research context; source terms and machine-readable
    lexical attribution remain gates. Urim Yangkolen dictionary is catalogued but
    unavailable online. Do not call catalog metadata a downloaded dictionary.
-5. **Ancient exact evidence:** BHSA14 substantive written lexemes are now
+6. **Ancient exact evidence:** BHSA14 substantive written lexemes are now
    admitted (9 Hebrew/5 Aramaic), beyond the completed linkage feasibility gate.
    Extend reviewed lexemes/contexts and historical stages; Coptic now58 across
    Alpha/Beta. Etruscan neri/phersu and Elamite EW111/499/EW600 need new primary
    authority;787 earlier Elamite contexts remain preserved. No inferred ancient IPA.
-6. **Asian/African precision and further locality depth:** WOLD Vietnamese104
+7. **Asian/African precision and further locality depth:** WOLD Vietnamese104
    candidate records held for actual Hanoi/dialect/tone authority; Chintang core40.
    Kraft macron/phonation and other older holds stay gated. Italian Milanese39
    supplied readings, RVID92/seven samples are completed; andà/bianch and '?' cells
