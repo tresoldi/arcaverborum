@@ -1,0 +1,19 @@
+{
+  "canonical_url": "https://arcaverborum.org/",
+  "data_commit": "70d55a1b47ecb59bfb7782f8d8353cc1a6ae2b18",
+  "checked_artifacts": 403,
+  "family_shards": 399,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "all_hashes": "passed",
+  "accepted_varieties": 7343,
+  "forms": 2072595,
+  "local_browser_suites": 9,
+  "live_browser_suites": [
+    "worldwide_q",
+    "research"
+  ],
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/40941043610",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/40941043652",
+  "manifest_sha256": "fa61a000ab0af54dbc0a3ee379607dfeddf55cb68af9e3568e6c3c073af8d031"
+}
