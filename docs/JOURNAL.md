@@ -1,5 +1,14 @@
 # Project journal and working memory
 
+## 2026-10-29 — Worldwide follow-up recommendations
+
+Prepared WF01–WF10 after completed GW01–GW10, with exact ranked candidate CSV,
+primary dictionary checks and identity reconciliation for Dakaka/Dargwa/Wubuy.
+NEXT now records sequential proposals, not lexical authorization. Broader Asian,
+Chadic, Papuan and original dictionary opportunities complement American priorities;
+ancient and Italian interests retained. No accepted data or web artifacts changed.
+See WORLDWIDE_FOLLOWUP_2026-10-29.md.
+
 ## 2026-10-29 — Worldwide GW01–GW10 completed
 
 User authorized all ten, sequentially, with autonomous specifics. See

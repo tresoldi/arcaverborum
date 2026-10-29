@@ -5,41 +5,26 @@ See [execution](WORLDWIDE_EXPANSION_2026-10-29.md) and
 [realized metrics](worldwide_expansion_summary_2026-10-29.json). No authorized GW
 track remains pending. Proposals below require a new instruction to proceed.
 
-## Recommended continuation from accepted results
+## Recommended worldwide follow-up (WF01–WF10)
 
-1. **Original Palula/Nen/Teop dictionary depth:** already ingested full raw sources,
-   current finite slices20/23/28. Palula now38 supported core, Nen21, Teop25.
-   Review new exact senses/POS and the original phonetic/phonemic guides, extending
-   finite profiles without re-appending the namespaces. Palula20-profile slice
-   still cannot replace the33-core GLED primary; preserve all108 earlier GLED rows.
-   Best measured source-quality continuation; additional gains unmeasured.
-2. **South American original-source depth:** current Marinahua108, Kokama145,
-   Yukpa149, Camsá146 supported core. Their GW03 slices are completed. Re-rank
-   actual missing concepts and broaden non-core dictionary evidence; reserve a
-   bounded external acquisition task for genuinely unrepresented languages.
-   Strong standing priority; do not repeat earlier30/31/28/27 ceilings.
-3. **Source-notation recovery in Asia and the Americas:** Muya84, Zaiwa83, Kman94,
-   Yagnobi94; their admitted subsets are completed. Remaining Sun v/shortness/
-   phonation and CALS verb/context cases need original authority. Nyagrong Minyag
-   is explicitly not Muya; its apparent code match is held. Bribri now103 core:
-   recover additional full alternatives only with exact dialect labels and all
-   source readings retained, never a first-reading shortcut. Gains unmeasured.
-4. **Ancient lexical unit/sense review after proved linkage:** BHSA now has15
-   word/lexeme/verse witnesses and a working Hebrew/Aramaic filter, including
-   Aramaic outside Daniel/Ezra. Next gate is lemma/proclitic and literal meaning/
-   historical-stage review, not another four-file feasibility check. Etruscan Viku
-   village mapping is withdrawn; neri/phersu remain uncertain. Elamite787 source
-   contexts are attached; exact EW111/499 and EW600 repairs still need authority.
-5. **Italian localities and written-language depth:** Travo/Lugo/Ascrea3/3/7 forms
-   are admitted, with both Ascrea go alternatives. Review other genuine infinitives
-   from current RVID46-record namespace; question marks cannot supply forms.
-   Milanese18 scoped readings are admitted; andà meaning and bianch inflection
-   remain held. Broome11 written records now exist; seek original word-specific
-   pronunciation evidence, not a generic Malay/Japanese spelling profile.
-6. **Continue worldwide semantic review:**100 exact body/direction/homonym senses
-   reviewed,81 new shared rules,83 earlier mappings corrected including Viku.
-   Further original POS/meaning and source-normalization audits can improve
-   precision; retain records as unmapped rather than forcing English-label matches.
+[Detailed proposal, gates and tradeoffs](WORLDWIDE_FOLLOWUP_2026-10-29.md);
+[exact ranked source members/versions](worldwide_followup_candidates_2026-10-29.csv).
+All ten are **proposed**, not yet authorized. Recommended order:
+
+1. **WF01:** fresh South American targets: Kamayurá, Chibcha, Baure, Colombian Inga.
+2. **WF02:** original Palula/Nen/Teop dictionary depth and loss-aware GLED reassessment.
+3. **WF03:** Vietnamese WOLD gap review and original Chintang dictionary acquisition.
+4. **WF04:** Chadic Hildi/Higikamale identity/notation review plus further Bantu dictionary depth.
+5. **WF05:** Teguima/Bella Coola original evidence and complete Bribri IPA alternatives.
+6. **WF06:** Enga/Ap Ma attribution/notation recovery and Daakaka/Teanu dictionary depth.
+7. **WF07:** new-language/variety acquisition; Sanzhi identity pilot, then Americas-first worldwide search.
+8. **WF08:** Djinang/Ngarluma, Soqotri and Wubuy original dictionary feasibility.
+9. **WF09:** Etruscan/Elamite source authority, BHSA lexical units and further Coptic files.
+10. **WF10:** further Italian localities and new global semantic/POS review.
+
+Daakaka is already Dakaka; Wubuy is already present. Sanzhi cannot be pooled into
+North-Central Dargwa merely because a coarse code matches. Ranked potentials are
+review ceilings, never verified gains. Earlier GW completions and HELD gates remain.
 
 Fresh screen: 6,808 overlapping worldwide member opportunities,
 871 GLED alternatives, **zero lossless positive supplied-reading swaps**.

@@ -1,5 +1,7 @@
 # Current project state
 
+Planning: [worldwide follow-up WF01–WF10](WORLDWIDE_FOLLOWUP_2026-10-29.md) is proposed; no new lexical batch authorized.
+
 Updated2026-10-29. Latest accepted batch:
 [Worldwide GW01–GW10](WORLDWIDE_EXPANSION_2026-10-29.md), all ten authorized tracks
 completed sequentially with admissions, corrections or evidence holds.
