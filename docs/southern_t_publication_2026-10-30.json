@@ -1,7 +1,23 @@
 {
-  "status": "Local checks complete; data commit, CI/Pages and canonical verification pending",
+  "status": "Published; data CI/Pages,404 canonical artifacts and two live browser suites passed",
   "canonical_url": "https://arcaverborum.org/",
-  "data_commit": null,
+  "data_commit": "fd5bf64db20ae71eaa9630ac7c218c3da14b504f",
+  "checked_artifacts": 404,
+  "family_shards": 400,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "all_hashes": "passed",
   "accepted_constructions": 7364,
-  "forms": 2074205
+  "forms": 2074205,
+  "new_canonical_languages": 3,
+  "new_named_varieties": 0,
+  "primary_changes": 0,
+  "local_browser_suites": 13,
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41065940825",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41065940826",
+  "live_browser_suites": [
+    "southern_t",
+    "research"
+  ],
+  "supported_core": 470093
 }

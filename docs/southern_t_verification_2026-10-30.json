@@ -39,5 +39,6 @@
   "accepted_record_gain": 106,
   "supported_core_gain": 47,
   "new_canonical_languages": 3,
-  "existing_primary_changes": 0
+  "existing_primary_changes": 0,
+  "source_quote_whitespace": "git diff --check finds354 preserved PDF-extraction trailing-space lines only in Chan\u00e1 raw_quote CSV. These are intentional exact page text, pinned by hash and independent page audit; all other changed files have no whitespace errors."
 }

@@ -14,7 +14,7 @@ Updated2026-10-30. Latest accepted batch: [Southern Cone/CHIRILA T01–T08](SOUT
 | Mapped all-concept slots | 1,337,165 |
 | GLED primaries | 1,555 |
 
-T adds106 records (50 upstream reading/56 historical written), three canonical historical language constructions and four prior Laklãnõ profile recoveries. Supported slots+47/core+47; mapped+82/core+66. All2,074,099 earlier native records/mappings/cognacy survive; four reviewed readings and their quality scores change. No existing-primary changes; all58 targeted Woiwurrung GLED records survive. Intake7,421,095 (+56 in four complete new namespaces). CHIRILA230,182-row private staging is not public lexical gain.495 tests in both installed normalization flag states pass; page/image/source/browser/preservation proof files retain limits. [Publication](southern_t_publication_2026-10-30.json).
+T adds106 records (50 upstream reading/56 historical written), three canonical historical language constructions and four prior Laklãnõ profile recoveries. Supported slots+47/core+47; mapped+82/core+66. All2,074,099 earlier native records/mappings/cognacy survive; four reviewed readings and their quality scores change. No existing-primary changes; all58 targeted Woiwurrung GLED records survive. Intake7,421,095 (+56 in four complete new namespaces). CHIRILA230,182-row private staging is not public lexical gain.495 tests in both installed normalization flag states pass; page/image/source/browser/preservation proof files retain limits. [Publication](southern_t_publication_2026-10-30.json): data commit fd5bf64d, CI/Pages succeeded,404 canonical artifacts match, two live browser suites pass.
 
 ## Historical preceding S state
 
