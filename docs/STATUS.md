@@ -16,6 +16,8 @@ Updated2026-10-30. Latest accepted batch: [Southern Cone/CHIRILA T01–T08](SOUT
 
 T adds106 records (50 upstream reading/56 historical written), three canonical historical language constructions and four prior Laklãnõ profile recoveries. Supported slots+47/core+47; mapped+82/core+66. All2,074,099 earlier native records/mappings/cognacy survive; four reviewed readings and their quality scores change. No existing-primary changes; all58 targeted Woiwurrung GLED records survive. Intake7,421,095 (+56 in four complete new namespaces). CHIRILA230,182-row private staging is not public lexical gain.495 tests in both installed normalization flag states pass; page/image/source/browser/preservation proof files retain limits. [Publication](southern_t_publication_2026-10-30.json): data commit fd5bf64d, CI/Pages succeeded,404 canonical artifacts match, two live browser suites pass.
 
+Latest planning: [Worldwide sources after T—older Brazil and full intake](WORLDWIDE_AFTER_T_BRAZIL_SOURCE_PLAN_2026-10-30.md), proposed U01–U12. Mamiani1699/Nantes1709/Martius1863 originals acquired; full RefLex, other Wiktionary editions and Pite JSON route prioritized. Planning only, zero lexical changes; accepted baseline above remains authoritative.
+
 ## Historical preceding S state
 
 Updated2026-10-30. Latest accepted batch: [Worldwide original-source S01–S09](WORLDWIDE_S_EXECUTION_2026-10-30.md), all nine authorized tracks closed with guarded admissions or specific holds. [Metrics](worldwide_s_summary_2026-10-30.json), [verification](worldwide_s_verification_2026-10-30.json), [source fidelity](worldwide_s_source_fidelity_2026-10-30.json).

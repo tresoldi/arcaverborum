@@ -8,6 +8,16 @@ new evidence arrives; record its source/version and the superseded decision.
 
 Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](../worldwide_s_identity_audit_2026-10-30.json).
 
+## New post-T source/identity gates —2026-10-30
+
+[U01–U12 proposal](../WORLDWIDE_AFTER_T_BRAZIL_SOURCE_PLAN_2026-10-30.md) is planning, not lexical execution. Mamiani1699/Nantes1709/Martius1863 originals are now actually acquired, so acquisition of these exact PDFs is no longer a future task. Kipeá/Dzubukuá are absent exact codes but current Karirí-Xocó has six mixed historical-label Wiktionary records, including Kipeá; identity/source review precedes new constructions/relinking. Nantes explicitly distinguishes the two historical languages. Martius's acquired titlepages say1863, not1867; source sections/earlier witnesses and current aliases remain unreviewed. Patacho is not automatically canonical Pataxó Hã-Ha-Hãe. Tremembé is Unattested in the frozen authority; no invented words from ethnonyms. HNB1648 OCR is discovery only, not verified Tarairiú evidence.
+
+Pite Saami **reopens a concrete acquisition route**: DOI10.15155/zpnv-9y59 v1.1, author-documented7,760 JSON entries/NC-SA4 and morphology/variant schema. Earlier guessed Giella URLs are spent failures; ordinary declared release payload is not yet acquired and download agreement was not submitted. Generic catalogue language field7661 is stale versus version-specific7760.
+
+PanLex current official licence is BY-NC-SA4; older CC0 statements/mirror labels do not govern every release. Original source terms/native sense IDs are needed. IA Martius PanLex call numbers prove acquisition/cataloguing, not a verified lexical export; only RDF batch1 index was located and separate metadata DOI6757924 returned404. Source archive is restricted and untouched. POLLEX has public77,712-reflex statistics but no applicable data licence/native bulk payload established here. STEDT Dryad D1159Q is477.5MB of2015 software SVN archive; do not present it as a lexical database dump. Native-dics app GPL does not establish dictionary payload licences. No contact/account/access application occurred.
+
+Full RefLex remaining edition transport and other Wiktionary edition intake are proposed new work; they do not clear every canonical identity, source-specific reading or sense. A reviewed-unmapped admission mode is proposed to preserve dictionary senses without forced catalog equivalence; no such compiler change is implemented in this planning pass.
+
 ## T01–T08 remaining source/reading gates —2026-10-30
 
 [Execution](../SOUTHERN_T_EXECUTION_2026-10-30.md) and [exact reopening register](../southern_t_holds_2026-10-30.csv) supersede pre-T absence claims. Charrúa10, Chaná16 and Güenoa1 are accepted historical written constructions. The Charrúa Arias1842 pilot does not resolve Silva1841, ambiguous handwriting or historical attribution. Modern Chaná terms/revision/phonology remain separate from Soriano; the1924 titlepage/common1923 citation discrepancy is preserved. Güenoa's longer catechetical clauses and regional ethnonym splits remain held.

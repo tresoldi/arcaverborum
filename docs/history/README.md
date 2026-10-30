@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Southern Cone/CHIRILA T01–T08](../SOUTHERN_T_EXECUTION_2026-10-30.md):106 records,47 supported/core slots, three historical language pilots, four recovered Laklãnõ readings and complete private CHIRILA transport/identity review. [Metrics](../southern_t_summary_2026-10-30.json).
+
 * [Worldwide original-source S01–S09](../WORLDWIDE_S_EXECUTION_2026-10-30.md): twelve native-preserving intake namespaces; eleven canonical languages/one named variety, original African primary improvements, finite readings and precise holds. [Metrics](../worldwide_s_summary_2026-10-30.json), [verification](../worldwide_s_verification_2026-10-30.json).
 
 * [Worldwide R01–R09,2026-10-30](../WORLDWIDE_R_EXECUTION_2026-10-30.md):337 records,248 supported slots/144 core, three substantive written-language pilots, native-preserving source acquisition and exact evidence holds. [Metrics](../worldwide_r_summary_2026-10-30.json).
@@ -118,3 +120,7 @@ ranking is linked from STATUS; refresh it after relevant intake or build changes
 ## Southern Cone and archived CHIRILA investigation
 
 [2026-10-30 proposal T01–T08](../SOUTHERN_CONE_CHIRILA_PLAN_2026-10-30.md): explicit Charrúa/Southern Brazil–Uruguay–Argentina priority, acquired historical/phonological originals and independently measured historical CHIRILA CSV. [Evidence](../southern_cone_chirila_evidence_2026-10-30.json), [inventory](../southern_cone_chirila_inventory_2026-10-30.json). Planning only; no lexical gains.
+
+## Post-T planning evidence
+
+* [Worldwide older-Brazil/full-source intake proposal U01–U12](../WORLDWIDE_AFTER_T_BRAZIL_SOURCE_PLAN_2026-10-30.md): actual1699/1709/1863 acquisitions, Kariri identity issue, complete RefLex scaling, other Wiktionary editions, Pite1.1 route and precise bulk-source gates. Planning only; [baseline](../worldwide_after_t_baseline_2026-10-30.json), [source evidence](../worldwide_after_t_source_evidence_2026-10-30.json).

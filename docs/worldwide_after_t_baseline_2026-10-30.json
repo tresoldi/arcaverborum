@@ -1,0 +1,149 @@
+{
+  "accepted": {
+    "varieties": 7364,
+    "forms": 2074205,
+    "source_forms": 1748817,
+    "profile_forms": 15065,
+    "supported_core": 470093,
+    "mapped_core": 544197,
+    "mapped_all_concepts": 1337165,
+    "supported_all_concepts": 1209359,
+    "gled_primaries": 1555,
+    "core_source_varieties": 918
+  },
+  "lexical_manifest_sha256": "8911cd3c91b4bac1b18db9daa259984dde488c6150f577026680777672ba448a",
+  "brazil": [
+    {
+      "av_id": "ful-fulnio",
+      "Name": "Fulniô",
+      "Glottocode": "fuln1247",
+      "Family": "Fulniô",
+      "forms": 32,
+      "supported_core": 28,
+      "transcription_source": "gled",
+      "statuses": {
+        "source": 32
+      },
+      "aliases": [
+        "Fulniô"
+      ]
+    },
+    {
+      "av_id": "kac-kamakan",
+      "Name": "Kamakan",
+      "Glottocode": "kama1372",
+      "Family": "Kamakanan",
+      "forms": 2,
+      "supported_core": 0,
+      "transcription_source": "wiktionary",
+      "statuses": {
+        "resegmented": 1,
+        "unclean": 1
+      },
+      "aliases": [
+        "Kamakan"
+      ]
+    },
+    {
+      "av_id": "nub-maxakali",
+      "Name": "Maxakalí",
+      "Glottocode": "maxa1247",
+      "Family": "Nuclear-Macro-Je",
+      "forms": 284,
+      "supported_core": 116,
+      "transcription_source": "johanssonsoundsymbolic",
+      "statuses": {
+        "source": 284
+      },
+      "aliases": [
+        "Maxakalí"
+      ]
+    },
+    {
+      "av_id": "nub-pataxo-ha-ha-hae",
+      "Name": "Pataxó Hã-Ha-Hãe",
+      "Glottocode": "pata1261",
+      "Family": "Nuclear-Macro-Je",
+      "forms": 3,
+      "supported_core": 0,
+      "transcription_source": "wiktionary",
+      "statuses": {
+        "resegmented": 3
+      },
+      "aliases": [
+        "Pataxó Hã-Ha-Hãe"
+      ]
+    },
+    {
+      "av_id": "pua-puri",
+      "Name": "Puri",
+      "Glottocode": "puri1262",
+      "Family": "Puri-Coroado",
+      "forms": 31,
+      "supported_core": 30,
+      "transcription_source": "gled",
+      "statuses": {
+        "source": 31
+      },
+      "aliases": [
+        "Puri"
+      ]
+    },
+    {
+      "av_id": "tup-tupinamba",
+      "Name": "Tupinambá",
+      "Glottocode": "tupi1273",
+      "Family": "Tupian",
+      "forms": 320,
+      "supported_core": 154,
+      "transcription_source": "gerarditupi",
+      "statuses": {
+        "source": 320
+      },
+      "aliases": [
+        "Tupinambá",
+        "Tupí"
+      ]
+    },
+    {
+      "av_id": "unc-kariri-xoco",
+      "Name": "Karirí-Xocó",
+      "Glottocode": "kari1255",
+      "Family": "Unclassifiable",
+      "forms": 6,
+      "supported_core": 0,
+      "transcription_source": "wiktionary",
+      "statuses": {
+        "resegmented": 4,
+        "unclean": 2
+      },
+      "aliases": [
+        "Dzubukuá"
+      ]
+    }
+  ],
+  "absent_exact_accepted_codes": [
+    "capo1236",
+    "dzub1241",
+    "kipe1235",
+    "masa1311",
+    "tara1303",
+    "trem1235"
+  ],
+  "reflex_intake_occurrences": {
+    "reflexdiversity": 53,
+    "reflexoriginal": 50,
+    "reflexqdict": 48,
+    "reflexrpilots": 80,
+    "reflexsbantu": 20950,
+    "reflexsnew": 3507
+  },
+  "reflex_intake_total": 24688,
+  "frozen_reflex_archive_rows": 932836,
+  "frozen_reflex_sources": 1435,
+  "notes": [
+    "Code absence is not proof that no broad construction contains related evidence.",
+    "Karirí-Xocó has six written Wiktionary rows, including a Kipeá-labelled form and Dzubukuá alias. Resolve historical source/lect identity before creating/relinking canonical samples.",
+    "No accepted lexical data changes in this planning pass."
+  ]
+}

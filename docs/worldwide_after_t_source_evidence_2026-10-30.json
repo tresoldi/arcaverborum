@@ -1,0 +1,113 @@
+{
+  "scope": "Planning/private acquisition only; zero admissions",
+  "acquisitions": [
+    {
+      "name": "martius1863",
+      "status": "HTML returned by supposed PDF endpoint; no PDF acquired through this route",
+      "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/704022/000023409_Glossaria_linguarum_brasiliensium_Martius_1863.pdf?isAllowed=y&sequence=1",
+      "links": []
+    },
+    {
+      "name": "nantes1709",
+      "status": "acquired private research copy; no intake",
+      "url": "https://digital.bbm.usp.br/bitstream/bbm/4895/1/002776_COMPLETO.pdf",
+      "bytes": 13285137,
+      "sha256": "040858cbfd74a7a0c17b4aac1b61571e51ebc0ee33f1b450e68e9cfc2b3abd3e",
+      "pdf_pages": 395,
+      "text_characters": 353752
+    },
+    {
+      "name": "mamiani1699",
+      "status": "acquired private research copy; no intake",
+      "url": "https://digital.bbm.usp.br/bitstream/bbm/7692/1/45000009720_Output.o.pdf",
+      "bytes": 26876013,
+      "sha256": "6f16698914150853778c8a68a6f8e2bc460f234f8ca39994565a43a554cbf923",
+      "pdf_pages": 152,
+      "text_characters": 131615
+    },
+    {
+      "name": "martius1863-original-archive",
+      "status": "acquired private research copy; no intake",
+      "url": "https://archive.org/download/beitrgezurethn02mart/beitrgezurethn02mart.pdf",
+      "bytes": 35478478,
+      "sha256": "3cd0f4a6633cd099f2ed05d53ea091b276e44f65675717ccfe2dd9a55e1d3cbb",
+      "pdf_pages": 584,
+      "edition": "Title pages visually/textually identify Erlangen Junge & Sohn1863, not Leipzig1867",
+      "rights_basis": "Underlying public-domain1863 work; independent source-specific curation required, no modern restricted wrapper imported."
+    },
+    {
+      "name": "historia1648-ocr",
+      "status": "OCR acquired for discovery only; original pages not downloaded",
+      "url": "https://archive.org/download/mobot31753000818648/mobot31753000818648_djvu.txt",
+      "bytes": 1522852,
+      "sha256": "9ec86a41ab7ef73b2f2d01e9a6b3b28c2dc45e884c4a76b56de0090b9e84c7c9",
+      "rights_basis": "BHL item10338 labels original1648 work public domain. OCR is not verified transcription."
+    }
+  ],
+  "other_sources": [
+    {
+      "name": "Pite Saami JSON1.1",
+      "status": "release metadata and schema inspected; payload not acquired",
+      "url": "https://doi.org/10.15155/zpnv-9y59",
+      "release": "2025-05-07 v1.1",
+      "advertised_entries": 7760,
+      "license": "CC BY-NC-SA4.0 per release documentation",
+      "schema": "Separate source entry/English/Swedish/POS/gradation/umlaut/stem extension/morphological categories/variant references",
+      "gate": "Repository download licence form not submitted; reconcile stale7661 language-field metadata with7760 version-specific count. Do not reuse analyzer code licence as lexical licence."
+    },
+    {
+      "name": "POLLEX",
+      "status": "official site statistics and language/source structure inspected; no lexical payload acquired",
+      "url": "https://pollex.org.nz/",
+      "advertised_reflexes": 77712,
+      "advertised_reconstructions": 5724,
+      "advertised_language_members": 67,
+      "license": "No explicit data reuse licence established on inspected homepage/about pages",
+      "gate": "Applicable release terms and native per-source transport; original orthographies and cognate hypotheses kept separate."
+    },
+    {
+      "name": "PanLex current",
+      "status": "official current licence/source inventory and2022 RDF batch metadata inspected; no lexical payload acquired",
+      "url": "https://panlex.org/license/",
+      "license": "Current website BY-NC-SA4.0; do not inherit old2014 CC0 statements or third-party mirror labels",
+      "gate": "Exact snapshot/per-original-source rights and observed-sense links. IA Martius call-number PanLex6691/6751 etc is an acquisition lead, not proof of a reusable machine transcription. Only batch1/8 index located; do not invent batch7 file URLs."
+    },
+    {
+      "name": "STEDT software DOI",
+      "status": "Dryad API metadata inspected; lexical database dump not acquired",
+      "url": "https://doi.org/10.6078/D1159Q",
+      "archive_bytes": 477531112,
+      "artifact_type": "2015 software SVN repository archive",
+      "license": "Dryad metadata CC0 is for this software archive record, not evidence that all STEDT lexical source data is licensed or included",
+      "gate": "Separate actual lexical dump, release version and applicable lexical terms; keep reconstructions/source-specific etyma hypotheses distinct."
+    },
+    {
+      "name": "non-English Wiktionary",
+      "status": "official Kaikki edition indices and raw download manifests inspected; new editions not ingested",
+      "url": "https://kaikki.org/dictionary/rawdata.html",
+      "editions": [
+        "ptwiktionary",
+        "frwiktionary",
+        "ruwiktionary",
+        "zhwiktionary",
+        "idwiktionary"
+      ],
+      "advertised_senses": {
+        "ptwiktionary_all": 853720,
+        "pt_Tupi": 512,
+        "frwiktionary_all": 10851956,
+        "fr_Malagasy": 24479,
+        "fr_Lingala": 6046,
+        "fr_Lepcha": 1252
+      },
+      "license": "Wiktionary CC BY-SA/GFDL attribution; extraction code licence is separate",
+      "gate": "Sense counts include inflections/phrases/overlap, not unique lexemes or accepted gains. Per-edition extraction schemas, source/lect and literal glosses require review."
+    },
+    {
+      "name": "native-dics",
+      "status": "maintainer README inspected via GitHub connector; dictionary payload/terms not acquired",
+      "url": "https://github.com/amosbatto/native-dics",
+      "gate": "Each dictionary edition/reuse basis and exact language must be established. GPL app code is not an automatic blanket licence for all packaged dictionaries; modernized Bertonio/Holguin separate from historical originals."
+    }
+  ]
+}

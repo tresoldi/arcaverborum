@@ -1,0 +1,2089 @@
+{
+  "scope": "Metadata leads; current accepted baselines; not independent witnesses or new-language counts",
+  "editions": [
+    {
+      "source_id": "2476",
+      "name": "Ewe",
+      "glottocode": "ewee1241",
+      "actual_rows": 21669,
+      "citation": "Rongier 2003 : ewe",
+      "type": "Dictionnaire",
+      "archive_group": "Kwa",
+      "archive_subgroup": "Gbe",
+      "source_conventions": "Ce dictionnaire est une version préliminaire à la version publiée en 2015 (WB 27225). Les différences sont quantitativement importantes, mais qualitativement limitées. Quelques erreurs ont été corrigées à l'aide de la version publiée.",
+      "accepted": [
+        {
+          "av_id": "atl-ewe",
+          "Name": "Ewe",
+          "forms": 69,
+          "supported_core": 34,
+          "transcription_source": "wiktionary"
+        }
+      ]
+    },
+    {
+      "source_id": "85",
+      "name": "Sereer",
+      "glottocode": "sere1260",
+      "actual_rows": 21607,
+      "citation": "Crétois 1973/77 : sereer",
+      "type": "Dictionnaire",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Fula-Sereer",
+      "source_conventions": "Il manque la page 436 du volume V",
+      "accepted": [
+        {
+          "av_id": "atl-sereer",
+          "Name": "Sereer",
+          "forms": 70,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "347",
+      "name": "Gbaya Kara",
+      "glottocode": "gbay1283",
+      "actual_rows": 8340,
+      "citation": "Roulon-Doko 2008 : gbaya",
+      "type": "Dictionnaire",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Gbaya",
+      "source_conventions": "TUF incomplètes",
+      "accepted": []
+    },
+    {
+      "source_id": "1692",
+      "name": "Sereer",
+      "glottocode": "sere1260",
+      "actual_rows": 6003,
+      "citation": "Greffier-Ezzano 1960 : sérère",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Fula-Sereer",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-sereer",
+          "Name": "Sereer",
+          "forms": 70,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "92",
+      "name": "Kaado",
+      "glottocode": "kaad1238",
+      "actual_rows": 5919,
+      "citation": "Ducroz & Charles 1978 : kaado",
+      "type": "Lexique",
+      "archive_group": "Songhai",
+      "archive_subgroup": "Southern",
+      "source_conventions": "Les noms et les adjectifs sont suivis d'une voyelle qui sert à former le défini.",
+      "accepted": []
+    },
+    {
+      "source_id": "1972",
+      "name": "Taabwa",
+      "glottocode": "taab1238",
+      "actual_rows": 5378,
+      "citation": "Van Acker 1907 : kitabwa",
+      "type": "Dictionnaire",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu M",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-taabwa",
+          "Name": "Taabwa",
+          "forms": 96,
+          "supported_core": 73,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "2740",
+      "name": "Yoruba",
+      "glottocode": "yoru1245",
+      "actual_rows": 4663,
+      "citation": "Sachnine 1997 : yoruba",
+      "type": "Dictionnaire",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Defoid",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-yoruba",
+          "Name": "Yoruba",
+          "forms": 91,
+          "supported_core": 66,
+          "transcription_source": "joophonosemantic"
+        }
+      ]
+    },
+    {
+      "source_id": "2743",
+      "name": "Minyanka (Mamara)",
+      "glottocode": "mama1271",
+      "actual_rows": 4574,
+      "citation": "APLM 2009 : Mamara",
+      "type": "Lexique",
+      "archive_group": "Gur",
+      "archive_subgroup": "Senufo",
+      "source_conventions": "Le symbole ‘xh’ a été transcrit ‘xʰ’ mais n'a pas pu être identifié. Les tons ne sont pas notés. Premier import le 03-09-2015, réimport le 10-10-2024 après de nombreuses corrections.",
+      "accepted": [
+        {
+          "av_id": "atl-mamara-senoufo",
+          "Name": "Mamara Senoufo",
+          "forms": 44,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "15",
+      "name": "Eastern Limba",
+      "glottocode": "east2387",
+      "actual_rows": 4526,
+      "citation": "Clarke 1922 : limba",
+      "type": "Dictionnaire",
+      "archive_group": "Limba",
+      "archive_subgroup": "",
+      "source_conventions": "(reprint 1971) ; dialectes Biriwa et Safroko ; réimport 2023-09-05",
+      "accepted": [
+        {
+          "av_id": "atl-east-limba",
+          "Name": "East Limba",
+          "forms": 42,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2719",
+      "name": "Kakabe",
+      "glottocode": "kaka1265",
+      "actual_rows": 4458,
+      "citation": "Vydrina 2018 : kakabe",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "Il s'agit d'une version enrichie et corrigée par l'auteure du dictionnaire publié en 2015 (wb 26777)",
+      "accepted": [
+        {
+          "av_id": "man-kakabe",
+          "Name": "Kakabe",
+          "forms": 49,
+          "supported_core": 32,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "348",
+      "name": "Tupuri",
+      "glottocode": "tupu1244",
+      "actual_rows": 4416,
+      "citation": "Ruelland 1988 : tupuri",
+      "type": "Dictionnaire",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Mbum",
+      "source_conventions": "TUF/TUE incomplètes",
+      "accepted": [
+        {
+          "av_id": "atl-tupuri",
+          "Name": "Tupuri",
+          "forms": 46,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2936",
+      "name": "Chamba Daka",
+      "glottocode": "samb1311",
+      "actual_rows": 4350,
+      "citation": "Boyd & Sa’ad 2010 : Chamba",
+      "type": "Dictionnaire",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantoid",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-sama-mum",
+          "Name": "Sama Mum",
+          "forms": 43,
+          "supported_core": 35,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "35",
+      "name": "Basari",
+      "glottocode": "bass1258",
+      "actual_rows": 4181,
+      "citation": "Ferry 1991 : basari",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Tenda",
+      "source_conventions": "Réimport 19/mai/14. Les champs CLS et CLP contiennent les numéros des classes sg et pl (selon KP). Le champ SCM contient les formes de ces classes, séparées par /.",
+      "accepted": [
+        {
+          "av_id": "atl-bassari-tanda",
+          "Name": "Bassari-Tanda",
+          "forms": 80,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "36",
+      "name": "Bedik",
+      "glottocode": "bedi1235",
+      "actual_rows": 4113,
+      "citation": "Ferry 1991 : bedik",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Tenda",
+      "source_conventions": "Réimport 19/mai/14. Les champs CLS et CLP contiennent les numéros des classes sg et pl (selon KP). Le champ SCM contient les formes de ces classes, séparées par /.",
+      "accepted": [
+        {
+          "av_id": "atl-bedik",
+          "Name": "Bedik",
+          "forms": 52,
+          "supported_core": 36,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "39",
+      "name": "Konyagi",
+      "glottocode": "wame1240",
+      "actual_rows": 4044,
+      "citation": "Santos 1996 : mey",
+      "type": "Dictionnaire",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Tenda",
+      "source_conventions": "Réimport 16 juillet 2024. Les champs CLS et CLP contiennent les numéros des classes sg et pl. Le champ SCM contient les formes de ces classes, séparées par /.",
+      "accepted": [
+        {
+          "av_id": "atl-wamey",
+          "Name": "Konyagi",
+          "forms": 20,
+          "supported_core": 0,
+          "transcription_source": "reflexoriginal"
+        }
+      ]
+    },
+    {
+      "source_id": "2820",
+      "name": "Ik",
+      "glottocode": "ikkk1242",
+      "actual_rows": 4007,
+      "citation": "Schrock 2014 : Ik",
+      "type": "Lexique",
+      "archive_group": "Eastern Sudanic",
+      "archive_subgroup": "Kuliak",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "kul-ik",
+          "Name": "Ik",
+          "forms": 50,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "29",
+      "name": "Joola Kasa",
+      "glottocode": "jola1262",
+      "actual_rows": 3595,
+      "citation": "Wintz 1909 : joola kasa",
+      "type": "Dictionnaire",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Joola",
+      "source_conventions": "Paris : Imprimerie F. Paillart. Les lettres avec une cupule souscrite (d, t et n) sont remplacées respectivement par j, c et la nasale palatale. Le n avec un point suscrit est remplacé par la nasale vélaire.",
+      "accepted": [
+        {
+          "av_id": "atl-jola-esulalu",
+          "Name": "Jola-Esulalu",
+          "forms": 167,
+          "supported_core": 36,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2474",
+      "name": "Zaar",
+      "glottocode": "zaar1253",
+      "actual_rows": 3508,
+      "citation": "Caron 2012 : za:r",
+      "type": "Lexique",
+      "archive_group": "Chadic",
+      "archive_subgroup": "Western",
+      "source_conventions": "Version mise à jour par l'auteur du dictionnaire publié en 2005 (WB 24430)",
+      "accepted": []
+    },
+    {
+      "source_id": "2507",
+      "name": "Fulfulde (Adamawa)",
+      "glottocode": "adam1253",
+      "actual_rows": 3485,
+      "citation": "Tourneux 1998 : peul Adamawa",
+      "type": "Dictionnaire",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Fula-Sereer",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-adamawa-fulfulde",
+          "Name": "Adamawa Fulfulde",
+          "forms": 35,
+          "supported_core": 32,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "50",
+      "name": "Baka",
+      "glottocode": "baka1272",
+      "actual_rows": 3373,
+      "citation": "Brisson & Boursier 1979 : baka",
+      "type": "Dictionnaire",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Sere-Ngbaka-Mba",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-baka-cameroon",
+          "Name": "Baka (Cameroon)",
+          "forms": 39,
+          "supported_core": 34,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2505",
+      "name": "Bedja (Bedawi)",
+      "glottocode": "beja1238",
+      "actual_rows": 3339,
+      "citation": "Roper 1928 : Beḍawiɛ",
+      "type": "Lexique",
+      "archive_group": "Cushitic",
+      "archive_subgroup": "Northern",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "afa-beja",
+          "Name": "Beja",
+          "forms": 157,
+          "supported_core": 55,
+          "transcription_source": "bejaoriginal"
+        }
+      ]
+    },
+    {
+      "source_id": "2224",
+      "name": "Ogbah",
+      "glottocode": "ogba1241",
+      "actual_rows": 3105,
+      "citation": "Blench 2005 : Ọgbà",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Igboid",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-ogbah",
+          "Name": "Ogbah",
+          "forms": 41,
+          "supported_core": 31,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2586",
+      "name": "Baynunk Gubəher",
+      "glottocode": "gube1234 ",
+      "actual_rows": 3032,
+      "citation": "Cobbinah 2013 : Gubaher",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Nyun",
+      "source_conventions": "Quelques corrections évidentes ont été apportée à l'original. Les erreurs de CG ont été conservées",
+      "accepted": []
+    },
+    {
+      "source_id": "32",
+      "name": "Bayot",
+      "glottocode": "bayo1255",
+      "actual_rows": 2990,
+      "citation": "Diagne 2009 : bayot",
+      "type": "Wordlist",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Bayot",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-kugere-kuxinge",
+          "Name": "Kugere-Kuxinge",
+          "forms": 40,
+          "supported_core": 34,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2742",
+      "name": "Balanta Ganja",
+      "glottocode": "bala1302",
+      "actual_rows": 2979,
+      "citation": "Creissels & Biaye 2015 : balante ganja",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Balanta",
+      "source_conventions": "Les champs CLS et CLP ont été rempli à l'aide de l'article de D. Creissels (en collaboration avec Séckou Biaye) : Le système de classes nominales du balant ganja",
+      "accepted": [
+        {
+          "av_id": "atl-balanta-ganja",
+          "Name": "Balanta-Ganja",
+          "forms": 41,
+          "supported_core": 33,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2718",
+      "name": "Hausa Ader",
+      "glottocode": "ader1239",
+      "actual_rows": 2950,
+      "citation": "Caron 2014 : hausa Ader",
+      "type": "Lexique",
+      "archive_group": "Chadic",
+      "archive_subgroup": "Western",
+      "source_conventions": "Lexique basé sur la version publiée [WB3788] mais largement remanié par l'auteur.",
+      "accepted": []
+    },
+    {
+      "source_id": "2588",
+      "name": "Krim",
+      "glottocode": "krim1238",
+      "actual_rows": 2929,
+      "citation": "Childs 2012 : Kim",
+      "type": "Lexique",
+      "archive_group": "Mel",
+      "archive_subgroup": "Southern",
+      "source_conventions": "Les appariements de classes sont très rarement notés",
+      "accepted": []
+    },
+    {
+      "source_id": "1450",
+      "name": "Lendu",
+      "glottocode": "lend1245",
+      "actual_rows": 2900,
+      "citation": "Dhejju 1977 : lendu (thadha)",
+      "type": "Lexique",
+      "archive_group": "Central Sudanic",
+      "archive_subgroup": "Lendu",
+      "source_conventions": "Réimport après corrections (1er import 03/05/2011)",
+      "accepted": [
+        {
+          "av_id": "cen-lendu",
+          "Name": "Lendu",
+          "forms": 47,
+          "supported_core": 33,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1499",
+      "name": "Mwan",
+      "glottocode": "mwan1250",
+      "actual_rows": 2771,
+      "citation": "Perekhvalskaya & Yegbe 2018 : mwan",
+      "type": "Dictionnaire",
+      "archive_group": "Mande",
+      "archive_subgroup": "Eastern",
+      "source_conventions": "Le symbole ŋ a ici la valeur d'une voyelle.",
+      "accepted": [
+        {
+          "av_id": "man-mwan",
+          "Name": "Mwan",
+          "forms": 43,
+          "supported_core": 30,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2862",
+      "name": "Samo Matya",
+      "glottocode": "maty1235",
+      "actual_rows": 2764,
+      "citation": "Morris et al. 2011 : Matya",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Eastern",
+      "source_conventions": "Fichier Flex fourni par les auteurs via V. Vydrine",
+      "accepted": [
+        {
+          "av_id": "man-matya-samo",
+          "Name": "Matya Samo",
+          "forms": 37,
+          "supported_core": 31,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2825",
+      "name": "Baga Sitemu",
+      "glottocode": "baga1272",
+      "actual_rows": 2755,
+      "citation": "Lamp 2016 : Baga Tshi-tem",
+      "type": "Lexique",
+      "archive_group": "Mel",
+      "archive_subgroup": "Northern",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-baga-sitemu",
+          "Name": "Baga Sitemu",
+          "forms": 55,
+          "supported_core": 31,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2580",
+      "name": "Malinke (Western Maninka)",
+      "glottocode": "west2500",
+      "actual_rows": 2713,
+      "citation": "Creissels & Camara 2013 : maninka du Niokolo",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "man-western-maninkakan",
+          "Name": "Western Maninkakan",
+          "forms": 89,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3042",
+      "name": "Ndut",
+      "glottocode": "ndut1239",
+      "actual_rows": 2698,
+      "citation": "Pichl 1977 : ndut",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Cangin",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-ndut",
+          "Name": "Ndut",
+          "forms": 69,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2897",
+      "name": "Gimnime",
+      "glottocode": "gimn1238",
+      "actual_rows": 2696,
+      "citation": "Dieu & Perrois 2016 : koma",
+      "type": "Dictionnaire",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Duru",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-gimnime",
+          "Name": "Gimnime",
+          "forms": 20,
+          "supported_core": 0,
+          "transcription_source": "reflexdiversity"
+        }
+      ]
+    },
+    {
+      "source_id": "40",
+      "name": "Bongo",
+      "glottocode": "bong1285",
+      "actual_rows": 2677,
+      "citation": "Nougayrol 2016 : bongo",
+      "type": "Lexique",
+      "archive_group": "Central Sudanic",
+      "archive_subgroup": "SBB",
+      "source_conventions": "Notes de terrain - non publié",
+      "accepted": [
+        {
+          "av_id": "cen-bongo",
+          "Name": "Bongo",
+          "forms": 36,
+          "supported_core": 32,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2567",
+      "name": "Mmani",
+      "glottocode": "mman1238",
+      "actual_rows": 2617,
+      "citation": "Childs 2012 : Mani",
+      "type": "Lexique",
+      "archive_group": "Mel",
+      "archive_subgroup": "Southern",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "3109",
+      "name": "Zialo",
+      "glottocode": "zial1235",
+      "actual_rows": 2531,
+      "citation": "Babaev 2010 : Zialo",
+      "type": "Dictionnaire",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "Les données proviennent d'un fichier toolbox fourni par l'auteur. Certain termes peuvent être absents du pdf, et d'autres différences peuvent se rencontrer. Les tons (et le schème tonal) ont été ajoutés en fonctions de la classe tonale indiquée dans l'original et des explications données dans la description pp. 48-51. Certaines distinctions n'ont pas pu être notées.",
+      "accepted": [
+        {
+          "av_id": "man-zialo",
+          "Name": "Zialo",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        }
+      ]
+    },
+    {
+      "source_id": "2601",
+      "name": "Linda",
+      "glottocode": "lind1246",
+      "actual_rows": 2485,
+      "citation": "Cloarec-Heiss 1996 : linda",
+      "type": "Wordlist",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "Lexique extrait de la base Sumale (1996)",
+      "accepted": []
+    },
+    {
+      "source_id": "2555",
+      "name": "Bekwel",
+      "glottocode": "bekw1242",
+      "actual_rows": 2456,
+      "citation": "Cheucle 2012 : bekwel",
+      "type": "Lexique",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-bekwil",
+          "Name": "Bekwil",
+          "forms": 194,
+          "supported_core": 76,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "122",
+      "name": "Teso",
+      "glottocode": "teso1249",
+      "actual_rows": 2392,
+      "citation": "Hilders & Lawrance 1958 : Ateso",
+      "type": "Lexique",
+      "archive_group": "Eastern Sudanic",
+      "archive_subgroup": "Nilotic",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "nil-teso",
+          "Name": "Teso",
+          "forms": 40,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2861",
+      "name": "Samo Maya",
+      "glottocode": "maya1281",
+      "actual_rows": 2384,
+      "citation": "Morris et al. 2011 : Mayaa",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Eastern",
+      "source_conventions": "Fichier Flex fourni par les auteurs via V. Vydrine",
+      "accepted": [
+        {
+          "av_id": "man-maya-samo",
+          "Name": "Maya Samo",
+          "forms": 46,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1528",
+      "name": "Gouro",
+      "glottocode": "guro1248",
+      "actual_rows": 2361,
+      "citation": "Grégoire 1975 : gouro",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Eastern",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "man-guro",
+          "Name": "Guro",
+          "forms": 74,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2901",
+      "name": "Adele",
+      "glottocode": "adel1244",
+      "actual_rows": 2299,
+      "citation": "Rongier 1998 : Adele",
+      "type": "Lexique",
+      "archive_group": "Kwa",
+      "archive_subgroup": "Nyo",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-adele",
+          "Name": "Adele",
+          "forms": 2,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        }
+      ]
+    },
+    {
+      "source_id": "1488",
+      "name": "Bozo Tigemaxo",
+      "glottocode": "tiey1235",
+      "actual_rows": 2256,
+      "citation": "[Anonymous] 1982 : Bozo (Tieyaxo)",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "man-tieyaxo-bozo",
+          "Name": "Tiéyaxo Bozo",
+          "forms": 134,
+          "supported_core": 71,
+          "transcription_source": "baf2"
+        }
+      ]
+    },
+    {
+      "source_id": "2744",
+      "name": "Laala",
+      "glottocode": "leha1242",
+      "actual_rows": 2156,
+      "citation": "Pichl 1981 : Laala",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Cangin",
+      "source_conventions": "L'introduction phonologique n'est pas extraite du lexique mais de la grammaire (Pichl 1981, Abrégé de grammaire laala, WB 25769)",
+      "accepted": [
+        {
+          "av_id": "atl-lehar",
+          "Name": "Lehar",
+          "forms": 80,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "445",
+      "name": "Bissa",
+      "glottocode": "biss1248",
+      "actual_rows": 2049,
+      "citation": "Vanhoudt 1999 : bisa",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Eastern",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "man-bissa",
+          "Name": "Bissa",
+          "forms": 37,
+          "supported_core": 28,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2387",
+      "name": "Esimbi",
+      "glottocode": "esim1238",
+      "actual_rows": 2045,
+      "citation": "Blench (ed) 2010 : Esimbi",
+      "type": "Lexique",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Tivoid",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-esimbi",
+          "Name": "Esimbi",
+          "forms": 36,
+          "supported_core": 35,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1452",
+      "name": "Mamvu",
+      "glottocode": "mamv1243",
+      "actual_rows": 1995,
+      "citation": "Vorbichler 1965 : Mamvu",
+      "type": "Grammaire",
+      "archive_group": "Central Sudanic",
+      "archive_subgroup": "Mangbutu-Efe",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "cen-mamvu",
+          "Name": "Mamvu",
+          "forms": 51,
+          "supported_core": 36,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1980",
+      "name": "Yasa",
+      "glottocode": "yasa1242",
+      "actual_rows": 1990,
+      "citation": "Blench 2010 (Ed) : yasa (A33a)",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-yasa",
+          "Name": "Yasa",
+          "forms": 95,
+          "supported_core": 75,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "3078",
+      "name": "Jula Koyaga",
+      "glottocode": "koya1253",
+      "actual_rows": 1985,
+      "citation": "Creissels 1988 : koyaga",
+      "type": "Wordlist",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "man-koyaga",
+          "Name": "Koyaga",
+          "forms": 134,
+          "supported_core": 31,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "165",
+      "name": "Mangbetu",
+      "glottocode": "mang1394",
+      "actual_rows": 1982,
+      "citation": "Larochette 1958 : mangbetu",
+      "type": "Wordlist",
+      "archive_group": "Central Sudanic",
+      "archive_subgroup": "Mangbetu",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "cen-mangbetu",
+          "Name": "Mangbetu",
+          "forms": 95,
+          "supported_core": 32,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3006",
+      "name": "Fwe",
+      "glottocode": "fwee1238",
+      "actual_rows": 1938,
+      "citation": "Gunnink 2018 : Fwe",
+      "type": "Lexique",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu K",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-fwe",
+          "Name": "Fwe",
+          "forms": 194,
+          "supported_core": 60,
+          "transcription_source": "fweoriginal"
+        }
+      ]
+    },
+    {
+      "source_id": "3095",
+      "name": "Burunge",
+      "glottocode": "buru1320",
+      "actual_rows": 1932,
+      "citation": "Kiessling 2016 : Burunge",
+      "type": "Lexique",
+      "archive_group": "Cushitic",
+      "archive_subgroup": "Southern",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "afa-burunge",
+          "Name": "Burunge",
+          "forms": 42,
+          "supported_core": 35,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1",
+      "name": "Bijogo Kagbaaga",
+      "glottocode": "kagb1241",
+      "actual_rows": 1864,
+      "citation": "Segerer 2002 : bijogo-kagbaaga",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Bijogo",
+      "source_conventions": "Quelques corrections de l'auteur par rapport au lexique publié en 2002.",
+      "accepted": []
+    },
+    {
+      "source_id": "2176",
+      "name": "Tsuvadi",
+      "glottocode": "tsuv1239",
+      "actual_rows": 1840,
+      "citation": "Blench & McGill 2011 : Tsɨvaɗi",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Kainji",
+      "source_conventions": "“includes the lexical data originally compiled by David Lovelace in 1990.”",
+      "accepted": [
+        {
+          "av_id": "atl-tsuvadi",
+          "Name": "Tsuvadi",
+          "forms": 41,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2000",
+      "name": "Joola Keerak",
+      "glottocode": "kera1248",
+      "actual_rows": 1836,
+      "citation": "Segerer 2011 : keeraak",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Joola",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-keerak",
+          "Name": "Keerak",
+          "forms": 74,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3575",
+      "name": "Batanga",
+      "glottocode": "bata1285",
+      "actual_rows": 1825,
+      "citation": "den Besten 2016 : Batanga",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-batanga",
+          "Name": "Batanga",
+          "forms": 68,
+          "supported_core": 60,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "3125",
+      "name": "Cebaara",
+      "glottocode": "ceba1235",
+      "actual_rows": 1788,
+      "citation": "Rongier 2002 : senoufo de Kolia",
+      "type": "Wordlist",
+      "archive_group": "Gur",
+      "archive_subgroup": "Senufo",
+      "source_conventions": "“Variété appelée aussi : CEBARA et NYÈNÈ. gur - senufo - 4 (cebaara)”",
+      "accepted": [
+        {
+          "av_id": "atl-senari",
+          "Name": "Senari",
+          "forms": 47,
+          "supported_core": 33,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "373",
+      "name": "Gola",
+      "glottocode": "gola1255",
+      "actual_rows": 1750,
+      "citation": "Westermann 1921 : gola",
+      "type": "Dictionnaire",
+      "archive_group": "Gola",
+      "archive_subgroup": "",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-gola",
+          "Name": "Gola",
+          "forms": 150,
+          "supported_core": 54,
+          "transcription_source": "polyglottaafricana"
+        }
+      ]
+    },
+    {
+      "source_id": "3074",
+      "name": "Kam",
+      "glottocode": "kamm1249",
+      "actual_rows": 1694,
+      "citation": "Lesage 2019 : Kam",
+      "type": "Lexique",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Kam",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-kam",
+          "Name": "Kam",
+          "forms": 30,
+          "supported_core": 29,
+          "transcription_source": "reflexoriginal"
+        }
+      ]
+    },
+    {
+      "source_id": "1275",
+      "name": "Samba Leko",
+      "glottocode": "samb1305",
+      "actual_rows": 1669,
+      "citation": "Fabre 2001 : Samba leko",
+      "type": "Wordlist",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Leko",
+      "source_conventions": "Données identiques dans WB 6420 (publication de la thèse chez Lincom, 2003)",
+      "accepted": [
+        {
+          "av_id": "atl-samba-leko",
+          "Name": "Samba Leko",
+          "forms": 53,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2589",
+      "name": "Bom",
+      "glottocode": "bomk1234",
+      "actual_rows": 1660,
+      "citation": "Childs 2012 : Bom",
+      "type": "Lexique",
+      "archive_group": "Mel",
+      "archive_subgroup": "Southern",
+      "source_conventions": "Les appariements de classes sont très rarement notés",
+      "accepted": [
+        {
+          "av_id": "atl-bom-kim",
+          "Name": "Bom-Kim",
+          "forms": 50,
+          "supported_core": 34,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3294",
+      "name": "Momi",
+      "glottocode": "vere1252",
+      "actual_rows": 1640,
+      "citation": "Blench & Edwards 1988 : Momi",
+      "type": "Lexique",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Duru",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-mom-jango",
+          "Name": "Momi (Vere Kaadam)",
+          "forms": 70,
+          "supported_core": 35,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1936",
+      "name": "Laal",
+      "glottocode": "laal1242",
+      "actual_rows": 1614,
+      "citation": "Boyeldieu 2019 : laal",
+      "type": "Lexique",
+      "archive_group": "",
+      "archive_subgroup": "",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "laa-laal",
+          "Name": "Laal",
+          "forms": 34,
+          "supported_core": 29,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2750",
+      "name": "Ik",
+      "glottocode": "ikkk1242",
+      "actual_rows": 1598,
+      "citation": "Schrock 2008 : Ik",
+      "type": "Lexique",
+      "archive_group": "Eastern Sudanic",
+      "archive_subgroup": "Kuliak",
+      "source_conventions": "From <a href='http://comparalex.org/' target='_blank'>http://comparalex.org/</a><br>Author's comments :<br>• Ik is a tone language. Some linguists posit two contrastive tones, while others posit three. The tone marked in this wordlist is phonetic. IPA level and contour tones (à, ā, á, ǎ, â, a᷄, a᷅, a᷈) have been used, as well as several non-IPA diacritics (a᷆, a᷇, a᷉). The tone markings are intended to mirror the rise and fall of phonetic pitch as represented by Speech Analyzer software. In some of the longer wordlist items, downstep or downdrift appears to be operative. In these cases, the tone diacritics are meant to reflect actual phonetic pitch and not phonemic tone.<br>• Ik has been claimed to have an ATR contrast in vowels and vowel harmony. Given this assumption, it is not hard to posit +ATR and –ATR vowels in the data. But without this assumption, the situation becomes much less certain. The vocal quality of some words is clearly of a different timbre than of others, but occasionally both types of vowels seem to show up in the same word, with no discernible pattern. Vowel quality also varies with speakers and with the speed of articulation. It is possible that Ik is being unevenly influenced by neighboring languages (Karamojong, Toposa, Turkana) that have well-defined ATR vowel systems. In any case, an attempt has been made to transcribe the vowels in all their variety.<br>• Ik has a number of glottalized consonants like ejectives and implosives. The implosives are not strong and at times are very difficult to distinguish from their plosive counterparts. Moreover, implosivity seems to vary from speaker to speaker. The velar /k’/ and post-velar /q’/ ejectives appear to have several interesting variants, including voiced and voiceless implosives, glottal stops, and possibly the glottalization of surrounding vowels. The status of this apparent free variation is far from well-understood.<br>• Ik also exhibits word-final voiceless vowels. These vowels are thought to be voiced underlyingly and are here represented as full vowels with a circle underneath (ḁ, e̥, i̥, o̥, u̥). The underlying voiced vowels seem to have aspiration or a shortened vowel (ə) as additional variants. Voiced plosives and implosives that precede these voiceless vowels are devocalized. For the voiceless implosives, ex-IPA symbols have been utilized (ƥ, ƭ, ƈ, ƙ, ʠ) in place of the IPA symbols (ɓ̥, ɗ̥, ʄ̥, ɠ̥, ʛ̥). Auditorily, these pre-voiceless-vowel plosives and implosives often sound voiced. Upon close examination though, it becomes clear that the voicing ceases just before the articulator reaches the place of articulation. That is, toward the end of the pronunciation of the preceding voiced vowel, the active articulator begins moving toward the passive articulator, but by the time it arrives, the vocal chords have stopped vibrating. One might say that these segments are 40% voiced and 60% voiceless.<br>• Following the convention of other linguists, morphemes in some compound nouns have been separated out by a hyphen.<br>• The Ik numbers (#1590-1622) have been transcribed using only IPA level tones to increase their usefulness for another documentary project.<br>• As with the transcription of any difficult sound system, this wordlist represents a layered series of tentative hypotheses that remain open to correction and improvement. In order to preserve the rawness of the data, not all transcriptional inconsistencies have been weeded out.<br>• Approximately 12% of the words in the list are cognates with English, Karamojong, and Swahili. Ik’s placement in the Nilo-Saharan language family is still controversial. It is hoped that this wordlist can contribute insights into this problem.",
+      "accepted": [
+        {
+          "av_id": "kul-ik",
+          "Name": "Ik",
+          "forms": 50,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2581",
+      "name": "Akposo",
+      "glottocode": "ikpo1238",
+      "actual_rows": 1585,
+      "citation": "Soubrier 2013 : ikposso uwi",
+      "type": "Lexique",
+      "archive_group": "Kwa",
+      "archive_subgroup": "Kposo-Ahlo-Bowili",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-ikposo",
+          "Name": "Ikposo",
+          "forms": 43,
+          "supported_core": 29,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2993",
+      "name": "Seeku",
+      "glottocode": "seek1238",
+      "actual_rows": 1551,
+      "citation": "McPherson 2018 : Seenku",
+      "type": "Wordlist",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "Aucune information sur la structure (termes entre parenthèses notamment)",
+      "accepted": [
+        {
+          "av_id": "man-seeku",
+          "Name": "Seeku",
+          "forms": 36,
+          "supported_core": 35,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2616",
+      "name": "Ngbugu",
+      "glottocode": "ngbu1242",
+      "actual_rows": 1520,
+      "citation": "Boyeldieu 1989 : ngbugu",
+      "type": "Wordlist",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "Lexique extrait de la base Sumale (1996)",
+      "accepted": []
+    },
+    {
+      "source_id": "2118",
+      "name": "Kwakum",
+      "glottocode": "kwak1266",
+      "actual_rows": 1516,
+      "citation": "Belliard 2005 : kwàkúm",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "source_conventions": "Premier import 2011, réimport le 22/08/2024 (ajout des champs FSI, COD, STO, SCS, TUE, id_mots)",
+      "accepted": [
+        {
+          "av_id": "atl-kwakum",
+          "Name": "Kwakum",
+          "forms": 149,
+          "supported_core": 74,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "47",
+      "name": "Kare",
+      "glottocode": "kare1338",
+      "actual_rows": 1508,
+      "citation": "Lim 1997 : kare",
+      "type": "Lexique",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Mbum",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-kare-central-african-republic",
+          "Name": "Kare (Central African Republic)",
+          "forms": 76,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1361",
+      "name": "Bushoong",
+      "glottocode": "bush1247",
+      "actual_rows": 1501,
+      "citation": "Vansina 1959 : Bushong",
+      "type": "Lexique",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu C",
+      "source_conventions": "réimport le 28/08/2024",
+      "accepted": [
+        {
+          "av_id": "atl-bushoong",
+          "Name": "Bushoong",
+          "forms": 97,
+          "supported_core": 76,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "2749",
+      "name": "Baynunk Gunyaamolo",
+      "glottocode": "guny1242 ",
+      "actual_rows": 1497,
+      "citation": "Bao Diop 2013 : baynunk guñaamolo",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Nyun",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "2945",
+      "name": "Blé",
+      "glottocode": "jalk1242",
+      "actual_rows": 1454,
+      "citation": "Heath 2017 : Jalkunan",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "L'original contient des informations sur les schèmes syllabiques et tonals, mais pour une partie du lexique seulement. Ces champs ont donc été recalculés.",
+      "accepted": [
+        {
+          "av_id": "man-jalkunan",
+          "Name": "Jalkunan",
+          "forms": 35,
+          "supported_core": 32,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3081",
+      "name": "Pre",
+      "glottocode": "mbre1244",
+      "actual_rows": 1440,
+      "citation": "Heath 2019 : Pere",
+      "type": "Lexique",
+      "archive_group": "",
+      "archive_subgroup": "",
+      "source_conventions": "This source is composed of two distinct files, one for the general lexicon, the other devoted to fauna and flora. The two additional forms for nouns are : ‘absolute sg.’ and ‘absolute pl.’",
+      "accepted": [
+        {
+          "av_id": "atl-mbre",
+          "Name": "Mbre",
+          "forms": 35,
+          "supported_core": 33,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2166",
+      "name": "Reshe",
+      "glottocode": "resh1242",
+      "actual_rows": 1403,
+      "citation": "Blench & McGill 2011 : Reshe",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Kainji",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-reshe",
+          "Name": "Reshe",
+          "forms": 78,
+          "supported_core": 0,
+          "transcription_source": "williamsonbenuecongo"
+        }
+      ]
+    },
+    {
+      "source_id": "2499",
+      "name": "Zodi (Dott)",
+      "glottocode": "zodi1234",
+      "actual_rows": 1381,
+      "citation": "Caron 2012 : Dott ~ Zoɗi",
+      "type": "wordlist",
+      "archive_group": "Chadic",
+      "archive_subgroup": "Western",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "3",
+      "name": "Manjaku Bok",
+      "glottocode": "bokk1238",
+      "actual_rows": 1363,
+      "citation": "Doneux 1975 : manjaku bok",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Manjaku",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "76",
+      "name": "Bagiro (Furu)",
+      "glottocode": "furu1242",
+      "actual_rows": 1316,
+      "citation": "Boyeldieu 1992 : bagiro",
+      "type": "Lexique",
+      "archive_group": "Central Sudanic",
+      "archive_subgroup": "SBB",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "cen-furu",
+          "Name": "Furu",
+          "forms": 39,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "471",
+      "name": "Manza",
+      "glottocode": "manz1243",
+      "actual_rows": 1273,
+      "citation": "Eboué 1918 : mandjia",
+      "type": "Lexique",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Gbaya-Manza-Ngbaka",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-manza",
+          "Name": "Manza",
+          "forms": 51,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2557",
+      "name": "Tula",
+      "glottocode": "tula1252",
+      "actual_rows": 1256,
+      "citation": "Blench & al. 2012 : Yi Kitulɛ",
+      "type": "Lexique",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Waja",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-tula",
+          "Name": "Tula",
+          "forms": 46,
+          "supported_core": 31,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2591",
+      "name": "Gbaya Mbodomo",
+      "glottocode": "gbay1281",
+      "actual_rows": 1245,
+      "citation": "Boyd 1996 : gbaya mbódɔ̀mɔ̀",
+      "type": "Lexique",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Gbaya",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-gbaya-mbodomo",
+          "Name": "Gbaya-Mbodomo",
+          "forms": 39,
+          "supported_core": 36,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3104",
+      "name": "Manjaku Baixo",
+      "glottocode": "teix1238",
+      "actual_rows": 1233,
+      "citation": "Carreira & Basso Marques 1947 : manjaku (Costa de Baixo)",
+      "type": "Wordlist",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Manjaku",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "2381",
+      "name": "Ndemli",
+      "glottocode": "ndem1249",
+      "actual_rows": 1231,
+      "citation": "Mutaka & Blench 2010 : Ndemli",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantoid",
+      "source_conventions": "problème : il existe un fichier word (fourni par R. Blench), dans lequel on trouve des ó, mais dans le pdf ceux-ci sont tous remplacés par ɔ...",
+      "accepted": [
+        {
+          "av_id": "atl-ndemli",
+          "Name": "Ndemli",
+          "forms": 30,
+          "supported_core": 29,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "470",
+      "name": "Banda Banda",
+      "glottocode": "band1343",
+      "actual_rows": 1227,
+      "citation": "Eboué 1918 : banda",
+      "type": "Lexique",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-banda-banda",
+          "Name": "Banda-Banda",
+          "forms": 159,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3080",
+      "name": "Kafa (Kaficho)",
+      "glottocode": "kafa1242",
+      "actual_rows": 1223,
+      "citation": "Leslau 1959 : Moča",
+      "type": "Lexique",
+      "archive_group": "Omotic",
+      "archive_subgroup": "Northern",
+      "source_conventions": "La notation des tons étant inconsistante, le schème tonal calculé est à considérer avec prudence.",
+      "accepted": [
+        {
+          "av_id": "tan-kafa",
+          "Name": "Kafa",
+          "forms": 41,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "368",
+      "name": "Mbanja",
+      "glottocode": "mban1263",
+      "actual_rows": 1222,
+      "citation": "Tingbo 1971 : mbandja",
+      "type": "Grammaire",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "Saisi par F. Cloarec-Heiss pour la BDD Sumale",
+      "accepted": [
+        {
+          "av_id": "atl-mbandja",
+          "Name": "Mbandja",
+          "forms": 38,
+          "supported_core": 33,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3573",
+      "name": "Gimme",
+      "glottocode": "gimm1241",
+      "actual_rows": 1208,
+      "citation": "Kleinewillinghöfer & Njidda 2022 : gəm̀me (Kompana)",
+      "type": "Wordlist",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Duru",
+      "source_conventions": "Les doublons (26) ont été retirés",
+      "accepted": [
+        {
+          "av_id": "atl-gimme",
+          "Name": "Gimme (Kompana dictionary)",
+          "forms": 24,
+          "supported_core": 0,
+          "transcription_source": "reflexqdict"
+        }
+      ]
+    },
+    {
+      "source_id": "3023",
+      "name": "Minyanka (Mamara)",
+      "glottocode": "mama1271",
+      "actual_rows": 1205,
+      "citation": "Chéron 1925 : sénoufo du Minyanka",
+      "type": "Lexique",
+      "archive_group": "Gur",
+      "archive_subgroup": "Senufo",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-mamara-senoufo",
+          "Name": "Mamara Senoufo",
+          "forms": 44,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "21",
+      "name": "Dakpa",
+      "glottocode": "dakp1243",
+      "actual_rows": 1192,
+      "citation": "Segerer 1996 : dakpa",
+      "type": "Lexique",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "2125",
+      "name": "Laala",
+      "glottocode": "leha1242",
+      "actual_rows": 1166,
+      "citation": "Dièye 2011 : laalaa",
+      "type": "Wordlist",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Cangin",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-lehar",
+          "Name": "Lehar",
+          "forms": 80,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1571",
+      "name": "Kpelle (Liberia)",
+      "glottocode": "libe1247",
+      "actual_rows": 1162,
+      "citation": "Westermann & Melzian 1930 : Kpelle",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "Sources citées : Westermann, Diedrich, Die Kpelle, ein Negerstamm in Liberia, Göttingen 1921 (non retrouvé sur le SUDOC) & Westermann 1925 (WB: 20934)",
+      "accepted": [
+        {
+          "av_id": "man-liberia-kpelle",
+          "Name": "Liberia Kpelle",
+          "forms": 113,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "1467",
+      "name": "Lele",
+      "glottocode": "lele1266",
+      "actual_rows": 1157,
+      "citation": "Vydrine 2009 : lélé",
+      "type": "Lexique",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "man-lele-guinea",
+          "Name": "Lele (Guinea)",
+          "forms": 40,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2568",
+      "name": "Yoruba",
+      "glottocode": "yoru1245",
+      "actual_rows": 1156,
+      "citation": "Fresco 1970 : Common Yorùbá [CY]",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Defoid",
+      "source_conventions": "P. 11 : The dialect I am calling Common Yorùbá is usually referred to as Standard Yorùbá. No study has been undertaken of this dialect with a view to determining its homogeneity, its areal spread, and the sociolinguistic factors affecting its use and acceptance. It is often said that CY is based on the dialect of Ọ̀yọ́, a town 33 miles north of Ìbàdàn. (cf., e.g. Armstrong (1965, 52), Courtenay (1968, 1)). On the other hand, the lack of standardization of CY has been noted by a number of linguists (Stevick, (1963, x), Bamgbose (1966, 8), Adetugbo (1967, 9), and Courtenay (1968, 1). This dialect is partially reflected in the orthography, spelling, and syntax of Yorùbá school texts. But it is obvious that complete standardization has not been agreed upon. CY is also the form in which the Western Nigeria Broadcasting Corporation (WNBC) broadcasts its Yorùbá language program.",
+      "accepted": [
+        {
+          "av_id": "atl-yoruba",
+          "Name": "Yoruba",
+          "forms": 91,
+          "supported_core": 66,
+          "transcription_source": "joophonosemantic"
+        }
+      ]
+    },
+    {
+      "source_id": "469",
+      "name": "Sango",
+      "glottocode": "sang1328",
+      "actual_rows": 1154,
+      "citation": "Eboué 1918 : sango",
+      "type": "Lexique",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Ngbandi",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-sango",
+          "Name": "Sango",
+          "forms": 43,
+          "supported_core": 35,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "322",
+      "name": "Suba",
+      "glottocode": "suba1238",
+      "actual_rows": 1142,
+      "citation": "Nurse & Philippson 1975 : Suba",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu E",
+      "source_conventions": "CBOLD name : suba",
+      "accepted": [
+        {
+          "av_id": "atl-suba",
+          "Name": "Suba",
+          "forms": 137,
+          "supported_core": 113,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "318",
+      "name": "Subi",
+      "glottocode": "subi1247",
+      "actual_rows": 1122,
+      "citation": "Nurse & Philippson 1975 : Shubi",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu J",
+      "source_conventions": "CBOLD name : shubi",
+      "accepted": []
+    },
+    {
+      "source_id": "1215",
+      "name": "Godie",
+      "glottocode": "godi1239",
+      "actual_rows": 1108,
+      "citation": "Godé 2006 : Godié (dadjriwale)",
+      "type": "Wordlist",
+      "archive_group": "Kru",
+      "archive_subgroup": "Eastern",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "kru-godie",
+          "Name": "Godié",
+          "forms": 30,
+          "supported_core": 28,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2608",
+      "name": "Hai",
+      "glottocode": "haii1241",
+      "actual_rows": 1105,
+      "citation": "Moñino 1997 : hai",
+      "type": "Wordlist",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "Lexique extrait de la base Sumale (1996)",
+      "accepted": []
+    },
+    {
+      "source_id": "7",
+      "name": "Balanta Ganja",
+      "glottocode": "bala1302",
+      "actual_rows": 1103,
+      "citation": "Ndiaye-Corréard 1970 : balante-fca (ganja)",
+      "type": "Lexique",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Balanta",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-balanta-ganja",
+          "Name": "Balanta-Ganja",
+          "forms": 41,
+          "supported_core": 33,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "2989",
+      "name": "Shiwa",
+      "glottocode": "shiw1234",
+      "actual_rows": 1101,
+      "citation": "Ella 2013 : shiwa",
+      "type": "Lexique",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-shiwa",
+          "Name": "Shiwa",
+          "forms": 100,
+          "supported_core": 76,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "1410",
+      "name": "Gbaya Kara",
+      "glottocode": "gbay1283",
+      "actual_rows": 1095,
+      "citation": "Moñino 1995 : gbaya kara ʼbodoe (bod)",
+      "type": "Comparative Wordlist",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Gbaya",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "297",
+      "name": "Nilamba",
+      "glottocode": "nila1242",
+      "actual_rows": 1090,
+      "citation": "Nurse & Philippson 1975 : Nyiramba",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu F",
+      "source_conventions": "CBOLD name : nyiramba",
+      "accepted": [
+        {
+          "av_id": "atl-nilamba",
+          "Name": "Nilamba",
+          "forms": 139,
+          "supported_core": 115,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "2138",
+      "name": "Basa",
+      "glottocode": "basa1282",
+      "actual_rows": 1087,
+      "citation": "Blench & McGill 2011 : Basa",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Kainji",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-basa-benue",
+          "Name": "Basa-Benue",
+          "forms": 24,
+          "supported_core": 0,
+          "transcription_source": "reflexqdict"
+        }
+      ]
+    },
+    {
+      "source_id": "334",
+      "name": "Zigula",
+      "glottocode": "zigu1244",
+      "actual_rows": 1077,
+      "citation": "Nurse & Philippson 1975 : Zigua",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu G",
+      "source_conventions": "CBOLD name : zigua",
+      "accepted": [
+        {
+          "av_id": "atl-zigula-mushungulu",
+          "Name": "Zigula-Mushungulu",
+          "forms": 100,
+          "supported_core": 76,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "289",
+      "name": "Ngurimi",
+      "glottocode": "ngur1263",
+      "actual_rows": 1070,
+      "citation": "Nurse & Philippson 1975 : Ngoreme",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu E",
+      "source_conventions": "CBOLD name : ngoreme",
+      "accepted": [
+        {
+          "av_id": "atl-ngoreme",
+          "Name": "Ngoreme",
+          "forms": 142,
+          "supported_core": 118,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "257",
+      "name": "Luyia",
+      "glottocode": "luyi1234",
+      "actual_rows": 1051,
+      "citation": "Nurse & Philippson 1975 : Luhyia",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu J",
+      "source_conventions": "CBOLD name : luhyia",
+      "accepted": []
+    },
+    {
+      "source_id": "2504",
+      "name": "Guus (Sigidi)",
+      "glottocode": "sigi1234",
+      "actual_rows": 1020,
+      "citation": "Caron 2001 : Guus (Sigidi)",
+      "type": "Lexique",
+      "archive_group": "Chadic",
+      "archive_subgroup": "Western",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "3103",
+      "name": "Manjaku Churo",
+      "glottocode": "curr1242",
+      "actual_rows": 1018,
+      "citation": "Carreira & Basso Marques 1947 : manjaku (Churo)",
+      "type": "Wordlist",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Manjaku",
+      "source_conventions": "",
+      "accepted": []
+    },
+    {
+      "source_id": "292",
+      "name": "Nyakyusa-Ngonde",
+      "glottocode": "nyak1260",
+      "actual_rows": 1012,
+      "citation": "Nurse & Philippson 1975 : Nyakyusa",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu M",
+      "source_conventions": "CBOLD name : nyakyusa",
+      "accepted": [
+        {
+          "av_id": "atl-nyakyusa-ngonde",
+          "Name": "Nyakyusa-Ngonde",
+          "forms": 99,
+          "supported_core": 76,
+          "transcription_source": "grollemundbantu"
+        }
+      ]
+    },
+    {
+      "source_id": "2623",
+      "name": "Wojo",
+      "glottocode": "wojo1239",
+      "actual_rows": 1011,
+      "citation": "Nougayrol 1997 : wojo",
+      "type": "Wordlist",
+      "archive_group": "Ubangi",
+      "archive_subgroup": "Banda",
+      "source_conventions": "Lexique extrait de la base Sumale (1996)",
+      "accepted": []
+    },
+    {
+      "source_id": "1484",
+      "name": "Gbagyi",
+      "glottocode": "gbag1258",
+      "actual_rows": 1008,
+      "citation": "Hyman & Magaji 1970 : Gwari",
+      "type": "Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Nupoid",
+      "source_conventions": "",
+      "accepted": [
+        {
+          "av_id": "atl-gbagyi",
+          "Name": "Gbagyi",
+          "forms": 78,
+          "supported_core": 38,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "3083",
+      "name": "Jula Koro",
+      "glottocode": "koro1306",
+      "actual_rows": 1006,
+      "citation": "Heath 2019 : Koro",
+      "type": "Wordlist",
+      "archive_group": "Mande",
+      "archive_subgroup": "Western",
+      "source_conventions": "Ce lexique est extrait du lexique pɛrɛ du même auteur (src 3081), avec quelques corrections et adaptations",
+      "accepted": [
+        {
+          "av_id": "man-koro-cote-d-ivoire",
+          "Name": "Koro (Côte d'Ivoire)",
+          "forms": 33,
+          "supported_core": 31,
+          "transcription_source": "gled"
+        }
+      ]
+    },
+    {
+      "source_id": "304",
+      "name": "Rufiji",
+      "glottocode": "rufi1234",
+      "actual_rows": 1004,
+      "citation": "Nurse & Philippson 1975 : Rufiji",
+      "type": "Comparative Wordlist",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu P",
+      "source_conventions": "CBOLD name : rufiji",
+      "accepted": [
+        {
+          "av_id": "boo-rufiji",
+          "Name": "Rufiji",
+          "forms": 2,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        }
+      ]
+    }
+  ]
+}
