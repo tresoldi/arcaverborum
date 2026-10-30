@@ -159,3 +159,7 @@ S01–S09 original-source exports are covered by
 `web/tests/worldwide_s_browser.py`: written RefLex pilots/NC-SA terms, original
 African primaries with retained GLED, separate LexiRumah source/profile layers,
 Goo tone recovery, Kullilli PDF provenance and named Tuatschin source scope.
+
+T01–T08 exports are checked by `web/tests/southern_t_browser.py`: historical
+written Charrúa/Chaná/Güenoa, four finite Laklãnõ profiles, complete preserved
+Woiwurrung GLED plus separate Bunce Lower Yarra spelling, and regional counts.

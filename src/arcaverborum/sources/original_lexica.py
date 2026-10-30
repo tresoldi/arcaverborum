@@ -48,7 +48,7 @@ def native_records(spec, payloads):
         return reflex_records(spec, payloads)
     if spec['kind'] == 'tex_dictionary':
         return dictionary_records(spec, payloads)
-    if spec['kind'] not in {'reviewed_citations', 'reviewed_pdf'}:
+    if spec['kind'] not in {'reviewed_citations', 'reviewed_pdf', 'reviewed_facsimile'}:
         raise ValueError('Unknown original lexical source kind')
     result = []
     for review in read(ROOT / spec['review']):
@@ -57,17 +57,27 @@ def native_records(spec, payloads):
         quote = review['raw_quote']
         # PDF page quotations are independently checked by the optional page audit.
         # Transport still pins the complete original PDF, never an OCR surrogate.
-        text = (quote if spec['kind'] == 'reviewed_pdf'
+        text = (quote if spec['kind'] in {'reviewed_pdf', 'reviewed_facsimile'}
                 else payloads[review['resource_key']].decode('utf-8'))
         if (not quote or quote not in text or review['Form'] not in plain_tex(quote)
                 or review['source_sense'] not in quote):
             raise ValueError('Original citation or literal word/sense changed')
         native = dict(resource_key=review['resource_key'], raw_quote=quote,
                       member=review['member'], Form=review['Form'], source_sense=review['source_sense'])
-        if spec['kind'] == 'reviewed_pdf':
+        if spec['kind'] in {'reviewed_pdf', 'reviewed_facsimile'}:
             native['pdf_page'] = int(review['pdf_page'])
             if native['pdf_page'] < 1 or not payloads[review['resource_key']].startswith(b'%PDF'):
                 raise ValueError('Original PDF citation requires an actual PDF and a page')
+        if spec['kind'] == 'reviewed_facsimile':
+            # This is a human transcription of a historical image, not PDF OCR.
+            # The optional image audit checks the pinned embedded-image bytes.
+            native.update(source_image_xref=int(review['source_image_xref']),
+                          source_image_sha256=review['source_image_sha256'],
+                          transcription_locator=review['transcription_locator'],
+                          transcription_basis='Independent historical manuscript image review')
+            if (native['source_image_xref'] < 1 or not native['transcription_locator']
+                    or not re.fullmatch('[0-9a-f]{64}', native['source_image_sha256'])):
+                raise ValueError('Facsimile transcription requires an exact image and locator')
         if digest(native) != review['native_sha256']:
             raise ValueError('Original reviewed citation hash mismatch')
         result.append(dict(ID=review['native_id'], member=review['member'], Form=review['Form'],

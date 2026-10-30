@@ -1,0 +1,1832 @@
+{
+  "baseline": "S accepted catalog; metadata-only CHIRILA inventory at ef69c2727ff272f9ce3752cc2079fa8a819f3ac7",
+  "new_languages_claimed": 0,
+  "rule": "Name matches are candidates, not automatic identity decisions. No lexical payload or forms exported.",
+  "reviews": [
+    {
+      "member": "780",
+      "names": [
+        "Kurtjar"
+      ],
+      "glottocodes": [
+        "kung1262"
+      ],
+      "canonical_names": [
+        "Kunggara"
+      ],
+      "rows": 4977,
+      "authors": [
+        "Black, Paul",
+        "Paul Black"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "kung1262",
+          "name": "Kunggara",
+          "family": "Bookkeeping"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Kurtjar/Gurdjar existing-name lead; source kung1262 points instead to Kunggara. Resolve Black/Gilbert exact locality/lect before linkage; no new-language count.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-gurdjar",
+        "glottocode": "gurd1238",
+        "status": "review lead; no automatic linkage",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "1203",
+      "names": [
+        "Bandjalang"
+      ],
+      "glottocodes": [
+        "band1339"
+      ],
+      "canonical_names": [],
+      "rows": 3811,
+      "authors": [
+        "Crowley, Terry",
+        "H.S. Dutton",
+        "Holmer, N.M."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-bandjalang",
+          "name": "Bandjalang",
+          "glottocode": "band1358",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "pny-condamine-upper-clarence-bandjalang",
+          "name": "Condamine-Upper Clarence Bandjalang",
+          "glottocode": "cond1242",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "pny-middle-clarence-bandjalang",
+          "name": "Middle Clarence Bandjalang",
+          "glottocode": "midd1357",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Bandjalang old band1339 is not a current canonical node. Reconcile named Bundjalung/Yugambeh lect and author/locality; broad source member is not one new language."
+    },
+    {
+      "member": "182",
+      "names": [
+        "Warrnambool"
+      ],
+      "glottocodes": [
+        "warr1257"
+      ],
+      "canonical_names": [
+        "Warrnambool"
+      ],
+      "rows": 3024,
+      "authors": [
+        "Blake, Barry"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "warr1257",
+          "name": "Warrnambool",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Warrnambool can be a named language/dialect within broader Victorian sample coverage. Check Blake edition/community and canonical parent/aliases before any new construction."
+    },
+    {
+      "member": "4",
+      "names": [
+        "Yuwaaliyaay"
+      ],
+      "glottocodes": [
+        "yuwa1243"
+      ],
+      "canonical_names": [
+        "Yuwaalayaay"
+      ],
+      "rows": 2999,
+      "authors": [
+        "Ash, A. and Lissarrague, A. and Giacon, J",
+        "H. Hammond, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "yuwa1243",
+          "name": "Yuwaalayaay",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Yuwaaliyaay/Yuwaalayaay yuwa1243 must be distinguished from accepted Yuwaalaraay yuwa1242 and Yuwaalaraay-Gamilaraay gami1243. Named lect/parent and Ash versus Hammond editions require review, not fuzzy pooling.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-yuwaalaraay",
+        "glottocode": "yuwa1242",
+        "status": "review lead; no automatic linkage",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "16",
+      "names": [
+        "Yugambeh"
+      ],
+      "glottocodes": [
+        "yugu1249"
+      ],
+      "canonical_names": [
+        "Yugumbir"
+      ],
+      "rows": 2992,
+      "authors": [
+        "",
+        "Allen and Lane",
+        "By F Fowler, Esq",
+        "Crowley, Terry",
+        "Forwarded by W Landsborough, Esq, and W G White, Esq, conjointly"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "yugu1249",
+          "name": "Yugumbir",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1088",
+      "names": [
+        "Diyari"
+      ],
+      "glottocodes": [
+        "dira1238"
+      ],
+      "canonical_names": [
+        "Dirari"
+      ],
+      "rows": 2217,
+      "authors": [
+        "Alfred Howitt, Esq., P.M.",
+        "Austin, Peter",
+        "Mr. Samuel Gason",
+        "Peter Austin"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "dira1238",
+          "name": "Dirari",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Diyari/Dieri is represented at dier1241, while CHIRILA labels this member Dirari dira1238. Original attribution/locality must decide; do not silently migrate.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-dieri",
+        "glottocode": "dier1241",
+        "status": "review lead; no automatic linkage",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "925",
+      "names": [
+        "Guugu-Yimidhirr"
+      ],
+      "glottocodes": [
+        "guug1239"
+      ],
+      "canonical_names": [],
+      "rows": 1883,
+      "authors": [
+        "Captain Cook and Captain P.P. King",
+        "Roth, Walter E."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-guugu-yimidhirr",
+          "name": "Guugu Yimidhirr",
+          "glottocode": "gugu1255",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Guugu-Yimidhirr already accepted under current gugu1255; old guug1239 is not a new language. Exact source editions remain held.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-guugu-yimidhirr",
+        "glottocode": "gugu1255",
+        "status": "review lead; no automatic linkage",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "881",
+      "names": [
+        "Jiwarli"
+      ],
+      "glottocodes": [
+        "djiw1239"
+      ],
+      "canonical_names": [],
+      "rows": 1610,
+      "authors": [
+        "Austin, Peter"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-djiwarli",
+          "name": "Djiwarli",
+          "glottocode": "djiw1241",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Jiwarli/Djiwarli represented at current djiw1241. Old djiw1239 is not a new language; exact Austin edition/lect still needed.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-djiwarli",
+        "glottocode": "djiw1241",
+        "status": "review lead; no automatic linkage",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "638",
+      "names": [
+        "Minjungbal"
+      ],
+      "glottocodes": [
+        "band1339"
+      ],
+      "canonical_names": [],
+      "rows": 1277,
+      "authors": [
+        ""
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1194",
+      "names": [
+        "Barrow Point"
+      ],
+      "glottocodes": [
+        "barr1247"
+      ],
+      "canonical_names": [
+        "Barrow Point"
+      ],
+      "rows": 1112,
+      "authors": [
+        ""
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "barr1247",
+          "name": "Barrow Point",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "676",
+      "names": [
+        "Mary River and Bunya Bunya Country"
+      ],
+      "glottocodes": [
+        "east2717"
+      ],
+      "canonical_names": [],
+      "rows": 1084,
+      "authors": [
+        "John Mathew"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "411",
+      "names": [
+        "Pitta-Pitta"
+      ],
+      "glottocodes": [
+        "pitt1246"
+      ],
+      "canonical_names": [],
+      "rows": 1070,
+      "authors": [
+        "Blake, Barry",
+        "Ernest Eglinton, Esq.",
+        "Peter Austin",
+        "William Blair, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-pitta-pitta",
+          "name": "Pitta Pitta",
+          "glottocode": "pitt1247",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Pitta-Pitta already accepted at current pitt1247. Old pitt1246 is not a new language; source edition and publication gate remain.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-pitta-pitta",
+        "glottocode": "pitt1247",
+        "status": "review lead; no automatic linkage",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "578",
+      "names": [
+        "Ng'goi Mwoi"
+      ],
+      "glottocodes": [
+        "band1339"
+      ],
+      "canonical_names": [],
+      "rows": 794,
+      "authors": [
+        "Hanlon, W.E"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "163",
+      "names": [
+        "Wemba-Wemba"
+      ],
+      "glottocodes": [
+        "west2443"
+      ],
+      "canonical_names": [
+        "Western Victoria"
+      ],
+      "rows": 627,
+      "authors": [
+        "",
+        "Blake, Barry",
+        "By John McCarthy, Esq",
+        "By Mounted-Constable Leonard Fawcett, Local Guardian of the Aborigines at Swan Hill",
+        "By the Bench of Magistrates at that Place",
+        "The Writer"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "west2443",
+          "name": "Western Victoria",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-wemba-wemba",
+          "name": "Wemba Wemba",
+          "glottocode": "wemb1241",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Wemba Wemba is already accepted as wemb1241. Historical member code west2443 denotes broader Western Victoria; source-specific lect must be established before relinking. No new-language claim.",
+      "manual_accepted_identity_comparison": {
+        "av_id": "pny-wemba-wemba",
+        "glottocode": "wemb1241",
+        "status": "represented-name lead; source broad-code scope requires review",
+        "accepted_in_T_catalog": true
+      }
+    },
+    {
+      "member": "923",
+      "names": [
+        "Guwamu"
+      ],
+      "glottocodes": [
+        "guwa1243"
+      ],
+      "canonical_names": [
+        "Guwamu"
+      ],
+      "rows": 610,
+      "authors": [
+        "Peter Austin"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "guwa1243",
+          "name": "Guwamu",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "820",
+      "names": [
+        "Kugu-Nganhcara"
+      ],
+      "glottocodes": [
+        "wikn1246"
+      ],
+      "canonical_names": [
+        "Wikngenchera"
+      ],
+      "rows": 600,
+      "authors": [
+        "Johnson and Smith",
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wikn1246",
+          "name": "Wikngenchera",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "48",
+      "names": [
+        "Yarluyandi"
+      ],
+      "glottocodes": [
+        "dier1240"
+      ],
+      "canonical_names": [],
+      "rows": 582,
+      "authors": [
+        "F.E. Jacobs, Esq.",
+        "Hercus, Luise",
+        "Peter Austin"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-ngamini-yarluyandi-karangura",
+          "name": "Ngamini-Yarluyandi-Karangura",
+          "glottocode": "ngam1265",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "pny-yarluyandi",
+          "name": "Yarluyandi",
+          "glottocode": "yarl1238",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "297",
+      "names": [
+        "Tjapwurrung"
+      ],
+      "glottocodes": [
+        "west2443"
+      ],
+      "canonical_names": [
+        "Western Victoria"
+      ],
+      "rows": 550,
+      "authors": [
+        "Blake, Barry",
+        "Dawson, James"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "west2443",
+          "name": "Western Victoria",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "168",
+      "names": [
+        "Wayilwan"
+      ],
+      "glottocodes": [
+        "wayi1238"
+      ],
+      "canonical_names": [
+        "Wayilwan"
+      ],
+      "rows": 493,
+      "authors": [
+        "",
+        "By J. W. Foott, Esq.",
+        "By The Bench of Magistrates at Brewarrina",
+        "Lynette Oates"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wayi1238",
+          "name": "Wayilwan",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "922",
+      "names": [
+        "Guwar"
+      ],
+      "glottocodes": [
+        "guwa1244"
+      ],
+      "canonical_names": [
+        "Guwar"
+      ],
+      "rows": 467,
+      "authors": [
+        "Bannister, Daniel"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "guwa1244",
+          "name": "Guwar",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "978",
+      "names": [
+        "Gugu-Badhun"
+      ],
+      "glottocodes": [
+        "gugu1253"
+      ],
+      "canonical_names": [
+        "Gugu Badhun"
+      ],
+      "rows": 460,
+      "authors": [
+        "",
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "gugu1253",
+          "name": "Gugu Badhun",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "349",
+      "names": [
+        "Purduna"
+      ],
+      "glottocodes": [
+        "burd1238"
+      ],
+      "canonical_names": [
+        "Burduna"
+      ],
+      "rows": 377,
+      "authors": [
+        "Austin, Peter",
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "burd1238",
+          "name": "Burduna",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "82",
+      "names": [
+        "Wulna"
+      ],
+      "glottocodes": [
+        "wuln1239"
+      ],
+      "canonical_names": [
+        "Wulna"
+      ],
+      "rows": 375,
+      "authors": [
+        "",
+        "A.J. Todd, Esq.",
+        "pamphlet published anonymously"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wuln1239",
+          "name": "Wulna",
+          "family": "Limilngan-Wulna"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "494",
+      "names": [
+        "Nhirrpi"
+      ],
+      "glottocodes": [
+        "yand1252"
+      ],
+      "canonical_names": [],
+      "rows": 368,
+      "authors": [
+        "Bowern, Claire"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-nhirrpi",
+          "name": "Nhirrpi",
+          "glottocode": "nhir1234",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1173",
+      "names": [
+        "Bindal"
+      ],
+      "glottocodes": [
+        "bind1237"
+      ],
+      "canonical_names": [],
+      "rows": 365,
+      "authors": [
+        "Arthur R. Johnstone, Esq and Montagu Curr, Esq",
+        "Edmund Gregory",
+        "Montagu Curr",
+        "Montagu Curr, Esq.",
+        "W.H. Kent, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "104",
+      "names": [
+        "Wonnarua"
+      ],
+      "glottocodes": [
+        "wona1238"
+      ],
+      "canonical_names": [
+        "Wonarua"
+      ],
+      "rows": 352,
+      "authors": [
+        "",
+        "Robert Miller, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wona1238",
+          "name": "Wonarua",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "635",
+      "names": [
+        "Mirniny"
+      ],
+      "glottocodes": [
+        "mirn1243"
+      ],
+      "canonical_names": [],
+      "rows": 320,
+      "authors": [
+        "W. Williams",
+        "W. Williams, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-kalarko-mirniny",
+          "name": "Kalarko-Mirniny",
+          "glottocode": "kala1379",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1196",
+      "names": [
+        "Barna"
+      ],
+      "glottocodes": [
+        "east2716"
+      ],
+      "canonical_names": [],
+      "rows": 284,
+      "authors": [
+        "Anonymous",
+        "Charles Lowe, Esq.",
+        "James Muirhead, Esq., and Charles Lowe, Esq.",
+        "Sir Samuel Wilson"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "426",
+      "names": [
+        "Piangil"
+      ],
+      "glottocodes": [
+        "west2443"
+      ],
+      "canonical_names": [
+        "Western Victoria"
+      ],
+      "rows": 267,
+      "authors": [
+        "The Writer",
+        "Thomas Macredie, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "west2443",
+          "name": "Western Victoria",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "63",
+      "names": [
+        "Yanda"
+      ],
+      "glottocodes": [
+        "yand1251"
+      ],
+      "canonical_names": [
+        "Yanda"
+      ],
+      "rows": 234,
+      "authors": [
+        "Breen, Gavan",
+        "Ernest Eglington, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "yand1251",
+          "name": "Yanda",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "dog-yanda-dom-dogon",
+          "name": "Yanda Dom Dogon",
+          "glottocode": "yand1257",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "nuc-komyandaret",
+          "name": "Komyandaret",
+          "glottocode": "komy1238",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "540",
+      "names": [
+        "Ngarigu"
+      ],
+      "glottocodes": [
+        "sout2771"
+      ],
+      "canonical_names": [
+        "Southern Coastal Yuin"
+      ],
+      "rows": 233,
+      "authors": [
+        "Hercus, Luise"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "sout2771",
+          "name": "Southern Coastal Yuin",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-ngarigu",
+          "name": "Ngarigu",
+          "glottocode": "ngar1297",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "520",
+      "names": [
+        "Ngiyambaa"
+      ],
+      "glottocodes": [
+        "ngiy1239"
+      ],
+      "canonical_names": [],
+      "rows": 227,
+      "authors": [
+        "Charles Spencer, Esq.",
+        "Lynette Oates"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-ngiyambaa",
+          "name": "Ngiyambaa",
+          "glottocode": "wang1291",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "252",
+      "names": [
+        "Wadjabangayi"
+      ],
+      "glottocodes": [
+        "--"
+      ],
+      "canonical_names": [],
+      "rows": 203,
+      "authors": [
+        "Breen, Gavan",
+        "John Ahern, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1179",
+      "names": [
+        "Bigambal"
+      ],
+      "glottocodes": [
+        "biga1237"
+      ],
+      "canonical_names": [
+        "Bigambal"
+      ],
+      "rows": 197,
+      "authors": [
+        "By David Turbayne, Esq and James Lawlor, Esq.",
+        "By W. H. Looker, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "biga1237",
+          "name": "Bigambal",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "631",
+      "names": [
+        "Moneroo"
+      ],
+      "glottocodes": [
+        "sout2771"
+      ],
+      "canonical_names": [
+        "Southern Coastal Yuin"
+      ],
+      "rows": 195,
+      "authors": [
+        "By Charles du VŽ, Esq",
+        "John Bulmer, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "sout2771",
+          "name": "Southern Coastal Yuin",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "18",
+      "names": [
+        "Yuat"
+      ],
+      "glottocodes": [
+        "yuat1252"
+      ],
+      "canonical_names": [],
+      "rows": 189,
+      "authors": [
+        "The Right Rev. Dr. Salvado"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "536",
+      "names": [
+        "Ngarla"
+      ],
+      "glottocodes": [
+        "ngar1286"
+      ],
+      "canonical_names": [
+        "Ngarla on the Ashburton river south of the Hamersley range"
+      ],
+      "rows": 165,
+      "authors": [
+        "Charles Harper, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "ngar1286",
+          "name": "Ngarla on the Ashburton river south of the Hamersley range",
+          "family": "Bookkeeping"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-ngarla",
+          "name": "Ngarla",
+          "glottocode": "ngar1296",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "674",
+      "names": [
+        "Mathi-Mathi"
+      ],
+      "glottocodes": [
+        "west2443"
+      ],
+      "canonical_names": [
+        "Western Victoria"
+      ],
+      "rows": 156,
+      "authors": [
+        "Blake, Barry",
+        "The Writer"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "west2443",
+          "name": "Western Victoria",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "238",
+      "names": [
+        "Walangama"
+      ],
+      "glottocodes": [
+        "wala1263"
+      ],
+      "canonical_names": [
+        "Walangama"
+      ],
+      "rows": 141,
+      "authors": [
+        "Bannister, Daniel",
+        "W.E. Armit, Esq., Inspector of Police, and Lyndon Poigndestre, Esq., Sub-inspector of Police"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wala1263",
+          "name": "Walangama",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "632",
+      "names": [
+        "Miyan"
+      ],
+      "glottocodes": [
+        "miya1256"
+      ],
+      "canonical_names": [],
+      "rows": 131,
+      "authors": [
+        "James MacGlashan, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "869",
+      "names": [
+        "Kalaamaya"
+      ],
+      "glottocodes": [
+        "kala1401"
+      ],
+      "canonical_names": [
+        "Kalaamaya"
+      ],
+      "rows": 123,
+      "authors": [
+        "Thomas Adam, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "kala1401",
+          "name": "Kalaamaya",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "23",
+      "names": [
+        "Yitha-Yitha"
+      ],
+      "glottocodes": [
+        "yara1253"
+      ],
+      "canonical_names": [],
+      "rows": 121,
+      "authors": [
+        "J.A. MacDonald, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1237",
+      "names": [
+        "Aminungo"
+      ],
+      "glottocodes": [
+        "east2716"
+      ],
+      "canonical_names": [],
+      "rows": 116,
+      "authors": [
+        "W. O. Hodkinson, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1123",
+      "names": [
+        "Dalla"
+      ],
+      "glottocodes": [
+        "east2717"
+      ],
+      "canonical_names": [],
+      "rows": 115,
+      "authors": [
+        "W. landsborough, Esq."
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "862",
+      "names": [
+        "Kaniyang"
+      ],
+      "glottocodes": [
+        "kani1276"
+      ],
+      "canonical_names": [
+        "Kaniyang"
+      ],
+      "rows": 113,
+      "authors": [
+        "M.B. Small, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "kani1276",
+          "name": "Kaniyang",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "7",
+      "names": [
+        "Yuru"
+      ],
+      "glottocodes": [
+        "yuru1264"
+      ],
+      "canonical_names": [
+        "Yuru"
+      ],
+      "rows": 112,
+      "authors": [
+        "J. O'Connor, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "yuru1264",
+          "name": "Yuru",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "tuc-yuruti",
+          "name": "Yurutí",
+          "glottocode": "yuru1263",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "326",
+      "names": [
+        "Tambo"
+      ],
+      "glottocodes": [
+        "tamb1252"
+      ],
+      "canonical_names": [
+        "Tambo"
+      ],
+      "rows": 110,
+      "authors": [
+        "L. F. Dalhunty"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "tamb1252",
+          "name": "Tambo",
+          "family": "Atlantic-Congo"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "atl-itambo",
+          "name": "Itambo",
+          "glottocode": "itam1234",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "map-antambohoaka",
+          "name": "Antambohoaka",
+          "glottocode": "anta1260",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "map-tambotalo",
+          "name": "Tambotalo",
+          "glottocode": "tamb1253",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "tad-tambora",
+          "name": "Tambora",
+          "glottocode": "tamb1257",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "637",
+      "names": [
+        "Minkin"
+      ],
+      "glottocodes": [
+        "mink1237"
+      ],
+      "canonical_names": [
+        "Minkin"
+      ],
+      "rows": 110,
+      "authors": [
+        "Thomas Coward, Esq., Inspector of Native Police"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "mink1237",
+          "name": "Minkin",
+          "family": "Minkin"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1190",
+      "names": [
+        "Batyala"
+      ],
+      "glottocodes": [
+        "east2717"
+      ],
+      "canonical_names": [],
+      "rows": 109,
+      "authors": [
+        "Revd. William Ridley"
+      ],
+      "current_canonical_nodes": [],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "981",
+      "names": [
+        "Gudang"
+      ],
+      "glottocodes": [
+        "guda1244"
+      ],
+      "canonical_names": [
+        "Gudang"
+      ],
+      "rows": 109,
+      "authors": [
+        "Frank L. Jardine, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "guda1244",
+          "name": "Gudang",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1223",
+      "names": [
+        "Arakwal"
+      ],
+      "glottocodes": [
+        "arak1254"
+      ],
+      "canonical_names": [
+        "Arakwal"
+      ],
+      "rows": 109,
+      "authors": [
+        "By Daniel Hogan, Esq, C P S "
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "arak1254",
+          "name": "Arakwal",
+          "family": "Bookkeeping"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "969",
+      "names": [
+        "Gugu-Mini"
+      ],
+      "glottocodes": [
+        "gugu1257"
+      ],
+      "canonical_names": [
+        "Gugu Mini"
+      ],
+      "rows": 100,
+      "authors": [
+        "Edward Palmer, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "gugu1257",
+          "name": "Gugu Mini",
+          "family": "Bookkeeping"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "70",
+      "names": [
+        "Yadhaykenu"
+      ],
+      "glottocodes": [
+        "yadh1237"
+      ],
+      "canonical_names": [
+        "Yadhaykenu"
+      ],
+      "rows": 86,
+      "authors": [
+        "Terry Crowley"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "yadh1237",
+          "name": "Yadhaykenu",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1189",
+      "names": [
+        "Bayali"
+      ],
+      "glottocodes": [
+        "baya1257"
+      ],
+      "canonical_names": [
+        "Bayali"
+      ],
+      "rows": 72,
+      "authors": [
+        "Anonymous"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "baya1257",
+          "name": "Bayali",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1093",
+      "names": [
+        "Dhuwal"
+      ],
+      "glottocodes": [
+        "marr1258"
+      ],
+      "canonical_names": [
+        "Marrakulu"
+      ],
+      "rows": 70,
+      "authors": [
+        "Heath, Jeffrey"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "marr1258",
+          "name": "Marrakulu",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "pny-dhuwal",
+          "name": "Dhuwal",
+          "glottocode": "dhuw1249",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "pny-dhuwal-dhuwala",
+          "name": "Dhuwal-Dhuwala",
+          "glottocode": "dhuw1248",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "pny-nuclear-dhuwal",
+          "name": "Nuclear Dhuwal",
+          "glottocode": "nucl1333",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "438",
+      "names": [
+        "Pantyikali"
+      ],
+      "glottocodes": [
+        "band1337"
+      ],
+      "canonical_names": [
+        "Bandjigali"
+      ],
+      "rows": 61,
+      "authors": [
+        "W.J. Lake Dix, Esq."
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "band1337",
+          "name": "Bandjigali",
+          "family": "Bookkeeping"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1216",
+      "names": [
+        "Atampaya"
+      ],
+      "glottocodes": [
+        "atam1239"
+      ],
+      "canonical_names": [
+        "Atampaya"
+      ],
+      "rows": 53,
+      "authors": [
+        "Terry Crowley"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "atam1239",
+          "name": "Atampaya",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "804",
+      "names": [
+        "Gugu-Warra"
+      ],
+      "glottocodes": [
+        "gugu1256"
+      ],
+      "canonical_names": [
+        "Roth's Gugu Warra"
+      ],
+      "rows": 49,
+      "authors": [
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "gugu1256",
+          "name": "Roth's Gugu Warra",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "887",
+      "names": [
+        "Jawi"
+      ],
+      "glottocodes": [
+        "jawi1238"
+      ],
+      "canonical_names": [
+        "Jawi"
+      ],
+      "rows": 28,
+      "authors": [
+        "",
+        "Nekes and Worms"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "jawi1238",
+          "name": "Jawi",
+          "family": "Nyulnyulan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "nyu-djawi",
+          "name": "Djawi",
+          "glottocode": "djaw1238",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "1195",
+      "names": [
+        "Barranbinya"
+      ],
+      "glottocodes": [
+        "barr1252"
+      ],
+      "canonical_names": [
+        "Barranbinya"
+      ],
+      "rows": 16,
+      "authors": [
+        "Lynette Oates"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "barr1252",
+          "name": "Barranbinya",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "139",
+      "names": [
+        "Wik-Me?nh"
+      ],
+      "glottocodes": [
+        "wikm1246"
+      ],
+      "canonical_names": [
+        "Wik-Me'anha"
+      ],
+      "rows": 6,
+      "authors": [
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wikm1246",
+          "name": "Wik-Me'anha",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "270",
+      "names": [
+        "Uradhi"
+      ],
+      "glottocodes": [
+        "wuth1237"
+      ],
+      "canonical_names": [
+        "Wuthathi"
+      ],
+      "rows": 4,
+      "authors": [
+        "Terry Crowley"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "wuth1237",
+          "name": "Wuthathi",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "boo-uradhi",
+          "name": "Uradhi",
+          "glottocode": "urad1239",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "836",
+      "names": [
+        "Kok-Nar"
+      ],
+      "glottocodes": [
+        "kokn1236"
+      ],
+      "canonical_names": [
+        "Kok-Nar"
+      ],
+      "rows": 1,
+      "authors": [
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "kokn1236",
+          "name": "Kok-Nar",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    },
+    {
+      "member": "659",
+      "names": [
+        "Mbara"
+      ],
+      "glottocodes": [
+        "mbar1254"
+      ],
+      "canonical_names": [
+        "Mbara-Yanga"
+      ],
+      "rows": 1,
+      "authors": [
+        "Sutton, Peter"
+      ],
+      "current_canonical_nodes": [
+        {
+          "code": "mbar1254",
+          "name": "Mbara-Yanga",
+          "family": "Pama-Nyungan"
+        }
+      ],
+      "accepted_name_candidates": [
+        {
+          "av_id": "afa-mbara-chad",
+          "name": "Mbara (Chad)",
+          "glottocode": "mbar1260",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "kea-kambaramba",
+          "name": "Kambaramba",
+          "glottocode": "kamb1306",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "man-bambara",
+          "name": "Bambara",
+          "glottocode": "bamb1269",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        },
+        {
+          "av_id": "nuc-kaukombaran",
+          "name": "Kaukombaran",
+          "glottocode": "kauk1240",
+          "parent_av_id": "",
+          "accepted_in_T_catalog": true
+        }
+      ],
+      "decision": "hold public CHIRILA linkage",
+      "rationale": "Metadata identity lead only. Original edition, exact historical/locality/lect identity and historical release reuse gate remain unresolved; no new language inferred from code absence."
+    }
+  ],
+  "members_screened": 64,
+  "manual_identity_comparisons": 7
+}

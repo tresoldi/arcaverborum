@@ -258,3 +258,16 @@ run the independent page audit when changing that reviewed slice.
 Reviewed literal source quotations retain original whitespace; do not normalize
 those CSV cells merely to satisfy diff whitespace checks. Their native hashes
 and independent page audits depend on the exact quotation.
+
+## Historical T source reproduction
+
+T01–T08 is closed; see docs/SOUTHERN_T_EXECUTION_2026-10-30.md. Four additional
+complete original-source namespaces add56 intake rows. Use
+`scripts/verify_original_lexica.py --output docs/southern_t_source_verification_2026-10-30.json`
+to reproduce all16 registered original namespaces without changing intake.
+`reviewed_facsimile` stores independently authored historical image transcriptions
+with exact PDF/page/xref/image hashes and locators. It does not pretend that PDF
+OCR verifies handwriting. The optional PyMuPDF audit is
+`scripts/audit_southern_t_citations.py`; source PDFs/images remain privately cached.
+`audit_chirila_transport.py` stages the pinned full historical CSV privately,
+never active intake; it does not clear public redistribution or source identity.

@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "charruaoriginal",
+    "citations": 10,
+    "anchors": [
+      "image-211"
+    ],
+    "proof": "Pinned PDF and page OCR or embedded-image hash; handwritten/image readings require the authored visual review"
+  },
+  {
+    "dataset": "chanaoriginal",
+    "citations": 16,
+    "anchors": [
+      "pdf-page-191",
+      "pdf-page-193",
+      "pdf-page-194",
+      "pdf-page-197"
+    ],
+    "proof": "Pinned PDF and page OCR or embedded-image hash; handwritten/image readings require the authored visual review"
+  },
+  {
+    "dataset": "guenoaoriginal",
+    "citations": 1,
+    "anchors": [
+      "image-911"
+    ],
+    "proof": "Pinned PDF and page OCR or embedded-image hash; handwritten/image readings require the authored visual review"
+  },
+  {
+    "dataset": "lower_yarraoriginal",
+    "citations": 29,
+    "anchors": [
+      "image-4197",
+      "image-4202"
+    ],
+    "proof": "Pinned PDF and page OCR or embedded-image hash; handwritten/image readings require the authored visual review"
+  }
+]

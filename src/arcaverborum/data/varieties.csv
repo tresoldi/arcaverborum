@@ -7357,3 +7357,6 @@ tim-sar-indonesia,sarr1247,,Sar (Indonesia),,Timor-Alor-Pantar,Papunesia,-8.33,1
 map-kolor,waer1237,wrx,Kolor,,Austronesian,Papunesia,-8.78645,120.70299,true,S06 original LexiRumah lect waer1237; upstream-profile evidence.
 map-kalao,kala1394,kly,Kalao,,Austronesian,Papunesia,-7.31213,120.995,true,S06 original LexiRumah lect kala1394; upstream-profile evidence.
 ine-tuatschin,surs1244,,Tuatschin,ine-sursilvan,Indo-European,Eurasia,,,false,"S09 named dialect under Sursilvan; exact original Tuatschin source member, no independent Glottocode. Location remains unspecified rather than borrowing a parent centroid."
+cha-charrua,char1240,,Charrúa,,Charruan,South America,-34.9,-56.16,true,T historical written pilot; exact witness in native context.
+cha-chana,chan1296,,Chaná,,Charruan,South America,-33.69,-57.78,true,T historical written pilot; exact witness in native context.
+cha-guenoa,guen1235,,Güenoa,,Charruan,South America,-33.810189,-54.473877,true,T historical written pilot; exact witness in native context.

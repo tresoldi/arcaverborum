@@ -4325,5 +4325,121 @@
         "sha256": "b0683108cc490c70fa0d54797c7a2235a0ab6fdb6aae6f1faea52fdd603f9cc1"
       }
     ]
+  },
+  {
+    "dataset": "charruaoriginal",
+    "kind": "reviewed_facsimile",
+    "review": "docs/southern_t01_charrua_review_2026-10-30.csv",
+    "name": "Vilardebó1842 historical Charrúa manuscript: independently reviewed nouns",
+    "url": "https://udelar.edu.uy/eduper/wp-content/uploads/sites/29/2015/09/retrato.pdf",
+    "version": "Vilardebo1842-folio-image211-sha256:0a33e09ee1d1a1d5e0a3a4479f7652dbb513b7f98ff2c8e61718883629285603",
+    "citation": "Vilardebó, Teodoro1842. Historical Charrúa manuscript, Arias-household informant; Museo Histórico Nacional, Uruguay. Facsimile carrier Bertolotti and Coll2014, Retrato lingüístico del Uruguay, printed p101/PDF102. Independent Arca2026 transcription from the manuscript image; modern editorial prose/interpretations excluded.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Underlying1842 public-domain historical manuscript lexical facts. CC BY4.0 applies to the independently authored Arca transcription/curation layer only; carrier book is CC BY-NC-ND4.0 and is neither relicensed nor redistributed. Carrier and extracted image remain private source-verification inputs. Historical attribution is uncertain; Silva1841 is a separate witness. Not independent confirmation of later wrappers.",
+    "resources": [
+      {
+        "key": "pdf",
+        "filename": "retrato2014.pdf",
+        "url": "https://udelar.edu.uy/eduper/wp-content/uploads/sites/29/2015/09/retrato.pdf",
+        "sha256": "cf2fd2237aefa55c8c3d868a093cafbd5e7fec2cb2dcf0bdf75bc81b4954f397"
+      }
+    ],
+    "members": [
+      {
+        "ID": "Arias1842",
+        "Name": "Historical Charrúa: Arias-household informant1842 (attribution uncertain)",
+        "Glottocode": "char1240",
+        "Glottolog_Name": "Charrúa",
+        "Family": "Charruan",
+        "Macroarea": "South America"
+      }
+    ]
+  },
+  {
+    "dataset": "chanaoriginal",
+    "kind": "reviewed_pdf",
+    "review": "docs/southern_t02_chana_review_2026-10-30.csv",
+    "name": "Larrañaga historical Soriano Chaná original citations",
+    "url": "https://anaforas.fic.edu.uy/jspui/bitstream/123456789/57062/1/Escritos.pdf",
+    "version": "Larranaga-tomoIII-titlepage1924-sha256:bff86d0f0d346d04cde3e94c0fd585c98ac891a950faedc8bf3a7dfdf1408569",
+    "citation": "Larrañaga, Dámaso Antonio. Compendio del idioma de la Nación Chaná, historical Soriano c1815/1816. Escritos, tomoIII, title page1924 (frequently catalogued1923), printed pp163–174. Original public-domain text; new Arca2026 transcription/curation.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Public-domain historical work and1924 edition; CC BY4.0 applies to new Arca transcription/curation only. Three unnamed elderly Soriano informants; author explicitly records uncertainty. Not contemporary Jaime/Viegas Barros Chaná or an independent confirmation of wrappers quoting this witness.",
+    "resources": [
+      {
+        "key": "pdf",
+        "filename": "larra1924.pdf",
+        "url": "https://anaforas.fic.edu.uy/jspui/bitstream/123456789/57062/1/Escritos.pdf",
+        "sha256": "bff86d0f0d346d04cde3e94c0fd585c98ac891a950faedc8bf3a7dfdf1408569"
+      }
+    ],
+    "members": [
+      {
+        "ID": "Soriano1815",
+        "Name": "Historical Soriano Chaná c1815/1816",
+        "Glottocode": "chan1296",
+        "Glottolog_Name": "Chaná",
+        "Family": "Charruan",
+        "Macroarea": "South America"
+      }
+    ]
+  },
+  {
+    "dataset": "guenoaoriginal",
+    "kind": "reviewed_facsimile",
+    "review": "docs/southern_t03_guenoa_review_2026-10-30.csv",
+    "name": "Hervás1787 Güenoa explicit lexical citation",
+    "url": "https://archive.org/details/saggiopraticode00hervgoog",
+    "version": "Hervas1787-scan-sha256:b629b2bfa4d29a50d96f90abe3a9a2f1ced70add13475fd8d4d8f38f1803599d",
+    "citation": "Hervás y Panduro, Lorenzo1787. Saggio pratico delle lingue. Cesena: Gregorio Biasini, pp228–229, section308 Lingua Guenoa. Catechetical text communicated through Camaño; original historical documentary spelling. Arca2026 independent transcription.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original public-domain1787 text; CC BY4.0 applies to new Arca transcription/curation only. This is an explicitly aligned historical inflected citation, not modern fieldwork or an inferred segmentation of the catechism. Minuán and other regional ethnonyms are not imported as additional languages.",
+    "resources": [
+      {
+        "key": "pdf",
+        "filename": "hervas1787.pdf",
+        "url": "https://archive.org/download/saggiopraticode00hervgoog/saggiopraticode00hervgoog.pdf",
+        "sha256": "b629b2bfa4d29a50d96f90abe3a9a2f1ced70add13475fd8d4d8f38f1803599d"
+      }
+    ],
+    "members": [
+      {
+        "ID": "Guenoa1787",
+        "Name": "Güenoa catechism published1787",
+        "Glottocode": "guen1235",
+        "Glottolog_Name": "Güenoa",
+        "Family": "Charruan",
+        "Macroarea": "South America"
+      }
+    ]
+  },
+  {
+    "dataset": "lower_yarraoriginal",
+    "kind": "reviewed_facsimile",
+    "review": "docs/southern_t07_lower_yarra_review_2026-10-30.csv",
+    "name": "Bunce historical Lower Yarra vocabulary in Curr1887",
+    "url": "https://archive.org/details/cu31924026093835",
+    "version": "Curr1887-III-scan-sha256:93bd33dc6f36329a08c55447409e6d1d58c22adca643f4a3fe4912c49e70c961",
+    "citation": "Bunce, Daniel, in Curr, Edward M.1887. The Australian Race III, contribution209c Lower Yarra, pp532–533. Public-domain historical original, independently transcribed Arca2026.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Underlying public-domain original1887 source; CC BY4.0 applies to new Arca transcription/curation only. Exact Bunce Lower Yarra witness, separate from Curr Upper Yarra209b and the mixed CHIRILA member108. No CHIRILA transformed lexical rows reused and no independent confirmation inferred from wrappers citing Bunce.",
+    "resources": [
+      {
+        "key": "pdf",
+        "filename": "curr3.pdf",
+        "url": "https://archive.org/download/cu31924026093835/cu31924026093835.pdf",
+        "sha256": "93bd33dc6f36329a08c55447409e6d1d58c22adca643f4a3fe4912c49e70c961"
+      }
+    ],
+    "members": [
+      {
+        "ID": "BunceLowerYarra",
+        "Name": "Bunce historical Lower Yarra209c",
+        "Glottocode": "woiw1237",
+        "Glottolog_Name": "Woiwurrung-Thagungwurrung",
+        "Family": "Pama-Nyungan",
+        "Macroarea": "Australia"
+      }
+    ]
   }
 ]

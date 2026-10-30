@@ -1,5 +1,23 @@
 # Current project state
 
+Updated2026-10-30. Latest accepted batch: [Southern Cone/CHIRILA T01–T08](SOUTHERN_T_EXECUTION_2026-10-30.md), all eight bounded reviews closed. [Metrics](southern_t_summary_2026-10-30.json), [verification](southern_t_verification_2026-10-30.json), [holds](southern_t_holds_2026-10-30.csv).
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,364 |
+| Forms | 2,074,205 |
+| Supplied/upstream-converted forms | 1,748,817 |
+| Profile-derived forms | 15,065 |
+| Supported core slots | 470,093 |
+| Mapped core slots | 544,197 |
+| Supported all-concept slots | 1,209,359 |
+| Mapped all-concept slots | 1,337,165 |
+| GLED primaries | 1,555 |
+
+T adds106 records (50 upstream reading/56 historical written), three canonical historical language constructions and four prior Laklãnõ profile recoveries. Supported slots+47/core+47; mapped+82/core+66. All2,074,099 earlier native records/mappings/cognacy survive; four reviewed readings and their quality scores change. No existing-primary changes; all58 targeted Woiwurrung GLED records survive. Intake7,421,095 (+56 in four complete new namespaces). CHIRILA230,182-row private staging is not public lexical gain.495 tests in both installed normalization flag states pass; page/image/source/browser/preservation proof files retain limits. [Publication](southern_t_publication_2026-10-30.json).
+
+## Historical preceding S state
+
 Updated2026-10-30. Latest accepted batch: [Worldwide original-source S01–S09](WORLDWIDE_S_EXECUTION_2026-10-30.md), all nine authorized tracks closed with guarded admissions or specific holds. [Metrics](worldwide_s_summary_2026-10-30.json), [verification](worldwide_s_verification_2026-10-30.json), [source fidelity](worldwide_s_source_fidelity_2026-10-30.json).
 
 

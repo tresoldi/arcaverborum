@@ -1,0 +1,28 @@
+av_id: cha-charrua
+name: Charrúa
+glottocode: char1240
+family: Charruan
+macroarea: South America
+sources:
+  transcription: charruaoriginal
+  cognates: charruaoriginal
+  source_language_id: charruaoriginal_Arias1842
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-30'
+notes: Underlying1842 public-domain historical manuscript lexical facts. CC BY4.0
+  applies to the independently authored Arca transcription/curation layer only; carrier
+  book is CC BY-NC-ND4.0 and is neither relicensed nor redistributed. Carrier and
+  extracted image remain private source-verification inputs. Historical attribution
+  is uncertain; Silva1841 is a separate witness. Not independent confirmation of later
+  wrappers. Documentary spellings only; exact reviewed literal senses. No expert cognacy
+  or inferred pronunciation.

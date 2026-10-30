@@ -16,6 +16,11 @@ scoring:
   forms_score: 0.4476
   cognates_score: 0.0
   tier: bronze
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=diacl (0.45)'
+notes: T04 finite matched contemporary Laklãnõ spelling/sense recovery using Gakran2015
+  explicit examples and grapheme correspondences. DIACL bibliography3096 identifies2013
+  Nanblá speaker data; grammar is supporting linguistic authority, not asserted identical
+  elicitation or independent witness. No accent-as-stress guess, surface vowel echo
+  or generic historical transfer. Underlying source spelling/cognacy/mapping retained;
+  no supplied IPA claim.

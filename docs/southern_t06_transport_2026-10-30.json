@@ -1,0 +1,33 @@
+{
+  "source_sha256": "9df03930ef869415a99842ce447fd15a3e1cc19f5c1325ff43b11e558f4b74e5",
+  "rows": 230182,
+  "malformed_ordinals": [
+    230182
+  ],
+  "columns": [
+    "Variety",
+    "Subgroup",
+    "Family",
+    "ISO Code",
+    "Glottolog ID",
+    "AIATSIS Code",
+    "StdLangID",
+    "StdLanguageName",
+    "OriginalForm",
+    "PhonemicisedIPA",
+    "Std_Gloss",
+    "Author",
+    "OriginalGloss",
+    "OriginalPofSpeech",
+    "Latitude",
+    "Longitude",
+    "Reconstruction_Form",
+    "Reconstruction_Level",
+    "Reconstruction_Gloss",
+    "Reconstruction_Notes"
+  ],
+  "public_admission": false,
+  "reading_basis": "Upstream PhonemicisedIPA remains distinct from OriginalForm",
+  "terms_status": "Historical BY-NC-ND/custom conditions unresolved for adapted public export",
+  "source_edition_status": "No edition shortcode column; author alone is insufficient"
+}

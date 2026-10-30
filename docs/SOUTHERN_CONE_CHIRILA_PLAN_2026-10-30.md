@@ -1,5 +1,7 @@
 # Southern Cone and CHIRILA source investigation —2026-10-30
 
+**Historical planning snapshot. Subsequently authorized and executed as bounded T01–T08 reviews; see [execution and current outcomes](SOUTHERN_T_EXECUTION_2026-10-30.md). Statements below about absent languages or pending authorization describe the pre-T baseline.**
+
 Planning/research only, responding to the user's explicit Charrúa/Southern Brazil–Uruguay–Argentina priority and the specific YaleDHLab/chirila repository. No new lexical batch is authorized by this investigation. Accepted baseline remains7,361 constructions/2,074,099 records/470,046 supported core. Raw downloads, source inspection and planning documents change; intake, accepted recipes and web lexical artifacts do not.
 
 Recommendation: start with a source-labelled historical Charrúa construction, separate historical and contemporary Chaná evidence, and original Laklãnõ/Xokleng reading recovery. CHIRILA has a substantial accessible historical lexical payload beyond the restricted2025 dataset previously investigated, but its reuse and original-edition attribution need explicit resolution before transformed public redistribution. It is useful for source discovery and targeted acquisition now.

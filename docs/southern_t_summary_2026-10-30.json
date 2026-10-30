@@ -1,0 +1,152 @@
+{
+  "before": {
+    "varieties": 7361,
+    "forms": 2074099,
+    "source_forms": 1748767,
+    "profile_forms": 15061,
+    "supported_core": 470046,
+    "mapped_core": 544131,
+    "mapped_all_concepts": 1337083,
+    "supported_all_concepts": 1209312,
+    "gled_primaries": 1555,
+    "core_source_varieties": 918
+  },
+  "after": {
+    "varieties": 7364,
+    "forms": 2074205,
+    "source_forms": 1748817,
+    "profile_forms": 15065,
+    "supported_core": 470093,
+    "mapped_core": 544197,
+    "mapped_all_concepts": 1337165,
+    "supported_all_concepts": 1209359,
+    "gled_primaries": 1555,
+    "core_source_varieties": 918
+  },
+  "delta": {
+    "varieties": 3,
+    "forms": 106,
+    "source_forms": 50,
+    "profile_forms": 4,
+    "supported_core": 47,
+    "mapped_core": 66,
+    "mapped_all_concepts": 82,
+    "supported_all_concepts": 47,
+    "gled_primaries": 0,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "cha-chana",
+      "forms_before": 0,
+      "forms_after": 16,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "chanaoriginal"
+    },
+    {
+      "av_id": "cha-charrua",
+      "forms_before": 0,
+      "forms_after": 10,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "charruaoriginal"
+    },
+    {
+      "av_id": "cha-guenoa",
+      "forms_before": 0,
+      "forms_after": 1,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "guenoaoriginal"
+    },
+    {
+      "av_id": "che-tehuelche",
+      "forms_before": 862,
+      "forms_after": 868,
+      "supported_core_before": 138,
+      "supported_core_after": 144,
+      "primary_before": "idssegmented",
+      "primary_after": "idssegmented"
+    },
+    {
+      "av_id": "nub-kaingang",
+      "forms_before": 316,
+      "forms_after": 328,
+      "supported_core_before": 135,
+      "supported_core_after": 145,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    },
+    {
+      "av_id": "nub-xokleng",
+      "forms_before": 368,
+      "forms_after": 368,
+      "supported_core_before": 0,
+      "supported_core_after": 4,
+      "primary_before": "diacl",
+      "primary_after": "diacl"
+    },
+    {
+      "av_id": "pny-woiwurrung-thagungwurrung",
+      "forms_before": 58,
+      "forms_after": 87,
+      "supported_core_before": 34,
+      "supported_core_after": 34,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "pue-puelche",
+      "forms_before": 298,
+      "forms_after": 319,
+      "supported_core_before": 125,
+      "supported_core_after": 145,
+      "primary_before": "johanssonsoundsymbolic",
+      "primary_after": "johanssonsoundsymbolic"
+    },
+    {
+      "av_id": "tup-mbya-guarani",
+      "forms_before": 273,
+      "forms_after": 284,
+      "supported_core_before": 131,
+      "supported_core_after": 138,
+      "primary_before": "gerarditupi",
+      "primary_after": "gerarditupi"
+    }
+  ],
+  "all_earlier_records_native_readings_cognacy_preserved": 2074099,
+  "explicit_prior_written_reading_recoveries": 4,
+  "authored_xokleng_comment_role_changes": 0,
+  "authored_xokleng_quality_score_changes": 4,
+  "unreviewed_changes": 0,
+  "earlier_concept_mapping_changes": 0,
+  "new_records": 106,
+  "new_records_by_status": {
+    "source": 50,
+    "unclean": 56
+  },
+  "new_supported_slots": 47,
+  "new_supported_core_slots": 47,
+  "new_canonical_languages": 3,
+  "new_named_varieties": 0,
+  "new_intake_rows": 56,
+  "intake_total_rows": 7421095,
+  "primary_changes": 0,
+  "all_previous_gled_records_preserved": 58,
+  "artifact_hashes_checked": 402,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08"
+  ]
+}

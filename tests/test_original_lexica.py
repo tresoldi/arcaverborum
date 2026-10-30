@@ -138,3 +138,36 @@ def test_original_manifest_identity_and_resources_are_unique():
         assert len({r['filename'] for r in spec['resources']}) == len(spec['resources'])
         assert spec['license'].startswith('https://creativecommons.org/licenses/')
         assert all(len(r['sha256']) == 64 for r in spec['resources'])
+
+
+def test_facsimile_review_requires_image_locator_and_pins_native_transcription(tmp_path, monkeypatch):
+    row = dict(native_id='M1', resource_key='pdf', member='M', Form='written', source_sense='water',
+               raw_quote='water — written', pdf_page='2', source_image_xref='3',
+               source_image_sha256='a' * 64, transcription_locator='noun column, water line', decision='admit')
+    native = {key: row[key] for key in ['resource_key', 'raw_quote', 'member', 'Form', 'source_sense']}
+    native.update(pdf_page=2, source_image_xref=3, source_image_sha256='a' * 64,
+                  transcription_locator=row['transcription_locator'],
+                  transcription_basis='Independent historical manuscript image review')
+    row['native_sha256'] = source.digest(native)
+    path = tmp_path / 'review.csv'
+
+    def save():
+        with path.open('w') as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(row))
+            writer.writeheader()
+            writer.writerow(row)
+
+    save()
+    monkeypatch.setattr(source, 'ROOT', tmp_path)
+    spec = dict(kind='reviewed_facsimile', review='review.csv')
+    records = source.native_records(spec, {'pdf': b'%PDF-private-original'})
+    assert records[0]['original'] == native
+    assert 'Segments' not in records[0]
+    row['source_image_sha256'] = 'bad'
+    save()
+    with pytest.raises(ValueError, match='exact image'):
+        source.native_records(spec, {'pdf': b'%PDF-private-original'})
+    row['source_image_sha256'] = 'b' * 64
+    save()
+    with pytest.raises(ValueError, match='hash mismatch'):
+        source.native_records(spec, {'pdf': b'%PDF-private-original'})

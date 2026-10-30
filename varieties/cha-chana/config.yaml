@@ -1,0 +1,26 @@
+av_id: cha-chana
+name: Chaná
+glottocode: chan1296
+family: Charruan
+macroarea: South America
+sources:
+  transcription: chanaoriginal
+  cognates: chanaoriginal
+  source_language_id: chanaoriginal_Soriano1815
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-30'
+notes: Public-domain historical work and1924 edition; CC BY4.0 applies to new Arca
+  transcription/curation only. Three unnamed elderly Soriano informants; author explicitly
+  records uncertainty. Not contemporary Jaime/Viegas Barros Chaná or an independent
+  confirmation of wrappers quoting this witness. Documentary spellings only; exact
+  reviewed literal senses. No expert cognacy or inferred pronunciation.

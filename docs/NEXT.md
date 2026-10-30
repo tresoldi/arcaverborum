@@ -1,22 +1,20 @@
 # Active expansion queue
 
-Updated2026-10-30. **S01–S09 are complete as bounded reviews**; no authorized S execution remains. [Execution](WORLDWIDE_S_EXECUTION_2026-10-30.md), [measured results](worldwide_s_summary_2026-10-30.json), [accepted baseline](STATUS.md) and [exact holds](worldwide_s_holds_2026-10-30.csv) are authoritative. The twelve original-source namespaces are ingested; their unreviewed rows are not accepted gains.
+Updated2026-10-30. **T01–T08 and S01–S09 are complete as bounded reviews**; no authorized S execution remains. [Execution](WORLDWIDE_S_EXECUTION_2026-10-30.md), [measured results](worldwide_s_summary_2026-10-30.json), [accepted baseline](STATUS.md) and [exact holds](worldwide_s_holds_2026-10-30.csv) are authoritative. The twelve original-source namespaces are ingested; their unreviewed rows are not accepted gains.
 
 
 Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](worldwide_s_identity_audit_2026-10-30.json).
 
-## Proposed regional/source batch — T01–T08
+## T01–T08 complete; evidence needed next
 
-User priority: **Charrúa and languages of Southern Brazil, Uruguay and Argentina**, alongside the specific historical CHIRILA repository. [Investigation and exact gates](SOUTHERN_CONE_CHIRILA_PLAN_2026-10-30.md), [source/hash evidence](southern_cone_chirila_evidence_2026-10-30.json), [regional baseline](southern_cone_chirila_baseline_2026-10-30.json) and [CHIRILA member inventory](southern_cone_chirila_inventory_2026-10-30.json). **Proposed only; no T lexical work authorized or executed.** Accepted S baseline remains unchanged.
+The user-authorized sequential regional/source batch is closed. [Execution](SOUTHERN_T_EXECUTION_2026-10-30.md), [metrics](southern_t_summary_2026-10-30.json), [exact holds](southern_t_holds_2026-10-30.csv). Three historical constructions (Charrúa10/Chaná16/Güenoa1),50 regional upstream-reading additions,29 Lower Yarra written citations and four earlier Laklãnõ reading recoveries are accepted. Total7,364 constructions/2,074,205 records/470,093 supported core. Charrúa/Chaná/Güenoa absence and the first finite pilots are spent opportunities.
 
-1. **T01 Charrúa:** establish a historical written construction from separate Vilardebó1841/1842 witnesses and acquired institutional facsimile/context; preserve attribution, loans, uncertainty and edition terms. No guessed historical IPA.
-2. **T02 Chaná:** extract exact historical Compendio citations from acquired ANÁFORAS tomoIII (title page1924 versus common1923 citation); keep Soriano and modern Jaime/Viegas Barros2013 scopes separate. Modern appendix/profile route needs revision/terms and original phonology review.
-3. **T03 Güenoa/Minuán:** bounded original Hervás catechism acquisition and lexical-context review; no automatic word segmentation or ethnonym-to-language multiplication.
-4. **T04 Laklãnõ/Xokleng +Kaingang:** acquired Gakran2015 phonology/orthography, matching original lexical citations, dictionary acquisition and21 raw Kaingang IDS core leads. Xokleng368 accepted forms currently supply zero supported core readings; tokenized spelling is not IPA.
-5. **T05 Regional depth:** exact Puelche23/Mbyá11/Tehuelche8 raw core leads, Guaraní lect/POS depth and bounded CHICO-SC original acquisition for missing Haush/Teushen witnesses. Counts overlap and are not admissions.
-6. **T06 Historical CHIRILA source/terms:** acquired230,182-row CSV plus36,447-row browsing table at immutable commit. CC BY-NC-ND/footer and custom terms require applicable public-output review; retain full source/converted/reconstruction layers and exact-edition attribution. No automatic contact/form submission.
-7. **T07 Australian sparse-source pilots:** prioritize Nukunu19/0, Maykulan1/0, Koko-Bera90/9, Woiwurrung58/34,GLED and Waka-Waka41/34,GLED, using rights-cleared exact source/lects or suitable originals if historical-release reuse remains unresolved.
-8. **T08 CHIRILA identity recovery:** check current codes/aliases, historical source locations and retired identifiers before new-language claims.64 absent-code member leads are not64 languages. The2025 Dataverse remains715 files/706 restricted; even a public-flag source table requires Guestbook registration, which was not submitted.
+1. **Southern Cone original depth:** acquire a readable separate Silva1841 Charrúa witness; modern Chaná original/revision/terms and its phonology; genuine Haush/Teushen archival lexical pages. Preserve documentary uncertainty and historical stages. No language creation from ethnonyms or inferred catechism segmentation.
+2. **Laklãnõ/Kaingang quality:** extend beyond the four exact modern Laklãnõ matches only with source-specific authority. Resolve original Kaingang nasal-loss and Phi conventions before correction; obtain dictionary payload/terms. The completed12 Kaingang/21 Puelche/11 Mbyá/6 Tehuelche additions are not new raw opportunities. Exact held rows remain in the review CSV.
+3. **Australia original editions:** acquire authoritative Nukunu/Hercus and separately scoped Breen Mayi/Black Koko-Bera lexical sources with applicable reuse basis. Resolve Curr159 Dawson/Burnett Waka-Waka identity. Bunce Lower Yarra's29 written citations are complete; historical pronunciation and Upper Yarra209b remain separate gates.
+4. **CHIRILA provenance/sharing:** complete historical20-field private transport is done. Resolve exact-edition attribution and applicable adapted public-output sharing mode, or suitable originals.64 metadata leads are screened, with seven manual accepted-identity comparisons; do not count retired codes/represented aliases as new languages. No2025 Guestbook/application was submitted.
+
+These are reopening/planning directions, not authorization for a new lexical batch. Refresh rankings against accepted output and seek the named new evidence instead of replaying completed slices.
 
 ## Next evidence-led planning pass
 
