@@ -1,0 +1,33 @@
+{
+  "data_commit": "10ac9133d04b4ef14eb324ab0471f4713a089a01",
+  "canonical_url": "https://arcaverborum.org/",
+  "build_id": "b198f6cb17cb9817b91686cc",
+  "canonical_assets_verified": 12912,
+  "colexification_assets": 12496,
+  "all_hashes": "passed; streamed 64KiB chunks with eight workers",
+  "seconds": 208.42,
+  "ci_pages": [
+    {
+      "conclusion": "success",
+      "name": "CI",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41132292155"
+    },
+    {
+      "conclusion": "success",
+      "name": "Deploy site",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41132292041"
+    }
+  ],
+  "lexical_records_changed": 0,
+  "wordnet_changed": false,
+  "live_browser_suites": {
+    "colexification": "passed",
+    "wordnet": "passed",
+    "research": "passed"
+  },
+  "unit_tests": 540,
+  "full_build_peak_rss_mb": 107.48,
+  "full_build_memory_limit_mb": 256
+}

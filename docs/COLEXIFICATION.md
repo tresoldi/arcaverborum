@@ -281,3 +281,9 @@ research browser suites pass, including URL-state restoration, missingness, mobi
 layout and deliberate checksum corruption. Browser views do not require loading
 a lexical family. Selection manifests carry the colexification build pointer;
 the network manifest pins the exact inputs and asset hashes.
+
+[Publication proof](colexification_publication_2026-10-30.json): data commit
+`10ac9133` is pushed; CI and Pages succeed. All **12,912** checked canonical assets
+on https://arcaverborum.org/ match their local hashes, including all 12,496
+colexification files. Colexification, WordNet and general research browser suites
+pass on the live site. [Example: hand](https://arcaverborum.org/#concept:bod-hand).
