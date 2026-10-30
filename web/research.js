@@ -1,9 +1,10 @@
 'use strict';
-const VERSION = 'research-20261030-concept-wordnet';
+const VERSION = 'research-20261030-colexification';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
 const defaults = {view:'varieties',collection:'all',vocab:'all',family:'',area:'',tier:'',status:'',minCore:0,
+  colexLayer:'segmented',colexKind:'observed',colexStrong:false,colexPage:0,
   search:'',sort:'supported_core',dir:-1,page:0,columns:[],selected:[],concepts:[],id:'',cid:'',cog:'',term:'',mode:'literal',fold:false};
 let state = {...defaults}, catalog, manifest, worker, serial=0, pending=new Map(), loaded=[], epoch=0, map;
 const languages = new Map(), concepts = new Map(), sources = new Map();
@@ -153,7 +154,7 @@ function exportControls(rows,description='current selection') {
     $('#exportcsv').onclick=()=>downloadFile('arca-selection.csv',delimited(rows,','),'text/csv');
     $('#exporttsv').onclick=()=>downloadFile('arca-selection.tsv',delimited(rows,'\t'),'text/tab-separated-values');
     $('#exportmanifest').onclick=()=>downloadFile('arca-selection-manifest.json',JSON.stringify({build:manifest.build_date,
-      source_files:manifest.source_files,catalog_sha256:manifest.catalog.sha256,wordnet:manifest.wordnet,
+      source_files:manifest.source_files,catalog_sha256:manifest.catalog.sha256,wordnet:manifest.wordnet,colexification:manifest.colexification,
       family_shards:Object.fromEntries(loaded.map(f=>[f,manifest.shards[f].sha256])),filters:state,url:location.href,loaded_families:loaded,records:rows.length,
       sources:[...new Set(rows.map(r=>r.transcription_source))].map(s=>sources.get(s)||{Dataset:s,License:'Not recorded'}),
       scope:description,transcription_notice:'Profile readings and resegmentation are inferred; valid tokens do not certify pronunciation.'},null,2),'application/json');
@@ -328,12 +329,15 @@ function wordnetPanel(c) {
 async function showConcept(token) {
   const c=concepts.get(state.cid);if(!c)throw Error('Concept not found.');
   const title=`<p>${link('← Concepts',{view:'concepts',columns:[],page:0})}</p><h2>${esc(c.label)} ${c.catalog_status==='merged'?'<span class="chip">Merged catalog entry</span>':''} ${c.is_core?'<span class="chip">161 basic concepts</span>':''}</h2>
-    ${c.catalog_status==='merged'?'<p>This is a merged registry entry. Replacement reference: '+esc(c.replacement_id)+'. No WordNet equivalence is inferred from that replacement.</p>':''}<p class="definition">${esc(c.definition||'No definition recorded.')}</p><p>${esc(c.semantic_field)} · ${esc(c.pos)} · ${external('Concepticon '+c.concepticon_id,'https://concepticon.clld.org/parameters/'+c.concepticon_id)}</p>${wordnetPanel(c)}`;
-  if(!state.family){$('#app').innerHTML=title+familyPrompt();return;}
+    ${c.catalog_status==='merged'?'<p>This is a merged registry entry. Replacement reference: '+esc(c.replacement_id)+'. No WordNet equivalence is inferred from that replacement.</p>':''}<p class="definition">${esc(c.definition||'No definition recorded.')}</p><p>${esc(c.semantic_field)} · ${esc(c.pos)} · ${external('Concepticon '+c.concepticon_id,'https://concepticon.clld.org/parameters/'+c.concepticon_id)}</p>${wordnetPanel(c)}${ArcaColexification.placeholder()}`;
+  const showColex=()=>ArcaColexification.render(c,manifest,{esc,href,concepts,languages,networkState:state,
+    onState:patch=>{Object.assign(state,patch);history.replaceState(null,'',href({}));},isCurrent:()=>token===epoch});
+  if(!state.family){$('#app').innerHTML=title+familyPrompt();void showColex();return;}
   await ensure([state.family]);if(token!==epoch)return;
   const rows=await scopedRows(' AND concept_id=?',[state.cid]);if(token!==epoch)return;
   $('#app').innerHTML=title+`<p>${rows.length} forms in this scope. Source glosses and mapping decisions are available from each form.</p>
     <div id="conceptmap" class="map small"></div><div id="maplegend" class="maplegend"></div>`+exportControls(rows)+table(formColumns(),rows);
+  void showColex();
   await drawMap(rows.map(r=>({...languages.get(r.av_id),...r})),true,token);
 }
 async function showForm(token) {

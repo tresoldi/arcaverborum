@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "algorithm": "arca-whole-form-colexification-v1",
+  "identity": "Unicode NFC and whitespace normalization only. Preserve supplied IPA or explicitly stressed source citations when available; otherwise use labelled normalized segments. Upstream normalization may already omit stress or other contrasts; no absent information is reconstructed.",
+  "scope": [
+    "av_id",
+    "transcription_source",
+    "source_language_id",
+    "pronunciation_tags",
+    "comparison_basis"
+  ],
+  "layers": {
+    "segmented": "Exact supplied IPA, explicitly stressed source citation, or source/profile normalized segment sequences, kept in separate comparison scopes. Normalized segments may already omit prosody; equality is evidence of identity as represented, not certification of complete phonetic equivalence.",
+    "written": "Exact case-sensitive stored Form identity (source spelling or normalized citation); not independent phonetic evidence. Known ASJP-derived sources excluded.",
+    "reduced": "Exact ASJP/GLED-derived segment identity; omitted contrasts cannot be reconstructed"
+  },
+  "kinds": {
+    "observed": "Different mapped concepts, distinct source parameter IDs and distinct source form IDs within one source/variety/pronunciation scope",
+    "inferred": "Guarded explicit disjunctive-concept expansion; never counted as an independently elicited pair"
+  },
+  "reduced_sources": [
+    "gled",
+    "asjp"
+  ],
+  "exclude_doubtful": true,
+  "exclude_reconstructions": true,
+  "recurrence_families": 3,
+  "absence": "No shared form in sampled entries is not proof of absence in the language; missing usable accepted forms remain unknown",
+  "source_dependence": "Distinct varieties, Glottolog language units and known family lineages are counted separately; source attestations are not independent confirmations",
+  "partial_colexification": "Not inferred by substring matching: shared morphology and chance overlap require a separately validated method",
+  "references": [
+    {
+      "id": "clics2",
+      "title": "List, Greenhill, Anderson, Mayer, Tresoldi & Forkel (2018). CLICS²: An improved database of cross-linguistic colexifications.",
+      "url": "https://doi.org/10.1515/lingty-2018-0010"
+    },
+    {
+      "id": "clics3",
+      "title": "Rzymski, Tresoldi et al. (2020). The Database of Cross-Linguistic Colexifications, reproducible analysis of cross-linguistic polysemies.",
+      "url": "https://doi.org/10.1038/s41597-019-0341-x"
+    },
+    {
+      "id": "clics4",
+      "title": "Tjuka, Forkel, Rzymski & List (2025). Advancing the Database of Cross-Linguistic Colexifications with New Workflows and Data.",
+      "url": "https://aclanthology.org/2025.iwcs-main.1/"
+    },
+    {
+      "id": "missing",
+      "title": "Snee & List (2026). Computing Detailed Colexifications with Missing Data Information from the CLICS⁴ Collection.",
+      "url": "https://doi.org/10.15475/calcip.2026.1.2"
+    },
+    {
+      "id": "partial",
+      "title": "List (2023). Inference of Partial Colexifications from Multilingual Wordlists.",
+      "url": "https://arxiv.org/abs/2302.00739"
+    }
+  ]
+}

@@ -2537,5 +2537,12 @@
         "sha256": "bf66555495a612151fddfe3e17cc047aa5bd7851538a93dfe12e9bf93e6a2cf9"
       }
     ]
+  },
+  "colexification": {
+    "url": "data/colexification/b198f6cb17cb9817b91686cc/manifest.json",
+    "sha256": "7865a46422efbf0a1430894ae415e44a77fbdafaaa64d8d46504f987d6da2306",
+    "bytes": 516243,
+    "schema": 1,
+    "build_id": "b198f6cb17cb9817b91686cc"
   }
 }

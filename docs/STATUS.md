@@ -1,5 +1,7 @@
 # Current project state
 
+**Colexification layer (2026-10-30):** [Method and operation](COLEXIFICATION.md), [full verification](colexification_verification_2026-10-30.json). All3,828 concept pages have source-scoped status and on-demand networks.44,856 observed segmented concept-pair edges; citation/reduced/inferred networks stay separate. Full2,119,754-record build peaks107.48MiB under256MiB address-space cap.540 tests and three local browser suites pass. Lexical/WordNet data and accepted counts below are unchanged.
+
 **WordNet semantic layer (2026-10-30):** [full-catalog alignment](WORDNET.md) adds 141 exact and 52 typed approximate links across 190 active concepts, with 1,236 separately labelled inherited associations and 10,791 unreviewed candidates. All 3,789 active/39 merged concepts are accounted for; all 161 core meanings have explicit decisions or holds. Lexical counts below remain unchanged. [Verification](wordnet_verification_2026-10-30.json): 519 tests/15 browser suites pass, all lexical shards/hashes unchanged. [Published](wordnet_publication_2026-10-30.json): data `f217e5b1`, CI/Pages succeed, 414 canonical artifacts match and two live browser suites pass.
 
 Updated2026-10-30. Latest accepted batch: [Worldwide U01–U12](WORLDWIDE_U_EXECUTION_2026-10-30.md). [Metrics/preservation](worldwide_u_summary_2026-10-30.json), [verification](worldwide_u_verification_2026-10-30.json), [remaining gates](worldwide_u_holds_2026-10-30.csv).

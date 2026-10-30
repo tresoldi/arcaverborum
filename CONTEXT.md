@@ -34,6 +34,7 @@ Use these terms when naming things in code, commits, and conversation.
 | **variety** | A language variety (a language, dialect, or historical stage) with a stable `av_id`. The primary unit of work. |
 | **av_id** | Family-prefixed, human-readable variety identifier: `<family_code>-<name_slug>` (e.g. `ine-latin`). Assigned once and frozen. Maps to a Glottocode as a column. |
 | **concept** | A cross-linguistic meaning slot (e.g. "water", "eye"). Has a frozen `concept_id` prefixed by semantic field: `<field_code>-<label_slug>` (e.g. `bod-eye`). Maps to a Concepticon ID as a column. |
+| **colexification** | Source-scoped whole-form identity across distinct frozen meanings; observed, concept-inferred, citation and reduced representations stay separate. Neither polysemy nor lexical absence is automatically certified. See [method](docs/COLEXIFICATION.md). |
 | **WordNet link** | A versioned sidecar association between a frozen concept and a synset. Accepted exact/typed relations, inherited Concepticon associations and unreviewed candidates are distinct; see [WordNet](docs/WORDNET.md). |
 | **concept catalog** | The frozen registry of concept_ids (`data/concepts.csv`). Extended by minting, never re-keyed. |
 | **concept core** | The 161 basic-vocabulary concepts attested across ≥7 of the 13 CORE families (`data/concept_core.csv`). |
@@ -133,6 +134,7 @@ both ID spaces follow the same `<3-char-code>-<slug>[-qualifier]` pattern.
 
 | Module | Role | Key interface |
 |---|---|---|
+| `colexification` | Bounded-memory, disk-backed whole-form networks and three-way source comparisons | `build()`, `publish()`, `pair_status()` |
 | `aggregate` | Union per-variety output into aggregate tables | `aggregate_all()`, `FORMS_OUT_FIELDS` |
 | `curation` | Rank varieties by curation priority | `build_curation_report()` |
 | `release` | Build versioned CLDF release from CORE slice | `build_release()` |

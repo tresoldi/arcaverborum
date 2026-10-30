@@ -1,5 +1,7 @@
 # Active expansion queue
 
+**Colexification follow-through:** [pipeline and limits](COLEXIFICATION.md) are implemented for all catalog concepts. Review TLS Mbunga ku (154 segmented/151 citation concepts) against original lexical/morphological evidence before lifting its quarantine. Improve questionnaire-level missingness and reviewed source conventions; partial colexification needs validated morphology. Do not treat sampled nonmatches as lexical absence, source duplicates as independent confirmations, or WordNet relations as colexification edges.
+
 **WordNet alignment:** initial full-catalog sidecar published; [coverage and continuation rules](WORDNET.md). Prioritize sense review of inherited Concepticon associations and frequent unresolved concepts. Current accepted lexical baseline is unchanged. Do not treat source associations or candidate rankings as exact equivalences.
 
 Updated2026-10-30. **U01–U12 bounded execution and preceding T/S batches are closed.** [Current baseline](STATUS.md), [U execution](WORLDWIDE_U_EXECUTION_2026-10-30.md) and [exact remaining holds](worldwide_u_holds_2026-10-30.csv) are authoritative. Twenty-five original-source namespaces reproduce1,080,685 intake rows; unreviewed intake is not accepted vocabulary.

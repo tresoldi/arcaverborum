@@ -1,5 +1,7 @@
 # Documentation map
 
+Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).
+
 WordNet sense alignment: [versions, typed links, review queue and reproduction](WORDNET.md).
 
 ## Start here

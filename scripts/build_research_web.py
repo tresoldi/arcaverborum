@@ -10,6 +10,7 @@ import csv
 import gzip
 import hashlib
 import json
+import os
 import shutil
 import sqlite3
 import sys
@@ -318,8 +319,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--without-colexification', action='store_true',
+                        help='Build only lexical explorer assets; omit the derived network refresh')
     args = parser.parse_args()
     build(args.root, args.output)
+    if (not args.without_colexification and args.output is None
+            and (args.root / 'src/arcaverborum/data/colexification/policy.json').exists()):
+        # Replace the process so the lexical builder's large working set is
+        # released before the independently memory-capped network stage starts.
+        script = ROOT / 'scripts/build_colexification.py'
+        os.execv(sys.executable, [sys.executable, str(script), '--root', str(args.root), '--publish'])
 
 
 if __name__ == '__main__':

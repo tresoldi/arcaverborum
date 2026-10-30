@@ -1,5 +1,7 @@
 # Held work and reopening evidence
 
+**Colexification holds:** TLS Mbunga ku has154 segmented and151 citation concepts in one identity group. Both groups are quarantined in the derived network, leaving native lexical records unchanged. Reopen only with source/member-specific evidence showing full lexical forms and whether ku is an incomplete citation, grammatical material or a legitimate lexical identity. [Method/register](../COLEXIFICATION.md); source-scoped quarantines are included in the versioned network exports. Questionnaire-level absence and partial colexification remain unasserted without their own evidence.
+
 WordNet holds are tracked separately in [the guarded semantic register](../../src/arcaverborum/data/wordnet/holds.json): six pronoun/deictic cases require an actual matching pinned sense, not letter/acronym/numeral homographs. See [alignment policy](../WORDNET.md). These are semantic-link holds and do not remove lexical records.
 
 Updated2026-10-30. Read alongside [STATUS](../STATUS.md) and the

@@ -1,0 +1,90 @@
+{
+  "build_id": "b198f6cb17cb9817b91686cc",
+  "input_records": 2119754,
+  "stats": {
+    "active_concepts": 3789,
+    "concepts": 3828,
+    "duplicate_readings": 17,
+    "edges": 89401,
+    "excluded_doubtful": 2005,
+    "excluded_merged": 2085,
+    "excluded_reconstruction": 18536,
+    "excluded_segment_identity": 203304,
+    "excluded_unmapped": 327238,
+    "excluded_written_identity": 85218,
+    "inferred_witnesses": 11983,
+    "input_records": 2119754,
+    "networks": [
+      {
+        "edges": 508,
+        "kind": "observed",
+        "layer": "reduced"
+      },
+      {
+        "edges": 6,
+        "kind": "inferred",
+        "layer": "segmented"
+      },
+      {
+        "edges": 44856,
+        "kind": "observed",
+        "layer": "segmented"
+      },
+      {
+        "edges": 6,
+        "kind": "inferred",
+        "layer": "written"
+      },
+      {
+        "edges": 44025,
+        "kind": "observed",
+        "layer": "written"
+      }
+    ],
+    "quarantined_identities": 2,
+    "readings_reduced": 80754,
+    "readings_segmented": 1485832,
+    "readings_written": 1684655,
+    "witnesses": 264835
+  },
+  "runtime": {
+    "python": "3.14.8 (main, Oct 14 2026, 01:04:34) [Clang 23.1.3 ]",
+    "sqlite": "3.53.1",
+    "unicode": "16.0.0"
+  },
+  "full_build_memory_limit_mb": 256,
+  "full_build_peak_rss_mb": 107.48,
+  "seconds": 555.57,
+  "public_assets_checked": 12496,
+  "adjacency_pages": 8592,
+  "max_adjacency_page_bytes": 47563,
+  "public_mib": 228.0,
+  "node_status": {
+    "observed": 2974,
+    "no_shared_form_observed": 708,
+    "no_comparable_segmented_data": 107,
+    "merged": 39
+  },
+  "edge_and_witness_provenance_checks": "passed",
+  "comparison_denominators": "passed",
+  "all_3828_nodes_and_pages": "passed",
+  "complete_gzip_witness_rows": 264835,
+  "coverage_records": 3250905,
+  "source_and_input_hashes": "passed",
+  "lexical_manifest_fields_unchanged": true,
+  "lexical_family_shards_changed": 0,
+  "wordnet_changed": false,
+  "unit_tests": 540,
+  "colexification_tests": 21,
+  "local_browser_suites": [
+    "colexification",
+    "wordnet",
+    "research"
+  ],
+  "lint": "passed",
+  "javascript_syntax": "passed",
+  "fresh_fixture_reproduction": "byte-identical",
+  "adversarial_duplicate_readings": 20000,
+  "adversarial_memory_limit_mb": 128,
+  "segmented_observed_edges_three_families": 3423
+}
