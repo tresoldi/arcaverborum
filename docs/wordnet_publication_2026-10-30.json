@@ -1,0 +1,47 @@
+{
+  "status": "Canonical WordNet and lexical artifacts verified",
+  "canonical_url": "https://arcaverborum.org/",
+  "data_commit": "f217e5b1a29f8051f16cd73e3e3341948953b233",
+  "checked_artifacts": 414,
+  "family_shards": 401,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "client_script": "byte-identical research-20261030-wordnet",
+  "index_html": "byte-identical",
+  "all_hashes": "passed",
+  "accepted_constructions": 7365,
+  "forms": 2119754,
+  "concept_catalog": 3828,
+  "wordnet": {
+    "candidates": 10791,
+    "catalog_concepts": 3828,
+    "concepticon_bridge_rows_verified": 1372,
+    "coverage": {
+      "accepted": 190,
+      "merged": 39,
+      "review": 2365,
+      "source_association": 1202,
+      "unlinked": 32
+    },
+    "links": {
+      "accepted:broader": 28,
+      "accepted:exact": 141,
+      "accepted:narrower": 14,
+      "accepted:related": 10,
+      "source_association:association": 1236
+    },
+    "oewn_version": "2025",
+    "princeton_version": "3.0",
+    "relation_direction": "Arca to target: broader means target broader; narrower means target narrower",
+    "scope": "Frozen concept catalog only; no lexical record or native unmapped sense is remapped"
+  },
+  "local_browser_suites": 15,
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41110800101",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41110800082",
+  "live_browser_suites": {
+    "wordnet": "passed",
+    "research": "passed"
+  },
+  "unit_tests": 519,
+  "lexical_records_changed": 0
+}

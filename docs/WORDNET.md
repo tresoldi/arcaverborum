@@ -127,3 +127,16 @@ specific guarded hold. Do not raise accepted coverage by relaxing the ranking
 threshold, rewriting frozen concept definitions, or silently promoting inherited
 Concepticon associations. OEWN upgrades require new resource pins and a reviewed
 ILI/version crosswalk, including splits, merges and retired senses.
+
+## Verification and publication
+
+[Local verification](wordnet_verification_2026-10-30.json): 519 tests, full lint,
+JavaScript syntax and 15 browser suites pass. WordNet/general browser checks were
+repeated after the final core reviews. All five generated mapping files reproduce
+byte-for-byte; all 401 lexical shards, aggregate hashes and earlier catalog fields
+remain unchanged.
+
+[Publication proof](wordnet_publication_2026-10-30.json): data commit `f217e5b1` is
+pushed; CI and Pages succeed. All 414 checked canonical artifacts on
+https://arcaverborum.org/ match, including the seven WordNet downloads. Live WordNet
+and general research browser suites pass.

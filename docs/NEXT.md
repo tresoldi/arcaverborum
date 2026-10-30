@@ -1,6 +1,6 @@
 # Active expansion queue
 
-**WordNet alignment:** initial full-catalog sidecar implemented; [coverage and continuation rules](WORDNET.md). Prioritize sense review of inherited Concepticon associations and frequent unresolved concepts. Current accepted lexical baseline is unchanged. Do not treat source associations or candidate rankings as exact equivalences.
+**WordNet alignment:** initial full-catalog sidecar published; [coverage and continuation rules](WORDNET.md). Prioritize sense review of inherited Concepticon associations and frequent unresolved concepts. Current accepted lexical baseline is unchanged. Do not treat source associations or candidate rankings as exact equivalences.
 
 Updated2026-10-30. **U01–U12 bounded execution and preceding T/S batches are closed.** [Current baseline](STATUS.md), [U execution](WORLDWIDE_U_EXECUTION_2026-10-30.md) and [exact remaining holds](worldwide_u_holds_2026-10-30.csv) are authoritative. Twenty-five original-source namespaces reproduce1,080,685 intake rows; unreviewed intake is not accepted vocabulary.
 
