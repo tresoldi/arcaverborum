@@ -1,7 +1,24 @@
 {
-  "status": "Local verification complete; awaiting first S commit, CI/Pages and canonical artifact verification",
+  "status": "passed",
   "canonical_url": "https://arcaverborum.org/",
-  "data_commit": null,
+  "data_commit": "62f816d5f375057cb4ed77a1735f69da142f7aec",
+  "checked_artifacts": 403,
+  "family_shards": 399,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "all_hashes": "passed",
   "accepted_constructions": 7361,
-  "forms": 2074099
+  "forms": 2074099,
+  "new_canonical_languages": 11,
+  "new_named_varieties": 1,
+  "primary_changes": 3,
+  "local_browser_suites": 12,
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41041073007",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41041073209",
+  "live_browser_suites": [
+    "worldwide_s",
+    "research"
+  ],
+  "live_browser_result": "passed",
+  "transient_download_retries": "One initial503; all401 gzip artifacts subsequently hash-verified with bounded retry policy and four concurrent requests"
 }

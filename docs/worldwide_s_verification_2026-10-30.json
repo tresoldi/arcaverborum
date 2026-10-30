@@ -56,5 +56,14 @@
   "supported_core_gain": 431,
   "new_canonical_languages": 11,
   "new_named_varieties": 1,
-  "primary_changes": 3
+  "primary_changes": 3,
+  "data_commit": "62f816d5f375057cb4ed77a1735f69da142f7aec",
+  "canonical_artifacts_checked": 403,
+  "live_browser_suites": [
+    "worldwide_s",
+    "research"
+  ],
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41041073007",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41041073209",
+  "documentary_whitespace": "Exact native page/TeX quotations retain source whitespace; those CSV cells are not normalized to satisfy diff whitespace checks."
 }

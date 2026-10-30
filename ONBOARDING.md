@@ -254,3 +254,7 @@ PyMuPDF page audit is scripts/audit_original_pdf_citations.py. Complete intake
 is not accepted vocabulary; primary/supplement ledgers remain the admission gate.
 The PDF transport pins original bytes and manually reviewed page quotations;
 run the independent page audit when changing that reviewed slice.
+
+Reviewed literal source quotations retain original whitespace; do not normalize
+those CSV cells merely to satisfy diff whitespace checks. Their native hashes
+and independent page audits depend on the exact quotation.

@@ -8,7 +8,7 @@ S01 Andakí47 written/Yauyos24 exact dialect-scoped profiles; external workbook/
 
 All2,073,083 earlier native records/mappings/cognacy preserved. Only11 Goo prior written readings change to profiles, with24 explicitly reviewed source-role/reading-metadata comment updates; no earlier concept mappings or scores change. GLED primaries1,555 (−3); GLED-only slots57,454 (−69). Profiles remain finite/source/lect scoped; NC-SA terms and shared-source genealogy preserved, no expert cognacy transfer. Etruscan/Elamite priorities unchanged; no replayed ancient acquisition claims. All nine reviews complete; NEXT/HELD/history/packets updated. See WORLDWIDE_S_EXECUTION_2026-10-30.md and companion metrics/hold/proof files.
 
-493 tests in both normalization flag states, full lint,26 builds,12 browser suites,401 artifact/three aggregate hashes,complete161,344 native rows,293 finite readings,ten upstream profile hashes,22 Kullilli page quotations and41 Beja PDF readings pass. Local artifacts complete; publication proof will record the pushed data commit, CI/Pages and canonical hashes/browser checks.
+493 tests in both normalization flag states, full lint,26 builds,12 browser suites,401 artifact/three aggregate hashes,complete161,344 native rows,293 finite readings,ten upstream profile hashes,22 Kullilli page quotations and41 Beja PDF readings pass. Data commit 62f816d5f375057cb4ed77a1735f69da142f7aec pushed; CI41041073007/Pages41041073209 succeed. All403 canonical artifacts hash/byte-match, with S-specific/general live browser suites passing. One transient503 was retried with bounded backoff/lower concurrency; no hash mismatch. See worldwide_s_publication_2026-10-30.json.
 
 ## 2026-10-30 — Worldwide original-source recommendations after R (planning only)
 
