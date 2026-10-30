@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261030-wordnet';
+const VERSION = 'research-20261030-concept-wordnet';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -309,15 +309,20 @@ async function scopedRows(extra='',params=[],limit=100000) {
   return query(`SELECT f.* FROM forms f WHERE ${condition.sql}${extra}`,condition.params.concat(params),limit);
 }
 function wordnetPanel(c) {
-  if(!c.wordnet)return '';
+  const wn=c.wordnet||{coverage:'unlinked',links:[],candidates:[]};
+  const reviewed=wn.links.filter(r=>r.status==='accepted'), inherited=wn.links.filter(r=>r.status==='source_association');
+  const exact=reviewed.filter(r=>r.relation==='exact').length, approximate=reviewed.length-exact;
+  const status=wn.hold_reason?'Held for sense review':({accepted:'Reviewed links available',source_association:'Inherited associations need review',review:'Candidates need review',merged:'Merged catalog entry',unlinked:'No WordNet link yet'})[wn.coverage]||'Needs review';
   const render=r=>{const t=r.target, name=`${t.resource==='oewn'?'OEWN':'Princeton WordNet'} ${t.version} · ${t.id}`;
     return `<li><strong>${esc(r.status==='candidate'?'Unreviewed candidate':r.status==='source_association'?'Inherited association':r.relation+' match')}</strong> · ${esc(name)}${t.ili&&t.ili!=='in'?' · '+external('Browse '+t.ili,'https://en-word.net/ili/'+encodeURIComponent(t.ili)):''}
       <p>${esc(t.lemmas.join(', '))} (${esc(t.pos)}) — ${esc(t.definition)}</p><p class="sub">${esc(r.evidence)}${t.ili?' · '+esc(t.ili):''}${t.pwn30.length?' · Princeton 3.0: '+esc(t.pwn30.join(', ')):''}</p></li>`;};
   return `<section aria-label="WordNet sense links"><h3>WordNet sense links</h3>
+    <p class="wordnet-summary"><strong>${esc(status)}</strong> · ${exact} exact · ${approximate} approximate · ${inherited.length} inherited · ${wn.candidates.length} unreviewed candidates</p>
     <p class="sub">Frozen OEWN 2025 senses, with Princeton 3.0 compatibility via ILI. Inherited associations and candidates are not accepted equivalences. “Broader” means the target is broader than this Arca concept; “narrower” means the target is narrower. External browsing may use a newer edition.</p>
-    ${c.wordnet.links.length?'<ul>'+c.wordnet.links.map(render).join('')+'</ul>':'<p>No accepted mapping or inherited association yet.</p>'}
-    ${c.wordnet.hold_reason?'<p>'+esc(c.wordnet.hold_reason)+'</p>':''}
-    ${c.wordnet.candidates.length?'<details><summary>Review candidates ('+c.wordnet.candidates.length+')</summary><p>Ranked search suggestions require sense review.</p><ul>'+c.wordnet.candidates.map(render).join('')+'</ul></details>':''}
+    ${reviewed.length?'<h4>Reviewed sense links</h4><ul>'+reviewed.map(render).join('')+'</ul>':'<p>No accepted mapping yet.</p>'}
+    ${inherited.length?'<h4>Inherited Concepticon associations</h4><p class="sub">These source associations have not been accepted as semantic equivalences.</p><ul>'+inherited.map(render).join('')+'</ul>':''}
+    ${wn.hold_reason?'<p>'+esc(wn.hold_reason)+'</p>':''}
+    ${wn.candidates.length?'<details><summary>Review candidates ('+wn.candidates.length+')</summary><p>Ranked search suggestions require sense review.</p><ul>'+wn.candidates.map(render).join('')+'</ul></details>':''}
     <p><a href="data/wordnet-links.csv" download>Links CSV</a> · <a href="data/wordnet-candidates.csv" download>Review queue CSV</a> · <a href="data/wordnet-coverage.csv" download>Catalog coverage CSV</a> · <a href="data/wordnet-sources.json">Versions, sources and licenses</a></p></section>`;
 }
 async function showConcept(token) {

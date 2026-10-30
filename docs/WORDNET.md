@@ -111,8 +111,10 @@ concepts, unresolved bridge glosses, duplicates and candidates masquerading as
 accepted links fail validation. Merged entries remain accounted for without
 silently equating their old meanings to replacements.
 
-The website exposes sense links and candidates on concept pages without requiring
-a family download. Concept search accepts synset/ILI identifiers. Seven downloadable
+Every concept page shows its mapping status and counts of exact, approximate,
+inherited and candidate links, without requiring a family download. Reviewed
+sense links and inherited associations have separate sections; candidate details
+remain collapsed, and held/merged/unlinked states are explicit. Concept search accepts synset/ILI identifiers. Seven downloadable
 sidecars have manifest hashes; selection manifests retain this WordNet provenance.
 Existing lexical CSV columns and all family records remain unchanged.
 

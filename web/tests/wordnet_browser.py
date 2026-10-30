@@ -21,6 +21,8 @@ with sync_playwright() as p:
     panel = concept('phy-water')
     assert 'oewn-14869913-n' in panel.inner_text()
     assert 'exact match' in panel.inner_text()
+    assert 'Reviewed links available' in panel.locator('.wordnet-summary').inner_text()
+    assert '1 exact' in panel.locator('.wordnet-summary').inner_text()
     assert '0 families loaded' in page.locator('#loaded').inner_text()
     with page.expect_download() as download:
         panel.get_by_text('Links CSV', exact=True).click()
@@ -31,6 +33,7 @@ with sync_playwright() as p:
     assert not any(r['status'] == 'candidate' for r in rows)
     panel = concept('kin-child')
     assert panel.get_by_text('narrower match', exact=True).count() == 2
+    assert '2 approximate' in panel.locator('.wordnet-summary').inner_text()
     panel = concept('cog-know-something')
     assert panel.get_by_text('narrower match', exact=True).count() == 2
     panel = concept('agr-grass')
@@ -38,14 +41,23 @@ with sync_playwright() as p:
     panel = concept('phy-moon')
     assert 'oewn-09381123-n' in panel.inner_text()
     assert 'Inherited association' in panel.inner_text()
+    assert panel.get_by_role('heading', name='Inherited Concepticon associations').count() == 1
     panel = concept('cog-who')
     assert 'No reviewed matching pronoun' in panel.inner_text()
+    assert 'Held for sense review' in panel.locator('.wordnet-summary').inner_text()
     assert panel.locator('details').count() == 0
     panel = concept('act-pull-up')
     assert 'Merged catalog entry' in page.locator('#app').inner_text()
     assert 'No accepted mapping' in panel.inner_text()
     panel = concept('agr-alang-alang-grass')
     assert 'WordNet sense links' in panel.inner_text()
+    assert page.evaluate('''() => catalog.concepts.every(c => {
+        const node=document.createElement('div');node.innerHTML=wordnetPanel(c);
+        const summary=node.querySelector('.wordnet-summary');
+        return summary && summary.textContent.includes('exact') &&
+               summary.textContent.includes('approximate') && summary.textContent.includes('unreviewed candidates');
+    })''')
+    assert page.evaluate('catalog.concepts.length') == 3828
     state = dict(view='concepts', collection='all', vocab='all', term='oewn-14869913-n')
     page.goto(sys.argv[1] + '#s=' + quote(json.dumps(state)), wait_until='networkidle')
     page.wait_for_selector('#conceptsearch')
