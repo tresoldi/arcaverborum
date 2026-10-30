@@ -53,3 +53,7 @@ primary record remain unaffected by the source-scoped profile.
 Five new exact Iquito partial-tone profiles and seven Media Lengua mappings reviewed in [WN02](../../docs/worldwide_wn02_review_2026-10-29.csv). Media Lengua sell is held for noun/verb conflict. Guarayu profile hold remains; no inconsistent genderlect/nasality system inferred.
 
 Q2026-10-29 adds a separate finite profile file with guarded original sense/reading evidence. Earlier profile bytes and all native alternatives remain unchanged; see the Q execution report and Q03/Q04 reviews.
+
+## R01 exact dictionary profile extension
+
+Finite existing source-specific rules reproduced for the newly admitted citations; see docs/worldwide_r01_profiles_2026-10-30.csv. Tone, quantity and unreviewed environments remain bounded. Previous profiles and records are retained.

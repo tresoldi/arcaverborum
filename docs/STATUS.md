@@ -1,5 +1,28 @@
 # Current project state
 
+Updated2026-10-30. Latest accepted batch: [Worldwide R01–R09](WORLDWIDE_R_EXECUTION_2026-10-30.md), all nine authorized tracks closed as bounded reviews with admissions or specific holds. [Metrics](worldwide_r_summary_2026-10-30.json), [verification](worldwide_r_verification_2026-10-30.json).
+
+## Accepted baseline
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,349 |
+| Forms | 2,073,083 |
+| Supplied/upstream-converted forms | 1,748,366 |
+| Profile-derived forms | 14,768 |
+| Supported core slots | 469,615 |
+| Mapped core slots | 543,589 |
+| Supported all-concept slots | 1,208,783 |
+| Mapped all-concept slots | 1,336,371 |
+| GLED primaries | 1,558 |
+| Core-source varieties | 918 |
+
+R adds337 records,248 supported slots/144 core and327 mapped slots/223 core. Three new modern-language constructions (Goo24/Bu27/Ndoola29) contain80 explicitly written records and no claimed pronunciation.249 supplied/upstream-converted and8 documented-profile readings broaden existing constructions. All2,072,746 earlier readings, native cognacy and comments survive; no older mapping, score or primary changes. Intake7,259,695. GLED-only dependence57,523 remains unchanged.
+
+479 tests in both HAVE_UTF8PROC flag states, full lint,18 affected builds,11 local browser suites,401 artifact/3 aggregate hashes,14 source-resource pins and21,078 native-row reproductions pass. See the execution report for source genealogy and exact holds. Publication proof follows the data commit.
+
+## Historical preceding JOHD/HGN baseline
+
 Updated2026-10-29. Latest accepted batch: [JOHD/HGN evidence J01–J04](JOHD_EVIDENCE_EXECUTION_2026-10-29.md), all four authorized tracks closed with admissions, semantic corrections or specific holds. [Metrics](johd_execution_summary_2026-10-29.json), [verification](johd_execution_verification_2026-10-29.json).
 
 ## Accepted baseline

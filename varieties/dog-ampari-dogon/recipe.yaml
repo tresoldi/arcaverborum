@@ -1,0 +1,13 @@
+av_id: dog-ampari-dogon
+name: Ampari Dogon
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R03
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: gled
+  forms: 57
+  supported_core: 51
+  source_statuses:
+    source: 57
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

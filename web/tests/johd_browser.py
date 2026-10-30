@@ -23,11 +23,11 @@ with sync_playwright() as p:
             return list(csv.DictReader(handle))
 
     rows = export('nad-nadeb')
-    assert len(rows) == 72
+    assert len(rows) == 110
     original = [r for r in rows if r['transcription_source'] == 'hgnphonemic']
-    assert len(original) == 71
-    assert sum(r['source_language_id'] == 'hgnphonemic_122' for r in original) == 48
-    assert sum(r['source_language_id'] == 'hgnphonemic_121' for r in original) == 23
+    assert len(original) == 109
+    assert sum(r['source_language_id'] == 'hgnphonemic_122' for r in original) == 75
+    assert sum(r['source_language_id'] == 'hgnphonemic_121' for r in original) == 34
     bone = [r for r in original if r['concept_id'] == 'bod-bone']
     assert {r['Segments'] for r in bone} == {'k ɨ̰ː ʔ', 'k ə̰ː h'}
     assert all('source_reported_phonemic_citation' in r['Comment'] for r in original)

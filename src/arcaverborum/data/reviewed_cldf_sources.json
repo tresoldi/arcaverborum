@@ -1,0 +1,43 @@
+[
+  {
+    "dataset": "berrywestpapuan",
+    "url": "https://codeload.github.com/lexibank/berrywestpapuan/tar.gz/refs/tags/v0.1",
+    "sha256": "9d1e6267ed6fbd90dd21f4d6bbb223d0788731a8d70d81140d1c65902f61ceaf",
+    "tag": "v0.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original author/survey -> published digital source -> pinned CLDF conversion. Related wrappers are not independent witnesses; segments are upstream profile output, not new phonetic elicitation."
+  },
+  {
+    "dataset": "heathdogon",
+    "url": "https://codeload.github.com/languageorphans/heathdogon/tar.gz/refs/tags/v0.3",
+    "sha256": "413e672df1c9445f96e4ef370a5df31109a70e6da03f6133569d5d40655d7184",
+    "tag": "v0.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original author/survey -> published digital source -> pinned CLDF conversion. Related wrappers are not independent witnesses; segments are upstream profile output, not new phonetic elicitation.",
+    "license_file_sha256": "945fbcb37deca05bccd7c3ca0e261679f1f5373515504fdbad68f6f3cf6f49b9"
+  },
+  {
+    "dataset": "ndanda",
+    "url": "https://codeload.github.com/kpaam-cam/ndanda/tar.gz/refs/tags/v1.1",
+    "sha256": "526aca539b7e69eeae8d5fc19154312c0be84dd85fcb051ab748c04f0d40190a",
+    "tag": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original author/survey -> published digital source -> pinned CLDF conversion. Related wrappers are not independent witnesses; segments are upstream profile output, not new phonetic elicitation."
+  },
+  {
+    "dataset": "spagnolmaltese",
+    "url": "https://codeload.github.com/intercontinental-dictionary-series/spagnolmaltese/tar.gz/refs/tags/v1.1",
+    "sha256": "c59f36b16d98541d8d37def6331732ca717bb296347fb2ec0c3680b023ca92bf",
+    "tag": "v1.1",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original author/survey -> published digital source -> pinned CLDF conversion. Related wrappers are not independent witnesses; segments are upstream profile output, not new phonetic elicitation."
+  },
+  {
+    "dataset": "abvdoceanic",
+    "url": "https://codeload.github.com/lexibank/abvdoceanic/tar.gz/refs/tags/v0.3",
+    "sha256": "44dee564e09d8f33c5f312c348b2493035a0b65b0cde5229f1fb33b9b5719472",
+    "tag": "v0.3",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original author/survey -> published digital source -> pinned CLDF conversion. Related wrappers are not independent witnesses; segments are upstream profile output, not new phonetic elicitation."
+  }
+]

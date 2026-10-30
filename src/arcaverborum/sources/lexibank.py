@@ -86,6 +86,11 @@ def fetch(
         for r in json.loads((Path(__file__).resolve().parents[1] / "data/american_evidence_sources.json").read_text())
     }
 
+    reviewed_cldf = {
+        r['dataset']
+        for r in json.loads((Path(__file__).resolve().parents[1] / 'data/reviewed_cldf_sources.json').read_text())
+    }
+
     for repo in repos:
         name = repo["NAME"].strip()
         url = repo["URL"].strip()
@@ -94,14 +99,17 @@ def fetch(
         if dry_run:
             action = (
                 "materialize reviewed source"
-                if name in ancient | african | american | {"bodtbangru", "gerardije2025", "rvidinfinitives"}
+                if name in (ancient | african | american | reviewed_cldf
+                            | {"bodtbangru", "gerardije2025", "rvidinfinitives"})
                 else ("update" if repo_dir.exists() else "clone")
             )
             logger.info("[dry-run] %s %s", action, name)
             continue
 
-        if name in ancient | african | american:
-            if name in american:
+        if name in ancient | african | american | reviewed_cldf:
+            if name in reviewed_cldf:
+                from arcaverborum.sources.reviewed_cldf import materialize
+            elif name in american:
                 from arcaverborum.sources.american_evidence import materialize
             elif name in african:
                 from arcaverborum.sources.african_lexica import materialize

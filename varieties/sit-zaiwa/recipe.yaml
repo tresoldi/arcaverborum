@@ -11,3 +11,14 @@ worldwide_review_2026_10_29:
   preservation: Earlier lexical records/readings and native cognacy/evidence retained
     with exact reviewed semantic corrections. No unreviewed profile, historical IPA
     or new-language identity inferred.
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R07
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: lsi
+  forms: 163
+  supported_core: 87
+  source_statuses:
+    source: 163
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

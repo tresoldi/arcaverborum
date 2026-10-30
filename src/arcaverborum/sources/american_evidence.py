@@ -128,7 +128,7 @@ def materialize(raw_root, *, dataset, download=False):
             if key in {'Segments', 'Source'}:
                 col['separator'] = ' ' if key == 'Segments' else ';'
             cols.append(col)
-        metadata['tables'].append(dict(url=name, **{'dc:conformsTo': term + kind},
+        metadata['tables'].append(dict(url=name, **{'dc:conformsTo': term + kind, 'dc:extent': len(rows)},
                                         tableSchema=dict(columns=cols, primaryKey='ID')))
     (cldf / 'cldf-metadata.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n')
     (cldf / 'sources.bib').write_text('@misc{source,\n title = {' + spec['citation'] + '},\n url = {'

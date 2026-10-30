@@ -1,0 +1,236 @@
+{
+  "before": {
+    "varieties": 7346,
+    "forms": 2072746,
+    "source_forms": 1748117,
+    "profile_forms": 14760,
+    "supported_core": 469471,
+    "mapped_core": 543366,
+    "mapped_all_concepts": 1336044,
+    "supported_all_concepts": 1208535,
+    "gled_primaries": 1558,
+    "core_source_varieties": 915
+  },
+  "after": {
+    "varieties": 7349,
+    "forms": 2073083,
+    "source_forms": 1748366,
+    "profile_forms": 14768,
+    "supported_core": 469615,
+    "mapped_core": 543589,
+    "mapped_all_concepts": 1336371,
+    "supported_all_concepts": 1208783,
+    "gled_primaries": 1558,
+    "core_source_varieties": 918
+  },
+  "delta": {
+    "varieties": 3,
+    "forms": 337,
+    "source_forms": 249,
+    "profile_forms": 8,
+    "supported_core": 144,
+    "mapped_core": 223,
+    "mapped_all_concepts": 327,
+    "supported_all_concepts": 248,
+    "gled_primaries": 0,
+    "core_source_varieties": 3
+  },
+  "changes": [
+    {
+      "av_id": "afa-buu",
+      "forms_before": 0,
+      "forms_after": 27,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexrpilots"
+    },
+    {
+      "av_id": "afa-harsusi",
+      "forms_before": 185,
+      "forms_after": 206,
+      "supported_core_before": 34,
+      "supported_core_after": 51,
+      "primary_before": "kogansemitic",
+      "primary_after": "kogansemitic"
+    },
+    {
+      "av_id": "afa-maltese",
+      "forms_before": 100,
+      "forms_after": 139,
+      "supported_core_before": 91,
+      "supported_core_after": 98,
+      "primary_before": "ratcliffearabic",
+      "primary_after": "ratcliffearabic"
+    },
+    {
+      "av_id": "atl-ndoola",
+      "forms_before": 0,
+      "forms_after": 29,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexrpilots"
+    },
+    {
+      "av_id": "dog-ampari-dogon",
+      "forms_before": 37,
+      "forms_after": 57,
+      "supported_core_before": 35,
+      "supported_core_after": 51,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "gun-wubuy",
+      "forms_before": 171,
+      "forms_after": 197,
+      "supported_core_before": 113,
+      "supported_core_after": 125,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    },
+    {
+      "av_id": "kor-jejueo",
+      "forms_before": 154,
+      "forms_after": 176,
+      "supported_core_before": 94,
+      "supported_core_after": 102,
+      "primary_before": "leekoreanic",
+      "primary_after": "leekoreanic"
+    },
+    {
+      "av_id": "man-goo",
+      "forms_before": 0,
+      "forms_after": 24,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexrpilots"
+    },
+    {
+      "av_id": "nad-nadeb",
+      "forms_before": 72,
+      "forms_after": 110,
+      "supported_core_before": 43,
+      "supported_core_after": 50,
+      "primary_before": "hgnphonemic",
+      "primary_after": "hgnphonemic"
+    },
+    {
+      "av_id": "oto-isthmus-zapotec",
+      "forms_before": 69,
+      "forms_after": 75,
+      "supported_core_before": 41,
+      "supported_core_after": 42,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "sit-zaiwa",
+      "forms_before": 152,
+      "forms_after": 163,
+      "supported_core_before": 83,
+      "supported_core_after": 87,
+      "primary_before": "lsi",
+      "primary_after": "lsi"
+    },
+    {
+      "av_id": "uto-cahuilla",
+      "forms_before": 384,
+      "forms_after": 385,
+      "supported_core_before": 128,
+      "supported_core_after": 129,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    },
+    {
+      "av_id": "uto-cupeno",
+      "forms_before": 379,
+      "forms_after": 381,
+      "supported_core_before": 125,
+      "supported_core_after": 127,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    },
+    {
+      "av_id": "wea-kalabra",
+      "forms_before": 38,
+      "forms_after": 56,
+      "supported_core_before": 30,
+      "supported_core_after": 47,
+      "primary_before": "transnewguineaorg",
+      "primary_after": "transnewguineaorg"
+    },
+    {
+      "av_id": "wea-moi-indonesia",
+      "forms_before": 56,
+      "forms_after": 73,
+      "supported_core_before": 35,
+      "supported_core_after": 52,
+      "primary_before": "transnewguineaorg",
+      "primary_after": "transnewguineaorg"
+    },
+    {
+      "av_id": "wea-moraid",
+      "forms_before": 37,
+      "forms_after": 54,
+      "supported_core_before": 29,
+      "supported_core_after": 46,
+      "primary_before": "transnewguineaorg",
+      "primary_after": "transnewguineaorg"
+    },
+    {
+      "av_id": "wea-seget",
+      "forms_before": 40,
+      "forms_after": 57,
+      "supported_core_before": 31,
+      "supported_core_after": 48,
+      "primary_before": "transnewguineaorg",
+      "primary_after": "transnewguineaorg"
+    },
+    {
+      "av_id": "zap-iquito",
+      "forms_before": 438,
+      "forms_after": 440,
+      "supported_core_before": 130,
+      "supported_core_after": 131,
+      "primary_before": "huntergatherer",
+      "primary_after": "huntergatherer"
+    }
+  ],
+  "all_earlier_records_readings_cognacy_preserved": 2072746,
+  "derived_per_form_score_recalculations": 0,
+  "variety_level_scores_changed": 0,
+  "original_source_comments_preserved": true,
+  "derived_source_role_comment_changes": 0,
+  "new_records": 337,
+  "new_records_by_status": {
+    "unclean": 80,
+    "source": 249,
+    "profile": 8
+  },
+  "earlier_unmapped_records_now_mapped": 0,
+  "new_supported_slots": 248,
+  "new_supported_core_slots": 144,
+  "new_distinct_languages": 3,
+  "new_reconstruction_inventories": 0,
+  "new_intake_rows": 20927,
+  "intake_total_rows": 7259695,
+  "earlier_incorrect_mappings_removed": 0,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09"
+  ],
+  "earlier_nadeb_snapshot_records_retained": 1,
+  "existing_primary_changes": 0
+}

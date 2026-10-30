@@ -1,0 +1,13 @@
+av_id: nad-nadeb
+name: Nadëb
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R01
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: hgnphonemic
+  forms: 110
+  supported_core: 50
+  source_statuses:
+    source: 110
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

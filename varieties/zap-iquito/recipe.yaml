@@ -1,0 +1,14 @@
+av_id: zap-iquito
+name: Iquito
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R01
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: huntergatherer
+  forms: 440
+  supported_core: 131
+  source_statuses:
+    source: 356
+    profile: 84
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

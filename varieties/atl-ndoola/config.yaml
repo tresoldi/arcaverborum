@@ -1,0 +1,24 @@
+av_id: atl-ndoola
+name: Ndoola
+glottocode: ndoo1241
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: reflexrpilots
+  cognates: reflexrpilots
+  source_language_id: reflexrpilots_2335
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-30'
+notes: R02 bounded original written lexical pilot; no inferred phonetic readings or
+  cognacy. Source tone/quantity and comparison notes retained without normalization.
+  NonCommercial-ShareAlike archive terms apply.

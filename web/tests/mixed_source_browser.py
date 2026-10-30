@@ -56,7 +56,7 @@ with sync_playwright() as p:
         page.locator("#exportcsv").click()
     iquito = list(csv.DictReader(open(download.value.path())))
     profile_rows = [r for r in iquito if r["transcription_source"] == "dictiquito"]
-    assert len(iquito) == 438 and len(profile_rows) == 82
+    assert len(iquito) == 440 and len(profile_rows) == 84
     assert all(r["Segments_Source"] == "profile" for r in profile_rows)
     assert all("Source-scoped orthographic profile" in r["Comment"] for r in profile_rows)
     assert not any(r["Segments_Source"] == "profile" for r in iquito if r["transcription_source"] == "huntergatherer")
@@ -125,7 +125,7 @@ with sync_playwright() as p:
             assert not tuled & lundgren
     for aid, total, source_profiles in [
         ("may-tzeltal", 191, {"dicttseltal": 104}),
-        ("oto-isthmus-zapotec", 69, {"dictdiidxaza": 14, "dictdidxazageneral": 5}),
+        ("oto-isthmus-zapotec", 75, {"dictdiidxaza": 20, "dictdidxazageneral": 5}),
         ("esk-pacific-gulf-yupik", 86, {"wiktionary": 6}),
     ]:
         route.update(id=aid)

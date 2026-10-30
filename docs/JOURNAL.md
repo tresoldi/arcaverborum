@@ -1,5 +1,15 @@
 # Project journal and working memory
 
+## 2026-10-30 — Worldwide R01–R09 executed
+
+User authorized all nine tracks sequentially with autonomous specifics. Added337 records:38 Nadëb (27 Roçado/11 Rio Negro),2 Iquito profiles,80 written Goo/Bu/Ndoola pilots,20 Ampari,69 West Papuan,6 Zapotec profiles/3 Uto-Aztecan bound citations,26 Wubuy,54 Jejueo/Harsusi/Zaiwa and39 Maltese. Accepted7,349 constructions/2,073,083 records/469,615 supported core; supported slots+248/core+144, mapped+327/core+223. No existing primary changes;1,558 GLED primaries and57,523 GLED-only slots. All2,072,746 older records/readings/native cognacy/comments preserved, no older mapping/score/derived role changes.
+
+Pinned native-preserving CLDF acquisition retains full plural/dialect/digital-link/alternative fields and attribution. Four registered namespaces20,809 rows reproduce, American namespaces189 and RefLex80 reproduce; actual metadata extents corrected without rewriting older evidence. Source conversion is explicitly upstream, never automatically author-supplied IPA. Source/profile token validity is not a linguistic quality certificate. Goo/Buu/Ndoola are written-only, NC-SA archive terms explicit; Bu canonical zara1252/zbu, not legacy gji.
+
+Held Nda’nda’ slash conversions/villages; HGN Australian spelling conventions; Harsusi emphatics and star nasalization loss; tiny thematic Zapotec primary preference. Oceanic78515 rows/78044 exact existing ABVD member/value/concept matches, no new independent witness. Urim63545 inaccessible, Yeri dictionary terms/entry attribution unresolved. Acquired original CIE SupplementumI: neri index printed31/PDF39, segmentation uncertainty PDF28/34, no semantic repair. Exact EW pages remain unavailable. Coptic Gamma file acquired but no S-labelled lexical form, no admission. Existing proto inventories unchanged/written. See WORLDWIDE_R_EXECUTION_2026-10-30.md, measured summary and exact hold CSV.
+
+479 tests both HAVE_UTF8PROC flag states, full lint,18 affected constructions,11 browser suites,401 artifact/3 aggregate hashes,14 source pins,21,078 native-row reproductions and8 exact dictionary reading reproductions pass. Publication verification follows the data commit. STATUS/NEXT/HELD/history/packets/recipes and local memory updated.
+
 ## 2026-10-30 — Worldwide recommendations after JOHD/HGN (planning only)
 
 User requested worldwide next steps. Accepted baseline remains7,346 constructions/2,072,746 records/469,471 supported core/1,558 GLED primaries. Refreshed additive screen6,794 member leads (602 South American/900 American),150 guarded alternatives,855 GLED alternatives; missing intake exact-code121 members (36 language/67 dialect/17 family/one unknown), with the only language-level30+ row case being already-resolved Momi/Mom Jango. No lexical execution authorized by the planning request.

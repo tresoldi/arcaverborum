@@ -1,0 +1,13 @@
+av_id: afa-maltese
+name: Maltese
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R08
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: ratcliffearabic
+  forms: 139
+  supported_core: 98
+  source_statuses:
+    source: 139
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

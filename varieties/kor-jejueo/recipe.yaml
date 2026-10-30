@@ -1,0 +1,13 @@
+av_id: kor-jejueo
+name: Jejueo
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R07
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: leekoreanic
+  forms: 176
+  supported_core: 102
+  source_statuses:
+    source: 176
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

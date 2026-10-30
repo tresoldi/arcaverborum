@@ -1,0 +1,19 @@
+av_id: man-goo
+name: Goo
+r02_review:
+  status: accepted_written_pilot
+  primary: reflexrpilots
+  forms: 24
+  supported_core: 0
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R02
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: reflexrpilots
+  forms: 24
+  supported_core: 0
+  source_statuses:
+    unclean: 24
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

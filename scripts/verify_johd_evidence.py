@@ -34,7 +34,12 @@ with sqlite3.connect((ROOT / 'intake/intake.sqlite').as_uri() + '?mode=ro', uri=
         for filename in ['parameters_raw.csv', 'languages.csv', 'metadata.csv']:
             want = [r for r in read(stage / 'lexibank' / filename) if r['Dataset'] == ds]
             current = [r for r in read(ROOT / 'intake/lexibank' / filename) if r['Dataset'] == ds]
-            assert want == current, (ds, filename)
+            # Additive intake migration preserves earlier row order; a complete
+            # native re-extraction can interleave the newly reviewed citations.
+            key = 'Dataset' if filename == 'metadata.csv' else 'ID'
+            assert len({r[key] for r in want}) == len(want)
+            assert len({r[key] for r in current}) == len(current)
+            assert sorted(want, key=lambda r: r[key]) == sorted(current, key=lambda r: r[key]), (ds, filename)
         counts[ds] = result['forms']
-assert counts == dict(hgnphonemic=71, hgnphonemicdepth=20, johdproto=60)
-print(json.dumps(dict(resource_hashes=checks, complete_namespaces=counts, native_rows=151)))
+assert counts == dict(hgnphonemic=109, hgnphonemicdepth=20, johdproto=60)
+print(json.dumps(dict(resource_hashes=checks, complete_namespaces=counts, native_rows=sum(counts.values()))))

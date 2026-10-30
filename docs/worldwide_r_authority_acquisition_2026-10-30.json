@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "coptic-gamma.xml",
+    "url": "https://raw.githubusercontent.com/CopticScriptorium/dictionary/d39e8a844779c8e7f89f88a78e21c1e92957f1f1/xml/03_Gamma.xml",
+    "sha256": "de5a710536ce2635884821e76d053b4c80b99d4fb4e678b8339af3a7fd78b899",
+    "bytes": 1736
+  },
+  {
+    "filename": "cie-supplementum-I.pdf",
+    "url": "https://www.studietruschi.org/wp-content/uploads/2025/01/Supplementum_I.pdf",
+    "sha256": "7b2e3e333e546b11bf0d83bcb1566f2e08cafaeda18ff3beaa26119774fceaae",
+    "bytes": 53871945,
+    "text_extraction": "PyMuPDF; complete PDF pages retained locally"
+  },
+  {
+    "filename": "goo2020.pdf",
+    "url": "https://llacan.cnrs.fr/PDF/Mandenkan63/63_1aplonova.pdf",
+    "sha256": "5c53b5f8a85c31c529dd675f7797e0d3b0eca88dbb12999037b7c7bcb2bd4828",
+    "bytes": 869663,
+    "text_extraction": "PyMuPDF; complete PDF pages retained locally"
+  },
+  {
+    "filename": "buu2008.pdf",
+    "url": "https://llacan.cnrs.fr/publications/Caron2008_Zaranda.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "filename": "ndoola2014.pdf",
+    "url": "https://rogerblench.info/Language/Niger-Congo/Bantoid/Mambiloid/Ndoro/Ndoola%20wordlist.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

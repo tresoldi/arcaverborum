@@ -13,3 +13,7 @@ Both pinned CC BY dictionaries are active intake sources; only19 authored
 profile records are accepted here. PDLMA tone/checked-nucleus notation is
 documented; rearticulation, morphology, ambiguous nd/r and spreading stay held.
 Existing GLED primary remains: reviewed core subset does not justify replacement.
+
+## R05 exact dictionary profile extension
+
+Finite existing source-specific rules reproduced for the newly admitted citations; see docs/worldwide_r05_profiles_2026-10-30.csv. Tone, quantity and unreviewed environments remain bounded. Previous profiles and records are retained.

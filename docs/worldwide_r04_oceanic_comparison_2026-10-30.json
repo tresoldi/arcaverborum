@@ -1,0 +1,11 @@
+{
+  "source": "lexibank/abvdoceanic v0.3",
+  "rows": 78515,
+  "samples": 418,
+  "canonical_codes": 411,
+  "exact_member_value_concept_matches": {
+    "abvd": 78044,
+    "abvd2026": 75753
+  },
+  "interpretation": "Same ABVD source genealogy. Equality is an overlap diagnostic, not independence or a phonetic-quality certificate. Unmatched strings may reflect changed editions, splits or annotations, not verified gains. No Oceanic rows admitted in this bounded review; author/member and original transcription must be compared before replacing existing evidence."
+}

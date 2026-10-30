@@ -8,3 +8,15 @@ north_america_2026_10_28:
   supported_core: 41/161
   report: docs/NORTH_AMERICA_EXPANSION_2026-10-28.md
   guarded_admissions: custom/supplements.csv
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R05
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: gled
+  forms: 75
+  supported_core: 42
+  source_statuses:
+    source: 50
+    profile: 25
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.

@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Worldwide R01–R09,2026-10-30](../WORLDWIDE_R_EXECUTION_2026-10-30.md):337 records,248 supported slots/144 core, three substantive written-language pilots, native-preserving source acquisition and exact evidence holds. [Metrics](../worldwide_r_summary_2026-10-30.json).
+
 * [JOHD/HGN J01–J04,2026-10-29](../JOHD_EVIDENCE_EXECUTION_2026-10-29.md):151 records,64 supported slots/45 core, three explicitly written reconstruction inventories, original HGN recovery and ten exact semantic mappings. [Metrics](../johd_execution_summary_2026-10-29.json).
 
 * [Worldwide Q01–Q08,2026-10-29](../WORLDWIDE_Q_EXECUTION_2026-10-29.md):325 records, two24-entry written language pilots, three primary changes, native-evidence preservation, dictionary depth and exact Etruscan edition acquisition. [Metrics](../worldwide_q_summary_2026-10-29.json).
@@ -107,4 +109,4 @@ ranking is linked from STATUS; refresh it after relevant intake or build changes
 
 ## Worldwide planning after JOHD/HGN
 
-* [R01–R09,2026-10-30](../WORLDWIDE_AFTER_J_PLAN_2026-10-30.md): refreshed rankings, original RefLex missing-language candidates, newly inspected African/Papuan/Maltese source releases and Australian phonemic-only recovery; planning only.
+* [R01–R09,2026-10-30](../WORLDWIDE_AFTER_J_PLAN_2026-10-30.md): refreshed rankings, original RefLex missing-language candidates, newly inspected African/Papuan/Maltese source releases and Australian phonemic-only recovery; historical proposal, subsequently executed in the R report above.

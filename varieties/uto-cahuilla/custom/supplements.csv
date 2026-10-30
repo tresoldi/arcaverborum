@@ -1,0 +1,2 @@
+source,source_form_id,source_language_id,source_glottocode,evidence_sha256,expected_source_concepticon_id,concept_id,decision,mapping_decision,rationale
+utoaztecan,utoaztecan_Cahuilla-51_foot-1,utoaztecan_Cahuilla,cahu1264,d69b77b0bc3d783d70650b306e12544c683098bdc13be63f3f4380f6d90d39ef,1301,bod-foot,admit,reviewed_override,"R05 exact Cahuilla foot citation/sense; original leading hyphen retained as bound morphology, not an inferred standalone word. Existing source conversion retained and no transferred primary cognacy."

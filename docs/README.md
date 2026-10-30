@@ -48,6 +48,7 @@ configs, guarded ledgers or current generated evidence.
   inspect their packets and authored ledgers before regenerating profiles.
 * **Concept/source drift:** `build.py concepts`, `audit_core_pilots.py`,
   `audit_source_refresh.py` and source-specific guarded review compilers.
+* **Pinned upstream CLDF:** `stage_reviewed_cldf.py --dataset NAME --fetch` stages native-preserving releases from `reviewed_cldf_sources.json`; `verify_reviewed_cldf.py` checks complete accepted namespaces. Original rows, village identity, plural forms and digital links remain in each record; upstream profiles remain attributed conversions.
 * **Safe intake changes:** stage outside active intake. `append_source_intake.py`
   handles a new namespace; `expand_source_intake.py` handles strictly additive
   expansion with immutable earlier evidence. Other changes need reviewed migrations.

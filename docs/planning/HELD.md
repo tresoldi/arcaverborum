@@ -5,6 +5,17 @@ Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+## Worldwide R01–R09 closure —2026-10-30
+
+[Execution](../WORLDWIDE_R_EXECUTION_2026-10-30.md) and [exact held cases](../worldwide_r_holds_2026-10-30.csv) supersede the planning baselines. All nine bounded tracks closed. Goo24/Bu27/Ndoola29 are admitted written pilots; their language absence is spent, their pronunciation authority is a separate gate. Newly acquired Goo original PDF permits finite future review; original Buu PDF404/Ndoola403 do not justify guessed profiles.
+
+Nda’nda’ slash alternatives and exact villages remain unresolved (Nyep=Batoufam bato1245; Zua blank code cannot join blank reconstructions). Ampari20 simple original citations complete; plural/context strings retained, remaining nasalization/compound rules need original comparison. Berry69 citations complete across four named samples; Abun Ji/Tat separate. Oceanic matching ABVD78515/78044 strings is not independent evidence. Urim63545 official archive403; Yeri original dictionary terms/entry attribution remain gates.
+
+Zapotec six further finite profiles complete, source-wide primary preference remains a thematic/lect review—not a GLED count veto. Three Uto-Aztecan bound citations complete; other slash conversions held. Wubuy26 complete; Australian HGN field labels do not establish IPA for source-specific spelling/annotations. Jejueo22/Harsusi21/Zaiwa11 complete; Harsusi emphatic realization and nasalization-losing star still held. Maltese39 original phonetic-field records complete, English placeholders/contextual reductions excluded.
+
+Etruscan original CIE supplement acquired; neri index at printed31/PDF39 is attestation rather than meaning authority, PDF28/34 keeps segmentation uncertain. EW111/499/600 exact Elamite pages still unavailable from a fresh catalogue route. New pinned Coptic Gamma contains an unlabelled numeral rather than an exact S-labelled lexical form; no admission. Three analytical reconstructed inventories retain written-only status pending edition authority.
+
+
 ## JOHD/HGN J01–J04 closure —2026-10-29
 
 [Execution](../JOHD_EVIDENCE_EXECUTION_2026-10-29.md) supersedes the original Nadëb acquisition gap for the admitted48 Roçado/23 Rio Negro citations; one earlier mystery-vowel record remains unchanged. Yabarana20 source citations admitted separately; other native alternatives, colon/underbar/accent/morphology cases need exact review.101-member raw counts are not new gains. Bará's own HGN Notes leave identity uncertain (possible Barasano/Waimaha affiliation); need exact Huber/Reed member evidence. Sanapaná/Enlhet labelled member394 mapped to toba1268 remains an identity hold.

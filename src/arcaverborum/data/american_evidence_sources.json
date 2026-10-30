@@ -8,7 +8,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "citation": "Bowern, Epps, Hill and McConvell2013. Languages of Hunter-Gatherers and their Neighbors; exact Nadëb/Roçado122 and Rio Negro121 phonemic fields, frozen Lexibank v2.0 raw JSON. Original authorities: Martins2005 (LOT104); Rio Negro additionally Barbosa2005, Martins/Senn1999, Weir1984 as reported by HGN.",
     "genealogy": "Original HGN source tradition, reused through its pinned raw JSON; not independent confirmation of Hunter-Gatherer-derived copies, ASJP or GLED.",
-    "review": "docs/johd_j01_hgn_review_2026-10-29.csv",
+    "review": "docs/worldwide_r01_hgn_review_2026-10-30.csv",
     "resources": [
       {
         "filename": "122.json",

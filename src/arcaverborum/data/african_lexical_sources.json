@@ -282,5 +282,45 @@
         "sha256": "80081ddffd8687c3afed3b43392235fda38a3a5930e46d7417ccc72aa63a2405"
       }
     ]
+  },
+  {
+    "dataset": "reflexrpilots",
+    "name": "Original RefLex Goo, Buu and Ndoola reviewed pilots",
+    "version": "Nakala10.34847/nkl.e3cbkjzm-records-ac96f29b212df5d6",
+    "url": "https://nakala.fr/10.34847/nkl.e3cbkjzm",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "citation": "Segerer et al.2025/2026 RefLex-CLLD v1.0; Nakala April2026 export DOI10.34847/nkl.e3cbkjzm. Original lexical editions: Aplonova2020 Dictionnaire goo–français, Mandenkan63:3–67; Caron2008 Bu: aka Zaranda, pp93–119; Connell and Blench2014 A preliminary assessment of Ndoola (Ndoro).",
+    "genealogy": "Same frozen RefLex archive as earlier namespaces, not independent corroboration. Exact original members3573/2138 retained; Basa-Benue Nigeria is distinct from Basa Cameroon, and Gimme/Kompana from Gimnime.",
+    "review": "docs/worldwide_r02_reflex_review_2026-10-30.csv",
+    "resources": [
+      {
+        "key": "reflex",
+        "kind": "reflex",
+        "filename": "records.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/dcc56cac85c0f20bad49e386656b96041e197ac8",
+        "sha256": "ac96f29b212df5d605c1c3f3526b5d1573337697934143735a1b9d198e2247aa"
+      },
+      {
+        "key": "sources",
+        "kind": "tsv_metadata",
+        "filename": "sources.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/081618ff04ea5593aca28c5f501516ac181d7799",
+        "sha256": "639b5df1d4dc7af1c2094a31b485c9b1e96d1ec1ed63a40999024885b721efb1"
+      },
+      {
+        "key": "languages",
+        "kind": "tsv_metadata",
+        "filename": "langues.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/f627eef8264f3eba0210d0669f75219ab08e20d4",
+        "sha256": "f9814ae1fd2dcc418f50cfdcb1cd733f92bcb7917d98976e9593e45f46ca4a1a"
+      },
+      {
+        "key": "references",
+        "kind": "tsv_metadata",
+        "filename": "references.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/af5586ab41db11f3dbe356656415e955aaccd5d4",
+        "sha256": "80081ddffd8687c3afed3b43392235fda38a3a5930e46d7417ccc72aa63a2405"
+      }
+    ]
   }
 ]

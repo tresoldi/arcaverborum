@@ -1,0 +1,13 @@
+av_id: wea-moraid
+name: Moraid
+worldwide_r_review_2026_10_30:
+  status: accepted_bounded_review
+  track: R04
+  report: ../../docs/WORLDWIDE_R_EXECUTION_2026-10-30.md
+  primary: transnewguineaorg
+  forms: 54
+  supported_core: 46
+  source_statuses:
+    source: 54
+  preservation: All preceding readings/native cognacy/comments retained; no source-wide
+    unreviewed pronunciation inference.
