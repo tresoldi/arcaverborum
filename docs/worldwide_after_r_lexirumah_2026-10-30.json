@@ -1,0 +1,2436 @@
+{
+  "repository": "lessersunda/lexirumah-data",
+  "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+  "forms": 117802,
+  "members": 356,
+  "concepts": 608,
+  "canonical_codes": 230,
+  "missing_exact_members": [
+    {
+      "member": "pura1258",
+      "Name": "Blagar, Pura",
+      "glottocode": "pura1258",
+      "level": "dialect",
+      "rows": 623
+    },
+    {
+      "member": "idat1237",
+      "Name": "Idate",
+      "glottocode": "idat1237",
+      "level": "language",
+      "rows": 272
+    },
+    {
+      "member": "lama1277-baipi",
+      "Name": "Ile Mandiri Lamaholot, Baipito",
+      "glottocode": "baip1234",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-bama",
+      "Name": "Ile Mandiri Lamaholot, Bama",
+      "glottocode": "bama1253",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-belan",
+      "Name": "Kawela Lamaholot, Belang",
+      "glottocode": "bela1261",
+      "level": "dialect",
+      "rows": 197
+    },
+    {
+      "member": "lama1277-botun",
+      "Name": "Adonara Lamaholot, Botun",
+      "glottocode": "botu1239",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-dulhi",
+      "Name": "Adonara Lamaholot, Dulhi",
+      "glottocode": "dulh1234",
+      "level": "dialect",
+      "rows": 198
+    },
+    {
+      "member": "lama1277-horow",
+      "Name": "Adonara Lamaholot, Horowura",
+      "glottocode": "horo1249",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-ileap",
+      "Name": "Ile Ape Lamaholot",
+      "glottocode": "ilea1237",
+      "level": "language",
+      "rows": 197
+    },
+    {
+      "member": "lama1277-imulo",
+      "Name": "Labalekan, Imulolo",
+      "glottocode": "imul1234",
+      "level": "dialect",
+      "rows": 201
+    },
+    {
+      "member": "lama1277-kalik",
+      "Name": "Central Lembata, Kalikasa",
+      "glottocode": "kali1300",
+      "level": "dialect",
+      "rows": 864
+    },
+    {
+      "member": "lama1277-kiwan",
+      "Name": "Adonara Lamaholot, Kiwangona",
+      "glottocode": "kiwa1252",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-lamah",
+      "Name": "Lebatukan Lamaholot, Lamahora",
+      "glottocode": "lama1300",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-lamak",
+      "Name": "Adonara Lamaholot, Lamakera",
+      "glottocode": "lama1298",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-lamal",
+      "Name": "Lamalera Lamaholot",
+      "glottocode": "lama1299",
+      "level": "dialect",
+      "rows": 203
+    },
+    {
+      "member": "lama1277-lamat",
+      "Name": "Lamatuka",
+      "glottocode": "lama1279",
+      "level": "language",
+      "rows": 202
+    },
+    {
+      "member": "lama1277-lewoe",
+      "Name": "Lewo Eleng",
+      "glottocode": "lewo1243",
+      "level": "language",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-lewok",
+      "Name": "Central Lembata, Lewokukun",
+      "glottocode": "lewo1247",
+      "level": "dialect",
+      "rows": 197
+    },
+    {
+      "member": "lama1277-lewog",
+      "Name": "Ile Mandiri Lamaholot, Lewolaga",
+      "glottocode": "lewo1249",
+      "level": "dialect",
+      "rows": 199
+    },
+    {
+      "member": "lama1277-lewom",
+      "Name": "Ile Mandiri Lamaholot, Lewolema",
+      "glottocode": "lewo1251",
+      "level": "dialect",
+      "rows": 198
+    },
+    {
+      "member": "lama1277-lewop",
+      "Name": "Labalekan, Lewopenutu",
+      "glottocode": "lewo1245",
+      "level": "dialect",
+      "rows": 202
+    },
+    {
+      "member": "lama1277-lewot",
+      "Name": "Labalekan, Lewotala",
+      "glottocode": "lewo1246",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-lewob",
+      "Name": "Lewotobi Lamaholot",
+      "glottocode": "lewo1244",
+      "level": "language",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-lewuk",
+      "Name": "Central Lembata, Lewuka",
+      "glottocode": "nucl1535",
+      "level": "dialect",
+      "rows": 198
+    },
+    {
+      "member": "lama1277-merde",
+      "Name": "Lebatukan Lamaholot, Merdeka",
+      "glottocode": "merd1234",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-minga",
+      "Name": "Mingar",
+      "glottocode": "ming1256",
+      "level": "dialect",
+      "rows": 196
+    },
+    {
+      "member": "lama1277-mulan",
+      "Name": "Mulan Lamaholot",
+      "glottocode": "mula1255",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-paina",
+      "Name": "Painara",
+      "glottocode": "sout2896",
+      "level": "language",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-pukau",
+      "Name": "Pukaunu Lamaholot",
+      "glottocode": "puka1244",
+      "level": "language",
+      "rows": 198
+    },
+    {
+      "member": "lama1277-ritae",
+      "Name": "Ile Mandiri Lamaholot, Ritaebang",
+      "glottocode": "west2543",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-tanju",
+      "Name": "Ile Mandiri Lamaholot, Tanjung",
+      "glottocode": "tanj1250",
+      "level": "dialect",
+      "rows": 198
+    },
+    {
+      "member": "lama1277-waiba",
+      "Name": "Ile Mandiri Lamaholot, Waibalun",
+      "glottocode": "waib1246",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-waiwa",
+      "Name": "Adonara Lamaholot, Waiwadan",
+      "glottocode": "waiw1246",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-watan",
+      "Name": "Adonara Lamaholot, Watan",
+      "glottocode": "wata1254",
+      "level": "dialect",
+      "rows": 197
+    },
+    {
+      "member": "lama1277-wuake",
+      "Name": "Kawela Lamaholot, Wuakerong",
+      "glottocode": "wuak1234",
+      "level": "dialect",
+      "rows": 200
+    },
+    {
+      "member": "lama1277-lerek",
+      "Name": "Painara, Lerek",
+      "glottocode": "sout2896",
+      "level": "language",
+      "rows": 590
+    },
+    {
+      "member": "p-cent2245-abvd",
+      "Name": "proto-Central-MP-ABVD",
+      "glottocode": "cent2245",
+      "level": "",
+      "rows": 221
+    },
+    {
+      "member": "sika1262-tanai",
+      "Name": "Sika, Tana Ai",
+      "glottocode": "tana1283",
+      "level": "dialect",
+      "rows": 752
+    },
+    {
+      "member": "tetu1245-suai",
+      "Name": "Tetun, Suai",
+      "glottocode": "sout2898",
+      "level": "dialect",
+      "rows": 517
+    },
+    {
+      "member": "dela1252",
+      "Name": "Dela",
+      "glottocode": "dela1252",
+      "level": "dialect",
+      "rows": 478
+    },
+    {
+      "member": "funa1237",
+      "Name": "Funai Helong",
+      "glottocode": "funa1237",
+      "level": "dialect",
+      "rows": 635
+    },
+    {
+      "member": "koto1251",
+      "Name": "Kotos Amarasi",
+      "glottocode": "koto1251",
+      "level": "dialect",
+      "rows": 667
+    },
+    {
+      "member": "lole1239",
+      "Name": "Lole",
+      "glottocode": "lole1239",
+      "level": "language",
+      "rows": 575
+    },
+    {
+      "member": "ngao1245-oja",
+      "Name": "Nga'o, Oja",
+      "glottocode": "ngao1245",
+      "level": "dialect",
+      "rows": 556
+    },
+    {
+      "member": "ngao1245-watum",
+      "Name": "Nga'o, Watumite",
+      "glottocode": "ngao1245",
+      "level": "dialect",
+      "rows": 559
+    },
+    {
+      "member": "p-east2519",
+      "Name": "proto-TIM",
+      "glottocode": "east2519",
+      "level": "",
+      "rows": 82
+    },
+    {
+      "member": "p-timo1261",
+      "Name": "proto-TAP",
+      "glottocode": "timo1261",
+      "level": "family",
+      "rows": 110
+    },
+    {
+      "member": "ring1244",
+      "Name": "Rikou",
+      "glottocode": "ring1244",
+      "level": "language",
+      "rows": 317
+    },
+    {
+      "member": "seba1248",
+      "Name": "Hawu, Seba",
+      "glottocode": "seba1248",
+      "level": "dialect",
+      "rows": 468
+    },
+    {
+      "member": "tiii1241",
+      "Name": "Tii",
+      "glottocode": "tiii1241",
+      "level": "language",
+      "rows": 589
+    },
+    {
+      "member": "west2547-welaun",
+      "Name": "Welaun",
+      "glottocode": "wela1235",
+      "level": "language",
+      "rows": 617
+    },
+    {
+      "member": "kusa1252",
+      "Name": "Kusa-Manea",
+      "glottocode": "kusa1252",
+      "level": "dialect",
+      "rows": 317
+    },
+    {
+      "member": "sarr1247",
+      "Name": "Sar",
+      "glottocode": "sarr1247",
+      "level": "language",
+      "rows": 577
+    },
+    {
+      "member": "ilpu1239",
+      "Name": "Aputai",
+      "glottocode": "ilpu1239",
+      "level": "dialect",
+      "rows": 185
+    },
+    {
+      "member": "ilma1240",
+      "Name": "Ili'uun, Ilmaumau",
+      "glottocode": "ilma1240",
+      "level": "dialect",
+      "rows": 185
+    },
+    {
+      "member": "uhak1237",
+      "Name": "Perai",
+      "glottocode": "uhak1237",
+      "level": "dialect",
+      "rows": 185
+    },
+    {
+      "member": "rois1241",
+      "Name": "Ro'is Amarasi",
+      "glottocode": "rois1241",
+      "level": "dialect",
+      "rows": 403
+    },
+    {
+      "member": "sibo1242",
+      "Name": "Suboo",
+      "glottocode": "sibo1242",
+      "level": "dialect",
+      "rows": 506
+    },
+    {
+      "member": "kaha1239",
+      "Name": "Tugun",
+      "glottocode": "kaha1239",
+      "level": "dialect",
+      "rows": 185
+    },
+    {
+      "member": "luan1264",
+      "Name": "Luang",
+      "glottocode": "luan1264",
+      "level": "dialect",
+      "rows": 193
+    },
+    {
+      "member": "sibo1242-atii",
+      "Name": "Suboo, Atiibaai",
+      "glottocode": "sibo1242",
+      "level": "dialect",
+      "rows": 310
+    },
+    {
+      "member": "tiay1238",
+      "Name": "Tiyei",
+      "glottocode": "tiay1238",
+      "level": "dialect",
+      "rows": 353
+    },
+    {
+      "member": "waer1237",
+      "Name": "Waerana",
+      "glottocode": "waer1237",
+      "level": "language",
+      "rows": 552
+    },
+    {
+      "member": "cent2355-boaw",
+      "Name": "Nage, Central",
+      "glottocode": "cent2355",
+      "level": "dialect",
+      "rows": 212
+    },
+    {
+      "member": "wanc1238",
+      "Name": "Tukang Besi, Wanci",
+      "glottocode": "wanc1239",
+      "level": "dialect",
+      "rows": 178
+    },
+    {
+      "member": "tome1238",
+      "Name": "Tukang Besi, Tomea",
+      "glottocode": "tome1238",
+      "level": "dialect",
+      "rows": 175
+    },
+    {
+      "member": "bino1238-popal",
+      "Name": "Tukang Besi, Binongko Popalia",
+      "glottocode": "bino1238",
+      "level": "dialect",
+      "rows": 182
+    },
+    {
+      "member": "samp1253-buka",
+      "Name": "Cia-Cia, Buka",
+      "glottocode": "samp1253",
+      "level": "dialect",
+      "rows": 203
+    },
+    {
+      "member": "samp1253-mambu",
+      "Name": "Cia-Cia, Mambulu",
+      "glottocode": "samp1253",
+      "level": "dialect",
+      "rows": 205
+    },
+    {
+      "member": "wabu1242",
+      "Name": "Cia-Cia, Wabula",
+      "glottocode": "wabu1242",
+      "level": "dialect",
+      "rows": 575
+    },
+    {
+      "member": "kamb1300",
+      "Name": "Kambowa",
+      "glottocode": "kamb1300",
+      "level": "dialect",
+      "rows": 357
+    },
+    {
+      "member": "kamb1300-lagu",
+      "Name": "Kambowa, Lagundi",
+      "glottocode": "kamb1300",
+      "level": "dialect",
+      "rows": 175
+    },
+    {
+      "member": "nucl1574-boneg",
+      "Name": "Kioko, Bonegunu",
+      "glottocode": "nucl1574",
+      "level": "dialect",
+      "rows": 372
+    },
+    {
+      "member": "nucl1574",
+      "Name": "Kioko",
+      "glottocode": "nucl1574",
+      "level": "dialect",
+      "rows": 176
+    },
+    {
+      "member": "kale1247",
+      "Name": "Pancana, Kalende",
+      "glottocode": "kale1247",
+      "level": "dialect",
+      "rows": 181
+    },
+    {
+      "member": "kapo1248",
+      "Name": "Pancana, Kapontori Soropia",
+      "glottocode": "kapo1248",
+      "level": "dialect",
+      "rows": 229
+    },
+    {
+      "member": "guuu1237-kolow",
+      "Name": "Muna, Kolowa",
+      "glottocode": "guuu1237",
+      "level": "dialect",
+      "rows": 182
+    },
+    {
+      "member": "mawa1264-masil",
+      "Name": "Muna, Wasilomata",
+      "glottocode": "mawa1264",
+      "level": "dialect",
+      "rows": 202
+    },
+    {
+      "member": "kato1242",
+      "Name": "Muna, Katobengke",
+      "glottocode": "kato1242",
+      "level": "dialect",
+      "rows": 156
+    },
+    {
+      "member": "laku1237",
+      "Name": "Muna, Lakudo",
+      "glottocode": "laku1237",
+      "level": "dialect",
+      "rows": 156
+    },
+    {
+      "member": "mawa1264",
+      "Name": "Muna, Mawasangka",
+      "glottocode": "mawa1264",
+      "level": "dialect",
+      "rows": 155
+    },
+    {
+      "member": "guuu1237-lombe",
+      "Name": "Muna, Lombe",
+      "glottocode": "guuu1237",
+      "level": "dialect",
+      "rows": 157
+    },
+    {
+      "member": "guuu1237-bombo",
+      "Name": "Muna, Bombonawulu",
+      "glottocode": "guuu1237",
+      "level": "dialect",
+      "rows": 142
+    },
+    {
+      "member": "siom1237",
+      "Name": "Muna, Siompu",
+      "glottocode": "siom1237",
+      "level": "dialect",
+      "rows": 183
+    },
+    {
+      "member": "siom1237-molon",
+      "Name": "Muna, Siompu Molona",
+      "glottocode": "siom1237",
+      "level": "dialect",
+      "rows": 118
+    },
+    {
+      "member": "kada1289",
+      "Name": "Muna, Kadatua",
+      "glottocode": "kada1289",
+      "level": "dialect",
+      "rows": 198
+    },
+    {
+      "member": "kato1242-lakar",
+      "Name": "Muna, Lakaramba",
+      "glottocode": "kato1242",
+      "level": "dialect",
+      "rows": 184
+    },
+    {
+      "member": "kala1394",
+      "Name": "Kalao",
+      "glottocode": "kala1394",
+      "level": "language",
+      "rows": 487
+    },
+    {
+      "member": "kala1394-lambe",
+      "Name": "Kalao, Lambego",
+      "glottocode": "kala1394",
+      "level": "language",
+      "rows": 318
+    },
+    {
+      "member": "nucl1577",
+      "Name": "Laiyolo",
+      "glottocode": "nucl1577",
+      "level": "dialect",
+      "rows": 308
+    },
+    {
+      "member": "bara1372",
+      "Name": "Laiyolo, Barang-Barang",
+      "glottocode": "bara1372",
+      "level": "dialect",
+      "rows": 309
+    },
+    {
+      "member": "kaba1285-kaba",
+      "Name": "Moronene, Kabaena",
+      "glottocode": "kaba1285",
+      "level": "dialect",
+      "rows": 182
+    },
+    {
+      "member": "rumb1240",
+      "Name": "Moronene, Rumbia",
+      "glottocode": "rumb1240",
+      "level": "dialect",
+      "rows": 184
+    },
+    {
+      "member": "kaba1285",
+      "Name": "Moronene",
+      "glottocode": "kaba1285",
+      "level": "dialect",
+      "rows": 183
+    },
+    {
+      "member": "kona1243",
+      "Name": "Tolaki, Konawe",
+      "glottocode": "kona1243",
+      "level": "dialect",
+      "rows": 152
+    },
+    {
+      "member": "stan1308",
+      "Name": "Muna",
+      "glottocode": "stan1308",
+      "level": "dialect",
+      "rows": 224
+    },
+    {
+      "member": "guuu1237-lolib",
+      "Name": "Southern Muna",
+      "glottocode": "guuu1237",
+      "level": "dialect",
+      "rows": 198
+    },
+    {
+      "member": "masi1269",
+      "Name": "Cia-Cia, Masiri",
+      "glottocode": "masi1269",
+      "level": "dialect",
+      "rows": 417
+    },
+    {
+      "member": "bino1238",
+      "Name": "Tukang Besi, Binongko",
+      "glottocode": "bino1238",
+      "level": "dialect",
+      "rows": 272
+    },
+    {
+      "member": "wali1265",
+      "Name": "Cia-Cia, Wali",
+      "glottocode": "wali1265",
+      "level": "dialect",
+      "rows": 430
+    },
+    {
+      "member": "taki1249",
+      "Name": "Cia-Cia, Takimpo",
+      "glottocode": "taki1249",
+      "level": "dialect",
+      "rows": 269
+    },
+    {
+      "member": "bura1274",
+      "Name": "Cia-Cia, Burangasi",
+      "glottocode": "bura1274",
+      "level": "dialect",
+      "rows": 269
+    },
+    {
+      "member": "west2547-mahein",
+      "Name": "Welaun, Mahein",
+      "glottocode": "wela1235",
+      "level": "language",
+      "rows": 243
+    },
+    {
+      "member": "pati1239",
+      "Name": "Patipi",
+      "glottocode": "pati1239",
+      "level": "dialect",
+      "rows": 160
+    },
+    {
+      "member": "remb1250",
+      "Name": "Rembong",
+      "glottocode": "nucl1516",
+      "level": "dialect",
+      "rows": 811
+    },
+    {
+      "member": "weri1246",
+      "Name": "Kemberano, Weriagar",
+      "glottocode": "weri1246",
+      "level": "dialect",
+      "rows": 277
+    },
+    {
+      "member": "seti1246",
+      "Name": "Seti",
+      "glottocode": "seti1246",
+      "level": "dialect",
+      "rows": 201
+    },
+    {
+      "member": "elat1240",
+      "Name": "Banda",
+      "glottocode": "elat1240",
+      "level": "dialect",
+      "rows": 204
+    },
+    {
+      "member": "mano1275",
+      "Name": "Manombai",
+      "glottocode": "mano1275",
+      "level": "language",
+      "rows": 192
+    },
+    {
+      "member": "habu1241",
+      "Name": "Habun",
+      "glottocode": "habu1241",
+      "level": "language",
+      "rows": 216
+    },
+    {
+      "member": "midi1237",
+      "Name": "Midiki",
+      "glottocode": "midi1237",
+      "level": "dialect",
+      "rows": 217
+    },
+    {
+      "member": "idat1237-cribas",
+      "Name": "Idate",
+      "glottocode": "idat1237",
+      "level": "language",
+      "rows": 215
+    }
+  ],
+  "sparse_members": [
+    {
+      "member": "bima1247",
+      "source_name": "Bima",
+      "rows": 875,
+      "av_id": "map-bima",
+      "accepted_forms": 246,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "rong1269",
+      "source_name": "Rongga",
+      "rows": 847,
+      "av_id": "map-rongga",
+      "accepted_forms": 2,
+      "supported_core": 0,
+      "primary": "wiktionary"
+    },
+    {
+      "member": "waim1252",
+      "source_name": "Waima'a",
+      "rows": 726,
+      "av_id": "map-waima-a",
+      "accepted_forms": 267,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "weta1243",
+      "source_name": "Wetan",
+      "rows": 693,
+      "av_id": "map-wetan",
+      "accepted_forms": 177,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "rett1240-hula",
+      "source_name": "Reta, Hula",
+      "rows": 690,
+      "av_id": "tim-reta",
+      "accepted_forms": 2,
+      "supported_core": 0,
+      "primary": "wiktionary"
+    },
+    {
+      "member": "p-mala1545-acd",
+      "source_name": "proto-MP-ACD",
+      "rows": 686,
+      "av_id": "map-malayo-polynesian",
+      "accepted_forms": 471,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "lioo1240",
+      "source_name": "Lio",
+      "rows": 679,
+      "av_id": "map-li-o",
+      "accepted_forms": 211,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "lamb1273",
+      "source_name": "Lamboya",
+      "rows": 669,
+      "av_id": "map-lamboya",
+      "accepted_forms": 220,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ende1246",
+      "source_name": "Ende",
+      "rows": 648,
+      "av_id": "map-ende",
+      "accepted_forms": 153,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "keoo1238",
+      "source_name": "Keo, Udiworowatu",
+      "rows": 634,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "kamb1299",
+      "source_name": "Kambera",
+      "rows": 633,
+      "av_id": "map-kambera",
+      "accepted_forms": 978,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "komo1261",
+      "source_name": "Komodo",
+      "rows": 632,
+      "av_id": "map-komodo",
+      "accepted_forms": 145,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "rett1240",
+      "source_name": "Reta, Pura",
+      "rows": 624,
+      "av_id": "tim-reta",
+      "accepted_forms": 2,
+      "supported_core": 0,
+      "primary": "wiktionary"
+    },
+    {
+      "member": "kumb1274",
+      "source_name": "Kumbewaha",
+      "rows": 619,
+      "av_id": "map-kumbewaha",
+      "accepted_forms": 660,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "lama1277-adona",
+      "source_name": "Adonara Lamaholot",
+      "rows": 617,
+      "av_id": "map-adonara",
+      "accepted_forms": 52,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "kema1243-kaila",
+      "source_name": "Kemak, Kailaku",
+      "rows": 608,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "gese1240",
+      "source_name": "Geser-Gorom",
+      "rows": 605,
+      "av_id": "map-geser-gorom",
+      "accepted_forms": 203,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "lama1277-lewoi",
+      "source_name": "Ile Mandiri Lamaholot, Lewoingu",
+      "rows": 603,
+      "av_id": "map-lamaholot",
+      "accepted_forms": 218,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "keda1252-leuba",
+      "source_name": "Kedang, Leubatang",
+      "rows": 589,
+      "av_id": "map-kedang",
+      "accepted_forms": 215,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "nage1237",
+      "source_name": "Nage, East",
+      "rows": 581,
+      "av_id": "map-nage",
+      "accepted_forms": 94,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "dhao1237",
+      "source_name": "Dhao",
+      "rows": 545,
+      "av_id": "map-dhao",
+      "accepted_forms": 48,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "soaa1237",
+      "source_name": "So'a",
+      "rows": 516,
+      "av_id": "map-central-ngada",
+      "accepted_forms": 210,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "eray1237",
+      "source_name": "Ili'uun",
+      "rows": 484,
+      "av_id": "map-eray",
+      "accepted_forms": 200,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "batu1258",
+      "source_name": "Batuley",
+      "rows": 476,
+      "av_id": "map-batuley",
+      "accepted_forms": 213,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "dadu1237",
+      "source_name": "Dadu'a",
+      "rows": 465,
+      "av_id": "map-dadu-a",
+      "accepted_forms": 199,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "naue1237",
+      "source_name": "Naueti",
+      "rows": 463,
+      "av_id": "map-nauete",
+      "accepted_forms": 212,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "lasa1237",
+      "source_name": "Lasalimu",
+      "rows": 443,
+      "av_id": "map-lasalimu",
+      "accepted_forms": 221,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kumb1274-wakol",
+      "source_name": "Wakole",
+      "rows": 435,
+      "av_id": "map-kumbewaha",
+      "accepted_forms": 660,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "palu1252",
+      "source_name": "Palu'e",
+      "rows": 431,
+      "av_id": "map-palu-e",
+      "accepted_forms": 214,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kumb1274-wolow",
+      "source_name": "Wolowa",
+      "rows": 418,
+      "av_id": "map-kumbewaha",
+      "accepted_forms": 660,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-wasam",
+      "source_name": "Cia-Cia, Wasambua",
+      "rows": 417,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kaes1237",
+      "source_name": "Kaisabu",
+      "rows": 414,
+      "av_id": "map-kaesabu",
+      "accepted_forms": 215,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-lapan",
+      "source_name": "Cia-Cia, Lapandewa",
+      "rows": 410,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Slete",
+      "source_name": "South Mambae, Letefoho",
+      "rows": 402,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "galo1243",
+      "source_name": "Galolen",
+      "rows": 378,
+      "av_id": "map-galoli-talur",
+      "accepted_forms": 122,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "bone1254-kalao",
+      "source_name": "Bonerate, Kalaotoa",
+      "rows": 345,
+      "av_id": "map-bonerate",
+      "accepted_forms": 202,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-kaind",
+      "source_name": "Cia-Cia, Kaindea",
+      "rows": 334,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "keda1252-leuwa",
+      "source_name": "Kedang, Léuwayang",
+      "rows": 318,
+      "av_id": "map-kedang",
+      "accepted_forms": 215,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "rett1240-tern",
+      "source_name": "Reta, Ternate",
+      "rows": 316,
+      "av_id": "tim-reta",
+      "accepted_forms": 2,
+      "supported_core": 0,
+      "primary": "wiktionary"
+    },
+    {
+      "member": "bone1254",
+      "source_name": "Bonerate",
+      "rows": 316,
+      "av_id": "map-bonerate",
+      "accepted_forms": 202,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-pasar",
+      "source_name": "Cia-Cia, Pasarwajo",
+      "rows": 301,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243",
+      "source_name": "Kemak",
+      "rows": 293,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-batu",
+      "source_name": "Cia-Cia, Batu Atas",
+      "rows": 278,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "tuku1254",
+      "source_name": "Tokodede",
+      "rows": 276,
+      "av_id": "map-tukudede",
+      "accepted_forms": 185,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-kaong",
+      "source_name": "Cia-Cia, Kaongkeongkea",
+      "rows": 273,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "laka1255",
+      "source_name": "Lakalei",
+      "rows": 272,
+      "av_id": "map-lakalei",
+      "accepted_forms": 14,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "ciac1237-gonda",
+      "source_name": "Cia-Cia, Gonda Baru",
+      "rows": 271,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kodi1247",
+      "source_name": "Kodi",
+      "rows": 270,
+      "av_id": "map-kodi",
+      "accepted_forms": 422,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-bola",
+      "source_name": "Cia-Cia, Bola",
+      "rows": 270,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306",
+      "source_name": "Southern Mambae, Ainaro",
+      "rows": 268,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-kondo",
+      "source_name": "Cia-Cia, Kondowa",
+      "rows": 268,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-wagol",
+      "source_name": "Cia-Cia, Wagola",
+      "rows": 268,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-liwum",
+      "source_name": "Cia-Cia, Liwumpacu",
+      "rows": 268,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-tira",
+      "source_name": "Cia-Cia, Tira",
+      "rows": 268,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-mambu",
+      "source_name": "Cia-Cia, Mambulu",
+      "rows": 268,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-bahar",
+      "source_name": "Cia-Cia, Bahari",
+      "rows": 267,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-karya",
+      "source_name": "Cia-Cia, Karya Baru",
+      "rows": 267,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-kase",
+      "source_name": "Cia-Cia, Kase",
+      "rows": 266,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-bangu",
+      "source_name": "Cia-Cia, Bangun",
+      "rows": 266,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-rongi",
+      "source_name": "Cia-Cia, Rongi",
+      "rows": 262,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-gunun",
+      "source_name": "Cia-Cia, Gunung Sejuk",
+      "rows": 259,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-kaisa",
+      "source_name": "Cia-Cia, Kaisabu Baru",
+      "rows": 254,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243-leol",
+      "source_name": "Kemak, Leolima",
+      "rows": 246,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "p-mala1545-abvd",
+      "source_name": "proto-MP-ABVD",
+      "rows": 243,
+      "av_id": "map-malayo-polynesian",
+      "accepted_forms": 471,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-NWbar",
+      "source_name": "Northwest Mambae, Barzatete",
+      "rows": 241,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-NWrai",
+      "source_name": "Northwest Mambae, Railaco",
+      "rows": 241,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Claul",
+      "source_name": "Central Mambae, Laulara",
+      "rows": 241,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Sudo",
+      "source_name": "South Mambae, Hatu-Udo",
+      "rows": 241,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Caile",
+      "source_name": "Central Mambae, Aileu Vila",
+      "rows": 240,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Cliqu",
+      "source_name": "Central Mambae, Liquidoe",
+      "rows": 239,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-NWhat",
+      "source_name": "Northwest Mambae, Hatulia",
+      "rows": 238,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Chatu",
+      "source_name": "Central Mambae, Hatu-Builico",
+      "rows": 238,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243-lemi",
+      "source_name": "Kemak, Lemia",
+      "rows": 238,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243-sane",
+      "source_name": "Kemak, Saneri",
+      "rows": 238,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243-leos",
+      "source_name": "Kemak, Leosibe",
+      "rows": 238,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "mamb1306-Sbeta",
+      "source_name": "South Mambae, Betano",
+      "rows": 233,
+      "av_id": "map-mambae",
+      "accepted_forms": 187,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243-diir",
+      "source_name": "Kemak, Diirbati",
+      "rows": 233,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "seka1247",
+      "source_name": "Sekar",
+      "rows": 233,
+      "av_id": "map-sekar",
+      "accepted_forms": 191,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kema1243-kutu",
+      "source_name": "Kemak, Kutubaba",
+      "rows": 232,
+      "av_id": "map-kemak",
+      "accepted_forms": 176,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kuli1254",
+      "source_name": "Kulisusu",
+      "rows": 221,
+      "av_id": "map-kulisusu",
+      "accepted_forms": 222,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "keoo1238-kota",
+      "source_name": "Keo, Kota Keo",
+      "rows": 214,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-gero",
+      "source_name": "Keo, Gero",
+      "rows": 211,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-ndor",
+      "source_name": "Keo, Ndora",
+      "rows": 211,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-doli",
+      "source_name": "Keo, Dolima",
+      "rows": 209,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-ute",
+      "source_name": "Keo, Ute",
+      "rows": 207,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "ciac1237-batua",
+      "source_name": "Cia-Cia, Batu Atas",
+      "rows": 205,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "gese1240-geser",
+      "source_name": "Geser",
+      "rows": 202,
+      "av_id": "map-geser-gorom",
+      "accepted_forms": 203,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "bobo1254",
+      "source_name": "Bobot",
+      "rows": 201,
+      "av_id": "map-bobot",
+      "accepted_forms": 399,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "keda1252",
+      "source_name": "Kedang",
+      "rows": 199,
+      "av_id": "map-kedang",
+      "accepted_forms": 215,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-lande",
+      "source_name": "Cia-Cia, Lande",
+      "rows": 196,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "kisa1266",
+      "source_name": "Kisar",
+      "rows": 194,
+      "av_id": "map-kisar",
+      "accepted_forms": 203,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "daii1240",
+      "source_name": "Dai",
+      "rows": 193,
+      "av_id": "map-dai",
+      "accepted_forms": 123,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "dawe1237",
+      "source_name": "Dawera-Daweloor",
+      "rows": 193,
+      "av_id": "map-dawera-daweloor",
+      "accepted_forms": 128,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "cent2072",
+      "source_name": "Central Masela",
+      "rows": 192,
+      "av_id": "map-central-masela",
+      "accepted_forms": 122,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "east2472",
+      "source_name": "East Damar",
+      "rows": 192,
+      "av_id": "map-east-damar",
+      "accepted_forms": 122,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "tela1241",
+      "source_name": "Tela-Masbuar",
+      "rows": 192,
+      "av_id": "map-tela-masbuar",
+      "accepted_forms": 122,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "teun1241",
+      "source_name": "Teun",
+      "rows": 192,
+      "av_id": "map-te-un",
+      "accepted_forms": 121,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "ciac1237-matan",
+      "source_name": "Cia-Cia, Matanauwe",
+      "rows": 192,
+      "av_id": "map-cia-cia",
+      "accepted_forms": 430,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "masi1266",
+      "source_name": "Masiwang",
+      "rows": 192,
+      "av_id": "map-masiwang",
+      "accepted_forms": 390,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "roma1332",
+      "source_name": "Roma",
+      "rows": 191,
+      "av_id": "map-roma",
+      "accepted_forms": 128,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "seri1255",
+      "source_name": "Serili",
+      "rows": 191,
+      "av_id": "map-serili",
+      "accepted_forms": 123,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "seru1245",
+      "source_name": "Serua",
+      "rows": 191,
+      "av_id": "map-serua",
+      "accepted_forms": 121,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "watu1247",
+      "source_name": "Watubela",
+      "rows": 191,
+      "av_id": "map-watubela",
+      "accepted_forms": 193,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "nila1244",
+      "source_name": "Nila",
+      "rows": 190,
+      "av_id": "map-nila",
+      "accepted_forms": 120,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "sout2883",
+      "source_name": "Southeast Babar, Kokwari",
+      "rows": 190,
+      "av_id": "map-southeast-babar",
+      "accepted_forms": 120,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "west2548",
+      "source_name": "West Damar",
+      "rows": 190,
+      "av_id": "map-west-damar",
+      "accepted_forms": 120,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "east2462",
+      "source_name": "East Masela",
+      "rows": 189,
+      "av_id": "map-east-masela",
+      "accepted_forms": 120,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "imro1237",
+      "source_name": "Imroing",
+      "rows": 189,
+      "av_id": "map-imroing",
+      "accepted_forms": 122,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "nort2860",
+      "source_name": "North Babar",
+      "rows": 189,
+      "av_id": "map-north-babar",
+      "accepted_forms": 121,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "empl1237",
+      "source_name": "Emplawas",
+      "rows": 188,
+      "av_id": "map-emplawas",
+      "accepted_forms": 119,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "argu1237",
+      "source_name": "Arguni",
+      "rows": 186,
+      "av_id": "map-arguni",
+      "accepted_forms": 179,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "indo1317",
+      "source_name": "Bajau",
+      "rows": 179,
+      "av_id": "map-indonesian-bajau",
+      "accepted_forms": 2911,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "p-aust1307-abvd",
+      "source_name": "proto-AN-ABVD",
+      "rows": 176,
+      "av_id": "map-austronesian",
+      "accepted_forms": 429,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "meko1237",
+      "source_name": "Tolaki, Mekongga",
+      "rows": 152,
+      "av_id": "map-mekongga",
+      "accepted_forms": 1,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-kele",
+      "source_name": "Keo, Kelewae",
+      "rows": 89,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "sout2883-letwu",
+      "source_name": "Southeast Babar, Letwurung",
+      "rows": 84,
+      "av_id": "map-southeast-babar",
+      "accepted_forms": 120,
+      "supported_core": 0,
+      "primary": "abvd2026"
+    },
+    {
+      "member": "tamb1257",
+      "source_name": "Tambora",
+      "rows": 48,
+      "av_id": "tad-tambora",
+      "accepted_forms": 1,
+      "supported_core": 0,
+      "primary": "wiktionary"
+    },
+    {
+      "member": "keoo1238-maun",
+      "source_name": "Keo, Ma'unori",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-lere",
+      "source_name": "Keo, Lere",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-nera",
+      "source_name": "Keo, Ngera",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-dawe",
+      "source_name": "Keo, Dhawe",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-savu",
+      "source_name": "Keo, Savu",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-paul",
+      "source_name": "Keo, Pau Lundu",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "keoo1238-liwo",
+      "source_name": "Keo, Liwo",
+      "rows": 30,
+      "av_id": "map-keo",
+      "accepted_forms": 26,
+      "supported_core": 0,
+      "primary": "acd"
+    },
+    {
+      "member": "urua1244",
+      "source_name": "Uruangnirin",
+      "rows": 538,
+      "av_id": "map-uruangnirin",
+      "accepted_forms": 4,
+      "supported_core": 4,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "mans1260",
+      "source_name": "Mansim",
+      "rows": 237,
+      "av_id": "hat-mansim",
+      "accepted_forms": 12,
+      "supported_core": 5,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "negr1235",
+      "source_name": "Kokoda, Negeri Besar",
+      "rows": 153,
+      "av_id": "sou-negri-besar",
+      "accepted_forms": 5,
+      "supported_core": 5,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "taro1259",
+      "source_name": "Kokoda, Tarof",
+      "rows": 81,
+      "av_id": "sou-tarof",
+      "accepted_forms": 6,
+      "supported_core": 5,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "onin1245",
+      "source_name": "Onin",
+      "rows": 223,
+      "av_id": "map-onin",
+      "accepted_forms": 10,
+      "supported_core": 6,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "mani1235",
+      "source_name": "Sougb",
+      "rows": 286,
+      "av_id": "eab-sougb",
+      "accepted_forms": 42,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "meya1236",
+      "source_name": "Meyah",
+      "rows": 274,
+      "av_id": "eab-meyah",
+      "accepted_forms": 239,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "morb1239",
+      "source_name": "Mor",
+      "rows": 265,
+      "av_id": "mor-mor-bomberai-peninsula",
+      "accepted_forms": 40,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "yaha1248",
+      "source_name": "Mugim",
+      "rows": 240,
+      "av_id": "kon-yahadian",
+      "accepted_forms": 41,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "baha1258",
+      "source_name": "Mbaham",
+      "rows": 190,
+      "av_id": "web-baham",
+      "accepted_forms": 40,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "kond1303",
+      "source_name": "Konda",
+      "rows": 161,
+      "av_id": "kon-yaben-konda",
+      "accepted_forms": 40,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "kabu1249-kambo",
+      "source_name": "Kaburi, Kambor",
+      "rows": 150,
+      "av_id": "sou-kaburi",
+      "accepted_forms": 65,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "kabu1249",
+      "source_name": "Kaburi, Benawa",
+      "rows": 80,
+      "av_id": "sou-kaburi",
+      "accepted_forms": 65,
+      "supported_core": 32,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "bara1347",
+      "source_name": "Kemberano, Barau",
+      "rows": 156,
+      "av_id": "sou-barau",
+      "accepted_forms": 46,
+      "supported_core": 34,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "hama1240",
+      "source_name": "Hamap, Moru",
+      "rows": 231,
+      "av_id": "tim-hamap",
+      "accepted_forms": 38,
+      "supported_core": 36,
+      "primary": "gled"
+    },
+    {
+      "member": "erok1237",
+      "source_name": "Erokwanas",
+      "rows": 220,
+      "av_id": "map-yarikman",
+      "accepted_forms": 38,
+      "supported_core": 36,
+      "primary": "gled"
+    },
+    {
+      "member": "bedo1237",
+      "source_name": "Bedoanas",
+      "rows": 108,
+      "av_id": "map-mbaruan",
+      "accepted_forms": 37,
+      "supported_core": 36,
+      "primary": "gled"
+    },
+    {
+      "member": "kaim1241",
+      "source_name": "Kaimbulawa",
+      "rows": 352,
+      "av_id": "map-kaimbulawa",
+      "accepted_forms": 39,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "wotu1240",
+      "source_name": "Wotu",
+      "rows": 309,
+      "av_id": "map-wotu",
+      "accepted_forms": 40,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "kama1364-b",
+      "source_name": "Kamaru 2",
+      "rows": 308,
+      "av_id": "map-kamaru",
+      "accepted_forms": 52,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "wotu1240-bawal",
+      "source_name": "Wotu, Bawalipu",
+      "rows": 183,
+      "av_id": "map-wotu",
+      "accepted_forms": 40,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "kama1364",
+      "source_name": "Kamaru",
+      "rows": 181,
+      "av_id": "map-kamaru",
+      "accepted_forms": 52,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "liab1237",
+      "source_name": "Liabuku",
+      "rows": 177,
+      "av_id": "map-liabuku",
+      "accepted_forms": 40,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "kama1364-a",
+      "source_name": "Kamaru 1",
+      "rows": 170,
+      "av_id": "map-kamaru",
+      "accepted_forms": 52,
+      "supported_core": 37,
+      "primary": "gled"
+    },
+    {
+      "member": "buso1238",
+      "source_name": "Busoa",
+      "rows": 706,
+      "av_id": "map-busoa",
+      "accepted_forms": 40,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-lawel",
+      "source_name": "Pancana, Lawele",
+      "rows": 351,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-todan",
+      "source_name": "Pancana, Todanga",
+      "rows": 190,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-wasua",
+      "source_name": "Pancana, Wasuamba",
+      "rows": 189,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-kampe",
+      "source_name": "Pancana, Kampeonaho",
+      "rows": 184,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-palow",
+      "source_name": "Pancana, Palowata",
+      "rows": 181,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-labun",
+      "source_name": "Pancana, Labundoua",
+      "rows": 179,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-watum",
+      "source_name": "Pancana, Watumotobe",
+      "rows": 178,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-kaken",
+      "source_name": "Pancana, Kakenauwe",
+      "rows": 155,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "panc1247-lambu",
+      "source_name": "Pancana, Lambusango",
+      "rows": 125,
+      "av_id": "map-pancana",
+      "accepted_forms": 202,
+      "supported_core": 38,
+      "primary": "gled"
+    },
+    {
+      "member": "kemb1235",
+      "source_name": "Kemberano, Kalitami",
+      "rows": 160,
+      "av_id": "sou-kemberano",
+      "accepted_forms": 116,
+      "supported_core": 39,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "p-alor1249",
+      "source_name": "proto-AP",
+      "rows": 146,
+      "av_id": "tim-alor-pantar",
+      "accepted_forms": 104,
+      "supported_core": 46,
+      "primary": "robinsonap"
+    },
+    {
+      "member": "kais1235",
+      "source_name": "Kais",
+      "rows": 166,
+      "av_id": "sou-kais",
+      "accepted_forms": 115,
+      "supported_core": 51,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "pura1253",
+      "source_name": "Puragi",
+      "rows": 232,
+      "av_id": "sou-puragi",
+      "accepted_forms": 122,
+      "supported_core": 53,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "buna1278-bobon",
+      "source_name": "Bunak, Bobonaro",
+      "rows": 672,
+      "av_id": "tim-bunak",
+      "accepted_forms": 101,
+      "supported_core": 55,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "buna1278-suai",
+      "source_name": "Bunak, Suai",
+      "rows": 664,
+      "av_id": "tim-bunak",
+      "accepted_forms": 101,
+      "supported_core": 55,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "buna1278-malia",
+      "source_name": "Bunak, Maliana",
+      "rows": 282,
+      "av_id": "tim-bunak",
+      "accepted_forms": 101,
+      "supported_core": 55,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "kasu1243",
+      "source_name": "Kokoda, Kasueri",
+      "rows": 255,
+      "av_id": "sou-kasuweri",
+      "accepted_forms": 168,
+      "supported_core": 57,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "maka1316",
+      "source_name": "Makasae",
+      "rows": 606,
+      "av_id": "tim-makasae-makalero",
+      "accepted_forms": 100,
+      "supported_core": 58,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-munas",
+      "source_name": "Alorese, Munaseli",
+      "rows": 756,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-pandai",
+      "source_name": "Alorese, Pandai",
+      "rows": 754,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-besar",
+      "source_name": "Alorese, Alor-Besar",
+      "rows": 618,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-bana",
+      "source_name": "Alorese, Bana",
+      "rows": 607,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-maric",
+      "source_name": "Alorese, Marica",
+      "rows": 515,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-beaon",
+      "source_name": "Alorese, Beaong Onong",
+      "rows": 511,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-waila",
+      "source_name": "Alorese, Wailawar",
+      "rows": 510,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-dulol",
+      "source_name": "Alorese, Dulolong",
+      "rows": 500,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-helan",
+      "source_name": "Alorese, Helandohi",
+      "rows": 499,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-kecil",
+      "source_name": "Alorese, Kecil",
+      "rows": 483,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-terna",
+      "source_name": "Alorese, Ternate",
+      "rows": 469,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-baran-YS",
+      "source_name": "Alorese, Baranusa",
+      "rows": 450,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-buaya",
+      "source_name": "Alorese, Buaya",
+      "rows": 435,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "alor1247-baran",
+      "source_name": "Alorese, Baranusa",
+      "rows": 255,
+      "av_id": "map-alorese",
+      "accepted_forms": 236,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    },
+    {
+      "member": "kafo1240",
+      "source_name": "Kafoa",
+      "rows": 235,
+      "av_id": "tim-kafoa",
+      "accepted_forms": 117,
+      "supported_core": 69,
+      "primary": "transnewguineaorg"
+    }
+  ],
+  "metadata_license": "http://creativecommons.org/licenses/by/4.0/",
+  "interpretation": "Planning screen only. Exact-code absence is not a new-language decision; lects, versions, source genealogy, source conventions and sense mappings require review. Form/Segments are upstream normalized; Form_according_to_Source and Local_Orthography must survive separately. Cognates are documented as automatic unless individually established otherwise."
+}

@@ -35,6 +35,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Planning investigations
 
+* [Worldwide original sources after R,S01–S09,2026-10-30](../WORLDWIDE_AFTER_R_SOURCE_PLAN_2026-10-30.md): actual RefLex payload audit, new original dictionary/CLDF/workbook acquisitions and source-specific profile gates; planning only, accepted data unchanged.
+
 * [Worldwide after WN,Q01–Q08](../WORLDWIDE_AFTER_WN_PLAN_2026-10-29.md): zero-supported reading recovery, dictionary-scale new-language pilots, original-source depth, Australia, locality/citation conventions and ancient editions; not executed.
 
 * [Worldwide after WS,WN01–WN09](../WORLDWIDE_NEXT_AFTER_WS_2026-10-29.md): proposed balanced source upgrades, original dictionary depth, missing-language search and quality reporting; not executed.

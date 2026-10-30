@@ -2,6 +2,8 @@
 
 Updated2026-10-30. Latest accepted batch: [Worldwide R01–R09](WORLDWIDE_R_EXECUTION_2026-10-30.md), all nine authorized tracks closed as bounded reviews with admissions or specific holds. [Metrics](worldwide_r_summary_2026-10-30.json), [verification](worldwide_r_verification_2026-10-30.json).
 
+Latest source-planning investigation: [Worldwide original sources after R,S01–S09](WORLDWIDE_AFTER_R_SOURCE_PLAN_2026-10-30.md), including full RefLex source-member intake, original African/Cayuga dictionaries, Andakí workbook, LexiRumah and documented profile pilots. Planning only; accepted data below is unchanged.
+
 ## Accepted baseline
 
 | Measure | Accepted value |

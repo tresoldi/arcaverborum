@@ -1,0 +1,315 @@
+{
+  "source_url": "https://sites.google.com/view/andaki-database",
+  "published_file_id": "1nFcu3h9I6VrmZgoyUEWE1OVhr6qSai5h",
+  "sha256": "216d8f79c21d3d3c82550212204dc9dc5c8589f1eebb549f12257b1f5b577950",
+  "sheets": [
+    {
+      "sheet": "synthesis",
+      "nonempty_rows": 936,
+      "sample": [
+        [
+          [
+            "A4",
+            "ID"
+          ],
+          [
+            "B4",
+            "andakí"
+          ],
+          [
+            "C4",
+            "modern (Madrilean) spanish"
+          ]
+        ],
+        [
+          [
+            "A5",
+            "A_001"
+          ],
+          [
+            "B5",
+            "Acai"
+          ],
+          [
+            "C5",
+            "Limón"
+          ]
+        ],
+        [
+          [
+            "A6",
+            "A_002"
+          ],
+          [
+            "B6",
+            "Ajivenaca"
+          ],
+          [
+            "C6",
+            "Muelas"
+          ]
+        ],
+        [
+          [
+            "A7",
+            "A_003"
+          ],
+          [
+            "B7",
+            "Asajue"
+          ],
+          [
+            "C7",
+            "Dios"
+          ]
+        ]
+      ]
+    },
+    {
+      "sheet": "Albis",
+      "nonempty_rows": 164,
+      "sample": [
+        [
+          [
+            "A2",
+            "ID"
+          ],
+          [
+            "B2",
+            "andakí (memorias de un viajero)"
+          ],
+          [
+            "C2",
+            "andakí simplified"
+          ],
+          [
+            "D2",
+            "spanish (memorias de un viajero)"
+          ],
+          [
+            "E2",
+            "modern spanish"
+          ],
+          [
+            "F2",
+            "english (American ethnological society)"
+          ]
+        ],
+        [
+          [
+            "A3",
+            "A_001"
+          ],
+          [
+            "B3",
+            "Acai"
+          ],
+          [
+            "C3",
+            "Acai"
+          ],
+          [
+            "D3",
+            "Limon"
+          ],
+          [
+            "E3",
+            "Limón"
+          ],
+          [
+            "F3",
+            "Lemon"
+          ]
+        ],
+        [
+          [
+            "A4",
+            "A_002"
+          ],
+          [
+            "B4",
+            "Ajivenaca"
+          ],
+          [
+            "C4",
+            "Ajivenaca"
+          ],
+          [
+            "D4",
+            "Muelas"
+          ],
+          [
+            "E4",
+            "Muelas"
+          ],
+          [
+            "F4",
+            "Molars"
+          ]
+        ],
+        [
+          [
+            "A5",
+            "A_003"
+          ],
+          [
+            "B5",
+            "Asajué"
+          ],
+          [
+            "C5",
+            "Asajue"
+          ],
+          [
+            "D5",
+            "Dios"
+          ],
+          [
+            "E5",
+            "Dios"
+          ],
+          [
+            "F5",
+            "God"
+          ]
+        ]
+      ]
+    },
+    {
+      "sheet": "M2911; M2912; Gomez y Torres",
+      "nonempty_rows": 775,
+      "sample": [
+        [
+          [
+            "B1",
+            "https://rbdigital.realbiblioteca.es/s/realbiblioteca/item/15059#?c=&m=&s=&cv=3&xywh=1852%2C1314%2C1437%2C809"
+          ],
+          [
+            "G1",
+            "https://rbdigital.realbiblioteca.es/s/realbiblioteca/item/15084#?c=&m=&s=&cv=1&xywh=239%2C891%2C1110%2C659"
+          ]
+        ],
+        [
+          [
+            "B2",
+            "Ms. II/2911"
+          ],
+          [
+            "G2",
+            "Ms. II/2912"
+          ]
+        ],
+        [
+          [
+            "A3",
+            "ID"
+          ],
+          [
+            "B3",
+            "page M2911"
+          ],
+          [
+            "C3",
+            "andaquí (Ms. II/2911)"
+          ],
+          [
+            "D3",
+            "transcription andakí Ms. II/2911 (Gomez y Torres)"
+          ],
+          [
+            "E3",
+            "spanish (Ms. II/2911)"
+          ],
+          [
+            "F3",
+            "transcription spanish Ms. II/2911 (Gomez y Torres)"
+          ],
+          [
+            "G3",
+            "page M2912"
+          ],
+          [
+            "H3",
+            "andakí (Ms. II/2912)"
+          ],
+          [
+            "I3",
+            "transcription andakí Ms. II/2912 (Gomez y Torres)"
+          ],
+          [
+            "J3",
+            "spanish (Ms. II/2912)"
+          ],
+          [
+            "K3",
+            "transcription spanish Ms. II/2912 (Gomez y Torres)"
+          ],
+          [
+            "L3",
+            "andakí def"
+          ],
+          [
+            "M3",
+            "spanish (Madrilean) def"
+          ]
+        ],
+        [
+          [
+            "A4",
+            "M_001"
+          ],
+          [
+            "B4",
+            "1"
+          ],
+          [
+            "C4",
+            "Naqua."
+          ],
+          [
+            "D4",
+            "Naqua."
+          ],
+          [
+            "E4",
+            "Quien"
+          ],
+          [
+            "F4",
+            "Quien"
+          ],
+          [
+            "G4",
+            "1"
+          ],
+          [
+            "H4",
+            "Naqua"
+          ],
+          [
+            "I4",
+            "Naqua"
+          ],
+          [
+            "J4",
+            "Quien."
+          ],
+          [
+            "K4",
+            "Quien."
+          ],
+          [
+            "L4",
+            "Naqua"
+          ],
+          [
+            "M4",
+            "Quien"
+          ]
+        ]
+      ]
+    }
+  ],
+  "explicit_license_in_strings": false,
+  "interpretation": "Published workbook acquired for planning. Row counts include headers and phrases; no lexical gains or pronunciation certified. The separately published CC BY4 book does not automatically license every linked workbook component; establish workbook terms or restrict extraction to explicitly licensed book citations."
+}

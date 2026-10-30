@@ -1,9 +1,24 @@
 # Held work and reopening evidence
 
-Updated 2026-10-29. Read alongside [STATUS](../STATUS.md) and the
+Updated2026-10-30. Read alongside [STATUS](../STATUS.md) and the
 [active queue](../NEXT.md). A hold applies to the named source/sample or reading,
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
+
+## Post-R original-source planning gates —2026-10-30
+
+[New plan](../WORLDWIDE_AFTER_R_SOURCE_PLAN_2026-10-30.md) is not authorized lexical execution. RefLex source counts are now measured from frozen rows, but Tiba/Gaa, Gula Iro and Ginyanga still require aliases/edition/notation review before new-language claims. Ndebele’s tone is not reconstructed from spelling; Eton’s author corrections beyond PDF and Obala scope, Kwakum’s downstep/class alternatives and Viya’s2000/2002 edition mismatch stay explicit. Wider Bantoid labels do not certify narrow Bantu membership.
+
+Newly acquired Andakí workbook has935 synthesis rows, including phrases, with separate Albis/manuscript/editorial columns; it supplies no explicit workbook licence. Establish applicable terms or restrict extraction to licensed book citations. The book is CC BY4; linked resources are not automatically covered. Yauyos’s full external XML lexicon is cited by the grammar but not acquired; verify TLA/AILLA item access/terms and retain five dialects.
+
+Beja2026 original lexical LaTeX and published PDF are acquired, but the source explicitly warns of possible conversion loss of diacritics. Validate affected forms against the PDF; `data/dataset1.csv` is a dummy template. Cayuga stem/cited-form/possessor and whispered-vowel spelling must survive profile construction. Chakali/Dagaare explicit phonetic fields require their actual source conventions, not certification by column name.
+
+LexiRumah exact-code absence112 member rows includes89 dialects/20 language-level rows (16 codes)/one family/two unknown. Broad Lamaholot/Rote scopes and aliases must be reconciled first. Source documentation acknowledges close-but-imperfect sense mergers and automatic cognacy; preserve original spelling, normalized forms and source/profile chains and do not assign expert cognacy on import.
+
+Yakkha’s verb-glossary file is empty: no dictionary-scale yield claimed. Original Tumok grammatical/phonological citations may support a bounded source-specific pilot, with modern/historical and surface/underlying distinctions. Na dictionary HAL route is access-challenged; exact released payload/terms and lexical tone-category interpretation remain gates. Tuatschin is a separate named-dialect investigation, not a Sursilvan-wide profile or a measured complete lexicon.
+
+CHIRILA2025 metadata confirms706/715 restricted files and application terms; no contact/application authorized. The separate public Kullilli2023 sketch is acquired under CC BY4, but Kullilli/Garlali/Kalali must be reconciled with the accepted Bulloo River scope and unfinished source phonology. No Kullilli app dictionary acquired. Pite Saami’s online dictionary is a future lead; current guessed Giella repository paths404, no lexical download/terms established. These gates do not block the ready original sources in the plan.
+
 
 ## Worldwide R01–R09 closure —2026-10-30
 

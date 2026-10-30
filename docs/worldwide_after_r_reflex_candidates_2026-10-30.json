@@ -1,0 +1,872 @@
+{
+  "actual_frozen_archive_rows": 932836,
+  "archive_source_members": 1435,
+  "archive_languoids": 815,
+  "archive_bantu_labelled_sources": 280,
+  "archive_bantoid_labelled_sources": 206,
+  "candidates": [
+    {
+      "source_id": "2",
+      "name": "Bijogo Kamona",
+      "glottocode": "kamo1256",
+      "actual_rows": 609,
+      "reported_rows": 609,
+      "type": "Lexique",
+      "citation": "Segerer 1998 : bijogo-kamona",
+      "bibliography_id": "0",
+      "reference": null,
+      "source_conventions": "",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Bijogo",
+      "accepted": [],
+      "examples": [
+        {
+          "id": "72319",
+          "SOU": "2",
+          "FRM": "atɛ",
+          "CGR": "pr",
+          "TRA": "1pl ind",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "72320",
+          "SOU": "2",
+          "FRM": "ɔɲ",
+          "CGR": "pr",
+          "TRA": "1sg ind",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "72321",
+          "SOU": "2",
+          "FRM": "anɛ",
+          "CGR": "pr",
+          "TRA": "2pl ind",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "42",
+      "name": "Ndebele (Zimbabwe)",
+      "glottocode": "nort2795",
+      "actual_rows": 5888,
+      "reported_rows": 5892,
+      "type": "Dictionnaire",
+      "citation": "Pelling 1971 : ndebele",
+      "bibliography_id": "16325",
+      "reference": {
+        "ID": "16325",
+        "RTYPE": "Book",
+        "AUTEU": "Pelling, James N.",
+        "ANNEE": "1971",
+        "LGTXT": "en",
+        "TITRE": "A practical Ndebele dictionary",
+        "PUBLI": "Longman Rhodesia",
+        "PLACE": "Salisbury",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "154",
+        "URL": ""
+      },
+      "source_conventions": "Pris de CBOLD et corrigé d'après l'original",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu S",
+      "accepted": [
+        {
+          "av_id": "atl-zimbabwean-ndebele",
+          "Name": "Zimbabwean Ndebele",
+          "forms": 159,
+          "supported_core": 38,
+          "primary": "gled"
+        }
+      ],
+      "examples": [
+        {
+          "id": "75119",
+          "SOU": "42",
+          "FRM": "a-",
+          "CGR": "gr",
+          "TRA": "used in some neg. forms of verbs",
+          "COA": "e.g. angiboni",
+          "EML": ""
+        },
+        {
+          "id": "75120",
+          "SOU": "42",
+          "FRM": "a-",
+          "CGR": "cl",
+          "TRA": "(cl. 3 pl.), they",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "75121",
+          "SOU": "42",
+          "FRM": "-aba",
+          "CGR": "V",
+          "TRA": "share, share out",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "363",
+      "name": "Gula Iro",
+      "glottocode": "gula1265",
+      "actual_rows": 941,
+      "reported_rows": 980,
+      "type": "Lexique",
+      "citation": "Pairault 1969 : kùláál (Iro)",
+      "bibliography_id": "16159",
+      "reference": {
+        "ID": "16159",
+        "RTYPE": "Book",
+        "AUTEU": "Pairault, Claude",
+        "ANNEE": "1969",
+        "LGTXT": "fr",
+        "TITRE": "Documents du parler d’Iro, kùláál du Tchad",
+        "PUBLI": "Librairie C Klincksieck",
+        "PLACE": "Paris",
+        "SERIE": "[Langues et littératures de l’Afrique noire, t 5]",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "286",
+        "URL": ""
+      },
+      "source_conventions": "",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Bua",
+      "accepted": [],
+      "examples": [
+        {
+          "id": "251167",
+          "SOU": "363",
+          "FRM": "á",
+          "CGR": "pr",
+          "TRA": "il, elle",
+          "COA": "pronominal personnel ou non-personnel",
+          "EML": ""
+        },
+        {
+          "id": "251168",
+          "SOU": "363",
+          "FRM": "à",
+          "CGR": "pr",
+          "TRA": "son, sa, ses",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "251169",
+          "SOU": "363",
+          "FRM": "-á ~ -à",
+          "CGR": "gr",
+          "TRA": "1. marque emphatique postposée",
+          "COA": "éventuellement allongée en position de jointure",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "1352",
+      "name": "Tiba",
+      "glottocode": "gaaa1245",
+      "actual_rows": 626,
+      "reported_rows": 634,
+      "type": "Lexique",
+      "citation": "Boyd 1999 : Tiba (Gà̠)",
+      "bibliography_id": "25389",
+      "reference": {
+        "ID": "25389",
+        "RTYPE": "Electronic Document",
+        "AUTEU": "Boyd, Raymond",
+        "ANNEE": "1999",
+        "LGTXT": "en",
+        "TITRE": "A Linguistic Sketch of Tiba (G<i><u>à</u></i>)",
+        "PUBLI": "HAL-SHS",
+        "PLACE": "",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "47",
+        "URL": "http://hal.archives-ouvertes.fr/hal-00323718/fr/"
+      },
+      "source_conventions": "",
+      "archive_group": "Adamawa",
+      "archive_subgroup": "Mumuye-Yandang",
+      "accepted": [],
+      "examples": [
+        {
+          "id": "1078059",
+          "SOU": "1352",
+          "FRM": "*tá",
+          "CGR": "V",
+          "TRA": "butcher",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1078060",
+          "SOU": "1352",
+          "FRM": "pó̠",
+          "CGR": "V",
+          "TRA": "butcher, cut open",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1078061",
+          "SOU": "1352",
+          "FRM": "óŋ",
+          "CGR": "N",
+          "TRA": "bee",
+          "COA": "(see list 1)",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "1439",
+      "name": "Eton",
+      "glottocode": "eton1253",
+      "actual_rows": 4065,
+      "reported_rows": 4065,
+      "type": "Dictionnaire",
+      "citation": "Van de Velde & Essele Essele 2022 : éton",
+      "bibliography_id": "28860",
+      "reference": {
+        "ID": "28860",
+        "RTYPE": "Book",
+        "AUTEU": "Van de Velde, Mark and Essele, Kissito Essele (en collaboration avec le comité de la langue éton d’Obala)",
+        "ANNEE": "2022",
+        "LGTXT": "fr",
+        "TITRE": "Dictionnaire éton - français",
+        "PUBLI": "Editions CLE",
+        "PLACE": "Yaoundé",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "iv + 361",
+        "URL": ""
+      },
+      "source_conventions": "Les différences par rapport au pdf sont postérieures à l'édition et dues à l'auteur. Certains champs (RAC, étymologie) sont absents du pdf et dûs à l'auteur.",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "accepted": [
+        {
+          "av_id": "atl-eton-mengisa",
+          "Name": "Eton-Mengisa",
+          "forms": 342,
+          "supported_core": 76,
+          "primary": "grollemundbantu"
+        }
+      ],
+      "examples": [
+        {
+          "id": "1522178",
+          "SOU": "1439",
+          "FRM": "á",
+          "CGR": "prep",
+          "TRA": "dans, à",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1522179",
+          "SOU": "1439",
+          "FRM": "á mbúz",
+          "CGR": "prep",
+          "TRA": "derrière",
+          "COA": "Litt. : ‘au dos’",
+          "EML": ""
+        },
+        {
+          "id": "1522180",
+          "SOU": "1439",
+          "FRM": "á pûpùd",
+          "CGR": "adv",
+          "TRA": "pour rien, à fonds perdu",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "1701",
+      "name": "Viya",
+      "glottocode": "eviy1235",
+      "actual_rows": 8918,
+      "reported_rows": 8919,
+      "type": "Dictionnaire",
+      "citation": "Van der Veen & Bodinga 2000 : Gevia",
+      "bibliography_id": "20291",
+      "reference": {
+        "ID": "20291",
+        "RTYPE": "Book",
+        "AUTEU": "Veen, Lolke J. van der and Bodinga-Bwa-Bodinga, Sébastien",
+        "ANNEE": "2002",
+        "LGTXT": "fr",
+        "TITRE": "Gedandedi sa geviya/Dictionnaire geviya-français",
+        "PUBLI": "Editions Peeters",
+        "PLACE": "Leuven & Paris",
+        "SERIE": "[Langues et littératures de l’Afrique noire, t 12]",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "569",
+        "URL": ""
+      },
+      "source_conventions": "",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu B",
+      "accepted": [
+        {
+          "av_id": "atl-viya",
+          "Name": "Viya",
+          "forms": 100,
+          "supported_core": 76,
+          "primary": "grollemundbantu"
+        }
+      ],
+      "examples": [
+        {
+          "id": "612220",
+          "SOU": "1701",
+          "FRM": "a",
+          "CGR": "int",
+          "TRA": "et, quant à, donc",
+          "COA": "(Cf. avu.)",
+          "EML": ""
+        },
+        {
+          "id": "612221",
+          "SOU": "1701",
+          "FRM": "a",
+          "CGR": "interj",
+          "TRA": "ah !",
+          "COA": "(Particule exprimant le souhait.)",
+          "EML": ""
+        },
+        {
+          "id": "612222",
+          "SOU": "1701",
+          "FRM": "(*-)a",
+          "CGR": "prep",
+          "TRA": "(marque de dépendance).",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "1877",
+      "name": "Baga Fore",
+      "glottocode": "mbul1258",
+      "actual_rows": 669,
+      "reported_rows": 669,
+      "type": "Wordlist",
+      "citation": "Golovko 2015 : baga fore",
+      "bibliography_id": "0",
+      "reference": null,
+      "source_conventions": "",
+      "archive_group": "Atlantic",
+      "archive_subgroup": "Nalu",
+      "accepted": [],
+      "examples": [
+        {
+          "id": "994212",
+          "SOU": "1877",
+          "FRM": "àbàkórò / àbàkórò-y",
+          "CGR": "N",
+          "TRA": "perdrix",
+          "COA": "[nt] где не проставлены тоны - плохое качество записи - надо перезаписать",
+          "EML": ""
+        },
+        {
+          "id": "994213",
+          "SOU": "1877",
+          "FRM": "kibayu / a-bayu, cibayu",
+          "CGR": "N",
+          "TRA": "papaye",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "994214",
+          "SOU": "1877",
+          "FRM": "adaka",
+          "CGR": "V",
+          "TRA": "il faut",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "2335",
+      "name": "Ndoola",
+      "glottocode": "ndoo1241",
+      "actual_rows": 544,
+      "reported_rows": 544,
+      "type": "Lexique",
+      "citation": "Connell & Blench 2014 : Ndoola",
+      "bibliography_id": "27897",
+      "reference": {
+        "ID": "27897",
+        "RTYPE": "Electronic Document",
+        "AUTEU": "Connell, Bruce and Blench, Roger M.",
+        "ANNEE": "2014",
+        "LGTXT": "en",
+        "TITRE": "A preliminary assessment of Ndoola (Ndoro)",
+        "PUBLI": "",
+        "PLACE": "",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "16",
+        "URL": "http://www.rogerblench.info/Language/Niger-Congo/Bantoid/Mambiloid/Ndoro/NdoroOP.htm"
+      },
+      "source_conventions": "",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantoid",
+      "accepted": [
+        {
+          "av_id": "atl-ndoola",
+          "Name": "Ndoola",
+          "forms": 29,
+          "supported_core": 0,
+          "primary": "reflexrpilots"
+        }
+      ],
+      "examples": [
+        {
+          "id": "1373726",
+          "SOU": "2335",
+          "FRM": "húlā",
+          "CGR": "N",
+          "TRA": "head",
+          "COA": "cf. Mvanɨp hɯn but this is exceptional within Mambiloid",
+          "EML": ""
+        },
+        {
+          "id": "1373727",
+          "SOU": "2335",
+          "FRM": "áwɑ̄ húlā",
+          "CGR": "N",
+          "TRA": "hair (head)",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1373728",
+          "SOU": "2335",
+          "FRM": "jíɾá",
+          "CGR": "N",
+          "TRA": "eye",
+          "COA": "cf. Tep jı́ā, Nizaa jı́ ̄r",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "2503",
+      "name": "Buu (Zaranda)",
+      "glottocode": "zara1252",
+      "actual_rows": 962,
+      "reported_rows": 965,
+      "type": "Lexique",
+      "citation": "Caron 2008 : Buː (Zaranda)",
+      "bibliography_id": "25409",
+      "reference": {
+        "ID": "25409",
+        "RTYPE": "Book Section",
+        "AUTEU": "Caron, Bernard",
+        "ANNEE": "2008",
+        "LGTXT": "en",
+        "TITRE": "Bu:, aka Zaranda (Chadic, South-Bauchi West): Wordlist and Grammatical Notes",
+        "PUBLI": "Dietrich Reimer Verlag",
+        "PLACE": "Berlin",
+        "SERIE": "Sprache und Oralität in Afrika, Bd. 24",
+        "JOURN": "Semito-Hamitic festschrift for A.B. Dolgopolsky and H. Jungraithmayr",
+        "EDITE": "Takács, Gábor",
+        "PAGES": "93-119",
+        "URL": ""
+      },
+      "source_conventions": "",
+      "archive_group": "Chadic",
+      "archive_subgroup": "Western",
+      "accepted": [
+        {
+          "av_id": "afa-buu",
+          "Name": "Bu (Zaranda)",
+          "forms": 27,
+          "supported_core": 0,
+          "primary": "reflexrpilots"
+        }
+      ],
+      "examples": [
+        {
+          "id": "229065",
+          "SOU": "2503",
+          "FRM": "á",
+          "CGR": "prep",
+          "TRA": "at",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "229066",
+          "SOU": "2503",
+          "FRM": "áddaː",
+          "CGR": "N",
+          "TRA": "1. machete",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "229067",
+          "SOU": "2503",
+          "FRM": "áddaː",
+          "CGR": "N",
+          "TRA": "2. sword",
+          "COA": "",
+          "EML": "hau"
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "3000",
+      "name": "Kwakum",
+      "glottocode": "kwak1266",
+      "actual_rows": 2079,
+      "reported_rows": 2082,
+      "type": "Lexique",
+      "citation": "Njantcho Kouagang 2018 : Kwakum",
+      "bibliography_id": "27438",
+      "reference": {
+        "ID": "27438",
+        "RTYPE": "Thesis",
+        "AUTEU": "Njantcho Kouagang, Elisabeth",
+        "ANNEE": "2018",
+        "LGTXT": "en",
+        "TITRE": "A grammar of Kwakum",
+        "PUBLI": "INALCO",
+        "PLACE": "Paris",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "402",
+        "URL": ""
+      },
+      "source_conventions": "",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu A",
+      "accepted": [
+        {
+          "av_id": "atl-kwakum",
+          "Name": "Kwakum",
+          "forms": 98,
+          "supported_core": 74,
+          "primary": "grollemundbantu"
+        }
+      ],
+      "examples": [
+        {
+          "id": "1199704",
+          "SOU": "3000",
+          "FRM": "àbɛ̀ŋgɛ́ / à àbɛ̀ŋgɛ́",
+          "CGR": "N",
+          "TRA": "cloche.",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1199705",
+          "SOU": "3000",
+          "FRM": "áꜜbɔ́ꜜlá / à áꜜbɔ́ꜜlá",
+          "CGR": "N",
+          "TRA": "grenouille (sp.).",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1199706",
+          "SOU": "3000",
+          "FRM": "ábɔ́mbjɛ̀ / à ábɔ́mbjɛ̀",
+          "CGR": "N",
+          "TRA": "champignon comestible qui pousse sur le tronc du corossolier sauvage.",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "3114",
+      "name": "Nteng",
+      "glottocode": "nucl1698",
+      "actual_rows": 600,
+      "reported_rows": 600,
+      "type": "Lexique",
+      "citation": "Blench & Bulkaam 2019 : Nteng",
+      "bibliography_id": "27861",
+      "reference": {
+        "ID": "27861",
+        "RTYPE": "Electronic Document",
+        "AUTEU": "Blench, Roger M. and Bulkaam, Michael",
+        "ANNEE": "2019",
+        "LGTXT": "en",
+        "TITRE": "Nteng, an undocumented language of Central Nigeria",
+        "PUBLI": "Kay Williamson Educational Foundation",
+        "PLACE": "Cambridge, Jos",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "24",
+        "URL": "http://www.rogerblench.info/Language/Afroasiatic/Chadic/West/A3/Pan/PANOP.htm"
+      },
+      "source_conventions": "",
+      "archive_group": "Chadic",
+      "archive_subgroup": "Western",
+      "accepted": [],
+      "examples": [
+        {
+          "id": "1359381",
+          "SOU": "3114",
+          "FRM": "aap",
+          "CGR": "V",
+          "TRA": "to yawn",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1359382",
+          "SOU": "3114",
+          "FRM": "aar",
+          "CGR": "V",
+          "TRA": "to rub; to scrape",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1359383",
+          "SOU": "3114",
+          "FRM": "aash",
+          "CGR": "N",
+          "TRA": "egg",
+          "COA": "",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "3115",
+      "name": "Goo",
+      "glottocode": "gooa1234",
+      "actual_rows": 1438,
+      "reported_rows": 1438,
+      "type": "Dictionnaire",
+      "citation": "Aplonova 2020 : goo",
+      "bibliography_id": "27730",
+      "reference": {
+        "ID": "27730",
+        "RTYPE": "Journal Article",
+        "AUTEU": "Aplonova, Ekaterina",
+        "ANNEE": "2020",
+        "LGTXT": "fr",
+        "TITRE": "Dictionnaire goo – français",
+        "PUBLI": "",
+        "PLACE": "",
+        "SERIE": "",
+        "JOURN": "Mandenkan",
+        "EDITE": "",
+        "PAGES": "3-67",
+        "URL": "https://llacan.cnrs.fr/fichiers/Mandenkan/index.html"
+      },
+      "source_conventions": "/ŋ/ désigne une voyelle d’aperture zéro, qui est considérée comme une voyelle sur des motifs combinatoires, elle n’est jamais utilisée en position initiale du mot.",
+      "archive_group": "Mande",
+      "archive_subgroup": "Eastern",
+      "accepted": [
+        {
+          "av_id": "man-goo",
+          "Name": "Goo",
+          "forms": 24,
+          "supported_core": 0,
+          "primary": "reflexrpilots"
+        }
+      ],
+      "examples": [
+        {
+          "id": "1362748",
+          "SOU": "3115",
+          "FRM": "à",
+          "CGR": "pr",
+          "TRA": "le ; la ; son, sa",
+          "COA": "(pronom non-sujet de la 3ème pers. sg.)",
+          "EML": ""
+        },
+        {
+          "id": "1362749",
+          "SOU": "3115",
+          "FRM": "á",
+          "CGR": "pr",
+          "TRA": "je",
+          "COA": "(pronom subjectif 1ère pers. sg. de la série existentielle)",
+          "EML": ""
+        },
+        {
+          "id": "1362750",
+          "SOU": "3115",
+          "FRM": "á",
+          "CGR": "pr",
+          "TRA": "je",
+          "COA": "(pronom subjectif 1ère pers. sg. de la série subjonctive)",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "3489",
+      "name": "Tsonga",
+      "glottocode": "tson1249",
+      "actual_rows": 25213,
+      "reported_rows": 25215,
+      "type": "Lexique",
+      "citation": "Chapatte 2021 : Tsonga",
+      "bibliography_id": "29088",
+      "reference": {
+        "ID": "29088",
+        "RTYPE": "Electronic Document",
+        "AUTEU": "Chapatte, Marius",
+        "ANNEE": "2021",
+        "LGTXT": "en",
+        "TITRE": "Tsonga - English Dictionary - Dikixinari Ya Xitsonga – Xinghezi",
+        "PUBLI": "",
+        "PLACE": "",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "399",
+        "URL": ""
+      },
+      "source_conventions": "no introduction ; no tones marked",
+      "archive_group": "Benue-Congo",
+      "archive_subgroup": "Bantu S",
+      "accepted": [
+        {
+          "av_id": "atl-tsonga",
+          "Name": "Tsonga",
+          "forms": 278,
+          "supported_core": 78,
+          "primary": "polyglottaafricana"
+        }
+      ],
+      "examples": [
+        {
+          "id": "1589642",
+          "SOU": "3489",
+          "FRM": "a",
+          "CGR": "gr",
+          "TRA": "formative of imperfect tense",
+          "COA": "high pitch",
+          "EML": ""
+        },
+        {
+          "id": "1589643",
+          "SOU": "3489",
+          "FRM": "a",
+          "CGR": "gr",
+          "TRA": "formative of hortative",
+          "COA": "high pitch",
+          "EML": ""
+        },
+        {
+          "id": "1589644",
+          "SOU": "3489",
+          "FRM": "a",
+          "CGR": "gr",
+          "TRA": "form of negative",
+          "COA": "low pitch",
+          "EML": ""
+        }
+      ],
+      "glottolog_level": "language"
+    },
+    {
+      "source_id": "3563",
+      "name": "Anyanga",
+      "glottocode": "giny1241",
+      "actual_rows": 502,
+      "reported_rows": 502,
+      "type": "Wordlist",
+      "citation": "Aplonova 2025 : Ginyanga",
+      "bibliography_id": "29478",
+      "reference": {
+        "ID": "29478",
+        "RTYPE": "Thesis",
+        "AUTEU": "Aplonova, Ekateerina",
+        "ANNEE": "2025",
+        "LGTXT": "en",
+        "TITRE": "Verbal complex predicates in Ginyanga (Kwa)",
+        "PUBLI": "INALCO",
+        "PLACE": "Paris",
+        "SERIE": "",
+        "JOURN": "",
+        "EDITE": "",
+        "PAGES": "253",
+        "URL": ""
+      },
+      "source_conventions": "",
+      "archive_group": "Kwa",
+      "archive_subgroup": "Nyo",
+      "accepted": [],
+      "examples": [
+        {
+          "id": "1677279",
+          "SOU": "3563",
+          "FRM": "á",
+          "CGR": "interj",
+          "TRA": "interjection",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1677280",
+          "SOU": "3563",
+          "FRM": "à-cɔ́l",
+          "CGR": "N",
+          "TRA": "saliva",
+          "COA": "",
+          "EML": ""
+        },
+        {
+          "id": "1677281",
+          "SOU": "3563",
+          "FRM": "àdáw",
+          "CGR": "N",
+          "TRA": "manipulation",
+          "COA": "“art of manipulation to make something beautiful” ; < Ewe",
+          "EML": "ewe"
+        }
+      ],
+      "glottolog_level": "language"
+    }
+  ],
+  "interpretation": "Planning leads only: counts include inflected forms, variants, homographs and different senses. Exact absent code is not an admission; old RefLex classification/ISO labels require canonical alias/lect review. Bantu and wider Bantoid totals are archive labels, not independently certified ancestry counts. The live site reports a different v1.0 total; this inventory counts the already pinned April2026 archive bytes."
+}

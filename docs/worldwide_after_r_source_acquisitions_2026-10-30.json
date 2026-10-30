@@ -1,0 +1,466 @@
+{
+  "purpose": "Planning only; no intake, accepted configs or lexical web artifacts changed.",
+  "repositories": [
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "files": 310,
+      "lexical_file_candidates": [
+        "cldf/p/kemak-phonology",
+        "pylexirumah/append_changed_cognate_classes.py"
+      ]
+    },
+    {
+      "repository": "langsci/83",
+      "commit": "215f958fba980080eae280f7fddef27556450520",
+      "files": 439,
+      "lexical_file_candidates": []
+    },
+    {
+      "repository": "langsci/398",
+      "commit": "841aa919d191eea2b19fcd6ae2fb9251545c726a",
+      "files": 117,
+      "lexical_file_candidates": [
+        "chapters/not needed/noun dictionarytmp.tex",
+        "chapters/noun_dictionary.tex",
+        "chapters/particle_dictionary.tex",
+        "chapters/thematic_appendix.tex",
+        "chapters/verb_dictionary.tex"
+      ]
+    },
+    {
+      "repository": "langsci/528",
+      "commit": "6cf5447815d50b42220cca92256e8c6b8335ce40",
+      "files": 55,
+      "lexical_file_candidates": [
+        "chapters/05phonology.tex"
+      ]
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "files": 53,
+      "lexical_file_candidates": []
+    },
+    {
+      "repository": "langsci/74",
+      "commit": "06463ca75da990121d0fc9a7dcadbc15892cfd3d",
+      "files": 237,
+      "lexical_file_candidates": [
+        "chapters/dictionary.tex",
+        "chapters/invertdictionary-3.tex",
+        "chapters/invertdictionary-4.tex",
+        "chapters/invertdictionary.tex",
+        "chapters/lsp-cli-eng-dict.tex",
+        "chapters/lsp-cli-phonology.tex",
+        "indexed/dictionary.tex",
+        "indexed/invertdictionary-3.tex",
+        "indexed/invertdictionary-4.tex",
+        "indexed/invertdictionary.tex",
+        "indexed/lsp-cli-eng-dict.tex",
+        "indexed/lsp-cli-phonology.tex",
+        "invertdictionary.py"
+      ]
+    },
+    {
+      "repository": "langsci/245",
+      "commit": "492460f67f910d1b82eb9a978a2d70dd76cd259a",
+      "files": 328,
+      "lexical_file_candidates": [
+        "chapters/dictionary.aux",
+        "chapters/dictionary.tex",
+        "chapters/dictionary.texbak",
+        "dict.sty",
+        "dictionary.tex"
+      ]
+    },
+    {
+      "repository": "langsci/308",
+      "commit": "631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c",
+      "files": 95,
+      "lexical_file_candidates": []
+    },
+    {
+      "repository": "langsci/66",
+      "commit": "37a7473097d2c8ed7787bfda95096b940d2db6c5",
+      "files": 267,
+      "lexical_file_candidates": [
+        "chapters/04_Phonology.tex",
+        "indexed/04_Phonology.tex"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/README.md",
+      "bytes": 1644,
+      "sha256": "a39fde762fe8000e507c45fcb148f849b28052f299169b368e718e50e627d60e"
+    },
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": "cldf/cldf-metadata.json",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/cldf-metadata.json",
+      "bytes": 20943,
+      "sha256": "19740d506edf0ec7f64256e15cfc6699265a3ee1e868b3eb859dbaf6df1d5936"
+    },
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": "cldf/forms.csv",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/forms.csv",
+      "bytes": 10738629,
+      "sha256": "6d2fd8e215b0d052715a837b220dc7eff122f9e02fbc6b0e95fd65e61299c9fd"
+    },
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": "cldf/lects.csv",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/lects.csv",
+      "bytes": 88788,
+      "sha256": "2f21ba65e2b3accf0cd3912bca1ecd8794eac2306e351ec873edf5548870c542"
+    },
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": "cldf/concepts.csv",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/concepts.csv",
+      "bytes": 36813,
+      "sha256": "a62897e5eeaf95a86f87f4ba56ba4d28cfd5476f77ea7196a02be4c3f787f985"
+    },
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": "cldf/sources.bib",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/sources.bib",
+      "bytes": 56989,
+      "sha256": "4386b380732fb6ddfe46b4b71c198b4651b47749f8f92d9b974a76f3c5652b84"
+    },
+    {
+      "repository": "lessersunda/lexirumah-data",
+      "commit": "e10af03128094a19ae62de32c14753869acaddbd",
+      "file": ".zenodo.json",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/.zenodo.json",
+      "bytes": 1316,
+      "sha256": "0e6c505963b1ea1cd5b2250fe1f3e6facf78c302acf35abfd09e5bfb6ddf2632"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "main.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/main.tex",
+      "bytes": 2111,
+      "sha256": "e723fac1d32eb04ef6d41861e0a5e19e5a5621641f2583cc6fb2d6f24b2e799a"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/01.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/01.tex",
+      "bytes": 3886,
+      "sha256": "0e9b27847f10ca018c7d6be58b369d095c3a536bfa8a6cef573007421804db08"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/02.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/02.tex",
+      "bytes": 1285,
+      "sha256": "90bcb1e3a84668783365718194adf2254214d943bbe08c8ce07e296904250f69"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/03.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/03.tex",
+      "bytes": 1054,
+      "sha256": "9ba3038fb92f921c8e3abf9f5899b59d5c0eeb0ac00439c3c50f14b6773ead68"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "data/dataset1.csv",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/data/dataset1.csv",
+      "bytes": 106,
+      "sha256": "254037a7269227e2b718f75dd0742f0ff2e36b2508e814fe319888a4d2d396e6"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "localmetadata.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/localmetadata.tex",
+      "bytes": 2315,
+      "sha256": "f8caad16cc1683bff1d2ea23a274aa90016768a30f5435b329e90c8f5bfff516"
+    },
+    {
+      "repository": "langsci/528",
+      "commit": "6cf5447815d50b42220cca92256e8c6b8335ce40",
+      "file": "chapters/01intro.tex",
+      "url": "https://raw.githubusercontent.com/langsci/528/6cf5447815d50b42220cca92256e8c6b8335ce40/chapters/01intro.tex",
+      "bytes": 1979,
+      "sha256": "1e6ab903676bde6763a9e4e51f32435276c25fc4d6e85ff513cbb6ac9ddfca2d"
+    },
+    {
+      "repository": "langsci/528",
+      "commit": "6cf5447815d50b42220cca92256e8c6b8335ce40",
+      "file": "chapters/03sources.tex",
+      "url": "https://raw.githubusercontent.com/langsci/528/6cf5447815d50b42220cca92256e8c6b8335ce40/chapters/03sources.tex",
+      "bytes": 10802,
+      "sha256": "faed0042fb61e00c1cad07b85101af27ae42d312969e54c02399131117f3298d"
+    },
+    {
+      "repository": "langsci/528",
+      "commit": "6cf5447815d50b42220cca92256e8c6b8335ce40",
+      "file": "chapters/05phonology.tex",
+      "url": "https://raw.githubusercontent.com/langsci/528/6cf5447815d50b42220cca92256e8c6b8335ce40/chapters/05phonology.tex",
+      "bytes": 43124,
+      "sha256": "8d8a8d4764a1d3d94a404d18755a63c2b56d405fc3815f9a4e31835687e4428f"
+    },
+    {
+      "repository": "langsci/398",
+      "commit": "841aa919d191eea2b19fcd6ae2fb9251545c726a",
+      "file": "chapters/noun_dictionary.tex",
+      "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/noun_dictionary.tex",
+      "bytes": 71576,
+      "sha256": "a84274bc6c0ebcd312a6fc889d1c24dc76333bdbed01af5f91e5198721fb4462"
+    },
+    {
+      "repository": "langsci/398",
+      "commit": "841aa919d191eea2b19fcd6ae2fb9251545c726a",
+      "file": "chapters/particle_dictionary.tex",
+      "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/particle_dictionary.tex",
+      "bytes": 447098,
+      "sha256": "722e0c84c5261521fb1ff6a5d24c7a337fe5cb01d23b265db04f3335447e941d"
+    },
+    {
+      "repository": "langsci/398",
+      "commit": "841aa919d191eea2b19fcd6ae2fb9251545c726a",
+      "file": "chapters/verb_dictionary.tex",
+      "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/verb_dictionary.tex",
+      "bytes": 356602,
+      "sha256": "d1c404b516f5a4fbcdd991b87415cfc4f8544f2027f9b6f3e92f02a52cee65eb"
+    },
+    {
+      "repository": "langsci/74",
+      "commit": "06463ca75da990121d0fc9a7dcadbc15892cfd3d",
+      "file": "chapters/dictionary.tex",
+      "url": "https://raw.githubusercontent.com/langsci/74/06463ca75da990121d0fc9a7dcadbc15892cfd3d/chapters/dictionary.tex",
+      "bytes": 1607884,
+      "sha256": "4733184c396953e6102b379e37537ad5161c66a8d0a194b02cc0663058afced3"
+    },
+    {
+      "repository": "langsci/74",
+      "commit": "06463ca75da990121d0fc9a7dcadbc15892cfd3d",
+      "file": "chapters/lsp-cli-phonology.tex",
+      "url": "https://raw.githubusercontent.com/langsci/74/06463ca75da990121d0fc9a7dcadbc15892cfd3d/chapters/lsp-cli-phonology.tex",
+      "bytes": 123585,
+      "sha256": "1874e40afa674a7d922ba2fb9cc227edd2ce94f1f35dbec142a92183fd24801b"
+    },
+    {
+      "repository": "langsci/245",
+      "commit": "492460f67f910d1b82eb9a978a2d70dd76cd259a",
+      "file": "chapters/dictionary.tex",
+      "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/dictionary.tex",
+      "bytes": 208,
+      "sha256": "83f15697d67bb74821c534d1306710168d4df8d2103ffcd46f0a8ab51954a114"
+    },
+    {
+      "repository": "langsci/83",
+      "commit": "215f958fba980080eae280f7fddef27556450520",
+      "file": "main.tex",
+      "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/main.tex",
+      "bytes": 1416,
+      "sha256": "e0cdaf1a6aa2eae131f2b575c589c7fea71efa91496c712f5e5a14f8e900fb40"
+    },
+    {
+      "repository": "langsci/83",
+      "commit": "215f958fba980080eae280f7fddef27556450520",
+      "file": "backmatter.tex",
+      "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/backmatter.tex",
+      "bytes": 493,
+      "sha256": "ed2ac422a9c26ede0c1e8008aa39a5e0cd7ba436e442c73a8d1626c1fac4409d"
+    },
+    {
+      "repository": "langsci/83",
+      "commit": "215f958fba980080eae280f7fddef27556450520",
+      "file": "chapters/aA.tex",
+      "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/chapters/aA.tex",
+      "bytes": 22133,
+      "sha256": "ffbda8304f9097cfce7ab014c82c15e25aef6f280f0fa50ceb3e20a93beb2d40"
+    },
+    {
+      "repository": "langsci/83",
+      "commit": "215f958fba980080eae280f7fddef27556450520",
+      "file": "chapters/aB.tex",
+      "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/chapters/aB.tex",
+      "bytes": 20586,
+      "sha256": "8375b3011949bc4096a198bcfd2f843521fb707f7451ae8be02ed0b1b6b1ad94"
+    },
+    {
+      "repository": "langsci/83",
+      "commit": "215f958fba980080eae280f7fddef27556450520",
+      "file": "chapters/01.tex",
+      "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/chapters/01.tex",
+      "bytes": 55649,
+      "sha256": "9d8cca72aeaf8cb101272316bb44cdc282a1831a1557ea8f5eadded8599f885c"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/dicoA-G.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/dicoA-G.tex",
+      "bytes": 1000096,
+      "sha256": "cfb3bf4e38213f7357b5f3e7364dfc114afdef6afd3db981787a35a1aebfda7a"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/dicoH-M.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/dicoH-M.tex",
+      "bytes": 763608,
+      "sha256": "a6d89473cff0f177f974b94eb39c487c0a0a6d17b27dc5865d5f9bc1b57a6696"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/dicoN-Z.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/dicoN-Z.tex",
+      "bytes": 709716,
+      "sha256": "757e1df0df6e70d407477ca401b02d671d8311fef9e1f8c12a52876d0bb55c65"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/intro.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/intro.tex",
+      "bytes": 29509,
+      "sha256": "ba800f6ff701f12ce0df80ae2044707d7dcb5a70a00b5688da8583baf97290d5"
+    },
+    {
+      "repository": "langsci/603",
+      "commit": "1a02f2e726b7e85655952d296a2cbe3810d69e83",
+      "file": "chapters/sketch.tex",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/sketch.tex",
+      "bytes": 313447,
+      "sha256": "03ffb8a66214476916d05376cf9068f9b3b45a0ca1f882a8c7fe4ca1ac9ac091"
+    },
+    {
+      "repository": "langsci/245",
+      "commit": "492460f67f910d1b82eb9a978a2d70dd76cd259a",
+      "file": "chapters/a.tex",
+      "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/a.tex",
+      "bytes": 21508,
+      "sha256": "ca8005c687bf24851f687d1e09473766931ccdb0fc3f5e939aac103196045125"
+    },
+    {
+      "repository": "langsci/245",
+      "commit": "492460f67f910d1b82eb9a978a2d70dd76cd259a",
+      "file": "chapters/spelling.tex",
+      "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/spelling.tex",
+      "bytes": 1056,
+      "sha256": "a66ff49613e68f58f3965b08fb976a3839ef539734557adc4db250fe02420035"
+    },
+    {
+      "repository": "langsci/398",
+      "commit": "841aa919d191eea2b19fcd6ae2fb9251545c726a",
+      "file": "chapters/spelling.tex",
+      "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/spelling.tex",
+      "bytes": 38702,
+      "sha256": "a7a7f9bce1a6b80e3bbc421d91f2abfc29789f83170dca629ec977b4e5416f9f"
+    },
+    {
+      "repository": "langsci/398",
+      "commit": "841aa919d191eea2b19fcd6ae2fb9251545c726a",
+      "file": "chapters/spelling_systems.tex",
+      "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/spelling_systems.tex",
+      "bytes": 7794,
+      "sha256": "2ead4184e980641bc6a568cf9e4ab0b2fd4915d086c4c004fed093c181543720"
+    },
+    {
+      "repository": "langsci/528",
+      "commit": "6cf5447815d50b42220cca92256e8c6b8335ce40",
+      "file": "chapters/04approaches.tex",
+      "url": "https://raw.githubusercontent.com/langsci/528/6cf5447815d50b42220cca92256e8c6b8335ce40/chapters/04approaches.tex",
+      "bytes": 8647,
+      "sha256": "8cea570d1342d9e44bd15fc70f1c6c7f6ecd662a84a67fb40f1c9a975cd8dad8"
+    },
+    {
+      "repository": "langsci/308",
+      "commit": "631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c",
+      "file": "chapters/01.tex",
+      "url": "https://raw.githubusercontent.com/langsci/308/631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c/chapters/01.tex",
+      "bytes": 19094,
+      "sha256": "b0683108cc490c70fa0d54797c7a2235a0ab6fdb6aae6f1faea52fdd603f9cc1"
+    },
+    {
+      "repository": "langsci/66",
+      "commit": "37a7473097d2c8ed7787bfda95096b940d2db6c5",
+      "file": "chapters/21_verbgloss.tex",
+      "url": "https://raw.githubusercontent.com/langsci/66/37a7473097d2c8ed7787bfda95096b940d2db6c5/chapters/21_verbgloss.tex",
+      "bytes": 44,
+      "sha256": "ddf448a65bc025521956ee6caf50e43ab4a0639b9df6ea3ffbe3171e5dfae151"
+    },
+    {
+      "repository": "langsci/66",
+      "commit": "37a7473097d2c8ed7787bfda95096b940d2db6c5",
+      "file": "chapters/04_Phonology.tex",
+      "url": "https://raw.githubusercontent.com/langsci/66/37a7473097d2c8ed7787bfda95096b940d2db6c5/chapters/04_Phonology.tex",
+      "bytes": 96382,
+      "sha256": "cec4593bc8145e591c0bc727cfd3e8e5d7bd33bece5e018ad2aff849f1824d27"
+    },
+    {
+      "repository": "langsci/66",
+      "commit": "37a7473097d2c8ed7787bfda95096b940d2db6c5",
+      "file": "chapters/03_Intro_Yakkha.tex",
+      "url": "https://raw.githubusercontent.com/langsci/66/37a7473097d2c8ed7787bfda95096b940d2db6c5/chapters/03_Intro_Yakkha.tex",
+      "bytes": 54266,
+      "sha256": "e99c384fe60dae7d383516b92283b0b5b5d74a8129921d15696f6ef682d6fe40"
+    }
+  ],
+  "additional_authorities": [
+    {
+      "name": "andaki-published-embed",
+      "url": "https://drive.google.com/uc?id=1nFcu3h9I6VrmZgoyUEWE1OVhr6qSai5h&export=download",
+      "bytes": 153922,
+      "sha256": "216d8f79c21d3d3c82550212204dc9dc5c8589f1eebb549f12257b1f5b577950",
+      "content_type": "application/octet-stream",
+      "signature": "504b03041400060008000000"
+    },
+    {
+      "name": "beja2026.pdf",
+      "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/603-VanhoveEtAl-2026.pdf",
+      "bytes": 4260991,
+      "sha256": "f173826ab756fa35ab2ed3a043c13b38df13da72828106bffc65520a23fed111",
+      "content_type": "application/octet-stream",
+      "signature": "255044462d312e370a25e4f0"
+    }
+  ],
+  "notes": [
+    "Complete LexiRumah forms/lects/concepts/source bibliography and metadata acquired at exact commit.",
+    "Complete Chakali lexical LaTeX/phonology, Cayuga dictionary chapters/spelling and Beja dictionary chapters/sketch/PDF acquired. Marker counts are extraction leads, not admitted concepts.",
+    "Dagaare sample alphabet file and orthography file acquired; complete lexical count not measured.",
+    "Yauyos grammar appendix points to an external XML lexicon; the full lexicon is not acquired.",
+    "Andaki linked public workbook acquired; licence not explicitly stated in workbook.",
+    "Beja dataset1.csv and Yakkha verb-glossary chapter are placeholders, not lexical payloads.",
+    "No contacts, access applications, authentication bypass or new runtime dependency introduced."
+  ],
+  "authority_access_gates": [
+    {
+      "source": "Eton2022 original PDF",
+      "url": "https://mark.vandevelde.cnrs.fr/wp-content/uploads/2022/11/dictionnaire_eton-francais.pdf",
+      "status": "Official author route identified; local certificate verification failed and web fetch returned502. No verification bypass; exact original PDF bytes not acquired."
+    },
+    {
+      "source": "Na dictionary",
+      "url": "https://shs.hal.science/halshs-01204638",
+      "status": "Access challenge; dictionary payload not acquired. Original tone monograph documents the separate dictionary and versioning."
+    },
+    {
+      "source": "Yauyos XML lexicon",
+      "status": "The acquired grammar appendix cites an external XML resource in TLA/AILLA. No complete XML payload or item terms acquired."
+    }
+  ]
+}

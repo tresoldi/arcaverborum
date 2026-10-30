@@ -1,0 +1,60 @@
+{
+  "kullilli": {
+    "doi": "10.60600/YU/W4NKNG",
+    "version": 1,
+    "license": {
+      "name": "CC BY 4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    "file": {
+      "description": "pdf of sketch grammar",
+      "label": "Kullilli Sketch Grammar v1.pdf",
+      "restricted": false,
+      "version": 3,
+      "datasetVersionId": 17,
+      "categories": [
+        "Documentation",
+        "grammar"
+      ],
+      "dataFile": {
+        "id": 7897,
+        "persistentId": "doi:10.60600/YU/W4NKNG/LU2VA7",
+        "pidURL": "https://doi.org/10.60600/YU/W4NKNG/LU2VA7",
+        "filename": "Kullilli Sketch Grammar v1.pdf",
+        "contentType": "application/pdf",
+        "friendlyType": "Adobe PDF",
+        "filesize": 853931,
+        "description": "pdf of sketch grammar",
+        "categories": [
+          "Documentation",
+          "grammar"
+        ],
+        "storageIdentifier": "s3://yul-dv-prd:18ba58e5285-072b82ae3364",
+        "rootDataFileId": -1,
+        "md5": "16ba067bd53a22347e302f4cb6d53cf8",
+        "checksum": {
+          "type": "MD5",
+          "value": "16ba067bd53a22347e302f4cb6d53cf8"
+        },
+        "tabularData": false,
+        "creationDate": "2023-11-06",
+        "publicationDate": "2023-11-06",
+        "lastUpdateTime": "2023-11-06T16:55:04Z",
+        "fileAccessRequest": false
+      }
+    },
+    "sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+    "pages": 97,
+    "identity_gate": "Kullilli/Garlali/Kalali; Kalali kala1414 is a dialect under accepted Bulloo River kala1380/pny-bulloo-river, not a new language by name alone.",
+    "status": "Original public sketch acquired; unfinished phonological questions and historical source spellings require finite source-specific review."
+  },
+  "chirila": {
+    "doi": "10.60600/YU/XHPJXB",
+    "version": 1,
+    "terms": "Access by application; not all contents of this database are able to be shared",
+    "files": 715,
+    "restricted_files": 706,
+    "status": "Metadata only: major lexical files require application. Public metadata is not a new lexical payload. No application/contact authorized or attempted."
+  }
+}
