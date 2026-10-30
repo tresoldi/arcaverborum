@@ -1,0 +1,20 @@
+{
+  "accepted_targets_with_gaps": 7324,
+  "member_opportunities": 6794,
+  "south_american_opportunities": 602,
+  "american_opportunities": 900,
+  "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+  "source_policy": "Source IPA only counts as supplied. Resegmented spelling is orthographic potential, never supported evidence.",
+  "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report.",
+  "date": "2026-10-30",
+  "baseline": {
+    "constructions": 7346,
+    "forms": 2072746,
+    "supported_core": 469471,
+    "gled_primaries": 1558
+  },
+  "reviewed_source_alternatives": 150,
+  "gled_member_alternatives": 855,
+  "missing_exact_code_members": 121,
+  "accepted_lexical_changes": 0
+}

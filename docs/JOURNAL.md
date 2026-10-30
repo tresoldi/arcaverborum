@@ -1,5 +1,15 @@
 # Project journal and working memory
 
+## 2026-10-30 — Worldwide recommendations after JOHD/HGN (planning only)
+
+User requested worldwide next steps. Accepted baseline remains7,346 constructions/2,072,746 records/469,471 supported core/1,558 GLED primaries. Refreshed additive screen6,794 member leads (602 South American/900 American),150 guarded alternatives,855 GLED alternatives; missing intake exact-code121 members (36 language/67 dialect/17 family/one unknown), with the only language-level30+ row case being already-resolved Momi/Mom Jango. No lexical execution authorized by the planning request.
+
+New original-archive screen finds16 RefLex dictionary-member leads/15 absent language-level codes with200+ reported rows. Goo3115/gooa1234(1,438), Buu/Zaranda2503/zara1252(965) and Ndoola2335/ndoo1241(544) proposed first after aliases/editions/phonology/terms. Original Goo2020 dictionary, Ndoola wordlist and Bu/Zaranda identity checked through primary sources. Language absence is not yet a verified new-language gain.
+
+Checked Lexibank2 v2.2 source list134: six namespaces absent from datasets.csv. Downloaded tagged metadata/languages/README for Berry West Papua10samples/7represented codes, Heath Dogon24/20represented codes, Nda'nda'10samples/two nonempty codes plus one unlinked, Maltese1 represented code and Oceanic418samples/411represented codes. Dogon repo LICENSE CC BY4.0 despite missing CLDF license field; other inspected sources declare CC BY4.0. Existing-source ancestry/identity and phonological-conversion gates remain. New cached Australian HGN screen397 phonemic-only rows/34 members, mostly cultural/flora; Wunambal58/Ngarluma57/Wubuy55 raw leads, not gains. No North American phonemic-only block was found in this cached HGN scan.
+
+R01–R09 proposed in WORLDWIDE_AFTER_J_PLAN_2026-10-30.md: South American original depth; substantial new-language pilots; African originals/Bantu depth; West Papua/Pacific plus protected Torricelli acquisition; North/Central America dictionary preference; Australia; Asia/Middle East; Maltese/Europe; protected ancient exact authority. NEXT updated, compact source/audit evidence retained; no accepted data or source choices changed.
+
 ## 2026-10-29 — JOHD/HGN J01–J04 executed
 
 User authorized all opportunities sequentially with autonomous specifics.151 records:91 original supplied phonemic citations (Nadëb/Roçado48, Rio Negro23, Yabarana20) and60 written reconstructions in three explicitly analytical inventories. Original HGN122 authority becomes primary for Nadëb; all preceding readings/native cognacy/comments survive, including one mystery-vowel record verbatim. No new extant language claim, reconstructed IPA, inferred neutral roots or etymology-to-cognacy conversion. Exact original source-member and native metadata preserved.

@@ -104,3 +104,7 @@ ranking is linked from STATUS; refresh it after relevant intake or build changes
 ## Source assessments
 
 * [JOHD555 South American aggregate,2026-10-29](../SOURCE_ASSESSMENT_JOHD555_2026-10-29.md): strong original HGN phonemic-only recovery lead, duplicate/source-quality audit and separately scoped proto-language inventories; planning only.
+
+## Worldwide planning after JOHD/HGN
+
+* [R01–R09,2026-10-30](../WORLDWIDE_AFTER_J_PLAN_2026-10-30.md): refreshed rankings, original RefLex missing-language candidates, newly inspected African/Papuan/Maltese source releases and Australian phonemic-only recovery; planning only.

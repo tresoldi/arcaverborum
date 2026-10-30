@@ -1,0 +1,162 @@
+[
+  {
+    "source_id": "3115",
+    "name": "Goo",
+    "gc": "gooa1234",
+    "rows": 1438,
+    "citation": "Aplonova 2020 : goo",
+    "author": "Aplonova, Ekaterina",
+    "bibliography_id": "27730",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "363",
+    "name": "Gula Iro",
+    "gc": "gula1265",
+    "rows": 980,
+    "citation": "Pairault 1969 : kùláál (Iro)",
+    "author": "Pairault, Claude",
+    "bibliography_id": "16159",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "2503",
+    "name": "Buu (Zaranda)",
+    "gc": "zara1252",
+    "rows": 965,
+    "citation": "Caron 2008 : Buː (Zaranda)",
+    "author": "Caron, Bernard",
+    "bibliography_id": "25409",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "1877",
+    "name": "Baga Fore",
+    "gc": "mbul1258",
+    "rows": 669,
+    "citation": "Golovko 2015 : baga fore",
+    "author": "Golovko, Katia",
+    "bibliography_id": "0",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "1352",
+    "name": "Tiba",
+    "gc": "gaaa1245",
+    "rows": 634,
+    "citation": "Boyd 1999 : Tiba (Gà̠)",
+    "author": "Boyd, Raymond",
+    "bibliography_id": "25389",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "2",
+    "name": "Bijogo Kamona",
+    "gc": "kamo1256",
+    "rows": 609,
+    "citation": "Segerer 1998 : bijogo-kamona",
+    "author": "Segerer, Guillaume",
+    "bibliography_id": "0",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "3114",
+    "name": "Nteng",
+    "gc": "nucl1698",
+    "rows": 600,
+    "citation": "Blench & Bulkaam 2019 : Nteng",
+    "author": "Blench, Roger M. and Bulkaam, Michael",
+    "bibliography_id": "27861",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "2335",
+    "name": "Ndoola",
+    "gc": "ndoo1241",
+    "rows": 544,
+    "citation": "Connell & Blench 2014 : Ndoola",
+    "author": "Connell, Bruce and Blench, Roger M.",
+    "bibliography_id": "27897",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "3563",
+    "name": "Anyanga",
+    "gc": "giny1241",
+    "rows": 502,
+    "citation": "Aplonova 2025 : Ginyanga",
+    "author": "Aplonova, Ekaterina",
+    "bibliography_id": "29478",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "3037",
+    "name": "Tunia",
+    "gc": "tuni1251",
+    "rows": 458,
+    "citation": "Palayer 1975 : tounia (b)",
+    "author": "Palayer, Pierre",
+    "bibliography_id": "16162",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "2924",
+    "name": "Maninkakan Kita",
+    "gc": "kita1249",
+    "rows": 412,
+    "citation": "Creissels 2009 : malinké de Kita",
+    "author": "Creissels, Denis",
+    "bibliography_id": "25055",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "989",
+    "name": "Dan (Yakouba)",
+    "gc": "dann1241",
+    "rows": 278,
+    "citation": "Koelle 1854 : II-13 - Gī́o",
+    "author": "Koelle, Sigismund Wilhelm",
+    "bibliography_id": "24178",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "446",
+    "name": "Bijogo Kamona",
+    "gc": "kamo1256",
+    "rows": 265,
+    "citation": "Koelle 1854 : XII-A-a-2a - (Bidṣṓgo) Án·kāras",
+    "author": "Koelle, Sigismund Wilhelm",
+    "bibliography_id": "24178",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "1032",
+    "name": "Ihieʋe",
+    "gc": "ihie1238",
+    "rows": 263,
+    "citation": "Koelle 1854 : V-B-4 - Īhéwe",
+    "author": "Koelle, Sigismund Wilhelm",
+    "bibliography_id": "24178",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "182",
+    "name": "Kpatili",
+    "gc": "kpat1244",
+    "rows": 247,
+    "citation": "Moñino (Ed) 1988 : kpatiri ~ kpatili (11)",
+    "author": "Boyd, Raymond",
+    "bibliography_id": "14051",
+    "accepted_name_collision": false
+  },
+  {
+    "source_id": "2908",
+    "name": "Kuwaa",
+    "gc": "kuwa1247",
+    "rows": 231,
+    "citation": "Ingemann & Thompson 1973 : Kuwaa",
+    "author": "Ingemann, Frances and Thompson, Richard",
+    "bibliography_id": "9596",
+    "accepted_name_collision": false
+  }
+]

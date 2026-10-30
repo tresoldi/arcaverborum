@@ -1,0 +1,139 @@
+[
+  {
+    "dataset": "berrywestpapuan",
+    "organization": "lexibank",
+    "version": "v0.1",
+    "source_members": 10,
+    "distinct_nonempty_glottocodes": 7,
+    "absent_exact_nonempty_glottocodes": [],
+    "source_files": {
+      "README.md": {
+        "cache": "raw/curation/after-j-planning/berrywestpapuan-README.md",
+        "sha256": "efd3bccf0d3a0c40130843db836651f34dd8641dff861cf961c91610b9645f33"
+      },
+      "cldf/languages.csv": {
+        "cache": "raw/curation/after-j-planning/berrywestpapuan-cldf-languages.csv",
+        "sha256": "8d65c8f4b5f7c09c01c30b46a2288d703c0553380af0ecb9ce5262d3b546b915"
+      },
+      "cldf/cldf-metadata.json": {
+        "cache": "raw/curation/after-j-planning/berrywestpapuan-cldf-cldf-metadata.json",
+        "sha256": "0eb5f07c19b3dbe42e71a7e3c5b5a9c0e11847cee61a616689eb181731d7265c"
+      },
+      "metadata.json": {
+        "cache": "raw/curation/after-j-planning/berrywestpapuan-metadata.json",
+        "sha256": "790714533769f897cc7a41bf5c4802bec979a1548d2ce7d30d03d31d29d1dae4"
+      }
+    },
+    "interpretation": "Absent namespace is not a new language or independent source; aliases, derivative genealogy, representations, senses and terms need review."
+  },
+  {
+    "dataset": "heathdogon",
+    "organization": "languageorphans",
+    "version": "v0.3",
+    "source_members": 24,
+    "distinct_nonempty_glottocodes": 20,
+    "absent_exact_nonempty_glottocodes": [],
+    "source_files": {
+      "README.md": {
+        "cache": "raw/curation/after-j-planning/heathdogon-README.md",
+        "sha256": "462b47b7e8fd0aeeafc1c77887cdc8c0d2dd2622891b26c6b98d22ab93eb9a3c"
+      },
+      "cldf/languages.csv": {
+        "cache": "raw/curation/after-j-planning/heathdogon-cldf-languages.csv",
+        "sha256": "fe9fc5b5587c4c38e8ec9ed65e66587210c77f6a383d6a7dd5bb1da2ae9a7387"
+      },
+      "cldf/cldf-metadata.json": {
+        "cache": "raw/curation/after-j-planning/heathdogon-cldf-cldf-metadata.json",
+        "sha256": "551f6a04c9d5f5f604769fbfaa490d5e41b54359f8d655df6bba1ec977974060"
+      },
+      "metadata.json": {
+        "cache": "raw/curation/after-j-planning/heathdogon-metadata.json",
+        "sha256": "f7bebe9958d44f2e93894091e9b4891c46d6078e031397050ad0985dfea4975a"
+      }
+    },
+    "interpretation": "Absent namespace is not a new language or independent source; aliases, derivative genealogy, representations, senses and terms need review."
+  },
+  {
+    "dataset": "ndanda",
+    "organization": "kpaam-cam",
+    "version": "v1.1",
+    "source_members": 10,
+    "distinct_nonempty_glottocodes": 2,
+    "absent_exact_nonempty_glottocodes": [
+      "bato1245"
+    ],
+    "source_files": {
+      "README.md": {
+        "cache": "raw/curation/after-j-planning/ndanda-README.md",
+        "sha256": "a9d4894d61bf5463352ac03a713ee09d7a651253c38a99a2028022f5cbe8aca9"
+      },
+      "cldf/languages.csv": {
+        "cache": "raw/curation/after-j-planning/ndanda-cldf-languages.csv",
+        "sha256": "8bb93d4fbbf4ea4323a1ef579eced6fd1d235255b3402de61026ddd27a9378f0"
+      },
+      "cldf/cldf-metadata.json": {
+        "cache": "raw/curation/after-j-planning/ndanda-cldf-cldf-metadata.json",
+        "sha256": "c67026e510fe021d54a060a2030cafdffa338db99fbd3118c4970ae84164e3cf"
+      },
+      "metadata.json": {
+        "cache": "raw/curation/after-j-planning/ndanda-metadata.json",
+        "sha256": "29eec3198784e5572b92f930c527ff7cabc923b63ae81ed1e35a8b640f9fe68c"
+      }
+    },
+    "interpretation": "Absent namespace is not a new language or independent source; aliases, derivative genealogy, representations, senses and terms need review."
+  },
+  {
+    "dataset": "spagnolmaltese",
+    "organization": "intercontinental-dictionary-series",
+    "version": "v1.1",
+    "source_members": 1,
+    "distinct_nonempty_glottocodes": 1,
+    "absent_exact_nonempty_glottocodes": [],
+    "source_files": {
+      "README.md": {
+        "cache": "raw/curation/after-j-planning/spagnolmaltese-README.md",
+        "sha256": "58e3efae297630bfab967a376d67c10e862dce8f027f9aca57e81cbc92210435"
+      },
+      "cldf/languages.csv": {
+        "cache": "raw/curation/after-j-planning/spagnolmaltese-cldf-languages.csv",
+        "sha256": "e22dfbc5ce7d3cd7cdf32c74da572645b7c456a4e3604db6be3aaebc74309e98"
+      },
+      "cldf/cldf-metadata.json": {
+        "cache": "raw/curation/after-j-planning/spagnolmaltese-cldf-cldf-metadata.json",
+        "sha256": "1674bfdc253f997e93e483912f8ed493555f2c5b3bb4770e8a10551bf2071a16"
+      },
+      "metadata.json": {
+        "cache": "raw/curation/after-j-planning/spagnolmaltese-metadata.json",
+        "sha256": "1d4ad4236b70c08272a038c6be289a4bc9d6229e1d61fdfe7dc01f3590f64b95"
+      }
+    },
+    "interpretation": "Absent namespace is not a new language or independent source; aliases, derivative genealogy, representations, senses and terms need review."
+  },
+  {
+    "dataset": "abvdoceanic",
+    "organization": "lexibank",
+    "version": "v0.3",
+    "source_members": 418,
+    "distinct_nonempty_glottocodes": 411,
+    "absent_exact_nonempty_glottocodes": [],
+    "source_files": {
+      "README.md": {
+        "cache": "raw/curation/after-j-planning/abvdoceanic-README.md",
+        "sha256": "5744709c8696cd32c6ced8d3beb3338d61d853ee0ae9f7ba4d394b4a7b67f929"
+      },
+      "cldf/languages.csv": {
+        "cache": "raw/curation/after-j-planning/abvdoceanic-cldf-languages.csv",
+        "sha256": "ce51310a46ab882e68db92eca666c0d8cf4503e12fd2da76a9349862b22208b0"
+      },
+      "cldf/cldf-metadata.json": {
+        "cache": "raw/curation/after-j-planning/abvdoceanic-cldf-cldf-metadata.json",
+        "sha256": "f5f11a1027adc9e657aabdc8fb457db277f1447445e630b43f9f8193a42ded3f"
+      },
+      "metadata.json": {
+        "cache": "raw/curation/after-j-planning/abvdoceanic-metadata.json",
+        "sha256": "32ff778358dc48d0fd41d4fbe7c966d4588385f08da6bec6b92ec834098bba1f"
+      }
+    },
+    "interpretation": "Absent namespace is not a new language or independent source; aliases, derivative genealogy, representations, senses and terms need review."
+  }
+]
