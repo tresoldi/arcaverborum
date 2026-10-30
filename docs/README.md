@@ -31,6 +31,7 @@ paths and observations; the history index gives them context.
 | [Curation machinery](CURATION_MACHINERY.md) | Descriptive recipes/packets and their relationship to enforced config/custom files |
 | [Research explorer](RESEARCH_EXPLORER.md) and [web README](../web/README.md) | Current All-accepted explorer, provenance, exports, maps and publication checks |
 | [Core v0.1.0 release specification](RELEASE_SPECIFICATION.md) | Archived release design, distinct from the live Core-source collection preset |
+| [Evidence-bundle export](EVIDENCE_BUNDLE.md) | Framework `evidence_bundle` export, Door-2 cognacy package, sealed reconstruction gold, stable IDs, sigma and licence flags |
 
 Use build/concept specifications alongside current code and source-specific
 packets. Older design intentions and historical counts do not override accepted

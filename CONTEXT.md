@@ -70,6 +70,7 @@ Use these terms when naming things in code, commits, and conversation.
     │
  ├─ release   output/release/                 versioned CLDF dataset (gitignored)
  ├─ report    output/report/curation.*        curation priority ranking (gitignored)
+ ├─ export-evidence output/evidence/<name>/    framework evidence_bundle + Door-2 + sealed gold (gitignored; reads web/data)
  └─ explore   SQLite index / web explorer     browsing and querying
 ```
 
@@ -136,6 +137,7 @@ both ID spaces follow the same `<3-char-code>-<slug>[-qualifier]` pattern.
 | `release` | Build versioned CLDF release from CORE slice | `build_release()` |
 | `packet` | Scaffold authority recipes and curation packets | `scaffold_packet()` |
 | `explore` | SQLite-indexed console and web data explorer | `build_index()`, `q_*()` queries |
+| `evidence_bundle` | Framework `evidence_bundle` export from the committed web snapshot, with separate Door-2 cognacy and sealed-gold reconstruction partitions | `export()`, `validate_bundle()`, `write_export()` |
 
 ### Auditing
 
@@ -154,7 +156,7 @@ both ID spaces follow the same `<3-char-code>-<slug>[-qualifier]` pattern.
 
 | Entry point | Role |
 |---|---|
-| `build.py` | Main CLI: fetch, ingest, register, extend, update, aggregate, release, report, concepts, packet, status |
+| `build.py` | Main CLI: fetch, ingest, register, extend, update, aggregate, release, report, concepts, packet, status, export-evidence |
 | `explore.py` (root) | Thin relay to `arcaverborum.explore.main()` |
 
 `build.py` is an orchestrator with real logic (incremental rebuild,

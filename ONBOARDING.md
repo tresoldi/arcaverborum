@@ -106,6 +106,15 @@ python explore.py concept phy-water
 python explore.py sql "SELECT tier, COUNT(*) FROM varieties GROUP BY tier"
 ```
 
+Export a framework `evidence_bundle` (plus the separate Door-2 cognacy package and
+sealed reconstruction gold) from the committed web snapshot; see
+[the evidence-bundle reference](docs/EVIDENCE_BUNDLE.md):
+
+```bash
+python build.py export-evidence                    # default ancient/historical IE set
+python build.py export-evidence ine-hittite --exclude-licence nc,sa,gpl
+```
+
 Audit concept drift against Concepticon:
 
 ```bash

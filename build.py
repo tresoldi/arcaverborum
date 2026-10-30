@@ -13,6 +13,9 @@ Subcommands:
   report        Rank varieties by curation priority into output/report/.
   concepts      Audit (and optionally extend) the frozen concept catalog.
   status        Show enrollment, freshness, source coverage stats.
+  export-evidence  Export framework evidence_bundle JSON (plus a Door-2
+                cognacy package and a sealed gold reconstruction file)
+                from the committed web snapshot.
 
 Examples:
 
@@ -24,11 +27,14 @@ Examples:
   build.py aggregate
   build.py report
   build.py status
+  build.py export-evidence                     # default: ancient/historical IE stages
+  build.py export-evidence ine-hittite ine-latin --exclude-licence nc,sa,gpl
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import sys
 from pathlib import Path
@@ -402,6 +408,28 @@ def cmd_status(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_export_evidence(args: argparse.Namespace) -> int:
+    from arcaverborum import evidence_bundle as eb
+
+    exclusions = {e for arg in args.exclude_licence for e in arg.split(",")}
+    options = eb.ExportOptions(av_ids=args.av_ids or None, exclude_licence=exclusions,
+                               gold_scope=args.gold_scope, web_data=Path(args.web_data),
+                               varieties_dir=VARIETIES_DIR)
+    if args.list_default:
+        snap = eb.Snapshot.load(options.web_data)
+        for av_id, reasons in eb.default_varieties(snap, VARIETIES_DIR).items():
+            print(f"{av_id}\t{snap.languages[av_id]['Name']}\t{','.join(reasons)}")
+        return 0
+    result = eb.export(options)
+    out = Path(args.out) if args.out else OUTPUT_DIR / "evidence" / (args.name or
+                                                                     ("ancient-ie" if not args.av_ids else "custom"))
+    paths = eb.write_export(result, out)
+    print(json.dumps(result["report"]["counts"], indent=1))
+    for name, path in paths.items():
+        logger.info("%s → %s", name, path)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -481,6 +509,21 @@ def main(argv: list[str] | None = None) -> int:
 
     p_st = sub.add_parser("status", help="Show enrollment/freshness summary")
     p_st.set_defaults(fn=cmd_status)
+
+    p_ev = sub.add_parser("export-evidence",
+                          help="Export evidence_bundle + Door-2 cognacy + sealed gold from web/data")
+    p_ev.add_argument("av_ids", nargs="*",
+                      help="Varieties to export (default: data-derived ancient/historical IE stages)")
+    p_ev.add_argument("--exclude-licence", action="append", default=[], metavar="TERMS",
+                      help="Comma-separated licence flags (nc, sa, nd, gpl, unrecorded, presumed) "
+                           "or SPDX ids (e.g. CC-BY-NC-4.0) to drop; repeatable")
+    p_ev.add_argument("--gold-scope", choices=["selected", "family", "all"], default="family",
+                      help="Which proto varieties feed the sealed gold file (default: families of the selection)")
+    p_ev.add_argument("--web-data", default=str(PROJECT_ROOT / "web" / "data"))
+    p_ev.add_argument("--out", default=None, help="Output directory (default output/evidence/<name>)")
+    p_ev.add_argument("--name", default=None)
+    p_ev.add_argument("--list-default", action="store_true", help="List the default selection and exit")
+    p_ev.set_defaults(fn=cmd_export_evidence)
 
     args = p.parse_args(argv)
     return args.fn(args)
