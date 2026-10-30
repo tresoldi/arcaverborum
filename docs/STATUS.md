@@ -2,6 +2,9 @@
 
 Updated2026-10-30. Latest accepted batch: [Worldwide original-source S01–S09](WORLDWIDE_S_EXECUTION_2026-10-30.md), all nine authorized tracks closed with guarded admissions or specific holds. [Metrics](worldwide_s_summary_2026-10-30.json), [verification](worldwide_s_verification_2026-10-30.json), [source fidelity](worldwide_s_source_fidelity_2026-10-30.json).
 
+
+Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](worldwide_s_identity_audit_2026-10-30.json).
+
 ## Accepted baseline
 
 | Measure | Accepted value |

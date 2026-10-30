@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "av_id": "atl-gaa",
+      "glottocode": "gaaa1245",
+      "names": [
+        "gaa",
+        "tiba"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "atl-gula-iro",
+      "glottocode": "gula1265",
+      "names": [
+        "gula iro"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "atl-ginyanga",
+      "glottocode": "giny1241",
+      "names": [
+        "anyanga",
+        "ginyanga"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "map-welaun",
+      "glottocode": "wela1235",
+      "names": [
+        "welaun"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "map-idate",
+      "glottocode": "idat1237",
+      "names": [
+        "idate",
+        "idaté"
+      ],
+      "matches": [
+        {
+          "av_id": "map-lakalei",
+          "Name": "Lakalei",
+          "Glottocode": "laka1255",
+          "transcription_source": "acd",
+          "forms": 14,
+          "aliases": [
+            "Idate",
+            "Lakalei"
+          ]
+        }
+      ],
+      "decision": "New explicit idat1237/idt construction retained; legacy ACD635 Idate→Lakalei/laka1255/lka attribution remains a separate identity hold.",
+      "basis": "LexiRumah exact idat1237 source member uses Klamer2002, with272 full intake rows/38 accepted. Glottolog recognizes Idaté idat1237/idt and Lakalei laka1255/lka as distinct language-level entries. Existing14-record ACD construction and its source alias remain unchanged. No claim that older broad samples exclude all Idaté speech; no automatic reassignment or independent-witness claim."
+    },
+    {
+      "av_id": "map-lole",
+      "glottocode": "lole1239",
+      "names": [
+        "lole"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "map-ringgou",
+      "glottocode": "ring1244",
+      "names": [
+        "rikou",
+        "ringgou"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "map-tii",
+      "glottocode": "tiii1241",
+      "names": [
+        "tii"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "tim-sar-indonesia",
+      "glottocode": "sarr1247",
+      "names": [
+        "sar",
+        "sar (indonesia)"
+      ],
+      "matches": [
+        {
+          "av_id": "cen-sar",
+          "Name": "Sar",
+          "Glottocode": "sarr1246",
+          "transcription_source": "wiktionary",
+          "forms": 1,
+          "aliases": [
+            "Sar"
+          ]
+        }
+      ],
+      "decision": "Unrelated name homonym; new Indonesian canonical source retained.",
+      "basis": "Existing cen-sar sarr1246 is Central Sudanic/Africa. New tim-sar-indonesia sarr1247 is Timor-Alor-Pantar/Papunesia. LexiRumah region and member identity establish the scope; name alone does not merge them."
+    },
+    {
+      "av_id": "map-kolor",
+      "glottocode": "waer1237",
+      "names": [
+        "kolor",
+        "waerana"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    },
+    {
+      "av_id": "map-kalao",
+      "glottocode": "kala1394",
+      "names": [
+        "kalao"
+      ],
+      "matches": [],
+      "decision": "No accepted exact canonical-code or reviewed name/alias match before S."
+    }
+  ],
+  "canonical_code_absence": 11,
+  "scope": "Eleven newly explicit canonical language constructions, not a certification that all prior broad samples exclude related speech varieties.",
+  "identity_authorities": [
+    "https://glottolog.org/resource/languoid/id/idat1237",
+    "https://glottolog.org/resource/languoid/id/laka1255"
+  ],
+  "legacy_hold": "Original ACD635 Idate/Lakalei witness attribution and historical code mapping need review before reassignment/pooling."
+}

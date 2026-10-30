@@ -10,6 +10,8 @@ All2,073,083 earlier native records/mappings/cognacy preserved. Only11 Goo prior
 
 493 tests in both normalization flag states, full lint,26 builds,12 browser suites,401 artifact/three aggregate hashes,complete161,344 native rows,293 finite readings,ten upstream profile hashes,22 Kullilli page quotations and41 Beja PDF readings pass. Data commit 62f816d5f375057cb4ed77a1735f69da142f7aec pushed; CI41041073007/Pages41041073209 succeed. All403 canonical artifacts hash/byte-match, with S-specific/general live browser suites passing. One transient503 was retried with bounded backoff/lower concurrency; no hash mismatch. See worldwide_s_publication_2026-10-30.json.
 
+Final name/alias audit: eleven additions are newly explicit canonical language constructions. Older ACD635 alias Idate under Lakalei/laka1255 remains unchanged and held for original attribution; new LexiRumah member is explicit Idaté/idat1237/idt/Klamer2002. Sar Africa/Indonesia is an unrelated family/geographic homonym. Counts do not certify exclusion of related evidence from all prior broad samples. See worldwide_s_identity_audit_2026-10-30.json.
+
 ## 2026-10-30 — Worldwide original-source recommendations after R (planning only)
 
 User asks for worldwide next steps, especially self-ingesting new sources with documented profiles and RefLex for Africa. No new lexical batch authorized; accepted7,349/2,073,083/469,615 core remains. Refreshed discovery6837 member leads (602 South American/900 American),162 guarded alternatives,856 raw GLED alternatives,122 missing-intake members (36 language/68 dialect/17 family/one unknown). These are not realized gains.

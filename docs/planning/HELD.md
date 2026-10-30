@@ -5,6 +5,9 @@ Updated2026-10-30. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
+
+Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](../worldwide_s_identity_audit_2026-10-30.json).
+
 ## S01–S09 original-source closure —2026-10-30
 
 [Execution](../WORLDWIDE_S_EXECUTION_2026-10-30.md), [metrics](../worldwide_s_summary_2026-10-30.json) and [exact holds](../worldwide_s_holds_2026-10-30.csv) supersede the planning gates below. All nine bounded tracks are complete. Eleven canonical languages and one named Tuatschin variety are accepted; three original African dictionaries replace GLED primaries while all193 earlier GLED records remain guarded. Complete new intake161,344 rows is distinct from accepted1,016 records. Eleven earlier Goo readings recover;13 stay written.

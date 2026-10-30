@@ -2,6 +2,9 @@
 
 Updated2026-10-30. **S01–S09 are complete as bounded reviews**; no authorized S execution remains. [Execution](WORLDWIDE_S_EXECUTION_2026-10-30.md), [measured results](worldwide_s_summary_2026-10-30.json), [accepted baseline](STATUS.md) and [exact holds](worldwide_s_holds_2026-10-30.csv) are authoritative. The twelve original-source namespaces are ingested; their unreviewed rows are not accepted gains.
 
+
+Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](worldwide_s_identity_audit_2026-10-30.json).
+
 ## Next evidence-led planning pass
 
 1. **Deeper original African dictionaries:** expand reviewed senses/readings from now-ingested Chakali, Central Dagaare and Beja. The importers and three GLED primary replacements are completed. Reopen Dagaare homographs only with separate pronunciation scopes; compare Beja conversion-affected characters with the published PDF.

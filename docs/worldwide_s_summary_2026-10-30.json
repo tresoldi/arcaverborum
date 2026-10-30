@@ -303,5 +303,7 @@
     "S07",
     "S08",
     "S09"
-  ]
+  ],
+  "new_language_count_scope": "Eleven newly explicit canonical language constructions; older ACD635 Idate/Lakalei alias attribution remains held, so prior broad-sample exclusion is not certified.",
+  "identity_audit": "worldwide_s_identity_audit_2026-10-30.json"
 }
