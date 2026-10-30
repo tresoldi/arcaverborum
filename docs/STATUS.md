@@ -19,7 +19,7 @@ Updated2026-10-30. Latest accepted batch: [Worldwide R01–R09](WORLDWIDE_R_EXEC
 
 R adds337 records,248 supported slots/144 core and327 mapped slots/223 core. Three new modern-language constructions (Goo24/Bu27/Ndoola29) contain80 explicitly written records and no claimed pronunciation.249 supplied/upstream-converted and8 documented-profile readings broaden existing constructions. All2,072,746 earlier readings, native cognacy and comments survive; no older mapping, score or primary changes. Intake7,259,695. GLED-only dependence57,523 remains unchanged.
 
-479 tests in both HAVE_UTF8PROC flag states, full lint,18 affected builds,11 local browser suites,401 artifact/3 aggregate hashes,14 source-resource pins and21,078 native-row reproductions pass. See the execution report for source genealogy and exact holds. Publication proof follows the data commit.
+479 tests in both HAVE_UTF8PROC flag states, full lint,18 affected builds,11 local browser suites,401 artifact/3 aggregate hashes,14 source-resource pins and21,078 native-row reproductions pass. See the execution report for source genealogy and exact holds. Data commit:`d70c66299c6890938e44702caf9044a3f53e3e69` is pushed. [CI](https://github.com/tresoldi/arcaverborum/actions/runs/41026365155) passes on Python3.12/3.13 and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/41026365160) succeeds. [Canonical publication proof](worldwide_r_publication_2026-10-30.json) verifies all399 family shards plus manifest/catalog/recordings/bibliography (403 artifacts) on https://arcaverborum.org/. R-specific and general research browser/CSV suites pass against the canonical site. Subsequent documentation-only closure preserves these lexical artifacts.
 
 ## Historical preceding JOHD/HGN baseline
 

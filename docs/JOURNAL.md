@@ -8,7 +8,7 @@ Pinned native-preserving CLDF acquisition retains full plural/dialect/digital-li
 
 Held Nda’nda’ slash conversions/villages; HGN Australian spelling conventions; Harsusi emphatics and star nasalization loss; tiny thematic Zapotec primary preference. Oceanic78515 rows/78044 exact existing ABVD member/value/concept matches, no new independent witness. Urim63545 inaccessible, Yeri dictionary terms/entry attribution unresolved. Acquired original CIE SupplementumI: neri index printed31/PDF39, segmentation uncertainty PDF28/34, no semantic repair. Exact EW pages remain unavailable. Coptic Gamma file acquired but no S-labelled lexical form, no admission. Existing proto inventories unchanged/written. See WORLDWIDE_R_EXECUTION_2026-10-30.md, measured summary and exact hold CSV.
 
-479 tests both HAVE_UTF8PROC flag states, full lint,18 affected constructions,11 browser suites,401 artifact/3 aggregate hashes,14 source pins,21,078 native-row reproductions and8 exact dictionary reading reproductions pass. Publication verification follows the data commit. STATUS/NEXT/HELD/history/packets/recipes and local memory updated.
+479 tests both HAVE_UTF8PROC flag states, full lint,18 affected constructions,11 browser suites,401 artifact/3 aggregate hashes,14 source pins,21,078 native-row reproductions and8 exact dictionary reading reproductions pass. Data commit d70c66299c6890938e44702caf9044a3f53e3e69 pushed; CI41026365155 and Pages41026365160 pass. All403 canonical artifacts match and R/general live browser suites pass; see worldwide_r_publication_2026-10-30.json. STATUS/NEXT/HELD/history/packets/recipes and local memory updated.
 
 ## 2026-10-30 — Worldwide recommendations after JOHD/HGN (planning only)
 

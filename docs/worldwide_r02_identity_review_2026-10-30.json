@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "av_id": "man-goo",
+      "glottocode": "gooa1234",
+      "accepted_exact_code_matches_before": [],
+      "accepted_exact_name_alias_matches_before": [],
+      "identity_authority": "https://glottolog.org/resource/languoid/id/gooa1234"
+    },
+    {
+      "av_id": "afa-buu",
+      "glottocode": "zara1252",
+      "accepted_exact_code_matches_before": [],
+      "accepted_exact_name_alias_matches_before": [],
+      "identity_authority": "https://glottolog.org/resource/languoid/id/zara1252"
+    },
+    {
+      "av_id": "atl-ndoola",
+      "glottocode": "ndoo1241",
+      "accepted_exact_code_matches_before": [],
+      "accepted_exact_name_alias_matches_before": [],
+      "identity_authority": "https://glottolog.org/resource/languoid/id/ndoo1241"
+    }
+  ],
+  "buu_legacy_scope_note": "RefLex gji-bu is explicitly Caron2008 Bu/Zaranda, now zara1252/zbu. Existing afa-gejic is Kraft Geji/geji1246/gji, an older broader catalog scope, with distinct original lexical citations. It remains unchanged; neither a code reassignment nor independent corroboration is claimed. New-language count denotes newly explicit canonical language-level constructions; it does not certify that every older broad sample excludes related speech varieties."
+}
