@@ -1,5 +1,7 @@
 # Held work and reopening evidence
 
+WordNet holds are tracked separately in [the guarded semantic register](../../src/arcaverborum/data/wordnet/holds.json): six pronoun/deictic cases require an actual matching pinned sense, not letter/acronym/numeral homographs. See [alignment policy](../WORDNET.md). These are semantic-link holds and do not remove lexical records.
+
 Updated2026-10-30. Read alongside [STATUS](../STATUS.md) and the
 [active queue](../NEXT.md). A hold applies to the named source/sample or reading,
 not necessarily to every source for that language. Reopen when the specified

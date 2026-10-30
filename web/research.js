@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261030-u';
+const VERSION = 'research-20261030-wordnet';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
@@ -153,7 +153,7 @@ function exportControls(rows,description='current selection') {
     $('#exportcsv').onclick=()=>downloadFile('arca-selection.csv',delimited(rows,','),'text/csv');
     $('#exporttsv').onclick=()=>downloadFile('arca-selection.tsv',delimited(rows,'\t'),'text/tab-separated-values');
     $('#exportmanifest').onclick=()=>downloadFile('arca-selection-manifest.json',JSON.stringify({build:manifest.build_date,
-      source_files:manifest.source_files,catalog_sha256:manifest.catalog.sha256,
+      source_files:manifest.source_files,catalog_sha256:manifest.catalog.sha256,wordnet:manifest.wordnet,
       family_shards:Object.fromEntries(loaded.map(f=>[f,manifest.shards[f].sha256])),filters:state,url:location.href,loaded_families:loaded,records:rows.length,
       sources:[...new Set(rows.map(r=>r.transcription_source))].map(s=>sources.get(s)||{Dataset:s,License:'Not recorded'}),
       scope:description,transcription_notice:'Profile readings and resegmentation are inferred; valid tokens do not certify pronunciation.'},null,2),'application/json');
@@ -292,11 +292,11 @@ function sourceLink(key) {const s=sources.get(key);return external(s?.Title||key
 function showConcepts() {
   const ls=scopedLanguages(),terms=state.term.toLowerCase(),count=new Map();
   for(const l of ls)for(const c of l.concept_ids||l.core_ids) count.set(c,(count.get(c)||0)+1);
-  const rows=catalog.concepts.filter(c=>(state.vocab!=='core'||c.is_core)&&(!terms||[c.label,c.concept_id,c.concepticon_id,c.definition].some(v=>(v||'').toLowerCase().includes(terms))))
-    .map(c=>({...c,nvarieties:count.get(c.concept_id)||0}));
-  $('#app').innerHTML=`<h2>Concepts</h2><label class="search-label">Concept, definition or Concepticon ID<input id="conceptsearch" type="search" value="${esc(state.term)}"></label>
+  const rows=catalog.concepts.filter(c=>(state.vocab!=='core'||c.is_core)&&(!terms||[c.label,c.concept_id,c.concepticon_id,c.definition,JSON.stringify(c.wordnet||{})].some(v=>(v||'').toLowerCase().includes(terms))))
+    .map(c=>({...c,nvarieties:count.get(c.concept_id)||0,wordnet_coverage:c.wordnet?.coverage||'unlinked'}));
+  $('#app').innerHTML=`<h2>Concepts</h2><label class="search-label">Concept, definition, Concepticon or WordNet ID<input id="conceptsearch" type="search" value="${esc(state.term)}"></label>
     ${table([{key:'label',label:'Concept',render:c=>link(c.label,{view:'concept',cid:c.concept_id,columns:[],page:0})+(c.is_core?' <span class="chip">161 core</span>':'')},
-      {key:'nvarieties',label:'Varieties in scope'}, {key:'semantic_field',label:'Semantic field'}, {key:'pos',label:'Part of speech'},
+      {key:'nvarieties',label:'Varieties in scope'}, {key:'wordnet_coverage',label:'WordNet',render:c=>esc(({accepted:'Accepted',source_association:'Inherited association',review:'Needs review',merged:'Merged',unlinked:'Unlinked'})[c.wordnet_coverage]||c.wordnet_coverage)}, {key:'semantic_field',label:'Semantic field'}, {key:'pos',label:'Part of speech'},
       {key:'definition',label:'Definition',optional:true}],rows)}`;
   debouncedInput('#conceptsearch','term');
 }
@@ -308,10 +308,22 @@ async function scopedRows(extra='',params=[],limit=100000) {
   const condition=languageCondition();
   return query(`SELECT f.* FROM forms f WHERE ${condition.sql}${extra}`,condition.params.concat(params),limit);
 }
+function wordnetPanel(c) {
+  if(!c.wordnet)return '';
+  const render=r=>{const t=r.target, name=`${t.resource==='oewn'?'OEWN':'Princeton WordNet'} ${t.version} · ${t.id}`;
+    return `<li><strong>${esc(r.status==='candidate'?'Unreviewed candidate':r.status==='source_association'?'Inherited association':r.relation+' match')}</strong> · ${esc(name)}${t.ili&&t.ili!=='in'?' · '+external('Browse '+t.ili,'https://en-word.net/ili/'+encodeURIComponent(t.ili)):''}
+      <p>${esc(t.lemmas.join(', '))} (${esc(t.pos)}) — ${esc(t.definition)}</p><p class="sub">${esc(r.evidence)}${t.ili?' · '+esc(t.ili):''}${t.pwn30.length?' · Princeton 3.0: '+esc(t.pwn30.join(', ')):''}</p></li>`;};
+  return `<section aria-label="WordNet sense links"><h3>WordNet sense links</h3>
+    <p class="sub">Frozen OEWN 2025 senses, with Princeton 3.0 compatibility via ILI. Inherited associations and candidates are not accepted equivalences. “Broader” means the target is broader than this Arca concept; “narrower” means the target is narrower. External browsing may use a newer edition.</p>
+    ${c.wordnet.links.length?'<ul>'+c.wordnet.links.map(render).join('')+'</ul>':'<p>No accepted mapping or inherited association yet.</p>'}
+    ${c.wordnet.hold_reason?'<p>'+esc(c.wordnet.hold_reason)+'</p>':''}
+    ${c.wordnet.candidates.length?'<details><summary>Review candidates ('+c.wordnet.candidates.length+')</summary><p>Ranked search suggestions require sense review.</p><ul>'+c.wordnet.candidates.map(render).join('')+'</ul></details>':''}
+    <p><a href="data/wordnet-links.csv" download>Links CSV</a> · <a href="data/wordnet-candidates.csv" download>Review queue CSV</a> · <a href="data/wordnet-coverage.csv" download>Catalog coverage CSV</a> · <a href="data/wordnet-sources.json">Versions, sources and licenses</a></p></section>`;
+}
 async function showConcept(token) {
   const c=concepts.get(state.cid);if(!c)throw Error('Concept not found.');
-  const title=`<p>${link('← Concepts',{view:'concepts',columns:[],page:0})}</p><h2>${esc(c.label)} ${c.is_core?'<span class="chip">161 basic concepts</span>':''}</h2>
-    <p class="definition">${esc(c.definition||'No definition recorded.')}</p><p>${esc(c.semantic_field)} · ${esc(c.pos)} · ${external('Concepticon '+c.concepticon_id,'https://concepticon.clld.org/parameters/'+c.concepticon_id)}</p>`;
+  const title=`<p>${link('← Concepts',{view:'concepts',columns:[],page:0})}</p><h2>${esc(c.label)} ${c.catalog_status==='merged'?'<span class="chip">Merged catalog entry</span>':''} ${c.is_core?'<span class="chip">161 basic concepts</span>':''}</h2>
+    ${c.catalog_status==='merged'?'<p>This is a merged registry entry. Replacement reference: '+esc(c.replacement_id)+'. No WordNet equivalence is inferred from that replacement.</p>':''}<p class="definition">${esc(c.definition||'No definition recorded.')}</p><p>${esc(c.semantic_field)} · ${esc(c.pos)} · ${external('Concepticon '+c.concepticon_id,'https://concepticon.clld.org/parameters/'+c.concepticon_id)}</p>${wordnetPanel(c)}`;
   if(!state.family){$('#app').innerHTML=title+familyPrompt();return;}
   await ensure([state.family]);if(token!==epoch)return;
   const rows=await scopedRows(' AND concept_id=?',[state.cid]);if(token!==epoch)return;

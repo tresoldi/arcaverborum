@@ -26,7 +26,7 @@ def test_membership_is_individual_namespaced_and_deduplicated():
     assert builder.assignments({'Cognacy': ''}) == []
 
 
-def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path):
+def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path, monkeypatch):
     aggregate = tmp_path / 'output/aggregate'
     data = tmp_path / 'src/arcaverborum/data'
     write_csv(data / 'concept_core.csv', [{'concept_id': 'bod-head'}])
@@ -96,6 +96,28 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path)
     previous_hashes = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in output.glob('*.gz')}
     builder.build(tmp_path, output)
     assert previous_hashes == {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in output.glob('*.gz')}
+
+    # Adding ontology links includes unrepresented meanings but preserves every
+    # lexical shard and aggregate hash. The bundle's semantic guards are tested separately.
+    frozen = [dict(concept_id=cid, concepticon_id='', label=cid, pos='n', semantic_field='',
+                   definition='Meaning', status='active') for cid in ('bod-head', 'phy-water', 'phy-fire')]
+    write_csv(data / 'concepts.csv', frozen)
+    wordnet_dir = data / 'wordnet'
+    wordnet_dir.mkdir()
+    for name in ('links.csv', 'candidates.csv', 'coverage.csv', 'sources.json', 'summary.json',
+                 'review.csv', 'holds.json'):
+        (wordnet_dir / name).write_text('{}\n')
+    bundle = dict(summary={}, synsets={}, concepts={row['concept_id']: dict(
+        coverage='unlinked', links=[], candidates=[]) for row in frozen})
+    with monkeypatch.context() as patch:
+        patch.setattr(builder, 'load_bundle', lambda *args: bundle)
+        enriched = builder.build(tmp_path, output)
+    assert enriched['counts']['concepts'] == 3
+    assert enriched['shards'] == manifest['shards']
+    assert enriched['source_files'] == manifest['source_files']
+    assert len(enriched['wordnet']['files']) == 7
+    for spec in enriched['wordnet']['files']:
+        assert hashlib.sha256((output / Path(spec['url']).name).read_bytes()).hexdigest() == spec['sha256']
 
     # Effective per-form overlays are applied after the guarded primary admission.
     # Export provenance must report the unmapping, not the older retained target.

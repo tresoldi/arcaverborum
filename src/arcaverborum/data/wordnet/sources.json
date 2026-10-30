@@ -1,0 +1,62 @@
+{
+  "primary": "Open English WordNet 2025 (standard edition)",
+  "compatibility": "Princeton WordNet 3.0 via CILI",
+  "licenses": {
+    "oewn": "CC-BY-4.0",
+    "cili": "CC-BY-4.0-or-later",
+    "princeton": "Princeton WordNet license; https://wordnet.princeton.edu/license-and-commercial-use",
+    "concepticon": "CC-BY-4.0 (v2.6.0 .zenodo.json)"
+  },
+  "resources": [
+    {
+      "filename": "oewn2025.xml.gz",
+      "url": "https://en-word.net/static/english-wordnet-2025.xml.gz",
+      "sha256": "9ca6d1dcb75f822fdd66617f7d9da48142ace38dd544d6ad5e2feca1674ad3fe",
+      "bytes": 11363503
+    },
+    {
+      "filename": "concepticon-wordnet.tsv",
+      "url": "https://raw.githubusercontent.com/concepticon/concepticon-data/292d06c81bb98e8debc03657dfc37efc8590cfdd/concepticondata/concept_set_meta/wordnet.tsv",
+      "sha256": "6c5c270791f96a1ced44325d13914637860721ca0dace97a0c0db1c01adeb78b",
+      "bytes": 195513
+    },
+    {
+      "filename": "concepticon-wordnet-metadata.json",
+      "url": "https://raw.githubusercontent.com/concepticon/concepticon-data/292d06c81bb98e8debc03657dfc37efc8590cfdd/concepticondata/concept_set_meta/wordnet.tsv-metadata.json",
+      "sha256": "9c810edaf009312f1b8831a9259f24e58ceabb1691b4cee86c7905fb564309ba",
+      "bytes": 1486
+    },
+    {
+      "filename": "ili-map-pwn30.tab",
+      "url": "https://raw.githubusercontent.com/globalwordnet/cili/a895d7ecb18019dda3443f98901e59d81ce8722b/ili-map-pwn30.tab",
+      "sha256": "13b6741395a8bdf20e5a19686ffa49167653696d4f523db17a79dce3211a6627",
+      "bytes": 2124416
+    },
+    {
+      "filename": "pwn30.tar.gz",
+      "url": "https://wordnetcode.princeton.edu/3.0/WNdb-3.0.tar.gz",
+      "sha256": "658b1ba191f5f98c2e9bae3e25c186013158f30ef779f191d2a44e5d25046dc8",
+      "bytes": 10518425
+    },
+    {
+      "filename": "ili-map-pwn31.tab",
+      "url": "https://raw.githubusercontent.com/globalwordnet/cili/a895d7ecb18019dda3443f98901e59d81ce8722b/ili-map-pwn31.tab",
+      "sha256": "f6068d5506323b244a12d082206633630ad0176987caab3d044cbadb09223eb7",
+      "bytes": 2123136
+    },
+    {
+      "filename": "concepticon-zenodo.json",
+      "url": "https://raw.githubusercontent.com/concepticon/concepticon-data/292d06c81bb98e8debc03657dfc37efc8590cfdd/.zenodo.json",
+      "sha256": "23809d341e0b85a559b221e32c6f5469453890a174f3aa116fbc3faa4ca7f085",
+      "bytes": 1269
+    }
+  ],
+  "attribution": [
+    "Open English WordNet Community. Open English WordNet 2025, derived from Princeton WordNet. CC BY 4.0. https://en-word.net/",
+    "List, Johann Mattis; Tjuka, Annika; Rzymski, Christoph; Greenhill, Simon; Schweikhard, Nathanael; Forkel, Robert (eds.). 2022. Concepticon v2.6.0. CC BY 4.0. https://concepticon.clld.org",
+    "Global WordNet Association / Francis Bond. Collaborative Interlingual Index (CILI), pinned a895d7ecb18019dda3443f98901e59d81ce8722b. CC BY 4.0 or later.",
+    "Miller, George A. 1995. WordNet: A Lexical Database for English. Communications of the ACM 38(11):39–41. Fellbaum, Christiane (ed.). 1998. WordNet: An Electronic Lexical Database. MIT Press."
+  ],
+  "changes": "Arca verifies the inherited Concepticon bridge against PWN 3.0 glosses, follows CILI identities into OEWN 2025, adds guarded sense reviews, and keeps associations/candidates distinct from equivalences.",
+  "princeton_license_text": "WordNet Release 3.0\n\nThis software and database is being provided to you, the LICENSEE, by  \nPrinceton University under the following license.  By obtaining, using  \nand/or copying this software and database, you agree that you have  \nread, understood, and will comply with these terms and conditions.:  \n  \nPermission to use, copy, modify and distribute this software and  \ndatabase and its documentation for any purpose and without fee or  \nroyalty is hereby granted, provided that you agree to comply with  \nthe following copyright notice and statements, including the disclaimer,  \nand that the same appear on ALL copies of the software, database and  \ndocumentation, including modifications that you make for internal  \nuse or for distribution.  \n  \nWordNet 3.0 Copyright 2006 by Princeton University.  All rights reserved.  \n  \nTHIS SOFTWARE AND DATABASE IS PROVIDED \"AS IS\" AND PRINCETON  \nUNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR  \nIMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON  \nUNIVERSITY MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT-  \nABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE  \nOF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT  \nINFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR  \nOTHER RIGHTS.  \n  \nThe name of Princeton University or Princeton may not be used in  \nadvertising or publicity pertaining to distribution of the software  \nand/or database.  Title to copyright in this software, database and  \nany associated documentation shall at all times remain with  \nPrinceton University and LICENSEE agrees to preserve same.  \n"
+}

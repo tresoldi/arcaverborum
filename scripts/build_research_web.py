@@ -10,6 +10,7 @@ import csv
 import gzip
 import hashlib
 import json
+import shutil
 import sqlite3
 import sys
 import tempfile
@@ -18,6 +19,7 @@ from datetime import date
 from pathlib import Path
 
 from arcaverborum.research_evidence import annotate, update_state
+from arcaverborum.wordnet import load_bundle
 
 ROOT = Path(__file__).resolve().parents[1]
 csv.field_size_limit(sys.maxsize)
@@ -83,6 +85,32 @@ def build(root=ROOT, output=None):
         sources['wiktionary'] = fallback
     core_sources = {r['NAME'] for r in read(root / 'datasets.csv') if r['CORE'].strip().upper() == 'TRUE'}
     concepts = read(aggregate / 'parameters.csv')
+    wordnet_dir = root / 'src/arcaverborum/data/wordnet'
+    wordnet = load_bundle(wordnet_dir, root / 'src/arcaverborum/data/concepts.csv')
+    wordnet_files = []
+    if wordnet:
+        # Include the whole frozen registry, retaining merged entries explicitly.
+        frozen = read(root / 'src/arcaverborum/data/concepts.csv')
+        frozen_by_id = {row['concept_id']: row for row in frozen}
+        present = {row['concept_id'] for row in concepts}
+        concepts.extend({k: row[k] for k in ('concept_id', 'concepticon_id', 'label',
+                                            'pos', 'semantic_field', 'definition')}
+                        for row in frozen if row['concept_id'] not in present)
+        for row in concepts:
+            row['catalog_status'] = frozen_by_id[row['concept_id']]['status']
+            row['replacement_id'] = frozen_by_id[row['concept_id']].get('replacement_id', '')
+            entry = wordnet['concepts'][row['concept_id']]
+            row['wordnet'] = {key: entry[key] for key in ('coverage', 'links', 'candidates')}
+            row['wordnet']['hold_reason'] = entry.get('hold_reason', '')
+            for key in ('links', 'candidates'):
+                row['wordnet'][key] = [dict(link, target=wordnet['synsets'][link['target_id']])
+                                      for link in entry[key]]
+        for name in ('links.csv', 'candidates.csv', 'coverage.csv', 'sources.json', 'summary.json',
+                     'review.csv', 'holds.json'):
+            target = output / ('wordnet-' + name)
+            shutil.copyfile(wordnet_dir / name, target)
+            wordnet_files.append(dict(url='data/' + target.name, bytes=target.stat().st_size,
+                                      sha256=hashlib.sha256(target.read_bytes()).hexdigest()))
     for row in concepts:
         row['is_core'] = row['concept_id'] in core
     glottolog_path = root / 'raw/glottolog/languages.csv'
@@ -273,6 +301,8 @@ def build(root=ROOT, output=None):
                                                       for name in ['forms.csv', 'varieties.csv', 'parameters.csv']})
     if recording_meta:
         manifest['recordings'] = recording_meta
+    if wordnet:
+        manifest['wordnet'] = dict(summary=wordnet['summary'], files=wordnet_files)
     # Remove obsolete generated shards only; keep bibliography and manifest.
     active = {r['url'].split('/')[-1] for r in shards.values()} | {'catalog.json.gz'}
     for path in output.glob('*.json.gz'):

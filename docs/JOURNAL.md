@@ -1,5 +1,9 @@
 # Project journal and working memory
 
+## 2026-10-30 — WordNet semantic alignment
+
+User selected OEWN as primary with Princeton compatibility, and typed approximate links plus a review queue. Implemented pinned OEWN 2025 standard/PWN 3.0/CILI/Concepticon v2.6.0 sidecars for all 3,789 active and 39 merged catalog entries. Verified all 1,372 inherited bridge glosses against actual PWN 3.0 despite inconsistent upstream 3.1 metadata. 158 explicit decisions across 155 basic-vocabulary concepts plus 35 guarded definition/label/POS identities yield 141 exact, 28 broader, 14 narrower and ten related links across 190 concepts. The other six core concepts have guarded pronoun/deictic holds: all 161 are accounted for. Separately retained 1,236 inherited associations; 10,791 candidates remain unreviewed. No lexical mapping, reading, source choice or concept definition changed. Web concept pages/search/downloads expose status, relations, frozen definitions, versions, hashes and attribution; 39 unrepresented active meanings and two merged entries are included in the catalog. See [technical/coverage report](WORDNET.md). Verification and publication recorded at closure.
+
 ## 2026-10-30 — U01–U12 source expansion, dictionary depth and unmapped admission
 
 Publication confirmed: data commit0520fb8d8b2ebe7c4ef1a09a6aa7e1a2589a0f2c, CI41087876027/Pages41087876003 success;405 canonical artifacts and live U/research exports pass. Lexical manifest SHA256 ebed6503397365487ee98f13dedf2501cd727869d8bdd1f75a6b8bcf4b101d77.

@@ -1,5 +1,7 @@
 # Documentation map
 
+WordNet sense alignment: [versions, typed links, review queue and reproduction](WORDNET.md).
+
 ## Start here
 
 | Need | Read |

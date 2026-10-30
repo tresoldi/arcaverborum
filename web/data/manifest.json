@@ -4,7 +4,7 @@
   "counts": {
     "forms": 2119754,
     "varieties": 7365,
-    "concepts": 3787
+    "concepts": 3828
   },
   "fields": [
     "ID",
@@ -2461,8 +2461,8 @@
   },
   "catalog": {
     "url": "data/catalog.json.gz",
-    "bytes": 3689165,
-    "sha256": "f8a19e02485b0591143a4d84a81865e4940f5f0630859f0dfcbc15cac4e2ba64"
+    "bytes": 5008261,
+    "sha256": "fcbadb9d04ec4f7f84f2f9d1215399594404e68f2f01bf588f3fde8da249ec21"
   },
   "core_count": 161,
   "source_files": {
@@ -2475,5 +2475,67 @@
     "records": 755,
     "bytes": 207010,
     "sha256": "c259bd53582f3557304fa2922a1dbfcf7d5b18735c4be0feee5b9cb4c1f9ea2c"
+  },
+  "wordnet": {
+    "summary": {
+      "candidates": 10791,
+      "catalog_concepts": 3828,
+      "concepticon_bridge_rows_verified": 1372,
+      "coverage": {
+        "accepted": 190,
+        "merged": 39,
+        "review": 2365,
+        "source_association": 1202,
+        "unlinked": 32
+      },
+      "links": {
+        "accepted:broader": 28,
+        "accepted:exact": 141,
+        "accepted:narrower": 14,
+        "accepted:related": 10,
+        "source_association:association": 1236
+      },
+      "oewn_version": "2025",
+      "princeton_version": "3.0",
+      "relation_direction": "Arca to target: broader means target broader; narrower means target narrower",
+      "scope": "Frozen concept catalog only; no lexical record or native unmapped sense is remapped"
+    },
+    "files": [
+      {
+        "url": "data/wordnet-links.csv",
+        "bytes": 579523,
+        "sha256": "6467a04093438464a354c72ef4641e5de0a3babfc0f23d6778e7cebfd5d7c449"
+      },
+      {
+        "url": "data/wordnet-candidates.csv",
+        "bytes": 3397445,
+        "sha256": "b9ac6ed3732f3ec7a3ac820e36c11a5df27d34fd85071eb5dcada42d9dff0e94"
+      },
+      {
+        "url": "data/wordnet-coverage.csv",
+        "bytes": 392387,
+        "sha256": "0ae5b2a9867da76b6b91a901cc99b9cc28a6bfa19fc17bb386a3ccfad7fe9133"
+      },
+      {
+        "url": "data/wordnet-sources.json",
+        "bytes": 4993,
+        "sha256": "c1b2dbf6a8fcc99366823c2451a7bf57f8a5ed29f200773878228997bcec77f7"
+      },
+      {
+        "url": "data/wordnet-summary.json",
+        "bytes": 660,
+        "sha256": "763fee900a3e31e7179e50b108232d4109fba9ea2c59b8ebc3870ab52454e332"
+      },
+      {
+        "url": "data/wordnet-review.csv",
+        "bytes": 35658,
+        "sha256": "84fb05709556d550559fc6fd9a79c2c3d85de56e59962c8bfcfef1ee0a460865"
+      },
+      {
+        "url": "data/wordnet-holds.json",
+        "bytes": 1757,
+        "sha256": "bf66555495a612151fddfe3e17cc047aa5bd7851538a93dfe12e9bf93e6a2cf9"
+      }
+    ]
   }
 }

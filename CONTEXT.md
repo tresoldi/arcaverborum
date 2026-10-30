@@ -34,6 +34,7 @@ Use these terms when naming things in code, commits, and conversation.
 | **variety** | A language variety (a language, dialect, or historical stage) with a stable `av_id`. The primary unit of work. |
 | **av_id** | Family-prefixed, human-readable variety identifier: `<family_code>-<name_slug>` (e.g. `ine-latin`). Assigned once and frozen. Maps to a Glottocode as a column. |
 | **concept** | A cross-linguistic meaning slot (e.g. "water", "eye"). Has a frozen `concept_id` prefixed by semantic field: `<field_code>-<label_slug>` (e.g. `bod-eye`). Maps to a Concepticon ID as a column. |
+| **WordNet link** | A versioned sidecar association between a frozen concept and a synset. Accepted exact/typed relations, inherited Concepticon associations and unreviewed candidates are distinct; see [WordNet](docs/WORDNET.md). |
 | **concept catalog** | The frozen registry of concept_ids (`data/concepts.csv`). Extended by minting, never re-keyed. |
 | **concept core** | The 161 basic-vocabulary concepts attested across ≥7 of the 13 CORE families (`data/concept_core.csv`). |
 | **construction** | The accepted build of a variety: primary source, reviewed source-specific supplements, cognate source, and custom corrections. Recorded in `config.yaml` + `custom/*`. |

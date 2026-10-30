@@ -1,0 +1,26 @@
+{
+  "kin-i": {
+    "concept_sha256": "147e804bc479687b85a6a5b8428765c3347ff0eb6d5a89b4b6481ab8cfe77d03",
+    "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
+  },
+  "kin-thou": {
+    "concept_sha256": "b3c289693268b07fc1318e6aa5a9e40fe934c95cc4a9679b60c03c967f43f9b8",
+    "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
+  },
+  "cog-who": {
+    "concept_sha256": "2d615c55af80271e8155e9de9e3878a63e3599036e5ae1fd824e1e4b171f1bda",
+    "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
+  },
+  "cog-what": {
+    "concept_sha256": "fca84163f0acd9a2a1cffa02b498cbb29e3bb502dc152aac0628ab18cc4276fb",
+    "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
+  },
+  "fun-this": {
+    "concept_sha256": "cae4e524168a9abd9e22f9cb07a2ed9daca323f304c6a876dad4682c8bce2154",
+    "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
+  },
+  "fun-that": {
+    "concept_sha256": "bd81bb2378345b30efca9022e3daa6f999c7b8cea8e3eb7eb0efc54e463c5dcd",
+    "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
+  }
+}

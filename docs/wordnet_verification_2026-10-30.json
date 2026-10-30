@@ -1,0 +1,73 @@
+{
+  "unit_tests": 519,
+  "lint": "passed",
+  "javascript_syntax": "passed",
+  "generated_files_reproduced_byte_identically": 5,
+  "lexical_shards_unchanged": 401,
+  "aggregate_hashes_unchanged": {
+    "forms.csv": "47700946c57c7a1ee569682067d8d97f41b19be8638fc7eb56077bb29e16bcd0",
+    "varieties.csv": "db3a7ebbe361ccf99c0aaf1c6cb271dd3e1d857904c920952652a879390bebc6",
+    "parameters.csv": "382a057512cf504f68818c0b7142c2c9738d3561f294ceff332bc3e196a16433"
+  },
+  "form_fields_unchanged": true,
+  "previous_catalog_fields_and_languages_sources_unchanged": true,
+  "all_local_payload_hashes_checked": 410,
+  "catalog_concepts": 3828,
+  "active_concepts": 3789,
+  "merged_concepts": 39,
+  "added_unrepresented_active_concepts": 39,
+  "added_unrepresented_merged_concepts": 2,
+  "accepted_forms": 2119754,
+  "accepted_varieties": 7365,
+  "lexical_records_changed": 0,
+  "explicit_core_review_decisions": 158,
+  "reviewed_core_concepts": 155,
+  "guarded_core_holds": 6,
+  "all_161_core_concepts_reviewed_or_held": true,
+  "review_hold_source_input_guards": "passed",
+  "local_browser_suites": 15,
+  "browser_results": {
+    "wordnet": 0,
+    "worldwide_u": 0,
+    "southern_t": 0,
+    "johd": 0,
+    "mixed_source": 0,
+    "research": 0,
+    "african": 0,
+    "ancient": 0,
+    "romance": 0,
+    "source_preference": 0,
+    "worldwide": 0,
+    "worldwide_wn": 0,
+    "worldwide_q": 0,
+    "worldwide_r": 0,
+    "worldwide_s": 0
+  },
+  "final_core_review_browser_reruns": [
+    "wordnet",
+    "research"
+  ],
+  "wordnet": {
+    "candidates": 10791,
+    "catalog_concepts": 3828,
+    "concepticon_bridge_rows_verified": 1372,
+    "coverage": {
+      "accepted": 190,
+      "merged": 39,
+      "review": 2365,
+      "source_association": 1202,
+      "unlinked": 32
+    },
+    "links": {
+      "accepted:broader": 28,
+      "accepted:exact": 141,
+      "accepted:narrower": 14,
+      "accepted:related": 10,
+      "source_association:association": 1236
+    },
+    "oewn_version": "2025",
+    "princeton_version": "3.0",
+    "relation_direction": "Arca to target: broader means target broader; narrower means target narrower",
+    "scope": "Frozen concept catalog only; no lexical record or native unmapped sense is remapped"
+  }
+}
