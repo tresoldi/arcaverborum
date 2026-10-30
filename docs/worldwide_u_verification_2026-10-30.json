@@ -1,5 +1,5 @@
 {
-  "status": "Passed local checks; canonical publication pending",
+  "status": "Local and canonical checks passed",
   "unit_tests": 511,
   "installed_merkmal_flag_states": [
     false,
@@ -33,5 +33,13 @@
   "local_payload_hashes": 403,
   "aggregate_input_hashes": 3,
   "new_records": 45549,
-  "native_quote_whitespace": "Page contexts stored once with exact quote hashes; no native whitespace stripped. Materialized source files byte-identical."
+  "native_quote_whitespace": "Page contexts stored once with exact quote hashes; no native whitespace stripped. Materialized source files byte-identical.",
+  "canonical_artifacts": 405,
+  "live_browser_suites": {
+    "worldwide_u": "passed",
+    "research": "passed"
+  },
+  "publication_data_commit": "0520fb8d8b2ebe7c4ef1a09a6aa7e1a2589a0f2c",
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41087876027",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41087876003"
 }

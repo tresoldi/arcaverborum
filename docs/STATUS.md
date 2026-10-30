@@ -14,7 +14,7 @@ Updated2026-10-30. Latest accepted batch: [Worldwide U01–U12](WORLDWIDE_U_EXEC
 | Mapped all-concept slots | 1,337,275 |
 | GLED primaries | 1,555 |
 
-U adds45,549 records:1,176 upstream conversions,7,113 source-backed profiles and37,260 written citations. Supported core+69/all+77; mapped core+89/all+110. All2,074,205 previous records/readings/mappings/cognacy preserved; six mixed-label kzw records gain annotations only. One newly explicit canonical Kipeá construction; no existing-primary changes. Intake16,419,264 (+8,998,169), including complete remaining RefLex and complete pt/fr entry archives.25 original namespaces reproduce1,080,685 rows/81 pins; raw/accepted/independent-witness counts stay separate. [Publication](worldwide_u_publication_2026-10-30.json).
+U adds45,549 records:1,176 upstream conversions,7,113 source-backed profiles and37,260 written citations. Supported core+69/all+77; mapped core+89/all+110. All2,074,205 previous records/readings/mappings/cognacy preserved; six mixed-label kzw records gain annotations only. One newly explicit canonical Kipeá construction; no existing-primary changes. Intake16,419,264 (+8,998,169), including complete remaining RefLex and complete pt/fr entry archives.25 original namespaces reproduce1,080,685 rows/81 pins; raw/accepted/independent-witness counts stay separate. [Publication](worldwide_u_publication_2026-10-30.json): data0520fb8d CI/Pages succeeded,405 canonical artifacts match, two live browser suites pass.
 
 ## Historical preceding T state
 

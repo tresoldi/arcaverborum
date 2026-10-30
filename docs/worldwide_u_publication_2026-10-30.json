@@ -1,9 +1,24 @@
 {
-  "status": "Pending canonical verification after data push",
+  "status": "Canonical artifact hashes, CI/Pages and two live browser suites verified",
   "canonical_url": "https://arcaverborum.org/",
-  "client_version": "research-20261030-u",
+  "data_commit": "0520fb8d8b2ebe7c4ef1a09a6aa7e1a2589a0f2c",
+  "checked_artifacts": 405,
+  "family_shards": 401,
+  "canonical_manifest": "byte-identical",
+  "source_bibliography": "byte-identical",
+  "client_script": "byte-identical research-20261030-u",
+  "all_hashes": "passed",
   "accepted_constructions": 7365,
   "forms": 2119754,
+  "new_canonical_languages": 1,
+  "new_named_varieties": 0,
+  "primary_changes": 0,
   "local_browser_suites": 14,
-  "local_payload_hashes": 403
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41087876027",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41087876003",
+  "live_browser_suites": {
+    "worldwide_u": "passed",
+    "research": "passed"
+  },
+  "lexical_manifest_sha256": "ebed6503397365487ee98f13dedf2501cd727869d8bdd1f75a6b8bcf4b101d77"
 }
