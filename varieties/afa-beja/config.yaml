@@ -4,8 +4,9 @@ glottocode: beja1238
 family: Afro-Asiatic
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: bejaoriginal
+  cognates: bejaoriginal
+  source_language_id: bejaoriginal_Dictionary
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,9 @@ scoring:
   forms_score: 0.7783
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.78) [fallback p2]; cognates=gled (0.60)'
+notes: S04 reviewed original dictionary primary with finite source-specific readings.
+  Original IPA field/conventions reviewed; all 116 earlier GLED forms remain through
+  guarded preservation, without inferred source cognacy or unwritten contrasts. See
+  PACKET.md.

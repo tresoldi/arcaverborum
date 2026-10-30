@@ -1,0 +1,89 @@
+{
+  "namespaces": {
+    "andakioriginal": {
+      "dataset": "andakioriginal",
+      "forms": 47,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "2dc6ada929aa7445601fd80e729a5f9b24862ac4605a7100bd40c4857c3ee3c5"
+    },
+    "yauyosoriginal": {
+      "dataset": "yauyosoriginal",
+      "forms": 24,
+      "members": 6,
+      "resource_hashes": 2,
+      "bibliography_sha256": "97963e6f32d290a284d39daf457c8551bf9f8ca769b6ba1dffaef39e34c049b9"
+    },
+    "reflexsnew": {
+      "dataset": "reflexsnew",
+      "forms": 3507,
+      "members": 4,
+      "resource_hashes": 4,
+      "bibliography_sha256": "93cb86be8b77b65b6f4bd1d1fb64f5dce4521de404a351edcd9a9dc6d3431191"
+    },
+    "reflexsbantu": {
+      "dataset": "reflexsbantu",
+      "forms": 20950,
+      "members": 4,
+      "resource_hashes": 4,
+      "bibliography_sha256": "338232d98bda111836e6c78c7894b3d92bd7674eed3d7c927cb2178bd7a8e091"
+    },
+    "chakalioriginal": {
+      "dataset": "chakalioriginal",
+      "forms": 3565,
+      "members": 1,
+      "resource_hashes": 2,
+      "bibliography_sha256": "d6a9095c1dc7ca1484d41a00f3a36efa0422aef603cbcbba5ae2832a178ebad1"
+    },
+    "dagaareoriginal": {
+      "dataset": "dagaareoriginal",
+      "forms": 7075,
+      "members": 1,
+      "resource_hashes": 31,
+      "bibliography_sha256": "4e63cf37cd15d695c76131f6f77996ca3b663aa00b89b74bf4e85e639b7e46cc"
+    },
+    "bejaoriginal": {
+      "dataset": "bejaoriginal",
+      "forms": 6134,
+      "members": 1,
+      "resource_hashes": 5,
+      "bibliography_sha256": "619563f4c1e6413f78ce91b4eb420bb5f1941a17d7420a1e4a379c97dba88b00"
+    },
+    "cayugaoriginal": {
+      "dataset": "cayugaoriginal",
+      "forms": 483,
+      "members": 1,
+      "resource_hashes": 3,
+      "bibliography_sha256": "17aa717b6667cc3536337c8aed438a4ce461fcb1bda09c8544d339682373f17b"
+    },
+    "lexirumahoriginal": {
+      "dataset": "lexirumahoriginal",
+      "forms": 117802,
+      "members": 356,
+      "resource_hashes": 4,
+      "bibliography_sha256": "50535da64809ca418f245ed00b9c457b37464cfb75edc5ab9fd9b029cd4af938"
+    },
+    "yakkhaoriginal": {
+      "dataset": "yakkhaoriginal",
+      "forms": 29,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "3ca55e4bae5bafdaee09882602191a88cd050c7f030f96c2196a3777cff6c8cb"
+    },
+    "kullillioriginal": {
+      "dataset": "kullillioriginal",
+      "forms": 22,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "ea11dd2e1347ad894bb714f05d3264d6d0245be77b4cb22180ca40fe817d1248"
+    },
+    "tuatschinoriginal": {
+      "dataset": "tuatschinoriginal",
+      "forms": 1706,
+      "members": 1,
+      "resource_hashes": 3,
+      "bibliography_sha256": "f0cc717419953f5a942bd4043575b918e1dee1fd5b975e740229c0add859e134"
+    }
+  },
+  "complete_native_rows": 161344
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "av_id": "atl-gaa",
+    "glottocode": "gaaa1245",
+    "source_member": "1352",
+    "canonical_name": "Gaa",
+    "aliases": [
+      "Tiba",
+      "Gaa"
+    ],
+    "accepted_exact_code_before": false,
+    "classification": "new canonical language",
+    "records": 50,
+    "reading": "written-only"
+  },
+  {
+    "av_id": "atl-gula-iro",
+    "glottocode": "gula1265",
+    "source_member": "363",
+    "canonical_name": "Gula Iro",
+    "aliases": [
+      "Gula Iro"
+    ],
+    "accepted_exact_code_before": false,
+    "classification": "new canonical language",
+    "records": 21,
+    "reading": "written-only"
+  },
+  {
+    "av_id": "atl-ginyanga",
+    "glottocode": "giny1241",
+    "source_member": "3563",
+    "canonical_name": "Ginyanga",
+    "aliases": [
+      "Anyanga",
+      "Ginyanga"
+    ],
+    "accepted_exact_code_before": false,
+    "classification": "new canonical language",
+    "records": 36,
+    "reading": "written-only"
+  }
+]

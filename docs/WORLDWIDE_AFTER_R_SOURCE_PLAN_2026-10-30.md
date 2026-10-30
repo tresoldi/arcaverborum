@@ -1,5 +1,7 @@
 # Worldwide original-source plan after R —2026-10-30
 
+Historical proposal: subsequently authorized and executed as S01–S09. See [execution](WORLDWIDE_S_EXECUTION_2026-10-30.md) and [measured outcomes](worldwide_s_summary_2026-10-30.json); the prospective counts and gates below are retained as planning evidence.
+
 Planning only. The user asks for recommendations worldwide, particularly sources we ingest ourselves, including RefLex and documented orthographic profiles. No new lexical batch is authorized by this request. Accepted baseline remains7,349 constructions/2,073,083 records/469,615 supported core slots,1,558 GLED primaries and57,523 GLED-only supported slots. R01–R09 is complete; its337 additions and three written pilots are spent gains.
 
 I recommend an original-source ingestion programme, rather than another pass through the same raw supplied-segment shortlist. Two distinct outcomes matter: genuinely additional canonical languages, and broader/better original evidence for existing constructions. A new source is not necessarily a new language or an independent witness. Prefer complete source intake with guarded finite acceptance over treating a tiny thematic slice as a source-wide pronunciation authority.

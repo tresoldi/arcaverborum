@@ -1,5 +1,28 @@
 # Current project state
 
+Updated2026-10-30. Latest accepted batch: [Worldwide original-source S01–S09](WORLDWIDE_S_EXECUTION_2026-10-30.md), all nine authorized tracks closed with guarded admissions or specific holds. [Metrics](worldwide_s_summary_2026-10-30.json), [verification](worldwide_s_verification_2026-10-30.json), [source fidelity](worldwide_s_source_fidelity_2026-10-30.json).
+
+## Accepted baseline
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,361 |
+| Forms | 2,074,099 |
+| Supplied/upstream-converted forms | 1,748,767 |
+| Profile-derived forms | 15,061 |
+| Supported core slots | 470,046 |
+| Mapped core slots | 544,131 |
+| Supported all-concept slots | 1,209,312 |
+| Mapped all-concept slots | 1,337,083 |
+| GLED primaries | 1,555 |
+| Core-source varieties | 918 |
+
+S adds1,016 records:401 upstream-converted LexiRumah readings,282 finite original-source/profile readings and333 written records. Eleven earlier Goo citations separately recover documented readings. Net+529 supported slots/+431 core; mapped+712/+542 core. Eleven new canonical languages (three RefLex written pilots/eight LexiRumah pilots) and one named Tuatschin dialect are separate outcomes. Three original dictionaries replace GLED primaries, with all193 earlier GLED records guarded; all2,073,083 preceding native records/mappings/cognacy remain. Intake7,421,039 (+161,344 across12 complete namespaces). GLED-only dependence57,454 (−69).
+
+493 tests in both installed-build HAVE_UTF8PROC flag states, full lint,26 affected constructions,12 local browser suites,401 artifact/three aggregate hashes,161,344 complete native-row reproductions,293 exact readings,ten upstream profile hashes,22 Kullilli page quotations and41 Beja PDF readings pass. [Exact holds](worldwide_s_holds_2026-10-30.csv) keep external terms, source-specific readings and aliases explicit. Publication: local checks complete; commit/deployment/canonical verification pending in [publication proof](worldwide_s_publication_2026-10-30.json).
+
+## Historical preceding R baseline
+
 Updated2026-10-30. Latest accepted batch: [Worldwide R01–R09](WORLDWIDE_R_EXECUTION_2026-10-30.md), all nine authorized tracks closed as bounded reviews with admissions or specific holds. [Metrics](worldwide_r_summary_2026-10-30.json), [verification](worldwide_r_verification_2026-10-30.json).
 
 Latest source-planning investigation: [Worldwide original sources after R,S01–S09](WORLDWIDE_AFTER_R_SOURCE_PLAN_2026-10-30.md), including full RefLex source-member intake, original African/Cayuga dictionaries, Andakí workbook, LexiRumah and documented profile pilots. Planning only; accepted data below is unchanged.

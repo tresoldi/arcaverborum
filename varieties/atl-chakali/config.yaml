@@ -4,8 +4,9 @@ glottocode: chak1271
 family: Atlantic-Congo
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: chakalioriginal
+  cognates: chakalioriginal
+  source_language_id: chakalioriginal_Dictionary
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,9 @@ scoring:
   forms_score: 0.756
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: S04 reviewed original dictionary primary with finite source-specific readings.
+  Original IPA field/conventions reviewed; all 44 earlier GLED forms remain through
+  guarded preservation, without inferred source cognacy or unwritten contrasts. See
+  PACKET.md.

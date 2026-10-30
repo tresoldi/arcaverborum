@@ -1,0 +1,177 @@
+{
+  "identities": [
+    {
+      "av_id": "map-welaun",
+      "glottocode": "wela1235",
+      "iso639p3": "wlh",
+      "canonical_name": "Welaun",
+      "source_name": "Welaun",
+      "member": "west2547-welaun",
+      "classification": "new canonical language",
+      "records": 47,
+      "aliases": "",
+      "source_region": "Cowa, Balibo, East Nusa Tenggara, Indonesia"
+    },
+    {
+      "av_id": "map-idate",
+      "glottocode": "idat1237",
+      "iso639p3": "idt",
+      "canonical_name": "Idaté",
+      "source_name": "Idate",
+      "member": "idat1237",
+      "classification": "new canonical language",
+      "records": 38,
+      "aliases": "",
+      "source_region": "Manatuto, Timor-Leste"
+    },
+    {
+      "av_id": "map-lole",
+      "glottocode": "lole1239",
+      "iso639p3": "llg",
+      "canonical_name": "Lole",
+      "source_name": "Lole",
+      "member": "lole1239",
+      "classification": "new canonical language",
+      "records": 50,
+      "aliases": "",
+      "source_region": "Kecamatan Lobalain, Kabupaten Rote Ndao, East Nusa Tenggara, Indonesia"
+    },
+    {
+      "av_id": "map-ringgou",
+      "glottocode": "ring1244",
+      "iso639p3": "rgu",
+      "canonical_name": "Ringgou",
+      "source_name": "Rikou",
+      "member": "ring1244",
+      "classification": "new canonical language",
+      "records": 35,
+      "aliases": "Rikou/Ringgou",
+      "source_region": "Kecamatan Rote Timur, Kabupaten Rote Ndao, East Nusa Tenggara, Indonesia"
+    },
+    {
+      "av_id": "map-tii",
+      "glottocode": "tiii1241",
+      "iso639p3": "txq",
+      "canonical_name": "Tii",
+      "source_name": "Tii",
+      "member": "tiii1241",
+      "classification": "new canonical language",
+      "records": 48,
+      "aliases": "",
+      "source_region": "Kecamatan Rote Barat Daya, Kabupaten Rote Ndao, East Nusa Tenggara, Indonesia"
+    },
+    {
+      "av_id": "tim-sar-indonesia",
+      "glottocode": "sarr1247",
+      "iso639p3": "",
+      "canonical_name": "Sar (Indonesia)",
+      "source_name": "Sar",
+      "member": "sarr1247",
+      "classification": "new canonical language",
+      "records": 38,
+      "aliases": "",
+      "source_region": "Kecamatan Pantar, Kabupaten Alor, East Nusa Tenggara, Indonesia"
+    },
+    {
+      "av_id": "map-kolor",
+      "glottocode": "waer1237",
+      "iso639p3": "wrx",
+      "canonical_name": "Kolor",
+      "source_name": "Waerana",
+      "member": "waer1237",
+      "classification": "new canonical language",
+      "records": 46,
+      "aliases": "Waerana/Kolor",
+      "source_region": "Kecamatan Kotakomba, Kabupaten Ngada, East Nusa Tenggara, Indonesia"
+    },
+    {
+      "av_id": "map-kalao",
+      "glottocode": "kala1394",
+      "iso639p3": "kly",
+      "canonical_name": "Kalao",
+      "source_name": "Kalao",
+      "member": "kala1394",
+      "classification": "new canonical language",
+      "records": 57,
+      "aliases": "",
+      "source_region": ""
+    },
+    {
+      "av_id": "tim-hamap",
+      "glottocode": "hama1240",
+      "iso639p3": "hmu",
+      "canonical_name": "Hamap",
+      "source_name": "Hamap, Moru",
+      "member": "hama1240",
+      "classification": "existing language evidence",
+      "records": 42,
+      "aliases": "",
+      "source_region": "Kecamatan Alor Barat Daya, Kabupaten Alor, East Nusa Tenggara, Indonesia"
+    }
+  ],
+  "profiles": [
+    {
+      "path": "p/general",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/general",
+      "sha256": "3e7fd5aae031fb34dd61708963d1454b5f7ae53fd026f70a2e872c5d4b9afdb5"
+    },
+    {
+      "path": "p/hama1240",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/hama1240",
+      "sha256": "35b25fcacaf82be709ab83b1ece6d905e0b98e6e6a0536ba3204659ce1829709"
+    },
+    {
+      "path": "p/idat1237",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/idat1237",
+      "sha256": "3b8c226c43aa7ae3a97507c6517e14d50e7bf97136a281ddf402fdba37382124"
+    },
+    {
+      "path": "p/kala1394",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/kala1394",
+      "sha256": "a3a8050e0a757472a63ead7f109007e39963f2e83b026bb31fc5ee9781dc3956"
+    },
+    {
+      "path": "p/lole1239",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/lole1239",
+      "sha256": "97622475ab07cf8e152e8e0530451f6add644cfdcc42f9a0d61c9bb4533b0f90"
+    },
+    {
+      "path": "p/ring1244",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/ring1244",
+      "sha256": "922b79bee0f5d89fc8d44981b3f614cdb20938ed20e138e7f768d43a5d13494b"
+    },
+    {
+      "path": "p/sarr1",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/sarr1",
+      "sha256": "d026515f9ddf8743519bb93c0c0c351de817fc3231057007c8ebca6ae77d34e5"
+    },
+    {
+      "path": "p/tiii1241",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/tiii1241",
+      "sha256": "004f3fd2fe841d0aa82d6be1cfe18f44ac1143f95370e1b7ce01c522ba4798e4"
+    },
+    {
+      "path": "p/waer1237",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/waer1237",
+      "sha256": "fed1d192d88a75a588844e8caf3377d0e0e3bcf10bbe5969d7d4f13eb26f49b1"
+    },
+    {
+      "path": "p/west2547-welaun",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/west2547-welaun",
+      "sha256": "3835ed8b2a0c5a89b1dd51af0f90d5df62b049714a2ba53b8d97b87b89470e3b"
+    }
+  ],
+  "holds": [
+    {
+      "members": [
+        "erok1237",
+        "bedo1237"
+      ],
+      "reason": "Source comments Kambran/Yarik labels conflict with current Yarikman/Mbaruan naming and source-code conventions; no blind alias-based pooling. Need original witness/site and current classification alignment."
+    },
+    {
+      "members": "other absent-code candidates",
+      "reason": "Complete intake retained, but additional dialect/parent/Lamaholot identity and source-specific reviews remain outside this finite acceptance. Raw absence is not a new language claim."
+    }
+  ]
+}

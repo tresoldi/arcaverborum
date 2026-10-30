@@ -5,7 +5,17 @@ Updated2026-10-30. Read alongside [STATUS](../STATUS.md) and the
 not necessarily to every source for that language. Reopen when the specified
 new evidence arrives; record its source/version and the superseded decision.
 
-## Post-R original-source planning gates —2026-10-30
+## S01–S09 original-source closure —2026-10-30
+
+[Execution](../WORLDWIDE_S_EXECUTION_2026-10-30.md), [metrics](../worldwide_s_summary_2026-10-30.json) and [exact holds](../worldwide_s_holds_2026-10-30.csv) supersede the planning gates below. All nine bounded tracks are complete. Eleven canonical languages and one named Tuatschin variety are accepted; three original African dictionaries replace GLED primaries while all193 earlier GLED records remain guarded. Complete new intake161,344 rows is distinct from accepted1,016 records. Eleven earlier Goo readings recover;13 stay written.
+
+Gaa/Gula Iro/Ginyanga identities are resolved for the written pilots, not pronunciation. Eight LexiRumah language pilots plus Hamap are admitted with upstream conversion disclosure; Erokwanas/Bedoanas alias/locality conflicts and further dialect/parent scopes remain held. Chakali/Dagaare/Beja importers are complete; Dagaare `saa`/`zoore` need separate pronunciation scopes, and further Beja ɛ conversion cases need PDF comparison. Forty-one Beja readings already agree independently with the published PDF.
+
+Cayuga's complete noun chapter is ingested,33 citations admitted; complex full-word/possessor/whisper contexts and verb/particle import remain future review. Tuatschin has a real1,649-entry lexical chapter plus57 cross-references, newly established during execution; four malformed macros remain parse holds. Its two multiple-citation records remain written; ten internal-stress tokenizer cases are resolved by explicit segmentation-only stress omission, with native stress retained.
+
+The Andakí external workbook still lacks explicit terms; the full Yauyos XML/PDF remains unacquired. Na v6 and its NC-SA licence are established through fresh API metadata and the institutional notice, but its dictionary payload remains access-challenged. Ndebele original pronunciation authority, Eton post-edition alignment, Kwakum downstep/class conventions and Viya2000/2002 dates remain specific reading gates. Kullilli single-r words need lexical ɹ/ɾ evidence; its20 finite profiles and2 written citations are complete. No restricted CHIRILA or app dictionary payload, contact or application is claimed. Reopen only on the evidence named in the exact hold CSV.
+
+## Historical post-R original-source planning gates —2026-10-30 (superseded by S closure)
 
 [New plan](../WORLDWIDE_AFTER_R_SOURCE_PLAN_2026-10-30.md) is not authorized lexical execution. RefLex source counts are now measured from frozen rows, but Tiba/Gaa, Gula Iro and Ginyanga still require aliases/edition/notation review before new-language claims. Ndebele’s tone is not reconstructed from spelling; Eton’s author corrections beyond PDF and Obala scope, Kwakum’s downstep/class alternatives and Viya’s2000/2002 edition mismatch stay explicit. Wider Bantoid labels do not certify narrow Bantu membership.
 

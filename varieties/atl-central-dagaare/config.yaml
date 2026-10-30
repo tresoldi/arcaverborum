@@ -4,8 +4,9 @@ glottocode: sout2789
 family: Atlantic-Congo
 macroarea: Africa
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: dagaareoriginal
+  cognates: dagaareoriginal
+  source_language_id: dagaareoriginal_Dictionary
 extensions:
   transcriptions: false
   forms: false
@@ -16,6 +17,9 @@ scoring:
   forms_score: 0.7584
   cognates_score: 0.6
   tier: copper
-pinned: false
+pinned: true
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: S04 reviewed original dictionary primary with finite source-specific readings.
+  Original IPA field/conventions reviewed; all 33 earlier GLED forms remain through
+  guarded preservation, without inferred source cognacy or unwritten contrasts. See
+  PACKET.md.

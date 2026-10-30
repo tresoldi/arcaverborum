@@ -1,0 +1,450 @@
+{
+  "citations": [
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p7-waka",
+      "pdf_page": 8,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "90ce62b146ba4e58a49e755acb09cb925b85baf49a521221d4295be6683a3071"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p7-girri",
+      "pdf_page": 8,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "90ce62b146ba4e58a49e755acb09cb925b85baf49a521221d4295be6683a3071"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p7-mirri",
+      "pdf_page": 8,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "90ce62b146ba4e58a49e755acb09cb925b85baf49a521221d4295be6683a3071"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p7-wiyi",
+      "pdf_page": 8,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "90ce62b146ba4e58a49e755acb09cb925b85baf49a521221d4295be6683a3071"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p7-bunu",
+      "pdf_page": 8,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "90ce62b146ba4e58a49e755acb09cb925b85baf49a521221d4295be6683a3071"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p7-guturu",
+      "pdf_page": 8,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "90ce62b146ba4e58a49e755acb09cb925b85baf49a521221d4295be6683a3071"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p8-babadya",
+      "pdf_page": 9,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "c74d008c8001a2575ef30e2ab14be6c34cf815c7159e22b99eba29e392b9141d"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p8-gula",
+      "pdf_page": 9,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "c74d008c8001a2575ef30e2ab14be6c34cf815c7159e22b99eba29e392b9141d"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p8-mala",
+      "pdf_page": 9,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "c74d008c8001a2575ef30e2ab14be6c34cf815c7159e22b99eba29e392b9141d"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p8-yanggu",
+      "pdf_page": 9,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "c74d008c8001a2575ef30e2ab14be6c34cf815c7159e22b99eba29e392b9141d"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p9-ngapa",
+      "pdf_page": 10,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "0e2b36652116dde2c7beced18d18a703650637bbdafc8d66c89fe74dae6abcfc"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p9-manga",
+      "pdf_page": 10,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "0e2b36652116dde2c7beced18d18a703650637bbdafc8d66c89fe74dae6abcfc"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p10-nguthi",
+      "pdf_page": 11,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "87f74ccf5649f35713441bbac3a07a05b70b799b1814d37f6e4755a1f7d332f0"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p11-bindrinya",
+      "pdf_page": 12,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "02f236ad507ec04459774c4f85d1e2efadab328d308cdf2e0917e0ea393996ad"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-birta",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-warta",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-warnpa",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-barna",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-durlku",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-gurlu",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-burra",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    },
+    {
+      "dataset": "kullillioriginal",
+      "native_id": "p12-garri",
+      "pdf_page": 13,
+      "pdf_sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+      "quote_sha256": "806a4f7197032cdb281aaef9cfd8a7fad5733ce2f8b41799d7f935142d90395b"
+    }
+  ],
+  "independently_audited_pdf_citations": 22,
+  "beja_readings": [
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-4",
+      "Form": "aba\u02d0da",
+      "source_sense": "belly",
+      "pdf_page": 29,
+      "original_pdf_context": "aba\u02d0da n.m. belly \u2013 ventre (sy: ho\u02d0j2;\nkalawa)\nabadan < Ar. \u0294abadan.\nadv; intj.\nnever; not at all; no way \u2013 jamais;\npas du tout; hors de question (sy:\namro\u02d0) \u25b6u\u02d0n u\u02d0tak ha\u02d0laj hi\u02d0sani idi\nabadan tindi \u2019I th"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-647",
+      "Form": "\u0294aji",
+      "source_sense": "hand",
+      "pdf_page": 65,
+      "original_pdf_context": "\u0294aji indf. \u0294aje\u02d0b\nn.m. 1.\nhand\n\u2013 main\n\u25b6w\u0294ajiso\u02d0wa iragadi\u02d0wa\nijafi\u02d0wa bi\u02d0gale\u02d0laje\u02d0tu\u02d0k if he can-\nnot chase you away with all pos-\nsible means ... (lt: if he does not\nchase you away from his hand, leg\nan"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-828",
+      "Form": "\u0294asfu\u02d0r",
+      "source_sense": "bird",
+      "pdf_page": 82,
+      "original_pdf_context": "\u0294asfu\u02d0r < Ar. \u0295a\u1e63fu\u02d0r. pl. -a n.m. bird\n\u2013 oiseau (sy: kila\u02d0j)\n\u0294asga being at peace \u2192\u0294asig\n\u0294as-gana\u02d0d canine \u2192gana\u02d0d\n\u0294asi up; upwards; at the top \u2192\u0294as2\n\u0294a\u02d0si\u02d0 < Ar. \u0295a\u1e63a. V2. 1. to disobey \u2013\nd\u00e9sob\u00e9ir (sy: na\u02d0"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-840",
+      "Form": "\u0294assi",
+      "source_sense": "sand",
+      "pdf_page": 83,
+      "original_pdf_context": "\u0294assi indf. \u0294asse\u02d0t\nn.f. sand \u2013\nsable \u25b6\u0294asse\u02d0t tisi\u02d0n g\u02b7ida\u02d0l\u0294alt they\nfound sand, in great quantity n.m.\nindf. \u0294asse\u02d0b coarse sand; dust \u2013\nsable grossier; poussi\u00e8re (sy: \u0294ala\u02d0l1;\nbalba\u0288a; ha\u02d0\u0283; k\u02b7ara\u02d0r)\n\u0294"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-854",
+      "Form": "\u0294a\u02d0\u0283i",
+      "source_sense": "fish",
+      "pdf_page": 84,
+      "original_pdf_context": "\u0294a\u02d0\u0283i indf. \u0294a\u02d0\u0283o\u02d0b pl. \u0294a\u0283o\u02d0ja\nn.m.\nfish \u2013 poisson \u25b6u\u02d0bhar \u0294a\u02d0\u0283o\u02d0je\u02d0so\u02d0\n\u0256ha\u02d0ni\u02d0ni\u02d0ta\u02d0 kasta\u02d0 ho\u02d0 hi\u02d0n (in) the\nsea and its fish, there were all its\nmonsters inside it\n\u0294a\u0283ir V1. to drive cattle to the dese"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-889",
+      "Form": "\u0294awi",
+      "source_sense": "stone",
+      "pdf_page": 87,
+      "original_pdf_context": "\u0294awi indf. \u0294awe\u02d0b\nn.m. 1.\nstone\n\u2013 pierre \u25b6w\u0294awi n\u0294ati ingi\u02d0d he\nthrows the stone down\n\u25b6o\u02d0tam\n\u0294awi\u02d0 dha\u02d0j da\u02d0si\u02d0ni he makes the\ngruel drip on a stone\n\u25b6\u0294awe\u02d0b\nimo\u02d0k\u02b7a\u02d0t \u0256ibja he hit a stone and\nfell down \u25b6r"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-932",
+      "Form": "\u0294e\u02d0\u0283arri\u02d0f",
+      "source_sense": "maize",
+      "pdf_page": 91,
+      "original_pdf_context": "\u0294e\u02d0\u0283arri\u02d0f\n<\nAr.\nSd\n\u0295e\u02d0\u0283\nal-ri\u02d0f.\nn.m. maize \u2013 ma\u00efs (lt: country\nsorghum)\n\u0294e\u02d0t V2. to trample on; to tread on;\nto stamp on; to step on \u2013 marcher\nsur; pi\u00e9tiner; fouler \u25b6imalik \u0294e\u02d0ti\u02d0n-\nhe\u02d0b han ani \u0294e\u02d0tani \u0283ibib"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-970",
+      "Form": "\u0294i\u02d0li",
+      "source_sense": "arrow",
+      "pdf_page": 94,
+      "original_pdf_context": "\u0294i\u02d0li indf. \u0294i\u02d0li\u02d0t n.f. arrow \u2013 fl\u00e8che\n\u0294illi indf. \u0294illi\u02d0t n.f. sheep sp. \u2013 mou-\nton sp. (ee: smaller than \u02a4arasa\u02d0wi)\n\u0294i\u02d0lo\u02d0gani indf. \u0294i\u02d0lo\u02d0gani\u02d0t n.f. whirl-\nwind \u2013 tourbillon \u25b6t\u0294o\u02d0r \u0294i\u02d0lo\u02d0gani\u02d0t\n\u0294akra\u02d0"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-1036",
+      "Form": "ba\u02d0ba",
+      "source_sense": "father",
+      "pdf_page": 99,
+      "original_pdf_context": "ba\u02d0ba indf. imba\u02d0ba; iba\u02d0ba n.m. fa-\nther \u2013 p\u00e8re \u25b6imba\u02d0bajt takatti ge\u02d0b\naskina\u02d0bi he lived with his father\u2019s\nwife\nn.m.pl. paternal relatives \u2013\nparent\u00e8le paternelle\nbaba\u02d0l to gather (clouds); to do one\u2019s\no"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-1488",
+      "Form": "d\u0294a",
+      "source_sense": "horn",
+      "pdf_page": 137,
+      "original_pdf_context": "d\u0294a n.m. 1. horn \u2013 corne \u25b6hadalt\nn\u0294a\u02d0jtu bo\u02d0ki d\u0294a\u02d0je\u02d0tu it is a black\ngoat, and its horns are similar to\nthose of a he-goat (lt: it is of horns\nof a he-goat) 2. cupping glass \u2013 ven-\ntouse (pour aspirer "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-1986",
+      "Form": "fa\u02d0s",
+      "source_sense": "axe",
+      "pdf_page": 186,
+      "original_pdf_context": "fa\u02d0s < Ar. fa\u0294s. pl. fas\nn.m. axe\n\u2013 h\u00e2che \u25b6ifa\u02d0so\u02d0 ahi\u02d0t igarad i\u02d0\u0288\u0294e\u02d0-\nje\u02d0bka igarad hantata\u02d0ji he took his\naxe, and each time he was hitting\nthe acacia tree, the acacia was shak-\ning\nfassal < Ar. fa\u1e63\u1e63al"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-2104",
+      "Form": "ga\u02d0ba",
+      "source_sense": "forest",
+      "pdf_page": 202,
+      "original_pdf_context": "ga\u02d0ba < Ar. \u0263a\u02d0ba.\nn.m. forest \u2013\nfor\u00eat (sy: \u0256aw; \u0283a\u02a4ara) \u25b6\u02a4alla\u02d0ba\u02d0b\nsara\u02d0ra o\u02d0n i\u0283a\u02a4ar ting\u0294ate\u02d0b i\u02d0dif\ni\u02d0fi e\u02d0n iga\u02d0ba there was a long and\nnarrow mountain trail that went\nthrough the middle of the trees"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-2256",
+      "Form": "gaw",
+      "source_sense": "house",
+      "pdf_page": 215,
+      "original_pdf_context": "gaw pl. -a n.m. 1. house \u2013 maison (sy:\n\u0294anda; \u0256iwa; fi) \u25b6tido\u02d0ba we\u02d0r gaw-\ni\u02d0b is\u0294ajjimna they make the bribe\nspend the day in another house 2.\nsheath \u2013 fourreau (sy: bir\u0283am; mi\u0283-\nmam)\n\u2022 b\u0294a\u0256a\u02d0j-gaw def."
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-2335",
+      "Form": "gin\u0294a",
+      "source_sense": "heart",
+      "pdf_page": 224,
+      "original_pdf_context": "gin\u0294a n.m. heart \u2013 c\u0153ur \u25b6u\u02d0gn\u0294a in-\n\u0288\u0294i the heart beats \u25b6mirk\u02b7a\u02d0j ho\u02d0\nkada\u02d0ja igin\u0294i\u02d0b I become coura-\ngeous (lt: fearing is not in my\nheart in it) \u25b6kara\u02d0j imiktije\u02d0d ig-\nin\u0294i fara\u02d0j ki\u02d0ki I was not thinki"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-2364",
+      "Form": "girma",
+      "source_sense": "head",
+      "pdf_page": 229,
+      "original_pdf_context": "girma n.m. 1. head \u2013 t\u00eate \u25b6girma\u02d0j\nhalak ho\u02d0 fir\u0294ati\u02d0t they remove the\ncloth from his head, and ... 2 by ext.\nbeginning; entrance \u2013 d\u00e9but; com-\nmencement; entr\u00e9e (sy: badi2; daba;\njaf1) \u25b6ibhalji girma the "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoA-G-2452",
+      "Form": "g\u02b7imba",
+      "source_sense": "knee",
+      "pdf_page": 238,
+      "original_pdf_context": "g\u02b7imba n.m. 1. knee \u2013 genou (sy:\ngin\u0256if) 2. hock \u2013 jarret\n\u2022 g\u02b7imbaba\u02d0na\ncvb.mnr. with\nmisshapen knees \u2013 aux genoux\nmalform\u00e9s (ns: a neologism of\ntales)\n\u25b6g\u02b7imbaba\u02d0na\u02d0ba tu\u02d0n jha\u02d0\nhey, these are with misshape"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-308",
+      "Form": "handi",
+      "source_sense": "tree",
+      "pdf_page": 272,
+      "original_pdf_context": "handi\nvar.\nhindi\nindf.\nhandi\u02d0b;\nhindi\u02d0b, pl. -a\nn.m. 1.\ntree \u2013 ar-\nbre (ng: pl. is rare; sy: sa\u02a4ara) 2.\nwood \u2013 bois 3. stick \u2013 b\u00e2ton; b\u00e2ton-\nnet 4. branch \u2013 branche (sy: baji;\ntama\u0256o\u02d0j; tanag; tan\u0294a; tin\u0256a"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-317",
+      "Form": "hang\u0294ani",
+      "source_sense": "ant",
+      "pdf_page": 272,
+      "original_pdf_context": "hang\u0294ani indf. hang\u0294ano\u02d0t/b n.f, m.\nant \u2013 fourmi (ng: f. denotes a small\nant, m. a bigger one)\n\u2022 hang\u0294ano\u02d0ja cvb.mnr. full of ants\n\u2013 rempli de fourmis\nhango\u02d0r V2. 1. to bend forward \u2013 se\nplier en deux (ee: fr"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-411",
+      "Form": "ha\u02d0sim",
+      "source_sense": "spider",
+      "pdf_page": 283,
+      "original_pdf_context": "ha\u02d0sim pl. -a n.f. spider \u2013 araign\u00e9e\n\u2022 ha\u02d0smi gaw n.ph.m. spider web \u2013\ntoile d\u2019araign\u00e9e (lt: spider\u2019s house)\nhasir V2. 1. to want \u2013 vouloir (sy:\n\u0294are\u02d0; hariw; khan; \u0283\u0294; \u0283inh) 2. to\nneed \u2013 avoir besoin (sy: "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-573",
+      "Form": "hu\u02d0s",
+      "source_sense": "knife",
+      "pdf_page": 299,
+      "original_pdf_context": "hu\u02d0s var. xu\u02d0s; ku\u02d0s < Ar. xu\u02d0sah. pl.\n-a n.f. knife \u2013 couteau (sy: manan;\nsikki\u02d0n; \u0283angal)\nhu\u02d0\u0283\nn.m. diarrhea \u2013 diarrh\u00e9e (sy:\n\u0283o\u02d0ft k\u02b7inin; sa\u02d0)\n\u2022 hu\u02d0\u0283\nV2. to have diarrhea \u2013\navoir la diarrh\u00e9e \u25b6ika\u02d0mi wi"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-645",
+      "Form": "jam",
+      "source_sense": "water",
+      "pdf_page": 93,
+      "original_pdf_context": "jam idirk\u02b7i\u02d0b i\u02d0fifne\u02d0b it is the ret-\nribution of the work they\u2019ve done,\nthis water that they were pouring\nin the trough\n\u2022 \u0294i\u02a4a\u02d0r pl. -a n.m. rent \u2013 loyer (sy:\n\u0294i\u02a4ra; kira\u02d0j)\n\u2022 \u0294i\u02a4ra\nn.f. 1.\nrent \u2013 loye"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-652",
+      "Form": "ja\u02d0s",
+      "source_sense": "dog",
+      "pdf_page": 305,
+      "original_pdf_context": "ja\u02d0s var. wa\u02d0s pl. jas; was\nn. dog\n\u2013 chien; chienne \u25b6a\u02d0jas hilja\u02d0n the\ndogs barked\nja\u02d0s-gana\u02d0d canine; fang \u2192gana\u02d0d\njasi indf. jase\u02d0t\nn.f. game of long\njumping \u2013 jeu de saut en longueur\njat death \u2192jaj\nja\u02d0"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-689",
+      "Form": "jin",
+      "source_sense": "sun",
+      "pdf_page": 309,
+      "original_pdf_context": "jin pl. -a\nn.f. 1.\nsun \u2013 soleil\n\u25b6tu\u02d0jin dha\u02d0j namb\u0294i the sun heats\nhim up 2.\nday \u2013 jour (sy: b\u0294i)\n\u25b6ga\u02d0t jin ba\u02d0ski\u02d0tja he fasted for a\nday \u25b6asarama\u02d0t jina hawa\u02d0ji\u02d0n they\nused to dance for seven days\n\u2022 ji"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1022",
+      "Form": "k\u02b7ak\u02b7ar",
+      "source_sense": "snake",
+      "pdf_page": 338,
+      "original_pdf_context": "k\u02b7ak\u02b7ar pl. -a n.m. snake \u2013 serpent\n(ng: f. when designating the fe-\nmale; sy: tiji) \u25b6k\u02b7ak\u02b7ar re\u02d0wi\u02d0ni\na\nsnake\nis\nclimbing\n\u25b6k\u02b7ak\u02b7ar\nsara\u02d0ra dha\u02d0j j\u0294ija a long and thick\nsnake came toward her \u25b6u\u02d0n u\u02d0tak\nk\u02b7ak\u02b7"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1246",
+      "Form": "la\u02d0t",
+      "source_sense": "leaf",
+      "pdf_page": 358,
+      "original_pdf_context": "la\u02d0t\nl\u0294\n\u00e9tant nuageux\nla\u02d0t pl. lat; latit n.f. 1. leaf \u2013 feuille\n\u25b6tu\u02d0la\u02d0t winne\u02d0t dha\u02d0j da\u02d0wri\u02d0ta\nthe leaf looked beautiful to him\n\u25b6da\u02d0wri\u02d0t la\u02d0titti hindi a tree with\nbeautiful leaves 2. blade of grass \u2013"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1351",
+      "Form": "li\u02d0li",
+      "source_sense": "eye",
+      "pdf_page": 368,
+      "original_pdf_context": "li\u02d0li indf. li\u02d0li\u02d0t/b, pl. li\u02d0li; g\u02b7\u0294ad n.f, m.\n1. eye \u2013 \u0153il \u25b6ili\u02d0li a\u02d0kna g\u02b7ida\u02d0na\nrhija\u02d0ne\u02d0b my own eyes saw a lot\nof things for me \u25b6li\u02d0li\u02d0t k\u02b7a\u02d0lale\u02d0li\u02d0nt\ndam dam dam \u0294id ake\u02d0ti\u02d0t j\u0294e\u02d0nhe\u02d0b\nthey become "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1379",
+      "Form": "lu\u02d0l",
+      "source_sense": "rope",
+      "pdf_page": 372,
+      "original_pdf_context": "lu\u02d0l pl. lil n.m. 1. rope \u2013 corde (sy:\nja\u02d0j1) \u25b6o\u02d0n whalaki\u02d0t farda ika\u02d0mjo\u02d0\nlu\u02d0li\u02d0b hank\u02b7i\u02d0r he ties the end of\nhis cloth to the rope of his camel\n\u25b6to\u02d0n\u0294a\u02d0j lu\u02d0l im\u0294agaj d\u0294ija\u02d0bu he\nhad put a rope around "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1606",
+      "Form": "m\u0294agi",
+      "source_sense": "neck",
+      "pdf_page": 385,
+      "original_pdf_context": "m\u0294agi indf. m\u0294age\u02d0b n.m. 1. neck \u2013\ncou (sy: \u0294ala1) \u25b6lu\u02d0l im\u0294agi\u02d0 d\u0294i\u02d0ti\u02d0t\no\u02d0ja\u02d0s ha\u02d0j gi\u02d0gi\u02d0ni he puts a rope\naround its neck and he leaves with\nthe dog 2. nape of neck \u2013 nuque (sy:\nka\u0256at; kali\u02d0f; kani\u02d0f; "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1699",
+      "Form": "mi\u02d0da\u02d0b",
+      "source_sense": "tongue",
+      "pdf_page": 391,
+      "original_pdf_context": "mi\u02d0da\u02d0b var. mi\u02d0dala\u02d0b\nn.m. pl.\nmi\u02d0dab; mi\u02d0dalab tongue \u2013 langue\n\u25b6o\u02d0n\nwhandi\nmi\u02d0da\u02d0bjo\u02d0k\nwhi\u02d0\nda\u02d0sa\u02d0ja\u02d0 khara\u02d0j tikatija put this\npiece of wood under your tongue,\nand\nyou\u2019ll\nbecome\na\nhyena!\n\u25b6asarama\nko\u02d0je\u02d0\ni"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1743",
+      "Form": "mi\u02d0lak",
+      "source_sense": "salt",
+      "pdf_page": 395,
+      "original_pdf_context": "mi\u02d0lak n.m. salt \u2013 sel (sy: d\u0294ami\u02d0ni)\n\u25b6to\u02d0lam mi\u02d0lak ho\u02d0j d\u0294ija\u02d0b ki\u02d0ke\u02d0n\nthey did not put salt in the sauce\nmi\u02d0la\u02d0l pl. mi\u02d0lal n.f. 1. big needle\n\u2013 grande aiguille (ee: to sew mats;\nsy: \u0294ibra; ha\u02d0jdi; kans"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoH-M-1848",
+      "Form": "mi\u02d0ta\u02d0t",
+      "source_sense": "bone",
+      "pdf_page": 403,
+      "original_pdf_context": "mi\u02d0ta\u02d0t pl. mi\u02d0tat\nn.f. bone \u2013 os;\nar\u00eate \u25b6ing\u0294i\u02d0t mi\u02d0ta\u02d0t vertebrae (lt:\nback\u2019s bone)\n\u25b6o\u02d0t tik\u02b7re\u02d0ta\u02d0ti\u02d0ti\u02d0t\nmi\u02d0tatte\u02d0b ga\u02d0t mi\u02d0ta\u02d0t faraka\u02d0t tiki\nin the bones of this backbone one\nbone had stuck out\nmitfe\u02d0l"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-228",
+      "Form": "ni\u02d0wa",
+      "source_sense": "tail",
+      "pdf_page": 430,
+      "original_pdf_context": "ni\u02d0wa n.m. 1. tail \u2013 queue \u25b6ini\u02d0wa\ni\u0288\u0294a it wagged its tail 2. end; ex-\ntremity; bottom \u2013 fin; bout; fond (sy:\ngalha\u02d0n; girma; jaf; kijas) \u25b6ini\u02d0wa\nkanti\u02d0m he reaches the bottom\n\u25b6whale\u02d0li tini\u02d0wa iskatimna t"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-380",
+      "Form": "riba",
+      "source_sense": "mountain",
+      "pdf_page": 441,
+      "original_pdf_context": "riba\nn.m. mountain \u2013 montagne\n\u25b6riba\u02d0j mhawaji it is the turn\nof a mountain \u25b6alla\u02d0j ta\u02d0rba tibi\u02d0-\nfara\u02d0jne\u02d0t isa\u02d0nnho\u02d0k God! may you\nfind the mountains that cannot be\njumped over! \u25b6win riba! [wirriba]\nprec"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-759",
+      "Form": "sija\u02d0m",
+      "source_sense": "grass",
+      "pdf_page": 470,
+      "original_pdf_context": "sija\u02d0m n.m. 1. grass \u2013 herbe \u25b6sija\u02d0m\no\u02d0mhi\u02d0n\ni\u02d0fi\u02d0t\no\u02d0sja\u02d0mka\ntami\u02d0ni\nthere was grass in the place, and\nit keeps eating the grass 2.\nedi-\nble plants for cattle \u2013 v\u00e9g\u00e9taux co-\nmestibles pour le b\u00e9tail\nsij\u0294 V"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-775",
+      "Form": "sikki\u02d0n",
+      "source_sense": "knife",
+      "pdf_page": 470,
+      "original_pdf_context": "sikki\u02d0n < Ar. sikki\u02d0n. pl. -a n.f. knife\n\u2013 couteau (sy: hu\u02d0s; manan; \u0283an-\ngal) \u25b6b\u0294a\u0256\u0256awwa sikki\u02d0na\u02d0twa fi-\nna\u02d0twa g\u02b7ibi\u02d0wwa i\u02d0he\u02d0ni\u02d0t dha\u02d0j\n\u0256a\u0256abja\u02d0n\nafter\nhaving\ntaken\nswords, knives, spears, and shields,\nt"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-988",
+      "Form": "\u0283a",
+      "source_sense": "meat",
+      "pdf_page": 483,
+      "original_pdf_context": "\u0283a\n\u0283a\u02d0bh\n\u0283\n\u0283a n.f. meat \u2013 viande \u25b6do\u02d0rka to\u02d0\u0283a\nkit\u0294at tamat niki we would cut and\neat the meat in turn\n\u0283ab1 to be shod \u2192\u0283ib\n\u0283ab2 shoes \u2192\u0283ib\n\u0283ab3\nV2. to sharpen \u2013 aiguiser\n(sy: sal; shasi) \u25b6tisikki\u02d0nto\u02d0 "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-1009",
+      "Form": "\u0283a\u02a4ara",
+      "source_sense": "tree",
+      "pdf_page": 484,
+      "original_pdf_context": "\u0283a\u02a4ara var. sa\u02a4ara; \u0283adara < Ar.\n\u0283a\u02a4ar.\npl.\n\u0283a\u02a4ar;\nsa\u02a4ar;\n\u0283adar\nn.f. tree \u2013 arbre (ns: \u0283a\u02a4ara is\nthe southern variety; sa\u02a4ara is\nthe northern and central vari-\neties; \u0283adara is the variant of the\nBisharayab"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-1070",
+      "Form": "\u0283angal",
+      "source_sense": "knife",
+      "pdf_page": 488,
+      "original_pdf_context": "\u0283angal var. \u0283ingal pl. -a n.m. knife\n\u2013 couteau (sy: hu\u02d0s; manan; sikki\u02d0n)\n\u25b6\u0283angalt i\u02d0ha\u02d0jt ti\u02d0tisja\u02d0 ikt\u0294a he\ntook a knife and tore it apart (lt: he\ntook a knife and made tear he cut)\n\u0283angu\u02d0l pl. \u0283angil n.m"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-1474",
+      "Form": "tiji",
+      "source_sense": "snake",
+      "pdf_page": 527,
+      "original_pdf_context": "tiji indf. tijo\u02d0t n.f. 1. snake \u2013 serpent\n(sy: k\u02b7ak\u02b7ar) \u25b6tu\u02d0tji t\u0294asarama gir-\nma\u02d0ji tisa\u02d0nho\u02d0ka may you find the\nseven-headed snake! 2.\nmonster;\nwild beast \u2013 monstre; b\u00eate sauvage\n(sy: \u0256hani\u02d0na\u02d0j)\ntikir "
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-1540",
+      "Form": "tirig",
+      "source_sense": "moon",
+      "pdf_page": 535,
+      "original_pdf_context": "tirig n.f. moon \u2013 lune \u25b6tu\u02d0trig di\u02d0se\u02d0t\ntifr\u0294aje\u02d0 do\u02d0r na\u02d0t rhan when the\nmoon rose slowly, I saw something\nn.m. 1. crescent moon \u2013 croissant\nde lune (sy: hila\u02d0l2) \u25b6o\u02d0trig ha\u02d0jamja\nthe crescent moon announ"
+    },
+    {
+      "source_form_id": "bejaoriginal_dicoN-Z-1711",
+      "Form": "wi",
+      "source_sense": "bee",
+      "pdf_page": 551,
+      "original_pdf_context": "wi var. wiw indf. wi\u02d0t\nn.f. bee \u2013\nabeille\nwidi < Ar. wa\u0295d. V1. to give an ap-\npointment \u2013 donner un rendez-vous\n\u2022 widu\u02d0j n.ac.m. giving an appoint-\nment \u2013 fait de donner un rendez-\nvous\n\u2022 wada\u02d0j pl. wad"
+    }
+  ],
+  "independently_checked_beja_readings": 41,
+  "beja_pdf_sha256": "f173826ab756fa35ab2ed3a043c13b38df13da72828106bffc65520a23fed111"
+}

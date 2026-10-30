@@ -1,0 +1,24 @@
+av_id: ine-tuatschin
+name: Tuatschin
+glottocode: surs1244
+family: Indo-European
+macroarea: Eurasia
+sources:
+  transcription: tuatschinoriginal
+  cognates: tuatschinoriginal
+  source_language_id: tuatschinoriginal_Dictionary
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-30'
+notes: S09 named Tujetsch/Tuatschin dialect under Sursilvan. Original dictionary finite
+  guarded primary, with source spelling and explicit readings separate. Not a new
+  canonical language; no authority over Standard Sursilvan.

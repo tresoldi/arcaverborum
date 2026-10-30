@@ -1,0 +1,4329 @@
+[
+  {
+    "dataset": "andakioriginal",
+    "kind": "reviewed_citations",
+    "name": "Andakí original documentary citations",
+    "url": "https://langsci-press.org/catalog/book/528",
+    "version": "langsci/528@6cf5447815d50b42220cca92256e8c6b8335ce40",
+    "citation": "Moens, Jelien and Matthias Pache.2025. Notes on the grammar of Andakí. Language Science Press. DOI10.5281/zenodo.16964545. Chapter5 original historical citations; manuscript/editorial variants remain in native context.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original scholarly edition quoting 18th/19th-century witnesses. These are documentary spellings, not new phonetic elicitation or independent corroboration of wrappers sharing the same witness.",
+    "resources": [
+      {
+        "key": "phonology",
+        "filename": "phonology.tex",
+        "url": "https://raw.githubusercontent.com/langsci/528/6cf5447815d50b42220cca92256e8c6b8335ce40/chapters/05phonology.tex",
+        "sha256": "8d8a8d4764a1d3d94a404d18755a63c2b56d405fc3815f9a4e31835687e4428f"
+      }
+    ],
+    "review": "docs/worldwide_s01_andaki_review_2026-10-30.csv",
+    "members": [
+      {
+        "ID": "HistoricalCitations",
+        "Name": "Andakí historical documentary citations (witnesses dated separately in native context)",
+        "Glottocode": "anda1286",
+        "Glottolog_Name": "Andaqui",
+        "Family": "Andaqui",
+        "Macroarea": "South America"
+      }
+    ]
+  },
+  {
+    "dataset": "yauyosoriginal",
+    "kind": "reviewed_citations",
+    "name": "Southern Yauyos original dialect-labelled citations",
+    "url": "https://langsci-press.org/catalog/book/83",
+    "version": "langsci/83@215f958fba980080eae280f7fddef27556450520",
+    "citation": "Shimelman, Aviva.2017. A grammar of Yauyos Quechua. Language Science Press. DOI10.5281/zenodo.376355. Chapter2 and AppendixA exact source citations; five dialects remain labelled.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original author grammar/fieldwork lexical citations. Comparison language columns and unavailable external lexicon are not imported; related source wrappers are not independent corroboration.",
+    "resources": [
+      {
+        "key": "lexical",
+        "filename": "aA.tex",
+        "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/chapters/aA.tex",
+        "sha256": "ffbda8304f9097cfce7ab014c82c15e25aef6f280f0fa50ceb3e20a93beb2d40"
+      },
+      {
+        "key": "phonology",
+        "filename": "02.tex",
+        "url": "https://raw.githubusercontent.com/langsci/83/215f958fba980080eae280f7fddef27556450520/chapters/02.tex",
+        "sha256": "a1ed9d6dff5ab6cd5229dbb5d445cc1de5077159001d9335ab237937bf96440a"
+      }
+    ],
+    "review": "docs/worldwide_s01_yauyos_review_2026-10-30.csv",
+    "members": [
+      {
+        "ID": "ALL",
+        "Name": "Five documented Southern Yauyos dialects: shared source citation",
+        "Glottocode": "yauy1235",
+        "Glottolog_Name": "Yauyos Quechua",
+        "Family": "Quechuan",
+        "Macroarea": "South America"
+      },
+      {
+        "ID": "MV_AH_SP",
+        "Name": "Madeán–Viñac / Azángaro–Huangáscar / San Pedro",
+        "Glottocode": "yauy1235",
+        "Glottolog_Name": "Yauyos Quechua",
+        "Family": "Quechuan",
+        "Macroarea": "South America"
+      },
+      {
+        "ID": "LT_CH",
+        "Name": "Lincha–Tana / Cacra–Hongos",
+        "Glottocode": "yauy1235",
+        "Glottolog_Name": "Yauyos Quechua",
+        "Family": "Quechuan",
+        "Macroarea": "South America"
+      },
+      {
+        "ID": "MV_AH_SP_CH",
+        "Name": "Madeán–Viñac / Azángaro–Huangáscar / San Pedro / Cacra–Hongos",
+        "Glottocode": "yauy1235",
+        "Glottolog_Name": "Yauyos Quechua",
+        "Family": "Quechuan",
+        "Macroarea": "South America"
+      },
+      {
+        "ID": "LT",
+        "Name": "Lincha–Tana",
+        "Glottocode": "yauy1235",
+        "Glottolog_Name": "Yauyos Quechua",
+        "Family": "Quechuan",
+        "Macroarea": "South America"
+      },
+      {
+        "ID": "GrammarCitation",
+        "Name": "Southern Yauyos grammatical citation; exact scope in native context",
+        "Glottocode": "yauy1235",
+        "Glottolog_Name": "Yauyos Quechua",
+        "Family": "Quechuan",
+        "Macroarea": "South America"
+      }
+    ]
+  },
+  {
+    "dataset": "reflexsnew",
+    "kind": "reflex_full",
+    "name": "RefLex complete selected original editions: Gaa, Gula Iro, Ginyanga and Goo",
+    "url": "https://nakala.fr/10.34847/nkl.e3cbkjzm",
+    "version": "Nakala10.34847/nkl.e3cbkjzm-records-ac96f29b212df5d6",
+    "citation": "Segerer et al.2025/2026 RefLex-CLLD v1.0; Nakala April2026 frozen export. Original editions: Boyd1999 Tiba/Gaa; Pairault1969 Gula Iro; Aplonova2025 Ginyanga and Aplonova2020 Goo. Every row retains complete original source/language/reference attribution.",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "genealogy": "Individual original RefLex source editions, not independent corroboration of CBOLD/ASJP/GLED or earlier RefLex wrappers sharing an underlying witness. Complete source rows enter intake as written evidence with unmapped meanings; only guarded reviewed senses/readings are admitted.",
+    "members": [
+      {
+        "ID": "1352",
+        "Name": "Tiba",
+        "Glottocode": "gaaa1245",
+        "Glottolog_Name": "Gaa",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      },
+      {
+        "ID": "363",
+        "Name": "Gula Iro",
+        "Glottocode": "gula1265",
+        "Glottolog_Name": "Gula Iro",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      },
+      {
+        "ID": "3563",
+        "Name": "Anyanga",
+        "Glottocode": "giny1241",
+        "Glottolog_Name": "Ginyanga",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      },
+      {
+        "ID": "3115",
+        "Name": "Goo",
+        "Glottocode": "gooa1234",
+        "Glottolog_Name": "Goo",
+        "Family": "Mande",
+        "Macroarea": "Africa"
+      }
+    ],
+    "resources": [
+      {
+        "key": "records",
+        "kind": "reflex",
+        "filename": "records.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/dcc56cac85c0f20bad49e386656b96041e197ac8",
+        "sha256": "ac96f29b212df5d605c1c3f3526b5d1573337697934143735a1b9d198e2247aa"
+      },
+      {
+        "key": "sources",
+        "kind": "tsv_metadata",
+        "filename": "sources.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/081618ff04ea5593aca28c5f501516ac181d7799",
+        "sha256": "639b5df1d4dc7af1c2094a31b485c9b1e96d1ec1ed63a40999024885b721efb1"
+      },
+      {
+        "key": "languages",
+        "kind": "tsv_metadata",
+        "filename": "langues.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/f627eef8264f3eba0210d0669f75219ab08e20d4",
+        "sha256": "f9814ae1fd2dcc418f50cfdcb1cd733f92bcb7917d98976e9593e45f46ca4a1a"
+      },
+      {
+        "key": "references",
+        "kind": "tsv_metadata",
+        "filename": "references.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/af5586ab41db11f3dbe356656415e955aaccd5d4",
+        "sha256": "80081ddffd8687c3afed3b43392235fda38a3a5930e46d7417ccc72aa63a2405"
+      }
+    ]
+  },
+  {
+    "dataset": "reflexsbantu",
+    "kind": "reflex_full",
+    "name": "RefLex complete selected Bantu original editions",
+    "url": "https://nakala.fr/10.34847/nkl.e3cbkjzm",
+    "version": "Nakala10.34847/nkl.e3cbkjzm-records-ac96f29b212df5d6",
+    "citation": "Frozen RefLex April2026 export. Originals Van de Velde and Essele2022 Eton/Obala with post-edition author corrections; Njantcho Kouagang2018 Sibita Kwakum; Pelling1971 Zimbabwean Ndebele corrected from CBOLD against original; Van der Veen and Bodinga archive label2000/reference2002 Viya. Native source/language/reference and edition discrepancy retained.",
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "genealogy": "Individual original RefLex source editions, not independent corroboration of CBOLD/ASJP/GLED or earlier RefLex wrappers sharing an underlying witness. Complete source rows enter intake as written evidence with unmapped meanings; only guarded reviewed senses/readings are admitted.",
+    "members": [
+      {
+        "ID": "1439",
+        "Name": "Eton",
+        "Glottocode": "eton1253",
+        "Glottolog_Name": "Eton-Mengisa",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      },
+      {
+        "ID": "3000",
+        "Name": "Kwakum",
+        "Glottocode": "kwak1266",
+        "Glottolog_Name": "Kwakum",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      },
+      {
+        "ID": "42",
+        "Name": "Ndebele (Zimbabwe)",
+        "Glottocode": "nort2795",
+        "Glottolog_Name": "Zimbabwean Ndebele",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      },
+      {
+        "ID": "1701",
+        "Name": "Viya",
+        "Glottocode": "eviy1235",
+        "Glottolog_Name": "Viya",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      }
+    ],
+    "resources": [
+      {
+        "key": "records",
+        "kind": "reflex",
+        "filename": "records.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/dcc56cac85c0f20bad49e386656b96041e197ac8",
+        "sha256": "ac96f29b212df5d605c1c3f3526b5d1573337697934143735a1b9d198e2247aa"
+      },
+      {
+        "key": "sources",
+        "kind": "tsv_metadata",
+        "filename": "sources.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/081618ff04ea5593aca28c5f501516ac181d7799",
+        "sha256": "639b5df1d4dc7af1c2094a31b485c9b1e96d1ec1ed63a40999024885b721efb1"
+      },
+      {
+        "key": "languages",
+        "kind": "tsv_metadata",
+        "filename": "langues.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/f627eef8264f3eba0210d0669f75219ab08e20d4",
+        "sha256": "f9814ae1fd2dcc418f50cfdcb1cd733f92bcb7917d98976e9593e45f46ca4a1a"
+      },
+      {
+        "key": "references",
+        "kind": "tsv_metadata",
+        "filename": "references.tsv",
+        "url": "https://api.nakala.fr/data/10.34847/nkl.e3cbkjzm/af5586ab41db11f3dbe356656415e955aaccd5d4",
+        "sha256": "80081ddffd8687c3afed3b43392235fda38a3a5930e46d7417ccc72aa63a2405"
+      }
+    ]
+  },
+  {
+    "dataset": "chakalioriginal",
+    "kind": "tex_dictionary",
+    "format": "chakali",
+    "name": "Chakali original dictionary",
+    "url": "https://langsci-press.org/catalog/book/74",
+    "version": "langsci/74@06463ca75da990121d0fc9a7dcadbc15892cfd3d",
+    "citation": "Brindle2017 A dictionary and grammatical outline of Chakali. Language Science Press74.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original published source entry blocks, not independent corroboration of derivative comparative lists. Native spelling, phonetic fields, variants, morphology, examples and all senses retained; finite guarded acceptance only. English reversal indexes and template CSVs excluded.",
+    "members": [
+      {
+        "ID": "Dictionary",
+        "Name": "Chakali",
+        "Glottocode": "chak1271",
+        "Glottolog_Name": "Chakali",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      }
+    ],
+    "resources": [
+      {
+        "key": "dictionary",
+        "filename": "dictionary.tex",
+        "url": "https://raw.githubusercontent.com/langsci/74/06463ca75da990121d0fc9a7dcadbc15892cfd3d/chapters/dictionary.tex",
+        "sha256": "4733184c396953e6102b379e37537ad5161c66a8d0a194b02cc0663058afced3",
+        "lexical": true
+      },
+      {
+        "key": "lsp-cli-phonology",
+        "filename": "lsp-cli-phonology.tex",
+        "url": "https://raw.githubusercontent.com/langsci/74/06463ca75da990121d0fc9a7dcadbc15892cfd3d/chapters/lsp-cli-phonology.tex",
+        "sha256": "1874e40afa674a7d922ba2fb9cc227edd2ce94f1f35dbec142a92183fd24801b",
+        "lexical": false
+      }
+    ]
+  },
+  {
+    "dataset": "dagaareoriginal",
+    "kind": "tex_dictionary",
+    "format": "dagaare",
+    "name": "Central Dagaare original dictionary",
+    "url": "https://langsci-press.org/catalog/book/245",
+    "version": "langsci/245@492460f67f910d1b82eb9a978a2d70dd76cd259a",
+    "citation": "Ali, Grimm and Bodomo2021 A dictionary and grammatical sketch of Dagaare. Language Science Press245.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original published source entry blocks, not independent corroboration of derivative comparative lists. Native spelling, phonetic fields, variants, morphology, examples and all senses retained; finite guarded acceptance only. English reversal indexes and template CSVs excluded.",
+    "members": [
+      {
+        "ID": "Dictionary",
+        "Name": "Central Dagaare",
+        "Glottocode": "sout2789",
+        "Glottolog_Name": "Central Dagaare",
+        "Family": "Atlantic-Congo",
+        "Macroarea": "Africa"
+      }
+    ],
+    "resources": [
+      {
+        "key": "a",
+        "filename": "a.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/a.tex",
+        "sha256": "ca8005c687bf24851f687d1e09473766931ccdb0fc3f5e939aac103196045125",
+        "lexical": true
+      },
+      {
+        "key": "b",
+        "filename": "b.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/b.tex",
+        "sha256": "c69a815ca2794594c63cf57818e37b9c6f87b2a9374982c3553643aae931bfed",
+        "lexical": true
+      },
+      {
+        "key": "d",
+        "filename": "d.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/d.tex",
+        "sha256": "86101f84bc6ef3cfdf56abba4ee1e438fc53748cf652a5ab7c22db2f400d20d1",
+        "lexical": true
+      },
+      {
+        "key": "E",
+        "filename": "E.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/E.tex",
+        "sha256": "11c16e6cc9205dc7df6847538b809170f113bde11468121c5e7d1eb5d09ad30f",
+        "lexical": true
+      },
+      {
+        "key": "O",
+        "filename": "O.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/O.tex",
+        "sha256": "b34f90fda332d56912adbf44aee0e6b661fdd7277cd9a804108b6bcdc12576cf",
+        "lexical": true
+      },
+      {
+        "key": "e",
+        "filename": "e.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/e.tex",
+        "sha256": "fbb2eab4cbeed53d63540e4f97989e88beccbe0173c51d1fbf552bea9155691d",
+        "lexical": true
+      },
+      {
+        "key": "f",
+        "filename": "f.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/f.tex",
+        "sha256": "8a60dcc0413799e57b7fa494a2a52cd5f247d1e7fbd4d96adbc13dac8d6e115f",
+        "lexical": true
+      },
+      {
+        "key": "g",
+        "filename": "g.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/g.tex",
+        "sha256": "91e65f1580d74ad4f5f344548b3c590de14f56085883fb1a9707f3546a64a58f",
+        "lexical": true
+      },
+      {
+        "key": "gb",
+        "filename": "gb.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/gb.tex",
+        "sha256": "bc1682ea44154b44722aa651bac06d34cf78205b80deaa0084da0f63900bdba0",
+        "lexical": true
+      },
+      {
+        "key": "gy",
+        "filename": "gy.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/gy.tex",
+        "sha256": "6d9ca382b3f36740bb05cdb1b91235da7f6d1ea3654e5f2e42df66468f7f011a",
+        "lexical": true
+      },
+      {
+        "key": "h",
+        "filename": "h.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/h.tex",
+        "sha256": "d052a7049da962a59851907fe4c8de3a17a45c7369db59172c0d37fb427233a4",
+        "lexical": true
+      },
+      {
+        "key": "i",
+        "filename": "i.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/i.tex",
+        "sha256": "7f83776948974a0ae50e5204fab68048582213a9ef4e56fb4cf2c1acc2c50c64",
+        "lexical": true
+      },
+      {
+        "key": "k",
+        "filename": "k.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/k.tex",
+        "sha256": "011bfa61684cad43bd1929129d3e0ab30ce901b29ec069ab9ec230493fd6798e",
+        "lexical": true
+      },
+      {
+        "key": "kp",
+        "filename": "kp.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/kp.tex",
+        "sha256": "1c1aa81de0ba92111e3b0fe241c6ee9fbba81ab63beeb9df4ff3363daf1e1fe6",
+        "lexical": true
+      },
+      {
+        "key": "ky",
+        "filename": "ky.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/ky.tex",
+        "sha256": "74140ab72d5b52cfef2425c994f13be0896068502e3a9224ae6a54b66572943d",
+        "lexical": true
+      },
+      {
+        "key": "l",
+        "filename": "l.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/l.tex",
+        "sha256": "239b7ede0c5ab27f7d9b015f6639a099b0e8eb33f3a5367e763b8ee0438a9745",
+        "lexical": true
+      },
+      {
+        "key": "m",
+        "filename": "m.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/m.tex",
+        "sha256": "88c172a3a8e6cf06d41f35303715f1dab0fb37d49529da35b79a806b1ef316d9",
+        "lexical": true
+      },
+      {
+        "key": "n",
+        "filename": "n.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/n.tex",
+        "sha256": "04a4cab5c2cb4062c6bfc3083573afda858523e9391c1ecf6088b8062071f8d0",
+        "lexical": true
+      },
+      {
+        "key": "ng",
+        "filename": "ng.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/ng.tex",
+        "sha256": "ffaa9dfac9f43cca6a6857b6dc34739bd6e0652a2d0ef299122aef84d01ac0e3",
+        "lexical": true
+      },
+      {
+        "key": "ngm",
+        "filename": "ngm.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/ngm.tex",
+        "sha256": "cefae87bc9ae6a73300f18fa1cf338e520ab5405b8f68ce94c35761ce4fad0d5",
+        "lexical": true
+      },
+      {
+        "key": "ny",
+        "filename": "ny.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/ny.tex",
+        "sha256": "fb28587b5e8ad3c4037b6162a994c58d921b13e113679fad6e08505d407a0f36",
+        "lexical": true
+      },
+      {
+        "key": "o",
+        "filename": "o.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/o.tex",
+        "sha256": "f3ffaeac89f63c433672ea1ad19b63046d8aa564fac197f708501f33eceeba03",
+        "lexical": true
+      },
+      {
+        "key": "p",
+        "filename": "p.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/p.tex",
+        "sha256": "6818eff3cb11350249bb8784ccedbfdfee9f569753d69a5ffa5363a3d685c8cd",
+        "lexical": true
+      },
+      {
+        "key": "s",
+        "filename": "s.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/s.tex",
+        "sha256": "5fa1844b1dd73c472d200df9b339b080d706997613c0ffbb9e23eac6bb12ed1f",
+        "lexical": true
+      },
+      {
+        "key": "t",
+        "filename": "t.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/t.tex",
+        "sha256": "3ad4f6ebb84d80637839656b7ac51f2783317203af229bb1b86123c911b6f64d",
+        "lexical": true
+      },
+      {
+        "key": "u",
+        "filename": "u.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/u.tex",
+        "sha256": "92da65774b10b1ccdb188f781e99c7ee08f05bc846e9ecd30ae8224373ebca29",
+        "lexical": true
+      },
+      {
+        "key": "v",
+        "filename": "v.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/v.tex",
+        "sha256": "3728d9ad73fc2675408a7c043c5df24363faefb055ced175e712bf43645804dc",
+        "lexical": true
+      },
+      {
+        "key": "w",
+        "filename": "w.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/w.tex",
+        "sha256": "aa5c9a09b8bb20efa1e13251b341f5ecebb9cac8977158ef28b1f747f5f1199c",
+        "lexical": true
+      },
+      {
+        "key": "y",
+        "filename": "y.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/y.tex",
+        "sha256": "d3e9343ccf27e2c5385fa2e696055995f479988e6cd49dc0012f366ede25aad4",
+        "lexical": true
+      },
+      {
+        "key": "z",
+        "filename": "z.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/z.tex",
+        "sha256": "38a5ace095981919d00279bdaf7f4ef247784c6c7e69f31e0726b8bb5d4d9afc",
+        "lexical": true
+      },
+      {
+        "key": "spelling",
+        "filename": "spelling.tex",
+        "url": "https://raw.githubusercontent.com/langsci/245/492460f67f910d1b82eb9a978a2d70dd76cd259a/chapters/spelling.tex",
+        "sha256": "a66ff49613e68f58f3965b08fb976a3839ef539734557adc4db250fe02420035",
+        "lexical": false
+      }
+    ]
+  },
+  {
+    "dataset": "bejaoriginal",
+    "kind": "tex_dictionary",
+    "format": "beja",
+    "name": "Beja original dictionary",
+    "url": "https://langsci-press.org/catalog/book/603",
+    "version": "langsci/603@1a02f2e726b7e85655952d296a2cbe3810d69e83",
+    "citation": "Vanhove and Hamid-Ahmed2026 Beja-English-French dictionary. Language Science Press603.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original published source entry blocks, not independent corroboration of derivative comparative lists. Native spelling, phonetic fields, variants, morphology, examples and all senses retained; finite guarded acceptance only. English reversal indexes and template CSVs excluded.",
+    "members": [
+      {
+        "ID": "Dictionary",
+        "Name": "Beja",
+        "Glottocode": "beja1238",
+        "Glottolog_Name": "Beja",
+        "Family": "Afro-Asiatic",
+        "Macroarea": "Africa"
+      }
+    ],
+    "resources": [
+      {
+        "key": "dicoA-G",
+        "filename": "dicoA-G.tex",
+        "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/dicoA-G.tex",
+        "sha256": "cfb3bf4e38213f7357b5f3e7364dfc114afdef6afd3db981787a35a1aebfda7a",
+        "lexical": true
+      },
+      {
+        "key": "dicoH-M",
+        "filename": "dicoH-M.tex",
+        "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/dicoH-M.tex",
+        "sha256": "a6d89473cff0f177f974b94eb39c487c0a0a6d17b27dc5865d5f9bc1b57a6696",
+        "lexical": true
+      },
+      {
+        "key": "dicoN-Z",
+        "filename": "dicoN-Z.tex",
+        "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/dicoN-Z.tex",
+        "sha256": "757e1df0df6e70d407477ca401b02d671d8311fef9e1f8c12a52876d0bb55c65",
+        "lexical": true
+      },
+      {
+        "key": "intro",
+        "filename": "intro.tex",
+        "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/intro.tex",
+        "sha256": "ba800f6ff701f12ce0df80ae2044707d7dcb5a70a00b5688da8583baf97290d5",
+        "lexical": false
+      },
+      {
+        "key": "sketch",
+        "filename": "sketch.tex",
+        "url": "https://raw.githubusercontent.com/langsci/603/1a02f2e726b7e85655952d296a2cbe3810d69e83/chapters/sketch.tex",
+        "sha256": "03ffb8a66214476916d05376cf9068f9b3b45a0ca1f882a8c7fe4ca1ac9ac091",
+        "lexical": false
+      }
+    ]
+  },
+  {
+    "dataset": "cayugaoriginal",
+    "kind": "tex_dictionary",
+    "format": "cayuga_nouns",
+    "name": "Cayuga original complete noun chapter",
+    "url": "https://langsci-press.org/catalog/book/398",
+    "version": "langsci/398@841aa919d191eea2b19fcd6ae2fb9251545c726a",
+    "citation": "Dyck, Froman, Keye and Keye2024 A grammar and dictionary of Gayogo̱hó:nǫˀ (Cayuga). Complete noun dictionary chapter; separate lexical stems and cited words retained.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original noun dictionary chapter, not independent corroboration of related source witnesses. Verb/particle chapters are outside this intake. Possessors, prefixes, locatives, variants and embedded translations retained; no free roots manufactured.",
+    "members": [
+      {
+        "ID": "Dictionary",
+        "Name": "Cayuga noun dictionary",
+        "Glottocode": "cayu1261",
+        "Glottolog_Name": "Cayuga",
+        "Family": "Iroquoian",
+        "Macroarea": "North America"
+      }
+    ],
+    "resources": [
+      {
+        "key": "noun_dictionary",
+        "filename": "noun_dictionary.tex",
+        "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/noun_dictionary.tex",
+        "sha256": "a84274bc6c0ebcd312a6fc889d1c24dc76333bdbed01af5f91e5198721fb4462",
+        "lexical": true
+      },
+      {
+        "key": "spelling",
+        "filename": "spelling.tex",
+        "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/spelling.tex",
+        "sha256": "a7a7f9bce1a6b80e3bbc421d91f2abfc29789f83170dca629ec977b4e5416f9f",
+        "lexical": false
+      },
+      {
+        "key": "spelling_systems",
+        "filename": "spelling_systems.tex",
+        "url": "https://raw.githubusercontent.com/langsci/398/841aa919d191eea2b19fcd6ae2fb9251545c726a/chapters/spelling_systems.tex",
+        "sha256": "2ead4184e980641bc6a568cf9e4ab0b2fd4915d086c4c004fed093c181543720",
+        "lexical": false
+      }
+    ]
+  },
+  {
+    "dataset": "lexirumahoriginal",
+    "kind": "lexirumah",
+    "name": "LexiRumah original CLDF1 complete snapshot",
+    "url": "https://github.com/lessersunda/lexirumah-data",
+    "version": "lessersunda/lexirumah-data@e10af03128094a19ae62de32c14753869acaddbd",
+    "citation": "Kaiping, Edwards and Klamer. LexiRumah database, pinned original CLDF1 snapshot e10af031. Individual source citations and lect-specific conversion chains retained.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original LexiRumah source forms, normalized forms, Local_Orthography and upstream Segments remain separate. Profile conversion is not supplied author IPA. Approximate concept mergers and automatic cognate coding are not independently certified; no cognate assignments imported.",
+    "members": [
+      {
+        "ID": "abui1241-fuime",
+        "Name": "Abui, Fuimelang",
+        "Glottocode": "abui1241",
+        "Glottolog_Name": "Abui",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.236",
+        "Longitude": "124.6783"
+      },
+      {
+        "ID": "abui1241-petle",
+        "Name": "Abui, Petleng",
+        "Glottocode": "abui1241",
+        "Glottolog_Name": "Abui",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2144",
+        "Longitude": "124.593"
+      },
+      {
+        "ID": "abui1241-takal",
+        "Name": "Abui, Takalelang",
+        "Glottocode": "abui1241",
+        "Glottolog_Name": "Abui",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.1887",
+        "Longitude": "124.6264"
+      },
+      {
+        "ID": "abui1241-ulaga",
+        "Name": "Abui, Ulaga",
+        "Glottocode": "abui1241",
+        "Glottolog_Name": "Abui",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.403792",
+        "Longitude": "124.623702"
+      },
+      {
+        "ID": "adan1251-lawah",
+        "Name": "Adang, Lawahing",
+        "Glottocode": "adan1251",
+        "Glottolog_Name": "Adang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2109",
+        "Longitude": "124.4272"
+      },
+      {
+        "ID": "adan1251-otvai",
+        "Name": "Adang, Otvai",
+        "Glottocode": "adan1251",
+        "Glottolog_Name": "Adang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.1837",
+        "Longitude": "124.4979"
+      },
+      {
+        "ID": "alor1247-baran",
+        "Name": "Alorese, Baranusa",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3613",
+        "Longitude": "124.0939"
+      },
+      {
+        "ID": "alor1247-besar",
+        "Name": "Alorese, Alor-Besar",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2222047",
+        "Longitude": "124.4084444"
+      },
+      {
+        "ID": "alor1247-munas",
+        "Name": "Alorese, Munaseli",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.1927045",
+        "Longitude": "124.3070337"
+      },
+      {
+        "ID": "alor1247-pandai",
+        "Name": "Alorese, Pandai",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.21559",
+        "Longitude": "124.2643342"
+      },
+      {
+        "ID": "atim1239",
+        "Name": "Abui, Atimelang",
+        "Glottocode": "atim1239",
+        "Glottolog_Name": "Atimelang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.226",
+        "Longitude": "124.6683"
+      },
+      {
+        "ID": "baka1276",
+        "Name": "Blagar, Bakalang",
+        "Glottocode": "baka1276",
+        "Glottolog_Name": "Melangvala-Bakalang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2634",
+        "Longitude": "124.2972"
+      },
+      {
+        "ID": "bima1247",
+        "Name": "Bima",
+        "Glottocode": "bima1247",
+        "Glottolog_Name": "Bima",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.53818",
+        "Longitude": "118.843333"
+      },
+      {
+        "ID": "blag1240-bama",
+        "Name": "Blagar, Bama",
+        "Glottocode": "blag1240",
+        "Glottolog_Name": "Blagar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2771",
+        "Longitude": "124.3013"
+      },
+      {
+        "ID": "blag1240-kulij",
+        "Name": "Blagar, Kulijahi",
+        "Glottocode": "blag1240",
+        "Glottolog_Name": "Blagar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2975",
+        "Longitude": "124.3033"
+      },
+      {
+        "ID": "blag1240-nule",
+        "Name": "Blagar, Nule",
+        "Glottocode": "blag1240",
+        "Glottolog_Name": "Blagar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3672",
+        "Longitude": "124.2409"
+      },
+      {
+        "ID": "blag1240-tuntu",
+        "Name": "Blagar, Tuntuli",
+        "Glottocode": "blag1240",
+        "Glottolog_Name": "Blagar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2056",
+        "Longitude": "124.2907"
+      },
+      {
+        "ID": "blag1240-warsa",
+        "Name": "Blagar, Warsalelang",
+        "Glottocode": "blag1240",
+        "Glottolog_Name": "Blagar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3252",
+        "Longitude": "124.3011"
+      },
+      {
+        "ID": "pura1258",
+        "Name": "Blagar, Pura",
+        "Glottocode": "pura1258",
+        "Glottolog_Name": "North-Northwest Pura",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2829",
+        "Longitude": "124.3307"
+      },
+      {
+        "ID": "buna1278-bobon",
+        "Name": "Bunak, Bobonaro",
+        "Glottocode": "buna1278",
+        "Glottolog_Name": "Bunak",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.033683",
+        "Longitude": "125.323406"
+      },
+      {
+        "ID": "buna1278-malia",
+        "Name": "Bunak, Maliana",
+        "Glottocode": "buna1278",
+        "Glottolog_Name": "Bunak",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.073689",
+        "Longitude": "125.214341"
+      },
+      {
+        "ID": "buna1278-suai",
+        "Name": "Bunak, Suai",
+        "Glottocode": "buna1278",
+        "Glottolog_Name": "Bunak",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.221923",
+        "Longitude": "125.225417"
+      },
+      {
+        "ID": "dein1238",
+        "Name": "Deing",
+        "Glottocode": "dein1238",
+        "Glottolog_Name": "Deing",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3488",
+        "Longitude": "124.1304"
+      },
+      {
+        "ID": "ende1246",
+        "Name": "Ende",
+        "Glottocode": "ende1246",
+        "Glottolog_Name": "Ende",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.72",
+        "Longitude": "121.56"
+      },
+      {
+        "ID": "fata1247",
+        "Name": "Fataluku",
+        "Glottocode": "fata1247",
+        "Glottolog_Name": "Fataluku",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4394",
+        "Longitude": "126.9821"
+      },
+      {
+        "ID": "hama1240",
+        "Name": "Hamap, Moru",
+        "Glottocode": "hama1240",
+        "Glottolog_Name": "Hamap",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2668",
+        "Longitude": "124.5183"
+      },
+      {
+        "ID": "idat1237",
+        "Name": "Idate",
+        "Glottocode": "idat1237",
+        "Glottolog_Name": "Idaté",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.7719",
+        "Longitude": "125.9262"
+      },
+      {
+        "ID": "indo1316-lexi",
+        "Name": "Indonesian",
+        "Glottocode": "indo1316",
+        "Glottolog_Name": "Standard Indonesian",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.33",
+        "Longitude": "109.72"
+      },
+      {
+        "ID": "kabo1247",
+        "Name": "Kabola, Monbang",
+        "Glottocode": "kabo1247",
+        "Glottolog_Name": "Kabola",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.1737",
+        "Longitude": "124.5546"
+      },
+      {
+        "ID": "kaer1234",
+        "Name": "Kaera",
+        "Glottocode": "kaer1234",
+        "Glottolog_Name": "Kaera",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4047",
+        "Longitude": "124.2175"
+      },
+      {
+        "ID": "kafo1240",
+        "Name": "Kafoa",
+        "Glottocode": "kafo1240",
+        "Glottolog_Name": "Kafoa",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3616",
+        "Longitude": "124.4478"
+      },
+      {
+        "ID": "kama1365",
+        "Name": "Kamang, Atoitaa",
+        "Glottocode": "kama1365",
+        "Glottolog_Name": "Kamang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2543",
+        "Longitude": "124.8515"
+      },
+      {
+        "ID": "keda1252-leuba",
+        "Name": "Kedang, Leubatang",
+        "Glottocode": "keda1252",
+        "Glottolog_Name": "Kedang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.322779",
+        "Longitude": "123.717692"
+      },
+      {
+        "ID": "keda1252-leuwa",
+        "Name": "Kedang, Léuwayang",
+        "Glottocode": "keda1252",
+        "Glottolog_Name": "Kedang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.229244",
+        "Longitude": "123.742477"
+      },
+      {
+        "ID": "keda1252",
+        "Name": "Kedang",
+        "Glottocode": "keda1252",
+        "Glottolog_Name": "Kedang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2626",
+        "Longitude": "123.775"
+      },
+      {
+        "ID": "kema1243",
+        "Name": "Kemak",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.932926",
+        "Longitude": "125.212965"
+      },
+      {
+        "ID": "laka1255",
+        "Name": "Lakalei",
+        "Glottocode": "laka1255",
+        "Glottolog_Name": "Lakalei",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.9581",
+        "Longitude": "125.7411"
+      },
+      {
+        "ID": "lama1277-adona",
+        "Name": "Adonara Lamaholot",
+        "Glottocode": "adon1237",
+        "Glottolog_Name": "Adonara",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3757",
+        "Longitude": "123.2375"
+      },
+      {
+        "ID": "lama1277-baipi",
+        "Name": "Ile Mandiri Lamaholot, Baipito",
+        "Glottocode": "baip1234",
+        "Glottolog_Name": "Baipito",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2626",
+        "Longitude": "122.9716"
+      },
+      {
+        "ID": "lama1277-bama",
+        "Name": "Ile Mandiri Lamaholot, Bama",
+        "Glottocode": "bama1253",
+        "Glottolog_Name": "Bama Lamaholot",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3876",
+        "Longitude": "122.8714"
+      },
+      {
+        "ID": "lama1277-belan",
+        "Name": "Kawela Lamaholot, Belang",
+        "Glottocode": "bela1261",
+        "Glottolog_Name": "Belang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4161",
+        "Longitude": "123.35"
+      },
+      {
+        "ID": "lama1277-botun",
+        "Name": "Adonara Lamaholot, Botun",
+        "Glottocode": "botu1239",
+        "Glottolog_Name": "Botun",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3679",
+        "Longitude": "123.019"
+      },
+      {
+        "ID": "lama1277-dulhi",
+        "Name": "Adonara Lamaholot, Dulhi",
+        "Glottocode": "dulh1234",
+        "Glottolog_Name": "Dulhi",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2714",
+        "Longitude": "123.2394"
+      },
+      {
+        "ID": "sika1262-hewa",
+        "Name": "Sika, Hewa",
+        "Glottocode": "sika1262",
+        "Glottolog_Name": "Sika",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.595056",
+        "Longitude": "122.707028"
+      },
+      {
+        "ID": "lama1277-horow",
+        "Name": "Adonara Lamaholot, Horowura",
+        "Glottocode": "horo1249",
+        "Glottolog_Name": "Horowura",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3299",
+        "Longitude": "123.1014"
+      },
+      {
+        "ID": "lama1277-ileap",
+        "Name": "Ile Ape Lamaholot",
+        "Glottocode": "ilea1237",
+        "Glottolog_Name": "Ile Ape",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2898",
+        "Longitude": "123.464"
+      },
+      {
+        "ID": "lama1277-imulo",
+        "Name": "Labalekan, Imulolo",
+        "Glottocode": "imul1234",
+        "Glottolog_Name": "Imulolo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5024",
+        "Longitude": "123.3404"
+      },
+      {
+        "ID": "lama1277-kalik",
+        "Name": "Central Lembata, Kalikasa",
+        "Glottocode": "kali1300",
+        "Glottolog_Name": "Kalikasa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.463",
+        "Longitude": "123.4798"
+      },
+      {
+        "ID": "lama1277-kiwan",
+        "Name": "Adonara Lamaholot, Kiwangona",
+        "Glottocode": "kiwa1252",
+        "Glottolog_Name": "Kiwangona",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.363",
+        "Longitude": "123.2635"
+      },
+      {
+        "ID": "lama1277-lamah",
+        "Name": "Lebatukan Lamaholot, Lamahora",
+        "Glottocode": "lama1300",
+        "Glottolog_Name": "Lamahora",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3869",
+        "Longitude": "123.431"
+      },
+      {
+        "ID": "lama1277-lamak",
+        "Name": "Adonara Lamaholot, Lamakera",
+        "Glottocode": "lama1298",
+        "Glottolog_Name": "Lamakera",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4385",
+        "Longitude": "123.1582"
+      },
+      {
+        "ID": "lama1277-lamal",
+        "Name": "Lamalera Lamaholot",
+        "Glottocode": "lama1299",
+        "Glottolog_Name": "Lamalera",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5536",
+        "Longitude": "123.4271"
+      },
+      {
+        "ID": "lama1277-lamat",
+        "Name": "Lamatuka",
+        "Glottocode": "lama1279",
+        "Glottolog_Name": "Lamatuka",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3842",
+        "Longitude": "123.5663"
+      },
+      {
+        "ID": "lama1277-lewoe",
+        "Name": "Lewo Eleng",
+        "Glottocode": "lewo1243",
+        "Glottolog_Name": "Lewo Eleng",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3333",
+        "Longitude": "123.6597"
+      },
+      {
+        "ID": "lama1277-lewok",
+        "Name": "Central Lembata, Lewokukun",
+        "Glottocode": "lewo1247",
+        "Glottolog_Name": "Lewokukun",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.429",
+        "Longitude": "123.4173"
+      },
+      {
+        "ID": "lama1277-lewog",
+        "Name": "Ile Mandiri Lamaholot, Lewolaga",
+        "Glottocode": "lewo1249",
+        "Glottolog_Name": "Lewolaga",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.42001",
+        "Longitude": "122.790194"
+      },
+      {
+        "ID": "lama1277-lewom",
+        "Name": "Ile Mandiri Lamaholot, Lewolema",
+        "Glottocode": "lewo1251",
+        "Glottolog_Name": "Lewolema",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.251",
+        "Longitude": "122.9215"
+      },
+      {
+        "ID": "lama1277-lewop",
+        "Name": "Labalekan, Lewopenutu",
+        "Glottocode": "lewo1245",
+        "Glottolog_Name": "Lewopenutu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5553",
+        "Longitude": "123.3605"
+      },
+      {
+        "ID": "lama1277-lewot",
+        "Name": "Labalekan, Lewotala",
+        "Glottocode": "lewo1246",
+        "Glottolog_Name": "Lewotala",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5702",
+        "Longitude": "123.3972"
+      },
+      {
+        "ID": "lama1277-lewob",
+        "Name": "Lewotobi Lamaholot",
+        "Glottocode": "lewo1244",
+        "Glottolog_Name": "Lewotobi",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5689",
+        "Longitude": "122.7602"
+      },
+      {
+        "ID": "lama1277-lewuk",
+        "Name": "Central Lembata, Lewuka",
+        "Glottocode": "nucl1535",
+        "Glottolog_Name": "Lewuka",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.537302",
+        "Longitude": "123.409681"
+      },
+      {
+        "ID": "lama1277-merde",
+        "Name": "Lebatukan Lamaholot, Merdeka",
+        "Glottocode": "merd1234",
+        "Glottolog_Name": "Merdeka",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3829",
+        "Longitude": "123.5402"
+      },
+      {
+        "ID": "lama1277-minga",
+        "Name": "Mingar",
+        "Glottocode": "ming1256",
+        "Glottolog_Name": "Mingar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5267",
+        "Longitude": "123.2307"
+      },
+      {
+        "ID": "lama1277-mulan",
+        "Name": "Mulan Lamaholot",
+        "Glottocode": "mula1255",
+        "Glottolog_Name": "Mulan",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5196",
+        "Longitude": "123.4665"
+      },
+      {
+        "ID": "lama1277-paina",
+        "Name": "Painara",
+        "Glottocode": "sout2896",
+        "Glottolog_Name": "Eastern Atadei",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.521",
+        "Longitude": "123.5349"
+      },
+      {
+        "ID": "lama1277-pukau",
+        "Name": "Pukaunu Lamaholot",
+        "Glottocode": "puka1244",
+        "Glottolog_Name": "Pukaunu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4644",
+        "Longitude": "122.6716"
+      },
+      {
+        "ID": "lama1277-ritae",
+        "Name": "Ile Mandiri Lamaholot, Ritaebang",
+        "Glottocode": "west2543",
+        "Glottolog_Name": "Ritaebang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5492",
+        "Longitude": "122.9128"
+      },
+      {
+        "ID": "lama1277-tanju",
+        "Name": "Ile Mandiri Lamaholot, Tanjung",
+        "Glottocode": "tanj1250",
+        "Glottolog_Name": "Tanjung Bunga",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.1396",
+        "Longitude": "122.8391"
+      },
+      {
+        "ID": "lama1277-waiba",
+        "Name": "Ile Mandiri Lamaholot, Waibalun",
+        "Glottocode": "waib1246",
+        "Glottolog_Name": "Waibalun",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3122",
+        "Longitude": "122.9764"
+      },
+      {
+        "ID": "lama1277-waiwa",
+        "Name": "Adonara Lamaholot, Waiwadan",
+        "Glottocode": "waiw1246",
+        "Glottolog_Name": "Waiwadan",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2796",
+        "Longitude": "123.1069"
+      },
+      {
+        "ID": "lama1277-watan",
+        "Name": "Adonara Lamaholot, Watan",
+        "Glottocode": "wata1254",
+        "Glottolog_Name": "Watan",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3842",
+        "Longitude": "123.146"
+      },
+      {
+        "ID": "lama1277-wuake",
+        "Name": "Kawela Lamaholot, Wuakerong",
+        "Glottocode": "wuak1234",
+        "Glottolog_Name": "Wuakerong",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4779",
+        "Longitude": "123.2938"
+      },
+      {
+        "ID": "lama1277-lewoi",
+        "Name": "Ile Mandiri Lamaholot, Lewoingu",
+        "Glottocode": "lama1277",
+        "Glottolog_Name": "Lamaholot",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.423064",
+        "Longitude": "122.816413"
+      },
+      {
+        "ID": "lama1277-lerek",
+        "Name": "Painara, Lerek",
+        "Glottocode": "sout2896",
+        "Glottolog_Name": "Eastern Atadei",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.522488",
+        "Longitude": "123.546281"
+      },
+      {
+        "ID": "mamb1306",
+        "Name": "Southern Mambae, Ainaro",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.9918",
+        "Longitude": "125.5072"
+      },
+      {
+        "ID": "p-aust1307-abvd",
+        "Name": "proto-AN-ABVD",
+        "Glottocode": "aust1307",
+        "Glottolog_Name": "proto-AN-ABVD",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "p-cent2245-abvd",
+        "Name": "proto-Central-MP-ABVD",
+        "Glottocode": "cent2245",
+        "Glottolog_Name": "proto-Central-MP-ABVD",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "p-mala1545-abvd",
+        "Name": "proto-MP-ABVD",
+        "Glottocode": "mala1545",
+        "Glottolog_Name": "proto-MP-ABVD",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "p-mala1545-acd",
+        "Name": "proto-MP-ACD",
+        "Glottocode": "mala1545",
+        "Glottolog_Name": "proto-MP-ACD",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "sika1262-maume",
+        "Name": "Sika, Maumere",
+        "Glottocode": "sika1262",
+        "Glottolog_Name": "Sika",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.623997",
+        "Longitude": "122.218645"
+      },
+      {
+        "ID": "sika1262-tanai",
+        "Name": "Sika, Tana Ai",
+        "Glottocode": "tana1283",
+        "Glottolog_Name": "Tana Ai",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.599602",
+        "Longitude": "122.619438"
+      },
+      {
+        "ID": "tetu1246",
+        "Name": "Tetun Dili",
+        "Glottocode": "tetu1246",
+        "Glottolog_Name": "Tetun Dili",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.5478",
+        "Longitude": "125.5442"
+      },
+      {
+        "ID": "tetu1245-suai",
+        "Name": "Tetun, Suai",
+        "Glottocode": "sout2898",
+        "Glottolog_Name": "Southern Tetun",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.314842",
+        "Longitude": "125.255396"
+      },
+      {
+        "ID": "dela1252",
+        "Name": "Dela",
+        "Glottocode": "dela1252",
+        "Glottolog_Name": "Dela",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.890303",
+        "Longitude": "122.843183"
+      },
+      {
+        "ID": "dhao1237",
+        "Name": "Dhao",
+        "Glottocode": "dhao1237",
+        "Glottolog_Name": "Dhao",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.816034",
+        "Longitude": "122.66431"
+      },
+      {
+        "ID": "eray1237",
+        "Name": "Ili'uun",
+        "Glottocode": "eray1237",
+        "Glottolog_Name": "Eray",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.744376",
+        "Longitude": "125.916523"
+      },
+      {
+        "ID": "funa1237",
+        "Name": "Funai Helong",
+        "Glottocode": "funa1237",
+        "Glottolog_Name": "Funai",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.241153",
+        "Longitude": "123.689805"
+      },
+      {
+        "ID": "kelo1247-bring",
+        "Name": "Klon, Bring",
+        "Glottocode": "kelo1247",
+        "Glottolog_Name": "Klon",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.349705",
+        "Longitude": "124.423117"
+      },
+      {
+        "ID": "kelo1247-hopte",
+        "Name": "Klon, Hopter",
+        "Glottocode": "kelo1247",
+        "Glottolog_Name": "Klon",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.4018",
+        "Longitude": "124.4192056"
+      },
+      {
+        "ID": "kema1243-kaila",
+        "Name": "Kemak, Kailaku",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.999982",
+        "Longitude": "125.127782"
+      },
+      {
+        "ID": "keoo1238",
+        "Name": "Keo, Udiworowatu",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.88922",
+        "Longitude": "121.2949"
+      },
+      {
+        "ID": "kira1248",
+        "Name": "Kiraman",
+        "Glottocode": "kira1248",
+        "Glottolog_Name": "Kiramang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3847",
+        "Longitude": "124.8334"
+      },
+      {
+        "ID": "komo1261",
+        "Name": "Komodo",
+        "Glottocode": "komo1261",
+        "Glottolog_Name": "Komodo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.65",
+        "Longitude": "119.47"
+      },
+      {
+        "ID": "koto1251",
+        "Name": "Kotos Amarasi",
+        "Glottocode": "koto1251",
+        "Glottolog_Name": "Kotos",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.243786",
+        "Longitude": "123.872438"
+      },
+      {
+        "ID": "kuii1253",
+        "Name": "Kui, Labaing",
+        "Glottocode": "kuii1253",
+        "Glottolog_Name": "Kui (Indonesia)",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.422124",
+        "Longitude": "124.524538"
+      },
+      {
+        "ID": "kula1280-lanto",
+        "Name": "Kula, Lantoka",
+        "Glottocode": "kula1280",
+        "Glottolog_Name": "Kula (Indonesia)",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2584306",
+        "Longitude": "124.9309167"
+      },
+      {
+        "ID": "lamm1241-westp",
+        "Name": "Tubbe",
+        "Glottocode": "lamm1241",
+        "Glottolog_Name": "Western Pantar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.450514",
+        "Longitude": "124.054522"
+      },
+      {
+        "ID": "lioo1240",
+        "Name": "Lio",
+        "Glottocode": "lioo1240",
+        "Glottolog_Name": "Li'o",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.69",
+        "Longitude": "121.84"
+      },
+      {
+        "ID": "lole1239",
+        "Name": "Lole",
+        "Glottocode": "lole1239",
+        "Glottolog_Name": "Lole",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.81453",
+        "Longitude": "123.10599"
+      },
+      {
+        "ID": "maka1316",
+        "Name": "Makasae",
+        "Glottocode": "maka1316",
+        "Glottolog_Name": "Makasae-Makalero",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.548563",
+        "Longitude": "126.505903"
+      },
+      {
+        "ID": "mang1405",
+        "Name": "Manggarai",
+        "Glottocode": "mang1405",
+        "Glottolog_Name": "Manggarai",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.56",
+        "Longitude": "120.33"
+      },
+      {
+        "ID": "nage1237",
+        "Name": "Nage, East",
+        "Glottocode": "nage1237",
+        "Glottolog_Name": "Nage",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.7",
+        "Longitude": "121.31"
+      },
+      {
+        "ID": "nede1245",
+        "Name": "Klamu",
+        "Glottocode": "nede1245",
+        "Glottolog_Name": "Nedebang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2793",
+        "Longitude": "124.1969"
+      },
+      {
+        "ID": "ngad1267",
+        "Name": "Ngadha",
+        "Glottocode": "ngad1261",
+        "Glottolog_Name": "Ngad'a",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8",
+        "Longitude": "120.98"
+      },
+      {
+        "ID": "ngao1245-oja",
+        "Name": "Nga'o, Oja",
+        "Glottocode": "ngao1245",
+        "Glottolog_Name": "Nga'o",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.69",
+        "Longitude": "121.44"
+      },
+      {
+        "ID": "ngao1245-watum",
+        "Name": "Nga'o, Watumite",
+        "Glottocode": "ngao1245",
+        "Glottolog_Name": "Nga'o",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.72",
+        "Longitude": "121.41"
+      },
+      {
+        "ID": "oira1263",
+        "Name": "Oirata",
+        "Glottocode": "oira1263",
+        "Glottolog_Name": "Oirata",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.09",
+        "Longitude": "127.2"
+      },
+      {
+        "ID": "p-alor1249",
+        "Name": "proto-AP",
+        "Glottocode": "alor1249",
+        "Glottolog_Name": "proto-AP",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "p-east2519",
+        "Name": "proto-TIM",
+        "Glottocode": "east2519",
+        "Glottolog_Name": "proto-TIM",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "p-timo1261",
+        "Name": "proto-TAP",
+        "Glottocode": "timo1261",
+        "Glottolog_Name": "proto-TAP",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "",
+        "Longitude": ""
+      },
+      {
+        "ID": "palu1252",
+        "Name": "Palu'e",
+        "Glottocode": "palu1252",
+        "Glottolog_Name": "Palu'e",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.34",
+        "Longitude": "121.73"
+      },
+      {
+        "ID": "rett1240",
+        "Name": "Reta, Pura",
+        "Glottocode": "rett1240",
+        "Glottolog_Name": "Reta",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3224",
+        "Longitude": "124.3543"
+      },
+      {
+        "ID": "rett1240-tern",
+        "Name": "Reta, Ternate",
+        "Glottocode": "rett1240",
+        "Glottolog_Name": "Reta",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2089",
+        "Longitude": "124.3677"
+      },
+      {
+        "ID": "ring1244",
+        "Name": "Rikou",
+        "Glottocode": "ring1244",
+        "Glottolog_Name": "Ringgou",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.626703",
+        "Longitude": "123.397347"
+      },
+      {
+        "ID": "rong1269",
+        "Name": "Rongga",
+        "Glottocode": "rong1269",
+        "Glottolog_Name": "Rongga",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.85",
+        "Longitude": "120.71"
+      },
+      {
+        "ID": "teiw1235-adiab",
+        "Name": "Teiwa, Adiabang",
+        "Glottocode": "teiw1235",
+        "Glottolog_Name": "Teiwa",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.326",
+        "Longitude": "124.228"
+      },
+      {
+        "ID": "teiw1235-nule",
+        "Name": "Teiwa, Nule",
+        "Glottocode": "teiw1235",
+        "Glottolog_Name": "Teiwa",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3775",
+        "Longitude": "124.2303"
+      },
+      {
+        "ID": "sawi1256",
+        "Name": "Sawila",
+        "Glottocode": "sawi1256",
+        "Glottolog_Name": "Sawila",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3433",
+        "Longitude": "125.0922"
+      },
+      {
+        "ID": "seba1248",
+        "Name": "Hawu, Seba",
+        "Glottocode": "seba1248",
+        "Glottolog_Name": "Seba (Indonesia)",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.455716",
+        "Longitude": "121.87756"
+      },
+      {
+        "ID": "soaa1237",
+        "Name": "So'a",
+        "Glottocode": "cent2074",
+        "Glottolog_Name": "Central Ngada",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.68",
+        "Longitude": "121.05"
+      },
+      {
+        "ID": "teiw1235",
+        "Name": "Teiwa, Lebang",
+        "Glottocode": "leba1239",
+        "Glottolog_Name": "Lebang",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.257",
+        "Longitude": "124.2151"
+      },
+      {
+        "ID": "tiii1241",
+        "Name": "Tii",
+        "Glottocode": "tiii1241",
+        "Glottolog_Name": "Tii",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.862977",
+        "Longitude": "122.960898"
+      },
+      {
+        "ID": "tuku1254",
+        "Name": "Tokodede",
+        "Glottocode": "tuku1254",
+        "Glottolog_Name": "Tukudede",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.6128",
+        "Longitude": "125.2017"
+      },
+      {
+        "ID": "waim1252",
+        "Name": "Waima'a",
+        "Glottocode": "waim1252",
+        "Glottolog_Name": "Waima'a",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.53",
+        "Longitude": "126.32"
+      },
+      {
+        "ID": "wers1238-marit",
+        "Name": "Wersing, Maritaing",
+        "Glottocode": "wers1238",
+        "Glottolog_Name": "Wersing",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2968139",
+        "Longitude": "125.1093111"
+      },
+      {
+        "ID": "wers1238-taram",
+        "Name": "Wersing, Taramana",
+        "Glottocode": "wers1238",
+        "Glottolog_Name": "Wersing",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.167276",
+        "Longitude": "124.850714"
+      },
+      {
+        "ID": "west2547-welaun",
+        "Name": "Welaun",
+        "Glottocode": "wela1235",
+        "Glottolog_Name": "Welaun",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.087594",
+        "Longitude": "124.985028"
+      },
+      {
+        "ID": "weta1243",
+        "Name": "Wetan",
+        "Glottocode": "weta1243",
+        "Glottolog_Name": "Wetan",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.89949",
+        "Longitude": "129.538524"
+      },
+      {
+        "ID": "kara1499",
+        "Name": "Kalamang",
+        "Glottocode": "kara1499",
+        "Glottolog_Name": "Kalamang",
+        "Family": "West Bomberai",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.481154",
+        "Longitude": "132.721147"
+      },
+      {
+        "ID": "kusa1252",
+        "Name": "Kusa-Manea",
+        "Glottocode": "kusa1252",
+        "Glottolog_Name": "Kusa-Manlea",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.4684",
+        "Longitude": "124.822642"
+      },
+      {
+        "ID": "urua1244",
+        "Name": "Uruangnirin",
+        "Glottocode": "urua1244",
+        "Glottolog_Name": "Uruangnirin",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.42448",
+        "Longitude": "132.744455"
+      },
+      {
+        "ID": "sarr1247",
+        "Name": "Sar",
+        "Glottocode": "sarr1247",
+        "Glottolog_Name": "Sar (Indonesia)",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.339566",
+        "Longitude": "124.199359"
+      },
+      {
+        "ID": "dadu1237",
+        "Name": "Dadu'a",
+        "Glottocode": "dadu1237",
+        "Glottolog_Name": "Dadu'a",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.489721",
+        "Longitude": "125.903071"
+      },
+      {
+        "ID": "tamb1257",
+        "Name": "Tambora",
+        "Glottocode": "tamb1257",
+        "Glottolog_Name": "Tambora",
+        "Family": "Tambora",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.25",
+        "Longitude": "118"
+      },
+      {
+        "ID": "ilpu1239",
+        "Name": "Aputai",
+        "Glottocode": "ilpu1239",
+        "Glottolog_Name": "Ilputih (Aputai)",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.828306",
+        "Longitude": "126.546137"
+      },
+      {
+        "ID": "ilma1240",
+        "Name": "Ili'uun, Ilmaumau",
+        "Glottocode": "ilma1240",
+        "Glottolog_Name": "Ilmaumau",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.7864",
+        "Longitude": "125.8693"
+      },
+      {
+        "ID": "naue1237",
+        "Name": "Naueti",
+        "Glottocode": "naue1237",
+        "Glottolog_Name": "Nauete",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.71",
+        "Longitude": "126.74"
+      },
+      {
+        "ID": "uhak1237",
+        "Name": "Perai",
+        "Glottocode": "uhak1237",
+        "Glottolog_Name": "Uhak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.5904",
+        "Longitude": "126.4923"
+      },
+      {
+        "ID": "rois1241",
+        "Name": "Ro'is Amarasi",
+        "Glottocode": "rois1241",
+        "Glottolog_Name": "Ro'is",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.291326",
+        "Longitude": "123.856114"
+      },
+      {
+        "ID": "sibo1242",
+        "Name": "Suboo",
+        "Glottocode": "sibo1242",
+        "Glottolog_Name": "Sibo",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2732",
+        "Longitude": "124.7231"
+      },
+      {
+        "ID": "kaha1239",
+        "Name": "Tugun",
+        "Glottocode": "kaha1239",
+        "Glottolog_Name": "Kahailin Ilway",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.7495",
+        "Longitude": "126.8272"
+      },
+      {
+        "ID": "cent2072",
+        "Name": "Central Masela",
+        "Glottocode": "cent2072",
+        "Glottolog_Name": "Central Masela",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.158472",
+        "Longitude": "129.87017"
+      },
+      {
+        "ID": "daii1240",
+        "Name": "Dai",
+        "Glottocode": "daii1240",
+        "Glottolog_Name": "Dai",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.5616",
+        "Longitude": "129.6877"
+      },
+      {
+        "ID": "dawe1237",
+        "Name": "Dawera-Daweloor",
+        "Glottocode": "dawe1237",
+        "Glottolog_Name": "Dawera-Daweloor",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.7018",
+        "Longitude": "130.0028"
+      },
+      {
+        "ID": "east2472",
+        "Name": "East Damar",
+        "Glottocode": "east2472",
+        "Glottolog_Name": "East Damar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.1496",
+        "Longitude": "128.6582"
+      },
+      {
+        "ID": "east2462",
+        "Name": "East Masela",
+        "Glottocode": "east2462",
+        "Glottolog_Name": "East Masela",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.138883",
+        "Longitude": "129.854721"
+      },
+      {
+        "ID": "imro1237",
+        "Name": "Imroing",
+        "Glottocode": "imro1237",
+        "Glottolog_Name": "Imroing",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.96675",
+        "Longitude": "129.64825"
+      },
+      {
+        "ID": "kisa1266",
+        "Name": "Kisar",
+        "Glottocode": "kisa1266",
+        "Glottolog_Name": "Kisar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.05",
+        "Longitude": "127.18"
+      },
+      {
+        "ID": "luan1264",
+        "Name": "Luang",
+        "Glottocode": "luan1264",
+        "Glottolog_Name": "Luang island",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.1793",
+        "Longitude": "128.7026"
+      },
+      {
+        "ID": "nila1244",
+        "Name": "Nila",
+        "Glottocode": "nila1244",
+        "Glottolog_Name": "Nila",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.73",
+        "Longitude": "129.51"
+      },
+      {
+        "ID": "nort2860",
+        "Name": "North Babar",
+        "Glottocode": "nort2860",
+        "Glottolog_Name": "North Babar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.811482",
+        "Longitude": "129.766333"
+      },
+      {
+        "ID": "roma1332",
+        "Name": "Roma",
+        "Glottocode": "roma1332",
+        "Glottolog_Name": "Roma",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.5951",
+        "Longitude": "127.45"
+      },
+      {
+        "ID": "seri1255",
+        "Name": "Serili",
+        "Glottocode": "seri1255",
+        "Glottolog_Name": "Serili",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.121545",
+        "Longitude": "129.876837"
+      },
+      {
+        "ID": "seru1245",
+        "Name": "Serua",
+        "Glottocode": "seru1245",
+        "Glottolog_Name": "Serua",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.31",
+        "Longitude": "130.02"
+      },
+      {
+        "ID": "sout2883",
+        "Name": "Southeast Babar, Kokwari",
+        "Glottocode": "sout2883",
+        "Glottolog_Name": "Southeast Babar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.9193",
+        "Longitude": "129.8622"
+      },
+      {
+        "ID": "sout2883-letwu",
+        "Name": "Southeast Babar, Letwurung",
+        "Glottocode": "sout2883",
+        "Glottolog_Name": "Southeast Babar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.9032",
+        "Longitude": "129.8645"
+      },
+      {
+        "ID": "tela1241",
+        "Name": "Tela-Masbuar",
+        "Glottocode": "tela1241",
+        "Glottolog_Name": "Tela-Masbuar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.006131",
+        "Longitude": "129.674943"
+      },
+      {
+        "ID": "teun1241",
+        "Name": "Teun",
+        "Glottocode": "teun1241",
+        "Glottolog_Name": "Te'un",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.97",
+        "Longitude": "129.14"
+      },
+      {
+        "ID": "west2548",
+        "Name": "West Damar",
+        "Glottocode": "west2548",
+        "Glottolog_Name": "West Damar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.073",
+        "Longitude": "128.5882"
+      },
+      {
+        "ID": "empl1237",
+        "Name": "Emplawas",
+        "Glottocode": "empl1237",
+        "Glottolog_Name": "Emplawas",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.046693",
+        "Longitude": "129.776371"
+      },
+      {
+        "ID": "kamb1299",
+        "Name": "Kambera",
+        "Glottocode": "kamb1299",
+        "Glottolog_Name": "Kambera",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.88",
+        "Longitude": "120.23"
+      },
+      {
+        "ID": "batu1258",
+        "Name": "Batuley",
+        "Glottocode": "batu1258",
+        "Glottolog_Name": "Batuley",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.735916",
+        "Longitude": "134.812861"
+      },
+      {
+        "ID": "mamb1306-NWbar",
+        "Name": "Northwest Mambae, Barzatete",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.623507",
+        "Longitude": "125.380998"
+      },
+      {
+        "ID": "mamb1306-NWhat",
+        "Name": "Northwest Mambae, Hatulia",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.776468",
+        "Longitude": "125.357167"
+      },
+      {
+        "ID": "mamb1306-NWrai",
+        "Name": "Northwest Mambae, Railaco",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.674155",
+        "Longitude": "125.466788"
+      },
+      {
+        "ID": "mamb1306-Claul",
+        "Name": "Central Mambae, Laulara",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.619529",
+        "Longitude": "125.592092"
+      },
+      {
+        "ID": "mamb1306-Caile",
+        "Name": "Central Mambae, Aileu Vila",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.722089",
+        "Longitude": "125.564439"
+      },
+      {
+        "ID": "mamb1306-Cliqu",
+        "Name": "Central Mambae, Liquidoe",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.728878",
+        "Longitude": "125.7084"
+      },
+      {
+        "ID": "mamb1306-Chatu",
+        "Name": "Central Mambae, Hatu-Builico",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.888349",
+        "Longitude": "125.563692"
+      },
+      {
+        "ID": "mamb1306-Sudo",
+        "Name": "South Mambae, Hatu-Udo",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.139849",
+        "Longitude": "125.59773"
+      },
+      {
+        "ID": "mamb1306-Sbeta",
+        "Name": "South Mambae, Betano",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.138586",
+        "Longitude": "125.73097"
+      },
+      {
+        "ID": "mamb1306-Slete",
+        "Name": "South Mambae, Letefoho",
+        "Glottocode": "mamb1306",
+        "Glottolog_Name": "Mambae",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.974955",
+        "Longitude": "125.647294"
+      },
+      {
+        "ID": "blag1240-manat",
+        "Name": "Blagar, Manatang",
+        "Glottocode": "blag1240",
+        "Glottolog_Name": "Blagar",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.3037",
+        "Longitude": "124.3072"
+      },
+      {
+        "ID": "abui1241-papun",
+        "Name": "Papuna",
+        "Glottocode": "abui1241",
+        "Glottolog_Name": "Abui",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.334706",
+        "Longitude": "124.715864"
+      },
+      {
+        "ID": "rett1240-hula",
+        "Name": "Reta, Hula",
+        "Glottocode": "rett1240",
+        "Glottolog_Name": "Reta",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2125",
+        "Longitude": "124.4081"
+      },
+      {
+        "ID": "sibo1242-atii",
+        "Name": "Suboo, Atiibaai",
+        "Glottocode": "sibo1242",
+        "Glottolog_Name": "Sibo",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.2754",
+        "Longitude": "124.7268"
+      },
+      {
+        "ID": "tiay1238",
+        "Name": "Tiyei",
+        "Glottocode": "tiay1238",
+        "Glottolog_Name": "Tiayai",
+        "Family": "Timor-Alor-Pantar",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.295197",
+        "Longitude": "124.756008"
+      },
+      {
+        "ID": "waer1237",
+        "Name": "Waerana",
+        "Glottocode": "waer1237",
+        "Glottolog_Name": "Kolor",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.75",
+        "Longitude": "120.79"
+      },
+      {
+        "ID": "kodi1247",
+        "Name": "Kodi",
+        "Glottocode": "kodi1247",
+        "Glottolog_Name": "Kodi",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.64",
+        "Longitude": "119.11"
+      },
+      {
+        "ID": "keoo1238-maun",
+        "Name": "Keo, Ma'unori",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8899",
+        "Longitude": "121.2806"
+      },
+      {
+        "ID": "keoo1238-lere",
+        "Name": "Keo, Lere",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8828",
+        "Longitude": "121.2345"
+      },
+      {
+        "ID": "keoo1238-nera",
+        "Name": "Keo, Ngera",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8556",
+        "Longitude": "121.2563"
+      },
+      {
+        "ID": "keoo1238-dawe",
+        "Name": "Keo, Dhawe",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8456",
+        "Longitude": "121.2032"
+      },
+      {
+        "ID": "keoo1238-savu",
+        "Name": "Keo, Savu",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8641",
+        "Longitude": "121.2089"
+      },
+      {
+        "ID": "keoo1238-paul",
+        "Name": "Keo, Pau Lundu",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8627",
+        "Longitude": "121.1924"
+      },
+      {
+        "ID": "keoo1238-liwo",
+        "Name": "Keo, Liwo",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.8667",
+        "Longitude": "121.16"
+      },
+      {
+        "ID": "cent2355-boaw",
+        "Name": "Nage, Central",
+        "Glottocode": "cent2355",
+        "Glottolog_Name": "Central Nage",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.7067",
+        "Longitude": "121.1901"
+      },
+      {
+        "ID": "keoo1238-gero",
+        "Name": "Keo, Gero",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.7748",
+        "Longitude": "121.3314"
+      },
+      {
+        "ID": "keoo1238-kele",
+        "Name": "Keo, Kelewae",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.821721",
+        "Longitude": "121.161932"
+      },
+      {
+        "ID": "keoo1238-kota",
+        "Name": "Keo, Kota Keo",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.820034",
+        "Longitude": "121.274577"
+      },
+      {
+        "ID": "keoo1238-ndor",
+        "Name": "Keo, Ndora",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.759",
+        "Longitude": "121.321"
+      },
+      {
+        "ID": "keoo1238-ute",
+        "Name": "Keo, Ute",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.747799",
+        "Longitude": "121.383079"
+      },
+      {
+        "ID": "keoo1238-doli",
+        "Name": "Keo, Dolima",
+        "Glottocode": "keoo1238",
+        "Glottolog_Name": "Kéo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.853414",
+        "Longitude": "121.308656"
+      },
+      {
+        "ID": "gese1240",
+        "Name": "Geser-Gorom",
+        "Glottocode": "gese1240",
+        "Glottolog_Name": "Geser-Gorom",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.004276",
+        "Longitude": "131.405702"
+      },
+      {
+        "ID": "wanc1238",
+        "Name": "Tukang Besi, Wanci",
+        "Glottocode": "wanc1239",
+        "Glottolog_Name": "Wanci",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.311559",
+        "Longitude": "123.531451"
+      },
+      {
+        "ID": "tome1238",
+        "Name": "Tukang Besi, Tomea",
+        "Glottocode": "tome1238",
+        "Glottolog_Name": "Tomea",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.754303",
+        "Longitude": "123.937385"
+      },
+      {
+        "ID": "bino1238-popal",
+        "Name": "Tukang Besi, Binongko Popalia",
+        "Glottocode": "bino1238",
+        "Glottolog_Name": "Binongko",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.961514",
+        "Longitude": "124.027918"
+      },
+      {
+        "ID": "bone1254",
+        "Name": "Bonerate",
+        "Glottocode": "bone1254",
+        "Glottolog_Name": "Bonerate",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.38",
+        "Longitude": "121.79"
+      },
+      {
+        "ID": "bone1254-kalao",
+        "Name": "Bonerate, Kalaotoa",
+        "Glottocode": "bone1254",
+        "Glottolog_Name": "Bonerate",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.373472",
+        "Longitude": "121.786714"
+      },
+      {
+        "ID": "lasa1237",
+        "Name": "Lasalimu",
+        "Glottocode": "lasa1237",
+        "Glottolog_Name": "Lasalimu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.24",
+        "Longitude": "123.13"
+      },
+      {
+        "ID": "kumb1274",
+        "Name": "Kumbewaha",
+        "Glottocode": "kumb1274",
+        "Glottolog_Name": "Kumbewaha",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.34",
+        "Longitude": "123.15"
+      },
+      {
+        "ID": "ciac1237-kaisa",
+        "Name": "Cia-Cia, Kaisabu Baru",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.473671",
+        "Longitude": "122.672768"
+      },
+      {
+        "ID": "samp1253-buka",
+        "Name": "Cia-Cia, Buka",
+        "Glottocode": "samp1253",
+        "Glottolog_Name": "Sampolawa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.670147",
+        "Longitude": "122.679242"
+      },
+      {
+        "ID": "samp1253-mambu",
+        "Name": "Cia-Cia, Mambulu",
+        "Glottocode": "samp1253",
+        "Glottolog_Name": "Sampolawa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.627895",
+        "Longitude": "122.705244"
+      },
+      {
+        "ID": "ciac1237-kaind",
+        "Name": "Cia-Cia, Kaindea",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.605455",
+        "Longitude": "122.779178"
+      },
+      {
+        "ID": "wabu1242",
+        "Name": "Cia-Cia, Wabula",
+        "Glottocode": "wabu1242",
+        "Glottolog_Name": "Wabula",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.5906",
+        "Longitude": "122.856605"
+      },
+      {
+        "ID": "ciac1237-pasar",
+        "Name": "Cia-Cia, Pasarwajo",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.473695",
+        "Longitude": "122.837488"
+      },
+      {
+        "ID": "ciac1237-matan",
+        "Name": "Cia-Cia, Matanauwe",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.412363",
+        "Longitude": "123.008461"
+      },
+      {
+        "ID": "ciac1237-batua",
+        "Name": "Cia-Cia, Batu Atas",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.194739",
+        "Longitude": "122.687149"
+      },
+      {
+        "ID": "ciac1237-lande",
+        "Name": "Cia-Cia, Lande",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.68",
+        "Longitude": "122.79"
+      },
+      {
+        "ID": "kamb1300",
+        "Name": "Kambowa",
+        "Glottocode": "kamb1300",
+        "Glottolog_Name": "Kambowa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.023926",
+        "Longitude": "122.95151"
+      },
+      {
+        "ID": "kamb1300-lagu",
+        "Name": "Kambowa, Lagundi",
+        "Glottocode": "kamb1300",
+        "Glottolog_Name": "Kambowa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.052333",
+        "Longitude": "122.971767"
+      },
+      {
+        "ID": "nucl1574-boneg",
+        "Name": "Kioko, Bonegunu",
+        "Glottocode": "nucl1574",
+        "Glottolog_Name": "Nuclear Kioko",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.941037",
+        "Longitude": "122.985642"
+      },
+      {
+        "ID": "nucl1574",
+        "Name": "Kioko",
+        "Glottocode": "nucl1574",
+        "Glottolog_Name": "Nuclear Kioko",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.942884",
+        "Longitude": "122.988163"
+      },
+      {
+        "ID": "panc1247-palow",
+        "Name": "Pancana, Palowata",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.276334",
+        "Longitude": "122.732976"
+      },
+      {
+        "ID": "kale1247",
+        "Name": "Pancana, Kalende",
+        "Glottocode": "kale1247",
+        "Glottolog_Name": "Kalende",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.301788",
+        "Longitude": "122.929849"
+      },
+      {
+        "ID": "panc1247-lambu",
+        "Name": "Pancana, Lambusango",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.247138",
+        "Longitude": "122.785473"
+      },
+      {
+        "ID": "panc1247-kaken",
+        "Name": "Pancana, Kakenauwe",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.190092",
+        "Longitude": "122.92525"
+      },
+      {
+        "ID": "kapo1248",
+        "Name": "Pancana, Kapontori Soropia",
+        "Glottocode": "kapo1248",
+        "Glottolog_Name": "Kapontori",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.244282",
+        "Longitude": "122.827935"
+      },
+      {
+        "ID": "panc1247-todan",
+        "Name": "Pancana, Todanga",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.209314",
+        "Longitude": "122.756114"
+      },
+      {
+        "ID": "panc1247-wasua",
+        "Name": "Pancana, Wasuamba",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.227947",
+        "Longitude": "123.126637"
+      },
+      {
+        "ID": "panc1247-kampe",
+        "Name": "Pancana, Kampeonaho",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.343591",
+        "Longitude": "122.704788"
+      },
+      {
+        "ID": "panc1247-watum",
+        "Name": "Pancana, Watumotobe",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.220587",
+        "Longitude": "122.816747"
+      },
+      {
+        "ID": "panc1247-labun",
+        "Name": "Pancana, Labundoua",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.014327",
+        "Longitude": "122.803702"
+      },
+      {
+        "ID": "panc1247-lawel",
+        "Name": "Pancana, Lawele",
+        "Glottocode": "panc1247",
+        "Glottolog_Name": "Pancana",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.223",
+        "Longitude": "122.948"
+      },
+      {
+        "ID": "liab1237",
+        "Name": "Liabuku",
+        "Glottocode": "liab1237",
+        "Glottolog_Name": "Liabuku",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.399701",
+        "Longitude": "122.6671"
+      },
+      {
+        "ID": "guuu1237-kolow",
+        "Name": "Muna, Kolowa",
+        "Glottocode": "guuu1237",
+        "Glottolog_Name": "Gu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.344488",
+        "Longitude": "122.617786"
+      },
+      {
+        "ID": "mawa1264-masil",
+        "Name": "Muna, Wasilomata",
+        "Glottocode": "mawa1264",
+        "Glottolog_Name": "Mawasangka",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.313118",
+        "Longitude": "122.31757"
+      },
+      {
+        "ID": "kato1242",
+        "Name": "Muna, Katobengke",
+        "Glottocode": "kato1242",
+        "Glottolog_Name": "Katobu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.472908",
+        "Longitude": "122.580694"
+      },
+      {
+        "ID": "laku1237",
+        "Name": "Muna, Lakudo",
+        "Glottocode": "laku1237",
+        "Glottolog_Name": "Lakudo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.407382",
+        "Longitude": "122.542982"
+      },
+      {
+        "ID": "mawa1264",
+        "Name": "Muna, Mawasangka",
+        "Glottocode": "mawa1264",
+        "Glottolog_Name": "Mawasangka",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.285137",
+        "Longitude": "122.28761"
+      },
+      {
+        "ID": "guuu1237-lombe",
+        "Name": "Muna, Lombe",
+        "Glottocode": "guuu1237",
+        "Glottolog_Name": "Gu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.249712",
+        "Longitude": "122.575437"
+      },
+      {
+        "ID": "guuu1237-bombo",
+        "Name": "Muna, Bombonawulu",
+        "Glottocode": "guuu1237",
+        "Glottolog_Name": "Gu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.254349",
+        "Longitude": "122.577378"
+      },
+      {
+        "ID": "siom1237",
+        "Name": "Muna, Siompu",
+        "Glottocode": "siom1237",
+        "Glottolog_Name": "Siompu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.65589",
+        "Longitude": "122.529426"
+      },
+      {
+        "ID": "siom1237-molon",
+        "Name": "Muna, Siompu Molona",
+        "Glottocode": "siom1237",
+        "Glottolog_Name": "Siompu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.690313",
+        "Longitude": "122.479692"
+      },
+      {
+        "ID": "kada1289",
+        "Name": "Muna, Kadatua",
+        "Glottocode": "kada1289",
+        "Glottolog_Name": "Kadatua",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.526289",
+        "Longitude": "122.498966"
+      },
+      {
+        "ID": "kato1242-lakar",
+        "Name": "Muna, Lakaramba",
+        "Glottocode": "kato1242",
+        "Glottolog_Name": "Katobu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.82977",
+        "Longitude": "122.7233"
+      },
+      {
+        "ID": "kaim1241",
+        "Name": "Kaimbulawa",
+        "Glottocode": "kaim1241",
+        "Glottolog_Name": "Kaimbulawa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.65",
+        "Longitude": "122.54"
+      },
+      {
+        "ID": "buso1238",
+        "Name": "Busoa",
+        "Glottocode": "buso1238",
+        "Glottolog_Name": "Busoa",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.61",
+        "Longitude": "122.62"
+      },
+      {
+        "ID": "kama1364",
+        "Name": "Kamaru",
+        "Glottocode": "kama1364",
+        "Glottolog_Name": "Kamaru",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.16",
+        "Longitude": "123.05"
+      },
+      {
+        "ID": "kama1364-a",
+        "Name": "Kamaru 1",
+        "Glottocode": "kama1364",
+        "Glottolog_Name": "Kamaru",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.139103",
+        "Longitude": "123.032699"
+      },
+      {
+        "ID": "kama1364-b",
+        "Name": "Kamaru 2",
+        "Glottocode": "kama1364",
+        "Glottolog_Name": "Kamaru",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.158186",
+        "Longitude": "123.063712"
+      },
+      {
+        "ID": "woli1241-bauba",
+        "Name": "Wolio, Baubau",
+        "Glottocode": "woli1241",
+        "Glottolog_Name": "Wolio",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.462439",
+        "Longitude": "122.59634"
+      },
+      {
+        "ID": "woli1241-baadi",
+        "Name": "Wolio, Baadia",
+        "Glottocode": "woli1241",
+        "Glottolog_Name": "Wolio",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.483662",
+        "Longitude": "122.598594"
+      },
+      {
+        "ID": "woli1241-bone",
+        "Name": "Wolio, Bone-Bone",
+        "Glottocode": "woli1241",
+        "Glottolog_Name": "Wolio",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.466089",
+        "Longitude": "122.589235"
+      },
+      {
+        "ID": "woli1241-talag",
+        "Name": "Wolio, Talaga",
+        "Glottocode": "woli1241",
+        "Glottolog_Name": "Wolio",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.482724",
+        "Longitude": "122.082716"
+      },
+      {
+        "ID": "woli1241-betom",
+        "Name": "Wolio, Betoambari",
+        "Glottocode": "woli1241",
+        "Glottolog_Name": "Wolio",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.503152",
+        "Longitude": "122.561137"
+      },
+      {
+        "ID": "woli1241",
+        "Name": "Wolio",
+        "Glottocode": "woli1241",
+        "Glottolog_Name": "Wolio",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.33",
+        "Longitude": "122.67"
+      },
+      {
+        "ID": "kala1394",
+        "Name": "Kalao",
+        "Glottocode": "kala1394",
+        "Glottolog_Name": "Kalao",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.307175",
+        "Longitude": "120.950026"
+      },
+      {
+        "ID": "kala1394-lambe",
+        "Name": "Kalao, Lambego",
+        "Glottocode": "kala1394",
+        "Glottolog_Name": "Kalao",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-7.303255",
+        "Longitude": "120.992852"
+      },
+      {
+        "ID": "nucl1577",
+        "Name": "Laiyolo",
+        "Glottocode": "nucl1577",
+        "Glottolog_Name": "Nuclear Laiyolo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.46",
+        "Longitude": "120.48"
+      },
+      {
+        "ID": "bara1372",
+        "Name": "Laiyolo, Barang-Barang",
+        "Glottocode": "bara1372",
+        "Glottolog_Name": "Barang-Barang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.408149",
+        "Longitude": "120.471496"
+      },
+      {
+        "ID": "wotu1240-bawal",
+        "Name": "Wotu, Bawalipu",
+        "Glottocode": "wotu1240",
+        "Glottolog_Name": "Wotu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.603561",
+        "Longitude": "120.792342"
+      },
+      {
+        "ID": "wotu1240",
+        "Name": "Wotu",
+        "Glottocode": "wotu1240",
+        "Glottolog_Name": "Wotu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.6",
+        "Longitude": "120.9"
+      },
+      {
+        "ID": "indo1317",
+        "Name": "Bajau",
+        "Glottocode": "indo1317",
+        "Glottolog_Name": "Indonesian Bajau",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.742282",
+        "Longitude": "122.42932"
+      },
+      {
+        "ID": "kaba1285-kaba",
+        "Name": "Moronene, Kabaena",
+        "Glottocode": "kaba1285",
+        "Glottolog_Name": "Kabaena",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.255084",
+        "Longitude": "121.898494"
+      },
+      {
+        "ID": "rumb1240",
+        "Name": "Moronene, Rumbia",
+        "Glottocode": "rumb1240",
+        "Glottolog_Name": "Rumbia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.747008",
+        "Longitude": "122.011626"
+      },
+      {
+        "ID": "kaba1285",
+        "Name": "Moronene",
+        "Glottocode": "kaba1285",
+        "Glottolog_Name": "Kabaena",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.260449",
+        "Longitude": "122.016514"
+      },
+      {
+        "ID": "kona1243",
+        "Name": "Tolaki, Konawe",
+        "Glottocode": "kona1243",
+        "Glottolog_Name": "Konawe",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.810537",
+        "Longitude": "122.049165"
+      },
+      {
+        "ID": "meko1237",
+        "Name": "Tolaki, Mekongga",
+        "Glottocode": "meko1237",
+        "Glottolog_Name": "Mekongga",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.079719",
+        "Longitude": "121.650407"
+      },
+      {
+        "ID": "stan1308",
+        "Name": "Muna",
+        "Glottocode": "stan1308",
+        "Glottolog_Name": "Standard Muna",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.4",
+        "Longitude": "122.54"
+      },
+      {
+        "ID": "guuu1237-lolib",
+        "Name": "Southern Muna",
+        "Glottocode": "guuu1237",
+        "Glottolog_Name": "Gu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.291722",
+        "Longitude": "122.48588"
+      },
+      {
+        "ID": "kuli1254",
+        "Name": "Kulisusu",
+        "Glottocode": "kuli1254",
+        "Glottolog_Name": "Kulisusu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.58",
+        "Longitude": "123.05"
+      },
+      {
+        "ID": "ciac1237-wasam",
+        "Name": "Cia-Cia, Wasambua",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.6046",
+        "Longitude": "122.59627"
+      },
+      {
+        "ID": "kaes1237",
+        "Name": "Kaisabu",
+        "Glottocode": "kaes1237",
+        "Glottolog_Name": "Kaesabu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.47522",
+        "Longitude": "122.68673"
+      },
+      {
+        "ID": "masi1269",
+        "Name": "Cia-Cia, Masiri",
+        "Glottocode": "masi1269",
+        "Glottolog_Name": "Masiri",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.4367",
+        "Longitude": "122.89965"
+      },
+      {
+        "ID": "ciac1237-lapan",
+        "Name": "Cia-Cia, Lapandewa",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.39368",
+        "Longitude": "122.97893"
+      },
+      {
+        "ID": "bino1238",
+        "Name": "Tukang Besi, Binongko",
+        "Glottocode": "bino1238",
+        "Glottolog_Name": "Binongko",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.920185",
+        "Longitude": "123.982758"
+      },
+      {
+        "ID": "ciac1237-bahar",
+        "Name": "Cia-Cia, Bahari",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.68027",
+        "Longitude": "122.71488"
+      },
+      {
+        "ID": "ciac1237-kaong",
+        "Name": "Cia-Cia, Kaongkeongkea",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.47177",
+        "Longitude": "122.75413"
+      },
+      {
+        "ID": "ciac1237-kase",
+        "Name": "Cia-Cia, Kase",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.58367",
+        "Longitude": "122.87633"
+      },
+      {
+        "ID": "wali1265",
+        "Name": "Cia-Cia, Wali",
+        "Glottocode": "wali1265",
+        "Glottolog_Name": "Wali",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.97238",
+        "Longitude": "124.06653"
+      },
+      {
+        "ID": "kumb1274-wakol",
+        "Name": "Wakole",
+        "Glottocode": "kumb1274",
+        "Glottolog_Name": "Kumbewaha",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.50728",
+        "Longitude": "122.87553"
+      },
+      {
+        "ID": "kumb1274-wolow",
+        "Name": "Wolowa",
+        "Glottocode": "kumb1274",
+        "Glottolog_Name": "Kumbewaha",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.52382",
+        "Longitude": "122.86093"
+      },
+      {
+        "ID": "ciac1237-kondo",
+        "Name": "Cia-Cia, Kondowa",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.6472",
+        "Longitude": "122.78717"
+      },
+      {
+        "ID": "ciac1237-wagol",
+        "Name": "Cia-Cia, Wagola",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.65953",
+        "Longitude": "122.61678"
+      },
+      {
+        "ID": "ciac1237-liwum",
+        "Name": "Cia-Cia, Liwumpacu",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.61257",
+        "Longitude": "122.85693"
+      },
+      {
+        "ID": "taki1249",
+        "Name": "Cia-Cia, Takimpo",
+        "Glottocode": "taki1249",
+        "Glottolog_Name": "Takimpo",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.64947",
+        "Longitude": "122.71667"
+      },
+      {
+        "ID": "ciac1237-batu",
+        "Name": "Cia-Cia, Batu Atas",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.53385",
+        "Longitude": "122.7452"
+      },
+      {
+        "ID": "ciac1237-tira",
+        "Name": "Cia-Cia, Tira",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.47708",
+        "Longitude": "122.72857"
+      },
+      {
+        "ID": "ciac1237-rongi",
+        "Name": "Cia-Cia, Rongi",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.4895",
+        "Longitude": "122.70412"
+      },
+      {
+        "ID": "ciac1237-gonda",
+        "Name": "Cia-Cia, Gonda Baru",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.58045",
+        "Longitude": "122.73825"
+      },
+      {
+        "ID": "ciac1237-karya",
+        "Name": "Cia-Cia, Karya Baru",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.62437",
+        "Longitude": "122.7068"
+      },
+      {
+        "ID": "ciac1237-gunun",
+        "Name": "Cia-Cia, Gunung Sejuk",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.67105",
+        "Longitude": "122.78732"
+      },
+      {
+        "ID": "ciac1237-mambu",
+        "Name": "Cia-Cia, Mambulu",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.68953",
+        "Longitude": "122.63715"
+      },
+      {
+        "ID": "bura1274",
+        "Name": "Cia-Cia, Burangasi",
+        "Glottocode": "bura1274",
+        "Glottolog_Name": "Burangasi",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.68313",
+        "Longitude": "122.6711"
+      },
+      {
+        "ID": "ciac1237-bola",
+        "Name": "Cia-Cia, Bola",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.90813",
+        "Longitude": "124.03775"
+      },
+      {
+        "ID": "ciac1237-bangu",
+        "Name": "Cia-Cia, Bangun",
+        "Glottocode": "ciac1237",
+        "Glottolog_Name": "Cia-Cia",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.50215",
+        "Longitude": "122.52507"
+      },
+      {
+        "ID": "kema1243-kutu",
+        "Name": "Kemak, Kutubaba",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.977051",
+        "Longitude": "124.889898"
+      },
+      {
+        "ID": "kema1243-leol",
+        "Name": "Kemak, Leolima",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.082981",
+        "Longitude": "124.932597"
+      },
+      {
+        "ID": "kema1243-lemi",
+        "Name": "Kemak, Lemia",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.067662",
+        "Longitude": "124.942512"
+      },
+      {
+        "ID": "kema1243-sane",
+        "Name": "Kemak, Saneri",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.062102",
+        "Longitude": "124.913644"
+      },
+      {
+        "ID": "kema1243-leos",
+        "Name": "Kemak, Leosibe",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.0417",
+        "Longitude": "125.1558"
+      },
+      {
+        "ID": "kema1243-diir",
+        "Name": "Kemak, Diirbati",
+        "Glottocode": "kema1243",
+        "Glottolog_Name": "Kemak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.084757",
+        "Longitude": "124.895251"
+      },
+      {
+        "ID": "west2547-mahein",
+        "Name": "Welaun, Mahein",
+        "Glottocode": "wela1235",
+        "Glottolog_Name": "Welaun",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.0539",
+        "Longitude": "125.0606"
+      },
+      {
+        "ID": "inan1242",
+        "Name": "Inanwatan",
+        "Glottocode": "suab1238",
+        "Glottolog_Name": "Suabo",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.08",
+        "Longitude": "132.16"
+      },
+      {
+        "ID": "kabu1249",
+        "Name": "Kaburi, Benawa",
+        "Glottocode": "kabu1249",
+        "Glottolog_Name": "Kaburi",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.93",
+        "Longitude": "132.53"
+      },
+      {
+        "ID": "kabu1249-kambo",
+        "Name": "Kaburi, Kambor",
+        "Glottocode": "kabu1249",
+        "Glottolog_Name": "Kaburi",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.881",
+        "Longitude": "132.4235"
+      },
+      {
+        "ID": "kais1235",
+        "Name": "Kais",
+        "Glottocode": "kais1235",
+        "Glottolog_Name": "Kais",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.819",
+        "Longitude": "132.1591"
+      },
+      {
+        "ID": "kasu1243",
+        "Name": "Kokoda, Kasueri",
+        "Glottocode": "kasu1243",
+        "Glottolog_Name": "Kasuweri",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.1494",
+        "Longitude": "132.3783"
+      },
+      {
+        "ID": "kemb1235",
+        "Name": "Kemberano, Kalitami",
+        "Glottocode": "kemb1235",
+        "Glottolog_Name": "Kemberano",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.1231",
+        "Longitude": "132.611"
+      },
+      {
+        "ID": "kond1303",
+        "Name": "Konda",
+        "Glottocode": "kond1303",
+        "Glottolog_Name": "Yaben (Konda)",
+        "Family": "Konda-Yahadian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.83",
+        "Longitude": "132.06"
+      },
+      {
+        "ID": "negr1235",
+        "Name": "Kokoda, Negeri Besar",
+        "Glottocode": "negr1235",
+        "Glottolog_Name": "Negri Besar",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.0843",
+        "Longitude": "132.3699"
+      },
+      {
+        "ID": "pura1253",
+        "Name": "Puragi",
+        "Glottocode": "pura1253",
+        "Glottolog_Name": "Puragi",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.06",
+        "Longitude": "132.3"
+      },
+      {
+        "ID": "yaha1248",
+        "Name": "Mugim",
+        "Glottocode": "yaha1248",
+        "Glottolog_Name": "Yahadian",
+        "Family": "Konda-Yahadian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.9833",
+        "Longitude": "132.1167"
+      },
+      {
+        "ID": "morb1239",
+        "Name": "Mor",
+        "Glottocode": "morb1239",
+        "Glottolog_Name": "Mor (Bomberai Peninsula)",
+        "Family": "Mor (Bomberai Peninsula)",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.86",
+        "Longitude": "132.84"
+      },
+      {
+        "ID": "pati1239",
+        "Name": "Patipi",
+        "Glottocode": "pati1239",
+        "Glottolog_Name": "Patipi",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.68843",
+        "Longitude": "132.418981"
+      },
+      {
+        "ID": "onin1245",
+        "Name": "Onin",
+        "Glottocode": "onin1245",
+        "Glottolog_Name": "Onin",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.696434",
+        "Longitude": "132.177573"
+      },
+      {
+        "ID": "seka1247",
+        "Name": "Sekar",
+        "Glottocode": "seka1247",
+        "Glottolog_Name": "Sekar",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.66",
+        "Longitude": "132.47"
+      },
+      {
+        "ID": "erok1237",
+        "Name": "Erokwanas",
+        "Glottocode": "erok1237",
+        "Glottolog_Name": "Yarikman",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.764039",
+        "Longitude": "132.661813"
+      },
+      {
+        "ID": "bedo1237",
+        "Name": "Bedoanas",
+        "Glottocode": "bedo1237",
+        "Glottolog_Name": "Mbaruan",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.74",
+        "Longitude": "132.57"
+      },
+      {
+        "ID": "ihaa1241-homo",
+        "Name": "Iha, Homorkopma",
+        "Glottocode": "ihaa1241",
+        "Glottolog_Name": "Iha",
+        "Family": "West Bomberai",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.7432",
+        "Longitude": "132.3373"
+      },
+      {
+        "ID": "ihaa1241-dege",
+        "Name": "Iha, Degen",
+        "Glottocode": "ihaa1241",
+        "Glottolog_Name": "Iha",
+        "Family": "West Bomberai",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.7064",
+        "Longitude": "132.1958"
+      },
+      {
+        "ID": "baha1258",
+        "Name": "Mbaham",
+        "Glottocode": "baha1258",
+        "Glottolog_Name": "Baham",
+        "Family": "West Bomberai",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.790633",
+        "Longitude": "132.48327"
+      },
+      {
+        "ID": "argu1237",
+        "Name": "Arguni",
+        "Glottocode": "argu1237",
+        "Glottolog_Name": "Arguni",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.65",
+        "Longitude": "132.56"
+      },
+      {
+        "ID": "hata1243",
+        "Name": "Hatam",
+        "Glottocode": "hata1243",
+        "Glottolog_Name": "Hatam",
+        "Family": "Hatam-Mansim",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.14",
+        "Longitude": "134.04"
+      },
+      {
+        "ID": "mpur1239",
+        "Name": "Mpur",
+        "Glottocode": "mpur1239",
+        "Glottolog_Name": "Mpur",
+        "Family": "Mpur",
+        "Macroarea": "Papunesia",
+        "Latitude": "-0.75",
+        "Longitude": "133.17"
+      },
+      {
+        "ID": "mani1235",
+        "Name": "Sougb",
+        "Glottocode": "mani1235",
+        "Glottolog_Name": "Sougb",
+        "Family": "East Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.5",
+        "Longitude": "133.95"
+      },
+      {
+        "ID": "meya1236",
+        "Name": "Meyah",
+        "Glottocode": "meya1236",
+        "Glottolog_Name": "Meyah",
+        "Family": "East Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.18",
+        "Longitude": "133.62"
+      },
+      {
+        "ID": "mans1260",
+        "Name": "Mansim",
+        "Glottocode": "mans1260",
+        "Glottolog_Name": "Mansim",
+        "Family": "Hatam-Mansim",
+        "Macroarea": "Papunesia",
+        "Latitude": "-0.92",
+        "Longitude": "134.01"
+      },
+      {
+        "ID": "ware1253",
+        "Name": "Warembori",
+        "Glottocode": "ware1253",
+        "Glottolog_Name": "Warembori",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.66",
+        "Longitude": "137.57"
+      },
+      {
+        "ID": "remb1250",
+        "Name": "Rembong",
+        "Glottocode": "nucl1516",
+        "Glottolog_Name": "Rembong",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.53",
+        "Longitude": "120.97"
+      },
+      {
+        "ID": "term1237",
+        "Name": "Termanu",
+        "Glottocode": "term1237",
+        "Glottolog_Name": "Termanu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-10.692572",
+        "Longitude": "123.139261"
+      },
+      {
+        "ID": "buru1303",
+        "Name": "Buru",
+        "Glottocode": "buru1303",
+        "Glottolog_Name": "Buru (Indonesia)",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.44",
+        "Longitude": "126.63"
+      },
+      {
+        "ID": "dobe1238",
+        "Name": "Dobel",
+        "Glottocode": "dobe1238",
+        "Glottolog_Name": "Dobel",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-6.33",
+        "Longitude": "134.64"
+      },
+      {
+        "ID": "irar1238",
+        "Name": "Irarutu",
+        "Glottocode": "irar1238",
+        "Glottolog_Name": "Irarutu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.94",
+        "Longitude": "133.59"
+      },
+      {
+        "ID": "sawa1247",
+        "Name": "Sawai",
+        "Glottocode": "sawa1247",
+        "Glottolog_Name": "Sawai",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "0.51",
+        "Longitude": "128.09"
+      },
+      {
+        "ID": "bara1347",
+        "Name": "Kemberano, Barau",
+        "Glottocode": "bara1347",
+        "Glottolog_Name": "Barau",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.24",
+        "Longitude": "132.99"
+      },
+      {
+        "ID": "weri1246",
+        "Name": "Kemberano, Weriagar",
+        "Glottocode": "weri1246",
+        "Glottolog_Name": "Weriagar",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.9398",
+        "Longitude": "132.6137"
+      },
+      {
+        "ID": "aran1237",
+        "Name": "Arandai",
+        "Glottocode": "aran1237",
+        "Glottolog_Name": "Dombano",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.08",
+        "Longitude": "132.98"
+      },
+      {
+        "ID": "taro1259",
+        "Name": "Kokoda, Tarof",
+        "Glottocode": "taro1259",
+        "Glottolog_Name": "Tarof",
+        "Family": "South Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-2.1967",
+        "Longitude": "132.4163"
+      },
+      {
+        "ID": "mosk1236",
+        "Name": "Moskona",
+        "Glottocode": "mosk1236",
+        "Glottolog_Name": "Moskona",
+        "Family": "East Bird's Head",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.62",
+        "Longitude": "133.15"
+      },
+      {
+        "ID": "maib1239",
+        "Name": "Maybrat",
+        "Glottocode": "maib1239",
+        "Glottolog_Name": "Maybrat",
+        "Family": "Maybratic",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.37",
+        "Longitude": "132.59"
+      },
+      {
+        "ID": "biak1248",
+        "Name": "Biak",
+        "Glottocode": "biak1248",
+        "Glottolog_Name": "Biak",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-1.003358",
+        "Longitude": "135.815912"
+      },
+      {
+        "ID": "alor1247-dulol",
+        "Name": "Alorese, Dulolong",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.252034",
+        "Longitude": "124.450591"
+      },
+      {
+        "ID": "alor1247-kecil",
+        "Name": "Alorese, Kecil",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.271256",
+        "Longitude": "124.411719"
+      },
+      {
+        "ID": "alor1247-buaya",
+        "Name": "Alorese, Buaya",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.182806",
+        "Longitude": "124.375247"
+      },
+      {
+        "ID": "alor1247-terna",
+        "Name": "Alorese, Ternate",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.210253",
+        "Longitude": "124.376706"
+      },
+      {
+        "ID": "alor1247-bana",
+        "Name": "Alorese, Bana",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.176126",
+        "Longitude": "124.285994"
+      },
+      {
+        "ID": "alor1247-helan",
+        "Name": "Alorese, Helandohi",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.208019",
+        "Longitude": "124.28722"
+      },
+      {
+        "ID": "alor1247-waila",
+        "Name": "Alorese, Wailawar",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.218032",
+        "Longitude": "124.229612"
+      },
+      {
+        "ID": "alor1247-baran-YS",
+        "Name": "Alorese, Baranusa",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.361888",
+        "Longitude": "124.094494"
+      },
+      {
+        "ID": "alor1247-beaon",
+        "Name": "Alorese, Beaong Onong",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.310903",
+        "Longitude": "124.031987"
+      },
+      {
+        "ID": "alor1247-maric",
+        "Name": "Alorese, Marica",
+        "Glottocode": "alor1247",
+        "Glottolog_Name": "Alorese",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.348647",
+        "Longitude": "123.966102"
+      },
+      {
+        "ID": "seti1246",
+        "Name": "Seti",
+        "Glottocode": "seti1246",
+        "Glottolog_Name": "Seti (Indonesian)",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.12",
+        "Longitude": "129.9"
+      },
+      {
+        "ID": "bobo1254",
+        "Name": "Bobot",
+        "Glottocode": "bobo1254",
+        "Glottolog_Name": "Bobot",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.44",
+        "Longitude": "130.18"
+      },
+      {
+        "ID": "masi1266",
+        "Name": "Masiwang",
+        "Glottocode": "masi1266",
+        "Glottolog_Name": "Masiwang",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.3",
+        "Longitude": "130.6"
+      },
+      {
+        "ID": "gese1240-geser",
+        "Name": "Geser",
+        "Glottocode": "gese1240",
+        "Glottolog_Name": "Geser-Gorom",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-3.8",
+        "Longitude": "130.7"
+      },
+      {
+        "ID": "watu1247",
+        "Name": "Watubela",
+        "Glottocode": "watu1247",
+        "Glottolog_Name": "Watubela",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-4.47",
+        "Longitude": "131.64"
+      },
+      {
+        "ID": "elat1240",
+        "Name": "Banda",
+        "Glottocode": "elat1240",
+        "Glottolog_Name": "Elat",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.42",
+        "Longitude": "133.14"
+      },
+      {
+        "ID": "galo1243",
+        "Name": "Galolen",
+        "Glottocode": "galo1243",
+        "Glottolog_Name": "Galoli-Talur",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.61",
+        "Longitude": "125.96"
+      },
+      {
+        "ID": "lamb1273",
+        "Name": "Lamboya",
+        "Glottocode": "lamb1273",
+        "Glottolog_Name": "Lamboya",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-9.7",
+        "Longitude": "119.34"
+      },
+      {
+        "ID": "mano1275",
+        "Name": "Manombai",
+        "Glottocode": "mano1275",
+        "Glottolog_Name": "Manombai",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-5.94",
+        "Longitude": "134.33"
+      },
+      {
+        "ID": "habu1241",
+        "Name": "Habun",
+        "Glottocode": "habu1241",
+        "Glottolog_Name": "Habu",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.77",
+        "Longitude": "125.97"
+      },
+      {
+        "ID": "midi1237",
+        "Name": "Midiki",
+        "Glottocode": "midi1237",
+        "Glottolog_Name": "Midiki",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.646986",
+        "Longitude": "126.146467"
+      },
+      {
+        "ID": "idat1237-cribas",
+        "Name": "Idate",
+        "Glottocode": "idat1237",
+        "Glottolog_Name": "Idaté",
+        "Family": "Austronesian",
+        "Macroarea": "Papunesia",
+        "Latitude": "-8.671212",
+        "Longitude": "125.991368"
+      }
+    ],
+    "resources": [
+      {
+        "key": "forms",
+        "filename": "forms.csv",
+        "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/forms.csv",
+        "sha256": "6d2fd8e215b0d052715a837b220dc7eff122f9e02fbc6b0e95fd65e61299c9fd"
+      },
+      {
+        "key": "lects",
+        "filename": "lects.csv",
+        "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/lects.csv",
+        "sha256": "2f21ba65e2b3accf0cd3912bca1ecd8794eac2306e351ec873edf5548870c542"
+      },
+      {
+        "key": "concepts",
+        "filename": "concepts.csv",
+        "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/concepts.csv",
+        "sha256": "a62897e5eeaf95a86f87f4ba56ba4d28cfd5476f77ea7196a02be4c3f787f985"
+      },
+      {
+        "key": "bibliography",
+        "filename": "sources.bib",
+        "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/sources.bib",
+        "sha256": "4386b380732fb6ddfe46b4b71c198b4651b47749f8f92d9b974a76f3c5652b84"
+      }
+    ]
+  },
+  {
+    "dataset": "yakkhaoriginal",
+    "kind": "reviewed_citations",
+    "review": "docs/worldwide_s07_yakkha_review_2026-10-30.csv",
+    "name": "Original Tumok Yakkha phonological citations",
+    "url": "https://langsci-press.org/catalog/book/66",
+    "version": "langsci/66@37a7473097d2c8ed7787bfda95096b940d2db6c5",
+    "citation": "Schackow2015 A grammar of Yakkha. Chapter4 original Tumok citations, Tamaphok lect.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Modern original grammar citations, distinct lect/time scope from LSI; not a full lexical database. Infinitival morphology retained. Empty verb glossary is not treated as a lexical payload.",
+    "resources": [
+      {
+        "key": "phonology",
+        "filename": "phonology.tex",
+        "url": "https://raw.githubusercontent.com/langsci/66/37a7473097d2c8ed7787bfda95096b940d2db6c5/chapters/04_Phonology.tex",
+        "sha256": "cec4593bc8145e591c0bc727cfd3e8e5d7bd33bece5e018ad2aff849f1824d27"
+      }
+    ],
+    "members": [
+      {
+        "ID": "Tumok",
+        "Name": "Tumok Yakkha (Tamaphok)",
+        "Glottocode": "yakk1236",
+        "Glottolog_Name": "Yakkha",
+        "Family": "Sino-Tibetan",
+        "Macroarea": "Eurasia"
+      }
+    ]
+  },
+  {
+    "dataset": "kullillioriginal",
+    "kind": "reviewed_pdf",
+    "review": "docs/worldwide_s08_kullilli_review_2026-10-30.csv",
+    "name": "Kullilli2023 public sketch citations",
+    "url": "https://doi.org/10.60600/YU/W4NKNG",
+    "version": "Yale W4NKNG public file7897 sha256:6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f",
+    "citation": "Bowern et al.2023 Kullilli sketch grammar. Public97-page PDF, Yale doi10.60600/YU/W4NKNG. Printed phonology pages7–12, finite citations.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Modern presentation of historical1950s–1960s Kullilli sources, primarily Charlie Phillips/McDonald/Wurm. Kullilli/Kalali dialect evidence remains inside Bulloo River construction. Shared historical witnesses with comparative sources are not independent corroboration; no app dictionary or restricted CHIRILA rows imported.",
+    "resources": [
+      {
+        "key": "pdf",
+        "filename": "kullilli2023.pdf",
+        "url": "https://dataverse.yale.edu/api/access/datafile/7897",
+        "sha256": "6a44f4b647ac24b6d5f9cc4aecab3a46df4d239bcd4803996c8d026c1ce6478f"
+      }
+    ],
+    "members": [
+      {
+        "ID": "Kullilli2023",
+        "Name": "Kullilli/Kalali public2023 sketch",
+        "Glottocode": "kala1380",
+        "Glottolog_Name": "Bulloo River",
+        "Family": "Pama-Nyungan",
+        "Macroarea": "Australia"
+      }
+    ]
+  },
+  {
+    "dataset": "tuatschinoriginal",
+    "kind": "tuatschin",
+    "name": "Original Tuatschin-English word list",
+    "url": "https://langsci-press.org/catalog/book/308",
+    "version": "langsci/308@631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c",
+    "citation": "Maurer-Cecchini2021 A grammar of Tuatschin. Complete chapter9 Tuatschin-English word list; separate spelling, phonetic citation, POS, senses and inflection fields.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "genealogy": "Original named Tuatschin source, principally2016–2021 fieldwork plus explicitly identified historical written sources. Not Standard Sursilvan-wide evidence. Source uncertain ə/ɐ distinction, source notation, final devoicing convention and inflectional alternatives remain explicit; no profile generalized to Sursilvan.",
+    "members": [
+      {
+        "ID": "Dictionary",
+        "Name": "Tuatschin (Tujetsch valley)",
+        "Glottocode": "surs1244",
+        "Glottolog_Name": "Sursilvan",
+        "Family": "Indo-European",
+        "Macroarea": "Eurasia"
+      }
+    ],
+    "resources": [
+      {
+        "key": "dictionary",
+        "filename": "dictionary.tex",
+        "url": "https://raw.githubusercontent.com/langsci/308/631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c/chapters/09.tex",
+        "sha256": "fea137aa0a83840229e024e27f983dad483f3ea924d05555299798150dc9ba07"
+      },
+      {
+        "key": "phonology",
+        "filename": "phonology.tex",
+        "url": "https://raw.githubusercontent.com/langsci/308/631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c/chapters/02.tex",
+        "sha256": "d982855004d517ff6b935161c940df2a90cc1644e76d395cdf87eee94a9b34c5"
+      },
+      {
+        "key": "scope",
+        "filename": "scope.tex",
+        "url": "https://raw.githubusercontent.com/langsci/308/631f50eb2330bbb6a63cb68edcec6b47eaa8eb3c/chapters/01.tex",
+        "sha256": "b0683108cc490c70fa0d54797c7a2235a0ab6fdb6aae6f1faea52fdd603f9cc1"
+      }
+    ]
+  }
+]

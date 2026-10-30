@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "av_id": "ine-tuatschin",
+    "glottocode": "surs1244",
+    "iso639p3": "",
+    "name": "Tuatschin",
+    "parent_av_id": "ine-sursilvan",
+    "family": "Indo-European",
+    "macroarea": "Eurasia",
+    "latitude": "",
+    "longitude": "",
+    "in_glottolog": "false",
+    "notes": "S09 named dialect under Sursilvan; exact original Tuatschin source member, no independent Glottocode. Location remains unspecified rather than borrowing a parent centroid."
+  },
+  "source_lexical_entries": 1649,
+  "crossreferences": 57,
+  "parse_holds": 4,
+  "new_languages": 0,
+  "new_named_varieties": 1,
+  "source_scope": "Tujetsch valley; explicit source labels/variants retained",
+  "primary_profiles": 36,
+  "written_alternatives": 2,
+  "explicit_segmentation_stress_omission_recoveries": 10
+}

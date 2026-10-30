@@ -1,0 +1,26 @@
+av_id: map-tii
+name: Tii
+glottocode: tiii1241
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: lexirumahoriginal
+  cognates: lexirumahoriginal
+  source_language_id: lexirumahoriginal_tiii1241
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.8
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-30'
+notes: S06 exact lect/source noun sense, Indonesian gloss, elicitation notes and frozen
+  definition reviewed. Source spelling, normalized Form, local orthography, upstream
+  Segments and exact profile chain retained separately. Upstream conversion is not
+  supplied author IPA; no automatic cognate assignments or approximate concept mergers
+  certified. Prefixes, quantity and source marks retained.

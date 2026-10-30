@@ -154,3 +154,8 @@ mother-referred daughter mappings. `construction_kinds.csv` registers only
 explicitly reviewed reconstruction inventories; catalog labels and source-member
 guards distinguish them from attested speech. Source stages reproduce with
 `scripts/verify_johd_evidence.py`.
+
+S01–S09 original-source exports are covered by
+`web/tests/worldwide_s_browser.py`: written RefLex pilots/NC-SA terms, original
+African primaries with retained GLED, separate LexiRumah source/profile layers,
+Goo tone recovery, Kullilli PDF provenance and named Tuatschin source scope.

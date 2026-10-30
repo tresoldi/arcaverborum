@@ -1,0 +1,14 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/?q=halId_s:halshs-01204638&fl=halId_s,version_i,title_s,fileMain_s,licence_s&wt=json",
+  "status": 200,
+  "sha256": "f6cc7f688da074a8d2950114c0bf138af8d101b7f4c2144808fe1fa6a42ed3e3",
+  "outcome": "Metadata/acquisition gate only; no dictionary lexical payload or accepted gain yet",
+  "authority": "CNRS ARDIS states dictionary CC BY-NC-SA4.0, Toolbox/MDF origin; HAL current v6 found. Tone monograph is a separate work, not a replacement for missing dictionary rows.",
+  "metadata_acquired": true,
+  "dictionary_version": 6,
+  "dictionary_license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "original_notice": "https://ardis-ups2259.cnrs.fr/sortie-des-dictionnaires-lexica-de-la-langue-na/",
+  "dictionary_route": "https://shs.hal.science/LEXICA/halshs-01204638",
+  "dictionary_result": "Anubis access denial; dictionary payload not acquired. New version metadata and original institutional licensing notice verified; no tone categories or lexical data guessed.",
+  "admitted_forms": 0
+}

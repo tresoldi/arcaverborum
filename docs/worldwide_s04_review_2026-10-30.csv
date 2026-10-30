@@ -1,0 +1,458 @@
+av_id,source_form_id,Form,source_phonetic,source_sense,concept_id,definition,native_sha256,published_pdf_excerpt,decision,rationale
+atl-chakali,chakalioriginal_dictionary-98,bagɛna,báɣɛ̆́ná,neck,bod-neck,"The part of the body (found in some animals, including humans) that connects the head and the trunk.",2212ab9c50940a86ea41a09a71dc04159fcdbf737ea64c3fd9776dda8045cab8,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-139,baratʃɔgɔʊ,bárằtʃɔ́gɔ́ʊ́,night,tim-night,"The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark.",1249f438244b8ac4ce6d6cb8388688168b4d06dd6fc88230ba5d49b989233b2a,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-158,begii,bégíí,heart,bod-heart,A muscular organ that pumps blood through the body.,e28415956ac4145c01ec755c96729ee339f3931603e57e6867250ff39abb3a67,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-223,bɪɪ,bɪ́ɪ́,stone,phy-stone,"A general term for rock that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.",eb282a0323e5ee6d19d0368a8f773951dfb94bd7e7b112da65efe4b1daea703c,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-316,bʊɪ,bʊ́ɪ̀,stone,phy-stone,"A general term for rock that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.",ea7c4b8d3d15c3ac098c1796c6ebe17929f742c4b890fdebbac97ac23eefeaed,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-329,bʊɔga,bʊ̀ɔ̀gà,moon,phy-moon,A natural satellite of a planet.,538194408f0e934754b44b9b8f7cdc6f96acf5cc5d33b972bfe3395c65267f5d,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-469,dɪa,dɪ̀á,house,hou-house,"The abode of a human being, their place of residence.",5b675a63bd6334ae1f000c512dbc83a400a585907ab0b5e4ef5cd68524a2198e,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-482,dɪgɪna,dɪ̀gɪ̀nà,ear,bod-ear,"The organ of hearing, consisting of the pinna, auditory canal, eardrum, malleus, incus, stapes and cochlea.",118118dc9987669db9ce2ec4d01dc1b486819759e4374eb80c2fbcec22517c7c,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-534,duoŋ,dúòŋ,rain,phy-rain-precipitation,Precipitation in the form of liquid water drops with diameters greater than 0.5 millimeters.,8e14b2d8152f46702c3769e044a606cf6d77dea459b294bbc81a301ead8565ed,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-982,haglɪkɪŋ,háɣlɪ́kɪ̀ŋ,snake,ani-snake,"Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.",fbc5c0749f220ba9a417fb42620d39c07bddcbfb097386a0027e5dccfeba6bc2,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1023,hɛ̃ŋ,hɛ̃́ŋ,arrow,war-arrow,Pointed projectile that is shot with a bow.,c851eaf5d4b2404d0906d079dc54a341345a518646a999f2aa0bfc2b5770dead,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1052,hog,hóg,bone,bod-bone,"Any of the components of an endoskeleton, consisting mainly of calcium phosphate, collagen and cells.",767ad535f0a1f372a1b5deccc1d2c36929ac55f74ed72a033ddc652c8aad2a6f,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1134,jɪsa,jɪ̀sá,salt,foo-salt,A condiment (NaCl - Sodium Chloride) used to add to or enhance the flavour of food (commonly with pepper).,29f6f90b62cee3f4777b5da8523210c01131ed471082c4f828b4448ecddfb0b8,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1269,kisie,kísìé,knife,foo-knife,"A utensil consisting of a sharpened piece of hard material such as steel or other metal, ceramic, glass or stone, usually attached to a handle, that is formed in a manner that allows for cutting softer materials, especially meat or other food.",97ad8755afc8f7eb800e0ffcc3636b63f928525420ad8ea68fdea3049517c365,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1323,kokoluŋ,kòkólúŋ,boat,mot-boat,"A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.",d39c870b9b48ee04290e13c60fe997f21898cb2b1c3f2a0e4b315bb21f69b93c,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1476,kpããŋ,kpã́ã́ŋ,yam,agr-yam,"It is the common name for a versatile vegetable which is mainly grown in West Africa, Asia and Latin America.",10bc3b480ed70cc8e6fb677f3b657fca2b4b9f133d4a953653f317fc1951b2a9,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1534,kpibii,kpĭ̀bíì,louse,ani-louse,"A small wingless parasitic insect of the order Phthiraptera that lives on humans, other mammals and birds.",6451e696a7334caceef90bae17887253556b289bb48328a440819cfd9eb4c052,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1746,luto,lùtó,root,agr-root,The absorbing and anchoring organ of a vascular plant; it bears neither leaves nor flowers and is usually subterranean.,47967c8712db9578f1a763e64a58312a1debfcbc14749842afe460cc1d3c9115,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1762,mãã,mã̀ã́,mother,kin-mother,A woman who has at least one child.,4a87adfaba1c4709faaff9409b28291be7bfd5990a7a98ad156737b263033672,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1830,mɪ̃ɪ̃sa,mɪ̃̀ɪ̃̀sá,nose,bod-nose,The organ of the face used to breath and smell.,216fbc187dba3d5f61e5bb15619c8256c2e98fa1554b3004a38364ccf5f82dfc,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1839,mɪŋmɛna,mɪ́ŋmɛ́ná,maize,agr-maize,A type of grain of the species Zea mays.,f5711848d68fe5f85bb93a0649884075e2c8b5cd3aeb5528303eec2b5a4eb572,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1917,nããhũũ,nã̀ã̀hṹũ̀,knee,bod-knee,"In man, the joint in the middle part of the leg.",b14ccff3a7df87e54d6b7bb799b7d019c2532c7c7bc59b372b26c180a7bf64a7,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-1935,nããpɪɛl,nã̀ã̀pɪ́ɛ̀l,foot,bod-foot,The part of a human’s body below the ankle that is used in order to stand and walk.,f90ff0488edfa922147a085a1fcb45f878b904971df45848d21ab17fa1c514a4,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2031,nepɪɛl,népɪ́ɛ̀l,hand,bod-hand,That part of the fore limb below the forearm or wrist in primates (including humans).,140064be75cadb492bd1d12cf26072e47fb5d463c1ea8553b5e955ca3c7335e4,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2076,nɪɪ,nɪ́ɪ́,water,phy-water,"Common liquid (H₂O) which forms rain, rivers, the sea, etc., and which makes up a large part of the bodies of organisms.",810cb4286d8a4dd8f91e13ae68afd043f9c21963d72bcfb6f7dcdbdaf13ce2ab,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2132,nʊ̃ã,nʊ̃̀ã́,mouth,bod-mouth,Opening in the lower half of a human face which is used for food ingestion and articulation.,d88a2216dec505e8f3127cd426bb25586ba555ad32c221fd0cd529e5abd4416a,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2135,nʊ̃ãtɪɪna,nʊ̃̀ã̀tɪ́ɪ́ná,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",538f58e4e3afe6962473d283b37b3aeb1e0dfaa22e521180cbee558d8e1feb2e,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2160,nʊzʊlʊŋ,nʊ̀zʊ́lʊ́ŋ,tongue,bod-tongue,"The flexible muscular organ in the mouth that is used to move food around, for tasting and that is moved into various positions to modify the flow of air from the lungs in order to produce different sounds.",dbdf04d874d58c5ef40d4308968296e24ec5d719a07734eaad7bc4ced6f7faf4,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2183,ɲammɪɪ,ɲàmmɪ́ɪ́,maize,agr-maize,A type of grain of the species Zea mays.,321b2b452d109abf9c7ee20bee7741fd4f87c9ae499539373eddbb8fa4e82f77,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2202,ɲinee,ɲínẽ́ẽ̀,fish,ani-fish,A cold-blooded vertebrate animal that lives in water that moves with the help of fins and breathes using gills (Pisces).,6ea943de8dfd5978acbcf0303af4ae4089b6750645daf9941fa497e44e1b72ac,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2213,ɲɪna,ɲɪ́nà,father,kin-father,A male parent.,75154c0025f9b05faaf61cfe01257d4642efe2020ad657391ab266d8b15db509,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2220,ɲɪŋ,ɲɪ́ŋ,tooth,bod-tooth,"A hard, calcareous structure present in the mouth of many vertebrate animals (including humans), generally used for eating.",ab292a27961bb671a98faaaf2b7a16dab0cb2890b314c735e758ea124d5fc87d,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2221,ɲɪŋdaa,ɲɪ́ndáá,horn,bod-horn,A hard growth of keratin that protrudes from the top of the head of certain animals.,b2160d8e055ba99d549a02be3d598867c88fae7900e01518cb89e1c6f8f3f950,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2240,ɲuu,ɲúù,head,bod-head,"The part of the body of an animal or human which contains the brain, mouth and main sense organs.",18d38954451a7ecef074e20f50e7035f5103023b4f4a5b70f836223f681f9061,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2252,ɲʊ̃ãsa,ɲʊ̃̀ã̀sá,smoke,phy-smoke,"An aerosol, consisting of visible particles and gases, produced by the incomplete burning of carbon-based materials, such as wood and fossil fuels.",a705ee9165fa0fff02778e3312c3cd75703b8612d6fc2e3051236055e6dae296,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2270,ŋmɛŋ,ŋmɛ́ŋ̀,rope,act-rope,"Thick, strong string made of several strands that have been twisted together.",8c4c8ac03c53f65e4c103d5eef222f916df9af793a5a319e8011aa1e00de2d06,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2273,ŋmɛŋtɛl,ŋmɛ́ŋtɛ́l,spider,ani-spider,"Any predatory silk-producing arachnid of the order Araneae, having four pairs of legs and a rounded unsegmented body consisting of abdomen and cephalothorax.",17289a754648e0d4ea5d284a0755f4849e33d38f235d3be4032de6a2e6a4cb46,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2316,paatʃag,pààtʃák,leaf,agr-leaf,"The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.",3b68d0066cdd6e3e4f0ae04a37939228c5c3b5989ec6e973c8f1421d44872c6b,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2377,peu,pèú,wind,phy-wind,"The motion of air relative to the earth's surface; usually means horizontal air motion, as distinguished from vertical motion.",bb1832d74bf385120a34c12b855a1efe95a015e9babbdd7ea23dc411cb8e3b68,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2389,pɛna,pɛ̀ná,moon,phy-moon,A natural satellite of a planet.,c7d08d04b86215d9c08f8eff6100c256cdb2d56f495ecc0668c6a9fae0e04b11,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2434,pɪɪ,pɪ́ɪ́,yam,agr-yam,"It is the common name for a versatile vegetable which is mainly grown in West Africa, Asia and Latin America.",4cfbd87d30acfe90bd806872835cf587591b964c16cdefc1433f3babe1abdbfe,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2523,sãã,sã̀ã́,axe,act-axe,"A tool for felling trees or chopping wood consisting of a heavy metallic or stone head flattened to a blade on one side, and which is attached to a usually wooden handle.",84c890914da2a73e1848ef9286cce23e7801b38b0199549f2b6fdff32c5bc2c1,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2549,sankara,sáǹkárá,night,tim-night,"The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark.",f7ed639ece044b9c1462cb47d8aac635ca307997f7d5abe77004b2604139da3a,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2731,sɔŋ,sɔ́ŋ,name,lng-name,"Any word or phrase which designates a particular person, place, class or thing.",91f5281d7a5dc9803f17e276c10e96ba283b933835512ecd62fa261c02a916c1,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2808,taal,táál,cloud,phy-cloud,Suspensions of minute water droplets or ice crystals produced by the condensation of water vapour.,ddbe6428bce31d252054641d1e338f320dca4db22812785343222b2a1ce8507e,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-2895,tiŋ,tíŋ,spear,war-spear,"a long, stabbing weapon for thrusting or throwing, consisting of a wooden shaft to which a sharp-pointed head, as of iron or steel, is attached.",569f0da758e8e3ee69e0226737653bb89a9b48fd459becee375e2fe9c0960f09,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-3021,tũũbii,tũ̀ũ̀bíí,bee,ani-bee,Any of the membranous-winged insects which compose the superfamily Apoidea in the order Hymenoptera characterized by a hairy body and by sucking and chewing mouthparts.,3c8460598a8032e961280d7480e42e1e76d269131ba2c06714a01f041062ff02,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-3087,tʃal,tʃál̀,blood,bod-blood,A fluid connective tissue consisting of the plasma and cells that circulate in the blood vessels.,88c3eed707e423cb71a0ebc039c64a0ca6f6c1e6dae7f50bd879f2665f056155,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-3280,vaa,váà,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",a9fa279a3d8ffafbd41b2ad41ec9208deb3e765818b96931583a9384b8b8fdb5,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-3454,zaar,záár,bird,ani-bird,"Any of the bipedal, warm-blooded vertebrates that lay eggs having wings which, for most species, enables them to fly.",d42cd43b833638514e52d3b35a137cc21a3c5d24fea3b85a973fd09fbf9a4934,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-chakali,chakalioriginal_dictionary-3540,zoŋgoree,zóŋgòréè,mosquito,ani-mosquito,A small flying insect (of the family Culicidae) known for biting and sucking blood.,6f107755f30dcaf33c402f9c5505acf0a7c9455551cdbab9fa28820f8b51ea4b,,admit profile,S04 literal original noun sense and full entry context reviewed. Brindle2017 phonology explicitly identifies unbracketed forms as broad phonetic IPA; dictionary ipa field retained alongside spelling.
+atl-central-dagaare,dagaareoriginal_b-6,ba,bâ,father,kin-father,A male parent.,d510d723ac6a7d0fc123447e93390a219b4c73bd5f23f997ba3c45f9e60e6860,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_b-8,baa,báá,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",3b79b0a7a0938493db3437d50011ed7a8a2c596e95b0cbee2ee6192bb5e1fb35,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_b-59,badɛre,bádɛ́rɪ́,spider,ani-spider,"Any predatory silk-producing arachnid of the order Araneae, having four pairs of legs and a rounded unsegmented body consisting of abdomen and cephalothorax.",b806f29ce714af7ed3789884b0425340d1123bfc0be5de25bcf4568c1fe03acb,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_b-335,biiree,bììréé,sand,phy-sand,"A loose material consisting of small mineral particles, or rock and mineral particles, distinguishable by the naked eye; grains vary from almost spherical to angular, with a diameter range from 1/16 to 2 millimeters.",73294d14a052eb082b9a4b6bb08880a67b6a3aea0a295c4b119f5e2329acf76f,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_b-812,bozeɛ,bʊ̀zɪ́ɛ́,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",0a9bffdf34d0201120b25e028a0441f7c95c0f57f40e6f8f7e01b43051bac4e2,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_d-191,danyagere,dàɲágrɪ,root,agr-root,The absorbing and anchoring organ of a vascular plant; it bears neither leaves nor flowers and is usually subterranean.,3c1d06b377ee75c914d091f566b4a016d929e93cedca5f5d32a06b590e21e7ed,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_d-527,duni,dúní,knee,bod-knee,"In man, the joint in the middle part of the leg.",530d7b8305b556a4c06ffe863d0c35daa5bb075ccfc5a408be0294247e464457,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_e-2,eele,ɪ́ɪ́lɪ́,horn,bod-horn,A hard growth of keratin that protrudes from the top of the head of certain animals.,86466b93d708d8d18b4c2d21d6bbfc60f7b8d240f31b4ae7f981c71753b31cbe,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_g-27,galegale,gálɪ́gálɪ́,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",2ab45588e880895ac00e23dc54d0708ca5616bee7af73678e7f9d5c1a860fde3,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_gb-95,gbɛlee,gbɛ́léé,foot,bod-foot,The part of a human’s body below the ankle that is used in order to stand and walk.,3235f8c69a33ccb5a05828fc6fb259b7afe4bbfdeaad4af50235871027fb2abe,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_gb-134,gbo,gbô,heart,bod-heart,A muscular organ that pumps blood through the body.,3df6a24b588c4b2f8d01a2b53a85c4e419339404c9303f1cf09249264bf49c5c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-55,kala,kàlà,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",85ab73834c5889c52811c01caf76a86223ce4586f3861d6d148d65af397acb58,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-80,kamaane,kàmáánɪ̀,maize,agr-maize,A type of grain of the species Zea mays.,53c946f18451f0ce902558382f88bba2316419d703a53e7522b7e5acfed29275,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-199,kere,kèré,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",1b9022d22523175454c64643741df8a66ab2fd1361e045723b4ce8e4a8ba665d,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-306,koŋ-ɔɔ-moɔ,kʊ́ŋ-ɔ́ɔ́-mʊ́ɔ́,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",0ba4d3d589a6300462b99450c62d5c251e2f03a195bd85439a28bf9ee1bb5920,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-313,kõɔ,kʊ̃́ɔ̃́,water,phy-water,"Common liquid (H₂O) which forms rain, rivers, the sea, etc., and which makes up a large part of the bodies of organisms.",db9bd1004b03cb5348111c8b41ecd49239d2bd0bbb8dec54aa9254fb542a44c6,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-470,kɔŋkɔre,kɔ̀ŋkɔ̀rɪ́,forest,phy-forest,"A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.",bf833a2c3bc4b48680198acf17c1bcddc264c30ed3af37a162187f70519de65b,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-479,kɔɔre,kɔ́ɔ́rɪ́,bone,bod-bone,"Any of the components of an endoskeleton, consisting mainly of calcium phosphate, collagen and cells.",bfa18fabac9cee6d1ba057c9f95e6281b7c0b6a1863b00b06a177f892dc87480,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-482,kɔɔyɛ,kɔ́ɔ́yɛ̀,forest,phy-forest,"A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.",e7a9ce49a401f77e5f51197134c7400c0fe5347f4129cf7be9cb261bf44537e2,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-558,kusiri,kúsírì,stone,phy-stone,"A general term for rock that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.",260dcdcbdd7e34e89ade1c72bd5bff29acfcb16a0298c609277cfdeec639a31c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_k-570,kuuri,kúúrì,stone,phy-stone,"A general term for rock that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.",adc78bc7724a5c3aadb0e74453e8be0f2d5f37fec3e8b5c3747b2552daa05303,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_kp-44,kpaleŋkpaa,kpàlɪ̀ŋkpàá,louse,ani-louse,"A small wingless parasitic insect of the order Phthiraptera that lives on humans, other mammals and birds.",4a9f7b3a28c8d352b8fbb8f4d013a935804552b6104a7d7dd993a10c169a191e,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ky-219,kyuu,ʧúù,moon,phy-moon,A natural satellite of a planet.,13883b96de2967b91454d1911591935b64cd9d4f7730788c7dc5c9aa88f58219,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_l-55,lare,lárì,axe,act-axe,"A tool for felling trees or chopping wood consisting of a heavy metallic or stone head flattened to a blade on one side, and which is attached to a usually wooden handle.",449725e14fc9dff6bf6634fb9a4a5a4919eff4e600bef5e84411c95a63d47d28,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_m-263,muri,múrí,snake,ani-snake,"Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.",655b5a92c51de7dad2cb167b6ad753e2ef2dd59c478a8debda55a8fa4199fcde,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_n-225,nɛne,nɛ́nɪ̀,meat,foo-meat,"The edible flesh of animals, especially that of mammals.",0d546a891be0563c37caca39896a4627726a9432d52d45c84bcc9e842b2c8dec,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_n-265,nimiri,nímírì,eye,bod-eye,"The organ that is sensitive to light, which it converts to electrical signals passed to the brain, by which means animals and humans see.",5bae40dcafcfd5e4504dfeab169b25e64b3aefbf7aa5d4c167e7d943eeb72071,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_n-289,noɔre,nʊ́ɔ́rè,mouth,bod-mouth,Opening in the lower half of a human face which is used for food ingestion and articulation.,42d9b164ef5c37917e7e0d71a3985cbaf69169e44aeabac2536a4faf09d7873c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_n-373,nɔwogi,nɔ́wógì,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",f876f0edbd6d38ce4f37cb76a0eb2b0f5d4acfc86014688a4663203abe41a608,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_n-412,nuulee,núúléé,bird,ani-bird,"Any of the bipedal, warm-blooded vertebrates that lay eggs having wings which, for most species, enables them to fly.",bd0130da4ad109d6ee70e29fea8a3b3aa074e2805057ff29828da585b3c10eff,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ngm-31,ŋmandɛre,ŋmándɛ́rè,spider,ani-spider,"Any predatory silk-producing arachnid of the order Araneae, having four pairs of legs and a rounded unsegmented body consisting of abdomen and cephalothorax.",5b3b58ae900d3d99aa24530a0e69c5e98dba266bd83faf63af3c3bc1ac8e3579,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ngm-40,ŋmaraa,ŋmáràà,moon,phy-moon,A natural satellite of a planet.,6e86d4d36b927f6a50fbc6f8318e815cb1da2e4738d6e761ae17f2d70707dff9,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ngm-58,ŋmenaa,ŋmɪ́nàá,sun,phy-sun,"The particular star at the centre of our solar system, from which the Earth gets light and heat.",57f90b66fec51b6c693aef2b6abb054f4876e3cf8ff8539ee78f54d722da9939,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ny-70,nyeraa,ɲìráá,ant,ani-ant,"Any of the black, red, brown, or yellow insects of the family Formicidae characterized by a large head and by living in organized colonies.",e162173e9544ea1a0949e0d55fbd9226d4d494f98c3a3f69c9aadcd89a06660f,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ny-93,nyɛnnoŋ,ɲɛ̀nnʊ́ŋ,salt,foo-salt,A condiment (NaCl - Sodium Chloride) used to add to or enhance the flavour of food (commonly with pepper).,f1c2e03a30117e6d85a5f9c50ce36898db5de48587cdb4a6ea79034bf0a4240c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ny-129,nyoore,ɲʊ̀ʊ́rɪ̀,smoke,phy-smoke,"An aerosol, consisting of visible particles and gases, produced by the incomplete burning of carbon-based materials, such as wood and fossil fuels.",bc0b6a00c825b1ea8ea0d1e7bdbb89283ddb71d24f9d8a19204d8aad5af2e740,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ny-137,nyoɔre,ɲʊ́ɔ́rɪ́,nose,bod-nose,The organ of the face used to breath and smell.,54307f6db0ef56346426957199260b1a1df364d26da1d263b942abb13d837765,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ny-167,nyuu,ɲúú,neck,bod-neck,"The part of the body (found in some animals, including humans) that connects the head and the trunk.",1465bc9a6686305e274492cb6bc881e20c02c8fb5c869fc1d8154bf1329b3f01,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_ny-173,nyuuri,ɲúúrì,yam,agr-yam,"It is the common name for a versatile vegetable which is mainly grown in West Africa, Asia and Latin America.",1a1e656bfbf8551a122ffd2c5c04f291a513a82261c4e990caea46132add647e,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_p-230,pĩi,pĩ́ĩ̀,arrow,war-arrow,Pointed projectile that is shot with a bow.,76572aa3c5059bfa632a97debe581f67a78e8427e9fc416df421e0e4bc6ac5b8,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_s-176,sebiri,sɪ́bírì,bee,ani-bee,Any of the membranous-winged insects which compose the superfamily Apoidea in the order Hymenoptera characterized by a hairy body and by sucking and chewing mouthparts.,45f03d712f50f3f074a2aa3889fd121b156efc95ef04bac8e0593f6fad5b16b1,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_s-364,soɔ,sʊ́ɔ́,knife,foo-knife,"A utensil consisting of a sharpened piece of hard material such as steel or other metal, ceramic, glass or stone, usually attached to a handle, that is formed in a manner that allows for cutting softer materials, especially meat or other food.",06b2d95c93a02cba21eb138e9d0a5c63240795a01eec36de6d365d5bfda95f1c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_s-424,sukyiri,sùʧírí,heart,bod-heart,A muscular organ that pumps blood through the body.,957b1f240bd1e31962271d33bcd350a7bd9d1997850e6d7bab223fe068d08b2e,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_t-65,tammo,támmʊ́,bow,war-bow,"A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows.",350767b8705689613fe21729d50253b9f1c901765a7aa62ff88c2d1bed44e548,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_t-70,tampɛloŋ,tàmpɛ̀lʊ̀ŋ,ashes,phy-ash,The incombustible matter remaining after a substance has been incinerated.,952aa358e4e90c7847ac64a379686bcbd48c139dc6b3a93f4de543c8a287efc2,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_t-133,teɛ,tɪ̀ɛ́,tree,agr-tree,Any large woody perennial plant with a distinct trunk giving rise to branches or leaves at some distance from the ground.,2ef18dfb8da531d170c93c16d3f00381d261db2791b92b4a12e55ce57f52b97c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_t-176,tensogɔ,tɪ̂nsʊ́gɔ́,night,tim-night,"The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark.",a142efe7b5123f2e27701c366aa9309c538895adb042fa2d772a971be69cb93b,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_t-313,toori,tòòrí,ear,bod-ear,"The organ of hearing, consisting of the pinna, auditory canal, eardrum, malleus, incus, stapes and cochlea.",46bb040600f4c2410ea3c487756290a36ba25f38e1c5482823c71d76032e8a2c,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_v-5,vaa,váà,leaf,agr-leaf,"The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.",d8a3cdb8bd646c620f279f6b58a645351f979828651de56686c92f57b9f6e049,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_v-163,vũu,vũ̀ṹ,fire,phy-fire,"The state of combustion in which inflammable material burns, producing heat, flames and often smoke.",d9ab732f63987244d794346a01bf57eb137858c87db7d3e4807f6c7241d71edd,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_w-4,waa,wàá,yam,agr-yam,"It is the common name for a versatile vegetable which is mainly grown in West Africa, Asia and Latin America.",556dfc5a64774370a38e5cc805c1f90cd5c5fe095e8bc45c8c7b637b96ac4a82,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_w-6,waabo,wáábʊ́,snake,ani-snake,"Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.",89321c0736268edaeeee2554b1e8de999ce2a291759a738262d51935bbda1d78,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_w-82,werɛ,wɪ́rɛ́,mountain,phy-mountain,A feature of the earth's surface that rises high above the base and has generally steep slopes and a relatively small summit area.,f22599fd5df5f6be8f719e38d387d19e99d740d57c1b207e114550279dc173e1,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_y-18,yaaroŋ,yààrʊ̂ŋ,salt,foo-salt,A condiment (NaCl - Sodium Chloride) used to add to or enhance the flavour of food (commonly with pepper).,a0a8f14606a89bb874dad293b61f33d017bb243950a2c5e6dc76b1e0e03312c9,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_y-132,yensogɔ,yénsʊ́gɔ́,night,tim-night,"The period between sunset and sunrise, when a location faces far away from the sun, thus when the sky is dark.",099f9e67cf340050e12c5d07bfbba9faedddab59cbf5d6b1a72d1b33a904b69b,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_y-264,yuori,yǔórì,name,lng-name,"Any word or phrase which designates a particular person, place, class or thing.",955a12a595f6df85f081fbce54ea550e58e660428276879a16185dffe12f5000,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_z-34,zammuli,zàmmúlí,tree,agr-tree,Any large woody perennial plant with a distinct trunk giving rise to branches or leaves at some distance from the ground.,ed7e2a82f51c9e6f4441b56a8a38fc2831f423c7ce1b319edaef794820c19edb,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_z-65,zẽe,zɪ̃́ɪ̃́,blood,bod-blood,A fluid connective tissue consisting of the plasma and cells that circulate in the blood vessels.,0d1abb0e9ee6ae8d4eeddfb8ec26a8795574db526fc6089ae3acd90fb3dba4df,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_z-93,zele,zɪ̀lɪ́,tongue,bod-tongue,"The flexible muscular organ in the mouth that is used to move food around, for tasting and that is moved into various positions to modify the flow of air from the lungs in order to produce different sounds.",4a11e5f6e34ef497d7379f8c2e2b75a714a33bb2b0a957e59d0b2a332fedb0d8,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_z-196,zommo,zʊ́mmʊ́,fish,ani-fish,A cold-blooded vertebrate animal that lives in water that moves with the help of fins and breathes using gills (Pisces).,475306f9a2426535b025c27a082e890deb62e0411e61aa1fd02c7e4677b8d90d,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_z-223,zɔ,zɔ̌,father,kin-father,A male parent.,0f7d5f302cee20149084db643bb6f9d96d044ec0db329ca13738b0e520012caa,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+atl-central-dagaare,dagaareoriginal_z-250,zu,zû,head,bod-head,"The part of the body of an animal or human which contains the brain, mouth and main sense organs.",c9f4eb1f64b62fc1c25fc231a234920c3851e68afb996941cb0b34856927c897,,admit profile,"S04 literal original noun sense and full entry context reviewed. Ali/Grimm/Bodomo2021 explicit tbPH citation; spelling guide distinguishes e/ɪ and o/ʊ, tones, nasalization and lexical morphology. Head spelling is preserved separately."
+afa-beja,bejaoriginal_dicoA-G-4,abaːda,abaːda,belly,bod-belly,"The lower part of the front of the torso (or a comparable part of an animal), confined by the upper side by the midriff and the lowerside by the pelvis. Contains the intestines.",2626a30cf9da66052bcf1123a9daddb42fe396fde4867a2eab943c6b405eca57,"abaːda n.m. belly – ventre (sy: hoːj2;
+kalawa)
+abadan < Ar. ʔabadan.
+adv; intj.
+never; not at all; no way – jamais;
+pas du tout; hors de question (sy:
+amroː) ▶uːn uːtak haːlaj hiːsani idi
+abadan tindi ’I th",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-647,ʔaji,ʔaji,hand,bod-hand,That part of the fore limb below the forearm or wrist in primates (including humans).,171fcf11cb5c530078a0d8cc12597959c941d0c55fe8214eb5eeb29724240be3,"ʔaji indf. ʔajeːb
+n.m. 1.
+hand
+– main
+▶wʔajisoːwa iragadiːwa
+ijafiːwa biːgaleːlajeːtuːk if he can-
+not chase you away with all pos-
+sible means ... (lt: if he does not
+chase you away from his hand, leg
+an",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-828,ʔasfuːr,ʔasfuːr,bird,ani-bird,"Any of the bipedal, warm-blooded vertebrates that lay eggs having wings which, for most species, enables them to fly.",5cffce0ab95b9d039cb5b4d85de136abc848ceef931c5c29ea2e2d3b31d53143,"ʔasfuːr < Ar. ʕaṣfuːr. pl. -a n.m. bird
+– oiseau (sy: kilaːj)
+ʔasga being at peace →ʔasig
+ʔas-ganaːd canine →ganaːd
+ʔasi up; upwards; at the top →ʔas2
+ʔaːsiː < Ar. ʕaṣa. V2. 1. to disobey –
+désobéir (sy: naː",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-840,ʔassi,ʔassi,sand,phy-sand,"A loose material consisting of small mineral particles, or rock and mineral particles, distinguishable by the naked eye; grains vary from almost spherical to angular, with a diameter range from 1/16 to 2 millimeters.",f875691082d9caffdd8e740ef116056bad2cc5c2aa608215de93b154e5941c6b,"ʔassi indf. ʔasseːt
+n.f. sand –
+sable ▶ʔasseːt tisiːn gʷidaːlʔalt they
+found sand, in great quantity n.m.
+indf. ʔasseːb coarse sand; dust –
+sable grossier; poussière (sy: ʔalaːl1;
+balbaʈa; haːʃ; kʷaraːr)
+ʔ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-854,ʔaːʃi,ʔaːʃi,fish,ani-fish,A cold-blooded vertebrate animal that lives in water that moves with the help of fins and breathes using gills (Pisces).,121542adbde296d30f95233f43787df8deba09f762b4769809dfe1b7c0fdd4be,"ʔaːʃi indf. ʔaːʃoːb pl. ʔaʃoːja
+n.m.
+fish – poisson ▶uːbhar ʔaːʃoːjeːsoː
+ɖhaːniːniːtaː kastaː hoː hiːn (in) the
+sea and its fish, there were all its
+monsters inside it
+ʔaʃir V1. to drive cattle to the dese",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-889,ʔawi,ʔawi,stone,phy-stone,"A general term for rock that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.",899639ac4dc74136e36765e73c8238b0ebda230b2037d85d7203d69d419e96c9,"ʔawi indf. ʔaweːb
+n.m. 1.
+stone
+– pierre ▶wʔawi nʔati ingiːd he
+throws the stone down
+▶oːtam
+ʔawiː dhaːj daːsiːni he makes the
+gruel drip on a stone
+▶ʔaweːb
+imoːkʷaːt ɖibja he hit a stone and
+fell down ▶r",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-932,ʔeːʃarriːf,ʔeːʃarriːf,maize,agr-maize,A type of grain of the species Zea mays.,01ee89a36b262804d2756bdddeb58657d1543832cb20ddfd1a470c442fa329a4,"ʔeːʃarriːf
+<
+Ar.
+Sd
+ʕeːʃ
+al-riːf.
+n.m. maize – maïs (lt: country
+sorghum)
+ʔeːt V2. to trample on; to tread on;
+to stamp on; to step on – marcher
+sur; piétiner; fouler ▶imalik ʔeːtiːn-
+heːb han ani ʔeːtani ʃibib",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-970,ʔiːli,ʔiːli,arrow,war-arrow,Pointed projectile that is shot with a bow.,1915c259d9bf80424756f3c37e5ffebad96d44d8edd2b47c4fd7444f900c0602,"ʔiːli indf. ʔiːliːt n.f. arrow – flèche
+ʔilli indf. ʔilliːt n.f. sheep sp. – mou-
+ton sp. (ee: smaller than ʤarasaːwi)
+ʔiːloːgani indf. ʔiːloːganiːt n.f. whirl-
+wind – tourbillon ▶tʔoːr ʔiːloːganiːt
+ʔakraː",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-1036,baːba,baːba,father,kin-father,A male parent.,27bd542674ccc0496c246030d3d19fbf6d3c528e7bdae27bc607788e41aa25ad,"baːba indf. imbaːba; ibaːba n.m. fa-
+ther – père ▶imbaːbajt takatti geːb
+askinaːbi he lived with his father’s
+wife
+n.m.pl. paternal relatives –
+parentèle paternelle
+babaːl to gather (clouds); to do one’s
+o",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-1488,dʔa,dʔa,horn,bod-horn,A hard growth of keratin that protrudes from the top of the head of certain animals.,799ee6506b6aa061884ad0a41b31f776edf0d0717dcc40b0d144b221139c055e,"dʔa n.m. 1. horn – corne ▶hadalt
+nʔaːjtu boːki dʔaːjeːtu it is a black
+goat, and its horns are similar to
+those of a he-goat (lt: it is of horns
+of a he-goat) 2. cupping glass – ven-
+touse (pour aspirer ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-1986,faːs,faːs,axe,act-axe,"A tool for felling trees or chopping wood consisting of a heavy metallic or stone head flattened to a blade on one side, and which is attached to a usually wooden handle.",f867da8bd63fdd9bb1868c291de8a33b275316acd57b4558c9a14119c57a0414,"faːs < Ar. faʔs. pl. fas
+n.m. axe
+– hâche ▶ifaːsoː ahiːt igarad iːʈʔeː-
+jeːbka igarad hantataːji he took his
+axe, and each time he was hitting
+the acacia tree, the acacia was shak-
+ing
+fassal < Ar. faṣṣal",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-2104,gaːba,gaːba,forest,phy-forest,"A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.",b09d004fc6478e79a0a769413d5db2326800084d7e06a7e257b05dc78e554d3a,"gaːba < Ar. ɣaːba.
+n.m. forest –
+forêt (sy: ɖaw; ʃaʤara) ▶ʤallaːbaːb
+saraːra oːn iʃaʤar tingʔateːb iːdif
+iːfi eːn igaːba there was a long and
+narrow mountain trail that went
+through the middle of the trees",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-2256,gaw,gaw,house,hou-house,"The abode of a human being, their place of residence.",b0cbdffc2e18b527af871a71619680cb7c59013470196f7d7eab2fda675b96ea,"gaw pl. -a n.m. 1. house – maison (sy:
+ʔanda; ɖiwa; fi) ▶tidoːba weːr gaw-
+iːb isʔajjimna they make the bribe
+spend the day in another house 2.
+sheath – fourreau (sy: birʃam; miʃ-
+mam)
+• bʔaɖaːj-gaw def.",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-2335,ginʔa,ginʔa,heart,bod-heart,A muscular organ that pumps blood through the body.,8339f5f3ff127b9c418c407547e52a4290b039c3485f06d85ba788cf1efa5510,"ginʔa n.m. heart – cœur ▶uːgnʔa in-
+ʈʔi the heart beats ▶mirkʷaːj hoː
+kadaːja iginʔiːb I become coura-
+geous (lt: fearing is not in my
+heart in it) ▶karaːj imiktijeːd ig-
+inʔi faraːj kiːki I was not thinki",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-2364,girma,girma,head,bod-head,"The part of the body of an animal or human which contains the brain, mouth and main sense organs.",66cd607dff8d73890d2d0ca7091548c38f28f0457aee40f15dbd3e9e62d2c657,"girma n.m. 1. head – tête ▶girmaːj
+halak hoː firʔatiːt they remove the
+cloth from his head, and ... 2 by ext.
+beginning; entrance – début; com-
+mencement; entrée (sy: badi2; daba;
+jaf1) ▶ibhalji girma the ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoA-G-2452,gʷimba,gʷimba,knee,bod-knee,"In man, the joint in the middle part of the leg.",6d588ad034f76342ea136d832c1554c5fec9e68078f7bca9daeb4f9d15c29e36,"gʷimba n.m. 1. knee – genou (sy:
+ginɖif) 2. hock – jarret
+• gʷimbabaːna
+cvb.mnr. with
+misshapen knees – aux genoux
+malformés (ns: a neologism of
+tales)
+▶gʷimbabaːnaːba tuːn jhaː
+hey, these are with misshape",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-308,handi,handi,tree,agr-tree,Any large woody perennial plant with a distinct trunk giving rise to branches or leaves at some distance from the ground.,6de01ae18625b579eaa0ae460770a9728eb5b797b578506575d4062793dffd48,"handi
+var.
+hindi
+indf.
+handiːb;
+hindiːb, pl. -a
+n.m. 1.
+tree – ar-
+bre (ng: pl. is rare; sy: saʤara) 2.
+wood – bois 3. stick – bâton; bâton-
+net 4. branch – branche (sy: baji;
+tamaɖoːj; tanag; tanʔa; tinɖa",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-317,hangʔani,hangʔani,ant,ani-ant,"Any of the black, red, brown, or yellow insects of the family Formicidae characterized by a large head and by living in organized colonies.",d97594778968a28b9c820a5d374b7262113e02addcc7689bbd8d363a61ffb9b8,"hangʔani indf. hangʔanoːt/b n.f, m.
+ant – fourmi (ng: f. denotes a small
+ant, m. a bigger one)
+• hangʔanoːja cvb.mnr. full of ants
+– rempli de fourmis
+hangoːr V2. 1. to bend forward – se
+plier en deux (ee: fr",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-411,haːsim,haːsim,spider,ani-spider,"Any predatory silk-producing arachnid of the order Araneae, having four pairs of legs and a rounded unsegmented body consisting of abdomen and cephalothorax.",05252c3c94f947649998f7909adcd76c6c51b7cf667841ab10cb2ed293ae5a1a,"haːsim pl. -a n.f. spider – araignée
+• haːsmi gaw n.ph.m. spider web –
+toile d’araignée (lt: spider’s house)
+hasir V2. 1. to want – vouloir (sy:
+ʔareː; hariw; khan; ʃʔ; ʃinh) 2. to
+need – avoir besoin (sy: ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-573,huːs,huːs,knife,foo-knife,"A utensil consisting of a sharpened piece of hard material such as steel or other metal, ceramic, glass or stone, usually attached to a handle, that is formed in a manner that allows for cutting softer materials, especially meat or other food.",2c2e045de540a1da1ce05bfecea37e94bd06d39c2c34f948fe15e97fab3abad3,"huːs var. xuːs; kuːs < Ar. xuːsah. pl.
+-a n.f. knife – couteau (sy: manan;
+sikkiːn; ʃangal)
+huːʃ
+n.m. diarrhea – diarrhée (sy:
+ʃoːft kʷinin; saː)
+• huːʃ
+V2. to have diarrhea –
+avoir la diarrhée ▶ikaːmi wi",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-645,jam,jam,water,phy-water,"Common liquid (H₂O) which forms rain, rivers, the sea, etc., and which makes up a large part of the bodies of organisms.",523904d698883e2c3d758ed29d7712fbb4344eeb1300c035cbd64db6f32db74e,"jam idirkʷiːb iːfifneːb it is the ret-
+ribution of the work they’ve done,
+this water that they were pouring
+in the trough
+• ʔiʤaːr pl. -a n.m. rent – loyer (sy:
+ʔiʤra; kiraːj)
+• ʔiʤra
+n.f. 1.
+rent – loye",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-652,jaːs,jaːs,dog,ani-dog,"A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",3bc2659b2f969c638518ddd88ba20d1a39fb3d4dd6f76c0145f7bfe4b3bb7e2f,"jaːs var. waːs pl. jas; was
+n. dog
+– chien; chienne ▶aːjas hiljaːn the
+dogs barked
+jaːs-ganaːd canine; fang →ganaːd
+jasi indf. jaseːt
+n.f. game of long
+jumping – jeu de saut en longueur
+jat death →jaj
+jaː",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-689,jin,jin,sun,phy-sun,"The particular star at the centre of our solar system, from which the Earth gets light and heat.",639d2cde1fe93de3cdfc606df9dadb215d5e0fd15941813baa082f5c0483b3cc,"jin pl. -a
+n.f. 1.
+sun – soleil
+▶tuːjin dhaːj nambʔi the sun heats
+him up 2.
+day – jour (sy: bʔi)
+▶gaːt jin baːskiːtja he fasted for a
+day ▶asaramaːt jina hawaːjiːn they
+used to dance for seven days
+• ji",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1022,kʷakʷar,kʷakʷar,snake,ani-snake,"Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.",5556ee595bef5c14936fb7fdfd90745d44b9ec08f666e31b1875e346ca87ed70,"kʷakʷar pl. -a n.m. snake – serpent
+(ng: f. when designating the fe-
+male; sy: tiji) ▶kʷakʷar reːwiːni
+a
+snake
+is
+climbing
+▶kʷakʷar
+saraːra dhaːj jʔija a long and thick
+snake came toward her ▶uːn uːtak
+kʷakʷ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1246,laːt,laːt,leaf,agr-leaf,"The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.",b7930ccc1bf7b175a2f1284d2ec78b35ebfa15d90f8edd0be1328c12c5e3d36d,"laːt
+lʔ
+étant nuageux
+laːt pl. lat; latit n.f. 1. leaf – feuille
+▶tuːlaːt winneːt dhaːj daːwriːta
+the leaf looked beautiful to him
+▶daːwriːt laːtitti hindi a tree with
+beautiful leaves 2. blade of grass –",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1351,liːli,liːli,eye,bod-eye,"The organ that is sensitive to light, which it converts to electrical signals passed to the brain, by which means animals and humans see.",2d5708b27afbb60dfc98183311bb829f941d2e8502a905ab13e93861ce57f175,"liːli indf. liːliːt/b, pl. liːli; gʷʔad n.f, m.
+1. eye – œil ▶iliːli aːkna gʷidaːna
+rhijaːneːb my own eyes saw a lot
+of things for me ▶liːliːt kʷaːlaleːliːnt
+dam dam dam ʔid akeːtiːt jʔeːnheːb
+they become ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1379,luːl,luːl,rope,act-rope,"Thick, strong string made of several strands that have been twisted together.",6880e1930d390075ae43bc07062338889302ae52d70af2082d79f689ca1b4881,"luːl pl. lil n.m. 1. rope – corde (sy:
+jaːj1) ▶oːn whalakiːt farda ikaːmjoː
+luːliːb hankʷiːr he ties the end of
+his cloth to the rope of his camel
+▶toːnʔaːj luːl imʔagaj dʔijaːbu he
+had put a rope around ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1606,mʔagi,mʔagi,neck,bod-neck,"The part of the body (found in some animals, including humans) that connects the head and the trunk.",893b946ad361a01a6d1df2434d64ce0d49ae0b2da774fb489970c0cd84d97a16,"mʔagi indf. mʔageːb n.m. 1. neck –
+cou (sy: ʔala1) ▶luːl imʔagiː dʔiːtiːt
+oːjaːs haːj giːgiːni he puts a rope
+around its neck and he leaves with
+the dog 2. nape of neck – nuque (sy:
+kaɖat; kaliːf; kaniːf; ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1699,miːdaːb,miːdaːb,tongue,bod-tongue,"The flexible muscular organ in the mouth that is used to move food around, for tasting and that is moved into various positions to modify the flow of air from the lungs in order to produce different sounds.",ddd28866505453b51504a0b966a671efd959cfaa41023b39b064b9e8e3332a1d,"miːdaːb var. miːdalaːb
+n.m. pl.
+miːdab; miːdalab tongue – langue
+▶oːn
+whandi
+miːdaːbjoːk
+whiː
+daːsaːjaː kharaːj tikatija put this
+piece of wood under your tongue,
+and
+you’ll
+become
+a
+hyena!
+▶asarama
+koːjeː
+i",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1743,miːlak,miːlak,salt,foo-salt,A condiment (NaCl - Sodium Chloride) used to add to or enhance the flavour of food (commonly with pepper).,7e68e2027dcb22364878157c8a504af581ec48d8c4b7a63b81224a57d69dc447,"miːlak n.m. salt – sel (sy: dʔamiːni)
+▶toːlam miːlak hoːj dʔijaːb kiːkeːn
+they did not put salt in the sauce
+miːlaːl pl. miːlal n.f. 1. big needle
+– grande aiguille (ee: to sew mats;
+sy: ʔibra; haːjdi; kans",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoH-M-1848,miːtaːt,miːtaːt,bone,bod-bone,"Any of the components of an endoskeleton, consisting mainly of calcium phosphate, collagen and cells.",4ac309f12a58bafc5b584130ed3cbf93c3960dbe962155aee5c16d16ccbbd806,"miːtaːt pl. miːtat
+n.f. bone – os;
+arête ▶ingʔiːt miːtaːt vertebrae (lt:
+back’s bone)
+▶oːt tikʷreːtaːtiːtiːt
+miːtatteːb gaːt miːtaːt farakaːt tiki
+in the bones of this backbone one
+bone had stuck out
+mitfeːl",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-228,niːwa,niːwa,tail,bod-tail,The appendage of an animal that is attached to its posterior and near the anus.,b6af3362b97c52ff7d1f3ff07eb71715d8ca33340fbbf36cbc4c727b05c10c71,"niːwa n.m. 1. tail – queue ▶iniːwa
+iʈʔa it wagged its tail 2. end; ex-
+tremity; bottom – fin; bout; fond (sy:
+galhaːn; girma; jaf; kijas) ▶iniːwa
+kantiːm he reaches the bottom
+▶whaleːli tiniːwa iskatimna t",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-380,riba,riba,mountain,phy-mountain,A feature of the earth's surface that rises high above the base and has generally steep slopes and a relatively small summit area.,8746599cae1dd9962eb325406c1ab555254b81566f84665be00d13dd9b7d70ea,"riba
+n.m. mountain – montagne
+▶ribaːj mhawaji it is the turn
+of a mountain ▶allaːj taːrba tibiː-
+faraːjneːt isaːnnhoːk God! may you
+find the mountains that cannot be
+jumped over! ▶win riba! [wirriba]
+prec",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-759,sijaːm,sijaːm,grass,agr-grass,"A very large and widespread family of Monocotyledoneae, with more than 10.000 species, most of which are herbaceous, but a few are woody. The stems are jointed, the long, narrow leaves originating at the nodes. The flowers are inconspicuous, with a much reduced perianth, and are wind-pollinated or cleistogamous.",a457e4bc6878327a4d3a2012b5d9ed0143f0ed460495824b6c76d67e00a933bd,"sijaːm n.m. 1. grass – herbe ▶sijaːm
+oːmhiːn
+iːfiːt
+oːsjaːmka
+tamiːni
+there was grass in the place, and
+it keeps eating the grass 2.
+edi-
+ble plants for cattle – végétaux co-
+mestibles pour le bétail
+sijʔ V",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-775,sikkiːn,sikkiːn,knife,foo-knife,"A utensil consisting of a sharpened piece of hard material such as steel or other metal, ceramic, glass or stone, usually attached to a handle, that is formed in a manner that allows for cutting softer materials, especially meat or other food.",2cff1c26b6196b37956c0e29ff870cf068559340ac3709c12afd29cd37700f2b,"sikkiːn < Ar. sikkiːn. pl. -a n.f. knife
+– couteau (sy: huːs; manan; ʃan-
+gal) ▶bʔaɖɖawwa sikkiːnaːtwa fi-
+naːtwa gʷibiːwwa iːheːniːt dhaːj
+ɖaɖabjaːn
+after
+having
+taken
+swords, knives, spears, and shields,
+t",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-988,ʃa,ʃa,meat,foo-meat,"The edible flesh of animals, especially that of mammals.",420bce613141860afe91ff156e17e403ecce4b848aa5ecb1f5911925f618f932,"ʃa
+ʃaːbh
+ʃ
+ʃa n.f. meat – viande ▶doːrka toːʃa
+kitʔat tamat niki we would cut and
+eat the meat in turn
+ʃab1 to be shod →ʃib
+ʃab2 shoes →ʃib
+ʃab3
+V2. to sharpen – aiguiser
+(sy: sal; shasi) ▶tisikkiːntoː ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-1009,ʃaʤara,ʃaʤara,tree,agr-tree,Any large woody perennial plant with a distinct trunk giving rise to branches or leaves at some distance from the ground.,03bb39076150d2f748b136a20bb9ead49ca6ae9ffbf58218c2f0e6d588724910,"ʃaʤara var. saʤara; ʃadara < Ar.
+ʃaʤar.
+pl.
+ʃaʤar;
+saʤar;
+ʃadar
+n.f. tree – arbre (ns: ʃaʤara is
+the southern variety; saʤara is
+the northern and central vari-
+eties; ʃadara is the variant of the
+Bisharayab",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-1070,ʃangal,ʃangal,knife,foo-knife,"A utensil consisting of a sharpened piece of hard material such as steel or other metal, ceramic, glass or stone, usually attached to a handle, that is formed in a manner that allows for cutting softer materials, especially meat or other food.",b5897fcf251fb5a93647bc826ea83471d864ef7b6e959a378768b6c57538b0ff,"ʃangal var. ʃingal pl. -a n.m. knife
+– couteau (sy: huːs; manan; sikkiːn)
+▶ʃangalt iːhaːjt tiːtisjaː iktʔa he
+took a knife and tore it apart (lt: he
+took a knife and made tear he cut)
+ʃanguːl pl. ʃangil n.m",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-1474,tiji,tiji,snake,ani-snake,"Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.",55f99a0fd691464a09fa00ccd396100f2cd926bf5b03910f359c93608ad34dd4,"tiji indf. tijoːt n.f. 1. snake – serpent
+(sy: kʷakʷar) ▶tuːtji tʔasarama gir-
+maːji tisaːnhoːka may you find the
+seven-headed snake! 2.
+monster;
+wild beast – monstre; bête sauvage
+(sy: ɖhaniːnaːj)
+tikir ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-1540,tirig,tirig,moon,phy-moon,A natural satellite of a planet.,5213010ce067d0ee5522c801824e16c504400e6d0b4850c84e5772f08001e5f4,"tirig n.f. moon – lune ▶tuːtrig diːseːt
+tifrʔajeː doːr naːt rhan when the
+moon rose slowly, I saw something
+n.m. 1. crescent moon – croissant
+de lune (sy: hilaːl2) ▶oːtrig haːjamja
+the crescent moon announ",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.
+afa-beja,bejaoriginal_dicoN-Z-1711,wi,wi,bee,ani-bee,Any of the membranous-winged insects which compose the superfamily Apoidea in the order Hymenoptera characterized by a hairy body and by sucking and chewing mouthparts.,65b9d2694312fc519b8a8647cfb0be02264390a8b3cf4adee148c76b53d64daf,"wi var. wiw indf. wiːt
+n.f. bee –
+abeille
+widi < Ar. waʕd. V1. to give an ap-
+pointment – donner un rendez-vous
+• widuːj n.ac.m. giving an appoint-
+ment – fait de donner un rendez-
+vous
+• wadaːj pl. wad",admit profile,S04 literal original noun sense and full entry context reviewed. Vanhove/Hamid-Ahmed2026 introduction explicitly specifies IPA. Head citation compared with published PDF; stress/tone left unmarked where source leaves predictable values implicit. Central/Southern source scope retained; no restoration of possibly lost ɛ diacritics.

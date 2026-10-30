@@ -1,0 +1,2057 @@
+{
+  "exact_readings": 293,
+  "readings": [
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-001",
+      "Form": "sapi",
+      "segments": "s a p i",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-002",
+      "Form": "ishpay",
+      "segments": "i \u0283 p a j",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-003",
+      "Form": "uya",
+      "segments": "u j a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-004",
+      "Form": "warmi",
+      "segments": "w a \u027e m i",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-005",
+      "Form": "walmi",
+      "segments": "w a l m i",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-006",
+      "Form": "qaracha",
+      "segments": "q a \u027e a t\u0283 a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-007",
+      "Form": "karacha",
+      "segments": "k a \u027e a t\u0283 a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-008",
+      "Form": "muqu",
+      "segments": "m u q u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-009",
+      "Form": "qunqur",
+      "segments": "q u n q u \u027e",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-010",
+      "Form": "wallwachuku",
+      "segments": "w a \u028e w a t\u0283 u k u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-011",
+      "Form": "liklachku",
+      "segments": "l i k l a t\u0283 k u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-012",
+      "Form": "uyqa",
+      "segments": "u j q a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-013",
+      "Form": "usha",
+      "segments": "u \u0283 a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-014",
+      "Form": "trupa",
+      "segments": "t\u0282 u p a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-015",
+      "Form": "traki",
+      "segments": "t\u0282 a k i",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-016",
+      "Form": "qiru",
+      "segments": "q i \u027e u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-017",
+      "Form": "kiru",
+      "segments": "k i \u027e u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-018",
+      "Form": "killa",
+      "segments": "k i \u028e a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-019",
+      "Form": "shimi",
+      "segments": "\u0283 i m i",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-020",
+      "Form": "shunqu",
+      "segments": "\u0283 u n q u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-021",
+      "Form": "washa",
+      "segments": "w a \u0283 a",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-022",
+      "Form": "allqu",
+      "segments": "a \u028e q u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-023",
+      "Form": "tullu",
+      "segments": "t u \u028e u",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "source_form_id": "yauyosoriginal_citation-024",
+      "Form": "lani",
+      "segments": "l a n i",
+      "profile_sha256": "c73df341ac626c641b9d662d33b4a3824d722b32939d8a696c09b8646b5b77f9"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363224",
+      "Form": "gw\u025b\u025b",
+      "segments": "\u0261\u02b7 \u025b\u0300 \u025b\u0300",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363350",
+      "Form": "k\u0264\u0264",
+      "segments": "k \u0264\u0300 \u0264\u0300",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363461",
+      "Form": "kw\u00ee\u00ee",
+      "segments": "k\u02b7 i\u0301 i\u0301",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363475",
+      "Form": "l\u00e1",
+      "segments": "\u0257 a\u030b",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363513",
+      "Form": "l\u00e9\u00e9-kw\u025b",
+      "segments": "\u0257 e\u030b e\u030b + k\u02b7 \u025b\u0300",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363653",
+      "Form": "p\u025b\u0300\u00ee",
+      "segments": "p \u025b\u030f i\u0301",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363739",
+      "Form": "s\u025b\u0301\u025b\u0301",
+      "segments": "s \u025b\u030b \u025b\u030b",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1363896",
+      "Form": "v\u0264\u0264",
+      "segments": "v \u0264\u0300 \u0264\u0300",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1364047",
+      "Form": "y\u00ed",
+      "segments": "j i\u030b",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1364062",
+      "Form": "y\u00edl\u00ed",
+      "segments": "j i\u030b \u0257 i\u030b",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "man-goo",
+      "source_form_id": "reflexrpilots_reflex-1364090",
+      "Form": "y\u00fa\u00fb",
+      "segments": "j u\u030b u\u0301",
+      "profile_sha256": "bdea7392b5d6b72bbb9d3d66a043d5e4cc3a3bc86273debcae2548e21292b077"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-98",
+      "Form": "bag\u025bna",
+      "segments": "b \u00e1 \u0263 \u025b\u0306\u0301 n \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-139",
+      "Form": "barat\u0283\u0254g\u0254\u028a",
+      "segments": "b \u00e1 r \u1eb1 t \u0283 \u0254\u0301 \u0261 \u0254\u0301 \u028a\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-158",
+      "Form": "begii",
+      "segments": "b \u00e9 \u0261 \u00ed \u00ed",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-223",
+      "Form": "b\u026a\u026a",
+      "segments": "b \u026a\u0301 \u026a\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-316",
+      "Form": "b\u028a\u026a",
+      "segments": "b \u028a\u0301 \u026a\u0300",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-329",
+      "Form": "b\u028a\u0254ga",
+      "segments": "b \u028a\u0300 \u0254\u0300 \u0261 \u00e0",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-469",
+      "Form": "d\u026aa",
+      "segments": "d \u026a\u0300 \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-482",
+      "Form": "d\u026ag\u026ana",
+      "segments": "d \u026a\u0300 \u0261 \u026a\u0300 n \u00e0",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-534",
+      "Form": "duo\u014b",
+      "segments": "d \u00fa \u00f2 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-982",
+      "Form": "hagl\u026ak\u026a\u014b",
+      "segments": "h \u00e1 \u0263 l \u026a\u0301 k \u026a\u0300 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1023",
+      "Form": "h\u025b\u0303\u014b",
+      "segments": "h \u025b\u0303\u0301 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1052",
+      "Form": "hog",
+      "segments": "h \u00f3 \u0261",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1134",
+      "Form": "j\u026asa",
+      "segments": "j \u026a\u0300 s \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1269",
+      "Form": "kisie",
+      "segments": "k \u00ed s \u00ec \u00e9",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1323",
+      "Form": "kokolu\u014b",
+      "segments": "k \u00f2 k \u00f3 l \u00fa \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1476",
+      "Form": "kp\u00e3\u00e3\u014b",
+      "segments": "k p \u00e3\u0301 \u00e3\u0301 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1534",
+      "Form": "kpibii",
+      "segments": "k p \u012d\u0300 b \u00ed \u00ec",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1746",
+      "Form": "luto",
+      "segments": "l \u00f9 t \u00f3",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1762",
+      "Form": "m\u00e3\u00e3",
+      "segments": "m \u00e3\u0300 \u00e3\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1830",
+      "Form": "m\u026a\u0303\u026a\u0303sa",
+      "segments": "m \u026a\u0303\u0300 \u026a\u0303\u0300 s \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1839",
+      "Form": "m\u026a\u014bm\u025bna",
+      "segments": "m \u026a\u0301 \u014b m \u025b\u0301 n \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1917",
+      "Form": "n\u00e3\u00e3h\u0169\u0169",
+      "segments": "n \u00e3\u0300 \u00e3\u0300 h \u1e79 \u0169\u0300",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-1935",
+      "Form": "n\u00e3\u00e3p\u026a\u025bl",
+      "segments": "n \u00e3\u0300 \u00e3\u0300 p \u026a\u0301 \u025b\u0300 l",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2031",
+      "Form": "nep\u026a\u025bl",
+      "segments": "n \u00e9 p \u026a\u0301 \u025b\u0300 l",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2076",
+      "Form": "n\u026a\u026a",
+      "segments": "n \u026a\u0301 \u026a\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2132",
+      "Form": "n\u028a\u0303\u00e3",
+      "segments": "n \u028a\u0303\u0300 \u00e3\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2135",
+      "Form": "n\u028a\u0303\u00e3t\u026a\u026ana",
+      "segments": "n \u028a\u0303\u0300 \u00e3\u0300 t \u026a\u0301 \u026a\u0301 n \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2160",
+      "Form": "n\u028az\u028al\u028a\u014b",
+      "segments": "n \u028a\u0300 z \u028a\u0301 l \u028a\u0301 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2183",
+      "Form": "\u0272amm\u026a\u026a",
+      "segments": "\u0272 \u00e0 m m \u026a\u0301 \u026a\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2202",
+      "Form": "\u0272inee",
+      "segments": "\u0272 \u00ed n \u1ebd\u0301 \u1ebd\u0300",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2213",
+      "Form": "\u0272\u026ana",
+      "segments": "\u0272 \u026a\u0301 n \u00e0",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2220",
+      "Form": "\u0272\u026a\u014b",
+      "segments": "\u0272 \u026a\u0301 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2221",
+      "Form": "\u0272\u026a\u014bdaa",
+      "segments": "\u0272 \u026a\u0301 n d \u00e1 \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2240",
+      "Form": "\u0272uu",
+      "segments": "\u0272 \u00fa \u00f9",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2252",
+      "Form": "\u0272\u028a\u0303\u00e3sa",
+      "segments": "\u0272 \u028a\u0303\u0300 \u00e3\u0300 s \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2270",
+      "Form": "\u014bm\u025b\u014b",
+      "segments": "\u014b m \u025b\u0301 \u014b\u0300",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2273",
+      "Form": "\u014bm\u025b\u014bt\u025bl",
+      "segments": "\u014b m \u025b\u0301 \u014b t \u025b\u0301 l",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2316",
+      "Form": "paat\u0283ag",
+      "segments": "p \u00e0 \u00e0 t \u0283 \u00e1 k",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2377",
+      "Form": "peu",
+      "segments": "p \u00e8 \u00fa",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2389",
+      "Form": "p\u025bna",
+      "segments": "p \u025b\u0300 n \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2434",
+      "Form": "p\u026a\u026a",
+      "segments": "p \u026a\u0301 \u026a\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2523",
+      "Form": "s\u00e3\u00e3",
+      "segments": "s \u00e3\u0300 \u00e3\u0301",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2549",
+      "Form": "sankara",
+      "segments": "s \u00e1 \u01f9 k \u00e1 r \u00e1",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2731",
+      "Form": "s\u0254\u014b",
+      "segments": "s \u0254\u0301 \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2808",
+      "Form": "taal",
+      "segments": "t \u00e1 \u00e1 l",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-2895",
+      "Form": "ti\u014b",
+      "segments": "t \u00ed \u014b",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-3021",
+      "Form": "t\u0169\u0169bii",
+      "segments": "t \u0169\u0300 \u0169\u0300 b \u00ed \u00ed",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-3087",
+      "Form": "t\u0283al",
+      "segments": "t \u0283 \u00e1 l\u0300",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-3280",
+      "Form": "vaa",
+      "segments": "v \u00e1 \u00e0",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-3454",
+      "Form": "zaar",
+      "segments": "z \u00e1 \u00e1 r",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-chakali",
+      "source_form_id": "chakalioriginal_dictionary-3540",
+      "Form": "zo\u014bgoree",
+      "segments": "z \u00f3 \u014b \u0261 \u00f2 r \u00e9 \u00e8",
+      "profile_sha256": "05624bf83c91c841506acccec0690628841ec408c266de2dc0216cd2094a66ba"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_b-6",
+      "Form": "ba",
+      "segments": "b \u00e2",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_b-8",
+      "Form": "baa",
+      "segments": "b \u00e1 \u00e1",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_b-59",
+      "Form": "bad\u025bre",
+      "segments": "b \u00e1 d \u025b\u0301 r \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_b-335",
+      "Form": "biiree",
+      "segments": "b \u00ec \u00ec r \u00e9 \u00e9",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_b-812",
+      "Form": "boze\u025b",
+      "segments": "b \u028a\u0300 z \u026a\u0301 \u025b\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_d-191",
+      "Form": "danyagere",
+      "segments": "d \u00e0 \u0272 \u00e1 \u0261 r \u026a",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_d-527",
+      "Form": "duni",
+      "segments": "d \u00fa n \u00ed",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_e-2",
+      "Form": "eele",
+      "segments": "\u026a\u0301 \u026a\u0301 l \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_g-27",
+      "Form": "galegale",
+      "segments": "\u0261 \u00e1 l \u026a\u0301 \u0261 \u00e1 l \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_gb-95",
+      "Form": "gb\u025blee",
+      "segments": "\u0261 b \u025b\u0301 l \u00e9 \u00e9",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_gb-134",
+      "Form": "gbo",
+      "segments": "\u0261 b \u00f4",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-55",
+      "Form": "kala",
+      "segments": "k \u00e0 l \u00e0",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-80",
+      "Form": "kamaane",
+      "segments": "k \u00e0 m \u00e1 \u00e1 n \u026a\u0300",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-199",
+      "Form": "kere",
+      "segments": "k \u00e8 r \u00e9",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-306",
+      "Form": "ko\u014b-\u0254\u0254-mo\u0254",
+      "segments": "k \u028a\u0301 \u014b + \u0254\u0301 \u0254\u0301 + m \u028a\u0301 \u0254\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-313",
+      "Form": "k\u00f5\u0254",
+      "segments": "k \u028a\u0303\u0301 \u0254\u0303\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-470",
+      "Form": "k\u0254\u014bk\u0254re",
+      "segments": "k \u0254\u0300 \u014b k \u0254\u0300 r \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-479",
+      "Form": "k\u0254\u0254re",
+      "segments": "k \u0254\u0301 \u0254\u0301 r \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-482",
+      "Form": "k\u0254\u0254y\u025b",
+      "segments": "k \u0254\u0301 \u0254\u0301 y \u025b\u0300",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-558",
+      "Form": "kusiri",
+      "segments": "k \u00fa s \u00ed r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_k-570",
+      "Form": "kuuri",
+      "segments": "k \u00fa \u00fa r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_kp-44",
+      "Form": "kpale\u014bkpaa",
+      "segments": "k p \u00e0 l \u026a\u0300 \u014b k p \u00e0 \u00e1",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ky-219",
+      "Form": "kyuu",
+      "segments": "t\u0283 \u00fa \u00f9",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_l-55",
+      "Form": "lare",
+      "segments": "l \u00e1 r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_m-263",
+      "Form": "muri",
+      "segments": "m \u00fa r \u00ed",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_n-225",
+      "Form": "n\u025bne",
+      "segments": "n \u025b\u0301 n \u026a\u0300",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_n-265",
+      "Form": "nimiri",
+      "segments": "n \u00ed m \u00ed r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_n-289",
+      "Form": "no\u0254re",
+      "segments": "n \u028a\u0301 \u0254\u0301 r \u00e8",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_n-373",
+      "Form": "n\u0254wogi",
+      "segments": "n \u0254\u0301 w \u00f3 \u0261 \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_n-412",
+      "Form": "nuulee",
+      "segments": "n \u00fa \u00fa l \u00e9 \u00e9",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ngm-31",
+      "Form": "\u014bmand\u025bre",
+      "segments": "\u014b m \u00e1 n d \u025b\u0301 r \u00e8",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ngm-40",
+      "Form": "\u014bmaraa",
+      "segments": "\u014b m \u00e1 r \u00e0 \u00e0",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ngm-58",
+      "Form": "\u014bmenaa",
+      "segments": "\u014b m \u026a\u0301 n \u00e0 \u00e1",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ny-70",
+      "Form": "nyeraa",
+      "segments": "\u0272 \u00ec r \u00e1 \u00e1",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ny-93",
+      "Form": "ny\u025bnno\u014b",
+      "segments": "\u0272 \u025b\u0300 n n \u028a\u0301 \u014b",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ny-129",
+      "Form": "nyoore",
+      "segments": "\u0272 \u028a\u0300 \u028a\u0301 r \u026a\u0300",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ny-137",
+      "Form": "nyo\u0254re",
+      "segments": "\u0272 \u028a\u0301 \u0254\u0301 r \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ny-167",
+      "Form": "nyuu",
+      "segments": "\u0272 \u00fa \u00fa",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_ny-173",
+      "Form": "nyuuri",
+      "segments": "\u0272 \u00fa \u00fa r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_p-230",
+      "Form": "p\u0129i",
+      "segments": "p \u0129\u0301 \u0129\u0300",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_s-176",
+      "Form": "sebiri",
+      "segments": "s \u026a\u0301 b \u00ed r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_s-364",
+      "Form": "so\u0254",
+      "segments": "s \u028a\u0301 \u0254\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_s-424",
+      "Form": "sukyiri",
+      "segments": "s \u00f9 t\u0283 \u00ed r \u00ed",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_t-65",
+      "Form": "tammo",
+      "segments": "t \u00e1 m m \u028a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_t-70",
+      "Form": "tamp\u025blo\u014b",
+      "segments": "t \u00e0 m p \u025b\u0300 l \u028a\u0300 \u014b",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_t-133",
+      "Form": "te\u025b",
+      "segments": "t \u026a\u0300 \u025b\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_t-176",
+      "Form": "tensog\u0254",
+      "segments": "t \u026a\u0302 n s \u028a\u0301 \u0261 \u0254\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_t-313",
+      "Form": "toori",
+      "segments": "t \u00f2 \u00f2 r \u00ed",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_v-5",
+      "Form": "vaa",
+      "segments": "v \u00e1 \u00e0",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_v-163",
+      "Form": "v\u0169u",
+      "segments": "v \u0169\u0300 \u1e79",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_w-4",
+      "Form": "waa",
+      "segments": "w \u00e0 \u00e1",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_w-6",
+      "Form": "waabo",
+      "segments": "w \u00e1 \u00e1 b \u028a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_w-82",
+      "Form": "wer\u025b",
+      "segments": "w \u026a\u0301 r \u025b\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_y-18",
+      "Form": "yaaro\u014b",
+      "segments": "y \u00e0 \u00e0 r \u028a\u0302 \u014b",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_y-132",
+      "Form": "yensog\u0254",
+      "segments": "y \u00e9 n s \u028a\u0301 \u0261 \u0254\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_y-264",
+      "Form": "yuori",
+      "segments": "y \u01d4 \u00f3 r \u00ec",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_z-34",
+      "Form": "zammuli",
+      "segments": "z \u00e0 m m \u00fa l \u00ed",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_z-65",
+      "Form": "z\u1ebde",
+      "segments": "z \u026a\u0303\u0301 \u026a\u0303\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_z-93",
+      "Form": "zele",
+      "segments": "z \u026a\u0300 l \u026a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_z-196",
+      "Form": "zommo",
+      "segments": "z \u028a\u0301 m m \u028a\u0301",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_z-223",
+      "Form": "z\u0254",
+      "segments": "z \u0254\u030c",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "source_form_id": "dagaareoriginal_z-250",
+      "Form": "zu",
+      "segments": "z \u00fb",
+      "profile_sha256": "0541f8754b8108a26c58a88e950071b4ffd442933b0598ba086d75d693e851a8"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-4",
+      "Form": "aba\u02d0da",
+      "segments": "a b a\u02d0 d a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-647",
+      "Form": "\u0294aji",
+      "segments": "\u0294 a j i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-828",
+      "Form": "\u0294asfu\u02d0r",
+      "segments": "\u0294 a s f u\u02d0 r",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-840",
+      "Form": "\u0294assi",
+      "segments": "\u0294 a s s i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-854",
+      "Form": "\u0294a\u02d0\u0283i",
+      "segments": "\u0294 a\u02d0 \u0283 i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-889",
+      "Form": "\u0294awi",
+      "segments": "\u0294 a w i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-932",
+      "Form": "\u0294e\u02d0\u0283arri\u02d0f",
+      "segments": "\u0294 e\u02d0 \u0283 a r r i\u02d0 f",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-970",
+      "Form": "\u0294i\u02d0li",
+      "segments": "\u0294 i\u02d0 l i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-1036",
+      "Form": "ba\u02d0ba",
+      "segments": "b a\u02d0 b a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-1488",
+      "Form": "d\u0294a",
+      "segments": "d \u0294 a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-1986",
+      "Form": "fa\u02d0s",
+      "segments": "f a\u02d0 s",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-2104",
+      "Form": "ga\u02d0ba",
+      "segments": "\u0261 a\u02d0 b a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-2256",
+      "Form": "gaw",
+      "segments": "\u0261 a w",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-2335",
+      "Form": "gin\u0294a",
+      "segments": "\u0261 i n \u0294 a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-2364",
+      "Form": "girma",
+      "segments": "\u0261 i r m a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoA-G-2452",
+      "Form": "g\u02b7imba",
+      "segments": "\u0261\u02b7 i m b a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-308",
+      "Form": "handi",
+      "segments": "h a n d i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-317",
+      "Form": "hang\u0294ani",
+      "segments": "h a n \u0261 \u0294 a n i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-411",
+      "Form": "ha\u02d0sim",
+      "segments": "h a\u02d0 s i m",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-573",
+      "Form": "hu\u02d0s",
+      "segments": "h u\u02d0 s",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-645",
+      "Form": "jam",
+      "segments": "j a m",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-652",
+      "Form": "ja\u02d0s",
+      "segments": "j a\u02d0 s",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-689",
+      "Form": "jin",
+      "segments": "j i n",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1022",
+      "Form": "k\u02b7ak\u02b7ar",
+      "segments": "k\u02b7 a k\u02b7 a r",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1246",
+      "Form": "la\u02d0t",
+      "segments": "l a\u02d0 t",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1351",
+      "Form": "li\u02d0li",
+      "segments": "l i\u02d0 l i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1379",
+      "Form": "lu\u02d0l",
+      "segments": "l u\u02d0 l",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1606",
+      "Form": "m\u0294agi",
+      "segments": "m \u0294 a \u0261 i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1699",
+      "Form": "mi\u02d0da\u02d0b",
+      "segments": "m i\u02d0 d a\u02d0 b",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1743",
+      "Form": "mi\u02d0lak",
+      "segments": "m i\u02d0 l a k",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoH-M-1848",
+      "Form": "mi\u02d0ta\u02d0t",
+      "segments": "m i\u02d0 t a\u02d0 t",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-228",
+      "Form": "ni\u02d0wa",
+      "segments": "n i\u02d0 w a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-380",
+      "Form": "riba",
+      "segments": "r i b a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-759",
+      "Form": "sija\u02d0m",
+      "segments": "s i j a\u02d0 m",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-775",
+      "Form": "sikki\u02d0n",
+      "segments": "s i k k i\u02d0 n",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-988",
+      "Form": "\u0283a",
+      "segments": "\u0283 a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-1009",
+      "Form": "\u0283a\u02a4ara",
+      "segments": "\u0283 a d\u0292 a r a",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-1070",
+      "Form": "\u0283angal",
+      "segments": "\u0283 a n \u0261 a l",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-1474",
+      "Form": "tiji",
+      "segments": "t i j i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-1540",
+      "Form": "tirig",
+      "segments": "t i r i \u0261",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "afa-beja",
+      "source_form_id": "bejaoriginal_dicoN-Z-1711",
+      "Form": "wi",
+      "segments": "w i",
+      "profile_sha256": "0dc311fee3018d6745b645a34f28cd826088333e1449fad17b22425d33f53b3b"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-4",
+      "Form": "ad\u0119\u0301h\u0119\u02c0",
+      "segments": "\u0251 d \u025b\u0303\u0301 h \u025b\u0303 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-14",
+      "Form": "ad\u00f3da:\u02c0",
+      "segments": "\u0251 d o\u0301 d \u0251\u02d0 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-35",
+      "Form": "o\u02c0\u00e1hsa\u02c0",
+      "segments": "o \u0294 \u0251\u0301 h s \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-37",
+      "Form": "ahsgwa\u02c0",
+      "segments": "\u0251 h s \u0261 w \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-58",
+      "Form": "aw\u0119\u0301h\u0119\u02c0",
+      "segments": "\u0251 w \u025b\u0303\u0301 h \u025b\u0303 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-69",
+      "Form": "o\u02c0\u0119\u0301:na\u02c0",
+      "segments": "o \u0294 \u025b\u0303\u0301\u02d0 n \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-78",
+      "Form": "og\u00e1ha\u02c0",
+      "segments": "o \u0261 \u0251\u0301 h \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-149",
+      "Form": "ohsda:\u02c0",
+      "segments": "o h s d \u0251\u02d0 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-157",
+      "Form": "ohsg\u00e9ha\u02c0",
+      "segments": "o h s \u0261 e\u0301 h \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-249",
+      "Form": "o\u02c0n\u00e9hsa\u02c0",
+      "segments": "o \u0294 n e\u0301 h s \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-281",
+      "Form": "gan\u01eb\u0301hsa\u02c0",
+      "segments": "\u0261 \u0251 n o\u0303\u0301 h s \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-289",
+      "Form": "onr\u00e1hda\u02c0",
+      "segments": "o n \u0279 \u0251\u0301 h d \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-300",
+      "Form": "o\u02c0ny\u01eb\u0301hsa\u02c0",
+      "segments": "o \u0294 n j o\u0303\u0301 h s \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-321",
+      "Form": "osh\u00e1ihsda\u02c0",
+      "segments": "o s h \u0251\u0301 i h s d \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-435",
+      "Form": "o\u02c0\u00e1hs\u02c0a\u02c0",
+      "segments": "o \u0294 \u0251\u0301 h s \u0294 \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-440",
+      "Form": "og\u00e1ha\u02c0",
+      "segments": "o \u0261 \u0251\u0301 h \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-459",
+      "Form": "o\u02c0ny\u01eb\u0301hsa\u02c0",
+      "segments": "o \u0294 n j o\u0303\u0301 h s \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-465",
+      "Form": "oks\u00e9\u02c0da\u02c0",
+      "segments": "o k\u02b0 s e\u0301 \u0294 d \u0251 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "source_form_id": "cayugaoriginal_noun_dictionary-470",
+      "Form": "on\u01eb\u0301\u02c0a:\u02c0",
+      "segments": "o n o\u0303\u0301 \u0294 \u0251\u02d0 \u0294",
+      "profile_sha256": "1d84f0e5dd311ba72c7b64037d19ce1787fbe113b4cb2aabb3b6f73d772e231a"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-001",
+      "Form": "khe\u0294ma",
+      "segments": "k\u02b0 e \u0294 m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-002",
+      "Form": "pi\u0294ma",
+      "segments": "p i \u0294 m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-003",
+      "Form": "cama",
+      "segments": "ts a m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-004",
+      "Form": "khu\u0294ma",
+      "segments": "k\u02b0 u \u0294 m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-005",
+      "Form": "uma",
+      "segments": "u m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-006",
+      "Form": "sima",
+      "segments": "s i m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-007",
+      "Form": "pha\u0294ma",
+      "segments": "p\u02b0 a \u0294 m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-008",
+      "Form": "lok",
+      "segments": "l o k",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-009",
+      "Form": "khorek",
+      "segments": "k\u02b0 o r e k",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-010",
+      "Form": "calo\u014b",
+      "segments": "ts a l o \u014b",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-011",
+      "Form": "khelek",
+      "segments": "k\u02b0 e l e k",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-012",
+      "Form": "caram",
+      "segments": "ts a r a m",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-013",
+      "Form": "yum",
+      "segments": "j u m",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-014",
+      "Form": "twa",
+      "segments": "t w a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-015",
+      "Form": "cwa",
+      "segments": "ts w a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-016",
+      "Form": "nwak",
+      "segments": "n w a k",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-017",
+      "Form": "kamnibak",
+      "segments": "k a m n i b a k",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-018",
+      "Form": "tama",
+      "segments": "t a m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-019",
+      "Form": "chu\u0294ma",
+      "segments": "ts\u02b0 u \u0294 m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-020",
+      "Form": "chepma",
+      "segments": "ts\u02b0 e p m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-021",
+      "Form": "imma",
+      "segments": "i m m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-022",
+      "Form": "phak",
+      "segments": "p\u02b0 a k",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-023",
+      "Form": "yepma",
+      "segments": "j e p m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-024",
+      "Form": "pekma",
+      "segments": "p e k m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-025",
+      "Form": "cimma",
+      "segments": "ts i m m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-026",
+      "Form": "chimma",
+      "segments": "ts\u02b0 i m m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-027",
+      "Form": "tumma",
+      "segments": "t u m m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-028",
+      "Form": "tu\u014bma",
+      "segments": "t u \u014b m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "source_form_id": "yakkhaoriginal_citation-029",
+      "Form": "nakma",
+      "segments": "n a k m a",
+      "profile_sha256": "c5a63ea2377d2d54240c5edb65ef81e050b2d409108b1a966ccc71b5510fdbca"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p7-waka",
+      "Form": "waka",
+      "segments": "w a k a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p7-girri",
+      "Form": "girri",
+      "segments": "\u0261 i r i",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p7-mirri",
+      "Form": "mirri",
+      "segments": "m i r i",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p7-wiyi",
+      "Form": "wiyi",
+      "segments": "w i j i",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p7-bunu",
+      "Form": "bunu",
+      "segments": "b u n u",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p8-babadya",
+      "Form": "babadya",
+      "segments": "b a b a \u025f a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p8-gula",
+      "Form": "gula",
+      "segments": "\u0261 u l a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p8-mala",
+      "Form": "mala",
+      "segments": "m a l a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p8-yanggu",
+      "Form": "yanggu",
+      "segments": "j a \u014b \u0261 u",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p9-ngapa",
+      "Form": "ngapa",
+      "segments": "\u014b a p a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p9-manga",
+      "Form": "manga",
+      "segments": "m a \u014b a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p10-nguthi",
+      "Form": "nguthi",
+      "segments": "\u014b u t\u032a i",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-birta",
+      "Form": "birta",
+      "segments": "b i \u0288 a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-warta",
+      "Form": "warta",
+      "segments": "w a \u0288 a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-warnpa",
+      "Form": "warnpa",
+      "segments": "w a \u0273 p a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-barna",
+      "Form": "barna",
+      "segments": "b a \u0273 a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-durlku",
+      "Form": "durlku",
+      "segments": "\u0256 u \u026d k u",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-gurlu",
+      "Form": "gurlu",
+      "segments": "\u0261 u \u026d u",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-burra",
+      "Form": "burra",
+      "segments": "b u r a",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "source_form_id": "kullillioriginal_p12-garri",
+      "Form": "garri",
+      "segments": "\u0261 a r i",
+      "profile_sha256": "2f14a56cb2519c5be63d824a521167fc1ee9305d7595060f333b590550bf9eb5"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-110",
+      "Form": "aua",
+      "segments": "a w a",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-126",
+      "Form": "bab",
+      "segments": "b a\u02d0 b",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-293",
+      "Form": "crap",
+      "segments": "k r a p",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-303",
+      "Form": "c\u00faa",
+      "segments": "k u \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-334",
+      "Form": "c\u00f9p",
+      "segments": "k \u028a p",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-335",
+      "Form": "c\u00f9pa",
+      "segments": "k \u028a p \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-337",
+      "Form": "c\u00f9r",
+      "segments": "k \u028a\u02d0 r",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-401",
+      "Form": "dian",
+      "segments": "d i \u0250 n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-453",
+      "Form": "\u00e9\u1e63ch",
+      "segments": "e \u0292",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-507",
+      "Form": "fjuc",
+      "segments": "f j u k",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-530",
+      "Form": "frina",
+      "segments": "f r i\u02d0 n \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-624",
+      "Form": "ia\u1e63",
+      "segments": "i \u0250 z",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-651",
+      "Form": "jarva",
+      "segments": "j a r v \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-825",
+      "Form": "m\u00f9ma",
+      "segments": "m \u028a m \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-868",
+      "Form": "nibla",
+      "segments": "n i\u02d0 b l \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-932",
+      "Form": "paj",
+      "segments": "p a j",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-976",
+      "Form": "paun",
+      "segments": "p a w n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1046",
+      "Form": "p\u00f2rta",
+      "segments": "p \u0254 r t \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1143",
+      "Form": "rauna",
+      "segments": "r a w n \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1241",
+      "Form": "saun",
+      "segments": "s a w n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1484",
+      "Form": "tgarn",
+      "segments": "t\u0255 a r n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1486",
+      "Form": "tgau",
+      "segments": "t\u0255 a w",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1489",
+      "Form": "tgaun",
+      "segments": "t\u0255 a w n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1501",
+      "Form": "tg\u00e9rn",
+      "segments": "t\u0255 e r n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1669",
+      "Form": "vitg",
+      "segments": "v i\u02d0 t\u0255",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1674",
+      "Form": "vjantar",
+      "segments": "v j a n t \u0250 r",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-315",
+      "Form": "culiaz",
+      "segments": "k u l i \u0250 ts",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-331",
+      "Form": "cunt\u00ed",
+      "segments": "k u n t i\u02d0",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-469",
+      "Form": "falian",
+      "segments": "f \u0250 l i \u0250 n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-549",
+      "Form": "gan\u00f9glja",
+      "segments": "\u0261 \u0250 n \u028a \u028e \u0250",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-937",
+      "Form": "paliat",
+      "segments": "p \u0250 l i \u0250 t",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1176",
+      "Form": "sabl\u00fan",
+      "segments": "s a b l u n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1203",
+      "Form": "sal\u00edn",
+      "segments": "s \u0250 l i n",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1414",
+      "Form": "suj\u00e8t",
+      "segments": "s u j \u025b t",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1415",
+      "Form": "sul\u00e9gl",
+      "segments": "s u l e \u028e",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "source_form_id": "tuatschinoriginal_entry-1619",
+      "Form": "utsch\u00ed",
+      "segments": "u t\u0283 i\u02d0",
+      "profile_sha256": "0b24b405176387836230124869f8d251cbdb9f871c07b371a2c3c39e2ac68b6c"
+    }
+  ],
+  "upstream_profile_hashes": 10
+}

@@ -1,0 +1,307 @@
+{
+  "before": {
+    "varieties": 7349,
+    "forms": 2073083,
+    "source_forms": 1748366,
+    "profile_forms": 14768,
+    "supported_core": 469615,
+    "mapped_core": 543589,
+    "mapped_all_concepts": 1336371,
+    "supported_all_concepts": 1208783,
+    "gled_primaries": 1558,
+    "core_source_varieties": 918
+  },
+  "after": {
+    "varieties": 7361,
+    "forms": 2074099,
+    "source_forms": 1748767,
+    "profile_forms": 15061,
+    "supported_core": 470046,
+    "mapped_core": 544131,
+    "mapped_all_concepts": 1337083,
+    "supported_all_concepts": 1209312,
+    "gled_primaries": 1555,
+    "core_source_varieties": 918
+  },
+  "delta": {
+    "varieties": 12,
+    "forms": 1016,
+    "source_forms": 401,
+    "profile_forms": 293,
+    "supported_core": 431,
+    "mapped_core": 542,
+    "mapped_all_concepts": 712,
+    "supported_all_concepts": 529,
+    "gled_primaries": -3,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "afa-beja",
+      "forms_before": 116,
+      "forms_after": 157,
+      "supported_core_before": 38,
+      "supported_core_after": 55,
+      "primary_before": "gled",
+      "primary_after": "bejaoriginal"
+    },
+    {
+      "av_id": "and-andaqui",
+      "forms_before": 163,
+      "forms_after": 210,
+      "supported_core_before": 85,
+      "supported_core_after": 85,
+      "primary_before": "johanssonsoundsymbolic",
+      "primary_after": "johanssonsoundsymbolic"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "forms_before": 33,
+      "forms_after": 95,
+      "supported_core_before": 28,
+      "supported_core_after": 49,
+      "primary_before": "gled",
+      "primary_after": "dagaareoriginal"
+    },
+    {
+      "av_id": "atl-chakali",
+      "forms_before": 44,
+      "forms_after": 95,
+      "supported_core_before": 37,
+      "supported_core_after": 57,
+      "primary_before": "gled",
+      "primary_after": "chakalioriginal"
+    },
+    {
+      "av_id": "atl-eton-mengisa",
+      "forms_before": 342,
+      "forms_after": 396,
+      "supported_core_before": 76,
+      "supported_core_after": 76,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "atl-gaa",
+      "forms_before": 0,
+      "forms_after": 50,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexsnew"
+    },
+    {
+      "av_id": "atl-ginyanga",
+      "forms_before": 0,
+      "forms_after": 36,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexsnew"
+    },
+    {
+      "av_id": "atl-gula-iro",
+      "forms_before": 0,
+      "forms_after": 21,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "reflexsnew"
+    },
+    {
+      "av_id": "atl-kwakum",
+      "forms_before": 98,
+      "forms_after": 149,
+      "supported_core_before": 74,
+      "supported_core_after": 74,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "atl-viya",
+      "forms_before": 100,
+      "forms_after": 116,
+      "supported_core_before": 76,
+      "supported_core_after": 76,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "atl-zimbabwean-ndebele",
+      "forms_before": 159,
+      "forms_after": 199,
+      "supported_core_before": 38,
+      "supported_core_after": 38,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "ine-tuatschin",
+      "forms_before": 0,
+      "forms_after": 38,
+      "supported_core_before": 0,
+      "supported_core_after": 24,
+      "primary_before": "",
+      "primary_after": "tuatschinoriginal"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "forms_before": 41,
+      "forms_after": 74,
+      "supported_core_before": 38,
+      "supported_core_after": 45,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "man-goo",
+      "forms_before": 24,
+      "forms_after": 24,
+      "supported_core_before": 0,
+      "supported_core_after": 11,
+      "primary_before": "reflexrpilots",
+      "primary_after": "reflexrpilots"
+    },
+    {
+      "av_id": "map-idate",
+      "forms_before": 0,
+      "forms_after": 38,
+      "supported_core_before": 0,
+      "supported_core_after": 37,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "map-kalao",
+      "forms_before": 0,
+      "forms_after": 57,
+      "supported_core_before": 0,
+      "supported_core_after": 43,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "map-kolor",
+      "forms_before": 0,
+      "forms_after": 46,
+      "supported_core_before": 0,
+      "supported_core_after": 40,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "map-lole",
+      "forms_before": 0,
+      "forms_after": 50,
+      "supported_core_before": 0,
+      "supported_core_after": 42,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "map-ringgou",
+      "forms_before": 0,
+      "forms_after": 35,
+      "supported_core_before": 0,
+      "supported_core_after": 33,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "map-tii",
+      "forms_before": 0,
+      "forms_after": 48,
+      "supported_core_before": 0,
+      "supported_core_after": 39,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "map-welaun",
+      "forms_before": 0,
+      "forms_after": 47,
+      "supported_core_before": 0,
+      "supported_core_after": 41,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    },
+    {
+      "av_id": "pny-bulloo-river",
+      "forms_before": 202,
+      "forms_after": 224,
+      "supported_core_before": 108,
+      "supported_core_after": 110,
+      "primary_before": "bowernpny",
+      "primary_after": "bowernpny"
+    },
+    {
+      "av_id": "qwe-yauyos-quechua",
+      "forms_before": 151,
+      "forms_after": 175,
+      "supported_core_before": 101,
+      "supported_core_after": 101,
+      "primary_before": "crossandean",
+      "primary_after": "crossandean"
+    },
+    {
+      "av_id": "sit-yakkha",
+      "forms_before": 267,
+      "forms_after": 296,
+      "supported_core_before": 43,
+      "supported_core_after": 47,
+      "primary_before": "lsi",
+      "primary_after": "lsi"
+    },
+    {
+      "av_id": "tim-hamap",
+      "forms_before": 38,
+      "forms_after": 80,
+      "supported_core_before": 36,
+      "supported_core_after": 57,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "tim-sar-indonesia",
+      "forms_before": 0,
+      "forms_after": 38,
+      "supported_core_before": 0,
+      "supported_core_after": 29,
+      "primary_before": "",
+      "primary_after": "lexirumahoriginal"
+    }
+  ],
+  "all_earlier_records_native_readings_cognacy_preserved": 2073083,
+  "explicit_prior_written_reading_recoveries": 11,
+  "authored_goo_comment_role_changes": 24,
+  "authored_goo_quality_score_changes": 0,
+  "unreviewed_changes": 0,
+  "earlier_concept_mapping_changes": 0,
+  "new_records": 1016,
+  "new_records_by_status": {
+    "profile": 282,
+    "unclean": 333,
+    "source": 401
+  },
+  "new_supported_slots": 529,
+  "new_supported_core_slots": 431,
+  "new_canonical_languages": 11,
+  "new_named_varieties": 1,
+  "new_intake_rows": 161344,
+  "intake_total_rows": 7421039,
+  "primary_changes": 3,
+  "all_previous_gled_records_preserved": 193,
+  "artifact_hashes_checked": 401,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09"
+  ]
+}

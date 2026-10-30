@@ -7345,3 +7345,15 @@ gua-proto-guaicuruan-johd,,,Proto-Guaicuruan (JOHD reconstruction),,Guaicuruan,S
 afa-buu,zara1252,zbu,Bu (Zaranda),,Afro-Asiatic,Africa,10.28,9.57,true,R02 exact original RefLex member pilot; written only.
 atl-ndoola,ndoo1241,ndr,Ndoola,,Atlantic-Congo,Africa,7.2884,11.3096,true,R02 exact original RefLex member pilot; written only.
 man-goo,gooa1234,gov,Goo,,Mande,Africa,7.580998,-7.562563,true,R02 exact original RefLex member pilot; written only.
+atl-gaa,gaaa1245,ttb,Gaa,,Atlantic-Congo,Africa,8.4809,11.9603,true,S02 original RefLex source 1352; written lexical pilot.
+atl-gula-iro,gula1265,glj,Gula Iro,,Atlantic-Congo,Africa,10.267,19.5359,true,S02 original RefLex source 363; written lexical pilot.
+atl-ginyanga,giny1241,ayg,Ginyanga,,Atlantic-Congo,Africa,8.2327,0.98348,true,S02 original RefLex source 3563; written lexical pilot.
+map-welaun,wela1235,wlh,Welaun,,Austronesian,Papunesia,-9.097288,125.239513,true,S06 original LexiRumah lect west2547-welaun; upstream-profile evidence.
+map-idate,idat1237,idt,Idaté,,Austronesian,Papunesia,-8.76258,125.832,true,S06 original LexiRumah lect idat1237; upstream-profile evidence.
+map-lole,lole1239,llg,Lole,,Austronesian,Papunesia,-10.8069,123.085,true,S06 original LexiRumah lect lole1239; upstream-profile evidence.
+map-ringgou,ring1244,rgu,Ringgou,,Austronesian,Papunesia,-10.5515,123.311,true,S06 original LexiRumah lect ring1244; upstream-profile evidence.
+map-tii,tiii1241,txq,Tii,,Austronesian,Papunesia,-10.8425,122.963,true,S06 original LexiRumah lect tiii1241; upstream-profile evidence.
+tim-sar-indonesia,sarr1247,,Sar (Indonesia),,Timor-Alor-Pantar,Papunesia,-8.33,124.42,true,S06 original LexiRumah lect sarr1247; upstream-profile evidence.
+map-kolor,waer1237,wrx,Kolor,,Austronesian,Papunesia,-8.78645,120.70299,true,S06 original LexiRumah lect waer1237; upstream-profile evidence.
+map-kalao,kala1394,kly,Kalao,,Austronesian,Papunesia,-7.31213,120.995,true,S06 original LexiRumah lect kala1394; upstream-profile evidence.
+ine-tuatschin,surs1244,,Tuatschin,ine-sursilvan,Indo-European,Eurasia,,,false,"S09 named dialect under Sursilvan; exact original Tuatschin source member, no independent Glottocode. Location remains unspecified rather than borrowing a parent centroid."

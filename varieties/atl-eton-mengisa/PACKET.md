@@ -1,0 +1,5 @@
+# atl-eton-mengisa
+
+## S03 original Bantu dictionary evidence
+
+54 literal noun citations added. S03 literal original noun sense reviewed. Complete source spelling, class markers, singular/plural variants and native notes retained as written evidence. No source-specific IPA authority inferred from archive symbols. Obala dictionary scope retained separately within accepted Eton-Mengisa; author corrections postdate PDF and etymology fields are not independent evidence. Complete editions are staged, but acceptance is finite and individually guarded. See docs/worldwide_s03_review_2026-10-30.csv.

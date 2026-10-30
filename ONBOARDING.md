@@ -240,3 +240,17 @@ space if `/tmp` is full (its tmpfs is small):
 mkdir -p raw/curation/web-tmp
 TMPDIR="$PWD/raw/curation/web-tmp" .venv/bin/python scripts/build_research_web.py
 ```
+
+## Original-source S reproduction
+
+S01–S09 is closed; see docs/WORLDWIDE_S_EXECUTION_2026-10-30.md. The pinned
+original-source manifest covers12 complete namespaces/161,344 intake rows.
+Use scripts/stage_original_lexica.py --dataset NAME --fetch only outside active
+intake; these namespaces are already appended. scripts/verify_original_lexica.py
+reproduces complete source/parameter/language/metadata/bibliography evidence
+without changing intake. scripts/verify_original_profiles.py checks finite
+reading scopes and the ten pinned LexiRumah profile files. The optional
+PyMuPDF page audit is scripts/audit_original_pdf_citations.py. Complete intake
+is not accepted vocabulary; primary/supplement ledgers remain the admission gate.
+The PDF transport pins original bytes and manually reviewed page quotations;
+run the independent page audit when changing that reviewed slice.

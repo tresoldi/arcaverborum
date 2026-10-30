@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Worldwide original-source S01–S09](../WORLDWIDE_S_EXECUTION_2026-10-30.md): twelve native-preserving intake namespaces; eleven canonical languages/one named variety, original African primary improvements, finite readings and precise holds. [Metrics](../worldwide_s_summary_2026-10-30.json), [verification](../worldwide_s_verification_2026-10-30.json).
+
 * [Worldwide R01–R09,2026-10-30](../WORLDWIDE_R_EXECUTION_2026-10-30.md):337 records,248 supported slots/144 core, three substantive written-language pilots, native-preserving source acquisition and exact evidence holds. [Metrics](../worldwide_r_summary_2026-10-30.json).
 
 * [JOHD/HGN J01–J04,2026-10-29](../JOHD_EVIDENCE_EXECUTION_2026-10-29.md):151 records,64 supported slots/45 core, three explicitly written reconstruction inventories, original HGN recovery and ten exact semantic mappings. [Metrics](../johd_execution_summary_2026-10-29.json).

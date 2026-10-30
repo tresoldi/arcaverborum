@@ -25,8 +25,11 @@ with sync_playwright() as p:
     for aid, count in [('man-goo', 24), ('afa-buu', 27), ('atl-ndoola', 29)]:
         rows = export(aid)
         assert len(rows) == count
-        assert all(r['transcription_source'] == 'reflexrpilots' and not r['Segments'] for r in rows)
-        assert all(r['representation_basis'] == 'written_or_unresolved' for r in rows)
+        assert all(r['transcription_source'] == 'reflexrpilots' for r in rows)
+        if aid == 'man-goo':
+            assert sum(r['Segments_Source'] == 'profile' for r in rows) == 11
+        else:
+            assert all(not r['Segments'] and r['representation_basis'] == 'written_or_unresolved' for r in rows)
         assert all('by-nc-sa' in r['Comment'] for r in rows)
     for aid, source, count in [
         ('dog-ampari-dogon', 'heathdogon', 20), ('wea-seget', 'berrywestpapuan', 17),
