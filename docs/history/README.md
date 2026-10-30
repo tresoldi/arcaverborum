@@ -114,3 +114,7 @@ ranking is linked from STATUS; refresh it after relevant intake or build changes
 ## Worldwide planning after JOHD/HGN
 
 * [R01–R09,2026-10-30](../WORLDWIDE_AFTER_J_PLAN_2026-10-30.md): refreshed rankings, original RefLex missing-language candidates, newly inspected African/Papuan/Maltese source releases and Australian phonemic-only recovery; historical proposal, subsequently executed in the R report above.
+
+## Southern Cone and archived CHIRILA investigation
+
+[2026-10-30 proposal T01–T08](../SOUTHERN_CONE_CHIRILA_PLAN_2026-10-30.md): explicit Charrúa/Southern Brazil–Uruguay–Argentina priority, acquired historical/phonological originals and independently measured historical CHIRILA CSV. [Evidence](../southern_cone_chirila_evidence_2026-10-30.json), [inventory](../southern_cone_chirila_inventory_2026-10-30.json). Planning only; no lexical gains.

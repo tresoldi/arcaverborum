@@ -1,0 +1,181 @@
+{
+  "repository": "https://github.com/YaleDHLab/chirila",
+  "commit": "ef69c2727ff272f9ce3752cc2079fa8a819f3ac7",
+  "archived": true,
+  "archive_date": "2024-09-04",
+  "public_csv_last_change": "2017-06-01T19:51:33Z",
+  "public_csv_last_change_commit": "17d53cac5a0962f644c86bea56adf416b6974ee5",
+  "version_note": "FAQ mentions v2.0 February2018, but the full CSV last changed June2017. Use immutable commit/file hashes rather than assuming that release label applies to each file.",
+  "repository_acquisitions": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/README.md",
+      "bytes": 655,
+      "sha256": "37dd7cd6a56691c9a4e110c36da12e1326ba2886ce61cc8bcfe90799648bcdf8"
+    },
+    {
+      "path": "app.js",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/app.js",
+      "bytes": 5065,
+      "sha256": "f7725698fb9a099f76f35734062d945de226bad6859f1b40744b0fb9be086236"
+    },
+    {
+      "path": "views/download.pug",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/views/download.pug",
+      "bytes": 2611,
+      "sha256": "a0fe1364a35bbe1a1f4b7f7e8becd023a0e013f0bac4043f64afcffe8b8883a3"
+    },
+    {
+      "path": "views/downloadSuccess.pug",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/views/downloadSuccess.pug",
+      "bytes": 291,
+      "sha256": "021e96d9383ee48d030000db9c5f046f7d4bdcd13476449994adbc104fa20300"
+    },
+    {
+      "path": "views/base.pug",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/views/base.pug",
+      "bytes": 18826,
+      "sha256": "8651f9d1776a67b8f25da48d1c93a7e8aaf03055765330a9369f4e859692d8c1"
+    },
+    {
+      "path": "public/json/index_faq.json",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/public/json/index_faq.json",
+      "bytes": 8846,
+      "sha256": "2279bbe1f06882c2a9a54a4bea83c1b7c54496c67e52fbd7065c527f04b969f8"
+    },
+    {
+      "path": "data/chirila.csv",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/data/chirila.csv",
+      "bytes": 5859252,
+      "sha256": "d5dcfefce156c0259ccb69dc4acc6181661997374472e12c371a1e35036cd96a"
+    },
+    {
+      "path": "public/files/FullChirilaDataset.csv",
+      "url": "https://raw.githubusercontent.com/YaleDHLab/chirila/ef69c2727ff272f9ce3752cc2079fa8a819f3ac7/public/files/FullChirilaDataset.csv",
+      "bytes": 43404351,
+      "sha256": "9df03930ef869415a99842ce447fd15a3e1cc19f5c1325ff43b11e558f4b74e5"
+    }
+  ],
+  "southern_acquisitions": [
+    {
+      "name": "retrato2015.pdf",
+      "url": "https://udelar.edu.uy/eduper/wp-content/uploads/sites/29/2015/09/retrato.pdf",
+      "status": 200,
+      "bytes": 5164519,
+      "sha256": "cf2fd2237aefa55c8c3d868a093cafbd5e7fec2cb2dcf0bdf75bc81b4954f397",
+      "pdf": true
+    },
+    {
+      "name": "charrua-historiography2013.pdf",
+      "url": "https://scielo.conicyt.cl/pdf/bfilol/v48n2/art_07.pdf",
+      "status": 200,
+      "bytes": 1371097,
+      "sha256": "4da51e797ea32ea5b7b6c2042965beb6480b391b0845a4a1506e1b90ead9681b",
+      "pdf": true
+    },
+    {
+      "name": "boletin120-123-1969.pdf",
+      "url": "https://www.estudioshistoricos-en.edu.uy/assets/080-boletín-histórico-nº-120---123---año-1969.pdf",
+      "error": "HTTPSConnectionPool(host='www.estudioshistoricos-en.edu.uy', port=443): Max retries exceeded with url: /assets/080-bolet%C3%ADn-hist%C3%B3rico-n%C2%BA-120---123---a%C3%B1o-1969.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='www.estudioshistoricos-en.edu.uy', port=443): Failed to resolve 'www.estudioshistoricos-en.edu.uy' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "name": "larra-escritos1923.pdf",
+      "url": "https://anaforas.fic.edu.uy/jspui/bitstream/123456789/57062/1/Escritos.pdf",
+      "status": 200,
+      "bytes": 46152187,
+      "sha256": "bff86d0f0d346d04cde3e94c0fd585c98ac891a950faedc8bf3a7dfdf1408569",
+      "pdf": true
+    },
+    {
+      "name": "gakran2015.pdf",
+      "url": "https://repositorio.unb.br/bitstream/10482/19096/1/2015_Nambl%C3%A1Gakran.pdf",
+      "status": 200,
+      "bytes": 2243607,
+      "sha256": "1a0153d44ef57562428f44306e47ea4c3f0f797b0c7190fa3e1eaa5fd6f230f4",
+      "pdf": true
+    }
+  ],
+  "pdf_inspection": {
+    "larra-escritos1923": {
+      "pages": 334,
+      "text_chars": 625659,
+      "keyword_pages": [
+        24,
+        185,
+        187,
+        330
+      ],
+      "first_pages": "ESCRITOS\nDE\nDon DÁMASO ANTONIO LARRANAGA\nLOS PUBLICA\nEL\nINSTITUTO HISTÓRICO Y GEOGRÁFICO DEL URUGUAY\nEDICIÓN NACIONAL\nTOMO III\nMONTEVIDEO\nImprenta Nacional\n1924\n\nEX-LIBRIS\nLuigi Bona Nazzari\n\nESCRITOS\nDE\nDon DÁMASO ANTONIO LARRAÑAGA\n",
+      "edition_title_page_year": 1924,
+      "common_bibliographic_year": 1923,
+      "compendio_title_pdf_page": 185,
+      "compendio_body_pdf_pages": [
+        187,
+        198
+      ],
+      "compendio_printed_pages": [
+        163,
+        174
+      ]
+    },
+    "gakran2015": {
+      "pages": 284,
+      "text_chars": 428420,
+      "keyword_pages": [
+        7,
+        16,
+        246
+      ],
+      "first_pages": " \nUNIVERSIDADE DE BRASÍLIA – UNB \nINSTITUTO DE LETRAS – IL \nDEPTO. DE LINGUÍSTICA, PORTUGUÊS E LÍNGUAS CLÁSSICAS – LIP \nPROGRAMA DE PÓS-GRADUAÇÃO EM LINGUÍSTICA – PPGL \n \n \n \n \nELEMENTOS FUNDAMENTAIS DA GRAMÁTICA LAKLÃNÕ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nBrasília \n2015 \n\n \nNAMBLÁ GAKRAN \nELEMENTOS FUNDAMENTAIS DA GRAMÁTICA LAKLÃNÕ \n \nTese apresentada ao Curso de Doutorado em Linguística do \nPrograma de Pós-Graduação em Linguística do Instituto de \nLetras da Universidade de Brasília, como requisito parcial à \nobtenção do título de Doutor em Linguística. \n \nOrientadora: Profa. Dra. Ana Suelly Arruda Câmara Cabral. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nBrasília \n2015 \n\nNAMBLA GAKRAN \nELEMENTOS FUNDAMENTAIS DA GRAMÁTICA LAKLÃNÕ \n \n \nEsta tese foi julgada adequada à obtenção do título de \nDoutor em Linguística e aprovada em sua forma final \npelo Curso de Doutorado em Linguística, do P"
+    }
+  },
+  "historical_database_terms": "Footer declares Creative Commons Attribution-NonCommercial-NoDerivatives4.0. Download page adds noncommercial use, database/original-source attribution, registration and error-reporting conditions. No explicit data licence file in repository; do not confuse codebase availability with permission for transformed public data exports.",
+  "current2025": {
+    "doi": "10.60600/YU/XHPJXB",
+    "metadata_api": "https://dataverse.yale.edu/api/datasets/:persistentId/?persistentId=doi:10.60600/YU/XHPJXB",
+    "version": "1.0",
+    "files": 715,
+    "restricted_files": 706,
+    "public_flag_files": [
+      "glosses.tab",
+      "partsofspeech.tab",
+      "semfields.tab",
+      "sources.tab",
+      "stdglosses.tab",
+      "stdlangs.tab",
+      "subgroups.tab",
+      "varieties.tab",
+      "ZotSources.tab"
+    ],
+    "termsOfUse": "Access by application; not all contents of this database are able to be shared",
+    "termsOfAccess": "Access by application to Claire Bowern (claire.bowern@yale.edu)",
+    "source_table_attempt": {
+      "status": "Metadata file-table flags inspected; source-table download not acquired",
+      "confirmed_attempt": {
+        "filename": "sources.tab",
+        "url": "https://dataverse.yale.edu/api/access/datafile/21175",
+        "http_status": 400,
+        "message": "You may not download this file without the required Guestbook response for guestbookID 2."
+      },
+      "action": "No guestbook submission, contact, authentication workaround or restricted-file request made."
+    }
+  },
+  "source_layers": "PhonemicisedIPA is an upstream derived reading, not automatically author-supplied IPA. Keep OriginalForm, OriginalGloss, original POS, standardized gloss, author, variety, identifiers, coordinates and reconstruction attachment separately.",
+  "diagnostics": {
+    "accepted_targets_with_gaps": 7339,
+    "member_opportunities": 6837,
+    "south_american_opportunities": 602,
+    "american_opportunities": 900,
+    "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+    "source_policy": "Source IPA only counts as supplied. Resegmented spelling is orthographic potential, never supported evidence.",
+    "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report."
+  },
+  "reviewed_source_choices": 172,
+  "accepted_baseline": {
+    "constructions": 7361,
+    "forms": 2074099,
+    "supported_core": 470046
+  },
+  "accepted_data_changes": 0,
+  "contact_or_form_submissions": 0
+}

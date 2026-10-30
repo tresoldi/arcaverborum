@@ -1,0 +1,454 @@
+[
+  {
+    "av_id": "arc-mapudungun",
+    "Glottocode": "mapu1245",
+    "Name": "Mapudungun",
+    "Family": "Araucanian",
+    "forms": 1377,
+    "supported_core": 147,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 1377
+    },
+    "aliases": [
+      "Mapudungun"
+    ]
+  },
+  {
+    "av_id": "che-selk-nam",
+    "Glottocode": "onaa1245",
+    "Name": "Selk'nam",
+    "Family": "Chonan",
+    "forms": 864,
+    "supported_core": 137,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 864
+    },
+    "aliases": [
+      "Selk'nam",
+      "Selknam"
+    ]
+  },
+  {
+    "av_id": "che-tehuelche",
+    "Glottocode": "tehu1242",
+    "Name": "Tehuelche",
+    "Family": "Chonan",
+    "forms": 862,
+    "supported_core": 138,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 862
+    },
+    "aliases": [
+      "Tehuelche"
+    ]
+  },
+  {
+    "av_id": "gua-abipon",
+    "Glottocode": "abip1241",
+    "Name": "Abipon",
+    "Family": "Guaicuruan",
+    "forms": 215,
+    "supported_core": 69,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 215
+    },
+    "aliases": [
+      "Abipon",
+      "Abipón"
+    ]
+  },
+  {
+    "av_id": "gua-kadiweu",
+    "Glottocode": "kadi1248",
+    "Name": "Kadiwéu",
+    "Family": "Guaicuruan",
+    "forms": 225,
+    "supported_core": 62,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 225
+    },
+    "aliases": [
+      "Kadiweo",
+      "Kadiwéu"
+    ]
+  },
+  {
+    "av_id": "gua-mocovi",
+    "Glottocode": "moco1246",
+    "Name": "Mocoví",
+    "Family": "Guaicuruan",
+    "forms": 1195,
+    "supported_core": 147,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 1195
+    },
+    "aliases": [
+      "Mocoví"
+    ]
+  },
+  {
+    "av_id": "gua-pilaga",
+    "Glottocode": "pila1245",
+    "Name": "Pilagá",
+    "Family": "Guaicuruan",
+    "forms": 1209,
+    "supported_core": 146,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 1209
+    },
+    "aliases": [
+      "Pilagá"
+    ]
+  },
+  {
+    "av_id": "gua-proto-guaicuruan-johd",
+    "Glottocode": "",
+    "Name": "Proto-Guaicuruan (JOHD reconstruction)",
+    "Family": "Guaicuruan",
+    "forms": 20,
+    "supported_core": 0,
+    "transcription_source": "johdproto",
+    "statuses": {
+      "unclean": 20
+    },
+    "aliases": [
+      "Proto-Guaicuruan (JOHD source-reported reconstruction)"
+    ]
+  },
+  {
+    "av_id": "gua-toba",
+    "Glottocode": "toba1269",
+    "Name": "Toba",
+    "Family": "Guaicuruan",
+    "forms": 1359,
+    "supported_core": 147,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 1359
+    },
+    "aliases": [
+      "Toba"
+    ]
+  },
+  {
+    "av_id": "gua-toba-pilaga",
+    "Glottocode": "toba1270",
+    "Name": "Toba-Pilagá",
+    "Family": "Guaicuruan",
+    "forms": 367,
+    "supported_core": 78,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 367
+    },
+    "aliases": [
+      "Toba-Pilagá",
+      "Toba-pilagá"
+    ]
+  },
+  {
+    "av_id": "kaw-qawasqar",
+    "Glottocode": "qawa1238",
+    "Name": "Qawasqar",
+    "Family": "Kawesqar",
+    "forms": 634,
+    "supported_core": 138,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 634
+    },
+    "aliases": [
+      "Qawasqar"
+    ]
+  },
+  {
+    "av_id": "lul-lule",
+    "Glottocode": "lule1238",
+    "Name": "Lule",
+    "Family": "Lule",
+    "forms": 295,
+    "supported_core": 79,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 295
+    },
+    "aliases": [
+      "Lule"
+    ]
+  },
+  {
+    "av_id": "maj-wichi",
+    "Glottocode": "wich1261",
+    "Name": "Wichi",
+    "Family": "Matacoan",
+    "forms": 387,
+    "supported_core": 81,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 387
+    },
+    "aliases": [
+      "Wichi",
+      "Wichí"
+    ]
+  },
+  {
+    "av_id": "mat-guisnay",
+    "Glottocode": "wich1264",
+    "Name": "Güisnay",
+    "Family": "Mataguayan",
+    "forms": 1361,
+    "supported_core": 150,
+    "transcription_source": "wold",
+    "statuses": {
+      "source": 1361
+    },
+    "aliases": [
+      "Güisnay",
+      "Wichí"
+    ]
+  },
+  {
+    "av_id": "mat-nivacle",
+    "Glottocode": "niva1238",
+    "Name": "Nivaclé",
+    "Family": "Mataguayan",
+    "forms": 1556,
+    "supported_core": 148,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 1556
+    },
+    "aliases": [
+      "Nivaclé"
+    ]
+  },
+  {
+    "av_id": "mat-vejoz",
+    "Glottocode": "wich1263",
+    "Name": "Vejoz",
+    "Family": "Mataguayan",
+    "forms": 92,
+    "supported_core": 65,
+    "transcription_source": "joophonosemantic",
+    "statuses": {
+      "source": 92
+    },
+    "aliases": [
+      "Wichí Lhamtés Vejoz"
+    ]
+  },
+  {
+    "av_id": "mat-weenhayek",
+    "Glottocode": "wich1262",
+    "Name": "Weenhayek",
+    "Family": "Mataguayan",
+    "forms": 1,
+    "supported_core": 0,
+    "transcription_source": "wiktionary",
+    "statuses": {
+      "resegmented": 1
+    },
+    "aliases": [
+      "Wichí Lhamtés Nocten"
+    ]
+  },
+  {
+    "av_id": "nub-kaingang",
+    "Glottocode": "kain1272",
+    "Name": "Kaingang",
+    "Family": "Nuclear-Macro-Je",
+    "forms": 316,
+    "supported_core": 135,
+    "transcription_source": "huntergatherer",
+    "statuses": {
+      "source": 316
+    },
+    "aliases": [
+      "Kaingang"
+    ]
+  },
+  {
+    "av_id": "nub-xokleng",
+    "Glottocode": "xokl1240",
+    "Name": "Xokleng",
+    "Family": "Nuclear-Macro-Je",
+    "forms": 368,
+    "supported_core": 0,
+    "transcription_source": "diacl",
+    "statuses": {
+      "resegmented": 353,
+      "unclean": 15
+    },
+    "aliases": [
+      "Xokleng"
+    ]
+  },
+  {
+    "av_id": "pue-puelche",
+    "Glottocode": "puel1244",
+    "Name": "Puelche",
+    "Family": "Puelche",
+    "forms": 298,
+    "supported_core": 125,
+    "transcription_source": "johanssonsoundsymbolic",
+    "statuses": {
+      "source": 298
+    },
+    "aliases": [
+      "Gününa Küne",
+      "Puelche"
+    ]
+  },
+  {
+    "av_id": "tup-ache",
+    "Glottocode": "ache1246",
+    "Name": "Aché",
+    "Family": "Tupian",
+    "forms": 969,
+    "supported_core": 146,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 969
+    },
+    "aliases": [
+      "Aché"
+    ]
+  },
+  {
+    "av_id": "tup-eastern-bolivian-guarani",
+    "Glottocode": "east2555",
+    "Name": "Eastern Bolivian Guaraní",
+    "Family": "Tupian",
+    "forms": 1413,
+    "supported_core": 148,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 1413
+    },
+    "aliases": [
+      "Chiriguano",
+      "Eastern Bolivian Guaraní"
+    ]
+  },
+  {
+    "av_id": "tup-izoceno",
+    "Glottocode": "izoc1240",
+    "Name": "Izoceño",
+    "Family": "Tupian",
+    "forms": 24,
+    "supported_core": 0,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 24
+    },
+    "aliases": [
+      "Guaraní Izoceño",
+      "Izoceño"
+    ]
+  },
+  {
+    "av_id": "tup-kaiwa",
+    "Glottocode": "kaiw1246",
+    "Name": "Kaiwá",
+    "Family": "Tupian",
+    "forms": 236,
+    "supported_core": 95,
+    "transcription_source": "tuled",
+    "statuses": {
+      "source": 236
+    },
+    "aliases": [
+      "Kaiowa",
+      "Kaiwá"
+    ]
+  },
+  {
+    "av_id": "tup-mbya-guarani",
+    "Glottocode": "mbya1239",
+    "Name": "Mbyá Guaraní",
+    "Family": "Tupian",
+    "forms": 273,
+    "supported_core": 131,
+    "transcription_source": "gerarditupi",
+    "statuses": {
+      "source": 273
+    },
+    "aliases": [
+      "GuaraniMbya",
+      "Mbya",
+      "Mbyá Guaraní"
+    ]
+  },
+  {
+    "av_id": "tup-old-guarani",
+    "Glottocode": "oldp1258",
+    "Name": "Old Guarani",
+    "Family": "Tupian",
+    "forms": 225,
+    "supported_core": 100,
+    "transcription_source": "gerarditupi",
+    "statuses": {
+      "source": 225
+    },
+    "aliases": [
+      "Guarani Antigo",
+      "Old Guarani"
+    ]
+  },
+  {
+    "av_id": "tup-paraguayan-guarani",
+    "Glottocode": "para1311",
+    "Name": "Paraguayan Guaraní",
+    "Family": "Tupian",
+    "forms": 308,
+    "supported_core": 153,
+    "transcription_source": "gerarditupi",
+    "statuses": {
+      "source": 308
+    },
+    "aliases": [
+      "Guarani Paraguay",
+      "Guaraní",
+      "Paraguayan Guaraní"
+    ]
+  },
+  {
+    "av_id": "vil-vilela",
+    "Glottocode": "vile1241",
+    "Name": "Vilela",
+    "Family": "Vilela",
+    "forms": 73,
+    "supported_core": 37,
+    "transcription_source": "chacolanguages",
+    "statuses": {
+      "source": 73
+    },
+    "aliases": [
+      "Vilela"
+    ]
+  },
+  {
+    "av_id": "yab-yamana",
+    "Glottocode": "yama1264",
+    "Name": "Yámana",
+    "Family": "Yámana",
+    "forms": 715,
+    "supported_core": 138,
+    "transcription_source": "idssegmented",
+    "statuses": {
+      "source": 715
+    },
+    "aliases": [
+      "Yagán",
+      "Yámana"
+    ]
+  }
+]

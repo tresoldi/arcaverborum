@@ -5,6 +5,8 @@ Updated2026-10-30. Latest accepted batch: [Worldwide original-source S01–S09](
 
 Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](worldwide_s_identity_audit_2026-10-30.json).
 
+Latest planning investigation: [Southern Cone/Charrúa and historical CHIRILA](SOUTHERN_CONE_CHIRILA_PLAN_2026-10-30.md), proposed T01–T08. Pinned230,182-row historical public CSV is distinct from the restricted2025 collection; exact source/terms/identity gates remain. Charrúa/Chaná accepted gaps and Laklãnõ/Xokleng reading recovery lead the regional queue. **Planning only; accepted counts and lexical manifest unchanged.**
+
 ## Accepted baseline
 
 | Measure | Accepted value |

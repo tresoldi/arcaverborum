@@ -5,6 +5,19 @@ Updated2026-10-30. **S01–S09 are complete as bounded reviews**; no authorized 
 
 Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](worldwide_s_identity_audit_2026-10-30.json).
 
+## Proposed regional/source batch — T01–T08
+
+User priority: **Charrúa and languages of Southern Brazil, Uruguay and Argentina**, alongside the specific historical CHIRILA repository. [Investigation and exact gates](SOUTHERN_CONE_CHIRILA_PLAN_2026-10-30.md), [source/hash evidence](southern_cone_chirila_evidence_2026-10-30.json), [regional baseline](southern_cone_chirila_baseline_2026-10-30.json) and [CHIRILA member inventory](southern_cone_chirila_inventory_2026-10-30.json). **Proposed only; no T lexical work authorized or executed.** Accepted S baseline remains unchanged.
+
+1. **T01 Charrúa:** establish a historical written construction from separate Vilardebó1841/1842 witnesses and acquired institutional facsimile/context; preserve attribution, loans, uncertainty and edition terms. No guessed historical IPA.
+2. **T02 Chaná:** extract exact historical Compendio citations from acquired ANÁFORAS tomoIII (title page1924 versus common1923 citation); keep Soriano and modern Jaime/Viegas Barros2013 scopes separate. Modern appendix/profile route needs revision/terms and original phonology review.
+3. **T03 Güenoa/Minuán:** bounded original Hervás catechism acquisition and lexical-context review; no automatic word segmentation or ethnonym-to-language multiplication.
+4. **T04 Laklãnõ/Xokleng +Kaingang:** acquired Gakran2015 phonology/orthography, matching original lexical citations, dictionary acquisition and21 raw Kaingang IDS core leads. Xokleng368 accepted forms currently supply zero supported core readings; tokenized spelling is not IPA.
+5. **T05 Regional depth:** exact Puelche23/Mbyá11/Tehuelche8 raw core leads, Guaraní lect/POS depth and bounded CHICO-SC original acquisition for missing Haush/Teushen witnesses. Counts overlap and are not admissions.
+6. **T06 Historical CHIRILA source/terms:** acquired230,182-row CSV plus36,447-row browsing table at immutable commit. CC BY-NC-ND/footer and custom terms require applicable public-output review; retain full source/converted/reconstruction layers and exact-edition attribution. No automatic contact/form submission.
+7. **T07 Australian sparse-source pilots:** prioritize Nukunu19/0, Maykulan1/0, Koko-Bera90/9, Woiwurrung58/34,GLED and Waka-Waka41/34,GLED, using rights-cleared exact source/lects or suitable originals if historical-release reuse remains unresolved.
+8. **T08 CHIRILA identity recovery:** check current codes/aliases, historical source locations and retired identifiers before new-language claims.64 absent-code member leads are not64 languages. The2025 Dataverse remains715 files/706 restricted; even a public-flag source table requires Guestbook registration, which was not submitted.
+
 ## Next evidence-led planning pass
 
 1. **Deeper original African dictionaries:** expand reviewed senses/readings from now-ingested Chakali, Central Dagaare and Beja. The importers and three GLED primary replacements are completed. Reopen Dagaare homographs only with separate pronunciation scopes; compare Beja conversion-affected characters with the published PDF.
