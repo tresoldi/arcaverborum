@@ -1,0 +1,9 @@
+{
+  "status": "Pending canonical verification after data push",
+  "canonical_url": "https://arcaverborum.org/",
+  "client_version": "research-20261030-u",
+  "accepted_constructions": 7365,
+  "forms": 2119754,
+  "local_browser_suites": 14,
+  "local_payload_hashes": 403
+}

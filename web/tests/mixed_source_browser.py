@@ -115,7 +115,8 @@ with sync_playwright() as p:
         with page.expect_download() as download:
             page.locator("#exportcsv").click()
         lexical = list(csv.DictReader(open(download.value.path())))
-        assert len(lexical) == total
+        baseline = [r for r in lexical if r["transcription_source"] != "historiatupioriginal"]
+        assert len(baseline) == total
         for source_name, count in counts.items():
             selected = [r for r in lexical if r["transcription_source"] == source_name]
             assert len(selected) == count and all(r["Segments_Source"] == "source" for r in selected)
@@ -136,7 +137,8 @@ with sync_playwright() as p:
         with page.expect_download() as download:
             page.locator("#exportcsv").click()
         lexical = list(csv.DictReader(open(download.value.path())))
-        assert len(lexical) == total
+        baseline = [r for r in lexical if r["transcription_source"] != "historiatupioriginal"]
+        assert len(baseline) == total
         for source_name, count in source_profiles.items():
             selected = [r for r in lexical if r["transcription_source"] == source_name
                         and r["Segments_Source"] == "profile"]

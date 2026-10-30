@@ -1,5 +1,7 @@
 # Worldwide sources after T: older Brazil and full lexical intake —2026-10-30
 
+**Historical planning snapshot.** The user subsequently authorized U01–U12; see [execution and measured results](WORLDWIDE_U_EXECUTION_2026-10-30.md) and [current queue](NEXT.md). The proposal/baselines below retain their original planning-time meaning.
+
 Planning/research only. The user asks for worldwide next steps, especially older Brazilian sources and the northeast coast, and substantially more source ingestion. **U01–U12 are proposed, not authorized lexical execution.** Accepted baseline remains7,364 constructions/2,074,205 records/470,093 supported core. No intake, config, lexical adapter or web lexical artifact changes in this pass. [Measured baseline](worldwide_after_t_baseline_2026-10-30.json), [acquisitions/terms evidence](worldwide_after_t_source_evidence_2026-10-30.json), [remaining RefLex metadata](worldwide_after_t_reflex_editions_2026-10-30.json).
 
 Recommendation: give Brazil the first four source tracks, while running a much larger source-ingestion programme through RefLex, additional Wiktionary editions and source-indexed dictionaries. Treat a complete source edition as the intake unit. Preserve all native lexical information; review exact identities, readings and meanings for accepted output. A small161-concept profile pilot need not be the final extent of a dictionary.

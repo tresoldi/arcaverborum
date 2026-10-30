@@ -1,0 +1,1629 @@
+[
+  {
+    "edition": "pt",
+    "changed_language_rows": [
+      {
+        "source_language_id": "wiktionarypt202610_roa-brg_c310375df104",
+        "original_source_code": "roa-brg",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_sh_0956fcdff52c",
+        "original_source_code": "sh",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_mult_5fa9fa14dda6",
+        "original_source_code": "mult",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_tu_c6688a6d8599",
+        "original_source_code": "tu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-gpm_7e383ab17ed5",
+        "original_source_code": "roa-gpm",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-tal_d02ac44ab2e0",
+        "original_source_code": "roa-tal",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_nds-nl_3244bf88da47",
+        "original_source_code": "nds-nl",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-nor_8c56a54d927c",
+        "original_source_code": "roa-nor",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_map-bms_7a9ea8a88a5a",
+        "original_source_code": "map-bms",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_sh_864bff857974",
+        "original_source_code": "sh",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_ae_4509b6b9da6e",
+        "original_source_code": "ae",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_sino_672a70d6f6de",
+        "original_source_code": "sino",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-ole_7b0bce2ba71a",
+        "original_source_code": "roa-ole",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-tara_d9f01fa66c1a",
+        "original_source_code": "roa-tara",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_mo_3bed82ed6fd8",
+        "original_source_code": "mo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-oca_ecfa17d5e4fe",
+        "original_source_code": "roa-oca",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_unknown_d4ada8ec2764",
+        "original_source_code": "unknown",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_unknown_bda050585a00",
+        "original_source_code": "unknown",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_Adjetivo_e6aeb147c271",
+        "original_source_code": "Adjetivo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_sem-pro_2611aee942f0",
+        "original_source_code": "sem-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_unknown_567ce294daaa",
+        "original_source_code": "unknown",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_roa-la_0d58dccad27d",
+        "original_source_code": "roa-la",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_cel-pro_38eef89efe47",
+        "original_source_code": "cel-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_ine-pro_e4375b6cbd3d",
+        "original_source_code": "ine-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_ine-toc-pro_0889ac31b593",
+        "original_source_code": "ine-toc-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_hyx-pro_5fd9d071c0a4",
+        "original_source_code": "hyx-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_gem-pro_dce7bd55ef17",
+        "original_source_code": "gem-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_grk-pro_3f1c2bf9a744",
+        "original_source_code": "grk-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_iir-pro_653321e34e36",
+        "original_source_code": "iir-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_ira-pro_c1146e6e1ecd",
+        "original_source_code": "ira-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_itc-pro_8bb240924c2d",
+        "original_source_code": "itc-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_bnt-pro_01a7851717f4",
+        "original_source_code": "bnt-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_gmw-pro_58a3f70ef6b7",
+        "original_source_code": "gmw-pro",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_be-tarask_d9edadd536fd",
+        "original_source_code": "be-tarask",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionarypt202610_unknown_38fbbb5a208d",
+        "original_source_code": "unknown",
+        "corrected_iso639p3": ""
+      }
+    ],
+    "lexical_rows_changed": 0
+  },
+  {
+    "edition": "fr",
+    "changed_language_rows": [
+      {
+        "source_language_id": "wiktionaryfr202610_gallo_29a437b8799d",
+        "original_source_code": "gallo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_normand_e4d15c27c418",
+        "original_source_code": "normand",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_conv_feffd11a9fb7",
+        "original_source_code": "conv",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_angevin_9363bfbb85d2",
+        "original_source_code": "angevin",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_griko_0da55f966988",
+        "original_source_code": "griko",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_fc_c6ec62d04519",
+        "original_source_code": "fc",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gcf-mq_af71603bbf51",
+        "original_source_code": "gcf-mq",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gallo-italique de Sicile_ad42f071c3d5",
+        "original_source_code": "gallo-italique de Sicile",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_solrésol_6e78224bef6e",
+        "original_source_code": "solrésol",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vi-chunom_ad954657fc51",
+        "original_source_code": "vi-chunom",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_brabançon_d26acfd86708",
+        "original_source_code": "brabançon",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tussentaal_540dc1673587",
+        "original_source_code": "tussentaal",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gsw-fr_3f386d08b6f2",
+        "original_source_code": "gsw-fr",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_francique mosellan_451b343a28a3",
+        "original_source_code": "francique mosellan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_sh_db4ac592adc1",
+        "original_source_code": "sh",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_slovio_748490c51d77",
+        "original_source_code": "slovio",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_abai tubu_3d8f18397b3e",
+        "original_source_code": "abai tubu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_champenois_39fdd41a5c0c",
+        "original_source_code": "champenois",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_dalécarlien_560f6102485f",
+        "original_source_code": "dalécarlien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_francique rhénan_f00a44b099b4",
+        "original_source_code": "francique rhénan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_poitevin-saintongeais_aa31434acede",
+        "original_source_code": "poitevin-saintongeais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gallo-italique de Basilicate_33c6321f014c",
+        "original_source_code": "gallo-italique de Basilicate",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gaulois_922f19e7489e",
+        "original_source_code": "gaulois",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_abai sembuak_8338357bec3c",
+        "original_source_code": "abai sembuak",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_salentin_9ff3346a4d7a",
+        "original_source_code": "salentin",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_afchar_f2ed532e70fb",
+        "original_source_code": "afchar",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bété_4efa11891616",
+        "original_source_code": "bété",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_cst-cho_26c533c04cee",
+        "original_source_code": "cst-cho",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_grec cargésien_af9b02bfa7aa",
+        "original_source_code": "grec cargésien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kotoxo_fc95ddb6beba",
+        "original_source_code": "kotoxo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tourangeau_71c1bbbeb04d",
+        "original_source_code": "tourangeau",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_cilentain méridional_4645109f6a50",
+        "original_source_code": "cilentain méridional",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_nds-nl_37d4b23ce85f",
+        "original_source_code": "nds-nl",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lorrain_70cd350c9458",
+        "original_source_code": "lorrain",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_hateruma_3621e8834e21",
+        "original_source_code": "hateruma",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_hatoma_c7b89d4b2705",
+        "original_source_code": "hatoma",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ikema_c70597dd73ab",
+        "original_source_code": "ikema",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_irabu_ac84e40c1188",
+        "original_source_code": "irabu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_iriomote_b31bdc37e8c5",
+        "original_source_code": "iriomote",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kohama_20e46fa04273",
+        "original_source_code": "kohama",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kurima_c6dee6fee22b",
+        "original_source_code": "kurima",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kuroshima_bb7a88f51069",
+        "original_source_code": "kuroshima",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ogami_2a5142499e9c",
+        "original_source_code": "ogami",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tarama_a1db7dd56241",
+        "original_source_code": "tarama",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieil écossais_71d216e35ee4",
+        "original_source_code": "vieil écossais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_plodarisch_4173e9887ee8",
+        "original_source_code": "plodarisch",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_map-bms_7a9ea8a88a5a",
+        "original_source_code": "map-bms",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_cbk-zam_6fefd218f5cb",
+        "original_source_code": "cbk-zam",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_volapük classique_a38637060716",
+        "original_source_code": "volapük classique",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tsolyáni_2bdc12e314e7",
+        "original_source_code": "tsolyáni",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_pandunia_283b2313a6c6",
+        "original_source_code": "pandunia",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_penan benalui_d26e581706a1",
+        "original_source_code": "penan benalui",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_navarro-aragonais_611d1585b430",
+        "original_source_code": "navarro-aragonais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_indanga_1f2ab82fa626",
+        "original_source_code": "indanga",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bourguignon_c9a41d08f7f7",
+        "original_source_code": "bourguignon",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_moyen écossais_084c6021d796",
+        "original_source_code": "moyen écossais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_basco-algonquin_d307c2155306",
+        "original_source_code": "basco-algonquin",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_klikitat_365d63dbeab7",
+        "original_source_code": "klikitat",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_paikoneka_3e42c6ad5ecd",
+        "original_source_code": "paikoneka",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_khiajari_6669e39e16b2",
+        "original_source_code": "khiajari",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_basco-islandais_7952ba4cda5a",
+        "original_source_code": "basco-islandais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_idiom neutral_9e66ca604e59",
+        "original_source_code": "idiom neutral",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_igs-gls_9d0da05659a3",
+        "original_source_code": "igs-gls",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_moyen japonais_a9f5c4d5ee0c",
+        "original_source_code": "moyen japonais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_amami central_b328c178c406",
+        "original_source_code": "amami central",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_calabrais centro-méridional_c2c772676722",
+        "original_source_code": "calabrais centro-méridional",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_css-mut_ca6dafed9052",
+        "original_source_code": "css-mut",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ko-Hani_b731d21a044b",
+        "original_source_code": "ko-Hani",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_mus-sem_24d02ad3c7cc",
+        "original_source_code": "mus-sem",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_nutabe_6d73dce71c9c",
+        "original_source_code": "nutabe",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_colac_25837c5dbeaa",
+        "original_source_code": "colac",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_orléanais_5d79716477c2",
+        "original_source_code": "orléanais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_francilien_bd5d182b0b93",
+        "original_source_code": "francilien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lij-mc_497c3bf70092",
+        "original_source_code": "lij-mc",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_galaïco-portugais_60b32bc1bd1b",
+        "original_source_code": "galaïco-portugais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kenyah long anap_5f3ef194d08a",
+        "original_source_code": "kenyah long anap",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_be-tarask_76972c0ed548",
+        "original_source_code": "be-tarask",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_patwin du Sud_fd3f29d75be0",
+        "original_source_code": "patwin du Sud",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_menien_5dd4d8f60c08",
+        "original_source_code": "menien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux polonais_a7ce4514fefa",
+        "original_source_code": "vieux polonais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_grec marioupolitain_41f603025342",
+        "original_source_code": "grec marioupolitain",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kiptchak mamelouk_72ad35db7018",
+        "original_source_code": "kiptchak mamelouk",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_css-rum_2acdde37728a",
+        "original_source_code": "css-rum",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_romanica_de44ae447647",
+        "original_source_code": "romanica",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_saurano_33042ff0610f",
+        "original_source_code": "saurano",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yuf-hav_f3844df69767",
+        "original_source_code": "yuf-hav",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ute-che_44cd07d5f655",
+        "original_source_code": "ute-che",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ute-sou_558c85b2ff40",
+        "original_source_code": "ute-sou",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_sacata_79479004d760",
+        "original_source_code": "sacata",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kalis_d132baf4f0a4",
+        "original_source_code": "kalis",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_nanga ira’_6ac4acce2243",
+        "original_source_code": "nanga ira’",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_seputan_5ea2ff18ea17",
+        "original_source_code": "seputan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_saynawa_eba9b4bef568",
+        "original_source_code": "saynawa",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tangam_d49213cb259e",
+        "original_source_code": "tangam",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_taitnapam_aa2b7362a81e",
+        "original_source_code": "taitnapam",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yuf-wal_c566dd3f1fcb",
+        "original_source_code": "yuf-wal",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_roa-rup_da12ddf8452d",
+        "original_source_code": "roa-rup",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_patagón de Bagua_77ebe3c080e2",
+        "original_source_code": "patagón de Bagua",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_taketomi_e060e30cbae0",
+        "original_source_code": "taketomi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_solon_52ff35b1ab20",
+        "original_source_code": "solon",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kumaná_732b68148a6f",
+        "original_source_code": "kumaná",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_na’vi_e9412837e6f1",
+        "original_source_code": "na’vi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_cpe-spp_61bce2ca0bbe",
+        "original_source_code": "cpe-spp",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_anauyá_f45c6134b647",
+        "original_source_code": "anauyá",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_russenorsk_61163a1968bf",
+        "original_source_code": "russenorsk",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_pidgin massachusett_1a9ff1ca3771",
+        "original_source_code": "pidgin massachusett",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ma pnaan_e08ee723159d",
+        "original_source_code": "ma pnaan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-chk_bad7198f0539",
+        "original_source_code": "yok-chk",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-yaw_e2567c7bf5fd",
+        "original_source_code": "yok-yaw",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_iejima_79db4b60bce1",
+        "original_source_code": "iejima",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieil okinawaïen_3dfdda343de1",
+        "original_source_code": "vieil okinawaïen",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_mayennais_313488366142",
+        "original_source_code": "mayennais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_sarthois_ddabddb04f32",
+        "original_source_code": "sarthois",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_copallén_cddb23e1866c",
+        "original_source_code": "copallén",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_roa-tara_7ed475ad4959",
+        "original_source_code": "roa-tara",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_apolista_d736f5565eb7",
+        "original_source_code": "apolista",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lui-jua_7ed8cacc1d87",
+        "original_source_code": "lui-jua",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_grec chypriote_0fecc29fda48",
+        "original_source_code": "grec chypriote",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ oc_bc138bc35988",
+        "original_source_code": " oc",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bolze_d62a81100ae6",
+        "original_source_code": "bolze",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_percheron_1e690fa409e0",
+        "original_source_code": "percheron",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_charrúa_1bd2e54bbea6",
+        "original_source_code": "charrúa",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_berrichon_0380c7531a4a",
+        "original_source_code": "berrichon",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_seto_ee26a2a9cad0",
+        "original_source_code": "seto",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lala (Afrique du Sud)_e487eac5bfe6",
+        "original_source_code": "lala (Afrique du Sud)",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-wik_a841ea523e34",
+        "original_source_code": "yok-wik",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_mik-hit_b274f4392b6a",
+        "original_source_code": "mik-hit",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tischlbongarisch_f5bded338b9b",
+        "original_source_code": "tischlbongarisch",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_taokas_5fb8036319db",
+        "original_source_code": "taokas",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yulparija_cc8de6e81a61",
+        "original_source_code": "yulparija",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_wya-hur_1cb0354c7479",
+        "original_source_code": "wya-hur",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_awaswas_835b2b24a297",
+        "original_source_code": "awaswas",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kakán_85d9b702cb0f",
+        "original_source_code": "kakán",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-gas_a773b6c690ef",
+        "original_source_code": "yok-gas",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_picuris_2d83ae438154",
+        "original_source_code": "picuris",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_eudeve_74bc91ca4401",
+        "original_source_code": "eudeve",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ae_2ecb1fd528dc",
+        "original_source_code": "ae",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kitanemuk_55e2e2f45e0b",
+        "original_source_code": "kitanemuk",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_roa-leo_344e67cb6035",
+        "original_source_code": "roa-leo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_cst-cha_a66fc0be3574",
+        "original_source_code": "cst-cha",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kilen_375573a0ae81",
+        "original_source_code": "kilen",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tabancale_b741fae3d73a",
+        "original_source_code": "tabancale",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yuf-yav_89f2aa86df20",
+        "original_source_code": "yuf-yav",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ammonite_349911715b01",
+        "original_source_code": "ammonite",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kjh-fyk_4e5fe04f9f59",
+        "original_source_code": "kjh-fyk",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_grec byzantin_faf3d152bc0a",
+        "original_source_code": "grec byzantin",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gudjal_035b51dfee67",
+        "original_source_code": "gudjal",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_wulguru_c18ba5c7c1c1",
+        "original_source_code": "wulguru",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_barranbinya_25235f56607e",
+        "original_source_code": "barranbinya",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_sagz-âbâdi_ecd63dbf3ca5",
+        "original_source_code": "sagz-âbâdi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_light warlpiri_32d8238da4c1",
+        "original_source_code": "light warlpiri",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_mithaka_2fef80fb9da6",
+        "original_source_code": "mithaka",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bxu-bar_467f50479f8c",
+        "original_source_code": "bxu-bar",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-pos_76ff5e588ecc",
+        "original_source_code": "yok-pos",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-dum_0653880456fd",
+        "original_source_code": "yok-dum",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-lsj_559c9b18a41b",
+        "original_source_code": "yok-lsj",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-nut_e9b40d828bec",
+        "original_source_code": "yok-nut",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-hom_eec776e13719",
+        "original_source_code": "yok-hom",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-tul_86575f6d9547",
+        "original_source_code": "yok-tul",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-ywd_11ab4b2d558a",
+        "original_source_code": "yok-ywd",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-chy_3edab91d5a93",
+        "original_source_code": "yok-chy",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yok-chw_662e8bf430b2",
+        "original_source_code": "yok-chw",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yurumanguí_4e26d03bf1e2",
+        "original_source_code": "yurumanguí",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_baisha_a20ac1039d37",
+        "original_source_code": "baisha",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_baoting_c501e16e72f3",
+        "original_source_code": "baoting",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_changjiang_7890824026e9",
+        "original_source_code": "changjiang",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ha em_2b100caf0e78",
+        "original_source_code": "ha em",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_moyfaw_9829560c6fb5",
+        "original_source_code": "moyfaw",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tongzha_600f4b387b61",
+        "original_source_code": "tongzha",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao rouge de Fanpo_3cd7eaf81b5c",
+        "original_source_code": "gelao rouge de Fanpo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao vert de Zhenfeng_1756ab7f986d",
+        "original_source_code": "gelao vert de Zhenfeng",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bana_391fdb86592b",
+        "original_source_code": "bana",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bwx-num_d96bf31e5c94",
+        "original_source_code": "bwx-num",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bwx-bun_e32cb8994f22",
+        "original_source_code": "bwx-bun",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bwx-nao_b482d60ddced",
+        "original_source_code": "bwx-nao",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kathlamet_09d103ef77df",
+        "original_source_code": "kathlamet",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Diyingshao_f5155b34e3d2",
+        "original_source_code": "gelao blanc de Diyingshao",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bwx-nun_19debe73abab",
+        "original_source_code": "bwx-nun",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gokhy_b79ab1e9e767",
+        "original_source_code": "gokhy",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_catio ancien_61af90581a53",
+        "original_source_code": "catio ancien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_jedek_6d8b79362901",
+        "original_source_code": "jedek",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_khoznini_60b7d7e1fa5a",
+        "original_source_code": "khoznini",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_chali_d566d3d52af9",
+        "original_source_code": "chali",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_culle_5119504f18ef",
+        "original_source_code": "culle",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_chirino_45215b6ac9f8",
+        "original_source_code": "chirino",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_patagón de Perico_2423c123aa2f",
+        "original_source_code": "patagón de Perico",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_esmeraldeño_2c6f6ef0db27",
+        "original_source_code": "esmeraldeño",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_jiv-pal_7c5adca4895b",
+        "original_source_code": "jiv-pal",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lawi_d8d9b57d0a61",
+        "original_source_code": "lawi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_chaná_49630e33af33",
+        "original_source_code": "chaná",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_güenoa_5fe7df971d09",
+        "original_source_code": "güenoa",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_shinman_61ff80ee0af2",
+        "original_source_code": "shinman",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_me’phaa de Huehuetepec_d7f608135c0e",
+        "original_source_code": "me’phaa de Huehuetepec",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_me’phaa de Teocuitlapa_a230def7a02d",
+        "original_source_code": "me’phaa de Teocuitlapa",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_girirra_d9f809191a9d",
+        "original_source_code": "girirra",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_shang_4d642608d942",
+        "original_source_code": "shang",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gwara_5d6f9b5a8492",
+        "original_source_code": "gwara",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_murut nabaay_be453e7cd561",
+        "original_source_code": "murut nabaay",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kittitas_6c0a5b284e9c",
+        "original_source_code": "kittitas",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_wañám_7ba8450e4018",
+        "original_source_code": "wañám",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_miri_bf8c0ba22c2d",
+        "original_source_code": "miri",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_jicaque d’El Palmar_dac29ad96e7c",
+        "original_source_code": "jicaque d’El Palmar",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_agta de Dinapigue_90f5a8a4fce8",
+        "original_source_code": "agta de Dinapigue",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_agta de Nagtipunan_4f9f80e01835",
+        "original_source_code": "agta de Nagtipunan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_dusun du Brunéi_600bf48537d1",
+        "original_source_code": "dusun du Brunéi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_dusun papar_fac16e0d85c1",
+        "original_source_code": "dusun papar",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bisaya de Limbang_72deedfec578",
+        "original_source_code": "bisaya de Limbang",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tingalan_2fedbb1f38aa",
+        "original_source_code": "tingalan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kelabit long napir_fefac25bee2b",
+        "original_source_code": "kelabit long napir",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kenyah long dunin_4fed8962dfd1",
+        "original_source_code": "kenyah long dunin",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_kenyah long san_892794f64edd",
+        "original_source_code": "kenyah long san",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_hoanya_141b7087d3f3",
+        "original_source_code": "hoanya",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lisum_87a393ed2012",
+        "original_source_code": "lisum",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ancien catalan_5c65448d7cb4",
+        "original_source_code": "ancien catalan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_sonqor_23b33ef3bb4d",
+        "original_source_code": "sonqor",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bourbonnais_48520467d660",
+        "original_source_code": "bourbonnais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bouhin_e05980f9187a",
+        "original_source_code": "bouhin",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lauhut_1d63acc185b4",
+        "original_source_code": "lauhut",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_nadou_76e18632b0ac",
+        "original_source_code": "nadou",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_yuanmen_3b398972956a",
+        "original_source_code": "yuanmen",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_zandui_5bdd404fed49",
+        "original_source_code": "zandui",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_me’phaa de Zapotitlan Tablas_dfa6ecae59f8",
+        "original_source_code": "me’phaa de Zapotitlan Tablas",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_anggreso_626cd835f446",
+        "original_source_code": "anggreso",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_betoi_3289741fdc04",
+        "original_source_code": "betoi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_duoxu_37b3339f8177",
+        "original_source_code": "duoxu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lizu_7ecd7a2b2b36",
+        "original_source_code": "lizu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_lazé_02606575aed0",
+        "original_source_code": "lazé",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_japhug_562da1dcbc48",
+        "original_source_code": "japhug",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_situ_f8c92f8611cf",
+        "original_source_code": "situ",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tshobdun_4f7005adf75d",
+        "original_source_code": "tshobdun",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_dongnu de Du’an_a00076d3a2da",
+        "original_source_code": "dongnu de Du’an",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_nunu de Bama_9754c3bebfd9",
+        "original_source_code": "nunu de Bama",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_dongmeng_bf514affa0a7",
+        "original_source_code": "dongmeng",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Pudi_d8d10700b0c3",
+        "original_source_code": "gelao blanc de Pudi",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Niupo_b555c4e19108",
+        "original_source_code": "gelao blanc de Niupo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Yueliangwan_b694011adfec",
+        "original_source_code": "gelao blanc de Yueliangwan",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao vert de Liangshui_faba087684a7",
+        "original_source_code": "gelao vert de Liangshui",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_a’ou de Bigong_18b08308e1b1",
+        "original_source_code": "a’ou de Bigong",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Judu_bad79bff684d",
+        "original_source_code": "gelao blanc de Judu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_a’ou de Hongfeng_4c997f1738dd",
+        "original_source_code": "a’ou de Hongfeng",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Moji_972701189bd0",
+        "original_source_code": "gelao blanc de Moji",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao vert de Sanchong_a7138fa2462f",
+        "original_source_code": "gelao vert de Sanchong",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao rouge de Longjia_90d944c3bcaa",
+        "original_source_code": "gelao rouge de Longjia",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao vert de Qinglong_763f90d25500",
+        "original_source_code": "gelao vert de Qinglong",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao rouge de Na Khê_e5362d51e217",
+        "original_source_code": "gelao rouge de Na Khê",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gao de Dongkou_82752df1ad79",
+        "original_source_code": "gao de Dongkou",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gelao blanc de Wantao_5392e8c6124f",
+        "original_source_code": "gelao blanc de Wantao",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bularnu_2f4815cacd2e",
+        "original_source_code": "bularnu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_nipissing_fa8dd5bb0d88",
+        "original_source_code": "nipissing",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_francique méridional_151ef4f6e704",
+        "original_source_code": "francique méridional",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bokar_0e2aeb6749fa",
+        "original_source_code": "bokar",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_damu_8d6b27a13c3e",
+        "original_source_code": "damu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bengni_5471c91b96aa",
+        "original_source_code": "bengni",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_miao de Xiaozhang_56a1acdb8fe7",
+        "original_source_code": "miao de Xiaozhang",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_volow_13ba104eadf3",
+        "original_source_code": "volow",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_newari du Dolakha_bfa58b74ef59",
+        "original_source_code": "newari du Dolakha",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_milang_08d959f9db32",
+        "original_source_code": "milang",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_konomihu_13cb40b31df7",
+        "original_source_code": "konomihu",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_penange_1643a5d14c5d",
+        "original_source_code": "penange",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_sorbung_1a078bd979ba",
+        "original_source_code": "sorbung",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_hayato_cb28be37e702",
+        "original_source_code": "hayato",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux brittonique_d4193e003333",
+        "original_source_code": "vieux brittonique",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_gumuz du Sud_e669b0cec1e0",
+        "original_source_code": "gumuz du Sud",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tep (Nigeria)_1f2d7d5e3c51",
+        "original_source_code": "tep (Nigeria)",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_avok_b1236a94df1f",
+        "original_source_code": "avok",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_brabançon _d26acfd86708",
+        "original_source_code": "brabançon ",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_bangru_dc1b927da1bf",
+        "original_source_code": "bangru",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_moyen okinawaïen_08d01e5790b6",
+        "original_source_code": "moyen okinawaïen",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux suédois_981444b91563",
+        "original_source_code": "vieux suédois",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_houma_e858be700c01",
+        "original_source_code": "houma",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ao mongsen_1abec7fde773",
+        "original_source_code": "ao mongsen",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_fingalien_f74e2007fd1b",
+        "original_source_code": "fingalien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_chatino de Teojomulco_9c02ebaa9906",
+        "original_source_code": "chatino de Teojomulco",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux danois_a0db84d2f0c8",
+        "original_source_code": "vieux danois",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_moyen polonais_db5cd4991c33",
+        "original_source_code": "moyen polonais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_soltèque_8fb717e6a7d5",
+        "original_source_code": "soltèque",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_tiefo de Nyafogo_c5b7d371fbe2",
+        "original_source_code": "tiefo de Nyafogo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_slovince_b6f8cae3d354",
+        "original_source_code": "slovince",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_monégasque_497c3bf70092",
+        "original_source_code": "monégasque",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_moyen môn_d3881406f2bc",
+        "original_source_code": "moyen môn",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_ fr_e495d53b967a",
+        "original_source_code": " fr",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_wauyukma_d35b2ff1ea4f",
+        "original_source_code": "wauyukma",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_palouse_411411b7bcb8",
+        "original_source_code": "palouse",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux balinais_73716126578e",
+        "original_source_code": "vieux balinais",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux norvégien_816b6433513c",
+        "original_source_code": "vieux norvégien",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_roa-opt_60b32bc1bd1b",
+        "original_source_code": "roa-opt",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_hachijo_19786cabb49e",
+        "original_source_code": "hachijo",
+        "corrected_iso639p3": ""
+      },
+      {
+        "source_language_id": "wiktionaryfr202610_vieux tchèque_a17d4a182c09",
+        "original_source_code": "vieux tchèque",
+        "corrected_iso639p3": ""
+      }
+    ],
+    "lexical_rows_changed": 0
+  }
+]

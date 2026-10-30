@@ -1,0 +1,158 @@
+[
+  {
+    "track": "U01",
+    "source": "mamiani1699.pdf",
+    "source_sha256": "6f16698914150853778c8a68a6f8e2bc460f234f8ca39994565a43a554cbf923",
+    "pages": 152,
+    "page_inventory_sha256": "2d6cb0f7be5e1c7dbf669672eda5e5ae771f68fb32b183ca85270923cb663180"
+  },
+  {
+    "track": "U02",
+    "source": "nantes1709.pdf",
+    "source_sha256": "040858cbfd74a7a0c17b4aac1b61571e51ebc0ee33f1b450e68e9cfc2b3abd3e",
+    "pages": 395,
+    "page_inventory_sha256": "e0d5b025ed4853e65562ca4142e33aa91ec9f787d040e853de36ff1e4cbe0091"
+  },
+  {
+    "track": "U03",
+    "source": "martius-archive.pdf",
+    "source_sha256": "3cd0f4a6633cd099f2ed05d53ea091b276e44f65675717ccfe2dd9a55e1d3cbb",
+    "pages": 584,
+    "page_inventory_sha256": "4b1ed8e052ed4e4ee0aec78b2abf7526a7a256e53783cb609556f3f059358f7d"
+  },
+  {
+    "track": "U02",
+    "decision": "hold_lexical_admission",
+    "reason": "Nantes1709 PDF29–31 is aligned catechetical discourse, not entry/word alignment. PDF11 distinguishes Dzubucua from Kippea. Preserve395-page source; no clause segmentation, guessed isolated readings, or modern Karirí-Xocó relink.",
+    "reopen": "Reviewed word-level alignment or explicit original glossary with exact morphology, accents, literal sense and historical lect."
+  },
+  {
+    "track": "U03",
+    "decision": "inventory_complete_selected_scope_pending",
+    "reason": "Camacan153–154 is explicit original Martius elicitation at S. Pedro d’Alcantara. Printed154 footnote says body-part prefixes guang/aenköh have uncertain possession. Preserve full forms; Cotoxö156 mixes own forms with Neuwied N witnesses, so not a new independent Camacan sample.",
+    "reopen": "Visual transcription of complete selected lists and exact historical identities; no automatic modern-code assignment for Patacho/Capoxo."
+  },
+  {
+    "track": "U01",
+    "url": "https://etnolinguistica.wdfiles.com/local--files/biblio%3Amamiani1698-catecismo/mamiani_1698_catecismo_brown.pdf",
+    "status": 404,
+    "bytes": 404,
+    "is_pdf": false
+  },
+  {
+    "track": "U04",
+    "identifier": "histoiredelamiss00clau",
+    "url": "https://archive.org/download/histoiredelamiss00clau/histoiredelamiss00clau_djvu.txt",
+    "filename": "histoiredelamiss00clau_djvu.txt",
+    "bytes": 1071414,
+    "sha256": "3639c082b982f75539670c9ebbb1d6aad86740ba6b64ded9e8ea33c476957d77",
+    "basis": "Public-domain original; OCR discovery is not reviewed transcription."
+  },
+  {
+    "track": "U04",
+    "identifier": "mobot31753000818648",
+    "url": "https://archive.org/download/mobot31753000818648/mobot31753000818648_djvu.txt",
+    "filename": "mobot31753000818648_djvu.txt",
+    "bytes": 1522852,
+    "sha256": "9ec86a41ab7ef73b2f2d01e9a6b3b28c2dc45e884c4a76b56de0090b9e84c7c9",
+    "basis": "Public-domain original; OCR discovery is not reviewed transcription."
+  },
+  {
+    "track": "U04",
+    "url": "https://archive.org/download/histoiredelamiss00clau/histoiredelamiss00clau.pdf",
+    "filename": "histoiredelamiss00clau.pdf",
+    "bytes": 82893760,
+    "sha256": "0435035c95e553585f4278af30784e7b78688c1e504e4c035054e488768debcc",
+    "basis": "Public-domain original work in digitized facsimile; scan derivative in IA technical metadata, not a modern rewritten edition."
+  },
+  {
+    "track": "U04",
+    "url": "https://archive.org/download/mobot31753000818648/mobot31753000818648.pdf",
+    "filename": "mobot31753000818648.pdf",
+    "bytes": 69253437,
+    "sha256": "3e81f12061570dd2169e74d0d855f39d5330a8169b2f7a6712abc3ff58f40232",
+    "basis": "Public-domain original work in digitized facsimile; scan derivative in IA technical metadata, not a modern rewritten edition."
+  },
+  {
+    "track": "U04",
+    "decision": "bounded_admission_and_identity_holds",
+    "result": "262 directly reviewed1648 common-Tupi noun/verb pairs; original printed268/PDF413 groups Tupinambu/Tobajara/Petiguara as dialects. Original printed282/PDF427 explicitly distinguishes Tarairyoiu under Ianduy/Caracara from Cariri, Caririvasi and Cariri-jou. ChapterXII by Herckmann and preceding Rabbi reports are different source scopes.",
+    "held": "Sparse Tarairiú lexical items in Rabbi/Herckmann discourse need exact form/gloss/context alignment and paleographic review, not pooling all Tapuya names. No Tremembé lexical evidence established. Claude1614 facsimile and OCR acquired; full original lexical extraction remains unreviewed.",
+    "reopen": "Literal attributed lexical citations and complete source-specific transcriptions; do not convert plant species names to generic core slots."
+  },
+  {
+    "track": "U07",
+    "decision": "hold_source_indexed_export",
+    "source": "PanLex official source-list, current CC BY-NC-SA4 licence, Zenodo6757353 batch1 metadata",
+    "reason": "Located RDF batch1 covers source range0..999; targeted Martius acquisition identifiers6691/6751 do not establish a machine-readable export in that batch. IA book metadata has scan/OCR, not lexical JSON. No exact source-bearing dictionary export/version/terms for targeted Brazilian works established. native-dics code GPL does not clear each dictionary.",
+    "reopen": "Actual exact dictionary/source export with source-native meanings/POS/provenance and applicable edition-specific terms; no translation-chain inference or restricted archive access."
+  },
+  {
+    "track": "U10",
+    "decision": "pollex_terms_hold_with_lexirumah_depth",
+    "source": "https://pollex.org.nz/",
+    "reason": "No applicable lexical release licence/native transport established; protolanguage reconstructions cannot be treated as daughter-language records. Continued with three exact already-ingested LexiRumah original members; no duplicate full LexiRumah import."
+  },
+  {
+    "track": "U12",
+    "decision": "implemented_and_piloted",
+    "result": "Explicit retain_source_sense_unmapped mode requires blank canonical concept, exact literal native JSON sense path, hashed source evidence, reviewed lexical entry kind and reading policy. Existing source/concept/profile/identity guards retained. Applied to reviewed Pite lemmas and source-labelled dictionary cohorts; no automatic admission of entire raw corpora."
+  },
+  {
+    "track": "U01",
+    "url": "https://archive.org/download/catecismodadoutr00mami/catecismodadoutr00mami.pdf",
+    "source": "Mamiani1698 separate original catechism",
+    "bytes": 17478319,
+    "sha256": "4edfb8ab8a7b847418f6b0fa1f7e35161db5fde5d798b25a2d61f75ff97cbcd9",
+    "decision": "acquired_original_not_lexical_admission",
+    "note": "Independent ordinary Archive/JCB route after the published wdfiles URL404. No modern1877 or1942 edition substituted. Source requires separate original lexical/parallel-text review."
+  },
+  {
+    "track": "U04",
+    "source": "anchieta1595",
+    "url": "https://digital.bbm.usp.br/bitstream/bbm/4674/1/000592_COMPLETO.pdf",
+    "bytes": 3884428,
+    "pages": 128,
+    "sha256": "0a278ff4d640daa5ec5a7c24a6e1da1c17269d0c8a742132d449b1654861fab0",
+    "decision": "acquired_source_edition_not_lexical_admission",
+    "note": "Grammar source scope and exact titlepage date must precede transcription/profile use; catalogue year is not silently an original first-edition date."
+  },
+  {
+    "track": "U04",
+    "source": "figueira-catalog1628",
+    "url": "https://archive.org/download/arte-da-lingua-brasilica/res-243-p_0000.pdf",
+    "bytes": 11021876,
+    "pages": 198,
+    "sha256": "f5fe91fc5722ecc8b32cfafb97258f6af9e006818bde812ce8e5c975d018d0a6",
+    "decision": "acquired_source_edition_not_lexical_admission",
+    "note": "Grammar source scope and exact titlepage date must precede transcription/profile use; catalogue year is not silently an original first-edition date."
+  },
+  {
+    "track": "U04",
+    "source": "figueira1687",
+    "url": "https://archive.org/download/artedegrammatica01figu/artedegrammatica01figu.pdf",
+    "bytes": 13637895,
+    "pages": 188,
+    "sha256": "d4af0f6e54abcd3178c34cc721d7c547143c6b370a1ef0e3ad0e600d41860580",
+    "decision": "acquired_source_edition_not_lexical_admission",
+    "note": "Grammar source scope and exact titlepage date must precede transcription/profile use; catalogue year is not silently an original first-edition date."
+  },
+  {
+    "track": "U04",
+    "source": "Yves d’Evreux, Denis1864 edition (not original1615 scan)",
+    "url": "https://archive.org/download/voyagedanslenord00yves/voyagedanslenord00yves.pdf",
+    "bytes": 34169404,
+    "sha256": "58e48d7fa8c3fb6b3b77127472818a3307073d485891501ede0adaecdd133604",
+    "decision": "acquired_edition_not_lexical_admission",
+    "note": "Preserve1864 editor/introduction/notes separately from1613–1614 witness and1615 publication; no extra independent witness count."
+  },
+  {
+    "track": "U04",
+    "source": "Yves d’Evreux, Denis1864 edition (not original1615 scan)",
+    "url": "https://archive.org/download/voyagedanslenord00yves/voyagedanslenord00yves_djvu.txt",
+    "bytes": 1118264,
+    "sha256": "cf77b2727829651e131ef5de3b08274d4e8d7390ede86d1da15693561e85eeaa",
+    "decision": "acquired_edition_not_lexical_admission",
+    "note": "Preserve1864 editor/introduction/notes separately from1613–1614 witness and1615 publication; no extra independent witness count."
+  }
+]

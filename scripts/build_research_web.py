@@ -11,6 +11,7 @@ import gzip
 import hashlib
 import json
 import sqlite3
+import sys
 import tempfile
 from collections import Counter, defaultdict
 from datetime import date
@@ -19,6 +20,7 @@ from pathlib import Path
 from arcaverborum.research_evidence import annotate, update_state
 
 ROOT = Path(__file__).resolve().parents[1]
+csv.field_size_limit(sys.maxsize)
 
 
 def read(path):
@@ -36,6 +38,19 @@ def assignments(row):
     """Preserve set membership and namespace; do not equate composite strings."""
     value = row.get('canonical_cognate_id') or row.get('Cognacy', '')
     return sorted(set(part.strip() for part in value.split(';') if part.strip()))
+
+
+def accepted_source_glosses(root, aggregate):
+    """Load only accepted source senses, leaving bulk research intake on disk."""
+    with (aggregate / 'forms.csv').open(encoding='utf-8') as handle:
+        needed = {row['source_parameter_id'] for row in csv.DictReader(handle)}
+    parameters = {}
+    for path in (root / 'intake').glob('*/parameters_raw.csv'):
+        with path.open(encoding='utf-8') as handle:
+            for row in csv.DictReader(handle):
+                if row['ID'] in needed:
+                    parameters[row['ID']] = row.get('Name', '')
+    return parameters
 
 
 def construction_metadata(row, entry, rule):
@@ -83,10 +98,7 @@ def build(root=ROOT, output=None):
     collection_seen = defaultdict(set)
     collection_core = defaultdict(set)
     collection_supported = defaultdict(set)
-    parameters = {}
-    for path in (root / 'intake').glob('*/parameters_raw.csv'):
-        for row in read(path):
-            parameters[row['ID']] = row.get('Name', '')
+    parameters = accepted_source_glosses(root, aggregate)
     reviews = {}
     for custom in (root / 'varieties').glob('*/custom'):
         av = custom.parent.name

@@ -1,0 +1,50 @@
+{
+  "cohorts": [
+    {
+      "source_member": "85",
+      "av_id": "atl-sereer",
+      "admitted_written_unmapped": 11183,
+      "decisions": {
+        "retain_unreviewed_word_class": 9918,
+        "admit": 11183,
+        "crossreference": 506
+      }
+    },
+    {
+      "source_member": "2476",
+      "av_id": "atl-ewe",
+      "admitted_written_unmapped": 13949,
+      "decisions": {
+        "retain_unreviewed_word_class": 7715,
+        "admit": 13949,
+        "crossreference": 5
+      }
+    },
+    {
+      "source_member": "1972",
+      "av_id": "atl-taabwa",
+      "admitted_written_unmapped": 2204,
+      "decisions": {
+        "retain_unreviewed_word_class": 3174,
+        "admit": 2204,
+        "crossreference": 0
+      }
+    },
+    {
+      "source_member": "1980",
+      "av_id": "atl-yasa",
+      "admitted_written_unmapped": 1440,
+      "decisions": {
+        "retain_unreviewed_word_class": 549,
+        "admit": 1440,
+        "crossreference": 1
+      }
+    }
+  ],
+  "held": [
+    {
+      "member": "2555",
+      "reason": "Cheucle2012 Bekwel has BIB=0 and no reference row; precise edition attribution unresolved. Full2456 rows retained in intake; no acceptance or inferred reading."
+    }
+  ]
+}

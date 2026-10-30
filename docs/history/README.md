@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Worldwide U01–U12](../WORLDWIDE_U_EXECUTION_2026-10-30.md):45,549 records,8,290 supported readings, one newly explicit canonical Kipeá construction and8,998,169 new intake rows; exact source/reading/sense gates retained. [Metrics](../worldwide_u_summary_2026-10-30.json).
+
 * [Southern Cone/CHIRILA T01–T08](../SOUTHERN_T_EXECUTION_2026-10-30.md):106 records,47 supported/core slots, three historical language pilots, four recovered Laklãnõ readings and complete private CHIRILA transport/identity review. [Metrics](../southern_t_summary_2026-10-30.json).
 
 * [Worldwide original-source S01–S09](../WORLDWIDE_S_EXECUTION_2026-10-30.md): twelve native-preserving intake namespaces; eleven canonical languages/one named variety, original African primary improvements, finite readings and precise holds. [Metrics](../worldwide_s_summary_2026-10-30.json), [verification](../worldwide_s_verification_2026-10-30.json).

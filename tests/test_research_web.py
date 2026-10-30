@@ -126,3 +126,14 @@ def test_reconstruction_catalog_metadata_requires_explicit_unlinked_scope():
             builder.construction_metadata(row, entry, rule)
     with pytest.raises(ValueError):
         builder.construction_metadata(dict(transcription_source='modern'), {}, rule)
+
+
+def test_source_gloss_lookup_retains_unmapped_accepted_senses_only(tmp_path):
+    aggregate = tmp_path / 'output/aggregate'
+    write_csv(aggregate / 'forms.csv', [dict(source_parameter_id='written'),
+                                       dict(source_parameter_id='missing')])
+    write_csv(tmp_path / 'intake/lexibank/parameters_raw.csv',
+              [dict(ID='written', Name='literal original dictionary sense'),
+               dict(ID='intake-only', Name='not accepted yet')])
+    assert builder.accepted_source_glosses(tmp_path, aggregate) == {
+        'written': 'literal original dictionary sense'}

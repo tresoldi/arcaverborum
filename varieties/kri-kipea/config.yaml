@@ -1,0 +1,26 @@
+av_id: kri-kipea
+name: Kipea
+glottocode: kipe1235
+family: Kariri
+macroarea: South America
+sources:
+  transcription: kipeaoriginal
+  cognates: kipeaoriginal
+  source_language_id: kipeaoriginal_Kipea1699
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-10-30'
+notes: Underlying1699 public-domain printed work. CC BY4 applies only to independently
+  authored Arca transcription/curation. BBM scan retained privately, not relicensed.
+  Later Wiktionary/GLED wrappers of this witness are not independent confirmation.
+  Modern Karirí-Xocó is not treated as this precise historical sample. Documentary
+  spellings only; exact reviewed literal senses. No expert cognacy or inferred pronunciation.

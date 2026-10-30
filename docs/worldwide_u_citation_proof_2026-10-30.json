@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "kipeaoriginal",
+    "records": 16,
+    "anchors": [
+      "image-475"
+    ],
+    "classification": "Independently authored facsimile transcription",
+    "limit": "Hashes verify source/page/image identity, not automatic paleographic correctness. Source orthography is not IPA; unresolved items remain outside admission."
+  },
+  {
+    "dataset": "martiuscamacan",
+    "records": 140,
+    "anchors": [
+      "pdf-page-179",
+      "pdf-page-180"
+    ],
+    "classification": "Unreviewed OCR intake",
+    "limit": "Hashes verify source/page/image identity, not automatic paleographic correctness. Source orthography is not IPA; unresolved items remain outside admission."
+  },
+  {
+    "dataset": "currupperyarra",
+    "records": 104,
+    "anchors": [
+      "image-4187",
+      "image-4192"
+    ],
+    "classification": "Independently authored facsimile transcription",
+    "limit": "Hashes verify source/page/image identity, not automatic paleographic correctness. Source orthography is not IPA; unresolved items remain outside admission."
+  },
+  {
+    "dataset": "historiatupioriginal",
+    "records": 262,
+    "anchors": [
+      "image-3008",
+      "image-3013"
+    ],
+    "classification": "Independently authored facsimile transcription",
+    "limit": "Hashes verify source/page/image identity, not automatic paleographic correctness. Source orthography is not IPA; unresolved items remain outside admission."
+  },
+  {
+    "dataset": "martiusbrazilscopes",
+    "records": 611,
+    "anchors": [
+      "pdf-page-196",
+      "pdf-page-197",
+      "pdf-page-198",
+      "pdf-page-199",
+      "pdf-page-220",
+      "pdf-page-221",
+      "pdf-page-241",
+      "pdf-page-242",
+      "pdf-page-243"
+    ],
+    "classification": "Unreviewed OCR intake",
+    "limit": "Hashes verify source/page/image identity, not automatic paleographic correctness. Source orthography is not IPA; unresolved items remain outside admission."
+  }
+]

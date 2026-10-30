@@ -1,0 +1,24 @@
+[
+  {
+    "dataset": "martiuscamacan",
+    "records": 140,
+    "source_pages": 2,
+    "previous_extraction_bytes": 352301,
+    "deduplicated_extraction_bytes": 27192,
+    "page_context_file": "docs/worldwide_u03_camacan_page_contexts_2026-10-30.json",
+    "page_context_sha256": "1a3346d9de5a69be116e506f8fad811028406a67dde370883e86b01e37b05a73",
+    "all_materialized_files_byte_identical": true,
+    "native_hashes_and_complete_intake_unchanged": true
+  },
+  {
+    "dataset": "martiusbrazilscopes",
+    "records": 611,
+    "source_pages": 9,
+    "previous_extraction_bytes": 1527602,
+    "deduplicated_extraction_bytes": 131602,
+    "page_context_file": "docs/worldwide_u03_additional_page_contexts_2026-10-30.json",
+    "page_context_sha256": "5e789e9d1b5db23bf80be56cd88c1f9c3052b0498b1488b4795e8bbf0e819108",
+    "all_materialized_files_byte_identical": true,
+    "native_hashes_and_complete_intake_unchanged": true
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "cohorts": [
+    {
+      "member": "buso1238",
+      "av_id": "map-busoa",
+      "admitted_upstream_converted_unmapped": 601,
+      "decisions": {
+        "admit": 601,
+        "sense_or_entry_note_requires_review": 105
+      }
+    },
+    {
+      "member": "kaim1241",
+      "av_id": "map-kaimbulawa",
+      "admitted_upstream_converted_unmapped": 302,
+      "decisions": {
+        "admit": 302,
+        "sense_or_entry_note_requires_review": 37,
+        "reading_or_variant_hold": 13
+      }
+    },
+    {
+      "member": "wotu1240",
+      "av_id": "map-wotu",
+      "admitted_upstream_converted_unmapped": 273,
+      "decisions": {
+        "admit": 273,
+        "sense_or_entry_note_requires_review": 36
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "path": "p/buso1238",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/buso1238",
+      "sha256": "65cf3eb2138425f67186d9bd95d6c15c9e6eaba2d5c49da3bc19064152037755"
+    },
+    {
+      "path": "p/general",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/general",
+      "sha256": "3e7fd5aae031fb34dd61708963d1454b5f7ae53fd026f70a2e872c5d4b9afdb5"
+    },
+    {
+      "path": "p/muna",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/muna",
+      "sha256": "43033e77547b6ee18bc7fcfb0d87141c9ca34b3bfc82a6aa6ef5a2428295717c"
+    },
+    {
+      "path": "p/wotu1240",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/wotu1240",
+      "sha256": "bfe8495a6d2fde7f0a40afb959327a9a0a33d5bea9b8a3b1f14e90a0e5077916"
+    }
+  ],
+  "pollex_hold": "Official POLLEX public pages inspected; no applicable lexical reuse licence/native release established. No protoforms/daughter forms imported or automatic cognacy reclassified.",
+  "literal_mappings": [
+    {
+      "av_id": "map-busoa",
+      "reviewed_literal_mappings": 64
+    },
+    {
+      "av_id": "map-kaimbulawa",
+      "reviewed_literal_mappings": 42
+    },
+    {
+      "av_id": "map-wotu",
+      "reviewed_literal_mappings": 41
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import io
 import json
 import re
 import unicodedata
+import zipfile
 from pathlib import Path
 
 import requests
@@ -40,6 +41,54 @@ def plain_tex(text):
 
 
 def native_records(spec, payloads):
+    if spec['kind'] == 'cayuga_particles':
+        text = re.sub(r'(?m)(?<!\\)%[^\n]*', '', payloads['particle_dictionary'].decode())
+        matches = list(re.finditer(r'\\subsection\*?\{', text))
+        result = []
+        for i, match in enumerate(matches):
+            block = text[match.start():matches[i + 1].start() if i + 1 < len(matches) else len(text)]
+            heading = tex_arguments(block[len(match[0]) - 1:])[0]
+            heads, senses = macro_values(heading, 'textbf'), macro_values(heading, 'trs')
+            if not heads or not senses:
+                continue  # Organizational headings are not lexical entries.
+            native = dict(resource_key='particle_dictionary', raw_block=block, heading=heading,
+                          headwords=heads, senses=senses, literal_sense='; '.join(senses),
+                          form_kind='particle or particle group')
+            result.append(dict(ID='particle-' + str(i + 1), member='Dictionary',
+                               Form=plain_tex(heads[0]), source_sense=native['literal_sense'], original=native))
+        return result
+    if spec['kind'] == 'pite_json':
+        data = json.loads(payloads['dictionary'])
+        metadata, entries = data[0], data[1:]
+        if (metadata.get('doi') != '10.15155/zpnv-9y59' or metadata.get('version') != 'v1.1'
+                or len(entries) != 7760 or len({r['no'] for r in entries}) != len(entries)):
+            raise ValueError('Pite Saami release identity changed')
+        return [dict(ID='entry-' + row['no'], member='Dictionary', Form=row['sje'],
+                     source_sense=row.get('ENG', ''),
+                     original=dict(entry=row, release=metadata,
+                                   reading_basis='orthographic_transcription_only')) for row in entries]
+    if spec['kind'] == 'documentary_ocr':
+        # Discovery transport only. Complete original page context and uncertain
+        # OCR survive; this does not authorize acceptance or a phonetic reading.
+        result = []
+        contexts = (json.loads((ROOT / spec['page_contexts']).read_text())
+                    if spec.get('page_contexts') else {})
+        for row in read(ROOT / spec['extraction']):
+            native = {key: row[key] for key in
+                      ('resource_key', 'member', 'Form', 'source_sense', 'pdf_page')}
+            quote = contexts[row['pdf_page']] if contexts else row['raw_quote']
+            if contexts and hashlib.sha256(quote.encode()).hexdigest() != row.get('raw_quote_sha256'):
+                raise ValueError('Documentary OCR page context changed')
+            native['raw_quote'] = quote
+            native['extraction_basis'] = 'Unreviewed PDF OCR; consult original facsimile'
+            if (row['decision'] != 'stage_ocr' or row['Form'] not in quote
+                    or row['source_sense'] not in quote
+                    or not payloads[row['resource_key']].startswith(b'%PDF')
+                    or int(row['pdf_page']) < 1 or digest(native) != row['native_sha256']):
+                raise ValueError('Documentary OCR source context changed')
+            result.append(dict(ID=row['native_id'], member=row['member'], Form=row['Form'],
+                               source_sense=row['source_sense'], original=native))
+        return result
     if spec['kind'] == 'lexirumah':
         return lexirumah_records(spec, payloads)
     if spec['kind'] == 'tuatschin':
@@ -181,6 +230,7 @@ def dictionary_records(spec, payloads):
         'dagaare': ('tbLX', 'tbLX', 'tbGE', 'tbPH', 'tbPS'),
         'beja': ('Blx', 'Blx', 'Bde', None, 'Bps'),
         'cayuga_nouns': ('lexicalunitbracket', 'lexicalunitbracket', 'trs', None, 'synpos'),
+        'cayuga_verbs': ('lexicalunitbracket', 'lexicalunitbracket', 'trs', None, 'synpos'),
     }[spec['format']]
     result = []
     for resource in spec['resources']:
@@ -195,19 +245,32 @@ def dictionary_records(spec, payloads):
             if not heads:
                 raise ValueError('Original lexical block has no headword')
             meanings = macro_values(block, gloss)
-            citations = macro_values(block, 'cayuga') if spec['format'] == 'cayuga_nouns' else []
+            citations = macro_values(block, 'cayuga') if spec['format'].startswith('cayuga_') else []
             citations = [citation + re.match(r'[ˀ:]*', block.split('\\cayuga{' + citation + '}', 1)[1])[0]
                          for citation in citations]
             native = dict(resource_key=resource['key'], entry_ordinal=ordinal, raw_block=block,
                           headwords=heads, senses=meanings, POS=macro_values(block, pos),
                           phonetic=macro_values(block, phonetic) if phonetic else [],
                           source_format=spec['format'])
-            if spec['format'] == 'cayuga_nouns':
+            if spec['format'].startswith('cayuga_'):
                 native['full_citations'] = citations
                 native['form_kind'] = 'cited word' if citations else 'lexical stem only'
+            literal = '; '.join(meanings)
+            if spec['format'] == 'cayuga_verbs':
+                native['first_citation_sense'] = ''
+                if citations:
+                    start = block.index('\\cayuga{')
+                    # Pair only the immediately following translation; never
+                    # assign a stem gloss to its inflected full-word example.
+                    arguments = tex_arguments(block[start + len('\\cayuga'):])
+                    suffix = block[start + len('\\cayuga') + len(arguments[0]) + 2:]
+                    paired = re.match(r'[ˀ:]*\s*\\trs\{', suffix)
+                    if paired:
+                        native['first_citation_sense'] = tex_arguments(suffix[paired.end() - 1:])[0]
+                literal = native['first_citation_sense']
             result.append(dict(ID=resource['key'] + '-' + str(ordinal), member='Dictionary',
                                Form=plain_tex(citations[0] if citations else heads[0]),
-                               source_sense='; '.join(meanings), original=native))
+                               source_sense=literal, original=native))
     return result
 
 
@@ -224,7 +287,10 @@ def reflex_records(spec, payloads):
     for key, member in selected.items():
         source = sources[key]
         language = languages[source['LANGUE']]
-        reference = references[source['BIB']]
+        reference = references.get(source['BIB'])
+        if reference is None:
+            reference = dict(ID=source['BIB'], missing_reference=True,
+                             note='No bibliography row in the pinned original export; attribution unresolved')
         if language['glottocode'] != member['Glottocode']:
             raise ValueError('RefLex original member identity changed')
         attribution[key] = dict(source=source, language=language, reference=reference)
@@ -249,9 +315,18 @@ def materialize(raw_root, *, dataset, download=False):
             raise ValueError('Original resource requires a local filename')
         path = root / name
         if download:
-            response = requests.get(resource['url'], timeout=60)
+            if resource.get('download_form'):
+                session = requests.Session()
+                landing = session.get(resource['url'], timeout=60)
+                landing.raise_for_status()
+                response = session.post(resource['url'], data=resource['download_form'],
+                                        headers={'Referer': resource['url']}, timeout=60)
+            else:
+                response = requests.get(resource['url'], timeout=60)
             response.raise_for_status()
             data = response.content
+            if resource.get('archive_member'):
+                data = zipfile.ZipFile(io.BytesIO(data)).read(resource['archive_member'])
         else:
             data = path.read_bytes()
         if hashlib.sha256(data).hexdigest() != resource['sha256']:
@@ -278,7 +353,8 @@ def materialize(raw_root, *, dataset, download=False):
         parameters.append(dict(ID=record['ID'], Name=record['source_sense'], Concepticon_ID='', Concepticon_Gloss=''))
     if not forms:
         raise ValueError('Empty original lexical source')
-    languages = [m for m in spec['members'] if m['ID'] in {r['member'] for r in records}]
+    used_members = {r['member'] for r in records}
+    languages = [m for m in spec['members'] if m['ID'] in used_members]
     cldf = root / 'cldf'
     cldf.mkdir(exist_ok=True)
     term = 'http://cldf.clld.org/v1.0/terms.rdf#'

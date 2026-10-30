@@ -49,6 +49,7 @@ Use these terms when naming things in code, commits, and conversation.
 | **aggregate** | The union of all per-variety `generated/forms.csv` files into `output/aggregate/`. |
 | **release** | A versioned, CLDF-compatible dataset sliced from the aggregate (CORE families only). |
 | **Core-source collection** | Sources flagged `CORE=TRUE` in `datasets.csv`; the live explorer filters lexical rows by this membership. It is distinct from the 161-concept vocabulary and archived Core v0.1.0 release. |
+| **reviewed unmapped entry** | An explicitly admitted source citation whose literal native sense is retained without a catalog equivalence. It keeps identity, provenance and reading guards, blocks inherited concept mapping and adds no mapped/core slot. |
 | **merkmal** | External library for IPA phonology: segment validation, tokenization, feature extraction, tone handling. The phonological backbone. |
 | **Glottolog** | External authority for language classification (Glottocodes, families, macroareas, coordinates). |
 | **Concepticon** | External authority for cross-linguistic concept sets (Concepticon IDs, glosses, semantic fields). |

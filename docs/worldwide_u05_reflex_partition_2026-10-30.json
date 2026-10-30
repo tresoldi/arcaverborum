@@ -1,0 +1,247 @@
+{
+  "excluded_previously_complete_source_ids": [
+    "1352",
+    "1439",
+    "1701",
+    "3000",
+    "3115",
+    "3563",
+    "363",
+    "42"
+  ],
+  "new_source_editions": 1427,
+  "unresolved_codes": [
+    {
+      "source_id": "20",
+      "name": "Proto-Manjaku",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "23",
+      "name": "Baynunk Djibelor",
+      "glottocode": "gube1234 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "82",
+      "name": "Proto-Bantu",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "204",
+      "name": "Proto-Gbaya",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "257",
+      "name": "Luyia",
+      "glottocode": "luyi1234",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "288",
+      "name": "Ngoni",
+      "glottocode": "ngon1269",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "375",
+      "name": "Proto-Benue-Congo",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "674",
+      "name": "Vaghat-Ya-Bijim-Legeri",
+      "glottocode": "vagh1247",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "675",
+      "name": "Vaghat-Ya-Bijim-Legeri",
+      "glottocode": "vagh1247",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "871",
+      "name": "Vaghat-Ya-Bijim-Legeri",
+      "glottocode": "vagh1247",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "872",
+      "name": "Vaghat-Ya-Bijim-Legeri",
+      "glottocode": "vagh1247",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "1109",
+      "name": "Baynunk Gujaxer",
+      "glottocode": "bain1259 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "1336",
+      "name": "Baynunk Sonkodou",
+      "glottocode": "gube1234 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "1828",
+      "name": "Proto-Upper-Cross",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2100",
+      "name": "Kobiana",
+      "glottocode": "kobi1241 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2101",
+      "name": "Kasanga",
+      "glottocode": "kasa1248 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2102",
+      "name": "Baynunk Gujaxer",
+      "glottocode": "bain1259 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2123",
+      "name": "Proto-Ukaan",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2558",
+      "name": "Proto-Togo-Restsprachen",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2586",
+      "name": "Baynunk Gubəher",
+      "glottocode": "gube1234 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2698",
+      "name": "Proto-SBB",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2700",
+      "name": "Proto-Jukunoid",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2701",
+      "name": "Proto-Yukuben-Kutep",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2702",
+      "name": "Proto-Central-Jukunoid",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2703",
+      "name": "Proto-Kpan-Icen",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2704",
+      "name": "Proto-Jukun-Mbembe-Wurbo",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2705",
+      "name": "Proto-Jukun-Mbembe",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2706",
+      "name": "Proto-Mbembe",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2707",
+      "name": "Proto-Wurbo",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2715",
+      "name": "Gyannzi (Geeji)",
+      "glottocode": "geji1246",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2716",
+      "name": "Gyannzi (Geeji)",
+      "glottocode": "geji1246",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "2749",
+      "name": "Baynunk Gunyaamolo",
+      "glottocode": "guny1242 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "3008",
+      "name": "Kobiana",
+      "glottocode": "kobi1241 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "3009",
+      "name": "Baynunk Gujaxer",
+      "glottocode": "bain1259 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "3314",
+      "name": "Proto-Fula-Sereer",
+      "glottocode": "peul1234",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "3497",
+      "name": "Proto-Cangin",
+      "glottocode": "NA",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "3522",
+      "name": "Baynunk Gujaxer",
+      "glottocode": "bain1259 ",
+      "decision": "retain_unresolved_intake_only"
+    },
+    {
+      "source_id": "3561",
+      "name": "Proto-Grassfields",
+      "glottocode": "",
+      "decision": "retain_unresolved_intake_only"
+    }
+  ],
+  "expected_new_native_rows": 908379,
+  "expected_full_original_rows": 932836,
+  "legacy_partial_occurrences": 231,
+  "note": "Preserve all prior wrappers; native RefLex record ID and edition pin identify shared evidence. Intake volume is not accepted lexical gain."
+}

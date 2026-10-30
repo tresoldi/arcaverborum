@@ -1,5 +1,23 @@
 # Current project state
 
+Updated2026-10-30. Latest accepted batch: [Worldwide U01–U12](WORLDWIDE_U_EXECUTION_2026-10-30.md). [Metrics/preservation](worldwide_u_summary_2026-10-30.json), [verification](worldwide_u_verification_2026-10-30.json), [remaining gates](worldwide_u_holds_2026-10-30.csv).
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,365 |
+| Accepted records | 2,119,754 |
+| Supplied/upstream-converted records | 1,749,993 |
+| Profile-backed records | 22,178 |
+| Supported core slots | 470,162 |
+| Mapped core slots | 544,286 |
+| Supported all-concept slots | 1,209,436 |
+| Mapped all-concept slots | 1,337,275 |
+| GLED primaries | 1,555 |
+
+U adds45,549 records:1,176 upstream conversions,7,113 source-backed profiles and37,260 written citations. Supported core+69/all+77; mapped core+89/all+110. All2,074,205 previous records/readings/mappings/cognacy preserved; six mixed-label kzw records gain annotations only. One newly explicit canonical Kipeá construction; no existing-primary changes. Intake16,419,264 (+8,998,169), including complete remaining RefLex and complete pt/fr entry archives.25 original namespaces reproduce1,080,685 rows/81 pins; raw/accepted/independent-witness counts stay separate. [Publication](worldwide_u_publication_2026-10-30.json).
+
+## Historical preceding T state
+
 Updated2026-10-30. Latest accepted batch: [Southern Cone/CHIRILA T01–T08](SOUTHERN_T_EXECUTION_2026-10-30.md), all eight bounded reviews closed. [Metrics](southern_t_summary_2026-10-30.json), [verification](southern_t_verification_2026-10-30.json), [holds](southern_t_holds_2026-10-30.csv).
 
 | Measure | Accepted value |
@@ -16,7 +34,7 @@ Updated2026-10-30. Latest accepted batch: [Southern Cone/CHIRILA T01–T08](SOUT
 
 T adds106 records (50 upstream reading/56 historical written), three canonical historical language constructions and four prior Laklãnõ profile recoveries. Supported slots+47/core+47; mapped+82/core+66. All2,074,099 earlier native records/mappings/cognacy survive; four reviewed readings and their quality scores change. No existing-primary changes; all58 targeted Woiwurrung GLED records survive. Intake7,421,095 (+56 in four complete new namespaces). CHIRILA230,182-row private staging is not public lexical gain.495 tests in both installed normalization flag states pass; page/image/source/browser/preservation proof files retain limits. [Publication](southern_t_publication_2026-10-30.json): data commit fd5bf64d, CI/Pages succeeded,404 canonical artifacts match, two live browser suites pass.
 
-Latest planning: [Worldwide sources after T—older Brazil and full intake](WORLDWIDE_AFTER_T_BRAZIL_SOURCE_PLAN_2026-10-30.md), proposed U01–U12. Mamiani1699/Nantes1709/Martius1863 originals acquired; full RefLex, other Wiktionary editions and Pite JSON route prioritized. Planning only, zero lexical changes; accepted baseline above remains authoritative.
+Post-T planning snapshot (historical): [Worldwide sources after T—older Brazil and full intake](WORLDWIDE_AFTER_T_BRAZIL_SOURCE_PLAN_2026-10-30.md), proposed U01–U12. Mamiani1699/Nantes1709/Martius1863 originals acquired; full RefLex, other Wiktionary editions and Pite JSON route prioritized. Planning only, zero lexical changes; accepted baseline above remains authoritative.
 
 ## Historical preceding S state
 

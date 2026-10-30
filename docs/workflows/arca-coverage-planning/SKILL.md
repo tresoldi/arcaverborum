@@ -93,6 +93,40 @@ use `append_source_intake.py`; an additive existing-namespace expansion can use
 are unchanged and the actual old count is guarded. Other changes need a distinct
 reviewed migration. Never subset-ingest over active tables or replay old counts.
 
+## Bulk dictionaries and additional editions
+
+Treat the complete pinned original edition as the transport unit, keeping native
+IDs, original fields, senses, gloss language, pronunciation labels, references and
+source genealogy. Measure archive objects, lexical entry blocks, source senses,
+intake rows and accepted records separately. Redirects, inflections, variants and
+multiple editions are not additional independent lemmas or witnesses. Nonstandard
+source language codes stay native; do not label them ISO639-3 or infer a local lect.
+
+For non-English Wiktionary use `scripts/stage_wiktionary_edition.py` and the pinned
+edition manifest, then append a complete namespace. Preserve existing English
+intake. A current language-index extractor commit must not be substituted for an
+older downloaded raw archive; retain the exact archive hash and available log.
+Audit native sound/entry-kind fields when ranking additional editions: deliberately
+blank transport Segments does not mean the original has no pronunciation.
+The U complete-intake proof compares unchanged staged table bodies against intake.
+Large duplicate staging tables can be removed only after this verification; retain
+raw archives, source pins, reproducible adapters and measured proof.
+
+Reviewed dictionary senses may use `mapping_decision=retain_source_sense_unmapped`
+with a blank concept_id, exact `expected_source_sense` and native JSON
+`source_sense_path`, a reviewed `entry_kind`, hashed source evidence and explicit
+reading policy. Numeric JSON path elements address native list entries. This mode
+blocks inherited concept matching; it does not waive identity, transcription or
+provenance guards. Exclude unresolved parses/crossreferences and distinguish full
+cited words from stems, inflections and phrases. Retain tone/quantity and uncertain
+readings rather than deriving IPA from token validity. Test exported literal senses
+and verify that unmapped evidence adds no mapped/core slots.
+
+At this scale use bounded-memory source transport, sparse empty-mapping defaults
+and accepted-only gloss lookup. Reproduction checks must preserve embedded CR/LF
+with `newline=''` and query indexed source/Glottocode slices; a verifier's newline
+normalization must not be mistaken for corruption of the original source.
+
 ## Verify, close and retain a useful next queue
 
 Validate affected builds, preserved earlier evidence, source/profile scopes and

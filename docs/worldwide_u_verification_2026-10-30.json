@@ -1,0 +1,37 @@
+{
+  "status": "Passed local checks; canonical publication pending",
+  "unit_tests": 511,
+  "installed_merkmal_flag_states": [
+    false,
+    true
+  ],
+  "normalization_build_limit": "Both flags tested in one installed merkmal build, not two independent builds.",
+  "ruff": "passed",
+  "browser_suites": {
+    "worldwide_u": 0,
+    "southern_t": 0,
+    "johd": 0,
+    "mixed_source": 0,
+    "research": 0,
+    "african": 0,
+    "ancient": 0,
+    "romance": 0,
+    "source_preference": 0,
+    "worldwide": 0,
+    "worldwide_wn": 0,
+    "worldwide_q": 0,
+    "worldwide_r": 0,
+    "worldwide_s": 0
+  },
+  "source_namespaces": 25,
+  "complete_original_rows": 1080685,
+  "source_resource_pins": 81,
+  "finite_source_readings": 7113,
+  "all_previous_native_records_preserved": 2074205,
+  "prior_mapping_reading_quality_changes": 0,
+  "legacy_identity_annotations": 6,
+  "local_payload_hashes": 403,
+  "aggregate_input_hashes": 3,
+  "new_records": 45549,
+  "native_quote_whitespace": "Page contexts stored once with exact quote hashes; no native whitespace stripped. Materialized source files byte-identical."
+}

@@ -125,9 +125,12 @@ def reviewed_frames(
         else:
             mask = intake["Glottocode"].str.strip().str.lower().eq(gc) & intake["Dataset"].eq(source)
             frame = intake[mask].copy()
+        positions = {}
+        for position, identity in enumerate(frame["ID"]):
+            positions.setdefault(identity, []).append(position)
         chosen = []
         for decision in selected:
-            matches = frame[frame["ID"].eq(decision["source_form_id"])]
+            matches = frame.iloc[positions.get(decision["source_form_id"], [])]
             if len(matches) != 1:
                 raise ValueError("Supplement source form missing or duplicated: " + decision["source_form_id"])
             row = matches.iloc[0].to_dict()
@@ -140,8 +143,28 @@ def reviewed_frames(
             if raw_cid != decision["expected_source_concepticon_id"]:
                 raise ValueError("Supplement source concept changed: " + row["Parameter_ID"])
             cid = decision["concept_id"]
-            if cid not in concept_index or decision["decision"] != "admit" or not decision["rationale"]:
+            unmapped = decision.get("mapping_decision") == "retain_source_sense_unmapped"
+            if ((not unmapped and cid not in concept_index)
+                    or decision["decision"] != "admit" or not decision["rationale"]):
                 raise ValueError("Supplement lacks a valid explicit sense decision")
+            if unmapped:
+                # The hashed native evidence, rather than a loose translation
+                # match, must contain the exact sense being retained.
+                expected = decision.get("expected_source_sense", "")
+                path = decision.get("source_sense_path", "").split(".")
+                try:
+                    original_sense = json.loads(row["Comment"])
+                    for part in path:
+                        original_sense = (original_sense[int(part)] if isinstance(original_sense, list)
+                                          and part.isdecimal() else original_sense[part])
+                except (ValueError, KeyError, TypeError, IndexError):
+                    raise ValueError("Unmapped admission lacks exact native sense evidence") from None
+                if (cid or not expected or original_sense != expected
+                        or decision.get("entry_kind") not in
+                        {"lemma", "cited_word", "phrase", "inflected_form", "affix"}):
+                    raise ValueError("Unmapped admission requires a retained native sense and entry kind")
+                row["_concept_mapping_blocked"] = True
+                row["Comment"] += "; Reviewed unmapped " + decision["entry_kind"] + ": " + expected
             if decision.get("original_ipa"):
                 # Recover an explicitly bracketed original reading when an upstream
                 # conversion lost distinctions. The full intake evidence is already
@@ -218,7 +241,7 @@ def reviewed_frames(
             if profile is not None:
                 row["Comment"] += "; Source-scoped orthographic profile: " + profile_file + "; SHA256 " + digest
             row["_concept_id_override"] = cid
-            row["Concepticon_ID"] = concept_index[cid]
+            row["Concepticon_ID"] = "" if unmapped else concept_index[cid]
             row["Comment"] = "; ".join(
                 filter(None, [row.get("Comment", ""), review_label + ": " + decision["rationale"]])
             )

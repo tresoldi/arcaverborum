@@ -1,0 +1,180 @@
+{
+  "namespaces": {
+    "andakioriginal": {
+      "dataset": "andakioriginal",
+      "forms": 47,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "2dc6ada929aa7445601fd80e729a5f9b24862ac4605a7100bd40c4857c3ee3c5"
+    },
+    "yauyosoriginal": {
+      "dataset": "yauyosoriginal",
+      "forms": 24,
+      "members": 6,
+      "resource_hashes": 2,
+      "bibliography_sha256": "97963e6f32d290a284d39daf457c8551bf9f8ca769b6ba1dffaef39e34c049b9"
+    },
+    "reflexsnew": {
+      "dataset": "reflexsnew",
+      "forms": 3507,
+      "members": 4,
+      "resource_hashes": 4,
+      "bibliography_sha256": "93cb86be8b77b65b6f4bd1d1fb64f5dce4521de404a351edcd9a9dc6d3431191"
+    },
+    "reflexsbantu": {
+      "dataset": "reflexsbantu",
+      "forms": 20950,
+      "members": 4,
+      "resource_hashes": 4,
+      "bibliography_sha256": "338232d98bda111836e6c78c7894b3d92bd7674eed3d7c927cb2178bd7a8e091"
+    },
+    "chakalioriginal": {
+      "dataset": "chakalioriginal",
+      "forms": 3565,
+      "members": 1,
+      "resource_hashes": 2,
+      "bibliography_sha256": "d6a9095c1dc7ca1484d41a00f3a36efa0422aef603cbcbba5ae2832a178ebad1"
+    },
+    "dagaareoriginal": {
+      "dataset": "dagaareoriginal",
+      "forms": 7075,
+      "members": 1,
+      "resource_hashes": 31,
+      "bibliography_sha256": "4e63cf37cd15d695c76131f6f77996ca3b663aa00b89b74bf4e85e639b7e46cc"
+    },
+    "bejaoriginal": {
+      "dataset": "bejaoriginal",
+      "forms": 6134,
+      "members": 1,
+      "resource_hashes": 5,
+      "bibliography_sha256": "619563f4c1e6413f78ce91b4eb420bb5f1941a17d7420a1e4a379c97dba88b00"
+    },
+    "cayugaoriginal": {
+      "dataset": "cayugaoriginal",
+      "forms": 483,
+      "members": 1,
+      "resource_hashes": 3,
+      "bibliography_sha256": "17aa717b6667cc3536337c8aed438a4ce461fcb1bda09c8544d339682373f17b"
+    },
+    "lexirumahoriginal": {
+      "dataset": "lexirumahoriginal",
+      "forms": 117802,
+      "members": 356,
+      "resource_hashes": 4,
+      "bibliography_sha256": "50535da64809ca418f245ed00b9c457b37464cfb75edc5ab9fd9b029cd4af938"
+    },
+    "yakkhaoriginal": {
+      "dataset": "yakkhaoriginal",
+      "forms": 29,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "3ca55e4bae5bafdaee09882602191a88cd050c7f030f96c2196a3777cff6c8cb"
+    },
+    "kullillioriginal": {
+      "dataset": "kullillioriginal",
+      "forms": 22,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "ea11dd2e1347ad894bb714f05d3264d6d0245be77b4cb22180ca40fe817d1248"
+    },
+    "tuatschinoriginal": {
+      "dataset": "tuatschinoriginal",
+      "forms": 1706,
+      "members": 1,
+      "resource_hashes": 3,
+      "bibliography_sha256": "f0cc717419953f5a942bd4043575b918e1dee1fd5b975e740229c0add859e134"
+    },
+    "charruaoriginal": {
+      "dataset": "charruaoriginal",
+      "forms": 10,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "00b42191b0895e01bc37a07db6c1dfaedc771ea8291bc0b796896a4c0f89ab9e"
+    },
+    "chanaoriginal": {
+      "dataset": "chanaoriginal",
+      "forms": 16,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "7d58c844804e5ce21643adbe9d1d08581c416097e7118f165ec00fa370c6d258"
+    },
+    "guenoaoriginal": {
+      "dataset": "guenoaoriginal",
+      "forms": 1,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "cbe4e05707af6db6a9c24758bcc7f36ee4241472c9046ba3cd4cf119f4d2bb26"
+    },
+    "lower_yarraoriginal": {
+      "dataset": "lower_yarraoriginal",
+      "forms": 29,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "6ed222516b1486bea00febe23190c581c988fa1c330845367e41e28868af7c9a"
+    },
+    "kipeaoriginal": {
+      "dataset": "kipeaoriginal",
+      "forms": 16,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "693f2a6426519920387a1c57665e03ea167f159f732c1b4d8e9b0b0a6aff4ab8"
+    },
+    "martiuscamacan": {
+      "dataset": "martiuscamacan",
+      "forms": 140,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "59eeaf7a8af134e1fe1c2956bf786722aa6e0787b6c597915f7f1e9a6919a731"
+    },
+    "reflexremaining": {
+      "dataset": "reflexremaining",
+      "forms": 908379,
+      "members": 1427,
+      "resource_hashes": 4,
+      "bibliography_sha256": "361a73ec3ff8045fb22dba4f0f950addd465f0d77b4f66f7cb0fd17ecc318649"
+    },
+    "piteoriginal": {
+      "dataset": "piteoriginal",
+      "forms": 7760,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "7363431be560021bac2619cb1db0c98ecee3ccd1ce7d4c0bd784dee16c71f0e6"
+    },
+    "cayugaverbs": {
+      "dataset": "cayugaverbs",
+      "forms": 1632,
+      "members": 1,
+      "resource_hashes": 3,
+      "bibliography_sha256": "754a724fd410a721f27f3dc5d32960327f4e6c2769db93a0fc1f1a9ad52de6ea"
+    },
+    "cayugaparticles": {
+      "dataset": "cayugaparticles",
+      "forms": 381,
+      "members": 1,
+      "resource_hashes": 3,
+      "bibliography_sha256": "ad9527497b3ac171dec8f4e210f9185a1af66fe712befdcc2e21e7226bc0882a"
+    },
+    "currupperyarra": {
+      "dataset": "currupperyarra",
+      "forms": 104,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "68f911b7034af2e2a93b4bc0af0278e2a917bee442a7271e9c9344afdd498f93"
+    },
+    "historiatupioriginal": {
+      "dataset": "historiatupioriginal",
+      "forms": 262,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "749c63bb8cbe844d51cfcdf5fb8d2acd618ae193b645c3fa5642e00649446fca"
+    },
+    "martiusbrazilscopes": {
+      "dataset": "martiusbrazilscopes",
+      "forms": 611,
+      "members": 1,
+      "resource_hashes": 1,
+      "bibliography_sha256": "d7290e57f49716034d2f9a5f0521ecfc9ebdf8afae388ac7169ba0e82a0c2015"
+    }
+  },
+  "complete_native_rows": 1080685
+}

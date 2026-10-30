@@ -1,0 +1,43 @@
+[
+  {
+    "source": "chakalioriginal",
+    "av_id": "atl-chakali",
+    "new_profile_readings": 1888,
+    "decisions": {
+      "outside_reviewed_noun_scope": 1492,
+      "admit": 1888,
+      "reading_or_notation_hold": 33,
+      "already_accepted": 51,
+      "homograph_reading_hold": 101
+    },
+    "profile_sha256": "c4594a712483a3f5ca02477d1748b7866e027d4ac67639f3df768da3bdcf3c9e",
+    "final_word_class_exclusions": 98
+  },
+  {
+    "source": "dagaareoriginal",
+    "av_id": "atl-central-dagaare",
+    "new_profile_readings": 3645,
+    "decisions": {
+      "outside_reviewed_noun_scope": 2872,
+      "admit": 3645,
+      "already_accepted": 62,
+      "reading_or_notation_hold": 10,
+      "homograph_reading_hold": 486
+    },
+    "profile_sha256": "5c5d88b17abe6747e631807a8c02c4cd728f0f77f93d85b9cd56e649da4c3c43"
+  },
+  {
+    "source": "bejaoriginal",
+    "av_id": "afa-beja",
+    "new_profile_readings": 1015,
+    "decisions": {
+      "outside_reviewed_noun_scope": 4268,
+      "already_accepted": 41,
+      "published_pdf_or_diacritic_hold": 809,
+      "admit": 1015,
+      "reading_or_notation_hold": 1
+    },
+    "profile_sha256": "db88e5f38050e8649b72c93dbf43c29c1c968cc4c8a65dc85bbb8f3623c5c755",
+    "final_word_class_exclusions": 5
+  }
+]

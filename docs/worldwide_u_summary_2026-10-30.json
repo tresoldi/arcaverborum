@@ -1,0 +1,237 @@
+{
+  "before": {
+    "varieties": 7364,
+    "forms": 2074205,
+    "source_forms": 1748817,
+    "profile_forms": 15065,
+    "supported_core": 470093,
+    "mapped_core": 544197,
+    "mapped_all_concepts": 1337165,
+    "supported_all_concepts": 1209359,
+    "gled_primaries": 1555,
+    "core_source_varieties": 918
+  },
+  "after": {
+    "varieties": 7365,
+    "forms": 2119754,
+    "source_forms": 1749993,
+    "profile_forms": 22178,
+    "supported_core": 470162,
+    "mapped_core": 544286,
+    "mapped_all_concepts": 1337275,
+    "supported_all_concepts": 1209436,
+    "gled_primaries": 1555,
+    "core_source_varieties": 918
+  },
+  "delta": {
+    "varieties": 1,
+    "forms": 45549,
+    "source_forms": 1176,
+    "profile_forms": 7113,
+    "supported_core": 69,
+    "mapped_core": 89,
+    "mapped_all_concepts": 110,
+    "supported_all_concepts": 77,
+    "gled_primaries": 0,
+    "core_source_varieties": 0
+  },
+  "changes": [
+    {
+      "av_id": "afa-beja",
+      "forms_before": 157,
+      "forms_after": 1172,
+      "supported_core_before": 55,
+      "supported_core_after": 55,
+      "primary_before": "bejaoriginal",
+      "primary_after": "bejaoriginal"
+    },
+    {
+      "av_id": "atl-central-dagaare",
+      "forms_before": 95,
+      "forms_after": 3740,
+      "supported_core_before": 49,
+      "supported_core_after": 49,
+      "primary_before": "dagaareoriginal",
+      "primary_after": "dagaareoriginal"
+    },
+    {
+      "av_id": "atl-chakali",
+      "forms_before": 95,
+      "forms_after": 1983,
+      "supported_core_before": 57,
+      "supported_core_after": 57,
+      "primary_before": "chakalioriginal",
+      "primary_after": "chakalioriginal"
+    },
+    {
+      "av_id": "atl-ewe",
+      "forms_before": 69,
+      "forms_after": 14018,
+      "supported_core_before": 34,
+      "supported_core_after": 34,
+      "primary_before": "wiktionary",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "atl-sereer",
+      "forms_before": 70,
+      "forms_after": 11253,
+      "supported_core_before": 37,
+      "supported_core_after": 37,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "atl-taabwa",
+      "forms_before": 96,
+      "forms_after": 2300,
+      "supported_core_before": 73,
+      "supported_core_after": 73,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "atl-yasa",
+      "forms_before": 95,
+      "forms_after": 1535,
+      "supported_core_before": 75,
+      "supported_core_after": 75,
+      "primary_before": "grollemundbantu",
+      "primary_after": "grollemundbantu"
+    },
+    {
+      "av_id": "iro-cayuga",
+      "forms_before": 74,
+      "forms_after": 1950,
+      "supported_core_before": 45,
+      "supported_core_after": 45,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "kac-kamakan",
+      "forms_before": 2,
+      "forms_after": 11,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "wiktionary",
+      "primary_after": "wiktionary"
+    },
+    {
+      "av_id": "kri-kipea",
+      "forms_before": 0,
+      "forms_after": 16,
+      "supported_core_before": 0,
+      "supported_core_after": 0,
+      "primary_before": "",
+      "primary_after": "kipeaoriginal"
+    },
+    {
+      "av_id": "map-busoa",
+      "forms_before": 40,
+      "forms_after": 641,
+      "supported_core_before": 38,
+      "supported_core_after": 62,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "map-kaimbulawa",
+      "forms_before": 39,
+      "forms_after": 341,
+      "supported_core_before": 37,
+      "supported_core_after": 60,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "map-wotu",
+      "forms_before": 40,
+      "forms_after": 313,
+      "supported_core_before": 37,
+      "supported_core_after": 59,
+      "primary_before": "gled",
+      "primary_after": "gled"
+    },
+    {
+      "av_id": "pny-woiwurrung",
+      "forms_before": 273,
+      "forms_after": 377,
+      "supported_core_before": 129,
+      "supported_core_after": 129,
+      "primary_before": "bowernpny",
+      "primary_after": "bowernpny"
+    },
+    {
+      "av_id": "sit-lepcha",
+      "forms_before": 111,
+      "forms_after": 1335,
+      "supported_core_before": 80,
+      "supported_core_after": 80,
+      "primary_before": "peirosst",
+      "primary_after": "peirosst"
+    },
+    {
+      "av_id": "tup-lingua-geral-paulista",
+      "forms_before": 329,
+      "forms_after": 340,
+      "supported_core_before": 99,
+      "supported_core_after": 99,
+      "primary_before": "tuled",
+      "primary_after": "tuled"
+    },
+    {
+      "av_id": "tup-tupinamba",
+      "forms_before": 320,
+      "forms_after": 582,
+      "supported_core_before": 154,
+      "supported_core_after": 154,
+      "primary_before": "gerarditupi",
+      "primary_after": "gerarditupi"
+    },
+    {
+      "av_id": "urj-pite-saami",
+      "forms_before": 356,
+      "forms_after": 5903,
+      "supported_core_before": 147,
+      "supported_core_after": 147,
+      "primary_before": "uralex",
+      "primary_after": "uralex"
+    }
+  ],
+  "all_earlier_records_native_readings_cognacy_preserved": 2074205,
+  "legacy_identity_annotations": 6,
+  "earlier_reading_or_quality_changes": 0,
+  "earlier_concept_mapping_changes": 0,
+  "new_records": 45549,
+  "new_records_by_status": {
+    "profile": 7113,
+    "unclean": 37260,
+    "source": 1176
+  },
+  "new_supported_slots": 77,
+  "new_supported_core_slots": 69,
+  "new_canonical_languages": 1,
+  "new_named_varieties": 0,
+  "new_intake_rows": 8998169,
+  "intake_total_rows": 16419264,
+  "primary_changes": 0,
+  "artifact_hashes_checked": 403,
+  "aggregate_input_hashes_checked": 3,
+  "tracks": [
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08",
+    "U09",
+    "U10",
+    "U11",
+    "U12"
+  ],
+  "identity_caveat": "Kipea is newly explicit as a canonical construction; one older mixed kzw entry already explicitly labelled Kipe\u00e1 remains preserved and is not independent confirmation.",
+  "scope_note": "All twelve bounded source/compiler reviews executed. Complete raw editions/entry blocks and reviewed accepted records are distinct. Remaining full historical transcription/identity/terms gates are documented separately."
+}

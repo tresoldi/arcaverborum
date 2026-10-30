@@ -1,0 +1,84 @@
+[
+  {
+    "dataset": "wiktionarypt202610",
+    "measured": {
+      "native_objects": 628374,
+      "lexical_entries": 628323,
+      "nonlexical_objects": 51,
+      "native_senses": 853720,
+      "source_members": 1000,
+      "dataset": "wiktionarypt202610"
+    },
+    "tables": {
+      "forms.csv": {
+        "complete_body_bytes": 877768492,
+        "sha256": "bcd9ab7082062973e21d62630f4b5b67b96ec2dc201476a52400d08945a46843",
+        "matches_intake": true
+      },
+      "parameters_raw.csv": {
+        "complete_body_bytes": 76011407,
+        "sha256": "37f07aeb2b9d781c6e3a5bf83a0e058681b4cf5cfb8e77d4300b146839c833c9",
+        "matches_intake": true
+      },
+      "languages.csv": {
+        "complete_body_bytes": 186930,
+        "sha256": "ee8219cef5f0ca83516cdf3e8b902549adcd824f70ed9f9d1b1b3817a82f4c4d",
+        "matches_intake": true,
+        "prepublication_normalization": "Nonstandard source codes retained natively but cleared from ISO639P3code; no lexical/native rows changed.",
+        "previous_sha256": "7b9846ad6654ad1e303e1ba8cba9a955eaed07152d04acfad781f97de42279b4"
+      },
+      "metadata.csv": {
+        "complete_body_bytes": 349,
+        "sha256": "55a228a86cab8b7c67e06729784651047d80cc83528f2062ee5ae1bfd66d6674",
+        "matches_intake": true
+      },
+      "sources.bib": {
+        "complete_body_bytes": 297,
+        "sha256": "629ba08ab9324b308648095770bc3776621d94529f14a4dfeebbc28292495542",
+        "matches_intake": true
+      }
+    },
+    "note": "Exact full staged table bodies preserved in intake; native archive/version pins are separate. Counts are native entry blocks and senses, not accepted lexemes or independent witnesses."
+  },
+  {
+    "dataset": "wiktionaryfr202610",
+    "measured": {
+      "native_objects": 7497189,
+      "lexical_entries": 7450561,
+      "nonlexical_objects": 46628,
+      "native_senses": 10851956,
+      "source_members": 5146,
+      "dataset": "wiktionaryfr202610"
+    },
+    "tables": {
+      "forms.csv": {
+        "complete_body_bytes": 13202117724,
+        "sha256": "bda2a147d7e97032f05febebaf1826f8e3ebffe75b8701d2b5ec4822083c0811",
+        "matches_intake": true
+      },
+      "parameters_raw.csv": {
+        "complete_body_bytes": 1048074249,
+        "sha256": "38e1f017b54908995a77ea9f86c618ef8810d45368ef9ad649fde8b5e1d20004",
+        "matches_intake": true
+      },
+      "languages.csv": {
+        "complete_body_bytes": 971412,
+        "sha256": "90f577f965cc36b0d93c478375f2e57d2273eb96b7068f585a21dd65dc761dcb",
+        "matches_intake": true,
+        "prepublication_normalization": "Nonstandard source codes retained natively but cleared from ISO639P3code; no lexical/native rows changed.",
+        "previous_sha256": "172358da9e11ae56683faa43012875cd680db063de5b3f83962d021c2f80b5f4"
+      },
+      "metadata.csv": {
+        "complete_body_bytes": 351,
+        "sha256": "34769c068e233b8b68322e96fca87f90668460603e5024aab013880915d6c678",
+        "matches_intake": true
+      },
+      "sources.bib": {
+        "complete_body_bytes": 297,
+        "sha256": "ce8a35b62f78aaac197f1a95d74d449b9e5d6b5251441e95a9a7457bda51b988",
+        "matches_intake": true
+      }
+    },
+    "note": "Exact full staged table bodies preserved in intake; native archive/version pins are separate. Counts are native entry blocks and senses, not accepted lexemes or independent witnesses."
+  }
+]

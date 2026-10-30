@@ -1,0 +1,13 @@
+{
+  "native_entries": 7760,
+  "admitted_written_unmapped": 5547,
+  "decisions": {
+    "admit": 5547,
+    "morphologically_labelled_form": 1104,
+    "proper_name_phrase_or_unclassified": 630,
+    "no_english_sense": 173,
+    "variant_requires_independent_scope": 306
+  },
+  "source_sha256": "211d88f81d1618ba8535b45a4c2d41b511b3c726fe198d31124f073b8d652704",
+  "profile_hold": "Original spelling rules acquired/documented, but a complete source-specific reading/profile audit remains; no spelling resegmentation counted as IPA."
+}

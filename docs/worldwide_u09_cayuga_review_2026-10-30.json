@@ -1,0 +1,19 @@
+[
+  {
+    "dataset": "cayugaverbs",
+    "admitted_written_unmapped": 1503,
+    "decisions": {
+      "admit": 1503,
+      "no_direct_citation_sense_pair": 126,
+      "stem_without_cited_word": 3
+    }
+  },
+  {
+    "dataset": "cayugaparticles",
+    "admitted_written_unmapped": 373,
+    "decisions": {
+      "admit": 373,
+      "notation_or_parse_hold": 8
+    }
+  }
+]

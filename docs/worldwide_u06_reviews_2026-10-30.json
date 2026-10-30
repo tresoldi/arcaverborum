@@ -1,0 +1,41 @@
+{
+  "cohorts": [
+    {
+      "dataset": "wiktionarypt202610",
+      "av_id": "tup-lingua-geral-paulista",
+      "admissions": 11,
+      "profile_readings": 0,
+      "decisions": {
+        "admit": 11
+      },
+      "profile_sha256": "92644ba284778fefd7605aa28dd5242db8fc3e457fe6439e0ea097960fbafa9b"
+    },
+    {
+      "dataset": "wiktionaryfr202610",
+      "av_id": "sit-lepcha",
+      "admissions": 1224,
+      "profile_readings": 565,
+      "decisions": {
+        "admit": 1224,
+        "inflection_or_crossreference": 1,
+        "proper_name": 10
+      },
+      "profile_sha256": "206e13eaa228c616dd6a404f0c369dce8cc27696389fa872c25db9e49dde7a7c",
+      "explicit_affixes": 30
+    }
+  ],
+  "holds": [
+    {
+      "code": "mg",
+      "reason": "Generic Malgache does not establish a named Malagasy lect; no generic-to-Plateau mapping."
+    },
+    {
+      "code": "ln",
+      "reason": "Generic Lingala source labels do not establish Kinshasa-specific readings."
+    },
+    {
+      "code": "tu",
+      "reason": "Portuguese-edition Tupi uses nonstandard code tu; stage/historical-locality identity must be resolved before admission."
+    }
+  ]
+}

@@ -12,8 +12,11 @@ import argparse
 import csv
 import os
 import shutil
+import sys
 import tempfile
 from pathlib import Path
+
+csv.field_size_limit(sys.maxsize)
 
 ROOT = Path(__file__).resolve().parents[1]
 TABLES = ('forms.csv', 'languages.csv', 'parameters_raw.csv', 'metadata.csv')

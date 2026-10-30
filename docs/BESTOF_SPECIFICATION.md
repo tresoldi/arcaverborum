@@ -256,3 +256,7 @@ as clean. The build carries forms as-is and does **not** strip or rewrite
 them. The report's `pct_tone_blocked` column now isolates only the residual
 (forms that are tonal *and* otherwise malformed), via a heuristic match on
 tone-like characters in `Segments`.
+
+## Reviewed dictionary senses beyond the concept catalog
+
+A guarded primary/supplement decision can retain an original source sense without inventing a concept match. `mapping_decision=retain_source_sense_unmapped` requires empty `concept_id`, exact native `expected_source_sense`/`source_sense_path`, a reviewed lexical `entry_kind`, unchanged evidence hash/member/Glottocode/source-concept guard, and an explicit valid reading or written-only policy. The emitted row blocks inherited mappings and retains the complete native context. Crossreferences and parse holds are excluded from this admission mode; inflected forms and phrases require their own explicit kinds. This does not change ordinary mapped admission or source-preference policy. Unmapped written evidence is not supported core vocabulary. See the coverage workflow and U execution proof.

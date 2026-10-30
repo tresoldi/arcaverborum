@@ -46,18 +46,30 @@ def form_quality_score(row: dict, base_score: float) -> float:
 
 
 def load_parameter_index(parameters_path: Path) -> dict[str, tuple[str, str]]:
-    """Build {Parameter_ID: (Concepticon_ID, Concepticon_Gloss)} lookup."""
+    """Build a bounded-memory mapping lookup; blank pairs use the empty default.
+
+    Original dictionary senses remain in intake/native context. Millions of
+    deliberately unmapped entries need no identical ('', '') lookup objects.
+    Last-row precedence is retained even when a duplicate clears a mapping.
+    """
     if not parameters_path.exists():
         return {}
-    df = pd.read_csv(
+    chunks = pd.read_csv(
         parameters_path, dtype=str, keep_default_na=False,
         usecols=lambda c: c in {"ID", "Concepticon_ID", "Concepticon_Gloss"},
+        chunksize=200_000,
     )
-    if "ID" not in df.columns:
-        return {}
-    cid_col = df.get("Concepticon_ID", pd.Series([""] * len(df)))
-    gloss_col = df.get("Concepticon_Gloss", pd.Series([""] * len(df)))
-    return {
-        pid: (str(cid_col.iat[i]).strip(), str(gloss_col.iat[i]).strip())
-        for i, pid in enumerate(df["ID"])
-    }
+    result = {}
+    for frame in chunks:
+        if "ID" not in frame.columns:
+            return {}
+        ids = frame["ID"]
+        cids = frame.get("Concepticon_ID", [""] * len(frame))
+        glosses = frame.get("Concepticon_Gloss", [""] * len(frame))
+        for pid, cid, gloss in zip(ids, cids, glosses):
+            pair = str(cid).strip(), str(gloss).strip()
+            if any(pair):
+                result[pid] = pair
+            else:
+                result.pop(pid, None)
+    return result

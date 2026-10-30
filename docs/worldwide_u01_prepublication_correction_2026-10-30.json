@@ -1,0 +1,64 @@
+{
+  "namespace": "kipeaoriginal",
+  "records": 16,
+  "changed_fields": [
+    "Form",
+    "Value",
+    "Comment"
+  ],
+  "unchanged_fields_guarded": true,
+  "old_block_sha256": "9434c2d467625cb02918ec0ab96e44db6f37087457b66b4d5a607a7bd5b78cb7",
+  "new_block_sha256": "c34764d3ba94da4d92c7ec3dd686664176f7387fb20894f319b9248854810ff0",
+  "unchanged_prefix_suffix_sha256": "ee2629dc227ad321620829bf7cac54d440e92fa814cb25806a2989d3413dd426",
+  "corrections": [
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-3",
+      "previous_transcription": "Wachánidikiè",
+      "corrected_transcription": "Wachánidikie",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-5",
+      "previous_transcription": "My bihè misã saí",
+      "corrected_transcription": "Mŷ bihè misã saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-6",
+      "previous_transcription": "Myreprí bubihé misã saí",
+      "corrected_transcription": "Mŷreprí bubihé misã saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-7",
+      "previous_transcription": "Myreprí wacháni misã saí",
+      "corrected_transcription": "Mŷreprí wacháni misã saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-8",
+      "previous_transcription": "Myreprí wachanidikiè misã saí",
+      "corrected_transcription": "Mŷreprí wachanidikie misã saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-9",
+      "previous_transcription": "Myreprí sumarã oróbæ saí",
+      "corrected_transcription": "Mŷreprí sumarã oróbæ saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-10",
+      "previous_transcription": "Mycribæ misã saí",
+      "corrected_transcription": "Mŷcribæ misã saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    },
+    {
+      "source_form_id": "kipeaoriginal_mamiani1699-p8-11",
+      "previous_transcription": "Mycribæ misã sdehó iby saí",
+      "corrected_transcription": "Mŷcribæ misã idehó ibŷ saí",
+      "reason": "Pre-publication independent higher-resolution image review; original source PDF/page/image unchanged. No earlier accepted baseline entry affected."
+    }
+  ],
+  "scope": "New U intake only, corrected before first accepted build/publication; no prior T accepted evidence or unrelated intake bytes changed."
+}

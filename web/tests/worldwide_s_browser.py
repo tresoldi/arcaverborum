@@ -33,7 +33,8 @@ with sync_playwright() as p:
         ('afa-beja', 'bejaoriginal', 41, 116),
     ]:
         rows = export(aid)
-        selected = [r for r in rows if r['transcription_source'] == source]
+        # S checks its mapped noun cohort; later unmapped dictionary depth is separate.
+        selected = [r for r in rows if r['transcription_source'] == source and r['concept_id']]
         assert len(selected) == count and all(r['Segments_Source'] == 'profile' for r in selected)
         assert sum(r['transcription_source'] == 'gled' for r in rows) == retained
         assert all('raw_block' in r['Comment'] for r in selected)

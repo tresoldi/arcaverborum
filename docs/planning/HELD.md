@@ -8,7 +8,13 @@ new evidence arrives; record its source/version and the superseded decision.
 
 Identity-count caveat: eleven S language additions are newly explicit canonical constructions. An older ACD sample labelled Idate remains under Lakalei pending original attribution review; existing evidence is preserved. Sar Africa/Indonesia is an unrelated homonym. See [identity audit](../worldwide_s_identity_audit_2026-10-30.json).
 
-## New post-T source/identity gates —2026-10-30
+## U execution: current reopening evidence —2026-10-30
+
+[U01–U12 execution](../WORLDWIDE_U_EXECUTION_2026-10-30.md) replaces the proposal as current evidence. [Exact remaining gates](../worldwide_u_holds_2026-10-30.csv) and [source research/acquisitions](../worldwide_u_source_research_2026-10-30.json) distinguish completed transport/review from unresolved scopes. Kipeá is now canonical with16 written citations; six old mixed kzw records survive without blind relinking. Separate1698 catechism, original coastal grammars and Yves/Denis1864 edition are acquired. Full RefLex/pt/fr/Pite/Cayuga chapter transport is complete; those acquisitions are not future tasks. Bekwel2555 BIB=0, exact historical member alignment, generic edition codes/lects, PanLex/native-dics/POLLEX terms/native exports and Curr159/CHIRILA gates remain precise. Proper names/numerals/negation excluded from noun-only profile cohorts and explicit crossreferences stay preserved in intake. No automatic IPA or core-slot gain from written/unmapped entries.
+
+Etruscan/Elamite, Na and older source-specific gates below remain protected; U supplies no new authority that clears them.
+
+## Historical post-T planning gates —2026-10-30
 
 [U01–U12 proposal](../WORLDWIDE_AFTER_T_BRAZIL_SOURCE_PLAN_2026-10-30.md) is planning, not lexical execution. Mamiani1699/Nantes1709/Martius1863 originals are now actually acquired, so acquisition of these exact PDFs is no longer a future task. Kipeá/Dzubukuá are absent exact codes but current Karirí-Xocó has six mixed historical-label Wiktionary records, including Kipeá; identity/source review precedes new constructions/relinking. Nantes explicitly distinguishes the two historical languages. Martius's acquired titlepages say1863, not1867; source sections/earlier witnesses and current aliases remain unreviewed. Patacho is not automatically canonical Pataxó Hã-Ha-Hãe. Tremembé is Unattested in the frozen authority; no invented words from ethnonyms. HNB1648 OCR is discovery only, not verified Tarairiú evidence.
 

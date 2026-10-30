@@ -136,7 +136,8 @@ def test_original_manifest_identity_and_resources_are_unique():
         assert len({m['ID'] for m in spec['members']}) == len(spec['members'])
         assert len({r['key'] for r in spec['resources']}) == len(spec['resources'])
         assert len({r['filename'] for r in spec['resources']}) == len(spec['resources'])
-        assert spec['license'].startswith('https://creativecommons.org/licenses/')
+        assert (spec['license'].startswith('https://creativecommons.org/licenses/')
+                or spec['license'] == 'https://creativecommons.org/publicdomain/mark/1.0/')
         assert all(len(r['sha256']) == 64 for r in spec['resources'])
 
 
@@ -171,3 +172,79 @@ def test_facsimile_review_requires_image_locator_and_pins_native_transcription(t
     save()
     with pytest.raises(ValueError, match='hash mismatch'):
         source.native_records(spec, {'pdf': b'%PDF-private-original'})
+
+
+def test_cayuga_verbs_keep_stem_and_full_word_translation_distinct():
+    spec = dict(format='cayuga_verbs', resources=[dict(key='verbs', lexical=True)])
+    text = ('\\lexicalunitbracket{d} \\trs{standing}\n'
+            '\\cayuga{gá:di:t} \\trs{they are standing}\n'
+            '\\lexicalunitbracket{bound} \\trs{stem sense only}\n')
+    rows = source.dictionary_records(spec, {'verbs': text.encode()})
+    assert rows[0]['Form'] == 'gá:di:t'
+    assert rows[0]['source_sense'] == 'they are standing'
+    assert rows[0]['original']['headwords'] == ['d']
+    assert rows[1]['source_sense'] == ''
+    assert rows[1]['original']['form_kind'] == 'lexical stem only'
+
+
+def test_cayuga_particles_use_nested_lexical_headings_not_organizational_lists():
+    text = ('\\subsection*{Initial particles and groups}\n'
+            '\\textit{not a lexical heading} \\trs{discovery list}\n'
+            '\\subsection*{\\textbf{Agi:} \\trs{ouch!}}\nUsage and variants.\n')
+    rows = source.native_records(dict(kind='cayuga_particles'), {'particle_dictionary': text.encode()})
+    assert len(rows) == 1 and rows[0]['Form'] == 'Agi:'
+    assert rows[0]['source_sense'] == 'ouch!'
+    assert 'Usage and variants' in rows[0]['original']['raw_block']
+
+
+def test_documentary_ocr_is_guarded_discovery_without_phonetic_claim(tmp_path, monkeypatch):
+    native = dict(resource_key='pdf', raw_quote='aqua — za(n)', member='Unresolved',
+                  Form='za(n)', source_sense='aqua', pdf_page='1',
+                  extraction_basis='Unreviewed PDF OCR; consult original facsimile')
+    row = dict(native_id='ocr-1', **{k: v for k, v in native.items() if k != 'extraction_basis'},
+               native_sha256=source.digest(native), decision='stage_ocr')
+    path = tmp_path / 'extraction.csv'
+
+    def save():
+        with path.open('w', newline='') as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(row))
+            writer.writeheader()
+            writer.writerow(row)
+
+    monkeypatch.setattr(source, 'ROOT', tmp_path)
+    spec = dict(kind='documentary_ocr', extraction='extraction.csv')
+    save()
+    result = source.native_records(spec, {'pdf': b'%PDF-original'})
+    assert result[0]['Form'] == 'za(n)' and 'Segments' not in result[0]
+    assert result[0]['original']['extraction_basis'].startswith('Unreviewed')
+    row['decision'] = 'admit'
+    save()
+    with pytest.raises(ValueError, match='OCR source context changed'):
+        source.native_records(spec, {'pdf': b'%PDF-original'})
+
+
+def test_deduplicated_ocr_context_preserves_native_quote_and_rejects_drift(tmp_path, monkeypatch):
+    import hashlib
+    import json
+
+    quote = 'Original page  \nwater — za(n)\n'
+    native = dict(resource_key='pdf', raw_quote=quote, member='M', Form='za(n)',
+                  source_sense='water', pdf_page='1',
+                  extraction_basis='Unreviewed PDF OCR; consult original facsimile')
+    row = {k: v for k, v in native.items() if k not in {'raw_quote', 'extraction_basis'}}
+    row.update(native_id='ocr-1', decision='stage_ocr', native_sha256=source.digest(native),
+               raw_quote_sha256=hashlib.sha256(quote.encode()).hexdigest())
+    path = tmp_path / 'extraction.csv'
+    with path.open('w', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(row))
+        writer.writeheader()
+        writer.writerow(row)
+    context = tmp_path / 'pages.json'
+    context.write_text(json.dumps({'1': quote}))
+    monkeypatch.setattr(source, 'ROOT', tmp_path)
+    spec = dict(kind='documentary_ocr', extraction='extraction.csv', page_contexts='pages.json')
+    result = source.native_records(spec, {'pdf': b'%PDF-original'})
+    assert result[0]['original'] == native
+    context.write_text(json.dumps({'1': quote.rstrip()}))
+    with pytest.raises(ValueError, match='page context changed'):
+        source.native_records(spec, {'pdf': b'%PDF-original'})
