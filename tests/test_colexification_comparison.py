@@ -90,6 +90,15 @@ def test_reference_expansions_stay_separate_in_end_to_end_comparison(tmp_path):
     manifest = public / 'network.json'
     manifest.write_text(json.dumps(dict(build_id='test', inputs={
         str(p.relative_to(root)): sha(p) for p in [concepts, glottolog]})))
+    (build / 'public').mkdir()
+    (build / 'public/manifest.json').write_bytes(manifest.read_bytes())
+    db = sqlite3.connect(build / 'index.sqlite')
+    db.execute('CREATE TABLE meta(key TEXT, value TEXT)')
+    db.execute('INSERT INTO meta VALUES(?,?)', ('manifest', manifest.read_text()))
+    db.commit()
+    db.close()
+    (build / 'complete.json').write_text(json.dumps(dict(build_id='test',
+        database_sha256=sha(build / 'index.sqlite'), manifest_sha256=sha(manifest))))
     (public / 'manifest.json').write_text(json.dumps(dict(
         colexification=dict(url='data/network.json', sha256=sha(manifest)))))
     cache = root / 'cache'
@@ -138,3 +147,25 @@ def test_sparse_discordance_audit_keeps_unknown_separate():
     assert discordance_statuses({('1', '2', 'known'), ('1', '2', 'unknown')},
                                lambda a, b: {'known'}) == dict(
         other_sampled_no_shared_form=1, other_unknown=1)
+
+
+def test_reference_category_respects_native_identity():
+    from arcaverborum.colexification_comparison import reference_category
+    assert reference_category(False, 'same', False, 'same') == 'shared_native'
+    assert reference_category(False, 'a', False, 'b') == 'direct'
+    assert reference_category(True, 'same', False, 'same') == 'expanded'
+
+
+def test_failed_comparison_does_not_replace_report_bundle(tmp_path, monkeypatch):
+    from arcaverborum import colexification_comparison as comparison
+    output = tmp_path / 'report'
+    for suffix in ['.csv', '.json', '.bundle.json']:
+        output.with_suffix(suffix).write_text('previous')
+    def fail(root, cache, scratch, stage, fetch):
+        stage.with_suffix('.csv').write_text('incomplete')
+        raise RuntimeError('injected failure')
+    monkeypatch.setattr(comparison, '_compare', fail)
+    with pytest.raises(RuntimeError, match='injected'):
+        comparison.compare(tmp_path, tmp_path, tmp_path, output)
+    for suffix in ['.csv', '.json', '.bundle.json']:
+        assert output.with_suffix(suffix).read_text() == 'previous'

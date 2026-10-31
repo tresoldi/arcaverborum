@@ -257,8 +257,7 @@ neighborhoods, mobile layout, navigation and corrupt-asset rejection.
 No claim is made that all source meanings have been mapped, all identical
 citations are lexicalized units, or every unknown entry represents an elicitation
 gap. Source/semantic review can improve the evidence without rewriting the
-analytical method. Partial colexification, global community inference and
-questionnaire-level missingness need separate validated layers; they are not
+analytical method. Partial colexification and questionnaire-level missingness need separate validated layers; they are not
 simulated with substring search, generic category expansion or absent-edge zeros.
 
 ## Accepted build and verification, 2026-10-30
@@ -338,3 +337,42 @@ metric. Dashed zero classified support differs from absent evidence. Layout
 distances are exploratory. These counts are not coverage-adjusted probabilities;
 the observed focal-edge table keeps its separate comparable-variety denominator.
 The graph’s nodes, actual edges and original analytical snapshot remain unchanged.
+
+## Evidence repair and global communities, 2026-10-31
+
+[Repair verification](colexification_repair_verification_2026-10-31.json) records
+snapshot `db68b765a4a3e48d2129b656`: 44,421 observed segmented pairs (435 removed),
+43,680 citation pairs (345 removed), 508 reduced pairs and six inferred pairs per
+eligible layer. No new edges, stable witnesses or increased support/coverage were
+introduced. All lexical inputs, WordNet links and concept-entry transports are
+unchanged. The full build uses 103.52 MiB under 256 MiB, taking 703.24 seconds.
+
+Northern Yukian huntergatherer member 30 has 88 exact apostrophe-prefix extraction
+losses excluded from analysis. Washo member 27 has 101 slash-prefix readings held
+pending original-notation review. The explicit Elamite FIVE reconstruction is
+excluded with a Value/Form drift guard. Original lexical records remain available.
+[Reproducible extraction audit](colexification_extraction_audit_2026-10-31.json)
+and [reopening requirements](planning/HELD.md) distinguish these from unreviewed
+prefix candidates in other varieties; no blanket punctuation rule is applied.
+
+Completed builds seal the closed SQLite file and public manifest in complete.json.
+Cache reuse, pair queries, subgraphs, comparisons, community generation and
+publication verify the seal and embedded manifest. Old unsealed analytical builds
+require rebuilding before these consumers can use them. CLI build locks prevent
+concurrent writers from removing one another's staging directories.
+
+[Exploratory global communities](COLEXIFICATION_COMMUNITIES.md) now complement the
+bounded neighborhoods, with source/identity-group diagnostics and complete
+sensitivity exports. A ten-seed Infomap analysis, three Leiden resolutions,
+resource/area masks and 50 family-block perturbations show material model and
+sampling dependence. Every partition uses a fresh sequential process under the
+cap. Communities do not change the observed evidence layer.
+
+Use `scripts/build_colexification.py --memory-mb 256 --publish --with-communities`
+for the complete derived pipeline, or `scripts/build_research_web.py
+--with-communities` after a lexical rebuild. The optional pinned research packages
+are checked before work begins; process replacement releases each earlier stage.
+A rebuild without the optional community stage drops a stale community pointer.
+Original dictionary senses, mixed-basis comparability, historical aliases,
+loan/profile sensitivities and calibrated lexical null models remain separately
+reviewed research tasks, not automatic observed links.

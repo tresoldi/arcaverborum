@@ -7,7 +7,7 @@ import shutil
 import sqlite3
 from pathlib import Path
 
-from arcaverborum.colexification import KINDS, LAYERS, Limits, digest, sha, write_json
+from arcaverborum.colexification import KINDS, LAYERS, Limits, digest, sha, verify_database, write_json
 
 MAX_NEIGHBORS = 30
 
@@ -36,8 +36,10 @@ def induced(db, cid, layer, kind, minimum=0, neighbors=MAX_NEIGHBORS):
 
 def build_graphs(built):
     built = Path(built)
+    seal = verify_database(built)
     parent = json.loads((built / 'public/manifest.json').read_text())
-    signature = dict(parent=parent['build_id'], parent_sha256=sha(built / 'public/manifest.json'),
+    signature = dict(database_sha256=seal['database_sha256'], parent=parent['build_id'],
+                     parent_sha256=sha(built / 'public/manifest.json'),
                      code=sha(Path(__file__)), max_neighbors=MAX_NEIGHBORS)
     build_id = digest(signature)[:24]
     destination = built / 'subgraphs' / build_id

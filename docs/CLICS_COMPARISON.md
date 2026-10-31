@@ -1,5 +1,41 @@
 # Comparing Arca Verborum with CLICS
 
+## Current repaired comparison, 2026-10-31
+
+Analytical snapshot `db68b765a4a3e48d2129b656` supersedes the initial analytical
+results below. [Complete immutable CSV](colexification_clics_repaired_2026-10-31-bundles/1f7f17854e30e45e54b21993/report.csv) · [JSON](colexification_clics_repaired_2026-10-31-bundles/1f7f17854e30e45e54b21993/report.json) ·
+[Atomic bundle pointer](colexification_clics_repaired_2026-10-31.bundle.json).
+Reference releases, strict Concepticon alignment and semantic rules are unchanged.
+The [repair verification](colexification_repair_verification_2026-10-31.json)
+reconciles exclusions without adding observations or changing lexical records.
+
+| Reference | Shared concepts | Arca recurring pairs | Reference recurring pairs | Shared recurring pairs |
+| --- | ---: | ---: | ---: | ---: |
+| CLICS³ | 2,888 | 3,342 | 4,188 | 2,701 |
+| CLICS⁴ | 1,727 | 2,916 | 3,986 | 2,618 |
+
+Shared-edge family-rank correlations are 0.795/0.775. In the controlled CLICS⁴
+language/concept universe there are 39,348 reference-direct-only pair-language
+positives: 26,586 are unknown in Arca and 12,762 have comparable sampled records
+without a shared form. Arca-direct-only cells remain 7,875 unknown and 3,061
+sampled distinctions in the reference. These are descriptive sample comparisons,
+not accuracy or independent validation; overlapping source namespaces need
+record/version-level review.
+
+The new run peaks at **128.81 MiB under the 256 MiB cap**, versus 216.46 MiB in
+the initial implementation. Sparse SQL intersections/differences replace the
+whole positive-cell Python sets. Source-comparable discrepancy groups stream in
+pair order. A completed immutable CSV/JSON bundle precedes pointer replacement;
+flat compatibility exports are not the authoritative transactional unit. The
+reference example classifier now shares the direct/expanded/shared-native rule
+with the actual support counts. Scratch database growth is capped at 3 GiB,
+with a free-space check; temporary SQL files still require additional headroom.
+
+The [global community layer](COLEXIFICATION_COMMUNITIES.md) is computed from
+Arca's own repaired graph. No CLICS observation is imported to improve agreement.
+
+## Initial comparison (historical)
+
 Comparison date: 2026-10-31. Arca analytical snapshot `b198f6cb17cb9817b91686cc`. No lexical readings, semantic mappings, source selections or underlying network edges were changed to obtain agreement.
 
 The reference releases are [CLICS³ v1.1](https://github.com/clics/clics3/tree/v1.1) and [CLICS⁴ v1.0](https://github.com/clics/clics4/tree/v1.0). Downloads are pinned to full commits and SHA-256 in [the source lock](../src/arcaverborum/data/colexification/clics_sources.json); both releases use CC BY 4.0. The analysis uses published data artifacts, rather than numbers copied from a paper or README.

@@ -485,3 +485,37 @@ See [execution report](../AFRICA_EXPANSION_2026-10-28.md), dated authored review
 Book parsers materialize reviewed simple records only; their recognized entries are
 not a claim to complete dictionary ingestion. Existing namespaces require an explicit
 complete-stage guarded migration for later expansion, never a second blind append.
+
+## Colexification extraction and semantic review — 2026-10-31
+
+[Reproducible audit](../colexification_extraction_audit_2026-10-31.json) records
+readings, not a count of wrong edges. Northern Yukian huntergatherer member 30
+has 88 exact apostrophe-prefix losses excluded from analytical eligibility.
+Washo member 27 has 101 slash-prefix readings held from analysis: reopen only
+with the original notation, complete lexical forms and a reviewed parsing/profile
+convention. Native lexical records stay available. The 3,833 other apostrophe-
+prefix and 1,329 other slash-prefix candidates are review triggers, not automatic
+exclusions or accepted corrections. Resource-exclusion community runs expose
+sensitivity to the remaining huntergatherer material.
+
+Elamite `idssegmented_elamite-13-50-1` FIVE is explicitly reconstructed from
+`tu-ku-ku` in the original EW356 comment. It remains lexical evidence with its
+AchE stage and uncertainty, but cannot supply attested-only analytical coverage.
+A source change in its selected Value/Form requires renewed review.
+`robinsonap_protoalorpantar-53_child-2` also needs source-specific reading-status
+review before changing eligibility; a star embedded in alternatives is an audit
+trigger, not a universal parser rule.
+
+Johansson limb segments, aged/used and refined kinship/pronoun meanings require
+original questionnaire/dictionary sense and page evidence. A compilation's shared
+reading does not by itself prove generic filling, nor do distinct native IDs
+certify independent narrow elicitation. No automatic deletion of refinement
+siblings, broad-to-narrow WordNet propagation or source promotion follows from a
+community partition. Mixed transcription bases and historical Concepticon aliases
+retain their separate review gates in the method documentation.
+
+Community member inspection: Dhudhuroa HAND–EMU has one `bowernpny` witness,
+`murra` in native forms `Dhudhuroa-12_emu-1` and `Dhudhuroa-148_hand-1`.
+Review original dictionary readings, notation and sense attribution before
+changing it. Its placement in a limb community is a model outcome, not evidence
+of semantic relatedness or an automatic reason to delete the native observation.

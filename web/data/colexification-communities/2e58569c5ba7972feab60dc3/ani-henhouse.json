@@ -1,0 +1,1 @@
+{"community":"ani-henhouse","community_size":2,"concept_id":"ani-henhouse","diagnostics":{"mod-toilet":{"block_coassigned":25,"block_eligible":25,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["ani-henhouse","mod-toilet"],"preview_edges":[["ani-henhouse","mod-toilet",1,1,2]],"status":"assigned"}

@@ -84,6 +84,55 @@ def usable(value, limit):
     return bool(value and len(value.encode()) <= limit and any(unicodedata.category(c).startswith('L') for c in value))
 
 
+def analytical_exclusion(row):
+    """Reviewed extraction failures; retain the underlying lexical record.
+
+    Huntergatherer's apostrophe-as-bracket parser discards the remainder of
+    glottalized forms. Restrict this guard to that source and exact prefix loss.
+    Washo slash-prefix readings are held pending original-notation review;
+    other slash conventions are deliberately not guessed.
+    """
+    value, word = identity(row.get('Value', '')), identity(row.get('Form', ''))
+    if (row.get('transcription_source') == 'huntergatherer'
+            and row.get('source_language_id') == 'huntergatherer_30' and "'" in value
+            and word == value.split("'", 1)[0] and word):
+        return 'source_extraction_prefix'
+    if (row.get('transcription_source') == 'huntergatherer'
+            and row.get('source_language_id') == 'huntergatherer_27' and '/' in value
+            and word == value.split('/', 1)[0] and word):
+        return 'held_washo_prefix_reading'
+    if row.get('source_form_id') == 'idssegmented_elamite-13-50-1':
+        if value != 'AchE *tu-ku (?)' or word != '*tu-ku':
+            raise ValueError('Reviewed Elamite reconstruction changed; re-review eligibility')
+        return 'reviewed_reconstruction'
+    return ''
+
+
+def verify_database(built):
+    """Authenticate a closed analytical database before downstream reuse."""
+    built = Path(built)
+    try:
+        complete = json.loads((built / 'complete.json').read_text())
+        manifest_path = built / 'public/manifest.json'
+        if (complete.get('database_sha256') != sha(built / 'index.sqlite')
+                or complete.get('manifest_sha256') != sha(manifest_path)):
+            raise ValueError('Unsealed or modified colexification database; rebuild required')
+        manifest = json.loads(manifest_path.read_text())
+        if complete.get('build_id') != manifest['build_id']:
+            raise ValueError('Analytical completion and manifest identifiers differ')
+        db = sqlite3.connect(f'file:{built / "index.sqlite"}?mode=ro', uri=True)
+        try:
+            embedded = json.loads(db.execute("SELECT value FROM meta WHERE key='manifest'").fetchone()[0])
+            if embedded != manifest:
+                raise ValueError('Embedded analytical manifest differs')
+        finally:
+            db.close()
+    except (OSError, KeyError, TypeError, sqlite3.DatabaseError) as error:
+        raise ValueError('Missing or invalid analytical database seal; rebuild required') from error
+
+    return complete
+
+
 def input_files(root):
     files = ['output/aggregate/forms.csv', 'output/aggregate/varieties.csv',
              'output/aggregate/metadata.csv', 'output/aggregate/parameters.csv',
@@ -168,6 +217,10 @@ def ingest(db, root, concepts, policy, limits, work):
                 db.commit()
                 if shutil.disk_usage(work).free < limits.min_free_mb * 1024 * 1024:
                     raise RuntimeError('Insufficient scratch space; existing publication was not replaced')
+            excluded = analytical_exclusion(row)
+            if excluded:
+                counters['excluded_' + excluded] += 1
+                continue
             av, cid = row['av_id'], row['concept_id']
             if av not in known:
                 raise ValueError(f'Unknown accepted variety: {av}')
@@ -580,6 +633,7 @@ def build(root, output=None, limits=Limits()):
     destination = output / fingerprint
     if (destination / 'complete.json').exists():
         verify_public(destination / 'public')
+        verify_database(destination)
         return destination
     stage = output / ('.' + fingerprint + '.building')
     if stage.exists():
@@ -600,6 +654,8 @@ def build(root, output=None, limits=Limits()):
             print('Colexification: computing comparison opportunities and bounded node pages', flush=True)
             manifest = export(db, stage / 'public', root, concepts, policy, inputs, fingerprint, counters, limits)
             current = input_files(root)
+            if sha(Path(__file__)) != inputs['pipeline']:
+                raise ValueError('Colexification code changed during build')
             if any(current[name] != value for name, value in inputs.items() if name not in {'pipeline', 'runtime'}):
                 raise ValueError('Colexification inputs changed during build')
             db.execute('INSERT INTO meta VALUES(?,?)', ('manifest', json.dumps(manifest)))
@@ -609,7 +665,9 @@ def build(root, output=None, limits=Limits()):
         finally:
             db.close()
         (stage / 'complete.json').write_text(
-            json.dumps(dict(build_id=fingerprint, stats=manifest['stats']), indent=2)+'\n')
+            json.dumps(dict(build_id=fingerprint, database_sha256=sha(stage / 'index.sqlite'),
+                            manifest_sha256=sha(stage / 'public/manifest.json'),
+                            stats=manifest['stats']), indent=2)+'\n')
         (stage / 'run.json').write_text(json.dumps(dict(seconds=round(time.monotonic()-started, 2)), indent=2)+'\n')
         if destination.exists():
             raise ValueError('Refusing to replace an incomplete existing build')
@@ -623,6 +681,7 @@ def build(root, output=None, limits=Limits()):
 def publish(root, built):
     """Publish immutable assets, then switch the tiny web manifest last."""
     root, built = Path(root), Path(built)
+    verify_database(built)
     public = built / 'public'
     colex = json.loads((public / 'manifest.json').read_text())
     verify_public(public, colex)

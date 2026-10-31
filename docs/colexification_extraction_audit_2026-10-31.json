@@ -1,0 +1,1746 @@
+{
+  "forms_sha256": "47700946c57c7a1ee569682067d8d97f41b19be8638fc7eb56077bb29e16bcd0",
+  "audit_code_sha256": "be46ff56966aa62fc3be487c3325ca54e0bed0e7ecfd82f04b67d029cac21b00",
+  "guard_code_sha256": "371038745ba323f27051b3b777642d4d96271034e23ed942de1be8dc65c70143",
+  "upstream_parser_sha256": "0729345a5885a693eb79af294245cc442e82826f3ddb9a2dcaa1e68b3f08e5cb",
+  "reviewed_examples": {
+    "reviewed_reconstruction": [
+      {
+        "av_id": "ela-elamite",
+        "source_form_id": "idssegmented_elamite-13-50-1",
+        "Value": "AchE *tu-ku (?)",
+        "Form": "*tu-ku",
+        "Segments": "t u + k u"
+      }
+    ],
+    "held_washo_prefix_reading": [
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-8_above-1",
+        "Value": "i/wi7",
+        "Form": "i",
+        "Segments": "i"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-9_again-1",
+        "Value": "ya/:sa7",
+        "Form": "ya",
+        "Segments": "y a"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-11_all-1",
+        "Value": "mi/7le7",
+        "Form": "mi",
+        "Segments": "m i"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-19_back-1",
+        "Value": "a/shg",
+        "Form": "a",
+        "Segments": "a"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-24_below-1",
+        "Value": "i/lm",
+        "Form": "i",
+        "Segments": "i"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-25_big-1",
+        "Value": "i/:yel",
+        "Form": "i",
+        "Segments": "i"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-26_bite-1",
+        "Value": "gi/:t'i7",
+        "Form": "gi",
+        "Segments": "ɡ i"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-27_black-1",
+        "Value": "a/yaw",
+        "Form": "a",
+        "Segments": "a"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-28_blood-1",
+        "Value": "a/shang",
+        "Form": "a",
+        "Segments": "a"
+      },
+      {
+        "av_id": "was-washo",
+        "source_form_id": "huntergatherer_27-31_boilpimple-1",
+        "Value": "pa/c'il",
+        "Form": "pa",
+        "Segments": "p a"
+      }
+    ],
+    "source_extraction_prefix": [
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-23_belly-1",
+        "Value": "k'i:p",
+        "Form": "k",
+        "Segments": "k"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-32_bone-1",
+        "Value": "k'i:t",
+        "Form": "k",
+        "Segments": "k"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-36_burn-1",
+        "Value": "k'al-",
+        "Form": "k",
+        "Segments": "k"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-45_count-1",
+        "Value": "T'il",
+        "Form": "T",
+        "Segments": "t"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-46_cry-1",
+        "Value": "k'in-",
+        "Form": "k",
+        "Segments": "k"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-50_diebedead-1",
+        "Value": "k'o(:)l- “die, shrivel (K1911)”, also “kill” S&S",
+        "Form": "k",
+        "Segments": "k"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-65_fall-1",
+        "Value": "p'a:n- “fall 1”",
+        "Form": "p",
+        "Segments": "p"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-68_father-1",
+        "Value": "-k'on', -k'unu'",
+        "Form": "-k",
+        "Segments": "k"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-84_hairofhead-1",
+        "Value": "t'ol",
+        "Form": "t",
+        "Segments": "t"
+      },
+      {
+        "av_id": "yub-northern-yukian",
+        "source_form_id": "huntergatherer_30-108_lightning-1",
+        "Value": "p'ah",
+        "Form": "p",
+        "Segments": "p"
+      }
+    ]
+  },
+  "counts": [
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ana-andoque",
+      "rows": 43
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ara-bare",
+      "rows": 6
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ara-baure",
+      "rows": 76
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ara-cabiyari",
+      "rows": 8
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ara-parecis",
+      "rows": 10
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ara-yavitero-pareni",
+      "rows": 69
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ara-yucuna",
+      "rows": 102
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "aym-central-aymara",
+      "rows": 9
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-akawaio-ingariko",
+      "rows": 9
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-carijona",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-kuikuro-kalapalo",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-macushi",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-mapoyo",
+      "rows": 59
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-panare",
+      "rows": 18
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-pemon",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "car-waimiri-atroari",
+      "rows": 7
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "cha-wari",
+      "rows": 19
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "chb-barbareno",
+      "rows": 81
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "chb-cruzeno",
+      "rows": 10
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "chb-ineseno",
+      "rows": 96
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "chb-obispeno",
+      "rows": 39
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "chb-ventureno",
+      "rows": 51
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "chc-aguaruna",
+      "rows": 5
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "coc-cocopa",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "coc-mohave",
+      "rows": 22
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "coc-quechan",
+      "rows": 39
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "coc-tipai-kumeyaay-huerteno",
+      "rows": 29
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "cof-cofan",
+      "rows": 38
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "ess-esselen",
+      "rows": 7
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "gun-ngandi",
+      "rows": 22
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "hot-hoti",
+      "rows": 54
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "kat-katukina-kanamari",
+      "rows": 2
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "kwb-kwaza",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "mag-nisenan",
+      "rows": 71
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "mag-northeast-maidu",
+      "rows": 84
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "mak-maku",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "miw-central-sierra-miwok",
+      "rows": 12
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "miw-lake-miwok",
+      "rows": 27
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "miw-mutsun",
+      "rows": 27
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "miw-northern-sierra-miwok",
+      "rows": 10
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "miw-plains-miwok",
+      "rows": 7
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "miw-southern-sierra-miwok",
+      "rows": 11
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "mov-movima",
+      "rows": 9
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "nad-hup",
+      "rows": 69
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "nad-yuhup",
+      "rows": 48
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "nub-suya",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "nyu-nyulnyul",
+      "rows": 2
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pan-cavinena",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pan-ese-ejja",
+      "rows": 20
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pan-kulina-pano",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pny-dhangu",
+      "rows": 21
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pny-djinang",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pny-thayore",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pny-wikalkan",
+      "rows": 9
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "pui-puinave",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "qwe-ayacucho-quechua",
+      "rows": 12
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "sab-piaroa",
+      "rows": 137
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "sac-salinan",
+      "rows": 166
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tah-taushiro",
+      "rows": 31
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tic-ticuna",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-barasana-eduria",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-carapana",
+      "rows": 30
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-cubeo",
+      "rows": 12
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-desano",
+      "rows": 25
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-koreguaje",
+      "rows": 81
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-kotiria",
+      "rows": 40
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-macuna",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-secoya",
+      "rows": 75
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-siona-tetete",
+      "rows": 63
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-siriano",
+      "rows": 57
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-tanimuca-retuara",
+      "rows": 93
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-tatuyo",
+      "rows": 76
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-tucano",
+      "rows": 65
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-wa-ikhana",
+      "rows": 125
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-waimaha",
+      "rows": 18
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tuc-yuruti",
+      "rows": 40
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tup-kamayura",
+      "rows": 3
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tup-nhengatu",
+      "rows": 6
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "tup-siriono",
+      "rows": 2
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "und-worrorra",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-cahuilla",
+      "rows": 52
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-chemehuevi",
+      "rows": 28
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-comanche",
+      "rows": 1
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-cupeno",
+      "rows": 81
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-kawaiisu",
+      "rows": 12
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-luiseno-juaneno",
+      "rows": 22
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-mono-usa",
+      "rows": 58
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-northern-paiute",
+      "rows": 35
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-panamint",
+      "rows": 6
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-serrano",
+      "rows": 57
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-shoshoni",
+      "rows": 24
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-southern-paiute",
+      "rows": 24
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-tongva",
+      "rows": 78
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-tubatulabal",
+      "rows": 197
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "uto-ute",
+      "rows": 15
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "was-washo",
+      "rows": 80
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "win-wintu",
+      "rows": 85
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "yok-northern-yokuts",
+      "rows": 216
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "yok-palewyami-yokuts",
+      "rows": 97
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "yub-wappo",
+      "rows": 87
+    },
+    {
+      "reason": "apostrophe_prefix_review_only",
+      "av_id": "zap-iquito",
+      "rows": 35
+    },
+    {
+      "reason": "held_washo_prefix_reading",
+      "av_id": "was-washo",
+      "rows": 101
+    },
+    {
+      "reason": "reviewed_reconstruction",
+      "av_id": "ela-elamite",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "ara-achagua",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "ara-bare",
+      "rows": 2
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "ara-resigaro",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "aru-arutani",
+      "rows": 3
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "car-akawaio-ingariko",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "chb-barbareno",
+      "rows": 3
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "chb-ineseno",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "chb-obispeno",
+      "rows": 7
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "chb-ventureno",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "chc-aguaruna",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "chc-huambisa",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "coc-cocopa",
+      "rows": 24
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "coc-havasupai-walapai-yavapai",
+      "rows": 104
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "coc-kiliwa",
+      "rows": 4
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "coc-quechan",
+      "rows": 65
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "coc-tipai-kumeyaay-huerteno",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "cof-cofan",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "ess-esselen",
+      "rows": 17
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "gub-sikuani",
+      "rows": 3
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "gun-ngandi",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "hot-hoti",
+      "rows": 5
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "jar-kitja",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "mag-nisenan",
+      "rows": 2
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "mag-northeast-maidu",
+      "rows": 150
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "miw-central-sierra-miwok",
+      "rows": 102
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "miw-lake-miwok",
+      "rows": 151
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "miw-mutsun",
+      "rows": 3
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "nyu-bardi",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "pny-mudburra",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "qwe-colombian-inga",
+      "rows": 2
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "sab-saliba",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "sac-salinan",
+      "rows": 186
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "tuc-carapana",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "tuc-kotiria",
+      "rows": 3
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "tuc-secoya",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "tup-kamayura",
+      "rows": 3
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-cahuilla",
+      "rows": 7
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-chemehuevi",
+      "rows": 122
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-comanche",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-cupeno",
+      "rows": 2
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-luiseno-juaneno",
+      "rows": 29
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-mono-usa",
+      "rows": 114
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-northern-paiute",
+      "rows": 8
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-serrano",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-tongva",
+      "rows": 14
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-tubatulabal",
+      "rows": 6
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "uto-ute",
+      "rows": 9
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "yan-sanuma",
+      "rows": 1
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "yok-northern-yokuts",
+      "rows": 8
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "yok-palewyami-yokuts",
+      "rows": 30
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "yub-northern-yukian",
+      "rows": 7
+    },
+    {
+      "reason": "slash_prefix_review_only",
+      "av_id": "yub-wappo",
+      "rows": 115
+    },
+    {
+      "reason": "source_extraction_prefix",
+      "av_id": "yub-northern-yukian",
+      "rows": 88
+    }
+  ],
+  "examples": [
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-41_cold-1",
+      "Value": "-nosi'ko (to be cold)",
+      "Form": "-nosi",
+      "Segments": "n o s i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-81_good-1",
+      "Value": "fə'ñé",
+      "Form": "fə",
+      "Segments": "f ə",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-3_1sg-1",
+      "Value": "o'ə",
+      "Form": "o",
+      "Segments": "o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-115_manmale-1",
+      "Value": "yo'hʌ",
+      "Form": "yo",
+      "Segments": "y o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-126_night-1",
+      "Value": "hʌ'-pʌʌ́ (lit. \"big time\")",
+      "Form": "hʌ",
+      "Segments": "h ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-132_other-1",
+      "Value": "ku'síka",
+      "Form": "ku",
+      "Segments": "k u",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-158_small-1",
+      "Value": "u'",
+      "Form": "u",
+      "Segments": "u",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-178_thick-1",
+      "Value": "-bə'ɒ́ (to be thick)",
+      "Form": "-bə",
+      "Segments": "b ə",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-5_2sg-1",
+      "Value": "ha'ə",
+      "Form": "ha",
+      "Segments": "h a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-35_breathe-1",
+      "Value": "yafi'sél",
+      "Form": "yafi",
+      "Segments": "y a f i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-37_chew-1",
+      "Value": "-ba'i",
+      "Form": "-ba",
+      "Segments": "b a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-43_cook-1",
+      "Value": "fá' (to grill)",
+      "Form": "fá",
+      "Segments": "f a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-51_dig-1",
+      "Value": "-hʌ'",
+      "Form": "-hʌ",
+      "Segments": "h ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-55_drink-1",
+      "Value": "-kó'",
+      "Form": "-kó",
+      "Segments": "k o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-131_openuncover-1",
+      "Value": "dʌ'á",
+      "Form": "dʌ",
+      "Segments": "d ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-147_see-1",
+      "Value": "pó'kə̃́",
+      "Form": "pó",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-163_split-1",
+      "Value": "pa'",
+      "Form": "pa",
+      "Segments": "p a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-166_stand-1",
+      "Value": "na'",
+      "Form": "na",
+      "Segments": "n a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-171_suck-1",
+      "Value": "-ma'",
+      "Form": "-ma",
+      "Segments": "m a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-184_throw-1",
+      "Value": "bu'",
+      "Form": "bu",
+      "Segments": "b u",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-194_water-1",
+      "Value": "dú'u",
+      "Form": "dú",
+      "Segments": "d u",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-195_wet-1",
+      "Value": "-ka'e (to be wet)",
+      "Form": "-ka",
+      "Segments": "k a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-199_white-1",
+      "Value": "po'te, pó-",
+      "Form": "po",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-94_hot-1",
+      "Value": "-pã'ãʌíkó (to be hot weather)",
+      "Form": "-pã",
+      "Segments": "p ã",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-306_toucan-1",
+      "Value": "se'hʌ, piyʌ (green)",
+      "Form": "se",
+      "Segments": "s e",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-222_parrot-1",
+      "Value": "tu'be (small), dófí (small green and black)",
+      "Form": "tu",
+      "Segments": "t u",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-150_greategret-1",
+      "Value": "yo'fí",
+      "Form": "yo",
+      "Segments": "y o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-9_anaconda-1",
+      "Value": "hʌ'pʌ",
+      "Form": "hʌ",
+      "Segments": "h ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-43_coca-1",
+      "Value": "hí'píe",
+      "Form": "hí",
+      "Segments": "h i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-170_inga-1",
+      "Value": "si'dʌ",
+      "Form": "si",
+      "Segments": "s i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-56_bottlegourdvineorcalabashtree-1",
+      "Value": "pó'di",
+      "Form": "pó",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-98_cricket-1",
+      "Value": "bo'də́tapu",
+      "Form": "bo",
+      "Segments": "b o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-280_spider-1",
+      "Value": "yɒ'kɒnə̃",
+      "Form": "yɒ",
+      "Segments": "y ɒ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-89_collaredpeccary-1",
+      "Value": "sʌ'mé",
+      "Form": "sʌ",
+      "Segments": "s ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-217_pacalowland-1",
+      "Value": "ʌ'ʌ",
+      "Form": "ʌ",
+      "Segments": "ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-65_drumlargesignal-1",
+      "Value": "kú'de ('forest drum')",
+      "Form": "kú",
+      "Segments": "k u",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-150_ritualsongcyclekapiwaya-1",
+      "Value": "yó'sei (ritual cries)",
+      "Form": "yó",
+      "Segments": "y o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-135_paintbodybodypaint-1",
+      "Value": "do'ʌ́kə̃́",
+      "Form": "do",
+      "Segments": "d o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-35_chicken-1",
+      "Value": "ta'táfa",
+      "Form": "ta",
+      "Segments": "t a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-36_chiefleader-1",
+      "Value": "po'so-ʌ (from po'so 'beat drum')",
+      "Form": "po",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-152_salt-1",
+      "Value": "ñɒ'kɒ",
+      "Form": "ñɒ",
+      "Segments": "ɲ ɒ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-99_gourddipperbowl-1",
+      "Value": "pó'di",
+      "Form": "pó",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ana-andoque",
+      "source_form_id": "huntergatherer_97-88_flatbreadcassavabread-1",
+      "Value": "pʌ'te; döa (RW52)",
+      "Form": "pʌ",
+      "Segments": "p ʌ",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-achagua",
+      "source_form_id": "huntergatherer_48-7_3sg-1",
+      "Value": "lija/ ruja",
+      "Form": "lija",
+      "Segments": "l i j a",
+      "reason": "slash_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-66_far-1",
+      "Value": "kúd'ehe",
+      "Form": "kúd",
+      "Segments": "k u d",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-81_good-1",
+      "Value": "id'auaɻi",
+      "Form": "id",
+      "Segments": "i d",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-7_3sg-1",
+      "Value": "kuhu/ kuhũ",
+      "Form": "kuhu",
+      "Segments": "k u h u",
+      "reason": "slash_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-181_this-1",
+      "Value": "téki/ théki",
+      "Form": "téki",
+      "Segments": "t e k i",
+      "reason": "slash_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-136_poundbeat-1",
+      "Value": "wát'uka, watʃuka",
+      "Form": "wát",
+      "Segments": "w a t",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-175_swim-1",
+      "Value": "khumíd'a",
+      "Form": "khumíd",
+      "Segments": "kʰ u m i d",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-271_smalllizard-1",
+      "Value": "kuíd'iyu",
+      "Form": "kuíd",
+      "Segments": "k u i d",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-bare",
+      "source_form_id": "huntergatherer_53-6_arrow-1",
+      "Value": "dabid'aha",
+      "Form": "dabid",
+      "Segments": "d a b i d",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-8_above-1",
+      "Value": "a'ni-ye",
+      "Form": "a",
+      "Segments": "a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-15_ash-1",
+      "Value": "po'ip (pl)",
+      "Form": "po",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-20_bad-1",
+      "Value": "me'hewokon",
+      "Form": "me",
+      "Segments": "m e",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-40_cloud-1",
+      "Value": "roeamokonoe'",
+      "Form": "roeamokonoe",
+      "Segments": "r o e a m o k o n o e",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-53_dirty-1",
+      "Value": "topop'kon",
+      "Form": "topop",
+      "Segments": "t o p o p",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-58_dust-1",
+      "Value": "kopo'eṛ̌; poi-p",
+      "Form": "kopo",
+      "Segments": "k o p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-62_egg-1",
+      "Value": "na'",
+      "Form": "na",
+      "Segments": "n a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-66_far-1",
+      "Value": "a'βe-",
+      "Form": "a",
+      "Segments": "a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-68_father-1",
+      "Value": "-i'a; čač",
+      "Form": "-i",
+      "Segments": "i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-70_feather-1",
+      "Value": "e'sis",
+      "Form": "e",
+      "Segments": "e",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-76_flower-1",
+      "Value": "čomomoe'",
+      "Form": "čomomoe",
+      "Segments": "tʃ o m o m o e",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-86_head-1",
+      "Value": "ni-'poʔe",
+      "Form": "ni-",
+      "Segments": "n i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-104_leaf-1",
+      "Value": "e-pono'e",
+      "Form": "e-pono",
+      "Segments": "e + p o n o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-106_legfoot-1",
+      "Value": "ni'pes",
+      "Form": "ni",
+      "Segments": "n i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-110_liver-1",
+      "Value": "-e'pe-ṛ̌on",
+      "Form": "-e",
+      "Segments": "e",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-113_louse-1",
+      "Value": "i'no-k",
+      "Form": "i",
+      "Segments": "i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-117_moon-1",
+      "Value": "ki'he-ṛ̌",
+      "Form": "ki",
+      "Segments": "k i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-120_mouth-1",
+      "Value": "ni-'noki",
+      "Form": "ni-",
+      "Segments": "n i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-123_nearclose-1",
+      "Value": "a'ne-kon",
+      "Form": "a",
+      "Segments": "a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-126_night-1",
+      "Value": "yoto'e-ṛ̌",
+      "Form": "yoto",
+      "Segments": "y o t o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-130_one-1",
+      "Value": "po'noš",
+      "Form": "po",
+      "Segments": "p o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-133_painpainfulsick-1",
+      "Value": "mavi'",
+      "Form": "mavi",
+      "Segments": "m a v i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-137_rain-1",
+      "Value": "so'won",
+      "Form": "so",
+      "Segments": "s o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-138_red-1",
+      "Value": "moro'sero-",
+      "Form": "moro",
+      "Segments": "m o r o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-144_sand-1",
+      "Value": "ha'hap",
+      "Form": "ha",
+      "Segments": "h a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-148_sharp-1",
+      "Value": "ko-'se-ro",
+      "Form": "ko-",
+      "Segments": "k o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-156_sky-1",
+      "Value": "a'ni-ye",
+      "Form": "a",
+      "Segments": "a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-160_smoke-1",
+      "Value": "kotiso'kon",
+      "Form": "kotiso",
+      "Segments": "k o t i s o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-167_star-1",
+      "Value": "wa'his",
+      "Form": "wa",
+      "Segments": "w a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-176_tail-1",
+      "Value": "i'ho-s",
+      "Form": "i",
+      "Segments": "i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-6_3pl-1",
+      "Value": "no-'ti",
+      "Form": "no-",
+      "Segments": "n o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-178_thick-1",
+      "Value": "šo'po-",
+      "Form": "šo",
+      "Segments": "ʃ o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-5_2sg-1",
+      "Value": "pi-'ti",
+      "Form": "pi-",
+      "Segments": "p i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-182_three-1",
+      "Value": "m'po-n",
+      "Form": "m",
+      "Segments": "m",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-36_burn-1",
+      "Value": "a'haṛ̌ow",
+      "Form": "a",
+      "Segments": "a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-65_fall-1",
+      "Value": "nesta'paika",
+      "Form": "nesta",
+      "Segments": "n e s t a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-74_flow-1",
+      "Value": "pini'ikia-?",
+      "Form": "pini",
+      "Segments": "p i n i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-91_hit-1",
+      "Value": "nesta'kaβiyar",
+      "Form": "nesta",
+      "Segments": "n e s t a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-93_hold-1",
+      "Value": "a'mo",
+      "Form": "a",
+      "Segments": "a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-109_livebealive-1",
+      "Value": "čo-'ko-",
+      "Form": "čo-",
+      "Segments": "tʃ o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-171_suck-1",
+      "Value": "hi-'ko-",
+      "Form": "hi-",
+      "Segments": "h i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-180_think-1",
+      "Value": "hino'inok",
+      "Form": "hino",
+      "Segments": "h i n o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-192_vomit-1",
+      "Value": "ewso'in-",
+      "Form": "ewso",
+      "Segments": "e w s o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-193_walk-1",
+      "Value": "yo'no",
+      "Form": "yo",
+      "Segments": "y o",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-206_yawn-1",
+      "Value": "aw'in-",
+      "Form": "aw",
+      "Segments": "a w",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-188_tooth-1",
+      "Value": "ni-'se-ṛ̌",
+      "Form": "ni-",
+      "Segments": "n i",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-191_two-1",
+      "Value": "m-a'pi-n",
+      "Form": "m-a",
+      "Segments": "m + a",
+      "reason": "apostrophe_prefix_review_only"
+    },
+    {
+      "av_id": "ara-baure",
+      "source_form_id": "huntergatherer_253-2_1plincl-1",
+      "Value": "viti'",
+      "Form": "viti",
+      "Segments": "v i t i",
+      "reason": "apostrophe_prefix_review_only"
+    }
+  ],
+  "interpretation": "Unheld prefix candidates require source review; these counts are readings, not erroneous edges."
+}

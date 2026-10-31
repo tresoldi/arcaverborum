@@ -2539,15 +2539,20 @@
     ]
   },
   "colexification": {
-    "url": "data/colexification/b198f6cb17cb9817b91686cc/manifest.json",
-    "sha256": "7865a46422efbf0a1430894ae415e44a77fbdafaaa64d8d46504f987d6da2306",
-    "bytes": 516243,
+    "url": "data/colexification/db68b765a4a3e48d2129b656/manifest.json",
+    "sha256": "59592896fb90f7d1a54f7600bdbf2b3298835d0ae77283efa3452ecc34b2e3cb",
+    "bytes": 516358,
     "schema": 1,
-    "build_id": "b198f6cb17cb9817b91686cc",
+    "build_id": "db68b765a4a3e48d2129b656",
     "subgraphs": {
-      "url": "data/colexification-graphs/dab8ac4d1c04b86e9aade354/manifest.json",
-      "sha256": "6bd5b37b9f71cd7d5750296db0c1d67b2de5597e29105ffaf7ea7d21669ca8fd",
-      "bytes": 502378
+      "url": "data/colexification-graphs/c3647c588f68d3075707b6e8/manifest.json",
+      "sha256": "cc210d33ee0760d99ca92974d8c170688d7be712b122c80fc9df1155e52e8913",
+      "bytes": 502462
+    },
+    "communities": {
+      "url": "data/colexification-communities/2e58569c5ba7972feab60dc3/manifest.json",
+      "bytes": 519914,
+      "sha256": "452e28265bb6d8df7c905e8c983e3fda6a9131b77dc439c2e0f4ede69886964a"
     }
   },
   "concept_rows": {

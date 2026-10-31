@@ -953,3 +953,49 @@ These are opportunities, not an authorization to admit unsupported data.
 
 This tracked journal is the portable handoff. Local `memory/` is ignored;
 archived memories in `~/work/meta` are read-only and must not be edited.
+
+## 2026-10-31 — Colexification evidence repair started
+
+User authorized the review recommendations. Added conservative Northern Yukian
+huntergatherer apostrophe-prefix eligibility guard and exact Elamite FIVE
+reconstruction guard, preserving lexical records. Closed SQLite seals verified by
+cache, graph, comparison and publication consumers; corrected shared-native
+reference-example labels. Added streaming extraction audit and mutation regression;
+33 targeted tests pass. Broad provisional prefix exclusions were narrowed before
+publication; the provisional full build was interrupted. No accepted analytical
+assets were published. Next: full corrected rebuild and exact reconciliation,
+slash/source-convention review, source/identity-group sensitivity diagnostics,
+then bounded offline Infomap/Leiden pilot and exploratory membership UI.
+
+
+## 2026-10-31 — Colexification repair, global communities and publication preparation
+
+Completed the authorized implementation through local publication. Frozen repaired
+analytical snapshot db68b765a4a3e48d2129b656 removes435 observed segmented/345
+citation pairs, adds no edges/stable witnesses/support, and preserves all lexical,
+WordNet and concept-table inputs. Northern Yukian88 prefix losses, Washo101 held
+prefix readings and the explicit Elamite FIVE reconstruction are analytically
+excluded with source-specific guards; all original lexical records remain.
+Closed-database/public-manifest seals, embedded-manifest checks, concurrent-writer
+locks, shared reference classification and streamed SQL comparison sets are in
+place. Complete immutable report bundles precede pointer replacement.
+
+Community build2e58569c5ba7972feab60dc3 runs76 partitions: ten Infomap seeds/five
+trials, Leiden3 resolutions, all/three-family/source/area/Americas sensitivity and
+50 family-block perturbations with multiplicity. Initial in-process native engine
+accumulation hit256MiB and left publication untouched; fresh sequential worker
+processes resolve it without raising the cap. Macroarea masks now treat compound
+semicolon lists by membership. Selectedseed9 gives237 exploratory communities/
+2,974 concepts, with substantial sampling/model variability. All3,828 node assets,
+173,907 preview edge/count instances and44,421 diagnostics verified; selected
+full partition reproduced exactly. Parent103.59/worker92.22MiB; full core103.52,
+comparison128.81MiB, all under256MiB. Source independence and source-semantic holds
+remain explicit; namespaces are not original dictionaries. No automatic semantic,
+normalization, source-promotion or inferred-edge filling follows from a cluster.
+
+Concept pages offer global community previews separately from local neighborhoods,
+show source/projection and perturbation diagnostics, retain bounded rendering and
+complete downloads. Pinned optional research dependencies and process replacement
+integrate the stage into the build pipeline. Local colexification/community,
+WordNet, research and concept-entry browser checks pass. Canonical deployment
+proof is recorded separately after push and Pages completion.

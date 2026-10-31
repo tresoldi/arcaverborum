@@ -291,3 +291,29 @@ def test_publish_checks_snapshot_and_keeps_immutable_build(tmp_path):
     with pytest.raises(ValueError, match='Stale'):
         publish(tmp_path, built)
     assert (web / 'manifest.json').read_bytes() == before
+
+
+def test_reviewed_prefix_loss_and_reconstruction_guards():
+    from arcaverborum.colexification import analytical_exclusion
+    assert analytical_exclusion(form(0, word='k', source='huntergatherer',
+                                    member='huntergatherer_30', Value="k'i:p"))
+    assert not analytical_exclusion(form(0, word="k'i:p", source='huntergatherer',
+                                    member='huntergatherer_30', Value="k'i:p"))
+    assert not analytical_exclusion(form(0, word='k', Value="k'i:p"))
+    assert not analytical_exclusion(form(0, word='i', source='huntergatherer', Value='i/me7'))
+    assert analytical_exclusion(form(0, word='i', source='huntergatherer',
+                                    member='huntergatherer_27', Value='i/me7'))
+    assert analytical_exclusion(form(0, word='*tu-ku', fid='idssegmented_elamite-13-50-1', Value='AchE *tu-ku (?)'))
+    with pytest.raises(ValueError):
+        analytical_exclusion(form(0, fid='idssegmented_elamite-13-50-1'))
+
+
+def test_database_seal_rejects_valid_sql_mutation(tmp_path):
+    from arcaverborum.colexification import verify_database
+    built, db = run(tmp_path, [form(0), form(1)])
+    verify_database(built)
+    db.execute("UPDATE edges SET families=families+1")
+    db.commit()
+    db.close()
+    with pytest.raises(ValueError, match='modified'):
+        verify_database(built)

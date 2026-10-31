@@ -1,0 +1,1 @@
+{"community":"foo-lettuce","community_size":2,"concept_id":"foo-lettuce","diagnostics":{"foo-salad":{"block_coassigned":35,"block_eligible":35,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["foo-lettuce","foo-salad"],"preview_edges":[["foo-lettuce","foo-salad",1,1,1]],"status":"assigned"}

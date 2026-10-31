@@ -1,0 +1,1 @@
+{"community":"cog-knowledge","community_size":2,"concept_id":"cog-knowledge","diagnostics":{"cog-wisdom":{"block_coassigned":35,"block_eligible":35,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["cog-knowledge","cog-wisdom"],"preview_edges":[["cog-knowledge","cog-wisdom",1,1,1]],"status":"assigned"}

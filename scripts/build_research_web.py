@@ -319,9 +319,16 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--with-communities', action='store_true',
+                        help='Include the optional pinned global community analysis')
     parser.add_argument('--without-colexification', action='store_true',
                         help='Build only lexical explorer assets; omit the derived network refresh')
     args = parser.parse_args()
+    if args.with_communities:
+        if args.without_colexification or args.output is not None:
+            parser.error('--with-communities requires the default lexical and colexification pipeline')
+        from arcaverborum.colexification_communities import validate_runtime
+        validate_runtime()
     build(args.root, args.output)
     if args.output is None:
         # Release the lexical builder before bounded concept and network exports.
@@ -330,6 +337,8 @@ def main():
         if (not args.without_colexification
                 and (args.root / 'src/arcaverborum/data/colexification/policy.json').exists()):
             command.append('--with-colexification')
+            if args.with_communities:
+                command.append('--with-communities')
         os.execv(sys.executable, command)
 
 

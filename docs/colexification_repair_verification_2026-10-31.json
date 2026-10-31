@@ -1,0 +1,99 @@
+{
+  "before": "b198f6cb17cb9817b91686cc",
+  "after": "db68b765a4a3e48d2129b656",
+  "networks": [
+    {
+      "layer": "reduced",
+      "kind": "observed",
+      "previous": 508,
+      "repaired": 508,
+      "removed": 0
+    },
+    {
+      "layer": "segmented",
+      "kind": "inferred",
+      "previous": 6,
+      "repaired": 6,
+      "removed": 0
+    },
+    {
+      "layer": "segmented",
+      "kind": "observed",
+      "previous": 44856,
+      "repaired": 44421,
+      "removed": 435
+    },
+    {
+      "layer": "written",
+      "kind": "inferred",
+      "previous": 6,
+      "repaired": 6,
+      "removed": 0
+    },
+    {
+      "layer": "written",
+      "kind": "observed",
+      "previous": 44025,
+      "repaired": 43680,
+      "removed": 345
+    }
+  ],
+  "new_edges": 0,
+  "support_increases": 0,
+  "comparable_variety_increases": 0,
+  "new_stable_witnesses": 0,
+  "excluded_elamite_readings_remaining": 0,
+  "previous_witnesses": 264835,
+  "repaired_witnesses": 263799,
+  "lexical_source_hashes_unchanged": true,
+  "repaired_stats": {
+    "active_concepts": 3789,
+    "concepts": 3828,
+    "duplicate_readings": 17,
+    "edges": 88621,
+    "excluded_doubtful": 2005,
+    "excluded_held_washo_prefix_reading": 101,
+    "excluded_merged": 2085,
+    "excluded_reconstruction": 18536,
+    "excluded_reviewed_reconstruction": 1,
+    "excluded_segment_identity": 203304,
+    "excluded_source_extraction_prefix": 88,
+    "excluded_unmapped": 327200,
+    "excluded_written_identity": 85218,
+    "inferred_witnesses": 11981,
+    "input_records": 2119754,
+    "networks": [
+      {
+        "edges": 508,
+        "kind": "observed",
+        "layer": "reduced"
+      },
+      {
+        "edges": 6,
+        "kind": "inferred",
+        "layer": "segmented"
+      },
+      {
+        "edges": 44421,
+        "kind": "observed",
+        "layer": "segmented"
+      },
+      {
+        "edges": 6,
+        "kind": "inferred",
+        "layer": "written"
+      },
+      {
+        "edges": 43680,
+        "kind": "observed",
+        "layer": "written"
+      }
+    ],
+    "quarantined_identities": 2,
+    "readings_reduced": 80754,
+    "readings_segmented": 1485680,
+    "readings_written": 1684503,
+    "witnesses": 263799
+  },
+  "completion_sha256": "2f3c94b7dbd3d110fd512a94ca4ebc261ee34af987959c6e3034862d7accc9af"
+}

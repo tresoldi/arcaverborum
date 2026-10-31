@@ -1,6 +1,17 @@
 # Active expansion queue
 
-**Colexification follow-through:** [CLICS comparison](CLICS_COMPARISON.md) is complete; do not replay raw edge matching as a coverage target. Review source/version/reading evidence for the12,759 reference-only cells with comparable Arca records, then source-backed depth for26,142 unknown cells. Resolve historical Concepticon merges separately; audit kinship/pronoun expansions before admitting new inferences. Counts and CLICS normalized weights are distinct. interconnected local subgraphs are implemented (31 nodes/465 edges maximum). Global community detection needs a separately versioned partition and validation; local layouts are not community assignments. [pipeline and limits](COLEXIFICATION.md) are implemented for all catalog concepts. Review TLS Mbunga ku (154 segmented/151 citation concepts) against original lexical/morphological evidence before lifting its quarantine. Improve questionnaire-level missingness and reviewed source conventions; partial colexification needs validated morphology. Do not treat sampled nonmatches as lexical absence, source duplicates as independent confirmations, or WordNet relations as colexification edges.
+**Colexification follow-through:** [repaired evidence](COLEXIFICATION.md),
+[source diagnostics and global exploratory communities](COLEXIFICATION_COMMUNITIES.md)
+are implemented. Do not replay global clustering or raw CLICS matching as missing
+features. [Current comparison](CLICS_COMPARISON.md) leaves 12,762 reference-direct-only
+cells with sampled Arca distinctions and 26,586 unknown cells for source/version
+review; agreement is not an admission target. Reopen the exact Northern Yukian,
+Washo, other prefix-candidate, Elamite/stage and Johansson sense gates in
+[HELD](planning/HELD.md) only with original-source evidence. Review mixed-basis
+comparability, historical Concepticon aliases, loan/profile/source-lineage masks
+and questionnaire inventories separately. Partial colexification requires its own
+validated morphology. Preserve rare American evidence, unknowns and native IDs.
+
 
 **WordNet alignment:** initial full-catalog sidecar published; [coverage and continuation rules](WORDNET.md). Prioritize sense review of inherited Concepticon associations and frequent unresolved concepts. Current accepted lexical baseline is unchanged. Do not treat source associations or candidate rankings as exact equivalences.
 

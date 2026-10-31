@@ -6,18 +6,24 @@ are the only semantic crosswalk; CLICS4 expansions are separately measurable.
 from __future__ import annotations
 
 import csv
+import fcntl
 import html
 import io
+import itertools
 import json
 import math
+import os
+import resource
+import shutil
 import sqlite3
+import tempfile
 import urllib.request
 import zipfile
 from collections import Counter, defaultdict
 from contextlib import contextmanager
 from pathlib import Path
 
-from arcaverborum.colexification import pair_status, read_csv, sha
+from arcaverborum.colexification import pair_status, read_csv, sha, verify_database
 
 MAX_FIELD = 8 * 1024 * 1024
 
@@ -139,20 +145,19 @@ def status_counts(positive, other_positive, other_comparable):
                 other_unknown=len(positive - other_positive - other_comparable))
 
 
-def discordance_statuses(differences, comparable):
+def discordance_statuses(differences, comparable, ordered=False):
     """Stream a sparse list of positive discrepancies; unknown is not a zero."""
-    groups = defaultdict(set)
-    for a, b, language in differences:
-        groups[a, b].add(language)
     counts = Counter(other_sampled_no_shared_form=0, other_unknown=0)
-    for (a, b), languages in groups.items():
+    rows = differences if ordered else sorted(differences)
+    for (a, b), group in itertools.groupby(rows, key=lambda r: (r[0], r[1])):
+        languages = {r[2] for r in group}
         available = comparable(a, b)
         counts['other_sampled_no_shared_form'] += len(languages & available)
         counts['other_unknown'] += len(languages - available)
     return dict(counts)
 
 
-def compare(root, cache, scratch, output, fetch=False):
+def _compare(root, cache, scratch, output, fetch=False):
     root, cache, scratch, output = map(Path, (root, cache, scratch, output))
     sources = verify_sources(root, cache, fetch)
     web = json.loads((root / 'web/data/manifest.json').read_text())
@@ -173,6 +178,9 @@ def compare(root, cache, scratch, output, fetch=False):
         language = row.get('Language_ID') or (row['ID'] if row['Level'] == 'language' else '')
         classification[row['ID']] = language
     scratch.mkdir(parents=True, exist_ok=True)
+    if shutil.disk_usage(scratch).free < 256 * 1024 * 1024:
+        raise RuntimeError('Insufficient comparison scratch space')
+    os.environ['SQLITE_TMPDIR'] = str(scratch.resolve())
     dbpath = scratch / 'comparison.sqlite'
     dbpath.unlink(missing_ok=True)
     db = sqlite3.connect(dbpath, uri=True)
@@ -180,7 +188,10 @@ def compare(root, cache, scratch, output, fetch=False):
     db.execute('PRAGMA mmap_size=0')
     db.execute('PRAGMA temp_store=FILE')
     db.execute('PRAGMA journal_mode=OFF')
+    page_size = db.execute('PRAGMA page_size').fetchone()[0]
+    db.execute(f'PRAGMA max_page_count={3 * 1024**3 // page_size}')
     native_db = root / 'output/colexification' / native['build_id'] / 'index.sqlite'
+    verify_database(native_db.parent)
     db.execute('ATTACH DATABASE ? AS arca', (f'file:{native_db}?mode=ro',))
     db.execute('PRAGMA arca.cache_size=-16384')
     db.executescript('''
@@ -243,7 +254,7 @@ def compare(root, cache, scratch, output, fetch=False):
                 rb = db.execute('SELECT lid,icon,derived,local FROM forms WHERE id=?', (fb,)).fetchone()
                 if not ra or not rb or ra[0] != rb[0] or pair(ra[1], rb[1]) != (a, b):
                     raise ValueError('Reference witness does not agree with its edge')
-                direct = not ra[2] and not rb[2] and ra[3] != rb[3]
+                direct = reference_category(ra[2], ra[3], rb[2], rb[3]) == 'direct'
                 kinds['direct_form_pairs' if direct else 'derived_or_shared_native_form_pairs'] += 1
                 if ra[3] == rb[3]:
                     kinds['same_native_form_pairs'] += 1
@@ -322,17 +333,31 @@ def compare(root, cache, scratch, output, fetch=False):
         "SELECT DISTINCT v.language FROM arca.coverage c JOIN arca.scopes s ON s.id=c.sid "
         "JOIN arca.varieties v ON v.av=s.av WHERE c.layer='segmented'")} - {''}
     common = set(icons.values()) & crosswalk.keys()
-    def support(table, direct=False):
-        query = 'SELECT a,b,language FROM ' + table + (' WHERE direct=1' if direct else '')
-        return {(a, b, language) for a, b, language in db.execute(query)
-                if language in shared_languages and a in common and b in common}
-    sa, sr, sd = support('native_support'), support('ref_support'), support('ref_support', True)
+    db.execute('CREATE TABLE shared_languages(language TEXT PRIMARY KEY)')
+    db.executemany('INSERT INTO shared_languages VALUES(?)', [(x,) for x in sorted(shared_languages)])
+    db.execute('CREATE TABLE common_icons(icon TEXT PRIMARY KEY)')
+    db.executemany('INSERT INTO common_icons VALUES(?)', [(x,) for x in sorted(common)])
+    for name, source, condition in [('sa', 'native_support', '1'), ('sr', 'ref_support', '1'),
+                                    ('sd', 'ref_support', 's.direct=1')]:
+        db.execute(f'CREATE TABLE {name} AS SELECT DISTINCT s.a,s.b,s.language FROM {source} s '
+                   'JOIN shared_languages l ON l.language=s.language '
+                   'JOIN common_icons a ON a.icon=s.a JOIN common_icons b ON b.icon=s.b WHERE ' + condition)
+        db.execute(f'CREATE UNIQUE INDEX {name}_key ON {name}(a,b,language)')
+
+    def sql_overlap(left, right, columns='a,b,language'):
+        a = db.execute(f'SELECT COUNT(*) FROM (SELECT DISTINCT {columns} FROM {left})').fetchone()[0]
+        b = db.execute(f'SELECT COUNT(*) FROM (SELECT DISTINCT {columns} FROM {right})').fetchone()[0]
+        shared = db.execute(f'SELECT COUNT(*) FROM (SELECT {columns} FROM {left} INTERSECT '
+                            f'SELECT {columns} FROM {right})').fetchone()[0]
+        return dict(arca=a, reference=b, shared=shared, arca_only=a-shared, reference_only=b-shared)
+
     report['matched_clics4'] = dict(shared_current_glottolog_languages=len(shared_languages),
         note=('Language units use the same current Glottolog collapse; '
               'source questionnaires and readings are still different.'),
-        pair_language_all=overlap(sa, sr), pair_language_direct_readings=overlap(sa, sd),
-        edges_all=overlap({x[:2] for x in sa}, {x[:2] for x in sr}),
-        edges_direct_readings=overlap({x[:2] for x in sa}, {x[:2] for x in sd}),
+        pair_language_all=sql_overlap('sa', 'sr'),
+        pair_language_direct_readings=sql_overlap('sa', 'sd'),
+        edges_all=sql_overlap('sa', 'sr', 'a,b'),
+        edges_direct_readings=sql_overlap('sa', 'sd', 'a,b'),
         direct_rule=('Both CLICS4 forms have empty ConceptInSource and distinct Local_ID; '
                      'expanded readings are excluded, not declared invalid.'))
     db.execute('CREATE INDEX forms_concepts ON forms(icon,lid,derived)')
@@ -346,11 +371,12 @@ def compare(root, cache, scratch, output, fetch=False):
             'SELECT DISTINCT f.lid FROM forms f JOIN forms g ON f.lid=g.lid '
             'WHERE f.icon=? AND g.icon=? AND f.derived=0 AND g.derived=0 AND f.local<>g.local', (a, b))}
     report['matched_clics4']['reference_direct_only_status_in_arca'] = discordance_statuses(
-        sd - sa, native_available)
+        db.execute('SELECT a,b,language FROM sd EXCEPT SELECT a,b,language FROM sa ORDER BY a,b,language'),
+        native_available, ordered=True)
     report['matched_clics4']['arca_only_status_in_reference_direct'] = discordance_statuses(
-        sa - sd, reference_available)
+        db.execute('SELECT a,b,language FROM sa EXCEPT SELECT a,b,language FROM sd ORDER BY a,b,language'),
+        reference_available, ordered=True)
     native_connection.close()
-    del sa, sr, sd
     # Audit strongest missing pairs, largest family-count deltas and familiar patterns.
     # Pair coverage stays source-scoped; no dense coverage matrix is constructed.
     ref4 = {(r[0], r[1]): r[2] for r in db.execute(
@@ -414,7 +440,7 @@ def compare(root, cache, scratch, output, fetch=False):
                 fa, fb = form_pair(value)
                 evidence = [db.execute('SELECT id,lid,derived,local,source,form,segments FROM forms WHERE id=?',
                                        (fid,)).fetchone() for fid in [fa, fb]]
-                category = 'expanded' if any(r[2] for r in evidence) else 'direct'
+                category = reference_category(evidence[0][2], evidence[0][3], evidence[1][2], evidence[1][3])
                 if category in seen:
                     continue
                 seen.add(category)
@@ -422,7 +448,7 @@ def compare(root, cache, scratch, output, fetch=False):
                     same_native_form=evidence[0][3] == evidence[1][3], forms=[dict(
                         zip(['id', 'variety_id', 'expanded', 'local_id', 'source', 'form', 'segments'], r))
                         for r in evidence]))
-                if len(seen) == 2:
+                if len(seen) == 3:
                     break
     arca_sources = {r[0] for r in db.execute(
         "SELECT DISTINCT s.source FROM arca.coverage c JOIN arca.scopes s ON s.id=c.sid "
@@ -434,7 +460,56 @@ def compare(root, cache, scratch, output, fetch=False):
         note=('Exact namespace match only; versions and selected members may still differ. '
               'Shared sources are not independent confirmation.'))
     report['diagnostics'] = list(diagnostics.values())
+    report['peak_rss_mib'] = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024
+    report['address_space_limit_mib'] = resource.getrlimit(resource.RLIMIT_AS)[0] / 1024 / 1024
     report['csv_sha256'] = sha(output.with_suffix('.csv'))
     output.with_suffix('.json').write_text(json.dumps(report, indent=2) + '\n')
     db.close()
     return report
+
+
+def reference_category(derived_a, local_a, derived_b, local_b):
+    if derived_a or derived_b:
+        return 'expanded'
+    return 'shared_native' if local_a == local_b else 'direct'
+
+
+def compare(root, cache, scratch, output, fetch=False):
+    """Commit an immutable complete bundle before switching its pointer.
+
+    Flat CSV/JSON copies are compatibility exports. The bundle pointer is the
+    authoritative publication and changes only after both files are complete.
+    """
+    output = Path(output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    stage = Path(tempfile.mkdtemp(prefix='.' + output.name + '-', dir=output.parent))
+    scratch = Path(scratch)
+    scratch.mkdir(parents=True, exist_ok=True)
+    lock = (scratch / '.comparison.lock').open('a')
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        report = _compare(root, cache, scratch, stage / 'report', fetch)
+        fingerprint = sha(stage / 'report.json')[:24]
+        destination = output.parent / (output.name + '-bundles') / fingerprint
+        destination.parent.mkdir(exist_ok=True)
+        if not destination.exists():
+            stage.rename(destination)
+        else:
+            for name in ['report.csv', 'report.json']:
+                if sha(stage / name) != sha(destination / name):
+                    raise ValueError('Conflicting comparison bundle')
+        files = {name: dict(url=str((destination / name).relative_to(output.parent)),
+                           sha256=sha(destination / name), bytes=(destination / name).stat().st_size)
+                 for name in ['report.csv', 'report.json']}
+        for suffix in ['csv', 'json']:
+            temporary = output.with_suffix('.' + suffix + '.publishing')
+            shutil.copyfile(destination / ('report.' + suffix), temporary)
+            os.replace(temporary, output.with_suffix('.' + suffix))
+        pointer = output.with_suffix('.bundle.json')
+        temporary = pointer.with_suffix('.publishing')
+        temporary.write_text(json.dumps(dict(files=files), indent=2) + '\n')
+        os.replace(temporary, pointer)
+        return report
+    finally:
+        lock.close()
+        shutil.rmtree(stage, ignore_errors=True)
