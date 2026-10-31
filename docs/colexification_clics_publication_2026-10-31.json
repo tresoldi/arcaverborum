@@ -1,0 +1,79 @@
+{
+  "commit": "0a8a023f8c887278b9e199c9c805e636a6b43fcc",
+  "canonical_url": "https://arcaverborum.org/",
+  "all_changed_application_and_report_assets_match": true,
+  "assets": [
+    {
+      "url": "index.html",
+      "sha256": "cf274d62afc5703026af34a930bde2645538b745ca07ed48873147e52d2d8b74",
+      "bytes": 2003
+    },
+    {
+      "url": "research.js",
+      "sha256": "f5c8e27a13310afc93262a6a8c7e6af21ec9f3a9003f3bdcdad9d6cdde8af70c",
+      "bytes": 57977
+    },
+    {
+      "url": "colexification.js",
+      "sha256": "ab1b75a84a022f08d90850fece2d16519a4390753112eec917a0693400d73770",
+      "bytes": 21247
+    },
+    {
+      "url": "research.css",
+      "sha256": "320b14b141dfd26a150031d9b200b64e8d35e7effebb2cb4c0b87077dc780ac1",
+      "bytes": 8505
+    },
+    {
+      "url": "data/manifest.json",
+      "sha256": "1ef690bc2b433e44e7358ebf2a578170e33656dc8b3c907cd0fdba481d875963",
+      "bytes": 83048
+    },
+    {
+      "url": "docs/CLICS_COMPARISON.md",
+      "sha256": "b2e29e63aca348ef8931035bb7af685afa41b64012a25aa43f33a9ce838841c5",
+      "bytes": 13424
+    },
+    {
+      "url": "docs/COLEXIFICATION.md",
+      "sha256": "f3c2a245747f1d240f687acc52bad52bb3af750418569bfd7255fa20be6d3630",
+      "bytes": 19547
+    },
+    {
+      "url": "docs/colexification_clics_comparison_2026-10-31.json",
+      "sha256": "ffa1e32c40a6cb9d185d3fff36700cbb22adcafb942399c1fc1b0ab63d925baf",
+      "bytes": 87473
+    },
+    {
+      "url": "docs/colexification_clics_comparison_2026-10-31.csv",
+      "sha256": "24762336e706b8659a52467ea2649ef53c0c22747688e361d2cb908d906dda2b",
+      "bytes": 8397836
+    },
+    {
+      "url": "docs/colexification_clics_verification_2026-10-31.json",
+      "sha256": "660a7c6ea6e65ed40a78a87d16693cf2b794f67836410678d424212e849eacc1",
+      "bytes": 630
+    }
+  ],
+  "ci_pages": [
+    {
+      "conclusion": "success",
+      "databaseId": 41211608964,
+      "name": "Deploy site",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41211608964"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 41211608959,
+      "name": "CI",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41211608959"
+    }
+  ],
+  "seconds": 1.58,
+  "live_browser_suites": [
+    "colexification strength/URL/keyboard/interactions",
+    "WordNet",
+    "general research"
+  ]
+}
