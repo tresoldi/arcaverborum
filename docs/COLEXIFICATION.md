@@ -322,3 +322,19 @@ analytical colexification counts are unchanged. 544 tests and local colexificati
 WordNet and general research browser checks pass.
 
 [Subgraph publication proof](colexification_subgraphs_publication_2026-10-31.json): commit `a92a5495` deployed; CI and Pages passed. All 3,834 checked canonical assets match, and all three live browser suites pass.
+
+## CLICS comparison and visible strength, 2026-10-31
+
+[The comparison report](CLICS_COMPARISON.md) aligns frozen CLICS³ v1.1 and
+CLICS⁴ v1.0 with the observed segmented layer, distinguishes reference broad-slot
+expansions, controls concepts and current language units, and audits sparse
+discordant positives against source-comparable coverage. Agreement is descriptive,
+not an admission criterion. Sources shared with CLICS are not independent evidence.
+
+Graph line width can now show known family, language or variety counts. The
+visible fixed scale `1 + 0.8 × log₂(1 + count)` has no upper saturation cap.
+Tooltips and keyboard/mouse selection show exact counts; URL state retains the
+metric. Dashed zero classified support differs from absent evidence. Layout
+distances are exploratory. These counts are not coverage-adjusted probabilities;
+the observed focal-edge table keeps its separate comparable-variety denominator.
+The graph’s nodes, actual edges and original analytical snapshot remain unchanged.

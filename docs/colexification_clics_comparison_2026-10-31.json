@@ -1,0 +1,3106 @@
+{
+  "schema": 1,
+  "arca_build_id": "b198f6cb17cb9817b91686cc",
+  "arca_manifest_sha256": "7865a46422efbf0a1430894ae415e44a77fbdafaaa64d8d46504f987d6da2306",
+  "inputs": {
+    "src/arcaverborum/data/concepts.csv": "412382793b1ed9d003ac00c80b695a2b0a155b9bc74448e01261c731e1382a2d",
+    "raw/glottolog/languages.csv": "1a50a393bc81568b656f9522be18aa4f80f38e94309ba6c863d583234adfbb89"
+  },
+  "code_sha256": "e642b19c2cea5a08843318739d84a61a8769158db519adcd33a3db7551f5e85c",
+  "references": {
+    "schema": 1,
+    "license": "CC-BY-4.0",
+    "sources": [
+      {
+        "version": "clics3",
+        "ref": "v1.1",
+        "commit": "97832b565174641b00b155bebe824212954d2d94",
+        "url": "https://raw.githubusercontent.com/clics/clics3/97832b565174641b00b155bebe824212954d2d94/clics3-network.gml.zip",
+        "path": "clics3-clics3-network.gml.zip",
+        "bytes": 12181049,
+        "sha256": "c4b2069b65a06ada8513ee107e398ca41d0f56ba00fa77919755e80a236ccf7d"
+      },
+      {
+        "version": "clics3",
+        "ref": "v1.1",
+        "commit": "97832b565174641b00b155bebe824212954d2d94",
+        "url": "https://raw.githubusercontent.com/clics/clics3/97832b565174641b00b155bebe824212954d2d94/README.md",
+        "path": "clics3-README.md",
+        "bytes": 6959,
+        "sha256": "03e5900cbc1bfce29df1318fbf480978787888ab7e2937cefef0c74b97fced59"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/colexifications.csv.zip",
+        "path": "clics4-colexifications.csv.zip",
+        "bytes": 4098203,
+        "sha256": "93d45851afb8cca84e52b912f1015098be6f8bb841b981d2599418cbc83afeea"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/concepts.csv.zip",
+        "path": "clics4-concepts.csv.zip",
+        "bytes": 10508192,
+        "sha256": "6d34a0bb000c765cff69503b89c81b56e19887f249bd1193b7b5fd5333d10ed7"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/languages.csv",
+        "path": "clics4-languages.csv",
+        "bytes": 371180,
+        "sha256": "762f91d186c4c2f221f0f622e3fcdf0eab061dee8b19c510746c08d394d2a08f"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/contributions.csv",
+        "path": "clics4-contributions.csv",
+        "bytes": 38663,
+        "sha256": "58f3e6e15726e1f35cc6ff4bcfe87b25bae935502609793d69b70075ce62287d"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/lexibank_clics4.py",
+        "path": "clics4-lexibank_clics4.py",
+        "bytes": 34149,
+        "sha256": "f9e0329f33b36dc407e67ac09eea8c5e638d77233dd6e859e45b6f474d040b33"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/StructureDataset-metadata.json",
+        "path": "clics4-StructureDataset-metadata.json",
+        "bytes": 18774,
+        "sha256": "19906583678cc6edabbf9533ff19557e25be5ba5f6c37a7f5e5c05c4dee20e65"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/README.md",
+        "path": "clics4-README.md",
+        "bytes": 7596,
+        "sha256": "2ad5d8c5fe8c5fe72834f481b91b34cb17f9fcca0e5e2bb03e62bd882ea06a41"
+      },
+      {
+        "version": "clics4",
+        "ref": "v1.0",
+        "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+        "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/forms.csv.zip",
+        "path": "clics4-forms.csv.zip",
+        "bytes": 37173817,
+        "sha256": "2a39e8aa2225ae8b802928ca51b4a8ff4d58036ae4aae76bc40d0abecb81a987"
+      }
+    ]
+  },
+  "excluded_ambiguous_crosswalk": {},
+  "arca_unique_concepticon_ids": 3789,
+  "clics4_forms": 1449893,
+  "clics4_derived_forms": 108491,
+  "clics4_witness_classification": {
+    "direct_form_pairs": 122908,
+    "derived_or_shared_native_form_pairs": 76275,
+    "same_native_form_pairs": 53737
+  },
+  "comparisons": {
+    "clics3": {
+      "reference_concepts": 2919,
+      "common_concepts": 2888,
+      "full_reference_edges": 4228,
+      "arca_edges_in_reference_universe": 43364,
+      "reference_edges_outside_common_universe": 40,
+      "arca_edges_outside_common_universe": 1492,
+      "three_family_overlap": {
+        "arca": 3361,
+        "reference": 4188,
+        "shared": 2702,
+        "arca_only": 659,
+        "reference_only": 1486,
+        "jaccard": 0.557458221580359
+      },
+      "shared_edge_family_count_spearman": 0.7940253725810303,
+      "censoring": "Published CLICS3 graph contains only edges with at least three families; unlisted edges below threshold are unknown."
+    },
+    "clics4": {
+      "reference_concepts": 1730,
+      "common_concepts": 1727,
+      "full_reference_edges": 51562,
+      "arca_edges_in_reference_universe": 35339,
+      "reference_edges_outside_common_universe": 31,
+      "arca_edges_outside_common_universe": 9517,
+      "three_family_overlap": {
+        "arca": 2930,
+        "reference": 3986,
+        "shared": 2628,
+        "arca_only": 302,
+        "reference_only": 1358,
+        "jaccard": 0.6128731343283582
+      },
+      "shared_edge_family_count_spearman": 0.7786175060633664,
+      "all_support_overlap": {
+        "arca": 35339,
+        "reference": 51531,
+        "shared": 29350,
+        "arca_only": 5989,
+        "reference_only": 22181,
+        "jaccard": 0.5102573018080667
+      },
+      "concepts_with_expansion_metadata": 131
+    }
+  },
+  "matched_clics4": {
+    "shared_current_glottolog_languages": 1903,
+    "note": "Language units use the same current Glottolog collapse; source questionnaires and readings are still different.",
+    "pair_language_all": {
+      "arca": 77661,
+      "reference": 150780,
+      "shared": 66842,
+      "arca_only": 10819,
+      "reference_only": 83938,
+      "jaccard": 0.4136287972079035
+    },
+    "pair_language_direct_readings": {
+      "arca": 77661,
+      "reference": 105626,
+      "shared": 66725,
+      "arca_only": 10936,
+      "reference_only": 38901,
+      "jaccard": 0.5724421338000377
+    },
+    "edges_all": {
+      "arca": 31547,
+      "reference": 50807,
+      "shared": 28521,
+      "arca_only": 3026,
+      "reference_only": 22286,
+      "jaccard": 0.5298051381123103
+    },
+    "edges_direct_readings": {
+      "arca": 31547,
+      "reference": 45281,
+      "shared": 28469,
+      "arca_only": 3078,
+      "reference_only": 16812,
+      "jaccard": 0.5887011724808205
+    },
+    "direct_rule": "Both CLICS4 forms have empty ConceptInSource and distinct Local_ID; expanded readings are excluded, not declared invalid.",
+    "reference_direct_only_status_in_arca": {
+      "other_sampled_no_shared_form": 12759,
+      "other_unknown": 26142
+    },
+    "arca_only_status_in_reference_direct": {
+      "other_sampled_no_shared_form": 3061,
+      "other_unknown": 7875
+    }
+  },
+  "source_namespace_overlap": {
+    "shared": [
+      "aaleykusunda",
+      "abrahammonpa",
+      "abvdphilippines",
+      "allenbai",
+      "backstromnorthernpakistan",
+      "baf2",
+      "bantubvd",
+      "barlowkilliantomoip",
+      "barlowlote",
+      "beidasinitic",
+      "berrywestpapuan",
+      "blumpanotacana",
+      "blustaustronesian",
+      "bodtkhobwa",
+      "bowernpny",
+      "cals",
+      "castrosui",
+      "castroyi",
+      "castrozhuang",
+      "chacolanguages",
+      "chaconbaniwa",
+      "chenhmongmien",
+      "chindialectsurvey",
+      "clarkkimmun",
+      "dhakalsouthwesttibetic",
+      "dunnielex",
+      "gerarditupi",
+      "gravinachadic",
+      "halenepal",
+      "hantganbangime",
+      "hattorijaponic",
+      "heathdogon",
+      "hubercolumbian",
+      "huntergatherer",
+      "idssegmented",
+      "ivanisuansu",
+      "johanssonsoundsymbolic",
+      "kesslersignificance",
+      "kochtukanoan",
+      "kraftchadic",
+      "lairgyalrong",
+      "lamanisoic",
+      "leeainu",
+      "leecaijia",
+      "leejaponic",
+      "leekoreanic",
+      "lindseyende",
+      "lionnetyotonahua",
+      "liunewari",
+      "liusinitic",
+      "luangthongkumkaren",
+      "mannburmish",
+      "marrisonnaga",
+      "mitterhoferbena",
+      "mixtecansubgrouping",
+      "naganorgyalrongic",
+      "nagarajakhasian",
+      "northeuralex",
+      "northperulex",
+      "oskolskayatungusic",
+      "othanieljen",
+      "papuanvoices",
+      "polyglottaafricana",
+      "robbeetstriangulation",
+      "robinsonap",
+      "sagartst",
+      "savelyevturkic",
+      "sawkatokaleya",
+      "servamalagasy",
+      "sidwellbahnaric",
+      "sohartmannchin",
+      "spagnolmaltese",
+      "suntb",
+      "tls",
+      "tolmiebritishcolumbia",
+      "transnewguineaorg",
+      "tryonsolomon",
+      "tuled",
+      "vanuatuvoices",
+      "visserkalamang",
+      "walworthpolynesian",
+      "wangbai",
+      "wold",
+      "yanglalo",
+      "yangyi",
+      "zgraggenmadang",
+      "zhaobai",
+      "zhoubizic"
+    ],
+    "reference_only": [
+      "abvdoceanic",
+      "keypano",
+      "listsamplesize",
+      "ndanda",
+      "rutulbasiclexicon",
+      "seifartecheverriboran",
+      "yuchinese"
+    ],
+    "arca_only": [
+      "amazonianvoices",
+      "bdpa",
+      "beidazihui",
+      "bejaoriginal",
+      "birchallchapacuran",
+      "bodtbangru",
+      "bremerberta",
+      "carvalhopurus",
+      "cayugaoriginal",
+      "chaconnorthwestarawakan",
+      "chakalioriginal",
+      "constenlachibchan",
+      "crossandean",
+      "dagaareoriginal",
+      "davletshinaztecan",
+      "deepadungpalaung",
+      "diacl",
+      "dictchintang",
+      "dictdidxazageneral",
+      "dictdiidxaza",
+      "dictiquito",
+      "dictkalamang",
+      "dictmedialengua",
+      "dictnen",
+      "dictpalula",
+      "dictsanzhi",
+      "dictteanu",
+      "dictteop",
+      "dicttseltal",
+      "dictwersing",
+      "dravlex",
+      "dunnaslian",
+      "duonglachi",
+      "felekesemitic",
+      "fweoriginal",
+      "galuciotupi",
+      "gaotb",
+      "gerardije2025",
+      "grollemundbantu",
+      "gyelioriginal",
+      "hdioriginal",
+      "hgnphonemic",
+      "hgnphonemicdepth",
+      "houchinese",
+      "hsiuhmongmien",
+      "iecor",
+      "joophonosemantic",
+      "kahd",
+      "khalidasur",
+      "kitchensemitic",
+      "kleinewillinghoeferbikwinjen",
+      "kogansemitic",
+      "kullillioriginal",
+      "lexirumahoriginal",
+      "lieberherrkhobwa",
+      "lsi",
+      "lundgrenomagoa",
+      "mattercariban",
+      "mcelhanonhuon",
+      "mixezoqueanvoices",
+      "oliveiraprotopanoan",
+      "pachechibchan",
+      "panobodyparts",
+      "peirosaustroasiatic",
+      "peirosst",
+      "pharaocoracholaztecan",
+      "ratcliffearabic",
+      "reflexoriginal",
+      "reflexrpilots",
+      "rvidinfinitives",
+      "saenkoromance",
+      "sidaamaoriginal",
+      "sidwellvietic",
+      "simsrma",
+      "starostinhmongmien",
+      "starostinkaren",
+      "streitberggothic",
+      "tryoncad",
+      "tryonvanuatu",
+      "tuatschinoriginal",
+      "uralex",
+      "utoaztecan",
+      "walkerarawakan",
+      "wanghmongmien",
+      "westafricanoriginal",
+      "wheelerutoaztecan",
+      "wichmannmixezoquean",
+      "wiktionary",
+      "yakkhaoriginal",
+      "yauyosoriginal",
+      "zhangrgyalrong",
+      "zhivlovobugrian"
+    ],
+    "note": "Exact namespace match only; versions and selected members may still differ. Shared sources are not independent confirmation."
+  },
+  "diagnostics": [
+    {
+      "concepticon_ids": [
+        "1204",
+        "763"
+      ],
+      "arca_ids": [
+        "agr-bark",
+        "bod-skin"
+      ],
+      "labels": [
+        "bark",
+        "skin"
+      ],
+      "arca_families": 67,
+      "reference_families": 62,
+      "arca_inferred_varieties": 29,
+      "reference_current_language_units_all": 164,
+      "reference_current_language_units_direct": 164,
+      "shared_sample": {
+        "arca_comparable": 941,
+        "reference_direct_comparable": 961,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 135,
+          "other_sampled_no_shared_form": 10,
+          "other_unknown": 18
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 135,
+          "other_sampled_no_shared_form": 14,
+          "other_unknown": 14
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "transnewguineaorg": 44,
+        "idssegmented": 26,
+        "tls": 27,
+        "tryonsolomon": 25,
+        "huntergatherer": 25,
+        "johanssonsoundsymbolic": 19,
+        "tryoncad": 18,
+        "grollemundbantu": 12,
+        "walkerarawakan": 8,
+        "peirosaustroasiatic": 8,
+        "cals": 1,
+        "iecor": 8,
+        "hattorijaponic": 8,
+        "peirosst": 6,
+        "kahd": 6,
+        "wold": 5,
+        "utoaztecan": 4,
+        "pachechibchan": 4,
+        "hubercolumbian": 4,
+        "chacolanguages": 4,
+        "blumpanotacana": 4,
+        "wichmannmixezoquean": 3,
+        "robbeetstriangulation": 3,
+        "northeuralex": 2,
+        "nagarajakhasian": 2,
+        "dravlex": 2,
+        "castrozhuang": 1,
+        "wheelerutoaztecan": 1,
+        "oskolskayatungusic": 1,
+        "marrisonnaga": 1,
+        "lundgrenomagoa": 1,
+        "lairgyalrong": 1,
+        "dictteanu": 1,
+        "davletshinaztecan": 1,
+        "chaconbaniwa": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "6-skin-1",
+              "variety_id": "6",
+              "expanded": 0,
+              "local_id": "wold-Hawaiian-4-12-1",
+              "source": "wold",
+              "form": "`ili",
+              "segments": "i l i"
+            },
+            {
+              "id": "6-bark-1",
+              "variety_id": "6",
+              "expanded": 0,
+              "local_id": "wold-Hawaiian-8-75-1",
+              "source": "wold",
+              "form": "`ili",
+              "segments": "i l i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1211",
+        "169"
+      ],
+      "arca_ids": [
+        "kin-he",
+        "kin-it"
+      ],
+      "labels": [
+        "he",
+        "it"
+      ],
+      "arca_families": 11,
+      "reference_families": 225,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 658,
+      "reference_current_language_units_direct": 33,
+      "shared_sample": {
+        "arca_comparable": 24,
+        "reference_direct_comparable": 72,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 16,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 16,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 17
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "wold": 9,
+        "hubercolumbian": 7
+      },
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "1-he-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-93-1",
+              "source": "wold",
+              "form": "het",
+              "segments": "\u0259 t"
+            },
+            {
+              "id": "1-it-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-93-1",
+              "source": "wold",
+              "form": "het",
+              "segments": "\u0259 t"
+            }
+          ]
+        },
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "5-he-2",
+              "variety_id": "5",
+              "expanded": 0,
+              "local_id": "wold-MandarinChinese-2-931-1",
+              "source": "wold",
+              "form": "ta1",
+              "segments": "t\u02b0 a \u2075\u2075"
+            },
+            {
+              "id": "5-it-2",
+              "variety_id": "5",
+              "expanded": 0,
+              "local_id": "wold-MandarinChinese-2-933-1",
+              "source": "wold",
+              "form": "ta1",
+              "segments": "t\u02b0 a \u2075\u2075"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1211",
+        "1834"
+      ],
+      "arca_ids": [
+        "kin-he",
+        "kin-she"
+      ],
+      "labels": [
+        "he",
+        "she"
+      ],
+      "arca_families": 15,
+      "reference_families": 226,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 1295,
+      "reference_current_language_units_direct": 48,
+      "shared_sample": {
+        "arca_comparable": 45,
+        "reference_direct_comparable": 108,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 25,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 25,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 23
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "backstromnorthernpakistan": 9,
+        "wold": 11,
+        "wiktionary": 5,
+        "hubercolumbian": 8,
+        "abrahammonpa": 2,
+        "dhakalsouthwesttibetic": 2,
+        "naganorgyalrongic": 1,
+        "kogansemitic": 1
+      },
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "1-he-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-93-1",
+              "source": "wold",
+              "form": "het",
+              "segments": "\u0259 t"
+            },
+            {
+              "id": "1-she-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-93-1",
+              "source": "wold",
+              "form": "het",
+              "segments": "\u0259 t"
+            }
+          ]
+        },
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "5-he-2",
+              "variety_id": "5",
+              "expanded": 0,
+              "local_id": "wold-MandarinChinese-2-931-1",
+              "source": "wold",
+              "form": "ta1",
+              "segments": "t\u02b0 a \u2075\u2075"
+            },
+            {
+              "id": "5-she-2",
+              "variety_id": "5",
+              "expanded": 0,
+              "local_id": "wold-MandarinChinese-2-932-1",
+              "source": "wold",
+              "form": "ta1",
+              "segments": "t\u02b0 a \u2075\u2075"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1235",
+        "1336"
+      ],
+      "arca_ids": [
+        "cog-who",
+        "foo-eat"
+      ],
+      "labels": [
+        "who",
+        "eat"
+      ],
+      "arca_families": 3,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 1469,
+        "reference_direct_comparable": 1568,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "lsi": 2,
+        "pachechibchan": 1
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "1258",
+        "72"
+      ],
+      "arca_ids": [
+        "bod-fingernail",
+        "ani-claw"
+      ],
+      "labels": [
+        "fingernail",
+        "claw"
+      ],
+      "arca_families": 46,
+      "reference_families": 65,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 360,
+      "reference_current_language_units_direct": 190,
+      "shared_sample": {
+        "arca_comparable": 347,
+        "reference_direct_comparable": 416,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 137,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 17
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 137,
+          "other_sampled_no_shared_form": 6,
+          "other_unknown": 46
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 82,
+        "tryoncad": 35,
+        "robbeetstriangulation": 20,
+        "savelyevturkic": 18,
+        "oskolskayatungusic": 10,
+        "northeuralex": 14,
+        "wold": 13,
+        "gravinachadic": 10,
+        "suntb": 3,
+        "chacolanguages": 2,
+        "blumpanotacana": 2,
+        "wiktionary": 1,
+        "transnewguineaorg": 1,
+        "oliveiraprotopanoan": 1,
+        "naganorgyalrongic": 1,
+        "lundgrenomagoa": 1,
+        "castroyi": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "4-fingernail-1",
+              "variety_id": "4",
+              "expanded": 0,
+              "local_id": "wold-Japanese-4-344-1",
+              "source": "wold",
+              "form": "tsume",
+              "segments": "ts u m e"
+            },
+            {
+              "id": "4-claw-1",
+              "variety_id": "4",
+              "expanded": 0,
+              "local_id": "wold-Japanese-4-345-1",
+              "source": "wold",
+              "form": "tsume",
+              "segments": "ts u m e"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "259-fingernail-2",
+              "variety_id": "259",
+              "expanded": 1,
+              "local_id": "northeuralex-fin-32_nail-1",
+              "source": "northeuralex",
+              "form": "k\u028fnsi",
+              "segments": "k \u028f n s i"
+            },
+            {
+              "id": "259-claw-1",
+              "variety_id": "259",
+              "expanded": 0,
+              "local_id": "northeuralex-fin-126_claw-1",
+              "source": "northeuralex",
+              "form": "k\u028fnsi",
+              "segments": "k \u028f n s i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1277",
+        "1673"
+      ],
+      "arca_ids": [
+        "bod-hand",
+        "bod-arm"
+      ],
+      "labels": [
+        "hand",
+        "arm"
+      ],
+      "arca_families": 39,
+      "reference_families": 53,
+      "arca_inferred_varieties": 328,
+      "reference_current_language_units_all": 374,
+      "reference_current_language_units_direct": 170,
+      "shared_sample": {
+        "arca_comparable": 545,
+        "reference_direct_comparable": 661,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 107,
+          "other_sampled_no_shared_form": 4,
+          "other_unknown": 27
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 107,
+          "other_sampled_no_shared_form": 4,
+          "other_unknown": 59
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 64,
+        "tryoncad": 41,
+        "transnewguineaorg": 14,
+        "northeuralex": 15,
+        "wold": 11,
+        "marrisonnaga": 9,
+        "sawkatokaleya": 5,
+        "gravinachadic": 5,
+        "utoaztecan": 5,
+        "tolmiebritishcolumbia": 2,
+        "leeainu": 1,
+        "hattorijaponic": 3,
+        "wiktionary": 2,
+        "othanieljen": 2,
+        "hubercolumbian": 2,
+        "visserkalamang": 1,
+        "tuled": 1,
+        "polyglottaafricana": 1,
+        "chacolanguages": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "3-arm-1",
+              "variety_id": "3",
+              "expanded": 0,
+              "local_id": "wold-Vietnamese-4-31-1",
+              "source": "wold",
+              "form": "tay",
+              "segments": "t ai\u032f \u00b3\u00b3"
+            },
+            {
+              "id": "3-hand-1",
+              "variety_id": "3",
+              "expanded": 0,
+              "local_id": "wold-Vietnamese-4-33-1",
+              "source": "wold",
+              "form": "tay",
+              "segments": "t ai\u032f \u00b3\u00b3"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "393-hand-1",
+              "variety_id": "393",
+              "expanded": 1,
+              "local_id": "yanglalo-Yijiacun-248_handarm-1",
+              "source": "yanglalo",
+              "form": "la\u0320\u00b2\u00b9p\u02b0e\u00b3\u00b3po\u0294\u00b2\u00b9",
+              "segments": "l a\u0320 \u00b2\u00b9 + p\u02b0 e \u00b3\u00b3 + p o \u0294 \u00b2\u00b9"
+            },
+            {
+              "id": "393-arm-1",
+              "variety_id": "393",
+              "expanded": 1,
+              "local_id": "yanglalo-Yijiacun-248_handarm-1",
+              "source": "yanglalo",
+              "form": "la\u0320\u00b2\u00b9p\u02b0e\u00b3\u00b3po\u0294\u00b2\u00b9",
+              "segments": "l a\u0320 \u00b2\u00b9 + p\u02b0 e \u00b3\u00b3 + p o \u0294 \u00b2\u00b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1297",
+        "1301"
+      ],
+      "arca_ids": [
+        "bod-leg",
+        "bod-foot"
+      ],
+      "labels": [
+        "leg",
+        "foot"
+      ],
+      "arca_families": 44,
+      "reference_families": 100,
+      "arca_inferred_varieties": 837,
+      "reference_current_language_units_all": 940,
+      "reference_current_language_units_direct": 219,
+      "shared_sample": {
+        "arca_comparable": 787,
+        "reference_direct_comparable": 869,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 172,
+          "other_sampled_no_shared_form": 10,
+          "other_unknown": 31
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 172,
+          "other_sampled_no_shared_form": 10,
+          "other_unknown": 37
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "iecor": 63,
+        "tryoncad": 55,
+        "idssegmented": 47,
+        "uralex": 25,
+        "transnewguineaorg": 20,
+        "marrisonnaga": 21,
+        "northeuralex": 13,
+        "bowernpny": 13,
+        "polyglottaafricana": 11,
+        "crossandean": 12,
+        "wold": 11,
+        "hattorijaponic": 7,
+        "gravinachadic": 5,
+        "nagarajakhasian": 5,
+        "sawkatokaleya": 3,
+        "othanieljen": 4,
+        "leeainu": 1,
+        "hubercolumbian": 3,
+        "wiktionary": 2,
+        "sohartmannchin": 2,
+        "pachechibchan": 2,
+        "zhaobai": 1,
+        "yanglalo": 1,
+        "visserkalamang": 1,
+        "tuled": 1,
+        "tolmiebritishcolumbia": 1,
+        "suntb": 1,
+        "panobodyparts": 1,
+        "naganorgyalrongic": 1,
+        "gerarditupi": 1,
+        "dunnielex": 1,
+        "chaconbaniwa": 1,
+        "blumpanotacana": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "2-leg-1",
+              "variety_id": "2",
+              "expanded": 0,
+              "local_id": "wold-Romanian-4-35-1",
+              "source": "wold",
+              "form": "picior",
+              "segments": "p i t\u0283 i o r"
+            },
+            {
+              "id": "2-foot-2",
+              "variety_id": "2",
+              "expanded": 0,
+              "local_id": "wold-Romanian-4-37-2",
+              "source": "wold",
+              "form": "picior",
+              "segments": "p i t\u0283 i o r"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "393-leg-1",
+              "variety_id": "393",
+              "expanded": 1,
+              "local_id": "yanglalo-Yijiacun-261_footleg-1",
+              "source": "yanglalo",
+              "form": "b\u0268i\u2075\u00b3po\u00b2\u00b9",
+              "segments": "b \u0268i \u2075\u00b3 + p o \u00b2\u00b9"
+            },
+            {
+              "id": "393-foot-1",
+              "variety_id": "393",
+              "expanded": 1,
+              "local_id": "yanglalo-Yijiacun-261_footleg-1",
+              "source": "yanglalo",
+              "form": "b\u0268i\u2075\u00b3po\u00b2\u00b9",
+              "segments": "b \u0268i \u2075\u00b3 + p o \u00b2\u00b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1297",
+        "72"
+      ],
+      "arca_ids": [
+        "bod-leg",
+        "ani-claw"
+      ],
+      "labels": [
+        "leg",
+        "claw"
+      ],
+      "arca_families": 5,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 388,
+        "reference_direct_comparable": 407,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 1
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "transnewguineaorg": 4,
+        "tryoncad": 1
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "1313",
+        "1370"
+      ],
+      "arca_ids": [
+        "phy-moon",
+        "tim-month"
+      ],
+      "labels": [
+        "moon",
+        "month"
+      ],
+      "arca_families": 49,
+      "reference_families": 60,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 284,
+      "reference_current_language_units_direct": 284,
+      "shared_sample": {
+        "arca_comparable": 351,
+        "reference_direct_comparable": 450,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 203,
+          "other_sampled_no_shared_form": 1,
+          "other_unknown": 36
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 203,
+          "other_sampled_no_shared_form": 1,
+          "other_unknown": 79
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 106,
+        "tryoncad": 64,
+        "savelyevturkic": 27,
+        "robbeetstriangulation": 23,
+        "northeuralex": 19,
+        "gravinachadic": 16,
+        "oskolskayatungusic": 14,
+        "abrahammonpa": 9,
+        "wold": 12,
+        "sawkatokaleya": 8,
+        "chenhmongmien": 9,
+        "suntb": 7,
+        "kahd": 7,
+        "lamanisoic": 4,
+        "dhakalsouthwesttibetic": 3,
+        "wiktionary": 2,
+        "visserkalamang": 1,
+        "mitterhoferbena": 1,
+        "lundgrenomagoa": 1,
+        "lindseyende": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "2-moon-1",
+              "variety_id": "2",
+              "expanded": 0,
+              "local_id": "wold-Romanian-1-53-1",
+              "source": "wold",
+              "form": "lun\u0103",
+              "segments": "l u n \u0259"
+            },
+            {
+              "id": "2-month-1",
+              "variety_id": "2",
+              "expanded": 0,
+              "local_id": "wold-Romanian-14-71-1",
+              "source": "wold",
+              "form": "lun\u0103",
+              "segments": "l u n \u0259"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1336",
+        "1447"
+      ],
+      "arca_ids": [
+        "foo-eat",
+        "pss-give"
+      ],
+      "labels": [
+        "eat",
+        "give"
+      ],
+      "arca_families": 3,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 1302,
+        "reference_direct_comparable": 1361,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 1,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "transnewguineaorg": 1,
+        "johanssonsoundsymbolic": 1,
+        "chindialectsurvey": 1
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "1400",
+        "2249"
+      ],
+      "arca_ids": [
+        "spa-thin-slim",
+        "spa-thin-of-shape-of-object"
+      ],
+      "labels": [
+        "thin",
+        "thin"
+      ],
+      "arca_families": 4,
+      "reference_families": 207,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 1032,
+      "reference_current_language_units_direct": 9,
+      "shared_sample": {
+        "arca_comparable": 40,
+        "reference_direct_comparable": 108,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 3,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 3,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 6
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "northeuralex": 4
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "272-thinofshapeofobject-1",
+              "variety_id": "272",
+              "expanded": 0,
+              "local_id": "northeuralex-ben-489_thin-1",
+              "source": "northeuralex",
+              "form": "kri\u0283",
+              "segments": "k r i \u0283"
+            },
+            {
+              "id": "272-thinslim-1",
+              "variety_id": "272",
+              "expanded": 0,
+              "local_id": "northeuralex-ben-541_slim-1",
+              "source": "northeuralex",
+              "form": "kri\u0283",
+              "segments": "k r i \u0283"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "360-thinofshapeofobject-1",
+              "variety_id": "360",
+              "expanded": 1,
+              "local_id": "naganorgyalrongic-MaerkangCaodengrGyalrong-352_thin-1",
+              "source": "naganorgyalrongic",
+              "form": "k\u01dd\u1d3a22_\u0272am55_k\u2018\u025433",
+              "segments": "k \u0259 n \u00b2\u00b2 + \u0272 a m \u2075\u2075 + k\u02bc \u0254 \u00b3\u00b3"
+            },
+            {
+              "id": "360-thinslim-1",
+              "variety_id": "360",
+              "expanded": 1,
+              "local_id": "naganorgyalrongic-MaerkangCaodengrGyalrong-352_thin-1",
+              "source": "naganorgyalrongic",
+              "form": "k\u01dd\u1d3a22_\u0272am55_k\u2018\u025433",
+              "segments": "k \u0259 n \u00b2\u00b2 + \u0272 a m \u2075\u2075 + k\u02bc \u0254 \u00b3\u00b3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "141",
+        "1428"
+      ],
+      "arca_ids": [
+        "phy-burn",
+        "phy-burning"
+      ],
+      "labels": [
+        "burn",
+        "burning"
+      ],
+      "arca_families": 17,
+      "reference_families": 224,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 1445,
+      "reference_current_language_units_direct": 73,
+      "shared_sample": {
+        "arca_comparable": 267,
+        "reference_direct_comparable": 341,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 46,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 3
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 46,
+          "other_sampled_no_shared_form": 4,
+          "other_unknown": 23
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 32,
+        "tuled": 7,
+        "tryoncad": 6,
+        "northeuralex": 6,
+        "blumpanotacana": 3,
+        "wold": 2,
+        "lindseyende": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "2-burnsomething-1",
+              "variety_id": "2",
+              "expanded": 0,
+              "local_id": "wold-Romanian-1-851-1",
+              "source": "wold",
+              "form": "a_arde",
+              "segments": "a + a r d e"
+            },
+            {
+              "id": "2-burning-1",
+              "variety_id": "2",
+              "expanded": 0,
+              "local_id": "wold-Romanian-1-852-1",
+              "source": "wold",
+              "form": "a_arde",
+              "segments": "a + a r d e"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "384-burnsomething-1",
+              "variety_id": "384",
+              "expanded": 1,
+              "local_id": "marrisonnaga-Mikir-110_toburn-1",
+              "source": "marrisonnaga",
+              "form": "mekecho",
+              "segments": "m e k e t\u0255\u02b0 o"
+            },
+            {
+              "id": "384-burning-1",
+              "variety_id": "384",
+              "expanded": 1,
+              "local_id": "marrisonnaga-Mikir-110_toburn-1",
+              "source": "marrisonnaga",
+              "form": "mekecho",
+              "segments": "m e k e t\u0255\u02b0 o"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1415",
+        "1513"
+      ],
+      "arca_ids": [
+        "cog-think-reflect",
+        "cog-think-believe"
+      ],
+      "labels": [
+        "think",
+        "think"
+      ],
+      "arca_families": 16,
+      "reference_families": 216,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 1220,
+      "reference_current_language_units_direct": 61,
+      "shared_sample": {
+        "arca_comparable": 164,
+        "reference_direct_comparable": 188,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 41,
+          "other_sampled_no_shared_form": 3,
+          "other_unknown": 8
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 41,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 20
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 48,
+        "tryoncad": 17,
+        "wold": 6,
+        "lindseyende": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "19-thinkreflect-1",
+              "variety_id": "19",
+              "expanded": 0,
+              "local_id": "idssegmented-ingush-17-130-1",
+              "source": "idssegmented",
+              "form": "iyla_e",
+              "segments": "i j l a + e"
+            },
+            {
+              "id": "19-thinkbelieve-1",
+              "variety_id": "19",
+              "expanded": 0,
+              "local_id": "idssegmented-ingush-17-140-1",
+              "source": "idssegmented",
+              "form": "iyla_e",
+              "segments": "i j l a + e"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "360-thinkreflect-1",
+              "variety_id": "360",
+              "expanded": 1,
+              "local_id": "naganorgyalrongic-MaerkangCaodengrGyalrong-664_thinkv-1",
+              "source": "naganorgyalrongic",
+              "form": "ka33_s\u026833_si44",
+              "segments": "k a \u00b3\u00b3 + s \u0268 \u00b3\u00b3 + s i \u2074\u2074"
+            },
+            {
+              "id": "360-thinkbelieve-1",
+              "variety_id": "360",
+              "expanded": 1,
+              "local_id": "naganorgyalrongic-MaerkangCaodengrGyalrong-664_thinkv-1",
+              "source": "naganorgyalrongic",
+              "form": "ka33_s\u026833_si44",
+              "segments": "k a \u00b3\u00b3 + s \u0268 \u00b3\u00b3 + s i \u2074\u2074"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1425",
+        "837"
+      ],
+      "arca_ids": [
+        "sns-green",
+        "sns-blue"
+      ],
+      "labels": [
+        "green",
+        "blue"
+      ],
+      "arca_families": 52,
+      "reference_families": 70,
+      "arca_inferred_varieties": 34,
+      "reference_current_language_units_all": 174,
+      "reference_current_language_units_direct": 150,
+      "shared_sample": {
+        "arca_comparable": 478,
+        "reference_direct_comparable": 630,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 99,
+          "other_sampled_no_shared_form": 3,
+          "other_unknown": 10
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 99,
+          "other_sampled_no_shared_form": 3,
+          "other_unknown": 48
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 30,
+        "johanssonsoundsymbolic": 19,
+        "tryoncad": 18,
+        "chenhmongmien": 11,
+        "tuled": 7,
+        "northeuralex": 6,
+        "tryonsolomon": 6,
+        "robinsonap": 6,
+        "castrozhuang": 2,
+        "wold": 4,
+        "yangyi": 3,
+        "suntb": 3,
+        "kraftchadic": 3,
+        "halenepal": 3,
+        "blumpanotacana": 3,
+        "transnewguineaorg": 2,
+        "visserkalamang": 1,
+        "kochtukanoan": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "28-blue-1",
+              "variety_id": "28",
+              "expanded": 0,
+              "local_id": "idssegmented-chechenakkindialect-15-670-1",
+              "source": "idssegmented",
+              "form": "sin",
+              "segments": "s i n"
+            },
+            {
+              "id": "28-green-1",
+              "variety_id": "28",
+              "expanded": 0,
+              "local_id": "idssegmented-chechenakkindialect-15-680-1",
+              "source": "idssegmented",
+              "form": "sin",
+              "segments": "s i n"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "756-blue-1",
+              "variety_id": "756",
+              "expanded": 1,
+              "local_id": "barlowlote-lote1237-1-543_bluegreen-1",
+              "source": "barlowlote",
+              "form": "x\u025brx\u025bra",
+              "segments": "x \u025b r x \u025b r a"
+            },
+            {
+              "id": "756-green-2",
+              "variety_id": "756",
+              "expanded": 1,
+              "local_id": "barlowlote-lote1237-1-543_bluegreen-1",
+              "source": "barlowlote",
+              "form": "x\u025brx\u025bra",
+              "segments": "x \u025b r x \u025b r a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1444",
+        "1445"
+      ],
+      "arca_ids": [
+        "mot-turn-around",
+        "mot-turn-something"
+      ],
+      "labels": [
+        "turn around",
+        "turn"
+      ],
+      "arca_families": 7,
+      "reference_families": 216,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 935,
+      "reference_current_language_units_direct": 42,
+      "shared_sample": {
+        "arca_comparable": 135,
+        "reference_direct_comparable": 288,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 19,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 19,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 23
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 17,
+        "visserkalamang": 1,
+        "lindseyende": 1,
+        "chenhmongmien": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "11-turnsomething-2",
+              "variety_id": "11",
+              "expanded": 0,
+              "local_id": "idssegmented-moderngreek-10-120-2",
+              "source": "idssegmented",
+              "form": "\u0263i'rizo",
+              "segments": "\u0263 i r i z o"
+            },
+            {
+              "id": "11-turnaround-1",
+              "variety_id": "11",
+              "expanded": 0,
+              "local_id": "idssegmented-moderngreek-10-130-1",
+              "source": "idssegmented",
+              "form": "\u0263i'rizo",
+              "segments": "\u0263 i r i z o"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "480-turnsomething-2",
+              "variety_id": "480",
+              "expanded": 1,
+              "local_id": "tls-Shubi-938_turnupsidedownturnover-1",
+              "source": "tls",
+              "form": "guhindura",
+              "segments": "g u h i \u207fd u r a"
+            },
+            {
+              "id": "480-turnaround-2",
+              "variety_id": "480",
+              "expanded": 1,
+              "local_id": "tls-Shubi-938_turnupsidedownturnover-1",
+              "source": "tls",
+              "form": "guhindura",
+              "segments": "g u h i \u207fd u r a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1489",
+        "960"
+      ],
+      "arca_ids": [
+        "phy-cloud",
+        "phy-wind"
+      ],
+      "labels": [
+        "cloud",
+        "wind"
+      ],
+      "arca_families": 5,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 1600,
+        "reference_direct_comparable": 1653,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 2,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "transnewguineaorg": 2,
+        "vanuatuvoices": 1,
+        "idssegmented": 1,
+        "dunnaslian": 1
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "1586",
+        "1587"
+      ],
+      "arca_ids": [
+        "sns-smell-perceive",
+        "sns-smell-stink"
+      ],
+      "labels": [
+        "smell",
+        "smell"
+      ],
+      "arca_families": 15,
+      "reference_families": 200,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 516,
+      "reference_current_language_units_direct": 39,
+      "shared_sample": {
+        "arca_comparable": 180,
+        "reference_direct_comparable": 206,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 21,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 9
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 21,
+          "other_sampled_no_shared_form": 2,
+          "other_unknown": 16
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 15,
+        "tryoncad": 11,
+        "wold": 4,
+        "visserkalamang": 1,
+        "blumpanotacana": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "1-smellstink-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-15-21-1",
+              "source": "wold",
+              "form": "ruiken",
+              "segments": "r \u0153y k \u0259"
+            },
+            {
+              "id": "1-smellperceive-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-15-22-1",
+              "source": "wold",
+              "form": "ruiken",
+              "segments": "r \u0153y k \u0259"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "384-smellperceive-1",
+              "variety_id": "384",
+              "expanded": 1,
+              "local_id": "marrisonnaga-Mikir-688_tosmell-1",
+              "source": "marrisonnaga",
+              "form": "ing\u25e6nim",
+              "segments": "i \u014b + n i m"
+            },
+            {
+              "id": "384-smellstink-1",
+              "variety_id": "384",
+              "expanded": 1,
+              "local_id": "marrisonnaga-Mikir-688_tosmell-1",
+              "source": "marrisonnaga",
+              "form": "ing\u25e6nim",
+              "segments": "i \u014b + n i m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1640",
+        "2414"
+      ],
+      "arca_ids": [
+        "kin-sibling",
+        "kin-older-brother-of-man"
+      ],
+      "labels": [
+        "sibling",
+        "older brother"
+      ],
+      "arca_families": 0,
+      "reference_families": 23,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 65,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "1-olderbrotherofman-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-44-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            },
+            {
+              "id": "1-sibling-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-2-456-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1640",
+        "2415"
+      ],
+      "arca_ids": [
+        "kin-sibling",
+        "kin-older-brother-of-woman"
+      ],
+      "labels": [
+        "sibling",
+        "older brother"
+      ],
+      "arca_families": 0,
+      "reference_families": 23,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 65,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "1-olderbrotherofwoman-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-44-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            },
+            {
+              "id": "1-sibling-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-2-456-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1640",
+        "2416"
+      ],
+      "arca_ids": [
+        "kin-sibling",
+        "kin-younger-brother-of-man"
+      ],
+      "labels": [
+        "sibling",
+        "younger brother"
+      ],
+      "arca_families": 0,
+      "reference_families": 23,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 65,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "1-youngerbrotherofman-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-44-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            },
+            {
+              "id": "1-sibling-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-2-456-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1640",
+        "2417"
+      ],
+      "arca_ids": [
+        "kin-sibling",
+        "kin-younger-brother-of-woman"
+      ],
+      "labels": [
+        "sibling",
+        "younger brother"
+      ],
+      "arca_families": 0,
+      "reference_families": 24,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 66,
+      "reference_current_language_units_direct": 1,
+      "shared_sample": {
+        "arca_comparable": 13,
+        "reference_direct_comparable": 15,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 1,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "1-youngerbrotherofwoman-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-44-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            },
+            {
+              "id": "1-sibling-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-2-456-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            }
+          ]
+        },
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "428-youngerbrotherofwoman-1",
+              "variety_id": "428",
+              "expanded": 0,
+              "local_id": "yangyi-WDutian-352_youngerbrotherofafemale-1",
+              "source": "yangyi",
+              "form": "n\u025b\u00b2\u2074zo\u00b2\u00b9",
+              "segments": "n \u025b \u00b2\u2074 + z o \u00b2\u00b9"
+            },
+            {
+              "id": "428-sibling-1",
+              "variety_id": "428",
+              "expanded": 0,
+              "local_id": "yangyi-WDutian-355_siblings-1",
+              "source": "yangyi",
+              "form": "n\u025b\u00b2\u2074zo\u00b2\u00b9",
+              "segments": "n \u025b \u00b2\u2074 + z o \u00b2\u00b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "169",
+        "1834"
+      ],
+      "arca_ids": [
+        "kin-it",
+        "kin-she"
+      ],
+      "labels": [
+        "it",
+        "she"
+      ],
+      "arca_families": 11,
+      "reference_families": 225,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 656,
+      "reference_current_language_units_direct": 29,
+      "shared_sample": {
+        "arca_comparable": 24,
+        "reference_direct_comparable": 72,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 15,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 15,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 14
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "wold": 9,
+        "hubercolumbian": 6
+      },
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "1-she-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-93-1",
+              "source": "wold",
+              "form": "het",
+              "segments": "\u0259 t"
+            },
+            {
+              "id": "1-it-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-93-1",
+              "source": "wold",
+              "form": "het",
+              "segments": "\u0259 t"
+            }
+          ]
+        },
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "5-she-2",
+              "variety_id": "5",
+              "expanded": 0,
+              "local_id": "wold-MandarinChinese-2-932-1",
+              "source": "wold",
+              "form": "ta1",
+              "segments": "t\u02b0 a \u2075\u2075"
+            },
+            {
+              "id": "5-it-2",
+              "variety_id": "5",
+              "expanded": 0,
+              "local_id": "wold-MandarinChinese-2-933-1",
+              "source": "wold",
+              "form": "ta1",
+              "segments": "t\u02b0 a \u2075\u2075"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1803",
+        "906"
+      ],
+      "arca_ids": [
+        "phy-wood",
+        "agr-tree"
+      ],
+      "labels": [
+        "wood",
+        "tree"
+      ],
+      "arca_families": 48,
+      "reference_families": 58,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 241,
+      "reference_current_language_units_direct": 241,
+      "shared_sample": {
+        "arca_comparable": 622,
+        "reference_direct_comparable": 717,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 177,
+          "other_sampled_no_shared_form": 7,
+          "other_unknown": 33
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 177,
+          "other_sampled_no_shared_form": 6,
+          "other_unknown": 57
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 59,
+        "tryoncad": 50,
+        "savelyevturkic": 21,
+        "robbeetstriangulation": 18,
+        "oskolskayatungusic": 16,
+        "northeuralex": 18,
+        "chenhmongmien": 13,
+        "wold": 13,
+        "bowernpny": 11,
+        "kraftchadic": 9,
+        "sagartst": 8,
+        "marrisonnaga": 6,
+        "gravinachadic": 5,
+        "kahd": 4,
+        "tolmiebritishcolumbia": 2,
+        "yangyi": 2,
+        "suntb": 2,
+        "blumpanotacana": 2,
+        "wiktionary": 1,
+        "visserkalamang": 1,
+        "lindseyende": 1,
+        "leecaijia": 1,
+        "gerardije2025": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "4-wood-1",
+              "variety_id": "4",
+              "expanded": 0,
+              "local_id": "wold-Japanese-1-43-1",
+              "source": "wold",
+              "form": "ki",
+              "segments": "k i"
+            },
+            {
+              "id": "4-tree-1",
+              "variety_id": "4",
+              "expanded": 0,
+              "local_id": "wold-Japanese-8-6-1",
+              "source": "wold",
+              "form": "ki",
+              "segments": "k i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "1920",
+        "2374"
+      ],
+      "arca_ids": [
+        "bod-dream-something",
+        "bod-dream"
+      ],
+      "labels": [
+        "dream",
+        "dream"
+      ],
+      "arca_families": 0,
+      "reference_families": 44,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 248,
+      "reference_current_language_units_direct": 11,
+      "shared_sample": {
+        "arca_comparable": 10,
+        "reference_direct_comparable": 111,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 11
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "499-dreamsomething-1",
+              "variety_id": "499",
+              "expanded": 0,
+              "local_id": "tls-Nyiramba-215_dream-1",
+              "source": "tls",
+              "form": "ndooti",
+              "segments": "\u207fd o\u02d0 t i"
+            },
+            {
+              "id": "499-dream-1",
+              "variety_id": "499",
+              "expanded": 0,
+              "local_id": "tls-Nyiramba-328_dream-1",
+              "source": "tls",
+              "form": "ndooti",
+              "segments": "\u207fd o\u02d0 t i"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "939-dream-1",
+              "variety_id": "939",
+              "expanded": 1,
+              "local_id": "bowernpny-Jaru-100_dream-1",
+              "source": "bowernpny",
+              "form": "guni",
+              "segments": "g u n i"
+            },
+            {
+              "id": "939-dreamsomething-1",
+              "variety_id": "939",
+              "expanded": 1,
+              "local_id": "bowernpny-Jaru-100_dream-1",
+              "source": "bowernpny",
+              "form": "guni",
+              "segments": "g u n i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2009",
+        "948"
+      ],
+      "arca_ids": [
+        "ani-dog",
+        "phy-water"
+      ],
+      "labels": [
+        "dog",
+        "water"
+      ],
+      "arca_families": 3,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 1844,
+        "reference_direct_comparable": 1865,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "transnewguineaorg": 3,
+        "starostinhmongmien": 2
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "2092",
+        "2400"
+      ],
+      "arca_ids": [
+        "pss-his-or-her",
+        "pss-their"
+      ],
+      "labels": [
+        "his or her",
+        "their"
+      ],
+      "arca_families": 4,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 62,
+        "reference_direct_comparable": 62,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 1
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "lsi": 11
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "2106",
+        "2261"
+      ],
+      "arca_ids": [
+        "kin-male-person",
+        "kin-male-of-person"
+      ],
+      "labels": [
+        "male person",
+        "male"
+      ],
+      "arca_families": 0,
+      "reference_families": 52,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 134,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "4-maleperson-1",
+              "variety_id": "4",
+              "expanded": 1,
+              "local_id": "wold-Japanese-2-21-1",
+              "source": "wold",
+              "form": "otoko",
+              "segments": "o t o k o"
+            },
+            {
+              "id": "4-maleofperson-1",
+              "variety_id": "4",
+              "expanded": 0,
+              "local_id": "wold-Japanese-2-23-1",
+              "source": "wold",
+              "form": "otoko",
+              "segments": "o t o k o"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2106",
+        "2263"
+      ],
+      "arca_ids": [
+        "kin-male-person",
+        "ani-male"
+      ],
+      "labels": [
+        "male person",
+        "male"
+      ],
+      "arca_families": 0,
+      "reference_families": 37,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 84,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "24-maleperson-1",
+              "variety_id": "24",
+              "expanded": 1,
+              "local_id": "idssegmented-shan-2-210-1",
+              "source": "idssegmented",
+              "form": "phu:.\u2074_ca:j.\u00b9",
+              "segments": "p\u02b0 u\u02d0 \u2074 + c a\u02d0 j \u00b9"
+            },
+            {
+              "id": "24-maleofanimal-1",
+              "variety_id": "24",
+              "expanded": 0,
+              "local_id": "idssegmented-shan-3-120-1",
+              "source": "idssegmented",
+              "form": "phu:.\u2074_ca:j.\u00b9",
+              "segments": "p\u02b0 u\u02d0 \u2074 + c a\u02d0 j \u00b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2149",
+        "3151"
+      ],
+      "arca_ids": [
+        "act-chop-into-pieces",
+        "act-cut-with-axe"
+      ],
+      "labels": [
+        "chop",
+        "cut"
+      ],
+      "arca_families": 0,
+      "reference_families": 70,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 370,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 4,
+        "reference_direct_comparable": 4,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "1-cutwithaxe-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-9-222-1",
+              "source": "wold",
+              "form": "hakken",
+              "segments": "h \u0251 k \u0259"
+            },
+            {
+              "id": "1-chopintopieces-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-9-222-1",
+              "source": "wold",
+              "form": "hakken",
+              "segments": "h \u0251 k \u0259"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2259",
+        "634"
+      ],
+      "arca_ids": [
+        "bod-flesh",
+        "foo-meat"
+      ],
+      "labels": [
+        "flesh",
+        "meat"
+      ],
+      "arca_families": 35,
+      "reference_families": 105,
+      "arca_inferred_varieties": 1109,
+      "reference_current_language_units_all": 1111,
+      "reference_current_language_units_direct": 213,
+      "shared_sample": {
+        "arca_comparable": 277,
+        "reference_direct_comparable": 336,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 145,
+          "other_sampled_no_shared_form": 1,
+          "other_unknown": 19
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 145,
+          "other_sampled_no_shared_form": 3,
+          "other_unknown": 65
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "idssegmented": 78,
+        "tryoncad": 32,
+        "kraftchadic": 29,
+        "marrisonnaga": 21,
+        "wold": 14,
+        "gravinachadic": 11,
+        "wiktionary": 3,
+        "transnewguineaorg": 2,
+        "visserkalamang": 1
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "1-flesh-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-4-13-1",
+              "source": "wold",
+              "form": "vlees",
+              "segments": "v l e\u02d0 s"
+            },
+            {
+              "id": "1-meat-1",
+              "variety_id": "1",
+              "expanded": 0,
+              "local_id": "wold-Dutch-5-61-1",
+              "source": "wold",
+              "form": "vlees",
+              "segments": "v l e\u02d0 s"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "393-flesh-1",
+              "variety_id": "393",
+              "expanded": 1,
+              "local_id": "yanglalo-Yijiacun-430_meat-1",
+              "source": "yanglalo",
+              "form": "xo\u00b2\u00b9",
+              "segments": "x o \u00b2\u00b9"
+            },
+            {
+              "id": "393-meat-1",
+              "variety_id": "393",
+              "expanded": 1,
+              "local_id": "yanglalo-Yijiacun-430_meat-1",
+              "source": "yanglalo",
+              "form": "xo\u00b2\u00b9",
+              "segments": "x o \u00b2\u00b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2414",
+        "2415"
+      ],
+      "arca_ids": [
+        "kin-older-brother-of-man",
+        "kin-older-brother-of-woman"
+      ],
+      "labels": [
+        "older brother",
+        "older brother"
+      ],
+      "arca_families": 110,
+      "reference_families": 204,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 1122,
+      "reference_current_language_units_direct": 201,
+      "shared_sample": {
+        "arca_comparable": 146,
+        "reference_direct_comparable": 265,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 108,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 108,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 93
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "johanssonsoundsymbolic": 107,
+        "chindialectsurvey": 11,
+        "tuled": 3
+      },
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "1-olderbrotherofman-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-44-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            },
+            {
+              "id": "1-olderbrotherofwoman-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-2-44-1",
+              "source": "wold",
+              "form": "broer",
+              "segments": "b r u\u02d0 r"
+            }
+          ]
+        },
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "759-olderbrotherofwoman-1",
+              "variety_id": "759",
+              "expanded": 0,
+              "local_id": "chindialectsurvey-NggaKantthayung-A-204_elderbrotheroffemale-1",
+              "source": "chindialectsurvey",
+              "form": "p\u02b0\u0263e",
+              "segments": "p\u02b0 \u0263 e"
+            },
+            {
+              "id": "759-olderbrotherofman-1",
+              "variety_id": "759",
+              "expanded": 0,
+              "local_id": "chindialectsurvey-NggaKantthayung-A-205_elderbrotherofmale-1",
+              "source": "chindialectsurvey",
+              "form": "p\u02b0\u0263e",
+              "segments": "p\u02b0 \u0263 e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2485",
+        "602"
+      ],
+      "arca_ids": [
+        "spa-hide-oneself",
+        "spa-hide-conceal"
+      ],
+      "labels": [
+        "hide",
+        "hide"
+      ],
+      "arca_families": 9,
+      "reference_families": 215,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 1023,
+      "reference_current_language_units_direct": 58,
+      "shared_sample": {
+        "arca_comparable": 45,
+        "reference_direct_comparable": 117,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 18,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 18,
+          "other_sampled_no_shared_form": 1,
+          "other_unknown": 39
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "northeuralex": 15,
+        "yangyi": 3
+      },
+      "reference_examples": [
+        {
+          "category": "direct",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "259-hideoneself-1",
+              "variety_id": "259",
+              "expanded": 0,
+              "local_id": "northeuralex-fin-880_hide-1",
+              "source": "northeuralex",
+              "form": "k\u00e6tk\u025b\u00e6",
+              "segments": "k \u00e6 t k \u025b \u00e6"
+            },
+            {
+              "id": "259-hideconceal-1",
+              "variety_id": "259",
+              "expanded": 0,
+              "local_id": "northeuralex-fin-941_conceal-1",
+              "source": "northeuralex",
+              "form": "k\u00e6tk\u025b\u00e6",
+              "segments": "k \u00e6 t k \u025b \u00e6"
+            }
+          ]
+        },
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "360-hideconceal-1",
+              "variety_id": "360",
+              "expanded": 1,
+              "local_id": "naganorgyalrongic-MaerkangCaodengrGyalrong-568_hideitv-1",
+              "source": "naganorgyalrongic",
+              "form": "k\u01dd22_na44_ts\u026f54",
+              "segments": "k \u0259 \u00b2\u00b2 + n a \u2074\u2074 + ts \u026f \u2075\u2074"
+            },
+            {
+              "id": "360-hideoneself-1",
+              "variety_id": "360",
+              "expanded": 1,
+              "local_id": "naganorgyalrongic-MaerkangCaodengrGyalrong-568_hideitv-1",
+              "source": "naganorgyalrongic",
+              "form": "k\u01dd22_na44_ts\u026f54",
+              "segments": "k \u0259 \u00b2\u00b2 + n a \u2074\u2074 + ts \u026f \u2075\u2074"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2558",
+        "3020"
+      ],
+      "arca_ids": [
+        "act-break-cleave",
+        "act-break-breaking"
+      ],
+      "labels": [
+        "break",
+        "break"
+      ],
+      "arca_families": 0,
+      "reference_families": 88,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 663,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": true,
+          "forms": [
+            {
+              "id": "1-breakcleave-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-9-26-1",
+              "source": "wold",
+              "form": "breken",
+              "segments": "b r e\u02d0 k \u0259"
+            },
+            {
+              "id": "1-breakbreaking-1",
+              "variety_id": "1",
+              "expanded": 1,
+              "local_id": "wold-Dutch-9-26-1",
+              "source": "wold",
+              "form": "breken",
+              "segments": "b r e\u02d0 k \u0259"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "2662",
+        "72"
+      ],
+      "arca_ids": [
+        "bod-toenail",
+        "ani-claw"
+      ],
+      "labels": [
+        "toenail",
+        "claw"
+      ],
+      "arca_families": 0,
+      "reference_families": 33,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 222,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 0,
+        "reference_direct_comparable": 0,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {},
+      "reference_examples": [
+        {
+          "category": "expanded",
+          "same_native_form": false,
+          "forms": [
+            {
+              "id": "259-toenail-1",
+              "variety_id": "259",
+              "expanded": 1,
+              "local_id": "northeuralex-fin-32_nail-1",
+              "source": "northeuralex",
+              "form": "k\u028fnsi",
+              "segments": "k \u028f n s i"
+            },
+            {
+              "id": "259-claw-1",
+              "variety_id": "259",
+              "expanded": 0,
+              "local_id": "northeuralex-fin-126_claw-1",
+              "source": "northeuralex",
+              "form": "k\u028fnsi",
+              "segments": "k \u028f n s i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "concepticon_ids": [
+        "639",
+        "670"
+      ],
+      "arca_ids": [
+        "phy-mountain",
+        "agr-root"
+      ],
+      "labels": [
+        "mountain",
+        "root"
+      ],
+      "arca_families": 2,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 850,
+        "reference_direct_comparable": 960,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "transnewguineaorg": 3
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "639",
+        "763"
+      ],
+      "arca_ids": [
+        "phy-mountain",
+        "bod-skin"
+      ],
+      "labels": [
+        "mountain",
+        "skin"
+      ],
+      "arca_families": 3,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 866,
+        "reference_direct_comparable": 1000,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "tryonvanuatu": 1,
+        "starostinkaren": 1,
+        "kogansemitic": 1
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "732",
+        "817"
+      ],
+      "arca_ids": [
+        "pss-your-singular",
+        "kin-they"
+      ],
+      "labels": [
+        "your",
+        "they"
+      ],
+      "arca_families": 3,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 160,
+        "reference_direct_comparable": 163,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "lsi": 5
+      },
+      "reference_examples": []
+    },
+    {
+      "concepticon_ids": [
+        "762",
+        "863"
+      ],
+      "arca_ids": [
+        "spa-outside",
+        "spa-edge"
+      ],
+      "labels": [
+        "outside",
+        "edge"
+      ],
+      "arca_families": 2,
+      "reference_families": 0,
+      "arca_inferred_varieties": 0,
+      "reference_current_language_units_all": 0,
+      "reference_current_language_units_direct": 0,
+      "shared_sample": {
+        "arca_comparable": 182,
+        "reference_direct_comparable": 222,
+        "arca_positive_vs_reference_direct": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 1
+        },
+        "reference_direct_positive_vs_arca": {
+          "confirmed": 0,
+          "other_sampled_no_shared_form": 0,
+          "other_unknown": 0
+        }
+      },
+      "arca_supporting_sources_varieties": {
+        "tryoncad": 1,
+        "suntb": 1
+      },
+      "reference_examples": []
+    }
+  ],
+  "csv_sha256": "24762336e706b8659a52467ea2649ef53c0c22747688e361d2cb908d906dda2b",
+  "peak_rss_mib": 216.45703125,
+  "address_space_limit_mib": 256
+}

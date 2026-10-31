@@ -1,6 +1,7 @@
 # Documentation map
 
 Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).
+* [CLICS comparison](CLICS_COMPARISON.md): frozen reference networks, source/missingness differences and visible support weights.
 
 WordNet sense alignment: [versions, typed links, review queue and reproduction](WORDNET.md).
 

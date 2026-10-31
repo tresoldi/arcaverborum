@@ -1,10 +1,10 @@
 'use strict';
-const VERSION = 'research-20261031-colex-subgraphs';
+const VERSION = 'research-20261031-colex-strength';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
 const defaults = {view:'varieties',collection:'all',vocab:'all',family:'',area:'',tier:'',status:'',minCore:0,
-  colexLayer:'segmented',colexKind:'observed',colexStrong:false,colexPage:0,
+  colexLayer:'segmented',colexKind:'observed',colexStrong:false,colexPage:0,colexWeight:'families',
   search:'',sort:'supported_core',dir:-1,page:0,columns:[],selected:[],concepts:[],id:'',cid:'',cog:'',term:'',mode:'literal',fold:false};
 let state = {...defaults}, catalog, manifest, worker, serial=0, pending=new Map(), loaded=[], epoch=0, map;
 const languages = new Map(), concepts = new Map(), sources = new Map();

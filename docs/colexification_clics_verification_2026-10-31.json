@@ -1,0 +1,17 @@
+{
+  "comparison_code_and_input_hashes": "passed",
+  "pair_csv_rows": 112171,
+  "threshold_counts_independently_recounted": true,
+  "all_sparse_discordance_statuses_accounted_for": true,
+  "clics4_normalized_family_weights_verified": 51562,
+  "clics4_normalized_family_weight_formula": "10 * (f if f > 1 else 0)^2 / min(node_a_family_count,node_b_family_count)^2",
+  "peak_rss_mib": 216.45703125,
+  "address_space_limit_mib": 256,
+  "tests_passed": 550,
+  "lexical_and_wordnet_and_analytical_edges_changed": false,
+  "local_browser_suites": [
+    "colexification strength/interactions",
+    "WordNet",
+    "general research"
+  ]
+}

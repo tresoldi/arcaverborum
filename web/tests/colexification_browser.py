@@ -1,5 +1,6 @@
 """Bounded concept neighborhoods, evidence integrity, source distinctions and missingness."""
 import json
+import math
 import sys
 from urllib.parse import quote
 
@@ -26,7 +27,29 @@ with sync_playwright() as p:
     assert '0 families loaded' in page.locator('#loaded').inner_text()
     assert panel.locator('svg circle').count() <= 31
     assert panel.locator('svg .colex-neighbor-edge').count() > 0
-    assert panel.locator('svg line').count() <= 465
+    assert panel.locator('line[data-a]').count() <= 465
+    lines = panel.locator('line[data-a]')
+    family_widths = lines.evaluate_all(
+        "els=>els.map(e=>[Number(e.dataset.strength),Number(e.getAttribute('stroke-width'))])")
+    for count, width in family_widths:
+        assert abs(width - (1 + .8 * math.log2(1 + count))) < 1e-10
+    assert 'same scale across concepts' in panel.locator('.colex-strength-legend').inner_text()
+    edge = lines.first
+    edge.focus()
+    page.keyboard.press('Enter')
+    assert 'known families' in panel.locator('#colex-graph-selection').inner_text()
+    panel.locator('#colex-weight').select_option('varieties')
+    ready()
+    assert 'accepted varieties' in panel.locator('.colex-strength-legend').inner_text()
+    assert lines.evaluate_all("els=>els.some(e=>Number(e.dataset.strength)>1)")
+    page.reload(wait_until='networkidle')
+    ready()
+    assert panel.locator('#colex-weight').input_value() == 'varieties'
+    panel.locator('#colex-weight').select_option('languages')
+    ready()
+    assert 'known language units' in panel.locator('.colex-strength-legend').inner_text()
+    panel.locator('#colex-weight').select_option('families')
+    ready()
     viewport = panel.locator('.colex-viewport')
     panel.locator('#colex-zoom-in').click()
     assert 'scale(1.25)' in viewport.get_attribute('transform')

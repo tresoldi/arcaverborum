@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "license": "CC-BY-4.0",
+  "sources": [
+    {
+      "version": "clics3",
+      "ref": "v1.1",
+      "commit": "97832b565174641b00b155bebe824212954d2d94",
+      "url": "https://raw.githubusercontent.com/clics/clics3/97832b565174641b00b155bebe824212954d2d94/clics3-network.gml.zip",
+      "path": "clics3-clics3-network.gml.zip",
+      "bytes": 12181049,
+      "sha256": "c4b2069b65a06ada8513ee107e398ca41d0f56ba00fa77919755e80a236ccf7d"
+    },
+    {
+      "version": "clics3",
+      "ref": "v1.1",
+      "commit": "97832b565174641b00b155bebe824212954d2d94",
+      "url": "https://raw.githubusercontent.com/clics/clics3/97832b565174641b00b155bebe824212954d2d94/README.md",
+      "path": "clics3-README.md",
+      "bytes": 6959,
+      "sha256": "03e5900cbc1bfce29df1318fbf480978787888ab7e2937cefef0c74b97fced59"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/colexifications.csv.zip",
+      "path": "clics4-colexifications.csv.zip",
+      "bytes": 4098203,
+      "sha256": "93d45851afb8cca84e52b912f1015098be6f8bb841b981d2599418cbc83afeea"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/concepts.csv.zip",
+      "path": "clics4-concepts.csv.zip",
+      "bytes": 10508192,
+      "sha256": "6d34a0bb000c765cff69503b89c81b56e19887f249bd1193b7b5fd5333d10ed7"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/languages.csv",
+      "path": "clics4-languages.csv",
+      "bytes": 371180,
+      "sha256": "762f91d186c4c2f221f0f622e3fcdf0eab061dee8b19c510746c08d394d2a08f"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/contributions.csv",
+      "path": "clics4-contributions.csv",
+      "bytes": 38663,
+      "sha256": "58f3e6e15726e1f35cc6ff4bcfe87b25bae935502609793d69b70075ce62287d"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/lexibank_clics4.py",
+      "path": "clics4-lexibank_clics4.py",
+      "bytes": 34149,
+      "sha256": "f9e0329f33b36dc407e67ac09eea8c5e638d77233dd6e859e45b6f474d040b33"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/StructureDataset-metadata.json",
+      "path": "clics4-StructureDataset-metadata.json",
+      "bytes": 18774,
+      "sha256": "19906583678cc6edabbf9533ff19557e25be5ba5f6c37a7f5e5c05c4dee20e65"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/README.md",
+      "path": "clics4-README.md",
+      "bytes": 7596,
+      "sha256": "2ad5d8c5fe8c5fe72834f481b91b34cb17f9fcca0e5e2bb03e62bd882ea06a41"
+    },
+    {
+      "version": "clics4",
+      "ref": "v1.0",
+      "commit": "1ddece619d026d7fc11a4dcab3fa71ecd059efe7",
+      "url": "https://raw.githubusercontent.com/clics/clics4/1ddece619d026d7fc11a4dcab3fa71ecd059efe7/cldf/forms.csv.zip",
+      "path": "clics4-forms.csv.zip",
+      "bytes": 37173817,
+      "sha256": "2a39e8aa2225ae8b802928ca51b4a8ff4d58036ae4aae76bc40d0abecb81a987"
+    }
+  ]
+}

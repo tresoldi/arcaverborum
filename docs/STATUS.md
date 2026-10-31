@@ -1,5 +1,7 @@
 # Current project state
 
+**CLICS comparison and strength (2026-10-31):** [report](CLICS_COMPARISON.md) separates concept, source, expansion and missingness effects against pinned CLICS³/⁴. Graph widths select family/language/variety support, with visible fixed-scale legend and exact counts.550 tests; comparison216.46MiB under256MiB cap. Lexical and underlying analytical data unchanged.
+
 **Interconnected networks (2026-10-31):** concept graphs now include actual neighbor-to-neighbor edges, with force layout, zoom, pan and dragging. Bounded31 nodes/465 edges; all45,936 views verified against SQLite; export44.02MiB RSS under256MiB limit. [Verification](colexification_subgraphs_verification_2026-10-31.json). Lexical and analytical counts unchanged.
 
 **Colexification layer (2026-10-30):** [Method and operation](COLEXIFICATION.md), [full verification](colexification_verification_2026-10-30.json). All3,828 concept pages have source-scoped status and on-demand networks.44,856 observed segmented concept-pair edges; citation/reduced/inferred networks stay separate. Full2,119,754-record build peaks107.48MiB under256MiB address-space cap.540 tests and three local browser suites pass. Lexical/WordNet data and accepted counts below are unchanged. [Published](colexification_publication_2026-10-30.json): data10ac9133, CI/Pages succeed, all12,912 checked live assets match and three live browser suites pass.
