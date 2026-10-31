@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = 'research-20261030-colexification';
+const VERSION = 'research-20261031-colex-subgraphs';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();

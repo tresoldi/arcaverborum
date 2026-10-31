@@ -1,0 +1,18 @@
+{
+  "build_id": "dab8ac4d1c04b86e9aade354",
+  "parent_build_id": "b198f6cb17cb9817b91686cc",
+  "concepts": 3828,
+  "views_checked": 45936,
+  "edge_instances_checked": 330365,
+  "all_induced_edges_and_weights_match_sqlite": true,
+  "asset_hashes_checked": 3829,
+  "max_nodes": 31,
+  "max_edges": 465,
+  "nonstar_views": 6918,
+  "public_bytes": 12144478,
+  "peak_export_rss_mib": 44.015625,
+  "export_address_space_limit_mib": 256,
+  "tests_passed": 544,
+  "seconds": 2.7,
+  "lexical_and_wordnet_data_changed": false
+}

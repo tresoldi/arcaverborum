@@ -2543,6 +2543,11 @@
     "sha256": "7865a46422efbf0a1430894ae415e44a77fbdafaaa64d8d46504f987d6da2306",
     "bytes": 516243,
     "schema": 1,
-    "build_id": "b198f6cb17cb9817b91686cc"
+    "build_id": "b198f6cb17cb9817b91686cc",
+    "subgraphs": {
+      "url": "data/colexification-graphs/dab8ac4d1c04b86e9aade354/manifest.json",
+      "sha256": "6bd5b37b9f71cd7d5750296db0c1d67b2de5597e29105ffaf7ea7d21669ca8fd",
+      "bytes": 502378
+    }
   }
 }

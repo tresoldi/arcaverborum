@@ -24,7 +24,23 @@ with sync_playwright() as p:
 
     panel = concept('bod-hand')
     assert '0 families loaded' in page.locator('#loaded').inner_text()
-    assert panel.locator('svg circle').count() <= 13
+    assert panel.locator('svg circle').count() <= 31
+    assert panel.locator('svg .colex-neighbor-edge').count() > 0
+    assert panel.locator('svg line').count() <= 465
+    viewport = panel.locator('.colex-viewport')
+    panel.locator('#colex-zoom-in').click()
+    assert 'scale(1.25)' in viewport.get_attribute('transform')
+    panel.locator('#colex-reset').click()
+    assert 'scale(1)' in viewport.get_attribute('transform')
+    focus = panel.locator('svg [data-node="0"]')
+    before = focus.get_attribute('transform')
+    point = focus.locator('circle').bounding_box()
+    page.mouse.move(point['x'] + point['width'] / 2, point['y'] + point['height'] / 2)
+    page.mouse.down()
+    page.mouse.move(point['x'] + 45, point['y'] + 35, steps=5)
+    page.mouse.up()
+    assert focus.get_attribute('transform') != before
+    assert page.locator('#colex-counts').count() == 1  # dragging does not navigate
     assert 0 < panel.locator('tbody tr').count() <= 40
     assert 'lexical filters do not change' in panel.inner_text()
     panel.locator('tbody details').first.locator('summary').click()

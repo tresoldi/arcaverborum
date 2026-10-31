@@ -35,6 +35,14 @@ window.ArcaColexification=(()=>{
       }
       const nodeSpec=root.nodes[concept.concept_id];if(!nodeSpec)throw Error('Concept missing from the colexification registry.');
       const node=await checkedJSON(nodeSpec,base);if(!active())return;
+      const graphSpec=spec.subgraphs;
+      let graphNode=null;
+      if(graphSpec){
+        const graphRoot=await checkedJSON(graphSpec,location.href,MAX_ROOT);
+        if(graphRoot.parent_build_id!==root.build_id)throw Error('Local subgraph and colexification snapshots differ.');
+        graphNode=await checkedJSON(graphRoot.nodes[concept.concept_id],new URL(graphSpec.url,location.href));
+        if(!active())return;
+      }
       let layer=['segmented','written','reduced'].includes(networkState.colexLayer)?networkState.colexLayer:'segmented',
         kind=['observed','inferred'].includes(networkState.colexKind)?networkState.colexKind:'observed',
         page=Number.isInteger(networkState.colexPage)&&networkState.colexPage>=0?networkState.colexPage:0,
@@ -43,13 +51,45 @@ window.ArcaColexification=(()=>{
       const label=cid=>concepts.get(cid)?.label||cid;
       const conceptLink=cid=>`<a href="${esc(href({view:'concept',cid,page:0,columns:[]}))}">${esc(label(cid))}</a>`;
       const recordLink=(id,text)=>`<a href="${esc(href({view:'form',id,page:0,columns:[]}))}">${esc(text)}</a>`;
-      function drawGraph(edges){
-        const selected=edges.slice(0,12),count=selected.length;
-        if(!count)return '';
-        const nodes=selected.map((edge,i)=>{const angle=2*Math.PI*i/count-Math.PI/2;return {edge,x:400+270*Math.cos(angle),y:220+165*Math.sin(angle)};});
-        const lines=nodes.map(n=>`<line x1="400" y1="220" x2="${n.x}" y2="${n.y}" stroke-width="${Math.min(6,1+Math.sqrt(n.edge.families))}"/>`).join('');
-        const points=nodes.map(n=>`<a href="${esc(href({view:'concept',cid:n.edge.concept_id,page:0,columns:[]}))}"><title>${esc(label(n.edge.concept_id))}: ${n.edge.families} known family lineages, ${n.edge.varieties} varieties</title><circle cx="${n.x}" cy="${n.y}" r="9"/><text x="${n.x}" y="${n.y+23}" text-anchor="middle">${esc([...label(n.edge.concept_id)].slice(0,25).join(''))}</text></a>`).join('');
-        return `<figure class="colex-graph"><svg viewBox="0 0 800 440" role="img" aria-label="Colexification network for ${esc(concept.label)}"><g class="colex-edges">${lines}</g><g class="colex-nodes">${points}<circle class="colex-center" cx="400" cy="220" r="13"/><text x="400" y="250" text-anchor="middle">${esc(concept.label)}</text></g></svg><figcaption>${count} connections from this page. Line width reflects known family support. The table provides complete labels and evidence.</figcaption></figure>`;
+      function drawGraph(graph){
+        if(!graph||graph.nodes.length<2)return '';
+        const nodes=graph.nodes.map((cid,i)=>({cid,x:i?400+190*Math.cos(i*2*Math.PI/(graph.nodes.length-1)):400,y:i?240+160*Math.sin(i*2*Math.PI/(graph.nodes.length-1)):240}));
+        // Fixed-size deterministic relaxation; no animation loop or unbounded force graph.
+        for(let tick=0;tick<220;tick++){
+          const forces=nodes.map(n=>({x:(400-n.x)*.008,y:(240-n.y)*.008}));
+          for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){
+            const dx=nodes[i].x-nodes[j].x,dy=nodes[i].y-nodes[j].y,d2=Math.max(64,dx*dx+dy*dy),f=180/d2;
+            forces[i].x+=dx*f;forces[i].y+=dy*f;forces[j].x-=dx*f;forces[j].y-=dy*f;
+            if(Math.abs(dx)<95&&Math.abs(dy)<27){const separate=(dy||((i+j)%2?1:-1))>0?1:-1,push=(27-Math.abs(dy))*.25;forces[i].y+=separate*push;forces[j].y-=separate*push;}
+          }
+          for(const [a,b,families] of graph.edges){
+            const dx=nodes[b].x-nodes[a].x,dy=nodes[b].y-nodes[a].y,d=Math.max(1,Math.hypot(dx,dy)),f=(d-85)*.018*(1+Math.log1p(families)*.25);
+            forces[a].x+=dx/d*f;forces[a].y+=dy/d*f;forces[b].x-=dx/d*f;forces[b].y-=dy/d*f;
+          }
+          const cooling=1-tick/260;
+          nodes.forEach((n,i)=>{n.x+=Math.max(-10,Math.min(10,forces[i].x))*cooling;n.y+=Math.max(-10,Math.min(10,forces[i].y))*cooling;});
+        }
+        const xs=nodes.map(n=>n.x),ys=nodes.map(n=>n.y),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys),scale=Math.min(580/Math.max(1,right-left),350/Math.max(1,bottom-top));
+        nodes.forEach(n=>{n.x=400+(n.x-(left+right)/2)*scale;n.y=230+(n.y-(top+bottom)/2)*scale;});
+        const lines=graph.edges.map(([a,b,families,languages,varieties])=>`<line data-a="${a}" data-b="${b}" class="${a===0||b===0?'colex-focal-edge':'colex-neighbor-edge'}" x1="${nodes[a].x}" y1="${nodes[a].y}" x2="${nodes[b].x}" y2="${nodes[b].y}" stroke-width="${Math.min(5,.8+Math.sqrt(families)*.35)}"><title>${esc(label(nodes[a].cid))} ↔ ${esc(label(nodes[b].cid))}: ${families} known families; ${languages} languages; ${varieties} varieties</title></line>`).join('');
+        const points=nodes.map((n,i)=>`<a data-node="${i}" href="${esc(href({view:'concept',cid:n.cid,colexPage:0,page:0,columns:[]}))}" transform="translate(${n.x} ${n.y})"><title>${esc(label(n.cid))}${i===0?' (selected concept)':''}. Drag to move; click to open concept.</title><circle class="${i===0?'colex-center':''}" r="${i===0?13:8}"/><text y="${i===0?29:23}" text-anchor="middle">${esc([...label(n.cid)].slice(0,28).join(''))}</text></a>`).join('');
+        return `<figure class="colex-graph"><div class="controls"><button id="colex-zoom-in" aria-label="Zoom network in">+</button><button id="colex-zoom-out" aria-label="Zoom network out">−</button><button id="colex-reset">Reset network view</button></div><svg viewBox="0 0 800 480" role="img" aria-label="Interconnected colexification subgraph for ${esc(concept.label)}"><g class="colex-viewport"><g class="colex-edges">${lines}</g><g class="colex-nodes">${points}</g></g></svg><figcaption>${nodes.length} concepts and ${graph.edges.length} ${kind==='observed'?'recorded':'inferred'} links, including ${graph.neighbor_links} links among neighbors. Up to ${graph.max_neighbors} strongest direct neighbors, with every eligible edge among the selected concepts; this bounded subgraph is independent of the table page. Line width reflects known-family support. Drag nodes or the background; use buttons or the wheel to zoom. Click a concept to explore its network.</figcaption><p id="colex-graph-selection" aria-live="polite"></p></figure>`;
+      }
+      function wireGraph(graph){
+        const svg=host.querySelector('.colex-graph svg');if(!svg||!graph)return;
+        const viewport=svg.querySelector('.colex-viewport'),points=[...svg.querySelectorAll('[data-node]')],lines=[...svg.querySelectorAll('line[data-a]')];
+        const positions=points.map(p=>{const m=p.transform.baseVal.consolidate().matrix;return {x:m.e,y:m.f};});
+        let zoom=1,panX=0,panY=0,drag=null,moved=false;
+        const transform=()=>viewport.setAttribute('transform',`translate(${panX} ${panY}) scale(${zoom})`);
+        const coords=e=>new DOMPoint(e.clientX,e.clientY).matrixTransform(svg.getScreenCTM().inverse());
+        const applyZoom=f=>{const next=Math.max(.5,Math.min(3,zoom*f)),ratio=next/zoom;panX=400-(400-panX)*ratio;panY=240-(240-panY)*ratio;zoom=next;transform();};
+        host.querySelector('#colex-zoom-in').onclick=()=>applyZoom(1.25);host.querySelector('#colex-zoom-out').onclick=()=>applyZoom(.8);
+        host.querySelector('#colex-reset').onclick=()=>{zoom=1;panX=panY=0;transform();};
+        svg.addEventListener('wheel',e=>{e.preventDefault();applyZoom(e.deltaY<0?1.1:1/1.1);},{passive:false});
+        svg.addEventListener('pointerdown',e=>{if(e.button!==0)return;const p=coords(e),anchor=e.target.closest('[data-node]');moved=false;drag={node:anchor?Number(anchor.dataset.node):null,x:p.x,y:p.y,panX,panY};(anchor||e.target.closest('line[data-a]')||svg).setPointerCapture(e.pointerId);});
+        svg.addEventListener('pointermove',e=>{if(!drag)return;const p=coords(e);if(Math.hypot(p.x-drag.x,p.y-drag.y)>3)moved=true;if(drag.node===null){panX=drag.panX+p.x-drag.x;panY=drag.panY+p.y-drag.y;transform();return;}const n=positions[drag.node];n.x=(p.x-panX)/zoom;n.y=(p.y-panY)/zoom;points[drag.node].setAttribute('transform',`translate(${n.x} ${n.y})`);for(const line of lines){const a=positions[Number(line.dataset.a)],b=positions[Number(line.dataset.b)];line.setAttribute('x1',a.x);line.setAttribute('y1',a.y);line.setAttribute('x2',b.x);line.setAttribute('y2',b.y);}});
+        const end=e=>{drag=null;const holder=e.target.closest('[data-node],line[data-a]')||svg;if(holder.hasPointerCapture(e.pointerId))holder.releasePointerCapture(e.pointerId);};svg.addEventListener('pointerup',end);svg.addEventListener('pointercancel',end);
+        svg.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false;return;}const line=e.target.closest('line[data-a]');if(!line)return;const a=Number(line.dataset.a),b=Number(line.dataset.b),edge=graph.edges.find(row=>row[0]===a&&row[1]===b);host.querySelector('#colex-graph-selection').innerHTML=conceptLink(graph.nodes[a])+' ↔ '+conceptLink(graph.nodes[b])+`: ${edge[2]} known families, ${edge[3]} known language units, ${edge[4]} varieties. Open either concept to inspect its source examples.`;},true);
       }
       function example(edge){
         const e=edge.example;
@@ -88,8 +128,10 @@ window.ArcaColexification=(()=>{
         const totalPages=strong?Math.ceil(network.recurrent_neighbors/root.limits.page_edges):network.pages.length;
         const target=host.querySelector('#colex-neighbors');
         if(!edges.length){target.innerHTML='<p>No connections in this representation, evidence type and page/filter selection.</p>';return;}
-        target.innerHTML=drawGraph(edges)+`<div class="table-wrap"><table><caption>Connections, with family and comparison coverage</caption><thead><tr><th>Concept</th><th>Known families</th><th>Known language units</th><th>Varieties</th><th>Comparable varieties</th><th>Observed fraction</th><th>Evidence</th></tr></thead><tbody>${edges.map(e=>`<tr><td>${conceptLink(e.concept_id)}</td><td>${e.families}</td><td>${e.languages}</td><td>${e.varieties}</td><td>${e.comparable_varieties??'Not applicable'}</td><td>${e.observed_fraction==null?'Not applicable':(100*e.observed_fraction).toFixed(2)+'%'}</td><td>${example(e)}</td></tr>`).join('')}</tbody></table></div>
+        const graph=graphNode?.views[`${layer}:${kind}:${strong?'recurrent':'all'}`];
+        target.innerHTML=drawGraph(graph)+`<div class="table-wrap"><table><caption>Connections, with family and comparison coverage</caption><thead><tr><th>Concept</th><th>Known families</th><th>Known language units</th><th>Varieties</th><th>Comparable varieties</th><th>Observed fraction</th><th>Evidence</th></tr></thead><tbody>${edges.map(e=>`<tr><td>${conceptLink(e.concept_id)}</td><td>${e.families}</td><td>${e.languages}</td><td>${e.varieties}</td><td>${e.comparable_varieties??'Not applicable'}</td><td>${e.observed_fraction==null?'Not applicable':(100*e.observed_fraction).toFixed(2)+'%'}</td><td>${example(e)}</td></tr>`).join('')}</tbody></table></div>
           <div class="controls"><button id="colex-prev" ${page===0?'disabled':''}>Previous connections</button><span>Page ${page+1} of ${totalPages}; at most ${root.limits.page_edges} connections per download</span><button id="colex-next" ${page+1>=totalPages?'disabled':''}>Next connections</button></div>`;
+        wireGraph(graph);
         host.querySelector('#colex-prev').onclick=()=>{page--;void update().catch(fail);};host.querySelector('#colex-next').onclick=()=>{page++;void update().catch(fail);};
       }
       function fail(error){if(active())host.innerHTML='<h3>Colexification</h3><p role="alert">'+esc(error.message)+'</p>';}

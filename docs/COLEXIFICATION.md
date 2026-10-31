@@ -186,7 +186,9 @@ matrix or corpus-sized Python list.
 * Every concept has a small metadata file. Adjacency pages contain at most 40
   connections and are capped at 1 MiB; the node index is capped at 4 MiB. The
   browser enforces declared sizes and SHA-256, retains only eight cached JSON
-  assets plus the node index, and draws at most 12 neighbors at a time.
+  assets plus the node index. Graphs contain at most 31 nodes and 465 edges.
+  Each concept’s 12 views share a checksummed sidecar capped at 1 MiB; its index
+  is capped at 4 MiB.
 
 A budget is a fail-closed bound, not a promise that arbitrary input fits any
 chosen machine. Invalid input, resource exhaustion or drift must not replace
@@ -287,3 +289,34 @@ the network manifest pins the exact inputs and asset hashes.
 on https://arcaverborum.org/ match their local hashes, including all 12,496
 colexification files. Colexification, WordNet and general research browser suites
 pass on the live site. [Example: hand](https://arcaverborum.org/#concept:bod-hand).
+
+## Interconnected concept subgraphs, 2026-10-31
+
+The earlier drawing showed only focal spokes. The viewer now displays an induced
+subgraph: the focal concept’s strongest 30 direct neighbors, ranked by family,
+language and variety support, plus **all actual edges among those concepts**.
+Representation, observed/inferred status and the three-family threshold apply to
+neighbor links as well as focal links. No transitive or similarity edges are
+added. A genuinely star-shaped sample can still appear as a star. This is a
+bounded local view, not a global community assignment or an Infomap partition.
+
+A deterministic force layout supports node dragging, background panning and
+zoom. Focal links and neighbor links have different colors; widths show known
+family support. Edge tooltips and selection show endpoint names and weights.
+Concept links open their evidence and neighborhood. Table pagination does not
+change the selected graph.
+
+The normal publication pipeline exports these sidecars automatically. To refresh
+only the graph view from an existing accepted analytical database:
+
+```sh
+.venv/bin/python scripts/build_colexification_graphs.py --memory-mb 256 --publish
+```
+
+[Verification](colexification_subgraphs_verification_2026-10-31.json): 3,828
+concept files contain 45,936 bounded views; 6,918 have links among neighbors.
+HAND has 31 nodes and 178 recorded segmented links, including 148 neighbor links.
+The export peaked at 44.02 MiB RSS under a 256 MiB address-space limit. All graph
+edges and weights match the frozen SQLite network; lexical data, WordNet and
+analytical colexification counts are unchanged. 544 tests and local colexification,
+WordNet and general research browser checks pass.

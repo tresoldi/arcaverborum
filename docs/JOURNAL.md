@@ -1,5 +1,9 @@
 # Project journal and working memory
 
+## 2026-10-31 — Interconnected colexification subgraphs
+
+Replaced focal-only stars with bounded induced subgraphs containing all actual links among the strongest 30 neighbors. Force layout supports zoom, pan and node dragging; modes and family thresholds apply consistently to all links. HAND:31 nodes/178 edges/148 neighbor links. Export:3,828 concepts/45,936 views/6,918 nonstar views, max31 nodes/465 edges, peak44.02MiB RSS under256MiB AS. All exported edges/weights checked against frozen SQLite; lexical/WordNet/native analytical data unchanged. 544 tests and three browser suites pass. [Method](COLEXIFICATION.md), [verification](colexification_subgraphs_verification_2026-10-31.json). Global communities remain separate future work.
+
 ## 2026-10-30 — Source-scoped colexification pipeline and concept networks
 
 Read CLICS²/³, CLICS⁴, partial-colexification and2026 missing-data studies. Implemented stdlib/SQLite pipeline with source/member/pronunciation/basis scopes, native-ID guards, source/citation/reduced representation separation, original-notation plus accepted-reading identity guards, six guarded broad-concept inferences, dialect-collapsed language and known-family weights, source-comparable denominators and three-way pair queries. No WordNet propagation or substring morphology. Full2,119,754 accepted records yield44,856 observed segmented edges, separate44,025 citation/508 reduced edges and six inferred pairs per eligible layer. Two Mbunga/TLS ku identity groups held for source review. All3,828 concepts receive status and bounded on-demand ego networks with source examples, URL-state restoration, three-family view and checksummed downloads.
