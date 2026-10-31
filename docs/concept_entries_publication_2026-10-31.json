@@ -1,0 +1,31 @@
+{
+  "commit": "e6a96bcab96094e031b7017a5f45c3033f76fbde",
+  "canonical_url": "https://arcaverborum.org/",
+  "concept_build_id": "6ca5722a14f4e36bde5a0883",
+  "assets_verified": 4767,
+  "all_hashes_match": true,
+  "streaming": "64KiB chunks, eight workers",
+  "seconds": 76.8,
+  "ci_pages": [
+    {
+      "conclusion": "success",
+      "databaseId": 41215236558,
+      "name": "Deploy site",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41215236558"
+    },
+    {
+      "conclusion": "success",
+      "databaseId": 41215236660,
+      "name": "CI",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41215236660"
+    }
+  ],
+  "live_browser_suites": [
+    "concept entries",
+    "colexification",
+    "WordNet",
+    "general research"
+  ]
+}

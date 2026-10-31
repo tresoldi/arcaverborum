@@ -66,3 +66,5 @@ research browser suites also pass. The publication command chain was exercised
 against the cached analytical build. Lexical readings, concept assignments,
 source provenance, cognacy, WordNet and underlying colexification assets are
 unchanged.
+
+[Publication proof](concept_entries_publication_2026-10-31.json): commit `e6a96bca` is deployed; CI and Pages passed. All 4,767 checked canonical assets match, and all four live browser suites pass.
