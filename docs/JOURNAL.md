@@ -2,7 +2,7 @@
 
 ## 2026-10-31 — Interconnected colexification subgraphs
 
-Replaced focal-only stars with bounded induced subgraphs containing all actual links among the strongest 30 neighbors. Force layout supports zoom, pan and node dragging; modes and family thresholds apply consistently to all links. HAND:31 nodes/178 edges/148 neighbor links. Export:3,828 concepts/45,936 views/6,918 nonstar views, max31 nodes/465 edges, peak44.02MiB RSS under256MiB AS. All exported edges/weights checked against frozen SQLite; lexical/WordNet/native analytical data unchanged. 544 tests and three browser suites pass. [Method](COLEXIFICATION.md), [verification](colexification_subgraphs_verification_2026-10-31.json). Global communities remain separate future work.
+Replaced focal-only stars with bounded induced subgraphs containing all actual links among the strongest 30 neighbors. Force layout supports zoom, pan and node dragging; modes and family thresholds apply consistently to all links. HAND:31 nodes/178 edges/148 neighbor links. Export:3,828 concepts/45,936 views/6,918 nonstar views, max31 nodes/465 edges, peak44.02MiB RSS under256MiB AS. All exported edges/weights checked against frozen SQLite; lexical/WordNet/native analytical data unchanged. 544 tests and three browser suites pass. [Method](COLEXIFICATION.md), [verification](colexification_subgraphs_verification_2026-10-31.json). Global communities remain separate future work. [Published](colexification_subgraphs_publication_2026-10-31.json): a92a5495, CI41207126206/Pages41207126267 successful;3,834 live assets match and three live browser suites pass.
 
 ## 2026-10-30 — Source-scoped colexification pipeline and concept networks
 

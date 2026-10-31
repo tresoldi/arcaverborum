@@ -320,3 +320,5 @@ The export peaked at 44.02 MiB RSS under a 256 MiB address-space limit. All grap
 edges and weights match the frozen SQLite network; lexical data, WordNet and
 analytical colexification counts are unchanged. 544 tests and local colexification,
 WordNet and general research browser checks pass.
+
+[Subgraph publication proof](colexification_subgraphs_publication_2026-10-31.json): commit `a92a5495` deployed; CI and Pages passed. All 3,834 checked canonical assets match, and all three live browser suites pass.

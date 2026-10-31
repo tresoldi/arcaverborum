@@ -1,0 +1,16 @@
+{
+  "commit": "a92a5495cb269d8e745d1abb4bec673e094d69bc",
+  "canonical_url": "https://arcaverborum.org/",
+  "graph_build_id": "dab8ac4d1c04b86e9aade354",
+  "assets_verified": 3834,
+  "all_hashes_match": true,
+  "seconds": 60.19,
+  "ci_run": 41207126206,
+  "pages_run": 41207126267,
+  "ci_pages": "success",
+  "live_browser_suites": [
+    "colexification",
+    "WordNet",
+    "general research"
+  ]
+}
