@@ -2,6 +2,11 @@
 
 **Colexification repair and communities (2026-10-31):** [reconciled evidence](colexification_repair_verification_2026-10-31.json) has 44,421 observed segmented edges after source-specific exclusions; all lexical inputs remain unchanged. [Global exploratory communities](COLEXIFICATION_COMMUNITIES.md): 237 communities/2,974 concepts, ten seeds, Leiden/resource/area comparisons and50 family-block perturbations. Every preview edge verified; selected full partition reproduced exactly. Full core103.52MiB, community parent103.59MiB/worker92.22MiB, comparison128.81MiB, each under256MiB. [CLICS comparison](CLICS_COMPARISON.md) updated with atomic report bundles. Historical metrics below retain their original snapshot context.
 
+[Published verification](colexification_communities_publication_2026-10-31.json):
+data commit `1da9b7f61`, CI/Pages succeed; all20,129 active derived/application/method
+assets and five comparison artifacts match the canonical site. Five live browser
+suites pass;561 local tests pass with each installed UTF8PROC flag setting.
+
 **Concept entries (2026-10-31):** [automatic SQLite tables](CONCEPT_ENTRIES.md) replace the family chooser on concept pages. All families by default, normal filters/sorting/exports, bounded current-concept loading; full lexical and analytical evidence unchanged.553 tests/four browser suites pass; [full preservation check](concept_entries_verification_2026-10-31.json).
 
 **CLICS comparison and strength (2026-10-31):** [report](CLICS_COMPARISON.md) separates concept, source, expansion and missingness effects against pinned CLICS³/⁴. Graph widths select family/language/variety support, with visible fixed-scale legend and exact counts.550 tests; comparison216.46MiB under256MiB cap. Lexical and underlying analytical data unchanged.

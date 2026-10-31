@@ -999,3 +999,13 @@ complete downloads. Pinned optional research dependencies and process replacemen
 integrate the stage into the build pipeline. Local colexification/community,
 WordNet, research and concept-entry browser checks pass. Canonical deployment
 proof is recorded separately after push and Pages completion.
+
+
+Publication closure: data commit1da9b7f61 pushed; CI and Pages succeeded.
+20,129 active assets plus five comparison artifacts match canonical bytes;
+all five live browser suites pass.561 local tests pass under each installed flag
+setting, with native binary/build limitations stated in the
+[publication proof](colexification_communities_publication_2026-10-31.json).
+The closed pipeline preserves lexical, WordNet and concept-transport hashes.
+Source/semantic holds remain explicitly evidence-gated in HELD; exploratory
+memberships are not universal semantic categories.

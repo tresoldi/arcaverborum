@@ -1,0 +1,64 @@
+{
+  "base_url": "https://arcaverborum.org/",
+  "analytical_build_id": "db68b765a4a3e48d2129b656",
+  "community_spec": {
+    "url": "data/colexification-communities/2e58569c5ba7972feab60dc3/manifest.json",
+    "bytes": 519914,
+    "sha256": "452e28265bb6d8df7c905e8c983e3fda6a9131b77dc439c2e0f4ede69886964a"
+  },
+  "checked_assets": 20129,
+  "failures": [],
+  "all_match": true,
+  "data_commit": "1da9b7f617b164074ff4a9ad141ea5cb69e4409e",
+  "verified_at_utc": "2026-10-31T19:34:52.936992+00:00",
+  "workflows": [
+    {
+      "conclusion": "success",
+      "name": "Deploy site",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41234309447"
+    },
+    {
+      "conclusion": "success",
+      "name": "CI",
+      "status": "completed",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41234309337"
+    }
+  ],
+  "additional_comparison_checks": {
+    "checked_files": [
+      "colexification_clics_repaired_2026-10-31.bundle.json",
+      "colexification_clics_repaired_2026-10-31.csv",
+      "colexification_clics_repaired_2026-10-31.json",
+      "colexification_clics_repaired_2026-10-31-bundles/1f7f17854e30e45e54b21993/report.csv",
+      "colexification_clics_repaired_2026-10-31-bundles/1f7f17854e30e45e54b21993/report.json"
+    ],
+    "all_match": true
+  },
+  "total_artifacts_verified": 20134,
+  "live_browser_suites": {
+    "community": true,
+    "colex": true,
+    "research": true,
+    "concept": true,
+    "wordnet": true
+  },
+  "local_tests": {
+    "passed_per_setting": 561,
+    "installed_utf8proc_flag_settings": [
+      true,
+      false
+    ],
+    "note": "Two installed flag settings; not two separate native binary builds"
+  },
+  "measured_peak_rss_mib": {
+    "core_full": 103.52,
+    "local_subgraphs": 40.87890625,
+    "community_parent": 103.59375,
+    "community_worker": 92.21875,
+    "clics_comparison": 128.80859375,
+    "per_process_address_space_cap": 256
+  },
+  "lexical_wordnet_concept_transport_preserved": true,
+  "interpretation": "Exploratory community memberships show substantial model and sampling sensitivity; source holds remain explicit."
+}

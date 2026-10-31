@@ -174,3 +174,10 @@ not evidence that emus form a semantic field with human limbs. Homophony,
 historical transcription and original meaning attribution need dictionary review.
 The observation remains available with one-family support, and the community is
 labelled exploratory. No edge is deleted merely for disagreeing with intuition.
+
+
+[Publication proof](colexification_communities_publication_2026-10-31.json):
+data commit `1da9b7f61` is deployed, CI and Pages succeed, all20,129 checked active
+assets and five comparison artifacts match https://arcaverborum.org/, and all
+five live browser suites pass. The earlier lexical/WordNet/concept-table manifest
+fields and source hashes remain unchanged.
