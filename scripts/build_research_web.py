@@ -323,12 +323,15 @@ def main():
                         help='Build only lexical explorer assets; omit the derived network refresh')
     args = parser.parse_args()
     build(args.root, args.output)
-    if (not args.without_colexification and args.output is None
-            and (args.root / 'src/arcaverborum/data/colexification/policy.json').exists()):
-        # Replace the process so the lexical builder's large working set is
-        # released before the independently memory-capped network stage starts.
-        script = ROOT / 'scripts/build_colexification.py'
-        os.execv(sys.executable, [sys.executable, str(script), '--root', str(args.root), '--publish'])
+    if args.output is None:
+        # Release the lexical builder before bounded concept and network exports.
+        script = ROOT / 'scripts/build_concept_rows.py'
+        command = [sys.executable, str(script), '--root', str(args.root)]
+        if (not args.without_colexification
+                and (args.root / 'src/arcaverborum/data/colexification/policy.json').exists()):
+            command.append('--with-colexification')
+        os.execv(sys.executable, command)
+
 
 
 if __name__ == '__main__':

@@ -62,3 +62,5 @@ configs, guarded ledgers or current generated evidence.
 
 The held register routes to dated candidate decisions. Detailed per-form admit/
 hold judgments stay in their original ledgers rather than being copied here.
+
+* [Concept entries](CONCEPT_ENTRIES.md): automatic cross-family SQLite tables and bounded lexical transports.

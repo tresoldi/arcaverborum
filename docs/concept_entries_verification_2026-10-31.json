@@ -1,0 +1,15 @@
+{
+  "build_id": "6ca5722a14f4e36bde5a0883",
+  "source_records": 2119754,
+  "mapped_records_exactly_preserved": 1792516,
+  "concepts": 3787,
+  "chunks": 4760,
+  "largest_concept_rows": 8947,
+  "max_chunk_raw_bytes": 892980,
+  "max_chunk_compressed_bytes": 90118,
+  "all_fields_readings_ids_provenance_cognacy_preserved": true,
+  "builder_peak_rss_mib": 57.10546875,
+  "builder_address_space_limit_mib": 256,
+  "verification_peak_rss_mib": 56.00390625,
+  "tests_passed": 553
+}

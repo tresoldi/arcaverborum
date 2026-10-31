@@ -1,12 +1,12 @@
 'use strict';
-const VERSION = 'research-20261031-colex-strength';
+const VERSION = 'research-20261031-concept-entries';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = value => Number(value || 0).toLocaleString();
 const defaults = {view:'varieties',collection:'all',vocab:'all',family:'',area:'',tier:'',status:'',minCore:0,
   colexLayer:'segmented',colexKind:'observed',colexStrong:false,colexPage:0,colexWeight:'families',
   search:'',sort:'supported_core',dir:-1,page:0,columns:[],selected:[],concepts:[],id:'',cid:'',cog:'',term:'',mode:'literal',fold:false};
-let state = {...defaults}, catalog, manifest, worker, serial=0, pending=new Map(), loaded=[], epoch=0, map;
+let state = {...defaults}, catalog, manifest, worker, serial=0, pending=new Map(), loaded=[], conceptTransport=null, epoch=0, map;
 const languages = new Map(), concepts = new Map(), sources = new Map();
 const statusNames = {source:'Source-supplied',profile:'Profile-inferred',resegmented:'Resegmented',unclean:'Unresolved'};
 function href(patch) {
@@ -155,6 +155,7 @@ function exportControls(rows,description='current selection') {
     $('#exporttsv').onclick=()=>downloadFile('arca-selection.tsv',delimited(rows,'\t'),'text/tab-separated-values');
     $('#exportmanifest').onclick=()=>downloadFile('arca-selection-manifest.json',JSON.stringify({build:manifest.build_date,
       source_files:manifest.source_files,catalog_sha256:manifest.catalog.sha256,wordnet:manifest.wordnet,colexification:manifest.colexification,
+      concept_entries:conceptTransport?{...conceptTransport,index:manifest.concept_rows}:null,
       family_shards:Object.fromEntries(loaded.map(f=>[f,manifest.shards[f].sha256])),filters:state,url:location.href,loaded_families:loaded,records:rows.length,
       sources:[...new Set(rows.map(r=>r.transcription_source))].map(s=>sources.get(s)||{Dataset:s,License:'Not recorded'}),
       scope:description,transcription_notice:'Profile readings and resegmentation are inferred; valid tokens do not certify pronunciation.'},null,2),'application/json');
@@ -332,18 +333,19 @@ async function showConcept(token) {
     ${c.catalog_status==='merged'?'<p>This is a merged registry entry. Replacement reference: '+esc(c.replacement_id)+'. No WordNet equivalence is inferred from that replacement.</p>':''}<p class="definition">${esc(c.definition||'No definition recorded.')}</p><p>${esc(c.semantic_field)} · ${esc(c.pos)} · ${external('Concepticon '+c.concepticon_id,'https://concepticon.clld.org/parameters/'+c.concepticon_id)}</p>${wordnetPanel(c)}${ArcaColexification.placeholder()}`;
   const showColex=()=>ArcaColexification.render(c,manifest,{esc,href,concepts,languages,networkState:state,
     onState:patch=>{Object.assign(state,patch);history.replaceState(null,'',href({}));},isCurrent:()=>token===epoch});
-  if(!state.family){$('#app').innerHTML=title+familyPrompt();void showColex();return;}
-  await ensure([state.family]);if(token!==epoch)return;
-  const rows=await scopedRows(' AND concept_id=?',[state.cid]);if(token!==epoch)return;
-  $('#app').innerHTML=title+`<p>${rows.length} forms in this scope. Source glosses and mapping decisions are available from each form.</p>
-    <div id="conceptmap" class="map small"></div><div id="maplegend" class="maplegend"></div>`+exportControls(rows)+table(formColumns(),rows);
+  $('#app').innerHTML=title+'<section id="conceptentries" aria-label="Concept entries"><h3>Entries</h3><p role="status">Loading entries…</p></section>';
   void showColex();
-  await drawMap(rows.map(r=>({...languages.get(r.av_id),...r})),true,token);
+  const transport=await request('concept',{cid:c.concept_id});if(token!==epoch)return;
+  conceptTransport=transport;
+  const rows=await scopedRows(' AND concept_id=?',[c.concept_id]);if(token!==epoch)return;
+  if(!formColumns().some(column=>column.key===state.sort)){state.sort='av_id';state.dir=1;}
+  $('#conceptentries').innerHTML='<h3>Entries</h3>'+exportControls(rows,'this concept; current filters applied')+table(formColumns(),rows);
+
 }
 async function showForm(token) {
   const av=state.id.split(':')[0],l=languages.get(av);if(!l)throw Error('Unknown form variety.');
-  await ensure([l.Family||'Unclassified']);if(token!==epoch)return;
   let [r]=await query('SELECT * FROM forms WHERE ID=?',[state.id]);
+  if(!r){await ensure([l.Family||'Unclassified']);if(token!==epoch)return;[r]=await query('SELECT * FROM forms WHERE ID=?',[state.id]);}
   if(!r){
     // Older links contain an aggregate row number, which shifts as coverage grows.
     const first=state.id.indexOf(':'),last=state.id.lastIndexOf(':');
@@ -508,7 +510,7 @@ function showSQL() {
 }
 function showAbout() {
   $('#app').innerHTML=`<h2>Research guide</h2>
-    <h3>Two independent scopes</h3><p><strong>Collection</strong> chooses all accepted varieties or the Core source collection (sources flagged CORE in the repository). <strong>Vocabulary</strong> chooses all mapped concepts or the fixed 161 basic concepts. Neither scope changes source acceptance. Family filters limit lexical downloads, comparison and map scope.</p>
+    <h3>Two independent scopes</h3><p><strong>Collection</strong> chooses all accepted varieties or the Core source collection (sources flagged CORE in the repository). <strong>Vocabulary</strong> chooses all mapped concepts or the fixed 161 basic concepts. Neither scope changes source acceptance. Concept pages load their entries automatically across families and respect the optional filters. Comparisons use the varieties explicitly selected in the workspace.</p>
     <h3>Reading transcription evidence</h3><dl><dt>Source-supplied</dt><dd>Supplied source segments pass the token validator; this is not independent phonetic verification.</dd><dt>Profile-inferred</dt><dd>Reading inferred from a reviewed orthographic profile, potentially broad phonemic rather than surface phonetic. Consult the curation packet for omitted distinctions.</dd><dt>Resegmented</dt><dd>Fallback segmentation from source text; review before phonological analysis.</dd><dt>Unresolved</dt><dd>Unsupported or invalid segmentation remains visible. It is not certified IPA.</dd></dl>
     <h3>Cognate evidence</h3><p>Expert source judgments, computed methods and Wiktionary etymology annotations are distinguished in each form's evidence. Multiple assignments are independent memberships, not a composite set. Alignment and morpheme fields are preserved where supplied. Codes are source-scoped and do not establish equivalence across datasets.</p>
     <h3>Coverage and tiers</h3><p>Supported core coverage is the count of distinct core concepts with source-supplied or profile-inferred segments. Synonyms do not increase it. The construction tier summarizes selection/scoring history; it is not a universal confidence rating. Forms scores combine segment availability/validity, mapping, coverage, loan annotation and density; cognate scores combine assignment availability, expert labeling, alignments and partial-cognacy evidence. Pins and curated decisions can affect tiers. Inspect separate measures and packets rather than treating a tier as accuracy.</p>
@@ -531,7 +533,7 @@ async function boot() {
     for(const c of catalog.concepts)concepts.set(c.concept_id,c);
     for(const s of catalog.sources)sources.set(s.Dataset,s);
     $('#counts').textContent=`${fmt(manifest.counts.forms)} forms · ${fmt(manifest.counts.varieties)} varieties · ${fmt(manifest.counts.concepts)} concepts · updated ${manifest.build_date}`;
-    notice('Catalog loaded. Lexical data downloads by family when needed.');
+    notice('Catalog loaded. Entries load automatically when needed.');
     window.onhashchange=readRoute;readRoute();
   }catch(error){notice(error.message,true);$('#app').innerHTML='<p>Could not load the catalog. Check your connection and reload.</p>';}
 }

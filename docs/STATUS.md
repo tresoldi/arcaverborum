@@ -1,5 +1,7 @@
 # Current project state
 
+**Concept entries (2026-10-31):** [automatic SQLite tables](CONCEPT_ENTRIES.md) replace the family chooser on concept pages. All families by default, normal filters/sorting/exports, bounded current-concept loading; full lexical and analytical evidence unchanged.553 tests/four browser suites pass; [full preservation check](concept_entries_verification_2026-10-31.json).
+
 **CLICS comparison and strength (2026-10-31):** [report](CLICS_COMPARISON.md) separates concept, source, expansion and missingness effects against pinned CLICS³/⁴. Graph widths select family/language/variety support, with visible fixed-scale legend and exact counts.550 tests; comparison216.46MiB under256MiB cap. Lexical and underlying analytical data unchanged.
 
 **Interconnected networks (2026-10-31):** concept graphs now include actual neighbor-to-neighbor edges, with force layout, zoom, pan and dragging. Bounded31 nodes/465 edges; all45,936 views verified against SQLite; export44.02MiB RSS under256MiB limit. [Verification](colexification_subgraphs_verification_2026-10-31.json). Lexical and analytical counts unchanged.

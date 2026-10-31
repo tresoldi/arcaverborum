@@ -40,6 +40,65 @@ function query(sql, params = [], limit = 1001) {
   finally { statement.free(); }
   return rows;
 }
+let conceptIndex, activeConcept='', conceptBase;
+const languageFamilies=new Map();
+async function boundedJSON(spec,base,maxBytes,maxRaw=maxBytes){
+  if(!spec||!Number.isInteger(spec.bytes)||spec.bytes<0||spec.bytes>maxBytes)throw Error('Invalid concept data size.');
+  const url=new URL(spec.url,base);if(url.origin!==self.location.origin)throw Error('Invalid concept data URL.');
+  async function bytes(stream,limit){
+    const reader=stream.getReader(),chunks=[];let size=0;
+    for(;;){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>limit){await reader.cancel();throw Error('Concept data exceeded its size limit.');}chunks.push(value);}
+    const result=new Uint8Array(size);let at=0;for(const chunk of chunks){result.set(chunk,at);at+=chunk.length;}return result;
+  }
+  const response=await fetch(url);if(!response.ok)throw Error('Concept data download failed ('+response.status+').');
+  let data=await bytes(response.body,spec.bytes);
+  const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',data))].map(x=>x.toString(16).padStart(2,'0')).join('');
+  if(data.length!==spec.bytes||hash!==spec.sha256)throw Error('Concept data checksum mismatch. Reload to use a consistent snapshot.');
+  if(data[0]===31&&data[1]===139)data=await bytes(new Blob([data]).stream().pipeThrough(new DecompressionStream('gzip')),maxRaw);
+  if(data.length>maxRaw||(spec.raw_bytes!==undefined&&data.length!==spec.raw_bytes))throw Error('Invalid expanded concept data size.');
+  return JSON.parse(new TextDecoder().decode(data));
+}
+function storeLexicalRows(rows,owned=false){
+  const statement=db.prepare(`INSERT OR IGNORE INTO forms VALUES(${manifest.fields.map(()=>'?').join(',')})`),
+    member=db.prepare('INSERT INTO memberships VALUES(?,?,?,?)'), owner=db.prepare('INSERT INTO concept_rows VALUES(?,?)');
+  const ix=Object.fromEntries(manifest.fields.map((f,i)=>[f,i]));
+  try{for(const row of rows){
+    statement.run(row);if(!db.getRowsModified())continue;
+    for(const code of JSON.parse(row[ix.cognate_sets]||'[]'))member.run([row[ix.ID],code,row[ix.concept_id],row[ix.cognate_source]]);
+    if(owned)owner.run([row[ix.ID],languageFamilies.get(row[ix.av_id])||'Unclassified']);
+  }}finally{statement.free();member.free();owner.free();}
+}
+async function loadConcept(cid,id){
+  if(!manifest.concept_rows)throw Error('Concept entries have not been exported for this snapshot.');
+  if(!conceptIndex){
+    const spec=manifest.concept_rows;conceptBase=new URL(spec.url,self.location.href);
+    conceptIndex=await boundedJSON(spec,self.location.href,4*1024*1024);
+    const input=conceptIndex.inputs;
+    if(JSON.stringify(input.fields)!==JSON.stringify(manifest.fields)||
+       Object.entries(manifest.source_files).some(([k,v])=>input.source_files[k]!==v)||
+       Object.keys(input.shards).length!==Object.keys(manifest.shards).length||
+       Object.entries(manifest.shards).some(([k,v])=>input.shards[k]?.sha256!==v.sha256)){
+      conceptIndex=null;throw Error('Concept entries and lexical data belong to different snapshots.');
+    }
+  }
+  const info=conceptIndex.concepts[cid]||{rows:0,pages:[]};
+  if(activeConcept===cid)return {cid,rows:info.rows,build_id:conceptIndex.build_id};
+  db.run('PRAGMA query_only=OFF');db.run('BEGIN');
+  try{
+    db.run('DELETE FROM memberships WHERE form_id IN (SELECT id FROM concept_rows)');
+    db.run('DELETE FROM forms WHERE ID IN (SELECT id FROM concept_rows)');db.run('DELETE FROM concept_rows');
+    let total=0;
+    for(const page of info.pages){
+      postMessage({id,progress:`Loading concept entries: ${total.toLocaleString()} of ${info.rows.toLocaleString()}…`});
+      const rows=await boundedJSON(page,conceptBase,1024*1024,8*1024*1024),ci=manifest.fields.indexOf('concept_id');
+      if(!Array.isArray(rows)||rows.length!==page.rows||rows.length>1000||rows.some(r=>r.length!==manifest.fields.length||r[ci]!==cid))throw Error('Invalid concept entry chunk.');
+      storeLexicalRows(rows,true);total+=rows.length;
+    }
+    if(total!==info.rows)throw Error('Incomplete concept entries.');
+    db.run('COMMIT');activeConcept=cid;
+  }catch(error){db.run('ROLLBACK');throw error;}finally{db.run('PRAGMA query_only=ON');}
+  return {cid,rows:info.rows,build_id:conceptIndex.build_id};
+}
 let chain = Promise.resolve();
 self.onmessage = ({data}) => { chain = chain.then(async () => {
   const {id, kind, payload = {}} = data;
@@ -56,7 +115,9 @@ self.onmessage = ({data}) => { chain = chain.then(async () => {
       insertObjects('languages', catalog.languages);
       insertObjects('parameters', catalog.concepts);
       insertObjects('sources', catalog.sources);
-      db.run(`CREATE TABLE forms(${manifest.fields.map(ident).join(',')})`);
+      db.run(`CREATE TABLE forms(${manifest.fields.map(f=>ident(f)+(f==='ID'?' PRIMARY KEY':'')).join(',')})`);
+      db.run('CREATE TABLE concept_rows(id TEXT PRIMARY KEY,family TEXT)');
+      for(const l of catalog.languages)languageFamilies.set(l.av_id,l.Family||'Unclassified');
       db.run('CREATE TABLE memberships(form_id,set_id,concept_id,source)');
       db.run('CREATE INDEX forms_variety ON forms(av_id)');
       db.run('CREATE INDEX forms_concept ON forms(concept_id)');
@@ -73,20 +134,16 @@ self.onmessage = ({data}) => { chain = chain.then(async () => {
         const rows = await download(spec);
         db.run('PRAGMA query_only=OFF');
         db.run('BEGIN');
-        const st = db.prepare(`INSERT INTO forms VALUES(${manifest.fields.map(() => '?').join(',')})`);
-        const member = db.prepare('INSERT INTO memberships VALUES(?,?,?,?)');
-        const ix = Object.fromEntries(manifest.fields.map((f, i) => [f, i]));
         try {
-          for (const row of rows) {
-            st.run(row);
-            for (const code of JSON.parse(row[ix.cognate_sets] || '[]'))
-              member.run([row[ix.ID], code, row[ix.concept_id], row[ix.cognate_source]]);
-          }
-          db.run('COMMIT'); loaded.add(family);
-        } catch (error) { db.run('ROLLBACK'); throw error; }
-        finally { st.free(); member.free(); db.run('PRAGMA query_only=ON'); }
+          storeLexicalRows(rows);
+          db.run('DELETE FROM concept_rows WHERE family=?',[family]);
+          db.run('COMMIT');loaded.add(family);
+        } catch(error){db.run('ROLLBACK');throw error;}
+        finally{db.run('PRAGMA query_only=ON');}
       }
       result = [...loaded];
+    } else if (kind === 'concept') {
+      result=await loadConcept(payload.cid,id);
     } else if (kind === 'query') {
       result = query(payload.sql, payload.params, payload.limit || 1001);
     } else if (kind === 'sql') {

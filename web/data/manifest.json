@@ -2549,5 +2549,11 @@
       "sha256": "6bd5b37b9f71cd7d5750296db0c1d67b2de5597e29105ffaf7ea7d21669ca8fd",
       "bytes": 502378
     }
+  },
+  "concept_rows": {
+    "url": "data/concept-rows/6ca5722a14f4e36bde5a0883/manifest.json",
+    "bytes": 928890,
+    "sha256": "920ada5b8e0e9d253140dd4794c068a5ce84cd19d98a60cebb4ac3302fdb6e78",
+    "build_id": "6ca5722a14f4e36bde5a0883"
   }
 }

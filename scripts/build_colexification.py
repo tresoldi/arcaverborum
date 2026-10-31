@@ -10,6 +10,7 @@ from pathlib import Path
 
 from arcaverborum.colexification import Limits, build, connect, pair_status, publish
 from arcaverborum.colexification_graphs import build_graphs, publish_graphs
+from arcaverborum.concept_rows import build as build_concept_rows
 
 
 def main():
@@ -52,6 +53,7 @@ def main():
     if args.publish:
         publish(args.root, built)
         publish_graphs(args.root, build_graphs(built))
+        build_concept_rows(args.root)
     peak = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024
     print(json.dumps(dict(build=str(built), peak_rss_mb=round(peak, 2), memory_limit_mb=args.memory_mb,
                           published=args.publish), indent=2))
