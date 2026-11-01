@@ -1167,3 +1167,16 @@ primary-literature anchors and explicit publication scope; no estimator or
 analytical input changes. Frozen CSV bytes retain RFC4180 CRLF; whitespace check
 accepts CR at EOL without changing the recorded registry hash. Source records,
 failed experiments and unrelated pre-existing Oct31 drafts are preserved.
+
+
+## 2026-11-01 — Post-pilot next-step proposal
+
+Planning request only. Updated NEXT with CINF-01–05: adjudicate146 prepared
+cases; source-specific Piaroa137/Wa’ikhana125/Yucuna102 held-record review;
+IDS/WOLD/Tryon original-source and questionnaire genealogy; streamed60–100-pair
+new protocol; regenerate and publish the existing correctness repairs after
+fresh analytical checks. The364 held candidates are not admissions or new-language
+claims. Current-core pair-family-block leverage counts20,148/5,535/5,264 are not
+independent attestations. Priority is evidence validation and South American
+source recovery; deployment can proceed separately from experimental confidence.
+No lexical, model, analytical or published-data changes in this planning pass.

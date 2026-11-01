@@ -351,3 +351,16 @@ validate this implementation or prescribe its modelling assumptions:
   homophony baseline sensitivity and nontrivial semantic expectations.
 - [Gfeller et al. 2025](https://arxiv.org/abs/2510.13407): family-specific
   phylogenetic investigation as a future, separately validated research track.
+
+
+## Proposed continuation after the first pilot
+
+The active [CINF-01–05 proposal](../NEXT.md) prioritizes real source validation,
+South American reading recovery, original-source/questionnaire provenance, a
+broader frozen experiment and a correctness-only public analytical refresh.
+This is planning, not a new completed batch. Piaroa/Wa’ikhana/Yucuna together
+supply 364 held-record candidates; potential recovery must be measured after
+notation/sense review and must not be described as 364 new words or supported slots.
+The new experiment needs streamed context storage before expanding the 18-pair
+panel. Actual independent adjudication and original-source evidence remain the
+basis for any measurement-error confidence claim.
