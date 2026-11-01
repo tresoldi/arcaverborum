@@ -79,8 +79,8 @@
     "Afro-Asiatic": {
       "url": "data/56a1230c884e4afe.json.gz",
       "forms": 76326,
-      "bytes": 4596818,
-      "sha256": "223b1f4a713f1351a00deb304aa2cf4c6b14aaca021b6f6b01adbdebf4b8dac5"
+      "bytes": 4596817,
+      "sha256": "64fc3c221539df5e1b6f520edef5f0bf4313c2079621fb190e9be5f97ce6df59"
     },
     "Aikanã": {
       "url": "data/2e14e15eb671d9f6.json.gz",
@@ -97,8 +97,8 @@
     "Algic": {
       "url": "data/02e1eb6425b05d6d.json.gz",
       "forms": 1930,
-      "bytes": 119817,
-      "sha256": "699ab4a4b86dd886b11750343b6aafc95d810d27d8e76335f071da9c0b4d859d"
+      "bytes": 119821,
+      "sha256": "b12cf2aa1b42ee29d8387810f2d78eaf48a52a2e03c810bebee30fefaccf3f0e"
     },
     "Alsea-Yaquina": {
       "url": "data/9f13a66ab713920a.json.gz",
@@ -157,8 +157,8 @@
     "Arawakan": {
       "url": "data/d0539c98a59e681e.json.gz",
       "forms": 16161,
-      "bytes": 867849,
-      "sha256": "e86ab370904a4c25676d35cbccac3303f0828c84a9a9a6b35339cf33bc9a403b"
+      "bytes": 873547,
+      "sha256": "8f1a77bd9b5a770709a7bc91e29ba9ff8f7040f984cc3fe9b0849f14a8ec4802"
     },
     "Arawan": {
       "url": "data/e782f8d0096cebb8.json.gz",
@@ -205,8 +205,8 @@
     "Austronesian": {
       "url": "data/a63fe98be125de0e.json.gz",
       "forms": 452864,
-      "bytes": 25895901,
-      "sha256": "942cee5790c000b17c5ad94fb116d0a4170f1452c5e036b4e3525ba61dbbdd5e"
+      "bytes": 25895911,
+      "sha256": "f2ee93fa4dea52962da01ddad9da80d5c913633b4a495cb1f2096edd703cb9ae"
     },
     "Aymaran": {
       "url": "data/57b76d00cb3eed50.json.gz",
@@ -835,8 +835,8 @@
     "Indo-European": {
       "url": "data/5fd64bac1a097674.json.gz",
       "forms": 175201,
-      "bytes": 10378076,
-      "sha256": "cc73895288948974dc0ff04589d52e9d7970a4ea1bb7e922aa4909518ba76eeb"
+      "bytes": 10378090,
+      "sha256": "8565a8c9e348e00b5f65a1c6245a9633a68acedb7310f4331da2a5c52bcde759"
     },
     "Iroquoian": {
       "url": "data/30f450c2bd5a00bd.json.gz",
@@ -1477,8 +1477,8 @@
     "Nakh-Daghestanian": {
       "url": "data/37a0a6e9a845b5de.json.gz",
       "forms": 127443,
-      "bytes": 6594727,
-      "sha256": "811d78089af53b12fe17e7ad859952f9b67abfe38bd253cbbc28a67e18c29dfc"
+      "bytes": 6594733,
+      "sha256": "7d4d10277ea1390184d9c68600f20750052e300f22f022626370ac13e67e557f"
     },
     "Nambiquaran": {
       "url": "data/298822857c8f0cf2.json.gz",
@@ -1783,8 +1783,8 @@
     "Saliban": {
       "url": "data/02df85685c997518.json.gz",
       "forms": 650,
-      "bytes": 40930,
-      "sha256": "9bc08b5d46cd8fc61fca8787c92ccba1c12161715872f47bf45cc719c7717323"
+      "bytes": 44774,
+      "sha256": "64cf1dafa34f2991ccde196d35b8ccd3ec9402516025d79efe7965d499f62d15"
     },
     "Salinan": {
       "url": "data/69471bb16b922d5f.json.gz",
@@ -1879,8 +1879,8 @@
     "Sino-Tibetan": {
       "url": "data/0389174d622b025f.json.gz",
       "forms": 194567,
-      "bytes": 10178581,
-      "sha256": "a2ecd8737961d50a4bf92a52e9634f6983c86e4f9e30183844d71e1ea3fc1e7d"
+      "bytes": 10178591,
+      "sha256": "7d43dffe1027864c89b2061cd5b530f1d412d20effb510b14bb17b3bc7bcbcb1"
     },
     "Siouan": {
       "url": "data/6989a91746da4686.json.gz",
@@ -2149,8 +2149,8 @@
     "Tucanoan": {
       "url": "data/c55373024c0fdde1.json.gz",
       "forms": 8039,
-      "bytes": 467671,
-      "sha256": "5a4210d3dad83e99b317509377a5573e762363fad5c038dda45f6e9fb9915f56"
+      "bytes": 470258,
+      "sha256": "c9ddef048c32c0f6d1905cfc7a30a2eb03609bec2b7446a99c0410578876d21d"
     },
     "Tungusic": {
       "url": "data/f88b955bd91de346.json.gz",
@@ -2186,7 +2186,7 @@
       "url": "data/abffd7eebe3f481f.json.gz",
       "forms": 708,
       "bytes": 40072,
-      "sha256": "7abd79838ffaef5d5db911169bc32a15d6577accdb7d777d112ba11927b3acff"
+      "sha256": "b48a485155899953845774c5b62b3109bc4b96a0b008fa4e3f2e8dc3b890faf5"
     },
     "Unattested": {
       "url": "data/e22d6ea2ce3374be.json.gz",
@@ -2209,8 +2209,8 @@
     "Uralic": {
       "url": "data/d6bb4946dbc55aea.json.gz",
       "forms": 21762,
-      "bytes": 1810372,
-      "sha256": "597900d6981b91cba14aad048f8577d445258d84344d2324d11cfb9d55804477"
+      "bytes": 1810381,
+      "sha256": "341e7a91c5b2010aea52b704013b8b0b7b10ab5518372ccc9bcf0ad4d0b7c80a"
     },
     "Urarina": {
       "url": "data/6cfbac45dfeae3db.json.gz",
@@ -2461,13 +2461,13 @@
   },
   "catalog": {
     "url": "data/catalog.json.gz",
-    "bytes": 5009651,
-    "sha256": "e0f42c7f8f75ba30be5c8170fcf0fbd33e70604c46abfc738c7d4500f5651ea2"
+    "bytes": 5009780,
+    "sha256": "d673bd7f86c647011f52371d76ecc164286612f4c65af716e13789922caa1f07"
   },
   "core_count": 161,
   "source_files": {
-    "forms.csv": "dc6b59518beab79b11207209bd06237977f3bfd671252b92fa979b5d5a7c4c77",
-    "varieties.csv": "dc3119f79f54057fdeb6751b8b2515e2e141878623f07473be01b6db682ed11b",
+    "forms.csv": "d149a73f96544472615baccf0868457f02b089671ee46a30c363f13534619d4e",
+    "varieties.csv": "0a732f744c3bafc1763f091fb9a8efb3474ec3fedefd1a34ff1402959af1934d",
     "parameters.csv": "382a057512cf504f68818c0b7142c2c9738d3561f294ceff332bc3e196a16433"
   },
   "recordings": {
@@ -2539,26 +2539,26 @@
     ]
   },
   "concept_rows": {
-    "url": "data/concept-rows/0a7b22c5c27d2b35f428c110/manifest.json",
-    "bytes": 928891,
-    "sha256": "ca20e2fa132682e8541c1eb2c63f54b1965b4ba75aef90096dc28d4ecae5fc99",
-    "build_id": "0a7b22c5c27d2b35f428c110"
+    "url": "data/concept-rows/cbae2967ebbdef9b3b3613bf/manifest.json",
+    "bytes": 928892,
+    "sha256": "9dcdb6a4eab1095d7325c08cd2e12412ad451acf36b3765e04e1b7aed0c5d2c2",
+    "build_id": "cbae2967ebbdef9b3b3613bf"
   },
   "colexification": {
-    "url": "data/colexification/d5c9b49da8851392bac2e2e0/manifest.json",
-    "sha256": "ed34b1d5124a6f4dee950227e3b6c0e045060a38c7848c62916f2a466afa803d",
-    "bytes": 552545,
+    "url": "data/colexification/3a3898b1362a5c2d2c30bf73/manifest.json",
+    "sha256": "1e939aa5f72f68b21349e69797eb271cacbb5efd12d1057283cd436b79b3aa56",
+    "bytes": 552657,
     "schema": 1,
-    "build_id": "d5c9b49da8851392bac2e2e0",
+    "build_id": "3a3898b1362a5c2d2c30bf73",
     "subgraphs": {
-      "url": "data/colexification-graphs/fd967b7487c7230d8156026b/manifest.json",
-      "sha256": "f01dbaddebaeba80009235562ae1646638f2dffb772c605e45b0a2ed5a07d170",
-      "bytes": 502534
+      "url": "data/colexification-graphs/eda4e92911aff337a6e97e90/manifest.json",
+      "sha256": "933f825e430b1200e4e0c9a5480c9bc3b8e8a0c311a33b1d77364a3ab5f340f4",
+      "bytes": 502524
     },
     "communities": {
-      "url": "data/colexification-communities/d1388af4b69018f3a92012f0/manifest.json",
-      "bytes": 520959,
-      "sha256": "4bcdab5b6628e7f54f1ed23f17b82682c334e7b8180927bb2f0f9e389b791a4d"
+      "url": "data/colexification-communities/617951c483ddc3f569627471/manifest.json",
+      "bytes": 520888,
+      "sha256": "78203b298246318fc084606a0e0533c60a960ce0cb3c7d58385e850080ad4cb6"
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "report.csv": {
+      "url": "colexification_clics_refresh_2026-11-01-bundles/ac9bfb087a643664e8b1cb6f/report.csv",
+      "sha256": "59215868596436da082fc788d44ff63244a86e004dbe56ec0ed19c0b2cc4f269",
+      "bytes": 8205253
+    },
+    "report.json": {
+      "url": "colexification_clics_refresh_2026-11-01-bundles/ac9bfb087a643664e8b1cb6f/report.json",
+      "sha256": "ac9bfb087a643664e8b1cb6ff7b779c9adc7413fb49a5a025bd4c19df4da7c34",
+      "bytes": 87327
+    }
+  }
+}

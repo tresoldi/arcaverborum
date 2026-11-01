@@ -1,0 +1,74 @@
+{
+  "status": "Prepared and locally verified; canonical deployment pending",
+  "freeze_commit": "a092afbbd",
+  "implementation_commit": "f3e152877",
+  "analytical_build": "3a3898b1362a5c2d2c30bf73",
+  "community_build": "617951c483ddc3f569627471",
+  "subgraph_build": "eda4e92911aff337a6e97e90",
+  "concept_rows_build": "cbae2967ebbdef9b3b3613bf",
+  "tests": {
+    "installed_have_utf8proc_true": 598,
+    "installed_have_utf8proc_false": 598,
+    "two_physical_normalization_builds_tested": false,
+    "ruff": "pass"
+  },
+  "browsers": {
+    "research": {
+      "returncode": 0,
+      "seconds": 12.978142073960043
+    },
+    "concept_entries": {
+      "returncode": 0,
+      "seconds": 6.197347677079961
+    },
+    "colexification": {
+      "returncode": 0,
+      "seconds": 8.372144908062182
+    },
+    "colexification_communities": {
+      "returncode": 0,
+      "seconds": 7.631493503926322
+    },
+    "colexification_robustness": {
+      "returncode": 0,
+      "seconds": 2.9989410319831222
+    },
+    "mixed_source": {
+      "returncode": 0,
+      "seconds": 17.500052775023505
+    },
+    "wordnet": {
+      "returncode": 0,
+      "seconds": 3.784416303038597
+    },
+    "romance": {
+      "returncode": 0,
+      "seconds": 6.506436613039114
+    }
+  },
+  "local_assets": {
+    "base_url": "http://127.0.0.1:8808/",
+    "analytical_build_id": "3a3898b1362a5c2d2c30bf73",
+    "community_spec": {
+      "url": "data/colexification-communities/617951c483ddc3f569627471/manifest.json",
+      "bytes": 520888,
+      "sha256": "78203b298246318fc084606a0e0533c60a960ce0cb3c7d58385e850080ad4cb6"
+    },
+    "checked_assets": 25186,
+    "failures": [],
+    "all_match": true
+  },
+  "failed_execution_evidence": [
+    {
+      "path": "raw/curation/cinf-2026-11-01/communities-time.txt",
+      "sha256": "4b98ea6034d8bedde113150366c17f9cf28026a485af8fb28f97ba1836f606f6"
+    },
+    {
+      "path": "raw/curation/cinf-2026-11-01/web-build.log",
+      "sha256": "9994a32da00268d39dedf1a1989ef9c66332a57f241934eee396e7bf451b88c7"
+    }
+  ],
+  "full_context_and_prediction_artifacts": "Local sealed files; manifest and numerical summaries published",
+  "independent_expert_adjudications": 0,
+  "experimental_probabilities_used_for_production_weights": false
+}

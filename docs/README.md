@@ -1,6 +1,7 @@
 # Documentation map
 
 Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).
+* [CINF-01–05 executed validation, source fidelity and publication evidence](research/CINF_EXECUTION_2026-11-01.md):76-pair streamed experiment, model failures, original-source gates and updated baseline.
 * [Living research record for a future paper](research/COLEXIFICATION_RESEARCH.md): frozen pilot, executed findings, failures, validation, source audit and remaining inference gates.
 * [v2 sense alignment, bounded influence and critical model assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md).
 * [Independent Codex/Claude adversarial reviews and checked assessment](reviews/2026-11-01-adversarial-assessment.md): current extraction/classification defects, weighting tradeoffs and proposed remedies; no new deployment.

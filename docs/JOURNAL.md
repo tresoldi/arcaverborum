@@ -1,5 +1,33 @@
 # Project journal and working memory
 
+## 2026-11-01 — CINF-01–05 validation, source fidelity and analytical refresh
+
+All five authorized tracks received bounded execution; [paper/execution record](research/CINF_EXECUTION_2026-11-01.md).
+Codex/Claude each reviewed146 cases independently; model agreement is not expert
+gold (zero expert adjudications). Source scopes and semantic uncertainty retained.
+326 Piaroa/Wa’ikhana/Yucuna spellings restored,109 supplied phonemic readings,
+217 written-only,38 candidates held. All2,119,818 native records/Values/mappings/
+cognacy retained;37 unrelated records only recalculate quality scores. Sursilvan/
+Tuatschin canonical lookup and zero-record catalog inflation fixed. Accepted7,366
+constructions;470,116 supported core/1,209,287 supported total slots; lower counts
+correct phonetic overstatement. Ten IDS/WOLD/Tryon members/14,612 prompt cells
+and original-source gaps documented, including Budai Rukai and questionnaire
+rather than assumed lexical dependence.
+
+Frozen76-pair SQLite experiment:417,240 contexts,45,603 comparable/1,387 positive,
+546,172 independently checked predictions,70.20MiB under256MiB AS. Common/rare
+sampled panels have4/0 positives and favor simpler baselines; South American
+controls still favor simpler models. No global ridge promotion or calibrated
+polysemy confidence. Six cross-publication flags stay explicit. New core3a3898…,
+communities617951…:42,741 segmented/42,202 written pairs,5,362 backbone edges,
+239 groups/1,610 assigned concepts,81 runs verified; fresh subgraphs/CLICS
+comparisons and concept-entry chunks. Fixed optional catalog-relation CSV export,
+retained fields, archived failed execution evidence.598 tests/eight local browsers
+pass. Complete obsolete asset generations retired with active-reference checks;
+site/docs approximately746MB. Publication prepared; canonical deployment checks
+are pending. Preserve [remaining evidence gates](planning/HELD.md); do not repeat
+completed experiments as future tasks.
+
 ## 2026-10-31 — Automatic concept entries tables
 
 Removed concept-page family prerequisite and lexical map; entries now query the browser’s in-memory SQLite across all families, with normal filters/sorting/pagination/exports. Concept-only chunks load automatically; one concept is retained, full family loads remain and promote overlap without duplicate forms/memberships. Loaded form links avoid whole-family downloads. Snapshot/size/SHA checks and transactional rollback guard data. All1,792,516 mapped records preserved field-for-field from2,119,754 source rows in4,760 chunks/3,787 concepts with entries. Export57.11MiB RSS under256MiB AS;553 tests/four browser suites pass; publication command chain checked. [Method](CONCEPT_ENTRIES.md), [verification](concept_entries_verification_2026-10-31.json). No lexical, semantic or analytical evidence changed. [Publication](concept_entries_publication_2026-10-31.json): e6a96bca, CI41215236660/Pages41215236558 succeed;4,767 canonical assets match/four live browsers pass.

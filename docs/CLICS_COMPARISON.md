@@ -1,5 +1,13 @@
 # Comparing Arca Verborum with CLICS
 
+**CINF refresh (2026-11-01):** [current source-bound report](research/colexification_clics_refresh_2026-11-01.json)
+uses core `3a3898b1362a5c2d2c30bf73`. Three-family shared edges in common concept
+universes:2,693/3,260 Arca versus4,188 CLICS3;2,572/2,847 Arca versus3,986 CLICS4.
+Source, scope and representation differences remain descriptive, not an accuracy
+competition. [Validation and critical findings](research/CINF_EXECUTION_2026-11-01.md).
+Earlier dated counts below are historical.
+
+
 **Historical reference comparisons:** the current [v2 robustness method](COLEXIFICATION_ROBUSTNESS_2026-11-01.md) corrects source-sense mappings and changes the inference model. The comparisons below retain their explicitly pinned pre-v2 inputs. They are contextual evidence, not a target network or validation of the new model. No results are tuned to match CLICS²/³/⁴.
 
 ## Current regional generation,2026-11-01

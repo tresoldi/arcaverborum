@@ -1,76 +1,49 @@
 # Active expansion queue
 
-## Colexification research execution and next gates
+## CINF-01–05 execution and remaining evidence gates
 
-The [living paper research record](research/COLEXIFICATION_RESEARCH.md) is the
-entry point for further methodological work. Correctness repairs and the frozen
-18-pair inference pilot are implemented and executed offline, including source
-prefix guards, canonical isolate keys, pseudo-family handling, fail-closed sense
-approvals and four explicit catalog-overlap flags. Do not propose these as absent.
-The corrected private core is `346e40d2896330f6afc55400`; deployed analytical
-assets remain the preceding published snapshot. Experimental probabilities are
-not a production graph-weight replacement.
+All five authorized tracks received bounded execution. See [the living paper
+record](research/COLEXIFICATION_RESEARCH.md), [execution](research/CINF_EXECUTION_2026-11-01.md)
+and [measured baseline](research/cinf_baseline_2026-11-01.json). Publication is
+prepared locally; canonical deployment checks are pending. Do not repropose
+source-prefix guards, isolate/pseudo-family fixes, semantic gates, catalog-overlap
+flags, the18-pair pilot, the146-case model-assisted first passes, the ten-member
+source inventory, or the76-pair streamed experiment as absent.
 
-Authorized execution batch (2026-11-01): proceed through CINF-01–05 in order.
-CINF-01 completed bounded model-assisted review; its expert gate remains open.
-CINF-02 has built guarded repairs; aggregate checks remain. CINF-03 completed
-a bounded source/prompt audit with unresolved original-witness gates. CINF-04
-is reviewing; CINF-05 is queued. Model-assisted first passes
-do not replace expert adjudication; unresolved evidence gates remain explicit.
+The new core is `3a3898b1362a5c2d2c30bf73`; communities
+`617951c483ddc3f569627471`. All2,119,818 records remain.326 spelling repairs
+recover109 supplied phonemic readings;217 remain written-only. Source fidelity
+corrects supported counts to470,116 core/1,209,287 total. Sampled common/rare
+panels favor simpler baselines; do not promote ridge globally or use research
+posteriors/null tails as graph confidence. Experimental outputs do not weight
+production networks. Unknown evidence is never a negative observation.
 
-1. **CINF-01 — Adjudicate the existing 146-case worksheet.** Baseline: zero
-   independent adjudications, with 41 recorded positives/51 sampled nonmatches/
-   54 unknowns; 18 South American cases. First gate: explicit reviewer rubric and
-   source evidence adequate to judge sense, reading and lexeme relation. Use
-   independent first-pass judgments, retain disagreements and adjudicate against
-   originals; automated/model triage is not an expert gold standard. Outcome:
-   a versioned validation set plus uncertainty, not a forced binary verdict on
-   every case. Benefit: grounds measurement-error estimates. Cost: specialist
-   reading and source access; other work can continue while review is pending.
-2. **CINF-02 — Recover South American source fidelity.** Begin with Piaroa
-   `sab-piaroa`/`huntergatherer_130` (137 held records), Wa’ikhana
-   `tuc-wa-ikhana`/`huntergatherer_137` (125), and Yucuna
-   `ara-yucuna`/`huntergatherer_65` (102). These 364 parser-pattern candidates are
-   not promised admissions, supported slots or new languages. First gate: verify
-   full native citations, apostrophe/glottal conventions, comments, stage and
-   actual source attribution. Repair written extraction first; accept phonetic
-   restoration only through documented source-specific evidence/profiles. Outcome:
-   guarded repairs with exact provenance, originals and a measured graph/coverage
-   delta. Benefit: restores information in a priority region. Cost: notation review;
-   copying the complete Value field mechanically is not a valid pronunciation fix.
-3. **CINF-03 — Original-source genealogy and questionnaire inventory.** Start
-   with IDS, WOLD and Tryon: the corrected core has 20,148/5,535/5,264 eligible
-   pair-family-block cells respectively, a leverage ranking rather than independent
-   attestations. Select ten source-member cases with cross-resource coverage,
-   including South America; trace original books/fieldwork, derivatives and prompts.
-   First gate: real citations and inventory evidence, not namespace resemblance.
-   Outcome: provenance edges and explicit not-elicited/unavailable distinctions.
-   Benefit: makes dependence and missingness assumptions testable. Cost: bibliographic
-   work; shared contributors or lists alone do not prove copied lexical observations.
-4. **CINF-04 — Freeze a broader, streamed validation protocol.** The completed
-   18-pair panel is purposive. After a SQLite-backed streaming context store and
-   measured 256MiB worker budget, target 60–100 pairs in distinct panels: sampled
-   comparable-pair frame, rare/Americas cases and structured controls. Record
-   selection probabilities where applicable; do not pool challenge cases into a
-   population calibration score. Repeat simple/metadata baselines, grouped transfer,
-   annotation/error sensitivity and regional results. First gate: fixed splits and
-   outcomes before new results. Benefit: tests whether pilot gains generalize.
-   Cost: more validation work; a more complex model is not automatically preferred.
-5. **CINF-05 — Publish a correctness-only analytical refresh.** Private repaired
-   core346e40d2896330f6afc55400 is complete; live analytical assets still use d5c9b49….
-   Regenerate communities/subgraphs and refresh descriptive comparisons against the
-   repaired core; independently verify partitions, weights, manifest binding and
-   canonical assets, measuring the site budget before adding generations. First
-   gate: successful refreshed analytical/publication checks, preserving original
-   lexical evidence. Benefit: delivers existing repairs to visitors. Cost: changed
-   communities require explanation. Experimental Bayesian/null values remain
-   labelled research diagnostics; publishing correctness does not certify them.
+Remaining gates, not a newly authorized expansion batch:
 
-Recommended scientific priority: CINF-01 and CINF-02. CINF-05 is independently
-useful operational follow-through; CINF-03 grounds CINF-04. Retain separate
-incidence and form-collision nulls and develop dependency-aware variants only
-with defensible source/missingness evidence. Revisit global weighting and
-community confidence after validation, preserving rare/local observations.
+1. **Expert sense/reading adjudication.** The146-case versioned model reviews
+   are complete, with disagreements retained. Independent expert gold remains
+   zero. Recover native sense/lexeme evidence and original source conventions;
+   questionnaire labels and model agreement cannot calibrate linguistic error.
+2. **Publication/dialect observation scopes.** Review the [six pooled matches
+   with distinct available within-publication evidence](research/colexification_publication_scope_flags_2026-11-01.json),
+   plus200 positive controls with no comparable singleton citation. Scope by real
+   observations and notation, not by blindly splitting every bibliography string.
+   Pooled citations and different dataset names do not prove independence.
+3. **Remaining South American notation.** The326 exact extraction repairs are
+   complete; [38 ambiguous candidates](research/hg_fidelity_holds_2026-11-01.csv)
+   stay held. Of restored spellings,217 need separate phonetic evidence, including
+   Wa’ikhana apostrophe/prosody conventions and Piaroa capital-glottal/private-use
+   notation. Source-column duplication or token validity alone cannot reopen them.
+4. **Prospective validation power and availability.** The76-pair run is complete
+   and frozen. Its sampled frames have only4/0 positives, and rare South American
+   cases only75 comparable contexts. A fresh design must justify event power,
+   direct co-observation eligibility and selection probabilities before reading
+   outcomes. Keep sampled frames, challenge panels and regional results separate.
+5. **Original witness genealogy.** Ten IDS/WOLD/Tryon members and14,612 prompt
+   cells are audited. Continue exact row-level reuse, fieldwork, dialect and
+   questionnaire evidence at the [documented gaps](research/source-inventory-2026-11-01/member_evidence.json).
+   WOLD's IDS-derived questionnaire is known; blanket lexical dependence is not.
+   Tryon RUK is documented Budai; Lewo/Kwamera original collection/reuse remains open.
 
 The [independent adversarial assessment](reviews/2026-11-01-adversarial-assessment.md)
 and [inference review](reviews/2026-11-01-inference-assessment.md) are historical

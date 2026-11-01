@@ -1,0 +1,37 @@
+{
+  "active_generations": {
+    "colexification": "3a3898b1362a5c2d2c30bf73",
+    "colexification-graphs": "eda4e92911aff337a6e97e90",
+    "colexification-communities": "617951c483ddc3f569627471",
+    "concept-rows": "cbae2967ebbdef9b3b3613bf"
+  },
+  "retired": [
+    {
+      "path": "web/data/colexification/d5c9b49da8851392bac2e2e0",
+      "bytes": 325788162
+    },
+    {
+      "path": "web/data/colexification/f75765ec76bafb976cbd11f6",
+      "bytes": 237530989
+    },
+    {
+      "path": "web/data/colexification-graphs/fd967b7487c7230d8156026b",
+      "bytes": 14038148
+    },
+    {
+      "path": "web/data/colexification-graphs/e27f605732b6a8c32eaa6385",
+      "bytes": 12089084
+    },
+    {
+      "path": "web/data/colexification-communities/d1388af4b69018f3a92012f0",
+      "bytes": 25191159
+    },
+    {
+      "path": "web/data/concept-rows/0a7b22c5c27d2b35f428c110",
+      "bytes": 128137157
+    }
+  ],
+  "web_bytes": 626423871,
+  "docs_bytes": 119728263,
+  "preservation": "Retired tracked generations remain in Git history; sealed analytical databases remain in private output."
+}

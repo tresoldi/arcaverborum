@@ -1,0 +1,18 @@
+{
+  "signature": {
+    "core": "3a3898b1362a5c2d2c30bf73",
+    "database_sha256": "7d835e46392f17fc1442b850a3d72e1e8a2bb1a11413df1c8f88fd89cd7e00a8",
+    "aggregate_sha256": "d149a73f96544472615baccf0868457f02b089671ee46a30c363f13534619d4e",
+    "protocol_sha256": "e266e5f90e7c4e9043f07acf0e026146192cc80c90ae3b0140af22c45b1de81b",
+    "pipeline_sha256": "a1cec576030878e7231f7d1905a3f68585f18e101ed62291bc611a05ca02a7bc",
+    "cli_sha256": "f7fe556edcc39b7dc92fa00308477f7b21c98353a02f9148392113e0bf8dc86c",
+    "inference_library_sha256": "168349fa3139593ad2eea1700c543fe170f6907bc9903db61b9e6f51918acffb"
+  },
+  "files": {
+    "contexts.csv": "005ed6209d107e034a8c5bbc4c35f012b71893b78a57765dc9dd1c86da16f646",
+    "contexts.sqlite": "b9e00fb2188e68b2dc8e980adbf919f07e038b8de0399c6cce11d7be574bee5e",
+    "results.json": "cac7e334eff3035fa6126b58ecb4310507f40b047363a9127351881379e08e9a",
+    "predictions.csv": "2c7028936b012e6c0eb1e63c008311e702ecc39cf93099a0ea141ec5dcb42cbf",
+    "runtime.json": "2cde7f29263e41478486f87fafb61311ba58bd864c85584f09ae0e4d3ede0df1"
+  }
+}

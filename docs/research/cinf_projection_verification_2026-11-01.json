@@ -1,0 +1,25 @@
+{
+  "build": "3a3898b1362a5c2d2c30bf73",
+  "before": "346e40d2896330f6afc55400",
+  "assessed_pairs": 85451,
+  "influence_formula_recovered": true,
+  "unreviewed_semantics_cannot_create_support": true,
+  "unit_identity_mass_bound_verified": true,
+  "catalog_overlap_zero_weight": true,
+  "bag_witch_absent": true,
+  "added_witnesses_by_reviewed_variety": {
+    "ara-yucuna": 9,
+    "sab-piaroa": 6,
+    "tuc-wa-ikhana": 5
+  },
+  "new_reported_edges": [
+    {
+      "layer": "written",
+      "kind": "observed",
+      "a": "bod-scratch",
+      "b": "mot-turn"
+    }
+  ],
+  "interpretation": "Representation evidence and conservative influence weights; not calibrated polysemy confidence",
+  "memory_limit_mb": 256
+}

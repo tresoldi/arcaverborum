@@ -1,8 +1,20 @@
 # Colexification: method, evidence and bounded-memory pipeline
 
-**Current v2 method (2026-11-01):** [sense alignment and bounded-influence replication](COLEXIFICATION_ROBUSTNESS_2026-11-01.md) supersede the earlier clustering interpretation. The corrected reported graph has44,414 segmented pairs;5,551 qualify for the replicated backbone. BAG–WITCH is removed; all native readings remain. [Metrics](colexification_robustness_metrics_2026-11-01.json), [projection invariants](colexification_robustness_network_verification_2026-11-01.json). Older dated build counts below are historical.
+**Current method and prepared refresh (2026-11-01):** [sense alignment and bounded-influence replication](COLEXIFICATION_ROBUSTNESS_2026-11-01.md), with [CINF-01–05 executed validation and source fidelity](research/CINF_EXECUTION_2026-11-01.md).
+Core `3a3898b1362a5c2d2c30bf73` has42,741 segmented/42,202 written/508 reduced
+observed pairs and5,362 eligible backbone edges. BAG–WITCH is absent. All native
+records remain;326 guarded source spellings are repaired,109 supplied phonemic
+readings restored and217 spellings explicitly written-only. [Independent influence
+and source checks](research/cinf_projection_verification_2026-11-01.json).
 
-Regional refresh2026-11-01:2,119,818 accepted records; active snapshot `f75765ec76bafb976cbd11f6`.44,421 segmented/43,680 written/508 reduced observed edges, unchanged topology and support counts;156 opportunity summaries change. Full core620.67s/105.74MiB RSS under256MiB AS. [Reconciliation](regional_network_refresh_2026-11-01.json), [current source/coverage batch](REGIONAL_EXECUTION_2026-11-01.md). Earlier dated metrics below are historical.
+The broader76-pair experiment favors simpler models in sampled common/rare
+frames; no experimental posterior or null statistic weights the public graph.
+Publication/dialect scopes and linguistic gold remain incomplete. In particular,
+a dataset/member may pool multiple publications: six control matches lack a match
+in available within-publication comparisons, and200 have no comparable singleton
+citation. These remain inspectable representation candidates, not verified
+within-publication polysemy. [Paper record](research/COLEXIFICATION_RESEARCH.md).
+Older dated build counts below are historical.
 
 Arca computes whole-form colexification from its own accepted constructions.
 This is a derived analytical layer: it does not change words, readings, concept

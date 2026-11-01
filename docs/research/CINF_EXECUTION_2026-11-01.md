@@ -1,7 +1,8 @@
 # Colexification validation and fidelity execution
 
-Authorized CINF-01–05 in sequence on 2026-11-01. This is a running execution
-record; queued tasks are not completed findings. See [the paper record](COLEXIFICATION_RESEARCH.md)
+Authorized CINF-01–05 in sequence on 2026-11-01. All five tracks received bounded execution; independent expert adjudication
+and unresolved source-evidence gates remain open. Analytical assets are prepared
+locally; canonical deployment checks are recorded separately. See [the paper record](COLEXIFICATION_RESEARCH.md)
 and [active queue](../NEXT.md).
 
 ## CINF-01 — bounded first-pass review complete; expert gate retained
@@ -57,7 +58,7 @@ The reviewer's `documented_polysemy` classification is retained in its report
 but not accepted as gold. Expert adjudications remain zero. No error-rate or
 posterior recalibration is licensed by these model-assisted judgments.
 
-## CINF-02 — guarded repairs built; aggregate verification pending
+## CINF-02 — guarded repairs and preservation verified
 
 Read-only preparation found a retained `Phonemic` CLDF column and native
 `Phonemicized Form` values that the spelling-derived tokenization did not use.
@@ -93,7 +94,16 @@ cognacy and every other output column remain unchanged. Previous parser Form
 and Segments are recorded in each correction comment and retained in intake.
 Lower phonetic support for217 formerly token-valid prefixes is an intended
 correction of false confidence, not evidence that spelling constitutes IPA.
-Aggregate and graph deltas are measured later; no new languages are claimed.
+The [full preservation check](cinf_preservation_2026-11-01.json) reconstructs
+the original baseline from checksummed Git shards and recovers the pre-repair
+aggregate projection hash. Outside these three varieties, all lexical columns
+are unchanged;37 records in21 other varieties have only recalculated mechanical
+quality scores. No extra pronunciation, mapping or cognacy change occurred.
+The source-prefix analytical hold count falls3,921→3,595.20 additional witnesses
+are confined to guarded records in these three varieties. There is one new
+written pair, [Piaroa SCRATCH–TURN](hg_fidelity_new_written_edge_2026-11-01.json),
+`ka'rEuh`; its pooled bibliography does not establish lexeme-level polysemy.
+Segmented observed pair count remains42,741. No new languages are claimed.
 
 ## CINF-03 — bounded audit complete; original-witness gaps retained
 
@@ -129,7 +139,7 @@ candidate, not verified within-publication polysemy. No new independent
 replicate is claimed and no blanket production block merger is justified.
 
 
-## CINF-04 — broader streamed protocol frozen; execution pending
+## CINF-04 — frozen broader protocol executed and independently verified
 
 76 pairs are selected before broader context extraction:40 sampled common,
 18 sampled rare/South-American-anchored pairs and18 prior purposive controls.
@@ -159,7 +169,88 @@ of709MiB was inconsistent with that cap; it is not used as a process-memory
 measurement. The execution CLI records Linux VmHWM as well as the hard limit.
 
 
-## CINF-05 — analytical publication (queued)
+[Results](colexification_validation_results_2026-11-01.json),
+[compact summary](colexification_validation_summary_2026-11-01.json),
+[verification](colexification_validation_verification_2026-11-01.json),
+[runtime](colexification_validation_runtime_2026-11-01.json).
+The protocol was committed as `a092afbbd` before broader outcome extraction;
+implementation was committed as `f3e152877` before execution.417,240 potential
+contexts contain45,603 comparable observations,1,387 positives and371,637
+unknowns. Independent SQL recovers labels and all546,172 predictions' folds,
+three baseline formulas and36 aggregate score groups. The complete run takes
+358.32s at70.20MiB Linux VmHWM under256MiB AS. The old18-pair controls' scores
+are recovered by the streamed computation; purpose-selected controls remain
+separate from the two sampled frames. Full contexts, predictions and SQLite
+remain local, bound by the published execution manifest; summaries are public.
+
+| Panel | Comparable | Positive | Resource-fold pooled/pair/shrinkage/ridge log loss (bits) |
+| --- | ---: | ---: | --- |
+| Legacy purposive controls | 28,633 | 1,383 | .283830 / .163779 / .162037 / .148765 |
+| Sampled common | 16,139 | 4 | .003623 / .009348 / .004646 / .003758 |
+| Sampled rare/South-American anchored | 831 | 0 | .002246 / .171848 / .000591 / .002066 |
+
+**Critical decision:** do not adopt ridge globally. The common-frame pooled
+baseline wins; rare-frame shrinkage wins but has no positive examples to test
+positive-event discrimination. The control-panel ridge gains do not generalize
+by assumption. South American controls still favor simpler pair/shrinkage models
+(.17436 versus ridge.18110 in resource transfer; .16707 versus .17059 in family
+transfer). Only75 comparable South American contexts occur in the rare panel;
+absence of recorded matches there is not evidence of linguistic absence.
+The four common-panel positives span three pairs and three known families, not
+four independent validated polysemies. Their source senses remain review targets.
+No empirical annotation-error calibration, worldwide prevalence or superiority
+over CLICS follows from these scores. The frozen frames use marginal coverage;
+we did not silently reinterpret them as a direct sample of co-observed pairs.
+
+Publication sensitivity:1,177 of1,383 positive control contexts retain a match
+under a common singleton citation;200 lack such a comparable citation and six
+have distinct forms in the available within-publication comparison despite a
+pooled match. [Exact six cases](colexification_publication_scope_flags_2026-11-01.json)
+remain source-review candidates, not automatically corrected words. A common
+bibliography key is also not proof of independent fieldwork or polysemy.
+Hypothetical label-flip scores and prior/null diagnostics remain explicitly
+conditional. The execution's `production_graph_weights_changed=false` means
+that validation itself wrote no production weights; the separate analytical
+refresh below changes source-derived assets without using those probabilities.
+
+## CINF-05 — analytical refresh prepared; canonical deployment pending
+
+Core `3a3898b1362a5c2d2c30bf73`:42,741 segmented/42,202 written/508 reduced
+observed pairs;5,362 conservative backbone edges. Communities
+`617951c483ddc3f569627471`:239 groups/1,610 assigned concepts across81 runs.
+[Independent projection checks](cinf_projection_verification_2026-11-01.json)
+recover85,451 influence formulas, unit identity mass bounds, semantic gates and
+all added witnesses' guarded provenance. [Community checks](cinf_community_verification_2026-11-01.json)
+reproduce the selected partition and verify memberships, preview weights and
+25,450 preview edges. Workers peak111.48MiB for the core and89.45MiB for
+communities under256MiB limits. Subgraphs and all concept-entry chunks are
+regenerated with fresh manifest bindings. Experimental probabilities are unused.
+
+[Refreshed CLICS comparison](colexification_clics_refresh_2026-11-01.json):
+within common concept universes, three-family shared edges are2,693/3,260 Arca
+versus4,188 CLICS3 and2,572/2,847 Arca versus3,986 CLICS4. Different source,
+scope and representation policies remain explicit; matching a reference network
+is not the optimization target. The comparison peaks125.92MiB under256MiB.
+
+The first community export failed closed because its fixed CSV header omitted
+optional `catalog_relation`. The declared schema is extended and regression-tested;
+no fields are discarded. All81 runs completed again and passed verification.
+The first web export exhausted the workstation's tmpfs; rerunning its temporary
+SQLite on workspace disk succeeded. [Whole obsolete generations](cinf_asset_retirement_2026-11-01.json)
+are retired only after checking active references; Git history and sealed private
+analytical builds preserve earlier evidence. Explorer plus documentation are
+approximately746MB, within the Pages budget.598 tests and eight local browser
+suites pass; canonical checks follow publication.
+
+The public catalog excludes header-only enrolled candidates, preserving genuine
+audio-only evidence. Accepted nonempty construction count stays7,366 and lexical
+records2,119,818. The [current baseline](cinf_baseline_2026-11-01.json) has470,116
+supported/544,347 mapped core slots and1,209,287 supported/1,337,327 mapped total
+slots. The93/191 supported-slot decreases correct prior phonetic overstatement;
+original written evidence and mappings remain. Source records1,749,823;
+profile records22,178; GLED primaries1,552. This is a fidelity improvement,
+not a count-based claim of new language coverage.
+
 
 Source genealogy, broader streamed protocol and analytical publication follow
 the bounded review and source-fidelity work. Experimental probabilities remain
@@ -172,9 +263,9 @@ records remained in the aggregate, but `load_avid_registry` let the Tuatschin
 custom-dialect row sharing `surs1244` overwrite the canonical Sursilvan mapping.
 Canonical Glottolog rows now take priority independently of CSV row order;
 contradictory canonical mappings fail closed. Both Sursilvan and Tuatschin rebuilt
-successfully (115/38 records). This repairs catalog visibility, not a language
+successfully (115/38 records). This repairs rebuildability, not a language
 addition or independent lexical evidence. Only `surs1244` has duplicate registry
 rows in the current registry; the scope of this repair was checked explicitly.
 The full rebuild's other three failures are catalog-absent historical/sign
 configurations with no generated lexical output; none is counted as accepted
-new data. Aggregate row and unaffected-record checks follow the final rebuild.
+new data. The full preservation check above confirms no extra lexical changes.

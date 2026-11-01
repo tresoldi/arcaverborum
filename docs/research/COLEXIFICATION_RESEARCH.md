@@ -3,6 +3,11 @@
 Living research record begun 2026-11-01. Intended as the reproducible basis for
 a future paper, not a finished manuscript or preregistered confirmatory study.
 
+**Latest execution:** [CINF-01–05 findings and reproducible evidence](CINF_EXECUTION_2026-11-01.md).
+The frozen76-pair streamed study is complete. Sampled panels favor simpler
+baselines; no global ridge promotion or empirical linguistic-confidence calibration.
+Earlier sections preserve the pilot's chronology and superseded proposals.
+
 ## Research questions and claims ledger
 
 1. Which reported whole-form identities survive source/sense/representation review?
@@ -365,14 +370,39 @@ The new experiment needs streamed context storage before expanding the 18-pair
 panel. Actual independent adjudication and original-source evidence remain the
 basis for any measurement-error confidence claim.
 
-## Authorized follow-through: CINF-01–05
+## CINF-01–05 findings and decision ledger
 
-The user authorized all five tracks in sequence on 2026-11-01.
-[Running execution record](CINF_EXECUTION_2026-11-01.md).
-Independent model-assisted evidence review is under way, with explicit
-source/reading/lexeme judgments and retained disagreements. It is not expert
-annotation and cannot yet support empirical measurement-error calibration.
-The frozen review worksheet omitted native questionnaire labels for non-Wiktionary
-sources; a separately hashed supplement recovers all 172 targeted parameter
-labels from intake. These are prompts, not independent attestations of a
-lexeme’s precise sense. The original blinded worksheet remains unchanged.
+The authorized follow-through is executed. [Detailed paper evidence and execution](CINF_EXECUTION_2026-11-01.md)
+records independent model-assisted first passes,326 guarded South American source
+repairs, a ten-member provenance/prompt audit, a frozen76-pair streamed experiment,
+and a correctness-led analytical refresh prepared for publication. Expert
+adjudications remain zero; model review does not substitute for linguistic gold.
+
+The broader experiment changes our recommendation. The18 purposive controls
+retain ridge's aggregate predictive gain, but the40 sampled common pairs favor
+the pooled baseline and the18 rare/South-American-anchored pairs favor shrinkage.
+The latter panels contain only four and zero positives among comparable contexts.
+They cannot establish positive-event calibration or language-wide prevalence.
+South American controls still favor simpler models. Do not promote ridge or
+research posterior/null outputs into global graph weights. Separate sampled
+frames and challenge panels in any paper; report availability and regional
+failures alongside aggregate scores. No claim of universal superiority over
+CLICS is supported by these results.
+
+Six positive control contexts lose the match under available within-publication
+comparison;200 have no comparable singleton citation. This motivates explicit
+publication/dialect observation scopes. Common citation keys and author names
+are not proof of independent data collection. The source-genealogy audit
+establishes WOLD→IDS questionnaire derivation, an IDS bibliographic connection
+for Mapudungun WOLD, Hup fieldwork attribution and Tryon's Budai Rukai scope;
+record-level reuse remains partly unresolved. Missing member rows are never
+asserted lexical absence or non-elicitation without further evidence.
+
+Engineering evidence:417,240 contexts and546,172 predictions stream through
+SQLite; full evaluation peaks70.20MiB under256MiB AS in358.32s. Independent
+SQL recovers labels, folds, three baselines and scores.598 tests/eight local
+browser suites pass. Source fidelity preserves every native record, original
+value, mapping and cognate assignment;109 full database-supplied phonemic
+readings are recovered and217 restored spellings explicitly remain written-only.
+The lower supported counts correct false confidence, not loss of lexical evidence.
+All future paper claims must retain these limitations and failed diagnostic paths.

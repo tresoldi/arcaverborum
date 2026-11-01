@@ -1,0 +1,14 @@
+{
+  "seconds": 358.3150149330031,
+  "peak_rss_mb": 70.203125,
+  "memory_limit_mb": 256,
+  "signature": {
+    "core": "3a3898b1362a5c2d2c30bf73",
+    "database_sha256": "7d835e46392f17fc1442b850a3d72e1e8a2bb1a11413df1c8f88fd89cd7e00a8",
+    "aggregate_sha256": "d149a73f96544472615baccf0868457f02b089671ee46a30c363f13534619d4e",
+    "protocol_sha256": "e266e5f90e7c4e9043f07acf0e026146192cc80c90ae3b0140af22c45b1de81b",
+    "pipeline_sha256": "a1cec576030878e7231f7d1905a3f68585f18e101ed62291bc611a05ca02a7bc",
+    "cli_sha256": "f7fe556edcc39b7dc92fa00308477f7b21c98353a02f9148392113e0bf8dc86c",
+    "inference_library_sha256": "168349fa3139593ad2eea1700c543fe170f6907bc9903db61b9e6f51918acffb"
+  }
+}

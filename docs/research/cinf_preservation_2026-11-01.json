@@ -1,0 +1,1057 @@
+{
+  "records": 2119818,
+  "unaffected_records": 2118854,
+  "reference_commit": "f3e152877",
+  "changed_by_variety": {
+    "afa-somali": 1,
+    "alg-nanticoke": 1,
+    "ara-yucuna": 95,
+    "ine-fala": 4,
+    "ine-istriot": 1,
+    "ine-kabuverdianu": 1,
+    "ine-kriol": 1,
+    "ine-louisiana-creole-french": 1,
+    "ine-mocheno": 1,
+    "ine-morisyen": 1,
+    "ine-picard": 1,
+    "ine-silesian": 5,
+    "ine-sudovian": 4,
+    "map-eastern-bontok": 1,
+    "map-tuwali-ifugao": 1,
+    "nak-aghwan": 1,
+    "sab-piaroa": 108,
+    "sit-lautu": 1,
+    "sit-min-bei-chinese": 5,
+    "sit-zou": 1,
+    "tuc-wa-ikhana": 123,
+    "tuu-n-ng": 2,
+    "urj-kven-finnish": 2,
+    "urj-ter-saami": 1
+  },
+  "changed_fields": {
+    "quality_score": 254,
+    "Form": 326,
+    "Segments": 326,
+    "raw_ipa": 109,
+    "source_pronunciation_id": 109,
+    "Comment": 326,
+    "Segments_Source": 217
+  },
+  "examples": [
+    {
+      "av_id": "afa-somali",
+      "source_form_id": "wikt_467562",
+      "differences": {
+        "quality_score": [
+          "0.9130",
+          "0.9173"
+        ]
+      }
+    },
+    {
+      "av_id": "alg-nanticoke",
+      "source_form_id": "wikt_1237387",
+      "differences": {
+        "quality_score": [
+          "0.2368",
+          "0.2750"
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-13_ankle-1",
+      "differences": {
+        "Form": [
+          "ko",
+          "ko'ojélaji"
+        ],
+        "Segments": [
+          "k o",
+          "k o ʔ o h é l a h i"
+        ],
+        "raw_ipa": [
+          "",
+          "koʔohélahi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-c0d331b75297232e"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'koʔohélahi', not independently field-verified; native feature 356; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ko', Segments 'k o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-14_armpit-1",
+      "differences": {
+        "Form": [
+          "ja",
+          "ja'awílaji"
+        ],
+        "Segments": [
+          "j a",
+          "h a ʔ a w í l a h i"
+        ],
+        "raw_ipa": [
+          "",
+          "haʔawílahi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-436aa7d8334c836a"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'haʔawílahi', not independently field-verified; native feature 358; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ja', Segments 'j a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-25_big-1",
+      "differences": {
+        "Form": [
+          "ñópo",
+          "ñópo'ojlo"
+        ],
+        "Segments": [
+          "ɲ o p o",
+          "ɲ ó p o ʔ o h l o"
+        ],
+        "raw_ipa": [
+          "",
+          "ɲópoʔohlo"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-0edc234701bc40b3"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'ɲópoʔohlo', not independently field-verified; native feature 365; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ñópo', Segments 'ɲ o p o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-26_bite-1",
+      "differences": {
+        "Form": [
+          "ajma",
+          "ajma'akaje"
+        ],
+        "Segments": [
+          "a j m a",
+          "a h m a ʔ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "ahmaʔakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-c1561fee1d58cc5f"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'ahmaʔakahe', not independently field-verified; native feature 367; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ajma', Segments 'a j m a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-29_blow-1",
+      "differences": {
+        "Form": [
+          "apho",
+          "apho'okaje"
+        ],
+        "Segments": [
+          "a pʰ o",
+          "a pʰ o ʔ o k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "apʰoʔokahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-2b602fb1dc280ec0"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'apʰoʔokahe', not independently field-verified; native feature 370; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'apho', Segments 'a pʰ o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-31_boilpimple-1",
+      "differences": {
+        "Form": [
+          "chi",
+          "chi'iji"
+        ],
+        "Segments": [
+          "tsʰ i",
+          "t ʃ i ʔ i h i"
+        ],
+        "raw_ipa": [
+          "",
+          "tʃiʔihi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-48b7b6966b24835e"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'tʃiʔihi', not independently field-verified; native feature 372; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'chi', Segments 'tsʰ i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-34_breast-1",
+      "differences": {
+        "Form": [
+          "chu",
+          "chu'uchú"
+        ],
+        "Segments": [
+          "tsʰ u",
+          "t ʃ u ʔ u t ʃ ú"
+        ],
+        "raw_ipa": [
+          "",
+          "tʃuʔutʃú"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-6d7763bcbe5865a3"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'tʃuʔutʃú', not independently field-verified; native feature 376; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'chu', Segments 'tsʰ u'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-36_burn-1",
+      "differences": {
+        "Form": [
+          "kára",
+          "kára'akaje"
+        ],
+        "Segments": [
+          "k a r a",
+          "k á r a ʔ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "káraʔakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-f657867d6cc99937"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'káraʔakahe', not independently field-verified; native feature 378; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'kára', Segments 'k a r a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-38_child-1",
+      "differences": {
+        "Form": [
+          "to",
+          "to'ojmá"
+        ],
+        "Segments": [
+          "t o",
+          "t o ʔ o h m á"
+        ],
+        "raw_ipa": [
+          "",
+          "toʔohmá"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-300eb05240867f7b"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'toʔohmá', not independently field-verified; native feature 380; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'to', Segments 't o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-39_climb-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'ijrakaje"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i h r a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔihrakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-eb2d543d095d2847"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔihrakahe', not independently field-verified; native feature 381; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-41_cold-1",
+      "differences": {
+        "Form": [
+          "ipe",
+          "ipe'ení"
+        ],
+        "Segments": [
+          "i p e",
+          "i p e ʔ e n í"
+        ],
+        "raw_ipa": [
+          "",
+          "ipeʔení"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-a189f15be8698b5e"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'ipeʔení', not independently field-verified; native feature 383; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ipe', Segments 'i p e'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-43_cook-1",
+      "differences": {
+        "Form": [
+          "moto",
+          "moto'okaje"
+        ],
+        "Segments": [
+          "m o t o",
+          "m o t o ʔ o k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "motoʔokahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-dfdbdf9540957464"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'motoʔokahe', not independently field-verified; native feature 385; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'moto', Segments 'm o t o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-45_count-1",
+      "differences": {
+        "Form": [
+          "lapa",
+          "lapa'atákaje"
+        ],
+        "Segments": [
+          "l a p a",
+          "l a p a ʔ a t á k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "lapaʔatákahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-54b1644416fca96b"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'lapaʔatákahe', not independently field-verified; native feature 387; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'lapa', Segments 'l a p a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-48_cuthack-1",
+      "differences": {
+        "Form": [
+          "mata",
+          "mata'akaje"
+        ],
+        "Segments": [
+          "m a t a",
+          "m a t a ʔ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "mataʔakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-035ab2e7915df44c"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'mataʔakahe', not independently field-verified; native feature 389; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'mata', Segments 'm a t a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-50_diebedead-1",
+      "differences": {
+        "Form": [
+          "taka",
+          "taka'akaje"
+        ],
+        "Segments": [
+          "t a k a",
+          "t a k a ʔ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "takaʔakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-59bdc6bc70b8e09d"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'takaʔakahe', not independently field-verified; native feature 391; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'taka', Segments 't a k a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-55_drink-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'irakaje"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i ɾ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔiɾakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-a338c1fbe218095d"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔiɾakahe', not independently field-verified; native feature 398; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-58_dust-1",
+      "differences": {
+        "Form": [
+          "mu",
+          "mu'upé"
+        ],
+        "Segments": [
+          "m u",
+          "m u ʔ u p é"
+        ],
+        "raw_ipa": [
+          "",
+          "muʔupé"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-d7c04fa52575a26e"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'muʔupé', not independently field-verified; native feature 401; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'mu', Segments 'm u'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-59_ear-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'ijwijí"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i h w i h í"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔihwihí"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-6f7a6b83133d7c81"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔihwihí', not independently field-verified; native feature 402; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-60_earthsoil-1",
+      "differences": {
+        "Form": [
+          "te",
+          "te'erí"
+        ],
+        "Segments": [
+          "t e",
+          "t e ʔ e ɾ í"
+        ],
+        "raw_ipa": [
+          "",
+          "teʔeɾí"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-ea65f0ba2d8c7280"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'teʔeɾí', not independently field-verified; native feature 403; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'te', Segments 't e'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-64_faeces-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'ijñejí"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i h ɲ e h í"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔihɲehí"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-e3f8dbdc700212a9"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔihɲehí', not independently field-verified; native feature 407; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-65_fall-1",
+      "differences": {
+        "Form": [
+          "ja",
+          "ja'akajo"
+        ],
+        "Segments": [
+          "j a",
+          "h a ʔ a k a h o"
+        ],
+        "raw_ipa": [
+          "",
+          "haʔakaho"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-4da32f35ef9bc010"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'haʔakaho', not independently field-verified; native feature 408; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ja', Segments 'j a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-68_father-1",
+      "differences": {
+        "Form": [
+          "hara",
+          "hara'apaji"
+        ],
+        "Segments": [
+          "h a r a",
+          ""
+        ],
+        "Segments_Source": [
+          "source",
+          "unclean"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy orthographic_only; database phonemicization '-haɾaʔ [pá] (hr01), haɾaʔapahi', not independently field-verified; native feature 411; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'hara', Segments 'h a r a'. Original spelling, source IDs and cognacy retained."
+        ],
+        "quality_score": [
+          "0.9643",
+          "0.9624"
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-69_fear-1",
+      "differences": {
+        "Form": [
+          "kero",
+          "kero'okajo"
+        ],
+        "Segments": [
+          "k e r o",
+          "k e r o ʔ o k a h o"
+        ],
+        "raw_ipa": [
+          "",
+          "keroʔokaho"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-23dc398f07216522"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'keroʔokaho', not independently field-verified; native feature 412; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'kero', Segments 'k e r o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-79_foot-1",
+      "differences": {
+        "Form": [
+          "ji",
+          "ji'imaji"
+        ],
+        "Segments": [
+          "j i",
+          "h i ʔ i m a h i"
+        ],
+        "raw_ipa": [
+          "",
+          "hiʔimahi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-794974f7f3ae0c44"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'hiʔimahi', not independently field-verified; native feature 420; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ji', Segments 'j i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-83_grow-1",
+      "differences": {
+        "Form": [
+          "tawá",
+          "tawá'akajo"
+        ],
+        "Segments": [
+          "t a w a",
+          "t a w á ʔ a k a h o"
+        ],
+        "raw_ipa": [
+          "",
+          "tawáʔakaho"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-5c80fb6c4ef8ff2a"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'tawáʔakaho', not independently field-verified; native feature 424; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'tawá', Segments 't a w a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-85_hand-1",
+      "differences": {
+        "Form": [
+          "yáte",
+          "yáte'elaji"
+        ],
+        "Segments": [
+          "y a t e",
+          "j á t e ʔ e l a h i"
+        ],
+        "raw_ipa": [
+          "",
+          "játeʔelahi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-8a940672106a145d"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'játeʔelahi', not independently field-verified; native feature 426; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'yáte', Segments 'y a t e'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-86_head-1",
+      "differences": {
+        "Form": [
+          "wíla",
+          "wíla'aruji"
+        ],
+        "Segments": [
+          "w i l a",
+          "w í l a ʔ a ɾ u h i"
+        ],
+        "raw_ipa": [
+          "",
+          "wílaʔaɾuhi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-2b94e41a0fa42901"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'wílaʔaɾuhi', not independently field-verified; native feature 428; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'wíla', Segments 'w i l a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-87_hear-1",
+      "differences": {
+        "Form": [
+          "jema",
+          "jema'akaje"
+        ],
+        "Segments": [
+          "j e m a",
+          "h e m a ʔ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "hemaʔakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-9ccd0498a6521484"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'hemaʔakahe', not independently field-verified; native feature 429; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'jema', Segments 'j e m a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-91_hit-1",
+      "differences": {
+        "Form": [
+          "ña",
+          "ña'akaje"
+        ],
+        "Segments": [
+          "ɲ a",
+          "ɲ a ʔ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "ɲaʔakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-bb59011d5a80951a"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'ɲaʔakahe', not independently field-verified; native feature 432; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ña', Segments 'ɲ a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-98_intestines-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'ijñepichiji"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i h ɲ e p i t ʃ i h i"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔihɲepitʃihi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-fa0bdb02f245af25"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔihɲepitʃihi', not independently field-verified; native feature 439; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-103_laugh-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'ichakaje"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i t ʃ a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔitʃakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-ba89e1a72be9e166"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔitʃakahe', not independently field-verified; native feature 445; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-104_leaf-1",
+      "differences": {
+        "Form": [
+          "wíchu",
+          "wíchu'upe"
+        ],
+        "Segments": [
+          "w i tsʰ u",
+          "w í t ʃ u ʔ u p e"
+        ],
+        "raw_ipa": [
+          "",
+          "wítʃuʔupe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-9e2f63dd6a50fb30"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'wítʃuʔupe', not independently field-verified; native feature 446; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'wíchu', Segments 'w i tsʰ u'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-107_liedown-1",
+      "differences": {
+        "Form": [
+          "to",
+          "to'okajo"
+        ],
+        "Segments": [
+          "t o",
+          "t o ʔ o k a h o"
+        ],
+        "raw_ipa": [
+          "",
+          "toʔokaho"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-da96b59a18c7ef42"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'toʔokaho', not independently field-verified; native feature 449; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'to', Segments 't o'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-109_livebealive-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'imakaje"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i m a k a h e"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔimakahe"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-480ce348b11215a9"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔimakahe', not independently field-verified; native feature 451; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-114_lung-1",
+      "differences": {
+        "Form": [
+          "maja",
+          "maja'ajéreji"
+        ],
+        "Segments": [
+          "m a j a",
+          "m a h a ʔ a h é r e h i"
+        ],
+        "raw_ipa": [
+          "",
+          "mahaʔahérehi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-7117ac08fae51704"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'mahaʔahérehi', not independently field-verified; native feature 455; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'maja', Segments 'm a j a'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-116_meatflesh-1",
+      "differences": {
+        "Form": [
+          "i",
+          "i'iji"
+        ],
+        "Segments": [
+          "i",
+          "i ʔ i h i"
+        ],
+        "raw_ipa": [
+          "",
+          "iʔihi"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-71169877512e98a8"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'iʔihi', not independently field-verified; native feature 457; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'i', Segments 'i'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-131_openuncover-1",
+      "differences": {
+        "Form": [
+          "me",
+          "me'etákeja"
+        ],
+        "Segments": [
+          "m e",
+          "m e ʔ e t á k e h a"
+        ],
+        "raw_ipa": [
+          "",
+          "meʔetákeha"
+        ],
+        "source_pronunciation_id": [
+          "",
+          "ipa-514cb28b6d2ee713"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy supplied_phonemic; database phonemicization 'meʔetákeha', not independently field-verified; native feature 472; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'me', Segments 'm e'. Original spelling, source IDs and cognacy retained."
+        ]
+      }
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-134_personhumanbeing-1",
+      "differences": {
+        "Form": [
+          "ina",
+          "ina'uké"
+        ],
+        "Segments": [
+          "i n a",
+          ""
+        ],
+        "Segments_Source": [
+          "source",
+          "unclean"
+        ],
+        "Comment": [
+          " ",
+          "; CINF-02: full native spelling restored; policy orthographic_only; database phonemicization \"ina'uké\", not independently field-verified; native feature 475; raw/65.json SHA256 28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73; superseded parser Form 'ina', Segments 'i n a'. Original spelling, source IDs and cognacy retained."
+        ],
+        "quality_score": [
+          "0.9643",
+          "0.9624"
+        ]
+      }
+    }
+  ],
+  "expected_baseline_projection": "f55281bd76fda1297146002526ebf229390fa82016c22ea7c57ece03443676b5",
+  "baseline_projection_recovered": true,
+  "native_fields_outside_three_preserved": true,
+  "native_projection_sha256": "d395ddef602eaf458c7c86b6f9068c5c7baa6cc639a45e90d153a301f47cfa48",
+  "aggregate_sha256": "d149a73f96544472615baccf0868457f02b089671ee46a30c363f13534619d4e",
+  "script_sha256": "c63cc3b35c26dc539cf2b782d1fc9ecc76a06a9bd18ee6b8c57bccddc6ac73d9",
+  "memory_limit_mb": 256
+}

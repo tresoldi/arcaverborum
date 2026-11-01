@@ -298,3 +298,30 @@ Run `scripts/verify_colexification_robustness.py` for all-record preservation an
 for projection invariants. The semantic audit script emits a triage queue and
 never edits mappings automatically. The displayed global partition uses the
 replicated weighted backbone, while reported rare associations remain accessible.
+
+## CINF validation and source-fidelity reproduction
+
+CINF-01–05 received bounded execution; see
+[the paper execution record](docs/research/CINF_EXECUTION_2026-11-01.md),
+[STATUS](docs/STATUS.md) and [remaining gates](docs/planning/HELD.md).
+Use the committed `validation_protocol_v2.json`; never select a new panel after
+reading its outcomes. `scripts/validate_colexification_inference.py --build BUILD
+--protocol src/arcaverborum/data/colexification/validation_protocol_v2.json
+--output NEW_DIRECTORY` streams context/prediction SQLite with a256MiB worker
+cap. `scripts/verify_colexification_validation.py` independently recovers labels,
+folds, baseline formulas and scores. Full private artifacts remain hash-bound;
+public summaries are research diagnostics, not production confidence weights.
+
+`prepare_hg_fidelity_repairs.py` writes a new review packet without changing
+intake/varieties. Guarded transcription policies distinguish supplied phonemic
+readings from explicitly orthographic-only evidence. Never re-tokenize written-only
+forms into IPA. `verify_cinf_preservation.py` reconstructs the pre-batch Git
+snapshot with small Git pack windows under the memory cap; its dated baseline
+is not a general verifier for future unrelated expansions. `verify_cinf_projection.py`
+checks the reviewed additive repair; the earlier deletion-only projection proof
+intentionally rejects new edges and is inappropriate for this additive batch.
+
+Canonical parent mappings take priority over custom dialect rows sharing a
+Glottocode. Header-only builds are not new accepted languages; public catalog
+filtering retains genuinely documented audio-only evidence. Installed-build
+HAVE_UTF8PROC flag-state tests do not claim two physically different libraries.

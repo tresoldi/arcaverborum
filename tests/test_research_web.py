@@ -54,18 +54,27 @@ def test_complete_catalog_and_family_shards_preserve_research_evidence(tmp_path,
     write_csv(aggregate / 'forms.csv', [base, {**base, 'source_form_id': 'two', 'Segments_Source': 'unclean'},
         {**base, 'source_form_id': 'supplement', 'transcription_source': 'supplement',
          'cognate_source': 'supplement', 'Cognacy': '', 'concept_id': 'phy-water', 'Segments_Source': 'source'}])
+    write_csv(aggregate / 'varieties.csv', [
+        dict(av_id='demo', Name='Sample', Family='Family', transcription_source='source', tier='bronze'),
+        dict(av_id='empty', Name='Empty enrolled candidate', Family='Family',
+             transcription_source='source', tier='bronze'),
+        dict(av_id='audio', Name='Audio evidence', Family='Family', transcription_source='source', tier='bronze')])
+    write_csv(tmp_path / 'varieties/audio/generated/recordings.csv',
+              [dict(av_id='audio', source_form_id='audio-only', source='source', raw_marker='►')])
     output = tmp_path / 'web/data'
     manifest = builder.build(tmp_path, output)
     assert manifest['counts']['forms'] == 3
     assert len(manifest['fields']) == len({f.lower() for f in manifest['fields']})
     catalog = json.loads(gzip.decompress((output / 'catalog.json.gz').read_bytes()))
+    assert {r['av_id'] for r in catalog['languages']} == {'demo', 'audio'}
+    assert manifest['counts']['varieties'] == 2
     variety = catalog['languages'][0]
     assert variety['forms'] == 3
     assert variety['supported_core'] == 1  # Synonyms must not inflate concept coverage.
     assert variety['statuses'] == {'profile': 1, 'unclean': 1, 'source': 1}
     assert variety['core_metrics']['forms'] == 2
     assert variety['recordings'] == 1
-    assert manifest['recordings']['records'] == 1
+    assert manifest['recordings']['records'] == 2
     assert (output / 'recordings.csv').exists()
     assert variety['core_metrics']['concept_ids'] == ['bod-head']
     assert variety['source_counts'] == {'source': 2, 'supplement': 1}

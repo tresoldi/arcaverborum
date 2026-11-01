@@ -46,9 +46,14 @@ def test_complete_pilot_and_source_diagnostics(tmp_path, monkeypatch):
     assert communities.family_block_edges(db, {'x-0': 0, 'x-1': 1}, {}) == []
     assert diagnostic['families_without_one_namespace_min'] == 1  # same family survives either source
     db.close()
+    original_diagnostics = communities.support_diagnostics
+    monkeypatch.setattr(communities, 'support_diagnostics',
+                        lambda *a, **kw: original_diagnostics(*a, **kw) | {'catalog_relation': 'contains'})
     monkeypatch.setattr(communities, 'REPLICATES', 2)
     output = communities.build(built)
     manifest = communities.verify(output)
+    with (output / 'edge-diagnostics.csv').open() as handle:
+        assert next(csv.DictReader(handle))['catalog_relation'] == 'contains'
     assert manifest['summary']['assigned_nodes'] == 2
     node = json.loads((output / 'x-2.json').read_text())
     assert node['community'] is None

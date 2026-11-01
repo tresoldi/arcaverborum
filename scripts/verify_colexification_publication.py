@@ -77,6 +77,16 @@ def assets(root):
                  'colexification_semantic_queue_2026-11-01.csv']:
         if (root / 'docs' / name).exists():
             selected.append(('docs/' + name, root / 'docs' / name))
+    for base in [root / 'docs/research', root / 'docs/reviews/cinf-2026-11-01']:
+        if base.exists():
+            for path in base.rglob('*'):
+                if path.is_file() and (base.name == 'cinf-2026-11-01'
+                        or path.name.startswith(('cinf_', 'colexification_validation',
+                            'colexification_publication_scope_flags', 'hg_fidelity',
+                            'colexification_clics_refresh'))
+                        or path.name in {'COLEXIFICATION_RESEARCH.md', 'CINF_EXECUTION_2026-11-01.md'}
+                        or 'source-inventory-2026-11-01' in path.parts):
+                    selected.append((str(path.relative_to(root)), path))
     return selected, manifest
 
 

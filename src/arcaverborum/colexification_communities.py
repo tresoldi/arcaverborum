@@ -284,7 +284,7 @@ def build(built, output=None):
                       'source_namespaces', 'namespace_exclusive_families', 'comparison_bases',
                       'eligible_families','resource_blocks','adjusted_support','resource_survival_support',
                       'families_without_one_block_min','backbone_eligible','clustering_weight',
-                      'unreviewed_semantic_witnesses','reported_witnesses','status']
+                      'unreviewed_semantic_witnesses','reported_witnesses','status','catalog_relation']
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()
             single_source, fragile = 0, 0

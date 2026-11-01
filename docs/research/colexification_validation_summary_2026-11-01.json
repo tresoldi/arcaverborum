@@ -1,0 +1,381 @@
+{
+  "contexts": 417240,
+  "comparable": 45603,
+  "positive": 1387,
+  "unknown": 371637,
+  "panels": [
+    {
+      "panel": "purposive_legacy_controls",
+      "y": null,
+      "n": 70187
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 0,
+      "n": 27250
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 1,
+      "n": 1383
+    },
+    {
+      "panel": "sampled_common",
+      "y": null,
+      "n": 203461
+    },
+    {
+      "panel": "sampled_common",
+      "y": 0,
+      "n": 16135
+    },
+    {
+      "panel": "sampled_common",
+      "y": 1,
+      "n": 4
+    },
+    {
+      "panel": "sampled_rare_south_america",
+      "y": null,
+      "n": 97989
+    },
+    {
+      "panel": "sampled_rare_south_america",
+      "y": 0,
+      "n": 831
+    }
+  ],
+  "publication_sensitivity": [
+    {
+      "panel": "purposive_legacy_controls",
+      "y": null,
+      "publication_y": null,
+      "n": 70187
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 0,
+      "publication_y": null,
+      "n": 3698
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 0,
+      "publication_y": 0,
+      "n": 23552
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 1,
+      "publication_y": null,
+      "n": 200
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 1,
+      "publication_y": 0,
+      "n": 6
+    },
+    {
+      "panel": "purposive_legacy_controls",
+      "y": 1,
+      "publication_y": 1,
+      "n": 1177
+    },
+    {
+      "panel": "sampled_common",
+      "y": null,
+      "publication_y": null,
+      "n": 203461
+    },
+    {
+      "panel": "sampled_common",
+      "y": 0,
+      "publication_y": null,
+      "n": 1793
+    },
+    {
+      "panel": "sampled_common",
+      "y": 0,
+      "publication_y": 0,
+      "n": 14342
+    },
+    {
+      "panel": "sampled_common",
+      "y": 1,
+      "publication_y": 1,
+      "n": 4
+    },
+    {
+      "panel": "sampled_rare_south_america",
+      "y": null,
+      "publication_y": null,
+      "n": 97989
+    },
+    {
+      "panel": "sampled_rare_south_america",
+      "y": 0,
+      "publication_y": null,
+      "n": 105
+    },
+    {
+      "panel": "sampled_rare_south_america",
+      "y": 0,
+      "publication_y": 0,
+      "n": 726
+    }
+  ],
+  "model_scores": {
+    "purposive_legacy_controls": {
+      "resource_block": {
+        "pooled_laplace": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.28383019497647577,
+          "brier": 0.04624887641084194
+        },
+        "pair_laplace": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.1637793549891159,
+          "brier": 0.034509170165986855
+        },
+        "pair_shrinkage_10": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.16203691474269896,
+          "brier": 0.033891287837309714
+        },
+        "ridge_pair_coverage": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.14876511824341687,
+          "brier": 0.03066878600527871
+        }
+      },
+      "family": {
+        "pooled_laplace": {
+          "n": 28456,
+          "positive": 1369,
+          "log_loss_bits": 0.2789047578674285,
+          "brier": 0.045834271021675865
+        },
+        "pair_laplace": {
+          "n": 28456,
+          "positive": 1369,
+          "log_loss_bits": 0.16091671551941553,
+          "brier": 0.03374623448607719
+        },
+        "pair_shrinkage_10": {
+          "n": 28456,
+          "positive": 1369,
+          "log_loss_bits": 0.1601769149746009,
+          "brier": 0.033471042819915024
+        },
+        "ridge_pair_coverage": {
+          "n": 28456,
+          "positive": 1369,
+          "log_loss_bits": 0.14771977810236353,
+          "brier": 0.0303946781369616
+        }
+      },
+      "questionnaire_lineage_sensitivity": {
+        "pooled_laplace": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.2834518456879255,
+          "brier": 0.04622952961623706
+        },
+        "pair_laplace": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.16464876809718654,
+          "brier": 0.03483572853413231
+        },
+        "pair_shrinkage_10": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.16313198635136106,
+          "brier": 0.034264669276865375
+        },
+        "ridge_pair_coverage": {
+          "n": 28633,
+          "positive": 1383,
+          "log_loss_bits": 0.14895527641864756,
+          "brier": 0.03072996952788023
+        }
+      }
+    },
+    "sampled_common": {
+      "resource_block": {
+        "pooled_laplace": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.0036226146766581125,
+          "brier": 0.00024791225327409195
+        },
+        "pair_laplace": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.009347616788457528,
+          "brier": 0.0005145424703780967
+        },
+        "pair_shrinkage_10": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.004645946577198821,
+          "brier": 0.0002506915069052883
+        },
+        "ridge_pair_coverage": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.003757827099034024,
+          "brier": 0.00024823754052509696
+        }
+      },
+      "family": {
+        "pooled_laplace": {
+          "n": 16058,
+          "positive": 4,
+          "log_loss_bits": 0.0033927688957818814,
+          "brier": 0.0002490586467769414
+        },
+        "pair_laplace": {
+          "n": 16058,
+          "positive": 4,
+          "log_loss_bits": 0.010269488497152961,
+          "brier": 0.0005230513516191467
+        },
+        "pair_shrinkage_10": {
+          "n": 16058,
+          "positive": 4,
+          "log_loss_bits": 0.004097824237024908,
+          "brier": 0.00024992427532357823
+        },
+        "ridge_pair_coverage": {
+          "n": 16058,
+          "positive": 4,
+          "log_loss_bits": 0.0034029422742352087,
+          "brier": 0.0002491181708385518
+        }
+      },
+      "questionnaire_lineage_sensitivity": {
+        "pooled_laplace": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.0035869884624798133,
+          "brier": 0.0002478904389252578
+        },
+        "pair_laplace": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.01028267154304201,
+          "brier": 0.0005240221949116005
+        },
+        "pair_shrinkage_10": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.00457240632107575,
+          "brier": 0.00025035492988451265
+        },
+        "ridge_pair_coverage": {
+          "n": 16139,
+          "positive": 4,
+          "log_loss_bits": 0.0037958737924803877,
+          "brier": 0.00024828750607289716
+        }
+      }
+    },
+    "sampled_rare_south_america": {
+      "resource_block": {
+        "pooled_laplace": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.0022463709334020355,
+          "brier": 2.430775332544016e-06
+        },
+        "pair_laplace": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.17184813867070528,
+          "brier": 0.037685335511113444
+        },
+        "pair_shrinkage_10": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.0005910291500587665,
+          "brier": 4.847162604867615e-07
+        },
+        "ridge_pair_coverage": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.0020656087327737957,
+          "brier": 2.069473579757072e-06
+        }
+      },
+      "family": {
+        "pooled_laplace": {
+          "n": 823,
+          "positive": 0,
+          "log_loss_bits": 0.002987558014037877,
+          "brier": 4.623037750193054e-06
+        },
+        "pair_laplace": {
+          "n": 823,
+          "positive": 0,
+          "log_loss_bits": 0.04608808552601236,
+          "brier": 0.0035263541853224993
+        },
+        "pair_shrinkage_10": {
+          "n": 823,
+          "positive": 0,
+          "log_loss_bits": 0.0005366905529213052,
+          "brier": 2.666169693644687e-07
+        },
+        "ridge_pair_coverage": {
+          "n": 823,
+          "positive": 0,
+          "log_loss_bits": 0.0027152080787331153,
+          "brier": 3.82523307275664e-06
+        }
+      },
+      "questionnaire_lineage_sensitivity": {
+        "pooled_laplace": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.004034835181347471,
+          "brier": 8.834131464097433e-06
+        },
+        "pair_laplace": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.1751057383105761,
+          "brier": 0.037903120834989576
+        },
+        "pair_shrinkage_10": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.0012451778313707685,
+          "brier": 2.1721627465136534e-06
+        },
+        "ridge_pair_coverage": {
+          "n": 831,
+          "positive": 0,
+          "log_loss_bits": 0.003675010839156006,
+          "brier": 7.36945216497213e-06
+        }
+      }
+    }
+  },
+  "interpretation": "Distinct conditional panels; no pooled population calibration; independent expert adjudications zero",
+  "decision": "Do not adopt ridge globally: common-frame pooled baseline and rare-frame shrinkage perform better; no empirical measurement-error calibration",
+  "signature": {
+    "core": "3a3898b1362a5c2d2c30bf73",
+    "database_sha256": "7d835e46392f17fc1442b850a3d72e1e8a2bb1a11413df1c8f88fd89cd7e00a8",
+    "aggregate_sha256": "d149a73f96544472615baccf0868457f02b089671ee46a30c363f13534619d4e",
+    "protocol_sha256": "e266e5f90e7c4e9043f07acf0e026146192cc80c90ae3b0140af22c45b1de81b",
+    "pipeline_sha256": "a1cec576030878e7231f7d1905a3f68585f18e101ed62291bc611a05ca02a7bc",
+    "cli_sha256": "f7fe556edcc39b7dc92fa00308477f7b21c98353a02f9148392113e0bf8dc86c",
+    "inference_library_sha256": "168349fa3139593ad2eea1700c543fe170f6907bc9903db61b9e6f51918acffb"
+  }
+}

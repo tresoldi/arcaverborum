@@ -1,0 +1,62 @@
+[
+  {
+    "av": "eaa-fembe",
+    "source": "transnewguineaorg",
+    "member": "transnewguineaorg_fembe",
+    "basis": "normalized_segments",
+    "a": "kin-man",
+    "b": "kin-person",
+    "publication_y": 0,
+    "comparable_publications": 1
+  },
+  {
+    "av": "eaa-samo",
+    "source": "transnewguineaorg",
+    "member": "transnewguineaorg_samo",
+    "basis": "normalized_segments",
+    "a": "kin-man",
+    "b": "kin-person",
+    "publication_y": 0,
+    "comparable_publications": 1
+  },
+  {
+    "av": "low-tabriak",
+    "source": "transnewguineaorg",
+    "member": "transnewguineaorg_tabriak",
+    "basis": "normalized_segments",
+    "a": "kin-man",
+    "b": "kin-person",
+    "publication_y": 0,
+    "comparable_publications": 1
+  },
+  {
+    "av": "nuc-faiwol",
+    "source": "transnewguineaorg",
+    "member": "transnewguineaorg_faiwol",
+    "basis": "normalized_segments",
+    "a": "bod-arm",
+    "b": "bod-hand",
+    "publication_y": 0,
+    "comparable_publications": 1
+  },
+  {
+    "av": "sep-saniyo-hiyewe",
+    "source": "transnewguineaorg",
+    "member": "transnewguineaorg_saniyo-hiyewe",
+    "basis": "normalized_segments",
+    "a": "ani-dog",
+    "b": "mot-path",
+    "publication_y": 0,
+    "comparable_publications": 2
+  },
+  {
+    "av": "urj-veps",
+    "source": "uralex",
+    "member": "uralex_veps",
+    "basis": "normalized_segments",
+    "a": "kin-man",
+    "b": "kin-person",
+    "publication_y": 0,
+    "comparable_publications": 1
+  }
+]

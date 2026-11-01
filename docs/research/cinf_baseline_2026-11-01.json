@@ -1,0 +1,17 @@
+{
+  "accepted_nonempty_constructions": 7366,
+  "aggregate_metadata_rows": 7367,
+  "records": 2119818,
+  "supported_core": 470116,
+  "mapped_core": 544347,
+  "supported_all": 1209287,
+  "mapped_all": 1337327,
+  "segment_sources": {
+    "source": 1749823,
+    "unclean": 159860,
+    "resegmented": 187957,
+    "profile": 22178
+  },
+  "gled_primaries": 1552,
+  "note": "One header-only enrolled prototype remains metadata, excluded from public accepted-language count. 217 source spellings explicitly lack a supported phonetic reading; original lexical evidence retained."
+}

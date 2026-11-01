@@ -288,6 +288,9 @@ def build(root=ROOT, output=None):
                               sha256=hashlib.sha256(recording_path.read_bytes()).hexdigest())
     elif recording_path.exists():
         recording_path.unlink()
+    # Header-only cached builds are enrolled candidates, not accepted lexical data.
+    # Keep genuinely documented audio-only members visible as recording evidence.
+    languages = [row for row in languages if row['forms'] or row['recordings']]
     catalog = dict(languages=languages, concepts=concepts, sources=list(sources.values()),
                    core=sorted(core), core_sources=sorted(core_sources))
     catalog_meta = write_json(output / 'catalog.json.gz', catalog)

@@ -1,6 +1,45 @@
 # Current project state
 
-**Offline colexification inference research (2026-11-01):**
+**CINF-01–05 follow-through (2026-11-01; publication prepared):**
+[execution and paper findings](research/CINF_EXECUTION_2026-11-01.md),
+[baseline](research/cinf_baseline_2026-11-01.json),
+[preservation](research/cinf_preservation_2026-11-01.json).
+326 guarded full-spelling repairs across Piaroa/Wa’ikhana/Yucuna;109 supplied
+phonemic readings,217 explicitly written-only,38 candidates remain held.
+Every lexical record, native Value, mapping and cognate assignment is retained.
+37 other records change only mechanical quality score. Lower supported-slot
+counts correct phonetic overstatement. Sursilvan/Tuatschin canonical lookup is
+repaired; zero-record enrolled candidates do not inflate public language counts.
+
+The frozen76-pair experiment streams417,240 contexts/546,172 predictions at
+70.20MiB under256MiB AS. Sampled common/rare panels contain only4/0 positives;
+simpler baselines beat ridge there. South American control results still favor
+simpler models. No global ridge promotion or calibrated polysemy claim.
+146-case independent model-assisted review and ten-member source/prompt audit
+are complete; independent expert adjudications remain zero. Exact source gates
+remain in [HELD](planning/HELD.md).
+
+Prepared analytical core `3a3898b1362a5c2d2c30bf73`:42,741 segmented/42,202 written
+reported pairs,5,362 backbone edges. Communities `617951c483ddc3f569627471`:
+239 groups/1,610 assigned concepts,81 runs independently checked. Experimental
+probabilities do not supply graph weights.598 tests/eight local browsers pass;
+canonical deployment verification is pending. Earlier snapshots below are
+historical, not the current accepted baseline.
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,366 |
+| Accepted records | 2,119,818 |
+| Supplied/upstream-converted records | 1,749,823 |
+| Profile-backed records | 22,178 |
+| Supported core slots | 470,116 |
+| Mapped core slots | 544,347 |
+| Supported all-concept slots | 1,209,287 |
+| Mapped all-concept slots | 1,337,327 |
+| GLED primaries | 1,552 |
+| Intake records | 16,430,721 |
+
+**Initial 18-pair research execution (historical, 2026-11-01):**
 [living paper record](research/COLEXIFICATION_RESEARCH.md),
 [executed protocol/results](research/colexification_pilot_results_2026-11-01.json),
 [verification](research/colexification_pilot_verification_2026-11-01.json).
@@ -11,7 +50,7 @@ catalog-overlap pairs withheld from clustering. The18-pair pilot covers98,784
 potential contexts/28,633 comparable/1,383 positives and retains70,151 unknowns.
 146 review cases prepared; zero independent linguistic adjudications. Inference was computed offline; research summaries/reference diagnostics are
 published with the paper record, while full context/review files remain local.
-Deployed analytical assets remain the published snapshot below. No experimental
+That initial execution preceded the refreshed analytical snapshot above. No experimental
 probabilities or significance labels enter the public explorer.
 
 **Colexification v2 robustness (2026-11-01):** [research, corrections, mathematical
@@ -30,7 +69,7 @@ Core coverage remains470,209 supported/544,347 mapped. All-concept coverage is
 7,366 constructions, source1,750,040/profile22,178 records and1,552 GLED primaries
 are unchanged. Intake remains16,430,721.
 
-Current core `d5c9b49da8851392bac2e2e0`:44,414 reported segmented pairs;
+Pre-CINF published core `d5c9b49da8851392bac2e2e0`:44,414 reported segmented pairs;
 BAG–WITCH absent.5,551 edges qualify for the semantically gated, family-capped,
 resource-deletion backbone. Communities `d1388af4b69018f3a92012f0`:237 exploratory
 groups/1,613 concepts;81 runs, independent selected partition reproduction and
@@ -58,18 +97,8 @@ Historical regional and earlier analytical counts below retain their original co
 [complete original-source reproduction](regional_source_verification_2026-11-01.json),
 [remaining gates](regional_holds_2026-11-01.csv).
 
-| Measure | Accepted value |
-| --- | ---: |
-| Accepted constructions | 7,366 |
-| Accepted records | 2,119,818 |
-| Supplied/upstream-converted records | 1,750,040 |
-| Profile-backed records | 22,178 |
-| Supported core slots | 470,209 |
-| Mapped core slots | 544,347 |
-| Supported all-concept slots | 1,209,483 |
-| Mapped all-concept slots | 1,337,336 |
-| GLED primaries | 1,552 |
-| Intake records | 16,430,721 |
+Current accepted values are in the CINF baseline table above; regional closure
+metrics remain historical in its dated report.
 
 64 records/47 supported core slots added; one newly explicit17-noun Shinekhen
 written construction. No claim that Buryat was previously absent. Three reviewed
@@ -81,7 +110,7 @@ facsimile acquired; Western Iran/Arabia and other exact source gates remain held
 
 [Local verification](regional_verification_2026-11-01.json):566 tests pass in each
 installed normalization flag state, full lint/JS and six final browser suites pass.
-Current analytical snapshot `f75765ec76bafb976cbd11f6` retains44,421 observed
+Regional-closure analytical snapshot (historical) `f75765ec76bafb976cbd11f6` retains44,421 observed
 segmented edges;156 opportunity summaries change. Community snapshot
 `7d864ac568347d61d304bab4`:237 groups/2,974 concepts, all173,907 preview edges
 verified and selected partition reproduced. Core105.74MiB, worker88.22MiB,

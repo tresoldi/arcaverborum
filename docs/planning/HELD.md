@@ -1,5 +1,25 @@
 # Held work and reopening evidence
 
+**CINF-01–05 gates (2026-11-01):** [execution](../research/CINF_EXECUTION_2026-11-01.md).
+146 independent model-assisted first passes are complete, not expert gold;
+expert adjudications remain zero. Questionnaire labels do not establish exact
+lexeme senses. The76-pair experiment has only4/0 positives in sampled common/
+rare panels; no global ridge promotion, world prevalence or empirical linguistic
+error calibration is licensed. [Six publication-scope flags](../research/colexification_publication_scope_flags_2026-11-01.json)
+and200 positive controls lacking comparable singleton citations require original
+notation/dialect/collection review, not automatic word deletion. Ten source members
+and14,612 native prompt cells are inventoried; missing rows remain unknown, not
+lexical absence or proven non-elicitation. Mapudungun WOLD cites IDS, but copied
+lexical observations require exact provenance. Hup fieldwork attribution and
+Tryon's Budai Rukai scope are documented; Wichí and Lewo/Kwamera original reuse
+remain unresolved.326 South American extraction repairs are complete; [38
+alternatives/annotation/symbol cases](../research/hg_fidelity_holds_2026-11-01.csv)
+remain held.217 restored spellings are written-only until independently justified
+phonetics/profiles, especially Wa’ikhana apostrophes/prosody and Piaroa `Ɂ` or
+private-use notation. No blanket IPA conversion from these strings. A header-only
+Proto-Central Malayo-Polynesian enrollment has no accepted lexical records and is
+excluded from public language counts; do not count it as a new language.
+
 **Colexification v2 semantic/inference holds (2026-11-01):** [method](../COLEXIFICATION_ROBUSTNESS_2026-11-01.md), [ranked implicated senses](../colexification_semantic_queue_2026-11-01.csv). Unreviewed English dictionary mappings remain reported candidates and cannot supply the replicated model until exact source-sense/definition review. BAG ugly-woman/container and27 other new invalid sense equivalences are corrected, not pending. Unknown original-source independence and unequal family/coverage sampling preclude interpreting the backbone or perturbation frequencies as calibrated significance. Retain rare associations; do not erase unexpected meanings by embedding/WordNet distance.
 
 **Regional R00–R09 (2026-11-01):** [exact gates](../regional_holds_2026-11-01.csv), [execution](../REGIONAL_EXECUTION_2026-11-01.md). Mongolic download access is resolved: the complete2026-03-25 Unicode edition is ingested;17 Shinekhen written nouns are accepted. Remaining columns/readings require their own authority. Bove1883 original facsimile is acquired, transcription pending. DILA theme MIT is not lexical permission; Kitchen South Arabian original citations are explicitly unidentified; Kuria Muria ND terms do not silently permit an adapted profile. Yagnobi breast was withheld for exact sense. Three LexiRumah primary promotions are complete; Lepcha remains held. Earlier source-specific holds are unchanged.
