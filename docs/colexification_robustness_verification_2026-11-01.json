@@ -1,5 +1,5 @@
 {
-  "status": "Local validation passed; canonical verification pending",
+  "status": "Local and canonical validation passed",
   "unit_tests": 575,
   "installed_merkmal_flag_states": [
     true,
@@ -36,5 +36,16 @@
   "core_peak_rss_mib": 112.77,
   "community_parent_peak_rss_mib": 90.63,
   "community_worker_peak_rss_mib": 67.32,
-  "analytical_memory_limit_mib": 256
+  "analytical_memory_limit_mib": 256,
+  "canonical_artifacts": 25314,
+  "live_browser_suites": {
+    "colexification_robustness": 0,
+    "colexification": 0,
+    "colexification_communities": 0,
+    "concept_entries": 0,
+    "wordnet": 0,
+    "research": 0,
+    "regional_expansion": 0
+  },
+  "data_commit": "65071a03fc41e798d1df3430be44e706ab3dda76"
 }

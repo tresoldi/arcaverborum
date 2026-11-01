@@ -1,0 +1,27 @@
+{
+  "base_url": "https://arcaverborum.org/",
+  "analytical_build_id": "d5c9b49da8851392bac2e2e0",
+  "community_spec": {
+    "url": "data/colexification-communities/d1388af4b69018f3a92012f0/manifest.json",
+    "bytes": 520959,
+    "sha256": "4bcdab5b6628e7f54f1ed23f17b82682c334e7b8180927bb2f0f9e389b791a4d"
+  },
+  "checked_assets": 25314,
+  "failures": [],
+  "all_match": true,
+  "data_commit": "65071a03fc41e798d1df3430be44e706ab3dda76",
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41293010721",
+  "ci_conclusion": "success",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41293010705",
+  "pages_conclusion": "success",
+  "live_browser_suites": {
+    "colexification_robustness": 0,
+    "colexification": 0,
+    "colexification_communities": 0,
+    "concept_entries": 0,
+    "wordnet": 0,
+    "research": 0,
+    "regional_expansion": 0
+  },
+  "scope": "Active lexical/concept/analytical transports and selected application/method/decision assets at the data commit. Closure changes verification documentation only."
+}

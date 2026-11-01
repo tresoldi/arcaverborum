@@ -27,7 +27,13 @@ contains1,129 unreviewed implicated mappings, not1,129 proven errors.
 [Local validation](colexification_robustness_verification_2026-11-01.json):575 tests
 pass in each installed normalization flag state; lint/JS and seven final browser
 suites pass. All projection invariants, preview weights and full selected
-partition reproduction pass. Canonical publication verification is pending.
+partition reproduction pass. [Canonical publication proof](colexification_robustness_publication_2026-11-01.json):
+data commit `65071a03f` pushed;
+[CI](https://github.com/tresoldi/arcaverborum/actions/runs/41293010721) and
+[Pages](https://github.com/tresoldi/arcaverborum/actions/runs/41293010705) succeed.
+All25,314 selected active artifacts match https://arcaverborum.org/; all seven
+live browser suites pass, including BAG/WITCH regression. Subsequent closure
+updates verification documentation only.
 Historical regional and earlier analytical counts below retain their original context.
 
 ## Historical regional expansion before the v2 sense corrections
