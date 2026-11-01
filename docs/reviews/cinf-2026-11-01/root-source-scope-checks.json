@@ -1,0 +1,146 @@
+[
+  {
+    "case_id": "2907b053d20cfd286b857bfa",
+    "source_file": "raw/lexibank/transnewguineaorg/cldf/forms.csv",
+    "source_sha256": "9e8027cfbbcc169e804519ed66e0745d967883b4ad3b35bd64d814e4f765f352",
+    "records": [
+      {
+        "ID": "saniyo-hiyewe-2015_path-1",
+        "Local_ID": "1320",
+        "Language_ID": "saniyo-hiyewe",
+        "Parameter_ID": "2015_path",
+        "Value": "yo",
+        "Form": "yo",
+        "Segments": "j o",
+        "Comment": "path",
+        "Source": "macdonald-1973",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^ y o $",
+        "Profile": "default"
+      },
+      {
+        "ID": "saniyo-hiyewe-14_dog-1",
+        "Local_ID": "1324",
+        "Language_ID": "saniyo-hiyewe",
+        "Parameter_ID": "14_dog",
+        "Value": "you",
+        "Form": "you",
+        "Segments": "j o u",
+        "Comment": "",
+        "Source": "macdonald-1973",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^ y o u $",
+        "Profile": "default"
+      },
+      {
+        "ID": "saniyo-hiyewe-14_dog-2",
+        "Local_ID": "224715",
+        "Language_ID": "saniyo-hiyewe",
+        "Parameter_ID": "14_dog",
+        "Value": "yo",
+        "Form": "yo",
+        "Segments": "j o",
+        "Comment": "",
+        "Source": "dye-et-al-1968",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^ y o $",
+        "Profile": "default"
+      },
+      {
+        "ID": "saniyo-hiyewe-2015_path-2",
+        "Local_ID": "224735",
+        "Language_ID": "saniyo-hiyewe",
+        "Parameter_ID": "2015_path",
+        "Value": "yomay",
+        "Form": "yomay",
+        "Segments": "j o m a j",
+        "Comment": "",
+        "Source": "dye-et-al-1968",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^ y o m a y $",
+        "Profile": "default"
+      }
+    ],
+    "decision": "Cross-publication identity not independent within-publication confirmation; exact readings remain source-review candidates"
+  },
+  {
+    "case_id": "85c1d5b9d0eab97fe70be9d8",
+    "source_file": "raw/lexibank/transnewguineaorg/cldf/forms.csv",
+    "source_sha256": "9e8027cfbbcc169e804519ed66e0745d967883b4ad3b35bd64d814e4f765f352",
+    "records": [
+      {
+        "ID": "dedua-2016_foot-1",
+        "Local_ID": "91541",
+        "Language_ID": "dedua",
+        "Parameter_ID": "2016_foot",
+        "Value": "hani-",
+        "Form": "hani-",
+        "Segments": "h a n i",
+        "Comment": "(its) foot",
+        "Source": "mcelhanon-1967",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^h a n i -$",
+        "Profile": "default"
+      },
+      {
+        "ID": "dedua-1675_legfoot-1",
+        "Local_ID": "159311",
+        "Language_ID": "dedua",
+        "Parameter_ID": "1675_legfoot",
+        "Value": "hani",
+        "Form": "hani",
+        "Segments": "h a n i",
+        "Comment": "",
+        "Source": "mcelhanon_and_voorhoeve1970",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^h a n i $",
+        "Profile": "default"
+      }
+    ],
+    "decision": "Cross-publication identity not independent within-publication confirmation; exact readings remain source-review candidates"
+  },
+  {
+    "case_id": "9183df8d327a07c3421da908",
+    "source_file": "raw/lexibank/transnewguineaorg/cldf/forms.csv",
+    "source_sha256": "9e8027cfbbcc169e804519ed66e0745d967883b4ad3b35bd64d814e4f765f352",
+    "records": [
+      {
+        "ID": "southern-kiwai-2015_path-1",
+        "Local_ID": "17369",
+        "Language_ID": "southern-kiwai",
+        "Parameter_ID": "2015_path",
+        "Value": "gabo",
+        "Form": "gabo",
+        "Segments": "g a b o",
+        "Comment": "path",
+        "Source": "wurm-1973",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^ g a b o $",
+        "Profile": "default"
+      },
+      {
+        "ID": "southern-kiwai-54_roadpath-1",
+        "Local_ID": "160129",
+        "Language_ID": "southern-kiwai",
+        "Parameter_ID": "54_roadpath",
+        "Value": "gabo",
+        "Form": "gabo",
+        "Segments": "g a b o",
+        "Comment": "",
+        "Source": "mcelhanon_and_voorhoeve1970",
+        "Cognacy": "",
+        "Loan": "",
+        "Graphemes": "^ g a b o $",
+        "Profile": "default"
+      }
+    ],
+    "decision": "Cross-publication identity not independent within-publication confirmation; exact readings remain source-review candidates"
+  }
+]

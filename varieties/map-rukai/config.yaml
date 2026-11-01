@@ -19,4 +19,7 @@ scoring:
 pinned: false
 registered_on: '2026-05-20'
 notes: 'auto: forms=tryoncad (1.00); cognates=acd (0.67) [cross-source: emitted cognates
-  still come from transcription_source]'
+  still come from transcription_source]; Source scope reviewed CINF-03: Tryon1995
+  RUK wordlist is Budai Rukai, contributed by Paul Jen-kuei Li (Part 1, fascicle 1,
+  p.297). This identifies this lexical source, not every Rukai variety or cross-source
+  cognate sample.'

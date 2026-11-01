@@ -52,7 +52,22 @@ def read_protocol(root):
     return protocol, concepts, sha(path)
 
 
-def contexts(db, protocol):
+def publication_outcome(left, right):
+    """Sensitivity limited to common singleton citations; pooled/absent refs stay unknown."""
+    grouped = []
+    for readings in [left, right]:
+        by_publication = defaultdict(list)
+        for row in readings:
+            refs = {ref.strip().split("[", 1)[0] for ref in row[3].split(";") if ref.strip()}
+            if len(refs) == 1:
+                by_publication[next(iter(refs))].append(row)
+        grouped.append(by_publication)
+    outcomes = [outcome(grouped[0][ref], grouped[1][ref]) for ref in sorted(grouped[0].keys() & grouped[1].keys())]
+    observed = [y for y in outcomes if y is not None]
+    return (max(observed) if observed else None), len(observed), len(set(observed)) > 1
+
+
+def contexts(db, protocol, *, publication=False):
     scopes = db.execute("""SELECT DISTINCT s.id,s.av,s.source,s.member,s.tags,s.basis,
       v.language,v.family,v.area,b.block FROM scopes s JOIN readings r ON r.sid=s.id
       JOIN varieties v ON v.av=s.av JOIN resource_blocks b ON b.source=s.source
@@ -71,8 +86,8 @@ def contexts(db, protocol):
     )
     for i, pair in enumerate(protocol["pairs"]):
         groups = defaultdict(lambda: defaultdict(list))
-        for sid, cid, key, fid, param in db.execute(
-            """SELECT sid,cid,key,fid,param FROM valid
+        for sid, cid, key, fid, param, bib in db.execute(
+            """SELECT sid,cid,key,fid,param,bib FROM valid
           WHERE layer='segmented' AND cid IN (?,?) AND semantic<>'unreviewed_dictionary_sense'
           ORDER BY sid,cid,key,fid,param""",
             (pair["a"], pair["b"]),
@@ -80,7 +95,7 @@ def contexts(db, protocol):
             g = groups[sid][cid]
             if len(g) >= protocol["reading_cap_per_scope_pair"]:
                 raise ValueError("Pilot reading budget exceeded; no truncated contexts exported")
-            g.append((key, fid, param))
+            g.append((key, fid, param, bib))
         for sid, meta in metadata.items():
             left, right = groups[sid][pair["a"]], groups[sid][pair["b"]]
             if len(left) + len(right) > protocol["reading_cap_per_scope_pair"]:
@@ -92,7 +107,12 @@ def contexts(db, protocol):
             )
             la = sum(map(length, {r[0] for r in left})) / max(1, len({r[0] for r in left}))
             lb = sum(map(length, {r[0] for r in right})) / max(1, len({r[0] for r in right}))
-            yield meta | dict(
+            extra = {}
+            if publication:
+                pub_y, pub_n, pub_conflict = publication_outcome(left, right)
+                extra = dict(publication_y=pub_y, comparable_publications=pub_n,
+                             conflicting_publications=int(pub_conflict))
+            yield meta | extra | dict(
                 pair=i,
                 a=pair["a"],
                 b=pair["b"],
@@ -140,7 +160,7 @@ def scores(rows, predictions):
     )
 
 
-def ridge_predict(train, test, count):
+def ridge_predict(train, test, count, *, streaming=False):
     """Exact small sparse Newton system; no dense observation matrix or BLAS."""
 
     def raw(r):
@@ -154,7 +174,12 @@ def ridge_predict(train, test, count):
         z = raw(r)
         return [(r["pair"], 1.0)] + [(count + j, (z[j] - mean[j]) / sd[j]) for j in range(3)]
 
-    examples = [(r["y"], features(r)) for r in train]
+    class Examples:
+        def __iter__(self):
+            for r in train:
+                yield r["y"], features(r)
+
+    examples = Examples() if streaming else [(r["y"], features(r)) for r in train]
     base = (sum(r["y"] for r in train) + 1) / (len(train) + 2)
     offset = math.log(base / (1 - base))
     beta = [0.0] * (count + 3)

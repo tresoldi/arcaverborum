@@ -177,6 +177,7 @@ def build_catalog(
 def load_avid_registry(path: Path = VARIETIES_OUT) -> dict[str, str]:
     """Glottocode -> frozen av_id, from the committed registry."""
     registry: dict[str, str] = {}
+    canonical: set[str] = set()
     if not path.exists():
         return registry
     with path.open(encoding="utf-8") as f:
@@ -184,7 +185,14 @@ def load_avid_registry(path: Path = VARIETIES_OUT) -> dict[str, str]:
             gc = (row.get("glottocode") or "").strip().lower()
             aid = (row.get("av_id") or "").strip()
             if gc and aid:
-                registry[gc] = aid
+                is_canonical = row.get("in_glottolog", "").strip().lower() == "true"
+                if is_canonical:
+                    if gc in canonical and registry[gc] != aid:
+                        raise ValueError("Multiple canonical varieties for Glottocode: " + gc)
+                    canonical.add(gc)
+                    registry[gc] = aid
+                elif gc not in canonical:
+                    registry[gc] = aid
     return registry
 
 

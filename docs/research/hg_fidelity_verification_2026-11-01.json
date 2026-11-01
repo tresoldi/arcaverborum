@@ -1,0 +1,140 @@
+{
+  "sab-piaroa": {
+    "records": 351,
+    "changed_records": 108,
+    "changed_fields": {
+      "Comment": 108,
+      "Segments_Source": 87,
+      "quality_score": 87,
+      "Form": 108,
+      "Segments": 108,
+      "source_pronunciation_id": 21,
+      "raw_ipa": 21
+    },
+    "before_segment_sources": {
+      "source": 351
+    },
+    "after_segment_sources": {
+      "source": 264,
+      "unclean": 87
+    },
+    "unchanged_fields": [
+      "av_id",
+      "Glottocode",
+      "Variety_Name",
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID",
+      "Value",
+      "pronunciation_tags",
+      "Cognacy",
+      "canonical_cognate_id",
+      "Alignment",
+      "Morpheme_Index",
+      "Segment_Slice",
+      "Doubt",
+      "Cognate_Detection_Method",
+      "Cognate_Source",
+      "Loan",
+      "transcription_source",
+      "cognate_source",
+      "source_form_id",
+      "source_language_id",
+      "source_parameter_id",
+      "bibtex_key",
+      "tier"
+    ]
+  },
+  "tuc-wa-ikhana": {
+    "records": 230,
+    "changed_records": 123,
+    "changed_fields": {
+      "Comment": 123,
+      "Segments_Source": 123,
+      "quality_score": 123,
+      "Form": 123,
+      "Segments": 123
+    },
+    "before_segment_sources": {
+      "source": 230
+    },
+    "after_segment_sources": {
+      "unclean": 123,
+      "source": 107
+    },
+    "unchanged_fields": [
+      "av_id",
+      "Glottocode",
+      "Variety_Name",
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID",
+      "Value",
+      "raw_ipa",
+      "pronunciation_tags",
+      "source_pronunciation_id",
+      "Cognacy",
+      "canonical_cognate_id",
+      "Alignment",
+      "Morpheme_Index",
+      "Segment_Slice",
+      "Doubt",
+      "Cognate_Detection_Method",
+      "Cognate_Source",
+      "Loan",
+      "transcription_source",
+      "cognate_source",
+      "source_form_id",
+      "source_language_id",
+      "source_parameter_id",
+      "bibtex_key",
+      "tier"
+    ]
+  },
+  "ara-yucuna": {
+    "records": 383,
+    "changed_records": 95,
+    "changed_fields": {
+      "source_pronunciation_id": 88,
+      "Comment": 95,
+      "raw_ipa": 88,
+      "Form": 95,
+      "Segments": 95,
+      "Segments_Source": 7,
+      "quality_score": 7
+    },
+    "before_segment_sources": {
+      "source": 383
+    },
+    "after_segment_sources": {
+      "source": 376,
+      "unclean": 7
+    },
+    "unchanged_fields": [
+      "av_id",
+      "Glottocode",
+      "Variety_Name",
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID",
+      "Value",
+      "pronunciation_tags",
+      "Cognacy",
+      "canonical_cognate_id",
+      "Alignment",
+      "Morpheme_Index",
+      "Segment_Slice",
+      "Doubt",
+      "Cognate_Detection_Method",
+      "Cognate_Source",
+      "Loan",
+      "transcription_source",
+      "cognate_source",
+      "source_form_id",
+      "source_language_id",
+      "source_parameter_id",
+      "bibtex_key",
+      "tier"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# Codex blinded first-pass review
+
+Reviewed 146 worksheet cases as qualitative model-assisted triage, not expert gold labels or calibrated probabilities. Counts: identity 41 represented, 52 sampled nonmatches, 53 insufficient; sense 97 mapping unverified, 36 catalog overlap, 13 insufficient; reading 37 internally consistent, 85 derivation requires review, six suspected truncation, two inconsistent, 16 insufficient. Represented identity is equality under the supplied comparison basis, not established phonetic equivalence, lexical polysemy or homonymy. A sampled nonmatch does not establish lexical absence.
+
+All native-sense arrays in the worksheet were empty. Judgments cite every supplied native record and its retained Value, Form and Segments; original source scans were not independently verified for each case. The parameter identifiers and frozen mappings do not independently establish sense equivalence. Fidelity judgments concern retained-field consistency and potential extraction or conversion issues, not validated pronunciation; original sources and specialist review are needed. Catalog-overlap labels concern the frozen definitions, not proof of source-sense equivalence.
+
+Familiarity: I had prior general knowledge of the documented BAG–WITCH mapping and huntergatherer extraction issues from methodological context, but had not previously reviewed these case IDs. I inadvertently saw an older completed agent's summary when querying collaboration status; I did not use it as evidence for the case judgments. I did not read the other reviewer's output, predictions or analyst key.
+
+Formatting normalization: preserved the initial file as `codex-first-pass-original.csv`. In `codex-first-pass.csv`, replaced the explanatory placeholder in `evidence_ids` with an empty field for 16 cases having no supplied original records on either side. The evidence text retains the no-data explanation. No judgments were changed.

@@ -11,8 +11,12 @@ The corrected private core is `346e40d2896330f6afc55400`; deployed analytical
 assets remain the preceding published snapshot. Experimental probabilities are
 not a production graph-weight replacement.
 
-Proposed next batch (planning only; no new lexical execution authorized by this
-recommendation request):
+Authorized execution batch (2026-11-01): proceed through CINF-01–05 in order.
+CINF-01 completed bounded model-assisted review; its expert gate remains open.
+CINF-02 has built guarded repairs; aggregate checks remain. CINF-03 completed
+a bounded source/prompt audit with unresolved original-witness gates. CINF-04
+is reviewing; CINF-05 is queued. Model-assisted first passes
+do not replace expert adjudication; unresolved evidence gates remain explicit.
 
 1. **CINF-01 — Adjudicate the existing 146-case worksheet.** Baseline: zero
    independent adjudications, with 41 recorded positives/51 sampled nonmatches/

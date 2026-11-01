@@ -7,7 +7,7 @@ sources:
   transcription: huntergatherer
   cognates: chacontukanoan
 extensions:
-  transcriptions: false
+  transcriptions: true
   forms: false
   cognates: false
   concept_map: false
@@ -19,4 +19,5 @@ scoring:
 pinned: false
 registered_on: '2026-05-20'
 notes: 'auto: forms=huntergatherer (0.98); cognates=chacontukanoan (0.90) [cross-source:
-  emitted cognates still come from transcription_source]'
+  emitted cognates still come from transcription_source]; CINF-02 guarded native spelling/phonemic-column
+  recovery; uncertain notation retained as written evidence only.'

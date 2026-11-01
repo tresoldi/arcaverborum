@@ -1,0 +1,3625 @@
+[
+  {
+    "case_id": "000936ada665600725e7cd30",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "blumpanotacana_292_sun",
+        "Dataset": "blumpanotacana",
+        "Name": "sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "000936ada665600725e7cd30",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "blumpanotacana_236_daynotnight",
+        "Dataset": "blumpanotacana",
+        "Name": "day (not night)",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "0072b9050a3928570144bff4",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "sagartst_80_thehairofthehead",
+        "Dataset": "sagartst",
+        "Name": "the hair (of the head)",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "0072b9050a3928570144bff4",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "sagartst_17_thebodyhairhairorfur",
+        "Dataset": "sagartst",
+        "Name": "the body hair (hair or fur)",
+        "Concepticon_ID": "2678"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "056202bf2f1393b3306436a3",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_91_tree",
+        "Dataset": "transnewguineaorg",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "056202bf2f1393b3306436a3",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_19_eye",
+        "Dataset": "transnewguineaorg",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "083526191d56ecfd1cdca9a5",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "083526191d56ecfd1cdca9a5",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_54_roadpath",
+        "Dataset": "transnewguineaorg",
+        "Name": "road/path",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "09da285a364e8caea0f08d28",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "kraftchadic_28_father",
+        "Dataset": "kraftchadic",
+        "Name": "father",
+        "Concepticon_ID": "1217"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "09da285a364e8caea0f08d28",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "kraftchadic_29_mother",
+        "Dataset": "kraftchadic",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "0a199955580e86f6900f6429",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "chenhmongmien_200_tree",
+        "Dataset": "chenhmongmien",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "0a199955580e86f6900f6429",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "chenhmongmien_327_wood",
+        "Dataset": "chenhmongmien",
+        "Name": "wood",
+        "Concepticon_ID": "1803"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "0b7d0389c047f67fe82f5e28",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "halenepal_84_path",
+        "Dataset": "halenepal",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "0b7d0389c047f67fe82f5e28",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "halenepal_659_road",
+        "Dataset": "halenepal",
+        "Name": "road",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "12646ef69485db302ba9a88c",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "bowernpny_314_tree",
+        "Dataset": "bowernpny",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "12646ef69485db302ba9a88c",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "bowernpny_114_eye",
+        "Dataset": "bowernpny",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "12ac79c067bec756ed9e28d3",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_2-210",
+        "Dataset": "idssegmented",
+        "Name": "man (vs. woman)",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "12ac79c067bec756ed9e28d3",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "14a333e789dfdaf8b050ab8f",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "chindialectsurvey_3_moon",
+        "Dataset": "chindialectsurvey",
+        "Name": "moon",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "14a333e789dfdaf8b050ab8f",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "16d8405cd3f5f2f21989cb1e",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_193_dog",
+        "Dataset": "tryoncad",
+        "Name": "DOG",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "16d8405cd3f5f2f21989cb1e",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_771_path",
+        "Dataset": "tryoncad",
+        "Name": "PATH",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "182a5506da5613d98db110f9",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "iecor_181",
+        "Dataset": "iecor",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "182a5506da5613d98db110f9",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "iecor_40",
+        "Dataset": "iecor",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "19ad66969e68a00e626ddd66",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "robbeetstriangulation_220_moonn",
+        "Dataset": "robbeetstriangulation",
+        "Name": "moon (n.)",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "19ad66969e68a00e626ddd66",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "robbeetstriangulation_151_monthn",
+        "Dataset": "robbeetstriangulation",
+        "Name": "month (n.)",
+        "Concepticon_ID": "1370"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "19adbe3e695c5bbeb67f2491",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "walkerarawakan_82_fire",
+        "Dataset": "walkerarawakan",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "19adbe3e695c5bbeb67f2491",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "walkerarawakan_87_red",
+        "Dataset": "walkerarawakan",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1acb24ba1131358ef14fa08e",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1acb24ba1131358ef14fa08e",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1b456d3afbc2f11f187ee9da",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_292_arm",
+        "Dataset": "tryoncad",
+        "Name": "ARM",
+        "Concepticon_ID": "1673"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1b456d3afbc2f11f187ee9da",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_296_hand",
+        "Dataset": "tryoncad",
+        "Name": "HAND",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1bc9995a55b913affa75b7e5",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_94_water",
+        "Dataset": "transnewguineaorg",
+        "Name": "water",
+        "Concepticon_ID": "948"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1bc9995a55b913affa75b7e5",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_189_three",
+        "Dataset": "transnewguineaorg",
+        "Name": "three",
+        "Concepticon_ID": "492"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1bf4b4df84b5e3a68e6934d2",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tls_60_dog",
+        "Dataset": "tls",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1bf4b4df84b5e3a68e6934d2",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tls_325_path",
+        "Dataset": "tls",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1fb9d9c816678211a2a436ee",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "walworthpolynesian_96_dog",
+        "Dataset": "walworthpolynesian",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "1fb9d9c816678211a2a436ee",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "walworthpolynesian_134_thunder",
+        "Dataset": "walworthpolynesian",
+        "Name": "thunder",
+        "Concepticon_ID": "1150"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "220d82ff896a218fb9d24be3",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "hubercolumbian_102_deer",
+        "Dataset": "hubercolumbian",
+        "Name": "deer",
+        "Concepticon_ID": "1936"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "220d82ff896a218fb9d24be3",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "hubercolumbian_16_abdomenbelly",
+        "Dataset": "hubercolumbian",
+        "Name": "abdomen, belly",
+        "Concepticon_ID": "1251"
+      },
+      {
+        "ID": "hubercolumbian_272_belly",
+        "Dataset": "hubercolumbian",
+        "Name": "belly",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "226ddfb9eeea7392bd656209",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "abvdphilippines_60_father",
+        "Dataset": "abvdphilippines",
+        "Name": "father",
+        "Concepticon_ID": "1217"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "226ddfb9eeea7392bd656209",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "abvdphilippines_59_mother",
+        "Dataset": "abvdphilippines",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "23c9c053151969e6c60fcfc9",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "mattercariban_17",
+        "Dataset": "mattercariban",
+        "Name": "man",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "23c9c053151969e6c60fcfc9",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "mattercariban_18",
+        "Dataset": "mattercariban",
+        "Name": "person",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "26b9f59b5fe821bd0126ee1a",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "aaleykusunda_80_thehairofthehead",
+        "Dataset": "aaleykusunda",
+        "Name": "the hair (of the head)",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "26b9f59b5fe821bd0126ee1a",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "aaleykusunda_17_thebodyhairhairorfur",
+        "Dataset": "aaleykusunda",
+        "Name": "the body hair (hair or fur)",
+        "Concepticon_ID": "2678"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2731433d8f9a64b4c70bf1c5",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "gravinachadic_650_tree",
+        "Dataset": "gravinachadic",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2731433d8f9a64b4c70bf1c5",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "27dc1705452693cb6343b0e9",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_94_water",
+        "Dataset": "transnewguineaorg",
+        "Name": "water",
+        "Concepticon_ID": "948"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "27dc1705452693cb6343b0e9",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2907b053d20cfd286b857bfa",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_14_dog",
+        "Dataset": "transnewguineaorg",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2907b053d20cfd286b857bfa",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2015_path",
+        "Dataset": "transnewguineaorg",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2982ca7229b306887c4f46f0",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "chenhmongmien_3_moon",
+        "Dataset": "chenhmongmien",
+        "Name": "moon",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2982ca7229b306887c4f46f0",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "chenhmongmien_468_month",
+        "Dataset": "chenhmongmien",
+        "Name": "month",
+        "Concepticon_ID": "1370"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2b7316b684699b0464c4e1cb",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_79_foot",
+        "Dataset": "huntergatherer",
+        "Name": "foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2b7316b684699b0464c4e1cb",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "huntergatherer_106_legfoot",
+        "Dataset": "huntergatherer",
+        "Name": "leg/foot",
+        "Concepticon_ID": "2098"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2cf1b77b2904dc8de1c48869",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "northeuralex_26_arm",
+        "Dataset": "northeuralex",
+        "Name": "arm",
+        "Concepticon_ID": "1673"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2cf1b77b2904dc8de1c48869",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "northeuralex_28_hand",
+        "Dataset": "northeuralex",
+        "Name": "hand",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2e415de66f2e7bc608ac0ef8",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "gerardije2025_ani-deer",
+        "Dataset": "gerardije2025",
+        "Name": "DEER",
+        "Concepticon_ID": "1936"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2e415de66f2e7bc608ac0ef8",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "gerardije2025_bod-belly",
+        "Dataset": "gerardije2025",
+        "Name": "BELLY",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2e4a21195472b4aa6b2324fa",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "gravinachadic_303_head",
+        "Dataset": "gravinachadic",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2e4a21195472b4aa6b2324fa",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "gravinachadic_412_mother",
+        "Dataset": "gravinachadic",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2f3c59648ebeb355eae2d0c2",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "bowernpny_116_fall",
+        "Dataset": "bowernpny",
+        "Name": "fall",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "2f3c59648ebeb355eae2d0c2",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "307b7261e0c30590db66aea5",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "307b7261e0c30590db66aea5",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "30cf67e3f454996c448a50af",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "30cf67e3f454996c448a50af",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "334a22c38ee9f03726f7280d",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "kleinewillinghoeferbikwinjen_Kleinewillinghoefer2015_34_head",
+        "Dataset": "kleinewillinghoeferbikwinjen",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "334a22c38ee9f03726f7280d",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "33fdac9030bf61f091d9b2b6",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "suntb_3_moon",
+        "Dataset": "suntb",
+        "Name": "moon",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "33fdac9030bf61f091d9b2b6",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "suntb_74_month",
+        "Dataset": "suntb",
+        "Name": "month",
+        "Concepticon_ID": "1370"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "36eb95fa74e45cb21548ce40",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_65_fall",
+        "Dataset": "huntergatherer",
+        "Name": "fall",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "36eb95fa74e45cb21548ce40",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "38f60d87105820402ed450df",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "38f60d87105820402ed450df",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "39806c9f978912d710893715",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "39806c9f978912d710893715",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "3e854081aab4b80266241a06",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "chindialectsurvey_192_man",
+        "Dataset": "chindialectsurvey",
+        "Name": "man",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "3e854081aab4b80266241a06",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "chindialectsurvey_194_person",
+        "Dataset": "chindialectsurvey",
+        "Name": "person",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "3ea4a60ad179ff5c8be833bb",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2015_path",
+        "Dataset": "transnewguineaorg",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "3ea4a60ad179ff5c8be833bb",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_54_roadpath",
+        "Dataset": "transnewguineaorg",
+        "Name": "road/path",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "401bed8a125a708703b0012b",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "401bed8a125a708703b0012b",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "utoaztecan_99_pathroad",
+        "Dataset": "utoaztecan",
+        "Name": "path, road",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4187ac3743f5cae72a84ef48",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "lsi_34_head",
+        "Dataset": "lsi",
+        "Name": "Head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4187ac3743f5cae72a84ef48",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "lsi_70_mother",
+        "Dataset": "lsi",
+        "Name": "Mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "41a57fa213a669233015ecbe",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "lsi_97_deer",
+        "Dataset": "lsi",
+        "Name": "Deer",
+        "Concepticon_ID": "1936"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "41a57fa213a669233015ecbe",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "lsi_36_belly",
+        "Dataset": "lsi",
+        "Name": "Belly",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "42df25801a740e9d0cec28c8",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "grollemundbantu_dog",
+        "Dataset": "grollemundbantu",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "42df25801a740e9d0cec28c8",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "445986a0b1c4b06743dca2aa",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "445986a0b1c4b06743dca2aa",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4471ba26be28e2f3a72fe0f7",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_2-210",
+        "Dataset": "idssegmented",
+        "Name": "man (vs. woman)",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4471ba26be28e2f3a72fe0f7",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "idssegmented_2-100",
+        "Dataset": "idssegmented",
+        "Name": "person, human being",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "45d588f375819dddb47ba57b",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2016_foot",
+        "Dataset": "transnewguineaorg",
+        "Name": "foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "45d588f375819dddb47ba57b",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_1675_legfoot",
+        "Dataset": "transnewguineaorg",
+        "Name": "leg, foot",
+        "Concepticon_ID": "2098"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4635c92a600a5bab642740fc",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "grollemundbantu_tree",
+        "Dataset": "grollemundbantu",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4635c92a600a5bab642740fc",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "grollemundbantu_eye",
+        "Dataset": "grollemundbantu",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "49c62f01768d448af076005f",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_22_fire",
+        "Dataset": "transnewguineaorg",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "49c62f01768d448af076005f",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_53_red",
+        "Dataset": "transnewguineaorg",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4a4a54b5329f472ef118e2b7",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_42_moon",
+        "Dataset": "tryoncad",
+        "Name": "MOON",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4a4a54b5329f472ef118e2b7",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_993_month",
+        "Dataset": "tryoncad",
+        "Name": "MONTH",
+        "Concepticon_ID": "1370"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4a8f9e6ff56f6bc31f5b4ba8",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "peirosaustroasiatic_18_dog",
+        "Dataset": "peirosaustroasiatic",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4a8f9e6ff56f6bc31f5b4ba8",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4f129fcf58ce712b52c42041",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tuled_105",
+        "Dataset": "tuled",
+        "Name": "DOG",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "4f129fcf58ce712b52c42041",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "500a5fcae87b6477f944ff04",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "northeuralex_402_path",
+        "Dataset": "northeuralex",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "500a5fcae87b6477f944ff04",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "northeuralex_403_way",
+        "Dataset": "northeuralex",
+        "Name": "way",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "523657758766f1fd5069e2f6",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_4-310",
+        "Dataset": "idssegmented",
+        "Name": "arm",
+        "Concepticon_ID": "1673"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "523657758766f1fd5069e2f6",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "idssegmented_4-330",
+        "Dataset": "idssegmented",
+        "Name": "hand",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5406644aa8097246e8ea20ad",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "sagartst_80_thehairofthehead",
+        "Dataset": "sagartst",
+        "Name": "the hair (of the head)",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5406644aa8097246e8ea20ad",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "sagartst_17_thebodyhairhairorfur",
+        "Dataset": "sagartst",
+        "Name": "the body hair (hair or fur)",
+        "Concepticon_ID": "2678"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5526ccef3c5e69e6fb1c8231",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_14_dog",
+        "Dataset": "transnewguineaorg",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5526ccef3c5e69e6fb1c8231",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2015_path",
+        "Dataset": "transnewguineaorg",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "56e68a2e7bed4f0933d3e66d",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_86_head",
+        "Dataset": "huntergatherer",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "56e68a2e7bed4f0933d3e66d",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "huntergatherer_118_mother",
+        "Dataset": "huntergatherer",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5753777f4d4893abaeb5558d",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "backstromnorthernpakistan_Backstrom-1992-210c-102",
+        "Dataset": "backstromnorthernpakistan",
+        "Name": "man",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5753777f4d4893abaeb5558d",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5760b023a861ba6309e11651",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5760b023a861ba6309e11651",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_19_eye",
+        "Dataset": "transnewguineaorg",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5768ccf0d8b150eaffa92bcd",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryonvanuatu_95_tree",
+        "Dataset": "tryonvanuatu",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5768ccf0d8b150eaffa92bcd",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "58349f88d1756c9b9821fb0c",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "iecor_71",
+        "Dataset": "iecor",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "58349f88d1756c9b9821fb0c",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5884a4878204b30aad11eafd",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5884a4878204b30aad11eafd",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "northeuralex_21_belly",
+        "Dataset": "northeuralex",
+        "Name": "belly",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5899f105c2b18cbe7379beb0",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "5899f105c2b18cbe7379beb0",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "vanuatuvoices_56_belly",
+        "Dataset": "vanuatuvoices",
+        "Name": "belly",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "61ff73e8774d143cde2b8aa4",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "61ff73e8774d143cde2b8aa4",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "vanuatuvoices_48_hand",
+        "Dataset": "vanuatuvoices",
+        "Name": "hand",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "631e6d80b846567c46d1b4f9",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2510_tofallfromstanding",
+        "Dataset": "transnewguineaorg",
+        "Name": "to fall (from standing)",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "631e6d80b846567c46d1b4f9",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "66e43bdca96a2220199aad04",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "robinsonap_81_dog",
+        "Dataset": "robinsonap",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "66e43bdca96a2220199aad04",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "6bf436f714346ffa47eba662",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_109_dogcampdomestic",
+        "Dataset": "huntergatherer",
+        "Name": "dog (camp, domestic)",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "6bf436f714346ffa47eba662",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "6f19830fa633f2f0d4b21b51",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "hubercolumbian_253_path",
+        "Dataset": "hubercolumbian",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "6f19830fa633f2f0d4b21b51",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "hubercolumbian_85_pathtrail",
+        "Dataset": "hubercolumbian",
+        "Name": "path, trail",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7012cb1ef2375cba5b95a162",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_14_dog",
+        "Dataset": "transnewguineaorg",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7012cb1ef2375cba5b95a162",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "701bdeabcc27f891f16fbaa1",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "sagartst_80_thehairofthehead",
+        "Dataset": "sagartst",
+        "Name": "the hair (of the head)",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "701bdeabcc27f891f16fbaa1",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "sagartst_17_thebodyhairhairorfur",
+        "Dataset": "sagartst",
+        "Name": "the body hair (hair or fur)",
+        "Concepticon_ID": "2678"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7115e9474a6fb699b5f2973f",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7115e9474a6fb699b5f2973f",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7233832de6b6870b91df973d",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "grollemundbantu_sun",
+        "Dataset": "grollemundbantu",
+        "Name": "sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7233832de6b6870b91df973d",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "727b8a47703ad202577181cd",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "wold_3-61",
+        "Dataset": "wold",
+        "Name": "the dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "727b8a47703ad202577181cd",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "wold_1-56",
+        "Dataset": "wold",
+        "Name": "the thunder",
+        "Concepticon_ID": "1150"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "75fef817dbcb97350a0d1c0d",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_94_water",
+        "Dataset": "transnewguineaorg",
+        "Name": "water",
+        "Concepticon_ID": "948"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "75fef817dbcb97350a0d1c0d",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7758cf991dde4816ee0bd22c",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7758cf991dde4816ee0bd22c",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "784e120d1a8fab7e832faa70",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "bowernpny_284_sun",
+        "Dataset": "bowernpny",
+        "Name": "sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "784e120d1a8fab7e832faa70",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "bowernpny_91_day",
+        "Dataset": "bowernpny",
+        "Name": "day",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7aef079739b63bb3c3e1ba04",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7aef079739b63bb3c3e1ba04",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7d190df4abccaacf7d8006cc",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "zgraggenmadang_162_fire",
+        "Dataset": "zgraggenmadang",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "7d190df4abccaacf7d8006cc",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "zgraggenmadang_227_red",
+        "Dataset": "zgraggenmadang",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "81612ab9cb96979f44781a87",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "zgraggenmadang_190_water",
+        "Dataset": "zgraggenmadang",
+        "Name": "water",
+        "Concepticon_ID": "948"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "81612ab9cb96979f44781a87",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "830a1337fead90addb1d252f",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "830a1337fead90addb1d252f",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "blustaustronesian_168_day",
+        "Dataset": "blustaustronesian",
+        "Name": "day",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "85c1d5b9d0eab97fe70be9d8",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2016_foot",
+        "Dataset": "transnewguineaorg",
+        "Name": "foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "85c1d5b9d0eab97fe70be9d8",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_1675_legfoot",
+        "Dataset": "transnewguineaorg",
+        "Name": "leg, foot",
+        "Concepticon_ID": "2098"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "867ff8d4df57b84d8ab2d439",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tolmiebritishcolumbia_110_deer",
+        "Dataset": "tolmiebritishcolumbia",
+        "Name": "Deer",
+        "Concepticon_ID": "1936"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "867ff8d4df57b84d8ab2d439",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tolmiebritishcolumbia_41_belly",
+        "Dataset": "tolmiebritishcolumbia",
+        "Name": "Belly",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "880b9851cf789ff86eeccff7",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "grollemundbantu_fire",
+        "Dataset": "grollemundbantu",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "880b9851cf789ff86eeccff7",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "89b8cf592dc6f42e17c50760",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_36_treecf08600",
+        "Dataset": "tryoncad",
+        "Name": "TREE (cf. 08.600)",
+        "Concepticon_ID": "906"
+      },
+      {
+        "ID": "tryoncad_609_tree",
+        "Dataset": "tryoncad",
+        "Name": "TREE",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "89b8cf592dc6f42e17c50760",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_37_wood",
+        "Dataset": "tryoncad",
+        "Name": "WOOD",
+        "Concepticon_ID": "1803"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8a5db9490aa5ee9a2dda308e",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "sagartst_80_thehairofthehead",
+        "Dataset": "sagartst",
+        "Name": "the hair (of the head)",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8a5db9490aa5ee9a2dda308e",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "sagartst_17_thebodyhairhairorfur",
+        "Dataset": "sagartst",
+        "Name": "the body hair (hair or fur)",
+        "Concepticon_ID": "2678"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8a97f92ae5d422d2f0648856",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8a97f92ae5d422d2f0648856",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8b210ed2a7264f3c87369301",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_117_moon",
+        "Dataset": "huntergatherer",
+        "Name": "moon",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8b210ed2a7264f3c87369301",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8d6aa8974740ab30b41fbde7",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_1-810",
+        "Dataset": "idssegmented",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "8d6aa8974740ab30b41fbde7",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "idssegmented_15-660",
+        "Dataset": "idssegmented",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9020fd0dfdb1c535838cf5ea",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9020fd0dfdb1c535838cf5ea",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "90f332e9608d9c1d57258446",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "90f332e9608d9c1d57258446",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9183df8d327a07c3421da908",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_2015_path",
+        "Dataset": "transnewguineaorg",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9183df8d327a07c3421da908",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_54_roadpath",
+        "Dataset": "transnewguineaorg",
+        "Name": "road/path",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "96b19857b538c2ac097837d6",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "wold_3-75",
+        "Dataset": "wold",
+        "Name": "the deer",
+        "Concepticon_ID": "1936"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "96b19857b538c2ac097837d6",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "wold_4-431",
+        "Dataset": "wold",
+        "Name": "the belly",
+        "Concepticon_ID": "1251"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "97f830dca3613a234b0918ca",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_79_foot",
+        "Dataset": "huntergatherer",
+        "Name": "foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "97f830dca3613a234b0918ca",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "huntergatherer_106_legfoot",
+        "Dataset": "huntergatherer",
+        "Name": "leg/foot",
+        "Concepticon_ID": "2098"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9840769874aeecffe88b090a",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_79_foot",
+        "Dataset": "huntergatherer",
+        "Name": "foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9840769874aeecffe88b090a",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "huntergatherer_106_legfoot",
+        "Dataset": "huntergatherer",
+        "Name": "leg/foot",
+        "Concepticon_ID": "2098"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9acf5f3d3334380cecdbe80e",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_42_moon",
+        "Dataset": "tryoncad",
+        "Name": "MOON",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9acf5f3d3334380cecdbe80e",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_993_month",
+        "Dataset": "tryoncad",
+        "Name": "MONTH",
+        "Concepticon_ID": "1370"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9c8510baf62b2b788ec5fb10",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "walkerarawakan_38_head",
+        "Dataset": "walkerarawakan",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9c8510baf62b2b788ec5fb10",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9cd9a4eaedae8b0c17eee3cb",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "northeuralex_112_tree",
+        "Dataset": "northeuralex",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9cd9a4eaedae8b0c17eee3cb",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "northeuralex_299_wood",
+        "Dataset": "northeuralex",
+        "Name": "wood",
+        "Concepticon_ID": "1803"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9cf29f6008e17ead7cc0fd74",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_30_head",
+        "Dataset": "transnewguineaorg",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9cf29f6008e17ead7cc0fd74",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_149_mother",
+        "Dataset": "transnewguineaorg",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9e3eaab551f3b1cc93d133aa",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9e3eaab551f3b1cc93d133aa",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "lsi_73_man",
+        "Dataset": "lsi",
+        "Name": "Man",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9f865dc4794f9bd688816d22",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "grollemundbantu_water",
+        "Dataset": "grollemundbantu",
+        "Name": "water",
+        "Concepticon_ID": "948"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "9f865dc4794f9bd688816d22",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "grollemundbantu_three",
+        "Dataset": "grollemundbantu",
+        "Name": "three",
+        "Concepticon_ID": "492"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a46520c8ac986496f35beb9a",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_128_sun",
+        "Dataset": "polyglottaafricana",
+        "Name": "Sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a46520c8ac986496f35beb9a",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_131_day",
+        "Dataset": "polyglottaafricana",
+        "Name": "Day",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a725d69379c3f9ed0e0073f0",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_1-520",
+        "Dataset": "idssegmented",
+        "Name": "sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a725d69379c3f9ed0e0073f0",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "idssegmented_14-410",
+        "Dataset": "idssegmented",
+        "Name": "day",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a905808e8ad3294e5752d5a4",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "sagartst_80_thehairofthehead",
+        "Dataset": "sagartst",
+        "Name": "the hair (of the head)",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a905808e8ad3294e5752d5a4",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "sagartst_17_thebodyhairhairorfur",
+        "Dataset": "sagartst",
+        "Name": "the body hair (hair or fur)",
+        "Concepticon_ID": "2678"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a93a65e5d9be736b46699fb2",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "luangthongkumkaren_108_falldown",
+        "Dataset": "luangthongkumkaren",
+        "Name": "fall down",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "a93a65e5d9be736b46699fb2",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "luangthongkumkaren_291_ten",
+        "Dataset": "luangthongkumkaren",
+        "Name": "ten",
+        "Concepticon_ID": "1515"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ab64d6e5ab47a9e5dabea81c",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "dunnaslian_32_father",
+        "Dataset": "dunnaslian",
+        "Name": "father",
+        "Concepticon_ID": "1217"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ab64d6e5ab47a9e5dabea81c",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "dunnaslian_67_mother",
+        "Dataset": "dunnaslian",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ac78debc786800559e78c781",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ac78debc786800559e78c781",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ac9f4a064ba1b250ea59746b",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_36_treecf08600",
+        "Dataset": "tryoncad",
+        "Name": "TREE (cf. 08.600)",
+        "Concepticon_ID": "906"
+      },
+      {
+        "ID": "tryoncad_609_tree",
+        "Dataset": "tryoncad",
+        "Name": "TREE",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ac9f4a064ba1b250ea59746b",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_37_wood",
+        "Dataset": "tryoncad",
+        "Name": "WOOD",
+        "Concepticon_ID": "1803"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "acc10af3eeaec3e75a5802af",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_250_ifall",
+        "Dataset": "polyglottaafricana",
+        "Name": "I fall",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "acc10af3eeaec3e75a5802af",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_10_ten",
+        "Dataset": "polyglottaafricana",
+        "Name": "Ten",
+        "Concepticon_ID": "1515"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "acd82992a38aacc792a695ac",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_68_father",
+        "Dataset": "huntergatherer",
+        "Name": "father",
+        "Concepticon_ID": "1217"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "acd82992a38aacc792a695ac",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "huntergatherer_118_mother",
+        "Dataset": "huntergatherer",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "acd9afc0c8fb69f5dda64f25",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "abvdphilippines_60_father",
+        "Dataset": "abvdphilippines",
+        "Name": "father",
+        "Concepticon_ID": "1217"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "acd9afc0c8fb69f5dda64f25",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "abvdphilippines_59_mother",
+        "Dataset": "abvdphilippines",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ad063e73fc289224d1cf0be6",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_128_sun",
+        "Dataset": "polyglottaafricana",
+        "Name": "Sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ad063e73fc289224d1cf0be6",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_131_day",
+        "Dataset": "polyglottaafricana",
+        "Name": "Day",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ada0195cb620b4e1f77aaff2",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "huntergatherer_72_fire",
+        "Dataset": "huntergatherer",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ada0195cb620b4e1f77aaff2",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "huntergatherer_138_red",
+        "Dataset": "huntergatherer",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ae96ee0a2b482936587b3c02",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "yangyi_748_falldrop",
+        "Dataset": "yangyi",
+        "Name": "fall; drop",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ae96ee0a2b482936587b3c02",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "yangyi_945_ten",
+        "Dataset": "yangyi",
+        "Name": "ten",
+        "Concepticon_ID": "1515"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "aebd6b9948971d11d06b8004",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryonvanuatu_47_man",
+        "Dataset": "tryonvanuatu",
+        "Name": "man",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "aebd6b9948971d11d06b8004",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryonvanuatu_51_person",
+        "Dataset": "tryonvanuatu",
+        "Name": "person",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "b69efbdb55df0bf51095ecbf",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "b69efbdb55df0bf51095ecbf",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_53_red",
+        "Dataset": "transnewguineaorg",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "c41f324123a1080a90de3133",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "northeuralex_402_path",
+        "Dataset": "northeuralex",
+        "Name": "path",
+        "Concepticon_ID": "2252"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "c41f324123a1080a90de3133",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "northeuralex_403_way",
+        "Dataset": "northeuralex",
+        "Name": "way",
+        "Concepticon_ID": "2457"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "c7146947b2a99746cf3876f2",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_62_footorinstepofthefoot",
+        "Dataset": "polyglottaafricana",
+        "Name": "Foot, or Instep of the Foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "c7146947b2a99746cf3876f2",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "caad6c1dec11f7f153190802",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "vanuatuvoices_143_fall",
+        "Dataset": "vanuatuvoices",
+        "Name": "fall",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "caad6c1dec11f7f153190802",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "vanuatuvoices_10_ten",
+        "Dataset": "vanuatuvoices",
+        "Name": "ten",
+        "Concepticon_ID": "1515"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "cbdeeab99aa69c96f08407b0",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "wold_4-31",
+        "Dataset": "wold",
+        "Name": "the arm",
+        "Concepticon_ID": "1673"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "cbdeeab99aa69c96f08407b0",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "wold_4-33",
+        "Dataset": "wold",
+        "Name": "the hand",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "cdc1e78e22a523ca091f270d",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "cdc1e78e22a523ca091f270d",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "d214a74eee37a1eda7510372",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_4-310",
+        "Dataset": "idssegmented",
+        "Name": "arm",
+        "Concepticon_ID": "1673"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "d214a74eee37a1eda7510372",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "idssegmented_4-330",
+        "Dataset": "idssegmented",
+        "Name": "hand",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "d7b4e1096f1a972a4d74482f",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "bowernpny_325_water",
+        "Dataset": "bowernpny",
+        "Name": "water",
+        "Concepticon_ID": "948"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "d7b4e1096f1a972a4d74482f",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "bowernpny_302_three",
+        "Dataset": "bowernpny",
+        "Name": "three",
+        "Concepticon_ID": "492"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "dd253c37d838839b489c39b6",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "dd253c37d838839b489c39b6",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ddaa0719e23076844bcc3270",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "saenkoromance_51_man",
+        "Dataset": "saenkoromance",
+        "Name": "man",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ddaa0719e23076844bcc3270",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "saenkoromance_64_person",
+        "Dataset": "saenkoromance",
+        "Name": "person",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "de4ae4d914c81ca7ca108116",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "yanglalo_156_tree",
+        "Dataset": "yanglalo",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "de4ae4d914c81ca7ca108116",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "yanglalo_202_wood",
+        "Dataset": "yanglalo",
+        "Name": "wood",
+        "Concepticon_ID": "1803"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e0337fea965645c2b47236a5",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "lsi_33_hair",
+        "Dataset": "lsi",
+        "Name": "Hair",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e0337fea965645c2b47236a5",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e1ca22609da8fd5256a30093",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "robinsonap_141_head",
+        "Dataset": "robinsonap",
+        "Name": "head",
+        "Concepticon_ID": "1256"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e1ca22609da8fd5256a30093",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "robinsonap_191_mother",
+        "Dataset": "robinsonap",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e223f7cbaab97b493a6c21e2",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "yangyi_748_falldrop",
+        "Dataset": "yangyi",
+        "Name": "fall; drop",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e223f7cbaab97b493a6c21e2",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "yangyi_945_ten",
+        "Dataset": "yangyi",
+        "Name": "ten",
+        "Concepticon_ID": "1515"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e4b3ad55b8465c73fe7d8d12",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "blustaustronesian_96_dog",
+        "Dataset": "blustaustronesian",
+        "Name": "dog",
+        "Concepticon_ID": "2009"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e4b3ad55b8465c73fe7d8d12",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "blustaustronesian_134_thunder",
+        "Dataset": "blustaustronesian",
+        "Name": "thunder",
+        "Concepticon_ID": "1150"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e5e1f3d6b34af8da13e1d9bd",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tryoncad_292_arm",
+        "Dataset": "tryoncad",
+        "Name": "ARM",
+        "Concepticon_ID": "1673"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e5e1f3d6b34af8da13e1d9bd",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tryoncad_296_hand",
+        "Dataset": "tryoncad",
+        "Name": "HAND",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e6d745a4c5c93abd2a495c88",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "wichmannmixezoquean_51_man",
+        "Dataset": "wichmannmixezoquean",
+        "Name": "man",
+        "Concepticon_ID": "1554"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e6d745a4c5c93abd2a495c88",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "wichmannmixezoquean_64_person",
+        "Dataset": "wichmannmixezoquean",
+        "Name": "person",
+        "Concepticon_ID": "683"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e713167ceb7e8d8eccdb07d3",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "castroyi_138_foot",
+        "Dataset": "castroyi",
+        "Name": "foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e713167ceb7e8d8eccdb07d3",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "castroyi_137_footleg",
+        "Dataset": "castroyi",
+        "Name": "foot+leg*",
+        "Concepticon_ID": "2098"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e99c3e19ece5014241f8e6a2",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "e99c3e19ece5014241f8e6a2",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ea713f4287b83eac38e92eb3",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_128_sun",
+        "Dataset": "polyglottaafricana",
+        "Name": "Sun",
+        "Concepticon_ID": "1343"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ea713f4287b83eac38e92eb3",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_131_day",
+        "Dataset": "polyglottaafricana",
+        "Name": "Day",
+        "Concepticon_ID": "1225"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "eda449b2ecffc9223480a751",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_91_tree",
+        "Dataset": "transnewguineaorg",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "eda449b2ecffc9223480a751",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_19_eye",
+        "Dataset": "transnewguineaorg",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ee426c280dd8e57df57436ae",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "zgraggenmadang_144_tree",
+        "Dataset": "zgraggenmadang",
+        "Name": "tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ee426c280dd8e57df57436ae",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "zgraggenmadang_39_eye",
+        "Dataset": "zgraggenmadang",
+        "Name": "eye",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "efda42a8b28208c3eaf851ae",
+    "side": "a",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "efda42a8b28208c3eaf851ae",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "sagartst_81_thehand",
+        "Dataset": "sagartst",
+        "Name": "the hand",
+        "Concepticon_ID": "1277"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f31ba8387570f8ec3a2f6a93",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "yangyi_748_falldrop",
+        "Dataset": "yangyi",
+        "Name": "fall; drop",
+        "Concepticon_ID": "1280"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f31ba8387570f8ec3a2f6a93",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "yangyi_945_ten",
+        "Dataset": "yangyi",
+        "Name": "ten",
+        "Concepticon_ID": "1515"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f5e4026a1bfff8602a5bff01",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "tolmiebritishcolumbia_96_tree",
+        "Dataset": "tolmiebritishcolumbia",
+        "Name": "Tree",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f5e4026a1bfff8602a5bff01",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "tolmiebritishcolumbia_97_wood",
+        "Dataset": "tolmiebritishcolumbia",
+        "Name": "Wood",
+        "Concepticon_ID": "1803"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f63901384d520ae0fa617cc8",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_22_fire",
+        "Dataset": "transnewguineaorg",
+        "Name": "fire",
+        "Concepticon_ID": "221"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f63901384d520ae0fa617cc8",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "transnewguineaorg_53_red",
+        "Dataset": "transnewguineaorg",
+        "Name": "red",
+        "Concepticon_ID": "156"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f7ccbc75989517e135149609",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "oskolskayatungusic_244_treen",
+        "Dataset": "oskolskayatungusic",
+        "Name": "tree (n.)",
+        "Concepticon_ID": "906"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f7ccbc75989517e135149609",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "oskolskayatungusic_83_eyen",
+        "Dataset": "oskolskayatungusic",
+        "Name": "eye (n.)",
+        "Concepticon_ID": "1248"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f8c9e401154f1ad812ed4719",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "polyglottaafricana_62_footorinstepofthefoot",
+        "Dataset": "polyglottaafricana",
+        "Name": "Foot, or Instep of the Foot",
+        "Concepticon_ID": "1301"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "f8c9e401154f1ad812ed4719",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "fa6c2c9127141d46d357b459",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "marrisonnaga_250_father",
+        "Dataset": "marrisonnaga",
+        "Name": "father",
+        "Concepticon_ID": "1217"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "fa6c2c9127141d46d357b459",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "marrisonnaga_485_mother",
+        "Dataset": "marrisonnaga",
+        "Name": "mother",
+        "Concepticon_ID": "1216"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "fc76c92aa638344890e62382",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "idssegmented_1-530",
+        "Dataset": "idssegmented",
+        "Name": "moon",
+        "Concepticon_ID": "1313"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "fc76c92aa638344890e62382",
+    "side": "b",
+    "labels": [
+      {
+        "ID": "idssegmented_14-710",
+        "Dataset": "idssegmented",
+        "Name": "month",
+        "Concepticon_ID": "1370"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ff992fecff656268086efac5",
+    "side": "a",
+    "labels": [
+      {
+        "ID": "lsi_33_hair",
+        "Dataset": "lsi",
+        "Name": "Hair",
+        "Concepticon_ID": "1040"
+      }
+    ],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  },
+  {
+    "case_id": "ff992fecff656268086efac5",
+    "side": "b",
+    "labels": [],
+    "missing_parameter_ids": [],
+    "evidence_type": "native_questionnaire_label_not_independent_lexeme_gloss"
+  }
+]

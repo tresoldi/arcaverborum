@@ -58,7 +58,7 @@ _KEYED_HASH_MAX = 1000  # intake-DB path: per-slice hashing below this many slic
 
 CUSTOM_TRANSCRIPTION_FIELDS = (
     "Concepticon_ID", "source_form_id", "Value", "Form", "Segments", "Comment", "notes",
-    "expected_evidence_sha256",
+    "expected_evidence_sha256", "transcription_policy", "raw_ipa",
 )
 CUSTOM_FORMS_FIELDS = (
     "concept_id", "Concepticon_ID", "Value", "Form", "Segments",
@@ -316,9 +316,20 @@ def _apply_transcription_overrides(forms: pd.DataFrame, overrides: pd.DataFrame)
         cid = str(row.get("Concepticon_ID", "")).strip()
         payload = {col: str(row.get(col, "")).strip()
                    for col in ("Value", "Form", "Segments", "Comment")}
+        policy = str(row.get("transcription_policy", "")).strip()
+        raw_ipa = str(row.get("raw_ipa", "")).strip()
+        if policy not in {"", "orthographic_only", "supplied_phonemic"}:
+            raise ValueError("Unknown transcription override policy")
+        if policy:
+            payload["transcription_policy"] = policy
+            payload["raw_ipa"] = raw_ipa
+        elif raw_ipa:
+            raise ValueError("Raw reading requires explicit transcription override policy")
         if not any(payload.values()):
             continue
         expected = str(row.get("expected_evidence_sha256", "")).strip()
+        if policy and not expected:
+            raise ValueError("Reading policy requires guarded source evidence")
         if expected:
             if not fid or len(expected) != 64:
                 raise ValueError("Guarded transcription requires exact source form and evidence hash")
@@ -332,6 +343,10 @@ def _apply_transcription_overrides(forms: pd.DataFrame, overrides: pd.DataFrame)
         return forms
 
     forms = forms.copy()
+    if "_orthographic_only" not in forms:
+        forms["_orthographic_only"] = False
+    if "_raw_ipa" not in forms:
+        forms["_raw_ipa"] = ""
     for col in ("Value", "Form", "Segments", "Comment"):
         if col not in forms.columns:
             forms[col] = ""
@@ -348,8 +363,23 @@ def _apply_transcription_overrides(forms: pd.DataFrame, overrides: pd.DataFrame)
             if evidence_hash(row.to_dict()) != override["expected_evidence_sha256"]:
                 raise ValueError("Guarded transcription source evidence changed: " + fid)
         for col, val in override.items():
-            if val and col != "expected_evidence_sha256":
+            if val and col in {"Value", "Form", "Segments", "Comment"}:
                 forms.at[idx, col] = val
+        policy = override.get("transcription_policy", "")
+        if policy == "orthographic_only":
+            if override.get("raw_ipa") or override.get("Segments"):
+                raise ValueError("Orthographic override cannot supply phonetic segments")
+            forms.at[idx, "Segments"] = ""
+            forms.at[idx, "_raw_ipa"] = ""
+            forms.at[idx, "_orthographic_only"] = True
+        elif policy == "supplied_phonemic":
+            from arcaverborum.sources.wiktionary.pronunciations import ipa_segments
+
+            raw_ipa = override.get("raw_ipa", "")
+            if not raw_ipa or not override.get("Segments") or ipa_segments(raw_ipa) != override["Segments"]:
+                raise ValueError("Supplied phonemic reading does not reproduce guarded segments")
+            forms.at[idx, "_raw_ipa"] = raw_ipa
+            forms.at[idx, "_orthographic_only"] = False
     return forms
 
 

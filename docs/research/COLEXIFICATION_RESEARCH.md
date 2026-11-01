@@ -364,3 +364,15 @@ notation/sense review and must not be described as 364 new words or supported sl
 The new experiment needs streamed context storage before expanding the 18-pair
 panel. Actual independent adjudication and original-source evidence remain the
 basis for any measurement-error confidence claim.
+
+## Authorized follow-through: CINF-01–05
+
+The user authorized all five tracks in sequence on 2026-11-01.
+[Running execution record](CINF_EXECUTION_2026-11-01.md).
+Independent model-assisted evidence review is under way, with explicit
+source/reading/lexeme judgments and retained disagreements. It is not expert
+annotation and cannot yet support empirical measurement-error calibration.
+The frozen review worksheet omitted native questionnaire labels for non-Wiktionary
+sources; a separately hashed supplement recovers all 172 targeted parameter
+labels from intake. These are prompts, not independent attestations of a
+lexeme’s precise sense. The original blinded worksheet remains unchanged.

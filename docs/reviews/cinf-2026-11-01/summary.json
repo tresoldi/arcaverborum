@@ -1,0 +1,73 @@
+{
+  "cases": 146,
+  "expert_adjudications": 0,
+  "supplementary_citations": 41,
+  "supplementary_citations_sha256": "b0baf136488ed9a2ad1aa6f837afb692afb3c6e84e7c1ae1cb229aba79e55d5d",
+  "id_validation": "Worksheet anchors checked; supplementary citations remain unverified by this comparator",
+  "model_assisted_only": true,
+  "worksheet_sha256": "2be10bfb4ddfa8696462703188929dd465cc0ccf334fd213fcc0b2ce8757d29d",
+  "reviewer_files": {
+    "raw/curation/cinf-2026-11-01/codex-first-pass.csv": "336cdedcdc5c431d1887bf67bc5756cb28b38b61155d52a679fa49e4bbb759e4",
+    "raw/curation/cinf-2026-11-01/claude-first-pass.csv": "72363a84c3b39ec64d87735bc86fbf3cee98a7ed64b7ab87b42cd32dfbbae8e2"
+  },
+  "agreement_counts": {
+    "identity_evidence": 139,
+    "reading_fidelity": 61,
+    "interpretation": 128,
+    "sense_evidence": 36
+  },
+  "cases_with_disagreement": 122,
+  "reviewer_counts": [
+    {
+      "identity_evidence": {
+        "sampled_nonmatch": 52,
+        "represented_identity": 41,
+        "insufficient_evidence": 53
+      },
+      "sense_evidence": {
+        "mapping_unverified": 97,
+        "catalog_overlap": 36,
+        "insufficient_evidence": 13
+      },
+      "reading_fidelity": {
+        "retained_consistent": 37,
+        "suspected_truncation": 6,
+        "derivation_requires_review": 85,
+        "inconsistent": 2,
+        "insufficient_evidence": 16
+      },
+      "interpretation": {
+        "unresolved": 110,
+        "catalog_overlap": 36
+      }
+    },
+    {
+      "identity_evidence": {
+        "sampled_nonmatch": 54,
+        "represented_identity": 37,
+        "insufficient_evidence": 52,
+        "ambiguous_scope": 3
+      },
+      "sense_evidence": {
+        "source_supported": 76,
+        "catalog_overlap": 23,
+        "insufficient_evidence": 45,
+        "mapping_unverified": 2
+      },
+      "reading_fidelity": {
+        "retained_consistent": 65,
+        "derivation_requires_review": 26,
+        "insufficient_evidence": 49,
+        "suspected_truncation": 3,
+        "inconsistent": 3
+      },
+      "interpretation": {
+        "unresolved": 117,
+        "catalog_overlap": 23,
+        "underspecified_source": 5,
+        "documented_polysemy": 1
+      }
+    }
+  ],
+  "disagreements_sha256": "6a17b2c0c822a7f18ae808fd16d33fc0a81ee08981867a864d1098514ba2b738"
+}

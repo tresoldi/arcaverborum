@@ -1,0 +1,40 @@
+{
+  "cases": 10,
+  "south_american_cases": 7,
+  "inputs": {
+    "raw/lexibank/ids/cldf/languages.csv": "d633a332474f9b6669475e5d0041a51bd15c31c3c87e842730b8c0367a83ebbf",
+    "raw/lexibank/ids/cldf/parameters.csv": "7b9c36200ce86c80333537c61cf7c0a4a27f1bb6720af8d7bfca4958d3818cc1",
+    "raw/lexibank/ids/cldf/forms.csv": "e5d15f122ea19465ff9bf53e0fba6fa9b5547364ccda518bb28dc747e48123f5",
+    "raw/lexibank/ids/cldf/sources.bib": "be04eaf3f90a4b78aa66fcf95ef08c9404e6043727aaec98202a79721b7e4ffa",
+    "raw/lexibank/ids/README.md": "89f8c47d79e4ab2546891059b977c613ab0d8fb1366c872c5a589011dbd0114f",
+    "raw/lexibank/wold/cldf/languages.csv": "acec1a4778939e2ffb933bf22763446d3376c276851837b5297a1e032b5a38a3",
+    "raw/lexibank/wold/cldf/parameters.csv": "bf8b7935da08662353fd4d21e61f44b7b575686cc62d477cfaf7fb89083f1ebc",
+    "raw/lexibank/wold/cldf/forms.csv": "a2179913f05b19d66b5ba0ed90a1f253dcf0f91c0ea5e6bdf3d4b4e315bc3084",
+    "raw/lexibank/wold/cldf/sources.bib": "65472165e2f14d8b22467cb95f4a1573abe42a6b06383a8bf25a25bf45031f0a",
+    "raw/lexibank/wold/README.md": "0e0755dfdb459b15c3bb7d1c38178656645cbede0750b212c92be167e08b3dae",
+    "raw/lexibank/wold/cldf/contributions.csv": "dae799c300d4936f7730ae4f5e282202c85d10deaf60bfcf04cce0f47c4ee4a2",
+    "raw/lexibank/wold/cldf/descriptions/vocabulary_39.md": "9c869a4d409937541b849932433b708f973d9cf06538e6c31c2c55bbf6828714",
+    "raw/lexibank/wold/cldf/descriptions/vocabulary_40.md": "6dbe12f1b74a4689af1d39c89ac76cf3ae444f5bdafbdb21f164d6653ad777e4",
+    "raw/lexibank/wold/cldf/descriptions/vocabulary_41.md": "53ec2efb432390a675405a7fe16c3da79f97bb7ce96f0b72ddbb3d0776ea8120",
+    "raw/lexibank/tryoncad/cldf/languages.csv": "7f08bdd1ef5690eae909044d7e900b2fdb418a36aa2265794a70355337a3bfa5",
+    "raw/lexibank/tryoncad/cldf/parameters.csv": "e51fcd305632122627935f112d901353d67f5eeddb3be974645abc3ccf7e1265",
+    "raw/lexibank/tryoncad/cldf/forms.csv": "8a566e1cf391886f37efc1da73cec7173299cca242baea5d6f6e46d01b5e0bdc",
+    "raw/lexibank/tryoncad/cldf/sources.bib": "8df56a0baaae9db97d55d4f0ff367a4eaf71c5057bbcbe67b7f68cfb27b01aa2",
+    "raw/lexibank/tryoncad/README.md": "5672fa260a27ab6abb5dfd21945b5152f4eccc5578b43fd6c8a027e730589d43"
+  },
+  "outputs": {
+    "member_evidence.json": "d0499e1b3133e40a25f0482c2f0bf45c9a97d7526516f7a12fae65c679acb31e",
+    "questionnaire_inventory.csv": "1ce14ec78fa05abe9686e200c87fa3dfb9a84af0fef9b36537123f4370a4e382",
+    "genealogy_edges.json": "7e78fee7d5e6354f3a91e973dc126d936dbc661687c0df06e4212e67bd8e70f6"
+  },
+  "inventory_rows": 14612,
+  "explicit_not_elicited_assertions": 0,
+  "lexical_absence_assertions": 0,
+  "verified_independent_fieldwork_replicates": 0,
+  "caveat": "Native prompt presence/missing records do not establish elicitation or lexical absence.",
+  "upstream_checkout_revisions": {
+    "ids": "3428921944d66861a89e98caf61afab706fbcb1d",
+    "wold": "1df62b9bdc7292b35982aea49b4d5bd1951f6f3e",
+    "tryoncad": "0dbefd42e97a931a755077e473b56b4e01fe12af"
+  }
+}

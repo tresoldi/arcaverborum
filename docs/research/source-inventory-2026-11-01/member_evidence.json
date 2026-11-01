@@ -1,0 +1,1036 @@
+[
+  {
+    "source": "ids",
+    "member": "277",
+    "language": {
+      "ID": "277",
+      "Name": "Cashibo",
+      "Glottocode": "cash1251",
+      "Glottolog_Name": "Cashibo-Cacataibo",
+      "ISO639P3code": "cbr",
+      "Macroarea": "South America",
+      "Latitude": "-8.70232",
+      "Longitude": "-75.4206",
+      "Family": "Pano-Tacanan",
+      "Authors": "Mary Ritchie Key;R. Michael Tugwell",
+      "DataEntry": "R. Michael Tugwell;Mary Ritchie Key",
+      "Consultants": "",
+      "Representations": "Phonemic",
+      "alt_names": "Cacataibo;Cachibo;Cacibo;Cahivo;Cashibo-Cacataibo;Caxibo;Hagueti;Managua",
+      "date": "2007-10-30"
+    },
+    "records": 744,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 648,
+    "parameters_without_member_record": 662,
+    "missing_row_source": 0,
+    "citations": {
+      "shell1959": 744,
+      "shell1965": 744,
+      "shell1987": 744
+    },
+    "bibliography": {
+      "shell1959": "@misc{shell1959,\n    author = {Shell, Olive},\n    ids_url = {http://ids.clld.org/sources/shell1959},\n    title = {None},\n    year = {1959}\n}",
+      "shell1965": "@misc{shell1965,\n    author = {Shell, Olive},\n    ids_url = {http://ids.clld.org/sources/shell1965},\n    title = {None},\n    year = {1965}\n}",
+      "shell1987": "@book{shell1987,\n    author = {Shell R., Olive A. and Dávila, Marlene Ballena},\n    address = {Yarinacocha, Pucallpa, Peru},\n    ids_url = {http://ids.clld.org/sources/shell1987},\n    publisher = {Ministerio de Educación, Instituto Lingüístico de Verano},\n    title = {Vocabulario cashibo-cacataibo},\n    year = {1987}\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "blumpanotacana_Cashibo",
+        "dataset": "blumpanotacana",
+        "name": "Kashibo"
+      },
+      {
+        "member": "blumpanotacana_Kakataibo",
+        "dataset": "blumpanotacana",
+        "name": "Kakataibo"
+      },
+      {
+        "member": "gled_KASHIBO_ALTO_AGUAYTIA",
+        "dataset": "gled",
+        "name": "Cashibo-Cacataibo"
+      },
+      {
+        "member": "gled_KASHIBO_BAJO_AGUAYTIA",
+        "dataset": "gled",
+        "name": "Cashibo-Cacataibo"
+      },
+      {
+        "member": "gled_KASHIBO_SAN_ALEJANDRO",
+        "dataset": "gled",
+        "name": "Cashibo-Cacataibo"
+      },
+      {
+        "member": "gled_KASHIBO_SUNGAROYACU",
+        "dataset": "gled",
+        "name": "Cashibo-Cacataibo"
+      },
+      {
+        "member": "gled_CASHIBO",
+        "dataset": "gled",
+        "name": "Cashibo-Cacataibo"
+      },
+      {
+        "member": "huntergatherer_357",
+        "dataset": "huntergatherer",
+        "name": "Kakataibo"
+      },
+      {
+        "member": "oliveiraprotopanoan_Kakataibo",
+        "dataset": "oliveiraprotopanoan",
+        "name": "Kakataibo"
+      },
+      {
+        "member": "panobodyparts_Kakataibo",
+        "dataset": "panobodyparts",
+        "name": "Kakataibo"
+      },
+      {
+        "member": "wiktionaryfr202610_cbr_41ae19af1014",
+        "dataset": "wiktionaryfr202610",
+        "name": "Cashibo"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  },
+  {
+    "source": "ids",
+    "member": "290",
+    "language": {
+      "ID": "290",
+      "Name": "Guaraní",
+      "Glottocode": "para1311",
+      "Glottolog_Name": "Paraguayan Guaraní",
+      "ISO639P3code": "gug",
+      "Macroarea": "South America",
+      "Latitude": "-25.60551",
+      "Longitude": "-57.08816",
+      "Family": "Tupian",
+      "Authors": "Celsa Dávalos de Céspedes;Natalia Krivoshein de Canese",
+      "DataEntry": "Mary Ritchie Key",
+      "Consultants": "",
+      "Representations": "Phonemic",
+      "alt_names": "Avane'e;Avañe'e;Guarani;Guarani Paraguayan;Guaraní Paraguayan;Guaraní, Paraguayan",
+      "date": "2007-10-30"
+    },
+    "records": 1929,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 1290,
+    "parameters_without_member_record": 20,
+    "missing_row_source": 1929,
+    "citations": {},
+    "bibliography": {},
+    "other_resource_members": [
+      {
+        "member": "chacolanguages_Guarani",
+        "dataset": "chacolanguages",
+        "name": "Guaraní Paraguayo"
+      },
+      {
+        "member": "galuciotupi_Pg",
+        "dataset": "galuciotupi",
+        "name": "Paraguayan Guaraní"
+      },
+      {
+        "member": "gerarditupi_GuaraniParaguay",
+        "dataset": "gerarditupi",
+        "name": "Guarani Paraguay"
+      },
+      {
+        "member": "gled_GUARANI",
+        "dataset": "gled",
+        "name": "Paraguayan Guaraní"
+      },
+      {
+        "member": "huntergatherer_267",
+        "dataset": "huntergatherer",
+        "name": "Paraguayan Guaraní"
+      },
+      {
+        "member": "idssegmented_guarani",
+        "dataset": "idssegmented",
+        "name": "Guaraní"
+      },
+      {
+        "member": "johanssonsoundsymbolic_Guarani",
+        "dataset": "johanssonsoundsymbolic",
+        "name": "Guaraní"
+      },
+      {
+        "member": "joophonosemantic_ParaguayanGuarani",
+        "dataset": "joophonosemantic",
+        "name": "Paraguayan Guarani"
+      },
+      {
+        "member": "tuled_Guarani",
+        "dataset": "tuled",
+        "name": "Guaraní"
+      },
+      {
+        "member": "wiktionaryfr202610_gug_b47a60b86db4",
+        "dataset": "wiktionaryfr202610",
+        "name": "Guarani paraguayen"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  },
+  {
+    "source": "ids",
+    "member": "306",
+    "language": {
+      "ID": "306",
+      "Name": "Wichí",
+      "Glottocode": "wich1264",
+      "Glottolog_Name": "Wichí Lhamtés Güisnay",
+      "ISO639P3code": "mzh",
+      "Macroarea": "South America",
+      "Latitude": "-23.1633",
+      "Longitude": "-62.1757",
+      "Family": "Matacoan",
+      "Authors": "José A. Braunstein",
+      "DataEntry": "Mary Ritchie Key",
+      "Consultants": "",
+      "Representations": "Phonemic",
+      "alt_names": "Mataco;Pilcomayo;Wichi;Wichi Lhamtes Güisnay;Wichí Lhamtés Güisnay",
+      "date": "2007-10-31"
+    },
+    "records": 1170,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 1152,
+    "parameters_without_member_record": 158,
+    "missing_row_source": 1170,
+    "citations": {},
+    "bibliography": {},
+    "other_resource_members": [
+      {
+        "member": "gled_MATACO",
+        "dataset": "gled",
+        "name": "Wichí Lhamtés Güisnay"
+      },
+      {
+        "member": "gled_WICHI_LHAMTES_GUISNAY",
+        "dataset": "gled",
+        "name": "Wichí Lhamtés Güisnay"
+      },
+      {
+        "member": "idssegmented_wichi",
+        "dataset": "idssegmented",
+        "name": "Wichí"
+      },
+      {
+        "member": "wold_Wichi",
+        "dataset": "wold",
+        "name": "Wichí"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  },
+  {
+    "source": "ids",
+    "member": "309",
+    "language": {
+      "ID": "309",
+      "Name": "Mapudungun",
+      "Glottocode": "mapu1245",
+      "Glottolog_Name": "Mapudungun",
+      "ISO639P3code": "arn",
+      "Macroarea": "South America",
+      "Latitude": "-38.7392",
+      "Longitude": "-71.277",
+      "Family": "Araucanian",
+      "Authors": "María Catrileo;Ana V. Fernández Garay (Ranquel);Mary Ritchie Key",
+      "DataEntry": "",
+      "Consultants": "",
+      "Representations": "Phonemic",
+      "alt_names": "Mapuche",
+      "date": "2007-10-31"
+    },
+    "records": 1377,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 1172,
+    "parameters_without_member_record": 138,
+    "missing_row_source": 1377,
+    "citations": {},
+    "bibliography": {},
+    "other_resource_members": [
+      {
+        "member": "chacolanguages_Mapudungun",
+        "dataset": "chacolanguages",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "gled_MAPUDUNGUN",
+        "dataset": "gled",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "gled_RANQUELCHE",
+        "dataset": "gled",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "idssegmented_mapudungun",
+        "dataset": "idssegmented",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "johanssonsoundsymbolic_Mapudungun",
+        "dataset": "johanssonsoundsymbolic",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "joophonosemantic_Mapudungun",
+        "dataset": "joophonosemantic",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "wold_Mapudungun",
+        "dataset": "wold",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "wiktionarypt202610_arn_03cfa7f76dd7",
+        "dataset": "wiktionarypt202610",
+        "name": "Araucano/Mapuche"
+      },
+      {
+        "member": "wiktionaryfr202610_arn_268c2becbd26",
+        "dataset": "wiktionaryfr202610",
+        "name": "Mapuche"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  },
+  {
+    "source": "wold",
+    "member": "Hup",
+    "language": {
+      "ID": "Hup",
+      "Name": "Hup",
+      "Glottocode": "hupd1244",
+      "Glottolog_Name": "Hup",
+      "ISO639P3code": "jup",
+      "Macroarea": "South America",
+      "Latitude": "0.166667",
+      "Longitude": "-69.25",
+      "Family": "Naduhup",
+      "WOLD_ID": "39"
+    },
+    "records": 1179,
+    "parameter_inventory": 1814,
+    "parameters_with_records": 1090,
+    "parameters_without_member_record": 724,
+    "missing_row_source": 0,
+    "citations": {
+      "39": 1179
+    },
+    "bibliography": {
+      "39": "@misc{39,\n    note = {All Hup data comes my fieldwork (2000-2004). Tukano: Ramirez, Henri. 1997. A Fala Tukano dos Ye’pa-Masa, Vol. 2: Dicionário. Inspetoria Salesiana Missionária da Amazônia, CEDEM: Manaus. Yuhup, Dâw, Nadëb (all Nadahup languages): Martins, Valteir. 2005. Reconstrução Fonológica do Protomaku Oriental. PhD Thesis, Vrije Universiteit, Amsterdam. Martins, V. (ed.). 1999. Dicionário Nadëb-Português. Manuscript. Nheengatú (Lingua Geral): Grenand, Françoise and Epaminondas Henrique Ferreira. 1989. Pequeno dicionário da Língua Geral. Série Amazônas. Cultura Regional 6. Manaus: SEDUC.}\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "chaconcolumbian_Jupda",
+        "dataset": "chaconcolumbian",
+        "name": "jupda"
+      },
+      {
+        "member": "gled_JUPDA",
+        "dataset": "gled",
+        "name": "Hup"
+      },
+      {
+        "member": "hubercolumbian_Jupda",
+        "dataset": "hubercolumbian",
+        "name": "Jupda"
+      },
+      {
+        "member": "huntergatherer_120",
+        "dataset": "huntergatherer",
+        "name": "Hup"
+      },
+      {
+        "member": "johanssonsoundsymbolic_Hupde",
+        "dataset": "johanssonsoundsymbolic",
+        "name": "Hupdë"
+      },
+      {
+        "member": "wiktionaryfr202610_jup_f56eabab83dd",
+        "dataset": "wiktionaryfr202610",
+        "name": "Hupda"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false,
+    "contribution": {
+      "ID": "39",
+      "Name": "Hup vocabulary",
+      "Description": "39",
+      "Contributor": "Patience Epps",
+      "Citation": "Patience Epps. 2009. Hup vocabulary. In: Haspelmath, Martin & Tadmor, Uri (eds.) World Loanword Database. Leipzig: Max Planck Institute for Evolutionary Anthropology, 994 entries. (Available online at https://wold.clld.org/vocabulary/39)",
+      "Number_of_words": "994",
+      "Language_ID": "Hup",
+      "primary_contributors": "eppspatience",
+      "secondary_contributors": ""
+    },
+    "source_description": {
+      "path": "raw/lexibank/wold/cldf/descriptions/vocabulary_39.md",
+      "sha256": "9c869a4d409937541b849932433b708f973d9cf06538e6c31c2c55bbf6828714"
+    }
+  },
+  {
+    "source": "wold",
+    "member": "Wichi",
+    "language": {
+      "ID": "Wichi",
+      "Name": "Wichí",
+      "Glottocode": "wich1264",
+      "Glottolog_Name": "Güisnay",
+      "ISO639P3code": "mzh",
+      "Macroarea": "South America",
+      "Latitude": "-22.5",
+      "Longitude": "-62.5833",
+      "Family": "Mataguayan",
+      "WOLD_ID": "40"
+    },
+    "records": 1361,
+    "parameter_inventory": 1814,
+    "parameters_with_records": 1264,
+    "parameters_without_member_record": 550,
+    "missing_row_source": 0,
+    "citations": {
+      "40": 1361
+    },
+    "bibliography": {
+      "40": "@misc{40\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "gled_MATACO",
+        "dataset": "gled",
+        "name": "Wichí Lhamtés Güisnay"
+      },
+      {
+        "member": "gled_WICHI_LHAMTES_GUISNAY",
+        "dataset": "gled",
+        "name": "Wichí Lhamtés Güisnay"
+      },
+      {
+        "member": "ids_306",
+        "dataset": "ids",
+        "name": "Wichí"
+      },
+      {
+        "member": "idssegmented_wichi",
+        "dataset": "idssegmented",
+        "name": "Wichí"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false,
+    "contribution": {
+      "ID": "40",
+      "Name": "Wichí vocabulary",
+      "Description": "40",
+      "Contributor": "Alejandra Vidal and Verónica Nercesian",
+      "Citation": "Alejandra Vidal and Verónica Nercesian. 2009. Wichí vocabulary. In: Haspelmath, Martin & Tadmor, Uri (eds.) World Loanword Database. Leipzig: Max Planck Institute for Evolutionary Anthropology, 1187 entries. (Available online at https://wold.clld.org/vocabulary/40)",
+      "Number_of_words": "1187",
+      "Language_ID": "Wichi",
+      "primary_contributors": "vidalalejandra nercesianveronica",
+      "secondary_contributors": ""
+    },
+    "source_description": {
+      "path": "raw/lexibank/wold/cldf/descriptions/vocabulary_40.md",
+      "sha256": "6dbe12f1b74a4689af1d39c89ac76cf3ae444f5bdafbdb21f164d6653ad777e4"
+    }
+  },
+  {
+    "source": "wold",
+    "member": "Mapudungun",
+    "language": {
+      "ID": "Mapudungun",
+      "Name": "Mapudungun",
+      "Glottocode": "mapu1245",
+      "Glottolog_Name": "Mapudungun",
+      "ISO639P3code": "arn",
+      "Macroarea": "South America",
+      "Latitude": "-38",
+      "Longitude": "-72",
+      "Family": "Araucanian",
+      "WOLD_ID": "41"
+    },
+    "records": 1412,
+    "parameter_inventory": 1814,
+    "parameters_with_records": 1192,
+    "parameters_without_member_record": 622,
+    "missing_row_source": 0,
+    "citations": {
+      "41": 1412
+    },
+    "bibliography": {
+      "41": "@misc{41,\n    note = {Augusta, Félix José de. 1903. Gramática araucana. Valdivia: Imprenta Central L. Lampert. Benigar, Juan. 1926. La autoridad del padre Falkner. Boletín de la Junta de Historia y Numismática Americana Nº 3: 67-88, Buenos Aires. Benigar, Juan. 1983. El indio araucano. Neuquén. Historia. Geografía. Toponimia. Dir. Gregorio Álvarez, Gobierno de la Provincia de Neuquén, t. 3: 201-273, Neuquén. Bertonio, Ludovico. 1879. Vocabulario de la Lengua Aymara. Primera parte: castellano-aymara. Segunda parte: aymara-castellano. Facsimile edition by Julio Platzmann. Leipzig: Teubner, 2 volumes. Casamiquela, Rodolfo M. 1962. El contacto Araucano-Gününa Kena. Influencias recíprocas en sus producciones espirituales. Actas de Jornadas Internacionales de Arqueología y Etnografía \"Vinculaciones de los aborígenes argentinos con los de los países limítrofes\", 11 al 15 de noviembre de 1957, Buenos Aires, 83-97. Casamiquela, Rodolfo M. 1987a. Pelajes criollos. Revista Patagónica, Año VII, Nº 32, octubre: 19-32, Buenos Aires. Casamiquela-1987b. Toponimia indígena del Chubut, Publicación del Gobierno de la Provincia del Chubut, Rawson, 170 págs. Claraz, Jorge.1988. Diario de un viaje de exploración al Chubut 1865-1866. Estudio preliminar y mapa: Rodolfo Casamiquela. Traducción del vocabulario y apéndice, bibliografía y epílogo: Meinrado Hux. Buenos Aires: Ediciones Marymar, 191 págs. Díaz Fernández, Antonio. 2004. Panorama dialectal mapuche en la Provincia de Chubut. Congreso Internacional “Políticas culturales e integración regional”, Buenos Aires, 30 March- 2 April, 2004. Díaz-Fernandez, Antonio. 1998. Una aproximación al análisis del epew. In: Lingüística y literatura mapuche. Aproximaciones desde ambos lados de los Andes. Trabajos del Primer Simposio Binacional de Lingüística y Literatura Indígenas, edited by Lucía Golluscio and Yosuke Kuramochi, pp. 79-86. Buenos Aires: Universidad de Buenos Aires and Universidad Católica de Temuco. Falkner, Thomas. 1774. A description of Patagonia and the adjoining parts of South America, containing an account of the soil, products, animals, vales, mountains, rivers, alkes, etc. of those countries; the religion, government, policy, customs, dress, arms, and language of the Indian inhabitants; and some particulars to Falkland’s Islands. Hereford: C. Pugh, iv + 144 pags. Febrés, Andrés. 1884 [1765]. Gramática Araucana, o sea, Arte de la Lengua General de los Indios de Chile, reproducción de la edición de Lima de 1765, con los textos completos, por Juan M. Lársen, impreso por Juan A. Alsina. Fernández Garay, Ana V. 2001. Ranquel-Español/ Español-Ranquel. Diccionario de una variedad Mapuche de la pampa (Argentina) (Indigenous Languages of Latin America. Vol. 2). Leiden: Research School of Asian, African, and Amerindian Studies (CNWS). Fernández Garay, Ana V. 1998. El mapuche del Chalía: aspectos dialectológicos. Presentado en las VII Jornadas de Lengua y Literatura mapuche, Temuco, Universidad de La Frontera. Golluscio, Lucía 2006: El Pueblo Mapuche. Poéticas de pertenencia y devenir. Buenos Aires: Ed. Biblos. Harrington, Tomás. 1912-1955. Cuadernos I (pp. 1-178) and II (pp. 1-176) (MS.) Fondo Documental del Programa Pilcaniyeu, CENPAT-CONICET. Havestadt, Bernardo. 1883 [1777]. Chilidúgú sive Tractatus Linguae Chilensis, 2 vols. Leipzig: B. G. Teubner. Key, Mary Ritchie. 1984ff. Intercontinental Dictionary Series. South American languages database. Mapudungun. Lenz, Rodolfo.1905-1910. Los elementos indios del castellano de Chile. Estudio lingüístico y etnológico. Diccionario etimológico de las voces chilenas derivadas de lenguas indígenas americanas. Anexo a los Anales de la Universidad de Chile. Santiago de Chile: Imprenta Cervantes. Márquez Eyzaguirre, Luis. 1955. “Intromisión de la lengua quechua en Chile”. Anales de la Universidad Católica deValparaíso, Nº 3, Año 1956, pp. 1-237. Middendorf, E. W. 1890. Wöterbuch des Runa Simi oder der Ketshua Sprache. Unter Berücksichtigung der früheren Werke nach eigenen Studien bearbeitet. (Quoted in Lenz 1905-1910). Payne, David \\& Robert Croese. 1988. “On Mapudungun linguistic affiliations: an evaluation of previous proposals and evidence for an Arawakan relationship.” Perú: SIL. Ms. Paper read at the 46th International Congress of Americanists, July 1988, Amsterdam. Ramos i Duarte, Félix. 1898. Diccionario de mejicanismos. Colección de locuciones I frases viciosas con sus correspondientes crìticas. Segunda edición. Mexico. Religiosos franciscanos misioneros de los Colegios de Propaganda Fide del Perú. 1998 [1905]. Vocabulario políglota incaico. Quechua, Aimara, Castellano. Edited by Rodolfo Cerrón Palomino. Lima: Ministerio de Educación de Perú. Rosas, Juan Manuel de. 1947. Gramática y diccionario de la lengua pampa (pampa-ranquel-araucano). Edición y notas de Oscar R. Suárez Cavuglia y Enrique Stieben. Prólogo de manuel Gálvez. Buenos Aires: Editorial Albatros, 303 págs. Smeets, Catharina Ineke. 1989. A Mapuche Grammar. Doctoral Dissertation. Leiden: University of Leiden. Tello, Eliseo A. 1946. Toponimia araucana del Territorio de La Pampa. Ingeniero Luiggi: Bibliotevca popular y centro recreativo y cultural “Juan B. Alberdi”, 159 págs. Tschudi, J. J. von. 1884. Organismus der Khetshua Sprache. Leipzig: Brockhaus. Valdivia, Luis de.1606. Arte y Gramática General de la lengua que corre en todo el Reyno de Chile, Lima: Francisco del Canto. Viegas Barros, J. Pedro. 2005. “Los préstamos del gününa küne al mapudungun.” In: Voces en el viento, Raíces lingüísticas de la Patagonia. Colección “El Suri”. Buenos Aires: Ediciones Mondragón, 153-163. Viegas Barros, J. Pedro. 2008. La dialectología de la lengua mapudungun en la Argentina: panorama bibliográfico. (MS.) Zúñiga, Fernando. 2000. Mapudungun. Münster: LINCOM. Zúñiga, Fernando. 2006. Mapudungun. El habla mapuche. Santiago de Chile: Centro de Estudios Públicos.}\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "chacolanguages_Mapudungun",
+        "dataset": "chacolanguages",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "gled_MAPUDUNGUN",
+        "dataset": "gled",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "gled_RANQUELCHE",
+        "dataset": "gled",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "ids_309",
+        "dataset": "ids",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "idssegmented_mapudungun",
+        "dataset": "idssegmented",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "johanssonsoundsymbolic_Mapudungun",
+        "dataset": "johanssonsoundsymbolic",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "joophonosemantic_Mapudungun",
+        "dataset": "joophonosemantic",
+        "name": "Mapudungun"
+      },
+      {
+        "member": "wiktionarypt202610_arn_03cfa7f76dd7",
+        "dataset": "wiktionarypt202610",
+        "name": "Araucano/Mapuche"
+      },
+      {
+        "member": "wiktionaryfr202610_arn_268c2becbd26",
+        "dataset": "wiktionaryfr202610",
+        "name": "Mapuche"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false,
+    "contribution": {
+      "ID": "41",
+      "Name": "Mapudungun vocabulary",
+      "Description": "41",
+      "Contributor": "Lucía Golluscio and Adriana Fraguas and Fresia Mellico",
+      "Citation": "Lucía Golluscio and Adriana Fraguas and Fresia Mellico. 2009. Mapudungun vocabulary. In: Haspelmath, Martin & Tadmor, Uri (eds.) World Loanword Database. Leipzig: Max Planck Institute for Evolutionary Anthropology, 1291 entries. (Available online at https://wold.clld.org/vocabulary/41)",
+      "Number_of_words": "1291",
+      "Language_ID": "Mapudungun",
+      "primary_contributors": "gollusciolucia fraguasadriana mellicofresia",
+      "secondary_contributors": ""
+    },
+    "source_description": {
+      "path": "raw/lexibank/wold/cldf/descriptions/vocabulary_41.md",
+      "sha256": "53ec2efb432390a675405a7fe16c3da79f97bb7ce96f0b72ddbb3d0776ea8120"
+    }
+  },
+  {
+    "source": "tryoncad",
+    "member": "LEW",
+    "language": {
+      "ID": "LEW",
+      "Name": "Lewo",
+      "Glottocode": "lewo1242",
+      "Glottolog_Name": "Lewo",
+      "ISO639P3code": "lww",
+      "Macroarea": "Papunesia",
+      "Latitude": "-16.7612",
+      "Longitude": "168.334",
+      "Family": "Austronesian"
+    },
+    "records": 1169,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 1169,
+    "parameters_without_member_record": 141,
+    "missing_row_source": 0,
+    "citations": {
+      "Tryon1995": 1169
+    },
+    "bibliography": {
+      "Tryon1995": "@book{Tryon1995,\n    editor = {Tryon, Darrell T.},\n    address = {Berlin, New York},\n    doi = {doi:10.1515/9783110884012},\n    isbn = {9783110884012},\n    publisher = {De Gruyter Mouton},\n    subtitle = {An Introduction to Austronesian Studies},\n    title = {Comparative Austronesian Dictionary},\n    url = {https://doi.org/10.1515/9783110884012},\n    year = {1995}\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "abvd_1103",
+        "dataset": "abvd",
+        "name": "Lamenu (Nul)"
+      },
+      {
+        "member": "abvd_1126",
+        "dataset": "abvd",
+        "name": "Lamenu (Mate)"
+      },
+      {
+        "member": "abvd_1135",
+        "dataset": "abvd",
+        "name": "Lamenu (Filakara)"
+      },
+      {
+        "member": "abvd_1689",
+        "dataset": "abvd",
+        "name": "Lewo (Nivu village)"
+      },
+      {
+        "member": "abvd_1690",
+        "dataset": "abvd",
+        "name": "Lewo (Nikaura village)"
+      },
+      {
+        "member": "acd_19655",
+        "dataset": "acd",
+        "name": "Lewo"
+      },
+      {
+        "member": "acd_19365",
+        "dataset": "acd",
+        "name": "Mapremo"
+      },
+      {
+        "member": "acd_19345",
+        "dataset": "acd",
+        "name": "Visina"
+      },
+      {
+        "member": "gled_LEWO_FILAKARA",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "gled_LEWO_MAPREMO",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "gled_LEWO_MATE",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "gled_LEWO_NIKAURA",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "gled_LEWO_NUL",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "gled_LEWO_NUVI",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "gled_LEWO_VISINA",
+        "dataset": "gled",
+        "name": "Lewo"
+      },
+      {
+        "member": "tryonvanuatu_mate",
+        "dataset": "tryonvanuatu",
+        "name": "Mate"
+      },
+      {
+        "member": "tryonvanuatu_nul",
+        "dataset": "tryonvanuatu",
+        "name": "Nul"
+      },
+      {
+        "member": "tryonvanuatu_filakara",
+        "dataset": "tryonvanuatu",
+        "name": "Filakara"
+      },
+      {
+        "member": "vanuatuvoices_Lamanbay",
+        "dataset": "vanuatuvoices",
+        "name": "Laman Bay"
+      },
+      {
+        "member": "vanuatuvoices_Marapahu",
+        "dataset": "vanuatuvoices",
+        "name": "Marapahu"
+      },
+      {
+        "member": "vanuatuvoices_Moriu",
+        "dataset": "vanuatuvoices",
+        "name": "Moriu"
+      },
+      {
+        "member": "vanuatuvoices_Niku",
+        "dataset": "vanuatuvoices",
+        "name": "Niku"
+      },
+      {
+        "member": "vanuatuvoices_Nivenuhe",
+        "dataset": "vanuatuvoices",
+        "name": "Nivenuhe"
+      },
+      {
+        "member": "vanuatuvoices_Nouvi",
+        "dataset": "vanuatuvoices",
+        "name": "Nouvi"
+      },
+      {
+        "member": "abvd2026_1103",
+        "dataset": "abvd2026",
+        "name": "Lamenu (Nul)"
+      },
+      {
+        "member": "abvd2026_1126",
+        "dataset": "abvd2026",
+        "name": "Lamenu (Mate)"
+      },
+      {
+        "member": "abvd2026_1135",
+        "dataset": "abvd2026",
+        "name": "Lamenu (Filakara)"
+      },
+      {
+        "member": "abvd2026_1689",
+        "dataset": "abvd2026",
+        "name": "Lewo (Nivu village)"
+      },
+      {
+        "member": "abvd2026_1690",
+        "dataset": "abvd2026",
+        "name": "Lewo (Nikaura village)"
+      },
+      {
+        "member": "wiktionaryfr202610_lww_d3936c47cb18",
+        "dataset": "wiktionaryfr202610",
+        "name": "Lewo"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  },
+  {
+    "source": "tryoncad",
+    "member": "RUK",
+    "language": {
+      "ID": "RUK",
+      "Name": "Rukai",
+      "Glottocode": "ruka1240",
+      "Glottolog_Name": "Rukai",
+      "ISO639P3code": "dru",
+      "Macroarea": "Papunesia",
+      "Latitude": "22.7738",
+      "Longitude": "120.844",
+      "Family": "Austronesian"
+    },
+    "records": 936,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 936,
+    "parameters_without_member_record": 374,
+    "missing_row_source": 0,
+    "citations": {
+      "Tryon1995": 936
+    },
+    "bibliography": {
+      "Tryon1995": "@book{Tryon1995,\n    editor = {Tryon, Darrell T.},\n    address = {Berlin, New York},\n    doi = {doi:10.1515/9783110884012},\n    isbn = {9783110884012},\n    publisher = {De Gruyter Mouton},\n    subtitle = {An Introduction to Austronesian Studies},\n    title = {Comparative Austronesian Dictionary},\n    url = {https://doi.org/10.1515/9783110884012},\n    year = {1995}\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "abvd_267",
+        "dataset": "abvd",
+        "name": "Proto-Central Eastern Malayo Polynesian"
+      },
+      {
+        "member": "abvd_272",
+        "dataset": "abvd",
+        "name": "Rukai (Budai F69)"
+      },
+      {
+        "member": "abvd_725",
+        "dataset": "abvd",
+        "name": "Proto-Rukai"
+      },
+      {
+        "member": "abvd_812",
+        "dataset": "abvd",
+        "name": "Rukai (Tanan L04)"
+      },
+      {
+        "member": "abvd_813",
+        "dataset": "abvd",
+        "name": "Rukai (Budai L04)"
+      },
+      {
+        "member": "abvd_814",
+        "dataset": "abvd",
+        "name": "Rukai (Maga L04)"
+      },
+      {
+        "member": "abvd_815",
+        "dataset": "abvd",
+        "name": "Rukai (Tona)"
+      },
+      {
+        "member": "abvd_816",
+        "dataset": "abvd",
+        "name": "Rukai (Mantauran L04)"
+      },
+      {
+        "member": "abvdphilippines_272",
+        "dataset": "abvdphilippines",
+        "name": "Rukai (Budai F69)"
+      },
+      {
+        "member": "abvdphilippines_812",
+        "dataset": "abvdphilippines",
+        "name": "Rukai (Tanan L04)"
+      },
+      {
+        "member": "abvdphilippines_813",
+        "dataset": "abvdphilippines",
+        "name": "Rukai (Budai L04)"
+      },
+      {
+        "member": "abvdphilippines_814",
+        "dataset": "abvdphilippines",
+        "name": "Rukai (Maga L04)"
+      },
+      {
+        "member": "abvdphilippines_815",
+        "dataset": "abvdphilippines",
+        "name": "Rukai (Tona)"
+      },
+      {
+        "member": "abvdphilippines_816",
+        "dataset": "abvdphilippines",
+        "name": "Rukai (Mantauran L04)"
+      },
+      {
+        "member": "acd_19086",
+        "dataset": "acd",
+        "name": "Proto-Rukai"
+      },
+      {
+        "member": "acd_397",
+        "dataset": "acd",
+        "name": "Rukai"
+      },
+      {
+        "member": "acd_966",
+        "dataset": "acd",
+        "name": "Rukai (Budai)"
+      },
+      {
+        "member": "acd_18979",
+        "dataset": "acd",
+        "name": "Rukai (Maga)"
+      },
+      {
+        "member": "acd_968",
+        "dataset": "acd",
+        "name": "Rukai (Mantauran)"
+      },
+      {
+        "member": "acd_969",
+        "dataset": "acd",
+        "name": "Rukai (Tanan)"
+      },
+      {
+        "member": "acd_970",
+        "dataset": "acd",
+        "name": "Rukai (Tona)"
+      },
+      {
+        "member": "diacl_31900",
+        "dataset": "diacl",
+        "name": "Rukai"
+      },
+      {
+        "member": "diacl_32000",
+        "dataset": "diacl",
+        "name": "Rukai (Maga)"
+      },
+      {
+        "member": "diacl_32300",
+        "dataset": "diacl",
+        "name": "Rukai (Tona)"
+      },
+      {
+        "member": "gled_BUDAI_RUKAI",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "gled_MAGA_RUKAI",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "gled_MANTAURAN",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "gled_MANTAURAN_RUKAI",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "gled_RUKAI",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "gled_TANAN_RUKAI",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "gled_TONA_RUKAI",
+        "dataset": "gled",
+        "name": "Rukai"
+      },
+      {
+        "member": "abvd2026_267",
+        "dataset": "abvd2026",
+        "name": "Proto-Central Eastern Malayo Polynesian"
+      },
+      {
+        "member": "abvd2026_725",
+        "dataset": "abvd2026",
+        "name": "Proto-Rukai"
+      },
+      {
+        "member": "wiktionaryfr202610_dru_258ab9073318",
+        "dataset": "wiktionaryfr202610",
+        "name": "Rukai"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  },
+  {
+    "source": "tryoncad",
+    "member": "KWA",
+    "language": {
+      "ID": "KWA",
+      "Name": "Kwamera",
+      "Glottocode": "kwam1252",
+      "Glottolog_Name": "Kwamera",
+      "ISO639P3code": "tnk",
+      "Macroarea": "Papunesia",
+      "Latitude": "-19.5954",
+      "Longitude": "169.442",
+      "Family": "Austronesian"
+    },
+    "records": 995,
+    "parameter_inventory": 1310,
+    "parameters_with_records": 994,
+    "parameters_without_member_record": 316,
+    "missing_row_source": 0,
+    "citations": {
+      "Tryon1995": 995
+    },
+    "bibliography": {
+      "Tryon1995": "@book{Tryon1995,\n    editor = {Tryon, Darrell T.},\n    address = {Berlin, New York},\n    doi = {doi:10.1515/9783110884012},\n    isbn = {9783110884012},\n    publisher = {De Gruyter Mouton},\n    subtitle = {An Introduction to Austronesian Studies},\n    title = {Comparative Austronesian Dictionary},\n    url = {https://doi.org/10.1515/9783110884012},\n    year = {1995}\n}"
+    },
+    "other_resource_members": [
+      {
+        "member": "abvd_477",
+        "dataset": "abvd",
+        "name": "Kwamera"
+      },
+      {
+        "member": "abvd_1028",
+        "dataset": "abvd",
+        "name": "Kwamera (Isiai)"
+      },
+      {
+        "member": "abvd_1082",
+        "dataset": "abvd",
+        "name": "Kwamera (Yatukwey)"
+      },
+      {
+        "member": "abvd_1127",
+        "dataset": "abvd",
+        "name": "Kwamera (Port Resolution)"
+      },
+      {
+        "member": "acd_19307",
+        "dataset": "acd",
+        "name": "Kwamera"
+      },
+      {
+        "member": "gled_KWAMERA_ISIAI",
+        "dataset": "gled",
+        "name": "Kwamera"
+      },
+      {
+        "member": "gled_KWAMERA_PORT_RESOLUTION",
+        "dataset": "gled",
+        "name": "Kwamera"
+      },
+      {
+        "member": "gled_KWAMERA_YATUKWEY",
+        "dataset": "gled",
+        "name": "Kwamera"
+      },
+      {
+        "member": "tryonvanuatu_isiai",
+        "dataset": "tryonvanuatu",
+        "name": "Isiai"
+      },
+      {
+        "member": "tryonvanuatu_yatuk",
+        "dataset": "tryonvanuatu",
+        "name": "Yatuk."
+      },
+      {
+        "member": "tryonvanuatu_portr",
+        "dataset": "tryonvanuatu",
+        "name": "Port R."
+      },
+      {
+        "member": "abvd2026_477",
+        "dataset": "abvd2026",
+        "name": "Kwamera"
+      },
+      {
+        "member": "abvd2026_1028",
+        "dataset": "abvd2026",
+        "name": "Kwamera (Isiai)"
+      },
+      {
+        "member": "abvd2026_1082",
+        "dataset": "abvd2026",
+        "name": "Kwamera (Yatukwey)"
+      },
+      {
+        "member": "abvd2026_1127",
+        "dataset": "abvd2026",
+        "name": "Kwamera (Port Resolution)"
+      },
+      {
+        "member": "wiktionarypt202610_tnk_6d0777b0c746",
+        "dataset": "wiktionarypt202610",
+        "name": "Kwamera"
+      },
+      {
+        "member": "wiktionaryfr202610_tnk_6d0777b0c746",
+        "dataset": "wiktionaryfr202610",
+        "name": "Kwamera"
+      }
+    ],
+    "fieldwork_independence": "unknown_without_record_level_lineage",
+    "questionnaire_absence_is_lexical_absence": false
+  }
+]

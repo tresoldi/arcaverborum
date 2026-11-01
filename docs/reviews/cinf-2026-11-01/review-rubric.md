@@ -1,0 +1,8 @@
+# Blinded model-assisted evidence review
+Review all 146 cases independently. No analyst key, predictions, prior case reviews or other reviewer outputs. This is model-assisted triage, not expert gold validation. Disclose familiarity.
+CSV columns: case_id,reviewer,identity_evidence,sense_evidence,reading_fidelity,interpretation,evidence_ids,evidence,limitations
+identity_evidence: represented_identity | sampled_nonmatch | insufficient_evidence | ambiguous_scope. Compare complete forms within source/member/variety/tags/basis. Inspect every synonym and original Value/Form/Segments; matching spelling does not establish matching pronunciation. A sampled nonmatch does not establish lexical absence.
+sense_evidence: source_supported | mapping_unverified | explicit_mismatch | catalog_overlap | insufficient_evidence. Frozen concept labels do not independently validate mappings. Opaque native labels and missing native senses require qualification. Surprising semantics alone do not establish error.
+reading_fidelity: retained_consistent | derivation_requires_review | suspected_truncation | inconsistent | insufficient_evidence. Check apostrophes, tone, quantity and truncation. Consistency is internal, not field verification.
+interpretation: unresolved | catalog_overlap | documented_homonymy | documented_polysemy | underspecified_source. Documented requires explicit lexeme/etymological evidence, never semantic intuition alone.
+evidence_ids: semicolon separated native IDs. evidence: concrete quoted forms/differences and scope. limitations: missing source scans, meanings, transcription or provenance. Every row requires case-specific evidence or explicit no-data explanation. Do not manufacture citations or expert judgments. Retain uncertainty.

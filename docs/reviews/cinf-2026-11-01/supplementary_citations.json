@@ -1,0 +1,248 @@
+[
+  {
+    "case_id": "0072b9050a3928570144bff4",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "sagartst_Lushai-52_thefeather-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "16d8405cd3f5f2f21989cb1e",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "tryoncad_BUR-770_road-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "1b456d3afbc2f11f187ee9da",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "tryoncad_NTA-297_palmofhand-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "2b7316b684699b0464c4e1cb",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "huntergatherer_1-13_ankle-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "2cf1b77b2904dc8de1c48869",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "northeuralex_kan-374_sleeve-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "30cf67e3f454996c448a50af",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "beidazihui_Xiamen-46-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "30cf67e3f454996c448a50af",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "beidazihui_Xiamen-46-2",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "30cf67e3f454996c448a50af",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "beidazihui_Xiamen-46-3",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "33fdac9030bf61f091d9b2b6",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "suntb_YongningNaxi-581_rest-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "4f129fcf58ce712b52c42041",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "tuled_Mawe-391-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "500a5fcae87b6477f944ff04",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "northeuralex_evn-404_road-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "6bf436f714346ffa47eba662",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "huntergatherer_100-173_jaguar-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "701bdeabcc27f891f16fbaa1",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "sagartst_Xiandao-47_theegg-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "701bdeabcc27f891f16fbaa1",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "sagartst_Xiandao-52_thefeather-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "81612ab9cb96979f44781a87",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "zgraggenmadang_faita-191_rain-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "89b8cf592dc6f42e17c50760",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "tryoncad_IRA-145_youplural-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "8a5db9490aa5ee9a2dda308e",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "sagartst_Limbu-52_thefeather-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "8a97f92ae5d422d2f0648856",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "walworthpolynesian_EastUvea-127_woodsforest-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "8a97f92ae5d422d2f0648856",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "walworthpolynesian_EastUvea-127_woodsforest-2",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "8a97f92ae5d422d2f0648856",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "walworthpolynesian_EastUvea-79_stickwood-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "8d6aa8974740ab30b41fbde7",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "idssegmented_waorani-7-320-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "90f332e9608d9c1d57258446",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "crossandean_Iruhito-96_road-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "96b19857b538c2ac097837d6",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "wold_Manange-3-12-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "a725d69379c3f9ed0e0073f0",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "idssegmented_rapanui-15-851-2",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "a905808e8ad3294e5752d5a4",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "sagartst_Lisu-52_thefeather-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "a93a65e5d9be736b46699fb2",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "luangthongkumkaren_SouthernPao-308_torn-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "ac78debc786800559e78c781",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "wikt_64279",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "ac78debc786800559e78c781",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "wikt_64280",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "acc10af3eeaec3e75a5802af",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "polyglottaafricana_V-B-4-110_devil-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "ae96ee0a2b482936587b3c02",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "yangyi_NuosuHuangDai1992-560_pitchthrowfromsideway-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "ae96ee0a2b482936587b3c02",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "yangyi_NuosuHuangDai1992-566_squeeze-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "aebd6b9948971d11d06b8004",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "tryonvanuatu_fali-49_husband-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "c7146947b2a99746cf3876f2",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "polyglottaafricana_XII-A-b-1-59_leg-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "cdc1e78e22a523ca091f270d",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "dicttseltal_SN003368",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "cdc1e78e22a523ca091f270d",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "dicttseltal_TSE26891",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "d214a74eee37a1eda7510372",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "idssegmented_azerbaijaniterekemedialect-1-210-2",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "d214a74eee37a1eda7510372",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "idssegmented_azerbaijaniterekemedialect-4-321-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "ee426c280dd8e57df57436ae",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "zgraggenmadang_anjam-162_fire-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "f8c9e401154f1ad812ed4719",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "polyglottaafricana_VII-B-2-59_leg-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "f8c9e401154f1ad812ed4719",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "polyglottaafricana_VII-B-2-72_thigh-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  },
+  {
+    "case_id": "fa6c2c9127141d46d357b459",
+    "reviewer": "claude-opus-5-5 (model-assisted first pass)",
+    "native_id": "marrisonnaga_Tangkhul-458_manmale-1",
+    "status": "outside_frozen_packet_requires_source_verification"
+  }
+]

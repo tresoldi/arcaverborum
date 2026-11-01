@@ -1,0 +1,51 @@
+[
+  {
+    "child": "idssegmented",
+    "parent": "ids",
+    "relation": "lexical_derivative",
+    "evidence": "raw/lexibank/idssegmented/README.md",
+    "conclusion": "Known derivative, already shared resource block; transformation may be erroneous"
+  },
+  {
+    "child": "wold:questionnaire",
+    "parent": "ids:questionnaire",
+    "relation": "prompt_list_derivative",
+    "evidence": "https://wold.clld.org/",
+    "conclusion": "Shared elicitation design, not proof of copied lexical observations"
+  },
+  {
+    "child": "wold:Mapudungun",
+    "parent": "ids:Mapudungun",
+    "relation": "bibliographic_reference",
+    "evidence": "raw/lexibank/wold/cldf/descriptions/vocabulary_41.md",
+    "conclusion": "IDS is in bibliography; record-level lexical dependence unresolved"
+  },
+  {
+    "child": "wold:Hup",
+    "parent": "Epps:fieldwork:2000-2004",
+    "relation": "documented_fieldwork_origin",
+    "evidence": "raw/lexibank/wold/cldf/descriptions/vocabulary_39.md",
+    "conclusion": "Origin documented; derivative reuse by other datasets not independently resolved"
+  },
+  {
+    "child": "ids:277",
+    "parent": "Shell:1959;1965;1987",
+    "relation": "pooled_bibliography",
+    "evidence": "https://ids.clld.org/contributions/277",
+    "conclusion": "Every record cites pooled sources; not three independent attestations"
+  },
+  {
+    "child": "tryoncad:RUK",
+    "parent": "Li:Budai-Rukai:Tryon1995:p297",
+    "relation": "documented_dialect_contributor",
+    "evidence": "https://api.pageplace.de/preview/DT0400.9783110884012_A19589064/preview-9783110884012_A19589064.pdf#page=325",
+    "conclusion": "Budai wordlist and contributor identified; primary configuration note qualified by source"
+  },
+  {
+    "child": "tryoncad:LEW;KWA",
+    "parent": "Tryon1995",
+    "relation": "compilation",
+    "evidence": "raw/lexibank/tryoncad/cldf/sources.bib",
+    "conclusion": "Compilation identified; original wordlist collection and reuse from Tryon1976 unresolved"
+  }
+]

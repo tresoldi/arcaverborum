@@ -1,0 +1,10 @@
+{
+  "worksheet_sha256": "2be10bfb4ddfa8696462703188929dd465cc0ccf334fd213fcc0b2ce8757d29d",
+  "parameters_sha256": "32972445ce94de119eca21f6304d9cc924aa042a783675696ec5d498054c0dfa",
+  "native_labels_sha256": "0ab2c9b1488f84fb92b229057733b51519214602d3c0750fa30f93b5bdd4c4ee",
+  "cases": 146,
+  "target_parameters": 172,
+  "recovered_parameters": 172,
+  "independent_expert_adjudications": 0,
+  "caveat": "A questionnaire prompt is not proof of the exact meaning of a recorded lexeme."
+}

@@ -159,3 +159,25 @@ def test_prior_only_is_explicit_and_empty_comparability_has_no_tail(tmp_path):
     assert pair["empirical_upper_tail"] is None and pair["comparable_families"] == 0
     assert bayesian([], protocol)["results"][0]["evidence_status"] == "prior_only_no_comparable_families"
     db.close()
+
+
+def test_publication_sensitivity_does_not_pool_cross_book_matches():
+    from arcaverborum.colexification_inference import publication_outcome
+
+    left = [('you', 'dog-a', 'dog', 'macdonald-1973'), ('yo', 'dog-b', 'dog', 'dye-1968')]
+    right = [('yo', 'path-a', 'path', 'macdonald-1973'), ('yomay', 'path-b', 'path', 'dye-1968')]
+    assert outcome(left, right) == 1
+    assert publication_outcome(left, right) == (0, 2, False)
+    assert publication_outcome([left[1]], [right[0]]) == (None, 0, False)
+    pooled = [('yo', 'dog', 'p1', 'book-a;book-b')]
+    assert publication_outcome(pooled, [('yo', 'path', 'p2', 'book-a;book-b')]) == (None, 0, False)
+
+
+def test_streaming_ridge_matches_retained_examples():
+    from arcaverborum.colexification_inference import ridge_predict
+
+    rows = [dict(pair=i % 3, coverage=10+i, length_a=2+i % 4,
+                 length_b=3+i % 2, y=int(i % 5 == 0)) for i in range(40)]
+    expected = ridge_predict(rows, rows[:7], 3)
+    observed = ridge_predict(rows, rows[:7], 3, streaming=True)
+    assert observed == pytest.approx(expected, abs=1e-12)

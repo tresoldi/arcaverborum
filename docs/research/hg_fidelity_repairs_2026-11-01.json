@@ -1,0 +1,2312 @@
+{
+  "sources": {
+    "raw/lexibank/huntergatherer/cldf/forms.csv": "dd6a8e90e884b5a0e5e2dbb1cfa184351cc40be1696d337343dbb577dc104611",
+    "raw/lexibank/huntergatherer/raw/130.json": "b5a875bceb308eacc3d034fcf0c835f761a23599f01ee15d3fbc7a231ac484d1",
+    "raw/lexibank/huntergatherer/raw/137.json": "d30a3bdce9b4e445845b45f1cb80ac03fd930c5a2ebbe3b1ca2e5b351e45463f",
+    "raw/lexibank/huntergatherer/raw/65.json": "28f27ce63a870f34d8c391e30b9355bb1ee92973718a52db36311e121fb18a73"
+  },
+  "decisions": [
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-12_and-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "05b8d2ea674675bab41c303a0f6eb88ce453ed0c0d60adc774475cd1aa97970e",
+      "phonemic": "ãɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-27_black-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "bcf53c91820026891b051bb6a6ff6099fa68e9b0c282a9832004d3a029b0faa3",
+      "phonemic": "idikwaʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-32_bone-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "66a31b36e45e0c1ffaacac7a0c006d4919537ffad94df65ba79c9be3db50b754",
+      "phonemic": "tʃwekʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-38_child-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "57ba8fbdb25e56cbf4ce7373e63e2f30ebef104a658b6dc9107d3a9053d83b1d",
+      "phonemic": "hĩ̃kʔĩtʃãwã"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-41_cold-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "0e65c053f7930077ab03969e63c6c9dfa14aa7c126ef7c9491ac448c8e3925b4",
+      "phonemic": "dijawaʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-56_dry-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a472b4ee27891a8c93b6e4deec8b7f5524503fdfe34665ad85ac53540dc68e10",
+      "phonemic": "hɔaʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-60_earthsoil-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "79d1b5b6d48c09b833a19af4f36faf87b9855d7446fec740ee49f30960216294",
+      "phonemic": "redækʔæ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-63_eye-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "14c9c45c2b31adf66b8d9bd265261b9d0903c6bafeff5c7fa8daa910a4669139",
+      "phonemic": "tʃiʔæhæɾe"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-68_father-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "530000f31c74c61284df8af29d3a5e2683a133cb0ec3b5868c5e9a837fa7de92",
+      "phonemic": "tʃá'oh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-81_good-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "adc1f7ea318dcf5b2cb3a561b452782911799c06fd4f4e2fc8eb9b7d3eb98010",
+      "phonemic": "ɑdiwɑʔɑ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-84_hairofhead-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "b77dae196aa147f95aa0c53b9f29c468681f9635ae67c4615f71c577fb62bb37",
+      "phonemic": "tʃuwotsʔe"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-89_heavy-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b852df2baab2fb3eb36420f0d564a91553b0cad8f3a863118a9b4152ffcc3812",
+      "phonemic": "hamákaɁaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-97_ininside-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d9ce4272f6dfe243f1fcbb5c612ab88eafe61de60af013ee3bd9fe10215b536b",
+      "phonemic": "haɁkuæɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-106_legfoot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "2f880bc2aea028e93155c50eca6f968cedda2288e6eee7af7424a4822a9c9adb",
+      "phonemic": "tɨhtáremaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-121_name-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e08eba1402fc5e665575eb1ba9395b3808038e64e5b7b01df519e5125408d101",
+      "phonemic": "wã'bẽ́"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-123_nearclose-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e8c1d1dd496f9e42fc176efa068edd44bdcf0e7dfd3e0e2792c69422934bb5b6",
+      "phonemic": "tɨkɁɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-127_nonot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a6a2be4ef060e9cd1e16d3de406f47dee565766c77add5858e6a5221462957bd",
+      "phonemic": "hæɁkuah"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-132_other-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "3457cf35c523aaf2a87cbb6c2074cdcc38509df960dd9bcbccbd8f00c93ba701",
+      "phonemic": "kaɁrãɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-137_rain-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "dca100ac1f39fe285321e25a040c47b1e122fc92f8702e8af24b1d90b840469d",
+      "phonemic": "ahijaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-138_red-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "3557d03f2bbc1bcece1c7ecb050c6fe125260090f9309aee7e0bbb7965e17acb",
+      "phonemic": "tũɑ̃ ʔɑ̃"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-150_short-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "1420728eb1ff445b62a233848aa9841f2da34623205e9a962288641c282a254b",
+      "phonemic": "beáɁaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-158_small-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "6b22b8ae419ccd3eb8b3828c1cb3a22fca855b3ad3929937339a2ad17ba4d92f",
+      "phonemic": "hĩkʔĩtʃãwã"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-167_star-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "7481c1d16ac733400eadff77d0196e95d182292a3ce42690b0084876577613c7",
+      "phonemic": "siɾikʔɤ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-170_stone-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "be3cd3a43be45fc1048550cc6b9a34008c6b06ae4d6dac223df5fedea85f316c",
+      "phonemic": "idɤʔki"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-178_thick-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "237425796ff3e4f735968cf9baee948488fedf6991da69698624a24f781b8c0f",
+      "phonemic": "baréhpaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-179_thin-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c300e809945ca89d46aa3e7364647cb32162c9d64d3ab9535af96dc4f9ba3c9c",
+      "phonemic": "añaɁwaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-26_bite-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "2f7e4fdf8e9012e016dbaaeb96c152bf8992d7c6f6b01e723728e4694b30b34c",
+      "phonemic": "ñiɁéhuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-29_blow-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "774105bd6d5ccb4d8c159e57fb6e2ba9b3315bef8097de206699d1f6674b814a",
+      "phonemic": "phuɨɁɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-37_chew-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "45d230db2a07f1bc9ea91db2c9dc6b5fa1b954277a20ae7cd73cd82730c135c7",
+      "phonemic": "s'æɁɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-39_climb-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d65d60969e035136f08cfa1fd945db058acca7a58ade76f7703ae2cabce7ad08",
+      "phonemic": "s'oɁakih"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-46_cry-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "0d8d649d71d318b520780719e55c32e4e4f2b6dea2ae2bea88b1429122adbb83",
+      "phonemic": "ahæ'uh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-48_cuthack-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4aaf4a2042ec4ca2e0bb5c6c0a2ee26577fcf87061067e8018e63db611aafa15",
+      "phonemic": "kwi'ɤpɯ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-50_diebedead-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "b57af789351b3e112cf68420105cfeedb8eeb7989b4735d56896f19fa9b24736",
+      "phonemic": "kʔɔɾupæiʔɨ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-61_dream-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7be2fdde243e135326f136bbd9db7ea7fac5840317987cf1ca05af00ced6a957",
+      "phonemic": "kohtɨɁkuéhɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-65_fall-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "6e7e71c19e4dbde6c3105d53385571a89ce8aedd2e7acdb06759e812c199ec4f",
+      "phonemic": "moaɁs'éh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-77_fly-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "477c467a5e59c7156eac4a1e9ba3905dec0175acd80cf24c9392aa9907338eb2",
+      "phonemic": "kɤʔɨ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-93_hold-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "81de3853131390f030f3fdc0f9eccac0d4c9a4746a70d547c96945713405be43",
+      "phonemic": "s'uɁwædɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-100_kill-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "316415eadae6d2ba048c28d6173c29ebfb719bf43efc45209954e36e49ed076d",
+      "phonemic": "kuæʔɨ iku"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-109_livebealive-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "45dec566d76d4f71e70e008b8adfb04b126dca94059d8fee8bcb3989b64fdd5b",
+      "phonemic": "hɨɁɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-136_poundbeat-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7a2b9e42ff500f9860d0d1f249d4b84e6e8f1b1209d4498e2b2a83a1d378f162",
+      "phonemic": "paɁtápuɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-146_scratch-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e21a55e7dd7030e5a4266094a03c28ff3d464646788847463dc2ddfff81a8441",
+      "phonemic": "kaɁræuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-149_shoot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8fd421182ab36dd42cbb5f61ca74b9fe90f2dfc7a630e1f915bc44032291a0ba",
+      "phonemic": "phoɁɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-154_sit-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "1c9cb4e4bf09c290bea4c6306060f4c29ceddfee6e4cd83ee315473d049d2354",
+      "phonemic": "paɁbãnih"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-157_sleep-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "13f7b9127f55c6098ebd220e8b0a5494cfa857fb61859b5b007999e123140977",
+      "phonemic": "æʔɨ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-161_sniffsmell-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "68c74d7d43ae738683bcec31d5c258c47aba76d67401d3acba9e77240b0bc240",
+      "phonemic": "kɨrɨɁpuɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-162_spit-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4eaafed7495389567f2553bf296d2b5dd43a7695ec800771b81c4531b2206767",
+      "phonemic": "s'uɁuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-164_squeeze-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "82fdbb60310831660a65eafa637e2e89fd943a9f7a91edb60e4fe68cf6f2af2c",
+      "phonemic": "nukuáeɁuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-168_steal-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "3e5a4ead83a5f53e47fba3776b6f469f4be9374a870a5bcff596809aa64ace18",
+      "phonemic": "naɁukuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-171_suck-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5c7e628e1532dde785beb0f324a28c16b6c959d53aa2b25ad182a045ec58446b",
+      "phonemic": "rahádɨɁɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-186_tieupfasten-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7bc1195a3ae53215fa066755b06118f19e4baa8915caefc5a2109501c6a853e5",
+      "phonemic": "nɨɁkɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-190_turn-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c884a712054b61682f99f2d5b40ad29b12736a467b15ebce13c1972eedca83ba",
+      "phonemic": "kaɁræuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-198_where-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "bb579e2e92ccba6c395ab13a3021cede69380f2a6747d4f35bdfc40ef6abda0f",
+      "phonemic": "teɁnehæɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-199_white-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "b13f8692d690f099efe465dcf0e09e6aee12a3ab6bcdc94d674fffa4ffebdb06",
+      "phonemic": "teaʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-201_wife-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "0ece1889dad356cd681586e795f2d36e896a7c7dbc58bc76a11d7ddf76beb2de",
+      "phonemic": "ihthɨɁmuɨh tahúh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-203_wing-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a7f5027475e33efe551745ac498eabd750d0c50ff074c17bef68457ce7435b0c",
+      "phonemic": "ɨháɁbæɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-207_yellow-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a47fb6893f9e7bbf5d3c0861eba705196df3c95a4fea253798962e273e972377",
+      "phonemic": "tũãʔã"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-82_green-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a6106d793287586bc4b6d96553c91d5bfa6b85d5b4143aa3501acad0553979ed",
+      "phonemic": "hɑtuɑʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-94_hot-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "075965b4eb6016fccc396fc6ec560dab501fb4b3ae1af95fe770243a7aed6f49",
+      "phonemic": "duaʔa"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-109_dogcampdomestic-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "15bfe22ecbd8c8f90664c421b1ea8f39a4f2c645920998e4547a369d8bb18401",
+      "phonemic": "ɨɁwɨrɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-122_fishgeneric-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "f665e3e0162dabaa7b4628120bb1ff72cfb12d2598e7f02b81e8620552aaf889",
+      "phonemic": "pɤɨɁsah"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-218_pacufish-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "951faaf1e7d618ff91fc9f3b2326f05d2efb41bf27aefa558c4640023041ab81",
+      "phonemic": "aɁnasih"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-9_anaconda-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "7a730a2ebceb32efcaf202553640bbebb1a4ffed40ab4864fc69560faeebe7ce",
+      "phonemic": "daʔæh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-54_boa-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b1977a54735714dbb6220e1357bc84ccb157f4ab56fb6e5309e4334e0e1167d5",
+      "phonemic": "saɁrúraɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-264_sejepalm-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8ffaf937376fae772d4f59f26dcfaa74d7e05cd6efce776e22383ce965a3fa1e",
+      "phonemic": "puɨɁorɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-165_hotpepper-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "437ddcb07b5583783f0e7911f196e58e90b8769aa37830d727acfeb81f902251",
+      "phonemic": "raɁahthéh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-231_pineapple-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "948fb291430871a898e43dba892355c214c31a401b2b336bd647bb4103b85c52",
+      "phonemic": "kaɁná"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-28_beans-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "af308dbcd14427b1790b7a6cb7184c276edcd8e815a6980e7f263624678fd5c2",
+      "phonemic": "herúɁweɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-57_brazilnut-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "0d86add38b0814b1d540015c27ca2709023df4f16a5fb2344a0e80c4926e09e7",
+      "phonemic": "idíkuaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-95_genipap-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8b5e407b9e14074662bb987f31f4eaac126cb8a7c84cb392e9a108d1b7b023c6",
+      "phonemic": "nasáɁphah"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-254_rubbertreesorva-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "125edfa4259acabdec5f2473c0f0263d15dbeb9e8e7a95b6dc2db3d9c5b266a0",
+      "phonemic": "tɁoruh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-312_ucuqui-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e50ff0bc3bd2b82ae97fed58ff7d56e6f411ca6fe8a3c043c98c484695000448",
+      "phonemic": "iɁsokɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-239_potato-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c92bcdfb90e694f796fc9c286092bebf022cbc562078ee700187a76fb8ee9852",
+      "phonemic": "saɁoh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-292_tanniayautia-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "cd80feb7cfa5497f50de190678b52b1294fdfe123c1676a0733bf5da9817104d",
+      "phonemic": "huáɁreh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-56_bottlegourdvineorcalabashtree-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c2fe65989f19dd9829045b7668010906d78396783dcde4246a7d090659b435fb",
+      "phonemic": "wajáɁkeh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-284_squash-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c80357fc7ebd97e2cf990c11f8b967d432b0bf082ab250db2e346ec3d8551e94",
+      "phonemic": "wajáɁkeh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-182_leafcutterant-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "9c2e5da62fab2e382840e0eda941a904783ea36fe7b7f68f15c96edc2aa6a259",
+      "phonemic": "ahkúæɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-68_butterflymoth-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "6243209cd08b6a774834fe855034d3b93d490129c6adbfefad4932e3e29b2592",
+      "phonemic": "herépæɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-10_angleworm-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c2b244904014ddc5e29ee6bb26296260510a9b4292068d8f3d7ed56172d6489e",
+      "phonemic": "wiɁah"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-263_scorpion-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "04677133d1a1c375021f5b2c08c06e2b829b406019eed527fe35e9f3984fa4f1",
+      "phonemic": "ɨɁdɨjuh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-49_blowflyhousefly-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "830a4b16b89237aef56100a0938b92d4525c93b47d4e2e63514fc42e37f4cde4",
+      "phonemic": "naɁnɨeh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-280_spider-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "86e0b814f502adb79eb32722af9899f4b8c628aa31cd2c92ebcf6bff6af81564",
+      "phonemic": "éuɁkeh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-188_manatee-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "f1bea02071db2b8a2a11090bfe59c1e8f4e65741966cea21e547ddf90dd138d9",
+      "phonemic": "heɁmiñaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-164_horse-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "f5e4bc40670cd1dfccc02335620f8bd14db826c0509ad6c19b34be8dbe317210",
+      "phonemic": "muɁúroɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-20_bed-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "287bf206278d45b0716d88c52daba576ed7eb0f39ca3e1d06e7404bbff6be9df",
+      "phonemic": "kaɁmáɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-107_hammock-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "03b6001493c474472bb58e22fa43c7b61257971114e2666d679d27d54b07e04e",
+      "phonemic": "wæriɁsah"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-21_benchseat-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "6c88ec8f70b2b5fc9d566cfabf5ab8ca773d0d812ddaaca61cb9dd45c4907c03",
+      "phonemic": "deækiaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-32_canoe-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "760ae9267674df30cf9db0cc6476000e68a34df8e239c67ca75756ea1299ca1a",
+      "phonemic": "wɤikɁaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-78_firewood-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "de749551692a2a5b124fa1dd87ac4db587854bfa4abca70869dbc1799d9f10d9",
+      "phonemic": "mɨɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-6_arrow-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "86dae83299691e59c36b5c9eddcd361ca84f15e6b6acf5eddb88ad5920d09207",
+      "phonemic": "p'oari"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-164_spear-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "72524b563546637acfaa6c00d56dafc90a83da5f9dd95a12eef7a1306d7b18df",
+      "phonemic": "dahkuoɁdaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-142_plate-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "90509697bb905acf6809ac84454e936a092243715b4b5112f5dff6c81d5541ba",
+      "phonemic": "sarmaɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-147_rattle-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "cc7dcbcfe6518d1a7c307f3f60426b96bcd0b17702cb0c19142c8a3fe0802bc7",
+      "phonemic": "ræniyu"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-151_ropestring-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "35960ca0bd1ccbc592c0ead746594c8d07765a59ea0dddf80e535530d1c496c6",
+      "phonemic": "aɁnúsoh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-60_dream-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4ef09d1fd7d8a04975d3b57e1271830601a9d23fed636f22751fff5da2514b2e",
+      "phonemic": "kohtɨɁkuéhɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-35_chicken-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b733caf1d23ab286695df4386977aae1f5ae855e18cf93d5b45624a20ea93880",
+      "phonemic": "ahkæɁraɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-34_cat-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "90e93492b648357b3d5e8ddac5faadb0491284fca4f6a4e78d9ea0bdccf28d1e",
+      "phonemic": "miɁsih"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-41_club-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8fac3d700f61ef18c13eb453155479cd3c13607fc0d05e78af73e3791beab8c1",
+      "phonemic": "daúɁ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-152_salt-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ba5079555b3d9528b25d280cf53e78594449cdf9b9900e87d1870f3b12c60f5d",
+      "phonemic": "kɁærue buɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-163_songgeneric-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4879a4c242f7b10f6dd1f3671b8c93e68cc1923dbe47e1541692f76f1dc54f67",
+      "phonemic": "raɁúh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-68_fan-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7b1e07800b74eac2fa7c59f657db898319f433475be2d48da6525ec9bc1f7f81",
+      "phonemic": "haɁbháh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-80_fishwithline-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "70165b11c3e960e447bd8abac3d633295939347abb74524ff63534189baf0852",
+      "phonemic": "ts'oɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-100_grater-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "6ac0a406e0f9748b327500d59a503ae1960e59fcb9d931a9ed30fa62572e9c81",
+      "phonemic": "wʰo'odæ"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-128_mortar-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b9b21012e8cce385893347922a486cca6ef7fcf3f4f240e3a247982b0e43b057",
+      "phonemic": "tawawek'a"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-138_pestle-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "12beccc1484f6dc865fb786bba64b61bf1850ffb50656bc657cc687fdf5a9e0b",
+      "phonemic": "tawawek'a"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-91_flourmealfrommanioc-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7d10f38baca9884844859b66d34cb5f3533f02bdd7c36e7dc61860ea9fe0f6ac",
+      "phonemic": "isáɁpheh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-170_starchtapiocaother-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "dc74081f2ff4a595ee3fadc496d95a01bb4056fa82b8ffb0fec6472a4da4400f",
+      "phonemic": "ɨhtáɁbuɨh"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-185_tipitimaniocsqueezer-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e6333dc6e777821109d3a110e5032a26f0ad7303459fc2670c9b20203024cfc6",
+      "phonemic": "aɁrah"
+    },
+    {
+      "av_id": "sab-piaroa",
+      "source_form_id": "huntergatherer_130-85_fishtrap-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b1258f5ae4dfe266246c26e12dd1cbd3601a50ed40e0f7babe140d24362e7975",
+      "phonemic": "s'uádaɁ kuawáhkiaɁ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-15_ash-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "945c1f947df9bfa1bb0054c2ae14e228367c7ccd7e4f2a52b5308e3e53593f31",
+      "phonemic": "dũhũ'ã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-19_back-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "de1664a7e4e2da365c565ec06616d9ba34c7b36a7e7aa870add414eb745cf23d",
+      "phonemic": "su'kũdũ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-25_big-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "2b1a65626be75f2d292afa1ed64f599094be37b01d1fbec71a287795c2379e80",
+      "phonemic": "pa'hirikirudu"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-40_cloud-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "597b12b39a7f370a38f1cb57a9f70253a36c86ea065aa5ea8bcad87e90425abf",
+      "phonemic": "bu'e-ri"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-44_correcttrue-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a6391add8f82df3bd5e1ff4a1f42154f1f9643366c2552fbc08f68f727fa92ba",
+      "phonemic": "ke'oro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-49_day-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5a346a4e5226da9dc8907470587eab8720c1e2ff2784b2c089041cb8bcb538a2",
+      "phonemic": "de'ko"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-53_dirty-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "62c577107a0c082dab276f36dfb233ba19e5a0f95e57fb0d7400e82f015f1fdf",
+      "phonemic": "we'te ti-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-57_dullblunt-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "dc70cea37f5708a89ccce8a85cde184554aef5665ede1b08a87a42dcc9c0eb2f",
+      "phonemic": "u'ru-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-59_ear-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "3f4c4697657b0b1f2265c8e451e675075fac869f65da550626d9a9322b0474b3",
+      "phonemic": "kaʔ'bõ-dõ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-62_egg-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5e4053783ee68195a01e64f720a2e7aca9fe144b2b80b3b7c78d1349491b944e",
+      "phonemic": "di'e"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-63_eye-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "f8810d5c4c729cfb0f51c28d1e724945188260c173bb44cf33862ebd1d3789ee",
+      "phonemic": "ka'pe-a"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-66_far-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "0242ced954f8e0c34458d7b8c78fa1e16919e916bc7080fdf8711f85880d496e",
+      "phonemic": "jo'a-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-67_fatgrease-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "2df90002fe77abb1b1c18e78f2aca3cf56cc40e1f3f5dad4bffe022179cef962",
+      "phonemic": "ɨʔ'se"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-68_father-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "39ad4aff6e21f98dbd4f20325130b948ef103de2287632d59599b68b9359eed9",
+      "phonemic": "pa'kɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-72_fire-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "bf531484b9828500ca373445d3561032d51808839c2970d4c95824256af4888a",
+      "phonemic": "pe'ka"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-76_flower-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "fe945a1e7972bf0fce6363205ec1b7da8c9f5ef65feeb0c624546fddb9b4845f",
+      "phonemic": "ko'ʔo-ro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-78_fog-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e136d43af620afcd9c598b6688fbb39595852ba5491a069f3795165c05551cf0",
+      "phonemic": "bu'eri"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-80_fruit-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "6b0e50e775d61c31f8ca52754a9fb3f887e003458af67b7b6bc4cb04d0c3ae10",
+      "phonemic": "dɨ'ka"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-81_good-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ce93d1347d020dda7963106c745f10e60118e30aa0fda83b12c710ec673bcfce",
+      "phonemic": "keʔ'dõã-rĩ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-84_hairofhead-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ee9e7ad70e655f2ecf1ff710f3e3e607b28f234fdfc607a2b2318a822e93246f",
+      "phonemic": "po'ari"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-86_head-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "27d59657fbf59e82b00af819399e777ed992151a205026c09018d86c71224a54",
+      "phonemic": "da'pu"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-95_how-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7a6c3eae5cfe351120471eb99c0b469182185336531bbac9ea4fac7f46b5e5a4",
+      "phonemic": "dɨʔ'se"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-3_1sg-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "793e4241bf18cdf6c7212e8add61c6e33c9a76a455275fe52aa2e76926a441d9",
+      "phonemic": "jɨ'ʔɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-102_lake-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a21005ca76ea5144dbf73807d54cc0a5f078191a24b41b2ebf50343f19edf00c",
+      "phonemic": "di'tara"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-106_legfoot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "1606d9be4f74ad5736e453e450952c87f310c89af17e8067459309454a95ad9f",
+      "phonemic": "jẽ'kɨ̃"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-111_long-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "dbaa7bd461b7b35f52acfa3ac9b19b7fdd52a569a6c39fba5f6dcac2b300c00b",
+      "phonemic": "jo'a-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-113_louse-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5ef7f69598d245a68c7a54dd96f69acaa8206a9b1b892ea8151f547e18934543",
+      "phonemic": "kɨ'ʔaɨ̃"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-116_meatflesh-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8ec37a8d43490ee80d2ee98351d0e4209dbaf6877f354953943edc7613663826",
+      "phonemic": "di'ʔi-ro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-120_mouth-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "57889415356177cb4c23d898b1c63a7bf54121e9336416dc8f48c4df836e694d",
+      "phonemic": "dɨ'sero"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-123_nearclose-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "698073187476062a5bf52c5bc2af11967fa90a18db41e21efb0c4a79a85b2d2a",
+      "phonemic": "kaʔ'aga"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-124_neck-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a1cc660df21e9751bb89246566353ab797152ad2642ee19915a9acf02dd1baa6",
+      "phonemic": "wã'bɨ̃-a"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-127_nonot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5ce36e0e37f62aa8635654d551d98de875da4435e02949c7a7e2061a85762dba",
+      "phonemic": "bã'dã-re"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-128_nose-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "f20baaa44b3577efc167722efe3315969ae2066522efb04932ea95d34442e64d",
+      "phonemic": "eʔ'kẽã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-130_one-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a8db775f50a5653ee3551b73874e2d207ad8cfa1a939c5af165367dd3c241dd1",
+      "phonemic": "ĩʔ'kã-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-137_rain-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "fd29b4ded1cacdb9a70442c5a7782e820d5fa7a9a3b65e2e463a35eef897d24a",
+      "phonemic": "a'koro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-139_rightrighthand-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "f9c2c3f3f5028cd682208e5bc980a1759d4c0d3c1ed457040607c086ffd80d05",
+      "phonemic": "po'to peʔe"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-143_rotten-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "21aba0d0ca3a4784737bfbc2eabbcb040015b2570ffc14a9ef848a8fb46036ae",
+      "phonemic": "aʔ'ba-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-144_sand-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "87f7052cc57d14b051bc838b99a88d33b44be3ec422b21489b270e7e451dcce3",
+      "phonemic": "pa'dɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-150_short-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "cd1e6966acd380771a1295d30424cef3065c0e1e11e57f2aa11eeadb037d8ce9",
+      "phonemic": "jaʔ'wa-ri"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-155_skin-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "41f9f46cbd024cf9c737d5f739ddd26f95493576628b758de76edf2bf4370201",
+      "phonemic": "kaʔ'sa-ro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-160_smoke-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "cfd542ed339b635fe2520897051ff12972bd83f1039ebd319f068d56a8357b30",
+      "phonemic": "oʔ'bẽ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-169_stickwood-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "abd719f285e1c00cb29084eb33f58a3b6359d331fa141007552eedeff387840d",
+      "phonemic": "ju'kɨ sɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-170_stone-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "da20c8561337fdb19ac80667941c736a5ab693d43dda9bc533bc0c7034d47ef0",
+      "phonemic": "ɨ'tã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-176_tail-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "12a4e36d723f6c21a595a8460d30e6820c87a750a1004cecd121586c74fb6279",
+      "phonemic": "pi'kõ-dõ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-181_this-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "54dda84c4c5f8da43c167642965f69c9c0c3ca585a0f24eec955df086c9dc007",
+      "phonemic": "aʔ'ria"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-182_three-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a7448551536b4391e431180504ed81a95969c6fc4eff24bdca07443770ce3206",
+      "phonemic": "iʔ'tia-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-185_thunder-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "78afcfa8234337526f27dfe7729b60b9168cdc557d80ce82018625634a9183f6",
+      "phonemic": "ɨ'po"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-26_bite-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b5a970ccf8989b14c42e7df0782245501e0b1f9c5d2aeb7fae7316cf7359f1a5",
+      "phonemic": "baʔ'ke-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-42_come-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ffd0f0c4a8c0a57f9b48128e8888b73e7edb400dd53c2adcec76ad175a1f52c6",
+      "phonemic": "aʔ'ta-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-48_cuthack-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "7cc2581541ed4727f0de96b57458a9a07eb7c43163849013ac711b7c3aeeb954",
+      "phonemic": "jɨʔ're-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-50_diebedead-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4527724deecccffe3b4ecd0a8d67ee1c0e432780b8de36ee9d700ebce51a568c",
+      "phonemic": "jari'a"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-51_dig-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "55dc194df4b0a46153011f5afec20bb71a7aea57d568599fcb84fece66f92f16",
+      "phonemic": "se'ʔe-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-61_eat-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8e1cb746d81b2ea31d4a1c72197da87406b43e6b52795933746ba2f0c8a58a0a",
+      "phonemic": "iʔ'ja"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-65_fall-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b7bb4cbd3237ac6da6ba3c792f99e5b68b3a265c3465afdb9874286a082386af",
+      "phonemic": "bo'ra-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-69_fear-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "51aa32f75c5df7d30315d4af4a28a1bc38d98588b965d7fb95505cb6869864cd",
+      "phonemic": "ku'e-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-74_flow-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ed50fe29d35bff7af0670124030f7b9802738eaa7e9121378ee2987a4e444ee1",
+      "phonemic": "bɨ'rɨa-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-87_hear-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c8ee2e5fa62c40bfbfbee3abcc1c653ad9eccc327c2a01ee174c672fb55e963a",
+      "phonemic": "tɨʔ'o-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-93_hold-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "faab9c2a159163e824f9a2176745a9217997d7c7567f74ab4ca8f3b77153d7a0",
+      "phonemic": "jẽ'ʔẽ-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-154_sit-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "2c1422d162da249103c8a89eb5f764de30c946d68298c3d9246c9ffcb9e2c301",
+      "phonemic": "du'hi-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-161_sniffsmell-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "6edfa24bdd3fb721e529a9f4a0d962cd516ed30ca6eaddd95fb7695f1f72ba8d",
+      "phonemic": "wĩ'hĩ-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-163_split-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "dbd45a3642d6b951a389fea683809a75b5b9e311c23aa442ecb376d875aeceec",
+      "phonemic": "po'ʔa-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-165_stabpierce-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "102bdc7a7df11b5e710f90bf316ea884fd1140140b86453bcfbd5711de88a8a1",
+      "phonemic": "jõ'sẽ-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-166_stand-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d2abd0c18e5b53de67ed976cb91e4e46d363f1fb869d07732a37c8658899d6a9",
+      "phonemic": "du'ku-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-174_swell-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "04bdc704f2030366b09de2845cef8084efba218ea54a31f740c27afaf7ff1bef",
+      "phonemic": "i'pi-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-186_tieupfasten-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "529df114e4049d8a580ee1f14bd368ef0c886d9ca42eef22ba0432ddc0f7e729",
+      "phonemic": "dɨʔ'te-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-192_vomit-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "922d95ff6fc6c6a9714729f1ed40eaad8746c2d5b2c69e7bc53ec9c31d3a09c4",
+      "phonemic": "e'toa-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-193_walk-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "54fa427fb9e531f9dc0b49aaff69eacfb6585a9a96d69f884a101d7f56ebec51",
+      "phonemic": "wa'ʔa-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-188_tooth-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ac5453cabafdc6f3c8302a4993243d132edc0a4f0f7e48ae7a9efe2f0429a2be",
+      "phonemic": "u'piria"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-191_two-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "feb26837465b90e6d0e6e4f503428ca04e4e061fa9d7f9237760dc006deca76b",
+      "phonemic": "pɨ'a-"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-194_water-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "00d8e2c81d99c5aa6bc836434aa46afbadd3f82dc64b61da58aaaafe79b5214f",
+      "phonemic": "a'ko"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-2_1plincl-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "31b277d3d6c388ee705713872c50882094b852d976c3141d986f03f30c85dcfc",
+      "phonemic": "bã'rĩ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-198_where-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5eadb0abc5b8dd0c51a5941dd6517776bf8c5a2ff9e8fa568b7da44cf91e935d",
+      "phonemic": "dõ'ʔo-pɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-199_white-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d438a7182fdeb35e59a4b8ff989057dbaf65e1ed7d72f3c3de599497b8e5c3d4",
+      "phonemic": "jeʔ'se-ri"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-202_wind-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "585a4d4ba4d27ee04b9820915ff2039d85682e8d1d28b56fe63b715d0179ef47",
+      "phonemic": "wĩʔ'dõdõ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-4_2pl-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "00441060aa3ac0b7fc0999e0f7cd59f7a4e48cf0b8fab3290edb1328916fbfbf",
+      "phonemic": "bɨ-'sã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-79_foot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "db0eb14fe18c17522886ef7ed651b4c1738e323b3b2e0ff70f7c2141bc272c6e",
+      "phonemic": "daʔ'pokã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-114_lung-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "1db9e24a8fc248925ee93dedcebbb7c79d2aa92c2a9074c9f5e70af895a105bc",
+      "phonemic": "pah'sari tʰu"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-88_heart-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "fa155ac5645b90fb25bf1f7a71f40dddb944363623bd58aed30341f74654a3d6",
+      "phonemic": "heripoʔ'dã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-94_hot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a760682ea425a9e5fe8d40c7af919f58ee861a37cd7ff97e73eb57131d48013b",
+      "phonemic": "a'sije"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-27_bat-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c39c8ef3be645f5c2392c3a62f7625678d344672ffc9fa874473ae5f244d9859",
+      "phonemic": "o'so"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-36_bird-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5d093f3bacdcfb5ac2cb3dde1e982102d5db86ed6c717d019f44affa07f5416e",
+      "phonemic": "bĩ'dĩkʰɨ̃ã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-101_curassow-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d653e70c1de085ce9771dfe84ed681b4c2a4a05bbb50fd8c98247376743e3ca2",
+      "phonemic": "waʔ'dõpĩ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-306_toucan-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "10721972f4afa196689808c10328fda77e3f0fbbc4869eb816703f82c6949f6e",
+      "phonemic": "da'se"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-222_parrot-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "31f3b5c01e16978d0c75393a338647977e87c9aed4f384f433ec6f13bef691ef",
+      "phonemic": "we'ko"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-316_vulture-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a2021f4ddd5abe1ae4d750724ae36b4428259fb79b804d42927b9bb185d2a47b",
+      "phonemic": "ju'ka"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-109_dogcampdomestic-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "3c8607002b02e6bc66c27016ee6ddda8ad3a53c5f8c3336b67771bfb19f7f084",
+      "phonemic": "di'e-ro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-6_alligatorblackcaiman-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ebe07a8b47bdbf267e3ce6855d019f7b6479acaf2c37a84a569834a92476ba62",
+      "phonemic": "ɨ'so"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-122_fishgeneric-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "187ca304f9c76a7a10a5c0dd9d5c0c6610898b9b1c897f0d3dbc5b3d729b3f54",
+      "phonemic": "wa'ʔi"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-234_pirana-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "17a5c820ece8cbd7af6bed7b48aa16ecf1f7ca026107c387a74f953386bbe6d3",
+      "phonemic": "bɨ'ʔɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-302_toad-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e416e4f4d5e4c0744268239ffbbed047735286ff16fcbc8bcc952dfdd30b7d3c",
+      "phonemic": "ta'ʔaro kɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-169_iguana-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "15c134d594eba849b7b301b8c792ff26129fbf597c0cce8d59de4614931ea552",
+      "phonemic": "jo'asõ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-92_cotton-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "50124a1f28e3e6962352579807696a0576aabd519576064d66ead210a5cb7dc1",
+      "phonemic": "ju'ta"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-165_hotpepper-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8b6bf0a6f62749a30f95e6f9823bb8c08cdfc44e563fd17b7fb8e8e7e1cea946",
+      "phonemic": "bi'a"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-15_arrowcanewildcane-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "9cdc18991b5d48c44874f010dbb5aeaa645bfed162bb3a44f2b32b1f55b84310",
+      "phonemic": "kã'nɨ̃"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-22_bananaplantain-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "14770ea1375e0cf27c12c7a93c2cf21283b408b3af592a4e3a1f46aa0ba2c836",
+      "phonemic": "jo'aje ho"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-307_tree-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4914ce4bb5bc1d4474efb5a69367a74fc92f25f67f16f1194787b1724cb843cf",
+      "phonemic": "ju'kɨ-gɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-159_hallucinogenicvinebanisteriumayahuasca-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ca531622b2af05bbae655b1fe8b72a72021ace5b8897a9729b245ff70b0bd584",
+      "phonemic": "ka'pi"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-162_honeybee-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e633b5255d318acf9ec99453a8871af61d0dcc29f3a7e8bf940d8af99bc956f9",
+      "phonemic": "u'bĩkɨ̃dɨ̃"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-125_flea-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "8a3f26359e0f5c352e3a249068d3b489038306b3929cd5618f042e9fa2a7c2bb",
+      "phonemic": "dɨʔ'kõpe"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-49_blowflyhousefly-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "b53ca9287aeb834e15b4321a7c1ef492e419edb791e3907a5fd60b5f724506d6",
+      "phonemic": "ko'bãdãɨ̃"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-296_termiteswhiteants-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ecb7f5683bf8d4d30b323efc88ce8dbd8c782226864afe5d47572fcc6f7a5e07",
+      "phonemic": "bu'tuaɨ̃"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-280_spider-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "cde00dd07e300c840b062d2b3a3b8d7affca7825a80eddb440e7d7b49a507862",
+      "phonemic": "ɨ'pɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-309_tuftedcapuchinmonkey-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e6bfffa6ea95ae143fe2f627d3d0dae56cf6d85a65372f20f50b3c4ce4b0da62",
+      "phonemic": "uʔ'kũɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-326_whitefrontedspidermonkey-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "fcf15359c8f44b0de755a8ba9ede3ff3167b2d3ca2d1b0348c359c5b78b2f2b0",
+      "phonemic": "wa'ʔu"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-139_giantotter-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "bb0bb32aae98ae0a0ee244e21af0663791f14c6c2630cec4369e37bd1cd6541f",
+      "phonemic": "di'ejoʔo"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-89_collaredpeccary-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "601ab8414f8a0390010ab6a7ae0bd788838bf6f79244b3089f3f5b8823738523",
+      "phonemic": "je'se buʔuro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-327_whitelippedpeccary-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "1d5cb29015e75d7dfb0e13980dbbb6d918f56ae3cba2576b24701ee2e3d5b54f",
+      "phonemic": "je'se"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-203_mouserat-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "440bd092bcf8e975112a75aa2550eb407b47e3b18239c1d881c7599b41430819",
+      "phonemic": "bi'ʔi"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-293_tapir-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "a1d225a5b1f652549f549a9c74632968c472fefaace79d9d37b890374562cfd9",
+      "phonemic": "we'kɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-32_canoe-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5fb565834cf056c24152898e7b86df9ab54c5e56421248de6e2c24c900a45e60",
+      "phonemic": "ju'kɨsa"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-64_drum-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "eb4a79da6fec071cd65b0484a301d6f6bdd00d0e3b5902017309fd3fc9dd491a",
+      "phonemic": "to'ʔati"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-78_firewood-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d259a07cba7700da8b56ecb8e9eac110a21088ae02ad6006faa43f82689aacee",
+      "phonemic": "pe'ka"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-120_knife-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "4a706ca0b72a2c865727c0a473add6d89df033ecd2e6154b846db4bb0131c916",
+      "phonemic": "diʔ'ipʰĩgã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-123_machete-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "e92208d9a9e26bd8019a1dbf1ef7ca27588f11efd3fc66eff4708e9ae69a0475",
+      "phonemic": "diʔ'ipʰĩgã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-9_axestoneaxe-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "24210eebad146b021fe6bdc39c60c88fd583a032daa67e5ee6df73636f8d33e2",
+      "phonemic": "kõ'bẽ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-6_arrow-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d6edd879cf4da6166a35fe60a569ebdaa37e7b208cb5c5f22afdfd04f3888430",
+      "phonemic": "bɨ'e-dɨ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-29_bow-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5693a527026692772b575c386041b7af7216d561132a6b136993cd2395c8befd",
+      "phonemic": "bɨ'e-ri thẽ"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-134_paddleoar-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "71d1304e40a373c41a375dfd55b13644a0ab1f3cb3b5bc940d48c4ba889210d0",
+      "phonemic": "we'he-ro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-151_ropestring-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "431a6d31b43923da24b79d9e77144844feec5d36265db2778b0a39c79bc80013",
+      "phonemic": "ju'ta da"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-36_chiefleader-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "50de796a83c352cbc8b023da59c9132644661c2903397dde2d5bf01b8590ae53",
+      "phonemic": "pɨʔ'to-ro"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-152_salt-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ea906882efe1f606f280f5428dd9dd7aff706ac089e1f031b44af6966e9c89c0",
+      "phonemic": "bõ'ã"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-22_blowgun-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "d274ed097da223656b0a182cf0647a7bc17e71b33533a8086bb89d6aeff997b5",
+      "phonemic": "u'puga"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source_form_id": "huntergatherer_137-113_house-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c4e62231c6cfdeff06c3f26d70a11f0009bd620ea3c06f1389961676c45499d5",
+      "phonemic": "wɨ'ɨ"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-13_ankle-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "70fbf79dc79e4a23fd0ba932bb447d48bea648d3a7005e32136231d0ff0db64e",
+      "phonemic": "koʔohélahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-14_armpit-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "41fb75c15fff7f12f985429d36a942924796f2532fd060fa38358c4f2b6fe93b",
+      "phonemic": "haʔawílahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-25_big-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "907998d70352c78873b344eba5a9febb8cd5ba78ae25fdf58cc624c3f12ecf1c",
+      "phonemic": "ɲópoʔohlo"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-26_bite-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "511576b62585532ab9cc87b85c93d2e873c6e83d4959063948efffc73969c9d5",
+      "phonemic": "ahmaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-29_blow-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "14f14c62e17d6a269440dd205161457a463d4dff128a5f263af430923dce1972",
+      "phonemic": "apʰoʔokahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-31_boilpimple-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "131099adc53f30378051d4b42bc92762c81544711f93d1e159c6162a2e3c1206",
+      "phonemic": "tʃiʔihi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-34_breast-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "1fbc1686be7bb5bb127c85c437cc07b9ce49753a6464fc553f2042ab162f4449",
+      "phonemic": "tʃuʔutʃú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-36_burn-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "f5d266e9aa5226f378d093d83a52aa6e23e337972e727f6288053e94392b3bcb",
+      "phonemic": "káraʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-38_child-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "f9fe1950aee6be93a12b7e992b4c5f64ce967f7a6368f97f22ea8399766b811e",
+      "phonemic": "toʔohmá"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-39_climb-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "122b6a69e38b19a439c6ca1a47834901feffa5190bd3d874336d2385c24583d5",
+      "phonemic": "iʔihrakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-41_cold-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a9343f706b32fed5c4dee39e529a98d61b1e0846adf3c45a3523198e39191d7f",
+      "phonemic": "ipeʔení"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-43_cook-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "3499d63ec0b18b3f00b1326db46f3a3128af24100f0a1343cf095a51a70bcdf3",
+      "phonemic": "motoʔokahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-45_count-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "41d59160ecccf4dc8b64beedaa8a446169da944527cf119257dd7c84b8071077",
+      "phonemic": "lapaʔatákahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-48_cuthack-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "8820908ece9e341851fe06d1736157563fe4a1fb43efc9d367a4571b51518254",
+      "phonemic": "mataʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-50_diebedead-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "7eb1ea1a5e884a73bb29635af3d099c2eaa1afb249b6c24a377907278f5e1897",
+      "phonemic": "takaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-55_drink-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "70f144034d636f557fb93ad17d49a32524600aada66a71c56190c6dc32b2faa0",
+      "phonemic": "iʔiɾakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-58_dust-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "8c8e0e1f8453b0ac0cefaaa86a5b839e6b70af3570cabe3f29256a9284b612b2",
+      "phonemic": "muʔupé"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-59_ear-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "e80ff5547ec2efed82ffbff4e036602c2717c206a1a06cc991364c263159aa0a",
+      "phonemic": "iʔihwihí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-60_earthsoil-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "61f824794109da7d69a96a0ab6bf94a9bd84ebb0ee7f22c9a89e8c99e2c4082d",
+      "phonemic": "teʔeɾí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-64_faeces-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "d62bdc01f87b552adf5e2dfee77e309a9dc57aceef2706c126d1a9b90c6c315c",
+      "phonemic": "iʔihɲehí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-65_fall-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "381a1a6824ccbdce38c9cdc9c3c9922eb3b7ee82062bc82888d0530ed0878a1c",
+      "phonemic": "haʔakaho"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-68_father-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "83baba629655b304e273a6c08ad9cd56dfc7be617b33405cab4337475c092548",
+      "phonemic": "-haɾaʔ [pá] (hr01), haɾaʔapahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-69_fear-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "9c59598f0cccdad12fcc3dd7bed82efd354903b18265e6d73c62bb6490117ac4",
+      "phonemic": "keroʔokaho"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-79_foot-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "acfa0c5462249ec1e9a0c774078f44f18ddf78eb091c095c11f1cb9ab9f87692",
+      "phonemic": "hiʔimahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-83_grow-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "e44811f2690c283f4cdc68d4c7cf2af36078f6ea1224ffcce39cbb3a547e0f53",
+      "phonemic": "tawáʔakaho"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-85_hand-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "43bc1e8e9ab5bc9cd869d330450459793c55ff13da5dd0233a6031c6cc26c3a1",
+      "phonemic": "játeʔelahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-86_head-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "560c01c0a224c6f3844346c790858af02c829c26aed451af914324b3c5481ce3",
+      "phonemic": "wílaʔaɾuhi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-87_hear-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "01eae013aba259666e9e8fd592d8fa2dfb6c8d7e4ac87b69d24f4fcd62cc832a",
+      "phonemic": "hemaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-91_hit-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "dad0e950bf9c7fe2d04716bf221c0e0f9cc68552d72f884e7f4f2eaf6eb5613b",
+      "phonemic": "ɲaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-98_intestines-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "56b0726234f445c10339db06512d42b850e147f1a799a48705d3a0368660173c",
+      "phonemic": "iʔihɲepitʃihi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-103_laugh-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "3e4d51218c42bfc4cc6484c1037c25b6cf22e2217172ccf4883d7073cc2b483d",
+      "phonemic": "iʔitʃakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-104_leaf-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "9e82ec9843f37ac26dba786cfe246334f7f883b743df2f52a6beb1fdece1a252",
+      "phonemic": "wítʃuʔupe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-107_liedown-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "b2a2d31abb888f4233d78f9f6b6212e86d8274e347dfc457cdbcee08b9617c5f",
+      "phonemic": "toʔokaho"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-109_livebealive-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "2f0cb9217cff6df5299c6b36618237c325e137f863368ea2805602b05fd8655a",
+      "phonemic": "iʔimakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-114_lung-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "e5f230c0c77e587151e81901bb490f6cea9cebbc31641d79cfffd924d5585574",
+      "phonemic": "mahaʔahérehi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-116_meatflesh-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "4b3560107c9530cb30abfe470a141c6e071595ad717077d3f4638f79b41fbb8a",
+      "phonemic": "iʔihi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-131_openuncover-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "cf81e80ce1f23c411a4261364e0223fac4f9fbaad58517208c2be50481521dcb",
+      "phonemic": "meʔetákeha"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-134_personhumanbeing-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "73d9025d904a854162a3837b913432cb1ee3b3e404c8670f371ab7035efd975c",
+      "phonemic": "ina'uké"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-139_rightrighthand-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "5e74dd03be2c903876620be58567f737c302ba5fadc6fe8dffdaf0b41d7e79f7",
+      "phonemic": "kaʔaɲá"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-140_roadpath-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "bb0249254abf8164b8f585ed180b38a0204ae999a97fba66d5470358509cf511",
+      "phonemic": "iɲeʔepú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-142_root-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "22870502d8cbbaec646ca3a8e3f26dda7e1b1b58fb967d307f0aa7db5db9c09a",
+      "phonemic": "hiʔilahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-144_sand-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "3aa1d42290b1a531416771fbbfb1b58df9e3969b854b5a0a31e59d79c732835e",
+      "phonemic": "keʔ-pé"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-148_sharp-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "fc14574fc130c040b1d25a16dc368f0f84eb0c88020ff5bcff295b8146029586",
+      "phonemic": "puweʔení"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-149_shoot-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "71ca6026aa2453b7517cd5adb19efd5a1ab236a94d547ab8e4605f6bccafd7c3",
+      "phonemic": "mahákaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-151_shoulder-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "15445bc419e3781046cbb82c94587ffbdf905b3215be0f782f7e232da8a38c87",
+      "phonemic": "wakúlaʔapaji"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-156_sky-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "ed4936ac0fcffd47666e55235b198a57141399eb095bdb2fccd7835519add523",
+      "phonemic": "heʔetʃú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-161_sniffsmell-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "5e599895f069133a79e274b0d7411a1a2c9e02ddb154c4c4cd8c58bd558bc398",
+      "phonemic": "amaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-168_steal-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "1779325668dea516c1192d3777c663faf9568a741288e216ec8c84e0974b4308",
+      "phonemic": "ataʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-169_stickwood-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "c7d9b4f93976286f960c20dbf5fae4fa2ef1ca566bda87573debef67f336dea0",
+      "phonemic": "aʔawaná"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-171_suck-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a0f1507a22970598236f3474b5fb383e09c828c57913fa069f84f29a4a24eecb",
+      "phonemic": "iʔirakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-175_swim-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a6234162dbdfc3539a45f844d6258a5953149aa72dcc89829638299b611db398",
+      "phonemic": "iʔiwapakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-178_thick-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "706f691e4a6e86152529354378ffba3488b74d713d26221a4316b96ec98f256c",
+      "phonemic": "ɲópoʔohlo"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-186_tieupfasten-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "3ae9e7d959190527198c9b3e0a60115f0a5abc09014ccadab8f90ccdeea7a225",
+      "phonemic": "hepoʔokahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-190_turn-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "ddc19e978dcb9ea1502d7e6940b467e0fc165c01535c16c9535587696b2964e8",
+      "phonemic": "pilóroʔokahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-198_where-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "bd50577c6084849fde1ddb16782a44eb638803758849afcbd10f9ee600ab73e5",
+      "phonemic": "méɲoʔoho"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-206_yawn-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a7259ee0261cd42c3fda23d4504f669d2c9362ad426f3910e5c1d28f6dd46a05",
+      "phonemic": "aʔapakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-101_knowbeknowledgeable-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "d2c88f471554a6b9bbd1e90f90ed3cbf6af3f3b18ec1bc7f5dea6c994d5cfe24",
+      "phonemic": "weʔepíkahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-71_fingernail-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "bd0cc198379ebb1640799892e550f5fe266a1e24d6e9aed1e6797426f39c9a31",
+      "phonemic": "huʔupahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-94_hot-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "d30a5c97cc2c3ef7f88ee26633c28e1f892fdc02f9afc64d310ef5b985b58dbc",
+      "phonemic": "imaʔaní"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-36_bird-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "2f16286b9d5f6ac95cbee1fa496e39bdbf9d437f503590fb447d061c7db05dcc",
+      "phonemic": "kupiraʔapʰá"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-79_centipede-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "9be69103d1fa287b59e3093105bbdb5dd349425785c6e937bacecf69a902623f",
+      "phonemic": "haʔakuɾú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-88_cockroach-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "c37c9c2dc7257ebbed33177e43e7930af768d8813d5ab8aa23a729f093f0613a",
+      "phonemic": "jawitʃóɾoʔoko"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-125_flea-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "0e64b499c173a4fcd61166bd141608796acd5ede24fe84c7476837d0b3530496",
+      "phonemic": "kawaʔahné"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-157_guan-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "d2fac9beba69b157719d25d4ef40ea598668d8ff28261a5284bd4a09b2413184",
+      "phonemic": "maʔaɾé"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-165_hotpepper-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "ad48c079551d3a13ee742c033fdb253071bb829f3b368eb9794944c827f33cb2",
+      "phonemic": "aʔahí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-167_hummingbird-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "6cd1ff5ee7deacf7b258008f3ce3a4222ae7a9c64d7957543b66b5a0164bee9b",
+      "phonemic": "piʔimí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-180_kingfisher-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "932c21d88c4845cc0531da7ccf1daf15598094946de940adf1c37a3c3f3769c4",
+      "phonemic": "kaɾiʔitʃé"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-184_macaw-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "1bebc8a0cb57e06802e537da17cc1e111b79fd6a6dc2a1bbe445a9d353236d13",
+      "phonemic": "laʔaɾú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-200_moth-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "e98f57f601e541c13a91b5815bc204bb9bc1852a8d6eb123cd51ef9f444f2cd3",
+      "phonemic": "paʔahɾú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-241_prayingmantisstickinsects-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "23c0cd5943bcc4ac12689a4babbb994903baa0fa862c41263d3033b2977d98ec",
+      "phonemic": "humaneʔené"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-307_tree-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "ac17b66e92c27ba82c1205fcfb39f0e5afe62655937987cfabbe293a93efb432",
+      "phonemic": "aʔawaná"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-292_tanniayautia-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "05e5f6e38d305c25093f70aa213afd1dad7bd71a090dfd2551bc57d911d51303",
+      "phonemic": "ɲaʔakú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-14_basinbowl-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "8c543d4a3b6a7fa4ab765b04b0c006c7197357433116f5511e1b116cd16ca106",
+      "phonemic": "tuhlákaʔaɾuna"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-22_blowgun-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "4b8b2e3186199298efb984e02174bd94e6b904a52bc2459e71cd6a3af27cd468",
+      "phonemic": "wapaʔaná"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-29_bow-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "35df55142c6653c0267b6c5678338126f4f3d3b877c865b67d2622a942d4a03e",
+      "phonemic": "wiɾaʔapaɾa"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-31_broom-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "5d6550ae0efafd385964b6a7310457c4f09de560877136497fa8fb4a87b163d8",
+      "phonemic": "t͡ʃijoʔopá"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-36_chiefleader-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "c00e5287376c5708cebdda774c6ebc09e663b80892c9e63a2df6317148bef914",
+      "phonemic": "wakáraʔahe-ri"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-41_club-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "3e07f1cb729cfe0f3572e0e794ad025592f3399088d5b69dca2002094b40f629",
+      "phonemic": "kuhjuwaʔala"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-68_fan-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "c941b2d4a8cd239643687c3283d9a4144df2339f685513456eed8d982a3c36e2",
+      "phonemic": "mahmaʔahohi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-80_fishwithline-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "594ea286f5b6d214caed1fd5549701b4dfc61c8afc3d1dd9a6d9c81b31a001c4",
+      "phonemic": "anaʔakahe"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-91_flourmealfrommanioc-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "12c793aae60c1dbb9c74accb0dd2d85c2a11530b9498eb0a7b1d8db60c532e59",
+      "phonemic": "uʔuwí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-103_griddleforcookingflatbread-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "e68397e1d6151d85e60b0dc9a96f08a454bc8283e7acf2c39338f179a46af230",
+      "phonemic": "poʔoɾí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-155_shamanhealer-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "808a70b1e8a57fe97dbea690ce8edd3c09b685c7ce8c8feef8293baf44ffea5b",
+      "phonemic": "maɾiʔitʃú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-128_mortar-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "9224e500317fd3ae538658455bb4365f2e4ec8e32ce7015b4ecf6f433493b5e7",
+      "phonemic": "tuhlákaʔaɾuna"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-144_pot-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "3bf14a360b02bad0588404950d520ca885b6337e0aa4329bc0cd59adba3f1e67",
+      "phonemic": "iʔitʃí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-147_rattle-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "3bba49880c2519e5fdbb767090c24b689a28ad738953b1a834fc63da18a5aab5",
+      "phonemic": "laʔaɾí"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-153_school-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ab3465a3ed1c7a102a335ecde110c275eb85226b9db4d7a11465d13045843e9f",
+      "phonemic": "hewíɲaʔakaho ɲakarelana"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-170_starchtapiocaother-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a95d10f6ce4e837dbc6834da75bb12304ef85c1970c4d9c67cb025e20ff921c3",
+      "phonemic": "ituʔuɾú"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-180_tapiocadrinkmingau-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "dab692a3d3770c8a230fda1f929003eb3f56e1b28c123d177cdd3c0696ee785a",
+      "phonemic": "kuliʔijá"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-193_venomfordartspoison-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "de966f624a11664e2c392e83e65062116fa73ccfcef1fbb09ca2d00f23077819",
+      "phonemic": "haʔapá"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-194_wax-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "738302de4e6f8ac8c458431ec21436d8ddba9871c4f16fb0c3a14018c5f1bc13",
+      "phonemic": "piʔihulahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-203_yuruparijuruparioranyflutesforbiddentowomen-1",
+      "policy": "orthographic_only",
+      "native_row_sha256": "5e01de598a219a1832763b7626c1e4e90538b822f21bd1a5f51995e1a89f4c6a",
+      "phonemic": "wakaʔapeɾi 'flauta Yuɾupaɾí'"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-15_basketgeneral-2",
+      "policy": "orthographic_only",
+      "native_row_sha256": "ef7836f750fe727811f05b4b8edd05f6b2cc1adabb941d999c297972a5b0829f",
+      "phonemic": "kuwáʔala (grande para cargar yuca)"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-40_clothing-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "a624eb10b51430a84b64448ba7191a26519a6c7cf30b5864788e22e5407b733e",
+      "phonemic": "aʔaɾumakahi"
+    },
+    {
+      "av_id": "ara-yucuna",
+      "source_form_id": "huntergatherer_65-134_paddleoar-1",
+      "policy": "supplied_phonemic",
+      "native_row_sha256": "8f378cf8afabc378e26c34e91d4a05201269d570d9742d4a7cfea453d70ce4cc",
+      "phonemic": "weʔetʃí"
+    }
+  ],
+  "holds": 38,
+  "by_variety": {
+    "sab-piaroa": {
+      "orthographic_only": 87,
+      "supplied_phonemic": 21
+    },
+    "tuc-wa-ikhana": {
+      "orthographic_only": 123
+    },
+    "ara-yucuna": {
+      "supplied_phonemic": 88,
+      "orthographic_only": 7
+    }
+  },
+  "files": {
+    "tuc-wa-ikhana.csv": "3b9f60a248e2a7cab2195da0794ecde577385511259b29b3edbbec744c81e9fc",
+    "ara-yucuna.csv": "b5392eac3eebc148b73733e3c873a41acb30eab5cd9ef6f987c2774932a68099",
+    "sab-piaroa.csv": "f1c67fd750cc3e93d2ae8154dec8c2af73bf977b6f5959cedc55b235ddd3e966",
+    "holds.csv": "0eacdedd690c8516ca7da4b54ffd46f66fd8c09f0f33d63c18d7897799008202"
+  }
+}
