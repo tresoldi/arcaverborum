@@ -1,6 +1,19 @@
 # Comparing Arca Verborum with CLICS
 
-## Current repaired comparison, 2026-10-31
+## Current regional generation,2026-11-01
+
+Refreshed against analytical snapshot `f75765ec76bafb976cbd11f6` after the64-record
+regional expansion. [Immutable complete CSV](colexification_clics_regional_2026-11-01-bundles/c4e419b69e971dc445cd407d/report.csv) ·
+[JSON](colexification_clics_regional_2026-11-01-bundles/c4e419b69e971dc445cd407d/report.json) ·
+[Atomic bundle pointer](colexification_clics_regional_2026-11-01.bundle.json).
+All reference pins and comparison rules remain unchanged. Recurring overlaps,
+family-rank correlations and controlled pair-language counts match the repaired
+results below: the lexical additions do not create or remove observed edges or
+change their family/language/variety support.156 Arca opportunity summaries change
+outside these reported matched-reference distinctions. Comparison peak127.27MiB
+under256MiB AS. [Network reconciliation](regional_network_refresh_2026-11-01.json).
+
+## Historical repaired comparison, 2026-10-31
 
 Analytical snapshot `db68b765a4a3e48d2129b656` supersedes the initial analytical
 results below. [Complete immutable CSV](colexification_clics_repaired_2026-10-31-bundles/1f7f17854e30e45e54b21993/report.csv) · [JSON](colexification_clics_repaired_2026-10-31-bundles/1f7f17854e30e45e54b21993/report.json) ·

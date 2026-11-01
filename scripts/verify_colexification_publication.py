@@ -17,6 +17,20 @@ def assets(root):
     web = root / 'web'
     manifest = json.loads((web / 'data/manifest.json').read_text())
     paths = {'data/manifest.json', 'index.html', 'colexification.js', 'research.js'}
+    paths.update(spec['url'] for spec in manifest['shards'].values())
+    paths.update(spec['url'] for spec in manifest.get('wordnet', {}).get('files', []))
+    paths.add(manifest['catalog']['url'])
+    paths.add('data/sources.bib')
+    if manifest.get('recordings'):
+        paths.add(manifest['recordings']['url'])
+    concept_spec = manifest.get('concept_rows')
+    if concept_spec:
+        paths.add(concept_spec['url'])
+        concept_path = web / concept_spec['url']
+        concept_manifest = json.loads(concept_path.read_text())
+        for concept in concept_manifest['concepts'].values():
+            for page in concept['pages']:
+                paths.add(str(concept_path.parent.joinpath(page['url']).relative_to(web)))
     main = manifest['colexification']
     primary = web / main['url']
     network = json.loads(primary.read_text())
@@ -43,6 +57,17 @@ def assets(root):
                  'colexification_repair_verification_2026-10-31.json',
                  'colexification_communities_verification_2026-10-31.json']:
         selected.append(('docs/' + path, root / 'docs' / path))
+    for path in ['REGIONAL_EXECUTION_2026-11-01.md', 'regional_summary_2026-11-01.json',
+                 'regional_preservation_2026-11-01.json', 'regional_source_verification_2026-11-01.json',
+                 'regional_holds_2026-11-01.csv']:
+        if (root / 'docs' / path).exists():
+            selected.append(('docs/' + path, root / 'docs' / path))
+    comparison = root / 'docs/colexification_clics_regional_2026-11-01.bundle.json'
+    if comparison.exists():
+        bundle = json.loads(comparison.read_text())
+        selected.append(('docs/' + comparison.name, comparison))
+        for spec in bundle['files'].values():
+            selected.append(('docs/' + spec['url'], root / 'docs' / spec['url']))
     return selected, manifest
 
 

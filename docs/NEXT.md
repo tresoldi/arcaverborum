@@ -1,5 +1,32 @@
 # Active expansion queue
 
+## Regional R00–R09 execution —2026-11-01
+
+[Execution](REGIONAL_EXECUTION_2026-11-01.md), [measured baseline](regional_summary_2026-11-01.json)
+and [specific remaining gates](regional_holds_2026-11-01.csv). All authorized
+tracks received bounded review.64 records,47 supported core slots, one newly
+explicit Shinekhen construction and three LexiRumah-over-GLED authority changes;
+all earlier evidence retained. Complete Mongolic edition transport is finished,
+not a future import. No automatic IPA is claimed for its written17-entry pilot.
+
+Next evidence-led work, proposed after closure:
+
+1. Independently transcribe the now-acquired Bove1883 original Yagán pages, then
+   compare historical senses and witnesses against existing Yámana. Resolve DILA
+   lexical terms/DIWICA export separately; their metadata is not an admission.
+2. Review ILCAA's exact original notation and additional member identities, then
+   extend Shinekhen nouns and local Mongolic constructions. Keep Cyrillic
+   reference columns and cited verbal morphology distinct. Full transport is done.
+3. Resolve original-source gates for Western Iran/Arabia and resource-specific
+   INEL dictionaries. Prioritize populated lexical payloads over another portal scan.
+4. Extend exact Horn/Chinese/CALS/Yukaghir senses beyond completed cohorts only
+   with notation and semantic authority. Yagnobi breast and Tofa transformations
+   remain held; current ranking ceilings are not promises.
+5. Continue worldwide original-source depth in Amazonia, New Guinea/Torricelli
+   and African dictionaries under existing source/identity gates. Busoa,
+   Kaimbulawa and Wotu promotions are complete; Lepcha still needs original
+   stage/reading review. Etruscan and Elamite remain protected priorities.
+
 **Colexification follow-through:** [repaired evidence](COLEXIFICATION.md),
 [source diagnostics and global exploratory communities](COLEXIFICATION_COMMUNITIES.md)
 are implemented. Do not replay global clustering or raw CLICS matching as missing
@@ -27,7 +54,7 @@ Identity-count caveat: eleven S language additions are newly explicit canonical 
 ### Evidence-led follow-through from the new baseline
 
 1. **Older Brazil:** expand beyond Mamiani’s completed16 numerical citations using acquired1699/1698 originals; align Nantes1709 without invented word boundaries. Review Martius’s751 staged OCR candidates against facsimiles and exact historical members. The262 reviewed1648 common-Tupi pairs are complete as a selected slice, not the whole coastal corpus; now use acquired Claude1614/Anchieta1595/Figueira/Yves editions with source-specific reading/locality/genealogy review. Tarairiú and Tremembé require the exact reopening evidence in HELD.
-2. **Primary-source quality review:** Busoa641/62 supported core, Kaimbulawa341/60 and Wotu313/59 now have substantial exact LexiRumah alternatives; Lepcha1,335/80 includes565 additional supplied readings. Compare original profile/source authority, stage, senses, contrasts and retained GLED/Peiros evidence before reviewed primary changes; counts or zero-loss screens do not decide quality.
+2. **Primary-source quality review:** Busoa/Kaimbulawa/Wotu now have reviewed LexiRumah primaries and all119 GLED records preserved (regional R09 complete). Lepcha1,335/80 still needs original edition/stage and reading-authority review; counts or zero-loss screens do not decide quality.
 3. **Dictionary sense/reading depth:** use the new reviewed-unmapped mode to map only exact source meanings where justified; recover additional original dictionary readings with explicit authority. Pite5,903 total records is mostly written/unmapped, not5,903 phonetic lemmas. African sources and Cayuga have complete intake and bounded accepted cohorts; do not reimport them or strip morphology.
 4. **Additional edition/native cohorts:** review source language codes/lects, native sounds and entry kinds in the complete pt/fr archives; empty transport Segments does not prove no original IPA. Generic Malagasy/Lingala and Portuguese tu are held separately. Russian/Chinese/Indonesian complete archives are pinned but not ingested/accepted; define exact useful cohorts/complete transport units before adding them.
 5. **Source acquisition gates:** resolve Bekwel2555 original bibliography, exact source-bearing PanLex/native-dics exports/terms, POLLEX native release/terms, and further source-labelled Australian lists. Full RefLex transport no longer needs reopening; new canonical languages/orthographic profiles require original-source identity/authority review. Etruscan/Elamite remain protected priorities when genuine new lexical authority appears.

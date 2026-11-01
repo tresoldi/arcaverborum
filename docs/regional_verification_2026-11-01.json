@@ -1,0 +1,33 @@
+{
+  "status": "Local validation passed; canonical publication pending",
+  "unit_tests": 566,
+  "installed_merkmal_flags": [
+    true,
+    false
+  ],
+  "normalization_limit": "Two flags in the same installed build, not two independently compiled binaries.",
+  "ruff": "passed",
+  "javascript_syntax": "passed: research, research-worker, colexification",
+  "browser_suites": {
+    "regional_expansion": 0,
+    "research": 0,
+    "wordnet": 0,
+    "concept_entries": 0,
+    "colexification": 0,
+    "colexification_communities": 0
+  },
+  "preserved_prior_records": 2119754,
+  "new_accepted_records": 64,
+  "new_supplied_upstream_readings": 47,
+  "new_written_records": 17,
+  "complete_source_rows_reproduced": 11457,
+  "core_build_id": "f75765ec76bafb976cbd11f6",
+  "communities_build_id": "7d864ac568347d61d304bab4",
+  "concept_rows_build_id": "72089a5476d9fa7b735564c4",
+  "core_peak_rss_mib": 105.74,
+  "community_worker_peak_rss_mib": 88.22,
+  "comparison_peak_rss_mib": 127.27,
+  "analytical_address_space_limit_mib": 256,
+  "current_publication_assets": 25309,
+  "older_public_snapshot_retention": "Active plus preceding repaired analytical generation; active concept rows only. Retired generations remain in Git history/private derived cache."
+}

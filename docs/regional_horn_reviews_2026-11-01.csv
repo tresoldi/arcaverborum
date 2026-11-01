@@ -1,0 +1,20 @@
+av_id,source_form_id,source_sense,concept_id,Value,Form,Segments,decision,evidence_sha256
+afa-inoric,kitchensemitic_Innemor-13_cloud-1,Cloud,phy-cloud,dɛmɛra,dɛmɛra,d ɛ m ɛ r a,admit,2226ef1837e6065656f18ed3e713603f16a733d62d8d234bdd425ace42046978
+afa-inoric,kitchensemitic_Innemor-42_knee-1,Knee,bod-knee,gurmɛnd,gurmɛnd,g u r m ɛ n d,admit,75e78fdc75a028418dd77c3675632ed89221b1c218af7aa7d0971f3cb729254a
+afa-inoric,kitchensemitic_Innemor-83_tongue-1,Tongue,bod-tongue,anɛβɛd,anɛβɛd,a n ɛ β ɛ d,admit,b73c55288cf2b895de2b8634b84ccbb38b2bb552fe3c8cbe7e27674932143459
+afa-zay,kitchensemitic_Zway-4_belly-1,Belly,bod-belly,dɛ:l,dɛ:l,d ɛː l,admit,cb44e07bf3f042b8c4ad65d761607146562b7b6ed2305162f0b58060aaa93a06
+afa-zay,kitchensemitic_Zway-8_black-1,Black,sns-black,gɛmbɛlla,gɛmbɛlla,g ɛ m b ɛ l l a,admit,47ea86c75be4206cf6f26bea4699bf5004d15e865a6b67436f97cfb434275120
+afa-zay,kitchensemitic_Zway-13_cloud-1,Cloud,phy-cloud,da:bana,da:bana,d aː b a n a,admit,87fb51ec62937cf4d536b895782d854328910a94a2244ad581be0222ec0e7004
+afa-zay,kitchensemitic_Zway-37_heart-1,Heart,bod-heart,wɛzɛ:na,wɛzɛ:na,w ɛ z ɛː n a,admit,a7df3ce495ad6e27610dc9d52deef78c4a6f06793e6d365e14cf27fc6326b59b
+afa-zay,kitchensemitic_Zway-42_knee-1,Knee,bod-knee,gulbɛt,gulbɛt,g u l b ɛ t,admit,98f3395575f7dcf6f15addbee42b9ca46148b80825d6bf0cfb76ba8f3b86df55
+afa-zay,kitchensemitic_Zway-76_sun-1,Sun,phy-sun,ari:t,ari:t,a r iː t,admit,646bed28e339949af0b82798ef3e73b96bc0f5634a5ca2695d59b72f19b7539f
+afa-zay,kitchensemitic_Zway-83_tongue-1,Tongue,bod-tongue,aramat,aramat,a r a m a t,admit,dffb7f749382c4d97a512ba402bd8b848491165877fdb4988060afef3aa58ddd
+afa-zay,kitchensemitic_Zway-92_white-1,White,sns-white,go:mara,go:mara,g oː m a r a,admit,3870e72faf97f232310d8bc34b540f499ced50ee4ed54a59ce7023efa29f244d
+afa-gyeta,kitchensemitic_Geto-13_cloud-1,Cloud,phy-cloud,damɛra,damɛra,d a m ɛ r a,admit,69f5ea9d9f603f13b00b3ec97c5380443377fc21045b7f3dfa1f08d2ff707d45
+afa-gyeta,kitchensemitic_Geto-83_tongue-1,Tongue,bod-tongue,anɛβɛt,anɛβɛt,a n ɛ β ɛ t,admit,9f55095db4d86ee528f027f0c557c0aee288e3b80436f6cf0cb0186d28ba99f6
+afa-argobba,kitchensemitic_Argobba-13_cloud-1,Cloud,phy-cloud,dɛmmɛna,dɛmmɛna,d ɛ m m ɛ n a,admit,cddbb2190f6b9fe916ad2e97679dbdb6eb9c024ef11b655b624321418c977382
+afa-argobba,kitchensemitic_Argobba-42_knee-1,Knee,bod-knee,gulbɛt,gulbɛt,g u l b ɛ t,admit,9c09184163f9017e98eb036061007a285916c4911a37e8dfa578d5075a41c547
+afa-argobba,kitchensemitic_Argobba-51_mountain-1,Mountain,phy-mountain,gubb,gubb,g u b b,admit,5def01a40907928e3fa597e42a63d657039e65a1dac3c41a1765e215f00c1ecb
+afa-argobba,kitchensemitic_Argobba-78_tail-1,Tail,bod-tail,zɛr,zɛr,z ɛ r,admit,1686c0ee8525cc9b3764eda2b30674168424c8be37a3b7f0f0e1ec6ae1be9201
+afa-argobba,kitchensemitic_Argobba-85_tree-1,Tree,agr-tree,zaf,zaf,z a f,admit,cfc235122d3986245ec59089a1174d3c5c9ffb6b6ff446a3d16db29d328ca739
+afa-argobba,kitchensemitic_Argobba-88_water-1,Water,phy-water,ɔhuwwa:,ɔhuwwa:,ɔ h u w w aː,admit,9b20837cc96c2f708df704d752d55ac0eea8cf0b772794e1c23c6146feede0c8

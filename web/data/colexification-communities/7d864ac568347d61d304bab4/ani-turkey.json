@@ -1,0 +1,1 @@
+{"community":"ani-peacock","community_size":2,"concept_id":"ani-turkey","diagnostics":{"ani-peacock":{"block_coassigned":35,"block_eligible":35,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["ani-turkey","ani-peacock"],"preview_edges":[["ani-peacock","ani-turkey",1,1,1]],"status":"assigned"}

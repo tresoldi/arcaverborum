@@ -4,8 +4,8 @@ glottocode: buso1238
 family: Austronesian
 macroarea: Papunesia
 sources:
-  transcription: gled
-  cognates: gled
+  transcription: lexirumahoriginal
+  cognates: lexirumahoriginal
 extensions:
   transcriptions: false
   forms: false
@@ -14,8 +14,12 @@ extensions:
   profile: false
 scoring:
   forms_score: 0.7649
-  cognates_score: 0.6
+  cognates_score: 0.0
   tier: copper
 pinned: false
 registered_on: '2026-05-20'
-notes: 'auto: forms=gled (0.76) [fallback p2]; cognates=gled (0.60)'
+notes: 'R09 reviewed source authority: exact pinned original LexiRumah member and
+  already admitted source/profile chain preferred for original information and lexical
+  depth over ASJP-derived GLED. Whole original LexiRumah admissions remain guarded,
+  including unmapped meanings. All earlier GLED evidence/cognacy retained exactly
+  via preservation ledger. No independently supplied IPA or expert cognacy is invented.'

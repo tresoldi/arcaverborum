@@ -1,0 +1,155 @@
+{
+  "accepted": {
+    "constructions": 7366,
+    "records": 2119818,
+    "source": 1750040,
+    "profile": 22178,
+    "supported_core": 470209,
+    "mapped_core": 544347,
+    "supported_all": 1209483,
+    "mapped_all": 1337336,
+    "gled_primaries": 1552,
+    "intake_records": 16430721
+  },
+  "affected": [
+    {
+      "av_id": "sit-suzhou",
+      "before": 583,
+      "after": 590,
+      "supported_core_before": 102,
+      "supported_core_after": 109,
+      "old_rows_preserved": 583,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "map-busoa",
+      "before": 641,
+      "after": 641,
+      "supported_core_before": 62,
+      "supported_core_after": 62,
+      "old_rows_preserved": 641,
+      "role_comment_changes": {
+        "Comment": 601
+      }
+    },
+    {
+      "av_id": "afa-argobba",
+      "before": 167,
+      "after": 173,
+      "supported_core_before": 43,
+      "supported_core_after": 49,
+      "old_rows_preserved": 167,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "afa-zay",
+      "before": 171,
+      "after": 179,
+      "supported_core_before": 40,
+      "supported_core_after": 48,
+      "old_rows_preserved": 171,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "map-kaimbulawa",
+      "before": 341,
+      "after": 341,
+      "supported_core_before": 60,
+      "supported_core_after": 60,
+      "old_rows_preserved": 341,
+      "role_comment_changes": {
+        "Comment": 302
+      }
+    },
+    {
+      "av_id": "afa-inoric",
+      "before": 199,
+      "after": 202,
+      "supported_core_before": 37,
+      "supported_core_after": 40,
+      "old_rows_preserved": 199,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "sit-hefei-mandarin",
+      "before": 150,
+      "after": 158,
+      "supported_core_before": 37,
+      "supported_core_after": 45,
+      "old_rows_preserved": 150,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "map-wotu",
+      "before": 313,
+      "after": 313,
+      "supported_core_before": 59,
+      "supported_core_after": 59,
+      "old_rows_preserved": 313,
+      "role_comment_changes": {
+        "Comment": 273
+      }
+    },
+    {
+      "av_id": "yuk-southern-yukaghir",
+      "before": 249,
+      "after": 251,
+      "supported_core_before": 117,
+      "supported_core_after": 119,
+      "old_rows_preserved": 249,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "sit-wenzhou",
+      "before": 546,
+      "after": 556,
+      "supported_core_before": 102,
+      "supported_core_after": 112,
+      "old_rows_preserved": 546,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "ine-yagnobi",
+      "before": 198,
+      "after": 199,
+      "supported_core_before": 94,
+      "supported_core_after": 95,
+      "old_rows_preserved": 198,
+      "role_comment_changes": {}
+    },
+    {
+      "av_id": "afa-gyeta",
+      "before": 199,
+      "after": 201,
+      "supported_core_before": 39,
+      "supported_core_after": 41,
+      "old_rows_preserved": 199,
+      "role_comment_changes": {}
+    }
+  ],
+  "before": {
+    "constructions": 7365,
+    "records": 2119754,
+    "source": 1749993,
+    "profile": 22178,
+    "supported_core": 470162,
+    "mapped_core": 544286,
+    "supported_all": 1209436,
+    "mapped_all": 1337275,
+    "gled_primaries": 1555,
+    "intake_records": 16419264
+  },
+  "delta": {
+    "constructions": 1,
+    "records": 64,
+    "source": 47,
+    "profile": 0,
+    "supported_core": 47,
+    "mapped_core": 61,
+    "supported_all": 47,
+    "mapped_all": 61,
+    "gled_primaries": -3,
+    "intake_records": 11457
+  },
+  "identity_caveat": "One newly explicit Shinekhen/China Buriat construction; broad Buriat family aggregate predates it. No claim of one globally unrepresented language."
+}

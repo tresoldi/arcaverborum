@@ -271,3 +271,16 @@ OCR verifies handwriting. The optional PyMuPDF audit is
 `scripts/audit_southern_t_citations.py`; source PDFs/images remain privately cached.
 `audit_chirila_transport.py` stages the pinned full historical CSV privately,
 never active intake; it does not clear public redistribution or source identity.
+
+## Regional original-source reproduction
+
+R00–R09 is closed; see docs/REGIONAL_EXECUTION_2026-11-01.md and current STATUS.
+The complete Mongolic2026-03-25 HTML namespace is already appended. Reproduce
+outside intake with `scripts/stage_mongolic_original.py --fetch --output PATH`,
+then `scripts/verify_regional_source.py` checks every11,457 native intake row.
+`scripts/verify_regional_preservation.py` streams the previous committed web
+shards and current shards, without private before-files. Source notation is not
+automatically IPA; only the reviewed Shinekhen member has canonical identity.
+The worldwide opportunity ranker now defaults to a256MiB address-space cap and
+streams shared catalogs/member groups. Recreate the disk-backed TMPDIR directory
+before a lexical web rebuild; Python ignores a nonexistent TMPDIR.

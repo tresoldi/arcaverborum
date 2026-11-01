@@ -1,0 +1,23 @@
+[
+  {
+    "av_id": "map-busoa",
+    "previous_primary": "gled",
+    "new_primary": "lexirumahoriginal",
+    "reviewed_primary_rows": 601,
+    "preserved_gled_rows": 40
+  },
+  {
+    "av_id": "map-kaimbulawa",
+    "previous_primary": "gled",
+    "new_primary": "lexirumahoriginal",
+    "reviewed_primary_rows": 302,
+    "preserved_gled_rows": 39
+  },
+  {
+    "av_id": "map-wotu",
+    "previous_primary": "gled",
+    "new_primary": "lexirumahoriginal",
+    "reviewed_primary_rows": 273,
+    "preserved_gled_rows": 40
+  }
+]

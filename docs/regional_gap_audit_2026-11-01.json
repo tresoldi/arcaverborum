@@ -1,0 +1,787 @@
+{
+  "snapshot": {
+    "forms.csv": "47700946c57c7a1ee569682067d8d97f41b19be8638fc7eb56077bb29e16bcd0",
+    "varieties.csv": "db3a7ebbe361ccf99c0aaf1c6cb271dd3e1d857904c920952652a879390bebc6",
+    "parameters.csv": "382a057512cf504f68818c0b7142c2c9738d3561f294ceff332bc3e196a16433"
+  },
+  "scope": "Overlapping rectangular geographic triage windows, not national or linguistic boundaries; missing coordinates excluded. Supported-core counts measure represented segments, not independently verified source fidelity.",
+  "regions": {
+    "Southern Cone": {
+      "accepted_varieties": 41,
+      "gled_primaries": 1,
+      "below_80_supported_core": 16,
+      "examples": [
+        {
+          "av_id": "cha-guenoa",
+          "Name": "Güenoa",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "guenoaoriginal"
+        },
+        {
+          "av_id": "cha-charrua",
+          "Name": "Charrúa",
+          "forms": 10,
+          "supported_core": 0,
+          "transcription_source": "charruaoriginal"
+        },
+        {
+          "av_id": "cha-chana",
+          "Name": "Chaná",
+          "forms": 16,
+          "supported_core": 0,
+          "transcription_source": "chanaoriginal"
+        },
+        {
+          "av_id": "nub-xokleng",
+          "Name": "Xokleng",
+          "forms": 368,
+          "supported_core": 4,
+          "transcription_source": "diacl"
+        },
+        {
+          "av_id": "nub-ingain",
+          "Name": "Ingain",
+          "forms": 26,
+          "supported_core": 18,
+          "transcription_source": "gerardije2025"
+        },
+        {
+          "av_id": "nub-ofaye",
+          "Name": "Ofayé",
+          "forms": 38,
+          "supported_core": 30,
+          "transcription_source": "gled"
+        },
+        {
+          "av_id": "vil-vilela",
+          "Name": "Vilela",
+          "forms": 73,
+          "supported_core": 37,
+          "transcription_source": "chacolanguages"
+        },
+        {
+          "av_id": "ine-hunsrik",
+          "Name": "Hunsrik",
+          "forms": 596,
+          "supported_core": 52,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "tup-chiripa",
+          "Name": "Chiripá",
+          "forms": 140,
+          "supported_core": 58,
+          "transcription_source": "tuled"
+        },
+        {
+          "av_id": "mat-vejoz",
+          "Name": "Vejoz",
+          "forms": 92,
+          "supported_core": 65,
+          "transcription_source": "joophonosemantic"
+        },
+        {
+          "av_id": "hub-allentiac",
+          "Name": "Allentiac",
+          "forms": 164,
+          "supported_core": 68,
+          "transcription_source": "johanssonsoundsymbolic"
+        },
+        {
+          "av_id": "gua-abipon",
+          "Name": "Abipon",
+          "forms": 215,
+          "supported_core": 69,
+          "transcription_source": "chacolanguages"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        -56,
+        -22,
+        -76,
+        -48
+      ]
+    },
+    "Arabian Peninsula": {
+      "accepted_varieties": 52,
+      "gled_primaries": 17,
+      "below_80_supported_core": 36,
+      "examples": [
+        {
+          "av_id": "afa-dahalik",
+          "Name": "Dahalik",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-edomite",
+          "Name": "Edomite",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-omani-arabic",
+          "Name": "Omani Arabic",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "trk-qashqa-i",
+          "Name": "Qashqa'i",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-ancient-hebrew",
+          "Name": "Ancient Hebrew",
+          "forms": 118,
+          "supported_core": 0,
+          "transcription_source": "diacl"
+        },
+        {
+          "av_id": "afa-bathari",
+          "Name": "Bathari",
+          "forms": 1,
+          "supported_core": 1,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-baharna-arabic",
+          "Name": "Baharna Arabic",
+          "forms": 5,
+          "supported_core": 1,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-hadrami",
+          "Name": "Hadrami",
+          "forms": 16,
+          "supported_core": 3,
+          "transcription_source": "kogansemitic"
+        },
+        {
+          "av_id": "afa-moabite",
+          "Name": "Moabite",
+          "forms": 17,
+          "supported_core": 3,
+          "transcription_source": "kogansemitic"
+        },
+        {
+          "av_id": "afa-qatabanian",
+          "Name": "Qatabanian",
+          "forms": 134,
+          "supported_core": 15,
+          "transcription_source": "kogansemitic"
+        },
+        {
+          "av_id": "afa-minaean",
+          "Name": "Minaean",
+          "forms": 148,
+          "supported_core": 15,
+          "transcription_source": "kogansemitic"
+        },
+        {
+          "av_id": "afa-najdi-arabic",
+          "Name": "Najdi Arabic",
+          "forms": 31,
+          "supported_core": 28,
+          "transcription_source": "gled"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        12,
+        32,
+        34,
+        60
+      ]
+    },
+    "Western Iran": {
+      "accepted_varieties": 36,
+      "gled_primaries": 8,
+      "below_80_supported_core": 20,
+      "examples": [
+        {
+          "av_id": "ine-khunsaric",
+          "Name": "Khunsaric",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-upper-taromi",
+          "Name": "Upper Taromi",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "trk-qashqa-i",
+          "Name": "Qashqa'i",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-northern-luri",
+          "Name": "Northern Luri",
+          "forms": 12,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-gurani",
+          "Name": "Gurani",
+          "forms": 29,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-north-central-talysh",
+          "Name": "North-Central Talysh",
+          "forms": 47,
+          "supported_core": 0,
+          "transcription_source": "diacl"
+        },
+        {
+          "av_id": "ine-eshtehardi",
+          "Name": "Eshtehardi",
+          "forms": 48,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-laki",
+          "Name": "Laki",
+          "forms": 98,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-gilaki",
+          "Name": "Gilaki",
+          "forms": 110,
+          "supported_core": 0,
+          "transcription_source": "diacl"
+        },
+        {
+          "av_id": "afa-baharna-arabic",
+          "Name": "Baharna Arabic",
+          "forms": 5,
+          "supported_core": 1,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-alviri-vidari",
+          "Name": "Alviri-Vidari",
+          "forms": 71,
+          "supported_core": 4,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-vafsi",
+          "Name": "Vafsi",
+          "forms": 36,
+          "supported_core": 29,
+          "transcription_source": "gled"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        25,
+        40,
+        44,
+        53
+      ]
+    },
+    "Eastern China": {
+      "accepted_varieties": 108,
+      "gled_primaries": 3,
+      "below_80_supported_core": 52,
+      "examples": [
+        {
+          "av_id": "map-labuan",
+          "Name": "Labuan",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-north-bunun",
+          "Name": "North Bunun",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "sig-chinese-sign-language",
+          "Name": "Chinese Sign Language",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "sig-hong-kong-macau-sign-language",
+          "Name": "Hong Kong-Macau Sign Language",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "map-pinan",
+          "Name": "Pinan",
+          "forms": 2,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-tekedaya",
+          "Name": "Tekedaya",
+          "forms": 3,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-ketangalan",
+          "Name": "Ketangalan",
+          "forms": 4,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-central-amis",
+          "Name": "Central Amis",
+          "forms": 10,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-matu-uwal",
+          "Name": "Matu'uwal",
+          "forms": 17,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-taokas",
+          "Name": "Taokas",
+          "forms": 24,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-takituduh",
+          "Name": "Takituduh",
+          "forms": 38,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        },
+        {
+          "av_id": "map-sakizaya",
+          "Name": "Sakizaya",
+          "forms": 42,
+          "supported_core": 0,
+          "transcription_source": "acd"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        20,
+        43,
+        110,
+        123
+      ]
+    },
+    "Central Asia": {
+      "accepted_varieties": 145,
+      "gled_primaries": 10,
+      "below_80_supported_core": 45,
+      "examples": [
+        {
+          "av_id": "ine-khunsaric",
+          "Name": "Khunsaric",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-kohistani-shina",
+          "Name": "Kohistani Shina",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-parya",
+          "Name": "Parya",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-semnani-biyabuneki",
+          "Name": "Semnani-Biyabuneki",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-upper-taromi",
+          "Name": "Upper Taromi",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "trk-ili-turki",
+          "Name": "Ili Turki",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "una-badeshi",
+          "Name": "Badeshi",
+          "forms": 3,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-bukharic",
+          "Name": "Bukharic",
+          "forms": 8,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-sangisari",
+          "Name": "Sangisari",
+          "forms": 13,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ine-north-central-talysh",
+          "Name": "North-Central Talysh",
+          "forms": 47,
+          "supported_core": 0,
+          "transcription_source": "diacl"
+        },
+        {
+          "av_id": "ine-eshtehardi",
+          "Name": "Eshtehardi",
+          "forms": 48,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "trk-ainu-china",
+          "Name": "Ainu (China)",
+          "forms": 53,
+          "supported_core": 0,
+          "transcription_source": "abvd2026"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        35,
+        56,
+        46,
+        90
+      ]
+    },
+    "Mongolia": {
+      "accepted_varieties": 15,
+      "gled_primaries": 2,
+      "below_80_supported_core": 6,
+      "examples": [
+        {
+          "av_id": "mon-kitan",
+          "Name": "Kitan",
+          "forms": 9,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "mon-middle-mongol",
+          "Name": "Middle Mongol",
+          "forms": 27,
+          "supported_core": 3,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "sit-wulumuqi-mandarin",
+          "Name": "Wulumuqi Mandarin",
+          "forms": 15,
+          "supported_core": 6,
+          "transcription_source": "bdpa"
+        },
+        {
+          "av_id": "mon-mongolia-buriat",
+          "Name": "Mongolia Buriat",
+          "forms": 30,
+          "supported_core": 28,
+          "transcription_source": "gled"
+        },
+        {
+          "av_id": "mon-russia-buriat",
+          "Name": "Russia Buriat",
+          "forms": 45,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        },
+        {
+          "av_id": "mon-peripheral-mongolian",
+          "Name": "Peripheral Mongolian",
+          "forms": 91,
+          "supported_core": 67,
+          "transcription_source": "joophonosemantic"
+        },
+        {
+          "av_id": "ine-tokharian-a",
+          "Name": "Tokharian A",
+          "forms": 147,
+          "supported_core": 98,
+          "transcription_source": "iecor"
+        },
+        {
+          "av_id": "trk-tuvinian",
+          "Name": "Tuvinian",
+          "forms": 258,
+          "supported_core": 135,
+          "transcription_source": "savelyevturkic"
+        },
+        {
+          "av_id": "trk-northern-altai",
+          "Name": "Northern Altai",
+          "forms": 282,
+          "supported_core": 139,
+          "transcription_source": "savelyevturkic"
+        },
+        {
+          "av_id": "trk-uighur",
+          "Name": "Uighur",
+          "forms": 293,
+          "supported_core": 140,
+          "transcription_source": "savelyevturkic"
+        },
+        {
+          "av_id": "trk-old-turkic",
+          "Name": "Old Turkic",
+          "forms": 262,
+          "supported_core": 142,
+          "transcription_source": "savelyevturkic"
+        },
+        {
+          "av_id": "trk-khakas",
+          "Name": "Khakas",
+          "forms": 275,
+          "supported_core": 143,
+          "transcription_source": "savelyevturkic"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        41,
+        53,
+        87,
+        120
+      ]
+    },
+    "Siberia": {
+      "accepted_varieties": 52,
+      "gled_primaries": 9,
+      "below_80_supported_core": 17,
+      "examples": [
+        {
+          "av_id": "esk-mednyj-aleut",
+          "Name": "Mednyj Aleut",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "yen-assan",
+          "Name": "Assan",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "chu-kerek",
+          "Name": "Kerek",
+          "forms": 2,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "urj-samoyed-koibal",
+          "Name": "Samoyed Koibal",
+          "forms": 5,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "trk-lower-chulym-turkic",
+          "Name": "Lower Chulym Turkic",
+          "forms": 9,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "urj-tundra-enets",
+          "Name": "Tundra Enets",
+          "forms": 11,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "trk-siberian-tatar",
+          "Name": "Siberian Tatar",
+          "forms": 53,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "yen-pumpokol",
+          "Name": "Pumpokol",
+          "forms": 12,
+          "supported_core": 1,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "yen-arin",
+          "Name": "Arin",
+          "forms": 67,
+          "supported_core": 32,
+          "transcription_source": "gled"
+        },
+        {
+          "av_id": "yen-kott-assan",
+          "Name": "Kott-Assan",
+          "forms": 69,
+          "supported_core": 34,
+          "transcription_source": "gled"
+        },
+        {
+          "av_id": "mon-russia-buriat",
+          "Name": "Russia Buriat",
+          "forms": 45,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        },
+        {
+          "av_id": "yen-yugh",
+          "Name": "Yugh",
+          "forms": 85,
+          "supported_core": 37,
+          "transcription_source": "gled"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        50,
+        75,
+        60,
+        180
+      ]
+    },
+    "Horn of Africa": {
+      "accepted_varieties": 190,
+      "gled_primaries": 100,
+      "below_80_supported_core": 144,
+      "examples": [
+        {
+          "av_id": "afa-dahalik",
+          "Name": "Dahalik",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "atl-tsotso",
+          "Name": "Tsotso",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ead-molo",
+          "Name": "Molo",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "sig-ethiopian-sign-language",
+          "Name": "Ethiopian Sign Language",
+          "forms": 1,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "ead-kelo",
+          "Name": "Kelo",
+          "forms": 3,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-alaba-k-abeena",
+          "Name": "Alaba-K'abeena",
+          "forms": 4,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "mer-meroitic",
+          "Name": "Meroitic",
+          "forms": 4,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "atl-suba-simbiti",
+          "Name": "Suba-Simbiti",
+          "forms": 6,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "atl-kabwa",
+          "Name": "Kabwa",
+          "forms": 17,
+          "supported_core": 0,
+          "transcription_source": "wiktionary"
+        },
+        {
+          "av_id": "afa-sebat-bet-gurage",
+          "Name": "Sebat Bet Gurage",
+          "forms": 11,
+          "supported_core": 3,
+          "transcription_source": "kogansemitic"
+        },
+        {
+          "av_id": "afa-hadrami",
+          "Name": "Hadrami",
+          "forms": 16,
+          "supported_core": 3,
+          "transcription_source": "kogansemitic"
+        },
+        {
+          "av_id": "afa-qatabanian",
+          "Name": "Qatabanian",
+          "forms": 134,
+          "supported_core": 15,
+          "transcription_source": "kogansemitic"
+        }
+      ],
+      "bounds_south_north_west_east": [
+        -2,
+        19,
+        33,
+        52
+      ]
+    }
+  },
+  "triage": "Fresh selected-member intake screen is in regional_source_triage_2026-11-01.csv; older whole-world ranking was not treated as current evidence."
+}

@@ -1,5 +1,7 @@
 # Exploratory global colexification communities
 
+Regional refresh2026-11-01: community snapshot `7d864ac568347d61d304bab4`, parent `f75765ec76bafb976cbd11f6`.237 communities/2,974 concepts; all76 runs refreshed. All173,907 preview edges verified and selected partition independently reproduced. Parent105.74MiB/worker88.22MiB under256MiB AS (parent high-water mark carries the preceding exec stage). [Verification](regional_communities_verification_2026-11-01.json). Earlier dated proofs remain historical.
+
 This layer partitions the complete **observed segmented** graph. It complements
 the existing local neighborhoods. A community is a result of a stated graph model,
 not a certified semantic field or a set of newly observed lexical connections.

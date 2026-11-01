@@ -1,0 +1,121 @@
+[
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0156",
+    "sense": "ear",
+    "concept_id": "bod-ear",
+    "Form": "sʲexen",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0158",
+    "sense": "stone",
+    "concept_id": "phy-stone",
+    "Form": "sʲoloon",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0165",
+    "sense": "blood",
+    "concept_id": "bod-blood",
+    "Form": "sʲohan",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0244",
+    "sense": "liver",
+    "concept_id": "bod-liver",
+    "Form": "elʲɡen",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0285",
+    "sense": "river",
+    "concept_id": "phy-river",
+    "Form": "ɡɔl",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0355",
+    "sense": "fish",
+    "concept_id": "ani-fish",
+    "Form": "zaɡahan",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0364",
+    "sense": "heart",
+    "concept_id": "bod-heart",
+    "Form": "zurxen",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0382",
+    "sense": "tongue",
+    "concept_id": "bod-tongue",
+    "Form": "xelen",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0462",
+    "sense": "tree",
+    "concept_id": "agr-tree",
+    "Form": "mɔdɔn",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0484",
+    "sense": "leaf",
+    "concept_id": "agr-leaf",
+    "Form": "nabsʲahan",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0487",
+    "sense": "lake",
+    "concept_id": "phy-lake",
+    "Form": "noor",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0491",
+    "sense": "sun",
+    "concept_id": "phy-sun",
+    "Form": "naran",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0510",
+    "sense": "eye",
+    "concept_id": "bod-eye",
+    "Form": "nʲuden",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0594",
+    "sense": "nose",
+    "concept_id": "bod-nose",
+    "Form": "xamar",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0689",
+    "sense": "wind",
+    "concept_id": "phy-wind",
+    "Form": "halʲxʲan",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0696",
+    "sense": "moon",
+    "concept_id": "phy-moon",
+    "Form": "haran",
+    "notation": "written_source_not_IPA"
+  },
+  {
+    "source_form_id": "mongolicbv2026_shib-entry0870",
+    "sense": "water",
+    "concept_id": "phy-water",
+    "Form": "ohan",
+    "notation": "written_source_not_IPA"
+  }
+]

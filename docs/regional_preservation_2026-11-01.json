@@ -1,0 +1,12 @@
+{
+  "before_commit": "774717ac90b34496941b3fdb50bf593bade04c46",
+  "previous_records": 2119754,
+  "all_earlier_readings_mappings_cognacy_scores_preserved": true,
+  "changed_review_role_labels": 1176,
+  "added_native_records": 64,
+  "source_file_hashes": {
+    "forms.csv": "4c57624ab7808c45c158dbd53ae62c2053071ce84b0264a586e660a43a2c885a",
+    "varieties.csv": "dc3119f79f54057fdeb6751b8b2515e2e141878623f07473be01b6db682ed11b",
+    "parameters.csv": "382a057512cf504f68818c0b7142c2c9738d3561f294ceff332bc3e196a16433"
+  }
+}

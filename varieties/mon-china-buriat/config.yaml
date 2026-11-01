@@ -1,0 +1,26 @@
+av_id: mon-china-buriat
+name: China Buriat (Shinekhen)
+glottocode: chin1476
+family: Mongolic-Khitan
+macroarea: Eurasia
+sources:
+  transcription: mongolicbv2026
+  cognates: mongolicbv2026
+  source_language_id: mongolicbv2026_shib
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.5
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-11-01'
+notes: R06 newly explicit China Buriat construction, strictly the Shinekhen fieldwork
+  sample. Written source notation only, no inferred IPA. Broader older Buriat family
+  aggregate remains; do not claim proof of previous language absence or authority
+  over all China Buriat. Representative Glottolog coordinates are not an asserted
+  fieldwork point.

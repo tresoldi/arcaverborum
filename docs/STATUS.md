@@ -1,5 +1,43 @@
 # Current project state
 
+**Regional R00–R09 (2026-11-01):** all authorized tracks received bounded execution.
+[Execution](REGIONAL_EXECUTION_2026-11-01.md), [metrics](regional_summary_2026-11-01.json),
+[whole-record preservation](regional_preservation_2026-11-01.json),
+[complete original-source reproduction](regional_source_verification_2026-11-01.json),
+[remaining gates](regional_holds_2026-11-01.csv).
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions | 7,366 |
+| Accepted records | 2,119,818 |
+| Supplied/upstream-converted records | 1,750,040 |
+| Profile-backed records | 22,178 |
+| Supported core slots | 470,209 |
+| Mapped core slots | 544,347 |
+| Supported all-concept slots | 1,209,483 |
+| Mapped all-concept slots | 1,337,336 |
+| GLED primaries | 1,552 |
+| Intake records | 16,430,721 |
+
+64 records/47 supported core slots added; one newly explicit17-noun Shinekhen
+written construction. No claim that Buryat was previously absent. Three reviewed
+original LexiRumah primaries replace GLED, with all119 GLED records retained.
+All2,119,754 earlier native readings/mappings/cognacy/scores survive;1,176
+LexiRumah comments change only the review-role label. Complete11,457-row original
+Mongolic transport is separate from accepted coverage. Southern Cone original
+facsimile acquired; Western Iran/Arabia and other exact source gates remain held.
+
+[Local verification](regional_verification_2026-11-01.json):566 tests pass in each
+installed normalization flag state, full lint/JS and six final browser suites pass.
+Current analytical snapshot `f75765ec76bafb976cbd11f6` retains44,421 observed
+segmented edges;156 opportunity summaries change. Community snapshot
+`7d864ac568347d61d304bab4`:237 groups/2,974 concepts, all173,907 preview edges
+verified and selected partition reproduced. Core105.74MiB, worker88.22MiB,
+comparison127.27MiB under256MiB AS. [Fresh CLICS comparison](CLICS_COMPARISON.md).
+Publication is pending canonical verification.
+
+## Historical analytical and semantic layers before the regional expansion
+
 **Colexification repair and communities (2026-10-31):** [reconciled evidence](colexification_repair_verification_2026-10-31.json) has 44,421 observed segmented edges after source-specific exclusions; all lexical inputs remain unchanged. [Global exploratory communities](COLEXIFICATION_COMMUNITIES.md): 237 communities/2,974 concepts, ten seeds, Leiden/resource/area comparisons and50 family-block perturbations. Every preview edge verified; selected full partition reproduced exactly. Full core103.52MiB, community parent103.59MiB/worker92.22MiB, comparison128.81MiB, each under256MiB. [CLICS comparison](CLICS_COMPARISON.md) updated with atomic report bundles. Historical metrics below retain their original snapshot context.
 
 [Published verification](colexification_communities_publication_2026-10-31.json):

@@ -1,0 +1,28 @@
+{
+  "dataset": "mongolicbv2026",
+  "version": "download-20260325",
+  "citation": "Yamakoshi, Yasuhiro. 2017–2025. Database of Basic Vocabulary in Mongolic Languages. ILCAA, Tokyo University of Foreign Studies. Download edition 2026-03-25.",
+  "url": "https://mongolicbv.aa-ken.jp/download/download_version_20260325.html",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "resources": {
+    "mongolic-20260325.html": {
+      "url": "https://mongolicbv.aa-ken.jp/download/download_version_20260325.html",
+      "path": "regional-2026-11-01/mongolic-20260325.html",
+      "sha256": "8fd33bcfa7d184b2bf25d86fc8d9323ce282702f49571897a92e9074845928fd"
+    },
+    "mongolic-vocabulary.html": {
+      "url": "https://mongolicbv.aa-ken.jp/",
+      "path": "regional-2026-11-01/mongolic-vocabulary.html",
+      "sha256": "bb91c686ed47b777a807744e41d206a17ddbef70d3773f17e1a1081f5f0c11b0"
+    }
+  },
+  "identity_review": {
+    "ShiB.": {
+      "glottocode": "chin1476",
+      "iso639p3": "bxu",
+      "name": "China Buriat (Shinekhen)",
+      "native_name": "Shinekhen Buryat",
+      "provenance": "Yamakoshi2003 own fieldwork; nouns nominative, verbs nonpast participle. Not Cyrillic Bur.Orth., not Russia/Mongolia Buriat."
+    }
+  }
+}

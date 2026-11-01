@@ -9,3 +9,9 @@ native evidence are retained; exact reviewed semantic corrections may unmap a
 record without deleting it. Source profiles and original IPA routes remain scoped
 to their guarded members/forms, with uncertainty and written-only status explicit.
 See HELD before reopening source notation, sample identity or sense decisions.
+
+## Regional source review, 2026-11-01
+
+Added 1 guarded supplementary records with exact native member, original Value/Form, phonetic symbols and meaning guards. Primary and earlier evidence remain. Tone alternatives/sandhi and transformations that were not source-checked are held; no generic orthographic profile or independent cognacy is invented. Yagnobi evidence is specifically Dugova sample1 and is not a new language or a village-wide generalization. See docs/regional_additional_reviews_2026-11-01.csv.
+
+CALS Dugova siːna labelled breast is held: the bare English slot does not establish the frozen female mammary-organ definition rather than chest. Original source sense remains in intake.

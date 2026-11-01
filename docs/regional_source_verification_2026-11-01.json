@@ -1,0 +1,31 @@
+{
+  "dataset": "mongolicbv2026",
+  "native_forms": 11457,
+  "entries": 921,
+  "native_member_columns": 14,
+  "missing_cells": 1437,
+  "reproduced_tables": {
+    "forms.csv": {
+      "bytes": 21772268,
+      "sha256": "8b3c225d4df7794c432524fb10821162f3eef830cc4e95b35cce1be4cbe98cfc"
+    },
+    "languages.csv": {
+      "bytes": 1910,
+      "sha256": "2b2a41c94084d2a5694b1d36ecc108441e976057adb68d8cb9ea6f388a4c61f4"
+    },
+    "parameters_raw.csv": {
+      "bytes": 48033,
+      "sha256": "de5e4253b8f8d568d5a617a353b72276a60bc33643a832d7d6b713e87329f1c8"
+    },
+    "metadata.csv": {
+      "bytes": 521,
+      "sha256": "cb45bf908197a73bca5d721e976af85a23a66075af004ce07feae41e36927ddf"
+    },
+    "sources.bib": {
+      "bytes": 177,
+      "sha256": "e01be0054da6b03bec19b3b26bcf3c30d5fd604222055734012fc48d3de2e891"
+    }
+  },
+  "all_intake_fields_match": true,
+  "source_segments_deliberately_empty": true
+}

@@ -10,7 +10,9 @@ from __future__ import annotations
 
 import argparse
 import csv
+import itertools
 import json
+import resource
 import sqlite3
 from collections import defaultdict
 from pathlib import Path
@@ -26,12 +28,17 @@ SUPPORTED = {"source", "profile"}
 
 def read(path):
     with path.open() as handle:
-        return list(csv.DictReader(handle))
+        yield from csv.DictReader(handle)
 
 
 def baseline(forms, core):
-    mapped = {r["concept_id"] for r in forms if r["concept_id"] in core}
-    supported = {r["concept_id"] for r in forms if r["concept_id"] in core and r["Segments_Source"] in SUPPORTED}
+    mapped, supported = set(), set()
+    for row in forms:
+        cid = row['concept_id']
+        if cid in core:
+            mapped.add(cid)
+            if row['Segments_Source'] in SUPPORTED:
+                supported.add(cid)
     return mapped, supported
 
 
@@ -120,29 +127,29 @@ def build(root, output):
         targets[config["glottocode"].strip().lower()].append(target)
     parameters, metadata = {}, {}
     for path in sorted((root / "intake").glob("*/parameters_raw.csv")):
-        parameters.update({r["ID"]: r["Concepticon_ID"] for r in read(path)})
+        parameters.update({r["ID"]: r["Concepticon_ID"] for r in read(path)
+                           if concepts.get(r["Concepticon_ID"]) in core})
     for path in sorted((root / "intake").glob("*/metadata.csv")):
         metadata.update({r["Dataset"]: r for r in read(path)})
     reviewed = {
         (r["dataset"], r["dataset"] + "_" + r["sense_id"]): r["concept_id"]
-        for r in read(root / "src/arcaverborum/data/dictionary_senses.csv")
+        for r in read(root / "src/arcaverborum/data/dictionary_senses.csv") if r["concept_id"] in core
     }
     rows = []
     with sqlite3.connect((root / "intake/intake.sqlite").as_uri() + "?mode=ro", uri=True) as db:
         db.row_factory = sqlite3.Row
+        db.execute('PRAGMA cache_size=-16384')
+        db.execute('PRAGMA mmap_size=0')
+        db.execute('PRAGMA temp_store=FILE')
         for gc, choices in sorted(targets.items()):
-            groups = defaultdict(list)
-            for row in db.execute(
-                "SELECT Dataset, Language_ID, Parameter_ID, Form, Value, Segments FROM forms WHERE gc_lc=?", (gc,)
-            ):
-                groups[row["Dataset"], row["Language_ID"]].append(dict(row))
             for target in choices:
-                for (source, member), forms in groups.items():
-                    if source in {target["primary"], "gled"}:
-                        continue
-                    row = opportunity(
-                        target, source, member, forms, parameters, concepts, core, reviewed, metadata.get(source, {})
-                    )
+                query = db.execute(
+                    'SELECT Dataset, Language_ID, Parameter_ID, Form, Value, Segments FROM forms '
+                    "WHERE gc_lc=? AND Dataset NOT IN (?, 'gled', 'asjp') ORDER BY Dataset,Language_ID",
+                    (gc, target['primary']))
+                for (source, member), forms in itertools.groupby(query, key=lambda r: (r['Dataset'],r['Language_ID'])):
+                    row = opportunity(target, source, member, forms, parameters, concepts, core,
+                                      reviewed, metadata.get(source, {}))
                     if row:
                         rows.append(row)
     rows.sort(key=rank_key)
@@ -159,7 +166,8 @@ def build(root, output):
         american_opportunities=sum(r["macroarea"] in {"South America", "North America"} for r in rows),
         method=("Additive potential against supported accepted concepts. "
                 "Member rows overlap; do not sum as unique gains."),
-        source_policy=("Source IPA only counts as supplied. "
+        source_policy=("Valid supplied/upstream-converted segments count as source-reading potential, "
+                       "not independent IPA certification. "
                        "Resegmented spelling is orthographic potential, never supported evidence."),
         limitations=("Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. "
                      "Primary-source profile recovery is outside this alternatives report."),
@@ -173,7 +181,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--output", type=Path, default=ROOT / "output/report/coverage_opportunities.csv")
+    parser.add_argument("--memory-mb", type=int, default=256)
     args = parser.parse_args()
+    if args.memory_mb < 128:
+        parser.error("Memory budget must be at least 128 MiB")
+    resource.setrlimit(resource.RLIMIT_AS, (args.memory_mb * 1024 * 1024,) * 2)
     build(args.root.resolve(), args.output.resolve())
 
 

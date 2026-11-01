@@ -1,0 +1,1 @@
+{"community":"phy-landscape","community_size":2,"concept_id":"phy-scenery","diagnostics":{"phy-landscape":{"block_coassigned":33,"block_eligible":33,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["phy-scenery","phy-landscape"],"preview_edges":[["phy-landscape","phy-scenery",1,1,1]],"status":"assigned"}

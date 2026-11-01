@@ -1,0 +1,65 @@
+{
+  "dila_commit": "64d8dd34c6318512b4e3988d50e7f473456996c7",
+  "files": {
+    "LICENSE.txt": {
+      "sha256": "458dcb5c49782f8ed646addabef5b81d5eced2e320874e56c541c601d4ad736d",
+      "bytes": 1077
+    },
+    "README.md": {
+      "sha256": "e9d3fbdfbd2c9c30789093acaed65d0e1e121f05a6b360ed5c1581257c8517e5",
+      "bytes": 242
+    },
+    "resultados.md": {
+      "sha256": "69fd511d6eb7ed0d33b1a139911c4fea17669a8bb061b9a961b4c80b45b4acb5",
+      "bytes": 5157
+    },
+    "diwica-index.html": {
+      "url": "https://diccionariowichi.com.ar/",
+      "sha256": "b7c983b4ffd8159043b73469740ce0df1af5667c12f9fabe7cd9d4fdf8870104",
+      "bytes": 36689
+    },
+    "dila-results.html": {
+      "url": "https://dila-ling.github.io/pict-glotales/resultados/",
+      "sha256": "454884f4f680bbe3aec406eb4f89eef04c2ba9cf687671051db82e6d44b1fc2c",
+      "bytes": 198788
+    },
+    "iran-atlas.html": {
+      "url": "https://iranatlas.net/",
+      "sha256": "459ef94e82f91bb06f27e35daaeb2ea289492a6b974b6b49aef07264e6a451ba",
+      "bytes": 7062
+    },
+    "bldcil.html": {
+      "url": "https://www.uni-bamberg.de/orientalistik/allgemeine-sprachwissenschaft/forschung/projekte/bamberg-lexical-database-for-contemporary-iranian-languages-bldcil/",
+      "sha256": "26cdb1acfb5ddb1a900596443ad61674fa82c302fce72cb5ff0d7386762bd99c",
+      "bytes": 40284
+    },
+    "vejinlex.html": {
+      "url": "https://lex.vejin.net/en/",
+      "sha256": "7ab951b3ffd3960cd92e3ee7387b70ce0c52ba120301e0867cbf96453f301145",
+      "bytes": 14194
+    },
+    "kuria-muria-metadata.html": {
+      "url": "https://etheses.whiterose.ac.uk/id/eprint/22573/",
+      "sha256": "2621dbb61d1c3421c537589b0d1282ae417bffcb6a6410374626b97695dec6f4",
+      "bytes": 35713
+    },
+    "mongolic-vocabulary.html": {
+      "url": "https://mongolicbv.aa-ken.jp/",
+      "sha256": "bb91c686ed47b777a807744e41d206a17ddbef70d3773f17e1a1081f5f0c11b0",
+      "bytes": 15864
+    },
+    "inel.html": {
+      "url": "https://inel.corpora.uni-hamburg.de/portal/",
+      "sha256": "806321930427aa2f05798e69c15a40ad0f924960ab5e19b90979d123cb41c8ce",
+      "bytes": 17673
+    }
+  },
+  "bove1883": {
+    "url": "https://sedici.unlp.edu.ar/handle/10915/170319",
+    "pdf_url": "https://sedici.unlp.edu.ar/bitstream/handle/10915/170319/Documento_completo.pdf?isAllowed=y&sequence=1",
+    "sha256": "4bf416527444f5e86c8d6c0dedf415d220c0ef374b35c7caa8e34aa3f8c7eb21",
+    "bytes": 36477071,
+    "pages": 222,
+    "decision": "Original image facsimile acquired; independent lexical page transcription/sense review pending, no admission"
+  }
+}

@@ -65,3 +65,8 @@ def test_recording_buttons_are_not_profile_opportunities():
     forms = [dict(Parameter_ID="water", Form="►", Value="►", Segments="")]
     assert module.opportunity(target, "mixezoqueanvoices", "member", forms,
                               {"water": "1"}, {"1": "phy-water"}, {"phy-water"}, {}, {}) is None
+
+
+def test_baseline_consumes_large_inputs_only_once():
+    rows = (dict(concept_id=str(i % 3), Segments_Source="source") for i in range(10000))
+    assert module.baseline(rows, {"0", "1"}) == ({"0", "1"}, {"0", "1"})

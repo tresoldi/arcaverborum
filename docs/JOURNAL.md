@@ -1009,3 +1009,33 @@ setting, with native binary/build limitations stated in the
 The closed pipeline preserves lexical, WordNet and concept-transport hashes.
 Source/semantic holds remain explicitly evidence-gated in HELD; exploratory
 memberships are not universal semantic categories.
+
+
+## 2026-11-01 — Regional worldwide coverage recommendations (planning)
+
+User asks for next steps, especially Southern Cone, Arabia, western Iran, eastern
+China, Central Asia, Mongolia, Siberia and Horn. Created regional plan, overlapping
+coordinate-window audit and fresh23-construction/31-member intake screen. Separate
+presence, written depth, supported readings, profiles and source fidelity; do not
+recount completed Charrúa/Chaná/Güenoa, strong Kazakh/Fuegian coverage or full frozen
+RefLex/CALS intake as new gains. New primary-project leads include DILA Mataguayan
+comparisons/DIWICA, ALI/Bamberg, original South Arabian materials, ILCAA Mongolic
+vocabulary (direct fetch timed out), INEL dictionaries/corpora and original eastern
+Chinese resources, all with explicit payload/terms/member/notation gates.
+
+Interrupted memory-heavy full ranking refresh (~4.24GiB RSS); used bounded scoped
+SQL/streaming triage instead. Missing exact-code audit737 members is not a new-
+language count. Updated NEXT with proposed R01–R08 and global quality reserve;
+accepted lexical and web artifacts unchanged. No lexical batch is authorized by
+this suggestions request.
+
+
+## 2026-11-01 — Regional R00–R09 authorized execution
+
+User authorized all proposed regional tracks with autonomous specifics. Completed bounded Southern Cone/Horn/Western Iran/Arabia/eastern China/Mongolic/Central Asia/Siberia reviews and worldwide reserve.64 accepted records:19 Horn,25 Chinese,1 Yagnobi,2 Southern Yukaghir,17 strictly written Shinekhen nouns. One newly explicit construction, not proof that Buryat was absent. Busoa/Kaimbulawa/Wotu promote already-reviewed original LexiRumah evidence over GLED, preserving all119 earlier GLED rows and all native readings/mappings/cognacy/scores. Only1,176 earlier LexiRumah review-role comments change. Full committed-shard preservation independently verifies all2,119,754 earlier records.
+
+Complete pinned ILCAA2026-03-25 HTML:921 entry blocks/14 native columns/11,457 forms/1,437 missing cells, CC BY-NC4. Two Cyrillic columns are orthographic references; verb citation morphology and unlinked identities remain explicit. Source-native HTML/IDs/senses/questionnaire markers retained; no inferred IPA. New stage/verifier reproduce complete intake fields. Bove1883 original222-page facsimile now acquired, transcription pending; DILA theme MIT is not lexical permission. ALI/Bamberg/Vejin payload/terms, Kitchen's unidentified South Arabian original sources, Kuria Muria ND terms, Tofa notation and INEL per-resource gates remain precise. Yagnobi breast withdrawn before publication because chest/breast scope is unresolved.
+
+Fixed worldwide ranker memory use by streaming parameter catalogs, accepted forms and indexed member groups; full pre/post screens complete under256MiB. Intake refresh16,430,721 rows peaks764.85MiB under1GiB cap. Accepted baseline7,366/2,119,818; supported core470,209/all1,209,483; mapped core544,347/all1,337,336; GLED primaries1,552. Aggregate/web/concept rows and colexification/community refresh coordinated. [Execution](REGIONAL_EXECUTION_2026-11-01.md), [metrics](regional_summary_2026-11-01.json), [holds](regional_holds_2026-11-01.csv).
+
+Regional final local validation:566 tests in each installed UTF8PROC flag setting; lint/JS and six final browser suites pass. Core f75765ec76bafb976cbd11f6 (620.67s/105.74MiB) retains topology/support;156 opportunity summaries change. Communities7d864ac568347d61d304bab4:237/2974,76 runs, all173,907 preview edges verified and selected partition reproduced; worker88.22MiB. Fresh CLICS report pinned to current generation,127.27MiB under256MiB. Active site about916MB; obsolete pre-repair b198/dab8 and old concept-row generation retired whole, kept in Git history/private core cache.

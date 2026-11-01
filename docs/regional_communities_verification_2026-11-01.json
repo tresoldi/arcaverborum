@@ -1,0 +1,24 @@
+{
+  "build_id": "7d864ac568347d61d304bab4",
+  "parent_build_id": "f75765ec76bafb976cbd11f6",
+  "node_files": 3828,
+  "assigned": 2974,
+  "communities": 237,
+  "runs": 76,
+  "membership_rows": 210990,
+  "verified_preview_edges": 173907,
+  "diagnostic_rows": 44421,
+  "maximum_preview_nodes": 31,
+  "maximum_preview_edges": 217,
+  "selected_partition_reproduced": true,
+  "summary": {
+    "assigned_nodes": 2974,
+    "communities": 237,
+    "eligible_family_edges": 44396,
+    "evidence_edges": 44421,
+    "recurrent_fragile_to_namespace": 2117,
+    "single_namespace_edges": 37775
+  },
+  "parent_peak_rss_mib": 58.671875,
+  "worker_peak_rss_mib": 58.546875
+}

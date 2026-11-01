@@ -1,0 +1,24 @@
+{
+  "reason": "Retire obsolete complete pre-repair public snapshots to retain bounded Pages size. Active and preceding repaired analytical generation remain; original artifacts remain in Git history and private derived cache.",
+  "before_commit": "774717ac90b34496941b3fdb50bf593bade04c46",
+  "removed": [
+    {
+      "path": "web/data/colexification/b198f6cb17cb9817b91686cc",
+      "files": 12496,
+      "bytes": 239077827
+    },
+    {
+      "path": "web/data/colexification-graphs/dab8ac4d1c04b86e9aade354",
+      "files": 3829,
+      "bytes": 12144478
+    },
+    {
+      "path": "web/data/concept-rows/6ca5722a14f4e36bde5a0883",
+      "files": 4761,
+      "bytes": 128103943
+    }
+  ],
+  "concept_row_policy": "Active snapshot only; older open clients must reload for the current lexical generation. Analytical network retention is active plus the preceding repaired generation.",
+  "site_bytes_after_refresh": 916303455,
+  "under_1gb_decimal": true
+}
