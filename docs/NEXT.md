@@ -27,6 +27,13 @@ Next evidence-led work, proposed after closure:
    Kaimbulawa and Wotu promotions are complete; Lepcha still needs original
    stage/reading review. Etruscan and Elamite remain protected priorities.
 
+**Publication capacity:** the refreshed deployment is about916MB. Check the measured
+site size before another substantial expansion. Retain immutable generations
+selectively; move large versioned analytical downloads to suitable storage before
+accepted lexical growth exceeds the Pages budget. Do not silently publish a
+partial catalog or delete active assets.
+
+
 **Colexification follow-through:** [repaired evidence](COLEXIFICATION.md),
 [source diagnostics and global exploratory communities](COLEXIFICATION_COMMUNITIES.md)
 are implemented. Do not replay global clustering or raw CLICS matching as missing

@@ -1,0 +1,26 @@
+{
+  "base_url": "https://arcaverborum.org/",
+  "analytical_build_id": "f75765ec76bafb976cbd11f6",
+  "community_spec": {
+    "url": "data/colexification-communities/7d864ac568347d61d304bab4/manifest.json",
+    "bytes": 519914,
+    "sha256": "372f2a2fb56a023c459ed4c9be57d8302252ce0429a69eb0f60de0a82ed444dd"
+  },
+  "checked_assets": 25309,
+  "failures": [],
+  "all_match": true,
+  "data_commit": "7a62b39a4ac7f36df9807aa48e4b911776b7942b",
+  "ci_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41284021887",
+  "ci_conclusion": "success",
+  "pages_run": "https://github.com/tresoldi/arcaverborum/actions/runs/41284021812",
+  "pages_conclusion": "success",
+  "live_browser_suites": {
+    "regional_expansion": 0,
+    "research": 0,
+    "wordnet": 0,
+    "concept_entries": 0,
+    "colexification": 0,
+    "colexification_communities": 0
+  },
+  "publication_scope": "Full active lexical/concept/colexification/community transports and selected application/method/decision artifacts at the data commit. Subsequent closure changes documentation only."
+}

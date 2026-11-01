@@ -34,7 +34,11 @@ segmented edges;156 opportunity summaries change. Community snapshot
 `7d864ac568347d61d304bab4`:237 groups/2,974 concepts, all173,907 preview edges
 verified and selected partition reproduced. Core105.74MiB, worker88.22MiB,
 comparison127.27MiB under256MiB AS. [Fresh CLICS comparison](CLICS_COMPARISON.md).
-Publication is pending canonical verification.
+[Published verification](regional_publication_2026-11-01.json): data commit
+`7a62b39a4` pushed; [CI](https://github.com/tresoldi/arcaverborum/actions/runs/41284021887)
+and [Pages](https://github.com/tresoldi/arcaverborum/actions/runs/41284021812) succeed.
+All25,309 selected active artifacts match https://arcaverborum.org/; all six live
+browser suites pass. Subsequent closure updates documentation only.
 
 ## Historical analytical and semantic layers before the regional expansion
 

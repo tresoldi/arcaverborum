@@ -1,5 +1,5 @@
 {
-  "status": "Local validation passed; canonical publication pending",
+  "status": "Local and canonical validation passed",
   "unit_tests": 566,
   "installed_merkmal_flags": [
     true,
@@ -29,5 +29,15 @@
   "comparison_peak_rss_mib": 127.27,
   "analytical_address_space_limit_mib": 256,
   "current_publication_assets": 25309,
-  "older_public_snapshot_retention": "Active plus preceding repaired analytical generation; active concept rows only. Retired generations remain in Git history/private derived cache."
+  "older_public_snapshot_retention": "Active plus preceding repaired analytical generation; active concept rows only. Retired generations remain in Git history/private derived cache.",
+  "canonical_artifacts": 25309,
+  "live_browser_suites": {
+    "regional_expansion": 0,
+    "research": 0,
+    "wordnet": 0,
+    "concept_entries": 0,
+    "colexification": 0,
+    "colexification_communities": 0
+  },
+  "data_commit": "7a62b39a4ac7f36df9807aa48e4b911776b7942b"
 }
