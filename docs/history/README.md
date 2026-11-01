@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [Colexification v2,2026-11-01](../COLEXIFICATION_ROBUSTNESS_2026-11-01.md):95 incorrect assignments cleared, all native records preserved; source-sense eligibility, bounded influence, family/resource replication,81 model runs and explicit uncertainty. [Metrics](../colexification_robustness_metrics_2026-11-01.json).
+
 * [Regional R00–R09,2026-11-01](../REGIONAL_EXECUTION_2026-11-01.md):64 records/47 supported core slots, newly explicit17-noun Shinekhen written pilot, three original LexiRumah primary promotions retaining119 GLED records, complete11,457-row Mongolic edition and explicit zero-admission regional gates. [Metrics](../regional_summary_2026-11-01.json).
 
 * [Worldwide U01–U12](../WORLDWIDE_U_EXECUTION_2026-10-30.md):45,549 records,8,290 supported readings, one newly explicit canonical Kipeá construction and8,998,169 new intake rows; exact source/reading/sense gates retained. [Metrics](../worldwide_u_summary_2026-10-30.json).

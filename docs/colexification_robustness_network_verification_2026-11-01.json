@@ -1,0 +1,24 @@
+{
+  "build_id": "d5c9b49da8851392bac2e2e0",
+  "before_build_id": "f75765ec76bafb976cbd11f6",
+  "bag_witch_absent": true,
+  "projection_bound_failures": 0,
+  "unreviewed_semantics_cannot_create_model_support": true,
+  "unit_identity_mass_bound_verified": true,
+  "new_reported_edges": 0,
+  "support_increases": 0,
+  "removed_reported_edges": [
+    {
+      "layer": "segmented",
+      "kind": "observed",
+      "pairs": 7
+    },
+    {
+      "layer": "written",
+      "kind": "observed",
+      "pairs": 11
+    }
+  ],
+  "assessed_pairs": 88591,
+  "positive_segmented_backbone": 5551
+}

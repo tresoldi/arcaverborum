@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "interpretation": "Known shared compilation/edition blocks for conservative deletion sensitivity. Different blocks are not certified independent original witnesses. Unlisted sources retain their exact namespace as a block.",
+  "blocks": {
+    "wiktionary": ["wiktionary", "wiktionarypt202610", "wiktionaryfr202610"],
+    "ids": ["ids", "idssegmented"],
+    "huntergatherer": ["huntergatherer", "hgnphonemic", "hgnphonemicdepth"],
+    "lexirumah": ["lexirumah", "lexirumahoriginal"],
+    "reflex": ["reflexdiversity", "reflexoriginal", "reflexqdict", "reflexremaining", "reflexrpilots", "reflexsbantu", "reflexsnew"]
+  }
+}

@@ -1,6 +1,7 @@
 # Documentation map
 
 Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).
+* [v2 sense alignment, bounded influence and critical model assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md).
 * [Exploratory global communities](COLEXIFICATION_COMMUNITIES.md): algorithms, source dependence, perturbations and bounded previews.
 * [CLICS comparison](CLICS_COMPARISON.md): frozen reference networks, source/missingness differences and visible support weights.
 

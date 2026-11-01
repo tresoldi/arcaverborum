@@ -1,0 +1,37 @@
+{
+  "reason": "Retain complete active v2 and preceding regional core; active communities/concept rows only. Superseded generations remain in Git history/private sealed caches; older open clients reload. An intermediate unpublished community build is reproducible from its private cache.",
+  "before_commit": "c83eed9d3dc4260242598f68fa91083bf74c328e",
+  "removed": [
+    {
+      "path": "web/data/colexification/db68b765a4a3e48d2129b656",
+      "bytes": 237527922,
+      "files": 12460
+    },
+    {
+      "path": "web/data/colexification-graphs/c3647c588f68d3075707b6e8",
+      "bytes": 12089084,
+      "files": 3829
+    },
+    {
+      "path": "web/data/colexification-communities/2e58569c5ba7972feab60dc3",
+      "bytes": 23714628,
+      "files": 3831
+    },
+    {
+      "path": "web/data/colexification-communities/7d864ac568347d61d304bab4",
+      "bytes": 23714628,
+      "files": 3831
+    },
+    {
+      "path": "web/data/colexification-communities/d55f43df09c1d94707064ac8",
+      "bytes": 25159960,
+      "files": 3831
+    },
+    {
+      "path": "web/data/concept-rows/72089a5476d9fa7b735564c4",
+      "bytes": 128137100,
+      "files": 4761
+    }
+  ],
+  "site_bytes_measured": 984689405
+}

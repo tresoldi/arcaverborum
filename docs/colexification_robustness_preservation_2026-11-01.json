@@ -1,0 +1,15 @@
+{
+  "before_commit": "c83eed9d3dc4260242598f68fa91083bf74c328e",
+  "preserved_lexical_records": 2119818,
+  "record_count_unchanged": true,
+  "readings_native_ids_cognacy_and_source_comments_preserved": true,
+  "changes": {
+    "identical_family_records": 726129,
+    "compared_changed_family_records": 1393689,
+    "changed_concept_id": 95,
+    "changed_concept_label": 95,
+    "changed_Concepticon_ID": 95,
+    "changed_quality_score": 156
+  },
+  "galician_antaruxa_reading_retained_and_container_mapping_removed": true
+}

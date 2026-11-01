@@ -1,5 +1,7 @@
 # Colexification: method, evidence and bounded-memory pipeline
 
+**Current v2 method (2026-11-01):** [sense alignment and bounded-influence replication](COLEXIFICATION_ROBUSTNESS_2026-11-01.md) supersede the earlier clustering interpretation. The corrected reported graph has44,414 segmented pairs;5,551 qualify for the replicated backbone. BAG–WITCH is removed; all native readings remain. [Metrics](colexification_robustness_metrics_2026-11-01.json), [projection invariants](colexification_robustness_network_verification_2026-11-01.json). Older dated build counts below are historical.
+
 Regional refresh2026-11-01:2,119,818 accepted records; active snapshot `f75765ec76bafb976cbd11f6`.44,421 segmented/43,680 written/508 reduced observed edges, unchanged topology and support counts;156 opportunity summaries change. Full core620.67s/105.74MiB RSS under256MiB AS. [Reconciliation](regional_network_refresh_2026-11-01.json), [current source/coverage batch](REGIONAL_EXECUTION_2026-11-01.md). Earlier dated metrics below are historical.
 
 Arca computes whole-form colexification from its own accepted constructions.

@@ -25,12 +25,21 @@ def test_weighted_global_partition_is_seeded_and_does_not_assign_zero_support():
 def test_complete_pilot_and_source_diagnostics(tmp_path, monkeypatch):
     pytest.importorskip('infomap')
     pytest.importorskip('igraph')
-    from test_colexification import form, run
+    import csv
+
+    from test_colexification import csv_file, fixture, form
 
     from arcaverborum import colexification_communities as communities
-    rows = [form(0), form(1), form(0, source='second'), form(1, source='second')]
-    built, db = run(tmp_path, rows)
-    diagnostic = communities.support_diagnostics(db, 'x-0', 'x-1', 1)
+    from arcaverborum.colexification import build, connect
+    rows = [form(0), form(1), form(0, av='b',source='second'), form(1, av='b',source='second')]
+    fixture(tmp_path, rows)
+    path = tmp_path / 'raw/glottolog/languages.csv'
+    languages = list(csv.DictReader(path.open()))
+    next(row for row in languages if row['ID']=='b')['Family_ID']='second-family'
+    csv_file(path,languages)
+    built = build(tmp_path)
+    db = connect(built / 'index.sqlite')
+    diagnostic = communities.support_diagnostics(db, 'x-0', 'x-1', 2)
     assert diagnostic['namespaces'] == 2
     family = db.execute("SELECT family FROM varieties WHERE av='a'").fetchone()[0]
     assert communities.family_block_edges(db, {'x-0': 0, 'x-1': 1}, {family: 7}) == [(0, 1, 7)]

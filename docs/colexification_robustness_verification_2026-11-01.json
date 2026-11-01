@@ -1,0 +1,40 @@
+{
+  "status": "Local validation passed; canonical verification pending",
+  "unit_tests": 575,
+  "installed_merkmal_flag_states": [
+    true,
+    false
+  ],
+  "normalization_limit": "Flags in one installed native build, not two independently compiled binaries.",
+  "ruff": "passed",
+  "javascript_syntax": "passed: research, research-worker, colexification",
+  "local_browser_suites": {
+    "colexification_robustness": 0,
+    "colexification": 0,
+    "colexification_communities": 0,
+    "concept_entries": 0,
+    "wordnet": 0,
+    "research": 0,
+    "regional_expansion": 0
+  },
+  "preserved_native_records": 2119818,
+  "incorrect_assignments_removed": 95,
+  "score_only_changes": 156,
+  "source_senses_reviewed": 54,
+  "new_shared_rules": 40,
+  "reported_segmented_edges": 44414,
+  "replicated_backbone_edges": 5551,
+  "communities": 237,
+  "assigned_concepts": 1613,
+  "models": 81,
+  "community_preview_edges_verified": 26993,
+  "selected_partition_reproduced": true,
+  "projection_invariants_pass": true,
+  "current_publication_artifacts": 25314,
+  "core_build_id": "d5c9b49da8851392bac2e2e0",
+  "community_build_id": "d1388af4b69018f3a92012f0",
+  "core_peak_rss_mib": 112.77,
+  "community_parent_peak_rss_mib": 90.63,
+  "community_worker_peak_rss_mib": 67.32,
+  "analytical_memory_limit_mib": 256
+}

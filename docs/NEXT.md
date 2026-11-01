@@ -1,5 +1,19 @@
 # Active expansion queue
 
+## Colexification v2 follow-through
+
+[The BAG/WITCH correction and robust model](COLEXIFICATION_ROBUSTNESS_2026-11-01.md)
+are implemented. Do not repeat the studies, source-level corrections or global
+clustering as absent features. Prioritize original sense review from the
+[1,129-item implicated mapping queue](colexification_semantic_queue_2026-11-01.csv);
+ranking breadth is not proof of an error. Extend explicit resource genealogy
+when original dictionaries are identified. Calibrate scope/degree/coverage-aware
+null models only with justified sampling assumptions; recurrence and sensitivity
+frequencies are not p-values. Algorithmic granularity remains a research choice:
+Infomap/Leiden contrasts are reported, not hidden by a single partition.
+
+
+
 ## Regional R00–R09 execution —2026-11-01
 
 [Execution](REGIONAL_EXECUTION_2026-11-01.md), [measured baseline](regional_summary_2026-11-01.json)
@@ -27,7 +41,7 @@ Next evidence-led work, proposed after closure:
    Kaimbulawa and Wotu promotions are complete; Lepcha still needs original
    stage/reading review. Etruscan and Elamite remain protected priorities.
 
-**Publication capacity:** the refreshed deployment is about916MB. Check the measured
+**Publication capacity:** the refreshed deployment is about985MB. Check the measured
 site size before another substantial expansion. Retain immutable generations
 selectively; move large versioned analytical downloads to suitable storage before
 accepted lexical growth exceeds the Pages budget. Do not silently publish a

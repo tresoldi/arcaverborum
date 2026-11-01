@@ -1,0 +1,51 @@
+{
+  "antaruxa.html": {
+    "url": "https://en.wiktionary.org/wiki/antaruxa",
+    "error": "403 Client Error: Forbidden for url: https://en.wiktionary.org/wiki/antaruxa"
+  },
+  "bag.html": {
+    "url": "https://en.wiktionary.org/wiki/bag",
+    "error": "403 Client Error: Forbidden for url: https://en.wiktionary.org/wiki/bag"
+  },
+  "backbone.html": {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244363",
+    "sha256": "951fe26e1c4e2a6895fef9306d2ec8ee7e1a0137342b96ac7b4bd7725cf5995e",
+    "bytes": 223201
+  },
+  "validated.html": {
+    "url": "https://arxiv.org/html/1008.1414",
+    "sha256": "9a41e79b4430366deb1695a2d8c5d16616eb660a2945d3252a3def2ecbfdeedf",
+    "bytes": 186571
+  },
+  "sparse.pdf": {
+    "url": "https://arxiv.org/pdf/1912.05377",
+    "sha256": "362813fdf624887ab3a6fe633c9f47229997ae0bfe0a94013769aae8013ac9a7",
+    "bytes": 1530695
+  },
+  "newman.pdf": {
+    "url": "https://websites.umich.edu/~mejn/papers/cnlspre.pdf",
+    "sha256": "5fae2848a779ea4594a6e8c31527661c11b376befc1d74234c292d2030662233",
+    "bytes": 378672
+  },
+  "hypergraphs.html": {
+    "url": "https://www.nature.com/articles/s42005-021-00634-z",
+    "sha256": "46f22546f06f5c72629b95ebb08776bb0d0d66babf4ab7195223bcffde2ae79b",
+    "bytes": 430544
+  },
+  "infomap-options.html": {
+    "url": "https://mapequation.org/infomap-python-docs/examples/options-guide.html",
+    "sha256": "44e1b6354472a52704c8608ad427f8d358fd0f9eefd2f9a53b4849d6c59112e2",
+    "bytes": 116034
+  },
+  "causal.html": {
+    "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2023.1288196/full",
+    "sha256": "29088f581fd152459479941a368350e64e3dd56add64ba37dadd2235c736fb27",
+    "bytes": 635090
+  },
+  "reader_only_sources": [
+    "https://en.wiktionary.org/wiki/lurpia",
+    "https://kaikki.org/dictionary/Galician/meaning/l/lu/lurpia.html",
+    "https://aclanthology.org/2025.iwcs-main.1/",
+    "https://ojs.uni-passau.de/index.php/calcip/article/view/273/279"
+  ]
+}

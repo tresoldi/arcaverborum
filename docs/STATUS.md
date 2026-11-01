@@ -1,5 +1,37 @@
 # Current project state
 
+**Colexification v2 robustness (2026-11-01):** [research, corrections, mathematical
+model and critical assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md),
+[metrics](colexification_robustness_metrics_2026-11-01.json),
+[all-record preservation](colexification_robustness_preservation_2026-11-01.json),
+[projection checks](colexification_robustness_network_verification_2026-11-01.json),
+[community verification](colexification_robustness_communities_2026-11-01.json).
+
+54 source senses reviewed;40 new shared rules (28 unmaps/12 positive approvals),
+14 old unmaps reconfirmed.95 incorrect assignments cleared across15 constructions;
+all2,119,818 lexical records/readings/native IDs/cognacy/comments retained.
+156 mechanical score changes are confined to the explicitly approved sense rules.
+Core coverage remains470,209 supported/544,347 mapped. All-concept coverage is
+1,209,478 supported/1,337,327 mapped, after removing false coverage.
+7,366 constructions, source1,750,040/profile22,178 records and1,552 GLED primaries
+are unchanged. Intake remains16,430,721.
+
+Current core `d5c9b49da8851392bac2e2e0`:44,414 reported segmented pairs;
+BAG–WITCH absent.5,551 edges qualify for the semantically gated, family-capped,
+resource-deletion backbone. Communities `d1388af4b69018f3a92012f0`:237 exploratory
+groups/1,613 concepts;81 runs, independent selected partition reproduction and
+all26,993 preview edges verified. Core112.77MiB; fresh community parent90.63MiB/
+worker67.32MiB under256MiB AS. [Semantic review queue](colexification_semantic_queue_2026-11-01.csv)
+contains1,129 unreviewed implicated mappings, not1,129 proven errors.
+
+[Local validation](colexification_robustness_verification_2026-11-01.json):575 tests
+pass in each installed normalization flag state; lint/JS and seven final browser
+suites pass. All projection invariants, preview weights and full selected
+partition reproduction pass. Canonical publication verification is pending.
+Historical regional and earlier analytical counts below retain their original context.
+
+## Historical regional expansion before the v2 sense corrections
+
 **Regional R00–R09 (2026-11-01):** all authorized tracks received bounded execution.
 [Execution](REGIONAL_EXECUTION_2026-11-01.md), [metrics](regional_summary_2026-11-01.json),
 [whole-record preservation](regional_preservation_2026-11-01.json),

@@ -1,5 +1,7 @@
 # Comparing Arca Verborum with CLICS
 
+**Historical reference comparisons:** the current [v2 robustness method](COLEXIFICATION_ROBUSTNESS_2026-11-01.md) corrects source-sense mappings and changes the inference model. The comparisons below retain their explicitly pinned pre-v2 inputs. They are contextual evidence, not a target network or validation of the new model. No results are tuned to match CLICS²/³/⁴.
+
 ## Current regional generation,2026-11-01
 
 Refreshed against analytical snapshot `f75765ec76bafb976cbd11f6` after the64-record

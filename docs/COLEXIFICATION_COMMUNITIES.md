@@ -1,5 +1,7 @@
 # Exploratory global colexification communities
 
+**Current v2 communities (2026-11-01):** [method and critical assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md). Semantically gated unit-hyperedge mass, family maxima and worst-resource-block deletion weights replace raw family counts in the selected model. Medoid seed8:237 exploratory groups/1,613 concepts from5,551 edges;81 model/perturbation runs. Raw/regularized/Leiden/whole-block contrasts remain explicit. [Independent verification](colexification_robustness_communities_2026-11-01.json). This is not a calibrated significance test or a unique semantic classification. Earlier generations below are historical.
+
 Regional refresh2026-11-01: community snapshot `7d864ac568347d61d304bab4`, parent `f75765ec76bafb976cbd11f6`.237 communities/2,974 concepts; all76 runs refreshed. All173,907 preview edges verified and selected partition independently reproduced. Parent105.74MiB/worker88.22MiB under256MiB AS (parent high-water mark carries the preceding exec stage). [Verification](regional_communities_verification_2026-11-01.json). Earlier dated proofs remain historical.
 
 This layer partitions the complete **observed segmented** graph. It complements

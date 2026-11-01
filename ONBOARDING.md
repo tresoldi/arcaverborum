@@ -284,3 +284,17 @@ automatically IPA; only the reviewed Shinekhen member has canonical identity.
 The worldwide opportunity ranker now defaults to a256MiB address-space cap and
 streams shared catalogs/member groups. Recreate the disk-backed TMPDIR directory
 before a lexical web rebuild; Python ignores a nonexistent TMPDIR.
+
+## Colexification v2 reproduction
+
+See docs/COLEXIFICATION_ROBUSTNESS_2026-11-01.md for source-sense eligibility,
+bounded projection weights, resource-block replication and model sensitivity.
+The standard capped pipeline remains `scripts/build_colexification.py
+--memory-mb 256 --publish --with-communities`. Semantic review CSVs, original
+English sense labels, resource blocks and evidence code are bound into the
+analytical snapshot; changed sense decisions require lexical/derived refresh.
+Run `scripts/verify_colexification_robustness.py` for all-record preservation and
+`scripts/verify_colexification_projection.py --build NEW --before OLD --output PROOF`
+for projection invariants. The semantic audit script emits a triage queue and
+never edits mappings automatically. The displayed global partition uses the
+replicated weighted backbone, while reported rare associations remain accessible.

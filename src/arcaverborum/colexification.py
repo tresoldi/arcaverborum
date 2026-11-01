@@ -23,6 +23,8 @@ from dataclasses import asdict, dataclass
 from functools import lru_cache
 from pathlib import Path
 
+from arcaverborum import colexification_evidence as evidence
+
 DATA = Path(__file__).parent / 'data'
 LAYERS = ('segmented', 'written', 'reduced')
 KINDS = ('observed', 'inferred')
@@ -31,7 +33,7 @@ CREATE TABLE varieties(av TEXT PRIMARY KEY, name TEXT, language TEXT, family TEX
 CREATE TABLE scopes(id INTEGER PRIMARY KEY,av TEXT,source TEXT,member TEXT,tags TEXT,basis TEXT,
  UNIQUE(av,source,member,tags,basis));
 CREATE TABLE readings(id INTEGER PRIMARY KEY,sid INTEGER,layer TEXT,key TEXT,cid TEXT,
- fid TEXT,param TEXT,word TEXT,status TEXT,loan TEXT,bib TEXT,web_id TEXT,
+ fid TEXT,param TEXT,word TEXT,status TEXT,loan TEXT,bib TEXT,web_id TEXT,semantic TEXT,
  UNIQUE(sid,layer,key,cid,fid,param));
 CREATE TABLE witnesses(id INTEGER PRIMARY KEY,sid INTEGER,layer TEXT,kind TEXT,
  a TEXT,b TEXT,key TEXT,ra INTEGER,rb INTEGER,original_concept TEXT,
@@ -142,7 +144,12 @@ def input_files(root):
     for optional in ['raw/glottolog/languages.csv', 'src/arcaverborum/data/construction_kinds.csv']:
         if (root / optional).exists():
             files.append(optional)
-    return {name: sha(root / name) for name in files}
+    result = {name: sha(root / name) for name in files}
+    for path in evidence.inputs(root):
+        if path != Path(evidence.__file__):
+            result[str(path.relative_to(root))] = sha(path)
+    result['evidence_pipeline'] = sha(Path(evidence.__file__))
+    return result
 
 
 def connect(path, limits=Limits()):
@@ -194,6 +201,13 @@ def load_varieties(db, root):
 
 
 def ingest(db, root, concepts, policy, limits, work):
+    semantics = evidence.SemanticEligibility(root)
+    db.execute('CREATE TABLE source_senses(param TEXT,name TEXT,PRIMARY KEY(param,name))')
+    parameter_path = root / 'intake/wiktionary/parameters_raw.csv'
+    if parameter_path.exists():
+        db.executemany('INSERT OR IGNORE INTO source_senses VALUES(?,?)',
+            ((r['ID'],r['Name']) for r in read_csv(parameter_path)
+             if len(r['Name'].encode()) <= limits.text_bytes))
     splits = expansions(root, concepts)
     reconstructed = {r['av_id'] for r in read_csv(root / 'src/arcaverborum/data/construction_kinds.csv')
                      if r['construction_kind'] == 'reconstruction'} if (
@@ -278,13 +292,13 @@ def ingest(db, root, concepts, policy, limits, work):
                 sid = scope(av, source, member, tags, basis)
                 web_id = f"{av}:{fid}:{row.get('source_pronunciation_id') or ordinal}"
                 values = (sid, layer, key, cid, fid, param, word, row['Segments_Source'],
-                          row.get('Loan', ''), row.get('bibtex_key', ''), web_id)
+                          row.get('Loan', ''), row.get('bibtex_key', ''), web_id, semantics.status(row))
                 if any(len(str(v).encode()) > limits.text_bytes for v in values):
                     counters['excluded_oversize_record'] += 1
                     continue
                 cursor = db.execute('INSERT OR IGNORE INTO readings'
-                                    '(sid,layer,key,cid,fid,param,word,status,loan,bib,web_id) '
-                                    'VALUES(?,?,?,?,?,?,?,?,?,?,?)', values)
+                                    '(sid,layer,key,cid,fid,param,word,status,loan,bib,web_id,semantic) '
+                                    'VALUES(?,?,?,?,?,?,?,?,?,?,?,?)', values)
                 if cursor.rowcount:
                     counters['readings_' + layer] += 1
                     rid = cursor.lastrowid
@@ -305,7 +319,7 @@ def ingest(db, root, concepts, policy, limits, work):
     return counters
 
 
-def representatives(db, sid, layer, key, cid):
+def representatives(db, sid, layer, key, cid, approved=False):
     """At most five (form ID, parameter ID) points preserve pair existence.
 
     Every test point compatible with any native reading is compatible with one
@@ -317,11 +331,15 @@ def representatives(db, sid, layer, key, cid):
     else:
         base = 'SELECT id,fid,param FROM readings WHERE sid=? AND layer=? AND key=? AND cid=?'
         args = (sid, layer, key, cid)
+    if approved:
+        base += " AND semantic<>'unreviewed_dictionary_sense'"
 
     def first(condition='', values=()):
         return db.execute(base + condition + ' ORDER BY fid,param LIMIT 1', args + values).fetchone()
 
     initial = first()
+    if initial is None:
+        return []
     result = {initial}
     different_parameter = first(' AND param<>?', (initial[2],))
     if different_parameter:
@@ -361,9 +379,10 @@ def infer(db, limits):
         cids = [r[0] for r in db.execute('SELECT cid FROM cells WHERE sid=? AND layer=? AND key=? ORDER BY cid',
                                       (sid, layer, key))]
         candidates = {cid: representatives(db, sid, layer, key, cid) for cid in cids}
+        approved = {cid: representatives(db, sid, layer, key, cid, approved=True) for cid in cids}
         for a, b in itertools.combinations(cids, 2):
-            pair = next(((ra[0], rb[0]) for ra in candidates[a] for rb in candidates[b]
-                         if ra[1] != rb[1] and ra[2] != rb[2]), None)
+            pair = next(((ra[0], rb[0]) for pool in (approved,candidates)
+                         for ra in pool[a] for rb in pool[b] if ra[1] != rb[1] and ra[2] != rb[2]), None)
             if pair is None:
                 continue  # one native questionnaire item mapped twice is not independent attestation
             count += 1
@@ -481,10 +500,21 @@ def sample(db, layer, kind, a, b):
             'source_form_a', 'source_form_b', 'parameter_a', 'parameter_b', 'record_a', 'record_b',
             'segments_source_a', 'segments_source_b', 'loan_a', 'loan_b', 'bibtex_a', 'bibtex_b', 'original_concept']
     result = dict(zip(keys, row))
+    for side in ('a','b'):
+        sense = db.execute("SELECT GROUP_CONCAT(name,' | ') FROM "
+            '(SELECT name FROM source_senses WHERE param=? ORDER BY name)', (result['parameter_'+side],)).fetchone()
+        result['source_sense_'+side] = sense[0] if sense else ''
     if result['comparison_basis'] in {'supplied_ipa', 'explicit_stress_citation'}:
         original, accepted = json.loads(result['identity'])
         result.update(identity_display=original, accepted_segments=accepted)
     return result
+
+
+def assessment(db, layer, kind, a, b):
+    if kind != 'observed':
+        return None
+    result = db.execute('SELECT value FROM assessments WHERE layer=? AND a=? AND b=?', (layer,a,b)).fetchone()
+    return json.loads(result[0]) if result else None
 
 
 def export(db, public, root, concepts, policy, inputs, fingerprint, counters, limits):
@@ -501,29 +531,35 @@ def export(db, public, root, concepts, policy, inputs, fingerprint, counters, li
     db.commit()
     edge_fields = ['layer', 'kind', 'concept_a', 'concept_b', 'witnesses', 'varieties', 'languages', 'families',
                    'comparable_varieties', 'comparable_languages', 'comparable_families',
-                   'no_shared_form_observed', 'observed_fraction']
+                   'no_shared_form_observed', 'observed_fraction', 'assessment']
     with (public / 'edges.csv').open('w', encoding='utf-8', newline='') as handle:
         writer = csv.DictWriter(handle, fieldnames=edge_fields, lineterminator='\n')
         writer.writeheader()
         for layer, kind, a, b, n, av, lang, fam, opp in db.execute('SELECT * FROM edges ORDER BY layer,kind,a,b'):
             writer.writerow(dict(layer=layer, kind=kind, concept_a=a, concept_b=b, witnesses=n,
-                                 varieties=av, languages=lang, families=fam, **(json.loads(opp) if opp else {})))
+                                 varieties=av, languages=lang, families=fam, **(json.loads(opp) if opp else {}),
+                                 assessment=json.dumps(assessment(db, layer, kind, a, b), sort_keys=True)))
     # Complete witnesses stream independently of the bounded examples in node pages.
     witness_fields = ['layer', 'kind', 'concept_a', 'concept_b', 'av_id', 'source', 'source_language_id',
                          'pronunciation_tags', 'comparison_basis', 'identity', 'source_form_a', 'source_form_b',
                          'parameter_a', 'parameter_b',
                          'form_a', 'form_b', 'segments_source_a', 'segments_source_b', 'loan_a', 'loan_b',
                          'bibtex_a', 'bibtex_b', 'record_a', 'record_b', 'original_concept',
+                         'semantic_status_a', 'semantic_status_b', 'source_sense_a', 'source_sense_b',
                          'license', 'source_version']
     rows = db.execute('''SELECT w.layer,w.kind,w.a,w.b,s.av,s.source,s.member,s.tags,s.basis,w.key,
          a.fid,b.fid,a.param,b.param,a.word,b.word,a.status,b.status,a.loan,b.loan,a.bib,b.bib,
-         a.web_id,b.web_id,w.original_concept FROM witnesses w JOIN scopes s ON s.id=w.sid
+         a.web_id,b.web_id,w.original_concept,a.semantic,b.semantic FROM witnesses w JOIN scopes s ON s.id=w.sid
          JOIN readings a ON a.id=w.ra JOIN readings b ON b.id=w.rb
          ORDER BY w.layer,w.kind,w.a,w.b,s.av,s.source,w.key''')
     def witness_rows():
         for row in rows:
             source = metadata.get(row[5], {})
-            yield [*row, source.get('License', ''), source.get('Repository_Version', '')]
+            names = [db.execute("SELECT GROUP_CONCAT(name,' | ') FROM "
+                      '(SELECT name FROM source_senses WHERE param=? ORDER BY name)',(param,)).fetchone()
+                     for param in row[12:14]]
+            yield [*row, *[name[0] if name else '' for name in names],
+                   source.get('License', ''), source.get('Repository_Version', '')]
     csv_shards(public, 'witnesses', witness_fields, witness_rows(), limits)
     for layer in LAYERS:
         rows = db.execute('''SELECT DISTINCT s.av,s.source,s.member,s.tags,s.basis,r.layer,r.cid,r.fid,r.param,
@@ -558,6 +594,7 @@ def export(db, public, root, concepts, policy, inputs, fingerprint, counters, li
                     recurrent += fam >= policy['recurrence_families']
                     batch.append(dict(concept_id=b if cid == a else a, witnesses=n, varieties=av, languages=lang,
                                       families=fam, **(json.loads(opp) if opp else {}),
+                                      assessment=assessment(db, layer, kind, a, b),
                                       example=sample(db, layer, kind, a, b)))
                     if len(batch) == limits.page_edges:
                         name = f'{cid}.{layer}.{kind}.{len(pages)}.json'
@@ -584,6 +621,9 @@ def export(db, public, root, concepts, policy, inputs, fingerprint, counters, li
                  concepts=len(concepts), active_concepts=sum(c['status'] == 'active' for c in concepts.values()))
     stats['networks'] = [dict(layer=layer, kind=kind, edges=n) for layer, kind, n in db.execute(
         'SELECT layer,kind,COUNT(*) FROM edges GROUP BY layer,kind ORDER BY layer,kind')]
+    stats['semantic_readings'] = dict(db.execute('SELECT semantic,COUNT(*) FROM readings GROUP BY semantic'))
+    stats['backbone_edges'] = db.execute("SELECT COUNT(*) FROM assessments WHERE layer='segmented' "
+        "AND json_extract(value,'$.backbone_eligible')=1").fetchone()[0]
     split_map = expansions(root, concepts)
     manifest = dict(schema=1, build_id=fingerprint, inputs=inputs, policy=policy, limits=asdict(limits),
                     nodes=nodes, files=files, stats=stats, runtime=runtime(),
@@ -651,6 +691,7 @@ def build(root, output=None, limits=Limits()):
             counters = ingest(db, root, concepts, policy, limits, stage)
             print('Colexification: inferring source-scoped whole-form matches', flush=True)
             infer(db, limits)
+            evidence.assess(db, root)
             print('Colexification: computing comparison opportunities and bounded node pages', flush=True)
             manifest = export(db, stage / 'public', root, concepts, policy, inputs, fingerprint, counters, limits)
             current = input_files(root)

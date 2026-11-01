@@ -1,0 +1,2953 @@
+[
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_93051",
+    "parameter": "wikt_bank_noun_85d0361a",
+    "source_sense": "bank (noun): embankment, an earth slope",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_331153",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_331154",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_331529",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_331530",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_467402",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_467403",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_1237324",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_1689836",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "afa-egyptian-ancient",
+    "source_form_id": "wikt_1689837",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_46753",
+    "parameter": "wikt_can_noun_0c5f6311",
+    "source_sense": "can (noun): a tin-plate canister",
+    "before": "mod-can",
+    "after": "mod-can",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_46795",
+    "parameter": "wikt_can_noun_f600213e",
+    "source_sense": "can (noun): buttocks",
+    "before": "mod-can",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_92679",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_92835",
+    "parameter": "wikt_bank_noun_dd0a2e56",
+    "source_sense": "bank (noun): branch office",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_92886",
+    "parameter": "wikt_bank_noun_43577cc2",
+    "source_sense": "bank (noun): storage for important goods",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_92939",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_93052",
+    "parameter": "wikt_bank_noun_85d0361a",
+    "source_sense": "bank (noun): embankment, an earth slope",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_331159",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_331535",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_467404",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_547534",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_547535",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_547671",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_547896",
+    "parameter": "wikt_mole_noun_2e9f82c9",
+    "source_sense": "mole (noun): unit of amount",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_750007",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_750008",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_962161",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1111007",
+    "parameter": "wikt_match_noun_5bd27dbc",
+    "source_sense": "match (noun): sporting event",
+    "before": "phy-match",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1111286",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1237325",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1237464",
+    "parameter": "wikt_crane_noun_7cb194d9",
+    "source_sense": "crane (noun): machinery",
+    "before": "ani-crane",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1270624",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1270754",
+    "parameter": "wikt_seal_noun_22c38551",
+    "source_sense": "seal (noun): stamp used to impress a design on a soft substance",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1270857",
+    "parameter": "wikt_seal_noun_ca07d87b",
+    "source_sense": "seal (noun): facsimile of an impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689653",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689654",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689655",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689656",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689657",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689658",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-esperanto",
+    "source_form_id": "wikt_1689838",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_92702",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_331197",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_331198",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_331573",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_331574",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_467455",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_547702",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_962191",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_1111030",
+    "parameter": "wikt_match_noun_5bd27dbc",
+    "source_sense": "match (noun): sporting event",
+    "before": "phy-match",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_1111313",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-ido",
+    "source_form_id": "wikt_1270646",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_92704",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_92848",
+    "parameter": "wikt_bank_noun_dd0a2e56",
+    "source_sense": "bank (noun): branch office",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_92891",
+    "parameter": "wikt_bank_noun_43577cc2",
+    "source_sense": "bank (noun): storage for important goods",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_92960",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_331207",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_331583",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_331831",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_331892",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_547554",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_547706",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_547831",
+    "parameter": "wikt_mole_noun_8ff54406",
+    "source_sense": "mole (noun): internal spy",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_547832",
+    "parameter": "wikt_mole_noun_8ff54406",
+    "source_sense": "mole (noun): internal spy",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_547866",
+    "parameter": "wikt_mole_noun_48486621",
+    "source_sense": "mole (noun): massive structure used as a pier or breakwater",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_547867",
+    "parameter": "wikt_mole_noun_48486621",
+    "source_sense": "mole (noun): massive structure used as a pier or breakwater",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_750032",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_750507",
+    "parameter": "wikt_rock_noun_80da353c",
+    "source_sense": "rock (noun): style of music",
+    "before": "phy-rock",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-interlingua-international-auxiliary-language-association",
+    "source_form_id": "wikt_1111316",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_92811",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_92875",
+    "parameter": "wikt_bank_noun_dd0a2e56",
+    "source_sense": "bank (noun): branch office",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_331417",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_331793",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_547808",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_750120",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1111443",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1237437",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1237438",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1237560",
+    "parameter": "wikt_crane_noun_7cb194d9",
+    "source_sense": "crane (noun): machinery",
+    "before": "ani-crane",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1270729",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1270730",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1270731",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1689803",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1689804",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1689805",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1689806",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "art-volapuk",
+    "source_form_id": "wikt_1689955",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "atl-south-transvaal-ndebele",
+    "source_form_id": "wikt_1689730",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-aragonese",
+    "source_form_id": "wikt_1111245",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-aragonese",
+    "source_form_id": "wikt_1111246",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-aragonese",
+    "source_form_id": "wikt_1237300",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-aragonese",
+    "source_form_id": "wikt_1270591",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-aragonese",
+    "source_form_id": "wikt_1689630",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_46704",
+    "parameter": "wikt_can_noun_cb511ea3",
+    "source_sense": "can (noun): a container used to carry and dispense water for plants",
+    "before": "mod-can",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_46705",
+    "parameter": "wikt_can_noun_cb511ea3",
+    "source_sense": "can (noun): a container used to carry and dispense water for plants",
+    "before": "mod-can",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_46745",
+    "parameter": "wikt_can_noun_0c5f6311",
+    "source_sense": "can (noun): a tin-plate canister",
+    "before": "mod-can",
+    "after": "mod-can",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_92644",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_92645",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_92823",
+    "parameter": "wikt_bank_noun_dd0a2e56",
+    "source_sense": "bank (noun): branch office",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_331080",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_331456",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_331809",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_331870",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467356",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467357",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467358",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467359",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467360",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467361",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_467362",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_547515",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_547644",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_547815",
+    "parameter": "wikt_mole_noun_8ff54406",
+    "source_sense": "mole (noun): internal spy",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_962140",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1110984",
+    "parameter": "wikt_match_noun_5bd27dbc",
+    "source_sense": "match (noun): sporting event",
+    "before": "phy-match",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1111248",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1111249",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1237304",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1270595",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1270596",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-asturian-leonese-cantabrian",
+    "source_form_id": "wikt_1270849",
+    "parameter": "wikt_seal_noun_ca07d87b",
+    "source_sense": "seal (noun): facsimile of an impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-ems-weser-frisian",
+    "source_form_id": "wikt_547541",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-ems-weser-frisian",
+    "source_form_id": "wikt_962170",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_92687",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_92688",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_92950",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_92951",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331173",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331174",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331175",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331176",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331177",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331178",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331179",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331549",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331550",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331551",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331552",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331553",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331554",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_331555",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467418",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467419",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467420",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467421",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467422",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467423",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467424",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467425",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467426",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467427",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467649",
+    "parameter": "wikt_bag_noun_265b6af6",
+    "source_sense": "bag (noun): paper (or plastic) container given or sold to shoppers",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467680",
+    "parameter": "wikt_bag_noun_cba23ba4",
+    "source_sense": "bag (noun): ugly woman",
+    "before": "act-bag",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467681",
+    "parameter": "wikt_bag_noun_cba23ba4",
+    "source_sense": "bag (noun): ugly woman",
+    "before": "act-bag",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467682",
+    "parameter": "wikt_bag_noun_cba23ba4",
+    "source_sense": "bag (noun): ugly woman",
+    "before": "act-bag",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467683",
+    "parameter": "wikt_bag_noun_cba23ba4",
+    "source_sense": "bag (noun): ugly woman",
+    "before": "act-bag",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467684",
+    "parameter": "wikt_bag_noun_cba23ba4",
+    "source_sense": "bag (noun): ugly woman",
+    "before": "act-bag",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_467685",
+    "parameter": "wikt_bag_noun_cba23ba4",
+    "source_sense": "bag (noun): ugly woman",
+    "before": "act-bag",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547542",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547543",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547544",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547683",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547684",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547685",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547686",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_547899",
+    "parameter": "wikt_mole_noun_2e9f82c9",
+    "source_sense": "mole (noun): unit of amount",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_750014",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_962173",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_962174",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_962175",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_962176",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_962177",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1111013",
+    "parameter": "wikt_match_noun_5bd27dbc",
+    "source_sense": "match (noun): sporting event",
+    "before": "phy-match",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1111014",
+    "parameter": "wikt_match_noun_5bd27dbc",
+    "source_sense": "match (noun): sporting event",
+    "before": "phy-match",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1111297",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1111298",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1111299",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1111300",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1237330",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1237331",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1237469",
+    "parameter": "wikt_crane_noun_7cb194d9",
+    "source_sense": "crane (noun): machinery",
+    "before": "ani-crane",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270631",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270632",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270633",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270634",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270761",
+    "parameter": "wikt_seal_noun_22c38551",
+    "source_sense": "seal (noun): stamp used to impress a design on a soft substance",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270835",
+    "parameter": "wikt_seal_noun_63f5a4d9",
+    "source_sense": "seal (noun): impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270836",
+    "parameter": "wikt_seal_noun_63f5a4d9",
+    "source_sense": "seal (noun): impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270862",
+    "parameter": "wikt_seal_noun_ca07d87b",
+    "source_sense": "seal (noun): facsimile of an impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270909",
+    "parameter": "wikt_seal_noun_82f7d376",
+    "source_sense": "seal (noun): something which will be visibly damaged when a covering or container is opened",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-galician",
+    "source_form_id": "wikt_1270910",
+    "parameter": "wikt_seal_noun_82f7d376",
+    "source_sense": "seal (noun): something which will be visibly damaged when a covering or container is opened",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-haitian",
+    "source_form_id": "wikt_92955",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-haitian",
+    "source_form_id": "wikt_467440",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-haitian",
+    "source_form_id": "wikt_467441",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_92743",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_92856",
+    "parameter": "wikt_bank_noun_dd0a2e56",
+    "source_sense": "bank (noun): branch office",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_467520",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_467521",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_547747",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_547748",
+    "parameter": "wikt_mole_noun_81f795f2",
+    "source_sense": "mole (noun): burrowing insectivore",
+    "before": "ani-mole",
+    "after": "ani-mole",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_962240",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_962241",
+    "parameter": "wikt_bark_noun_bc3c608e",
+    "source_sense": "bark (noun): exterior covering of a tree",
+    "before": "agr-bark",
+    "after": "agr-bark",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_1689731",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_1689732",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-jerriais",
+    "source_form_id": "wikt_1689898",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_92749",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_467529",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_467530",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_467531",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_547584",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_1237510",
+    "parameter": "wikt_crane_noun_7cb194d9",
+    "source_sense": "crane (noun): machinery",
+    "before": "ani-crane",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "ine-pannonian-ruthenian",
+    "source_form_id": "wikt_1237511",
+    "parameter": "wikt_crane_noun_7cb194d9",
+    "source_sense": "crane (noun): machinery",
+    "before": "ani-crane",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "map-west-coast-bajau",
+    "source_form_id": "wikt_92923",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "map-west-coast-bajau",
+    "source_form_id": "wikt_92924",
+    "parameter": "wikt_bank_noun_78bcb7d2",
+    "source_sense": "bank (noun): edge of river or lake",
+    "before": "mod-bank",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "map-west-coast-bajau",
+    "source_form_id": "wikt_331084",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "map-west-coast-bajau",
+    "source_form_id": "wikt_331460",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_92797",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_92798",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_92799",
+    "parameter": "wikt_bank_noun_822fe367",
+    "source_sense": "bank (noun): institution",
+    "before": "mod-bank",
+    "after": "mod-bank",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331403",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331404",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331779",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331780",
+    "parameter": "wikt_bat_noun_de78532a",
+    "source_sense": "bat (noun): small flying mammal",
+    "before": "ani-bat",
+    "after": "ani-bat",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331860",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331861",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331862",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331921",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331922",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_331923",
+    "parameter": "wikt_bat_noun_9863732a",
+    "source_sense": "bat (noun): club used for striking the ball in sports",
+    "before": "ani-bat",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_467595",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_467596",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_467597",
+    "parameter": "wikt_bag_noun_15f8af39",
+    "source_sense": "bag (noun): flexible container",
+    "before": "act-bag",
+    "after": "act-bag",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_547618",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_547619",
+    "parameter": "wikt_mole_noun_1da9b143",
+    "source_sense": "mole (noun): dark spot on the skin",
+    "before": "ani-mole",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_750113",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_750114",
+    "parameter": "wikt_rock_noun_29a3a974",
+    "source_sense": "rock (noun): natural mineral aggregate",
+    "before": "phy-rock",
+    "after": "phy-rock",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1111431",
+    "parameter": "wikt_match_noun_e5659d4a",
+    "source_sense": "match (noun): device to make fire",
+    "before": "phy-match",
+    "after": "phy-match",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1237428",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1237429",
+    "parameter": "wikt_crane_noun_7a5179ee",
+    "source_sense": "crane (noun): bird",
+    "before": "ani-crane",
+    "after": "ani-crane",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1237550",
+    "parameter": "wikt_crane_noun_7cb194d9",
+    "source_sense": "crane (noun): machinery",
+    "before": "ani-crane",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270721",
+    "parameter": "wikt_seal_noun_75ed437e",
+    "source_sense": "seal (noun): pinniped",
+    "before": "ani-seal",
+    "after": "ani-seal",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270817",
+    "parameter": "wikt_seal_noun_22c38551",
+    "source_sense": "seal (noun): stamp used to impress a design on a soft substance",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270818",
+    "parameter": "wikt_seal_noun_22c38551",
+    "source_sense": "seal (noun): stamp used to impress a design on a soft substance",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270843",
+    "parameter": "wikt_seal_noun_63f5a4d9",
+    "source_sense": "seal (noun): impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270844",
+    "parameter": "wikt_seal_noun_63f5a4d9",
+    "source_sense": "seal (noun): impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270896",
+    "parameter": "wikt_seal_noun_ca07d87b",
+    "source_sense": "seal (noun): facsimile of an impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1270897",
+    "parameter": "wikt_seal_noun_ca07d87b",
+    "source_sense": "seal (noun): facsimile of an impression of such stamp",
+    "before": "ani-seal",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1689788",
+    "parameter": "wikt_pupil_noun_1210f10c",
+    "source_sense": "pupil (noun): learner",
+    "before": "bod-pupil",
+    "after": "",
+    "changed": [
+      "concept_id",
+      "concept_label",
+      "Concepticon_ID"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1689942",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1689943",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  },
+  {
+    "av_id": "trk-ottoman-turkish",
+    "source_form_id": "wikt_1689944",
+    "parameter": "wikt_pupil_noun_ceb6b5c9",
+    "source_sense": "pupil (noun): the hole in the middle of the iris of the eye",
+    "before": "bod-pupil",
+    "after": "bod-pupil",
+    "changed": [
+      "quality_score"
+    ]
+  }
+]

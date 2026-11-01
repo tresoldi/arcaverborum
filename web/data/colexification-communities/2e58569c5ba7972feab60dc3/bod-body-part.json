@@ -1,1 +1,0 @@
-{"community":"bod-body-part","community_size":2,"concept_id":"bod-body-part","diagnostics":{"mod-member":{"block_coassigned":33,"block_eligible":33,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["bod-body-part","mod-member"],"preview_edges":[["bod-body-part","mod-member",1,1,1]],"status":"assigned"}

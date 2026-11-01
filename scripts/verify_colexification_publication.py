@@ -16,7 +16,7 @@ from arcaverborum.colexification import sha
 def assets(root):
     web = root / 'web'
     manifest = json.loads((web / 'data/manifest.json').read_text())
-    paths = {'data/manifest.json', 'index.html', 'colexification.js', 'research.js'}
+    paths = {'data/manifest.json', 'index.html', 'colexification.js', 'research.js', 'research-worker.js'}
     paths.update(spec['url'] for spec in manifest['shards'].values())
     paths.update(spec['url'] for spec in manifest.get('wordnet', {}).get('files', []))
     paths.add(manifest['catalog']['url'])
@@ -68,6 +68,15 @@ def assets(root):
         selected.append(('docs/' + comparison.name, comparison))
         for spec in bundle['files'].values():
             selected.append(('docs/' + spec['url'], root / 'docs' / spec['url']))
+    for name in ['COLEXIFICATION_ROBUSTNESS_2026-11-01.md',
+                 'colexification_robustness_metrics_2026-11-01.json',
+                 'colexification_robustness_preservation_2026-11-01.json',
+                 'colexification_robustness_network_verification_2026-11-01.json',
+                 'colexification_robustness_communities_2026-11-01.json',
+                 'colexification_sense_reviews_2026-11-01.json',
+                 'colexification_semantic_queue_2026-11-01.csv']:
+        if (root / 'docs' / name).exists():
+            selected.append(('docs/' + name, root / 'docs' / name))
     return selected, manifest
 
 

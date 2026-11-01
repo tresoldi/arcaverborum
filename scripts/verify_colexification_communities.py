@@ -12,6 +12,7 @@ from pathlib import Path
 from arcaverborum.colexification import verify_database
 from arcaverborum.colexification_communities import partition_isolated
 from arcaverborum.colexification_communities import verify as verify_assets
+from arcaverborum.colexification_evidence import projection_edges
 
 
 def verify(built, directory, recompute=False):
@@ -48,7 +49,11 @@ def verify(built, directory, recompute=False):
             assert node['preview'][0] == cid
         for a, b, *counts in node['preview_edges']:
             assert a in node['preview'] and b in node['preview']
-            assert tuple(counts) == evidence[a, b]
+            assert tuple(counts[:3]) == evidence[a, b]
+            if len(counts)>3:
+                assessment=json.loads(db.execute("SELECT value FROM assessments WHERE layer='segmented' "
+                    'AND a=? AND b=?',(a,b)).fetchone()[0])
+                assert counts[3]==assessment['clustering_weight']>0
             examined += 1
         maximum_nodes = max(maximum_nodes, len(node['preview']))
         maximum_edges = max(maximum_edges, len(node['preview_edges']))
@@ -65,7 +70,8 @@ def verify(built, directory, recompute=False):
     if recompute:
         cids = sorted(nodes)
         index = {cid: n for n, cid in enumerate(cids)}
-        edges = [(index[a], index[b], f) for (a, b), (f, _, _) in sorted(evidence.items()) if f > 0]
+        edges = projection_edges(db,index) if 'selection' in manifest else [
+            (index[a],index[b],f) for (a,b),(f,_,_) in sorted(evidence.items()) if f>0]
         with tempfile.TemporaryDirectory(dir=built) as scratch:
             partition, objective = partition_isolated(edges, scratch, seed=manifest['selected_seed'])
         assert {cids[n]: cids[module] for n, module in partition.items()} == selected

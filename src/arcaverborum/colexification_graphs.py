@@ -25,11 +25,17 @@ def induced(db, cid, layer, kind, minimum=0, neighbors=MAX_NEIGHBORS):
     index = {value: i for i, value in enumerate(nodes)}
     marks = ','.join('?' for _ in nodes)
     edges = []
+    assessed = bool(db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='assessments'").fetchone())
     # The selected set has at most 31 concepts and 465 actual undirected edges.
     query = f'''SELECT a,b,families,languages,varieties FROM edges
       WHERE layer=? AND kind=? AND families>=? AND a IN ({marks}) AND b IN ({marks}) ORDER BY a,b'''
     for a, b, families, languages, varieties in db.execute(query, (layer, kind, minimum, *nodes, *nodes)):
-        edges.append([index[a], index[b], families, languages, varieties])
+        edge = [index[a], index[b], families, languages, varieties]
+        if assessed:
+            assessment = db.execute('SELECT value FROM assessments WHERE layer=? AND a=? AND b=?',
+                                    (layer,a,b)).fetchone()
+            edge.append(json.loads(assessment[0])['clustering_weight'] if assessment else 0)
+        edges.append(edge)
     return dict(nodes=nodes, edges=edges, max_neighbors=neighbors, minimum_families=minimum,
                 neighbor_links=sum(a != 0 and b != 0 for a, b, *_ in edges))
 

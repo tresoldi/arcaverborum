@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "algorithm": "arca-whole-form-colexification-v1",
+  "algorithm": "arca-whole-form-colexification-v2",
   "identity": "Unicode NFC and whitespace normalization only. Preserve supplied IPA or explicitly stressed source citations when available; otherwise use labelled normalized segments. Upstream normalization may already omit stress or other contrasts; no absent information is reconstructed.",
   "scope": [
     "av_id",
@@ -15,7 +15,7 @@
     "reduced": "Exact ASJP/GLED-derived segment identity; omitted contrasts cannot be reconstructed"
   },
   "kinds": {
-    "observed": "Different mapped concepts, distinct source parameter IDs and distinct source form IDs within one source/variety/pronunciation scope",
+    "observed": "Reported whole-form identities across distinct mapped source records; semantic and replication eligibility are separately assessed, never inferred from correct pronunciation.",
     "inferred": "Guarded explicit disjunctive-concept expansion; never counted as an independently elicited pair"
   },
   "reduced_sources": [
@@ -53,6 +53,34 @@
       "id": "partial",
       "title": "List (2023). Inference of Partial Colexifications from Multilingual Wordlists.",
       "url": "https://arxiv.org/abs/2302.00739"
+    },
+    {
+      "id": "projection",
+      "title": "Newman (2001). Scientific collaboration networks: weighted projections of bipartite affiliations.",
+      "url": "https://doi.org/10.1103/PhysRevE.64.016132"
+    },
+    {
+      "id": "hypergraphs",
+      "title": "Eriksson et al. (2021). How choosing random-walk model and network representation matters for flow-based community detection in hypergraphs.",
+      "url": "https://doi.org/10.1038/s42005-021-00634-z"
+    },
+    {
+      "id": "backbones",
+      "title": "Neal et al. (2021). Backbone: An R package for extracting the backbone of bipartite projections.",
+      "url": "https://doi.org/10.1371/journal.pone.0244363"
+    },
+    {
+      "id": "regularized",
+      "title": "Smiljanic, Edler and Rosvall (2020). Mapping flows on sparse networks with missing links.",
+      "url": "https://doi.org/10.1103/PhysRevE.102.012302"
     }
-  ]
+  ],
+  "robustness": {
+    "semantic_gate": "English Wiktionary headword-only mappings are unreviewed until explicit shared, parameter or native-record sense review matches the accepted concept.",
+    "projection": "Each k-concept identity contributes 2/(k*(k-1)) per pair; maxima collapse sources/lects/synonyms within each known family.",
+    "resource_deletion": "Sum family maxima after removal of each known resource block; use the smallest sum. Blocks are not asserted independent original sources.",
+    "backbone": "At least two known eligible families and positive support after any one resource-block removal; all raw rare associations remain available.",
+    "clustering": "Weighted replicated backbone, medoid of ten seeded Infomap partitions; raw/regularized/Leiden/source/area/family-block sensitivity, no p-value or semantic-truth interpretation.",
+    "calibration": "No statistical-significance claim: a scope-, degree-, provenance- and availability-aware validated null is not established by a recurrence cutoff or resampling frequency."
+  }
 }

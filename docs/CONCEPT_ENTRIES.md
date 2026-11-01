@@ -1,5 +1,7 @@
 # Concept entries in the research explorer
 
+**Sense-correction refresh2026-11-01:** active concept-row snapshot `0a7b22c5c27d2b35f428c110` removes95 incorrect meaning assignments while retaining all original lexical records. BAG entries exclude `antaruxa` and `lurpia`; their source records/readings remain on language pages. [Full preservation](colexification_robustness_preservation_2026-11-01.json). Earlier counts below are historical.
+
 Regional refresh2026-11-01: active snapshot `72089a5476d9fa7b735564c4`,1,792,580 mapped records across3,787 concepts.64 new mapped records are included; original lexical values and current snapshot hashes retained. [Batch preservation](regional_preservation_2026-11-01.json). Only the active concept-row generation is deployed; older open clients reload for a consistent snapshot.
 
 Concept pages automatically show a normal entries table across all families.

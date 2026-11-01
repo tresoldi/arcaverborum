@@ -20,6 +20,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from arcaverborum.colexification import Limits, digest, runtime, sha, verify_database, verify_public, write_json
+from arcaverborum.colexification_evidence import projection_edges
 from arcaverborum.colexification_graphs import induced
 
 VERSIONS = {'infomap': '2.16.0', 'igraph': '1.0.0'}
@@ -52,6 +53,15 @@ def partition(edges, method='infomap', seed=1, resolution=1):
         for a, b, w in edges:
             if w > 0:
                 model.add_link(a, b, float(w))
+        result = model.run()
+        return canonical(dict(result.modules())), float(result.codelength)
+    if method == 'infomap-regularized':
+        import infomap
+        model = infomap.Infomap(f'--two-level --silent --num-threads 1 --seed {seed} '
+                               '--num-trials 5 --regularized')
+        for a,b,w in edges:
+            if w > 0:
+                model.add_link(a,b,float(w))
         result = model.run()
         return canonical(dict(result.modules())), float(result.codelength)
     import igraph
@@ -127,6 +137,16 @@ def support_diagnostics(db, a, b, families):
                 maximum_identity_concepts=maximum, comparison_bases=sorted(bases))
 
 
+def medoid(partitions, objectives):
+    """Select a central seeded solution, not the most extreme compression alone."""
+    if not partitions or len(partitions) != len(objectives):
+        raise ValueError('Medoid requires matching nonempty partitions/objectives')
+    means = [sum(agreement(p,q)['adjusted_rand'] or 0 for q in partitions) / len(partitions)
+             for p in partitions]
+    return min(range(len(partitions)), key=lambda i: (-means[i],
+        objectives[i] if objectives[i] is not None else float('inf'), i))
+
+
 def family_block_edges(db, index, multiplicity):
     """One original known-family block per pair, with sampled multiplicity."""
     weights = Counter()
@@ -145,9 +165,13 @@ def build(built, output=None):
     validate_runtime()
     signature = dict(parent=parent['build_id'], parent_sha256=sha(built / 'public/manifest.json'),
                      database_sha256=seal['database_sha256'], code=sha(Path(__file__)),
+                     neighborhood_code=sha(Path(induced.__code__.co_filename)),
+                     projection_code=sha(Path(projection_edges.__code__.co_filename)),
                      versions=VERSIONS, runtime=runtime(), seeds=SEEDS, trials=5, family_replicates=REPLICATES,
                      flow='undirected two-level', worker='sequential isolated processes',
-                     weights='distinct known family lineages', threads=1)
+                     weights='unit hyperedge mass; family maximum; worst one-resource-block deletion',
+                     selection='seed medoid by mean adjusted Rand; codelength and seed break ties',
+                     threads=1)
     build_id = digest(signature)[:24]
     destination = Path(output or built / 'communities') / build_id
     if destination.exists():
@@ -167,7 +191,7 @@ def build(built, output=None):
         edges = [(index[a], index[b], f) for a, b, f in rows]
         if len(cids) > 10000 or len(edges) > 250000:
             raise ValueError('Community pilot exceeds declared sparse graph budget')
-        baseline = [(a, b, f) for a, b, f in edges if f > 0]
+        baseline = projection_edges(db,index)
         runs, seed_partitions = [], []
         with gzip.open(stage / 'partitions.csv.gz', 'wt', newline='') as handle:
             writer = csv.writer(handle)
@@ -185,23 +209,24 @@ def build(built, output=None):
 
             for seed in SEEDS:
                 seed_partitions.append(run(f'seed-{seed}', baseline, seed=seed))
-            best = min(range(len(SEEDS)), key=lambda i: (runs[i]['objective'], SEEDS[i]))
+            best = medoid(seed_partitions, [r['objective'] for r in runs])
             reference = seed_partitions[best]
             for i, p in enumerate(seed_partitions):
                 runs[i]['agreement_with_selected'] = agreement(reference, p)
             for resolution in (.5, 1, 2):
                 p = run(f'leiden-{resolution}', baseline, 'leiden', resolution=resolution)
                 runs[-1]['agreement_with_selected'] = agreement(reference, p)
-            p = run('three-families', [(a, b, f) for a, b, f in baseline if f >= 3])
+            p = run('regularized-backbone',baseline,'infomap-regularized')
+            runs[-1]['agreement_with_selected'] = agreement(reference,p)
+            raw = [(a,b,f) for a,b,f in edges if f>0]
+            p = run('raw-family-counts',raw)
+            runs[-1]['agreement_with_selected'] = agreement(reference,p)
+            p = run('three-families', [(a, b, f) for a, b, f in raw if f >= 3])
             runs[-1]['agreement_with_selected'] = agreement(reference, p)
 
             # SQL distinct families recomputes support after removing entire source scopes.
             def masked(where, params=()):
-                query = ('''SELECT w.a,w.b,COUNT(DISTINCT NULLIF(v.family,''))
-                  FROM witnesses w JOIN scopes s ON s.id=w.sid JOIN varieties v ON v.av=s.av
-                  WHERE w.layer='segmented' AND w.kind='observed' AND (''' + where + ') '
-                         'GROUP BY w.a,w.b ORDER BY w.a,w.b')
-                return [(index[a], index[b], f) for a, b, f in db.execute(query, params) if f > 0]
+                return projection_edges(db,index,where=where,params=params)
 
             top_sources = list(db.execute('''SELECT s.source,COUNT(*) FROM witnesses w JOIN scopes s ON s.id=w.sid
               WHERE w.layer='segmented' AND w.kind='observed' GROUP BY s.source
@@ -211,6 +236,13 @@ def build(built, output=None):
             for source in sources_to_probe:
                 p = run('without-source-' + source, masked('s.source<>?', (source,)))
                 runs[-1]['agreement_with_selected'] = agreement(reference, p)
+            top_blocks = db.execute('''SELECT b.block,COUNT(*) FROM witnesses w
+              JOIN scopes s ON s.id=w.sid JOIN resource_blocks b ON b.source=s.source
+              WHERE w.layer='segmented' AND w.kind='observed'
+              GROUP BY b.block ORDER BY COUNT(*) DESC,b.block LIMIT 3''').fetchall()
+            for block,_ in top_blocks:
+                p=run('without-resource-block-'+block,masked('b.block<>?',(block,)))
+                runs[-1]['agreement_with_selected']=agreement(reference,p)
             areas = sorted({area.strip() for row in db.execute("SELECT DISTINCT area FROM varieties")
                             for area in row[0].split(';') if area.strip()})
             for area in areas:
@@ -227,7 +259,7 @@ def build(built, output=None):
             rng = random.Random(104729)
             for replicate in range(REPLICATES):
                 multiplicity = Counter(rng.choices(families, k=len(families)))
-                sampled = family_block_edges(db, index, multiplicity)
+                sampled = projection_edges(db,index,multiplicity)
                 p = run(f'family-block-{replicate + 1}', sampled, seed=1)
                 runs[-1]['agreement_with_selected'] = agreement(reference, p)
                 for a, b in probes:
@@ -249,13 +281,18 @@ def build(built, output=None):
             fields = ['concept_a', 'concept_b', 'families', 'comparable_families', 'positive_family_fraction',
                       'namespaces', 'max_namespace_family_share', 'families_without_one_namespace_min',
                       'maximum_identity_concepts', 'seed_coassignment', 'block_coassigned', 'block_eligible',
-                      'source_namespaces', 'namespace_exclusive_families', 'comparison_bases']
+                      'source_namespaces', 'namespace_exclusive_families', 'comparison_bases',
+                      'eligible_families','resource_blocks','adjusted_support','resource_survival_support',
+                      'families_without_one_block_min','backbone_eligible','clustering_weight',
+                      'unreviewed_semantic_witnesses','reported_witnesses','status']
             writer = csv.DictWriter(handle, fieldnames=fields)
             writer.writeheader()
             single_source, fragile = 0, 0
             for a, b, f in edges:
                 ca, cb = cids[a], cids[b]
                 diagnostic = support_diagnostics(db, ca, cb, f)
+                diagnostic.update(json.loads(db.execute("SELECT value FROM assessments WHERE layer='segmented' "
+                    'AND a=? AND b=?',(ca,cb)).fetchone()[0]))
                 opportunity = json.loads(db.execute(
                     "SELECT opportunities FROM edges WHERE layer='segmented' AND kind='observed' AND a=? AND b=?",
                     (ca, cb)).fetchone()[0])
@@ -268,7 +305,8 @@ def build(built, output=None):
                     if isinstance(v, (dict, list)) else v for k, v in diagnostic.items()}))
                 # Only bounded display probes are retained; all rows stream to CSV.
                 diagnostics[a, b] = {k: diagnostic[k] for k in ['namespaces', 'families_without_one_namespace_min',
-                    'maximum_identity_concepts', 'seed_coassignment', 'block_coassigned', 'block_eligible']}
+                    'maximum_identity_concepts', 'seed_coassignment', 'block_coassigned', 'block_eligible',
+                    'clustering_weight','resource_blocks','unreviewed_semantic_witnesses','status']}
                 single_source += diagnostic['namespaces'] == 1
                 fragile += f >= 3 and diagnostic['families_without_one_namespace_min'] < 3
         members = defaultdict(list)
@@ -297,13 +335,13 @@ def build(built, output=None):
             for a, b, w in baseline:
                 if a in selected_set and b in selected_set:
                     counts = db.execute(
-                        "SELECT languages,varieties FROM edges WHERE layer='segmented' AND kind='observed' "
+                        "SELECT families,languages,varieties FROM edges WHERE layer='segmented' AND kind='observed' "
                         'AND a=? AND b=?', (cids[a], cids[b])).fetchone()
-                    selected_edges.append([cids[a], cids[b], w, *counts])
+                    selected_edges.append([cids[a], cids[b], *counts, w])
             node_status = json.loads((built / 'public' / parent['nodes'][cid]['url']).read_text())['status']
             payload = dict(concept_id=cid, community=cids[module] if module is not None else None,
                            status='assigned' if module is not None else
-                           node_status if not local['edges'] else 'zero_known_family_support',
+                           node_status if not local['edges'] else 'insufficient_replicated_evidence',
                            community_size=len(group), preview=[cids[v] for v in selected] if group else [],
                            preview_edges=selected_edges, diagnostics=probes_for_node)
             node_files[cid] = write_json(stage / (cid + '.json'), payload, Limits())
@@ -318,7 +356,10 @@ def build(built, output=None):
                         summary=dict(evidence_edges=len(edges), eligible_family_edges=len(baseline),
                                      assigned_nodes=len(reference), communities=len(members),
                                      single_namespace_edges=single_source, recurrent_fragile_to_namespace=fragile),
-                        interpretation=('Exploratory partitions; coassignment describes algorithm and '
+                        selection=signature['selection'],
+                        interpretation=('Replicated bounded-influence backbone; '
+                          'raw associations are retained separately. '
+                          'Exploratory partitions; coassignment describes algorithm and '
                           'block perturbations, '
                           'not probability of a semantic category. Namespace removal does not identify independent '
                           'original sources. Family blocks are sampled corpus lineages, '
@@ -327,6 +368,9 @@ def build(built, output=None):
             raise ValueError('Analytical database changed during community generation')
         if sha(Path(__file__)) != signature['code']:
             raise ValueError('Community code changed during generation')
+        if (sha(Path(induced.__code__.co_filename)) != signature['neighborhood_code']
+                or sha(Path(projection_edges.__code__.co_filename)) != signature['projection_code']):
+            raise ValueError('Community dependency changed during generation')
         write_json(stage / 'manifest.json', manifest, Limits(payload_bytes=4 * 1024 * 1024))
         verify(stage)
         destination.parent.mkdir(parents=True, exist_ok=True)

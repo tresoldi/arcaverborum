@@ -1,1 +1,0 @@
-{"community":"act-despise","community_size":2,"concept_id":"soc-disgrace","diagnostics":{"act-despise":{"block_coassigned":38,"block_eligible":38,"families_without_one_namespace_min":0,"maximum_identity_concepts":2,"namespaces":1,"seed_coassignment":10}},"preview":["soc-disgrace","act-despise"],"preview_edges":[["act-despise","soc-disgrace",1,2,2]],"status":"assigned"}
