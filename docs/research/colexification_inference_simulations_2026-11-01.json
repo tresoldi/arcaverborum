@@ -1,0 +1,98 @@
+{
+  "status": "Synthetic model check only, not real-data or linguistic calibration",
+  "seed": 641,
+  "replicates": 500,
+  "independent_units": 20,
+  "copies_per_unit": 10,
+  "prior": [
+    1,
+    1
+  ],
+  "interval_mass": 0.9,
+  "measurement_error": {
+    "sensitivity": 0.8,
+    "false_positive_rate": 0.1
+  },
+  "results": {
+    "independent_reference": {
+      "covered": 450,
+      "posterior_cdf_bins": [
+        53,
+        44,
+        48,
+        62,
+        56,
+        51,
+        39,
+        47,
+        51,
+        49
+      ],
+      "coverage": 0.9,
+      "mean_interval_width": 0.2744570105834287,
+      "coverage_monte_carlo_se": 0.013416407864998736
+    },
+    "naive_exact_copies": {
+      "covered": 192,
+      "posterior_cdf_bins": [
+        168,
+        37,
+        18,
+        21,
+        12,
+        14,
+        15,
+        18,
+        23,
+        174
+      ],
+      "coverage": 0.384,
+      "mean_interval_width": 0.08609302733018098,
+      "coverage_monte_carlo_se": 0.02175058619899703
+    },
+    "deduplicated_exact_copies": {
+      "covered": 450,
+      "posterior_cdf_bins": [
+        53,
+        44,
+        48,
+        62,
+        56,
+        51,
+        39,
+        47,
+        51,
+        49
+      ],
+      "coverage": 0.9,
+      "mean_interval_width": 0.2744570105834287,
+      "coverage_monte_carlo_se": 0.013416407864998736
+    },
+    "unmodelled_measurement_error": {
+      "covered": 344,
+      "posterior_cdf_bins": [
+        74,
+        48,
+        27,
+        28,
+        26,
+        31,
+        26,
+        43,
+        51,
+        146
+      ],
+      "coverage": 0.688,
+      "mean_interval_width": 0.3023011839037513,
+      "coverage_monte_carlo_se": 0.020719845559269985
+    }
+  },
+  "code_sha256": "4e9620821936ec1f365bf752cc97eefbbb4e11ec805ce7934a443cbdf1b8118d",
+  "module_sha256": "c720daddf11c5fe07e8e61c8cda90c9141861196033c47f4f892a3f5c67599c3",
+  "caveats": [
+    "Uniform latent rate, Bernoulli independent units in the reference model",
+    "Posterior CDF ranks/interval coverage under prior-predictive replication; no MCMC sampler tested",
+    "Copies are exact stipulated duplicates; deduplication is known by construction",
+    "No calibration claim for Arca lexical data or source-error estimates"
+  ]
+}

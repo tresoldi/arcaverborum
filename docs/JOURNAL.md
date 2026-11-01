@@ -1054,3 +1054,104 @@ Core d5c9b49da8851392bac2e2e0:44,414 segmented/43,669 written/508 reduced observ
 Default graph width now bounded replicated support; raw counts remain selectable, native senses visible, mapping/replication states explicit. Zero weight means insufficient evidence for this model, not absence/false local observation. Browser BAG regression also checks concept entries. [Research and critical assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md), [metrics](colexification_robustness_metrics_2026-11-01.json), [preservation](colexification_robustness_preservation_2026-11-01.json). Superseded public core db68, old communities and old concept chunks retired whole to keep complete site below1GB; preceding regional core/private seals/Git history preserved.
 
 V2 closure:575 tests pass with each installed normalization flag; full lint/JS/seven local browser suites pass. Data commit65071a03fc41e798d1df3430be44e706ab3dda76 pushed; CI41293010721 and Pages41293010705 succeed. All25,314 selected active canonical artifacts match; all seven live browser suites pass including BAG correction/entries/source assessment/width. Proof docs/colexification_robustness_publication_2026-11-01.json. Accepted lexical and analytical outputs complete; remaining semantic/null/genealogy questions are explicit in NEXT/HELD, not silent confidence claims.
+
+## 2026-11-01 — Independent adversarial colexification review
+
+Requested separate Codex (`gpt-6.1-terra`) and Claude (`claude-opus-5-5`) reviews;
+neither read the other's report. [Critical assessment and both reports](reviews/2026-11-01-adversarial-assessment.md),
+[parent verification](reviews/2026-11-01-adversarial-verification.json).
+Confirmed current Ineseño apostrophe-prefix truncation in retained Value/Form
+fields; canonical isolate family keys change five backbone weights without
+removing those edges; excluding eight pseudo-categories from known-family support
+makes28 edges lose eligibility. A synthetic local semantic conflict is order
+dependent, but no conflicting targets occur among2,144 current local approval
+keys; no ambiguous native names among220 locally approved parameter IDs.
+3,353/5,551 backbone edges retain only one family after worst block deletion;
+this satisfies the actual rule but not a stronger surviving-replication claim.
+PATH–PATH OR ROAD illustrates catalog overlap in the backbone. Reproduced201
+edge losses after removing all single-segment witnesses, explicitly a diagnostic,
+not201 false edges or grounds for a blanket short-form ban. Qualified reviewer
+claims about independence, missing-node ARI bounds and missing UI denominators.
+32 targeted existing tests pass. Reports and queue updated; no accepted data,
+weights, clusters or publication changed, and no commit/push performed for this
+review-only request. Repairs and weighting experiments remain proposed follow-through.
+
+## 2026-11-01 — Independent Bayesian/information-theoretic method round
+
+Requested separate Codex (`gpt-6.1-terra`) and Claude Opus5.5 inference reviews;
+Claude CLI also records Haiku5.5 helper usage. [Critical assessment and reports](reviews/2026-11-01-inference-assessment.md),
+[checked toys/design query](reviews/2026-11-01-inference-toy-checks.json),
+[prototype archive manifest](reviews/2026-11-01-inference-experiment-manifest.json).
+Reports preserved unmodified. Codex recommends an audited source-scoped held-out
+prediction pilot with proper scores, explicit baselines and partial pooling;
+Claude adds empirical/null/grid prototypes (reported43–114MiB under256MiB).
+Parent inspected prototypes and reproduced decisive counterexamples, not the full
+49-permutation job. Reject calibrated significance/ESS/polysemy claims: shuffle
+can collapse repeated concepts and change group sizes; Poisson extreme-tail
+extrapolation from49 replicates is unvalidated; observed-edge multiplicity is
+selected on outcomes; cross-field identity is not pure chance; outcome unions
+and baseline averages mismatch; Hill diversity is not independence; independent
+union probability is not a general upper bound. Source/frame/measurement targets
+and missingness remain explicit. Prior-relative posterior KL, predictive entropy,
+expected review information and held-out predictive gain are separate quantities.
+
+Synthetic checks cover measurement nonidentifiability, copied-evidence precision,
+completion bounds, baseline log gain and entropy decomposition. Current eligible
+positive-witness incidence has a giant component of306 family keys/144 resource
+blocks (not a complete or corrected design audit), limiting joint holdouts.
+Ventureño member40 apostrophe-prefix truncation independently confirmed from
+retained Value/Form/Segments; queued with earlier source repairs. Fifteen Claude
+prototype files (2,414,821 bytes) archived under ignored raw/curation with hashes;
+no output is an accepted estimator. NEXT/README updated. No production data,
+algorithms, probabilities, clusters, commit/push or deployment changed.
+
+## 2026-11-01 — Executed colexification inference pilot and paper record
+
+User authorized implementation and a living record for a future paper:
+[COLEXIFICATION_RESEARCH](research/COLEXIFICATION_RESEARCH.md),
+[full results](research/colexification_pilot_results_2026-11-01.json),
+[execution](research/colexification_pilot_execution_2026-11-01.json),
+[independent SQL/score checks](research/colexification_pilot_verification_2026-11-01.json).
+
+Fixed local semantic conflicts/holds/ambiguous IDs and separate native-record
+approvals; canonical isolate/dialect keys and unknown pseudo-categories; general
+Huntergatherer exact apostrophe-prefix holds; four definition-guarded overlap
+pairs retained as observations but withheld from clustering. Corrected private
+core346e40d2896330f6afc55400:42,741 segmented/42,201 written/508 reduced observed
+pairs,5,362 backbone edges. All2,119,818 lexical records/aggregate bytes unchanged.
+3,921 exact-prefix holds across102 varieties; no guessed reading restoration.
+Final core749.64sec/110.06MiB under256MiB; preceding behaviorally identical build
+has identical statistics. Deployed analytical snapshot remains d5c9b49..., not
+silently replaced by research outputs.
+
+Frozen18-pair exploratory protocol SHA f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371;
+purpose-selected from prior knowledge, not confirmatory world sampling.98,784
+potential contexts;28,633 comparable,70,151 unknown,1,383 positives. Resource/family
+transfer, four baselines/models, train-only scaling, exported predictions and
+proper scores. Global regularized losses0.148765/0.147720 bits vs strongest pair
+baseline0.162037/0.160177; South America favors simpler pair models. No universal
+promotion. One outcome-blind context per known family, three priors/seeds; Bayesian
+reference intervals/information remain assumption-conditional. Valid whole-concept
+POS/profile bijections (49 draws), no tail extrapolation/q-values. Overlap control
+PATH–PATH OR ROAD is above this null, demonstrating that excess is not polysemy.
+BAG–WITCH has zero admissible comparable contexts, explicitly unknown/prior-only.
+
+First dense engineering run failed OpenBLAS allocation under256MiB, preserved as
+failure; sparse Newton predictions match dense on a bounded fixture to1.67e-16.
+Engineering run2 succeeds; optimized pilot is about1min/below170MiB. Reporting v1.1
+labels no-comparability tails undefined and Bayesian no-data outputs prior-only;
+all predictions and seeded null draws unchanged. Independent SQL recovers all
+labels/comparability;228,356 predictions recover scores and no-leakage train counts.
+Core input/source hashes verified against current files.589 tests, full ruff and
+JS syntax checks pass. Synthetic500-replication calibration:90% interval coverage
+90% reference,38.4% naive10x copies,90% deduplicated,68.8% unmodelled measurement error;
+these are stipulated examples, not Arca error-rate estimates.
+
+146 cases prepared for independent linguistic review (41positive/51sampled
+nonmatch/54unknown;18South America/9North America). Score/outcome/role-blinded,
+hash-ordered worksheet includes original readings, frozen definitions and native
+senses; separate analyst key and source hashes. Actual independent adjudications:0.
+Outputs remain offline; no experimental probabilities or significance enter the
+explorer. NEXT/STATUS/README point to the paper record and remaining review,
+questionnaire, source-genealogy and broader-protocol gates. Original Oct31 review
+drafts are unrelated pre-existing untracked files and are preserved.

@@ -1,0 +1,230 @@
+{
+  "core": "346e40d2896330f6afc55400",
+  "signature": {
+    "core": "346e40d2896330f6afc55400",
+    "database_sha256": "870cb1d030e02f71a32dbe88285b54dc1e91a5c34be49d23f9c5f3ff25f5b841",
+    "protocol_sha256": "f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371",
+    "pipeline_sha256": "c720daddf11c5fe07e8e61c8cda90c9141861196033c47f4f892a3f5c67599c3",
+    "cli_sha256": "5f89e65b7a041154b7928a67aa4d93686870d6e80b4bde121e601562d42524ff",
+    "aggregate_sha256": "dc6b59518beab79b11207209bd06237977f3bfd671252b92fa979b5d5a7c4c77"
+  },
+  "contexts": 98784,
+  "available": 28633,
+  "positive": 1383,
+  "predictions": 228356,
+  "audit_rows": 146,
+  "independent_sql_labels": true,
+  "independent_scores": true,
+  "train_test_counts": true,
+  "null_frame_and_arithmetic": true,
+  "bayesian_context_counts": true,
+  "fold_scores": {
+    "resource_block|0|pooled_laplace": {
+      "n": 5199,
+      "log_loss_bits": 0.16631796893865042,
+      "brier": 0.021475564636100543
+    },
+    "resource_block|0|pair_laplace": {
+      "n": 5199,
+      "log_loss_bits": 0.10501133915590882,
+      "brier": 0.0209487131158567
+    },
+    "resource_block|0|pair_shrinkage_10": {
+      "n": 5199,
+      "log_loss_bits": 0.10263974368556275,
+      "brier": 0.02022326170403814
+    },
+    "resource_block|0|ridge_pair_coverage": {
+      "n": 5199,
+      "log_loss_bits": 0.09696481304066569,
+      "brier": 0.018688442195720825
+    },
+    "resource_block|1|pooled_laplace": {
+      "n": 7016,
+      "log_loss_bits": 0.42854937132992243,
+      "brier": 0.0753213916917093
+    },
+    "resource_block|1|pair_laplace": {
+      "n": 7016,
+      "log_loss_bits": 0.23967377471822077,
+      "brier": 0.052829956576576555
+    },
+    "resource_block|1|pair_shrinkage_10": {
+      "n": 7016,
+      "log_loss_bits": 0.23654417806592148,
+      "brier": 0.051841468733825266
+    },
+    "resource_block|1|ridge_pair_coverage": {
+      "n": 7016,
+      "log_loss_bits": 0.21707401714228203,
+      "brier": 0.04637931922798185
+    },
+    "resource_block|2|pooled_laplace": {
+      "n": 5846,
+      "log_loss_bits": 0.24133894848585108,
+      "brier": 0.03792284227002349
+    },
+    "resource_block|2|pair_laplace": {
+      "n": 5846,
+      "log_loss_bits": 0.1278856356216829,
+      "brier": 0.025242136438916853
+    },
+    "resource_block|2|pair_shrinkage_10": {
+      "n": 5846,
+      "log_loss_bits": 0.1294169300675759,
+      "brier": 0.025336570068037904
+    },
+    "resource_block|2|ridge_pair_coverage": {
+      "n": 5846,
+      "log_loss_bits": 0.11374104543322522,
+      "brier": 0.023040783384420435
+    },
+    "resource_block|3|pooled_laplace": {
+      "n": 4192,
+      "log_loss_bits": 0.31704015594420165,
+      "brier": 0.053866258124317036
+    },
+    "resource_block|3|pair_laplace": {
+      "n": 4192,
+      "log_loss_bits": 0.18202273085411166,
+      "brier": 0.03762599480661525
+    },
+    "resource_block|3|pair_shrinkage_10": {
+      "n": 4192,
+      "log_loss_bits": 0.18179392695022759,
+      "brier": 0.03764642308005422
+    },
+    "resource_block|3|ridge_pair_coverage": {
+      "n": 4192,
+      "log_loss_bits": 0.1648346048417323,
+      "brier": 0.033800680050614436
+    },
+    "resource_block|4|pooled_laplace": {
+      "n": 6380,
+      "log_loss_bits": 0.23755809348493817,
+      "brier": 0.037089881450144135
+    },
+    "resource_block|4|pair_laplace": {
+      "n": 6380,
+      "log_loss_bits": 0.14911134829533712,
+      "brier": 0.03185580480891627
+    },
+    "resource_block|4|pair_shrinkage_10": {
+      "n": 6380,
+      "log_loss_bits": 0.1454127718098191,
+      "brier": 0.030661029504767276
+    },
+    "resource_block|4|ridge_pair_coverage": {
+      "n": 6380,
+      "log_loss_bits": 0.13739239006290102,
+      "brier": 0.028086514825031852
+    },
+    "family|0|pooled_laplace": {
+      "n": 1569,
+      "log_loss_bits": 0.32384203529986477,
+      "brier": 0.05532125787278368
+    },
+    "family|0|pair_laplace": {
+      "n": 1569,
+      "log_loss_bits": 0.18035167230359123,
+      "brier": 0.03821753713674817
+    },
+    "family|0|pair_shrinkage_10": {
+      "n": 1569,
+      "log_loss_bits": 0.18079118087163648,
+      "brier": 0.03833935498412764
+    },
+    "family|0|ridge_pair_coverage": {
+      "n": 1569,
+      "log_loss_bits": 0.17675794356882032,
+      "brier": 0.03735037928272459
+    },
+    "family|1|pooled_laplace": {
+      "n": 15155,
+      "log_loss_bits": 0.2610722136065272,
+      "brier": 0.04203755653617548
+    },
+    "family|1|pair_laplace": {
+      "n": 15155,
+      "log_loss_bits": 0.1528644894580552,
+      "brier": 0.03156942191459844
+    },
+    "family|1|pair_shrinkage_10": {
+      "n": 15155,
+      "log_loss_bits": 0.1514197952532345,
+      "brier": 0.031055241663095777
+    },
+    "family|1|ridge_pair_coverage": {
+      "n": 15155,
+      "log_loss_bits": 0.1372930292445396,
+      "brier": 0.027617930721204352
+    },
+    "family|2|pooled_laplace": {
+      "n": 4321,
+      "log_loss_bits": 0.3015221591946187,
+      "brier": 0.05064121597811401
+    },
+    "family|2|pair_laplace": {
+      "n": 4321,
+      "log_loss_bits": 0.16752335620873543,
+      "brier": 0.03512141857987368
+    },
+    "family|2|pair_shrinkage_10": {
+      "n": 4321,
+      "log_loss_bits": 0.16770830483485577,
+      "brier": 0.03514459454115332
+    },
+    "family|2|ridge_pair_coverage": {
+      "n": 4321,
+      "log_loss_bits": 0.15312192094933066,
+      "brier": 0.03162727213120243
+    },
+    "family|3|pooled_laplace": {
+      "n": 5451,
+      "log_loss_bits": 0.2996443253769988,
+      "brier": 0.05024329449277558
+    },
+    "family|3|pair_laplace": {
+      "n": 5451,
+      "log_loss_bits": 0.17699590460386855,
+      "brier": 0.03837333497677132
+    },
+    "family|3|pair_shrinkage_10": {
+      "n": 5451,
+      "log_loss_bits": 0.17687856945363953,
+      "brier": 0.038294053343079275
+    },
+    "family|3|ridge_pair_coverage": {
+      "n": 5451,
+      "log_loss_bits": 0.16743804519796368,
+      "brier": 0.035997092635574705
+    },
+    "family|4|pooled_laplace": {
+      "n": 1960,
+      "log_loss_bits": 0.2732743733544475,
+      "brier": 0.04473719426677668
+    },
+    "family|4|pair_laplace": {
+      "n": 1960,
+      "log_loss_bits": 0.14833665666644785,
+      "brier": 0.031098084189119513
+    },
+    "family|4|pair_shrinkage_10": {
+      "n": 1960,
+      "log_loss_bits": 0.14833329866539488,
+      "brier": 0.031150347614207003
+    },
+    "family|4|ridge_pair_coverage": {
+      "n": 1960,
+      "log_loss_bits": 0.1383471067838829,
+      "brier": 0.02799840869006353
+    }
+  },
+  "independent_linguistic_adjudication": false,
+  "comparison": {
+    "new_reported_pairs": 0,
+    "removed_reported_pairs": 3141,
+    "lexical_aggregate_unchanged": true
+  },
+  "peak_rss_mb": 120.6328125
+}

@@ -1,6 +1,40 @@
 # Active expansion queue
 
-## Colexification v2 follow-through
+## Colexification research execution and next gates
+
+The [living paper research record](research/COLEXIFICATION_RESEARCH.md) is the
+entry point for further methodological work. Correctness repairs and the frozen
+18-pair inference pilot are implemented and executed offline, including source
+prefix guards, canonical isolate keys, pseudo-family handling, fail-closed sense
+approvals and four explicit catalog-overlap flags. Do not propose these as absent.
+The corrected private core is `346e40d2896330f6afc55400`; deployed analytical
+assets remain the preceding published snapshot. Experimental probabilities are
+not a production graph-weight replacement.
+
+Next evidence gates:
+
+1. Independently adjudicate the 146-case score-blinded worksheet, retaining
+   unresolved judgments; currently zero independent adjudications. Source evidence,
+   definitions and analyst join keys are prepared. Scope absence is not lexical absence.
+2. Restore held source readings only after source-specific notation review;
+   resolve retired/pseudo genealogy and catalog overlap beyond the four reviewed
+   pairs with original evidence. The 3,921 parser-pattern holds are analytical,
+   not deleted lexical records or independently adjudicated errors.
+3. Expand original-source genealogy and questionnaire inventories; then freeze a
+   broader evaluation protocol. Overall metadata-model gains do not generalize
+   uniformly: South America and sparse-pair subgroups favor simpler baselines.
+4. Develop dependency-aware incidence and phonological nulls separately. The
+   current 49-draw null is sensitivity only; no q-values, calibrated homophony,
+   polysemy probabilities or effective independence counts are established.
+5. Revisit global weighting/community models after these validation gates;
+   source/family maxima, deletion survival and algorithmic stability remain
+   diagnostics, not significance or universal semantic categories.
+
+The [independent adversarial assessment](reviews/2026-11-01-adversarial-assessment.md)
+and [inference review](reviews/2026-11-01-inference-assessment.md) are historical
+proposals with checked counterexamples. Their rejected prototype confidence
+claims must not be reintroduced as measured findings. Preserve rare/local
+observations and report the Americas explicitly.
 
 [The BAG/WITCH correction and robust model](COLEXIFICATION_ROBUSTNESS_2026-11-01.md)
 are implemented. Do not repeat the studies, source-level corrections or global

@@ -1,0 +1,35 @@
+{
+  "core": "346e40d2896330f6afc55400",
+  "pilot_signature": {
+    "core": "346e40d2896330f6afc55400",
+    "database_sha256": "870cb1d030e02f71a32dbe88285b54dc1e91a5c34be49d23f9c5f3ff25f5b841",
+    "protocol_sha256": "f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371",
+    "pipeline_sha256": "c720daddf11c5fe07e8e61c8cda90c9141861196033c47f4f892a3f5c67599c3",
+    "cli_sha256": "5f89e65b7a041154b7928a67aa4d93686870d6e80b4bde121e601562d42524ff",
+    "aggregate_sha256": "dc6b59518beab79b11207209bd06237977f3bfd671252b92fa979b5d5a7c4c77"
+  },
+  "cases": 146,
+  "independent_adjudications": 0,
+  "areas": {
+    "South America": 18,
+    "Eurasia": 47,
+    "Papunesia": 51,
+    "Africa": 16,
+    "Australia": 4,
+    "North America": 9,
+    "": 1
+  },
+  "audit_status_counts": {
+    "unknown": 54,
+    "0": 51,
+    "1": 41
+  },
+  "source_evidence": "All accepted original rows for the same variety/source/member/concept, including analytically excluded or unreviewed rows. Pronunciation tags remain explicit; other tags/bases are not evidence of comparability in the target scope.",
+  "blinding": "Hash-ordered worksheet omits y, role, model probabilities, null statistics, curation comments and semantic-gate decisions. Analyst key is separate. Familiar pairs and source evidence limit complete blinding.",
+  "source_sha256": "dc6b59518beab79b11207209bd06237977f3bfd671252b92fa979b5d5a7c4c77",
+  "script_sha256": "a055ef891261c03755fe8df57eb12cd9fa52fcad0fd14f7c3a8b5ca37e1fbad0",
+  "files": {
+    "analyst_key.json": "be7fc5bea16e6bc3837596db438a4bd6c1d636eef672d661653a8c9dac852519",
+    "blinded_worksheet.csv": "2be10bfb4ddfa8696462703188929dd465cc0ccf334fd213fcc0b2ce8757d29d"
+  }
+}

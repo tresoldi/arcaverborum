@@ -1,7 +1,10 @@
 # Documentation map
 
 Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).
+* [Living research record for a future paper](research/COLEXIFICATION_RESEARCH.md): frozen pilot, executed findings, failures, validation, source audit and remaining inference gates.
 * [v2 sense alignment, bounded influence and critical model assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md).
+* [Independent Codex/Claude adversarial reviews and checked assessment](reviews/2026-11-01-adversarial-assessment.md): current extraction/classification defects, weighting tradeoffs and proposed remedies; no new deployment.
+* [Independent inference reviews and critical research design](reviews/2026-11-01-inference-assessment.md): Bayesian uncertainty, information gain, baselines, identifiability and checked prototype counterexamples; proposed pilot only.
 * [Exploratory global communities](COLEXIFICATION_COMMUNITIES.md): algorithms, source dependence, perturbations and bounded previews.
 * [CLICS comparison](CLICS_COMPARISON.md): frozen reference networks, source/missingness differences and visible support weights.
 

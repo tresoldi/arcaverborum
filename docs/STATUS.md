@@ -1,5 +1,19 @@
 # Current project state
 
+**Offline colexification inference research (2026-11-01):**
+[living paper record](research/COLEXIFICATION_RESEARCH.md),
+[executed protocol/results](research/colexification_pilot_results_2026-11-01.json),
+[verification](research/colexification_pilot_verification_2026-11-01.json).
+Corrected private core `346e40d2896330f6afc55400`:42,741 segmented/42,201 written
+reported pairs;5,362 backbone edges. All2,119,818 lexical records and aggregate
+bytes unchanged. Source-prefix holds now3,921 across102 varieties; four reviewed
+catalog-overlap pairs withheld from clustering. The18-pair pilot covers98,784
+potential contexts/28,633 comparable/1,383 positives and retains70,151 unknowns.
+146 review cases prepared; zero independent linguistic adjudications. Prediction
+and reference Bayesian/null diagnostics are experimental and offline; deployed
+analytical assets remain the published snapshot described below. No experimental
+probabilities or significance labels enter the public explorer.
+
 **Colexification v2 robustness (2026-11-01):** [research, corrections, mathematical
 model and critical assessment](COLEXIFICATION_ROBUSTNESS_2026-11-01.md),
 [metrics](colexification_robustness_metrics_2026-11-01.json),

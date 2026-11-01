@@ -1,0 +1,253 @@
+{
+  "commit": "9bc2ad28d8d64ba44530a74a696436aa0c92e78e",
+  "core": "d5c9b49da8851392bac2e2e0",
+  "backbone_edges": 5551,
+  "edges_with_one_family_after_worst_resource_deletion": 3353,
+  "edges_with_at_least_two_families_after_every_resource_deletion": 2198,
+  "local_approval_keys": 2144,
+  "conflicting_local_target_keys": [],
+  "quarantine": [
+    {
+      "variety": "atl-mbunga",
+      "source": "tls",
+      "layer": "written",
+      "concepts": 151
+    },
+    {
+      "variety": "atl-mbunga",
+      "source": "tls",
+      "layer": "segmented",
+      "concepts": 154
+    }
+  ],
+  "two_disjoint_families_and_resources": {
+    "eligible_families": 2,
+    "resource_blocks": 2,
+    "adjusted_support": 2,
+    "resource_survival_support": 1,
+    "families_without_one_block_min": 1,
+    "backbone_eligible": true,
+    "clustering_weight": 1
+  },
+  "projection_pair_mass_by_reported_concepts": {
+    "2": 1.0,
+    "3": 0.3333333333333333,
+    "10": 0.022222222222222223,
+    "64": 0.000496031746031746
+  },
+  "limitations": [
+    "No full source sense audit",
+    "No production rebuild or changes",
+    "Distinct resource blocks do not establish original-source independence",
+    "Stricter family count is a diagnostic comparison, not a validated replacement"
+  ],
+  "approved_parameter_ids": 220,
+  "approved_ids_with_multiple_source_names": {},
+  "bounded_checks": {
+    "contradictory_local_maps": {
+      "targets_in_order": [
+        "a",
+        "b"
+      ],
+      "accepted_target": "b",
+      "reversed_order_accepted_target": "a"
+    },
+    "targeted_existing_tests": {
+      "command": ".venv/bin/python -m pytest -q tests/test_colexification_evidence.py tests/test_colexification.py",
+      "passed": 32,
+      "elapsed_seconds": 1.29
+    },
+    "fixture_projection_mass": {
+      "k2": 1.0,
+      "k3": 0.3333333333333333
+    },
+    "source_gate_scope": "Current reading scopes whose source starts with wikt use exact wiktionary namespace; alternate-edition bypass not demonstrated in this graph."
+  },
+  "pseudo_categories": {
+    "pidg1258": "Pidgin",
+    "sign1238": "Sign Language",
+    "uncl1493": "Unclassifiable",
+    "book1242": "Bookkeeping",
+    "unat1236": "Unattested",
+    "spee1234": "Speech Register",
+    "arti1236": "Artificial Language",
+    "mixe1287": "Mixed Language"
+  },
+  "isolate_merge_weight_changes": [
+    {
+      "a": "bod-leg",
+      "b": "bod-upper-leg",
+      "old": 9.0,
+      "new": 8.0,
+      "retained": true
+    },
+    {
+      "a": "kin-boy",
+      "b": "kin-child-young-human",
+      "old": 8.433333333333,
+      "new": 8.1,
+      "retained": true
+    },
+    {
+      "a": "kin-wife",
+      "b": "kin-woman",
+      "old": 35.1,
+      "new": 34.1,
+      "retained": true
+    },
+    {
+      "a": "phy-fire",
+      "b": "phy-firewood",
+      "old": 17.666666666667,
+      "new": 17.333333333333,
+      "retained": true
+    },
+    {
+      "a": "phy-sky",
+      "b": "tim-day-not-night",
+      "old": 7.5,
+      "new": 6.535714285714,
+      "retained": true
+    }
+  ],
+  "pseudo_category_removal_lost_edges": [
+    [
+      "act-launder",
+      "bod-spit"
+    ],
+    [
+      "act-tight",
+      "sns-hard"
+    ],
+    [
+      "agr-fence",
+      "spa-near"
+    ],
+    [
+      "agr-ginger",
+      "agr-tree"
+    ],
+    [
+      "agr-grass",
+      "phy-river"
+    ],
+    [
+      "agr-seed",
+      "foo-salt"
+    ],
+    [
+      "ani-bird",
+      "kin-husband"
+    ],
+    [
+      "bod-bite",
+      "war-fight"
+    ],
+    [
+      "bod-calf-of-leg",
+      "bod-shin"
+    ],
+    [
+      "bod-cough",
+      "phy-moon"
+    ],
+    [
+      "bod-horn",
+      "emo-fear-be-afraid"
+    ],
+    [
+      "bod-medicine",
+      "phy-water"
+    ],
+    [
+      "bod-scratch",
+      "soc-village"
+    ],
+    [
+      "bod-tongue",
+      "pss-buy"
+    ],
+    [
+      "bod-wing",
+      "phy-moon"
+    ],
+    [
+      "emo-cry",
+      "war-shoot"
+    ],
+    [
+      "emo-laugh",
+      "phy-ash"
+    ],
+    [
+      "lng-say",
+      "phy-moon"
+    ],
+    [
+      "lng-say",
+      "tim-month"
+    ],
+    [
+      "mot-go-out",
+      "spa-deep"
+    ],
+    [
+      "phy-fog",
+      "sns-dry"
+    ],
+    [
+      "phy-rain-precipitation",
+      "soc-village"
+    ],
+    [
+      "pss-sell",
+      "sns-heavy"
+    ],
+    [
+      "qua-few",
+      "tim-slow"
+    ],
+    [
+      "qua-five",
+      "qua-one"
+    ],
+    [
+      "sns-bitter",
+      "tim-year"
+    ],
+    [
+      "sns-blunt",
+      "tim-slow"
+    ],
+    [
+      "spa-low-height",
+      "spa-near"
+    ]
+  ],
+  "verified_truncations": [
+    {
+      "av": "chb-ineseno",
+      "native_id": "huntergatherer_43-13_antelope-1",
+      "value": "ʧ'ɨlɨ",
+      "form": "ʧ"
+    },
+    {
+      "av": "chb-ineseno",
+      "native_id": "huntergatherer_43-29_beaver-1",
+      "value": "ʧ'ɨpɨk",
+      "form": "ʧ"
+    },
+    {
+      "av": "chb-ineseno",
+      "native_id": "huntergatherer_43-11_bagsack-1",
+      "value": "č'ïlï",
+      "form": "č"
+    }
+  ],
+  "single_segment_removal_diagnostic": {
+    "witnesses_removed": 2590,
+    "edges_losing_eligibility": 201,
+    "retained_edges": 5350,
+    "caveat": "Removing all one-segment forms is a sensitivity diagnostic, not a linguistically justified production filter."
+  }
+}

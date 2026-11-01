@@ -1,0 +1,100 @@
+{
+  "status": "Research prototypes, not accepted estimators or publication values; see critical assessment.",
+  "reviewer": "claude-opus-5-5",
+  "model_usage_keys": [
+    "claude-opus-5-5",
+    "claude-haiku-5-5"
+  ],
+  "num_turns": 57,
+  "duration_ms": 943488,
+  "accepted_build": "d5c9b49da8851392bac2e2e0",
+  "code_commit": "9bc2ad28d8d64ba44530a74a696436aa0c92e78e",
+  "archive_files": [
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/agg.py",
+      "bytes": 1899,
+      "sha256": "319bb6751e8be5f7069597427f7ed57552dd66e071672ac77ce076a7f5766425"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/calib.py",
+      "bytes": 2529,
+      "sha256": "4dec015ff0d68f02a4d79280c804c44c6fc15a4d0599937cb57d4988a89b1adf"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/excess.py",
+      "bytes": 1963,
+      "sha256": "04e0a8249f71941aeb0ae195f06a062397efcd641025a7aa24a42565da5e4569"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/length_null.py",
+      "bytes": 2935,
+      "sha256": "241326d8342d98746e8aee1d9c0edcdeded8adad3289e5917530bb6832659ae9"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/lengthnull.json",
+      "bytes": 4405,
+      "sha256": "e4d95180d540551e8e39f06a637e1a1b13c948555ae82beb84f569c8113e6a77"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/pairs.py",
+      "bytes": 6029,
+      "sha256": "e4a4e7af23fcd29b0046d5d8bef83db19122ab828fecaf042d3487fcd7ae9d3a"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/perm.json",
+      "bytes": 601,
+      "sha256": "e23619fce9e58a6de06854b4e8978bc68b4efeffb83e29182380c0c904c24fba"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/perm_edges.json",
+      "bytes": 1639176,
+      "sha256": "8c2179c2d9127d060a287ce0cb21cf3d8af0f0d4b27945522dc2e5238e66af14"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/perm_edges.log",
+      "bytes": 352,
+      "sha256": "512e4aa7468f99d631639a05224040cd0d75e8f3638ab18f6cec2f9ba34cd70d"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/perm_edges.py",
+      "bytes": 1591,
+      "sha256": "8e72ae2a15cfdf5eae884ead549ce7cbba6fe66725ea419b4afda81cee6467b8"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/perm_null.py",
+      "bytes": 2421,
+      "sha256": "376c97863ab1708b0dc0efac59da30a73b469fa916b676af11e3419f41f700f7"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/q.py",
+      "bytes": 298,
+      "sha256": "7d6ad653e3a6dec54a579de54bfda5d2d8d3f5d5493a2a3ef8e78bfd1d92d125"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/scope_null.py",
+      "bytes": 4172,
+      "sha256": "e6821746ed01beb8103d08b7bbbba378d60b82d8699bcb25ee2e0360f7616b89"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/scopes.tsv",
+      "bytes": 744881,
+      "sha256": "fbaf607618d44a8ecf1651f14523b4f2edc80f2ba3413f9db6f0b8d0d7b7f852"
+    },
+    {
+      "path": "raw/curation/colexification-inference-2026-11-01/claude/within_lang.py",
+      "bytes": 1569,
+      "sha256": "4c42d07f2f596168e6af3b478abc473ad6dfdd353e4023b6b1d9b05da6ecc21f"
+    }
+  ],
+  "review_reports": [
+    {
+      "path": "docs/reviews/2026-11-01-inference-codex.md",
+      "sha256": "b0cc75e7004bc82fd05c2f45bc3be2d8296e8afae9437a51e1e90745f9a67314"
+    },
+    {
+      "path": "docs/reviews/2026-11-01-inference-claude.md",
+      "sha256": "c2115ed674c7505f4c768bf9bdb92aafe3214ee8a2ee72b3e63801c904941e95"
+    }
+  ],
+  "parent_validation": "Toy counterexamples and bounded read-only incidence query in 2026-11-01-inference-toy-checks.json. Parent did not rerun full 49 permutations or validate their tail probabilities."
+}

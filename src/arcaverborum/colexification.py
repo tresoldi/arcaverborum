@@ -96,7 +96,7 @@ def analytical_exclusion(row):
     """
     value, word = identity(row.get('Value', '')), identity(row.get('Form', ''))
     if (row.get('transcription_source') == 'huntergatherer'
-            and row.get('source_language_id') == 'huntergatherer_30' and "'" in value
+            and "'" in value
             and word == value.split("'", 1)[0] and word):
         return 'source_extraction_prefix'
     if (row.get('transcription_source') == 'huntergatherer'
@@ -183,18 +183,28 @@ def load_varieties(db, root):
     varieties = list(read_csv(root / 'output/aggregate/varieties.csv'))
     needed = {r['Glottocode'] for r in varieties if r.get('Glottocode')}
     classification = {}
+    isolates = set()
+    pseudo = set()
+    pseudo_names = {'Bookkeeping', 'Unclassifiable', 'Unattested', 'Sign Language',
+                    'Artificial Language', 'Mixed Language', 'Pidgin', 'Speech Register'}
     path = root / 'raw/glottolog/languages.csv'
     if path.exists():
         for row in read_csv(path):
+            if row.get('Is_Isolate', '').lower() in {'true', '1'}:
+                isolates.add(row['ID'])
+            if row.get('Level') == 'family' and row.get('Name') in pseudo_names:
+                pseudo.add(row['ID'])
             if row['ID'] not in needed:
                 continue
             language = row.get('Language_ID') or (row['ID'] if row.get('Level') == 'language' else '')
             family = row.get('Family_ID', '')
-            if not family and row.get('Is_Isolate', '').lower() in {'true', '1'}:
-                family = 'isolate:' + row['ID']
             classification[row['ID']] = (language, family)
     for row in varieties:
         language, family = classification.get(row.get('Glottocode'), ('', ''))
+        if family in pseudo:
+            family = ''  # A catalog grouping is not a known genealogical lineage.
+        elif family in isolates or (not family and language in isolates):
+            family = 'isolate:' + (family or language)
         db.execute('INSERT INTO varieties VALUES(?,?,?,?,?)',
                    (row['av_id'], row.get('Name', ''), language, family, row.get('Macroarea', '')))
     db.commit()

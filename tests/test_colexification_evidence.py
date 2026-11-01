@@ -45,7 +45,7 @@ def test_dictionary_semantics_require_actual_review_not_correct_ipa(tmp_path):
     gate.local['galician','bag-ugly-woman']='bag-container'
     gate.shared['bag-ugly-woman']=''
     assert gate.status(row)=='unreviewed_dictionary_sense'  # contradictory older parameter override
-    gate.local['galician','antaruxa']='witch'
+    gate.records['galician','antaruxa']='witch'
     assert gate.status(row|dict(concept_id='witch'))=='reviewed_dictionary_sense'
 
 

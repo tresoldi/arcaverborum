@@ -1,0 +1,5 @@
+a,b,relation,a_sha256,b_sha256,rationale
+mot-path,mot-path-or-road,contains,a47be6fcab3244b17e6a822ab0cde3f809cfda4247b62dfba9a3b51363d352b2,887f8e44e98db1c20c414cca727a03d86d731f30e1bf00a78bf832cbc1707ebd,PATH OR ROAD includes the narrower PATH definition.
+bod-hair,bod-hair-or-fur,contains,168f3bfc40bae9bb0aa840ae3abedcb80e54918c1419c59c33d61e13e3282d98,4eb2c739a923cf741d4029c8d43f88a93b7becb30f5fb269f900b9746abbe7b6,HAIR OR FUR explicitly includes human body hair.
+bod-foot,bod-foot-or-leg,overlap,292068cf31dcb1d8ed77ae21099cb8634571663eac901249ba93d98e5ca44852,390846b7869d40c7b9001625c8caabac08cae0e3daa4bf4f7e7d0653f6218942,FOOT OR LEG includes FOOT; reviewed expansion registry.
+bod-arm,bod-arm-or-hand,overlap,eb88cc59d6949ce0649465c5797b9775b374a9566377f7ce5804cca36a55a6ad,7d453d86367941ae5f9952d6db981ef9fc46a6fcf4127eac193f1a642fb86870,ARM OR HAND includes ARM; reviewed expansion registry.

@@ -158,7 +158,7 @@ window.ArcaColexification=(()=>{
         }
         const assessment=e=>{
           const a=e.assessment;if(!a)return 'Not assessed for inferred pairs';
-          const label=({replicated_backbone:'Replicated backbone',semantic_review_required:'Sense review required',limited_replication:'Limited replication'})[a.status]||a.status;
+          const label=({catalog_overlap:'Catalog overlap',replicated_backbone:'Replicated backbone',semantic_review_required:'Sense review required',limited_replication:'Limited replication'})[a.status]||a.status;
           return `<details class="colex-assessment"><summary>${esc(label)}</summary><p>${a.eligible_families} eligible known families; ${a.resource_blocks} resource blocks. Bounded support ${a.adjusted_support}; worst one-block deletion ${a.resource_survival_support}; clustering weight ${a.clustering_weight}. ${a.unreviewed_semantic_witnesses} reported witness groups have unreviewed dictionary sense mappings. These measures are robustness diagnostics, not confidence or statistical significance.</p></details>`;
         };
         const diagnostic=e=>{

@@ -1,0 +1,95 @@
+{
+  "status": "Exploratory execution; probabilities apply to recorded identity under assumptions, not linguistic truth",
+  "core": "346e40d2896330f6afc55400",
+  "core_runtime": {
+    "seconds": 749.64
+  },
+  "core_peak_rss_mb": 110.06,
+  "pilot_runtime": {
+    "seconds": 58.692,
+    "peak_rss_mb": 165.66796875,
+    "memory_limit_mb": 256,
+    "signature": {
+      "core": "346e40d2896330f6afc55400",
+      "database_sha256": "870cb1d030e02f71a32dbe88285b54dc1e91a5c34be49d23f9c5f3ff25f5b841",
+      "protocol_sha256": "f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371",
+      "pipeline_sha256": "c720daddf11c5fe07e8e61c8cda90c9141861196033c47f4f892a3f5c67599c3",
+      "cli_sha256": "5f89e65b7a041154b7928a67aa4d93686870d6e80b4bde121e601562d42524ff",
+      "aggregate_sha256": "dc6b59518beab79b11207209bd06237977f3bfd671252b92fa979b5d5a7c4c77"
+    },
+    "python": "3.14.8 (main, Oct 14 2026, 01:04:34) [Clang 23.1.3 ]",
+    "sqlite": "3.53.1"
+  },
+  "baseline_core": "d5c9b49da8851392bac2e2e0",
+  "input_records": 2119818,
+  "source_prefix_holds": {
+    "previous": 88,
+    "current": 3921
+  },
+  "corpus_comparison": {
+    "new_reported_pairs": 0,
+    "removed_reported_pairs": 3141,
+    "lexical_aggregate_unchanged": true
+  },
+  "registered_protocol_sha256": "f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371",
+  "contexts": {
+    "contexts": 98784,
+    "available": 28633,
+    "unknown": 70151,
+    "positives": 1383,
+    "audit_rows": 146,
+    "independently_adjudicated_rows": 0
+  },
+  "engineering_history": [
+    {
+      "run": "engineering-01",
+      "status": "OpenBLAS allocation failed under 256MiB before model outcomes",
+      "preserved": "raw/curation/colexification-inference-2026-11-01/engineering-01"
+    },
+    {
+      "run": "engineering-02",
+      "status": "Successful sparse Newton implementation",
+      "seconds": 135.166,
+      "peak_rss_mb": 163.9765625
+    },
+    {
+      "run": "v1",
+      "status": "Successful original recorded pilot; reporting amendment subsequently required",
+      "amendment": "A no-comparability null tail is undefined, not 1; no-data Bayesian results must be labelled prior-only"
+    },
+    {
+      "run": "v1-1",
+      "status": "Final reporting correction, frozen predictions and null draws unchanged"
+    }
+  ],
+  "sparse_dense_prediction_max_difference": 1.6653345369377348e-16,
+  "reporting_amendment": {
+    "predictions_unchanged": true,
+    "null_draws_unchanged": true
+  },
+  "tests": {
+    "unit_tests": 589,
+    "ruff": "passed",
+    "javascript_syntax": "passed"
+  },
+  "publication": "Research outputs and corrected core are offline; deployed network remains the preceding snapshot. No experimental probability or significance wired into UI.",
+  "review_packet": {
+    "path": "output/colexification-inference/review-2026-11-01-v2",
+    "cases": 146,
+    "independent_adjudications": 0,
+    "blinding_checks": true,
+    "manifest_sha256": "4a3d879d89f8b0c6e6d06e9173c4a0225820e6e6a0f1c7e7591f0e16f94a0bab"
+  },
+  "final_source_inputs_match_core": true,
+  "source_files_sha256": {
+    "src/arcaverborum/colexification.py": "ffa2c342e0c99051e4d2fb986921437e6e06b9f517ad26ec6b7e1ee75cef588d",
+    "src/arcaverborum/colexification_evidence.py": "4163f35b08acca03e45188f5c2a1db4fd201aaee6b3bc031f9abf39b866eb8a4",
+    "src/arcaverborum/colexification_inference.py": "c720daddf11c5fe07e8e61c8cda90c9141861196033c47f4f892a3f5c67599c3",
+    "src/arcaverborum/data/colexification/concept_relations.csv": "0a05fe92f7b7c7a09fe870789d2ffd856104822d3a298f6db2fbdd3a1f0b77e1",
+    "src/arcaverborum/data/colexification/inference_protocol.json": "f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371",
+    "scripts/pilot_colexification_inference.py": "5f89e65b7a041154b7928a67aa4d93686870d6e80b4bde121e601562d42524ff",
+    "scripts/verify_colexification_inference.py": "f6a835ad489ddcdd66152261fe9e04dbd6bba5a19bdcc1a378c1ffaf9971aeee",
+    "scripts/simulate_colexification_inference.py": "4e9620821936ec1f365bf752cc97eefbbb4e11ec805ce7934a443cbdf1b8118d",
+    "scripts/prepare_colexification_review.py": "a055ef891261c03755fe8df57eb12cd9fa52fcad0fd14f7c3a8b5ca37e1fbad0"
+  }
+}

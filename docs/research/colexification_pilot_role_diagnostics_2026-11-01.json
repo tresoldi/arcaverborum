@@ -1,0 +1,297 @@
+{
+  "status": "Secondary descriptive stratification, no refit or confirmatory inference",
+  "results": {
+    "resource_block": {
+      "without_catalog_overlap": {
+        "pooled_laplace": {
+          "n": 28335,
+          "log_loss_bits": 0.2763947112913168
+        },
+        "pair_laplace": {
+          "n": 28335,
+          "log_loss_bits": 0.15435338673534532
+        },
+        "pair_shrinkage_10": {
+          "n": 28335,
+          "log_loss_bits": 0.1545607972046107
+        },
+        "ridge_pair_coverage": {
+          "n": 28335,
+          "log_loss_bits": 0.14084874838202505
+        }
+      },
+      "catalog_overlap_control": {
+        "pooled_laplace": {
+          "n": 298,
+          "log_loss_bits": 0.9908249272613153
+        },
+        "pair_laplace": {
+          "n": 298,
+          "log_loss_bits": 1.0600371082474005
+        },
+        "pair_shrinkage_10": {
+          "n": 298,
+          "log_loss_bits": 0.8728952719336671
+        },
+        "ridge_pair_coverage": {
+          "n": 298,
+          "log_loss_bits": 0.9014843810888681
+        }
+      },
+      "contrast": {
+        "pooled_laplace": {
+          "n": 8241,
+          "log_loss_bits": 0.07353131301100568
+        },
+        "pair_laplace": {
+          "n": 8241,
+          "log_loss_bits": 0.007519701093845336
+        },
+        "pair_shrinkage_10": {
+          "n": 8241,
+          "log_loss_bits": 0.007402299032211746
+        },
+        "ridge_pair_coverage": {
+          "n": 8241,
+          "log_loss_bits": 0.008978077377720247
+        }
+      },
+      "localized": {
+        "pooled_laplace": {
+          "n": 1761,
+          "log_loss_bits": 0.09217303161928471
+        },
+        "pair_laplace": {
+          "n": 1761,
+          "log_loss_bits": 0.06092694762697411
+        },
+        "pair_shrinkage_10": {
+          "n": 1761,
+          "log_loss_bits": 0.06540404533599797
+        },
+        "ridge_pair_coverage": {
+          "n": 1761,
+          "log_loss_bits": 0.04268730036777998
+        }
+      },
+      "mapping_error_control": {
+        "pooled_laplace": {
+          "n": 0,
+          "log_loss_bits": null
+        },
+        "pair_laplace": {
+          "n": 0,
+          "log_loss_bits": null
+        },
+        "pair_shrinkage_10": {
+          "n": 0,
+          "log_loss_bits": null
+        },
+        "ridge_pair_coverage": {
+          "n": 0,
+          "log_loss_bits": null
+        }
+      },
+      "recurrent": {
+        "pooled_laplace": {
+          "n": 6054,
+          "log_loss_bits": 1.0102075228023646
+        },
+        "pair_laplace": {
+          "n": 6054,
+          "log_loss_bits": 0.6667409322673891
+        },
+        "pair_shrinkage_10": {
+          "n": 6054,
+          "log_loss_bits": 0.6667565443709723
+        },
+        "ridge_pair_coverage": {
+          "n": 6054,
+          "log_loss_bits": 0.6046728917325651
+        }
+      },
+      "short_form_challenge": {
+        "pooled_laplace": {
+          "n": 5136,
+          "log_loss_bits": 0.07481659254999254
+        },
+        "pair_laplace": {
+          "n": 5136,
+          "log_loss_bits": 0.009395897031958578
+        },
+        "pair_shrinkage_10": {
+          "n": 5136,
+          "log_loss_bits": 0.009181660859218368
+        },
+        "ridge_pair_coverage": {
+          "n": 5136,
+          "log_loss_bits": 0.011622080782205155
+        }
+      },
+      "sparse": {
+        "pooled_laplace": {
+          "n": 7143,
+          "log_loss_bits": 0.07886063598655016
+        },
+        "pair_laplace": {
+          "n": 7143,
+          "log_loss_bits": 0.016748434909368115
+        },
+        "pair_shrinkage_10": {
+          "n": 7143,
+          "log_loss_bits": 0.016743691563304325
+        },
+        "ridge_pair_coverage": {
+          "n": 7143,
+          "log_loss_bits": 0.016996768912343696
+        }
+      }
+    },
+    "family": {
+      "without_catalog_overlap": {
+        "pooled_laplace": {
+          "n": 28158,
+          "log_loss_bits": 0.27122415686379825
+        },
+        "pair_laplace": {
+          "n": 28158,
+          "log_loss_bits": 0.15412929923574373
+        },
+        "pair_shrinkage_10": {
+          "n": 28158,
+          "log_loss_bits": 0.15420226795156156
+        },
+        "ridge_pair_coverage": {
+          "n": 28158,
+          "log_loss_bits": 0.14137151733628625
+        }
+      },
+      "catalog_overlap_control": {
+        "pooled_laplace": {
+          "n": 298,
+          "log_loss_bits": 1.0046442312232875
+        },
+        "pair_laplace": {
+          "n": 298,
+          "log_loss_bits": 0.8022592246334685
+        },
+        "pair_shrinkage_10": {
+          "n": 298,
+          "log_loss_bits": 0.7247209111993341
+        },
+        "ridge_pair_coverage": {
+          "n": 298,
+          "log_loss_bits": 0.7475665120735093
+        }
+      },
+      "contrast": {
+        "pooled_laplace": {
+          "n": 8200,
+          "log_loss_bits": 0.07704764510109854
+        },
+        "pair_laplace": {
+          "n": 8200,
+          "log_loss_bits": 0.008210515643749748
+        },
+        "pair_shrinkage_10": {
+          "n": 8200,
+          "log_loss_bits": 0.008052597839088328
+        },
+        "ridge_pair_coverage": {
+          "n": 8200,
+          "log_loss_bits": 0.010337989739128658
+        }
+      },
+      "localized": {
+        "pooled_laplace": {
+          "n": 1750,
+          "log_loss_bits": 0.09749174208571797
+        },
+        "pair_laplace": {
+          "n": 1750,
+          "log_loss_bits": 0.0507511038251756
+        },
+        "pair_shrinkage_10": {
+          "n": 1750,
+          "log_loss_bits": 0.054452040047304834
+        },
+        "ridge_pair_coverage": {
+          "n": 1750,
+          "log_loss_bits": 0.039049305371116935
+        }
+      },
+      "mapping_error_control": {
+        "pooled_laplace": {
+          "n": 0,
+          "log_loss_bits": null
+        },
+        "pair_laplace": {
+          "n": 0,
+          "log_loss_bits": null
+        },
+        "pair_shrinkage_10": {
+          "n": 0,
+          "log_loss_bits": null
+        },
+        "ridge_pair_coverage": {
+          "n": 0,
+          "log_loss_bits": null
+        }
+      },
+      "recurrent": {
+        "pooled_laplace": {
+          "n": 6004,
+          "log_loss_bits": 0.976531212560585
+        },
+        "pair_laplace": {
+          "n": 6004,
+          "log_loss_bits": 0.6681994274052028
+        },
+        "pair_shrinkage_10": {
+          "n": 6004,
+          "log_loss_bits": 0.6678001414138804
+        },
+        "ridge_pair_coverage": {
+          "n": 6004,
+          "log_loss_bits": 0.6053372315139613
+        }
+      },
+      "short_form_challenge": {
+        "pooled_laplace": {
+          "n": 5107,
+          "log_loss_bits": 0.07797305163779347
+        },
+        "pair_laplace": {
+          "n": 5107,
+          "log_loss_bits": 0.009342521286638988
+        },
+        "pair_shrinkage_10": {
+          "n": 5107,
+          "log_loss_bits": 0.009118964753077661
+        },
+        "ridge_pair_coverage": {
+          "n": 5107,
+          "log_loss_bits": 0.012436593523185806
+        }
+      },
+      "sparse": {
+        "pooled_laplace": {
+          "n": 7097,
+          "log_loss_bits": 0.08079847760516479
+        },
+        "pair_laplace": {
+          "n": 7097,
+          "log_loss_bits": 0.017507472108716927
+        },
+        "pair_shrinkage_10": {
+          "n": 7097,
+          "log_loss_bits": 0.01756551875071952
+        },
+        "ridge_pair_coverage": {
+          "n": 7097,
+          "log_loss_bits": 0.0182715180727215
+        }
+      }
+    }
+  }
+}

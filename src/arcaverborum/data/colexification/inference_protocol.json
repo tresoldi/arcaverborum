@@ -1,0 +1,208 @@
+{
+  "schema": 1,
+  "created_utc": "2026-11-01T11:25:05.662074+00:00",
+  "status": "Frozen before corrected pilot results; purposive challenge panel, not probability sample of concepts.",
+  "target": "Eligible recorded identity conditional on comparable separately identifiable meanings in one source/member/variety/pronunciation/basis scope.",
+  "layer": "segmented",
+  "scope_cap": 20000,
+  "reading_cap_per_scope_pair": 1024,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "pairs": [
+    {
+      "a": "agr-tree",
+      "b": "phy-wood",
+      "role": "recurrent",
+      "concept_a_sha256": "4a0c8582ab087c84b9e489d7c5bcfa7b000bad12418aa9f5b7f0b473271d601d",
+      "concept_b_sha256": "01feb8ecdb1bb40bf94300f1e7aee1f5188707b000a242850a52ad65131025d1"
+    },
+    {
+      "a": "phy-moon",
+      "b": "tim-month",
+      "role": "recurrent",
+      "concept_a_sha256": "c1cb7fffe3b7ed716478fdcd3a9d63c2e5105af8d60d0792eb0dafe0f0bc943e",
+      "concept_b_sha256": "8f2a0dac1fa2a7ef2ac39f5944965af80bbae3a824a9dd60072576b0b39acfaf"
+    },
+    {
+      "a": "bod-arm",
+      "b": "bod-hand",
+      "role": "recurrent",
+      "concept_a_sha256": "eb88cc59d6949ce0649465c5797b9775b374a9566377f7ce5804cca36a55a6ad",
+      "concept_b_sha256": "20a17dc7c42b5abb65a1f0ae26afc422a6512d1caa2a949a506ce34203628979"
+    },
+    {
+      "a": "phy-sun",
+      "b": "tim-day-not-night",
+      "role": "recurrent",
+      "concept_a_sha256": "a686b05009ecefa718b3a11188cf033b65de0d3527206685be0b4d6e85577717",
+      "concept_b_sha256": "ae95d7973b26066a38222c4f1f328635d61f982863afc8e226a4bb5660cc4cb1"
+    },
+    {
+      "a": "kin-man",
+      "b": "kin-person",
+      "role": "recurrent",
+      "concept_a_sha256": "76ad5785d7a4813219159da7daa5c5680c3fb87753df87171509ad8bb030f5e2",
+      "concept_b_sha256": "dd48658834e5e0c3c6e092e9c1a737cf8e5677696b8c4fc47aa31eb484f80550"
+    },
+    {
+      "a": "phy-fire",
+      "b": "sns-red",
+      "role": "sparse",
+      "concept_a_sha256": "39c92e1d795b5063b5ff02f0f7b4d032292e0ff75f0837c9ea5a566c510eec93",
+      "concept_b_sha256": "c4f7f939655e7d69d34d64bc00d347e1ae746ad44f2a1fff9bf7d5108980de39"
+    },
+    {
+      "a": "bod-head",
+      "b": "kin-mother",
+      "role": "sparse",
+      "concept_a_sha256": "71d1b27778d949ef4b013b903336aacf10d5e0a669b5b8a00d1d3a48721177f2",
+      "concept_b_sha256": "35e0a6ed7a97ce0b237e0989a3dc59835bc97dfaaea06807ea9f27012da06551"
+    },
+    {
+      "a": "ani-deer",
+      "b": "bod-belly",
+      "role": "sparse",
+      "concept_a_sha256": "f717ae63d540c6d78e09823d716c15faf80c1668618569473d947dd74d347ebb",
+      "concept_b_sha256": "79a081de2a8ccb72a413bf703fad5299b82955c8a8ecfd56e8a39b7db50772fd"
+    },
+    {
+      "a": "act-bag",
+      "b": "rel-witch",
+      "role": "mapping_error_control",
+      "concept_a_sha256": "5fdce211f6352307c88e27541977475571e314576aad1309c46020651624b078",
+      "concept_b_sha256": "c179fb530b0ef0c39753e6af35827e36bae279c58125541abcebaddf2ae7b327"
+    },
+    {
+      "a": "kin-father",
+      "b": "kin-mother",
+      "role": "short_form_challenge",
+      "concept_a_sha256": "6f8c614299d32283e122384df6e2d12a6d23ed3749989a0cdb80b7939b261cdf",
+      "concept_b_sha256": "35e0a6ed7a97ce0b237e0989a3dc59835bc97dfaaea06807ea9f27012da06551"
+    },
+    {
+      "a": "ani-dog",
+      "b": "phy-thunder",
+      "role": "short_form_challenge",
+      "concept_a_sha256": "dc6bbd83ea1b3afbd15411fa97b64c7cf92c9b678865e07e56b10bd1b4625f8c",
+      "concept_b_sha256": "fd6680225b15e3a7df3ae299c7c84ac52007de769844ac2ac780b68cd04a8789"
+    },
+    {
+      "a": "mot-fall",
+      "b": "qua-ten",
+      "role": "localized",
+      "concept_a_sha256": "6c9fb4607672f97b8afe6a70248a90d39ecf2638af9ee3659eaa9bddb31b8563",
+      "concept_b_sha256": "2a10753582b2263137dc3f2b5ea2a225ebf1fdcbfa4a8fbc54b276dcc23b2da1"
+    },
+    {
+      "a": "ani-dog",
+      "b": "mot-path",
+      "role": "contrast",
+      "concept_a_sha256": "dc6bbd83ea1b3afbd15411fa97b64c7cf92c9b678865e07e56b10bd1b4625f8c",
+      "concept_b_sha256": "a47be6fcab3244b17e6a822ab0cde3f809cfda4247b62dfba9a3b51363d352b2"
+    },
+    {
+      "a": "phy-water",
+      "b": "qua-three",
+      "role": "contrast",
+      "concept_a_sha256": "c0e627b14e029e9e62cda355f6e56435501fb9a154bb01e982c55bc93d025b5c",
+      "concept_b_sha256": "34dcf0eab6f268fa389da86227eaeb39409e63baa30e19dea6a4675d93ddd70c"
+    },
+    {
+      "a": "agr-tree",
+      "b": "bod-eye",
+      "role": "contrast",
+      "concept_a_sha256": "4a0c8582ab087c84b9e489d7c5bcfa7b000bad12418aa9f5b7f0b473271d601d",
+      "concept_b_sha256": "0b869d6c8c393b28ed739d942f36de84f5520212b92877052c98f3702a135440"
+    },
+    {
+      "a": "mot-path",
+      "b": "mot-path-or-road",
+      "role": "catalog_overlap_control",
+      "concept_a_sha256": "a47be6fcab3244b17e6a822ab0cde3f809cfda4247b62dfba9a3b51363d352b2",
+      "concept_b_sha256": "887f8e44e98db1c20c414cca727a03d86d731f30e1bf00a78bf832cbc1707ebd"
+    },
+    {
+      "a": "bod-hair",
+      "b": "bod-hair-or-fur",
+      "role": "catalog_overlap_control",
+      "concept_a_sha256": "168f3bfc40bae9bb0aa840ae3abedcb80e54918c1419c59c33d61e13e3282d98",
+      "concept_b_sha256": "4eb2c739a923cf741d4029c8d43f88a93b7becb30f5fb269f900b9746abbe7b6"
+    },
+    {
+      "a": "bod-foot",
+      "b": "bod-foot-or-leg",
+      "role": "catalog_overlap_control",
+      "concept_a_sha256": "292068cf31dcb1d8ed77ae21099cb8634571663eac901249ba93d98e5ca44852",
+      "concept_b_sha256": "390846b7869d40c7b9001625c8caabac08cae0e3daa4bf4f7e7d0653f6218942"
+    }
+  ],
+  "evaluation": {
+    "split_units": [
+      "resource_block",
+      "family"
+    ],
+    "folds": 5,
+    "hash_seed": "arca-inference-pilot-v1",
+    "models": [
+      "pooled_laplace",
+      "pair_laplace",
+      "pair_shrinkage_10",
+      "ridge_pair_coverage"
+    ],
+    "metrics": [
+      "log_loss_bits",
+      "brier",
+      "gain_bits_vs_pooled",
+      "calibration_bins",
+      "known_family_macro_scores"
+    ],
+    "unknown": "Never negative; report coverage separately.",
+    "validation": "Recorded-identity prediction only; independent linguistic adjudication pending.",
+    "probability_floor": 1e-06
+  },
+  "bayesian_sensitivity": {
+    "unit": "One outcome-blind hashed context per known family/pair; three selection seeds.",
+    "priors": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "assumption": "Independent exchangeable family draws, accurate labels; unresolved source/contact dependence. Conditional sensitivity, not calibrated linguistic confidence."
+  },
+  "nulls": {
+    "incidence": "Whole-concept bijections stratified by POS and complete form-length profile, within scope. Preserve simple incidence degrees. Independent scope permutation is a sensitivity assumption.",
+    "replicates": 49,
+    "tail": "Plus-one empirical only. No tail extrapolation or q-values.",
+    "collision": "Controlled synthetic distributions and length-background diagnostics, not inferred homophony/polysemy."
+  },
+  "audit": {
+    "sample_per_pair_per_state": 3,
+    "states": [
+      "identity",
+      "sampled_nonmatch",
+      "unknown"
+    ],
+    "selection": "Outcome-stratified hash within each pair. Audit packet, not adjudicated gold.",
+    "review_columns": [
+      "reviewer",
+      "decision",
+      "source_evidence",
+      "sense_equivalence",
+      "reading_fidelity",
+      "lexeme_relation",
+      "notes"
+    ]
+  }
+}

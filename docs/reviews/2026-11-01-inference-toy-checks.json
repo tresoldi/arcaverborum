@@ -1,0 +1,261 @@
+{
+  "purpose": "Analytical toy checks for inference review; synthetic assumptions only, no fitted production probabilities.",
+  "measurement_nonidentifiability": [
+    {
+      "true_rate": 0.2,
+      "sensitivity": 1,
+      "false_positive_rate": 0,
+      "observed_positive_rate": 0.2
+    },
+    {
+      "true_rate": 0.4,
+      "sensitivity": 0.5,
+      "false_positive_rate": 0,
+      "observed_positive_rate": 0.2
+    },
+    {
+      "true_rate": 0,
+      "sensitivity": 1,
+      "false_positive_rate": 0.2,
+      "observed_positive_rate": 0.2
+    }
+  ],
+  "copied_successes_beta_example": [
+    {
+      "assumed_independent_successes": 1,
+      "prior": "Beta(1,1)",
+      "posterior": "Beta(2,1)",
+      "mean": 0.6666666666666666,
+      "central_95_interval": [
+        0.15811388300841897,
+        0.9874208829065749
+      ],
+      "caveat": "100 exact copies contain one stipulated independent success, not 100."
+    },
+    {
+      "assumed_independent_successes": 100,
+      "prior": "Beta(1,1)",
+      "posterior": "Beta(101,1)",
+      "mean": 0.9901960784313726,
+      "central_95_interval": [
+        0.9641353796099963,
+        0.9997493600492607
+      ],
+      "caveat": "100 exact copies contain one stipulated independent success, not 100."
+    }
+  ],
+  "heldout_log_gain_bits": [
+    {
+      "test_n": 100,
+      "positives": 3,
+      "model_p": 0.1,
+      "baseline_p": 0.01,
+      "total_gain_bits": -3.3720575190815865
+    },
+    {
+      "test_n": 100,
+      "positives": 10,
+      "model_p": 0.1,
+      "baseline_p": 0.01,
+      "total_gain_bits": 20.843963811379496
+    }
+  ],
+  "two_pairs_four_labels_permutation": {
+    "assumption": "Four labels uniformly assigned to two fixed identity groups of size two.",
+    "probability_target_pair_shares_group": 0.3333333333333333,
+    "100_exact_copies_independently_permuted_probability_all_positive": 1.940325217482622e-48,
+    "100_exact_copies_jointly_permuted_probability_all_positive": 0.3333333333333333,
+    "interpretation": "Independent randomization of dependent copies can create false extremeness. Neither null estimates semantic polysemy truth."
+  },
+  "uniform_form_collision": {
+    "10_forms": 0.1,
+    "100_forms": 0.01
+  },
+  "limitations": [
+    "All values conditional on stipulated toy models",
+    "No population sampling, human validation or production likelihood fitted",
+    "Beta example assumes exchangeable noiseless independent units after correct duplication accounting"
+  ],
+  "finite_frame_completion_bounds": {
+    "frame_scopes": 200,
+    "observed_positive": 20,
+    "observed_sampled_nonmatch": 80,
+    "unknown": 100,
+    "bounds": [
+      0.1,
+      0.6
+    ],
+    "observed_comparable_fraction": 0.2,
+    "caveat": "Identification bounds under a defined completion protocol and correct observed outcomes; not a confidence interval or world-language prevalence."
+  },
+  "measurement_assumption_bounds": {
+    "observed_positive_rate": 0.2,
+    "sensitivity_range": [
+      0.6,
+      1
+    ],
+    "false_positive_range": [
+      0,
+      0.05
+    ],
+    "latent_rate_bounds": [
+      0.15789473684210528,
+      0.33333333333333337
+    ],
+    "caveat": "Illustrative partial identification under stipulated error bounds, ignoring sampling uncertainty; ranges are not estimated from Arca."
+  },
+  "current_positive_family_resource_incidence": {
+    "frame": "Family/resource incidence of semantically eligible observed segmented identity witnesses; positive-witness subgraph only, current uncorrected classification and resource blocks.",
+    "links": 601,
+    "components": [
+      {
+        "families": 306,
+        "resources": 144
+      },
+      {
+        "families": 3,
+        "resources": 1
+      },
+      {
+        "families": 1,
+        "resources": 1
+      },
+      {
+        "families": 1,
+        "resources": 1
+      },
+      {
+        "families": 1,
+        "resources": 1
+      },
+      {
+        "families": 1,
+        "resources": 1
+      }
+    ],
+    "caveat": "Not a complete coverage-design audit. Positive subgraph already demonstrates extensive connected dependence; graph connectivity alone does not prove statistical dependence of all connected observations."
+  },
+  "bayesian_predictive_entropy_decomposition": {
+    "formula": "H(Y|D)=E_theta H(Y|theta,D)+I(Y;theta|D)",
+    "cases": [
+      {
+        "posterior": "Beta(1,1)",
+        "predictive_entropy_bits": 1.0,
+        "expected_conditional_entropy_bits": 0.7213475204444817,
+        "expected_information_about_rate_from_next_independent_trial_bits": 0.2786524795555183
+      },
+      {
+        "posterior": "Beta(2,1)",
+        "predictive_entropy_bits": 0.9182958340544896,
+        "expected_conditional_entropy_bits": 0.7213475204444817,
+        "expected_information_about_rate_from_next_independent_trial_bits": 0.19694831361000786
+      },
+      {
+        "posterior": "Beta(101,1)",
+        "predictive_entropy_bits": 0.07949044238393389,
+        "expected_conditional_entropy_bits": 0.0735106659728748,
+        "expected_information_about_rate_from_next_independent_trial_bits": 0.005979776411059096
+      }
+    ],
+    "caveat": "Under the stipulated Beta-Bernoulli model and genuinely new independent trials; no lexical frequencies, human cognition or production rates estimated."
+  },
+  "claude_prototype_counterexamples": {
+    "permutation_degree_loss": {
+      "keys": [
+        "w1",
+        "w1",
+        "w2",
+        "w2"
+      ],
+      "original_labels": [
+        "A",
+        "B",
+        "A",
+        "C"
+      ],
+      "permuted_labels": [
+        "A",
+        "A",
+        "B",
+        "C"
+      ],
+      "original_unique_group_sizes": {
+        "w1": 2,
+        "w2": 2
+      },
+      "permuted_unique_group_sizes": {
+        "w1": 1,
+        "w2": 2
+      },
+      "permutation_probability": 0.08333333333333333,
+      "code": "perm_edges.py flush: rng.shuffle(cids), groups[k].add(c)"
+    },
+    "independence_not_union_upper_bound": {
+      "marginals": [
+        0.5,
+        0.5
+      ],
+      "independent_union": 0.75,
+      "mutually_exclusive_union": 1,
+      "valid_frechet_union_bounds": [
+        0.5,
+        1
+      ]
+    },
+    "union_not_mean_chance": {
+      "two_independent_varieties_same_language_marginals": [
+        0.1,
+        0.1
+      ],
+      "any_positive_outcome_chance": 0.19,
+      "mean_baseline_chance": 0.1
+    },
+    "hill_diversity_not_independence": {
+      "two_equally_weighted_exact_copies_diversity_D2": 2,
+      "stipulated_independent_originals": 1
+    },
+    "monte_carlo_resolution": {
+      "replicates": 49,
+      "minimum_plus_one_tail_probability": 0.02,
+      "test_pairs_approx": 7300000,
+      "BH_first_rank_threshold_at_05": 6.849315068493151e-09,
+      "caveat": "Extrapolated Poisson tails need separately validated distribution and parameter uncertainty; applying BH alone does not validate them."
+    },
+    "actual_repeated_same_length_concept_examples": [
+      [
+        2,
+        "phy-burn",
+        3,
+        2
+      ],
+      [
+        2,
+        "war-bow-or-crossbow",
+        3,
+        2
+      ],
+      [
+        9,
+        "act-rest-or-sleep",
+        3,
+        2
+      ]
+    ]
+  },
+  "verified_ventureno_source_truncation": [
+    {
+      "av_id": "chb-ventureno",
+      "source_form_id": "huntergatherer_40-68_father-1",
+      "Value": "k'oko \u201cmy fa\u201d",
+      "Form": "k",
+      "Segments": "k"
+    },
+    {
+      "av_id": "chb-ventureno",
+      "source_form_id": "huntergatherer_40-118_mother-1",
+      "Value": "k'ete \u201cmy mother (but root is tete)",
+      "Form": "k",
+      "Segments": "k"
+    }
+  ]
+}
