@@ -85,7 +85,8 @@ def assets(root):
                             'colexification_publication_scope_flags', 'hg_fidelity',
                             'colexification_clics_refresh'))
                         or path.name in {'COLEXIFICATION_RESEARCH.md', 'CINF_EXECUTION_2026-11-01.md'}
-                        or 'source-inventory-2026-11-01' in path.parts):
+                        or 'source-inventory-2026-11-01' in path.parts
+                        or 'colexification_clics_refresh_2026-11-01-bundles' in path.parts):
                     selected.append((str(path.relative_to(root)), path))
     return selected, manifest
 

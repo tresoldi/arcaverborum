@@ -1,8 +1,9 @@
 # Colexification validation and fidelity execution
 
 Authorized CINF-01–05 in sequence on 2026-11-01. All five tracks received bounded execution; independent expert adjudication
-and unresolved source-evidence gates remain open. Analytical assets are prepared
-locally; canonical deployment checks are recorded separately. See [the paper record](COLEXIFICATION_RESEARCH.md)
+and unresolved source-evidence gates remain open. Analytical assets are published;
+[canonical deployment proof](cinf_publication_2026-11-01.json) records CI/Pages,
+asset checks and live browser results. See [the paper record](COLEXIFICATION_RESEARCH.md)
 and [active queue](../NEXT.md).
 
 ## CINF-01 — bounded first-pass review complete; expert gate retained
@@ -213,7 +214,7 @@ conditional. The execution's `production_graph_weights_changed=false` means
 that validation itself wrote no production weights; the separate analytical
 refresh below changes source-derived assets without using those probabilities.
 
-## CINF-05 — analytical refresh prepared; canonical deployment pending
+## CINF-05 — analytical refresh published and verified
 
 Core `3a3898b1362a5c2d2c30bf73`:42,741 segmented/42,202 written/508 reduced
 observed pairs;5,362 conservative backbone edges. Communities
@@ -240,7 +241,8 @@ SQLite on workspace disk succeeded. [Whole obsolete generations](cinf_asset_reti
 are retired only after checking active references; Git history and sealed private
 analytical builds preserve earlier evidence. Explorer plus documentation are
 approximately746MB, within the Pages budget.598 tests and eight local browser
-suites pass; canonical checks follow publication.
+suites pass; CI/Pages succeed.25,187 canonical assets plus both comparison bundle files
+match and four live browser suites pass. [Publication proof](cinf_publication_2026-11-01.json).
 
 The public catalog excludes header-only enrolled candidates, preserving genuine
 audio-only evidence. Accepted nonempty construction count stays7,366 and lexical
@@ -269,3 +271,14 @@ rows in the current registry; the scope of this repair was checked explicitly.
 The full rebuild's other three failures are catalog-absent historical/sign
 configurations with no generated lexical output; none is counted as accepted
 new data. The full preservation check above confirms no extra lexical changes.
+
+## Execution closure
+
+Data commit `2593e8720` is deployed. CI3.12/3.13 each passes596 tests with two
+optional community-library skips; local installed-build HAVE_UTF8PROC true/false
+flag states each pass598 (not two physically different normalization libraries).
+All eight local/four live browser suites pass. The canonical asset check matches
+25,187 files; both additional CLICS bundle artifacts are independently matched.
+The paper record, accepted baseline, journal, active queue and held-work register
+are reconciled. Remaining expert, notation and original-witness gates are
+scientific evidence requirements, not claims that the executed tracks are absent.

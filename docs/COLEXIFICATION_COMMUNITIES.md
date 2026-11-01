@@ -1,6 +1,6 @@
 # Exploratory global colexification communities
 
-**Prepared refresh (2026-11-01):** [bounded-influence method](COLEXIFICATION_ROBUSTNESS_2026-11-01.md)
+**Published refresh (2026-11-01):** [bounded-influence method](COLEXIFICATION_ROBUSTNESS_2026-11-01.md)
 and [executed validation/source review](research/CINF_EXECUTION_2026-11-01.md).
 Core `3a3898b1362a5c2d2c30bf73`, communities `617951c483ddc3f569627471`:
 medoid seed4,239 exploratory groups/1,610 assigned concepts from5,362 eligible

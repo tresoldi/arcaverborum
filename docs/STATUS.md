@@ -1,6 +1,6 @@
 # Current project state
 
-**CINF-01–05 follow-through (2026-11-01; publication prepared):**
+**CINF-01–05 follow-through (2026-11-01; published):**
 [execution and paper findings](research/CINF_EXECUTION_2026-11-01.md),
 [baseline](research/cinf_baseline_2026-11-01.json),
 [preservation](research/cinf_preservation_2026-11-01.json).
@@ -19,11 +19,13 @@ simpler models. No global ridge promotion or calibrated polysemy claim.
 are complete; independent expert adjudications remain zero. Exact source gates
 remain in [HELD](planning/HELD.md).
 
-Prepared analytical core `3a3898b1362a5c2d2c30bf73`:42,741 segmented/42,202 written
+Published analytical core `3a3898b1362a5c2d2c30bf73`:42,741 segmented/42,202 written
 reported pairs,5,362 backbone edges. Communities `617951c483ddc3f569627471`:
 239 groups/1,610 assigned concepts,81 runs independently checked. Experimental
 probabilities do not supply graph weights.598 tests/eight local browsers pass;
-canonical deployment verification is pending. Earlier snapshots below are
+[Publication](research/cinf_publication_2026-11-01.json):2593e8720, CI/Pages
+success;25,187 canonical assets plus both CLICS bundle files match and four live
+browser suites pass. Earlier snapshots below are
 historical, not the current accepted baseline.
 
 | Measure | Accepted value |

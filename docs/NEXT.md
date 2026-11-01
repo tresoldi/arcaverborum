@@ -4,8 +4,8 @@
 
 All five authorized tracks received bounded execution. See [the living paper
 record](research/COLEXIFICATION_RESEARCH.md), [execution](research/CINF_EXECUTION_2026-11-01.md)
-and [measured baseline](research/cinf_baseline_2026-11-01.json). Publication is
-prepared locally; canonical deployment checks are pending. Do not repropose
+and [measured baseline](research/cinf_baseline_2026-11-01.json). [Publication](research/cinf_publication_2026-11-01.json) is verified: CI/Pages
+success, canonical assets match, four live browser suites pass. Do not repropose
 source-prefix guards, isolate/pseudo-family fixes, semantic gates, catalog-overlap
 flags, the18-pair pilot, the146-case model-assisted first passes, the ten-member
 source inventory, or the76-pair streamed experiment as absent.

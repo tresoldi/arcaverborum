@@ -1,6 +1,6 @@
 # Colexification: method, evidence and bounded-memory pipeline
 
-**Current method and prepared refresh (2026-11-01):** [sense alignment and bounded-influence replication](COLEXIFICATION_ROBUSTNESS_2026-11-01.md), with [CINF-01–05 executed validation and source fidelity](research/CINF_EXECUTION_2026-11-01.md).
+**Current method and published refresh (2026-11-01):** [sense alignment and bounded-influence replication](COLEXIFICATION_ROBUSTNESS_2026-11-01.md), with [CINF-01–05 executed validation and source fidelity](research/CINF_EXECUTION_2026-11-01.md).
 Core `3a3898b1362a5c2d2c30bf73` has42,741 segmented/42,202 written/508 reduced
 observed pairs and5,362 eligible backbone edges. BAG–WITCH is absent. All native
 records remain;326 guarded source spellings are repaired,109 supplied phonemic

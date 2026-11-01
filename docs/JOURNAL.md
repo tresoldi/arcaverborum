@@ -24,8 +24,9 @@ communities617951…:42,741 segmented/42,202 written pairs,5,362 backbone edges,
 comparisons and concept-entry chunks. Fixed optional catalog-relation CSV export,
 retained fields, archived failed execution evidence.598 tests/eight local browsers
 pass. Complete obsolete asset generations retired with active-reference checks;
-site/docs approximately746MB. Publication prepared; canonical deployment checks
-are pending. Preserve [remaining evidence gates](planning/HELD.md); do not repeat
+site/docs approximately746MB. [Publication](research/cinf_publication_2026-11-01.json):2593e8720 pushed;
+CI41347968692 and Pages41347968596 succeed;25,187 canonical assets and both
+CLICS bundle files match, four live browser suites pass. Preserve [remaining evidence gates](planning/HELD.md); do not repeat
 completed experiments as future tasks.
 
 ## 2026-10-31 — Automatic concept entries tables

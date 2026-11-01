@@ -1,5 +1,5 @@
 {
-  "status": "Prepared and locally verified; canonical deployment pending",
+  "status": "Published; data CI, Pages, canonical assets and live browsers verified",
   "freeze_commit": "a092afbbd",
   "implementation_commit": "f3e152877",
   "analytical_build": "3a3898b1362a5c2d2c30bf73",
@@ -70,5 +70,68 @@
   ],
   "full_context_and_prediction_artifacts": "Local sealed files; manifest and numerical summaries published",
   "independent_expert_adjudications": 0,
-  "experimental_probabilities_used_for_production_weights": false
+  "experimental_probabilities_used_for_production_weights": false,
+  "data_commit": "2593e8720efd8dfb84dd61f8a175a8ac747656dd",
+  "ci": {
+    "id": 41347968692,
+    "conclusion": "success",
+    "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41347968692",
+    "python_versions": [
+      "3.12",
+      "3.13"
+    ],
+    "passed_per_version": 596,
+    "optional_skips_per_version": 2
+  },
+  "pages": {
+    "id": 41347968596,
+    "conclusion": "success",
+    "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41347968596"
+  },
+  "canonical_assets": {
+    "base_url": "https://arcaverborum.org/",
+    "analytical_build_id": "3a3898b1362a5c2d2c30bf73",
+    "community_spec": {
+      "url": "data/colexification-communities/617951c483ddc3f569627471/manifest.json",
+      "bytes": 520888,
+      "sha256": "78203b298246318fc084606a0e0533c60a960ce0cb3c7d58385e850080ad4cb6"
+    },
+    "checked_assets": 25187,
+    "failures": [],
+    "all_match": true
+  },
+  "canonical_comparison_bundle": [
+    {
+      "name": "report.csv",
+      "url": "colexification_clics_refresh_2026-11-01-bundles/ac9bfb087a643664e8b1cb6f/report.csv",
+      "bytes": 8205253,
+      "sha256": "59215868596436da082fc788d44ff63244a86e004dbe56ec0ed19c0b2cc4f269",
+      "match": true
+    },
+    {
+      "name": "report.json",
+      "url": "colexification_clics_refresh_2026-11-01-bundles/ac9bfb087a643664e8b1cb6f/report.json",
+      "bytes": 87327,
+      "sha256": "ac9bfb087a643664e8b1cb6ff7b779c9adc7413fb49a5a025bd4c19df4da7c34",
+      "match": true
+    }
+  ],
+  "live_browsers": {
+    "research": {
+      "returncode": 0,
+      "seconds": 14.292988374014385
+    },
+    "concept_entries": {
+      "returncode": 0,
+      "seconds": 8.979566280031577
+    },
+    "colexification": {
+      "returncode": 0,
+      "seconds": 11.481240066932514
+    },
+    "colexification_communities": {
+      "returncode": 0,
+      "seconds": 8.582095337915234
+    }
+  }
 }
