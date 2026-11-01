@@ -1,0 +1,63 @@
+{
+  "implementation_commit": "a1379a1d28950ef622ccb056ce49104714f6f8f1",
+  "canonical": "https://arcaverborum.org/",
+  "ci": {
+    "run": 41306535566,
+    "status": "success"
+  },
+  "pages": {
+    "run": 41306535590,
+    "status": "success"
+  },
+  "verified_artifacts": [
+    {
+      "path": "docs/research/COLEXIFICATION_RESEARCH.md",
+      "url": "https://arcaverborum.org/docs/research/COLEXIFICATION_RESEARCH.md",
+      "sha256": "ed9334c4f2371bd5c4d6a29ec9c8884d786aeaecf953db0e1acaa620bf36adf6",
+      "bytes": 18347
+    },
+    {
+      "path": "docs/research/colexification_pilot_results_2026-11-01.json",
+      "url": "https://arcaverborum.org/docs/research/colexification_pilot_results_2026-11-01.json",
+      "sha256": "667d9674ad28833ad98ed7279e9e58f14a03908f52b2e8a82edde57d7b907159",
+      "bytes": 784881
+    },
+    {
+      "path": "docs/research/colexification_pilot_verification_2026-11-01.json",
+      "url": "https://arcaverborum.org/docs/research/colexification_pilot_verification_2026-11-01.json",
+      "sha256": "7fedf8135426a92f171d0d3ee7ad4d5f055e693b56eddb3f4a46a9a157960ee7",
+      "bytes": 6724
+    },
+    {
+      "path": "docs/research/colexification_inference_simulations_2026-11-01.json",
+      "url": "https://arcaverborum.org/docs/research/colexification_inference_simulations_2026-11-01.json",
+      "sha256": "768d9c7cc82c402853649f1ed4c023cbd19f73ec81d4286867114710f5694fcf",
+      "bytes": 2260
+    },
+    {
+      "path": "docs/research/colexification_review_packet_2026-11-01.json",
+      "url": "https://arcaverborum.org/docs/research/colexification_review_packet_2026-11-01.json",
+      "sha256": "4a3d879d89f8b0c6e6d06e9173c4a0225820e6e6a0f1c7e7591f0e16f94a0bab",
+      "bytes": 1700
+    },
+    {
+      "path": "docs/research/colexification_pilot_execution_2026-11-01.json",
+      "url": "https://arcaverborum.org/docs/research/colexification_pilot_execution_2026-11-01.json",
+      "sha256": "287d6ba6c27b06eaf813a0b936ae550625c550688bf810bd54a0762bca3f8551",
+      "bytes": 4178
+    },
+    {
+      "path": "web/colexification.js",
+      "url": "https://arcaverborum.org/colexification.js",
+      "sha256": "8df46bc5a9d3c76c24da7da5f22dd3f9feb2886679dadcb528cea38462f189ff",
+      "bytes": 27423
+    },
+    {
+      "path": "web/data/manifest.json",
+      "url": "https://arcaverborum.org/data/manifest.json",
+      "sha256": "c77c63bb6c6ed846e49f03b80f3e8050d2c6d2e93d88472ec89d567fed0f7b2d",
+      "bytes": 83511
+    }
+  ],
+  "status": "Research documentation, numerical diagnostic summaries and optional status-label code published. Explorer analytical data manifest unchanged; corrected core and full context/review artifacts remain local."
+}

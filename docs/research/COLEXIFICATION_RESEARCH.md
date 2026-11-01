@@ -31,7 +31,7 @@ from 49 permutations and unvalidated Poisson tail extrapolation.
 ## Frozen exploratory protocol
 
 Machine-readable protocol:
-[src/arcaverborum/data/colexification/inference_protocol.json](../../src/arcaverborum/data/colexification/inference_protocol.json).
+[frozen machine-readable protocol](https://github.com/tresoldi/arcaverborum/blob/a1379a1d28950ef622ccb056ce49104714f6f8f1/src/arcaverborum/data/colexification/inference_protocol.json).
 Initial SHA256: `f21134924d34e2e259441fec272dbf8a880ca1c4c77bf99df8be89652cecf371`.
 Created before running the corrected-core pilot. Earlier papers, reviews and old
 corpus outcomes informed pair selection; this is not discovery-blind registration.
@@ -91,6 +91,7 @@ an assessment of reviewer disagreement and source dependence.
 The corrected sealed core is `346e40d2896330f6afc55400`; the recorded pilot is
 `output/colexification-inference/2026-11-01-v1-1`. [Complete results](colexification_pilot_results_2026-11-01.json),
 [execution/provenance ledger](colexification_pilot_execution_2026-11-01.json),
+[implementation-version publication checks](colexification_pilot_publication_2026-11-01.json),
 [independent SQL/score verification](colexification_pilot_verification_2026-11-01.json),
 [secondary role diagnostics](colexification_pilot_role_diagnostics_2026-11-01.json).
 
@@ -315,3 +316,38 @@ priors, seeds, model versions, memory limits and code. Do not treat CLICS as an
 independent gold standard when source material overlaps. Report Americas and
 small-family consequences explicitly. No cognitive or historical explanation
 follows merely from a statistically unusual or stable network cluster.
+
+
+## Implementation version and literature anchors
+
+The implementation, original reviews, frozen protocol and full pilot results are
+versioned at commit `a1379a1d28950ef622ccb056ce49104714f6f8f1`. Subsequent closure
+edits add provenance and references without changing the analysis. Exact file
+hashes and runtime versions remain authoritative for replication.
+
+These references motivate separate parts of the design; they do not collectively
+validate this implementation or prescribe its modelling assumptions:
+
+- [CLICS²](https://doi.org/10.1515/lingty-2018-0010),
+  [CLICS³](https://doi.org/10.1038/s41597-019-0341-x),
+  [CLICS⁴](https://aclanthology.org/2025.iwcs-main.1/): comparable lexical evidence,
+  provenance and network construction.
+- [Snee & List 2026](https://doi.org/10.15475/calcip.2026.1.2): detailed missing-data
+  treatment in colexification comparisons.
+- [Domagalski, Neal & Sagan 2021](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244363):
+  different bipartite null constraints answer different projection questions.
+- [Gneiting & Raftery 2007](https://doi.org/10.1198/016214506000001437): proper
+  predictive scores and their relationship to information measures.
+- [Talts et al.](https://arxiv.org/abs/1804.06788),
+  [Bayesian Workflow](https://arxiv.org/abs/2011.01808): computational calibration,
+  predictive checking and model criticism, distinct from real-data validation.
+- [Houlsby et al. 2011](https://arxiv.org/abs/1112.5745): information-based data
+  acquisition; adapting it to source review needs a reviewer/observation model.
+- [Peixoto 2018](https://doi.org/10.1103/PhysRevX.8.041011): structured Bayesian
+  network reconstruction with uncertain measurements; a research option requiring
+  justified generative structure here.
+- [Pimentel et al. 2021](https://arxiv.org/abs/2109.13766),
+  [Brochhagen & Boleda 2022](https://doi.org/10.1016/j.cognition.2022.105179):
+  homophony baseline sensitivity and nontrivial semantic expectations.
+- [Gfeller et al. 2025](https://arxiv.org/abs/2510.13407): family-specific
+  phylogenetic investigation as a future, separately validated research track.

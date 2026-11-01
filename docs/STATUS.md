@@ -9,9 +9,9 @@ reported pairs;5,362 backbone edges. All2,119,818 lexical records and aggregate
 bytes unchanged. Source-prefix holds now3,921 across102 varieties; four reviewed
 catalog-overlap pairs withheld from clustering. The18-pair pilot covers98,784
 potential contexts/28,633 comparable/1,383 positives and retains70,151 unknowns.
-146 review cases prepared; zero independent linguistic adjudications. Prediction
-and reference Bayesian/null diagnostics are experimental and offline; deployed
-analytical assets remain the published snapshot described below. No experimental
+146 review cases prepared; zero independent linguistic adjudications. Inference was computed offline; research summaries/reference diagnostics are
+published with the paper record, while full context/review files remain local.
+Deployed analytical assets remain the published snapshot below. No experimental
 probabilities or significance labels enter the public explorer.
 
 **Colexification v2 robustness (2026-11-01):** [research, corrections, mathematical

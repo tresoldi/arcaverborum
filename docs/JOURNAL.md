@@ -1151,7 +1151,19 @@ these are stipulated examples, not Arca error-rate estimates.
 nonmatch/54unknown;18South America/9North America). Score/outcome/role-blinded,
 hash-ordered worksheet includes original readings, frozen definitions and native
 senses; separate analyst key and source hashes. Actual independent adjudications:0.
-Outputs remain offline; no experimental probabilities or significance enter the
-explorer. NEXT/STATUS/README point to the paper record and remaining review,
+Full context/review outputs and corrected core remain local; research summaries
+and reference diagnostics are published with the record. No experimental probabilities
+or significance enter the explorer. NEXT/STATUS/README point to the paper record and remaining review,
 questionnaire, source-genealogy and broader-protocol gates. Original Oct31 review
 drafts are unrelated pre-existing untracked files and are preserved.
+
+
+Research closure: implementation commit `a1379a1d28950ef622ccb056ce49104714f6f8f1`
+pushed; CI41306535566 succeeds on Python3.12/3.13 (587passed/2optional skips each),
+local589 passed. Pages41306535590 succeeds. [Canonical proof](research/colexification_pilot_publication_2026-11-01.json)
+checks8 implementation-version artifacts including the unchanged live analytical
+manifest. This documentation-only closure adds the implementation permalink,
+primary-literature anchors and explicit publication scope; no estimator or
+analytical input changes. Frozen CSV bytes retain RFC4180 CRLF; whitespace check
+accepts CR at EOL without changing the recorded registry hash. Source records,
+failed experiments and unrelated pre-existing Oct31 drafts are preserved.

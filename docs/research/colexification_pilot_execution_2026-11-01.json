@@ -72,7 +72,7 @@
     "ruff": "passed",
     "javascript_syntax": "passed"
   },
-  "publication": "Research outputs and corrected core are offline; deployed network remains the preceding snapshot. No experimental probability or significance wired into UI.",
+  "publication": "Research summaries and reference-model diagnostics are published with the paper record. Full context/prediction/review files and corrected core remain local. Explorer analytical data and weights remain the preceding published snapshot.",
   "review_packet": {
     "path": "output/colexification-inference/review-2026-11-01-v2",
     "cases": 146,
@@ -91,5 +91,24 @@
     "scripts/verify_colexification_inference.py": "f6a835ad489ddcdd66152261fe9e04dbd6bba5a19bdcc1a378c1ffaf9971aeee",
     "scripts/simulate_colexification_inference.py": "4e9620821936ec1f365bf752cc97eefbbb4e11ec805ce7934a443cbdf1b8118d",
     "scripts/prepare_colexification_review.py": "a055ef891261c03755fe8df57eb12cd9fa52fcad0fd14f7c3a8b5ca37e1fbad0"
+  },
+  "implementation_commit": "a1379a1d28950ef622ccb056ce49104714f6f8f1",
+  "remote_validation": {
+    "commit": "a1379a1d28950ef622ccb056ce49104714f6f8f1",
+    "ci": {
+      "run": 41306535566,
+      "status": "success",
+      "python_versions": [
+        "3.12",
+        "3.13"
+      ],
+      "passed_per_version": 587,
+      "skipped_per_version": 2
+    },
+    "pages": {
+      "run": 41306535590,
+      "status": "success"
+    },
+    "canonical_artifacts_verified": 8
   }
 }
