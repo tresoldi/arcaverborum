@@ -1,5 +1,43 @@
 # Active expansion queue
 
+## Proposed whole-project cycle —2026-11-02
+
+[Detailed proposal, tradeoffs and first gates](planning/PROJECT_NEXT_2026-11-02.md),
+[fresh read-only measurements](planning/project_next_metrics_2026-11-02.json).
+Planning only; the recommendation request does not authorize a new data batch.
+Recommended order:
+
+1. **PROJ-01 — Source-faithful depth and authority.** Start with Wa’ikhana /
+   Huber–Reed Piratapuyo:57 supported core slots and86 screened additional
+   candidates, not86 verified gains. Resolve original notation/sample/senses and
+   shared ancestry with HGN/Chacon. Then extend original evidence for Ampari,
+   Cayuga and Isthmus Zapotec primary review, excluding their completed cohorts.
+2. **PROJ-02 — Original-source geographic depth.** Transcribe the acquired Bove1883
+   Yagán section; review a northeastern Brazilian historical section and an
+   attributable African/RefLex cohort. Rotate into Asian/New Guinea/Torricelli
+   sources only after exact-source selection. Protect Etruscan/Elamite gates;
+   complete archives, ethnonyms and absent-code leads are not new admissions.
+3. **PROJ-03 — Native senses and WordNet.** Freeze50 high-use/ambiguous concept
+   reviews, strengthen source-native meaning/POS/context and retain unmapped
+   dictionary senses.190 active concepts have accepted WordNet links; do not
+   force the rest into English equivalences or propagate links into lexical data.
+4. **PROJ-04 — Observation scopes and linguistic review.** Use the six known
+   publication-scope flags and146 existing model reviews to specify witness/
+   edition/dialect units and a source-visible local adjudication workflow.
+   Expert gold is still zero; defer further model complexity until real validation.
+5. **PROJ-05 — Cognacy/morphology integrity.** Refresh the existing source audit,
+   select proven namespace/alignment/slice anomalies, and build provenance-rich
+   cognator/regulae fixtures. Raw labels absent from structured tables are leads,
+   not automatically errors; no blanket cross-source cognate merger.
+6. **PROJ-06 — Whole-collection release and research usability.** Prepare a dated
+   reproducible All accepted release with source-specific terms, recipes and
+   changes, distinct from historical Core0.1.0. Refine existing provenance and
+   review/export flows; maps and concept-entry tables are already implemented.
+
+Prioritize the first three over another colexification model. Existing CINF,
+regional and source-specific gates below remain the implementation evidence;
+none is reopened merely because it appears in a fresh ranking.
+
 ## CINF-01–05 execution and remaining evidence gates
 
 All five authorized tracks received bounded execution. See [the living paper
@@ -90,7 +128,8 @@ Next evidence-led work, proposed after closure:
    Kaimbulawa and Wotu promotions are complete; Lepcha still needs original
    stage/reading review. Etruscan and Elamite remain protected priorities.
 
-**Publication capacity:** the refreshed deployment is about985MB. Check the measured
+**Publication capacity:** the last CINF site/docs measurement is about746MB,
+after retiring complete obsolete generations;985MB was the earlier regional snapshot. Check the measured
 site size before another substantial expansion. Retain immutable generations
 selectively; move large versioned analytical downloads to suitable storage before
 accepted lexical growth exceeds the Pages budget. Do not silently publish a

@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [CINF-01–05,2026-11-01](../research/CINF_EXECUTION_2026-11-01.md):326 spelling repairs,109 phonemic recoveries, independent model review and a76-pair bounded-memory study; simpler models win sampled panels, no confidence promotion. Published analytical/source refresh and explicit expert/source gates.
+
 * [Colexification v2,2026-11-01](../COLEXIFICATION_ROBUSTNESS_2026-11-01.md):95 incorrect assignments cleared, all native records preserved; source-sense eligibility, bounded influence, family/resource replication,81 model runs and explicit uncertainty. [Metrics](../colexification_robustness_metrics_2026-11-01.json).
 
 * [Regional R00–R09,2026-11-01](../REGIONAL_EXECUTION_2026-11-01.md):64 records/47 supported core slots, newly explicit17-noun Shinekhen written pilot, three original LexiRumah primary promotions retaining119 GLED records, complete11,457-row Mongolic edition and explicit zero-admission regional gates. [Metrics](../regional_summary_2026-11-01.json).
@@ -44,6 +46,8 @@ so packet links and source references remain stable. A historical shortlist or
   [Realized metrics](../africa_expansion_summary_2026-10-28.json).
 
 ## Planning investigations
+
+* [Whole-project priorities,2026-11-02](../planning/PROJECT_NEXT_2026-11-02.md): fresh additive/GLED/reviewed/missing-member diagnostics; lexical depth and original sources first, then senses, observation review, cognacy and reproducible release. Planning only; no new admissions.
 
 * [Worldwide original sources after R,S01–S09,2026-10-30](../WORLDWIDE_AFTER_R_SOURCE_PLAN_2026-10-30.md): actual RefLex payload audit, new original dictionary/CLDF/workbook acquisitions and source-specific profile gates; planning only, accepted data unchanged.
 

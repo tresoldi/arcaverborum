@@ -1,5 +1,23 @@
 # Project journal and working memory
 
+## 2026-11-02 — Whole-project next-cycle planning
+
+Refreshed read-only additive, GLED-alternative, reviewed-source-choice and missing-
+member reports against the CINF baseline.6,837 overlapping additive member leads,
+603 South American/901 American;2,325 GLED alternatives. Wa’ikhana's Huber–Reed
+Piratapuyo member now screens86 additional core candidates against57 supported,
+requiring original notation/sample/sense and derivative-genealogy review. Only
+Ampari has a raw positive-net supplied-reading alternative; existing finite
+Ampari/Cayuga/Zapotec evidence and held gates remain distinct from promotion.
+WordNet still has190 concepts with accepted links. Proposed PROJ-01–06 spans
+source depth, original-source geography, native senses/WordNet, observation review,
+cognacy/morphology and an All accepted release/research workflow. Prefer lexical
+work over another colexification model. [Plan](planning/PROJECT_NEXT_2026-11-02.md),
+[measurements](planning/project_next_metrics_2026-11-02.json). No accepted data,
+source choice, mapping, network or application changes; execution awaits approval.
+Updated NEXT and corrected its stale985MB capacity note to the last746MB CINF
+measurement; retained the earlier history and exact holds.
+
 ## 2026-11-01 — CINF-01–05 validation, source fidelity and analytical refresh
 
 All five authorized tracks received bounded execution; [paper/execution record](research/CINF_EXECUTION_2026-11-01.md).

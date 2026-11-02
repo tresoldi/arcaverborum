@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-02",
+  "status": "planning_only_no_lexical_admissions",
+  "baseline": {
+    "accepted_nonempty_constructions": 7366,
+    "aggregate_metadata_rows": 7367,
+    "records": 2119818,
+    "supported_core": 470116,
+    "mapped_core": 544347,
+    "supported_all": 1209287,
+    "mapped_all": 1337327,
+    "segment_sources": {
+      "source": 1749823,
+      "unclean": 159860,
+      "resegmented": 187957,
+      "profile": 22178
+    },
+    "gled_primaries": 1552,
+    "note": "One header-only enrolled prototype remains metadata, excluded from public accepted-language count. 217 source spellings explicitly lack a supported phonetic reading; original lexical evidence retained."
+  },
+  "analytical_build": "3a3898b1362a5c2d2c30bf73",
+  "additive_report": {
+    "accepted_targets_with_gaps": 7345,
+    "member_opportunities": 6837,
+    "south_american_opportunities": 603,
+    "american_opportunities": 901,
+    "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+    "source_policy": "Valid supplied/upstream-converted segments count as source-reading potential, not independent IPA certification. Resegmented spelling is orthographic potential, never supported evidence.",
+    "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report."
+  },
+  "gled_member_alternatives": 2325,
+  "gled_raw_positive_net_members": [
+    {
+      "av_id": "dog-ampari-dogon",
+      "source": "heathdogon",
+      "source_language_id": "heathdogon_Ampari",
+      "baseline_clean_core": "51",
+      "candidate_source_clean_core": "73",
+      "clean_core_gained": "31",
+      "clean_core_lost": "9"
+    }
+  ],
+  "reviewed_source_choice_rows": 197,
+  "missing_member_leads": 737,
+  "wordnet": {
+    "catalog_concepts": 3828,
+    "coverage": {
+      "review": 2365,
+      "source_association": 1202,
+      "accepted": 190,
+      "merged": 39,
+      "unlinked": 32
+    },
+    "links": {
+      "source_association:association": 1236,
+      "accepted:related": 10,
+      "accepted:broader": 28,
+      "accepted:exact": 141,
+      "accepted:narrower": 14
+    },
+    "candidates": 10791,
+    "concepticon_bridge_rows_verified": 1372,
+    "oewn_version": "2025",
+    "princeton_version": "3.0",
+    "relation_direction": "Arca to target: broader means target broader; narrower means target narrower",
+    "scope": "Frozen concept catalog only; no lexical record or native unmapped sense is remapped"
+  },
+  "top_additive_candidates": [
+    {
+      "rank": "1",
+      "av_id": "tuc-wa-ikhana",
+      "source": "hubercolumbian",
+      "source_language_id": "hubercolumbian_Piratapuyo",
+      "supported_core": "57",
+      "additive_source_core_potential": "86",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "2",
+      "av_id": "lul-lule",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Lule",
+      "supported_core": "79",
+      "additive_source_core_potential": "45",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "3",
+      "av_id": "arb-madi",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Jamamadi",
+      "supported_core": "118",
+      "additive_source_core_potential": "33",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "4",
+      "av_id": "tah-taushiro",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Taushiro",
+      "supported_core": "97",
+      "additive_source_core_potential": "32",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "5",
+      "av_id": "tuc-wa-ikhana",
+      "source": "chaconcolumbian",
+      "source_language_id": "chaconcolumbian_Piratapuyo",
+      "supported_core": "57",
+      "additive_source_core_potential": "30",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "6",
+      "av_id": "pum-pume",
+      "source": "idssegmented",
+      "source_language_id": "idssegmented_yaruro",
+      "supported_core": "127",
+      "additive_source_core_potential": "28",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "7",
+      "av_id": "pan-cashinahua",
+      "source": "amazonianvoices",
+      "source_language_id": "amazonianvoices_cashinahuahunikuin",
+      "supported_core": "79",
+      "additive_source_core_potential": "27",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "8",
+      "av_id": "peb-yagua",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Yagua",
+      "supported_core": "129",
+      "additive_source_core_potential": "27",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "9",
+      "av_id": "car-panare",
+      "source": "idssegmented",
+      "source_language_id": "idssegmented_panare",
+      "supported_core": "129",
+      "additive_source_core_potential": "26",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "10",
+      "av_id": "car-panare",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Enapaworomaipu",
+      "supported_core": "129",
+      "additive_source_core_potential": "26",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "11",
+      "av_id": "hui-minica-huitoto",
+      "source": "hubercolumbian",
+      "source_language_id": "hubercolumbian_WitotoMinica",
+      "supported_core": "120",
+      "additive_source_core_potential": "26",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    },
+    {
+      "rank": "12",
+      "av_id": "hui-nupode-huitoto",
+      "source": "hubercolumbian",
+      "source_language_id": "hubercolumbian_WitotoNipode",
+      "supported_core": "120",
+      "additive_source_core_potential": "26",
+      "orthographic_core_potential": "0",
+      "blockers": "source_member_identity_review;sense_review"
+    }
+  ],
+  "files": {
+    "output/report/project_next_2026-11-02.csv": {
+      "sha256": "ba99afc49a89589a73c374bb79d69dc847955cb0afee12f6dd3036d915e31134",
+      "bytes": 4833648
+    },
+    "output/report/project_next_2026-11-02.json": {
+      "sha256": "19216d8d1472a9c34c3489e3f4f2ec14d70bd41bad0a902a3b78510a482596a9",
+      "bytes": 657
+    },
+    "output/report/project_next_gled_2026-11-02.csv": {
+      "sha256": "d7c68a07b1aec45f8bede094b0402f5fcf196c8d04e5dc77f8909dcd507a030b",
+      "bytes": 1003993
+    },
+    "output/report/project_next_reviewed_2026-11-02.csv": {
+      "sha256": "ee1203ac05715be6b588e765f963de428a2cc34c9226cbe2a736e1b52d784512",
+      "bytes": 31410
+    },
+    "output/report/project_next_missing_2026-11-02.csv": {
+      "sha256": "b3c2fe5d65dcdc7da5333ea99b47d54d0a5a6fbbc6bccf0c0f169b6b5890c68e",
+      "bytes": 227194
+    }
+  },
+  "interpretation": "Potential member rows overlap. Raw segments and count differences do not certify phonetics, identity, senses or independence. Existing holds require original evidence; no promotion follows from this report.",
+  "accepted_snapshot_inputs": {
+    "web_manifest_sha256": "e8c34a81a548098b9b530c2c5ca98521ac8a3a50fd95d06a884c623f53524f51",
+    "aggregate_forms_sha256": "d149a73f96544472615baccf0868457f02b089671ee46a30c363f13534619d4e",
+    "wordnet_summary_sha256": "763fee900a3e31e7179e50b108232d4109fba9ea2c59b8ebc3870ab52454e332"
+  }
+}

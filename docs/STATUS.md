@@ -1,5 +1,9 @@
 # Current project state
 
+Next-cycle planning: [whole-project proposal,2026-11-02](planning/PROJECT_NEXT_2026-11-02.md)
+and [fresh diagnostics](planning/project_next_metrics_2026-11-02.json). No accepted
+lexical, source-selection or analytical changes are part of that planning pass.
+
 **CINF-01–05 follow-through (2026-11-01; published):**
 [execution and paper findings](research/CINF_EXECUTION_2026-11-01.md),
 [baseline](research/cinf_baseline_2026-11-01.json),
