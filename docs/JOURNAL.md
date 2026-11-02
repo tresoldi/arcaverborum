@@ -18,7 +18,10 @@ UraLex's exact declaration is now bound; three missing declarations remain.
 A13,230-record four-source subset is [public](https://github.com/tresoldi/arcaverborum/releases/tag/reviewed-sources-2026-11-02),
 separately from the private All accepted RC4 candidate. Both archives reproduce
 identically and remote asset hashes/sizes match. Anonymous public bytes pass.
-[Release receipts](releases/README.md); canonical explorer verification follows deployment. NXT-05 remains explicitly deferred.
+[Release receipts](releases/README.md); [canonical explorer verification](research/nxt_publication_2026-11-02.json)
+checks all25,262 assets with no mismatch.
+[Live/CI checks](research/nxt_verification_2026-11-02.json) pass. Data `2ca6d8de2`,
+publication `e61cdd48e`; final closure changes documentation only. NXT-05 remains explicitly deferred.
 Historical proposals/metrics below retain their original observation dates.
 
 ## 2026-11-02 — Next cycle after PROJ publication (planning only)

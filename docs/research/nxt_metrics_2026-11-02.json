@@ -210,5 +210,102 @@
   },
   "public_reviewed_release": true,
   "full_collection_remains_private": true,
-  "local_download_and_affected_data_browser_checks": true
+  "local_download_and_affected_data_browser_checks": true,
+  "publication_commit": "e61cdd48e1a8ae411cbe6fc4489f5373752bf414",
+  "canonical_assets_verified": 25262,
+  "canonical_all_match": true,
+  "live_browser_suites": {
+    "research": {
+      "returncode": 0,
+      "seconds": 15.778978977003135
+    },
+    "concept_entries": {
+      "returncode": 0,
+      "seconds": 8.930571642005816
+    },
+    "colexification": {
+      "returncode": 0,
+      "seconds": 11.622329795034602
+    },
+    "colexification_communities": {
+      "returncode": 0,
+      "seconds": 8.959949461976066
+    },
+    "wordnet": {
+      "returncode": 0,
+      "seconds": 4.399385074037127
+    },
+    "specific": {
+      "returncode": 0,
+      "seconds": 36.056113063008524
+    },
+    "download": {
+      "returncode": 0,
+      "seconds": 3.353848329046741
+    },
+    "review": {
+      "returncode": 0,
+      "seconds": 1.4154414189979434
+    }
+  },
+  "core_database_sha256": "e4571d8238a8f979bce32e75a1c0ec688b67a180f899f33df653be377a5d1d92",
+  "core_stats": {
+    "input_records": 2120263,
+    "readings_written": 1682122,
+    "readings_segmented": 1483083,
+    "inferred_witnesses": 11902,
+    "excluded_reconstruction": 18528,
+    "excluded_segment_identity": 203521,
+    "excluded_unmapped": 326590,
+    "excluded_written_identity": 85219,
+    "readings_reduced": 80754,
+    "excluded_merged": 2085,
+    "excluded_source_extraction_prefix": 3595,
+    "excluded_reviewed_reconstruction": 1,
+    "duplicate_readings": 17,
+    "excluded_doubtful": 2005,
+    "excluded_held_washo_prefix_reading": 101,
+    "witnesses": 259495,
+    "edges": 85463,
+    "quarantined_identities": 2,
+    "concepts": 3828,
+    "active_concepts": 3789,
+    "networks": [
+      {
+        "layer": "reduced",
+        "kind": "observed",
+        "edges": 508
+      },
+      {
+        "layer": "segmented",
+        "kind": "inferred",
+        "edges": 6
+      },
+      {
+        "layer": "segmented",
+        "kind": "observed",
+        "edges": 42741
+      },
+      {
+        "layer": "written",
+        "kind": "inferred",
+        "edges": 6
+      },
+      {
+        "layer": "written",
+        "kind": "observed",
+        "edges": 42202
+      }
+    ],
+    "semantic_readings": {
+      "reviewed_dictionary_sense": 5070,
+      "source_mapping": 3193114,
+      "unreviewed_dictionary_sense": 47775
+    },
+    "backbone_edges": 5362
+  },
+  "analytical_peak_rss_mib": 113.05078125,
+  "analytical_address_space_limit_mib": 256,
+  "memory_qualification": "Analytical commands only; separate lexical intake/web builds use more memory.",
+  "site_bytes": 631863030
 }

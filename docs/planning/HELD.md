@@ -2,7 +2,9 @@
 
 **NXT closure gates,2026-11-02:** [execution](../research/NXT_EXECUTION_2026-11-02.md).
 The seven BECAUSE OF/BEAD/husband-side kinship/A LITTLE definition cases are
-resolved from native lineage without lexical remapping. Older six-conflict holds
+resolved from native lineage without lexical remapping. The573 exposed lexical
+assignments are not individually certified by these catalog corrections; inspect
+original entry senses/context before any proposed remapping. Older six-conflict holds
 below are historical. Current WordNet queue:2,393 pending,22 held,24 inventory gaps.
 **ANIMAL** newly held: inherited definition erroneously gives animals cell walls;
 resolve biological wording and original human-inclusion elicitation before a link.

@@ -10,7 +10,8 @@ WordNet links. Five named constructions add423 records (four language-level
 identities and Kallawaya specialist register);18 further Kipeá citations yield
 441 additions. These are accepted outputs, no longer missing-language candidates.
 UraLex terms are bound and a separately scoped four-source download is published.
-Publication verification is the remaining closure step for this authorized batch.
+[Publication](research/nxt_publication_2026-11-02.json) and
+[verification](research/nxt_verification_2026-11-02.json) close the authorized batch.
 
 **NXT-05 is deferred by the user.** Do not start cognator/regulae diagnostics,
 new control expansion or a confidence-model experiment without renewed direction.
@@ -21,6 +22,9 @@ Future work is proposed, not automatically authorized:
    inventory gaps. Resolve ANIMAL's original elicitation scope and invalid cell-wall
    definition before accepting a target. Keep typed relations and native meanings
    separate;34 same-model prior-link checks are not an estimated error rate.
+   The573 assignments exposed by the seven definition cases still need native
+   lexical-sense review where scope is uncertain; correcting definitions does not
+   certify every earlier headword assignment.
 2. **Original reading authority:** exact Huber–Reed Wa’ikhana notation, distinct
    Ampari samples, expanded Cayuga/Zapotec authorities and the original Yasa edition
    remain the gates below. Written evidence does not become IPA through tokenizing.

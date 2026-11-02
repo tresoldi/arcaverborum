@@ -451,3 +451,9 @@ absence establishes noncolexification. NXT-05 method/control expansion was defer
 by the user. Expert gold remains zero. Historical CINF pilot results stay frozen;
 [verified private cache recovery](nxt_private_cache_recovery_2026-11-02.json)
 documents compressed historical indexes without changing their logical content.
+
+NXT publication receipt: [canonical bytes](nxt_publication_2026-11-02.json) and
+[verification](nxt_verification_2026-11-02.json). The lexical and semantic refresh
+is published with unchanged extraction/weighting, preserving all positive witness
+identities. No deferred diagnostic, control expansion or confidence-method result
+is implied by deployment or test success.

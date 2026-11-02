@@ -1,0 +1,182 @@
+{
+  "data_commit": "2ca6d8de2b4bc3503d3d6e1ba607e746baf009fb",
+  "publication_commit": "e61cdd48e1a8ae411cbe6fc4489f5373752bf414",
+  "actions": {
+    "data_commit": "2ca6d8de2b4bc3503d3d6e1ba607e746baf009fb",
+    "publication_commit": "e61cdd48e1a8ae411cbe6fc4489f5373752bf414",
+    "data_ci": {
+      "databaseId": 41453258063,
+      "headSha": "2ca6d8de2b4bc3503d3d6e1ba607e746baf009fb",
+      "conclusion": "success",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41453258063",
+      "jobs": [
+        {
+          "name": "test (3.12)",
+          "conclusion": "success"
+        },
+        {
+          "name": "test (3.13)",
+          "conclusion": "success"
+        }
+      ]
+    },
+    "data_pages": {
+      "databaseId": 41453257797,
+      "headSha": "2ca6d8de2b4bc3503d3d6e1ba607e746baf009fb",
+      "conclusion": "success",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41453257797",
+      "jobs": [
+        {
+          "name": "build",
+          "conclusion": "success"
+        },
+        {
+          "name": "deploy",
+          "conclusion": "success"
+        }
+      ]
+    },
+    "publication_ci": {
+      "databaseId": 41453768242,
+      "headSha": "e61cdd48e1a8ae411cbe6fc4489f5373752bf414",
+      "conclusion": "success",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41453768242",
+      "jobs": [
+        {
+          "name": "test (3.13)",
+          "conclusion": "success"
+        },
+        {
+          "name": "test (3.12)",
+          "conclusion": "success"
+        }
+      ]
+    },
+    "publication_pages": {
+      "databaseId": 41453768292,
+      "headSha": "e61cdd48e1a8ae411cbe6fc4489f5373752bf414",
+      "conclusion": "success",
+      "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41453768292",
+      "jobs": [
+        {
+          "name": "build",
+          "conclusion": "success"
+        },
+        {
+          "name": "deploy",
+          "conclusion": "success"
+        }
+      ]
+    }
+  },
+  "ci_tests_per_python": {
+    "3.12": {
+      "passed": 616,
+      "skipped_optional": 2
+    },
+    "3.13": {
+      "passed": 616,
+      "skipped_optional": 2
+    }
+  },
+  "local_log_receipts": {
+    "pytest-native.log": {
+      "sha256": "6541acc62eea2b534ba1bd6e34d1052e8b5d21d675956f9c802364513adcac20",
+      "tail": "618 passed, 99 warnings in 12.33s"
+    },
+    "pytest-fallback.log": {
+      "sha256": "f59c7cbdf366d537fa36ac0d06d5d7f1829b2ce7a72c21186a6a8c3ac812b631",
+      "tail": "618 passed, 99 warnings in 15.42s"
+    },
+    "browser-specific.log": {
+      "sha256": "c140413b8e84c52d6fcd8e6210ce12cb3db1ef5b8ad8e2302019e92e1139d549",
+      "tail": "NXT six construction counts, seven native-lineage definitions,1350 linked concepts, mobile width and JS errors: pass"
+    },
+    "browser-review.log": {
+      "sha256": "11afe1e976a32e504000655acc038171f0957c0e78394f861b2561d9eacbe1fc",
+      "tail": "Both workspaces: source rendering, guarded model-assisted export, validation, mobile width and no JS errors pass"
+    },
+    "browser-download.log": {
+      "sha256": "6a1ad334b5ca76e504d1248e69f3987adaf3cb46f03fac975b9dbe83c58fcbd7",
+      "tail": "Download page: scope, four source terms, mobile width, real archive download SHA256 and explorer links pass"
+    },
+    "wordnet-final-tests.log": {
+      "sha256": "cb70c9de166c24d1b0a49d8707f7104b86f8f7c58240fbb975882379985294b4",
+      "tail": "9 passed in 1.34s"
+    }
+  },
+  "local_explorer_suites": {
+    "research": {
+      "returncode": 0,
+      "seconds": 14.327868566964753
+    },
+    "concept_entries": {
+      "returncode": 0,
+      "seconds": 6.2696620100177824
+    },
+    "colexification": {
+      "returncode": 0,
+      "seconds": 8.973996844957583
+    },
+    "colexification_communities": {
+      "returncode": 0,
+      "seconds": 7.804730485077016
+    },
+    "colexification_robustness": {
+      "returncode": 0,
+      "seconds": 3.271401128033176
+    },
+    "mixed_source": {
+      "returncode": 0,
+      "seconds": 18.1469521910185
+    },
+    "wordnet": {
+      "returncode": 0,
+      "seconds": 4.192044855910353
+    },
+    "romance": {
+      "returncode": 0,
+      "seconds": 6.442410410032608
+    }
+  },
+  "live_browser_suites": {
+    "research": {
+      "returncode": 0,
+      "seconds": 15.778978977003135
+    },
+    "concept_entries": {
+      "returncode": 0,
+      "seconds": 8.930571642005816
+    },
+    "colexification": {
+      "returncode": 0,
+      "seconds": 11.622329795034602
+    },
+    "colexification_communities": {
+      "returncode": 0,
+      "seconds": 8.959949461976066
+    },
+    "wordnet": {
+      "returncode": 0,
+      "seconds": 4.399385074037127
+    },
+    "specific": {
+      "returncode": 0,
+      "seconds": 36.056113063008524
+    },
+    "download": {
+      "returncode": 0,
+      "seconds": 3.353848329046741
+    },
+    "review": {
+      "returncode": 0,
+      "seconds": 1.4154414189979434
+    }
+  },
+  "live_review_workspaces": 2,
+  "positive_witnesses_unchanged": true,
+  "selected_community_partition_reproduced": true,
+  "full_collection_bulk_private": true,
+  "nxt05_deferred_by_user": true,
+  "qualification": "Same installed merkmal library, two normalization flag paths; model-assisted curation is not independent expert gold. Canonical receipt verifies the publication revision; later closure changes documentation only."
+}

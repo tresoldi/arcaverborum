@@ -185,3 +185,20 @@ Six affected construction counts and seven definitions pass an additional browse
 check. Both existing review workspaces pass source rendering, guarded model-assisted
 export validation and mobile width; expert gold remains zero. Final canonical
 explorer-byte verification is recorded after download-page deployment.
+
+### Canonical publication verified
+
+[Canonical receipt](nxt_publication_2026-11-02.json) verifies all25,262 selected
+active/research/release assets against publication commit `e61cdd48e1a8ae411cbe6fc4489f5373752bf414`:
+zero mismatches. This includes every active analytical graph/community/concept-row
+file, lexical family shard, WordNet sidecar, review workspace, release manifest and
+maintained document selected by the verifier. [Test/browser/CI receipt](nxt_verification_2026-11-02.json):
+five live explorer suites, affected-data checks, real download and both source-visible
+review workspaces pass. Python3.12/3.13 CI passes616 tests with two optional skips each;
+local618-test runs exercise both installed normalization flag paths. Pages is green.
+The closure commit adds these receipts and current documentation; it changes no
+accepted lexical rows, source policy, release bytes, analysis or site application.
+
+The authorized five tracks are closed with their explicit remaining evidence gates.
+NXT-05 remains deferred. Independent expert gold remains zero; no new calibrated
+confidence or source-free pronunciation claims were introduced.

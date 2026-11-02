@@ -1,6 +1,6 @@
 # Current project state
 
-**NXT-01–04 and NXT-06,2026-11-02 — accepted data rebuilt; release public, explorer deployment verification in progress.**
+**NXT-01–04 and NXT-06,2026-11-02 — published and verified.**
 [Execution and qualifications](research/NXT_EXECUTION_2026-11-02.md),
 [metrics](research/nxt_metrics_2026-11-02.json),
 [preservation](research/nxt_preservation_2026-11-02.json).
@@ -44,7 +44,12 @@ private: Kogan Semitic, Williamson Benue-Congo and legacy English Wiktionary sti
 lack exact declarations, and other source terms have not all been freshly audited.
 [Release documentation](releases/README.md) records the byte-reproduced public
 subset and private RC4 uploads. The [public subset](https://github.com/tresoldi/arcaverborum/releases/tag/reviewed-sources-2026-11-02)
-has passed anonymous archive-byte verification. Full canonical explorer verification follows deployment.
+has passed anonymous archive-byte verification. [Canonical publication](research/nxt_publication_2026-11-02.json) verifies all
+25,262 active/research/release assets against the publication revision.
+[Verification](research/nxt_verification_2026-11-02.json): five live explorer suites,
+affected-data/download checks and both review workspaces pass; CI on Python3.12/3.13
+passes616 tests with two optional skips each. Data commit `2ca6d8de2`; publication
+commit `e61cdd48e`. The follow-up closure commit changes documentation only.
 
 Everything below is historical; use the block above and NEXT for current state.
 
