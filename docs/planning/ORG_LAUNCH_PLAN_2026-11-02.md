@@ -176,22 +176,20 @@ queue, NXT-05, new expansion) start before then. The `A` baseline is data commit
   - `editors.csv` feeds Zenodo *contributors* (not creators), `CITATION.cff`,
     and the explorer's "editors of this variety".
 - **Branch protection on `master`** applies to **everyone including Tiago**:
-  changes go through PRs and CI must pass.
-  - **Bootstrap:** while Tiago is the only editor, no approving review is
-    required. GitHub doesn't allow authors to approve their own PRs, and a
-    fake review would mean nothing.
-  - Required code-owner review is switched on when the first author joins.
-    From then on, Tiago's PRs need one other editor's approval.
-  - A variety with a language editor needs their approval; otherwise any
-    editor's approval is enough. An editor changing their own variety needs
-    another editor's approval.
-  - Cross-cutting files (`src/`, the concept catalog, schema) need the
-    maintainer or a layer editor.
+  changes go through PRs and **CI must pass**; no approving review is required
+  (decided 2026-11-02). Authors may merge their own PRs once CI is green.
+  GitHub cannot record a self-approval, so this is implemented as "PR + green
+  CI", not as a required review.
+  - CODEOWNERS still **auto-requests** the relevant language editors, so they
+    see every change to their varieties and families.
+  - Expected practice, not enforced: a change to a variety with a language
+    editor waits for that editor; cross-cutting files (`src/`, the concept
+    catalog, schema) go through the maintainer or a layer editor.
   - **Procedures, not automation:**
     - If a language editor doesn't respond for **30 days**, the maintainer may
       override with a reason stated in the PR.
     - The `bulk/mechanical` label covers pipeline-wide non-curatorial changes,
-      which the maintainer may approve alone. Only the maintainer applies the
+      which the maintainer may merge without waiting for language editors. Only the maintainer applies the
       label. Changes to a language's source choice or readings always need its
       language editor.
 - **AI:** AI-assisted work is welcome; the PR author owns every changed record.
@@ -253,14 +251,14 @@ RC4 accepted records by declared licence (226 sources):
 | 4 | Snapshot exporter (dependency closure + read-outside test); full re-derivation proof; schema-A release builder with three tiers and CLDF validation; new Zenodo metadata | Claude |
 | 5 | Stage trees: clean main repo with `docs/evidence/` and rewritten references; `site` and `live` with pull-based deploys; `.github` (profile, CONTRIBUTING, AI policy, CoC, templates); `editors.csv` + CODEOWNERS generator; PR template with CI check | Claude |
 | 6 | Review the staged trees | Tiago |
-| 7 | Create all repos **private**; push single initial commits (Tiago's `gh` login, no trailers); bootstrap branch protection; deploy secrets | Claude |
+| 7 | Create all repos **private**; push single initial commits (Tiago's `gh` login, no trailers); branch protection (PR + green CI); deploy secrets | Claude |
 | 8 | Real acceptance test: a contributor PR from a second account (download snapshot → edit a variety → PR → CI rebuild) | Claude + Tiago (second account) |
 | 9 | Cut `A-<date>`; verify assets, tiers and the re-derivation | Claude |
 | 10 | Deploy both sites under their default Pages URLs; verify; make public repos public | Claude |
 | 11 | DNS cutover for `arcaverborum.org` and `live.arcaverborum.org`; switch off the old repo's Pages | Tiago |
 | 12 | Prepend the deprecation notice to the old README; archive `tresoldi/arcaverborum` | Claude |
 | 13 | Private checksummed archive of `raw/curation/` on the NAS | Tiago (laptop) |
-| 14 | Invite and confirm authors as org members; assign scopes in `editors.csv`; switch on required code-owner review | Tiago + Claude |
+| 14 | Invite and confirm authors as org members; assign scopes in `editors.csv` (CODEOWNERS review requests) | Tiago + Claude |
 | 15 | Letters to the Kogan Semitic and Williamson Benue-Congo rights holders | Tiago |
 | 16 | Authors' first look → fixes as PRs → release `A-<later date>` → mint Zenodo; pointer on the old Zenodo record | all |
 | 17 | Paper draft in `arcaverborum/paper` | Tiago + Claude |
