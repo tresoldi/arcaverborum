@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "collection": "Reviewed sources",
+  "review_date": "2026-11-02",
+  "sources": [
+    {
+      "source": "uralex",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "upstream_version": "tresoldi/uralex@6b3667f770e709ebe4aa3426f8fffb9a0a818323",
+      "authority_url": "https://raw.githubusercontent.com/tresoldi/uralex/6b3667f770e709ebe4aa3426f8fffb9a0a818323/README.md",
+      "attribution": "Vesakoski, Outi; Tresoldi, Tiago; Soosaar, Sven-Erik; de Heer, Mervi; Maurits, Luke; Syrjänen, Kaj; Honkola, Terhi; Dunn, Michael, and UraLex contributors. Uralic basic vocabulary with cognate and loanword information. Pinned repository 6b3667f770e709ebe4aa3426f8fffb9a0a818323. Native source bibliography and form references retained. Also cite the introducing paper: Vesakoski et al., Unravelling the disintegration patterns and chronology of the Uralic language family.",
+      "local_authorities": [
+        {
+          "path": "raw/lexibank/uralex/README.md",
+          "sha256": "119f0e36a121122fb7d2a5697027afde75424d8e494c09c8d5666821f382e8aa"
+        },
+        {
+          "path": "raw/lexibank/uralex/.zenodo.json",
+          "sha256": "328c9cca2f84be33186cd91acd9624755fcc46d891cda2a03318949f43f702a7"
+        },
+        {
+          "path": "docs/research/nxt_uralex_terms_binding_2026-11-02.json",
+          "sha256": "9010d73a3549f6df439bdba449c873c8e2c6cfa15b457f3d53585ec9f3bf5c4d"
+        }
+      ],
+      "modifications": "Arca selection, normalization, semantic mapping and source-scoped cognacy preservation; exact original values/forms bound in the review."
+    },
+    {
+      "source": "lexirumahoriginal",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "upstream_version": "lessersunda/lexirumah-data@e10af03128094a19ae62de32c14753869acaddbd",
+      "authority_url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/cldf-metadata.json",
+      "attribution": "Kaiping, Gereon A., Owen Edwards and Marian Klamer (eds.).2019. LexiRumah3.0.1. Leiden University Centre for Linguistics. Individual collectors and source citations remain attached to rows.",
+      "local_authorities": [
+        {
+          "path": "raw/curation/after-r-planning/lessersunda-lexirumah-data/cldf/cldf-metadata.json",
+          "sha256": "19740d506edf0ec7f64256e15cfc6699265a3ee1e868b3eb859dbaf6df1d5936"
+        }
+      ],
+      "modifications": "Arca source-preserving transport, exact member selection, finite source-specific interpretation and reviewed semantic mappings; upstream profile conversions are not newly elicited IPA; automatic cognacy is not imported as expert evidence."
+    },
+    {
+      "source": "wiktionaryfr202610",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "upstream_version": "823fa6f488e23850075747762d946c730c798d971e93b37fe645863b8f25e377",
+      "authority_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/en#7._Licensing_of_Content",
+      "additional_authority": "https://fr.wiktionary.org/wiki/mimi#Kallawaya",
+      "attribution": "French Wiktionary contributors; individual page/history attribution URLs retained in original entry provenance. Extraction via Kaikki/Wiktextract; cite Tatu Ylonen.2022. Wiktextract: Wiktionary as Machine-Readable Structured Data. LREC2022,1317–1325.",
+      "local_authorities": [
+        {
+          "path": "src/arcaverborum/data/wiktionary_editions.json",
+          "sha256": "58a4a3d487e5eb331fa680e7c2ae3a8eb71ed65e42d147d2a54a0658f77e8cec"
+        }
+      ],
+      "dump_date": "2026-10-01",
+      "extraction_started": "2026-10-23",
+      "extract_log_sha256": "27277c881977206d140a95daff2d11602373169313a855b58732c7d700b0c693",
+      "modifications": "Arca accepted-entry selection, normalization and reviewed native-sense decisions. Text records and modifications to Wiktionary material are redistributed under CC BY-SA4.0. No source media files are included. Native sound fields are retained without assuming IPA from spelling.",
+      "observed_footer_license": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+      "footer_page_revision": "https://fr.wiktionary.org/w/index.php?title=mimi&oldid=39338924"
+    },
+    {
+      "source": "kipeaoriginal",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "upstream_version": "Mamiani1699-original-sha256:6f16698914150853778c8a68a6f8e2bc460f234f8ca39994565a43a554cbf923",
+      "authority_url": "https://digital.bbm.usp.br/handle/bbm/7692",
+      "attribution": "Mamiani, Luigi Vincenzo.1699. Arte de grammatica da lingua brasilica da naçam Kiriri. Lisboa: Miguel Deslandes. Exact printed/PDF page locators accompany each independently authored Arca transcription.",
+      "local_authorities": [
+        {
+          "path": "docs/research/nxt_kipea_review_2026-11-02.csv",
+          "sha256": "0b0b33ca6a5f4ec709da59f452c0fc68203e0ed8f83c3aa11fd53e9fc00b046e"
+        }
+      ],
+      "modifications": "Independent Arca printed-image transcription/curation is CC BY4.0, not a relicensing of the BBM scan. Underlying1699 printed text is public domain; scan files are not packaged. Model assistance is explicit in new citations."
+    }
+  ],
+  "supporting_documents": [
+    "docs/research/nxt_uralex_terms_binding_2026-11-02.json",
+    "docs/research/nxt_habun_profile_authority_2026-11-02.json",
+    "docs/research/nxt_concept_lineage_2026-11-02.json"
+  ],
+  "conceptual_terms": {
+    "concepts": "Concepticon contributors, CC BY4.0, with separately identified Arca corrections. Concepticon source and Arca concept hashes are retained in the lineage record. https://concepticon.clld.org/",
+    "wordnet": "OEWN2025 CC BY4.0; CILI CC BY4.0-or-later; Princeton WordNet3.0 license and full notice in concepts/wordnet/sources.json. Original resource citations and hashes remain there.",
+    "arca_annotations": "CC BY4.0 except adaptations of Wiktionary material, which retain CC BY-SA4.0. Code remains MIT."
+  },
+  "exclusion_policy": "Only accepted rows from these reviewed sources, and no unreviewed cross-source cognacy payloads. All other sources excluded from this particular collection regardless of whether their terms are missing, restrictive or simply not yet reviewed. No blanket terms assessment for the whole explorer.",
+  "remaining_full_collection_gates": [
+    "kogansemitic",
+    "wiktionary",
+    "williamsonbenuecongo"
+  ]
+}

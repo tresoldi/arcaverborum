@@ -1,0 +1,32 @@
+{
+  "protected_earlier_records": 2119822,
+  "earlier_lexical_constructions": 7364,
+  "additions": {
+    "atl-anyin-morofo": 189,
+    "kri-kipea": 18,
+    "len-toba-enenlhet": 5,
+    "map-habun": 213,
+    "pan-reyesano": 9,
+    "spe-kallawaya": 7
+  },
+  "added_records": 441,
+  "accepted_records": 2120263,
+  "lexical_constructions": 7369,
+  "segment_sources": {
+    "source": 1750036,
+    "unclean": 160092,
+    "resegmented": 187957,
+    "profile": 22178
+  },
+  "slots": {
+    "mapped_all": 1337427,
+    "supported_all": 1209325,
+    "mapped_core": 544414,
+    "supported_core": 470153
+  },
+  "all_earlier_values_forms_readings_mappings_cognacy_alignments_unchanged": true,
+  "explicitly_qualified_earlier_comments": 1,
+  "aggregate_forms_sha256": "ae98f758b8b1dedfc6f1f92d1da7e239e0ae2c5833c96a05bad438c0cb92f26f",
+  "baseline_sha256": "f42e821199feaf86bfe4a4d1a1a7fba4a4430102dc06dac7463ac5836907baf8",
+  "qualification": "One explicitly scoped comment qualifies an earlier accent reading; all other earlier fields and every original lexical assignment remain byte-equivalent as parsed CSV values. New construction counts distinguish four languages and one register."
+}

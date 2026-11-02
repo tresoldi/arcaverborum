@@ -1,0 +1,80 @@
+{
+  "reviewer_type": "model_assisted_second_scope_check",
+  "changes": [
+    {
+      "concept_id": "clo-bead",
+      "target_id": "oewn-02818206-n",
+      "before": {
+        "relation": "narrower",
+        "rationale": "WordNet requires a ball with a hole; the source-lineage corrected decorative object concept also admits other shapes or attachment. Target is narrower, not pearl."
+      },
+      "after": {
+        "relation": "related",
+        "rationale": "Arca decorative beads need not be spherical or pierced; WordNet small pierced balls need not be decorative. These crossing criteria establish overlap, not containment. The inherited pearl association is not accepted equivalence."
+      }
+    },
+    {
+      "concept_id": "act-tie",
+      "target_id": "oewn-01357376-v",
+      "before": {
+        "relation": "exact",
+        "rationale": "Connecting two or more pieces; Arca does not require a rope or a knot."
+      },
+      "after": {
+        "relation": "narrower",
+        "rationale": "Connecting or fastening pieces is a physical reading within the unrestricted Arca connection-of-things definition; rope and knot are not required by this target."
+      }
+    },
+    {
+      "concept_id": "bod-arm",
+      "target_id": "oewn-05571403-n",
+      "before": {
+        "relation": "narrower",
+        "rationale": "WordNet explicitly describes a human arm; Arca upper-limb definition does not specify humans exclusively."
+      },
+      "after": {
+        "relation": "related",
+        "rationale": "WordNet combines technical upper-arm and common whole-limb usages and specifies humans; Arca describes a full upper limb with variable inclusion of the hand. Crossing region/species boundaries do not establish containment."
+      }
+    },
+    {
+      "concept_id": "ani-animal",
+      "target_id": "oewn-00015568-n",
+      "before": {
+        "relation": "exact",
+        "rationale": "Biological animal category rather than the adjective carnal."
+      },
+      "after": {
+        "decision": "hold_catalog_biological_definition_conflict"
+      }
+    },
+    {
+      "concept_id": "bod-medicine",
+      "target_id": "oewn-03745652-n",
+      "before": {
+        "relation": "broader",
+        "rationale": "Medicinal substances include prevention and symptom relief, whereas Arca specifies promotion of healing."
+      },
+      "after": {
+        "relation": "related",
+        "rationale": "Disease treatment/prevention and any substance promoting healing have crossing scopes: prevention need not promote healing, while healing may concern injuries rather than disease. Overlap alone does not prove containment."
+      }
+    },
+    {
+      "concept_id": "foo-swallow",
+      "target_id": "oewn-01204494-v",
+      "before": {
+        "relation": "narrower",
+        "rationale": "Physical swallowing of food/drink is within the human reflex category; excludes figurative acceptance and expression suppression."
+      },
+      "after": {
+        "relation": "related",
+        "rationale": "WordNet restricts to eating/drinking but does not specify humans; Arca specifies a human reflex and does not restrict the swallowed object to food/drink. Crossing participant/object restrictions preclude one-direction containment."
+      }
+    }
+  ],
+  "qualification": "Same-model internal correction, not independent expert adjudication; crossing restrictions must not be summarized as a one-direction containment. These are draft curation corrections, not an estimated corpus error rate.",
+  "new_catalog_hold": "ani-animal",
+  "animal_definition_authority": "https://openstax.org/books/biology/pages/27-1-features-of-the-animal-kingdom",
+  "animal_scope_note": "Scientific wording and elicitation scopes (including human exclusion) require separate decisions; no lexical row is deleted or remapped."
+}

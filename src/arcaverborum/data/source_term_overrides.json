@@ -1,0 +1,16 @@
+[
+  {
+    "source": "uralex",
+    "expected_metadata_sha256": "1528e9eed9e771d87e0dd7557c0e4f27795deb05aac96f48266333c2060cc769",
+    "expected_accepted_records": 9968,
+    "accepted_binding_sha256": "9d6d718b23de36785b310ce7f52056529ecd1509b8bdf0f5a6f02ddf1ca8b200",
+    "evidence_document": "docs/research/nxt_uralex_terms_binding_2026-11-02.json",
+    "evidence_document_sha256": "9010d73a3549f6df439bdba449c873c8e2c6cfa15b457f3d53585ec9f3bf5c4d",
+    "updates": {
+      "License": "https://creativecommons.org/licenses/by/4.0/",
+      "URL": "https://github.com/tresoldi/uralex",
+      "Repository_Version": "tresoldi/uralex@6b3667f770e709ebe4aa3426f8fffb9a0a818323",
+      "Citation": "Vesakoski, Outi; Tresoldi, Tiago; Soosaar, Sven-Erik; de Heer, Mervi; Maurits, Luke; Syrjänen, Kaj; Honkola, Terhi; Dunn, Michael, and UraLex contributors. Uralic basic vocabulary with cognate and loanword information. Pinned repository 6b3667f770e709ebe4aa3426f8fffb9a0a818323. Native source bibliography and form references retained. Also cite the introducing paper: Vesakoski et al., Unravelling the disintegration patterns and chronology of the Uralic language family."
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "resources": [
+    {
+      "path": "raw/curation/nxt-2026-11-02/profiles/manatuto",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/manatuto",
+      "sha256": "53cb959609979dd76d16b0944d9bf75596d8afb31c950a55b9f7f0d5a1c488d4"
+    },
+    {
+      "path": "raw/curation/nxt-2026-11-02/profiles/general",
+      "url": "https://raw.githubusercontent.com/lessersunda/lexirumah-data/e10af03128094a19ae62de32c14753869acaddbd/cldf/p/general",
+      "sha256": "3e7fd5aae031fb34dd61708963d1454b5f7ae53fd026f70a2e872c5d4b9afdb5"
+    }
+  ],
+  "member": "lexirumahoriginal_habu1241",
+  "collector": "Virginia Dawson",
+  "year": 2014,
+  "collection": "Manatuto survey word lists",
+  "collection_catalogue": "https://catalog.paradisec.org.au/collections/VD1",
+  "source_location": "Cribas",
+  "reading_basis": "upstream_profile_conversion",
+  "qualification": "Original author source spelling, normalized Form and upstream Segments remain distinct. These profile resources document the pinned upstream convention, not a new supplied-IPA elicitation. Generic profile contains alternatives and is not re-applied as an unreviewed first-choice conversion."
+}

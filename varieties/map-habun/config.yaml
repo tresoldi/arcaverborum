@@ -1,0 +1,25 @@
+av_id: map-habun
+name: Habun (Cribas)
+glottocode: habu1241
+family: Austronesian
+macroarea: Papunesia
+sources:
+  transcription: lexirumahoriginal
+  cognates: lexirumahoriginal
+  source_language_id: lexirumahoriginal_habu1241
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-11-02'
+notes: NXT-03 exact Habun Cribas member, Dawson2014 Manatuto survey and pinned p/manatuto
+  convention. Native source spelling and upstream profile-converted segments retained
+  separately; no supplied-author-IPA or expert cognacy claim. Literal source sense
+  reviewed against frozen definition; unresolved mappings retained unmapped.

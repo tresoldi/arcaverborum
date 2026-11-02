@@ -141,7 +141,8 @@ def test_original_manifest_identity_and_resources_are_unique():
         assert all(len(r['sha256']) == 64 for r in spec['resources'])
 
 
-def test_facsimile_review_requires_image_locator_and_pins_native_transcription(tmp_path, monkeypatch):
+@pytest.mark.parametrize('model_assisted', [False, True])
+def test_facsimile_review_requires_image_locator_and_pins_native_transcription(tmp_path, monkeypatch, model_assisted):
     row = dict(native_id='M1', resource_key='pdf', member='M', Form='written', source_sense='water',
                raw_quote='water — written', pdf_page='2', source_image_xref='3',
                source_image_sha256='a' * 64, transcription_locator='noun column, water line', decision='admit')
@@ -149,6 +150,10 @@ def test_facsimile_review_requires_image_locator_and_pins_native_transcription(t
     native.update(pdf_page=2, source_image_xref=3, source_image_sha256='a' * 64,
                   transcription_locator=row['transcription_locator'],
                   transcription_basis='Independent historical manuscript image review')
+    if model_assisted:
+        row['reviewer_type'] = 'model_assisted_visual_review'
+        native.update(reviewer_type=row['reviewer_type'], source_medium='printed_facsimile',
+                      transcription_basis='Model-assisted original printed facsimile image review')
     row['native_sha256'] = source.digest(native)
     path = tmp_path / 'review.csv'
 

@@ -36,6 +36,11 @@ def tokens(value):
     return set(re.findall(r'[a-z]+', normalized(value))) - STOP
 
 
+def retrieval_label(value):
+    """Treat compound separators alike for retrieval, never as sense evidence."""
+    return re.sub(r'\s+', ' ', re.sub(r'[-‐‑–]', ' ', normalized(value))).strip()
+
+
 def write_csv(path, rows, fields):
     with path.open('w', encoding='utf-8', newline='') as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator='\n')
@@ -100,7 +105,7 @@ def build(raw, output, fetch=False):
     for sid, row in synsets.items():
         definition_index[normalized(row['definition'])].add(sid)
         for lemma in row['lemmas']:
-            lemma_index[normalized(lemma.replace('_', ' '))].add(sid)
+            lemma_index[retrieval_label(lemma.replace('_', ' '))].add(sid)
         termsets[sid] = tokens(row['definition'] + ' ' + ' '.join(row['lemmas']))
         for term in termsets[sid]:
             inverted[term].add(sid)
@@ -122,7 +127,7 @@ def build(raw, output, fetch=False):
         if concept['status'] == 'active':
             labels = {normalized(concept['label'].replace('_', ' '))}
             labels |= {normalized(x.strip()) for x in re.split(r' / | or |\(|\)', concept['label']) if x.strip()}
-            direct = set().union(*(lemma_index.get(label, set()) for label in labels))
+            direct = set().union(*(lemma_index.get(retrieval_label(label), set()) for label in labels))
             exact_defs = definition_index.get(normalized(concept['definition']), set())
             cterms = tokens(concept['label'] + ' ' + concept['definition'])
             denominator = max(1, sum(idf.get(t, 0) for t in sorted(cterms)))

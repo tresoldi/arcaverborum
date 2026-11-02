@@ -1,0 +1,84 @@
+{
+  "scope": "Printed section I, pp1–6 / PDF21–26, including all running lexical examples and exclusions, not the whole grammar or section II.",
+  "earlier_records_retained": 20,
+  "new_written_citations": 18,
+  "new_mapped_citations": 6,
+  "page_image_anchors": [
+    {
+      "printed_page": 1,
+      "pdf_page": 21,
+      "source_image_xref": 432,
+      "source_image_sha256": "038c4414f0d1b6e5f9ab8818e39093fd2a4ab0f78f22479d9d15175f8464aeb8"
+    },
+    {
+      "printed_page": 2,
+      "pdf_page": 22,
+      "source_image_xref": 438,
+      "source_image_sha256": "be33cef28dffba71c28d4001fca80ed66f0702606cd5608b0f2a8fc40b39f7b9"
+    },
+    {
+      "printed_page": 3,
+      "pdf_page": 23,
+      "source_image_xref": 444,
+      "source_image_sha256": "6373df83270adcb4c43aec73454c95e73dfcdacbebbefd9afb001dea5494d4de"
+    },
+    {
+      "printed_page": 4,
+      "pdf_page": 24,
+      "source_image_xref": 450,
+      "source_image_sha256": "66ee4d2a5411414f0074e2b44e836d657e8106a2e45a6d2fa9d84358e36414cb"
+    },
+    {
+      "printed_page": 5,
+      "pdf_page": 25,
+      "source_image_xref": 456,
+      "source_image_sha256": "95637da0fedc11a6e7aacb35d4f6c967147587368b72d1e5fc91e3ab01e617d7"
+    },
+    {
+      "printed_page": 6,
+      "pdf_page": 26,
+      "source_image_xref": 462,
+      "source_image_sha256": "21671f5b72636dbfde27df51fe8b3bdddd9fc9a57be06d93f50d3c77709d9661"
+    }
+  ],
+  "holds_and_exclusions": [
+    {
+      "printed_page": 1,
+      "item": "alphabet and letter names",
+      "decision": "not_lexical_entries"
+    },
+    {
+      "printed_page": 2,
+      "item": "Inhuræ/Inhurræ; Kitçi/Kirçi",
+      "decision": "hold_exact_glyph_collation"
+    },
+    {
+      "printed_page": 3,
+      "item": "Portuguese jogo/Janella examples and metalinguistic I/Y descriptions",
+      "decision": "not_Kipea_citations"
+    },
+    {
+      "printed_page": 4,
+      "item": "Mŷghŷ; previously accepted Buyê accent",
+      "decision": "hold_additional_or_changed_accent_reading",
+      "note": "Existing three p4 citations retained unchanged; no claim that the older Buyê accent is independently resolved."
+    },
+    {
+      "printed_page": 5,
+      "item": "Bæ, De",
+      "decision": "hold_unglossed_grammatical_examples"
+    },
+    {
+      "printed_page": 5,
+      "item": "Tekiébæ; Tçohóhéde/Tçohóhehéde",
+      "decision": "hold_exact_glyph_and_compound_collation"
+    },
+    {
+      "printed_page": 6,
+      "item": "Woyên, Tapuyas bravos",
+      "decision": "hold_ethnonym_and_source_scope"
+    }
+  ],
+  "duplicate_witness_policy": "Hietçã on pp5 and6 is admitted once, not counted as two independent lexical observations.",
+  "transcription_qualification": "Model-assisted original printed-image review; image hashes anchor witnesses but do not independently verify authored text."
+}

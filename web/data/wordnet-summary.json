@@ -1,20 +1,20 @@
 {
   "catalog_concepts": 3828,
   "coverage": {
-    "accepted": 1123,
-    "review": 1720,
-    "unlinked": 37,
-    "source_association": 909,
+    "accepted": 1350,
+    "review": 1660,
+    "unlinked": 44,
+    "source_association": 735,
     "merged": 39
   },
   "links": {
-    "accepted:related": 89,
-    "accepted:exact": 617,
-    "accepted:narrower": 208,
-    "accepted:broader": 219,
-    "source_association:association": 963
+    "accepted:related": 99,
+    "accepted:exact": 768,
+    "accepted:narrower": 243,
+    "accepted:broader": 258,
+    "source_association:association": 838
   },
-  "candidates": 17016,
+  "candidates": 16979,
   "concepticon_bridge_rows_verified": 1372,
   "oewn_version": "2025",
   "princeton_version": "3.0",

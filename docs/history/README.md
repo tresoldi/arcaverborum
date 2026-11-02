@@ -1,5 +1,7 @@
 # Completed work and historical evidence
 
+* [NXT-01–04/06,2026-11-02](../research/NXT_EXECUTION_2026-11-02.md):441 new records, four language-level identities and one specialist register; seven source-traced definitions,235 typed WordNet links, continuous Kipeá section collation and a reviewed-source release. NXT-05 deferred by user. [Metrics](../research/nxt_metrics_2026-11-02.json).
+
 Use [STATUS](../STATUS.md) for the current baseline and [NEXT](../NEXT.md) for
 active proposals. Reports and companion CSV/JSON files retain their dated paths
 so packet links and source references remain stable. A historical shortlist or

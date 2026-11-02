@@ -1,0 +1,70 @@
+{
+  "cohorts": [
+    {
+      "av_id": "pan-reyesano",
+      "intake_rows": 9,
+      "admitted": 9,
+      "mapped_records": 8,
+      "decisions": {
+        "admit": 9
+      },
+      "classification": "Pano-Tacanan"
+    },
+    {
+      "av_id": "spe-kallawaya",
+      "intake_rows": 7,
+      "admitted": 7,
+      "mapped_records": 1,
+      "decisions": {
+        "admit": 7
+      },
+      "classification": "Speech Register"
+    },
+    {
+      "av_id": "len-toba-enenlhet",
+      "intake_rows": 6,
+      "admitted": 5,
+      "mapped_records": 5,
+      "decisions": {
+        "admit": 5,
+        "hold_native_typo_pos_or_language_name": 1
+      },
+      "classification": "Lengua-Mascoy"
+    },
+    {
+      "av_id": "map-habun",
+      "intake_rows": 216,
+      "admitted": 213,
+      "mapped_records": 38,
+      "decisions": {
+        "admit": 213,
+        "hold_original_entry_note_or_elicitation_ambiguity": 3
+      },
+      "classification": "Austronesian"
+    },
+    {
+      "av_id": "atl-anyin-morofo",
+      "intake_rows": 763,
+      "admitted": 189,
+      "mapped_records": 30,
+      "decisions": {
+        "outside_selected_noun_pronoun_cohort": 565,
+        "admit": 189,
+        "hold_native_typo_pos_or_language_name": 3,
+        "hold_multiple_senses_require_individual_scope": 6
+      },
+      "classification": "Atlantic-Congo"
+    }
+  ],
+  "identity_authorities": [
+    "https://glottolog.org/resource/languoid/id/reye1240",
+    "https://glottolog.org/resource/languoid/id/call1235",
+    "https://glottolog.org/resource/languoid/id/toba1268",
+    "https://glottolog.org/resource/languoid/id/habu1241",
+    "https://glottolog.org/resource/languoid/id/anyi1244"
+  ],
+  "new_named_constructions": 5,
+  "new_language_level_identities": 4,
+  "new_specialist_registers": 1,
+  "qualification": "Admission counts pending affected builds; exact-code absence does not alone establish missing languages. The French edition has no sound data in the three small American cohorts; three African noun entries carry native sound notation retained in original JSON but not promoted to an independently verified IPA reading."
+}

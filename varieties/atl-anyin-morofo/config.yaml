@@ -1,0 +1,25 @@
+av_id: atl-anyin-morofo
+name: Anyin Morofo (Agni morofoué)
+glottocode: anyi1244
+family: Atlantic-Congo
+macroarea: Africa
+sources:
+  transcription: wiktionaryfr202610
+  cognates: wiktionaryfr202610
+  source_language_id: wiktionaryfr202610_mtb_f72b4600f8b8
+extensions:
+  transcriptions: false
+  forms: false
+  cognates: false
+  concept_map: false
+  profile: false
+scoring:
+  forms_score: 0.6
+  cognates_score: 0.0
+  tier: copper
+pinned: true
+registered_on: '2026-11-02'
+notes: NXT-03 exact edition/native language label and ISO/Glottocode reconciliation;
+  one explicit native French sense with original POS, spelling, provenance and complete
+  entry JSON preserved. Written evidence only; no generic orthographic-to-IPA conversion.
+  Source dictionary claims are not independent fieldwork or specialist verification.

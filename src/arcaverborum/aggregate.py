@@ -228,6 +228,10 @@ def write_metadata(metadata_path: Path, sources_used: set[str], output_dir: Path
     if df["Dataset"].duplicated().any():
         raise ValueError("Duplicate source metadata across intake namespaces")
     df = df[df["Dataset"].isin(sources_used)].copy()
+    from arcaverborum.source_terms import apply_reviewed_terms
+
+    df = pd.DataFrame(apply_reviewed_terms(df.to_dict('records'), output_dir / 'forms.csv'),
+                      columns=df.columns)
     df.to_csv(output_dir / "metadata.csv", index=False)
     logger.info("Wrote %d metadata entries", len(df))
     return len(df)

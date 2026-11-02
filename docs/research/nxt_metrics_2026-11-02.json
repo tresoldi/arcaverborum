@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-02",
+  "accepted_constructions": 7371,
+  "lexical_constructions": 7369,
+  "recording_only_constructions": 2,
+  "recordings": 755,
+  "records": 2120263,
+  "states": {
+    "source": 1750036,
+    "unclean": 160092,
+    "resegmented": 187957,
+    "profile": 22178
+  },
+  "mapped_all": 1337427,
+  "supported_all": 1209325,
+  "mapped_core": 544414,
+  "supported_core": 470153,
+  "gled_primaries": 1552,
+  "intake_records": 16430743,
+  "aggregate_sha256": "ae98f758b8b1dedfc6f1f92d1da7e239e0ae2c5833c96a05bad438c0cb92f26f",
+  "wordnet": {
+    "active_concepts": 3789,
+    "states": {
+      "model_assisted_definition_review": 1160,
+      "pending_sense_review": 2393,
+      "held": 22,
+      "earlier_accepted_links": 190,
+      "inventory_gap": 24
+    },
+    "accepted_concepts": 1350,
+    "review_batch": "NXT-02-2026-11-02",
+    "new_review_links": 230,
+    "human_expert_adjudications": 0,
+    "lexical_records_remapped_by_wordnet": 0,
+    "links": {
+      "accepted:broader": 258,
+      "accepted:exact": 768,
+      "accepted:narrower": 243,
+      "accepted:related": 99,
+      "source_association:association": 838
+    },
+    "qualification": "All active concepts screened/accounted for; pending candidates are not definition-level reviews or accepted equivalences. Typed containment is directional, not a calibrated confidence score. Catalog conflicts require native-sense lineage review.",
+    "input_hashes": {
+      "review.csv": "b0568b4139415fa14fcff88c61c8a97052f1fcc65c9cfd81a57e5d462d1a392d",
+      "holds.json": "ed753fd6d7057dc3286e3a399f019d09de307cd44b293a893c80e0440d89d2c9",
+      "bundle.json": "45138d95cb95600169f2cb18a4f816d411d85624b69e15d6a6ecd035cde6790c"
+    },
+    "coverage_sha256": "e169f7221345241fd15110d8201271af2b033a9228829ea2c9d68588fc30ed56"
+  },
+  "preservation": {
+    "protected_earlier_records": 2119822,
+    "earlier_lexical_constructions": 7364,
+    "additions": {
+      "atl-anyin-morofo": 189,
+      "kri-kipea": 18,
+      "len-toba-enenlhet": 5,
+      "map-habun": 213,
+      "pan-reyesano": 9,
+      "spe-kallawaya": 7
+    },
+    "added_records": 441,
+    "accepted_records": 2120263,
+    "lexical_constructions": 7369,
+    "segment_sources": {
+      "source": 1750036,
+      "unclean": 160092,
+      "resegmented": 187957,
+      "profile": 22178
+    },
+    "slots": {
+      "mapped_all": 1337427,
+      "supported_all": 1209325,
+      "mapped_core": 544414,
+      "supported_core": 470153
+    },
+    "all_earlier_values_forms_readings_mappings_cognacy_alignments_unchanged": true,
+    "explicitly_qualified_earlier_comments": 1,
+    "aggregate_forms_sha256": "ae98f758b8b1dedfc6f1f92d1da7e239e0ae2c5833c96a05bad438c0cb92f26f",
+    "baseline_sha256": "f42e821199feaf86bfe4a4d1a1a7fba4a4430102dc06dac7463ac5836907baf8",
+    "qualification": "One explicitly scoped comment qualifies an earlier accent reading; all other earlier fields and every original lexical assignment remain byte-equivalent as parsed CSV values. New construction counts distinguish four languages and one register."
+  },
+  "analytical_core": "df2109b3879099b439719641",
+  "graph_build_id": "f022f7b0eb8e8fb500b79ac2",
+  "community_build_id": "34129820be138f5b72a85e07",
+  "concept_rows_build_id": "f8aa9076f7d973cb6e634420",
+  "community_verification": {
+    "build_id": "34129820be138f5b72a85e07",
+    "parent_build_id": "df2109b3879099b439719641",
+    "node_files": 3828,
+    "assigned": 1610,
+    "communities": 239,
+    "runs": 81,
+    "membership_rows": 117662,
+    "verified_preview_edges": 25450,
+    "diagnostic_rows": 42741,
+    "maximum_preview_nodes": 24,
+    "maximum_preview_edges": 55,
+    "selected_partition_reproduced": true,
+    "summary": {
+      "assigned_nodes": 1610,
+      "communities": 239,
+      "eligible_family_edges": 5362,
+      "evidence_edges": 42741,
+      "recurrent_fragile_to_namespace": 2061,
+      "single_namespace_edges": 36250
+    },
+    "parent_peak_rss_mib": 62.60546875,
+    "worker_peak_rss_mib": 62.60546875
+  },
+  "positive_witnesses": {
+    "before_build_id": "46e35ceddf6f1e2420e89802",
+    "after_build_id": "df2109b3879099b439719641",
+    "witnesses": 259495,
+    "stable_identity_sha256": "b8e30d9d151aceaa9cfed2e8587b40e3f603d458c7839a5ee1032a16a46ef877",
+    "all_positive_witness_identities_unchanged": true,
+    "source_readings_and_written_coverage_both_expanded": true,
+    "algorithm_and_weighting_method_unchanged": true,
+    "qualification": "Publication verification only; no NXT-05 diagnostic, new null model, independent gold or new absence/confidence claim."
+  },
+  "new_language_level_identities": 4,
+  "new_specialist_register_constructions": 1,
+  "source_promotions": 0,
+  "independent_human_expert_gold": 0,
+  "tests": {
+    "native_installed_flag": 618,
+    "fallback_installed_flag": 618,
+    "qualification": "Two flag paths in the same installed library, not two compiled libraries"
+  },
+  "local_browser_suites": {
+    "research": {
+      "returncode": 0,
+      "seconds": 14.327868566964753
+    },
+    "concept_entries": {
+      "returncode": 0,
+      "seconds": 6.2696620100177824
+    },
+    "colexification": {
+      "returncode": 0,
+      "seconds": 8.973996844957583
+    },
+    "colexification_communities": {
+      "returncode": 0,
+      "seconds": 7.804730485077016
+    },
+    "colexification_robustness": {
+      "returncode": 0,
+      "seconds": 3.271401128033176
+    },
+    "mixed_source": {
+      "returncode": 0,
+      "seconds": 18.1469521910185
+    },
+    "wordnet": {
+      "returncode": 0,
+      "seconds": 4.192044855910353
+    },
+    "romance": {
+      "returncode": 0,
+      "seconds": 6.442410410032608
+    }
+  },
+  "deferred_by_user": [
+    "NXT-05"
+  ],
+  "reviewed_release_preflight": {
+    "records": 13230,
+    "constructions_with_included_rows": 47,
+    "sources": [
+      "uralex",
+      "lexirumahoriginal",
+      "wiktionaryfr202610",
+      "kipeaoriginal"
+    ]
+  },
+  "full_release_missing_declarations": [
+    "kogansemitic",
+    "wiktionary",
+    "williamsonbenuecongo"
+  ],
+  "other_terms_freshly_cleared": false,
+  "site_bytes_before_release_page": 631856964,
+  "browser_suites": {
+    "local_explorer": 8,
+    "local_review_workspaces": 2
+  }
+}

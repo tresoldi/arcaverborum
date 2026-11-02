@@ -1,0 +1,9 @@
+av_id: atl-anyin-morofo
+nxt_03_review_2026_11_02:
+  status: accepted_guarded_primary
+  member: wiktionaryfr202610_mtb_f72b4600f8b8
+  reviewed_records: 189
+  review: ../../docs/research/nxt_language_admissions_2026-11-02.csv
+  reading_basis: written_only
+  source_genealogy: No shared edition/source wrapper counted as independent confirmation.
+  scope: exact named source variety

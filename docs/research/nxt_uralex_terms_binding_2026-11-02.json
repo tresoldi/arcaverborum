@@ -1,0 +1,44 @@
+{
+  "source": "uralex",
+  "checkout_commit": "6b3667f770e709ebe4aa3426f8fffb9a0a818323",
+  "native_tracked_files_clean": true,
+  "accepted_exact_native_value_form_matches": 9968,
+  "unmatched_accepted_form_ids": [],
+  "native_accepted_form_ids": 9968,
+  "license_authority": "https://raw.githubusercontent.com/tresoldi/uralex/6b3667f770e709ebe4aa3426f8fffb9a0a818323/README.md",
+  "declared_license": "https://creativecommons.org/licenses/by/4.0/",
+  "artifacts": [
+    {
+      "path": "raw/lexibank/uralex/README.md",
+      "sha256": "119f0e36a121122fb7d2a5697027afde75424d8e494c09c8d5666821f382e8aa"
+    },
+    {
+      "path": "raw/lexibank/uralex/.zenodo.json",
+      "sha256": "328c9cca2f84be33186cd91acd9624755fcc46d891cda2a03318949f43f702a7"
+    },
+    {
+      "path": "raw/lexibank/uralex/raw/Data.tsv",
+      "sha256": "0e4384b22d254847faa031fcd5bbbe851ab161eea1cb4082539a483152cf8dd7"
+    },
+    {
+      "path": "raw/lexibank/uralex/raw/Meanings.tsv",
+      "sha256": "4594212a7b4c980b51fc5a38274abddd37408ac606ad56d21211a71a5151bfc5"
+    },
+    {
+      "path": "raw/lexibank/uralex/raw/Languages.tsv",
+      "sha256": "57c927f7187d867c3332dbd6d44c876bed997e3d0d4e9b972714ba09fa6cb3a1"
+    },
+    {
+      "path": "raw/lexibank/uralex/cldf/forms.csv",
+      "sha256": "b9ea3589ba18aba9b3e5c5785a334ac6be3f88f2424db24820d2394720064d6a"
+    },
+    {
+      "path": "raw/lexibank/uralex/cldf/cognates.csv",
+      "sha256": "435a71e0b6542cc11dc10fdafaca41d3317e792ea145487771d274ea32832b41"
+    }
+  ],
+  "complete_native_tsv_to_materialized_forms_matches": 10106,
+  "native_tsv_materialization_mismatches": [],
+  "accepted_binding_sha256": "9d6d718b23de36785b310ce7f52056529ecd1509b8bdf0f5a6f02ddf1ca8b200",
+  "binding_algorithm": "SHA256 of ordered compact JSON [av_id,source_form_id,Value,Form] lines for accepted uralex records"
+}

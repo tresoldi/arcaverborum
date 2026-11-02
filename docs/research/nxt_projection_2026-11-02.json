@@ -1,0 +1,10 @@
+{
+  "before_build_id": "46e35ceddf6f1e2420e89802",
+  "after_build_id": "df2109b3879099b439719641",
+  "witnesses": 259495,
+  "stable_identity_sha256": "b8e30d9d151aceaa9cfed2e8587b40e3f603d458c7839a5ee1032a16a46ef877",
+  "all_positive_witness_identities_unchanged": true,
+  "source_readings_and_written_coverage_both_expanded": true,
+  "algorithm_and_weighting_method_unchanged": true,
+  "qualification": "Publication verification only; no NXT-05 diagnostic, new null model, independent gold or new absence/confidence claim."
+}

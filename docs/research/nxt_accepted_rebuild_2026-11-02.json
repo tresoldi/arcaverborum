@@ -1,0 +1,27 @@
+{
+  "accepted_constructions_rebuilt": 7371,
+  "accepted_build_failures": 0,
+  "lexical_records_built": 2120263,
+  "extra_nonaccepted_successes": [],
+  "unaccepted_config_failures": [
+    {
+      "av_id": "sig-turkish-sign-language",
+      "error": "'Variety sig-turkish-sign-language not in catalog'",
+      "previously_accepted": false,
+      "generated_output_exists": false
+    },
+    {
+      "av_id": "sig-valencian-sign-language",
+      "error": "'Variety sig-valencian-sign-language not in catalog'",
+      "previously_accepted": false,
+      "generated_output_exists": false
+    },
+    {
+      "av_id": "urj-old-hungarian",
+      "error": "'Variety urj-old-hungarian not in catalog'",
+      "previously_accepted": false,
+      "generated_output_exists": false
+    }
+  ],
+  "qualification": "The broad --all command also visited three pre-existing configurations outside the canonical accepted catalog and one header-only prototype. No unaccepted case is counted as an admission. All previous accepted constructions plus the five reviewed additions rebuilt successfully."
+}

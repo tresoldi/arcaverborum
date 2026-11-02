@@ -1,0 +1,22 @@
+[
+  {
+    "build_id": "d5c9b49da8851392bac2e2e0",
+    "original_bytes": 2311938048,
+    "compressed_bytes": 558877456,
+    "uncompressed_sha256": "25739679c0a73614b11042d040402f1c48fa3a2eec4fcf737c1e2f1095de285e",
+    "archive": "output/colexification/d5c9b49da8851392bac2e2e0/index.sqlite.gz",
+    "seconds": 26.95,
+    "recovery": "gzip -dk output/colexification/d5c9b49da8851392bac2e2e0/index.sqlite.gz",
+    "scope": "Inactive private analytical cache; original input files and published bundles retained."
+  },
+  {
+    "build_id": "3a3898b1362a5c2d2c30bf73",
+    "original_bytes": 2304696320,
+    "compressed_bytes": 557374793,
+    "uncompressed_sha256": "7d835e46392f17fc1442b850a3d72e1e8a2bb1a11413df1c8f88fd89cd7e00a8",
+    "archive": "output/colexification/3a3898b1362a5c2d2c30bf73/index.sqlite.gz",
+    "seconds": 25.94,
+    "recovery": "gzip -dk output/colexification/3a3898b1362a5c2d2c30bf73/index.sqlite.gz",
+    "scope": "Inactive private analytical cache; original input files and published bundles retained."
+  }
+]

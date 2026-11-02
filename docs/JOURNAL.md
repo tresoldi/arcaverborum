@@ -1,5 +1,25 @@
 # Project journal and working memory
 
+## 2026-11-02 — NXT-01–04/06 execution; NXT-05 deferred
+
+User authorized all proposed tracks except #5 and delegated routine decisions.
+[Execution](research/NXT_EXECUTION_2026-11-02.md) and
+[metrics](research/nxt_metrics_2026-11-02.json) record441 new rows, five named
+constructions (four language-level identities plus Kallawaya register), seven
+source-traced definition corrections,235 typed WordNet links/227 additional
+concepts, and18 printed Kipeá citations. Accepted total:2,120,263 rows/7,371
+constructions; WordNet1,350 concepts. All earlier2,119,822 records are preserved,
+with one explicit Kipeá accent qualification. Positive colexification witnesses
+remain identical. No new pronunciation authority, GLED promotion or expert gold
+is asserted. All618 tests pass in both installed normalization flag paths;
+eight explorer browser suites and community recomputation pass.
+
+UraLex's exact declaration is now bound; three missing declarations remain.
+A13,230-record four-source permitted subset is prepared separately from the private
+All accepted candidate. Final release receipts and canonical-byte verification
+will be linked at publication closure. NXT-05 remains explicitly deferred.
+Historical proposals/metrics below retain their original observation dates.
+
 ## 2026-11-02 — Next cycle after PROJ publication (planning only)
 
 [Proposal](planning/POST_PROJ_NEXT_2026-11-02.md) prioritizes semantic lineage,

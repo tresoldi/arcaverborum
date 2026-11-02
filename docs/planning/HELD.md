@@ -1,5 +1,35 @@
 # Held work and reopening evidence
 
+**NXT closure gates,2026-11-02:** [execution](../research/NXT_EXECUTION_2026-11-02.md).
+The seven BECAUSE OF/BEAD/husband-side kinship/A LITTLE definition cases are
+resolved from native lineage without lexical remapping. Older six-conflict holds
+below are historical. Current WordNet queue:2,393 pending,22 held,24 inventory gaps.
+**ANIMAL** newly held: inherited definition erroneously gives animals cell walls;
+resolve biological wording and original human-inclusion elicitation before a link.
+
+Reyesano, Kallawaya, Toba-Enenlhet, Habun(Cribas) and Anyin Morofo are accepted
+constructions. Kallawaya is a specialist register. French spellings have no newly
+asserted IPA. Hold source-specific conversion until pronunciation authority exists;
+retain six Kallawaya botanicals and literal unmapped source senses without forced
+catalog matches. Three Habun notes and African typo/POS/multi-sense exclusions
+remain in the exact-source decision ledger. Other African POS were outside cohort,
+not judged incorrect. Habun conversion follows pinned Manatuto authority only.
+
+Kipeá section I pp1–6 now has18 additional citations; uncertain glyphs (including
+Inhuræ/Inhurræ, Kitçi/Kirçi and guttural examples), unglossed examples and unresolved
+Buyê final accent need facsimile/independent notation evidence. No historical
+spelling becomes IPA; missionary senses and morphologically complex examples
+require explicit scope. This does not clear later sections or Dzubukuá.
+
+UraLex's declaration is resolved for the pinned exact accepted witness. Remaining
+missing declarations are `kogansemitic`, legacy `wiktionary`, and
+`williamsonbenuecongo`. Other sources have not all received a fresh terms audit.
+The public Reviewed sources subset does not clear full-collection redistribution.
+**NXT-05 is deferred by user**, separately from these evidence holds. Independent
+expert gold remains zero; no confidence-method promotion occurred.
+
+The dated PROJ/CINF blocks below retain their historical observations.
+
 **PROJ-01–06 gates (2026-11-02):** [execution](../research/PROJECT_EXECUTION_2026-11-02.md).
 940 WordNet link decisions and three source-cognacy namespace repairs are
 complete. Twelve WordNet holds include six catalog label/definition conflicts.

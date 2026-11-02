@@ -1,0 +1,9 @@
+av_id: map-habun
+nxt_03_review_2026_11_02:
+  status: accepted_guarded_primary
+  member: lexirumahoriginal_habu1241
+  reviewed_records: 213
+  review: ../../docs/research/nxt_language_admissions_2026-11-02.csv
+  reading_basis: upstream_profile_conversion
+  source_genealogy: No shared edition/source wrapper counted as independent confirmation.
+  scope: exact named source variety

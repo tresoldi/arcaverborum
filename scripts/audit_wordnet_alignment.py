@@ -10,7 +10,7 @@ from pathlib import Path
 from arcaverborum.wordnet import DATA, load_bundle, read_csv
 
 
-def audit(output):
+def audit(output, review_batch="PROJ-03-2026-11-02"):
     bundle = load_bundle()
     concepts = read_csv(DATA / "concepts.csv")
     rows = []
@@ -19,7 +19,7 @@ def audit(output):
             continue
         entry = bundle["concepts"][concept["concept_id"]]
         accepted = [r for r in entry["links"] if r["status"] == "accepted"]
-        batch = [r for r in accepted if r.get("review_batch") == "PROJ-03-2026-11-02"]
+        batch = [r for r in accepted if r.get("reviewer_type", "").startswith("model_assisted")]
         rows.append(dict(concept_id=concept["concept_id"], concept_sha256=entry["concept_sha256"],
                          review_state="model_assisted_definition_review" if batch else
                          "earlier_accepted_links" if accepted else "held" if entry.get("hold_reason") else
@@ -40,7 +40,8 @@ def audit(output):
     summary = dict(active_concepts=len(rows), states=dict(Counter(r["review_state"] for r in rows)),
                    accepted_concepts=sum(bool(sum(r[k] for k in ("exact", "broader", "narrower", "related")))
                                          for r in rows),
-                   new_review_links=sum(r.get("review_batch") == "PROJ-03-2026-11-02"
+                   review_batch=review_batch,
+                   new_review_links=sum(r.get("review_batch") == review_batch
                                         for e in bundle["concepts"].values() for r in e["links"]),
                    human_expert_adjudications=0, lexical_records_remapped_by_wordnet=0,
                    links=bundle["summary"]["links"],
@@ -57,4 +58,6 @@ def audit(output):
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--output", type=Path, required=True)
-    audit(p.parse_args().output)
+    p.add_argument("--review-batch", default="PROJ-03-2026-11-02")
+    args = p.parse_args()
+    audit(args.output, args.review_batch)

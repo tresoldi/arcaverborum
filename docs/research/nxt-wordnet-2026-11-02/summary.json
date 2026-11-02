@@ -1,0 +1,29 @@
+{
+  "active_concepts": 3789,
+  "states": {
+    "model_assisted_definition_review": 1160,
+    "pending_sense_review": 2393,
+    "held": 22,
+    "earlier_accepted_links": 190,
+    "inventory_gap": 24
+  },
+  "accepted_concepts": 1350,
+  "review_batch": "NXT-02-2026-11-02",
+  "new_review_links": 230,
+  "human_expert_adjudications": 0,
+  "lexical_records_remapped_by_wordnet": 0,
+  "links": {
+    "accepted:broader": 258,
+    "accepted:exact": 768,
+    "accepted:narrower": 243,
+    "accepted:related": 99,
+    "source_association:association": 838
+  },
+  "qualification": "All active concepts screened/accounted for; pending candidates are not definition-level reviews or accepted equivalences. Typed containment is directional, not a calibrated confidence score. Catalog conflicts require native-sense lineage review.",
+  "input_hashes": {
+    "review.csv": "b0568b4139415fa14fcff88c61c8a97052f1fcc65c9cfd81a57e5d462d1a392d",
+    "holds.json": "ed753fd6d7057dc3286e3a399f019d09de307cd44b293a893c80e0440d89d2c9",
+    "bundle.json": "45138d95cb95600169f2cb18a4f816d411d85624b69e15d6a6ecd035cde6790c"
+  },
+  "coverage_sha256": "e169f7221345241fd15110d8201271af2b033a9228829ea2c9d68588fc30ed56"
+}

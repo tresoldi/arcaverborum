@@ -1,0 +1,33 @@
+{
+  "inactive_generations": [
+    {
+      "prefix": "data/colexification/46e35ceddf6f1e2420e89802",
+      "files": 12292,
+      "bytes": 315164777
+    },
+    {
+      "prefix": "data/colexification-graphs/692b5d39320b19be8f14c070",
+      "files": 3829,
+      "bytes": 13803755
+    },
+    {
+      "prefix": "data/colexification-communities/4d0675824c4fcb5989b1d541",
+      "files": 3831,
+      "bytes": 24640489
+    },
+    {
+      "prefix": "data/concept-rows/c4646fc8e73cabd95478148d",
+      "files": 4761,
+      "bytes": 128474981
+    }
+  ],
+  "active_assets_checked": 25190,
+  "inactive_references_in_active_asset_set": 0,
+  "archive": "raw/curation/nxt-2026-11-02/retired-web-generations.tar.gz",
+  "archive_sha256": "81f29241d164d295676b8314bba609fac889995ba3eaba6935a78c52fa10510a",
+  "archive_bytes": 229103742,
+  "archived_members": 24713,
+  "every_archived_member_verified": true,
+  "current_core": "df2109b3879099b439719641",
+  "recovery": "Restore complete generation directories from the private archive or Git data commit0d36f941855a96bf2f7704abb021cf0f6974248d. Never restore a partial catalog."
+}

@@ -118,12 +118,19 @@ def native_records(spec, payloads):
             if native['pdf_page'] < 1 or not payloads[review['resource_key']].startswith(b'%PDF'):
                 raise ValueError('Original PDF citation requires an actual PDF and a page')
         if spec['kind'] == 'reviewed_facsimile':
-            # This is a human transcription of a historical image, not PDF OCR.
+            # This is an authored image transcription, not PDF OCR. Preserve
+            # legacy hashes while making new model-assisted reviews explicit.
             # The optional image audit checks the pinned embedded-image bytes.
             native.update(source_image_xref=int(review['source_image_xref']),
                           source_image_sha256=review['source_image_sha256'],
                           transcription_locator=review['transcription_locator'],
                           transcription_basis='Independent historical manuscript image review')
+            if review.get('reviewer_type'):
+                if review['reviewer_type'] != 'model_assisted_visual_review':
+                    raise ValueError('Unknown facsimile reviewer type')
+                native.update(reviewer_type=review['reviewer_type'],
+                              source_medium='printed_facsimile',
+                              transcription_basis='Model-assisted original printed facsimile image review')
             if (native['source_image_xref'] < 1 or not native['transcription_locator']
                     or not re.fullmatch('[0-9a-f]{64}', native['source_image_sha256'])):
                 raise ValueError('Facsimile transcription requires an exact image and locator')

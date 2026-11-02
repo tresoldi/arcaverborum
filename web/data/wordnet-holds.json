@@ -24,27 +24,67 @@
     "reason": "No reviewed matching pronoun/deictic sense in the pinned standard WordNet inventory. Homographic letters, acronyms, numbers and locative adverbs are not substitutes."
   },
   "act-because-of": {
-    "concept_sha256": "1a3aac6c7f538eb5605c050ae98297fb6d5c093c0192892351b3aa2c77c5f30a",
-    "reason": "Catalog semantic conflict: Label is causal BECAUSE OF, but the definition says undergo decomposition. Resolve original concept/source-sense lineage before choosing either meaning."
+    "concept_sha256": "0931be0a2d163f8f8c269e6ff2f2b1be7536d7c7ba6a40fde23de7f76518fbb5",
+    "reason": "Causal preposition/expression is now source-lineage resolved; no reviewed matching causal connective sense in the pinned WordNet inventory. Decomposition, causal-agent nouns and purpose homographs are not substitutes."
   },
-  "kin-brother-in-law-husband-s-older-brother": {
-    "concept_sha256": "9773906253afc54cc8927960c8ce370f07b7b2b47d3eb2ae8ffebb32506f4b6a",
-    "reason": "Catalog semantic conflict: Label denotes husband's older brother, but the definition denotes husband of one's older brother. Kinship path differs; neither reading is silently selected."
+  "kin-we": {
+    "concept_sha256": "ce08e1d69a92ae70fa0354710ff51d92f9a48fb95715c3749f4080fabd70bf60",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
   },
-  "kin-brother-in-law-husband-s-younger-brother": {
-    "concept_sha256": "64d38630a5edb5757862bda3e2e9a5861cd1e04edb881d4e8e28d96a09b7b292",
-    "reason": "Catalog semantic conflict: Label denotes husband's younger brother, but the definition denotes husband of one's younger brother. Kinship path differs; neither reading is silently selected."
+  "kin-they": {
+    "concept_sha256": "45fe2cc6cf37cf6a48f03a45e38821feffb3f34c737941e8b95afd152c98d551",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
   },
-  "kin-sister-in-law-husband-s-older-sister": {
-    "concept_sha256": "2091aeb7ac3be56f671df4c11137f5a346954ceff792361bad9b95cf10b81ee7",
-    "reason": "Catalog semantic conflict: Label denotes husband's older sister, but definition denotes husband of one's older sister and therefore conflicts in both path and referent sex."
+  "kin-you": {
+    "concept_sha256": "0e8441a642ac6d283b9028ec430f3e5b6e0451bfb9039cb0939d7c8c349b95c0",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
   },
-  "kin-sister-in-law-husband-s-younger-sister": {
-    "concept_sha256": "f5a95f68eb6d16a55715767b3321c7702fe774b4941f224651cdec12bae06c6d",
-    "reason": "Catalog semantic conflict: Label denotes husband's younger sister, but definition denotes husband of one's younger sister and therefore conflicts in both path and referent sex."
+  "cog-where": {
+    "concept_sha256": "7d1f8a26f6cf16ac8b7d1e5ca63dfd299a84bd07109533b2569bbf6e7055aa71",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
   },
-  "clo-bead": {
-    "concept_sha256": "13bc3a847f57770a4ccc70160cbc4d2dba60c093f3141caf8f895a44a313197c",
-    "reason": "Catalog semantic conflict: Label BEAD conflicts with definition of a pearl produced within a shelled mollusk. Do not silently remap all lexical entries to either concept."
+  "cog-when": {
+    "concept_sha256": "62dd41917966d2020e7eb620212f0c3fa4bbac1509ffd868da11f17f44276174",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "cog-how": {
+    "concept_sha256": "f087ab0e8be4efe540b37025e7e171bb9b1b49fa7f8a16edf181b17f9474a9a5",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "cog-and": {
+    "concept_sha256": "f176053df3dc4c6cd92d9cd61067c9a2ab02f6c74a55a0b5233e47848b7c114d",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "kin-he-or-she": {
+    "concept_sha256": "6c239dcc9e3a92a1ed191c1f3d8848805c2533a15f7aadc2d3d1179c3418a151",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "spa-in": {
+    "concept_sha256": "5245f51d6f8d640ada6e137cfe9e5e13cf17a52c27f055e7b6d301ddba3de4e7",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "spa-at": {
+    "concept_sha256": "18c5ad6e9e24bf6cd41811d3ec35636081f6093e81cbc53ab2be0a9e3e3c8a7f",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "cog-if": {
+    "concept_sha256": "92b6188b48dfea1a641081dc606c04edd279b2e14ee6d481b777bdff154725f9",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "kin-we-inclusive": {
+    "concept_sha256": "0f55c434c882900fb77c6fe40b1436a08ec2bb74881bc4907b80b4e35c91cf2b",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "kin-we-exclusive": {
+    "concept_sha256": "e1814b79fabd66d414cdd9c96eb72cf11fd583d09366ec26c5e1dbbcc78a7e2d",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "kin-he-or-she-or-it": {
+    "concept_sha256": "91a614cb98d748ed1b11823311d28fa675f0a4a8c1af24751b72b4b4dd2cdde9",
+    "reason": "No reviewed matching participant/function-word sense in the pinned standard inventory. Letter/unit/element homographs, pronoun-category names, existential somebody and related event/entity definitions do not denote this lexical meaning. Native lexical records are retained."
+  },
+  "ani-animal": {
+    "concept_sha256": "74474d4c1d697860ab71f0bedee1f8f68cb35d03ba010b58004daa30d08e37f3",
+    "reason": "Catalog biological-definition conflict: the inherited definition attributes noncellulose cell walls to animals, whereas animal cells lack cell walls. Original elicitation may also distinguish animals from humans. Do not certify full definition equivalence from the generic ANIMAL label; resolve source sense and scientific wording separately. Lexical records remain unchanged."
   }
 }

@@ -1,5 +1,5 @@
 concept_id,concepticon_id,label,pos,semantic_field,definition,status,replacement_id,notes
-act-a-little,2924,a little,x,Basic actions and technology,"More than one, but not as much as usual or as expected. (for mass nouns)",active,,
+act-a-little,2924,a little,x,Basic actions and technology,"A small amount or extent, less than usual or expected. In amount uses, refers to a mass quantity rather than a number of discrete items.",active,,NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. NorthEuraLex native parameter621: ein wenig::ADV; Beida native parameter882 a little; keeps amount/degree uses without the contradictory more-than-one count restriction.
 act-accept,3898,accept,v,Basic actions and technology,To take or get something that was offered by someone.,active,,
 act-accident,4058,accident,n,Basic actions and technology,"An unforeseen event, typically harmful or damaging, that occurs without deliberate intent.",active,,
 act-accustom,1118,accustom,v,Basic actions and technology,Get used to something.,active,,
@@ -17,7 +17,7 @@ act-bamboo-basket,3360,bamboo basket,n,Basic actions and technology,A basket fro
 act-basket,1539,basket,n,Basic actions and technology,"A lightweight container, generally round, open at the top, and tapering toward the bottom.",active,,
 act-be-able,972,be able,v,Basic actions and technology,To have the ability to do something.,active,,
 act-beat,1665,beat,v,Basic actions and technology,"To strike or pound repeatedly, usually in some sort of rhythm.",active,,
-act-because-of,2918,because of,x,Basic actions and technology,Undergo decomposition.,active,,
+act-because-of,2918,because of,x,Basic actions and technology,For the reason of; on account of. Introduces a cause or reason.,active,,NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. NorthEuraLex native parameter636: wegen::PRP; source parameters distinguish causal expressions from decomposition.
 act-become-extinguished,2209,become extinguished,v,Basic actions and technology,Being stopped from burning or emitting light.,active,,
 act-become-sick,2327,become sick,v,Basic actions and technology,To catch a disease.,active,,
 act-belch,2245,belch,v,Basic actions and technology,To release gas from the digestive tract through the mouth.,active,,
@@ -1357,7 +1357,7 @@ clo-armlet,3149,armlet,n,Clothing and grooming,A band or bracelet worn round the
 clo-awl,278,awl,n,Clothing and grooming,Pointed tool for marking or piercing wood or leather.,active,,
 clo-bamboo-hat,2160,bamboo hat,n,Clothing and grooming,A hat made of bamboo (斗笠 dǒulì).,active,,
 clo-barefoot,3737,barefoot,adj,Clothing and grooming,Not wearing anything on the feet.,active,,
-clo-bead,1860,bead,n,Clothing and grooming,"A hard, rounded object produced within the soft tissue (specifically the mantle) of a living shelled mollusk.",active,,
+clo-bead,1860,bead,n,Clothing and grooming,"A small decorative object, often rounded and pierced for threading or stringing, used in ornaments such as necklaces.",active,,"NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. IDS6-760, WOLD6-76 and other original source parameter labels explicitly elicit bead(s); a mollusk-produced pearl is a distinct concept."
 clo-belt,772,belt,n,Clothing and grooming,"A clothing accessory, usually made of leather or heavy cloth, worn around the waist and used to support trousers or other articles of clothing.",active,,
 clo-blouse,4018,blouse,n,Clothing and grooming,"An upper garment, which resembles a shirt, worn usually by women and girls.",active,,
 clo-boot,585,boot,n,Clothing and grooming,A shoe that covers part of the leg.,active,,
@@ -2120,8 +2120,8 @@ kin-boy-or-son,2391,boy or son,n,Kinship,Either a son or a boy.,active,,
 kin-bride,1266,bride,n,Kinship,A woman who is going to get married or has just got married.,active,,
 kin-brother,1262,brother,n,Kinship,A male person who has the same parents as another person.,active,,
 kin-brother-in-law,2314,brother-in-law,n,Kinship,The brother of one's partner in a marriage.,active,,
-kin-brother-in-law-husband-s-older-brother,2698,brother-in-law,n,Kinship,Husband of one's older brother.,active,,
-kin-brother-in-law-husband-s-younger-brother,2699,brother-in-law,n,Kinship,Husband of one's younger brother.,active,,
+kin-brother-in-law-husband-s-older-brother,2698,brother-in-law,n,Kinship,The older brother of one’s husband.,active,,"NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. Beida native words.tsv BEIDA_ID453, 大伯子, explicit husband's elder brother prompt."
+kin-brother-in-law-husband-s-younger-brother,2699,brother-in-law,n,Kinship,The younger brother of one’s husband.,active,,"NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. Beida native words.tsv BEIDA_ID454, 小叔子, explicit husband's younger brother prompt."
 kin-brother-in-law-of-man,2380,brother-in-law,n,Kinship,The brother of a man's partner in a marriage.,active,,
 kin-brother-in-law-older-sister-s-husband,2696,brother-in-law,n,Kinship,Husband of one's older sister.,active,,
 kin-brother-in-law-younger-sister-s-husband,2697,brother-in-law,n,Kinship,Husband of one's younger sister.,active,,
@@ -2244,8 +2244,8 @@ kin-sibling-in-law,1832,sibling-in-law,n,Kinship,The husband of one's sister.,ac
 kin-sibling-s-child,173,sibling's child,n,Kinship,The child of a sibling.,active,,
 kin-sister,1263,sister,n,Kinship,A female person who has the same parents as another person.,active,,
 kin-sister-in-law,2317,sister-in-law,n,Kinship,The sister of one's partner in a marriage.,active,,
-kin-sister-in-law-husband-s-older-sister,2700,sister-in-law,n,Kinship,Husband of one's older sister.,active,,
-kin-sister-in-law-husband-s-younger-sister,2701,sister-in-law,n,Kinship,Husband of one's younger sister.,active,,
+kin-sister-in-law-husband-s-older-sister,2700,sister-in-law,n,Kinship,The older sister of one’s husband.,active,,"NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. Beida native words.tsv BEIDA_ID455, 大姑子, explicit husband's elder sister prompt."
+kin-sister-in-law-husband-s-younger-sister,2701,sister-in-law,n,Kinship,The younger sister of one’s husband.,active,,"NXT-01-2026-11-02: source-lineage definition correction; stable ID and lexical assignments retained. Beida native words.tsv BEIDA_ID456, 小姑子; full native prompt resolves the shortened CLDF sister-in-law label."
 kin-sister-in-law-of-female-ego,3781,sister-in-law,n,Kinship,The sister of a woman's husband or the wife of a woman's brother.,active,,
 kin-sister-in-law-older-brother-s-wife,2695,sister-in-law,n,Kinship,Wife of one's older brother.,active,,
 kin-sister-of-man,561,sister,n,Kinship,The sister of a man.,active,,

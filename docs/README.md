@@ -1,5 +1,7 @@
 # Documentation map
 
+* [Current NXT-01–04/06 execution](research/NXT_EXECUTION_2026-11-02.md):441 records, five named constructions, source-traced definitions,1,350 WordNet-linked concepts and reviewed-source release; NXT-05 deferred. [Release collections and terms](releases/README.md).
+
 * [Whole-project PROJ-01–06 execution,2026-11-02](research/PROJECT_EXECUTION_2026-11-02.md):940 new typed WordNet links, native senses, original Kipeá citations, source-cognacy repairs, review workspaces and a reproducible whole-collection candidate.
 
 Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).

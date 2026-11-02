@@ -1,0 +1,112 @@
+{
+  "decisions": [
+    {
+      "concept_id": "act-a-little",
+      "concepticon_id": "2924",
+      "old_definition": "More than one, but not as much as usual or as expected. (for mass nouns)",
+      "new_definition": "A small amount or extent, less than usual or expected. In amount uses, refers to a mass quantity rather than a number of discrete items.",
+      "old_concept_sha256": "c397432a8ce061c375f846295ec0faf001ba6aa1f1d69b35a42db5ebb13ae093",
+      "new_concept_sha256": "910752785fbce02c52c5e56a3e317774ceed69595e80d5a61bbabb4dad684364",
+      "evidence": "NorthEuraLex native parameter621: ein wenig::ADV; Beida native parameter882 a little; keeps amount/degree uses without the contradictory more-than-one count restriction.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    },
+    {
+      "concept_id": "act-because-of",
+      "concepticon_id": "2918",
+      "old_definition": "Undergo decomposition.",
+      "new_definition": "For the reason of; on account of. Introduces a cause or reason.",
+      "old_concept_sha256": "1a3aac6c7f538eb5605c050ae98297fb6d5c093c0192892351b3aa2c77c5f30a",
+      "new_concept_sha256": "0931be0a2d163f8f8c269e6ff2f2b1be7536d7c7ba6a40fde23de7f76518fbb5",
+      "evidence": "NorthEuraLex native parameter636: wegen::PRP; source parameters distinguish causal expressions from decomposition.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    },
+    {
+      "concept_id": "clo-bead",
+      "concepticon_id": "1860",
+      "old_definition": "A hard, rounded object produced within the soft tissue (specifically the mantle) of a living shelled mollusk.",
+      "new_definition": "A small decorative object, often rounded and pierced for threading or stringing, used in ornaments such as necklaces.",
+      "old_concept_sha256": "13bc3a847f57770a4ccc70160cbc4d2dba60c093f3141caf8f895a44a313197c",
+      "new_concept_sha256": "cb026048e5dd5542b7cb9b923525ab03fbbf19bbadaed137811e6cbea7b81f12",
+      "evidence": "IDS6-760, WOLD6-76 and other original source parameter labels explicitly elicit bead(s); a mollusk-produced pearl is a distinct concept.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    },
+    {
+      "concept_id": "kin-brother-in-law-husband-s-older-brother",
+      "concepticon_id": "2698",
+      "old_definition": "Husband of one's older brother.",
+      "new_definition": "The older brother of one’s husband.",
+      "old_concept_sha256": "9773906253afc54cc8927960c8ce370f07b7b2b47d3eb2ae8ffebb32506f4b6a",
+      "new_concept_sha256": "bfd537460db6deb67083a21c10e392edee48fdfdc3066635fe05bd8fc3e3f034",
+      "evidence": "Beida native words.tsv BEIDA_ID453, 大伯子, explicit husband's elder brother prompt.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    },
+    {
+      "concept_id": "kin-brother-in-law-husband-s-younger-brother",
+      "concepticon_id": "2699",
+      "old_definition": "Husband of one's younger brother.",
+      "new_definition": "The younger brother of one’s husband.",
+      "old_concept_sha256": "64d38630a5edb5757862bda3e2e9a5861cd1e04edb881d4e8e28d96a09b7b292",
+      "new_concept_sha256": "4e4eb06a3cebe3d2720b28d0d63e5b389aad34ed5ca71f9e6b223c88377aa7f5",
+      "evidence": "Beida native words.tsv BEIDA_ID454, 小叔子, explicit husband's younger brother prompt.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    },
+    {
+      "concept_id": "kin-sister-in-law-husband-s-older-sister",
+      "concepticon_id": "2700",
+      "old_definition": "Husband of one's older sister.",
+      "new_definition": "The older sister of one’s husband.",
+      "old_concept_sha256": "2091aeb7ac3be56f671df4c11137f5a346954ceff792361bad9b95cf10b81ee7",
+      "new_concept_sha256": "fd37af301f3efb78accb943ac0898e54152737ced243ea0101809573082aef7b",
+      "evidence": "Beida native words.tsv BEIDA_ID455, 大姑子, explicit husband's elder sister prompt.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    },
+    {
+      "concept_id": "kin-sister-in-law-husband-s-younger-sister",
+      "concepticon_id": "2701",
+      "old_definition": "Husband of one's younger sister.",
+      "new_definition": "The younger sister of one’s husband.",
+      "old_concept_sha256": "f5a95f68eb6d16a55715767b3321c7702fe774b4941f224651cdec12bae06c6d",
+      "new_concept_sha256": "02efc7d9cd53d37639597f4237c5245b9ce4591e7e16d95a44f1bef2c5ccad41",
+      "evidence": "Beida native words.tsv BEIDA_ID456, 小姑子; full native prompt resolves the shortened CLDF sister-in-law label.",
+      "decision": "correct_definition_preserve_id_and_lexical_assignments",
+      "reviewer_type": "model_assisted_source_lineage_review"
+    }
+  ],
+  "lexical_assignments_migrated": 0,
+  "stable_ids_preserved": true,
+  "source_resources": [
+    {
+      "path": "raw/concepticon/concepticon.tsv",
+      "sha256": "abf39909dfc31dcd41503a299a7afd0226c8fa7e387bdcb601dcb7d4647d012e"
+    },
+    {
+      "path": "raw/lexibank/beidasinitic/raw/words.tsv",
+      "sha256": "b725514a98076a55abbba52e54d08e7e849b1d66b44a9434c383f88bba53c318"
+    },
+    {
+      "path": "raw/lexibank/northeuralex/cldf/parameters.csv",
+      "sha256": "2d4d30a8685d197076533fe538dffbd760ea4d3aad7ca5f4a1ab75265828e965"
+    },
+    {
+      "path": "raw/lexibank/ids/cldf/parameters.csv",
+      "sha256": "7b9c36200ce86c80333537c61cf7c0a4a27f1bb6720af8d7bfca4958d3818cc1"
+    },
+    {
+      "path": "raw/lexibank/wold/cldf/parameters.csv",
+      "sha256": "bf8b7935da08662353fd4d21e61f44b7b575686cc62d477cfaf7fb89083f1ebc"
+    }
+  ],
+  "upstream_online_checks": [
+    "https://concepticon.clld.org/parameters/1860",
+    "https://concepticon.clld.org/parameters/2918",
+    "https://concepticon.clld.org/parameters/2698",
+    "https://concepticon.clld.org/parameters/2924"
+  ],
+  "qualification": "Definition-level source-lineage repair does not certify every individual lexical mapping or constitute specialist gold. Original upstream definitions remain pinned and unmodified."
+}

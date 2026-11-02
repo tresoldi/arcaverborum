@@ -1,5 +1,20 @@
 # Concept links to WordNet
 
+## Latest accepted alignment —2026-11-02
+
+[NXT execution](research/NXT_EXECUTION_2026-11-02.md) adds235 typed links for227
+additional concepts;1,350 concepts now have accepted links. Totals:768 exact,
+258 broader,243 narrower,99 related;838 inherited associations remain distinct.
+All3,789 active concepts are accounted for:2,393 pending,22 held,24 inventory gaps.
+The34-case prior-link diagnostic is same-model re-review, not independent gold
+or an error-rate estimate. ANIMAL remains held on inherited definition/scope errors.
+
+Seven catalog definitions were corrected separately through native source lineage;
+the sidecar itself never rewrites a lexical assignment. Compound hyphen/space
+normalization affects retrieval only. Reviewed cardinal-number entities do not
+license matching ordinals, banknotes or numeral adjectives. Full-definition,
+POS and directional scope checks remain necessary. Older counts below are historical.
+
 The primary target is **Open English WordNet 2025, standard edition**. Princeton
 WordNet **3.0** compatibility is carried through the Collaborative Interlingual
 Index (CILI), never by treating numeric offsets in different editions as equal.

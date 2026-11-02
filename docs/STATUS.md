@@ -1,5 +1,51 @@
 # Current project state
 
+**NXT-01–04 and NXT-06,2026-11-02 — accepted data rebuilt; publication in progress.**
+[Execution and qualifications](research/NXT_EXECUTION_2026-11-02.md),
+[metrics](research/nxt_metrics_2026-11-02.json),
+[preservation](research/nxt_preservation_2026-11-02.json).
+**NXT-05 is deferred by the user.**
+
+Seven source-traced concept definitions are corrected without changing stable IDs
+or lexical assignments.235 new typed WordNet links cover227 additional concepts:
+1,350 now have accepted links;2,393 pending,22 held,24 inventory gaps.
+The34-case prior-link audit is same-model re-review, not independent expert gold.
+ANIMAL remains held on erroneous inherited biological wording and elicitation scope.
+
+441 new records include423 across Reyesano, Kallawaya, Toba-Enenlhet, Habun
+(Cribas), Anyin Morofo, and18 new Kipeá printed citations. These are four
+language-level identities plus one specialist register, not five independent
+living languages. Habun's213 readings are upstream profile conversions; all228
+other additions remain written-only. All2,119,822 previous records retain their
+readings, meanings, cognacy and alignments; one Kipeá accent has an explicit
+uncertainty comment. Kipeá now has38 records. No GLED primary is promoted.
+
+| Measure | Current accepted value |
+| --- | ---: |
+| Accepted constructions / lexical / recording-only | 7,371 / 7,369 / 2 |
+| Lexical records / recordings | 2,120,263 / 755 |
+| Supplied or upstream-converted / profile-backed | 1,750,036 / 22,178 |
+| Supported core / all-concept slots | 470,153 / 1,209,325 |
+| Mapped core / all-concept slots | 544,414 / 1,337,427 |
+| GLED primaries / complete intake records | 1,552 / 16,430,743 |
+
+Current core `df2109b3879099b439719641`, graphs `f022f7b0eb8e8fb500b79ac2`,
+communities `34129820be138f5b72a85e07`, concept rows `f8aa9076f7d973cb6e634420`.
+All259,495 positive witness identities are unchanged; no analytical method or
+production confidence change.239 communities/1,610 concepts; selected partition
+recomputes exactly. Analytical core/community commands retain256MiB limits;
+this does not bound the separate lexical intake/web builders.618 local tests
+pass in each installed merkmal flag path; all eight local explorer suites pass.
+
+UraLex's exact source declaration is now bound to9,968 accepted records.
+The separate **Reviewed sources** export contains13,230 records/47 constructions
+from four reviewed source namespaces. Full All accepted bulk publication remains
+private: Kogan Semitic, Williamson Benue-Congo and legacy English Wiktionary still
+lack exact declarations, and other source terms have not all been freshly audited.
+[Release documentation](releases/README.md) will carry final archive/publication receipts.
+
+Everything below is historical; use the block above and NEXT for current state.
+
 **PROJ-01–06 execution,2026-11-02:** [execution and limitations](research/PROJECT_EXECUTION_2026-11-02.md),
 [metrics](research/project_metrics_2026-11-02.json),
 [preservation](research/project_preservation_2026-11-02.json).

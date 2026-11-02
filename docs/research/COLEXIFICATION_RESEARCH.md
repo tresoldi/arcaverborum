@@ -431,3 +431,23 @@ colexification assignments or supplies an empirical semantic-error calibration.
 Historical CINF experiment/review counts and frozen core remain unchanged as
 research evidence. The refreshed production export uses the current accepted
 aggregate; publication receipts distinguish those two generations.
+
+## 2026-11-02: source lineage and typed semantic scope, NXT
+
+[NXT-01–04/06](NXT_EXECUTION_2026-11-02.md) traces seven inherited catalog
+problems to native elicitation/definition lineage, preserving lexical assignments.
+Six draft WordNet scope decisions were corrected before publication: crossing
+species, object, anatomical region and function restrictions are not containment.
+ANIMAL's erroneous inherited cell-wall definition remains a source-scope hold.
+A34-case stratified diagnostic of earlier links retained those links with their
+qualifications; this was same-model re-review, not independent expert evidence,
+semantic-error calibration or a representative accuracy estimate.
+
+The441 new records increase source/written observation coverage. All259,495
+positive witness identities and the production weighting method are unchanged;
+the239-community partition is independently recomputed from its current inputs.
+These are data integrity results, not inference improvements or evidence that
+absence establishes noncolexification. NXT-05 method/control expansion was deferred
+by the user. Expert gold remains zero. Historical CINF pilot results stay frozen;
+[verified private cache recovery](nxt_private_cache_recovery_2026-11-02.json)
+documents compressed historical indexes without changing their logical content.

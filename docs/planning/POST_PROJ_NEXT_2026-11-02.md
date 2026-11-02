@@ -1,6 +1,9 @@
 # Next cycle after PROJ-01–06
 
-Planning only,2026-11-02, against published data `0d36f9418` and closure
+Historical proposal; subsequently authorized for NXT-01–04/06, with NXT-05 deferred.
+[Execution and remaining gates](../research/NXT_EXECUTION_2026-11-02.md).
+
+Originally planning only,2026-11-02, against published data `0d36f9418` and closure
 `5f81113c8`. This proposal authorizes no new data admissions or publication.
 Use [STATUS](../STATUS.md) for accepted counts and [HELD](HELD.md) for exact gates.
 

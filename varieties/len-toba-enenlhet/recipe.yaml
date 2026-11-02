@@ -1,0 +1,9 @@
+av_id: len-toba-enenlhet
+nxt_03_review_2026_11_02:
+  status: accepted_guarded_primary
+  member: wiktionaryfr202610_tmf_1b94ae306e17
+  reviewed_records: 5
+  review: ../../docs/research/nxt_language_admissions_2026-11-02.csv
+  reading_basis: written_only
+  source_genealogy: No shared edition/source wrapper counted as independent confirmation.
+  scope: exact named source variety

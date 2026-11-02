@@ -14,3 +14,8 @@ supported phonetic core remains zero. The16 earlier citations, original source
 metadata/bibliography and uncertainties are preserved. The namespace's legacy
 numerical-citation title does not replace the new per-record page locators.
 [Combined guarded review](../../docs/project_kipea_review_2026-11-02.csv).
+
+NXT-04: the earlier `Buyê` citation remains, with a source-visible comment that
+the final accent could not be independently resolved on reinspection. No reading
+replacement or pronunciation derivation is made. The complete printed section I
+review and its held/excluded examples are in the NXT execution report.

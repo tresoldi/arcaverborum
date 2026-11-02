@@ -1,26 +1,42 @@
 # Active expansion queue
 
-## Proposed next cycle —2026-11-02, after PROJ closure
+## NXT-01–04 and NXT-06 executed —2026-11-02
 
-[Detailed order, exact candidates, baselines and tradeoffs](planning/POST_PROJ_NEXT_2026-11-02.md).
-Planning only; no new lexical batch is authorized by this recommendation.
+[Execution](research/NXT_EXECUTION_2026-11-02.md),
+[metrics](research/nxt_metrics_2026-11-02.json),
+[remaining evidence gates](planning/HELD.md).
+Seven inherited definition conflicts resolved;1,350 concepts now have accepted
+WordNet links. Five named constructions add423 records (four language-level
+identities and Kallawaya specialist register);18 further Kipeá citations yield
+441 additions. These are accepted outputs, no longer missing-language candidates.
+UraLex terms are bound and a separately scoped four-source download is prepared.
+Publication verification is the remaining closure step for this authorized batch.
 
-1. **NXT-01:** trace and resolve six catalog conflicts plus A LITTLE count/mass
-   wording, preserving original sense lineage before guarded changes.
-2. **NXT-02:** audit the previous WordNet links, then extend the2,627 pending
-   concepts by lexical exposure and defensible definition-level matches.
-3. **NXT-03:** review Reyesano, Kallawaya and Toba Mascoy French-Wiktionary
-   members; rotate to exact Habun LexiRumah and an Agni morofoué reserve.
-   These are raw intake candidates, not confirmed missing languages or gains.
-4. **NXT-04:** collate a continuous Mamiani historical Brazilian section,
-   keeping Kipeá/Dzubukuá, example morphology and written readings explicit.
-5. **NXT-05:** build a source-labelled cognator/regulae diagnostic and improve
-   citation-backed colexification controls; keep production weights unchanged.
-6. **NXT-06:** resolve four release-term gates; if full release stays blocked,
-   prepare an explicitly scoped subset only from independently verified terms.
+**NXT-05 is deferred by the user.** Do not start cognator/regulae diagnostics,
+new control expansion or a confidence-model experiment without renewed direction.
 
-The PROJ and CINF sections below are closure context and protected gates, not
-uncompleted versions of the newly scoped tasks.
+Future work is proposed, not automatically authorized:
+
+1. **Remaining concept/sense review:**2,393 pending WordNet concepts,22 holds and24
+   inventory gaps. Resolve ANIMAL's original elicitation scope and invalid cell-wall
+   definition before accepting a target. Keep typed relations and native meanings
+   separate;34 same-model prior-link checks are not an estimated error rate.
+2. **Original reading authority:** exact Huber–Reed Wa’ikhana notation, distinct
+   Ampari samples, expanded Cayuga/Zapotec authorities and the original Yasa edition
+   remain the gates below. Written evidence does not become IPA through tokenizing.
+3. **Deeper accepted-source cohorts:** Habun's literal unmapped English senses and
+   Anyin Morofo's excluded multi-sense/other-POS cohort need individual source/context
+   review. The three new American pilots remain written-only until exact authority
+   supports conversion. Do not repeat the same five identity admissions.
+4. **Historical Brazil:** Kipeá section I pp1–6 is collated, not the whole grammar.
+   Reopen held glyphs/unresolved Buyê accent with facsimile or independent authority;
+   review a new continuous section with morphology explicit. Keep Dzubukuá separate.
+5. **Release terms:** three missing declarations remain (`kogansemitic`, legacy
+   `wiktionary`, `williamsonbenuecongo`), plus source-specific restrictive/unaudited
+   terms. Reviewed sources is an explicit subset, not a clearance of All accepted.
+
+The PROJ and CINF sections below are historical closure context. Their counts and
+candidate lists do not override the current gates above.
 
 ## Whole-project cycle closed —2026-11-02
 

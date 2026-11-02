@@ -137,8 +137,8 @@ def test_published_catalog_sense_distinctions_and_full_accounting():
     assert 'pronoun' in bundle['concepts']['cog-who']['hold_reason']
     for cid in ('act-bend', 'qua-alone'):
         assert not any(r['status'] == 'accepted' for r in bundle['concepts'][cid]['links'])
-    # This frozen definition mixes "more than one" with mass-noun use.
-    # Label agreement cannot justify restoring the withdrawn exact link.
+    # The corrected concept includes amount and adverbial extent; its adjective
+    # target alone still does not establish full equivalence.
     little = [r for r in bundle['concepts']['act-a-little']['links'] if r['status'] == 'accepted']
     assert little and {r['relation'] for r in little} == {'related'}
     for row in read_csv(DATA / 'wordnet/review.csv'):
@@ -168,3 +168,25 @@ def test_export_totals_match_bundle():
             assert row['version'] == target['version'] and row['resource'] == target['resource']
             assert any(link['target_id'] == row['target_id'] and link['status'] == row['status']
                        and link['relation'] == row['relation'] for link in entry[group])
+
+
+def test_compound_retrieval_is_not_numeral_equivalence():
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        'wordnet_builder', Path(__file__).parents[1] / 'scripts/build_wordnet.py')
+    builder = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(builder)
+    retrieval_label = builder.retrieval_label
+
+    assert retrieval_label('twenty-one') == retrieval_label('twenty one')
+    assert retrieval_label('mother‑in‑law') == retrieval_label('mother in law')
+    assert retrieval_label('twenty-first') != retrieval_label('twenty one')
+    bundle = load_bundle()
+    for cid in ('kin-brother-in-law-husband-s-older-brother',
+                'kin-sister-in-law-husband-s-younger-sister'):
+        accepted = [r for r in bundle['concepts'][cid]['links'] if r['status'] == 'accepted']
+        assert accepted and {r['relation'] for r in accepted} == {'broader'}
+    assert 'decomposition' not in next(r['definition'].lower() for r in read_csv(DATA / 'concepts.csv')
+                                     if r['concept_id'] == 'act-because-of')
+    assert 'Causal' in bundle['concepts']['act-because-of']['hold_reason']
