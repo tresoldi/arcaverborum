@@ -1,5 +1,8 @@
 # Arca Verborum organization launch plan — 2026-11-02
 
+> Under revision after the [Codex adversarial review](../reviews/2026-11-02-codex-org-launch.md)
+> and its [assessment](../reviews/2026-11-02-org-launch-assessment.md).
+
 Decisions agreed with Tiago on 2026-11-02 for moving Arca Verborum into the
 `arcaverborum` GitHub organization, cutting the first schema-`A` release and
 preparing the MDPI *Data* paper. Order of work: **working system in the org →
@@ -13,8 +16,10 @@ queue, NXT-05, new expansion) start before then. The `A` baseline is data commit
 
 - A **curated selection and harmonization layer built on top of** Lexibank,
   GLED, Wiktionary and original sources. It is not an alternative to them.
-  Lexibank's contribution is acknowledged as **foundational**: about 87% of
-  accepted records (~1.84M of 2.12M) come from Lexibank datasets.
+  Lexibank's contribution is acknowledged as **foundational**: sources hosted
+  under `github.com/lexibank/` supply 1,361,851 of 2,120,263 accepted records
+  (64%, RC4 source terms); the rest come from GLED, Wiktionary, other CLDF
+  datasets and original sources.
 - Origin: a way for students to access comparative lexical data without
   learning the CLDF toolchain or cloning many repositories. This motivates the
   explorer-first, static design.
