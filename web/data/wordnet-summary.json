@@ -8,11 +8,11 @@
     "merged": 39
   },
   "links": {
-    "accepted:exact": 618,
+    "accepted:related": 89,
+    "accepted:exact": 617,
     "accepted:narrower": 208,
     "accepted:broader": 219,
-    "source_association:association": 963,
-    "accepted:related": 88
+    "source_association:association": 963
   },
   "candidates": 17016,
   "concepticon_bridge_rows_verified": 1372,

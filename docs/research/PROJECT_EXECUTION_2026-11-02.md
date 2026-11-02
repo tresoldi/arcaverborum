@@ -72,7 +72,7 @@ transport is existing work, not new coverage. No new language is claimed here.
 
 Reviewed940 new links for933 previously unaccepted concepts. Together with the
 earlier190, **1,123 of3,789 active concepts** now have accepted typed links.
-The accepted link totals are618 exact,219 broader,208 narrower and88 related.
+The accepted link totals are617 exact,219 broader,208 narrower and89 related.
 OEWN2025 remains primary, with verified Princeton3.0/CILI compatibility.
 Numeric offsets are never equated across versions. Every manual decision pins
 both the concept definition and complete target record. New links explicitly
@@ -169,11 +169,11 @@ Added a streamed deterministic **All accepted** release-candidate packager,
 distinct from the historical Core release. It binds accepted forms, concepts,
 bibliography, per-source versions/terms, construction recipes and build code.
 Archive timestamps, owner metadata and file ordering are deterministic.
-Final candidate `2026-11-02-rc2` is96,626,509 bytes with8,679 streamed, verified
+Final candidate `2026-11-02-rc3` is96,627,076 bytes with8,679 streamed, verified
 members; two independent builds have archive SHA256
-`ff73994fcd122348acfb3b931d227f1a77f022e7b979d5803bff47af0091b271`.
-The public [manifest and source terms](../releases/all-accepted-2026-11-02-rc2/manifest.json)
-and [completion receipt](../releases/all-accepted-2026-11-02-rc2/complete.json)
+`5d51b1e0cfadab5620529a9fe6f1f4880b2b91815f438fe43762b3a38bd33d0f`.
+The public [manifest and source terms](../releases/all-accepted-2026-11-02-rc3/manifest.json)
+and [completion receipt](../releases/all-accepted-2026-11-02-rc3/complete.json)
 describe the candidate. Separate bulk publication remains gated on four missing
 source-license declarations: Kogan Semitic, UraLex, legacy English Wiktionary and
 Williamson Benue-Congo. UraLex has an explicit CC-BY4 README declaration to bind
@@ -223,3 +223,9 @@ review-workspace browsers pass. Whole obsolete web generations are archived,
 member-verified and retired only after active-reference checks; current input
 hashes and archive recovery are retained. Canonical publication is verified in
 the batch receipt after deployment.
+
+Final semantic audit withdrew the initial exact A LITTLE link to related because
+the definition mixes count and mass wording. A regression check protects this
+qualification. RC3 supersedes RC2; lexical/analytical input hashes and all positive
+witnesses are unchanged. Publication checking was restarted against the frozen
+final revision after this correction.

@@ -2461,8 +2461,8 @@
   },
   "catalog": {
     "url": "data/catalog.json.gz",
-    "bytes": 5784194,
-    "sha256": "75acbd683faa432718ec1034204488a849050f7d7a6cb242fef987b3bfa347e5"
+    "bytes": 5784302,
+    "sha256": "f81c1b137e8914541fb927eac84d8e9ec4442e7d348facb7af1346f7970be8ac"
   },
   "core_count": 161,
   "source_files": {
@@ -2491,9 +2491,9 @@
       },
       "links": {
         "accepted:broader": 219,
-        "accepted:exact": 618,
+        "accepted:exact": 617,
         "accepted:narrower": 208,
-        "accepted:related": 88,
+        "accepted:related": 89,
         "source_association:association": 963
       },
       "oewn_version": "2025",
@@ -2504,8 +2504,8 @@
     "files": [
       {
         "url": "data/wordnet-links.csv",
-        "bytes": 868341,
-        "sha256": "7b87fa7c0f41658688a0d52d155f67a48fe35eb7eeae8e3852b85ef5b33f70b7"
+        "bytes": 868500,
+        "sha256": "de60dfa1b676aec42b71f6f9781a19a887882a493250ff58ca21a651f6657522"
       },
       {
         "url": "data/wordnet-candidates.csv",
@@ -2525,12 +2525,12 @@
       {
         "url": "data/wordnet-summary.json",
         "bytes": 762,
-        "sha256": "6e43ce16ff98f2a6759579b5644ef3342395f2e275ee49b7f3d3504d124633b2"
+        "sha256": "2eda0bb021184988fc7fb3ccbc1312d52a11b89f6de34063b7ad5f8acb345a3f"
       },
       {
         "url": "data/wordnet-review.csv",
-        "bytes": 310452,
-        "sha256": "4faeeef9acd8a8d6794cbe804d3890f2e28acce1ba1f28a384e78f44f51e98f4"
+        "bytes": 310611,
+        "sha256": "c798d4c1208b60c72758c20d6197a8408185efbff1862d57c59322099281090d"
       },
       {
         "url": "data/wordnet-holds.json",

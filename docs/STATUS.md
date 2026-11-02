@@ -33,7 +33,7 @@ method is promoted. Independent expert gold remains zero.
 Source-visible146-case and six-flag review workspaces export guarded local decisions.
 A byte-reproduced All accepted candidate includes all lexical/recording constructions,
 recipes, attribution and terms. Four missing source-license declarations remain
-explicit before separate bulk publication. [Candidate manifest](releases/all-accepted-2026-11-02-rc2/manifest.json).
+explicit before separate bulk publication. [Candidate manifest](releases/all-accepted-2026-11-02-rc3/manifest.json).
 Publication verification is being closed in the batch receipt.
 
 | Measure | Accepted value |

@@ -40,7 +40,7 @@ restriction absent from Arca's definition.
 ## Expanded review, 2026-11-02
 
 Accepted links now cover1,123 active concepts, compared with190 initially:
-618 exact,219 broader,208 narrower and88 related links. The new940 links for933
+617 exact,219 broader,208 narrower and89 related links. The new940 links for933
 concepts are explicitly marked `model_assisted_definition_review`, with a batch
 identifier. This is definition-level curation, not independent specialist gold.
 [Execution and limitations](research/PROJECT_EXECUTION_2026-11-02.md),
@@ -160,3 +160,7 @@ remain unchanged.
 pushed; CI and Pages succeed. All 414 checked canonical artifacts on
 https://arcaverborum.org/ match, including the seven WordNet downloads. Live WordNet
 and general research browser suites pass.
+
+Final batch review keeps A LITTLE as related only: its definition mixes count
+and mass wording. The initial exact classification was withdrawn; neither
+source words nor the frozen definition was silently changed.

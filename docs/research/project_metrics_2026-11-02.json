@@ -32,18 +32,18 @@
     "lexical_records_remapped_by_wordnet": 0,
     "links": {
       "accepted:broader": 219,
-      "accepted:exact": 618,
+      "accepted:exact": 617,
       "accepted:narrower": 208,
-      "accepted:related": 88,
+      "accepted:related": 89,
       "source_association:association": 963
     },
     "qualification": "All active concepts screened/accounted for; pending candidates are not definition-level reviews or accepted equivalences. Typed containment is directional, not a calibrated confidence score. Catalog conflicts require native-sense lineage review.",
     "input_hashes": {
-      "review.csv": "4faeeef9acd8a8d6794cbe804d3890f2e28acce1ba1f28a384e78f44f51e98f4",
+      "review.csv": "c798d4c1208b60c72758c20d6197a8408185efbff1862d57c59322099281090d",
       "holds.json": "37982437d591c74a82a1dfe69a28b620462d46158edc08fdfa1c9df5cc3999b5",
-      "bundle.json": "a429557140a642bad5000ee6663abe0cd6c6a670b378b37086dde74717b2050c"
+      "bundle.json": "19a32a7241c0450b80d05cfac6ef24c015f480fddc833c0002a9d24d26f94aa4"
     },
-    "coverage_sha256": "a6dce2eee9a35b963e6db1bce23ab4cd1c5e2f251bee83ab2b39952837040804"
+    "coverage_sha256": "4e2e860521f87a79d6b0dd527a536621f3fe1e4e123f23abe0f9f610b90a3c97"
   },
   "preservation": {
     "protected_records": 2119818,
@@ -129,12 +129,12 @@
   "release": {
     "schema": 1,
     "verified_members": 8679,
-    "manifest_sha256": "5d131cff4d55ea81318931f5118e3c200546f4d8dcede9234a4601b2506998ec",
-    "archive_sha256": "ff73994fcd122348acfb3b931d227f1a77f022e7b979d5803bff47af0091b271",
-    "archive_bytes": 96626509,
-    "archive_filename": "arca-all-accepted-2026-11-02-rc2.tar.gz"
+    "manifest_sha256": "5879f61d9bf721a53675c82ebe8a91bd7294a968a928b78be54f75d6ac3e8883",
+    "archive_sha256": "5d51b1e0cfadab5620529a9fe6f1f4880b2b91815f438fe43762b3a38bd33d0f",
+    "archive_bytes": 96627076,
+    "archive_filename": "arca-all-accepted-2026-11-02-rc3.tar.gz"
   },
-  "release_version": "2026-11-02-rc2",
+  "release_version": "2026-11-02-rc3",
   "release_reproduced_identically": true,
   "release_source_terms_pending": [
     "kogansemitic",
@@ -142,7 +142,7 @@
     "wiktionary",
     "williamsonbenuecongo"
   ],
-  "site_bytes": 753493823,
+  "site_bytes": 755046085,
   "independent_human_expert_gold": 0,
   "source_promotions": 0,
   "new_languages_claimed": 0,
@@ -154,5 +154,6 @@
   "browser_suites": {
     "local_explorer": 8,
     "local_review_workspaces": 2
-  }
+  },
+  "final_semantic_correction": "A LITTLE exact link withdrawn to related; count/mass wording remains unresolved. No lexical or analytical change."
 }

@@ -1,5 +1,5 @@
 concept_id,concept_sha256,review_state,exact,broader,narrower,related,inherited_associations,unreviewed_candidates,hold_reason
-act-a-little,c397432a8ce061c375f846295ec0faf001ba6aa1f1d69b35a42db5ebb13ae093,model_assisted_definition_review,1,0,0,0,0,5,
+act-a-little,c397432a8ce061c375f846295ec0faf001ba6aa1f1d69b35a42db5ebb13ae093,model_assisted_definition_review,0,0,0,1,0,5,
 act-accept,9a05fdc1908f289c2baf47dddc5eb0c5f763109a48918a4e1a213dc0a4424bab,model_assisted_definition_review,1,0,0,0,0,5,
 act-accident,741072e94e18026543b1a85cdb682c0705b041c4a0ae1bf8e913eea92fcc3b8e,model_assisted_definition_review,0,0,1,0,0,1,
 act-accustom,92854c6be8fe751f43787aa6b1e73aa70d906c85c089b4d5fa102ec19fdd2167,pending_sense_review,0,0,0,0,0,5,

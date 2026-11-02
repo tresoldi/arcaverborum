@@ -137,6 +137,10 @@ def test_published_catalog_sense_distinctions_and_full_accounting():
     assert 'pronoun' in bundle['concepts']['cog-who']['hold_reason']
     for cid in ('act-bend', 'qua-alone'):
         assert not any(r['status'] == 'accepted' for r in bundle['concepts'][cid]['links'])
+    # This frozen definition mixes "more than one" with mass-noun use.
+    # Label agreement cannot justify restoring the withdrawn exact link.
+    little = [r for r in bundle['concepts']['act-a-little']['links'] if r['status'] == 'accepted']
+    assert little and {r['relation'] for r in little} == {'related'}
     for row in read_csv(DATA / 'wordnet/review.csv'):
         assert digest(bundle['synsets'][row['target_id']]) == row['target_sha256']
         links = bundle['concepts'][row['concept_id']]['links']

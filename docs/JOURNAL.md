@@ -42,16 +42,17 @@ Core/community peaks109.59/86.23MiB under256MiB AS;239 communities/1,610 concept
 remain.613 tests pass in both installed merkmal flag paths; eight explorer
 browser suites and two review-workspace checks pass.
 
-All accepted release candidate `2026-11-02-rc2`:96,626,509 bytes,8,679 verified
+All accepted release candidate `2026-11-02-rc3`:96,627,076 bytes,8,679 verified
 members, independently byte-reproduced. Archive SHA256
-`ff73994fcd122348acfb3b931d227f1a77f022e7b979d5803bff47af0091b271`.
+`5d51b1e0cfadab5620529a9fe6f1f4880b2b91815f438fe43762b3a38bd33d0f`.
 Separate bulk publication retains four source-term metadata gates (Kogan,
 UraLex, legacy Wiktionary, Williamson). Source declarations are not replaced by
 the code license. Five inactive private SQLite snapshots were compressed and
 round-trip hash-verified to make disk space for the17GB intake/21GB cache rebuild.
 Whole inactive web generations were archived/verified before retirement, with
 no active references removed. The128KiB unrelated CSV-field failure in intake
-expansion is fixed and regression-tested. Public deployment/CI receipts follow
+expansion is fixed and regression-tested. Final review downgraded A LITTLE from exact to related (count/mass ambiguity);
+RC3 supersedes RC2 without changing lexical data or networks. Public deployment/CI receipts follow
 after the data commit; current remaining work is in NEXT/HELD.
 
 ## 2026-11-02 — Whole-project next-cycle planning

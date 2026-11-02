@@ -19,7 +19,8 @@ completed transports, reviews, namespace repairs or release scaffolding:
    conflicts in BECAUSE OF, BEAD and four kinship paths. Use the
    [measured exposure](research/project_semantic_conflict_exposure_2026-11-02.json)
    and original Concepticon/source glosses before changing a definition or moving
-   lexical entries. The twelve WordNet holds include six function-word cases;
+   lexical entries. Also clarify A LITTLE count/mass wording, currently related only.
+   The twelve WordNet holds include six function-word cases;
    English homographs are not substitutes.
 2. **Original reading authority.** Wa’ikhana requires the Huber–Reed1992
    notation/sample; the SIL route returned403. Ampari's Pa and Nando/KP samples
