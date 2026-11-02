@@ -65,7 +65,7 @@ Codex's severity labels are not adopted as-is.
 | 23 | AI disclosure durability | **partial** | No commit trailers, as decided. Add a baseline methods statement in the datasheet, plus a release-level AI-assistance summary harvested from PR fields. The initial-import PR carries the field. |
 | 24 | Lexibank attribution | **accept**, error | The figure is corrected to 64% Lexibank-hosted, with the classification query published. The positioning wording is unchanged. |
 
-## Decisions needed
+## Decisions (all four recommendations accepted by Tiago, 2026-11-02)
 
 1. **Self-approval deadlock (12).** (a) Until a second editor exists,
    branch protection requires CI and PRs but no approving review; required
