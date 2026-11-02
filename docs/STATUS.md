@@ -1,6 +1,6 @@
 # Current project state
 
-**NXT-01–04 and NXT-06,2026-11-02 — accepted data rebuilt; publication in progress.**
+**NXT-01–04 and NXT-06,2026-11-02 — accepted data rebuilt; release public, explorer deployment verification in progress.**
 [Execution and qualifications](research/NXT_EXECUTION_2026-11-02.md),
 [metrics](research/nxt_metrics_2026-11-02.json),
 [preservation](research/nxt_preservation_2026-11-02.json).
@@ -42,7 +42,9 @@ The separate **Reviewed sources** export contains13,230 records/47 constructions
 from four reviewed source namespaces. Full All accepted bulk publication remains
 private: Kogan Semitic, Williamson Benue-Congo and legacy English Wiktionary still
 lack exact declarations, and other source terms have not all been freshly audited.
-[Release documentation](releases/README.md) will carry final archive/publication receipts.
+[Release documentation](releases/README.md) records the byte-reproduced public
+subset and private RC4 uploads. The [public subset](https://github.com/tresoldi/arcaverborum/releases/tag/reviewed-sources-2026-11-02)
+has passed anonymous archive-byte verification. Full canonical explorer verification follows deployment.
 
 Everything below is historical; use the block above and NEXT for current state.
 

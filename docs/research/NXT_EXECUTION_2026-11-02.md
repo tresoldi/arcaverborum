@@ -161,3 +161,27 @@ limits; the separate intake and lexical web builders have higher memory use.
 All eight local explorer suites pass. [Retirement receipt](nxt_asset_retirement_2026-11-02.json)
 verifies24,713 inactive-generation members before retiring only unreferenced web
 assets; current generations and every accepted construction remain available.
+
+### Release closure
+
+Data revision `2ca6d8de2b4bc3503d3d6e1ba607e746baf009fb` is committed/pushed.
+CI passes Python3.12/3.13. The separately named
+[Reviewed sources public release](https://github.com/tresoldi/arcaverborum/releases/tag/reviewed-sources-2026-11-02)
+contains13,230 rows/47 constructions,5,482,196 bytes/23 verified members.
+SHA256 `92b0d6e54c11e6f0c3cde6b04b8d3e2d6ea73291e3b385a37730cb90a0c96a35`.
+Both builds match exactly; all five remote assets match local hashes/sizes and
+anonymous archive bytes reproduce the checksum. A browser downloads the real
+archive, verifies its hash, checks the four-source table and mobile width.
+[Public receipts](../releases/reviewed-sources-2026-11-02/upload.json).
+
+The complete updated collection remains a private RC4 draft:96,822,710 bytes,
+8,699 members, SHA256 `e92c1fc3c042a7c10f1a0190a3d0fa6f7edc2ab44b33d15cdda455e8b2d7525a`.
+Two builds match; five remote asset hashes/sizes match. Three missing declarations
+and other unreviewed/restrictive terms prevent treating the full archive as public.
+[Private-candidate receipt](../releases/all-accepted-2026-11-02-rc4/upload.json).
+RC3 remains historical and is superseded. Neither archive asserts a new DOI.
+
+Six affected construction counts and seven definitions pass an additional browser
+check. Both existing review workspaces pass source rendering, guarded model-assisted
+export validation and mobile width; expert gold remains zero. Final canonical
+explorer-byte verification is recorded after download-page deployment.

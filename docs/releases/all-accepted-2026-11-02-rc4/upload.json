@@ -1,0 +1,85 @@
+{
+  "tag": "all-accepted-2026-11-02-rc4",
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/tresoldi/arcaverborum/releases/assets/701858605",
+        "contentType": "application/x-gtar",
+        "createdAt": "2026-11-02T13:29:41Z",
+        "digest": "sha256:e92c1fc3c042a7c10f1a0190a3d0fa6f7edc2ab44b33d15cdda455e8b2d7525a",
+        "downloadCount": 0,
+        "id": "RA_kwDOP93OSs4p1YMt",
+        "label": "",
+        "name": "arca-all-accepted-2026-11-02-rc4.tar.gz",
+        "size": 96822710,
+        "state": "uploaded",
+        "updatedAt": "2026-11-02T13:29:46Z",
+        "url": "https://github.com/tresoldi/arcaverborum/releases/download/untagged-f8cd5b22b54660af7f3b/arca-all-accepted-2026-11-02-rc4.tar.gz"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/tresoldi/arcaverborum/releases/assets/701858619",
+        "contentType": "text/plain; charset=utf-8",
+        "createdAt": "2026-11-02T13:29:42Z",
+        "digest": "sha256:57da710d05c817b8e013c53a62b61804edb7275f2ba56837ec985235095e84b4",
+        "downloadCount": 0,
+        "id": "RA_kwDOP93OSs4p1YM7",
+        "label": "",
+        "name": "archive-sha256.txt",
+        "size": 106,
+        "state": "uploaded",
+        "updatedAt": "2026-11-02T13:29:42Z",
+        "url": "https://github.com/tresoldi/arcaverborum/releases/download/untagged-f8cd5b22b54660af7f3b/archive-sha256.txt"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/tresoldi/arcaverborum/releases/assets/701858621",
+        "contentType": "application/json",
+        "createdAt": "2026-11-02T13:29:42Z",
+        "digest": "sha256:4d57666cf7b37e320e2bd806680f22988af9cb4360bba3301710c9b4f2c0705a",
+        "downloadCount": 0,
+        "id": "RA_kwDOP93OSs4p1YM9",
+        "label": "",
+        "name": "complete.json",
+        "size": 317,
+        "state": "uploaded",
+        "updatedAt": "2026-11-02T13:29:42Z",
+        "url": "https://github.com/tresoldi/arcaverborum/releases/download/untagged-f8cd5b22b54660af7f3b/complete.json"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/tresoldi/arcaverborum/releases/assets/701858611",
+        "contentType": "application/json",
+        "createdAt": "2026-11-02T13:29:41Z",
+        "digest": "sha256:0db2e8d3a3382d852a5c624bdf28af8870942345788e102325b7d570fd32c3f5",
+        "downloadCount": 0,
+        "id": "RA_kwDOP93OSs4p1YMz",
+        "label": "",
+        "name": "manifest.json",
+        "size": 1620201,
+        "state": "uploaded",
+        "updatedAt": "2026-11-02T13:29:42Z",
+        "url": "https://github.com/tresoldi/arcaverborum/releases/download/untagged-f8cd5b22b54660af7f3b/manifest.json"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/tresoldi/arcaverborum/releases/assets/701858623",
+        "contentType": "text/plain; charset=utf-8",
+        "createdAt": "2026-11-02T13:29:42Z",
+        "digest": "sha256:785ce4b76cecb7dcd4b689fc977e1595ba723f2c447b517a6f23e627317f760f",
+        "downloadCount": 0,
+        "id": "RA_kwDOP93OSs4p1YM_",
+        "label": "",
+        "name": "RELEASE_README.txt",
+        "size": 1287,
+        "state": "uploaded",
+        "updatedAt": "2026-11-02T13:29:42Z",
+        "url": "https://github.com/tresoldi/arcaverborum/releases/download/untagged-f8cd5b22b54660af7f3b/RELEASE_README.txt"
+      }
+    ],
+    "databaseId": 431496720,
+    "isDraft": true,
+    "isPrerelease": true,
+    "targetCommitish": "2ca6d8de2b4bc3503d3d6e1ba607e746baf009fb",
+    "url": "https://github.com/tresoldi/arcaverborum/releases/tag/untagged-f8cd5b22b54660af7f3b"
+  },
+  "all_remote_digests_and_sizes_match": true,
+  "reproduced_identically": true,
+  "qualification": "GitHub asset-reported SHA256/size match local complete builds; public anonymous archive bytes checked separately after publication."
+}

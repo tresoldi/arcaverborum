@@ -9,7 +9,7 @@ Seven inherited definition conflicts resolved;1,350 concepts now have accepted
 WordNet links. Five named constructions add423 records (four language-level
 identities and Kallawaya specialist register);18 further Kipeá citations yield
 441 additions. These are accepted outputs, no longer missing-language candidates.
-UraLex terms are bound and a separately scoped four-source download is prepared.
+UraLex terms are bound and a separately scoped four-source download is published.
 Publication verification is the remaining closure step for this authorized batch.
 
 **NXT-05 is deferred by the user.** Do not start cognator/regulae diagnostics,

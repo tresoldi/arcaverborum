@@ -15,9 +15,10 @@ is asserted. All618 tests pass in both installed normalization flag paths;
 eight explorer browser suites and community recomputation pass.
 
 UraLex's exact declaration is now bound; three missing declarations remain.
-A13,230-record four-source permitted subset is prepared separately from the private
-All accepted candidate. Final release receipts and canonical-byte verification
-will be linked at publication closure. NXT-05 remains explicitly deferred.
+A13,230-record four-source subset is [public](https://github.com/tresoldi/arcaverborum/releases/tag/reviewed-sources-2026-11-02),
+separately from the private All accepted RC4 candidate. Both archives reproduce
+identically and remote asset hashes/sizes match. Anonymous public bytes pass.
+[Release receipts](releases/README.md); canonical explorer verification follows deployment. NXT-05 remains explicitly deferred.
 Historical proposals/metrics below retain their original observation dates.
 
 ## 2026-11-02 — Next cycle after PROJ publication (planning only)
