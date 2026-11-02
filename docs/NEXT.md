@@ -1,5 +1,12 @@
 # Active expansion queue
 
+## ACTIVE — organization launch and schema-A release (2026-11-02)
+
+**Curation is frozen** until release `A` is published: do not start any data
+batch below. Execute the [organization launch plan](planning/ORG_LAUNCH_PLAN_2026-11-02.md)
+(clean repos in `arcaverborum`, three-tier licensing, accepted-inputs snapshot,
+editor governance, `arcaverborum.org` + `live.arcaverborum.org`, then MDPI *Data*).
+
 ## NXT-01–04 and NXT-06 executed —2026-11-02
 
 [Execution](research/NXT_EXECUTION_2026-11-02.md),
