@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-02",
+  "status": "planning_only_no_data_admissions",
+  "data_commit": "0d36f941855a96bf2f7704abb021cf0f6974248d",
+  "closure_commit": "5f81113c8a3b59c8581059ff3deb25cb7dd4ca50",
+  "accepted_baseline": {
+    "constructions": 7366,
+    "lexical_records": 2119822,
+    "supported_core": 470116,
+    "mapped_core": 544351,
+    "gled_primaries": 1552,
+    "wordnet_accepted_concepts": 1123,
+    "wordnet_pending": 2627
+  },
+  "reports": {
+    "post_proj_gled_2026-11-02": {
+      "path": "output/report/post_proj_gled_2026-11-02.csv",
+      "sha256": "d7c68a07b1aec45f8bede094b0402f5fcf196c8d04e5dc77f8909dcd507a030b",
+      "rows": 2325
+    },
+    "post_proj_choices_2026-11-02": {
+      "path": "output/report/post_proj_choices_2026-11-02.csv",
+      "sha256": "0117e150f128ef1d2171e6721e17512e4d89ad7077383f523e5ab3ee2a7d9c59",
+      "rows": 197
+    },
+    "post_proj_missing_2026-11-02": {
+      "path": "output/report/post_proj_missing_2026-11-02.csv",
+      "sha256": "b3c2fe5d65dcdc7da5333ea99b47d54d0a5a6fbbc6bccf0c0f169b6b5890c68e",
+      "rows": 737
+    },
+    "post_proj_coverage_2026-11-02": {
+      "path": "output/report/post_proj_coverage_2026-11-02.csv",
+      "sha256": "ba99afc49a89589a73c374bb79d69dc847955cb0afee12f6dd3036d915e31134",
+      "rows": 6837
+    }
+  },
+  "missing_by_frozen_authority_level": {
+    "language": 421,
+    "family": 20,
+    "dialect": 281,
+    "": 15
+  },
+  "selected_raw_candidates": [
+    {
+      "glottolog_level": "language",
+      "canonical_parent_language": "",
+      "source": "wiktionaryfr202610",
+      "source_language_id": "wiktionaryfr202610_rey_9ef1a578aa96",
+      "glottocode": "reye1240",
+      "name": "Reyesano",
+      "macroarea": "South America",
+      "rows": "9",
+      "raw_segmented": "0",
+      "registered_ids": "",
+      "glottolog_metadata_present": "True",
+      "decision": "review_language",
+      "rationale": "Absent exact Glottocode from accepted catalog; language level, ancestry, aliases, original evidence and terms still require review. Segmented input is not quality certification."
+    },
+    {
+      "glottolog_level": "language",
+      "canonical_parent_language": "",
+      "source": "wiktionaryfr202610",
+      "source_language_id": "wiktionaryfr202610_caw_79f6c723283b",
+      "glottocode": "call1235",
+      "name": "Kallawaya",
+      "macroarea": "South America",
+      "rows": "7",
+      "raw_segmented": "0",
+      "registered_ids": "",
+      "glottolog_metadata_present": "True",
+      "decision": "review_language",
+      "rationale": "Absent exact Glottocode from accepted catalog; language level, ancestry, aliases, original evidence and terms still require review. Segmented input is not quality certification."
+    },
+    {
+      "glottolog_level": "language",
+      "canonical_parent_language": "",
+      "source": "wiktionaryfr202610",
+      "source_language_id": "wiktionaryfr202610_tmf_1b94ae306e17",
+      "glottocode": "toba1268",
+      "name": "Toba mascoy",
+      "macroarea": "South America",
+      "rows": "6",
+      "raw_segmented": "0",
+      "registered_ids": "",
+      "glottolog_metadata_present": "True",
+      "decision": "review_language",
+      "rationale": "Absent exact Glottocode from accepted catalog; language level, ancestry, aliases, original evidence and terms still require review. Segmented input is not quality certification."
+    },
+    {
+      "glottolog_level": "language",
+      "canonical_parent_language": "",
+      "source": "lexirumahoriginal",
+      "source_language_id": "lexirumahoriginal_habu1241",
+      "glottocode": "habu1241",
+      "name": "Habun",
+      "macroarea": "Papunesia",
+      "rows": "216",
+      "raw_segmented": "216",
+      "registered_ids": "",
+      "glottolog_metadata_present": "True",
+      "decision": "review_language",
+      "rationale": "Absent exact Glottocode from accepted catalog; language level, ancestry, aliases, original evidence and terms still require review. Segmented input is not quality certification."
+    },
+    {
+      "glottolog_level": "language",
+      "canonical_parent_language": "",
+      "source": "wiktionaryfr202610",
+      "source_language_id": "wiktionaryfr202610_mtb_f72b4600f8b8",
+      "glottocode": "anyi1244",
+      "name": "Agni morofoué",
+      "macroarea": "Africa",
+      "rows": "763",
+      "raw_segmented": "0",
+      "registered_ids": "",
+      "glottolog_metadata_present": "True",
+      "decision": "review_language",
+      "rationale": "Absent exact Glottocode from accepted catalog; language level, ancestry, aliases, original evidence and terms still require review. Segmented input is not quality certification."
+    }
+  ],
+  "qualifications": [
+    "Missing exact-code members are not distinct missing languages.",
+    "Candidate rows are not forecast admissions, gains, or independent witnesses.",
+    "Raw segmented input is not author-supplied IPA.",
+    "Raw alternative counts do not veto quality-led reviewed Wiktionary promotions.",
+    "Palula is already dictionary-primary in current config; historical recipe entries are not current authority."
+  ],
+  "additive_summary": {
+    "accepted_targets_with_gaps": 7345,
+    "member_opportunities": 6837,
+    "south_american_opportunities": 603,
+    "american_opportunities": 901,
+    "method": "Additive potential against supported accepted concepts. Member rows overlap; do not sum as unique gains.",
+    "source_policy": "Valid supplied/upstream-converted segments count as source-reading potential, not independent IPA certification. Resegmented spelling is orthographic potential, never supported evidence.",
+    "limitations": "Raw upstream mappings require sense review. Same Glottocode does not certify sample identity. Primary-source profile recovery is outside this alternatives report."
+  },
+  "top_additive_leads_not_new_admissions": [
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source": "hubercolumbian",
+      "source_language_id": "hubercolumbian_Piratapuyo",
+      "supported_core": "57",
+      "additive_source_core_potential": "86",
+      "orthographic_core_potential": "0"
+    },
+    {
+      "av_id": "lul-lule",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Lule",
+      "supported_core": "79",
+      "additive_source_core_potential": "45",
+      "orthographic_core_potential": "0"
+    },
+    {
+      "av_id": "arb-madi",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Jamamadi",
+      "supported_core": "118",
+      "additive_source_core_potential": "33",
+      "orthographic_core_potential": "0"
+    },
+    {
+      "av_id": "tah-taushiro",
+      "source": "johanssonsoundsymbolic",
+      "source_language_id": "johanssonsoundsymbolic_Taushiro",
+      "supported_core": "97",
+      "additive_source_core_potential": "32",
+      "orthographic_core_potential": "0"
+    },
+    {
+      "av_id": "tuc-wa-ikhana",
+      "source": "chaconcolumbian",
+      "source_language_id": "chaconcolumbian_Piratapuyo",
+      "supported_core": "57",
+      "additive_source_core_potential": "30",
+      "orthographic_core_potential": "0"
+    }
+  ]
+}

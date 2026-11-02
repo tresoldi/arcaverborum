@@ -1,5 +1,16 @@
 # Project journal and working memory
 
+## 2026-11-02 — Next cycle after PROJ publication (planning only)
+
+[Proposal](planning/POST_PROJ_NEXT_2026-11-02.md) prioritizes semantic lineage,
+audited WordNet extension, genuinely missing exact source members, continuous
+historical Brazilian collation, downstream diagnostics and a usable permitted
+release. Fresh additive/GLED/missing/authored-alternative reports are pinned in
+the planning summary. Small Reyesano/Kallawaya/Toba Mascoy leads and Habun are
+review candidates, not new admissions. Palula is already dictionary-primary in
+current config; historical recipe notes must not trigger a repeated promotion.
+No intake, profiles, accepted forms, graph weights or web data changed.
+
 ## 2026-11-02 — PROJ-01–06 authorized execution
 
 Executed all six tracks with autonomous details; WordNet was expanded beyond

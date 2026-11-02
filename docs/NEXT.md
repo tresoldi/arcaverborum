@@ -1,5 +1,27 @@
 # Active expansion queue
 
+## Proposed next cycle —2026-11-02, after PROJ closure
+
+[Detailed order, exact candidates, baselines and tradeoffs](planning/POST_PROJ_NEXT_2026-11-02.md).
+Planning only; no new lexical batch is authorized by this recommendation.
+
+1. **NXT-01:** trace and resolve six catalog conflicts plus A LITTLE count/mass
+   wording, preserving original sense lineage before guarded changes.
+2. **NXT-02:** audit the previous WordNet links, then extend the2,627 pending
+   concepts by lexical exposure and defensible definition-level matches.
+3. **NXT-03:** review Reyesano, Kallawaya and Toba Mascoy French-Wiktionary
+   members; rotate to exact Habun LexiRumah and an Agni morofoué reserve.
+   These are raw intake candidates, not confirmed missing languages or gains.
+4. **NXT-04:** collate a continuous Mamiani historical Brazilian section,
+   keeping Kipeá/Dzubukuá, example morphology and written readings explicit.
+5. **NXT-05:** build a source-labelled cognator/regulae diagnostic and improve
+   citation-backed colexification controls; keep production weights unchanged.
+6. **NXT-06:** resolve four release-term gates; if full release stays blocked,
+   prepare an explicitly scoped subset only from independently verified terms.
+
+The PROJ and CINF sections below are closure context and protected gates, not
+uncompleted versions of the newly scoped tasks.
+
 ## Whole-project cycle closed —2026-11-02
 
 All six authorized tracks received bounded execution. [Execution and limitations](research/PROJECT_EXECUTION_2026-11-02.md),
