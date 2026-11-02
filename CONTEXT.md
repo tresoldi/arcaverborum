@@ -14,8 +14,10 @@ linguistics. For each language **variety**, Arca selects one accepted
 **construction** from the best available source, optionally overlays
 hand-curated corrections, normalizes phonological transcriptions, maps
 forms to a frozen **concept catalog**, and emits per-variety output that is
-aggregated into a single dataset and then sliced into a versioned
-**release** (Arca Verborum Core).
+aggregated into a single dataset and then frozen into versioned
+**releases**: the historical Arca Verborum Core and dated All accepted candidates.
+The latter preserve recording-only constructions and source-specific terms;
+they do not acquire a blanket data license from the code license.
 
 The database is consumed by two downstream tools:
 
@@ -42,7 +44,8 @@ Use these terms when naming things in code, commits, and conversation.
 | **form** | A single lexical entry: a (variety, concept, word-form, transcription) tuple with provenance. |
 | **intake** | Normalized, source-prefixed CSVs produced by ingest from raw CLDF data. The common input format for the build. |
 | **profile** | An orthographic profile (`custom/profile.tsv`): a grapheme→IPA table replacing re-segmentation within a reviewed source scope; supplemental profiles use guarded whole-form keys. |
-| **segments** | Space-separated IPA tokens for a form, validated by merkmal. |
+| **segments** | Space-separated transcription tokens, validated by merkmal. Supplied/profile-derived readings and ASJP-derived reductions retain different evidence roles; token validity alone does not establish IPA or recover omitted contrasts. |
+| **observation scope** | An attested field collection, local variety/stage and reading convention, with original publication/edition provenance. Shared bibliography strings alone establish neither a common field witness nor independent confirmation. Unknown scope remains unknown. |
 | **segments source** | How the segments were obtained: `source` (validated supplied transcription, with original conventions retained), `profile` (documented derived reading), `resegmented` (re-tokenized form string), or `unclean` (unresolved validation). Token validity is not independent pronunciation verification. |
 | **tier** | Quality band recorded in the accepted config: gold / silver / bronze / copper. Per-form scores and transcription evidence are separate diagnostics. |
 | **pin** | A manually fixed source choice for a variety (overrides automatic selection). |

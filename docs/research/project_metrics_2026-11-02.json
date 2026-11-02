@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-02",
+  "accepted_constructions": 7366,
+  "lexical_constructions": 7364,
+  "recording_only_constructions": 2,
+  "records": 2119822,
+  "states": {
+    "source": 1749823,
+    "unclean": 159864,
+    "resegmented": 187957,
+    "profile": 22178
+  },
+  "supported_core": 470116,
+  "mapped_core": 544351,
+  "supported_all": 1209287,
+  "mapped_all": 1337343,
+  "gled_primaries": 1552,
+  "intake_records": 16430725,
+  "aggregate_sha256": "873e97b2c7d23da08423b680ea2591789c7dd460ce20bbf826cc74c4d91f9f41",
+  "wordnet": {
+    "active_concepts": 3789,
+    "states": {
+      "model_assisted_definition_review": 933,
+      "pending_sense_review": 2627,
+      "held": 12,
+      "earlier_accepted_links": 190,
+      "inventory_gap": 27
+    },
+    "accepted_concepts": 1123,
+    "new_review_links": 940,
+    "human_expert_adjudications": 0,
+    "lexical_records_remapped_by_wordnet": 0,
+    "links": {
+      "accepted:broader": 219,
+      "accepted:exact": 618,
+      "accepted:narrower": 208,
+      "accepted:related": 88,
+      "source_association:association": 963
+    },
+    "qualification": "All active concepts screened/accounted for; pending candidates are not definition-level reviews or accepted equivalences. Typed containment is directional, not a calibrated confidence score. Catalog conflicts require native-sense lineage review.",
+    "input_hashes": {
+      "review.csv": "4faeeef9acd8a8d6794cbe804d3890f2e28acce1ba1f28a384e78f44f51e98f4",
+      "holds.json": "37982437d591c74a82a1dfe69a28b620462d46158edc08fdfa1c9df5cc3999b5",
+      "bundle.json": "a429557140a642bad5000ee6663abe0cd6c6a670b378b37086dde74717b2050c"
+    },
+    "coverage_sha256": "a6dce2eee9a35b963e6db1bce23ab4cd1c5e2f251bee83ab2b39952837040804"
+  },
+  "preservation": {
+    "protected_records": 2119818,
+    "nonempty_constructions": 7364,
+    "new_written_records": 4,
+    "changed_cognacy_records": 35096,
+    "unsupported_extra_memberships_removed": 35096,
+    "unsupported_raw_only_memberships_cleared": 0,
+    "other_protected_fields_unchanged": true,
+    "allowed_native_sense_mappings": 19,
+    "all_new_cognates_are_existing_structured_memberships": true,
+    "full_native_cognate_memberships_independently_joined": true,
+    "baseline_sha256": "1d2dce07e6c06d34db49b3fbbd95ac342ad0c140e67167cc476289dcbc467b31"
+  },
+  "analytical_core": "46e35ceddf6f1e2420e89802",
+  "core_database_sha256": "456872728b28592dbb036b6cf0341415e4c8b32bbc871b47a142a814e3662d58",
+  "graph_build_id": "692b5d39320b19be8f14c070",
+  "community_build_id": "4d0675824c4fcb5989b1d541",
+  "community_summary": {
+    "assigned_nodes": 1610,
+    "communities": 239,
+    "eligible_family_edges": 5362,
+    "evidence_edges": 42741,
+    "recurrent_fragile_to_namespace": 2061,
+    "single_namespace_edges": 36250
+  },
+  "core_stats": {
+    "active_concepts": 3789,
+    "backbone_edges": 5362,
+    "concepts": 3828,
+    "duplicate_readings": 17,
+    "edges": 85463,
+    "excluded_doubtful": 2005,
+    "excluded_held_washo_prefix_reading": 101,
+    "excluded_merged": 2085,
+    "excluded_reconstruction": 18528,
+    "excluded_reviewed_reconstruction": 1,
+    "excluded_segment_identity": 203471,
+    "excluded_source_extraction_prefix": 3595,
+    "excluded_unmapped": 326237,
+    "excluded_written_identity": 85219,
+    "inferred_witnesses": 11902,
+    "input_records": 2119822,
+    "networks": [
+      {
+        "edges": 508,
+        "kind": "observed",
+        "layer": "reduced"
+      },
+      {
+        "edges": 6,
+        "kind": "inferred",
+        "layer": "segmented"
+      },
+      {
+        "edges": 42741,
+        "kind": "observed",
+        "layer": "segmented"
+      },
+      {
+        "edges": 6,
+        "kind": "inferred",
+        "layer": "written"
+      },
+      {
+        "edges": 42202,
+        "kind": "observed",
+        "layer": "written"
+      }
+    ],
+    "quarantined_identities": 2,
+    "readings_reduced": 80754,
+    "readings_segmented": 1483045,
+    "readings_written": 1682034,
+    "semantic_readings": {
+      "reviewed_dictionary_sense": 5026,
+      "source_mapping": 3193032,
+      "unreviewed_dictionary_sense": 47775
+    },
+    "witnesses": 259495
+  },
+  "concept_rows_build_id": "c4646fc8e73cabd95478148d",
+  "release": {
+    "schema": 1,
+    "verified_members": 8679,
+    "manifest_sha256": "5d131cff4d55ea81318931f5118e3c200546f4d8dcede9234a4601b2506998ec",
+    "archive_sha256": "ff73994fcd122348acfb3b931d227f1a77f022e7b979d5803bff47af0091b271",
+    "archive_bytes": 96626509,
+    "archive_filename": "arca-all-accepted-2026-11-02-rc2.tar.gz"
+  },
+  "release_version": "2026-11-02-rc2",
+  "release_reproduced_identically": true,
+  "release_source_terms_pending": [
+    "kogansemitic",
+    "uralex",
+    "wiktionary",
+    "williamsonbenuecongo"
+  ],
+  "site_bytes": 753493823,
+  "independent_human_expert_gold": 0,
+  "source_promotions": 0,
+  "new_languages_claimed": 0,
+  "tests": {
+    "native_installed_flag": 613,
+    "fallback_installed_flag": 613,
+    "qualification": "Same installed library; two HAVE_UTF8PROC flag paths, not two separately compiled binaries"
+  },
+  "browser_suites": {
+    "local_explorer": 8,
+    "local_review_workspaces": 2
+  }
+}

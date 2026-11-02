@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arca linguistic review</title><style>
+body{font:17px system-ui;max-width:1100px;margin:2rem auto;padding:0 1rem;color:#172b36;background:#fafaf7}
+select,input,textarea,button{font:inherit;padding:.5rem;max-width:100%;box-sizing:border-box}
+textarea{width:100%;min-height:5rem}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#eef1ef;padding:1rem}
+label{display:block;margin:1rem 0}button{cursor:pointer} .pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem}
+</style><h1>Linguistic evidence review</h1><p>Local workspace. Model assistance is explicit. Unknown scope remains unknown;
+bibliography keys alone do not establish fieldwork independence. Exported decisions require validation and do not change the database.</p>
+<label>Find a case <input id="search" placeholder="Concept, language, source or case ID"></label>
+<label>Case <select id="cases"></select></label><div id="evidence"></div>
+<label>Reviewer <input id="reviewer"></label><label>Provenance <select id="type"><option value="model_assisted">Model assisted</option><option value="human">Human reviewer (not automatically expert gold)</option></select></label>
+<label>Decision <select id="decision"><option>unresolved</option><option>same_lexeme</option><option>homophony</option><option>mapping_error</option><option>reading_error</option><option>mixed_scope</option></select></label>
+<label>Original source/page/entry locator <input id="locator"></label><label>Reason and disagreements <textarea id="reason"></textarea></label>
+<label>Optional per-record scope assertions (JSON array). Fields: source_form_id, evidence_locator,
+field_collection, original_publication, edition, local_variety, historical_stage, reading_convention.
+Leave unknown fields blank; record IDs must occur in this case.<textarea id="scopes">[]</textarea></label>
+<button id="save">Save case locally</button> <button id="export">Export guarded decisions</button><p id="status" role="status"></p>
+<script>const packet=__ARCA_REVIEW_PACKET__;
+const $=id=>document.getElementById(id), saved=new Map();
+function show(){const row=packet.cases.find(r=>r.case_id===$('cases').value);$('evidence').replaceChildren();if(!row)return;
+ const h=document.createElement('h2');h.textContent=row.language+' · '+row.a+' / '+row.b;$('evidence').append(h);
+ const p=document.createElement('p');p.textContent=row.source+' · '+row.member+' · '+row.basis;$('evidence').append(p);
+ if(row.review_task){const note=document.createElement('p');note.textContent=row.review_task+' Historical diagnostic: '+row.scope_flag;$('evidence').append(note)}
+ const pair=document.createElement('div');pair.className='pair';for(const side of ['a','b']){const pre=document.createElement('pre');
+ pre.textContent=row['definition_'+side]+'\nNative senses: '+row['native_senses_'+side]+'\n'+JSON.stringify(JSON.parse(row['original_records_'+side]),null,2);pair.append(pre)}$('evidence').append(pair);
+ const annotations=document.createElement('details'),summary=document.createElement('summary'),pre=document.createElement('pre');
+ summary.textContent='Existing model reviews, disagreements and supplemental native labels (unblinded)';
+ pre.textContent=JSON.stringify({reviews:row.review_annotations,native_parameters:row.source_parameter_evidence},null,2);
+ annotations.append(summary,pre);$('evidence').append(annotations);
+ const d=saved.get(row.case_id)||{};for(const [id,key]of [['decision','decision'],['locator','evidence_locator'],['reason','rationale']])$(id).value=d[key]|| (id==='decision'?'unresolved':'');$('scopes').value=JSON.stringify(d.record_scopes||[],null,2);
+}
+function filter(){const query=$('search').value.toLowerCase();$('cases').replaceChildren();for(const r of packet.cases){if(![r.language,r.source,r.a,r.b,r.case_id,r.original_records_a,r.original_records_b,r.native_senses_a,r.native_senses_b].join(' ').toLowerCase().includes(query))continue;const o=document.createElement('option');o.value=r.case_id;o.textContent=r.language+' · '+r.a+' / '+r.b;$('cases').append(o)}show()}
+$('search').oninput=filter;$('cases').onchange=show;
+$('save').onclick=()=>{const r=packet.cases.find(r=>r.case_id===$('cases').value);if(!r)return;try{
+if(!['reviewer','locator','reason'].every(id=>$(id).value.trim()))throw Error('Reviewer, original locator and rationale are required.');
+const scopes=JSON.parse($('scopes').value);if(!Array.isArray(scopes))throw Error('Scopes must be an array.');
+const ids=new Set(['a','b'].flatMap(side=>JSON.parse(r['original_records_'+side]).map(x=>x.source_form_id))), seen=new Set();
+for(const scope of scopes){if(!ids.has(scope.source_form_id)||seen.has(scope.source_form_id)||!scope.evidence_locator?.trim())throw Error('Each scope needs a distinct original record ID and evidence locator.');seen.add(scope.source_form_id)}
+saved.set(r.case_id,{case_id:r.case_id,case_sha256:r.case_sha256,decision:$('decision').value,reviewer:$('reviewer').value,reviewer_type:$('type').value,evidence_locator:$('locator').value,rationale:$('reason').value,record_scopes:scopes});$('status').textContent=saved.size+' case decisions in this browser session. Export before closing.';
+}catch(e){$('status').textContent=e.message}};
+$('export').onclick=()=>{const blob=new Blob([JSON.stringify({schema:1,packet_sha256:packet.packet_sha256,decisions:[...saved.values()]},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='arca-review-decisions.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};filter();
+</script></html>

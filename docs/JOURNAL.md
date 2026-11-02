@@ -1,5 +1,59 @@
 # Project journal and working memory
 
+## 2026-11-02 — PROJ-01–06 authorized execution
+
+Executed all six tracks with autonomous details; WordNet was expanded beyond
+the former50-review proposal. [Execution](research/PROJECT_EXECUTION_2026-11-02.md),
+[metrics](research/project_metrics_2026-11-02.json), [preservation](research/project_preservation_2026-11-02.json).
+940 model-assisted typed links for933 concepts increase accepted WordNet coverage
+190→1,123; exact/broader/narrower/related remain distinct. All3,789 active concepts
+are accounted for;2,627 pending,12 held,27 inventory gaps. Six catalog conflicts
+are held without rewriting frozen lexical meanings. Reviewer provenance is public.
+
+Four new Mamiani1699 Kipeá written citations preserve accents and whole forms;
+the old16 survive. Nineteen existing Yasa citations gain literal native-sense
+decisions, increasing covered concepts95→107. No new language, IPA or primary
+promotion. Bove1883 is an ethnographic report with scattered terms; the proposal's
+large-vocabulary assumption was corrected. Wa’ikhana/Ampari/Cayuga/Zapotec and
+Yasa IPA authority gates remain explicit; failed403/404 routes are recorded.
+
+Native recipe review proves that ACD reconstruction references, Sagart class-only
+labels and Lee language-local counters are not extra global cognate sets. Pinned
+ingest/emission policies repair35,096 accepted records, preserving every exact
+source-form structured assignment and the raw identifiers as notes. An independent
+join verifies every published target; no source bridge, inferred cognacy or reading
+change. Nine source-provenance fixtures span three families, including written-only
+ACD examples ineligible for phonological input.44-source audit refreshed.
+
+Published-ready offline review workspaces expose146 earlier cases plus a separate
+six-flag scope packet, both earlier model reviews and supplemental native labels.
+Scope dimensions are typed and unknown remains unknown; exported decisions are
+packet/case/record guarded and do not mutate data or constitute expert gold.
+Independent human specialist gold stays zero. No further confidence model.
+
+Accepted-catalog rebuild:7,366 constructions,2,119,822 lexical rows, zero failures.
+7,364 have lexical records; two are recording-only, clarifying the earlier
+“nonempty” wording.755 recordings are retained. All2,119,818 earlier protected
+records match. Mapped slots increase16 overall/four core; phonetic support is
+unchanged. All259,495 positive analytical witnesses match. Core
+`46e35ceddf6f1e2420e89802`, graphs `692b5d39320b19be8f14c070`, communities
+`4d0675824c4fcb5989b1d541`, concept rows `c4646fc8e73cabd95478148d`.
+Core/community peaks109.59/86.23MiB under256MiB AS;239 communities/1,610 concepts
+remain.613 tests pass in both installed merkmal flag paths; eight explorer
+browser suites and two review-workspace checks pass.
+
+All accepted release candidate `2026-11-02-rc2`:96,626,509 bytes,8,679 verified
+members, independently byte-reproduced. Archive SHA256
+`ff73994fcd122348acfb3b931d227f1a77f022e7b979d5803bff47af0091b271`.
+Separate bulk publication retains four source-term metadata gates (Kogan,
+UraLex, legacy Wiktionary, Williamson). Source declarations are not replaced by
+the code license. Five inactive private SQLite snapshots were compressed and
+round-trip hash-verified to make disk space for the17GB intake/21GB cache rebuild.
+Whole inactive web generations were archived/verified before retirement, with
+no active references removed. The128KiB unrelated CSV-field failure in intake
+expansion is fixed and regression-tested. Public deployment/CI receipts follow
+after the data commit; current remaining work is in NEXT/HELD.
+
 ## 2026-11-02 — Whole-project next-cycle planning
 
 Refreshed read-only additive, GLED-alternative, reviewed-source-choice and missing-

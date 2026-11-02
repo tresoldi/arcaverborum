@@ -317,10 +317,11 @@ function wordnetPanel(c) {
   const status=wn.hold_reason?'Held for sense review':({accepted:'Reviewed links available',source_association:'Inherited associations need review',review:'Candidates need review',merged:'Merged catalog entry',unlinked:'No WordNet link yet'})[wn.coverage]||'Needs review';
   const render=r=>{const t=r.target, name=`${t.resource==='oewn'?'OEWN':'Princeton WordNet'} ${t.version} · ${t.id}`;
     return `<li><strong>${esc(r.status==='candidate'?'Unreviewed candidate':r.status==='source_association'?'Inherited association':r.relation+' match')}</strong> · ${esc(name)}${t.ili&&t.ili!=='in'?' · '+external('Browse '+t.ili,'https://en-word.net/ili/'+encodeURIComponent(t.ili)):''}
-      <p>${esc(t.lemmas.join(', '))} (${esc(t.pos)}) — ${esc(t.definition)}</p><p class="sub">${esc(r.evidence)}${t.ili?' · '+esc(t.ili):''}${t.pwn30.length?' · Princeton 3.0: '+esc(t.pwn30.join(', ')):''}</p></li>`;};
+      <p>${esc(t.lemmas.join(', '))} (${esc(t.pos)}) — ${esc(t.definition)}</p><p class="sub">${esc(r.evidence)}${r.reviewer_type?' · Review: '+esc(r.reviewer_type.replaceAll('_',' ')):''}${t.ili?' · '+esc(t.ili):''}${t.pwn30.length?' · Princeton 3.0: '+esc(t.pwn30.join(', ')):''}</p></li>`;};
   return `<section aria-label="WordNet sense links"><h3>WordNet sense links</h3>
     <p class="wordnet-summary"><strong>${esc(status)}</strong> · ${exact} exact · ${approximate} approximate · ${inherited.length} inherited · ${wn.candidates.length} unreviewed candidates</p>
-    <p class="sub">Frozen OEWN 2025 senses, with Princeton 3.0 compatibility via ILI. Inherited associations and candidates are not accepted equivalences. “Broader” means the target is broader than this Arca concept; “narrower” means the target is narrower. External browsing may use a newer edition.</p>
+    <p class="sub">Frozen OEWN 2025 senses, with Princeton 3.0 compatibility via ILI. Inherited associations and candidates are not accepted equivalences. “Broader” means the target is broader than this Arca concept; “narrower” means the target is narrower. Related links indicate overlap or association, not identity. External browsing may use a newer edition.</p>
+    <p class="sub">Definition reviews include model-assisted curation, not independent expert certification. Read the reason attached to each link. These concept links do not remap original dictionary senses or establish colexification. Candidate ranking is a search aid, not a confidence estimate.</p>
     ${reviewed.length?'<h4>Reviewed sense links</h4><ul>'+reviewed.map(render).join('')+'</ul>':'<p>No accepted mapping yet.</p>'}
     ${inherited.length?'<h4>Inherited Concepticon associations</h4><p class="sub">These source associations have not been accepted as semantic equivalences.</p><ul>'+inherited.map(render).join('')+'</ul>':''}
     ${wn.hold_reason?'<p>'+esc(wn.hold_reason)+'</p>':''}
@@ -493,6 +494,7 @@ async function drawMap(rows,cognate,token) {
 function showSources() {
   const used=new Set(scopedLanguages().flatMap(l=>Object.keys(l.source_counts||{[l.transcription_source]:0})).filter(s=>state.collection!=='core'||catalog.core_sources.includes(s)));
   $('#app').innerHTML=`<h2>Sources and attribution</h2><p>Licenses remain per source; inclusion in Arca does not relicense the underlying data. Records missing license metadata explicitly require checking upstream terms.</p>
+    <p><a href="review/linguistic-2026-11-02/index.html">Review original linguistic evidence</a> · <a href="review/scopes-2026-11-02/index.html">Review the six publication-scope flags</a>. These workspaces export decisions locally; they do not update the database or certify expert gold.</p>
     ${table([{key:'Title',label:'Dataset',render:s=>external(s.Title||s.Dataset,s.URL)}, {key:'Citation',label:'Citation'}, {key:'License',label:'License'},
       {key:'Repository_Version',label:'Version'}],[...used].map(key=>sources.get(key)||{Dataset:key,Title:key,Citation:'Citation metadata not recorded; inspect the form source keys and upstream data.',License:'Not recorded'}))}
     <p><a href="data/sources.bib" download>Download original bibliography</a> · ${link('Collection and quality guide',{view:'about'})}</p>`;

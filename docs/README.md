@@ -1,5 +1,7 @@
 # Documentation map
 
+* [Whole-project PROJ-01–06 execution,2026-11-02](research/PROJECT_EXECUTION_2026-11-02.md):940 new typed WordNet links, native senses, original Kipeá citations, source-cognacy repairs, review workspaces and a reproducible whole-collection candidate.
+
 Colexification: [research method, source scopes, missingness, memory limits and reproduction](COLEXIFICATION.md).
 * [CINF-01–05 executed validation, source fidelity and publication evidence](research/CINF_EXECUTION_2026-11-01.md):76-pair streamed experiment, model failures, original-source gates and updated baseline.
 * [Living research record for a future paper](research/COLEXIFICATION_RESEARCH.md): frozen pilot, executed findings, failures, validation, source audit and remaining inference gates.

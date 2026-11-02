@@ -1,0 +1,437 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "dataset": "acd",
+      "source_forms": 146733,
+      "structured_judgments": 121682,
+      "missing_form_references": 0,
+      "distinct_raw_labels": 13124,
+      "distinct_structured_labels": 10857,
+      "raw_labels_not_structured": 107726,
+      "methods": {
+        "expert": 121682
+      },
+      "inputs": {
+        "forms.csv": "bc6104c82b90149fad3c076af0948a42bc649f9de770690796518e84e8c4e80d",
+        "cognates.csv": "3f0aa4f81257b75ddced1daa3d4b4820c4519221e89afd1dee6ae3d34dcb36c5"
+      },
+      "decision": "Retain source namespaces and structured judgments; no raw-label reconciliation or alignment/slice repair without source-specific evidence."
+    },
+    {
+      "dataset": "sagartst",
+      "source_forms": 12179,
+      "structured_judgments": 12179,
+      "missing_form_references": 0,
+      "distinct_raw_labels": 4852,
+      "distinct_structured_labels": 5120,
+      "raw_labels_not_structured": 12179,
+      "methods": {
+        "expert": 12179
+      },
+      "inputs": {
+        "forms.csv": "75526bf1738a03dc804aa286e312adadd10797b9c771ecd108498d81ae5ef71e",
+        "cognates.csv": "935dffe8b35f4dc83ef64317ed23f54e179302c78723b6a3944ad362e5ce5417"
+      },
+      "decision": "Retain source namespaces and structured judgments; no raw-label reconciliation or alignment/slice repair without source-specific evidence."
+    },
+    {
+      "dataset": "leejaponic",
+      "source_forms": 11363,
+      "structured_judgments": 11366,
+      "missing_form_references": 0,
+      "distinct_raw_labels": 30,
+      "distinct_structured_labels": 677,
+      "raw_labels_not_structured": 11363,
+      "methods": {
+        "expert": 11366
+      },
+      "inputs": {
+        "forms.csv": "db0e57beb555a221b1f620337b002a31502db4e808c974c735880c73a0136c19",
+        "cognates.csv": "0eb09cb52053175dd8f078b5a8f1a43c82d9aa85f669cfd2e8db59b190bf6ae4"
+      },
+      "decision": "Retain source namespaces and structured judgments; no raw-label reconciliation or alignment/slice repair without source-specific evidence."
+    }
+  ],
+  "fixtures": [
+    {
+      "dataset": "acd",
+      "source_form": {
+        "ID": "19579-bae60998ffe4923b131e3d6e4c19993e-1",
+        "Language_ID": "19579",
+        "Parameter_ID": "bae60998ffe4923b131e3d6e4c19993e",
+        "Value": "a-laat",
+        "Form": "a-laat",
+        "Segments": "",
+        "Cognacy": "7599",
+        "Source": "lobel2016",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "19579-bae60998ffe4923b131e3d6e4c19993e-1-1",
+          "Form_ID": "19579-bae60998ffe4923b131e3d6e4c19993e-1",
+          "Form": "",
+          "Cognateset_ID": "30440_1",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": "",
+          "Metathesis": "false",
+          "Assimilation": "false",
+          "Doublet_Comment": "",
+          "Doublet_Set": "",
+          "Disjunct_Comment": "",
+          "Disjunct_Set": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "bc6104c82b90149fad3c076af0948a42bc649f9de770690796518e84e8c4e80d",
+        "cognates.csv": "3f0aa4f81257b75ddced1daa3d4b4820c4519221e89afd1dee6ae3d34dcb36c5"
+      },
+      "namespace": "acd",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": false,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "acd",
+      "source_form": {
+        "ID": "19579-b0743bd4309666100a8b120f79cfe33c-1",
+        "Language_ID": "19579",
+        "Parameter_ID": "b0743bd4309666100a8b120f79cfe33c",
+        "Value": "afug",
+        "Form": "afug",
+        "Segments": "",
+        "Cognacy": "4267",
+        "Source": "lobel2016",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "19579-b0743bd4309666100a8b120f79cfe33c-1-1",
+          "Form_ID": "19579-b0743bd4309666100a8b120f79cfe33c-1",
+          "Form": "",
+          "Cognateset_ID": "27627_1",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": "",
+          "Metathesis": "false",
+          "Assimilation": "false",
+          "Doublet_Comment": "",
+          "Doublet_Set": "",
+          "Disjunct_Comment": "",
+          "Disjunct_Set": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "bc6104c82b90149fad3c076af0948a42bc649f9de770690796518e84e8c4e80d",
+        "cognates.csv": "3f0aa4f81257b75ddced1daa3d4b4820c4519221e89afd1dee6ae3d34dcb36c5"
+      },
+      "namespace": "acd",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": false,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "acd",
+      "source_form": {
+        "ID": "19579-015f28b9df1bdd36427dd976fb73b29d-1",
+        "Language_ID": "19579",
+        "Parameter_ID": "015f28b9df1bdd36427dd976fb73b29d",
+        "Value": "afuy",
+        "Form": "afuy",
+        "Segments": "",
+        "Cognacy": "5037",
+        "Source": "lobel2016",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "19579-015f28b9df1bdd36427dd976fb73b29d-1-1",
+          "Form_ID": "19579-015f28b9df1bdd36427dd976fb73b29d-1",
+          "Form": "",
+          "Cognateset_ID": "28117_1",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": "",
+          "Metathesis": "false",
+          "Assimilation": "false",
+          "Doublet_Comment": "",
+          "Doublet_Set": "",
+          "Disjunct_Comment": "",
+          "Disjunct_Set": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "bc6104c82b90149fad3c076af0948a42bc649f9de770690796518e84e8c4e80d",
+        "cognates.csv": "3f0aa4f81257b75ddced1daa3d4b4820c4519221e89afd1dee6ae3d34dcb36c5"
+      },
+      "namespace": "acd",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": false,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "sagartst",
+      "source_form": {
+        "ID": "OldTibetan-1_above-1",
+        "Language_ID": "OldTibetan",
+        "Parameter_ID": "1_above",
+        "Value": "steŋ",
+        "Form": "s.t.e.ŋ",
+        "Segments": "s t e ŋ",
+        "Cognacy": "20",
+        "Source": "Huang1992",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "OldTibetan-1_above-1-1",
+          "Form_ID": "OldTibetan-1_above-1",
+          "Form": "s.t.e.ŋ",
+          "Cognateset_ID": "20-above",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "Sagart2018",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "75526bf1738a03dc804aa286e312adadd10797b9c771ecd108498d81ae5ef71e",
+        "cognates.csv": "935dffe8b35f4dc83ef64317ed23f54e179302c78723b6a3944ad362e5ce5417"
+      },
+      "namespace": "sagartst",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": true,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "sagartst",
+      "source_form": {
+        "ID": "Japhug-1_above-1",
+        "Language_ID": "Japhug",
+        "Parameter_ID": "1_above",
+        "Value": "ɯ-taʁ",
+        "Form": "ɯ.◦.t.a.ʁ",
+        "Segments": "ɯ + t a ʁ",
+        "Cognacy": "49",
+        "Source": "Jacques2015b",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "Japhug-1_above-1-1",
+          "Form_ID": "Japhug-1_above-1",
+          "Form": "ɯ.◦.t.a.ʁ",
+          "Cognateset_ID": "49-above",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "Sagart2018",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "75526bf1738a03dc804aa286e312adadd10797b9c771ecd108498d81ae5ef71e",
+        "cognates.csv": "935dffe8b35f4dc83ef64317ed23f54e179302c78723b6a3944ad362e5ce5417"
+      },
+      "namespace": "sagartst",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": true,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "sagartst",
+      "source_form": {
+        "ID": "OldTibetan-2_all-1",
+        "Language_ID": "OldTibetan",
+        "Parameter_ID": "2_all",
+        "Value": "tʰams.tɕad",
+        "Form": "tʰ.a.m.s.◦.tɕ.a.d",
+        "Segments": "tʰ a m s + tɕ a d",
+        "Cognacy": "3682",
+        "Source": "Huang1992",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "OldTibetan-2_all-1-1",
+          "Form_ID": "OldTibetan-2_all-1",
+          "Form": "tʰ.a.m.s.◦.tɕ.a.d",
+          "Cognateset_ID": "3682-all",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "Sagart2018",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "75526bf1738a03dc804aa286e312adadd10797b9c771ecd108498d81ae5ef71e",
+        "cognates.csv": "935dffe8b35f4dc83ef64317ed23f54e179302c78723b6a3944ad362e5ce5417"
+      },
+      "namespace": "sagartst",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": true,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "leejaponic",
+      "source_form": {
+        "ID": "MiddleJapanese-1_green-1",
+        "Language_ID": "MiddleJapanese",
+        "Parameter_ID": "1_green",
+        "Value": "awoʃi",
+        "Form": "awoʃi",
+        "Segments": "a w o ʃ i",
+        "Cognacy": "1",
+        "Source": "Muromachijidaigo2001",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "MiddleJapanese-1_green-1-1",
+          "Form_ID": "MiddleJapanese-1_green-1",
+          "Form": "awoʃi",
+          "Cognateset_ID": "1-1",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "db0e57beb555a221b1f620337b002a31502db4e808c974c735880c73a0136c19",
+        "cognates.csv": "0eb09cb52053175dd8f078b5a8f1a43c82d9aa85f669cfd2e8db59b190bf6ae4"
+      },
+      "namespace": "leejaponic",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": true,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "leejaponic",
+      "source_form": {
+        "ID": "MiddleJapanese-2_red-1",
+        "Language_ID": "MiddleJapanese",
+        "Parameter_ID": "2_red",
+        "Value": "akaʃi",
+        "Form": "akaʃi",
+        "Segments": "a k a ʃ i",
+        "Cognacy": "1",
+        "Source": "Muromachijidaigo2001",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "MiddleJapanese-2_red-1-1",
+          "Form_ID": "MiddleJapanese-2_red-1",
+          "Form": "akaʃi",
+          "Cognateset_ID": "2-1",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "db0e57beb555a221b1f620337b002a31502db4e808c974c735880c73a0136c19",
+        "cognates.csv": "0eb09cb52053175dd8f078b5a8f1a43c82d9aa85f669cfd2e8db59b190bf6ae4"
+      },
+      "namespace": "leejaponic",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": true,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    },
+    {
+      "dataset": "leejaponic",
+      "source_form": {
+        "ID": "MiddleJapanese-3_toyawn-1",
+        "Language_ID": "MiddleJapanese",
+        "Parameter_ID": "3_toyawn",
+        "Value": "akubi",
+        "Form": "akubi",
+        "Segments": "a k u b i",
+        "Cognacy": "1",
+        "Source": "Muromachijidaigo2001",
+        "Comment": "",
+        "Alignment": "",
+        "Morpheme_Index": "",
+        "Segment_Slice": ""
+      },
+      "judgments": [
+        {
+          "ID": "MiddleJapanese-3_toyawn-1-1",
+          "Form_ID": "MiddleJapanese-3_toyawn-1",
+          "Form": "akubi",
+          "Cognateset_ID": "3-1",
+          "Doubt": "false",
+          "Cognate_Detection_Method": "expert",
+          "Source": "",
+          "Alignment": "",
+          "Alignment_Method": "",
+          "Alignment_Source": ""
+        }
+      ],
+      "input_sha256": {
+        "forms.csv": "db0e57beb555a221b1f620337b002a31502db4e808c974c735880c73a0136c19",
+        "cognates.csv": "0eb09cb52053175dd8f078b5a8f1a43c82d9aa85f669cfd2e8db59b190bf6ae4"
+      },
+      "namespace": "leejaponic",
+      "equivalence_scope": "Source-defined; no cross-source or cross-meaning bridge inferred",
+      "reading_mutated": false,
+      "phonological_input_eligible": true,
+      "downstream_contract": "Retain whole cited form and source segmentation. If reading changes, revalidate alignments and morpheme/segment slices; never carry them blindly."
+    }
+  ],
+  "automatic_repairs": 0
+}

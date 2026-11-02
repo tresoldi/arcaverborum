@@ -37,7 +37,25 @@ number concepts use noun senses rather than merely matching numeral adjectives.
 Wife/husband definitions retain narrower links where the target imposes a spouse-sex
 restriction absent from Arca's definition.
 
-## Initial coverage, 2026-10-30
+## Expanded review, 2026-11-02
+
+Accepted links now cover1,123 active concepts, compared with190 initially:
+618 exact,219 broader,208 narrower and88 related links. The new940 links for933
+concepts are explicitly marked `model_assisted_definition_review`, with a batch
+identifier. This is definition-level curation, not independent specialist gold.
+[Execution and limitations](research/PROJECT_EXECUTION_2026-11-02.md),
+[complete active-catalog audit](research/project-wordnet-2026-11-02/active-catalog.csv).
+All active concepts are accounted for;2,627 remain pending,12 held and27 have
+inventory gaps. Six new catalog-conflict holds join the six existing function-
+word holds. No frozen concept or lexical record was rewritten by the sidecar.
+
+Retrieval now prioritizes compatible POS and retains up to five suggestions.
+Its scores do not represent semantic confidence. Definitions, causativity,
+kinship paths, disjunctions and organism/product distinctions govern reviewed
+relations. Link and review exports retain reviewer provenance; empty provenance
+on earlier links does not imply human expert certification.
+
+## Initial coverage, 2026-10-30 (historical)
 
 | Measure | Count |
 | --- | ---: |

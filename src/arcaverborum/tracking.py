@@ -49,6 +49,7 @@ _RECIPE_FILES = (
     # forms that resolve through it.
     "supplements.py", "data/pronunciation_scopes.csv", "wiktionary_senses.py", "data/wiktionary_sense_overrides.csv",
     "data/concepts.csv", "data/semantic_field_codes.csv",
+    "sources/cognacy_scope.py", "data/cognacy_scope_policies.csv",
 )
 
 _CUSTOM_FILES = ("transcriptions.csv", "forms.csv", "cognates.csv", "concept_map.csv", "profile.tsv",

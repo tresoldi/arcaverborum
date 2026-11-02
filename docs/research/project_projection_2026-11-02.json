@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "before_build_id": "3a3898b1362a5c2d2c30bf73",
+  "after_build_id": "46e35ceddf6f1e2420e89802",
+  "witnesses": 259495,
+  "stable_identity_sha256": "b8e30d9d151aceaa9cfed2e8587b40e3f603d458c7839a5ee1032a16a46ef877",
+  "unchanged_positive_identities": true,
+  "lexical_readings_mapped_in_written_channel_only": true,
+  "qualification": "Unchanged positive witnesses do not imply unchanged comparison coverage. No semantic confidence or lexical absence is inferred."
+}

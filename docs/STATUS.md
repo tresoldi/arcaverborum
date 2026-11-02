@@ -1,8 +1,56 @@
 # Current project state
 
-Next-cycle planning: [whole-project proposal,2026-11-02](planning/PROJECT_NEXT_2026-11-02.md)
-and [fresh diagnostics](planning/project_next_metrics_2026-11-02.json). No accepted
-lexical, source-selection or analytical changes are part of that planning pass.
+**PROJ-01–06 execution,2026-11-02:** [execution and limitations](research/PROJECT_EXECUTION_2026-11-02.md),
+[metrics](research/project_metrics_2026-11-02.json),
+[preservation](research/project_preservation_2026-11-02.json).
+940 new typed WordNet links cover933 additional concepts:1,123 active concepts
+now have accepted links. New reviews explicitly record model assistance, not
+independent expert certification. Six catalog conflicts join the six existing
+WordNet function-word holds; lexical meanings are not rewritten by the sidecar.
+
+35,096 accepted records lose unsupported extra cognate memberships from ACD
+reconstruction references, Sino-Tibetan class-only labels and Japonic language-
+local counters. Every retained membership joins to its exact native source form;
+raw identifiers survive as notes. All earlier2,119,818 records and protected
+readings/meanings/alignments remain. Four new Kipeá written citations and19 Yasa
+native-sense decisions add16 variety/concept slots, including four core slots.
+No additional phonetic support, language or primary-source promotion is claimed.
+
+The catalog contains7,366 accepted constructions:7,364 with lexical records and
+two recording-only. Total accepted recordings:755, including196 Ocotepec Mixe
+and158 Ocotepec-Tapalapa recording-only entries. Header-only prototype enrollment
+still does not enter the public accepted catalog.
+
+Current analytical core `46e35ceddf6f1e2420e89802`, graphs
+`692b5d39320b19be8f14c070`, communities `4d0675824c4fcb5989b1d541` and
+concept rows `c4646fc8e73cabd95478148d` bind the refreshed aggregate.
+All259,495 positive witness identities are unchanged; written comparison coverage
+increases.42,741 segmented/42,202 written/508 reduced observed pairs and5,362
+backbone edges remain. Communities remain239 groups/1,610 concepts. Core/community
+builds peak109.59/86.23MiB under256MiB AS. No confidence model or graph-weighting
+method is promoted. Independent expert gold remains zero.
+
+Source-visible146-case and six-flag review workspaces export guarded local decisions.
+A byte-reproduced All accepted candidate includes all lexical/recording constructions,
+recipes, attribution and terms. Four missing source-license declarations remain
+explicit before separate bulk publication. [Candidate manifest](releases/all-accepted-2026-11-02-rc2/manifest.json).
+Publication verification is being closed in the batch receipt.
+
+| Measure | Accepted value |
+| --- | ---: |
+| Accepted constructions (including recording-only) | 7,366 |
+| Constructions with lexical records | 7,364 |
+| Accepted records | 2,119,822 |
+| Supplied/upstream-converted records | 1,749,823 |
+| Profile-backed records | 22,178 |
+| Supported core slots | 470,116 |
+| Mapped core slots | 544,351 |
+| Supported all-concept slots | 1,209,287 |
+| Mapped all-concept slots | 1,337,343 |
+| GLED primaries | 1,552 |
+| Intake records | 16,430,725 |
+
+The snapshots below are historical; current remaining work is maintained in [NEXT](NEXT.md).
 
 **CINF-01–05 follow-through (2026-11-01; published):**
 [execution and paper findings](research/CINF_EXECUTION_2026-11-01.md),
@@ -31,19 +79,6 @@ probabilities do not supply graph weights.598 tests/eight local browsers pass;
 success;25,187 canonical assets plus both CLICS bundle files match and four live
 browser suites pass. Earlier snapshots below are
 historical, not the current accepted baseline.
-
-| Measure | Accepted value |
-| --- | ---: |
-| Accepted constructions | 7,366 |
-| Accepted records | 2,119,818 |
-| Supplied/upstream-converted records | 1,749,823 |
-| Profile-backed records | 22,178 |
-| Supported core slots | 470,116 |
-| Mapped core slots | 544,347 |
-| Supported all-concept slots | 1,209,287 |
-| Mapped all-concept slots | 1,337,327 |
-| GLED primaries | 1,552 |
-| Intake records | 16,430,721 |
 
 **Initial 18-pair research execution (historical, 2026-11-01):**
 [living paper record](research/COLEXIFICATION_RESEARCH.md),

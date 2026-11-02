@@ -1,5 +1,9 @@
 # Whole-project priorities after CINF-01–05
 
+Subsequently authorized and executed: [PROJ-01–06 execution](../research/PROJECT_EXECUTION_2026-11-02.md).
+The user expanded WordNet beyond the50-concept proposal. This file preserves the
+original planning baseline; use STATUS/NEXT for current results and remaining gates.
+
 Planning only, 2026-11-02. This recommendation does not authorize lexical
 admissions, source promotions, new inference experiments or external publication.
 The source of truth is [STATUS](../STATUS.md); [NEXT](../NEXT.md) is the active

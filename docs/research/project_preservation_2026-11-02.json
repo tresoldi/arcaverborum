@@ -1,0 +1,13 @@
+{
+  "protected_records": 2119818,
+  "nonempty_constructions": 7364,
+  "new_written_records": 4,
+  "changed_cognacy_records": 35096,
+  "unsupported_extra_memberships_removed": 35096,
+  "unsupported_raw_only_memberships_cleared": 0,
+  "other_protected_fields_unchanged": true,
+  "allowed_native_sense_mappings": 19,
+  "all_new_cognates_are_existing_structured_memberships": true,
+  "full_native_cognate_memberships_independently_joined": true,
+  "baseline_sha256": "1d2dce07e6c06d34db49b3fbbd95ac342ad0c140e67167cc476289dcbc467b31"
+}

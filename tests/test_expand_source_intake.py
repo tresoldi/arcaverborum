@@ -63,6 +63,16 @@ def snapshot(path):
     return {p.name: p.read_bytes() for p in path.iterdir()}
 
 
+def test_large_unrelated_native_context_does_not_block_expansion(tmp_path):
+    path = tmp_path / "forms.csv"
+    with path.open("w") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["ID", "Dataset", "Value"])
+        writer.writeheader()
+        writer.writerow(dict(ID="other", Dataset="other", Value="native context " * 20000))
+        writer.writerow(dict(ID="selected", Dataset="source", Value="original"))
+    assert module.scoped(path, "source")[1] == [dict(ID="selected", Dataset="source", Value="original")]
+
+
 def test_additions_preserve_earlier_bytes_and_quoted_metadata(tmp_path):
     stage, target = pair(tmp_path)
     before = snapshot(target)

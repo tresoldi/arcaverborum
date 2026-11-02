@@ -1,0 +1,152 @@
+{
+  "concepts": {
+    "kin-brother-in-law-husband-s-younger-brother": {
+      "records": 2,
+      "varieties": 2,
+      "sources": {
+        "beidasinitic": 2
+      },
+      "examples": [
+        {
+          "av": "sit-shenyang-mandarin",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Shenyang-454_brotherinlawhusbandsyoungerbrother-1",
+          "source_parameter_id": "beidasinitic_454_brotherinlawhusbandsyoungerbrother"
+        },
+        {
+          "av": "sit-yangjiang",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Yangjiang-454_brotherinlawhusbandsyoungerbrother-1",
+          "source_parameter_id": "beidasinitic_454_brotherinlawhusbandsyoungerbrother"
+        }
+      ],
+      "hold_reason": "Catalog semantic conflict: Label denotes husband's younger brother, but the definition denotes husband of one's younger brother. Kinship path differs; neither reading is silently selected."
+    },
+    "kin-brother-in-law-husband-s-older-brother": {
+      "records": 2,
+      "varieties": 2,
+      "sources": {
+        "beidasinitic": 2
+      },
+      "examples": [
+        {
+          "av": "sit-shenyang-mandarin",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Shenyang-453_brotherinlawhusbandselderbrother-1",
+          "source_parameter_id": "beidasinitic_453_brotherinlawhusbandselderbrother"
+        },
+        {
+          "av": "sit-yangjiang",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Yangjiang-453_brotherinlawhusbandselderbrother-1",
+          "source_parameter_id": "beidasinitic_453_brotherinlawhusbandselderbrother"
+        }
+      ],
+      "hold_reason": "Catalog semantic conflict: Label denotes husband's older brother, but the definition denotes husband of one's older brother. Kinship path differs; neither reading is silently selected."
+    },
+    "kin-sister-in-law-husband-s-younger-sister": {
+      "records": 2,
+      "varieties": 2,
+      "sources": {
+        "beidasinitic": 2
+      },
+      "examples": [
+        {
+          "av": "sit-shenyang-mandarin",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Shenyang-456_sisterinlaw-1",
+          "source_parameter_id": "beidasinitic_456_sisterinlaw"
+        },
+        {
+          "av": "sit-yangjiang",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Yangjiang-456_sisterinlaw-1",
+          "source_parameter_id": "beidasinitic_456_sisterinlaw"
+        }
+      ],
+      "hold_reason": "Catalog semantic conflict: Label denotes husband's younger sister, but definition denotes husband of one's younger sister and therefore conflicts in both path and referent sex."
+    },
+    "act-because-of": {
+      "records": 49,
+      "varieties": 38,
+      "sources": {
+        "northeuralex": 37,
+        "kogansemitic": 2,
+        "wiktionary": 10
+      },
+      "examples": [
+        {
+          "av": "abk-abkhaz",
+          "source": "northeuralex",
+          "source_form_id": "northeuralex_abk-636_becauseof-1",
+          "source_parameter_id": "northeuralex_636_becauseof"
+        },
+        {
+          "av": "abk-abkhaz",
+          "source": "northeuralex",
+          "source_form_id": "northeuralex_abk-636_becauseof-2",
+          "source_parameter_id": "northeuralex_636_becauseof"
+        }
+      ],
+      "hold_reason": "Catalog semantic conflict: Label is causal BECAUSE OF, but the definition says undergo decomposition. Resolve original concept/source-sense lineage before choosing either meaning."
+    },
+    "clo-bead": {
+      "records": 516,
+      "varieties": 433,
+      "sources": {
+        "idssegmented": 180,
+        "wold": 20,
+        "kogansemitic": 3,
+        "huntergatherer": 84,
+        "ids": 2,
+        "kahd": 7,
+        "wiktionary": 13,
+        "tls": 101,
+        "bremerberta": 4,
+        "tryoncad": 61,
+        "marrisonnaga": 23,
+        "tuled": 17,
+        "visserkalamang": 1
+      },
+      "examples": [
+        {
+          "av": "aav-bit",
+          "source": "idssegmented",
+          "source_form_id": "idssegmented_pusing-6-760-1",
+          "source_parameter_id": "idssegmented_6-760"
+        },
+        {
+          "av": "aav-blang",
+          "source": "idssegmented",
+          "source_form_id": "idssegmented_bulang-6-760-1",
+          "source_parameter_id": "idssegmented_6-760"
+        }
+      ],
+      "hold_reason": "Catalog semantic conflict: Label BEAD conflicts with definition of a pearl produced within a shelled mollusk. Do not silently remap all lexical entries to either concept."
+    },
+    "kin-sister-in-law-husband-s-older-sister": {
+      "records": 2,
+      "varieties": 2,
+      "sources": {
+        "beidasinitic": 2
+      },
+      "examples": [
+        {
+          "av": "sit-shenyang-mandarin",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Shenyang-455_sisterinlawhusbandseldersister-1",
+          "source_parameter_id": "beidasinitic_455_sisterinlawhusbandseldersister"
+        },
+        {
+          "av": "sit-yangjiang",
+          "source": "beidasinitic",
+          "source_form_id": "beidasinitic_Yangjiang-455_sisterinlawhusbandseldersister-1",
+          "source_parameter_id": "beidasinitic_455_sisterinlawhusbandseldersister"
+        }
+      ],
+      "hold_reason": "Catalog semantic conflict: Label denotes husband's older sister, but definition denotes husband of one's older sister and therefore conflicts in both path and referent sex."
+    }
+  },
+  "lexical_records_changed": 0,
+  "qualification": "Exposure of frozen concept conflicts, not a count of proven incorrect lexical mappings. Resolve source/Concepticon lineage before catalog repair."
+}

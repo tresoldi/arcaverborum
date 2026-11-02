@@ -1,42 +1,57 @@
 # Active expansion queue
 
-## Proposed whole-project cycle —2026-11-02
+## Whole-project cycle closed —2026-11-02
 
-[Detailed proposal, tradeoffs and first gates](planning/PROJECT_NEXT_2026-11-02.md),
-[fresh read-only measurements](planning/project_next_metrics_2026-11-02.json).
-Planning only; the recommendation request does not authorize a new data batch.
-Recommended order:
+All six authorized tracks received bounded execution. [Execution and limitations](research/PROJECT_EXECUTION_2026-11-02.md),
+[metrics](research/project_metrics_2026-11-02.json), [preservation](research/project_preservation_2026-11-02.json).
+WordNet expanded well beyond the former50-review proposal:940 new typed links
+for933 concepts;1,123 active concepts now have accepted links.35,096 records
+receive source-faithful cognacy repairs. Four Kipeá written citations and19 Yasa
+native-sense mappings add16 variety/concept slots, including four core slots.
+No new language, IPA reading or primary-source promotion is claimed.
+The146-case and six-flag review workspaces and deterministic All accepted
+candidate are implemented. They do not supply independent expert gold.
 
-1. **PROJ-01 — Source-faithful depth and authority.** Start with Wa’ikhana /
-   Huber–Reed Piratapuyo:57 supported core slots and86 screened additional
-   candidates, not86 verified gains. Resolve original notation/sample/senses and
-   shared ancestry with HGN/Chacon. Then extend original evidence for Ampari,
-   Cayuga and Isthmus Zapotec primary review, excluding their completed cohorts.
-2. **PROJ-02 — Original-source geographic depth.** Transcribe the acquired Bove1883
-   Yagán section; review a northeastern Brazilian historical section and an
-   attributable African/RefLex cohort. Rotate into Asian/New Guinea/Torricelli
-   sources only after exact-source selection. Protect Etruscan/Elamite gates;
-   complete archives, ethnonyms and absent-code leads are not new admissions.
-3. **PROJ-03 — Native senses and WordNet.** Freeze50 high-use/ambiguous concept
-   reviews, strengthen source-native meaning/POS/context and retain unmapped
-   dictionary senses.190 active concepts have accepted WordNet links; do not
-   force the rest into English equivalences or propagate links into lexical data.
-4. **PROJ-04 — Observation scopes and linguistic review.** Use the six known
-   publication-scope flags and146 existing model reviews to specify witness/
-   edition/dialect units and a source-visible local adjudication workflow.
-   Expert gold is still zero; defer further model complexity until real validation.
-5. **PROJ-05 — Cognacy/morphology integrity.** Refresh the existing source audit,
-   select proven namespace/alignment/slice anomalies, and build provenance-rich
-   cognator/regulae fixtures. Raw labels absent from structured tables are leads,
-   not automatically errors; no blanket cross-source cognate merger.
-6. **PROJ-06 — Whole-collection release and research usability.** Prepare a dated
-   reproducible All accepted release with source-specific terms, recipes and
-   changes, distinct from historical Core0.1.0. Refine existing provenance and
-   review/export flows; maps and concept-entry tables are already implemented.
+Next work requires these specific remaining gates, rather than repeating the
+completed transports, reviews, namespace repairs or release scaffolding:
 
-Prioritize the first three over another colexification model. Existing CINF,
-regional and source-specific gates below remain the implementation evidence;
-none is reopened merely because it appears in a fresh ranking.
+1. **Catalog/source sense lineage.** Resolve the six explicit label/definition
+   conflicts in BECAUSE OF, BEAD and four kinship paths. Use the
+   [measured exposure](research/project_semantic_conflict_exposure_2026-11-02.json)
+   and original Concepticon/source glosses before changing a definition or moving
+   lexical entries. The twelve WordNet holds include six function-word cases;
+   English homographs are not substitutes.
+2. **Original reading authority.** Wa’ikhana requires the Huber–Reed1992
+   notation/sample; the SIL route returned403. Ampari's Pa and Nando/KP samples
+   are not interchangeable, and generated token inventories are not nasalization
+   guides. Extend whole-word Cayuga/Zapotec authority before primary review.
+   Yasa's indexed IPA column is a lead, but fresh current/old PDF routes returned404;
+   acquire and pin that exact edition before any finite reading conversion.
+   Wiktionary may outrank GLED on reviewed variety-specific linguistic evidence.
+3. **Remaining semantic alignment.** The full3,789-concept audit is maintained;
+   2,627 are pending,12 held and27 lack usable inventory candidates. Continue
+   definition/POS/native-sense review, with exact and directional approximate
+   links distinct.940 model-assisted link decisions are not expert adjudications
+   and do not automatically validate dictionary headword mappings or colexification.
+4. **Attested observation scopes and expert review.** Use the published146-case
+   and six-flag workspaces. Supply original collection/edition/local variety/stage/
+   reading evidence;200 controls still lack comparable singleton citations.
+   Unknown is not negative. Keep current production weights while specialist
+   adjudication and positive-event power remain inadequate; no new complex model.
+5. **Release terms.** The byte-reproduced whole-collection candidate and public
+   manifests are ready. Separate bulk publication awaits source-term metadata
+   checks for `kogansemitic`, `uralex`, legacy `wiktionary` and
+   `williamsonbenuecongo`. UraLex has an explicit CC-BY4 README declaration to
+   bind to the exact snapshot; legacy Wiktionary dump date/license metadata was
+   not recorded. Do not infer blanket data rights from the code license.
+6. **Americas-first original-source rotation.** The acquired Bove1883 volume is
+   an ethnographic report with scattered terms, not the assumed large vocabulary
+   section. Review `Tuma-ci` as an exact historical witness; do not treat `wigam`,
+   proper names or untranslated ritual sounds as generic Yagán lexical evidence.
+   Select concrete Asian/New Guinea/Torricelli and attributable African cohorts
+   before new admissions. Shinekhen17 nouns, complete Mongolic/RefLex/CHIRILA
+   transport and earlier Kipeá numerals are completed work. Etruscan and Elamite
+   retain their original-authority/uncertain-reading gates.
 
 ## CINF-01–05 execution and remaining evidence gates
 

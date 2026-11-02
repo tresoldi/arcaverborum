@@ -7,6 +7,8 @@ so packet links and source references remain stable. A historical shortlist or
 
 ## Accepted data batches
 
+* [PROJ-01–06,2026-11-02](../research/PROJECT_EXECUTION_2026-11-02.md):940 new typed WordNet links for933 concepts; four Kipeá written citations,19 Yasa native-sense mappings and35,096 guarded cognacy repairs. Source-visible model-review/scope workspaces and a deterministic All accepted candidate; original-authority and expert gates retained.
+
 * [CINF-01–05,2026-11-01](../research/CINF_EXECUTION_2026-11-01.md):326 spelling repairs,109 phonemic recoveries, independent model review and a76-pair bounded-memory study; simpler models win sampled panels, no confidence promotion. Published analytical/source refresh and explicit expert/source gates.
 
 * [Colexification v2,2026-11-01](../COLEXIFICATION_ROBUSTNESS_2026-11-01.md):95 incorrect assignments cleared, all native records preserved; source-sense eligibility, bounded influence, family/resource replication,81 model runs and explicit uncertainty. [Metrics](../colexification_robustness_metrics_2026-11-01.json).

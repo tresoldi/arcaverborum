@@ -13,10 +13,12 @@ import csv
 import io
 import os
 import shutil
+import sys
 import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+csv.field_size_limit(sys.maxsize)
 TABLES = ("forms.csv", "languages.csv", "parameters_raw.csv")
 COUNTS = {"Form_Count", "Language_Count", "Parameter_Count"}
 

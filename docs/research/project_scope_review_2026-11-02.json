@@ -1,0 +1,79 @@
+{
+  "cases": 6,
+  "review_task": "publication-scope adjudication",
+  "historical_core": "3a3898b1362a5c2d2c30bf73",
+  "worksheet_sha256": "cf01fdcdafc74f7fb78cbf91c4bc610a736abd85379f305445c537eaa3f13163",
+  "known_scopes_adjudicated": 0,
+  "human_expert_gold": 0,
+  "production_weights_changed": false,
+  "flags": [
+    {
+      "av": "eaa-fembe",
+      "source": "transnewguineaorg",
+      "member": "transnewguineaorg_fembe",
+      "basis": "normalized_segments",
+      "a": "kin-man",
+      "b": "kin-person",
+      "publication_y": 0,
+      "comparable_publications": 1
+    },
+    {
+      "av": "eaa-samo",
+      "source": "transnewguineaorg",
+      "member": "transnewguineaorg_samo",
+      "basis": "normalized_segments",
+      "a": "kin-man",
+      "b": "kin-person",
+      "publication_y": 0,
+      "comparable_publications": 1
+    },
+    {
+      "av": "low-tabriak",
+      "source": "transnewguineaorg",
+      "member": "transnewguineaorg_tabriak",
+      "basis": "normalized_segments",
+      "a": "kin-man",
+      "b": "kin-person",
+      "publication_y": 0,
+      "comparable_publications": 1
+    },
+    {
+      "av": "nuc-faiwol",
+      "source": "transnewguineaorg",
+      "member": "transnewguineaorg_faiwol",
+      "basis": "normalized_segments",
+      "a": "bod-arm",
+      "b": "bod-hand",
+      "publication_y": 0,
+      "comparable_publications": 1
+    },
+    {
+      "av": "sep-saniyo-hiyewe",
+      "source": "transnewguineaorg",
+      "member": "transnewguineaorg_saniyo-hiyewe",
+      "basis": "normalized_segments",
+      "a": "ani-dog",
+      "b": "mot-path",
+      "publication_y": 0,
+      "comparable_publications": 2
+    },
+    {
+      "av": "urj-veps",
+      "source": "uralex",
+      "member": "uralex_veps",
+      "basis": "normalized_segments",
+      "a": "kin-man",
+      "b": "kin-person",
+      "publication_y": 0,
+      "comparable_publications": 1
+    }
+  ],
+  "scope_axes": [
+    "field_collection",
+    "original_publication",
+    "edition",
+    "local_variety",
+    "historical_stage",
+    "reading_convention"
+  ]
+}

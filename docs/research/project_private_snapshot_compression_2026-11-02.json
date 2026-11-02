@@ -1,0 +1,42 @@
+[
+  {
+    "build_id": "b198f6cb17cb9817b91686cc",
+    "original_bytes": 2194345984,
+    "compressed_bytes": 540932451,
+    "uncompressed_sha256": "13b29fdd1b749baf4d7ff11d097f0a6dd30b74cfbeec9c66813c5b6abf1c47cd",
+    "archive": "output/colexification/b198f6cb17cb9817b91686cc/index.sqlite.gz",
+    "seconds": 21.73
+  },
+  {
+    "build_id": "db68b765a4a3e48d2129b656",
+    "original_bytes": 2193698816,
+    "compressed_bytes": 540765556,
+    "uncompressed_sha256": "cd1c4e31f9b3a286e365bd95dde5045422993c775e122786aacb9bdef39efd24",
+    "archive": "output/colexification/db68b765a4a3e48d2129b656/index.sqlite.gz",
+    "seconds": 21.47
+  },
+  {
+    "build_id": "f75765ec76bafb976cbd11f6",
+    "original_bytes": 2193809408,
+    "compressed_bytes": 540829335,
+    "uncompressed_sha256": "85fc112c518d3e84f8ac7940c30306c0c82dcb99f36b88b4092e5dbb9d2d92ef",
+    "archive": "output/colexification/f75765ec76bafb976cbd11f6/index.sqlite.gz",
+    "seconds": 21.48
+  },
+  {
+    "build_id": "160e80c5c5bfeead29d9e71c",
+    "original_bytes": 2304249856,
+    "compressed_bytes": 557302089,
+    "uncompressed_sha256": "2a8a119b6ebeb3802664fa3e0aa9f7841904dbbf01111dd0907b2fbdb3041384",
+    "archive": "output/colexification/160e80c5c5bfeead29d9e71c/index.sqlite.gz",
+    "seconds": 22.01
+  },
+  {
+    "build_id": "346e40d2896330f6afc55400",
+    "original_bytes": 2304249856,
+    "compressed_bytes": 557302115,
+    "uncompressed_sha256": "870cb1d030e02f71a32dbe88285b54dc1e91a5c34be49d23f9c5f3ff25f5b841",
+    "archive": "output/colexification/346e40d2896330f6afc55400/index.sqlite.gz",
+    "seconds": 22.46
+  }
+]

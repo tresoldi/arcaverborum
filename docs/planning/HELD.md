@@ -1,5 +1,34 @@
 # Held work and reopening evidence
 
+**PROJ-01–06 gates (2026-11-02):** [execution](../research/PROJECT_EXECUTION_2026-11-02.md).
+940 WordNet link decisions and three source-cognacy namespace repairs are
+complete. Twelve WordNet holds include six catalog label/definition conflicts.
+[Exposure](../research/project_semantic_conflict_exposure_2026-11-02.json) counts
+assignments to review, not proven wrong words. Reopen with original Concepticon/
+source lineage before any lexical migration.2,627 concepts remain pending and27
+have no usable inventory candidate. Do not count model assistance as expert gold.
+
+Wa’ikhana Huber–Reed notation/sample and original Ampari/Cayuga/Zapotec reading
+authority remain primary-selection gates. Raw Huber leaf/wind-sense mismatches
+need review alongside notation; the164-record packet is not164 gains. Yasa's19
+native-sense mappings remain written-only: fresh current/older original PDF
+routes returned404. No pronunciation profile follows from indexed text alone.
+Bove1883 has scattered ethnographic terms rather than the assumed large wordlist.
+`Tuma-ci` needs exact witness review; borrowed `wigam`, proper names and ritual
+sounds are not automatic generic Yagán lexical admissions.
+
+The six publication flags and146 model-reviewed cases have source-visible
+workspaces. Original collection/local lect/stage/reading evidence and specialist
+adjudication remain missing. Human labels alone are not gold; flags do not
+automatically delete words or create negative observations. Keep current weights.
+
+The All accepted candidate is byte-reproduced and member-verified. Separate bulk
+publication requires exact source-term metadata for `kogansemitic`, `uralex`,
+legacy `wiktionary` and `williamsonbenuecongo`. UraLex's README explicitly declares
+CC-BY4, to be bound to the exact exported snapshot/metadata. Legacy Wiktionary's
+original dump date and snapshot-specific license metadata were not recorded.
+Preserve source terms; the project code license is not a blanket data license.
+
 **CINF-01–05 gates (2026-11-01):** [execution](../research/CINF_EXECUTION_2026-11-01.md).
 146 independent model-assisted first passes are complete, not expert gold;
 expert adjudications remain zero. Questionnaire labels do not establish exact
@@ -26,7 +55,7 @@ excluded from public language counts; do not count it as a new language.
 
 **Colexification holds:** TLS Mbunga ku has154 segmented and151 citation concepts in one identity group. Both groups are quarantined in the derived network, leaving native lexical records unchanged. Reopen only with source/member-specific evidence showing full lexical forms and whether ku is an incomplete citation, grammatical material or a legitimate lexical identity. [Method/register](../COLEXIFICATION.md); source-scoped quarantines are included in the versioned network exports. Questionnaire-level absence and partial colexification remain unasserted without their own evidence.
 
-WordNet holds are tracked separately in [the guarded semantic register](../../src/arcaverborum/data/wordnet/holds.json): six pronoun/deictic cases require an actual matching pinned sense, not letter/acronym/numeral homographs. See [alignment policy](../WORDNET.md). These are semantic-link holds and do not remove lexical records.
+WordNet holds are tracked separately in [the guarded semantic register](../../src/arcaverborum/data/wordnet/holds.json): six pronoun/deictic cases and six catalog-conflict cases. Pronouns require an actual matching pinned sense, not letter/acronym/numeral homographs. See [alignment policy](../WORDNET.md). These are semantic-link holds and do not remove lexical records.
 
 Updated2026-10-30. Read alongside [STATUS](../STATUS.md) and the
 [active queue](../NEXT.md). A hold applies to the named source/sample or reading,

@@ -406,3 +406,28 @@ value, mapping and cognate assignment;109 full database-supplied phonemic
 readings are recovered and217 restored spellings explicitly remain written-only.
 The lower supported counts correct false confidence, not loss of lexical evidence.
 All future paper claims must retain these limitations and failed diagnostic paths.
+
+## 2026-11-02: observation review and broader project integrity
+
+[PROJ-01–06 execution](PROJECT_EXECUTION_2026-11-02.md) adds source-visible review
+workspaces for the146 earlier cases and six publication-scope flags. Field
+collection, original publication, edition, local variety, historical stage and
+reading convention remain distinct. Shared bibliography keys cannot substitute
+for a field witness; incomplete scope is unknown rather than a negative event.
+Exported decisions are guarded, provenance-labelled proposals, not automatic
+gold or database mutations. No further confidence model or production weighting
+change was introduced.
+
+The broader project review also recovered a downstream cognacy defect: cached
+unions treated ACD reconstruction references, Sino-Tibetan class-only labels and
+Japonic language-local counters as extra global cognate sets.35,096 accepted
+records now retain only their exact source form's structured judgments, preserving
+raw values as notes. Native readings, meanings and positional annotations are
+unchanged. This is a source-namespace repair, not inferred cognacy or evidence
+of polysemy. The WordNet expansion190→1,123 linked concepts is model-assisted
+definition curation with exact/typed relations; it never propagates into lexical
+colexification assignments or supplies an empirical semantic-error calibration.
+
+Historical CINF experiment/review counts and frozen core remain unchanged as
+research evidence. The refreshed production export uses the current accepted
+aggregate; publication receipts distinguish those two generations.

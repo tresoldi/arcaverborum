@@ -514,6 +514,9 @@ def emit_forms(
     recordings: list[dict] | None = None,
 ) -> list[dict]:
     """Transform overlaid intake rows into output dicts."""
+    from arcaverborum.sources.cognacy_scope import apply_emission_policy
+
+    df = apply_emission_policy(df, transcription_source)
     out_rows: list[dict] = []
     for _, row in df.iterrows():
         if is_recording_placeholder(transcription_source, row.get("Form", ""), row.get("Value", "")):

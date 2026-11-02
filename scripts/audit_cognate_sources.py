@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import gzip
 import json
@@ -12,7 +13,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    with gzip.open(ROOT / "web/data/catalog.json.gz", "rt") as handle:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--catalog", type=Path, default=ROOT / "web/data/catalog.json.gz")
+    parser.add_argument("--output", type=Path, required=True,
+                        help="New report path; existing historical reports are never overwritten")
+    args = parser.parse_args()
+    if args.output.exists():
+        parser.error(f"Report already exists: {args.output}")
+    with gzip.open(args.catalog, "rt") as handle:
         catalog = json.load(handle)
     active = {r["transcription_source"] for r in catalog["languages"]}
     active.add("dictmedialengua")
@@ -44,13 +52,14 @@ def main():
                 source=source,
                 **counts,
                 decision=(
-                    "authoritative structured IDs; raw within-meaning labels retained as notes"
+                    "authoritative structured memberships; auxiliary raw identifiers retained as source notes"
                     if source == "abvd2026" or source in repaired
                     else "retain source; assess undeclared raw labels individually before repair"
                 ),
             )
         )
-    path = ROOT / "docs/cognate_source_audit_2026-10-27.csv"
+    path = args.output
+    path.parent.mkdir(parents=True, exist_ok=True)
     fields = [
         "source",
         "raw_coded_forms",

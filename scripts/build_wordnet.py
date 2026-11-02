@@ -43,6 +43,19 @@ def write_csv(path, rows, fields):
         writer.writerows(rows)
 
 
+def ranked_proposals(proposals, synsets, pos):
+    """Prioritize POS-compatible suggestions without promoting them to equivalence.
+
+    Cross-POS candidates can still support explicitly reviewed related links.
+    Scores are retrieval heuristics, never calibrated semantic confidence.
+    """
+    compatible = {'n': {'n'}, 'v': {'v'}, 'adj': {'a', 's'},
+                  'num': {'n', 'a', 's'}, 'clf': {'n'},
+                  'x': {'n', 'v', 'a', 's', 'r'}}.get(pos, set())
+    return sorted(proposals.items(), key=lambda item: (
+        synsets[item[0]]['pos'] not in compatible, -item[1][0], item[0]))
+
+
 def build(raw, output, fetch=False):
     output.mkdir(parents=True, exist_ok=True)
     sources = json.loads((DATA / 'wordnet/sources.json').read_text())
@@ -153,10 +166,12 @@ def build(raw, output, fetch=False):
                 entry['links'] = [r for r in entry['links'] if r['target_id'] != review['target_id']]
                 entry['links'].append(dict(target_id=review['target_id'], relation=review['relation'],
                                            status='accepted', evidence=review['rationale'],
-                                           source_reference='review.csv'))
+                                           source_reference='review.csv',
+                                           reviewer_type=review.get('reviewer_type', ''),
+                                           review_batch=review.get('review_batch', '')))
             linked = {r['target_id'] for r in entry['links']}
-            for sid, (score, reason) in sorted(proposals.items(), key=lambda x: (-x[1][0], x[0])):
-                if sid not in linked and score >= .25 and len(entry['candidates']) < 3:
+            for sid, (score, reason) in ranked_proposals(proposals, synsets, concept['pos']):
+                if sid not in linked and score >= .25 and len(entry['candidates']) < 5:
                     entry['candidates'].append(dict(target_id=sid, relation='association', status='candidate',
                                                    evidence=reason, source_reference='', score=round(score, 5)))
         for group, rows in [('links', flat), ('candidates', candidates)]:
@@ -189,6 +204,7 @@ def build(raw, output, fetch=False):
                    candidates=len(candidates), concepticon_bridge_rows_verified=len(bridge_rows),
                    oewn_version='2025', princeton_version='3.0',
                    relation_direction='Arca to target: broader means target broader; narrower means target narrower',
+                   candidate_method='Up to five POS-prioritized retrieval suggestions; scores are not confidence',
                    scope='Frozen concept catalog only; no lexical record or native unmapped sense is remapped')
     inputs = {name: hashlib.sha256((DATA / 'wordnet' / name).read_bytes()).hexdigest()
               for name in ('sources.json', 'review.csv', 'holds.json')}
@@ -197,7 +213,8 @@ def build(raw, output, fetch=False):
         json.dumps(bundle, ensure_ascii=False, sort_keys=True, separators=(',', ':')) + '\n')
     (output / 'summary.json').write_text(json.dumps(summary, indent=2) + '\n')
     fields = ['concept_id', 'concept_sha256', 'target_id', 'relation', 'status', 'evidence',
-              'source_reference', 'target_sha256', 'resource', 'version', 'ili', 'pwn30', 'lemmas', 'definition']
+              'source_reference', 'target_sha256', 'resource', 'version', 'ili', 'pwn30', 'lemmas', 'definition',
+              'reviewer_type', 'review_batch']
     write_csv(output / 'links.csv', flat, fields)
     write_csv(output / 'candidates.csv', candidates, fields + ['score'])
     write_csv(output / 'coverage.csv', coverage, list(coverage[0]))
