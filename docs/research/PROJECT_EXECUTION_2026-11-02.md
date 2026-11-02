@@ -229,3 +229,13 @@ the definition mixes count and mass wording. A regression check protects this
 qualification. RC3 supersedes RC2; lexical/analytical input hashes and all positive
 witnesses are unchanged. Publication checking was restarted against the frozen
 final revision after this correction.
+
+Final [publication receipt](project_publication_2026-11-02.json): all25,225 checked
+canonical assets match frozen data commit `0d36f941855a96bf2f7704abb021cf0f6974248d`.
+CI and Pages succeed; Python3.12/3.13 each report611 passes/two optional skips.
+Five live explorer suites, both review workspaces and the A LITTLE qualification
+regression pass. The [RC3 upload receipt](project_release_upload_2026-11-02.json)
+verifies all five remote asset digests against the local byte-reproduced candidate.
+It remains a private draft pending the four source-term metadata checks, with
+no public bulk-release claim. Closure documentation is committed after this
+full data-revision verification and checked separately after its deployment.

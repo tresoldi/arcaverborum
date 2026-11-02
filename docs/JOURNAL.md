@@ -52,8 +52,13 @@ round-trip hash-verified to make disk space for the17GB intake/21GB cache rebuil
 Whole inactive web generations were archived/verified before retirement, with
 no active references removed. The128KiB unrelated CSV-field failure in intake
 expansion is fixed and regression-tested. Final review downgraded A LITTLE from exact to related (count/mass ambiguity);
-RC3 supersedes RC2 without changing lexical data or networks. Public deployment/CI receipts follow
-after the data commit; current remaining work is in NEXT/HELD.
+RC3 supersedes RC2 without changing lexical data or networks.
+[Final publication receipt](research/project_publication_2026-11-02.json):25,225 canonical
+assets match data commit `0d36f941855a96bf2f7704abb021cf0f6974248d`; CI/Pages
+succeed, five live explorer suites and both review workspaces pass.
+[RC3 upload receipt](research/project_release_upload_2026-11-02.json) verifies all
+five private-draft asset digests. Bulk publication awaits four source-term metadata
+checks; current remaining work is in NEXT/HELD.
 
 ## 2026-11-02 — Whole-project next-cycle planning
 

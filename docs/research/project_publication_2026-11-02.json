@@ -1,0 +1,76 @@
+{
+  "base_url": "https://arcaverborum.org/",
+  "analytical_build_id": "46e35ceddf6f1e2420e89802",
+  "community_spec": {
+    "url": "data/colexification-communities/4d0675824c4fcb5989b1d541/manifest.json",
+    "bytes": 520888,
+    "sha256": "ac30802d57d48521b2bfe1b2d1780e6e0b287996b1654b9dbfe60e90777c9620"
+  },
+  "checked_assets": 25225,
+  "failures": [],
+  "all_match": true,
+  "data_commit": "0d36f941855a96bf2f7704abb021cf0f6974248d",
+  "extra_project_assets": [
+    "docs/JOURNAL.md",
+    "docs/NEXT.md",
+    "docs/README.md",
+    "docs/STATUS.md",
+    "docs/WORDNET.md",
+    "docs/cognate_source_audit_2026-11-02.csv",
+    "docs/history/README.md",
+    "docs/planning/HELD.md",
+    "docs/planning/PROJECT_NEXT_2026-11-02.md",
+    "docs/project_kipea_review_2026-11-02.csv",
+    "docs/project_yasa_native_senses_2026-11-02.csv",
+    "docs/releases/README.md",
+    "docs/releases/all-accepted-2026-11-02-rc2/RELEASE_README.txt",
+    "docs/releases/all-accepted-2026-11-02-rc2/archive-sha256.txt",
+    "docs/releases/all-accepted-2026-11-02-rc2/complete.json",
+    "docs/releases/all-accepted-2026-11-02-rc2/manifest.json",
+    "docs/releases/all-accepted-2026-11-02-rc3/RELEASE_README.txt",
+    "docs/releases/all-accepted-2026-11-02-rc3/archive-sha256.txt",
+    "docs/releases/all-accepted-2026-11-02-rc3/complete.json",
+    "docs/releases/all-accepted-2026-11-02-rc3/manifest.json",
+    "docs/research/PROJECT_EXECUTION_2026-11-02.md",
+    "docs/research/project-wordnet-2026-11-02/active-catalog.csv",
+    "docs/research/project-wordnet-2026-11-02/summary.json",
+    "docs/research/project_asset_retirement_2026-11-02.json",
+    "docs/research/project_cognacy_integrity_2026-11-02.json",
+    "docs/research/project_communities_verification_2026-11-02.json",
+    "docs/research/project_metrics_2026-11-02.json",
+    "docs/research/project_preservation_2026-11-02.json",
+    "docs/research/project_private_snapshot_compression_2026-11-02.json",
+    "docs/research/project_projection_2026-11-02.json",
+    "docs/research/project_scope_review_2026-11-02.json",
+    "docs/research/project_semantic_conflict_exposure_2026-11-02.json",
+    "review/linguistic-2026-11-02/index.html",
+    "review/linguistic-2026-11-02/packet.json",
+    "review/scopes-2026-11-02/index.html",
+    "review/scopes-2026-11-02/packet.json"
+  ],
+  "ci": {
+    "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41426004159",
+    "conclusion": "success",
+    "python_versions": [
+      "3.12",
+      "3.13"
+    ],
+    "passed_per_version": 611,
+    "optional_skips_per_version": 2
+  },
+  "pages": {
+    "url": "https://github.com/tresoldi/arcaverborum/actions/runs/41426004336",
+    "conclusion": "success"
+  },
+  "local_tests": {
+    "passed_per_installed_merkmal_flag_path": 613,
+    "separately_compiled_libraries": false
+  },
+  "live_browser": {
+    "explorer_suites_passed": 5,
+    "review_workspaces_passed": 2,
+    "a_little_related_only_regression": true
+  },
+  "release_upload_receipt": "project_release_upload_2026-11-02.json",
+  "verification_scope": "Full canonical byte verification against frozen data revision; closure receipts and documentation are published in the following documentation commit."
+}

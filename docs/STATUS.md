@@ -34,7 +34,11 @@ Source-visible146-case and six-flag review workspaces export guarded local decis
 A byte-reproduced All accepted candidate includes all lexical/recording constructions,
 recipes, attribution and terms. Four missing source-license declarations remain
 explicit before separate bulk publication. [Candidate manifest](releases/all-accepted-2026-11-02-rc3/manifest.json).
-Publication verification is being closed in the batch receipt.
+[Published verification](research/project_publication_2026-11-02.json): all25,225 checked
+canonical assets match the final data revision; CI passes on Python3.12/3.13,
+five live explorer suites and both review workspaces pass.613 local tests pass
+in each installed merkmal flag path. The [uploaded candidate](research/project_release_upload_2026-11-02.json)
+remains a private draft pending the four source-term metadata checks.
 
 | Measure | Accepted value |
 | --- | ---: |

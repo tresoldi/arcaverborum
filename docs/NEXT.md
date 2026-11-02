@@ -11,6 +11,9 @@ native-sense mappings add16 variety/concept slots, including four core slots.
 No new language, IPA reading or primary-source promotion is claimed.
 The146-case and six-flag review workspaces and deterministic All accepted
 candidate are implemented. They do not supply independent expert gold.
+[Publication receipt](research/project_publication_2026-11-02.json):25,225 canonical
+assets match; CI and live browser checks pass. The bulk candidate remains private
+pending the four source-term metadata checks.
 
 Next work requires these specific remaining gates, rather than repeating the
 completed transports, reviews, namespace repairs or release scaffolding:

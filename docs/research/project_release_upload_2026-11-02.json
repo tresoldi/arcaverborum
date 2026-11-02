@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "digest": "sha256:5d51b1e0cfadab5620529a9fe6f1f4880b2b91815f438fe43762b3a38bd33d0f",
+      "name": "arca-all-accepted-2026-11-02-rc3.tar.gz",
+      "size": 96627076
+    },
+    {
+      "digest": "sha256:7b48110a68f8abb8ec9ed3999165940542d137d5c9c1dfda8c2b49a2da305061",
+      "name": "archive-sha256.txt",
+      "size": 106
+    },
+    {
+      "digest": "sha256:4761875cf00f46c9c6f70fa469d1009f94f50d5e40be763021666876be5c46ad",
+      "name": "complete.json",
+      "size": 317
+    },
+    {
+      "digest": "sha256:5879f61d9bf721a53675c82ebe8a91bd7294a968a928b78be54f75d6ac3e8883",
+      "name": "manifest.json",
+      "size": 1616131
+    },
+    {
+      "digest": "sha256:f55a43a60ed5f9ab25acb22627ed155d41cc9805a3d8c680a925be64e5ae98fb",
+      "name": "RELEASE_README.txt",
+      "size": 1287
+    }
+  ],
+  "draft": true,
+  "html_url": "https://github.com/tresoldi/arcaverborum/releases/tag/untagged-e1b38a3af55c9aa8bcfa",
+  "id": 431306527,
+  "prerelease": true,
+  "target_commitish": "0d36f941855a96bf2f7704abb021cf0f6974248d",
+  "all_uploaded_digests_verified": true,
+  "public_bulk_release": false,
+  "terms_pending": [
+    "kogansemitic",
+    "uralex",
+    "wiktionary",
+    "williamsonbenuecongo"
+  ],
+  "version": "2026-11-02-rc3",
+  "supersedes": "2026-11-02-rc2"
+}
